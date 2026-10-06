@@ -1,0 +1,1808 @@
+{
+ "slug": "agusti_querol_subirats",
+ "traveler": "Agustí Querol i Subirats (Agustín Querol Subirats)",
+ "title": "The Baker's Son: Dough, Marble, and the Monuments Spain Shipped Across the Ocean",
+ "years": "1860-1909",
+ "years_parsed": {
+  "first": 1860,
+  "last": 1909
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Oven at Tortosa",
+  "stop": "Tortosa, birth in the baker's house",
+  "date": "1860-05-17",
+  "date_confidence": "attested; both the Catalan and English Wikipedia articles give 17 May 1860",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1860,
+  "jd_ut": 2400547.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 26.27,
+   "text": "Taurus 26°16′",
+   "longitude": 56.27
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 12.18,
+   "text": "Aries 12°11′",
+   "longitude": 12.179
+  },
+  "mercury": {
+   "sign": "Taurus",
+   "degree": 5.31,
+   "text": "Taurus 5°18′",
+   "longitude": 35.305
+  },
+  "venus": {
+   "sign": "Cancer",
+   "degree": 11.47,
+   "text": "Cancer 11°28′",
+   "longitude": 101.469
+  },
+  "mars": {
+   "sign": "Capricornus",
+   "degree": 24.92,
+   "text": "Capricornus 24°55′",
+   "longitude": 294.919
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 21.5,
+   "text": "Cancer 21°30′",
+   "longitude": 111.495
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 19.89,
+   "text": "Leo 19°53′",
+   "longitude": 139.891
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1860-1909",
+  "first_year_parsed": 1860
+ },
+ "stops": [
+  {
+   "segment": "The Oven at Tortosa",
+   "stop": "Tortosa, birth in the baker's house",
+   "date": "1860-05-17",
+   "date_confidence": "attested; both the Catalan and English Wikipedia articles give 17 May 1860",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400547.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 26.27,
+    "text": "Taurus 26°16′",
+    "longitude": 56.27
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 12.18,
+    "text": "Aries 12°11′",
+    "longitude": 12.179
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 5.31,
+    "text": "Taurus 5°18′",
+    "longitude": 35.305
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 11.47,
+    "text": "Cancer 11°28′",
+    "longitude": 101.469
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 24.92,
+    "text": "Capricornus 24°55′",
+    "longitude": 294.919
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 21.5,
+    "text": "Cancer 21°30′",
+    "longitude": 111.495
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 19.89,
+    "text": "Leo 19°53′",
+    "longitude": 139.891
+   }
+  },
+  {
+   "segment": "The Oven at Tortosa",
+   "stop": "Tortosa, the first master",
+   "date": "1874-01-01",
+   "date_confidence": "undated in sources; placed in boyhood, before the departure for Barcelona at eighteen",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405524.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.473
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Barcelona: the Llotja and the Dissection Room",
+   "stop": "Barcelona, arrival at eighteen",
+   "date": "1878-01-01",
+   "date_confidence": "inferred; sources state his age as eighteen rather than the year, so 1878 follows from the 1860 birth",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2406985.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.502
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Barcelona: the Llotja and the Dissection Room",
+   "stop": "Barcelona, the studios of Talarn and the Vallmitjana brothers",
+   "date": "1879-01-01",
+   "date_confidence": "undated in sources; placed within the Barcelona apprenticeship, roughly 1878 to 1884",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407350.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "approximation",
+    "(soft-year) year range",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.25,
+    "text": "Capricornus 10°15′",
+    "longitude": 280.255
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Barcelona: the Llotja and the Dissection Room",
+   "stop": "Barcelona, the dissection room of the Hospital de la Santa Creu",
+   "date": "1880-01-01",
+   "date_confidence": "undated in sources; placed within the Barcelona apprenticeship, roughly 1878 to 1884",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407715.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "approximation",
+    "(soft-year) year range",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.007
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Barcelona: the Llotja and the Dissection Room",
+   "stop": "Barcelona, the Cabeza de Dolorosa",
+   "date": "1881-01-01",
+   "date_confidence": "attested to the year by the English Wikipedia article; no month given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408081.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.78,
+    "text": "Capricornus 10°47′",
+    "longitude": 280.779
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Barcelona: the Llotja and the Dissection Room",
+   "stop": "Barcelona, the clay Theodorini",
+   "date": "1883-01-01",
+   "date_confidence": "attested to the year by the Catalan Wikipedia article; no month given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2408811.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.284
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pension to Rome",
+   "stop": "Madrid, the pension won",
+   "date": "1884-01-01",
+   "date_confidence": "year attested across the Spanish, English and Catalan articles; no month given, and the coordinate is a central-Madrid pin, not a documented address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409176.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.037
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pension to Rome",
+   "stop": "Rome, the Real Academia on the Janiculum",
+   "date": "1884-06-01",
+   "date_confidence": "year attested; month not attested and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409328.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.86,
+    "text": "Gemini 10°52′",
+    "longitude": 70.859
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pension to Rome",
+   "stop": "Rome, the bust of Eduard Toda and the Sagunto",
+   "date": "1885-01-01",
+   "date_confidence": "the Toda bust is attributed to 1885 and the Sagunto to 1886; sources do not say whether the Sagunto was modelled in Rome or in Madrid",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409542.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.809
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pension to Rome",
+   "stop": "Madrid, La Tradición and the first-class medal",
+   "date": "1887-01-01",
+   "date_confidence": "year attested across three language editions; no month given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410272.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.314
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Catalan Commissions",
+   "stop": "Barcelona, first prize at the Universal Exposition",
+   "date": "1888-01-01",
+   "date_confidence": "year attested by the Catalan Wikipedia article; no month given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410637.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.066
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Catalan Commissions",
+   "stop": "Barcelona Cathedral, Sant Feliu and Santa Eulàlia",
+   "date": "1889-01-01",
+   "date_confidence": "year attested across three language editions; no month given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411003.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.84,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.838
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Catalan Commissions",
+   "stop": "Vigo, the admiral of Callao",
+   "date": "1890-01-01",
+   "date_confidence": "year attested; the Spanish Wikipedia works list names Vigo as the city, but the coordinate is an approximate plaza pin and the original siting within Vigo is unconfirmed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411368.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.591
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Studio on the Paseo del Cisne",
+   "stop": "Madrid, the studio on the paseo del Cisne",
+   "date": "1890-01-01",
+   "date_confidence": "both the English and Spanish articles put him in Madrid from 1890; the coordinate is that of the paseo de Eduardo Dato, formerly paseo del Cisne, not a documented house number",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411368.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.591
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Studio on the Paseo del Cisne",
+   "stop": "Munich, the gold medals",
+   "date": "1891-01-01",
+   "date_confidence": "the 1891 and 1895 Munich golds are attested to the year; no source consulted places Querol himself in Munich, only his sculpture",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411733.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.343
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Studio on the Paseo del Cisne",
+   "stop": "Madrid, the Museo de Arte Moderno",
+   "date": "1892-01-01",
+   "date_confidence": "the vice-directorship is attested for 1892 and given as running to 1895; the coordinate is that of the Palacio de Biblioteca y Museos Nacionales, which housed the museum",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412098.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.096
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Studio on the Paseo del Cisne",
+   "stop": "Vigo, the Elduayen monument",
+   "date": "1896-01-01",
+   "date_confidence": "1896 in the Querol biography article, 1897 in the Spanish Wikipedia works list; contested and unresolved. The monument stands in the Jardines de Elduayen, Vigo, but the coordinate here is unsourced",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413559.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Studio on the Paseo del Cisne",
+   "stop": "Barcelona, Moses and the Laws for the Palace of Justice",
+   "date": "1897-01-01",
+   "date_confidence": "year attested by the Catalan Wikipedia article; the coordinate is the Palau de Justícia on the passeig de Lluís Companys and is not taken from a source that gives coordinates",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Studio on the Paseo del Cisne",
+   "stop": "Madrid, La Gloria y los Pegasos",
+   "date": "1897-01-01",
+   "date_confidence": "contested: 1897 in the Spanish Wikipedia biography, 1897-1902 in the Catalan article, 1905 in the dedicated Spanish article on La Gloria y los Pegasos. Not resolved. The building is the Palacio de Fomento, only later the Ministry of Agriculture",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Studio on the Paseo del Cisne",
+   "stop": "Vienna, the gold medal",
+   "date": "1898-01-01",
+   "date_confidence": "year attested across three language editions; as with Munich, no source places Querol himself in the city, only his work",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Studio on the Paseo del Cisne",
+   "stop": "Madrid, the front of the Biblioteca Nacional",
+   "date": "1903-01-01",
+   "date_confidence": "the commission is given as running roughly 1892 to 1903; 1903 is the completion year and stands here for the whole. A claim that the group numbers nineteen figures is not supported by the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.41,
+    "text": "Capricornus 9°25′",
+    "longitude": 279.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bronzes Shipped to Cities He Never Saw",
+   "stop": "Manila, Intramuros: Legazpi and Urdaneta",
+   "date": "1893-01-01",
+   "date_confidence": "the Spanish Wikipedia works list dates the monument 1893; its erection in Manila was authorised in 1901. An earlier account that American sculptors completed it is contradicted by the dedicated Spanish article, which credits the bronzes to Querol",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bronzes Shipped to Cities He Never Saw",
+   "stop": "Havana, the firemen of the Necrópolis de Colón",
+   "date": "1897-01-01",
+   "date_confidence": "commissioned 1892, inaugurated 1897; both years attested. Querol is not attested to have travelled to Havana",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bronzes Shipped to Cities He Never Saw",
+   "stop": "Mexico City, the Pegasos of the Palacio de Bellas Artes",
+   "date": "1904-01-01",
+   "date_confidence": "no source consulted dates the Bellas Artes groups precisely; the span c.1904-1909 is taken from the building's construction years, so the date shown is approximate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416480.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "c.",
+    "no source (for the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.17,
+    "text": "Capricornus 9°10′",
+    "longitude": 279.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bronzes Shipped to Cities He Never Saw",
+   "stop": "Lima, Plaza Bolognesi",
+   "date": "1905-11-06",
+   "date_confidence": "designed 1902, inaugurated 6 November 1905; both attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417155.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 12.92,
+    "text": "Scorpio 12°55′",
+    "longitude": 222.922
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 5.06,
+    "text": "Pisces 5°04′",
+    "longitude": 335.059
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 27.52,
+    "text": "Scorpio 27°31′",
+    "longitude": 237.519
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 18.87,
+    "text": "Libra 18°52′",
+    "longitude": 198.869
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 20.89,
+    "text": "Capricornus 20°53′",
+    "longitude": 290.89
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 3.81,
+    "text": "Gemini 3°49′",
+    "longitude": 63.809
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 26.09,
+    "text": "Aquarius 26°05′",
+    "longitude": 326.09
+   }
+  },
+  {
+   "segment": "Marble, the Cortes, and the Sieges",
+   "stop": "Madrid, the seated Claudio Moyano",
+   "date": "1900-11-11",
+   "date_confidence": "inaugurated 11 November 1900 per the dedicated Spanish article; the Querol biography article gives 1899, a discrepancy resolved here in favour of the dedicated article",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415334.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 18.16,
+    "text": "Scorpio 18°10′",
+    "longitude": 228.159
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Marble, the Cortes, and the Sieges",
+   "stop": "Madrid, the Gran Cruz de Alfonso XII",
+   "date": "1902-01-01",
+   "date_confidence": "year attested across three language editions; no month given, and the coordinate is the royal palace as a civic pin rather than a documented site of the award",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Marble, the Cortes, and the Sieges",
+   "stop": "Madrid, the Quevedo monument unveiled",
+   "date": "1902-06-05",
+   "date_confidence": "inaugurated 5 June 1902 in the Plaza de Alonso Martínez; the coordinate is the Glorieta de Quevedo, where the monument was moved in the 1960s and where it stands now",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415905.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.4,
+    "text": "Gemini 13°24′",
+    "longitude": 73.396
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 25.48,
+    "text": "Taurus 25°29′",
+    "longitude": 55.481
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 4.69,
+    "text": "Cancer 4°41′",
+    "longitude": 94.685
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 1.13,
+    "text": "Taurus 1°08′",
+    "longitude": 31.13
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 28.23,
+    "text": "Taurus 28°14′",
+    "longitude": 58.232
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 17.23,
+    "text": "Aquarius 17°14′",
+    "longitude": 317.235
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 27.09,
+    "text": "Capricornus 27°06′",
+    "longitude": 297.092
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Marble, the Cortes, and the Sieges",
+   "stop": "Zaragoza, the martyrs in the Plaza de España",
+   "date": "1906-01-01",
+   "date_confidence": "contested: 1904 in the Spanish Wikipedia biography, 1906 in the Catalan article and in the dedicated Spanish article on the monument. Not resolved; the coordinate is the Plaza de España, Zaragoza, and is not taken from a source giving coordinates",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417211.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.69,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.689
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Marble, the Cortes, and the Sieges",
+   "stop": "Madrid, the mausoleum of Cánovas del Castillo",
+   "date": "1906-01-01",
+   "date_confidence": "contested across four sources: 1903 in the Catalan article, 1906 in the English article and in the dedicated Spanish article on the Panteón, 1908 in the Spanish biography. The dedicated article's 1906 is followed here and the spread left unresolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417211.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.69,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.689
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Marble, the Cortes, and the Sieges",
+   "stop": "Bilbao, the park of the widow of Epalza",
+   "date": "1906-01-01",
+   "date_confidence": "year attested; the English article names the work as a monument to Casilda Iturrizar, the Spanish works list as a monument to the widow of Epalza, the same woman under two designations",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417211.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.69,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.689
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Marble, the Cortes, and the Sieges",
+   "stop": "Barcelona, the Pitarra monument on the Rambla",
+   "date": "1906-12-26",
+   "date_confidence": "inaugurated 26 December 1906 in the Plaça del Teatre, with the mayor Domènec Sanllehy presiding; a claim that Soler's son Ernest gave the inaugural address is not supported by the dedicated article and is not carried here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417570.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.33,
+    "text": "Capricornus 3°20′",
+    "longitude": 273.326
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 11.44,
+    "text": "Taurus 11°26′",
+    "longitude": 41.438
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 13.04,
+    "text": "Sagittarius 13°02′",
+    "longitude": 253.035
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 0.01,
+    "text": "Sagittarius 0°01′",
+    "longitude": 240.009
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 5.22,
+    "text": "Scorpio 5°13′",
+    "longitude": 215.218
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 6.37,
+    "text": "Cancer 6°22′",
+    "longitude": 96.368
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 9.78,
+    "text": "Pisces 9°47′",
+    "longitude": 339.779
+   }
+  },
+  {
+   "segment": "Marble, the Cortes, and the Sieges",
+   "stop": "Roquetes, elected to the Cortes",
+   "date": "1907-04-01",
+   "date_confidence": "the term is given as running April 1907 to April 1910; the day is not attested and is defaulted, and the coordinate marks the town centre with no building specified",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417666.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.13,
+    "text": "Aries 10°08′",
+    "longitude": 10.133
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Marble, the Cortes, and the Sieges",
+   "stop": "Zaragoza, Plaza de los Sitios",
+   "date": "1908-10-28",
+   "date_confidence": "inaugurated 28 October 1908; the bronzes were installed the following year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418242.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 4.18,
+    "text": "Scorpio 4°11′",
+    "longitude": 214.184
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 6.44,
+    "text": "Sagittarius 6°26′",
+    "longitude": 246.436
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 5.73,
+    "text": "Scorpio 5°44′",
+    "longitude": 215.728
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 22.42,
+    "text": "Virgo 22°25′",
+    "longitude": 172.419
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 11.45,
+    "text": "Libra 11°27′",
+    "longitude": 191.447
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 8.77,
+    "text": "Virgo 8°46′",
+    "longitude": 158.774
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 4.59,
+    "text": "Aries 4°35′",
+    "longitude": 4.59
+   }
+  },
+  {
+   "segment": "The Gift to Argentina and the End",
+   "stop": "Buenos Aires, Palermo: the gift designed",
+   "date": "1900-01-01",
+   "date_confidence": "contested: the English article dates the design to 1900, another summary gives 1909-1910 for design and donation. The cornerstone was laid in 1910. Not resolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gift to Argentina and the End",
+   "stop": "Madrid, death in the fiftieth year",
+   "date": "1909-12-14",
+   "date_confidence": "death in Madrid on 14 December 1909 attested across three language editions; no source gives an address, so the studio pin on the paseo de Eduardo Dato stands in",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418654.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 21.38,
+    "text": "Sagittarius 21°23′",
+    "longitude": 261.383
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 5.08,
+    "text": "Capricornus 5°05′",
+    "longitude": 275.078
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 27.35,
+    "text": "Sagittarius 27°21′",
+    "longitude": 267.349
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 8.17,
+    "text": "Aquarius 8°10′",
+    "longitude": 308.165
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.98,
+    "text": "Aries 8°59′",
+    "longitude": 8.983
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 11.32,
+    "text": "Libra 11°19′",
+    "longitude": 191.324
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 16.32,
+    "text": "Aries 16°19′",
+    "longitude": 16.319
+   }
+  },
+  {
+   "segment": "The Gift to Argentina and the End",
+   "stop": "Madrid, the Patio de San Justo",
+   "date": "1909-12-14",
+   "date_confidence": "the date of interment is not attested and the death date stands in. Contradiction unresolved: the English article names the Cementerio de San Isidro, while the Spanish article on the Cementerio de San Justo lists him by name in its Patio de San Justo. The more specific, naming source is followed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418654.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 21.38,
+    "text": "Sagittarius 21°23′",
+    "longitude": 261.383
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Slow Bronze",
+   "stop": "Madrid, the Guirao pantheon finished without him",
+   "date": "1911-01-01",
+   "date_confidence": "begun 1908, completed 1911 after his death; the cemetery coordinate is approximate for San Isidro and is not independently confirmed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419037.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.47,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.472
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Slow Bronze",
+   "stop": "Paraná, the Urquiza finished by Benlliure",
+   "date": "1920-01-01",
+   "date_confidence": "inauguration attested to 1920; no month given, and the coordinate marks the Parque Urquiza generally rather than the monument's exact siting",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Slow Bronze",
+   "stop": "Buenos Aires, Palermo: the gift arrives",
+   "date": "1927-03-13",
+   "date_confidence": "inaugurated 13 March 1927; attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424952.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 21.43,
+    "text": "Pisces 21°26′",
+    "longitude": 351.434
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 21.34,
+    "text": "Cancer 21°20′",
+    "longitude": 111.335
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 22.62,
+    "text": "Pisces 22°37′",
+    "longitude": 352.617
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 17.84,
+    "text": "Aries 17°50′",
+    "longitude": 17.836
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 10.1,
+    "text": "Gemini 10°06′",
+    "longitude": 70.104
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 12.79,
+    "text": "Pisces 12°48′",
+    "longitude": 342.793
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 7.58,
+    "text": "Sagittarius 7°35′",
+    "longitude": 247.581
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Slow Bronze",
+   "stop": "Madrid, the Prado and the Querol case",
+   "date": "1966-01-01",
+   "date_confidence": "placeholder year; the sources consulted date Gaya Nuño's verdict only to the later twentieth century, and the phrase is quoted from the Spanish Wikipedia article rather than verified against the original monograph",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439126.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Slow Bronze",
+   "stop": "Buenos Aires, Palermo: restoration and theft",
+   "date": "2023-05-01",
+   "date_confidence": "the restoration is dated 2019 to 2023 and the theft to May 2023; the day within the month is not attested and is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2023,
+   "jd_ut": 2460065.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.39,
+    "text": "Taurus 10°24′",
+    "longitude": 40.392
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 7,
+  "month": 1,
+  "year": 35
+ },
+ "parse_failures": []
+}

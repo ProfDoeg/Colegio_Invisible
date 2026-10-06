@@ -1,0 +1,2289 @@
+{
+ "slug": "einstein",
+ "traveler": "Albert Einstein",
+ "title": "Ulm to Princeton: the Patent Clerk Who Bent Light and Time",
+ "years": "1879-1955",
+ "years_parsed": {
+  "first": 1879,
+  "last": 1955
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Ulm, Munich, and the Needle of the Compass",
+  "stop": "Ulm, the house on the Bahnhofstraße",
+  "date": "1879-03-14",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1879,
+  "jd_ut": 2407422.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Pisces",
+   "degree": 23.06,
+   "text": "Pisces 23°04′",
+   "longitude": 353.065
+  },
+  "moon": {
+   "sign": "Sagittarius",
+   "degree": 8.2,
+   "text": "Sagittarius 8°12′",
+   "longitude": 248.199
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 2.27,
+   "text": "Aries 2°16′",
+   "longitude": 2.275
+  },
+  "venus": {
+   "sign": "Aries",
+   "degree": 16.44,
+   "text": "Aries 16°26′",
+   "longitude": 16.44
+  },
+  "mars": {
+   "sign": "Capricornus",
+   "degree": 26.59,
+   "text": "Capricornus 26°36′",
+   "longitude": 296.592
+  },
+  "jupiter": {
+   "sign": "Aquarius",
+   "degree": 27.51,
+   "text": "Aquarius 27°31′",
+   "longitude": 327.514
+  },
+  "saturn": {
+   "sign": "Aries",
+   "degree": 3.84,
+   "text": "Aries 3°50′",
+   "longitude": 3.837
+  },
+  "conjunctions": [
+   {
+    "sign": "Aries",
+    "bodies": [
+     "Mercury",
+     "Venus",
+     "Saturn"
+    ]
+   }
+  ],
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1879-1955",
+  "first_year_parsed": 1879
+ },
+ "stops": [
+  {
+   "segment": "Ulm, Munich, and the Needle of the Compass",
+   "stop": "Ulm, the house on the Bahnhofstraße",
+   "date": "1879-03-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407422.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.06,
+    "text": "Pisces 23°04′",
+    "longitude": 353.065
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 8.2,
+    "text": "Sagittarius 8°12′",
+    "longitude": 248.199
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 2.27,
+    "text": "Aries 2°16′",
+    "longitude": 2.275
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 16.44,
+    "text": "Aries 16°26′",
+    "longitude": 16.44
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 26.59,
+    "text": "Capricornus 26°36′",
+    "longitude": 296.592
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 27.51,
+    "text": "Aquarius 27°31′",
+    "longitude": 327.514
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 3.84,
+    "text": "Aries 3°50′",
+    "longitude": 3.837
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Ulm, Munich, and the Needle of the Compass",
+   "stop": "Munich, the compass in the sickbed",
+   "date": "1884-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409328.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.86,
+    "text": "Gemini 10°52′",
+    "longitude": 70.859
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ulm, Munich, and the Needle of the Compass",
+   "stop": "Munich, the sacred geometry booklet and the break with the Church",
+   "date": "1891-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411884.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.2,
+    "text": "Gemini 10°12′",
+    "longitude": 70.197
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ulm, Munich, and the Needle of the Compass",
+   "stop": "Munich, the Luitpold Gymnasium and the family's departure",
+   "date": "1894-12-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2413163.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.83,
+    "text": "Sagittarius 8°50′",
+    "longitude": 248.827
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ulm, Munich, and the Needle of the Compass",
+   "stop": "Zurich, the failed entrance examination",
+   "date": "1895-10-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413474.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 14.46,
+    "text": "Libra 14°28′",
+    "longitude": 194.462
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 0.46,
+    "text": "Gemini 0°27′",
+    "longitude": 60.456
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 9.0,
+    "text": "Scorpio 9°00′",
+    "longitude": 219.003
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 18.07,
+    "text": "Virgo 18°04′",
+    "longitude": 168.065
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 15.57,
+    "text": "Libra 15°34′",
+    "longitude": 195.569
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 5.51,
+    "text": "Leo 5°31′",
+    "longitude": 125.511
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.06,
+    "text": "Scorpio 7°03′",
+    "longitude": 217.055
+   }
+  },
+  {
+   "segment": "Ulm, Munich, and the Needle of the Compass",
+   "stop": "Aarau, the Kantonsschule and the essay on the future",
+   "date": "1896-09-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413820.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 25.56,
+    "text": "Virgo 25°33′",
+    "longitude": 175.556
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 11.46,
+    "text": "Aquarius 11°27′",
+    "longitude": 311.457
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 21.56,
+    "text": "Libra 21°34′",
+    "longitude": 201.561
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 14.7,
+    "text": "Libra 14°42′",
+    "longitude": 194.699
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 17.62,
+    "text": "Gemini 17°37′",
+    "longitude": 77.617
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 27.91,
+    "text": "Leo 27°54′",
+    "longitude": 147.905
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 15.61,
+    "text": "Scorpio 15°37′",
+    "longitude": 225.614
+   }
+  },
+  {
+   "segment": "The Zurich Polytechnic and Mileva",
+   "stop": "Zurich, the Polytechnic and Mileva Marić",
+   "date": "1896-10-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413861.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 6.09,
+    "text": "Scorpio 6°05′",
+    "longitude": 216.091
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 28.36,
+    "text": "Cancer 28°22′",
+    "longitude": 118.363
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 18.71,
+    "text": "Libra 18°42′",
+    "longitude": 198.708
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 5.25,
+    "text": "Sagittarius 5°15′",
+    "longitude": 245.25
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 29.23,
+    "text": "Gemini 29°14′",
+    "longitude": 89.228
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 5.4,
+    "text": "Virgo 5°24′",
+    "longitude": 155.397
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 19.96,
+    "text": "Scorpio 19°57′",
+    "longitude": 229.957
+   }
+  },
+  {
+   "segment": "The Zurich Polytechnic and Mileva",
+   "stop": "Zurich, graduation and the wilderness of unemployment",
+   "date": "1900-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415232.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.26,
+    "text": "Leo 8°16′",
+    "longitude": 128.264
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Zurich Polytechnic and Mileva",
+   "stop": "Novi Sad, the birth of Lieserl",
+   "date": "1902-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Zurich Polytechnic and Mileva",
+   "stop": "Bern, the post at the patent office",
+   "date": "1902-06-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415923.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 0.59,
+    "text": "Cancer 0°35′",
+    "longitude": 90.59
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 21.6,
+    "text": "Capricornus 21°36′",
+    "longitude": 291.599
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 1.87,
+    "text": "Cancer 1°52′",
+    "longitude": 91.868
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 21.6,
+    "text": "Taurus 21°36′",
+    "longitude": 51.604
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 10.96,
+    "text": "Gemini 10°57′",
+    "longitude": 70.958
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 16.79,
+    "text": "Aquarius 16°47′",
+    "longitude": 316.786
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 26.13,
+    "text": "Capricornus 26°08′",
+    "longitude": 296.134
+   }
+  },
+  {
+   "segment": "Bern and the Miracle Year",
+   "stop": "Bern, the Olympia Academy",
+   "date": "1902-10-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2416023.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.88,
+    "text": "Libra 6°53′",
+    "longitude": 186.877
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bern and the Miracle Year",
+   "stop": "Bern, the marriage to Mileva",
+   "date": "1903-01-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416120.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.51,
+    "text": "Capricornus 14°31′",
+    "longitude": 284.509
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 3.59,
+    "text": "Aries 3°35′",
+    "longitude": 3.59
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 28.72,
+    "text": "Capricornus 28°43′",
+    "longitude": 298.724
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 23.61,
+    "text": "Capricornus 23°37′",
+    "longitude": 293.614
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 6.96,
+    "text": "Libra 6°58′",
+    "longitude": 186.958
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 19.4,
+    "text": "Aquarius 19°24′",
+    "longitude": 319.398
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 28.27,
+    "text": "Capricornus 28°16′",
+    "longitude": 298.267
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Bern and the Miracle Year",
+   "stop": "Bern, the light-quanta of March",
+   "date": "1905-03-17",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416921.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 25.75,
+    "text": "Pisces 25°45′",
+    "longitude": 355.75
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 28.08,
+    "text": "Cancer 28°05′",
+    "longitude": 118.082
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 2.38,
+    "text": "Aries 2°23′",
+    "longitude": 2.382
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 7.8,
+    "text": "Taurus 7°48′",
+    "longitude": 37.796
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 23.46,
+    "text": "Scorpio 23°27′",
+    "longitude": 233.457
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 1.93,
+    "text": "Taurus 1°56′",
+    "longitude": 31.933
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 27.13,
+    "text": "Aquarius 27°08′",
+    "longitude": 327.128
+   }
+  },
+  {
+   "segment": "Bern and the Miracle Year",
+   "stop": "Bern, the doctorate and the dance of the pollen grains",
+   "date": "1905-05-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416976.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.64,
+    "text": "Taurus 19°38′",
+    "longitude": 49.635
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 3.56,
+    "text": "Leo 3°34′",
+    "longitude": 123.559
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 27.77,
+    "text": "Aries 27°46′",
+    "longitude": 27.768
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 29.49,
+    "text": "Aries 29°29′",
+    "longitude": 29.486
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 16.69,
+    "text": "Scorpio 16°41′",
+    "longitude": 226.685
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 14.7,
+    "text": "Taurus 14°42′",
+    "longitude": 44.703
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 1.85,
+    "text": "Pisces 1°51′",
+    "longitude": 331.851
+   }
+  },
+  {
+   "segment": "Bern and the Miracle Year",
+   "stop": "Bern, the electrodynamics of moving bodies",
+   "date": "1905-06-30",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417026.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 7.53,
+    "text": "Cancer 7°32′",
+    "longitude": 97.527
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 4.87,
+    "text": "Gemini 4°52′",
+    "longitude": 64.871
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 14.25,
+    "text": "Cancer 14°15′",
+    "longitude": 104.252
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 22.06,
+    "text": "Taurus 22°03′",
+    "longitude": 52.058
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 9.32,
+    "text": "Scorpio 9°19′",
+    "longitude": 219.324
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 25.98,
+    "text": "Taurus 25°59′",
+    "longitude": 55.982
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 2.53,
+    "text": "Pisces 2°32′",
+    "longitude": 332.532
+   }
+  },
+  {
+   "segment": "Bern and the Miracle Year",
+   "stop": "Bern, does the inertia of a body depend upon its energy content",
+   "date": "1905-09-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417115.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 3.22,
+    "text": "Libra 3°13′",
+    "longitude": 183.216
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 6.57,
+    "text": "Virgo 6°34′",
+    "longitude": 156.57
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 21.11,
+    "text": "Virgo 21°06′",
+    "longitude": 171.106
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 29.81,
+    "text": "Leo 29°49′",
+    "longitude": 149.809
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 22.43,
+    "text": "Sagittarius 22°26′",
+    "longitude": 262.43
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 6.49,
+    "text": "Gemini 6°30′",
+    "longitude": 66.493
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 27.02,
+    "text": "Aquarius 27°01′",
+    "longitude": 327.016
+   }
+  },
+  {
+   "segment": "Zurich, Prague, and the Return",
+   "stop": "Zurich, professor at the university",
+   "date": "1909-10-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418594.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.0,
+    "text": "Libra 21°00′",
+    "longitude": 201.004
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 28.14,
+    "text": "Libra 28°08′",
+    "longitude": 208.14
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 15.96,
+    "text": "Libra 15°58′",
+    "longitude": 195.961
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 3.05,
+    "text": "Sagittarius 3°03′",
+    "longitude": 243.054
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 26.0,
+    "text": "Pisces 26°00′",
+    "longitude": 356.005
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 0.65,
+    "text": "Libra 0°39′",
+    "longitude": 180.651
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 19.56,
+    "text": "Aries 19°34′",
+    "longitude": 19.563
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Zurich, Prague, and the Return",
+   "stop": "Prague, the German University",
+   "date": "1911-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419127.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.16,
+    "text": "Aries 10°10′",
+    "longitude": 10.164
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Zurich, Prague, and the Return",
+   "stop": "Brussels, the first Solvay Congress",
+   "date": "1911-10-30",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419339.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 5.46,
+    "text": "Scorpio 5°27′",
+    "longitude": 215.456
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 2.38,
+    "text": "Aquarius 2°23′",
+    "longitude": 302.383
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 9.38,
+    "text": "Scorpio 9°23′",
+    "longitude": 219.375
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 22.28,
+    "text": "Virgo 22°17′",
+    "longitude": 172.282
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 9.95,
+    "text": "Gemini 9°57′",
+    "longitude": 69.953
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 20.84,
+    "text": "Scorpio 20°51′",
+    "longitude": 230.844
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 17.61,
+    "text": "Taurus 17°37′",
+    "longitude": 47.612
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Zurich, Prague, and the Return",
+   "stop": "Zurich, the return to the Polytechnic and Grossmann's tensors",
+   "date": "1912-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419615.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.36,
+    "text": "Leo 8°22′",
+    "longitude": 128.36
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Zurich, Prague, and the Return",
+   "stop": "Berlin, the call of the Prussian Academy",
+   "date": "1914-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420223.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.43,
+    "text": "Aries 10°26′",
+    "longitude": 10.433
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berlin and the General Theory",
+   "stop": "Berlin, the Manifesto to Europeans",
+   "date": "1914-10-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420421.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.79,
+    "text": "Libra 21°47′",
+    "longitude": 201.786
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 6.44,
+    "text": "Virgo 6°26′",
+    "longitude": 156.441
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 16.5,
+    "text": "Scorpio 16°30′",
+    "longitude": 226.497
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 4.17,
+    "text": "Sagittarius 4°10′",
+    "longitude": 244.168
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 11.34,
+    "text": "Scorpio 11°20′",
+    "longitude": 221.339
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 12.48,
+    "text": "Aquarius 12°29′",
+    "longitude": 312.482
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 2.42,
+    "text": "Cancer 2°25′",
+    "longitude": 92.417
+   }
+  },
+  {
+   "segment": "Berlin and the General Theory",
+   "stop": "Berlin, the field equations of November",
+   "date": "1915-11-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420826.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 1.64,
+    "text": "Sagittarius 1°38′",
+    "longitude": 241.64
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 7.1,
+    "text": "Cancer 7°06′",
+    "longitude": 97.1
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 20.0,
+    "text": "Scorpio 20°00′",
+    "longitude": 229.998
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 20.3,
+    "text": "Sagittarius 20°18′",
+    "longitude": 260.305
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 22.54,
+    "text": "Leo 22°32′",
+    "longitude": 142.537
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 18.77,
+    "text": "Pisces 18°46′",
+    "longitude": 348.769
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 15.99,
+    "text": "Cancer 16°00′",
+    "longitude": 105.994
+   }
+  },
+  {
+   "segment": "Berlin and the General Theory",
+   "stop": "Berlin, illness, divorce, and the marriage to Elsa",
+   "date": "1919-06-02",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422111.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.42,
+    "text": "Gemini 10°25′",
+    "longitude": 70.419
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 27.43,
+    "text": "Cancer 27°26′",
+    "longitude": 117.426
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 29.07,
+    "text": "Taurus 29°04′",
+    "longitude": 59.072
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 22.92,
+    "text": "Cancer 22°55′",
+    "longitude": 112.92
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 4.67,
+    "text": "Gemini 4°40′",
+    "longitude": 64.666
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 16.69,
+    "text": "Cancer 16°41′",
+    "longitude": 106.687
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.79,
+    "text": "Leo 22°47′",
+    "longitude": 142.786
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Berlin and the General Theory",
+   "stop": "Berlin, the eclipse confirms the theory",
+   "date": "1919-11-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422268.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 12.53,
+    "text": "Scorpio 12°32′",
+    "longitude": 222.526
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 14.8,
+    "text": "Aries 14°48′",
+    "longitude": 14.803
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 4.16,
+    "text": "Sagittarius 4°10′",
+    "longitude": 244.165
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 27.14,
+    "text": "Virgo 27°09′",
+    "longitude": 177.143
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 16.03,
+    "text": "Virgo 16°02′",
+    "longitude": 166.031
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 16.77,
+    "text": "Leo 16°46′",
+    "longitude": 136.771
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 9.83,
+    "text": "Virgo 9°50′",
+    "longitude": 159.825
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The World Made Small: Nobel, Japan, Jerusalem",
+   "stop": "Princeton and New York, the first American tour",
+   "date": "1921-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422810.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.08,
+    "text": "Taurus 10°05′",
+    "longitude": 40.081
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World Made Small: Nobel, Japan, Jerusalem",
+   "stop": "Japan, the lecture tour and the Nobel telegram",
+   "date": "1922-11-17",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423375.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 23.86,
+    "text": "Scorpio 23°52′",
+    "longitude": 233.864
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 26.31,
+    "text": "Libra 26°19′",
+    "longitude": 206.311
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 12.61,
+    "text": "Scorpio 12°37′",
+    "longitude": 222.613
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 6.8,
+    "text": "Sagittarius 6°48′",
+    "longitude": 246.803
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 12.17,
+    "text": "Aquarius 12°10′",
+    "longitude": 312.165
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 4.53,
+    "text": "Scorpio 4°32′",
+    "longitude": 214.529
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 15.85,
+    "text": "Libra 15°51′",
+    "longitude": 195.854
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The World Made Small: Nobel, Japan, Jerusalem",
+   "stop": "Jerusalem, the first lecture on Mount Scopus",
+   "date": "1923-02-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423457.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 17.2,
+    "text": "Aquarius 17°12′",
+    "longitude": 317.203
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 29.04,
+    "text": "Libra 29°02′",
+    "longitude": 209.038
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 29.85,
+    "text": "Capricornus 29°51′",
+    "longitude": 299.845
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 0.41,
+    "text": "Capricornus 0°25′",
+    "longitude": 270.413
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 12.05,
+    "text": "Aries 12°03′",
+    "longitude": 12.054
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 17.78,
+    "text": "Scorpio 17°47′",
+    "longitude": 227.784
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 20.15,
+    "text": "Libra 20°09′",
+    "longitude": 200.152
+   }
+  },
+  {
+   "segment": "The World Made Small: Nobel, Japan, Jerusalem",
+   "stop": "Madrid, the honors of Spain",
+   "date": "1923-02-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423474.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.37,
+    "text": "Pisces 4°22′",
+    "longitude": 334.37
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 4.32,
+    "text": "Gemini 4°19′",
+    "longitude": 64.317
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 7.68,
+    "text": "Aquarius 7°41′",
+    "longitude": 307.68
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 18.58,
+    "text": "Capricornus 18°35′",
+    "longitude": 288.575
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 24.28,
+    "text": "Aries 24°17′",
+    "longitude": 24.279
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 18.73,
+    "text": "Scorpio 18°44′",
+    "longitude": 228.73
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 19.66,
+    "text": "Libra 19°40′",
+    "longitude": 199.663
+   }
+  },
+  {
+   "segment": "Berlin Between the Wars: Quantum Debates and Gathering Shadow",
+   "stop": "Brussels, the debates with Bohr",
+   "date": "1927-10-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425177.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 29.59,
+    "text": "Libra 29°35′",
+    "longitude": 209.59
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 11.67,
+    "text": "Libra 11°40′",
+    "longitude": 191.672
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 23.29,
+    "text": "Scorpio 23°18′",
+    "longitude": 233.293
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 16.86,
+    "text": "Virgo 16°52′",
+    "longitude": 166.86
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 28.65,
+    "text": "Libra 28°39′",
+    "longitude": 208.648
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 25.02,
+    "text": "Pisces 25°01′",
+    "longitude": 355.024
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 5.54,
+    "text": "Sagittarius 5°32′",
+    "longitude": 245.536
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Berlin Between the Wars: Quantum Debates and Gathering Shadow",
+   "stop": "Pasadena, the winters at Caltech",
+   "date": "1931-01-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426356.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 23.89,
+    "text": "Capricornus 23°53′",
+    "longitude": 293.888
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 10.34,
+    "text": "Sagittarius 10°21′",
+    "longitude": 250.345
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 6.38,
+    "text": "Capricornus 6°23′",
+    "longitude": 276.383
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 8.5,
+    "text": "Sagittarius 8°30′",
+    "longitude": 248.496
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 11.79,
+    "text": "Leo 11°47′",
+    "longitude": 131.79
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 14.41,
+    "text": "Cancer 14°24′",
+    "longitude": 104.406
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 15.18,
+    "text": "Capricornus 15°11′",
+    "longitude": 285.185
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Berlin Between the Wars: Quantum Debates and Gathering Shadow",
+   "stop": "Caputh, the letter to Freud and the last summer in Germany",
+   "date": "1932-07-30",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426918.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 6.61,
+    "text": "Leo 6°36′",
+    "longitude": 126.607
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 25.76,
+    "text": "Gemini 25°46′",
+    "longitude": 85.761
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 0.99,
+    "text": "Virgo 0°59′",
+    "longitude": 150.989
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 0.44,
+    "text": "Cancer 0°27′",
+    "longitude": 90.445
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 26.08,
+    "text": "Gemini 26°05′",
+    "longitude": 86.081
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 27.34,
+    "text": "Leo 27°20′",
+    "longitude": 147.341
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.74,
+    "text": "Aquarius 0°45′",
+    "longitude": 300.744
+   }
+  },
+  {
+   "segment": "Flight from the Reich",
+   "stop": "Le Coq-sur-Mer, the renunciation of Germany",
+   "date": "1933-03-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427159.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 6.87,
+    "text": "Aries 6°52′",
+    "longitude": 6.874
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 28.2,
+    "text": "Aries 28°12′",
+    "longitude": 28.196
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 28.28,
+    "text": "Pisces 28°17′",
+    "longitude": 358.28
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 0.53,
+    "text": "Aries 0°32′",
+    "longitude": 0.532
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 2.29,
+    "text": "Virgo 2°18′",
+    "longitude": 152.292
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 15.91,
+    "text": "Virgo 15°54′",
+    "longitude": 165.907
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 13.34,
+    "text": "Aquarius 13°20′",
+    "longitude": 313.338
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Flight from the Reich",
+   "stop": "London, the Royal Albert Hall, the last address in Europe",
+   "date": "1933-10-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427348.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 9.33,
+    "text": "Libra 9°20′",
+    "longitude": 189.332
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 0.63,
+    "text": "Aries 0°38′",
+    "longitude": 0.633
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 24.51,
+    "text": "Libra 24°31′",
+    "longitude": 204.512
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 20.48,
+    "text": "Scorpio 20°29′",
+    "longitude": 230.475
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 25.43,
+    "text": "Scorpio 25°26′",
+    "longitude": 235.427
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 4.84,
+    "text": "Libra 4°51′",
+    "longitude": 184.845
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 9.54,
+    "text": "Aquarius 9°32′",
+    "longitude": 309.537
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Flight from the Reich",
+   "stop": "New York, arrival without a homeland",
+   "date": "1933-10-17",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427362.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 23.17,
+    "text": "Libra 23°10′",
+    "longitude": 203.172
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 24.29,
+    "text": "Virgo 24°17′",
+    "longitude": 174.287
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 14.7,
+    "text": "Scorpio 14°42′",
+    "longitude": 224.699
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 6.71,
+    "text": "Sagittarius 6°42′",
+    "longitude": 246.707
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 5.38,
+    "text": "Sagittarius 5°23′",
+    "longitude": 245.381
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 7.85,
+    "text": "Libra 7°51′",
+    "longitude": 187.85
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 9.44,
+    "text": "Aquarius 9°26′",
+    "longitude": 309.435
+   }
+  },
+  {
+   "segment": "Flight from the Reich",
+   "stop": "Princeton, the Institute for Advanced Study",
+   "date": "1933-11-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427377.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.12,
+    "text": "Scorpio 8°07′",
+    "longitude": 218.123
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Princeton: the Bomb, the Bond, and the Unified Field",
+   "stop": "Princeton, spooky action at a distance",
+   "date": "1935-05-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427937.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.25,
+    "text": "Taurus 23°15′",
+    "longitude": 53.249
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 12.83,
+    "text": "Libra 12°50′",
+    "longitude": 192.83
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 11.57,
+    "text": "Gemini 11°34′",
+    "longitude": 71.566
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 3.53,
+    "text": "Cancer 3°32′",
+    "longitude": 93.534
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 6.07,
+    "text": "Libra 6°04′",
+    "longitude": 186.069
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 17.72,
+    "text": "Scorpio 17°43′",
+    "longitude": 227.718
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 8.76,
+    "text": "Pisces 8°46′",
+    "longitude": 338.762
+   }
+  },
+  {
+   "segment": "Princeton: the Bomb, the Bond, and the Unified Field",
+   "stop": "Peconic, Long Island, the letter to Roosevelt",
+   "date": "1939-08-02",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429477.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.82,
+    "text": "Leo 8°49′",
+    "longitude": 128.815
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 27.68,
+    "text": "Aquarius 27°41′",
+    "longitude": 327.68
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 23.06,
+    "text": "Leo 23°04′",
+    "longitude": 143.061
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 29.28,
+    "text": "Cancer 29°17′",
+    "longitude": 119.28
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 26.93,
+    "text": "Capricornus 26°56′",
+    "longitude": 296.933
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 8.95,
+    "text": "Aries 8°57′",
+    "longitude": 8.947
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 0.82,
+    "text": "Taurus 0°49′",
+    "longitude": 30.816
+   }
+  },
+  {
+   "segment": "Princeton: the Bomb, the Bond, and the Unified Field",
+   "stop": "Trenton, an American citizen",
+   "date": "1940-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429903.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.66,
+    "text": "Libra 7°40′",
+    "longitude": 187.664
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Princeton: the Bomb, the Bond, and the Unified Field",
+   "stop": "Princeton, Oppenheimer and the Institute made new",
+   "date": "1947-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432186.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°44′",
+    "longitude": 279.737
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Princeton: the Bomb, the Bond, and the Unified Field",
+   "stop": "Princeton, walking home with Gödel",
+   "date": "1949-03-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432989.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.1,
+    "text": "Pisces 23°06′",
+    "longitude": 353.095
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 11.76,
+    "text": "Virgo 11°46′",
+    "longitude": 161.763
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 29.42,
+    "text": "Aquarius 29°25′",
+    "longitude": 329.422
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 14.47,
+    "text": "Pisces 14°28′",
+    "longitude": 344.47
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 23.82,
+    "text": "Pisces 23°49′",
+    "longitude": 353.82
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 25.77,
+    "text": "Capricornus 25°46′",
+    "longitude": 295.774
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 1.28,
+    "text": "Virgo 1°17′",
+    "longitude": 151.281
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Princeton: the Bomb, the Bond, and the Unified Field",
+   "stop": "Princeton, the presidency of Israel declined",
+   "date": "1952-11-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434334.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 25.6,
+    "text": "Scorpio 25°36′",
+    "longitude": 235.603
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 1.39,
+    "text": "Sagittarius 1°23′",
+    "longitude": 241.386
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 16.14,
+    "text": "Sagittarius 16°08′",
+    "longitude": 256.137
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 2.63,
+    "text": "Capricornus 2°38′",
+    "longitude": 272.633
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 27.09,
+    "text": "Capricornus 27°05′",
+    "longitude": 297.091
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 14.6,
+    "text": "Taurus 14°36′",
+    "longitude": 44.595
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 22.52,
+    "text": "Libra 22°31′",
+    "longitude": 202.519
+   }
+  },
+  {
+   "segment": "Princeton: the Bomb, the Bond, and the Unified Field",
+   "stop": "Princeton, the last signature, remember your humanity",
+   "date": "1955-04-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435208.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 20.34,
+    "text": "Aries 20°21′",
+    "longitude": 20.342
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 1.63,
+    "text": "Sagittarius 1°38′",
+    "longitude": 241.629
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 7.83,
+    "text": "Aries 7°50′",
+    "longitude": 7.829
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 13.7,
+    "text": "Pisces 13°42′",
+    "longitude": 343.701
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 0.01,
+    "text": "Gemini 0°01′",
+    "longitude": 60.013
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 20.82,
+    "text": "Cancer 20°49′",
+    "longitude": 110.821
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 19.98,
+    "text": "Scorpio 19°59′",
+    "longitude": 229.979
+   }
+  },
+  {
+   "segment": "Princeton: the Bomb, the Bond, and the Unified Field",
+   "stop": "Princeton Hospital, the elegant departure",
+   "date": "1955-04-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435215.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 27.2,
+    "text": "Aries 27°12′",
+    "longitude": 27.198
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 26.97,
+    "text": "Aquarius 26°58′",
+    "longitude": 326.971
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 21.47,
+    "text": "Aries 21°28′",
+    "longitude": 21.466
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 22.06,
+    "text": "Pisces 22°04′",
+    "longitude": 352.062
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 4.74,
+    "text": "Gemini 4°44′",
+    "longitude": 64.74
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 21.43,
+    "text": "Cancer 21°26′",
+    "longitude": 111.426
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 19.54,
+    "text": "Scorpio 19°32′",
+    "longitude": 229.536
+   }
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 31,
+  "month": 7,
+  "year": 6
+ },
+ "parse_failures": []
+}

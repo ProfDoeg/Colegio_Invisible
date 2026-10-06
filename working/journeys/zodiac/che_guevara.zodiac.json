@@ -1,0 +1,4415 @@
+{
+ "slug": "che_guevara",
+ "traveler": "Ernesto \"Che\" Guevara",
+ "title": "Rosario to La Higuera: the Long March of the Soldier of America",
+ "years": "1928-1967",
+ "years_parsed": {
+  "first": 1928,
+  "last": 1967
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Argentine Forge",
+  "stop": "Rosario: Entre Ríos 480, birthplace",
+  "date": "1928-06-14",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1928,
+  "jd_ut": 2425411.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 22.69,
+   "text": "Gemini 22°41′",
+   "longitude": 82.685
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 28.93,
+   "text": "Aries 28°56′",
+   "longitude": 28.933
+  },
+  "mercury": {
+   "sign": "Cancer",
+   "degree": 12.23,
+   "text": "Cancer 12°14′",
+   "longitude": 102.235
+  },
+  "venus": {
+   "sign": "Gemini",
+   "degree": 17.86,
+   "text": "Gemini 17°51′",
+   "longitude": 77.856
+  },
+  "mars": {
+   "sign": "Aries",
+   "degree": 21.0,
+   "text": "Aries 21°00′",
+   "longitude": 20.996
+  },
+  "jupiter": {
+   "sign": "Taurus",
+   "degree": 2.13,
+   "text": "Taurus 2°08′",
+   "longitude": 32.126
+  },
+  "saturn": {
+   "sign": "Sagittarius",
+   "degree": 15.19,
+   "text": "Sagittarius 15°11′",
+   "longitude": 255.191
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1928-1967",
+  "first_year_parsed": 1928
+ },
+ "stops": [
+  {
+   "segment": "The Argentine Forge",
+   "stop": "Rosario: Entre Ríos 480, birthplace",
+   "date": "1928-06-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425411.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 22.69,
+    "text": "Gemini 22°41′",
+    "longitude": 82.685
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 28.93,
+    "text": "Aries 28°56′",
+    "longitude": 28.933
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 12.23,
+    "text": "Cancer 12°14′",
+    "longitude": 102.235
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 17.86,
+    "text": "Gemini 17°51′",
+    "longitude": 77.856
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 21.0,
+    "text": "Aries 21°00′",
+    "longitude": 20.996
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 2.13,
+    "text": "Taurus 2°08′",
+    "longitude": 32.126
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 15.19,
+    "text": "Sagittarius 15°11′",
+    "longitude": 255.191
+   }
+  },
+  {
+   "segment": "The Argentine Forge",
+   "stop": "Caraguataí, Misiones, the yerba mate plantation",
+   "date": "1929-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425763.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.02,
+    "text": "Gemini 10°01′",
+    "longitude": 70.02
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Argentine Forge",
+   "stop": "San Isidro, Buenos Aires, the first asthma attack",
+   "date": "1930-05-02",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426098.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.88,
+    "text": "Taurus 10°53′",
+    "longitude": 40.879
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Argentine Forge",
+   "stop": "Alta Gracia, Córdoba, Villa Nydia",
+   "date": "1932-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426859.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.28,
+    "text": "Gemini 10°17′",
+    "longitude": 70.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Argentine Forge",
+   "stop": "Córdoba, Colegio Deán Funes, meeting Alberto Granado",
+   "date": "1943-03-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430784.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.54,
+    "text": "Pisces 9°33′",
+    "longitude": 339.545
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Argentine Forge",
+   "stop": "Buenos Aires, Faculty of Medicine",
+   "date": "1947-04-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432276.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.44,
+    "text": "Aries 10°26′",
+    "longitude": 10.439
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Argentine Forge",
+   "stop": "San Francisco del Chañar: the leprosarium, on the motorized bicycle",
+   "date": "1950-01-29",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433310.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 8.53,
+    "text": "Aquarius 8°32′",
+    "longitude": 308.526
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Argentine Forge",
+   "stop": "Salta, the hospital and the soul of a people",
+   "date": "1950-02-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433323.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 21.71,
+    "text": "Aquarius 21°42′",
+    "longitude": 321.706
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Buenos Aires, departure on La Poderosa II",
+   "date": "1952-01-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434015.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 12.58,
+    "text": "Capricornus 12°35′",
+    "longitude": 282.577
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 10.19,
+    "text": "Aries 10°11′",
+    "longitude": 10.189
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 19.8,
+    "text": "Sagittarius 19°48′",
+    "longitude": 259.797
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 1.46,
+    "text": "Sagittarius 1°28′",
+    "longitude": 241.46
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 22.18,
+    "text": "Libra 22°11′",
+    "longitude": 202.181
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 6.29,
+    "text": "Aries 6°17′",
+    "longitude": 6.291
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 14.71,
+    "text": "Libra 14°43′",
+    "longitude": 194.713
+   }
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Miramar, Chichina by the sea",
+   "date": "1952-01-13",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434024.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 21.75,
+    "text": "Capricornus 21°45′",
+    "longitude": 291.75
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Bahía Blanca, last city of the pampa",
+   "date": "1952-01-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434027.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 24.81,
+    "text": "Capricornus 24°48′",
+    "longitude": 294.806
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 5.99,
+    "text": "Virgo 5°59′",
+    "longitude": 155.985
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 3.55,
+    "text": "Capricornus 3°33′",
+    "longitude": 273.549
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 15.87,
+    "text": "Sagittarius 15°52′",
+    "longitude": 255.865
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 28.08,
+    "text": "Libra 28°05′",
+    "longitude": 208.081
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 7.82,
+    "text": "Aries 7°49′",
+    "longitude": 7.824
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 15.03,
+    "text": "Libra 15°02′",
+    "longitude": 195.03
+   }
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Choele Choel, fever in the Río Negro valley",
+   "date": "1952-01-25",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434036.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 3.97,
+    "text": "Aquarius 3°58′",
+    "longitude": 303.967
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "San Martín de los Andes, Lake Lácar and the vocation",
+   "date": "1952-02-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434043.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.08,
+    "text": "Aquarius 11°05′",
+    "longitude": 311.08
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "San Carlos de Bariloche, Chichina's letter",
+   "date": "1952-02-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434053.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 21.22,
+    "text": "Aquarius 21°13′",
+    "longitude": 321.215
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Lakes crossing to Peulla, into Chile over Frías",
+   "date": "1952-02-14",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434056.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 24.25,
+    "text": "Aquarius 24°15′",
+    "longitude": 324.249
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Temuco, 'two Argentine experts in leprology'",
+   "date": "1952-02-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434061.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 29.3,
+    "text": "Aquarius 29°18′",
+    "longitude": 329.298
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 2.46,
+    "text": "Sagittarius 2°27′",
+    "longitude": 242.458
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 26.79,
+    "text": "Aquarius 26°47′",
+    "longitude": 326.788
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 27.32,
+    "text": "Capricornus 27°19′",
+    "longitude": 297.316
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 12.01,
+    "text": "Scorpio 12°01′",
+    "longitude": 222.01
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 13.85,
+    "text": "Aries 13°51′",
+    "longitude": 13.845
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 14.55,
+    "text": "Libra 14°33′",
+    "longitude": 194.547
+   }
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Lautaro, the dance, the chase, the dying Norton",
+   "date": "1952-02-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434063.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 1.31,
+    "text": "Pisces 1°19′",
+    "longitude": 331.314
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 0.71,
+    "text": "Capricornus 0°42′",
+    "longitude": 270.706
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 0.4,
+    "text": "Pisces 0°24′",
+    "longitude": 330.403
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 29.77,
+    "text": "Capricornus 29°46′",
+    "longitude": 299.77
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 12.65,
+    "text": "Scorpio 12°39′",
+    "longitude": 222.649
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 14.26,
+    "text": "Aries 14°16′",
+    "longitude": 14.259
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 14.46,
+    "text": "Libra 14°28′",
+    "longitude": 194.459
+   }
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Los Ángeles, death of La Poderosa",
+   "date": "1952-02-27",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434069.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 7.35,
+    "text": "Pisces 7°21′",
+    "longitude": 337.352
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Santiago de Chile, farewell to the machine",
+   "date": "1952-03-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434072.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.37,
+    "text": "Pisces 10°22′",
+    "longitude": 340.365
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Valparaíso, La Gioconda and the dying woman",
+   "date": "1952-03-07",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434078.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 16.38,
+    "text": "Pisces 16°23′",
+    "longitude": 346.377
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Stowaways on the San Antonio: Valparaíso to Antofagasta",
+   "date": "1952-03-08",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434079.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 17.38,
+    "text": "Pisces 17°23′",
+    "longitude": 347.377
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Baquedano, the communist couple in the desert night",
+   "date": "1952-03-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434082.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 20.37,
+    "text": "Pisces 20°22′",
+    "longitude": 350.375
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Chuquicamata, the copper mountain",
+   "date": "1952-03-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434084.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 22.37,
+    "text": "Pisces 22°22′",
+    "longitude": 352.37
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 6.7,
+    "text": "Libra 6°42′",
+    "longitude": 186.702
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 9.05,
+    "text": "Aries 9°03′",
+    "longitude": 9.052
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 25.59,
+    "text": "Aquarius 25°35′",
+    "longitude": 325.587
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 17.53,
+    "text": "Scorpio 17°32′",
+    "longitude": 227.535
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 18.87,
+    "text": "Aries 18°52′",
+    "longitude": 18.865
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 13.22,
+    "text": "Libra 13°13′",
+    "longitude": 193.223
+   }
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Tarata, the defeated race",
+   "date": "1952-03-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434096.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 4.3,
+    "text": "Aries 4°18′",
+    "longitude": 4.297
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 23.1,
+    "text": "Pisces 23°06′",
+    "longitude": 353.099
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 20.26,
+    "text": "Aries 20°16′",
+    "longitude": 20.262
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 10.36,
+    "text": "Pisces 10°21′",
+    "longitude": 340.357
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 18.43,
+    "text": "Scorpio 18°26′",
+    "longitude": 228.429
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 21.66,
+    "text": "Aries 21°39′",
+    "longitude": 21.657
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 12.34,
+    "text": "Libra 12°20′",
+    "longitude": 192.338
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Cuzco, the navel of the world",
+   "date": "1952-04-02",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434104.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 12.2,
+    "text": "Aries 12°12′",
+    "longitude": 12.204
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Machu Picchu, the stone enigma",
+   "date": "1952-04-05",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434107.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.16,
+    "text": "Aries 15°10′",
+    "longitude": 15.159
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Huancarama and the Huambo leprosarium",
+   "date": "1952-04-14",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434116.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 24.0,
+    "text": "Aries 24°00′",
+    "longitude": 23.995
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Lima, Dr. Hugo Pesce, the master",
+   "date": "1952-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434133.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.57,
+    "text": "Taurus 10°34′",
+    "longitude": 40.566
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Iquitos, down the Ucayali on La Cenepa",
+   "date": "1952-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434164.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.44,
+    "text": "Gemini 10°27′",
+    "longitude": 70.442
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "San Pablo leper colony, the birthday toast",
+   "date": "1952-06-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434177.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 22.88,
+    "text": "Gemini 22°53′",
+    "longitude": 82.877
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 11.8,
+    "text": "Pisces 11°48′",
+    "longitude": 341.802
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 28.91,
+    "text": "Gemini 28°55′",
+    "longitude": 88.911
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 19.89,
+    "text": "Gemini 19°53′",
+    "longitude": 79.89
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 1.22,
+    "text": "Scorpio 1°13′",
+    "longitude": 211.216
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 10.44,
+    "text": "Taurus 10°27′",
+    "longitude": 40.444
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 8.33,
+    "text": "Libra 8°20′",
+    "longitude": 188.334
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "The Amazon, raft Mambo-Tango",
+   "date": "1952-06-21",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434184.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 29.56,
+    "text": "Gemini 29°34′",
+    "longitude": 89.559
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Leticia, football coaches of the Colombian Amazon",
+   "date": "1952-06-23",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434186.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 1.47,
+    "text": "Cancer 1°28′",
+    "longitude": 91.467
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Bogotá, the suffocated city",
+   "date": "1952-07-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434199.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 13.86,
+    "text": "Cancer 13°52′",
+    "longitude": 103.862
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 22.57,
+    "text": "Sagittarius 22°34′",
+    "longitude": 262.572
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 8.31,
+    "text": "Leo 8°19′",
+    "longitude": 128.311
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 16.92,
+    "text": "Cancer 16°55′",
+    "longitude": 106.921
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 5.18,
+    "text": "Scorpio 5°11′",
+    "longitude": 215.178
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 14.64,
+    "text": "Taurus 14°39′",
+    "longitude": 44.645
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 8.86,
+    "text": "Libra 8°52′",
+    "longitude": 188.859
+   }
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Caracas, the parting of the two travelers",
+   "date": "1952-07-17",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434210.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 24.35,
+    "text": "Cancer 24°21′",
+    "longitude": 114.351
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Poderosa: The Motorcycle Diaries",
+   "stop": "Buenos Aires, return, and the note in the margin",
+   "date": "1952-08-31",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434255.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.53,
+    "text": "Virgo 7°32′",
+    "longitude": 157.526
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "Buenos Aires, Retiro station, the second departure",
+   "date": "1953-07-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434565.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 14.58,
+    "text": "Cancer 14°35′",
+    "longitude": 104.585
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 24.5,
+    "text": "Taurus 24°30′",
+    "longitude": 54.504
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 7.5,
+    "text": "Leo 7°30′",
+    "longitude": 127.504
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 29.55,
+    "text": "Taurus 29°33′",
+    "longitude": 59.555
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 15.14,
+    "text": "Cancer 15°08′",
+    "longitude": 105.139
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 13.39,
+    "text": "Gemini 13°23′",
+    "longitude": 73.392
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 20.83,
+    "text": "Libra 20°50′",
+    "longitude": 200.833
+   }
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "La Paz, the revolution observed",
+   "date": "1953-07-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 18.4,
+    "text": "Cancer 18°24′",
+    "longitude": 108.398
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "Bolsa Negra, the wolfram mine",
+   "date": "1953-08-05",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434594.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 12.28,
+    "text": "Leo 12°17′",
+    "longitude": 132.277
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "Guayaquil, the swerve toward Guatemala",
+   "date": "1953-10-10",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434660.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.39,
+    "text": "Libra 16°24′",
+    "longitude": 196.392
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "San José de Costa Rica, the Moncada veterans and the oath before Stalin",
+   "date": "1953-12-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434721.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 17.64,
+    "text": "Sagittarius 17°39′",
+    "longitude": 257.642
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 0.57,
+    "text": "Aquarius 0°34′",
+    "longitude": 300.565
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 29.15,
+    "text": "Scorpio 29°09′",
+    "longitude": 239.152
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 5.43,
+    "text": "Sagittarius 5°26′",
+    "longitude": 245.433
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 23.65,
+    "text": "Libra 23°39′",
+    "longitude": 203.652
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 21.85,
+    "text": "Gemini 21°51′",
+    "longitude": 81.847
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 5.65,
+    "text": "Scorpio 5°39′",
+    "longitude": 215.652
+   }
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "Guatemala City: Hilda, and the school of revolution",
+   "date": "1953-12-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434735.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 1.89,
+    "text": "Capricornus 1°53′",
+    "longitude": 271.891
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 14.75,
+    "text": "Leo 14°45′",
+    "longitude": 134.75
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 19.69,
+    "text": "Sagittarius 19°41′",
+    "longitude": 259.685
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 23.04,
+    "text": "Sagittarius 23°03′",
+    "longitude": 263.042
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 2.13,
+    "text": "Scorpio 2°08′",
+    "longitude": 212.128
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 19.96,
+    "text": "Gemini 19°58′",
+    "longitude": 79.961
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 6.96,
+    "text": "Scorpio 6°57′",
+    "longitude": 216.956
+   }
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "Guatemala City, the fall of Árbenz",
+   "date": "1954-06-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434920.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 4.82,
+    "text": "Cancer 4°49′",
+    "longitude": 94.821
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 17.45,
+    "text": "Taurus 17°27′",
+    "longitude": 47.446
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 18.27,
+    "text": "Cancer 18°16′",
+    "longitude": 108.271
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 10.96,
+    "text": "Leo 10°58′",
+    "longitude": 130.962
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 1.83,
+    "text": "Capricornus 1°50′",
+    "longitude": 271.833
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 7.49,
+    "text": "Cancer 7°30′",
+    "longitude": 97.495
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 2.85,
+    "text": "Scorpio 2°51′",
+    "longitude": 212.854
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "Mexico City, the photographer of the plazas",
+   "date": "1954-09-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2435006.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 27.48,
+    "text": "Virgo 27°29′",
+    "longitude": 177.476
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 16.76,
+    "text": "Cancer 16°46′",
+    "longitude": 106.761
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 19.25,
+    "text": "Libra 19°15′",
+    "longitude": 199.254
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 12.64,
+    "text": "Scorpio 12°39′",
+    "longitude": 222.645
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 11.86,
+    "text": "Capricornus 11°52′",
+    "longitude": 281.862
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 25.07,
+    "text": "Cancer 25°04′",
+    "longitude": 115.073
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.07,
+    "text": "Scorpio 7°04′",
+    "longitude": 217.073
+   }
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "Mexico City, Calle Emparan 49, the night with Fidel",
+   "date": "1955-07-08",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435296.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 15.08,
+    "text": "Cancer 15°05′",
+    "longitude": 105.078
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "Rancho San Miguel, Chalco, the guerrilla academy",
+   "date": "1956-04-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435578.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 25.01,
+    "text": "Aries 25°00′",
+    "longitude": 25.005
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "Mexico City, Miguel Schultz immigration prison",
+   "date": "1956-06-24",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435648.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.45,
+    "text": "Cancer 2°27′",
+    "longitude": 92.453
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Soldier of America: The Second Journey",
+   "stop": "Tuxpan, the embarkation of the eighty-two",
+   "date": "1956-11-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435802.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 2.71,
+    "text": "Sagittarius 2°42′",
+    "longitude": 242.705
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 2.04,
+    "text": "Virgo 2°02′",
+    "longitude": 152.039
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 9.53,
+    "text": "Sagittarius 9°32′",
+    "longitude": 249.527
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 29.34,
+    "text": "Libra 29°20′",
+    "longitude": 209.339
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 24.59,
+    "text": "Pisces 24°36′",
+    "longitude": 354.594
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 27.76,
+    "text": "Virgo 27°46′",
+    "longitude": 177.762
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 5.12,
+    "text": "Sagittarius 5°07′",
+    "longitude": 245.121
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Granma and the Sierra Maestra",
+   "stop": "The Gulf and the Caribbean, seven days of the Granma",
+   "date": "1956-11-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435805.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 5.74,
+    "text": "Sagittarius 5°45′",
+    "longitude": 245.742
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 13.51,
+    "text": "Libra 13°31′",
+    "longitude": 193.513
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 14.18,
+    "text": "Sagittarius 14°11′",
+    "longitude": 254.178
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 3.03,
+    "text": "Scorpio 3°02′",
+    "longitude": 213.026
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 25.94,
+    "text": "Pisces 25°56′",
+    "longitude": 355.937
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 28.18,
+    "text": "Virgo 28°11′",
+    "longitude": 178.179
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 5.48,
+    "text": "Sagittarius 5°29′",
+    "longitude": 245.477
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Granma and the Sierra Maestra",
+   "stop": "Playa Las Coloradas, the landing in the swamp",
+   "date": "1956-12-02",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435809.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.8,
+    "text": "Sagittarius 9°48′",
+    "longitude": 249.796
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 5.83,
+    "text": "Sagittarius 5°50′",
+    "longitude": 245.827
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 20.35,
+    "text": "Sagittarius 20°21′",
+    "longitude": 260.353
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 7.95,
+    "text": "Scorpio 7°57′",
+    "longitude": 217.954
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 27.8,
+    "text": "Pisces 27°48′",
+    "longitude": 357.799
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 28.71,
+    "text": "Virgo 28°42′",
+    "longitude": 178.706
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 5.95,
+    "text": "Sagittarius 5°57′",
+    "longitude": 245.951
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Granma and the Sierra Maestra",
+   "stop": "Alegría de Pío, the baptism of fire and the choice",
+   "date": "1956-12-05",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435812.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 12.84,
+    "text": "Sagittarius 12°50′",
+    "longitude": 252.84
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 12.88,
+    "text": "Capricornus 12°53′",
+    "longitude": 282.876
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 24.96,
+    "text": "Sagittarius 24°58′",
+    "longitude": 264.965
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 11.66,
+    "text": "Scorpio 11°39′",
+    "longitude": 221.658
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 29.24,
+    "text": "Pisces 29°15′",
+    "longitude": 359.243
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 29.08,
+    "text": "Virgo 29°05′",
+    "longitude": 179.078
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 6.31,
+    "text": "Sagittarius 6°18′",
+    "longitude": 246.305
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Granma and the Sierra Maestra",
+   "stop": "Cinco Palmas, the regathering of the twelve",
+   "date": "1956-12-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435828.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 29.11,
+    "text": "Sagittarius 29°07′",
+    "longitude": 269.112
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 13.52,
+    "text": "Leo 13°31′",
+    "longitude": 133.522
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 18.34,
+    "text": "Capricornus 18°20′",
+    "longitude": 288.34
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 1.5,
+    "text": "Sagittarius 1°30′",
+    "longitude": 241.503
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 7.53,
+    "text": "Aries 7°32′",
+    "longitude": 7.528
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 0.69,
+    "text": "Libra 0°42′",
+    "longitude": 180.693
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 8.16,
+    "text": "Sagittarius 8°10′",
+    "longitude": 248.163
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Granma and the Sierra Maestra",
+   "stop": "La Plata, the first victory",
+   "date": "1957-01-17",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2435855.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 26.63,
+    "text": "Capricornus 26°38′",
+    "longitude": 296.626
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 7.11,
+    "text": "Leo 7°07′",
+    "longitude": 127.112
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 12.98,
+    "text": "Capricornus 12°59′",
+    "longitude": 282.98
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 5.19,
+    "text": "Capricornus 5°12′",
+    "longitude": 275.194
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 22.99,
+    "text": "Aries 23°00′",
+    "longitude": 22.993
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 1.77,
+    "text": "Libra 1°46′",
+    "longitude": 181.771
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 11.0,
+    "text": "Sagittarius 11°00′",
+    "longitude": 250.997
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Granma and the Sierra Maestra",
+   "stop": "El Uvero, the coming of age",
+   "date": "1957-05-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2435986.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 6.41,
+    "text": "Gemini 6°24′",
+    "longitude": 66.407
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 17.93,
+    "text": "Taurus 17°56′",
+    "longitude": 47.927
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 12.97,
+    "text": "Taurus 12°58′",
+    "longitude": 42.968
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 17.87,
+    "text": "Gemini 17°52′",
+    "longitude": 77.874
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 14.64,
+    "text": "Cancer 14°38′",
+    "longitude": 104.64
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 21.93,
+    "text": "Virgo 21°56′",
+    "longitude": 171.929
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 11.45,
+    "text": "Sagittarius 11°27′",
+    "longitude": 251.45
+   }
+  },
+  {
+   "segment": "Granma and the Sierra Maestra",
+   "stop": "Sierra Maestra, the star of the Comandante",
+   "date": "1957-07-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2436040.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 27.97,
+    "text": "Cancer 27°58′",
+    "longitude": 117.97
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.29,
+    "text": "Taurus 8°18′",
+    "longitude": 38.294
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 15.36,
+    "text": "Leo 15°21′",
+    "longitude": 135.357
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 23.79,
+    "text": "Leo 23°47′",
+    "longitude": 143.791
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 18.5,
+    "text": "Leo 18°30′",
+    "longitude": 138.504
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 27.13,
+    "text": "Virgo 27°08′",
+    "longitude": 177.131
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 8.14,
+    "text": "Sagittarius 8°08′",
+    "longitude": 248.136
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Granma and the Sierra Maestra",
+   "stop": "El Hombrito, the guerrilla republic",
+   "date": "1957-11-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2436143.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.31,
+    "text": "Scorpio 8°18′",
+    "longitude": 218.306
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Invasion: Las Villas and Santa Clara",
+   "stop": "El Jíbaro, Column 8 'Ciro Redondo' marches west",
+   "date": "1958-08-31",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436446.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.09,
+    "text": "Virgo 7°05′",
+    "longitude": 157.09
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 26.71,
+    "text": "Pisces 26°43′",
+    "longitude": 356.712
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 25.04,
+    "text": "Leo 25°03′",
+    "longitude": 145.044
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 18.28,
+    "text": "Leo 18°17′",
+    "longitude": 138.277
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 22.47,
+    "text": "Taurus 22°28′",
+    "longitude": 52.47
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 28.7,
+    "text": "Libra 28°42′",
+    "longitude": 208.704
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 19.18,
+    "text": "Sagittarius 19°11′",
+    "longitude": 259.177
+   }
+  },
+  {
+   "segment": "The Invasion: Las Villas and Santa Clara",
+   "stop": "The Camagüey plain, the march of hunger and hurricanes",
+   "date": "1958-09-14",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436460.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 20.68,
+    "text": "Virgo 20°41′",
+    "longitude": 170.677
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Invasion: Las Villas and Santa Clara",
+   "stop": "El Pedrero, Escambray, arrival and the mountain pacts",
+   "date": "1958-10-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436492.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 22.12,
+    "text": "Libra 22°07′",
+    "longitude": 202.124
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 6.03,
+    "text": "Sagittarius 6°02′",
+    "longitude": 246.025
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 29.41,
+    "text": "Libra 29°25′",
+    "longitude": 209.412
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 15.37,
+    "text": "Libra 15°22′",
+    "longitude": 195.375
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 2.28,
+    "text": "Gemini 2°17′",
+    "longitude": 62.283
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 7.75,
+    "text": "Scorpio 7°45′",
+    "longitude": 217.752
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 21.31,
+    "text": "Sagittarius 21°18′",
+    "longitude": 261.308
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Invasion: Las Villas and Santa Clara",
+   "stop": "Fomento, the first town falls",
+   "date": "1958-12-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436555.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 25.56,
+    "text": "Sagittarius 25°34′",
+    "longitude": 265.563
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 25.62,
+    "text": "Pisces 25°37′",
+    "longitude": 355.619
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 9.77,
+    "text": "Sagittarius 9°46′",
+    "longitude": 249.77
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 4.47,
+    "text": "Capricornus 4°28′",
+    "longitude": 274.468
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 16.6,
+    "text": "Taurus 16°36′",
+    "longitude": 46.595
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 21.29,
+    "text": "Scorpio 21°17′",
+    "longitude": 231.288
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 27.85,
+    "text": "Sagittarius 27°51′",
+    "longitude": 267.854
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Invasion: Las Villas and Santa Clara",
+   "stop": "Cabaiguán, the fall from the roof",
+   "date": "1958-12-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436559.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 29.64,
+    "text": "Sagittarius 29°38′",
+    "longitude": 269.636
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 12.98,
+    "text": "Taurus 12°59′",
+    "longitude": 42.982
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 9.7,
+    "text": "Sagittarius 9°42′",
+    "longitude": 249.704
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 9.49,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.493
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 16.58,
+    "text": "Taurus 16°35′",
+    "longitude": 46.579
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 22.08,
+    "text": "Scorpio 22°05′",
+    "longitude": 232.08
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 28.33,
+    "text": "Sagittarius 28°20′",
+    "longitude": 268.326
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Invasion: Las Villas and Santa Clara",
+   "stop": "Placetas, the island cut in two",
+   "date": "1958-12-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436560.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 0.65,
+    "text": "Capricornus 0°39′",
+    "longitude": 270.654
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 24.91,
+    "text": "Taurus 24°55′",
+    "longitude": 54.909
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 10.07,
+    "text": "Sagittarius 10°04′",
+    "longitude": 250.066
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 10.75,
+    "text": "Capricornus 10°45′",
+    "longitude": 280.75
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 16.61,
+    "text": "Taurus 16°36′",
+    "longitude": 46.607
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 22.27,
+    "text": "Scorpio 22°16′",
+    "longitude": 232.275
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 28.44,
+    "text": "Sagittarius 28°27′",
+    "longitude": 268.444
+   }
+  },
+  {
+   "segment": "The Invasion: Las Villas and Santa Clara",
+   "stop": "Santa Clara, Loma del Capiro and the armored train",
+   "date": "1958-12-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436566.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.77,
+    "text": "Capricornus 6°46′",
+    "longitude": 276.768
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 10.68,
+    "text": "Leo 10°41′",
+    "longitude": 130.676
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 14.45,
+    "text": "Sagittarius 14°27′",
+    "longitude": 254.453
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 18.29,
+    "text": "Capricornus 18°17′",
+    "longitude": 288.286
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 17.04,
+    "text": "Taurus 17°02′",
+    "longitude": 47.04
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 23.42,
+    "text": "Scorpio 23°25′",
+    "longitude": 233.422
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 29.15,
+    "text": "Sagittarius 29°09′",
+    "longitude": 269.15
+   }
+  },
+  {
+   "segment": "The Invasion: Las Villas and Santa Clara",
+   "stop": "Santa Clara, surrender of the Leoncio Vidal garrison",
+   "date": "1959-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Havana: The Years of the Ministries",
+   "stop": "Havana, La Cabaña fortress",
+   "date": "1959-01-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436571.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.86,
+    "text": "Capricornus 11°52′",
+    "longitude": 281.865
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 18.99,
+    "text": "Libra 18°59′",
+    "longitude": 198.988
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 19.95,
+    "text": "Sagittarius 19°57′",
+    "longitude": 259.953
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 24.56,
+    "text": "Capricornus 24°34′",
+    "longitude": 294.563
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 17.72,
+    "text": "Taurus 17°43′",
+    "longitude": 47.722
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 24.34,
+    "text": "Scorpio 24°21′",
+    "longitude": 234.344
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 29.73,
+    "text": "Sagittarius 29°44′",
+    "longitude": 269.734
+   }
+  },
+  {
+   "segment": "Havana: The Years of the Ministries",
+   "stop": "Hiroshima, the pilgrim of the ruins",
+   "date": "1959-07-25",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436774.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.33,
+    "text": "Leo 1°20′",
+    "longitude": 121.328
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Havana: The Years of the Ministries",
+   "stop": "Havana: President of the National Bank, the banknotes signed 'Che'",
+   "date": "1959-11-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436898.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 2.98,
+    "text": "Sagittarius 2°59′",
+    "longitude": 242.981
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 3.05,
+    "text": "Libra 3°03′",
+    "longitude": 183.047
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 29.33,
+    "text": "Scorpio 29°20′",
+    "longitude": 239.329
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 16.97,
+    "text": "Libra 16°58′",
+    "longitude": 196.972
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 24.53,
+    "text": "Scorpio 24°32′",
+    "longitude": 234.53
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 10.69,
+    "text": "Sagittarius 10°41′",
+    "longitude": 250.691
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 5.36,
+    "text": "Capricornus 5°22′",
+    "longitude": 275.364
+   }
+  },
+  {
+   "segment": "Havana: The Years of the Ministries",
+   "stop": "Havana: La Coubre, and the photograph",
+   "date": "1960-03-05",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2436998.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 14.44,
+    "text": "Pisces 14°26′",
+    "longitude": 344.435
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 9.4,
+    "text": "Gemini 9°24′",
+    "longitude": 69.4
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 24.99,
+    "text": "Pisces 25°00′",
+    "longitude": 354.994
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 16.37,
+    "text": "Aquarius 16°22′",
+    "longitude": 316.37
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 8.26,
+    "text": "Aquarius 8°16′",
+    "longitude": 308.26
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 0.46,
+    "text": "Capricornus 0°28′",
+    "longitude": 270.464
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 16.19,
+    "text": "Capricornus 16°11′",
+    "longitude": 286.185
+   }
+  },
+  {
+   "segment": "Havana: The Years of the Ministries",
+   "stop": "Havana, Ministry of Industries and the new man",
+   "date": "1961-02-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437353.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.15,
+    "text": "Pisces 4°09′",
+    "longitude": 334.151
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 11.44,
+    "text": "Gemini 11°27′",
+    "longitude": 71.445
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 1.99,
+    "text": "Pisces 1°59′",
+    "longitude": 331.991
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 18.24,
+    "text": "Aries 18°14′",
+    "longitude": 18.238
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 1.63,
+    "text": "Cancer 1°38′",
+    "longitude": 91.634
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 26.04,
+    "text": "Capricornus 26°02′",
+    "longitude": 296.036
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 25.59,
+    "text": "Capricornus 25°36′",
+    "longitude": 295.595
+   }
+  },
+  {
+   "segment": "Havana: The Years of the Ministries",
+   "stop": "New York, the United Nations, December 1964",
+   "date": "1964-12-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438740.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.99,
+    "text": "Sagittarius 19°00′",
+    "longitude": 258.994
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 4.61,
+    "text": "Pisces 4°37′",
+    "longitude": 334.612
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 4.63,
+    "text": "Capricornus 4°38′",
+    "longitude": 274.626
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 19.71,
+    "text": "Scorpio 19°43′",
+    "longitude": 229.71
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 16.51,
+    "text": "Virgo 16°31′",
+    "longitude": 166.514
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 17.63,
+    "text": "Taurus 17°38′",
+    "longitude": 47.632
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 29.55,
+    "text": "Aquarius 29°33′",
+    "longitude": 329.551
+   }
+  },
+  {
+   "segment": "Havana: The Years of the Ministries",
+   "stop": "Algiers, the last speech",
+   "date": "1965-02-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438815.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 5.19,
+    "text": "Pisces 5°11′",
+    "longitude": 335.187
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 13.58,
+    "text": "Sagittarius 13°35′",
+    "longitude": 253.583
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 5.08,
+    "text": "Pisces 5°05′",
+    "longitude": 335.084
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 23.36,
+    "text": "Aquarius 23°22′",
+    "longitude": 323.365
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 23.69,
+    "text": "Virgo 23°41′",
+    "longitude": 173.691
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 19.29,
+    "text": "Taurus 19°17′",
+    "longitude": 49.291
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 7.21,
+    "text": "Pisces 7°13′",
+    "longitude": 337.21
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Havana: The Years of the Ministries",
+   "stop": "Havana, the farewell letter",
+   "date": "1965-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438851.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.07,
+    "text": "Aries 11°04′",
+    "longitude": 11.07
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tatu: The Congo",
+   "stop": "Dar es Salaam, the shaved head of Ramón Benítez",
+   "date": "1965-04-19",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438869.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 28.74,
+    "text": "Aries 28°44′",
+    "longitude": 28.741
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tatu: The Congo",
+   "stop": "Kibamba, Lake Tanganyika, the crossing to Africa",
+   "date": "1965-04-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438874.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.62,
+    "text": "Taurus 3°37′",
+    "longitude": 33.619
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 4.92,
+    "text": "Aquarius 4°55′",
+    "longitude": 304.917
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 11.91,
+    "text": "Aries 11°55′",
+    "longitude": 11.91
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 6.69,
+    "text": "Taurus 6°42′",
+    "longitude": 36.693
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 8.81,
+    "text": "Virgo 8°49′",
+    "longitude": 158.815
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 0.31,
+    "text": "Gemini 0°19′",
+    "longitude": 60.31
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 13.85,
+    "text": "Pisces 13°51′",
+    "longitude": 343.847
+   }
+  },
+  {
+   "segment": "Tatu: The Congo",
+   "stop": "Front de Force / Bendera, the defeat at the power station",
+   "date": "1965-06-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438940.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 7.05,
+    "text": "Cancer 7°03′",
+    "longitude": 97.054
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 4.18,
+    "text": "Cancer 4°11′",
+    "longitude": 94.178
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 25.48,
+    "text": "Cancer 25°29′",
+    "longitude": 115.483
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 27.68,
+    "text": "Cancer 27°41′",
+    "longitude": 117.683
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 29.98,
+    "text": "Virgo 29°59′",
+    "longitude": 179.98
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 15.51,
+    "text": "Gemini 15°30′",
+    "longitude": 75.506
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 17.1,
+    "text": "Pisces 17°06′",
+    "longitude": 347.101
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Tatu: The Congo",
+   "stop": "Lake Tanganyika, the evacuation, 'the history of a failure'",
+   "date": "1965-11-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2439085.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 28.48,
+    "text": "Scorpio 28°29′",
+    "longitude": 238.476
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 1.91,
+    "text": "Scorpio 1°55′",
+    "longitude": 211.913
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 18.75,
+    "text": "Sagittarius 18°45′",
+    "longitude": 258.747
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 15.51,
+    "text": "Capricornus 15°31′",
+    "longitude": 285.511
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 5.07,
+    "text": "Capricornus 5°04′",
+    "longitude": 275.068
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 29.63,
+    "text": "Gemini 29°38′",
+    "longitude": 89.631
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 10.41,
+    "text": "Pisces 10°25′",
+    "longitude": 340.414
+   }
+  },
+  {
+   "segment": "Tatu: The Congo",
+   "stop": "Prague, the ghost year",
+   "date": "1966-03-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439185.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.97,
+    "text": "Pisces 9°58′",
+    "longitude": 339.968
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "La Paz, Hotel Copacabana, the bald economist",
+   "date": "1966-11-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439432.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 10.13,
+    "text": "Scorpio 10°08′",
+    "longitude": 220.126
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 3.44,
+    "text": "Cancer 3°26′",
+    "longitude": 93.44
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 2.34,
+    "text": "Sagittarius 2°20′",
+    "longitude": 242.336
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 8.61,
+    "text": "Scorpio 8°37′",
+    "longitude": 218.613
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 12.6,
+    "text": "Virgo 12°36′",
+    "longitude": 162.595
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 3.94,
+    "text": "Leo 3°57′",
+    "longitude": 123.943
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 23.27,
+    "text": "Pisces 23°16′",
+    "longitude": 353.269
+   }
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "Ñancahuazú, the Casa de Calamina, 'a new stage begins'",
+   "date": "1966-11-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439436.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 14.14,
+    "text": "Scorpio 14°08′",
+    "longitude": 224.136
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 28.13,
+    "text": "Leo 28°08′",
+    "longitude": 148.131
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 3.25,
+    "text": "Sagittarius 3°15′",
+    "longitude": 243.247
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 13.63,
+    "text": "Scorpio 13°38′",
+    "longitude": 223.633
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 14.91,
+    "text": "Virgo 14°55′",
+    "longitude": 164.913
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 4.15,
+    "text": "Leo 4°09′",
+    "longitude": 124.154
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 23.12,
+    "text": "Pisces 23°07′",
+    "longitude": 353.122
+   }
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "The Río Grande, the training march and the first deaths",
+   "date": "1967-02-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439547.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 6.71,
+    "text": "Pisces 6°43′",
+    "longitude": 336.711
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 24.5,
+    "text": "Virgo 24°30′",
+    "longitude": 174.504
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 18.17,
+    "text": "Pisces 18°10′",
+    "longitude": 348.168
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 2.57,
+    "text": "Aries 2°34′",
+    "longitude": 2.566
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 2.51,
+    "text": "Scorpio 2°31′",
+    "longitude": 212.515
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 25.31,
+    "text": "Cancer 25°19′",
+    "longitude": 115.31
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 29.19,
+    "text": "Pisces 29°11′",
+    "longitude": 359.191
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "Ñancahuazú river, the first ambush, 23 March",
+   "date": "1967-03-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439572.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 1.69,
+    "text": "Aries 1°41′",
+    "longitude": 1.685
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 17.71,
+    "text": "Leo 17°42′",
+    "longitude": 137.706
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 5.91,
+    "text": "Pisces 5°54′",
+    "longitude": 335.905
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 3.15,
+    "text": "Taurus 3°09′",
+    "longitude": 33.154
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 1.9,
+    "text": "Scorpio 1°54′",
+    "longitude": 211.9
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.44,
+    "text": "Cancer 24°26′",
+    "longitude": 114.438
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 2.25,
+    "text": "Aries 2°15′",
+    "longitude": 2.254
+   }
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "Iripití, the double ambush, the death of El Rubio",
+   "date": "1967-04-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439590.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 19.45,
+    "text": "Aries 19°27′",
+    "longitude": 19.453
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 20.19,
+    "text": "Aries 20°12′",
+    "longitude": 20.192
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 23.49,
+    "text": "Pisces 23°30′",
+    "longitude": 353.495
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 24.78,
+    "text": "Taurus 24°47′",
+    "longitude": 54.778
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 26.84,
+    "text": "Libra 26°50′",
+    "longitude": 206.836
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 25.04,
+    "text": "Cancer 25°02′",
+    "longitude": 115.039
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 4.48,
+    "text": "Aries 4°29′",
+    "longitude": 4.482
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "Muyupampa, Debray and Bustos walk out",
+   "date": "1967-04-20",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439600.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.25,
+    "text": "Aries 29°15′",
+    "longitude": 29.245
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 26.6,
+    "text": "Leo 26°36′",
+    "longitude": 146.604
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 8.42,
+    "text": "Aries 8°25′",
+    "longitude": 8.425
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 6.6,
+    "text": "Gemini 6°36′",
+    "longitude": 66.603
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 23.08,
+    "text": "Libra 23°05′",
+    "longitude": 203.084
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 25.79,
+    "text": "Cancer 25°47′",
+    "longitude": 115.786
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 5.68,
+    "text": "Aries 5°41′",
+    "longitude": 5.682
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "On the march near the Río Rosita, the thirty-ninth birthday",
+   "date": "1967-06-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439655.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 22.28,
+    "text": "Gemini 22°17′",
+    "longitude": 82.28
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 3.23,
+    "text": "Virgo 3°14′",
+    "longitude": 153.227
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 16.44,
+    "text": "Cancer 16°26′",
+    "longitude": 106.44
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 7.47,
+    "text": "Leo 7°28′",
+    "longitude": 127.471
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 17.08,
+    "text": "Libra 17°05′",
+    "longitude": 197.078
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 3.82,
+    "text": "Leo 3°49′",
+    "longitude": 123.823
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 10.95,
+    "text": "Aries 10°57′",
+    "longitude": 10.946
+   }
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "Samaipata, the raid on the highway town",
+   "date": "1967-07-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439677.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 13.27,
+    "text": "Cancer 13°16′",
+    "longitude": 103.267
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 22.61,
+    "text": "Gemini 22°37′",
+    "longitude": 82.609
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 18.77,
+    "text": "Cancer 18°46′",
+    "longitude": 108.769
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 27.68,
+    "text": "Leo 27°41′",
+    "longitude": 147.683
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 23.92,
+    "text": "Libra 23°55′",
+    "longitude": 203.922
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 8.23,
+    "text": "Leo 8°14′",
+    "longitude": 128.234
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 12.03,
+    "text": "Aries 12°02′",
+    "longitude": 12.026
+   }
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "Vado del Yeso, the annihilation of Joaquín and the death of Tania",
+   "date": "1967-08-31",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439733.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 6.92,
+    "text": "Virgo 6°55′",
+    "longitude": 156.919
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 8.8,
+    "text": "Cancer 8°48′",
+    "longitude": 98.803
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 12.97,
+    "text": "Virgo 12°58′",
+    "longitude": 162.972
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 5.16,
+    "text": "Virgo 5°10′",
+    "longitude": 155.164
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 23.54,
+    "text": "Scorpio 23°32′",
+    "longitude": 233.54
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 20.39,
+    "text": "Leo 20°23′",
+    "longitude": 140.391
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 11.22,
+    "text": "Aries 11°13′",
+    "longitude": 11.218
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "Alto Seco, the last sermon",
+   "date": "1967-09-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439755.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 28.31,
+    "text": "Virgo 28°19′",
+    "longitude": 178.311
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 4.26,
+    "text": "Taurus 4°15′",
+    "longitude": 34.256
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 19.04,
+    "text": "Libra 19°03′",
+    "longitude": 199.044
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 27.69,
+    "text": "Leo 27°41′",
+    "longitude": 147.687
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 7.97,
+    "text": "Sagittarius 7°58′",
+    "longitude": 247.97
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 24.97,
+    "text": "Leo 24°58′",
+    "longitude": 144.971
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 9.72,
+    "text": "Aries 9°43′",
+    "longitude": 9.723
+   }
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "La Higuera trail, the ambush of 26 September, 'Defeat'",
+   "date": "1967-09-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439759.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 2.23,
+    "text": "Libra 2°14′",
+    "longitude": 182.228
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 21.91,
+    "text": "Gemini 21°54′",
+    "longitude": 81.907
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 24.64,
+    "text": "Libra 24°39′",
+    "longitude": 204.642
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 28.24,
+    "text": "Leo 28°14′",
+    "longitude": 148.239
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 10.71,
+    "text": "Sagittarius 10°43′",
+    "longitude": 250.709
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 25.76,
+    "text": "Leo 25°46′",
+    "longitude": 145.762
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 9.42,
+    "text": "Aries 9°25′",
+    "longitude": 9.416
+   }
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "Quebrada del Yuro, the last battle and the capture",
+   "date": "1967-10-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439771.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 14.03,
+    "text": "Libra 14°02′",
+    "longitude": 194.031
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 11.76,
+    "text": "Sagittarius 11°46′",
+    "longitude": 251.764
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 9.22,
+    "text": "Scorpio 9°13′",
+    "longitude": 219.223
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 3.0,
+    "text": "Virgo 3°00′",
+    "longitude": 153.0
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 19.1,
+    "text": "Sagittarius 19°06′",
+    "longitude": 259.104
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 28.03,
+    "text": "Leo 28°02′",
+    "longitude": 148.03
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 8.48,
+    "text": "Aries 8°29′",
+    "longitude": 8.477
+   }
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "La Higuera, the schoolhouse, 9 October 1967",
+   "date": "1967-10-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439772.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.02,
+    "text": "Libra 15°01′",
+    "longitude": 195.018
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 25.92,
+    "text": "Sagittarius 25°55′",
+    "longitude": 265.917
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 10.23,
+    "text": "Scorpio 10°14′",
+    "longitude": 220.231
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 3.57,
+    "text": "Virgo 3°34′",
+    "longitude": 153.571
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 19.81,
+    "text": "Sagittarius 19°49′",
+    "longitude": 259.815
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 28.21,
+    "text": "Leo 28°13′",
+    "longitude": 148.211
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 8.4,
+    "text": "Aries 8°24′",
+    "longitude": 8.399
+   }
+  },
+  {
+   "segment": "Ñancahuazú to La Higuera",
+   "stop": "Vallegrande, the laundry house of Nuestra Señora de Malta",
+   "date": "1967-10-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439773.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.01,
+    "text": "Libra 16°00′",
+    "longitude": 196.006
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 9.67,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.674
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.2,
+    "text": "Scorpio 11°12′",
+    "longitude": 221.195
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 4.16,
+    "text": "Virgo 4°10′",
+    "longitude": 154.165
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 20.53,
+    "text": "Sagittarius 20°32′",
+    "longitude": 260.528
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 28.39,
+    "text": "Leo 28°23′",
+    "longitude": 148.39
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 8.32,
+    "text": "Aries 8°19′",
+    "longitude": 8.322
+   }
+  }
+ ],
+ "counts": {
+  "stops": 90,
+  "dated": 90,
+  "unparsed": 0,
+  "day": 51,
+  "month": 2,
+  "year": 37
+ },
+ "parse_failures": []
+}

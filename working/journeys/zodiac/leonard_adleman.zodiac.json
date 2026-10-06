@@ -1,0 +1,1779 @@
+{
+ "slug": "leonard_adleman",
+ "traveler": "Leonard Max Adleman",
+ "title": "The Third Author: Berkeley, 545 Technology Square, and the Test Tube That Computed",
+ "years": "1945-present",
+ "years_parsed": {
+  "first": 1945,
+  "last": 2026
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Bay, the Bank, and the Doctorate",
+  "stop": "San Francisco, the birth on the last day of the year",
+  "date": "1945-12-31",
+  "date_confidence": "attested to the day (Wikipedia; MacTutor). The pin is the city; no source names the hospital or the quarter.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1945,
+  "jd_ut": 2431820.5,
+  "precision": "day",
+  "precision_triggers": [
+   "(soft) no source"
+  ],
+  "notes": [
+   "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 8.97,
+   "text": "Capricornus 8°58′",
+   "longitude": 278.965
+  },
+  "moon": {
+   "sign": "Scorpio",
+   "degree": 29.74,
+   "text": "Scorpio 29°44′",
+   "longitude": 239.739
+  },
+  "mercury": {
+   "sign": "Sagittarius",
+   "degree": 17.28,
+   "text": "Sagittarius 17°17′",
+   "longitude": 257.279
+  },
+  "venus": {
+   "sign": "Capricornus",
+   "degree": 1.17,
+   "text": "Capricornus 1°10′",
+   "longitude": 271.173
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 28.58,
+   "text": "Cancer 28°35′",
+   "longitude": 118.577
+  },
+  "jupiter": {
+   "sign": "Libra",
+   "degree": 24.7,
+   "text": "Libra 24°42′",
+   "longitude": 204.7
+  },
+  "saturn": {
+   "sign": "Cancer",
+   "degree": 22.37,
+   "text": "Cancer 22°22′",
+   "longitude": 112.367
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1945-present",
+  "first_year_parsed": 1945
+ },
+ "stops": [
+  {
+   "segment": "The Bay, the Bank, and the Doctorate",
+   "stop": "Minsk, the country the line comes from",
+   "date": "1900-01-01",
+   "date_confidence": "reconstruction. Wikipedia gives the Minsk area of present-day Belarus as the family's origin and gives no emigration date; the year shown is a placeholder for a generation and not a claim. Adleman himself is not attested at this coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bay, the Bank, and the Doctorate",
+   "stop": "San Francisco, the birth on the last day of the year",
+   "date": "1945-12-31",
+   "date_confidence": "attested to the day (Wikipedia; MacTutor). The pin is the city; no source names the hospital or the quarter.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431820.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.97,
+    "text": "Capricornus 8°58′",
+    "longitude": 278.965
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 29.74,
+    "text": "Scorpio 29°44′",
+    "longitude": 239.739
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 17.28,
+    "text": "Sagittarius 17°17′",
+    "longitude": 257.279
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 1.17,
+    "text": "Capricornus 1°10′",
+    "longitude": 271.173
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 28.58,
+    "text": "Cancer 28°35′",
+    "longitude": 118.577
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 24.7,
+    "text": "Libra 24°42′",
+    "longitude": 204.7
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 22.37,
+    "text": "Cancer 22°22′",
+    "longitude": 112.367
+   }
+  },
+  {
+   "segment": "The Bay, the Bank, and the Doctorate",
+   "stop": "San Francisco, Hamlet in a high school classroom",
+   "date": "1962-01-01",
+   "date_confidence": "traditional. MacTutor preserves the episode without a year and without naming the school or the teacher; 1962 is a placeholder inside his high school years, and the month and day are defaults.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437665.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.103
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bay, the Bank, and the Doctorate",
+   "stop": "Berkeley, the bachelor's degree in mathematics",
+   "date": "1968-01-01",
+   "date_confidence": "Degree and year attested (Wikipedia specifies a B.A. in mathematics; MacTutor gives 1968). Month and day are defaults. The research pool's 1963 enrollment year is unsourced and is not carried, and its 'BS' is corrected to B.A. The Sather Gate pin is corrected from 37.8716, which lands about 180 m north near Doe Library.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2439856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.64,
+    "text": "Capricornus 9°38′",
+    "longitude": 279.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bay, the Bank, and the Doctorate",
+   "stop": "300 Montgomery Street, the programmer at Bank of America",
+   "date": "1968-06-01",
+   "date_confidence": "Employment attested (MacTutor); the month is a default. MacTutor names the employer and not the building, so the historic Bank of America headquarters stands in as a landmark and this pin is approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2440008.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.57,
+    "text": "Gemini 10°34′",
+    "longitude": 70.569
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bay, the Bank, and the Doctorate",
+   "stop": "San Francisco State, the physics that does not take",
+   "date": "1969-01-01",
+   "date_confidence": "MacTutor attests that he took classes at San Francisco State College while employed at the bank and that he quit; MacTutor gives no year, so 1969 is inference and the month and day are defaults. Coordinate corrected from the research pool's -122.4762, which lands about 330 m east of campus across 19th Avenue.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bay, the Bank, and the Doctorate",
+   "stop": "Berkeley, the doctorate under Manuel Blum",
+   "date": "1976-01-01",
+   "date_confidence": "Year, thesis title and adviser attested (Mathematics Genealogy Project; MacTutor; Wikipedia). Month and day are defaults. The research pool pinned this to Evans Hall labelled EECS; Evans houses Mathematics and Statistics while EECS occupies Cory Hall, so no building is claimed and the campus coordinate is used instead.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1976,
+   "jd_ut": 2442778.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.7,
+    "text": "Capricornus 9°42′",
+    "longitude": 279.697
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: Breaking Codes One Through Forty-Two",
+   "stop": "MIT, the office next to Rivest's",
+   "date": "1976-09-01",
+   "date_confidence": "Appointment year attested (MacTutor; ACM Turing Award citation); the month is a default for the academic year. The Building 2 pin follows the Mathematics Department address, and the specific office is not documented.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1976,
+   "jd_ut": 2443022.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.68,
+    "text": "Virgo 8°41′",
+    "longitude": 158.684
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: Breaking Codes One Through Forty-Two",
+   "stop": "545 Technology Square, the codes one through forty-two",
+   "date": "1977-01-01",
+   "date_confidence": "Pin inherited byte-identical from phil_zimmermann.journey.json and nick_szabo.journey.json; nick_szabo.report.md rules -71.0913 authoritative against a reported -71.0942. Collaboration and year attested; the count of forty-two broken candidates is reconstruction, carried by MacTutor, by Adleman himself in later interview, and by inventor-spotlight retellings, with no contemporaneous 1977 record. The research pool tagged the same figure attested in one place and reconstruction in another. Month and day are defaults.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443144.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.469
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: Breaking Codes One Through Forty-Two",
+   "stop": "545 Technology Square, the telephone call after the seder",
+   "date": "1977-04-02",
+   "date_confidence": "Date and pin inherited byte-identical from phil_zimmermann.journey.json, which dates the night after the Passover seder to 1977-04-02. Adleman's own account in CSO Online gives the dinner, the wine and the midnight telephone call without a calendar date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443235.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 12.15,
+    "text": "Aries 12°09′",
+    "longitude": 12.149
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 13.01,
+    "text": "Virgo 13°00′",
+    "longitude": 163.007
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 28.16,
+    "text": "Aries 28°10′",
+    "longitude": 28.159
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 19.02,
+    "text": "Aries 19°01′",
+    "longitude": 19.023
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 10.06,
+    "text": "Pisces 10°04′",
+    "longitude": 340.062
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 29.7,
+    "text": "Taurus 29°42′",
+    "longitude": 59.699
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 10.13,
+    "text": "Leo 10°08′",
+    "longitude": 130.135
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Cambridge: Breaking Codes One Through Forty-Two",
+   "stop": "MIT, the third author",
+   "date": "1977-05-01",
+   "date_confidence": "MacTutor preserves both of Adleman's statements without dates. Placement in the weeks after the April breakthrough and before the December patent filing is inference, and the month is a default.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443264.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.52,
+    "text": "Taurus 10°31′",
+    "longitude": 40.519
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: Breaking Codes One Through Forty-Two",
+   "stop": "545 Technology Square, the challenge printed in Scientific American",
+   "date": "1977-08-01",
+   "date_confidence": "Column and month attested (Scientific American, August 1977, Martin Gardner's 'Mathematical Games'). Pin inherited byte-identical. The research pool described the RSA-129 cryptogram as signed by the three authors; it was encrypted and posed by them, and a digital signature is a different operation.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443356.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.64,
+    "text": "Leo 8°38′",
+    "longitude": 128.641
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: Breaking Codes One Through Forty-Two",
+   "stop": "Arlington, the address on the patent",
+   "date": "1977-12-14",
+   "date_confidence": "Filing date and residence attested on the face of US Patent 4,405,829 (cr.yp.to patent archive). The pin is the town; the patent's reachable copy gives no street address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443491.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 21.89,
+    "text": "Sagittarius 21°53′",
+    "longitude": 261.887
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 7.98,
+    "text": "Aquarius 7°59′",
+    "longitude": 307.979
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 7.11,
+    "text": "Capricornus 7°07′",
+    "longitude": 277.114
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 12.49,
+    "text": "Sagittarius 12°30′",
+    "longitude": 252.492
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 11.54,
+    "text": "Leo 11°32′",
+    "longitude": 131.539
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 2.31,
+    "text": "Cancer 2°19′",
+    "longitude": 92.309
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 0.67,
+    "text": "Virgo 0°40′",
+    "longitude": 150.668
+   }
+  },
+  {
+   "segment": "Cambridge: Breaking Codes One Through Forty-Two",
+   "stop": "Cambridge, the method in Communications of the ACM",
+   "date": "1978-02-01",
+   "date_confidence": "Publication month and journal attested (Communications of the ACM, February 1978). Pin inherited byte-identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443540.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.78,
+    "text": "Aquarius 11°47′",
+    "longitude": 311.78
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Los Angeles: the Chair, the Company, the Word",
+   "stop": "USC, the move west",
+   "date": "1980-01-01",
+   "date_confidence": "Year attested (Wikipedia; MacTutor; USC Viterbi faculty page); month and day are defaults.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444239.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.73,
+    "text": "Capricornus 9°44′",
+    "longitude": 279.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Los Angeles: the Chair, the Company, the Word",
+   "stop": "Redwood City, the company in an apartment",
+   "date": "1982-01-01",
+   "date_confidence": "Pin inherited byte-identical from hellman.journey.json and phil_zimmermann.journey.json. Founding year 1982 per Wikipedia 'RSA Security', FundingUniverse and RSA's own corporate history; the research pool's 1983 is not carried. The firm began in Adleman's apartment, so the Marine Parkway headquarters address of the 1990s is anachronistic here. MacTutor alone says Adleman was made president, which is reconstruction: Jim Bidzos joined on 1 February 1986 and was president and chief executive from 1986 to 1999. Month and day are defaults.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1982,
+   "jd_ut": 2444970.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.25,
+    "text": "Capricornus 10°15′",
+    "longitude": 280.251
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Los Angeles: the Chair, the Company, the Word",
+   "stop": "USC, the primality test with Pomerance and Rumely",
+   "date": "1983-01-01",
+   "date_confidence": "Publication year attested (Annals of Mathematics, 1983; MacTutor; Wikipedia). Month and day are defaults. The Annals paper itself was not opened in this research and is known through summaries.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1983,
+   "jd_ut": 2445335.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.003
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Los Angeles: the Chair, the Company, the Word",
+   "stop": "Los Angeles, the singles dance",
+   "date": "1983-01-01",
+   "date_confidence": "Reconstruction. MacTutor is the sole source for the meeting and the six-week courtship, no independent corroboration was found, and MacTutor names neither the city nor the venue. The research pool's chronology lens tagged this attested and supplied Los Angeles, which the source does not support; its geography lens tags the same episode reconstruction and is right. The city-centre pin is a placeholder and the month and day are defaults.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1983,
+   "jd_ut": 2445335.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.003
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Los Angeles: the Chair, the Company, the Word",
+   "stop": "USC, the seminar and the naming of the virus",
+   "date": "1983-11-10",
+   "date_confidence": "Date attested by Fred Cohen's own account in 'Computer Viruses: Theory and Experiments': conception 3 November 1983, demonstration 10 November 1983, at his weekly computer security seminar as a USC graduate student under Adleman. The research pool placed the demonstration at Lehigh University, which is a conflation with Cohen's later affiliation and with the unrelated 1987 Lehigh virus. The building is not identified in sources; the pin is the campus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1983,
+   "jd_ut": 2445648.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 17.03,
+    "text": "Scorpio 17°02′",
+    "longitude": 227.026
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 17.82,
+    "text": "Capricornus 17°49′",
+    "longitude": 287.817
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 23.21,
+    "text": "Scorpio 23°13′",
+    "longitude": 233.215
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 0.58,
+    "text": "Libra 0°35′",
+    "longitude": 180.577
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 25.0,
+    "text": "Virgo 25°00′",
+    "longitude": 175.001
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.24,
+    "text": "Sagittarius 14°15′",
+    "longitude": 254.243
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 8.53,
+    "text": "Scorpio 8°32′",
+    "longitude": 218.528
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Los Angeles: the Chair, the Company, the Word",
+   "stop": "USC, the student's paper goes out",
+   "date": "1984-01-01",
+   "date_confidence": "Publication year attested; Cohen's paper was presented at the 1984 IFIP security conference. Month and day are defaults. The secondary sources placing this at Lehigh University are not followed here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445700.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.76,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.756
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Los Angeles: the Chair, the Company, the Word",
+   "stop": "USC, the Henry Salvatori Chair",
+   "date": "1985-01-01",
+   "date_confidence": "Year attested (USC Viterbi faculty page); month and day are defaults.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1985,
+   "jd_ut": 2446066.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.528
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Immune System and the Wet Bench",
+   "stop": "UCSF Parnassus, the CD4 count as a control problem",
+   "date": "1988-01-01",
+   "date_confidence": "Reconstruction. The Stanford CS course profile is the only source for the shape and dating of the Wofsy collaboration and it gives no year; the research pool's c.1986-1990 is inference, and 1988 is a placeholder inside that window. The joint publication is separately attested to 1993.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1988,
+   "jd_ut": 2447161.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "placeholder",
+    "no month/day",
+    "year named only",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.79,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.785
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Immune System and the Wet Bench",
+   "stop": "USC, learning the bench",
+   "date": "1991-01-01",
+   "date_confidence": "Reconstruction. The Stanford CS course profile dates the wet-lab immersion to roughly 1990-1993 without a source; 1991 is a placeholder inside that window. Open contradiction, flagged and not resolved: Adleman's own account of coining the term 'computer virus' in 1983 depends on his already being in a molecular biology lab then. Both statements cannot be exactly right and neither is firm enough to correct the other.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448257.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "disputed",
+    "approximation",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Immune System and the Wet Bench",
+   "stop": "Los Angeles, an unnamed college and the slides for Sneakers",
+   "date": "1992-01-01",
+   "date_confidence": "Release year of the film attested; month and day are defaults. Adleman's own account on the USC Laboratory for Molecular Science 'Sneakers' page says the scene was shot at a small college in Los Angeles, which no source names, so the city-centre pin is a placeholder. The research pool's Universal Studios location is unsupported and is not carried, and its description of the on-screen slides as computer graphics inverts what Adleman says happened.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448622.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placeholder",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Immune System and the Wet Bench",
+   "stop": "Los Angeles, the immunology paper",
+   "date": "1993-01-01",
+   "date_confidence": "Year and journal attested through MacTutor. The paper's title, volume and pagination were not obtained in this research and the journal text was not opened. Month and day are defaults.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1993,
+   "jd_ut": 2448988.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.587
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Test Tube That Computed",
+   "stop": "USC, the textbook in bed and Turing's 1936 paper",
+   "date": "1993-12-01",
+   "date_confidence": "Reconstruction as to date. MacTutor preserves Adleman's account of the insight arriving while he was ill in bed with a molecular biology textbook and gives no date; placement in the months before the 1994 experiment is inference and the month is a default.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1993,
+   "jd_ut": 2449322.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.8,
+    "text": "Sagittarius 8°48′",
+    "longitude": 248.805
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Test Tube That Computed",
+   "stop": "USC, the seven cities in a test tube",
+   "date": "1994-04-01",
+   "date_confidence": "Experiment year attested; the month is inference from the November publication and is a default. The Laboratory for Molecular Science pin is the campus location given in the research pool, not a documented room.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1994,
+   "jd_ut": 2449443.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.05,
+    "text": "Aries 11°03′",
+    "longitude": 11.045
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Test Tube That Computed",
+   "stop": "Los Angeles, Science volume 266",
+   "date": "1994-11-11",
+   "date_confidence": "Attested to the issue date: Science vol. 266, pp. 1021-1024, 11 November 1994.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1994,
+   "jd_ut": 2449667.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 18.37,
+    "text": "Scorpio 18°22′",
+    "longitude": 228.365
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 27.28,
+    "text": "Aquarius 27°17′",
+    "longitude": 327.28
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 0.63,
+    "text": "Scorpio 0°38′",
+    "longitude": 210.634
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 5.72,
+    "text": "Scorpio 5°43′",
+    "longitude": 215.721
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 19.01,
+    "text": "Leo 19°00′",
+    "longitude": 139.008
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 23.66,
+    "text": "Scorpio 23°40′",
+    "longitude": 233.66
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 5.4,
+    "text": "Pisces 5°24′",
+    "longitude": 335.395
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Cipher Comes Due",
+   "stop": "545 Technology Square, the magic words",
+   "date": "1994-04-26",
+   "date_confidence": "The RSA-129 factorization was completed and announced in April 1994; the day is given as 26 April in several accounts and is carried with that caveat. The pin is the challenge's origin, inherited byte-identical, not the location of the distributed effort, which had none.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1994,
+   "jd_ut": 2449468.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 5.55,
+    "text": "Taurus 5°33′",
+    "longitude": 35.548
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cipher Comes Due",
+   "stop": "Redwood City, the company sold",
+   "date": "1996-04-01",
+   "date_confidence": "Acquisition by Security Dynamics attested for 1996; contradiction flagged and not resolved on two axes. FundingUniverse dates it to April 1996 and values it at four million Security Dynamics shares, approximately 251 million dollars; Wikipedia dates it to July 1996; MacTutor gives a flat 200 million. April is carried as the earlier of the two dates, with the day a default. Pin inherited byte-identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450174.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.55,
+    "text": "Aries 11°33′",
+    "longitude": 11.554
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cipher Comes Due",
+   "stop": "New York, the Kanellakis Award to six men",
+   "date": "1996-01-01",
+   "date_confidence": "Award year and the six joint recipients attested by ACM records; the award was presented in March 1997, and the month and day here are defaults for the award year. Pin is the atlas's canonical New York station, inherited byte-identical from hellman.journey.json and ralph_merkle.journey.json; the banquet venue is not confirmed in any source consulted. The research pool described this as a three-way award with Rivest and Shamir, which is wrong.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450083.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.844
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cipher Comes Due",
+   "stop": "Washington, the National Academy of Engineering",
+   "date": "1996-01-01",
+   "date_confidence": "Election year attested (Wikipedia; USC Today). Month and day are defaults. Whether Adleman attended any induction ceremony in Washington is not confirmed in any source found: this pin marks the institution and not documented travel.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450083.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.844
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cipher Comes Due",
+   "stop": "Cheltenham, the prior claim declassified",
+   "date": "1997-01-01",
+   "date_confidence": "Pin and year inherited byte-identical from phil_zimmermann.journey.json and hellman.journey.json; month and day are defaults.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1997,
+   "jd_ut": 2450449.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.616
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cipher Comes Due",
+   "stop": "Bedford, the patent released early",
+   "date": "2000-09-06",
+   "date_confidence": "Date and pin inherited byte-identical from phil_zimmermann.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451793.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 13.72,
+    "text": "Virgo 13°43′",
+    "longitude": 163.718
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 17.19,
+    "text": "Sagittarius 17°12′",
+    "longitude": 257.193
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 26.8,
+    "text": "Virgo 26°48′",
+    "longitude": 176.795
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 7.19,
+    "text": "Libra 7°12′",
+    "longitude": 187.194
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 23.04,
+    "text": "Leo 23°03′",
+    "longitude": 143.042
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 10.44,
+    "text": "Gemini 10°26′",
+    "longitude": 70.435
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 0.65,
+    "text": "Gemini 0°39′",
+    "longitude": 60.654
+   }
+  },
+  {
+   "segment": "The Compuverse",
+   "stop": "USC, twenty variables in a tube",
+   "date": "2002-01-01",
+   "date_confidence": "Year attested (Wikipedia); month and day are defaults.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2002,
+   "jd_ut": 2452275.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.398
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Compuverse",
+   "stop": "San Diego, the Turing Award at the Town and Country",
+   "date": "2003-06-07",
+   "date_confidence": "The 2002 A.M. Turing Award was presented at the ACM Awards Banquet in San Diego on 7 June 2003, the opening day of FCRC 2003 at the Town and Country Resort (ACM records; Notices of the AMS, July 2003). The research pool's chronology lens placed this in New York, which is wrong; its geography lens had the venue right and gave a coordinate about 700 m southwest of it, corrected here to 500 Hotel Circle North.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2003,
+   "jd_ut": 2452797.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 15.87,
+    "text": "Gemini 15°52′",
+    "longitude": 75.875
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 5.11,
+    "text": "Virgo 5°06′",
+    "longitude": 155.107
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 22.06,
+    "text": "Taurus 22°03′",
+    "longitude": 52.056
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 26.19,
+    "text": "Taurus 26°11′",
+    "longitude": 56.186
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 25.42,
+    "text": "Aquarius 25°25′",
+    "longitude": 325.418
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.71,
+    "text": "Leo 13°42′",
+    "longitude": 133.708
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 0.22,
+    "text": "Cancer 0°13′",
+    "longitude": 90.217
+   }
+  },
+  {
+   "segment": "The Compuverse",
+   "stop": "Cambridge, the American Academy of Arts and Sciences",
+   "date": "2006-01-01",
+   "date_confidence": "Election year attested (American Academy of Arts and Sciences member page); election to the National Academy of Sciences in the same year is attested by USC Today. Month and day are defaults. Personal attendance at an induction in Cambridge is not confirmed in any source found.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2006,
+   "jd_ut": 2453736.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.43,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.428
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Compuverse",
+   "stop": "Alexandria, the illumination in the Gallery of Icons",
+   "date": "2018-05-02",
+   "date_confidence": "Date attested (National Inventors Hall of Fame press materials): the 2 May 2018 illumination ceremony took place in the Gallery of Icons at the NIHF Museum inside USPTO headquarters, Alexandria. The pin is the USPTO Madison Building. The research pool gave Alexandria as the induction venue, which is the following evening's event in Washington.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458240.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.57,
+    "text": "Taurus 11°34′",
+    "longitude": 41.567
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 4.52,
+    "text": "Sagittarius 4°31′",
+    "longitude": 244.519
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 14.82,
+    "text": "Aries 14°49′",
+    "longitude": 14.816
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 8.89,
+    "text": "Gemini 8°53′",
+    "longitude": 68.886
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 23.88,
+    "text": "Capricornus 23°53′",
+    "longitude": 293.882
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 19.23,
+    "text": "Scorpio 19°14′",
+    "longitude": 229.229
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 9.08,
+    "text": "Capricornus 9°05′",
+    "longitude": 279.078
+   }
+  },
+  {
+   "segment": "The Compuverse",
+   "stop": "Washington, the National Building Museum",
+   "date": "2018-05-03",
+   "date_confidence": "Date and venue attested (National Inventors Hall of Fame; PR Newswire): the 46th annual induction ceremony, National Building Museum, 3 May 2018, emceed by Mo Rocca. Coordinate corrected from the research pool's -77.0021, which lands about 1.25 km east of the museum near 2nd Street NE.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458241.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 12.54,
+    "text": "Taurus 12°32′",
+    "longitude": 42.537
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 16.84,
+    "text": "Sagittarius 16°51′",
+    "longitude": 256.845
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 15.92,
+    "text": "Aries 15°55′",
+    "longitude": 15.922
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 10.1,
+    "text": "Gemini 10°06′",
+    "longitude": 70.096
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 24.34,
+    "text": "Capricornus 24°21′",
+    "longitude": 294.342
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 19.1,
+    "text": "Scorpio 19°06′",
+    "longitude": 229.104
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 9.06,
+    "text": "Capricornus 9°03′",
+    "longitude": 279.055
+   }
+  },
+  {
+   "segment": "The Compuverse",
+   "stop": "New York, named an ACM Fellow",
+   "date": "2021-01-01",
+   "date_confidence": "Year attested (Wikipedia); month and day are defaults. Pin is the atlas's canonical New York station, inherited byte-identical; no ceremony location is claimed and none is documented.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2021,
+   "jd_ut": 2459215.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.79,
+    "text": "Capricornus 10°48′",
+    "longitude": 280.793
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Compuverse",
+   "stop": "USC, strata and the compuverse",
+   "date": "2026-01-01",
+   "date_confidence": "Current at the time of research: the USC Viterbi faculty directory and adleman.usc.edu list Adleman as Henry Salvatori Distinguished Professor of Computer Science and Professor of Molecular Biology. The 'strata' work is attested to 2017 in Wikipedia. Month and day are defaults. Adleman is living; this is not a tomb, and no monument, gravesite, museum wing or relic collection specific to him was located in this research.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461041.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.58,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.576
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 41,
+  "dated": 41,
+  "unparsed": 0,
+  "day": 9,
+  "month": 5,
+  "year": 27
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1713 @@
+{
+ "slug": "moshe_feldenkrais",
+ "traveler": "Moshé Feldenkrais",
+ "title": "The Knee and the Nucleus: from a Volhynian shtetl to the floor of the world",
+ "years": "1904-1984",
+ "years_parsed": {
+  "first": 1904,
+  "last": 1984
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Slavuta and the Baranovichi Years",
+  "stop": "Slavuta, birth in the Volhynian shtetl",
+  "date": "1904-05-06",
+  "date_confidence": "attested in Reese's authorized biography and in Guild materials. A minority of encyclopedic entries give 1900 or 1902; the contradiction is left standing.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1904,
+  "jd_ut": 2416606.5,
+  "precision": "year",
+  "precision_triggers": [
+   "disputed",
+   "(soft-year) year range"
+  ],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 15.04,
+   "text": "Taurus 15°02′",
+   "longitude": 45.036
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1904-1984",
+  "first_year_parsed": 1904
+ },
+ "stops": [
+  {
+   "segment": "Slavuta and the Baranovichi Years",
+   "stop": "Slavuta, birth in the Volhynian shtetl",
+   "date": "1904-05-06",
+   "date_confidence": "attested in Reese's authorized biography and in Guild materials. A minority of encyclopedic entries give 1900 or 1902; the contradiction is left standing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416606.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 15.04,
+    "text": "Taurus 15°02′",
+    "longitude": 45.036
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Slavuta and the Baranovichi Years",
+   "stop": "Baranovichi, the family moves north",
+   "date": "1912-01-01",
+   "date_confidence": "no source dates the relocation. Wikipedia attaches no year to it; an earlier research pass interpolated 1912 and it is kept here only as an ordering device inside Reese's loose c.1912-1918 range. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "no month/day",
+    "ordering",
+    "no source (for the date)",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Slavuta and the Baranovichi Years",
+   "stop": "Baranovichi, bar mitzvah in a war zone",
+   "date": "1917-01-01",
+   "date_confidence": "the bar mitzvah is attested; no source gives its date. 1917 is arithmetic from a 1904 birth and is not testimony. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Walk to Palestine",
+   "stop": "Baranovichi, the road south at fourteen",
+   "date": "1918-06-01",
+   "date_confidence": "1918 is attested for the emigration; the month is a placement. [R] for the walk itself, which rests on Feldenkrais's own later retelling as relayed by Reese. Two research lenses tagged this identical event differently, one attested and one reconstructed; harmonized down to reconstructed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421745.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.69,
+    "text": "Gemini 9°42′",
+    "longitude": 69.693
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Walk to Palestine",
+   "stop": "Odessa, the Black Sea and the emigrant road",
+   "date": "1918-09-01",
+   "date_confidence": "[R] entirely. Odessa is reconstructed from the standard emigration routes of the period; the actual stages of his own route are undocumented, and this stop is an inference wearing a coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421837.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.74,
+    "text": "Virgo 7°44′",
+    "longitude": 157.741
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Walk to Palestine",
+   "stop": "Jaffa, coming ashore with nothing",
+   "date": "1919-01-01",
+   "date_confidence": "sources disagree: some give late 1918, others 1919. The contradiction is left standing. 1919 is chosen only so the arrival sits after the journey, and adjudicates nothing. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Yishuv: Survey, Jiu-Jitsu, the Knee",
+   "stop": "Tel Aviv, the labourer years",
+   "date": "1920-01-01",
+   "date_confidence": "[R]. The laborer years are attested in outline only; the year is a placement inside the 1919-1928 range Reese gives. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Yishuv: Survey, Jiu-Jitsu, the Knee",
+   "stop": "Tel Aviv, the Gymnasia Herzliya diploma",
+   "date": "1925-01-01",
+   "date_confidence": "attested for 1925 in Wikipedia; month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Yishuv: Survey, Jiu-Jitsu, the Knee",
+   "stop": "Palestine, cartographer to the British survey",
+   "date": "1925-06-01",
+   "date_confidence": "attested for 1925; the month is a placement chosen to separate this from the diploma. The pin is Tel Aviv generally, since no survey office address is established.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424302.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.99,
+    "text": "Gemini 9°59′",
+    "longitude": 69.988
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Yishuv: Survey, Jiu-Jitsu, the Knee",
+   "stop": "Tel Aviv, teaching the Haganah to fall",
+   "date": "1929-01-01",
+   "date_confidence": "[R], from Reese and from Feldenkrais's own early self-defense pamphlets. The dating is loose, c.1929-1930; month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Yishuv: Survey, Jiu-Jitsu, the Knee",
+   "stop": "Tel Aviv, the knee on the football field",
+   "date": "1929-09-01",
+   "date_confidence": "[R]. Wikipedia gives 1929 for the soccer injury; the month is a placement. The injury's later role in the work is narrated by Feldenkrais himself and is not independently documented.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425855.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.07,
+    "text": "Virgo 8°04′",
+    "longitude": 158.07
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Radium Institute and the Mat",
+   "stop": "Marseille, landing in France",
+   "date": "1930-03-01",
+   "date_confidence": "1930 is attested for the emigration to France. [R] for Marseille itself, which is inferred from period convention and from Reese rather than confirmed for this voyage. Month is a placement.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426036.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "convention",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.7,
+    "text": "Pisces 9°42′",
+    "longitude": 339.698
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Radium Institute and the Mat",
+   "stop": "Paris, the École Spéciale des Travaux Publics",
+   "date": "1930-10-01",
+   "date_confidence": "the school and the diploma are attested; enrolment in 1930 is inferred from the arrival and the 1933 diploma. Coordinate corrected: the school stood on rue Thénard in the Latin Quarter from 1898 through the 1930s, not at the modern Cachan campus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426250.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.09,
+    "text": "Libra 7°06′",
+    "longitude": 187.094
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Radium Institute and the Mat",
+   "stop": "Paris, the engineering diploma",
+   "date": "1933-01-01",
+   "date_confidence": "attested for 1933; month and day unknown and defaulted. Note that the doctorate in physics is frequently printed with this same year, which the record does not support.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427073.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Radium Institute and the Mat",
+   "stop": "Institut du Radium, assistant to Joliot-Curie",
+   "date": "1933-06-01",
+   "date_confidence": "1933 is attested for the start of the Institut du Radium work; the month is a placement. Coordinate inherited byte-identical from the existing corpus pin for the Institut du Radium, which sits about 100 m from Wikipedia's value for the building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427224.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.05,
+    "text": "Gemini 10°03′",
+    "longitude": 70.051
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Radium Institute and the Mat",
+   "stop": "Paris, Jigoro Kano comes to the city",
+   "date": "1933-09-01",
+   "date_confidence": "attested for September 1933. The coordinate is a declared central-Paris placeholder: no dojo or meeting address is established in any reachable source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427316.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.1,
+    "text": "Virgo 8°06′",
+    "longitude": 158.101
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Radium Institute and the Mat",
+   "stop": "Paris, Kawaishi on the mat",
+   "date": "1935-01-01",
+   "date_confidence": "corrected. The standard telling starts this training in 1933, but Kawaishi taught in Liverpool from c.1928 and London from 1931 and reached Paris only in 1935. Who taught Feldenkrais between 1933 and 1935 is an open gap. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "between",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Radium Institute and the Mat",
+   "stop": "Paris, the black belt and the Jiu-Jitsu Club de France",
+   "date": "1936-01-01",
+   "date_confidence": "1936 is given by Wikipedia, which flags its own judo dates as uncited. The club's continued existence is [R]. Coordinate is a declared central-Paris placeholder. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428168.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.4,
+    "text": "Capricornus 9°24′",
+    "longitude": 279.401
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Radium Institute and the Mat",
+   "stop": "Paris, the knee refuses the surgeon",
+   "date": "1937-06-01",
+   "date_confidence": "[R]. The chronology comes from Feldenkrais's own retrospective narration; one research lens tagged it attested while conceding in the same note that it was undocumented, and it is corrected down here. The date is a placement inside c.1936-1939.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428685.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.08,
+    "text": "Gemini 10°05′",
+    "longitude": 70.083
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Radium Institute and the Mat",
+   "stop": "Institut du Radium, judo for the Joliot-Curies",
+   "date": "1938-01-01",
+   "date_confidence": "1938 is attested for the second dan and for the pupils named. Wikipedia flags the judo dates as uncited within its own article. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428899.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.926
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fall of France",
+   "stop": "Clermont-Ferrand, the laboratory scatters",
+   "date": "1939-09-01",
+   "date_confidence": "[R] for Feldenkrais's presence in the dispersal specifically. The move of the French nuclear work toward Clermont-Ferrand is documented; his part in it is not. Month is a placement at the declaration of war.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429507.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.66,
+    "text": "Virgo 7°40′",
+    "longitude": 157.665
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fall of France",
+   "stop": "Bordeaux, the exodus and the heavy water",
+   "date": "1940-06-19",
+   "date_confidence": "[R], and this is the largest correction in the file. Wikipedia has Feldenkrais fleeing with heavy-water research material for the British Admiralty and War Office. The documented carriers were Hans von Halban and Lew Kowarski, aboard the SS Broompark out of Bordeaux on 19 June 1940. He appears in none of the operational accounts. The contradiction is flagged, not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429799.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 27.55,
+    "text": "Gemini 27°33′",
+    "longitude": 87.554
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 15.32,
+    "text": "Sagittarius 15°19′",
+    "longitude": 255.323
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 22.02,
+    "text": "Cancer 22°01′",
+    "longitude": 112.02
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 9.69,
+    "text": "Cancer 9°41′",
+    "longitude": 99.685
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 20.8,
+    "text": "Cancer 20°48′",
+    "longitude": 110.798
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 7.29,
+    "text": "Taurus 7°17′",
+    "longitude": 37.29
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 10.67,
+    "text": "Taurus 10°40′",
+    "longitude": 40.667
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fall of France",
+   "stop": "Falmouth, coming ashore in England",
+   "date": "1940-06-21",
+   "date_confidence": "[R]. The Broompark landed at Falmouth on 21 June 1940; whether Feldenkrais was aboard is unresolved, so this stop dates his English landfall by that ship's arrival and declares the assumption rather than hiding it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429801.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 29.46,
+    "text": "Gemini 29°28′",
+    "longitude": 89.463
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 12.44,
+    "text": "Capricornus 12°27′",
+    "longitude": 282.444
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 24.41,
+    "text": "Cancer 24°25′",
+    "longitude": 114.411
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 8.62,
+    "text": "Cancer 8°37′",
+    "longitude": 98.617
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 22.07,
+    "text": "Cancer 22°04′",
+    "longitude": 112.075
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 7.67,
+    "text": "Taurus 7°40′",
+    "longitude": 37.673
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 10.87,
+    "text": "Taurus 10°52′",
+    "longitude": 40.866
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Admiralty",
+   "stop": "London, taken on by the Admiralty",
+   "date": "1940-09-01",
+   "date_confidence": "Admiralty service from 1940 to 1946 is attested; the month is a placement. Coordinate corrected to the Admiralty building itself, since an earlier research pass pinned Downing Street and Whitehall.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429873.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.4,
+    "text": "Virgo 8°24′",
+    "longitude": 158.399
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Admiralty",
+   "stop": "Fairlie, sonar on the Firth of Clyde",
+   "date": "1941-01-01",
+   "date_confidence": "attested: anti-submarine weaponry at Fairlie, Scotland. Corrected in two directions, since one research lens moved this work to London and another downgraded Fairlie to tradition. Coordinate corrected by about 0.5 km. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2429995.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Admiralty",
+   "stop": "London, Practical Unarmed Combat",
+   "date": "1942-01-01",
+   "date_confidence": "[R]. The 1942 publication is attested by the book itself; the London pin is a publishing address rather than a documented place of writing. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430360.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.955
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Admiralty",
+   "stop": "Fairlie, the deck and the old knee",
+   "date": "1943-01-01",
+   "date_confidence": "[R]. Wikipedia dates the wartime re-aggravation loosely; 1943 is a placement inside the Admiralty years. The narration is Feldenkrais's own and is not independently documented. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430725.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.71,
+    "text": "Capricornus 9°42′",
+    "longitude": 279.708
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Admiralty",
+   "stop": "London, the first classes",
+   "date": "1946-01-01",
+   "date_confidence": "attested that he leaves Admiralty service in 1946 and begins lecturing and running experimental classes; the classes themselves are [R]. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431821.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.985
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "London: The Method Takes Shape",
+   "stop": "London, the reading of the somatic teachers",
+   "date": "1948-01-01",
+   "date_confidence": "attested that he studies these figures during the London years. 1948 is a placement, since no source dates the reading. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432551.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.49,
+    "text": "Capricornus 9°29′",
+    "longitude": 279.49
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "London: The Method Takes Shape",
+   "stop": "London, Body and Mature Behavior",
+   "date": "1949-01-01",
+   "date_confidence": "attested for 1949; month and day unknown and defaulted. Later editions and translations were not verified this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432917.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tel Aviv: Functional Integration",
+   "stop": "Tel Aviv, the return to Israel",
+   "date": "1951-01-01",
+   "date_confidence": "attested for 1951; month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433647.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.767
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tel Aviv: Functional Integration",
+   "stop": "Tel Aviv, the army's electronics department",
+   "date": "1954-01-01",
+   "date_confidence": "attested that he directs the Israel Defense Forces Electronics Department before teaching full-time; 1954 is the year given for the transition. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434743.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tel Aviv: Functional Integration",
+   "stop": "Zurich, to Heinrich Jacoby",
+   "date": "1954-06-01",
+   "date_confidence": "no source gives a year for the Swiss study. The existing corpus places it at 1954, inside Jacoby's settled Zurich period after his 1947 residency; the research pool for this file placed it in 1948 alongside the London reading. Both are placements, neither is sourced, and the conflict is left standing. Coordinate inherited byte-identical from the corpus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434894.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.98,
+    "text": "Gemini 9°59′",
+    "longitude": 69.979
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tel Aviv: Functional Integration",
+   "stop": "Tel Aviv, the practice on the floor",
+   "date": "1955-01-01",
+   "date_confidence": "attested in outline that he opens a Tel Aviv practice in the 1950s and develops the two forms there; the specific year is a placement. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435108.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.8,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.796
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tel Aviv: Functional Integration",
+   "stop": "Tel Aviv, Mia Segal",
+   "date": "1957-01-01",
+   "date_confidence": "attested for 1957; month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2435839.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.32,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.321
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tel Aviv: Functional Integration",
+   "stop": "Tel Aviv beach, Ben-Gurion upside down",
+   "date": "1957-06-01",
+   "date_confidence": "1957 is attested for the Ben-Gurion training. [R] for the specific beach; the central Tel Aviv beachfront is an approximation. Corrected: an earlier research pass placed this at Sde Boker in the Negev, wrong for a serving Prime Minister based in Jerusalem and Tel Aviv.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2435990.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.24,
+    "text": "Gemini 10°15′",
+    "longitude": 70.242
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tel Aviv: Functional Integration",
+   "stop": "Tel Aviv, the first thirteen",
+   "date": "1969-01-01",
+   "date_confidence": "attested: the first teacher-training cohort, thirteen students, Tel Aviv, 1969 to 1971. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "America and the Last Trainings",
+   "stop": "Big Sur, Esalen and the American room",
+   "date": "1972-01-01",
+   "date_confidence": "attested: an Awareness Through Movement programme at the Esalen Institute in 1972. Month and day defaulted. Coordinate inherited byte-identical from the corpus, which had already corrected two research lenses that put Esalen several kilometres out in the Pacific.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441317.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.67,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.667
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "America and the Last Trainings",
+   "stop": "San Francisco, Lone Mountain College",
+   "date": "1975-06-01",
+   "date_confidence": "attested: 65 teachers over four summers, 1975 to 1978, at Lone Mountain College. Month set to the summer session. Coordinate corrected from two different wrong pins offered by earlier lenses, one of them a bare San Francisco centroid.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442564.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.91,
+    "text": "Gemini 9°54′",
+    "longitude": 69.906
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "America and the Last Trainings",
+   "stop": "Amherst, the largest cohort",
+   "date": "1980-06-01",
+   "date_confidence": "attested: 235 students at Hampshire College from 1980. Corrected: one research lens named the University of Massachusetts Amherst, a different institution about seven kilometres north, contradicting its own chronology. Month set to the summer session.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444391.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.66,
+    "text": "Gemini 10°40′",
+    "longitude": 70.665
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "America and the Last Trainings",
+   "stop": "Tel Aviv, the fall and the end of teaching",
+   "date": "1981-01-01",
+   "date_confidence": "attested: he becomes seriously ill and stops public teaching after two of four planned summer sessions. The illness follows a fall in 1981 and involves a subdural hematoma and subsequent strokes. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444605.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.498
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "America and the Last Trainings",
+   "stop": "Tel Aviv, death at eighty",
+   "date": "1984-07-01",
+   "date_confidence": "attested for 1 July 1984, widely repeated; the underlying primary obituary was not read directly this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445882.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.35,
+    "text": "Cancer 9°21′",
+    "longitude": 99.352
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 3.88,
+    "text": "Leo 3°53′",
+    "longitude": 123.882
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 18.69,
+    "text": "Cancer 18°42′",
+    "longitude": 108.692
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 13.49,
+    "text": "Cancer 13°30′",
+    "longitude": 103.495
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 12.5,
+    "text": "Scorpio 12°30′",
+    "longitude": 222.502
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 7.88,
+    "text": "Capricornus 7°53′",
+    "longitude": 277.877
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 9.94,
+    "text": "Scorpio 9°56′",
+    "longitude": 219.935
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "America and the Last Trainings",
+   "stop": "Givatayim, the grave that is not certain",
+   "date": "1984-07-03",
+   "date_confidence": "[R] and contested. Nahalat Yitzhak is given only by an uncited Wikipedia category tag, and the cemetery's own article does not list him among notable burials; another assertion in circulation names Kiryat Shaul instead. Unresolved. The date is the customary interval, not a record. Coordinate corrected by 1.4 km.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445884.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 11.26,
+    "text": "Cancer 11°16′",
+    "longitude": 101.258
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 3,
+  "month": 4,
+  "year": 36
+ },
+ "parse_failures": []
+}

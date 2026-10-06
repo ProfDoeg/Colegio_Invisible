@@ -1,0 +1,2029 @@
+{
+ "slug": "evariste_galois",
+ "traveler": "Évariste Galois",
+ "title": "The Memoir That Kept Disappearing: Louis-le-Grand, Sainte-Pélagie, and the Pond at La Glacière",
+ "years": "1811-1832",
+ "years_parsed": {
+  "first": 1811,
+  "last": 1832
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Pension on the Grand'Rue",
+  "stop": "Bourg-la-Reine, birth in the pension house",
+  "date": "1811-10-25",
+  "date_confidence": "attested. Birth on 25 October 1811 at Bourg-la-Reine, then in the departement de la Seine, per Encyclopedia.com and MacTutor; Dupuy (1896) has the birth act declared the next day, which fixes the town against a later tradition that placed him vaguely in Paris. Coordinates corrected: the research pool carried 48.7761, 2.3021, which falls about a kilometre west of the commune toward Sceaux. The commune's own point is 48 deg 46 min 47 sec N, 2 deg 18 min 54 sec E, and this pin places the Grande Rue on the axis of today's avenue du General-Leclerc.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1811,
+  "jd_ut": 2382810.5,
+  "precision": "year",
+  "precision_triggers": [
+   "traditional",
+   "(soft) placed"
+  ],
+  "sun": {
+   "sign": "Scorpio",
+   "degree": 0.7,
+   "text": "Scorpio 0°42′",
+   "longitude": 210.7
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1811-1832",
+  "first_year_parsed": 1811
+ },
+ "stops": [
+  {
+   "segment": "The Pension on the Grand'Rue",
+   "stop": "Bourg-la-Reine, birth in the pension house",
+   "date": "1811-10-25",
+   "date_confidence": "attested. Birth on 25 October 1811 at Bourg-la-Reine, then in the departement de la Seine, per Encyclopedia.com and MacTutor; Dupuy (1896) has the birth act declared the next day, which fixes the town against a later tradition that placed him vaguely in Paris. Coordinates corrected: the research pool carried 48.7761, 2.3021, which falls about a kilometre west of the commune toward Sceaux. The commune's own point is 48 deg 46 min 47 sec N, 2 deg 18 min 54 sec E, and this pin places the Grande Rue on the axis of today's avenue du General-Leclerc.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1811,
+   "jd_ut": 2382810.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 0.7,
+    "text": "Scorpio 0°42′",
+    "longitude": 210.7
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pension on the Grand'Rue",
+   "stop": "Bourg-la-Reine, the father in the mairie",
+   "date": "1815-01-01",
+   "date_confidence": "the office is attested, the year is not. Encyclopedia.com names Nicolas-Gabriel Galois as director of the family pension and later mayor of Bourg-la-Reine; no source reached here gives the date of his election, and 1815 is an ordering device only. The defamation campaign that ends his life in 1829 is attested by Encyclopedia.com and Dupuy; nothing found dates its beginning.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2383974.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "no source (for the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.78,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.784
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pension on the Grand'Rue",
+   "stop": "Bourg-la-Reine, the mother's lessons",
+   "date": "1817-01-01",
+   "date_confidence": "attested in outline, undated in detail. Encyclopedia.com and MacTutor agree that Adelaide-Marie Demante taught him at home in Latin, Greek, French letters and Christian instruction until secondary school, and that no childhood mathematical precocity appears in any record. The year 1817 is an ordering device inside the 1811-1823 span; no source reached fixes when the lessons began or ended.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384705.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering",
+    "no source (for the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.308
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Louis-le-Grand",
+   "stop": "Collège royal Louis-le-Grand, entry as a boarder",
+   "date": "1823-10-06",
+   "date_confidence": "contested, and not resolved here. MacTutor dates the entry to 6 October 1823 and Encyclopedia.com gives October 1823; Caroline Ehrhardt's archival work in the school registers places formal registration in February 1824 and entry into quatrieme on 1 April 1824. Both datings are in print and the conflict is documented, not adjudicated. Coordinates corrected: Louis-le-Grand at 123 rue Saint-Jacques is 48 deg 50 min 53 sec N, 2 deg 20 min 40 sec E; the pool's 48.8464 sat roughly 190 m too far south, near the rue Cujas.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1823,
+   "jd_ut": 2387174.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 11.93,
+    "text": "Libra 11°56′",
+    "longitude": 191.932
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Louis-le-Grand",
+   "stop": "Louis-le-Grand, the year of the expulsions",
+   "date": "1824-02-01",
+   "date_confidence": "attested in outline by MacTutor, which records a wave of pupil expulsions at Louis-le-Grand in 1824 over resistance to the school's authority, and that Galois was neither among the leaders nor expelled. The occasion, the number of boys put out, and the month are given by no source reached; the date is an ordering device.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387292.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.15,
+    "text": "Aquarius 11°09′",
+    "longitude": 311.148
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Louis-le-Grand",
+   "stop": "Louis-le-Grand, prizes in Latin verse and Greek",
+   "date": "1825-06-01",
+   "date_confidence": "attested by MacTutor, which records prizes and accessits in Latin verse and Greek translation across 1824-1826, including recognition at the Concours general. The individual prizes and their years are not itemised in any source reached, and the date shown is an ordering device inside that span.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387778.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.15,
+    "text": "Gemini 10°09′",
+    "longitude": 70.152
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Louis-le-Grand",
+   "stop": "Louis-le-Grand, sent back down to seconde",
+   "date": "1826-09-01",
+   "date_confidence": "attested by MacTutor: the collapse of his results in seconde, the headmaster's judgement that he was immature and should be held back, the family's resistance, entry into rhetoric in 1826 and the return to seconde after a single term, and the teacher's note 'bon, mais singulier'. Month and day are an ordering device.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2388235.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.98,
+    "text": "Virgo 7°59′",
+    "longitude": 157.983
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Louis-le-Grand",
+   "stop": "Louis-le-Grand, Legendre read like a novel",
+   "date": "1827-02-01",
+   "date_confidence": "attested by MacTutor: entry into the mathematiques class under Hippolyte Vernier in February 1827, Vernier's report 'Intelligence, marked progress but not enough method', and the director of studies' report quoted here. The reading of Legendre and Lagrange and the recollection by his classmate Ludovic Lalanne come from the same page, which draws on Dupuy's 1896 life; Dupuy's text was not opened directly in the research pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1827,
+   "jd_ut": 2388388.5,
+   "precision": "month",
+   "precision_triggers": [
+    "legend"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.42,
+    "text": "Aquarius 11°25′",
+    "longitude": 311.424
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Louis-le-Grand",
+   "stop": "École polytechnique, the first refusal",
+   "date": "1828-08-01",
+   "date_confidence": "the failure is attested by MacTutor and Encyclopedia.com; the month is not fixed and 1 August is an ordering device. The surrounding detail is tagged R in the research pool: the story of a chalk rag thrown at an examiner attaches to this failure or to the second one, is oral tradition first written down decades afterward, and the examiner is named in no source reached. Coordinates are the old Polytechnique site on the Montagne Sainte-Genevieve, rue Descartes.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1828,
+   "jd_ut": 2388935.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "traditional",
+    "ordering",
+    "decade/century",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.65,
+    "text": "Leo 8°39′",
+    "longitude": 128.646
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Richard's Class and the Father's Death",
+   "stop": "Louis-le-Grand, the class of mathématiques spéciales",
+   "date": "1828-10-01",
+   "date_confidence": "attested by MacTutor and by the research dossier's citation of Richard's surviving school reports: entry into the classe de mathematiques speciales under Louis-Paul-Emile Richard in autumn 1828, Richard's judgement of a 'superiorite marquee sur tous ses condisciples', his preservation of Galois's exercises, and a physics report of 'travail nul' in the same year. Month is attested to the term, day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1828,
+   "jd_ut": 2388996.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.78,
+    "text": "Libra 7°47′",
+    "longitude": 187.78
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Richard's Class and the Father's Death",
+   "stop": "Louis-le-Grand, the first published theorem",
+   "date": "1829-04-01",
+   "date_confidence": "attested by MacTutor: 'Demonstration d'un theoreme sur les fractions continues periodiques' published in April 1829 in Gergonne's Annales de mathematiques pures et appliquees. Day defaulted. The journal was produced in the Midi and not in Paris; the pin is Louis-le-Grand, where Galois himself was sitting, not the place of printing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389178.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.02,
+    "text": "Aries 11°01′",
+    "longitude": 11.016
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Richard's Class and the Father's Death",
+   "stop": "Institut de France, the memoirs given to Cauchy and Poinsot",
+   "date": "1829-05-25",
+   "date_confidence": "attested by MacTutor for the submission, the referees and the loss, with the two dates of 25 May and 1 June 1829. Rene Taton's 1971 reconstruction of the Academy registers, which suggests Cauchy engaged seriously and that Galois himself withdrew the papers to rework them for the Grand Prix, is cited here at second hand through MacTutor and standard modern accounts and was not opened directly. Coordinates inherited byte-identical from joseph_fourier.journey.json, which pins the Palais de l'Institut on the quai Conti at 48.8566, 2.3376.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389232.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.47,
+    "text": "Gemini 3°28′",
+    "longitude": 63.474
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 22.34,
+    "text": "Aquarius 22°20′",
+    "longitude": 322.339
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 21.65,
+    "text": "Gemini 21°39′",
+    "longitude": 81.653
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 4.59,
+    "text": "Gemini 4°35′",
+    "longitude": 64.59
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 0.62,
+    "text": "Cancer 0°37′",
+    "longitude": 90.625
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 11.4,
+    "text": "Sagittarius 11°24′",
+    "longitude": 251.403
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 0.18,
+    "text": "Leo 0°11′",
+    "longitude": 120.182
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Richard's Class and the Father's Death",
+   "stop": "Rue Jean-de-Beauvais, the father",
+   "date": "1829-07-02",
+   "date_confidence": "the fact is attested; the research pool's citation was misattributed and is corrected here. Encyclopedia.com says only 'suicide of his father at the beginning of July', with no date, no method and no street. The date of 2 July 1829 is MacTutor's. The asphyxiation and the address, 'rue Jean-de-Beauvais, a deux pas du college de Louis-le-Grand', are Dupuy, La vie d'Evariste Galois (1896), read here through MacTutor and the pool's transcription of fr.wikisource rather than in the original volume.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389270.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.78,
+    "text": "Cancer 9°47′",
+    "longitude": 99.779
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Richard's Class and the Father's Death",
+   "stop": "Bourg-la-Reine, the stone thrown at the priest",
+   "date": "1829-07-05",
+   "date_confidence": "attested by Dupuy (1896) for the return of the funeral to Bourg-la-Reine and the disturbance near the church, read here through the research pool's transcription of the fr.wikisource text. The day is given by no source reached; 5 July 1829 is an ordering device following the death of 2 July. The stone thrown at the priest is reported rather than documented by any act. The reading of the scene as the origin of his politics is flagged in the pool as later biographers' interpretation and is not adopted here as fact.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389273.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.64,
+    "text": "Cancer 12°38′",
+    "longitude": 102.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Refusal and the Preparatory School",
+   "stop": "École polytechnique, the second refusal",
+   "date": "1829-08-01",
+   "date_confidence": "attested by Encyclopedia.com and MacTutor as the second and final Polytechnique failure, in 1829; the month is fixed by no source reached and 1 August is an ordering device placed after the father's death of 2 July. Dupuy's inability to establish whether the examiner was Binet or Lefebure de Fourcy is carried from MacTutor.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389300.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year named with preposition",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.41,
+    "text": "Leo 8°25′",
+    "longitude": 128.415
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Refusal and the Preparatory School",
+   "stop": "École préparatoire, admitted on his eighteenth birthday",
+   "date": "1829-10-25",
+   "date_confidence": "attested, with a conflict of dates carried rather than resolved. fr.wikipedia gives admission to the Ecole preparatoire on 25 October 1829, his eighteenth birthday; Encyclopedia.com gives November 1829. The pin follows fr.wikipedia and the other reading stands. The examiner Leroy's mark of 8/10 in mathematics with a note of originality and obscurity, and the poor physics oral, are from fr.wikipedia and MacTutor. The school occupied the Collège du Plessis, the annexe of Louis-le-Grand on the rue Saint-Jacques.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389385.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 1.34,
+    "text": "Scorpio 1°20′",
+    "longitude": 211.336
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 0.59,
+    "text": "Libra 0°36′",
+    "longitude": 180.594
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 10.26,
+    "text": "Scorpio 10°15′",
+    "longitude": 220.258
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 11.07,
+    "text": "Sagittarius 11°04′",
+    "longitude": 251.065
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 8.59,
+    "text": "Libra 8°35′",
+    "longitude": 188.586
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.7,
+    "text": "Sagittarius 14°42′",
+    "longitude": 254.703
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 17.14,
+    "text": "Leo 17°08′",
+    "longitude": 137.141
+   }
+  },
+  {
+   "segment": "The Second Refusal and the Preparatory School",
+   "stop": "Paris, the two examiners of the baccalauréat",
+   "date": "1829-12-29",
+   "date_confidence": "attested by MacTutor: the baccalaureate of 29 December 1829 and both examiners' reports, the mathematics report also reproduced on English Wikipedia. The sequence is odd on its face, the degree falling after the October or November admission to the Ecole preparatoire; no source reached explains it and the oddity is left standing. The examination hall is named by no source reached, and the pin is the canonical Paris point used across the atlas.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389450.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.09,
+    "text": "Capricornus 7°05′",
+    "longitude": 277.091
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Refusal and the Preparatory School",
+   "stop": "Institut de France, the memoir given to Fourier",
+   "date": "1830-02-01",
+   "date_confidence": "attested by MacTutor: the reworked memoir on the condition that an equation be solvable by radicals, submitted to the Academie for the Grand Prix in mathematics, received by Joseph Fourier as permanent secretary, Fourier's death before the judging was complete, and the manuscript never found afterward among the competition papers. MacTutor gives February 1830; the research pool notes the submission was probably late February and the day is an ordering device. Fourier's death on 16 May 1830 is fixed independently in joseph_fourier.journey.json, from which these coordinates are inherited byte-identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389484.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.7,
+    "text": "Aquarius 11°42′",
+    "longitude": 311.7
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prize and the Revolution",
+   "stop": "Paris, three papers in Férussac's Bulletin",
+   "date": "1830-04-01",
+   "date_confidence": "attested by MacTutor: three short papers in Ferussac's Bulletin des sciences mathematiques, physiques et chimiques in April 1830, including the work later understood as introducing finite fields, afterward called Galois fields. Month attested, day defaulted. The description of what the papers contain uses modern vocabulary; no source reached quotes Galois himself using anything of the kind. The pin is the canonical Paris point, the journal's editorial address not being established here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389543.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) no source",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.78,
+    "text": "Aries 10°47′",
+    "longitude": 10.777
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prize and the Revolution",
+   "stop": "Institut de France, the Grand Prix goes elsewhere",
+   "date": "1830-06-01",
+   "date_confidence": "attested by MacTutor: the Grand Prix in mathematics awarded to Niels Henrik Abel, posthumously, and to Carl Gustav Jacob Jacobi, and Galois's own candidate memoir lost with Fourier. MacTutor dates his learning of it to June 1830; the day is an ordering device. Abel's death of tuberculosis in April 1829 at twenty-six is standard biography and was not re-verified in this pass. Coordinates inherited from joseph_fourier.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389604.5,
+   "precision": "month",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.95,
+    "text": "Gemini 9°57′",
+    "longitude": 69.952
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prize and the Revolution",
+   "stop": "École préparatoire, locked in during the Trois Glorieuses",
+   "date": "1830-07-27",
+   "date_confidence": "attested by MacTutor: the confinement of the Ecole preparatoire students by the director Guigniault during the July Revolution, Galois's reported attempt to climb the courtyard wall at night, and his later resentment that Polytechnique students had fought openly while his own school was shut, together with the death of the former Normalien Farcy. The wall attempt is reported, not documented. The pin date is the first of the three days of 27-29 July 1830.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389660.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 3.4,
+    "text": "Leo 3°24′",
+    "longitude": 123.401
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 24.0,
+    "text": "Libra 24°00′",
+    "longitude": 204.003
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 23.5,
+    "text": "Cancer 23°30′",
+    "longitude": 113.502
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 27.41,
+    "text": "Gemini 27°25′",
+    "longitude": 87.414
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 28.72,
+    "text": "Pisces 28°43′",
+    "longitude": 358.719
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 10.35,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.352
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 19.36,
+    "text": "Leo 19°22′",
+    "longitude": 139.362
+   }
+  },
+  {
+   "segment": "The Prize and the Revolution",
+   "stop": "École normale, the anonymous letter",
+   "date": "1830-12-09",
+   "date_confidence": "attested, with a correction to the research pool. The pool gave 8 December 1830 as the date of formal expulsion and attributed it to Encyclopedia.com; no source reached supports that. fr.wikipedia gives the anonymous letter and Guigniault's riposte on 9 December 1830, with the formal decision ratified on 4 January 1831, and those are the dates carried here. MacTutor attests the letter, the identification of its author and the expulsion without giving a day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389795.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 16.48,
+    "text": "Sagittarius 16°29′",
+    "longitude": 256.476
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 7.25,
+    "text": "Libra 7°15′",
+    "longitude": 187.245
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 19.16,
+    "text": "Sagittarius 19°10′",
+    "longitude": 259.16
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 13.54,
+    "text": "Sagittarius 13°32′",
+    "longitude": 253.538
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 4.51,
+    "text": "Aries 4°31′",
+    "longitude": 4.513
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 20.08,
+    "text": "Capricornus 20°05′",
+    "longitude": 290.082
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 1.88,
+    "text": "Virgo 1°53′",
+    "longitude": 151.879
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Course, the Banquet, and the Knife",
+   "stop": "Caillot's bookshop, the public course in higher algebra",
+   "date": "1831-01-13",
+   "date_confidence": "attested by MacTutor: the announcement on 13 January 1831 of a public course in higher algebra at the bookseller Caillot, 5 rue de la Sorbonne, the syllabus as listed here, and an initial attendance of roughly forty. The falling away of the audience is MacTutor's characterisation. Coordinates are a placement on the rue de la Sorbonne, not a surveyed doorway.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389830.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.13,
+    "text": "Capricornus 22°08′",
+    "longitude": 292.132
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.664
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 10.88,
+    "text": "Aquarius 10°53′",
+    "longitude": 310.876
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 27.58,
+    "text": "Capricornus 27°35′",
+    "longitude": 297.577
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 22.71,
+    "text": "Aries 22°43′",
+    "longitude": 22.71
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 28.05,
+    "text": "Capricornus 28°03′",
+    "longitude": 298.045
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 1.04,
+    "text": "Virgo 1°02′",
+    "longitude": 151.037
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Course, the Banquet, and the Knife",
+   "stop": "Institut de France, the third memoir",
+   "date": "1831-01-17",
+   "date_confidence": "attested by MacTutor: submission on 17 January 1831 of the 'Memoire sur les conditions de resolubilite des equations par radicaux', written at Poisson's encouragement to state the case more explicitly, with Sylvestre-Francois Lacroix and Simeon-Denis Poisson named as referees. Coordinates inherited byte-identical from joseph_fourier.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389834.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 26.21,
+    "text": "Capricornus 26°12′",
+    "longitude": 296.206
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 1.34,
+    "text": "Pisces 1°20′",
+    "longitude": 331.336
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 12.84,
+    "text": "Aquarius 12°50′",
+    "longitude": 312.839
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 2.6,
+    "text": "Aquarius 2°36′",
+    "longitude": 302.604
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 24.99,
+    "text": "Aries 24°59′",
+    "longitude": 24.986
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 28.99,
+    "text": "Capricornus 28°59′",
+    "longitude": 298.989
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 0.81,
+    "text": "Virgo 0°49′",
+    "longitude": 150.813
+   }
+  },
+  {
+   "segment": "The Course, the Banquet, and the Knife",
+   "stop": "Paris, the letter that says he is without money",
+   "date": "1831-04-18",
+   "date_confidence": "the text is attested verbatim on MacTutor, introduced there as a letter written on 18 April by Sophie Germain to her friend the mathematician Libri, that is Guillaume Libri. MacTutor gives no year: 1831 comes from context, Fourier having died in May 1830 and the expulsion falling in December 1830, and is not stated by the source. MacTutor's text opens with an ellipsis and contains the typo 'expelled form Ecole Normale', silently normalised in the quotation here. No address is given and the pin is the canonical Paris point.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389925.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 27.22,
+    "text": "Aries 27°13′",
+    "longitude": 27.215
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Course, the Banquet, and the Knife",
+   "stop": "Rue du Faubourg-du-Temple, the toast with the knife",
+   "date": "1831-05-09",
+   "date_confidence": "attested, with the location corrected. fr.wikipedia places Les Vendanges de Bourgogne on the rue du Faubourg-du-Temple, not in Belleville as the research pool had it, and gives the occasion as the acquittal of nineteen republicans, former artillerymen of the National Guard; the pool's coordinates sat several hundred metres up into Belleville proper and are replaced. The exact street number is established by no source reached. Dumas's presence and his exit through the window are his own text in Mes Memoires, ch. CCIV.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389946.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) span/window",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 17.61,
+    "text": "Taurus 17°36′",
+    "longitude": 47.606
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Course, the Banquet, and the Knife",
+   "stop": "Sainte-Pélagie, the first imprisonment",
+   "date": "1831-05-10",
+   "date_confidence": "attested by Dupuy (1896), read through the research pool's transcription: 'Galois fut arrete chez sa mere et mis a Sainte-Pelagie en prison preventive.' The mother's address is given by no source reached, and the pool's coordinates for it were a two-decimal placeholder at the centre of Paris and have been dropped rather than plotted; the arrest is pinned here at the prison he was taken to. Prison coordinates corrected to 48 deg 50 min 33 sec N, 2 deg 21 min 10 sec E, 14 rue du Puits-de-l'Ermite, per fr.wikipedia; the pool's longitude sat about 160 m too far east.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389947.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 18.57,
+    "text": "Taurus 18°34′",
+    "longitude": 48.571
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Course, the Banquet, and the Knife",
+   "stop": "Palais de Justice, acquitted by the assize court",
+   "date": "1831-06-15",
+   "date_confidence": "attested by MacTutor and Encyclopedia.com: trial before the Seine assize court on 15 June 1831 for publicly provoking an attack on the king, and acquittal. The wording of the toast is tagged R: both MacTutor and English Wikipedia note that the crowd's noise reportedly drowned the end of it, so the conditional comes from the defence's reconstruction in court, not from any transcript of the banquet. Later claims that he was convicted at this trial are wrong.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389983.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.1,
+    "text": "Gemini 23°06′",
+    "longitude": 83.105
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 26.98,
+    "text": "Leo 26°59′",
+    "longitude": 146.977
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 1.96,
+    "text": "Gemini 1°58′",
+    "longitude": 61.961
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 3.81,
+    "text": "Leo 3°49′",
+    "longitude": 123.809
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 26.45,
+    "text": "Cancer 26°27′",
+    "longitude": 116.451
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.38,
+    "text": "Aquarius 22°23′",
+    "longitude": 322.38
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 26.99,
+    "text": "Leo 26°59′",
+    "longitude": 146.991
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Bastille Day and Sainte-Pélagie",
+   "stop": "Institut de France, the report comes back",
+   "date": "1831-07-04",
+   "date_confidence": "the report and its language are attested by MacTutor. The exact date of 4 July 1831 comes from the research dossier's synthesis and could not be confirmed against an accessible primary source in the research pass, where it is flagged as unverified; it is carried here with that flag attached. Coordinates inherited byte-identical from joseph_fourier.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390002.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 11.22,
+    "text": "Cancer 11°13′",
+    "longitude": 101.225
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 24.27,
+    "text": "Aries 24°16′",
+    "longitude": 24.272
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 24.11,
+    "text": "Gemini 24°06′",
+    "longitude": 84.105
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 24.95,
+    "text": "Leo 24°57′",
+    "longitude": 144.948
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 8.32,
+    "text": "Leo 8°19′",
+    "longitude": 128.316
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 21.6,
+    "text": "Aquarius 21°36′",
+    "longitude": 321.596
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 28.68,
+    "text": "Leo 28°41′",
+    "longitude": 148.678
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Bastille Day and Sainte-Pélagie",
+   "stop": "16 rue des Bernardins, the police at the door",
+   "date": "1831-07-14",
+   "date_confidence": "attested by fr.wikipedia: the Sainte-Pelagie prison register giving 16 rue des Bernardins as his residence and 'repetiteur' as his occupation, and a commemorative plaque on the building today. That the police missed him at his lodging on the morning of 14 July 1831 is MacTutor's. The research pool carried two nearly identical coordinate pairs for this address, 48.8495/2.3512 and 48.8493/2.351; the value here is a placement on the street, not a surveyed doorway.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390012.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 20.76,
+    "text": "Cancer 20°46′",
+    "longitude": 110.759
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 18.6,
+    "text": "Virgo 18°36′",
+    "longitude": 168.598
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 13.69,
+    "text": "Cancer 13°41′",
+    "longitude": 103.689
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 5.63,
+    "text": "Virgo 5°38′",
+    "longitude": 155.625
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.58,
+    "text": "Leo 14°35′",
+    "longitude": 134.579
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 20.76,
+    "text": "Aquarius 20°46′",
+    "longitude": 320.764
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 29.71,
+    "text": "Leo 29°43′",
+    "longitude": 149.714
+   }
+  },
+  {
+   "segment": "Bastille Day and Sainte-Pélagie",
+   "stop": "Pont-Neuf, taken in a uniform that no longer exists",
+   "date": "1831-07-14",
+   "date_confidence": "attested by MacTutor: the arrest near the Pont-Neuf around midday on 14 July 1831, the uniform of the dissolved National Guard artillery, the loaded carbines, pistols and dagger, and Duchatelet's drawing of the king beside a guillotine. Coordinates are the bridge itself.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390012.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 20.76,
+    "text": "Cancer 20°46′",
+    "longitude": 110.759
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 18.6,
+    "text": "Virgo 18°36′",
+    "longitude": 168.598
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 13.69,
+    "text": "Cancer 13°41′",
+    "longitude": 103.689
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 5.63,
+    "text": "Virgo 5°38′",
+    "longitude": 155.625
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.58,
+    "text": "Leo 14°35′",
+    "longitude": 134.579
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 20.76,
+    "text": "Aquarius 20°46′",
+    "longitude": 320.764
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 29.71,
+    "text": "Leo 29°43′",
+    "longitude": 149.714
+   }
+  },
+  {
+   "segment": "Bastille Day and Sainte-Pélagie",
+   "stop": "Sainte-Pélagie, the wine and the words",
+   "date": "1831-07-25",
+   "date_confidence": "attested as Raspail's report and not as Galois's own writing; the research pool's original attribution is corrected here. English Wikipedia's framing is explicit: inmates goaded Galois into drinking for the first time, and Francois-Vincent Raspail, a prisoner with him, recorded what he said while drunk in a letter of 25 July. It is not a letter by Galois and not addressed to Auguste Chevalier. The two sentences quoted are one continuous passage there and are given as one. Dupuy warned that Raspail's scene reads as artistically arranged after the fact. MacTutor separately states, for this same date, that Galois attempted suicide with a dagger while drunk; that could not be corroborated in the research pass and is tagged R.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390023.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.26,
+    "text": "Leo 1°16′",
+    "longitude": 121.259
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 2.6,
+    "text": "Aquarius 2°36′",
+    "longitude": 302.598
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 6.9,
+    "text": "Leo 6°54′",
+    "longitude": 126.899
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 16.86,
+    "text": "Virgo 16°52′",
+    "longitude": 166.865
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 21.49,
+    "text": "Leo 21°29′",
+    "longitude": 141.487
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 19.59,
+    "text": "Aquarius 19°35′",
+    "longitude": 319.585
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 0.95,
+    "text": "Virgo 0°57′",
+    "longitude": 150.946
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Bastille Day and Sainte-Pélagie",
+   "stop": "Sainte-Pélagie, six months for a uniform",
+   "date": "1831-10-23",
+   "date_confidence": "attested by MacTutor, Encyclopedia.com and fr.wikipedia: sentence of six months on 23 October 1831 by the correctional court for illegally wearing the artillery uniform and the associated weapons offences, served at Sainte-Pelagie among the political prisoners, with his sister Nathalie alarmed at his appearance. The stray shot from a neighbouring building wounding another prisoner comes from the research dossier's prison-life section and is not dated more closely than the imprisonment itself.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390113.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 28.86,
+    "text": "Libra 28°51′",
+    "longitude": 208.858
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bastille Day and Sainte-Pélagie",
+   "stop": "La Force, nine days nobody has explained",
+   "date": "1832-01-22",
+   "date_confidence": "tagged R. The transfer to La Force on 22 January 1832 and the return nine days later come from prison-register documentation reported in the research dossier and were not independently re-verified in the research pass. La Force's location in the Marais, off the rue Saint-Antoine, is standard nineteenth-century Paris topography confirmed here only at secondary level on fr.wikipedia; the coordinates are a placement, not a survey.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390204.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (decade/century) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 1.05,
+    "text": "Aquarius 1°03′",
+    "longitude": 301.047
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 28.77,
+    "text": "Virgo 28°46′",
+    "longitude": 178.767
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 10.72,
+    "text": "Capricornus 10°43′",
+    "longitude": 280.72
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 16.97,
+    "text": "Sagittarius 16°58′",
+    "longitude": 256.969
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 21.99,
+    "text": "Sagittarius 21°59′",
+    "longitude": 261.988
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 27.1,
+    "text": "Aquarius 27°06′",
+    "longitude": 327.098
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 14.57,
+    "text": "Virgo 14°34′",
+    "longitude": 164.57
+   }
+  },
+  {
+   "segment": "The Last Weeks",
+   "stop": "Maison de santé Faultrier, moved out because of the cholera",
+   "date": "1832-03-16",
+   "date_confidence": "attested by Encyclopedia.com and fr.wikipedia: transfer on 16 March 1832 from Sainte-Pelagie to the maison de sante Faultrier on the rue de Lourcine, later the rue de l'Oursine, because of the Paris cholera epidemic. The identification of 'Stephanie' with Stephanie-Felicie Poterin du Motel was proposed in 1968 and has been challenged since; it is not adopted here. Coordinates are a placement on the old rue de Lourcine, not a surveyed address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390258.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 25.45,
+    "text": "Pisces 25°27′",
+    "longitude": 355.447
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 17.13,
+    "text": "Virgo 17°08′",
+    "longitude": 167.125
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 21.62,
+    "text": "Pisces 21°37′",
+    "longitude": 351.622
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 21.32,
+    "text": "Aquarius 21°19′",
+    "longitude": 321.317
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 1.24,
+    "text": "Aquarius 1°15′",
+    "longitude": 301.243
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 9.96,
+    "text": "Pisces 9°58′",
+    "longitude": 339.964
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 10.74,
+    "text": "Virgo 10°44′",
+    "longitude": 160.739
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Weeks",
+   "stop": "Maison de santé Faultrier, the sentence ends",
+   "date": "1832-04-29",
+   "date_confidence": "attested by MacTutor and Encyclopedia.com: formal end of the six-month sentence and release on 29 April 1832, on parole or health-transfer terms. Whether he physically left the Faultrier house at that point is stated by no source reached; the pin follows the transfer of 16 March.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390302.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 8.66,
+    "text": "Taurus 8°40′",
+    "longitude": 38.659
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 16.98,
+    "text": "Aries 16°59′",
+    "longitude": 16.979
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 18.34,
+    "text": "Taurus 18°20′",
+    "longitude": 48.339
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 14.84,
+    "text": "Aries 14°50′",
+    "longitude": 14.835
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 3.91,
+    "text": "Pisces 3°54′",
+    "longitude": 333.906
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 19.67,
+    "text": "Pisces 19°40′",
+    "longitude": 349.666
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 8.46,
+    "text": "Virgo 8°27′",
+    "longitude": 158.457
+   }
+  },
+  {
+   "segment": "The Last Weeks",
+   "stop": "Maison de santé Faultrier, the letter of the twenty-fifth",
+   "date": "1832-05-25",
+   "date_confidence": "attested at second hand. The letter of 25 May 1832 to Auguste Chevalier and its contents, including the plan to see Chevalier around 1 June and the imagined journey to the Dauphine in mid-June, come from the research dossier's summary corroborated by MacTutor's discussion of the correspondence; the letter itself was not opened in the research pass, and the pool flags the date as not independently verified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390328.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.74,
+    "text": "Gemini 3°44′",
+    "longitude": 63.737
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 28.27,
+    "text": "Pisces 28°16′",
+    "longitude": 358.268
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 11.4,
+    "text": "Taurus 11°24′",
+    "longitude": 41.395
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 16.55,
+    "text": "Taurus 16°33′",
+    "longitude": 46.551
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 23.1,
+    "text": "Pisces 23°06′",
+    "longitude": 353.097
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 24.23,
+    "text": "Pisces 24°14′",
+    "longitude": 354.235
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 8.53,
+    "text": "Virgo 8°32′",
+    "longitude": 158.532
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Weeks",
+   "stop": "Maison de santé Faultrier, the letters of the twenty-ninth",
+   "date": "1832-05-29",
+   "date_confidence": "attested by Encyclopedia.com and MacTutor: the letters of 29 May 1832, comprising the address 'a tous les republicains' naming an 'infame coquette' and two dupes, letters to friends saying he was 'provoque par deux patriotes' who acted 'de bonne foi', and the scientific testament to Auguste Chevalier summarising his results on the theory of equations and on elliptic functions. The room is fixed by no source reached; the pin follows the Faultrier house where he had been living since 16 March. The letter texts are read here through MacTutor and the pool's transcription of fr.wikisource. The marginal note 'Je n'ai pas le temps' belongs to manuscripts annotated in this period and is widely miscited as proof that the whole theory was composed in a single final night, which it was not.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390332.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) span/window",
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (span/window, no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.57,
+    "text": "Gemini 7°34′",
+    "longitude": 67.573
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 23.77,
+    "text": "Taurus 23°46′",
+    "longitude": 53.771
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 13.86,
+    "text": "Taurus 13°52′",
+    "longitude": 43.864
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 21.43,
+    "text": "Taurus 21°26′",
+    "longitude": 51.434
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 26.02,
+    "text": "Pisces 26°01′",
+    "longitude": 356.016
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 24.82,
+    "text": "Pisces 24°49′",
+    "longitude": 354.824
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 8.65,
+    "text": "Virgo 8°39′",
+    "longitude": 158.646
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Weeks",
+   "stop": "Étang de la Glacière, the pistol at twenty-five paces",
+   "date": "1832-05-30",
+   "date_confidence": "attested by fr.wikipedia for date and general location: 'Le duel a lieu le 30 mai au matin, pres de l'etang de la Glaciere.' The pond's exact site is not documented; the pin is placed on the rue de la Glaciere, 48 deg 49 min 54 sec N, 2 deg 20 min 40 sec E, and the pool's coordinates about 400 m south are replaced. The opponent's name is corrected from MacTutor's 'Perscheux d'Herbinville' to the 'Pescheux d'Herbinville' of Dumas's own text; the identification is Dumas's, made decades later, and he was not an eyewitness to the duel. The rescue by a passerby is tagged R, from Dupuy through the dossier.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390333.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.53,
+    "text": "Gemini 8°32′",
+    "longitude": 68.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Weeks",
+   "stop": "Hôpital Cochin, the last morning",
+   "date": "1832-05-31",
+   "date_confidence": "attested by Encyclopedia.com, MacTutor and fr.wikipedia: brought in around half past nine on the morning of 30 May, death at about ten o'clock on the morning of 31 May 1832 of peritonitis from the gunshot wound, aged twenty years and seven months, with his brother Alfred present, a priest refused, and the death certificate giving his age wrongly as twenty-one. The last words are tagged R: very widely repeated, but the primary citation, Dupuy 1896 or the family account, was not opened in the research pass. Coordinates inherited byte-identical from simone_de_beauvoir.journey.json, which gives the Hopital Cochin as 48.8370, 2.3402.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390334.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.49,
+    "text": "Gemini 9°29′",
+    "longitude": 69.489
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.58,
+    "text": "Gemini 23°35′",
+    "longitude": 83.577
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 15.48,
+    "text": "Taurus 15°29′",
+    "longitude": 45.483
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 23.88,
+    "text": "Taurus 23°53′",
+    "longitude": 53.877
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 27.47,
+    "text": "Pisces 27°28′",
+    "longitude": 357.471
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 25.11,
+    "text": "Pisces 25°06′",
+    "longitude": 355.106
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 8.71,
+    "text": "Virgo 8°43′",
+    "longitude": 158.714
+   }
+  },
+  {
+   "segment": "The Common Grave and the Papers",
+   "stop": "Cimetière du Montparnasse, the fosse commune",
+   "date": "1832-06-02",
+   "date_confidence": "attested by fr.wikipedia and Encyclopedia.com for the burial on 2 June 1832 in the fosse commune, the coffin carried on foot by friends, the crowd of two to three thousand, the heavy police presence, and the absence of any surviving individual grave. MacTutor's statement that riots lasted several days following Galois's own funeral is flagged in the research pool as a conflation with the June Insurrection, which gathered around General Lamarque's funeral on 5 June, and it is not carried here. Coordinates inherited byte-identical from julio_cortazar.journey.json; the atlas holds a second Montparnasse pin at 48.8409, 2.3265 in captain_alfred_dreyfus.journey.json, and since Galois lies in the common ground neither marks a plot of his.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390336.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.4,
+    "text": "Gemini 11°24′",
+    "longitude": 71.404
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 23.43,
+    "text": "Cancer 23°26′",
+    "longitude": 113.43
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 17.34,
+    "text": "Taurus 17°20′",
+    "longitude": 47.34
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 26.32,
+    "text": "Taurus 26°19′",
+    "longitude": 56.32
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 28.92,
+    "text": "Pisces 28°55′",
+    "longitude": 358.923
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 25.38,
+    "text": "Pisces 25°23′",
+    "longitude": 355.378
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 8.79,
+    "text": "Virgo 8°47′",
+    "longitude": 158.787
+   }
+  },
+  {
+   "segment": "The Common Grave and the Papers",
+   "stop": "Institut de France, the papers read at last",
+   "date": "1843-09-04",
+   "date_confidence": "attested: fr.wikipedia dates Joseph Liouville's announcement to the Academie to 4 September 1843, quoting 'dans les papiers d'Evariste Galois, j'ai trouve une solution aussi exacte que profonde de ce beau probleme', and the Numdam record gives the publication as 'Oeuvres mathematiques d'Evariste Galois', Journal de mathematiques pures et appliquees, series 1, vol. 11 (1846), pp. 381-444. The research pool's '1842' for Liouville beginning work is unsupported by its own cited source and is dropped. Note on placement: the travelling here is Liouville's, and the stop is Galois's only because the manuscripts are. The later diffusion through Betti, Cayley, Jordan, Serret, Dedekind, Kronecker, Bachmann and Weber is attested by fr.wikipedia citing Ehrhardt (2011).",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1843,
+   "jd_ut": 2394447.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 10.78,
+    "text": "Virgo 10°47′",
+    "longitude": 160.782
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 15.23,
+    "text": "Capricornus 15°14′",
+    "longitude": 285.235
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 2.46,
+    "text": "Libra 2°27′",
+    "longitude": 182.457
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 3.11,
+    "text": "Virgo 3°06′",
+    "longitude": 153.106
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 22.95,
+    "text": "Sagittarius 22°57′",
+    "longitude": 262.954
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 20.15,
+    "text": "Aquarius 20°09′",
+    "longitude": 320.149
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 19.38,
+    "text": "Capricornus 19°23′",
+    "longitude": 289.376
+   }
+  }
+ ],
+ "counts": {
+  "stops": 42,
+  "dated": 42,
+  "unparsed": 0,
+  "day": 19,
+  "month": 6,
+  "year": 17
+ },
+ "parse_failures": []
+}

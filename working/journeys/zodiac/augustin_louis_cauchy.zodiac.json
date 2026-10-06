@@ -1,0 +1,1868 @@
+{
+ "slug": "augustin_louis_cauchy",
+ "traveler": "Augustin-Louis Cauchy",
+ "title": "The Oath He Would Not Swear: Rigor, Exile, and the Seats of the Purged",
+ "years": "1789-1857",
+ "years_parsed": {
+  "first": 1789,
+  "last": 1857
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Child of the Rue Saint-Honore",
+  "stop": "Eglise Saint-Roch, Paris: baptized on the day of his birth",
+  "date": "1789-08-21",
+  "date_confidence": "attested. fr.wikipedia gives the birth on the rue Saint-Honore and the baptism the same day at Saint-Roch; MacTutor and en.wikipedia agree on the date. The pin is the church of Saint-Roch, not the birth house, whose number is not recorded in any source reached.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1789,
+  "jd_ut": 2374711.5,
+  "precision": "year",
+  "precision_triggers": [
+   "not recorded"
+  ],
+  "sun": {
+   "sign": "Leo",
+   "degree": 28.27,
+   "text": "Leo 28°16′",
+   "longitude": 148.267
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1789-1857",
+  "first_year_parsed": 1789
+ },
+ "stops": [
+  {
+   "segment": "The Child of the Rue Saint-Honore",
+   "stop": "Eglise Saint-Roch, Paris: baptized on the day of his birth",
+   "date": "1789-08-21",
+   "date_confidence": "attested. fr.wikipedia gives the birth on the rue Saint-Honore and the baptism the same day at Saint-Roch; MacTutor and en.wikipedia agree on the date. The pin is the church of Saint-Roch, not the birth house, whose number is not recorded in any source reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1789,
+   "jd_ut": 2374711.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 28.27,
+    "text": "Leo 28°16′",
+    "longitude": 148.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Child of the Rue Saint-Honore",
+   "stop": "Arcueil: the half pound of bread",
+   "date": "1793-06-01",
+   "date_confidence": "the move is attested, the year is not settled. MacTutor and en.wikipedia render it loosely as 'at age four', giving c. 1793; fr.wikipedia ties the retreat specifically to the aftermath of the execution of Thiroux de Crosne on 28 April 1794. Safest reading: c. 1793-94, during the Terror. The date here orders the segment and should not be quoted as a fact. Coordinates inherited byte-identical from charles_babbage.journey.json and erik_satie.journey.json, which both pin Arcueil at 48.7994, 2.3336; note that OSM puts the Arcueil town centre some 800 m north of that, a discrepancy inherited with the pin and flagged in the report rather than fixed here. The quotation is given by MacTutor as Cauchy's own letter from Arcueil, which would make him about five when he wrote it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2376091.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "ordering",
+    "editorial (the date)"
+   ],
+   "notes": [
+    "hard triggers (c.) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.85,
+    "text": "Gemini 10°51′",
+    "longitude": 70.855
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Child of the Rue Saint-Honore",
+   "stop": "Ecole Centrale du Pantheon, Paris: Latin before mathematics",
+   "date": "1802-01-01",
+   "date_confidence": "the schooling in 1802-1804 and its classical content are attested by MacTutor and en.wikipedia; the month is not recorded and defaults to January. The story that Lagrange, a visitor at the family table, advised the father to keep the boy off mathematics until he had languages is biographical tradition running through Belhoste, unverified in this pass and marked as tradition in the prose.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379226.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "not recorded",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.943
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Child of the Rue Saint-Honore",
+   "stop": "Ecole Polytechnique, Paris: second of two hundred and ninety-three",
+   "date": "1805-01-01",
+   "date_confidence": "attested for the year, the examiner and the placing. en.wikipedia: 'In 1805, he placed second of 293 applicants on this exam and was admitted'; MacTutor names Biot as examiner and Lacroix, de Prony, Hachette as teachers with Ampere as analysis tutor. Month not recorded. Coordinate corrected from the research pool's 48.8459, 2.3499 to the OSM value for the historic Montagne Sainte-Genevieve campus at 1 rue Descartes; the pool's value fell about 160 m south on rue Clovis and was reused at three separate entries.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380322.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "to the year",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.22,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.22
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Child of the Rue Saint-Honore",
+   "stop": "Ecole des Ponts et Chaussees, Paris: the canal and the state engineer",
+   "date": "1807-01-01",
+   "date_confidence": "the 1807-1810 attendance is attested by MacTutor and en.wikipedia, and en.wikipedia attests the Ourcq Canal work; Pierre-Simon Girard as the named supervisor comes through the dossier and is reconstruction. The completion 'with highest honors' is en.wikipedia's wording, reported rather than documented from an examination record, and is treated as reconstruction. Month not recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1807,
+   "jd_ut": 2381052.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.725
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cherbourg, the Emperor's Port",
+   "stop": "Cherbourg: the arrival with Laplace in the luggage",
+   "date": "1810-03-01",
+   "date_confidence": "attested for the posting and for March 1810 as its start, by MacTutor and en.wikipedia. The four-book luggage list, Laplace, Lagrange, Virgil and the Imitation of Christ, comes through Belhoste as digested in the dossier; MacTutor independently carries the two mathematical volumes. Coordinates inherited byte-identical from louis_xvi.journey.json and georges_sorel.journey.json, which both pin Cherbourg at 49.6462, -1.6157.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1810,
+   "jd_ut": 2382207.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.8,
+    "text": "Pisces 9°48′",
+    "longitude": 339.803
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cherbourg, the Emperor's Port",
+   "stop": "Cherbourg: the charge of pride",
+   "date": "1810-10-01",
+   "date_confidence": "the letter is attested to 1810 by MacTutor, citing Belhoste; the month is not given and defaults here to October to sit after the arrival. Nothing in the record fixes the season.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1810,
+   "jd_ut": 2382421.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.15,
+    "text": "Libra 7°09′",
+    "longitude": 187.148
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cherbourg, the Emperor's Port",
+   "stop": "Cherbourg: the rigidity of the polyhedron",
+   "date": "1811-01-01",
+   "date_confidence": "attested to 1811 by MacTutor for the polyhedra theorem and to 1812 for the further papers on polygons and polyhedra, with Legendre and Malus named as the men encouraging him from Paris. Month not recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1811,
+   "jd_ut": 2382513.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.75,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.754
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cherbourg, the Emperor's Port",
+   "stop": "Cherbourg: the return through illness",
+   "date": "1812-09-01",
+   "date_confidence": "September 1812 is attested for the departure by both MacTutor and en.wikipedia. The nature of the illness is not: modern historians debate whether it was physical illness or a depressive episode, and the surviving evidence does not permit a secure clinical judgement. The prose says so rather than choosing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383122.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.36,
+    "text": "Virgo 8°21′",
+    "longitude": 158.357
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cherbourg, the Emperor's Port",
+   "stop": "Institut de France, Paris: the memoir on symmetric functions",
+   "date": "1812-11-01",
+   "date_confidence": "attested to November 1812 for the submission and 1815 for the publication in the Journal de l'Ecole Polytechnique, by MacTutor and en.wikipedia. Coordinates inherited byte-identical from evariste_galois.journey.json, itself inherited from joseph_fourier.journey.json, which pins the Palais de l'Institut on the quai Conti at 48.8566, 2.3376.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383183.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.46,
+    "text": "Scorpio 8°27′",
+    "longitude": 218.458
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seats of the Purged",
+   "stop": "Institut de France, Paris: fifty-three votes and none of them his",
+   "date": "1814-01-01",
+   "date_confidence": "the pattern of repeated failure to obtain an Institute seat in 1813-1815 is attested by MacTutor and en.wikipedia, with the Bureau des Longitudes place going to Legendre and the geometry seat to Poinsot. The specific count of zero votes out of fifty-three is reconstruction: it reaches the pool through Belhoste as digested in the dossier and was not checked against a primary register. The 1814 memoir on definite integrals is attested. Month not recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383609.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "not recorded",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.031
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seats of the Purged",
+   "stop": "Ecole Polytechnique, Paris: assistant professor of analysis",
+   "date": "1815-01-01",
+   "date_confidence": "attested by MacTutor and en.wikipedia: the mechanics chair went to Jacques Binet, Cauchy took the assistant professorship of analysis and the second-year course, and was promoted to full professor after an initial one-year contract. Month not recorded. Coordinate corrected as at the 1805 stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2383974.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.78,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.784
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seats of the Purged",
+   "stop": "Institut de France, Paris: the Grand Prix for the propagation of waves",
+   "date": "1816-01-01",
+   "date_confidence": "attested for 1816 by MacTutor and en.wikipedia. Month not recorded. The memoir's later importance, its Lagrangian formulation of the three-dimensional incompressible Euler equations with three conserved invariants, is not stated in the campa because its rediscovery is a twentieth and twenty-first century matter; it is carried in the refs instead.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1816,
+   "jd_ut": 2384339.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "not given",
+    "year named only",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.54,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.536
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seats of the Purged",
+   "stop": "Institut de France, Paris: the seat that Carnot and Monge vacate",
+   "date": "1816-03-01",
+   "date_confidence": "attested by MacTutor and en.wikipedia for March 1816 and for the fact that the seat opened through the Bourbon Restoration purge that removed Lazare Carnot and Gaspard Monge. That contemporaries held the manner of entry against him is biographical tradition; the judgement that his mathematics already met Academy standard is the research pool's and is not a source's words.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1816,
+   "jd_ut": 2384399.5,
+   "precision": "month",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.35,
+    "text": "Pisces 10°21′",
+    "longitude": 340.349
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seats of the Purged",
+   "stop": "College de France, Paris: standing in for Biot",
+   "date": "1817-01-01",
+   "date_confidence": "attested to 1817 by MacTutor, which gives Biot's departure for the Shetland Islands as the occasion and names integration methods and convergence as the subject. Month not recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384705.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.308
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aloise de Bure",
+   "stop": "Eglise Saint-Sulpice, Paris: the marriage to Aloise de Bure",
+   "date": "1818-04-04",
+   "date_confidence": "attested by en.wikipedia: 'Aloise and Augustin were married on April 4, 1818, with great Roman Catholic ceremony, in the Church of Saint-Sulpice.' The daughters' birth years, 1819 and 1823, are attested by the same article. Coordinates inherited byte-identical from victor_hugo.journey.json, which pins Saint-Sulpice at 48.8514, 2.3342.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1818,
+   "jd_ut": 2385163.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 13.64,
+    "text": "Aries 13°38′",
+    "longitude": 13.64
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 24.35,
+    "text": "Pisces 24°21′",
+    "longitude": 354.346
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 14.15,
+    "text": "Aries 14°09′",
+    "longitude": 14.151
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 19.2,
+    "text": "Aries 19°12′",
+    "longitude": 19.199
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 4.33,
+    "text": "Cancer 4°20′",
+    "longitude": 94.329
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 11.99,
+    "text": "Capricornus 11°59′",
+    "longitude": 281.987
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 12.48,
+    "text": "Pisces 12°29′",
+    "longitude": 342.477
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Aloise de Bure",
+   "stop": "Maison Trudon, Sceaux: the summers begin",
+   "date": "1822-06-01",
+   "date_confidence": "reconstruction as to the start date: the c. 1822 summers at his wife's family property at Sceaux come through Belhoste as digested in the dossier, and are corroborated only indirectly by fr.wikipedia's account of his death 'dans la maison familiale de sa femme a Sceaux'. Month chosen to signal a summer residence, not recorded. Coordinates inherited byte-identical from eugene_grasset.journey.json and the other atlas Sceaux files, which pin the town at 48.7784, 2.2903.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386682.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "not recorded",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.89,
+    "text": "Gemini 9°53′",
+    "longitude": 69.889
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigor and the Referee's Table",
+   "stop": "Institut de France, Paris: Poncelet on the pavement",
+   "date": "1820-01-01",
+   "date_confidence": "the Poncelet quotation is attested, given in full by MacTutor; the framing of the encounter as a harsh refereeing of the projective geometry after Cauchy's 1820 criticism comes through the dossier's summary of Belhoste and is reconstruction as to date and circumstance. Month not recorded. Poncelet has no atlas journey file and does not appear in QUEUE.md.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1820,
+   "jd_ut": 2385800.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.57,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.566
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigor and the Referee's Table",
+   "stop": "Ecole royale polytechnique, Paris: the Cours d'analyse",
+   "date": "1821-01-01",
+   "date_confidence": "attested to 1821 by MacTutor and en.wikipedia. Month not recorded. The reach of the book's consequences is the research pool's judgement rather than a source's wording, and is stated as a plain claim.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1821,
+   "jd_ut": 2386166.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°20′",
+    "longitude": 280.338
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigor and the Referee's Table",
+   "stop": "Ecole royale polytechnique, Paris: the Resume des lecons",
+   "date": "1823-01-01",
+   "date_confidence": "attested to 1823 by MacTutor and en.wikipedia for the Resume des lecons donnees a l'Ecole royale polytechnique sur le calcul infinitesimal, and by en.wikipedia for the birth of Marie-Mathilde in the same year. Month not recorded for either.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1823,
+   "jd_ut": 2386896.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.843
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigor and the Referee's Table",
+   "stop": "Institut de France, Paris: the calculus of residues",
+   "date": "1826-01-01",
+   "date_confidence": "the formal development of the calculus of residues in 1826 is attested by en.wikipedia and MacTutor, and the integral theorem in full developed form is attested to 1825 by en.wikipedia. The start of the Exercices de mathematiques as a self-published annual serial in 1826 is reconstruction, resting on the standard Belhoste-derived account as digested in the dossier and not re-checked against a bibliographic record. Month not recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2387992.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.119
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigor and the Referee's Table",
+   "stop": "Institut de France, Paris: Abel's memoir on the referees' table",
+   "date": "1826-10-01",
+   "date_confidence": "the 1826 submission of Abel's memoir on transcendental functions and its referral to Cauchy and Legendre are attested by en.wikipedia; the month is not recorded and October is used only to sit the stop after the residues. Abel's remark is attested by MacTutor to 1826. The reading that Cauchy buried the memoir out of jealousy is later legend, not established fact, and the prose says so.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2388265.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "legend",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.27,
+    "text": "Libra 7°16′",
+    "longitude": 187.272
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigor and the Referee's Table",
+   "stop": "Institut de France, Paris: the memoirs of Evariste Galois",
+   "date": "1829-05-25",
+   "date_confidence": "attested for the submissions of 25 May and 1 June 1829, for Cauchy and Poinsot as referees, and for the loss of the manuscripts. Rene Taton's 1971 reconstruction of the Academy registers, which suggests Cauchy engaged seriously and that Galois withdrew the papers himself to rework them for the Grand Prix, is cited here at second hand through MacTutor and through evariste_galois.journey.json, and was not opened directly. Coordinates and framing inherited from evariste_galois.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389232.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.47,
+    "text": "Gemini 3°28′",
+    "longitude": 63.474
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 22.34,
+    "text": "Aquarius 22°20′",
+    "longitude": 322.339
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 21.65,
+    "text": "Gemini 21°39′",
+    "longitude": 81.653
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 4.59,
+    "text": "Gemini 4°35′",
+    "longitude": 64.59
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 0.62,
+    "text": "Cancer 0°37′",
+    "longitude": 90.625
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 11.4,
+    "text": "Sagittarius 11°24′",
+    "longitude": 251.403
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 0.18,
+    "text": "Leo 0°11′",
+    "longitude": 120.182
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Rigor and the Referee's Table",
+   "stop": "Rue Serpente, Paris: the Lecons and Fourier's series",
+   "date": "1829-09-01",
+   "date_confidence": "the 1829 Lecons sur le calcul differentiel, published through De Bure freres and containing one of the first formal definitions of a complex function of a complex variable, is attested by MacTutor and en.wikipedia; the month is not recorded. That Dirichlet's 1829 work on the convergence of Fourier series explicitly corrected errors in an earlier Cauchy attempt is reconstruction, drawn from standard history-of-analysis scholarship as summarized through Belhoste and not re-fetched from a primary paper. The rue Serpente pin is the de Bure family address, itself a reconstruction from Belhoste, used here for the publishing house rather than as a residence scene.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389331.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.25,
+    "text": "Virgo 8°15′",
+    "longitude": 158.248
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oath Refused",
+   "stop": "Fribourg, Switzerland: the Academie Helvetique that never opens",
+   "date": "1830-09-01",
+   "date_confidence": "attested by fr.wikipedia: 'Des les premiers jours de septembre 1830 il s'exile volontairement a Fribourg en Suisse', and by MacTutor and en.wikipedia for the refusal of the oath to Louis-Philippe as the cause. The collapse of the projected Catholic Academie Helvetique is attested by the same French article.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389696.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.01,
+    "text": "Virgo 8°01′",
+    "longitude": 158.014
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oath Refused",
+   "stop": "University of Turin: the chair the King makes for him",
+   "date": "1831-10-01",
+   "date_confidence": "attested by MacTutor and en.wikipedia: the chair of theoretical physics was created for him with the support of the King of Piedmont-Sardinia, teaching began in 1832, and papers went to the Academy of Sciences of Turin from 1831 including material on the integral formula and the residue theorem. The month is not recorded. Menabrea's recollection is attested by MacTutor. Coordinates inherited byte-identical from charles_babbage.journey.json, which pins Turin at 45.0703, 7.6869.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390091.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.06,
+    "text": "Libra 7°04′",
+    "longitude": 187.065
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oath Refused",
+   "stop": "Prague: tutor to the Duke of Bordeaux",
+   "date": "1833-08-01",
+   "date_confidence": "attested by fr.wikipedia ('Il quitte Turin en juillet 1833 et s'installe a Prague') and by MacTutor and en.wikipedia for the post as scientific tutor to Henri d'Artois, Duke of Bordeaux. The Baron de Damas recruitment letter of 22 June 1833 comes through the dossier and is reconstruction. The barony is attested by en.wikipedia and by fr.wikipedia, which names Charles X as grantor; since Charles X died on 6 November 1836 the grant must predate that, and fr.wikipedia's chaining of it to the 1838 return cannot stand. The 'sewers of Paris' remark is a later comic anecdote in the biographical tradition, not a documented exchange, and the prose labels it as repetition.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1833,
+   "jd_ut": 2390761.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.45,
+    "text": "Leo 8°27′",
+    "longitude": 128.447
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 12.49,
+    "text": "Aquarius 12°29′",
+    "longitude": 312.486
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 4.63,
+    "text": "Virgo 4°38′",
+    "longitude": 154.625
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 22.89,
+    "text": "Gemini 22°54′",
+    "longitude": 82.893
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 8.3,
+    "text": "Virgo 8°18′",
+    "longitude": 158.295
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 4.62,
+    "text": "Taurus 4°37′",
+    "longitude": 34.616
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 25.06,
+    "text": "Virgo 25°04′",
+    "longitude": 175.061
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Mercury",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Oath Refused",
+   "stop": "Prague: Bolzano asks to meet",
+   "date": "1834-03-01",
+   "date_confidence": "the 1834 meeting at Bolzano's own request is attested through the modern historiographical literature as digested in the dossier; the month is not recorded. The plagiarism controversy over the origin of the definitions of continuity is a disputed later interpretation and is reconstruction, not fact. The publication dates given in the prose, Bolzano 1817 and Cauchy 1821, are themselves attested and are left to speak.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1834,
+   "jd_ut": 2390973.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "disputed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.98,
+    "text": "Pisces 9°59′",
+    "longitude": 339.983
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oath Refused",
+   "stop": "Prague: the family crosses Europe",
+   "date": "1834-09-01",
+   "date_confidence": "attested to 1834 by fr.wikipedia ('rejoint par sa femme et ses deux filles en 1834') and by en.wikipedia. The month is not recorded. Nothing about the journey itself, or about what passed by letter in the preceding four years, survives in any source reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1834,
+   "jd_ut": 2391157.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.05,
+    "text": "Virgo 8°03′",
+    "longitude": 158.046
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oath Refused",
+   "stop": "Teplice, Bohemia: the court on the move",
+   "date": "1835-06-01",
+   "date_confidence": "attested by fr.wikipedia, which lists Toeplitz among the exiled court's stops for 1835. The month is not recorded and June is used only to order the itinerary. That his output slowed in these years is the standard biographical account rather than a counted fact.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391430.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.75,
+    "text": "Gemini 9°45′",
+    "longitude": 69.752
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oath Refused",
+   "stop": "Gorlitz, Silesia: the itinerant tutor",
+   "date": "1836-08-01",
+   "date_confidence": "attested by fr.wikipedia, which gives 'en 1836 a Budweitz, Kirchberg et Gorlitz' among the court's stops; Gorlitz was then in Prussian Silesia. The month is not recorded. Coordinate corrected from the research pool's 51.1642, 14.9857 to the OSM value for the town centre, about 960 m to the south-east. Kirchberg, also a 1836 stop, is omitted here for want of a coordinate and is named in the report.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391857.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.71,
+    "text": "Leo 8°43′",
+    "longitude": 128.71
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Elected and Unpaid",
+   "stop": "Paris: the return from eight years",
+   "date": "1838-10-01",
+   "date_confidence": "attested by en.wikipedia for the end of the tutorship in September 1838 when the Duke turned eighteen, and by MacTutor and en.wikipedia for the return to Paris, the recovery of the Academie seat, and the exclusion from teaching and salaried university roles for refusing the oath. The month of the return is not recorded and October orders the segment. The Comptes rendus page limit is a standard biographical detail, not re-verified in this pass. Coordinates inherited from alexis_de_tocqueville.journey.json, which pins Paris at 48.8566, 2.3522.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1838,
+   "jd_ut": 2392648.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.36,
+    "text": "Libra 7°22′",
+    "longitude": 187.365
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Elected and Unpaid",
+   "stop": "Observatoire de Paris: elected to the Bureau des Longitudes, and not seated",
+   "date": "1839-11-01",
+   "date_confidence": "attested for November 1839 by en.wikipedia and MacTutor: elected, then denied the appointment and salary for refusing the oath, and replaced by Louis Poinsot at the end of 1843. The names of the backers, Biot and Arago, and of the opponent, Poisson, come through the dossier's citation of a modern Bureau des Longitudes historical project that treats the episode as an election not validated; that project page was not opened directly in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1839,
+   "jd_ut": 2393044.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.91,
+    "text": "Scorpio 7°55′",
+    "longitude": 217.911
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Elected and Unpaid",
+   "stop": "Institut de France, Paris: the Exercices d'analyse",
+   "date": "1840-01-01",
+   "date_confidence": "attested by MacTutor for the four-volume Exercices d'analyse et de physique mathematique beginning in 1840 and appearing across the decade, and for the figure of 789 papers in the collected works. The month is not recorded. fr.wikipedia rounds the paper count to 'pres de 800 parutions'; the discrepancy is flagged in the report and the MacTutor figure is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393105.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "disputed",
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.71,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.713
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Elected and Unpaid",
+   "stop": "Paris: La Chandeleur",
+   "date": "1843-02-01",
+   "date_confidence": "attested: the piece 'La Chandeleur' appeared in the Bulletin de l'Institut Catholique on 1 February 1843 and is quoted in Belhoste (1991), ch. 13, as reproduced on Wikiquote. The place of writing is not recorded; the generic Paris pin is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1843,
+   "jd_ut": 2394232.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) generic"
+   ],
+   "notes": [
+    "hard triggers (not recorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.54,
+    "text": "Aquarius 11°33′",
+    "longitude": 311.542
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 28.33,
+    "text": "Aquarius 28°20′",
+    "longitude": 328.328
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 29.72,
+    "text": "Aquarius 29°43′",
+    "longitude": 329.719
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 28.53,
+    "text": "Sagittarius 28°32′",
+    "longitude": 268.526
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 19.34,
+    "text": "Scorpio 19°21′",
+    "longitude": 229.343
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 6.33,
+    "text": "Aquarius 6°20′",
+    "longitude": 306.328
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 19.5,
+    "text": "Capricornus 19°30′",
+    "longitude": 289.499
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Elected and Unpaid",
+   "stop": "College de France, Paris: the chair goes to Libri",
+   "date": "1843-05-01",
+   "date_confidence": "attested to 1843 by MacTutor and by en.wikipedia's article on Guglielmo Libri for the College de France succession after Lacroix's death, with Cauchy, Liouville and Libri as the candidates and Libri chosen; the month is not recorded and May is used to order the segment. Liouville's letter of the following day is attested by MacTutor. Libri's later exposure as a thief of library manuscripts is attested by en.wikipedia.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1843,
+   "jd_ut": 2394321.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.96,
+    "text": "Taurus 9°57′",
+    "longitude": 39.957
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Oath",
+   "stop": "Faculte des sciences de Paris: reinstated",
+   "date": "1849-03-01",
+   "date_confidence": "attested: en.wikipedia gives the formal reinstatement as professor of mathematical astronomy at the Faculte des sciences de Paris on 1 March 1849, once the oath requirement had been abolished after the 1848 revolution; MacTutor corroborates the 1848-1849 return. Coordinate corrected from the research pool's 48.8467, 2.3431 to the OSM value for the Centre Sorbonne at 17 rue de la Sorbonne; the pool's value fell about 210 m south, near rue Cujas.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396452.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.35,
+    "text": "Pisces 10°21′",
+    "longitude": 340.346
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 27.1,
+    "text": "Taurus 27°06′",
+    "longitude": 57.096
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 0.39,
+    "text": "Pisces 0°23′",
+    "longitude": 330.389
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 26.7,
+    "text": "Aries 26°42′",
+    "longitude": 26.699
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 0.41,
+    "text": "Aquarius 0°24′",
+    "longitude": 300.405
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 14.75,
+    "text": "Leo 14°45′",
+    "longitude": 134.749
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 25.76,
+    "text": "Pisces 25°45′",
+    "longitude": 355.758
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "After the Oath",
+   "stop": "College de France, Paris: the chair lost to Liouville",
+   "date": "1850-01-01",
+   "date_confidence": "attested to 1850 by MacTutor for the loss of a chair election to Joseph Liouville; the month is not recorded. The characterization of the running Cauchy-Liouville quarrel over priority and Academy business is the standard biographical account rather than a single sourced claim.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396758.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.3,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.296
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Oath",
+   "stop": "Paris: Considerations sur les ordres religieux",
+   "date": "1850-06-01",
+   "date_confidence": "attested to 1850 for the pamphlet, published by Pommeret et Moreau; the quotation is from p. 26, in the translation by Julio Antonio Gonzalo in The Intelligible Universe (World Scientific, 2008), p. 301, as given on Wikiquote. The month is not recorded. A companion sentence on the same page, naming Corneille, Racine, Bossuet and Fenelon, is quoted on Wikiquote in a rendering with visible OCR damage and is not used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396909.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.11,
+    "text": "Gemini 10°07′",
+    "longitude": 70.111
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Oath",
+   "stop": "Paris: the minister and the Emperor",
+   "date": "1852-04-01",
+   "date_confidence": "attested for 1852 by en.wikipedia, whose wording is: 'This time a cabinet minister was able to convince the Emperor to exempt Cauchy from the oath.' The research pool's chronology overstated this as a personal decree of Napoleon III on his own initiative; the corrected version is used. The month is not recorded. The American Academy of Arts and Sciences election (1832) and the American Philosophical Society election (1853) are both attested by en.wikipedia.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397579.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.44,
+    "text": "Aries 11°26′",
+    "longitude": 11.438
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Oath",
+   "stop": "Paris: the Oeuvre des Ecoles d'Orient",
+   "date": "1856-04-04",
+   "date_confidence": "attested to 4 April 1856 through the modern Oeuvre d'Orient's own historical presentation and a Bibliotheque nationale de France listing of founding professors that names Cauchy among them, both reached via the working dossier rather than opened directly in this pass. The founders named, Lenormant, Falloux, Montalembert and Ravignan, come from the same source. The pin is a generic central Paris address; the founding venue is not recorded in the material reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399043.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) generic"
+   ],
+   "notes": [
+    "hard triggers (not recorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 14.42,
+    "text": "Aries 14°25′",
+    "longitude": 14.423
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 26.79,
+    "text": "Pisces 26°47′",
+    "longitude": 356.791
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 23.55,
+    "text": "Pisces 23°33′",
+    "longitude": 353.545
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 16.24,
+    "text": "Pisces 16°15′",
+    "longitude": 346.243
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 12.41,
+    "text": "Libra 12°25′",
+    "longitude": 192.41
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 22.4,
+    "text": "Pisces 22°24′",
+    "longitude": 352.399
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 24.67,
+    "text": "Gemini 24°40′",
+    "longitude": 84.669
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Sceaux",
+   "stop": "Sceaux: the girls' school and the patronage",
+   "date": "1855-01-01",
+   "date_confidence": "attested by sceaux-lagazette.fr, which reports that Cauchy financed a girls' school and a boys' patronage at Sceaux in his final years and gives the mayor Edmond Guyon's funeral tribute to his care for 'the elderly, children, all that is interesting and weak'. The date is given only as the 1850s; January 1855 orders the segment and should not be quoted. Coordinates inherited byte-identical from eugene_grasset.journey.json and the other Sceaux files.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398584.5,
+   "precision": "month",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.078
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sceaux",
+   "stop": "Sceaux, the house in the grounds of the Lycee Marie-Curie: the last morning",
+   "date": "1857-05-23",
+   "date_confidence": "the date and place are attested: fr.wikipedia gives 'Le 23 mai, vers 4 h du matin, il meurt d'un rhume dans la maison familiale de sa femme a Sceaux', and sceaux-lagazette.fr identifies the house as one still standing within the grounds of the Lycee Marie-Curie. Source pairing is loose: sceaux-lagazette gives neither the four o'clock hour nor the cause, both of which come from en.wikipedia and MacTutor. The deathbed account is his daughter's letter, printed in Valson (1868) and reproduced by MacTutor: later family testimony, not an independent record. Coordinate corrected from the research pool's 48.7784, 2.2903 to the OSM value for the Lycee Marie Curie at 1 rue Constant Pilate, about 220 m away.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399457.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 1.78,
+    "text": "Gemini 1°47′",
+    "longitude": 61.775
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 23.0,
+    "text": "Taurus 23°00′",
+    "longitude": 53.0
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 14.73,
+    "text": "Gemini 14°44′",
+    "longitude": 74.729
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 12.97,
+    "text": "Taurus 12°58′",
+    "longitude": 42.974
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 5.85,
+    "text": "Gemini 5°51′",
+    "longitude": 65.852
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 1.81,
+    "text": "Taurus 1°48′",
+    "longitude": 31.808
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 12.02,
+    "text": "Cancer 12°01′",
+    "longitude": 102.017
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    },
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Sceaux",
+   "stop": "Cimetiere de Sceaux: the burial",
+   "date": "1857-05-26",
+   "date_confidence": "the burial at the cimetiere de Sceaux is attested by fr.wikipedia and sceaux-lagazette.fr; the exact day is not recorded and 26 May orders the sequence. The exact plot within the cemetery is unknown to every source reached and is stated as a gap. sceaux-lagazette.fr confirms the mayor's tribute and that the funeral drew prominent scientists from Paris, but does not name the Institut, the Sorbonne and the College de France specifically, so the prose does not either. Coordinate corrected: the research pool's two lenses gave 48.7799, 2.2969 and 48.7793, 2.2893 and both missed; OSM verifies the cemetery at 48.7798, 2.2838. The Oeuvres completes run to 27 volumes 1882-1974 by en.wikipedia, 28 volumes over the same span by fr.wikipedia, and 27 volumes 1882-1970 by MacTutor; the campa carries the disagreement rather than resolving it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399460.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "sequencing",
+    "not recorded",
+    "disputed",
+    "ordering",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 4.65,
+    "text": "Gemini 4°39′",
+    "longitude": 64.655
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 7,
+  "month": 8,
+  "year": 29
+ },
+ "parse_failures": []
+}

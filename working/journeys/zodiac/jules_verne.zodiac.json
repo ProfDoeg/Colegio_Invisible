@@ -1,0 +1,2099 @@
+{
+ "slug": "jules_verne",
+ "traveler": "Jules Gabriel Verne",
+ "title": "The Island in the Loire to the Grave at Amiens: the Saint-Michel, the Voyages Extraordinaires, and a Man Who Mostly Read His Way Around the World",
+ "years": "1828-1905",
+ "years_parsed": {
+  "first": 1828,
+  "last": 1905
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Island in the Loire",
+  "stop": "Île Feydeau, the house on the made ground",
+  "date": "1828-02-08",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1828,
+  "jd_ut": 2388760.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Aquarius",
+   "degree": 18.27,
+   "text": "Aquarius 18°16′",
+   "longitude": 318.272
+  },
+  "moon": {
+   "sign": "Scorpio",
+   "degree": 7.86,
+   "text": "Scorpio 7°52′",
+   "longitude": 217.864
+  },
+  "mercury": {
+   "sign": "Aquarius",
+   "degree": 21.83,
+   "text": "Aquarius 21°50′",
+   "longitude": 321.831
+  },
+  "venus": {
+   "sign": "Pisces",
+   "degree": 17.75,
+   "text": "Pisces 17°45′",
+   "longitude": 347.745
+  },
+  "mars": {
+   "sign": "Sagittarius",
+   "degree": 0.25,
+   "text": "Sagittarius 0°15′",
+   "longitude": 240.25
+  },
+  "jupiter": {
+   "sign": "Scorpio",
+   "degree": 13.77,
+   "text": "Scorpio 13°46′",
+   "longitude": 223.766
+  },
+  "saturn": {
+   "sign": "Cancer",
+   "degree": 14.56,
+   "text": "Cancer 14°34′",
+   "longitude": 104.562
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1828-1905",
+  "first_year_parsed": 1828
+ },
+ "stops": [
+  {
+   "segment": "The Island in the Loire",
+   "stop": "Île Feydeau, the house on the made ground",
+   "date": "1828-02-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1828,
+   "jd_ut": 2388760.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 18.27,
+    "text": "Aquarius 18°16′",
+    "longitude": 318.272
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 7.86,
+    "text": "Scorpio 7°52′",
+    "longitude": 217.864
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 21.83,
+    "text": "Aquarius 21°50′",
+    "longitude": 321.831
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 17.75,
+    "text": "Pisces 17°45′",
+    "longitude": 347.745
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 0.25,
+    "text": "Sagittarius 0°15′",
+    "longitude": 240.25
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.77,
+    "text": "Scorpio 13°46′",
+    "longitude": 223.766
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 14.56,
+    "text": "Cancer 14°34′",
+    "longitude": 104.562
+   }
+  },
+  {
+   "segment": "The Island in the Loire",
+   "stop": "Nantes, the removals of the Verne family",
+   "date": "1829-01-01",
+   "date_confidence": "each address attested; the date is the first move, and the sequence runs to 1842",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389088.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Island in the Loire",
+   "stop": "Paimboeuf, the boy taken off the Coralie",
+   "date": "1839-01-01",
+   "date_confidence": "tradition only; the story is a reconstruction popularised by his grand-niece Marguerite Allotte de la Fuye in 1928 and treated by later scholarship as exaggerated or invented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1839,
+   "jd_ut": 2392740.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.96
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Island in the Loire",
+   "stop": "Lycee Royal de Nantes, the average pupil",
+   "date": "1844-01-01",
+   "date_confidence": "attested to the year of enrolment",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394566.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.742
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Island in the Loire",
+   "stop": "Rennes, the baccalaureat",
+   "date": "1846-07-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395506.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 5.44,
+    "text": "Leo 5°26′",
+    "longitude": 125.441
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 7.39,
+    "text": "Libra 7°24′",
+    "longitude": 187.394
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 2.64,
+    "text": "Virgo 2°39′",
+    "longitude": 152.644
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 0.89,
+    "text": "Cancer 0°54′",
+    "longitude": 90.892
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 19.66,
+    "text": "Leo 19°40′",
+    "longitude": 139.659
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 9.86,
+    "text": "Gemini 9°51′",
+    "longitude": 69.857
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 28.94,
+    "text": "Aquarius 28°56′",
+    "longitude": 328.937
+   }
+  },
+  {
+   "segment": "Paris: the Law and the Boulevard",
+   "stop": "Latin Quarter, the law student after the barricades",
+   "date": "1848-07-01",
+   "date_confidence": "attested to the month; he arrives after the February overthrow and after the June Days, not during them",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396209.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.22,
+    "text": "Cancer 9°13′",
+    "longitude": 99.216
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Law and the Boulevard",
+   "stop": "Theatre Historique, Les Pailles rompues",
+   "date": "1850-06-12",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396920.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.63,
+    "text": "Gemini 20°38′",
+    "longitude": 80.63
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 14.32,
+    "text": "Cancer 14°19′",
+    "longitude": 104.319
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 18.02,
+    "text": "Gemini 18°01′",
+    "longitude": 78.02
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 16.44,
+    "text": "Cancer 16°26′",
+    "longitude": 106.435
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 15.74,
+    "text": "Leo 15°44′",
+    "longitude": 135.737
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 14.69,
+    "text": "Virgo 14°41′",
+    "longitude": 164.691
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 18.75,
+    "text": "Aries 18°45′",
+    "longitude": 18.753
+   }
+  },
+  {
+   "segment": "Paris: the Law and the Boulevard",
+   "stop": "Paris, the licence in law and the Musee des familles",
+   "date": "1851-01-01",
+   "date_confidence": "the degree is attested to January 1851; the stories are dated by the issues that carried them",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397123.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.049
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Law and the Boulevard",
+   "stop": "Amiens, the wedding of Auguste Lelarge",
+   "date": "1856-05-01",
+   "date_confidence": "attested to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399070.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.79,
+    "text": "Taurus 10°47′",
+    "longitude": 40.786
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Law and the Boulevard",
+   "stop": "Paris, marriage to Honorine Morel",
+   "date": "1857-01-10",
+   "date_confidence": "attested to the day; the church or mairie of the ceremony is named in no source reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399324.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.78,
+    "text": "Capricornus 19°47′",
+    "longitude": 289.776
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 14.91,
+    "text": "Cancer 14°55′",
+    "longitude": 104.914
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 7.17,
+    "text": "Aquarius 7°10′",
+    "longitude": 307.175
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 1.16,
+    "text": "Pisces 1°10′",
+    "longitude": 331.162
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 26.29,
+    "text": "Aquarius 26°18′",
+    "longitude": 326.293
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 2.81,
+    "text": "Aries 2°49′",
+    "longitude": 2.814
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 10.16,
+    "text": "Cancer 10°10′",
+    "longitude": 100.159
+   }
+  },
+  {
+   "segment": "Paris: the Law and the Boulevard",
+   "stop": "Palais Brongniart, the stockbroker's hours",
+   "date": "1857-02-01",
+   "date_confidence": "attested to the year; he keeps the trade until about 1862",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399346.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.15,
+    "text": "Aquarius 12°09′",
+    "longitude": 312.153
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Backwards to Britain",
+   "stop": "Bordeaux, the free passage south before going north",
+   "date": "1859-08-02",
+   "date_confidence": "attested by Ian Thompson; English Wikipedia's 'July 1858' is contradicted by its own article on Backwards to Britain and is not followed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400258.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 9.13,
+    "text": "Leo 9°08′",
+    "longitude": 129.133
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Backwards to Britain",
+   "stop": "Liverpool, the first foreign port",
+   "date": "1859-08-25",
+   "date_confidence": "attested to the day by Thompson",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400281.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 1.23,
+    "text": "Virgo 1°14′",
+    "longitude": 151.234
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 16.09,
+    "text": "Cancer 16°06′",
+    "longitude": 106.092
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 8.49,
+    "text": "Virgo 8°29′",
+    "longitude": 158.489
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 22.09,
+    "text": "Leo 22°05′",
+    "longitude": 142.086
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 20.27,
+    "text": "Leo 20°16′",
+    "longitude": 140.269
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 16.55,
+    "text": "Cancer 16°33′",
+    "longitude": 106.555
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 18.01,
+    "text": "Leo 18°01′",
+    "longitude": 138.012
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Backwards to Britain",
+   "stop": "Edinburgh, the city that becomes a stock of scenery",
+   "date": "1859-08-26",
+   "date_confidence": "attested to the day by Thompson: arrival by train from Liverpool, late evening",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400282.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 2.2,
+    "text": "Virgo 2°12′",
+    "longitude": 152.199
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 0.91,
+    "text": "Leo 0°55′",
+    "longitude": 120.915
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 7.62,
+    "text": "Virgo 7°37′",
+    "longitude": 157.616
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 23.32,
+    "text": "Leo 23°19′",
+    "longitude": 143.322
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 20.91,
+    "text": "Leo 20°54′",
+    "longitude": 140.906
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 16.74,
+    "text": "Cancer 16°45′",
+    "longitude": 106.744
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 18.14,
+    "text": "Leo 18°08′",
+    "longitude": 138.138
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Backwards to Britain",
+   "stop": "London, the last stage of the wrong-way voyage",
+   "date": "1859-09-01",
+   "date_confidence": "attested by Verne's own account, which closes in London; the day within the month is not fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400288.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.0,
+    "text": "Virgo 8°00′",
+    "longitude": 158.001
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Northern Voyage",
+   "stop": "Stockholm, Gamla Stan",
+   "date": "1861-07-07",
+   "date_confidence": "attested; he is in Stockholm 7-14 July, reached by way of Hamburg, Lubeck and Ystad",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400963.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 14.8,
+    "text": "Cancer 14°48′",
+    "longitude": 104.801
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 1.76,
+    "text": "Cancer 1°46′",
+    "longitude": 91.759
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 5.94,
+    "text": "Leo 5°56′",
+    "longitude": 125.94
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 0.08,
+    "text": "Leo 0°05′",
+    "longitude": 120.081
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 1.34,
+    "text": "Leo 1°20′",
+    "longitude": 121.337
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 26.23,
+    "text": "Leo 26°14′",
+    "longitude": 146.232
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 5.99,
+    "text": "Virgo 6°00′",
+    "longitude": 155.992
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Northern Voyage",
+   "stop": "Christiania, across the Skagerrak",
+   "date": "1861-07-19",
+   "date_confidence": "attested; Gothenburg 17 July, Stavern 18 July, Christiania 19 July",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400975.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.25,
+    "text": "Cancer 26°15′",
+    "longitude": 116.246
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 17.7,
+    "text": "Sagittarius 17°42′",
+    "longitude": 257.703
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 2.6,
+    "text": "Leo 2°36′",
+    "longitude": 122.601
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 14.78,
+    "text": "Leo 14°47′",
+    "longitude": 134.777
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 8.97,
+    "text": "Leo 8°58′",
+    "longitude": 128.968
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 28.55,
+    "text": "Leo 28°33′",
+    "longitude": 148.549
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 7.19,
+    "text": "Virgo 7°11′",
+    "longitude": 157.191
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Northern Voyage",
+   "stop": "Gaustatoppen, the summit above Rjukan",
+   "date": "1861-07-23",
+   "date_confidence": "attested to the Telemark leg of 23-30 July; the day of the climb is not separately fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400979.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 0.07,
+    "text": "Leo 0°04′",
+    "longitude": 120.066
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 12.34,
+    "text": "Aquarius 12°21′",
+    "longitude": 312.344
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 29.83,
+    "text": "Cancer 29°50′",
+    "longitude": 119.832
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 19.67,
+    "text": "Leo 19°40′",
+    "longitude": 139.672
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 11.51,
+    "text": "Leo 11°31′",
+    "longitude": 131.51
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 29.35,
+    "text": "Leo 29°21′",
+    "longitude": 149.351
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 7.62,
+    "text": "Virgo 7°37′",
+    "longitude": 157.619
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Northern Voyage",
+   "stop": "Copenhagen, the race that arrives too late",
+   "date": "1861-08-01",
+   "date_confidence": "attested to the month; the birth in Paris is dated 3 August 1861",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400988.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.67,
+    "text": "Leo 8°40′",
+    "longitude": 128.67
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.56,
+    "text": "Gemini 2°33′",
+    "longitude": 62.558
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 25.42,
+    "text": "Cancer 25°25′",
+    "longitude": 115.417
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 0.67,
+    "text": "Virgo 0°40′",
+    "longitude": 150.673
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 17.23,
+    "text": "Leo 17°14′",
+    "longitude": 137.227
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 1.2,
+    "text": "Virgo 1°12′",
+    "longitude": 151.198
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 8.62,
+    "text": "Virgo 8°37′",
+    "longitude": 158.625
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Hetzel, and the Voyages Extraordinaires",
+   "stop": "Paris, Hetzel and Five Weeks in a Balloon",
+   "date": "1863-01-31",
+   "date_confidence": "attested to the day of publication; the contract negotiations run through 1862",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401536.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 10.67,
+    "text": "Aquarius 10°40′",
+    "longitude": 310.675
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 27.54,
+    "text": "Gemini 27°33′",
+    "longitude": 87.545
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 27.36,
+    "text": "Aquarius 27°21′",
+    "longitude": 327.357
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 22.87,
+    "text": "Aquarius 22°52′",
+    "longitude": 322.871
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 8.37,
+    "text": "Taurus 8°22′",
+    "longitude": 38.371
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 27.11,
+    "text": "Libra 27°07′",
+    "longitude": 207.114
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 5.36,
+    "text": "Libra 5°22′",
+    "longitude": 185.364
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Hetzel, and the Voyages Extraordinaires",
+   "stop": "Paris, Journey to the Centre of the Earth",
+   "date": "1864-01-01",
+   "date_confidence": "attested to the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2401871.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.889
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hetzel, and the Voyages Extraordinaires",
+   "stop": "Paris, From the Earth to the Moon",
+   "date": "1865-01-01",
+   "date_confidence": "attested to the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402237.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.66,
+    "text": "Capricornus 10°40′",
+    "longitude": 280.661
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hetzel, and the Voyages Extraordinaires",
+   "stop": "Le Crotoy, the first Saint-Michel",
+   "date": "1865-08-01",
+   "date_confidence": "attested to the month of the first rented villa; the Saint-Michel I is completed 29 May 1868 and bought 3 June 1868, not 1867 as English Wikipedia has it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402449.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.7,
+    "text": "Leo 8°42′",
+    "longitude": 128.702
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 21.99,
+    "text": "Scorpio 22°00′",
+    "longitude": 231.994
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 4.06,
+    "text": "Virgo 4°04′",
+    "longitude": 154.063
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 23.71,
+    "text": "Gemini 23°43′",
+    "longitude": 83.714
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 11.32,
+    "text": "Virgo 11°19′",
+    "longitude": 161.324
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 19.56,
+    "text": "Sagittarius 19°34′",
+    "longitude": 259.563
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 24.6,
+    "text": "Libra 24°36′",
+    "longitude": 204.604
+   }
+  },
+  {
+   "segment": "The Great Eastern",
+   "stop": "Liverpool, boarding the largest ship in the world",
+   "date": "1867-03-16",
+   "date_confidence": "sources give both 16 and 26 March 1867 for the sailing; the disagreement is not resolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403041.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 24.97,
+    "text": "Pisces 24°58′",
+    "longitude": 354.965
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 29.6,
+    "text": "Cancer 29°36′",
+    "longitude": 119.597
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 10.76,
+    "text": "Aries 10°46′",
+    "longitude": 10.761
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 9.66,
+    "text": "Aquarius 9°40′",
+    "longitude": 309.662
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 14.66,
+    "text": "Cancer 14°39′",
+    "longitude": 104.658
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 24.02,
+    "text": "Aquarius 24°01′",
+    "longitude": 324.016
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 23.87,
+    "text": "Scorpio 23°52′",
+    "longitude": 233.869
+   }
+  },
+  {
+   "segment": "The Great Eastern",
+   "stop": "New York, the Manhattan piers",
+   "date": "1867-04-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403065.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.68,
+    "text": "Aries 18°41′",
+    "longitude": 18.683
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 13.57,
+    "text": "Gemini 13°34′",
+    "longitude": 73.573
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 28.44,
+    "text": "Pisces 28°27′",
+    "longitude": 358.444
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 6.87,
+    "text": "Pisces 6°52′",
+    "longitude": 336.875
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 22.64,
+    "text": "Cancer 22°38′",
+    "longitude": 112.64
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 29.03,
+    "text": "Aquarius 29°02′",
+    "longitude": 329.032
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 22.94,
+    "text": "Scorpio 22°56′",
+    "longitude": 232.941
+   }
+  },
+  {
+   "segment": "The Great Eastern",
+   "stop": "Niagara, the falls seen once",
+   "date": "1867-04-15",
+   "date_confidence": "attested to the month; the day is not fixed in the sources reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403071.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 24.56,
+    "text": "Aries 24°34′",
+    "longitude": 24.562
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nemo, Amiens, and Eighty Days",
+   "stop": "Paris, the quarrel over Captain Nemo",
+   "date": "1869-01-01",
+   "date_confidence": "attested to the year of the dispute; the serial runs 20 March 1869 to 20 June 1870",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403698.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.69,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.691
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nemo, Amiens, and Eighty Days",
+   "stop": "Paris, the cross of the Legion of Honour",
+   "date": "1870-04-09",
+   "date_confidence": "attested for the decoration only; the same date is widely and wrongly given for the publication of Vingt mille lieues, which was serialised 1869-1870 and issued as a book that year, illustrated in November 1871",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404161.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.95,
+    "text": "Aries 18°57′",
+    "longitude": 18.952
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nemo, Amiens, and Eighty Days",
+   "stop": "Amiens, the move inland",
+   "date": "1871-02-01",
+   "date_confidence": "attested to the month of the departure from Le Crotoy",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404459.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.75,
+    "text": "Aquarius 11°45′",
+    "longitude": 311.749
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nemo, Amiens, and Eighty Days",
+   "stop": "Paris, eighty days in Le Temps",
+   "date": "1872-11-06",
+   "date_confidence": "attested to the serialisation in Le Temps, November-December 1872; the stage version with Adolphe d'Ennery follows in 1874",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2405103.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 13.93,
+    "text": "Scorpio 13°56′",
+    "longitude": 223.927
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nemo, Amiens, and Eighty Days",
+   "stop": "Theatre du Chatelet, Michel Strogoff on stage",
+   "date": "1880-11-17",
+   "date_confidence": "attested to the day of the premiere; 1876, often given for this event, is the date of the novel, not the play",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2408036.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 25.06,
+    "text": "Scorpio 25°04′",
+    "longitude": 235.062
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 26.61,
+    "text": "Taurus 26°37′",
+    "longitude": 56.611
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 9.31,
+    "text": "Sagittarius 9°19′",
+    "longitude": 249.311
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 27.37,
+    "text": "Sagittarius 27°22′",
+    "longitude": 267.366
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 18.06,
+    "text": "Scorpio 18°03′",
+    "longitude": 228.056
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 10.27,
+    "text": "Aries 10°16′",
+    "longitude": 10.272
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 23.01,
+    "text": "Aries 23°01′",
+    "longitude": 23.011
+   }
+  },
+  {
+   "segment": "The Cruises of the Saint-Michel III",
+   "stop": "Vigo, driven into the ria",
+   "date": "1878-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407136.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.33,
+    "text": "Gemini 10°20′",
+    "longitude": 70.333
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cruises of the Saint-Michel III",
+   "stop": "Gibraltar, the Chronicle logs the yacht",
+   "date": "1878-06-19",
+   "date_confidence": "attested by the Gibraltar Chronicle's own entry",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407154.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 27.54,
+    "text": "Gemini 27°32′",
+    "longitude": 87.536
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 15.58,
+    "text": "Aquarius 15°35′",
+    "longitude": 315.575
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 10.48,
+    "text": "Gemini 10°29′",
+    "longitude": 70.482
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 16.7,
+    "text": "Taurus 16°42′",
+    "longitude": 46.702
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 27.46,
+    "text": "Cancer 27°28′",
+    "longitude": 117.463
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 6.39,
+    "text": "Aquarius 6°23′",
+    "longitude": 306.391
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 2.03,
+    "text": "Aries 2°02′",
+    "longitude": 2.027
+   }
+  },
+  {
+   "segment": "The Cruises of the Saint-Michel III",
+   "stop": "Algiers, the far point of the cruise",
+   "date": "1878-07-15",
+   "date_confidence": "attested to July-August 1878; the day is not fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407180.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.33,
+    "text": "Cancer 22°20′",
+    "longitude": 112.327
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cruises of the Saint-Michel III",
+   "stop": "Kiel, the Eider Canal a second time",
+   "date": "1881-06-17",
+   "date_confidence": "attested to 17-18 June 1881; the cruise leaves Rotterdam on 5 June",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408248.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 25.89,
+    "text": "Gemini 25°53′",
+    "longitude": 85.89
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 1.15,
+    "text": "Pisces 1°09′",
+    "longitude": 331.154
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 20.65,
+    "text": "Cancer 20°39′",
+    "longitude": 110.65
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 13.49,
+    "text": "Taurus 13°29′",
+    "longitude": 43.487
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 26.5,
+    "text": "Aries 26°30′",
+    "longitude": 26.503
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 15.35,
+    "text": "Taurus 15°21′",
+    "longitude": 45.352
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 8.45,
+    "text": "Taurus 8°27′",
+    "longitude": 38.448
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Cruises of the Saint-Michel III",
+   "stop": "Copenhagen, the voyage that gives itself a title",
+   "date": "1881-06-20",
+   "date_confidence": "reached in the second half of June; he leaves Copenhagen on 27 June and the cruise runs 3 June to 17 July. The '4 June' date in circulation is impossible, the yacht being at Rotterdam on the 5th",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408251.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 28.75,
+    "text": "Gemini 28°45′",
+    "longitude": 88.752
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 12.72,
+    "text": "Aries 12°43′",
+    "longitude": 12.72
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 23.8,
+    "text": "Cancer 23°48′",
+    "longitude": 113.803
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 15.54,
+    "text": "Taurus 15°32′",
+    "longitude": 45.536
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 28.69,
+    "text": "Aries 28°42′",
+    "longitude": 28.694
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 15.97,
+    "text": "Taurus 15°58′",
+    "longitude": 45.971
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 8.74,
+    "text": "Taurus 8°45′",
+    "longitude": 38.744
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Amiens Years, the Grave, and After",
+   "stop": "Amiens, rue Charles-Dubois: two shots at the gate",
+   "date": "1886-03-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409974.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 18.38,
+    "text": "Pisces 18°23′",
+    "longitude": 348.379
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 23.09,
+    "text": "Aries 23°05′",
+    "longitude": 23.088
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 29.65,
+    "text": "Pisces 29°39′",
+    "longitude": 359.649
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 22.41,
+    "text": "Aquarius 22°25′",
+    "longitude": 322.409
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 14.88,
+    "text": "Virgo 14°53′",
+    "longitude": 164.882
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 2.71,
+    "text": "Libra 2°42′",
+    "longitude": 182.708
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.44,
+    "text": "Cancer 1°27′",
+    "longitude": 91.442
+   }
+  },
+  {
+   "segment": "The Amiens Years, the Grave, and After",
+   "stop": "Amiens, Hotel de Ville: the councillor",
+   "date": "1888-05-01",
+   "date_confidence": "attested to the year of election; he holds the seat some fifteen years",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410758.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.04,
+    "text": "Taurus 11°02′",
+    "longitude": 41.036
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Amiens Years, the Grave, and After",
+   "stop": "Amiens, 44 boulevard Longueville: the death",
+   "date": "1905-03-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416928.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 2.7,
+    "text": "Aries 2°42′",
+    "longitude": 2.701
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 12.17,
+    "text": "Scorpio 12°10′",
+    "longitude": 222.171
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 16.03,
+    "text": "Aries 16°02′",
+    "longitude": 16.034
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 11.58,
+    "text": "Taurus 11°35′",
+    "longitude": 41.577
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 24.5,
+    "text": "Scorpio 24°30′",
+    "longitude": 234.496
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 3.47,
+    "text": "Taurus 3°28′",
+    "longitude": 33.468
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 27.89,
+    "text": "Aquarius 27°53′",
+    "longitude": 327.889
+   }
+  },
+  {
+   "segment": "The Amiens Years, the Grave, and After",
+   "stop": "Cimetiere de la Madeleine, the stone broken from inside",
+   "date": "1907-01-01",
+   "date_confidence": "attested to the year of the monument; the plain slab reading 'Jules Verne 1905' precedes it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417576.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.44,
+    "text": "Capricornus 9°27′",
+    "longitude": 279.442
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Amiens Years, the Grave, and After",
+   "stop": "Jardin des Plantes, Nantes: the bust that was melted",
+   "date": "1910-05-29",
+   "date_confidence": "attested to the day of inauguration",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418820.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 6.75,
+    "text": "Gemini 6°45′",
+    "longitude": 66.753
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 0.78,
+    "text": "Aquarius 0°47′",
+    "longitude": 300.777
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 1.77,
+    "text": "Gemini 1°46′",
+    "longitude": 61.774
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 23.73,
+    "text": "Aries 23°44′",
+    "longitude": 23.726
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 16.85,
+    "text": "Cancer 16°51′",
+    "longitude": 106.846
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 4.64,
+    "text": "Libra 4°38′",
+    "longitude": 184.638
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 1.3,
+    "text": "Taurus 1°18′",
+    "longitude": 31.297
+   }
+  },
+  {
+   "segment": "The Amiens Years, the Grave, and After",
+   "stop": "Launch Complex 39A, Merritt Island: three men and a Florida gun",
+   "date": "1969-07-23",
+   "date_confidence": "attested to the day of the final Apollo 11 telecast; the launch was 16 July 1969",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440425.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 29.98,
+    "text": "Cancer 29°59′",
+    "longitude": 119.976
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 6.13,
+    "text": "Scorpio 6°08′",
+    "longitude": 216.125
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 0.44,
+    "text": "Leo 0°27′",
+    "longitude": 120.442
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 17.43,
+    "text": "Gemini 17°26′",
+    "longitude": 77.427
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 3.14,
+    "text": "Sagittarius 3°09′",
+    "longitude": 243.144
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 1.06,
+    "text": "Libra 1°04′",
+    "longitude": 181.06
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 8.11,
+    "text": "Taurus 8°07′",
+    "longitude": 38.111
+   }
+  },
+  {
+   "segment": "The Amiens Years, the Grave, and After",
+   "stop": "Butte Sainte-Anne, Nantes: the museum on the hill",
+   "date": "1978-04-08",
+   "date_confidence": "attested to the day of inauguration, the 150th anniversary of the birth",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443606.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 17.82,
+    "text": "Aries 17°49′",
+    "longitude": 17.818
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 22.23,
+    "text": "Aries 22°14′",
+    "longitude": 22.227
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 24.03,
+    "text": "Aries 24°02′",
+    "longitude": 24.033
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 6.33,
+    "text": "Taurus 6°20′",
+    "longitude": 36.326
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 29.06,
+    "text": "Cancer 29°04′",
+    "longitude": 119.059
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 29.47,
+    "text": "Gemini 29°28′",
+    "longitude": 89.467
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 24.04,
+    "text": "Leo 24°03′",
+    "longitude": 144.044
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Amiens Years, the Grave, and After",
+   "stop": "Paris, the safe and the twentieth century",
+   "date": "1994-01-01",
+   "date_confidence": "attested to the year of French publication; the English translation follows in 1996",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1994,
+   "jd_ut": 2449353.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°20′",
+    "longitude": 280.339
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 23,
+  "month": 10,
+  "year": 11
+ },
+ "parse_failures": []
+}

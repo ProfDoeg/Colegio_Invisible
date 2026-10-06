@@ -1,0 +1,1990 @@
+{
+ "slug": "vito_dumas",
+ "traveler": "Vito Dumas",
+ "title": "The Impossible Route: the Roaring Forties, Three Capes, and One Man Without a Radio",
+ "years": "1900-1965",
+ "years_parsed": {
+  "first": 1900,
+  "last": 1965
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Palermo, and the Water",
+  "stop": "Buenos Aires, born in Palermo",
+  "date": "1900-09-26",
+  "date_confidence": "attested; pinned to the atlas's canonical Buenos Aires anchor rather than to Palermo's own -34.5875 / -58.4205",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1900,
+  "jd_ut": 2415288.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Libra",
+   "degree": 2.44,
+   "text": "Libra 2°26′",
+   "longitude": 182.441
+  },
+  "moon": {
+   "sign": "Libra",
+   "degree": 25.99,
+   "text": "Libra 25°59′",
+   "longitude": 205.99
+  },
+  "mercury": {
+   "sign": "Libra",
+   "degree": 12.08,
+   "text": "Libra 12°05′",
+   "longitude": 192.084
+  },
+  "venus": {
+   "sign": "Leo",
+   "degree": 16.63,
+   "text": "Leo 16°38′",
+   "longitude": 136.633
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 29.54,
+   "text": "Cancer 29°33′",
+   "longitude": 119.544
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 5.89,
+   "text": "Sagittarius 5°53′",
+   "longitude": 245.887
+  },
+  "saturn": {
+   "sign": "Sagittarius",
+   "degree": 28.82,
+   "text": "Sagittarius 28°49′",
+   "longitude": 268.816
+  },
+  "conjunctions": [
+   {
+    "sign": "Libra",
+    "bodies": [
+     "Sun",
+     "Moon",
+     "Mercury"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1900-1965",
+  "first_year_parsed": 1900
+ },
+ "stops": [
+  {
+   "segment": "Palermo, and the Water",
+   "stop": "Buenos Aires, born in Palermo",
+   "date": "1900-09-26",
+   "date_confidence": "attested; pinned to the atlas's canonical Buenos Aires anchor rather than to Palermo's own -34.5875 / -58.4205",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415288.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 2.44,
+    "text": "Libra 2°26′",
+    "longitude": 182.441
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 25.99,
+    "text": "Libra 25°59′",
+    "longitude": 205.99
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 12.08,
+    "text": "Libra 12°05′",
+    "longitude": 192.084
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 16.63,
+    "text": "Leo 16°38′",
+    "longitude": 136.633
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 29.54,
+    "text": "Cancer 29°33′",
+    "longitude": 119.544
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 5.89,
+    "text": "Sagittarius 5°53′",
+    "longitude": 245.887
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 28.82,
+    "text": "Sagittarius 28°49′",
+    "longitude": 268.816
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Palermo, and the Water",
+   "stop": "Buenos Aires, the floors and the brass",
+   "date": "1912-01-01",
+   "date_confidence": "undated in source; placed in his boyhood after the family's ruin, defaulted to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "undated",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Palermo, and the Water",
+   "stop": "Buenos Aires, the championship his widow remembers",
+   "date": "1925-01-01",
+   "date_confidence": "reported only by his widow, decades later; no competition, sanctioning body, distance or time is named anywhere reachable",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lehg, Arcachon to the Plate",
+   "stop": "Arcachon, the eight-metre sloop sails",
+   "date": "1931-12-13",
+   "date_confidence": "attested in both the Spanish and English accounts",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426688.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 20.02,
+    "text": "Sagittarius 20°01′",
+    "longitude": 260.02
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 5.36,
+    "text": "Aquarius 5°22′",
+    "longitude": 305.363
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 6.29,
+    "text": "Capricornus 6°18′",
+    "longitude": 276.292
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 14.07,
+    "text": "Capricornus 14°04′",
+    "longitude": 284.065
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 2.18,
+    "text": "Capricornus 2°11′",
+    "longitude": 272.184
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 22.58,
+    "text": "Leo 22°35′",
+    "longitude": 142.584
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 21.42,
+    "text": "Capricornus 21°25′",
+    "longitude": 291.422
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Lehg, Arcachon to the Plate",
+   "stop": "Rio Grande, aground while asleep",
+   "date": "1932-01-01",
+   "date_confidence": "year attested, month and day unknown, defaulted to January; coordinate corrected from an inland Porto Alegre value to the coastal bar at Rio Grande, the only place the stranding is physically possible",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lehg, Arcachon to the Plate",
+   "stop": "Buenos Aires, the Yacht Club Argentino receives him",
+   "date": "1932-04-13",
+   "date_confidence": "attested by the English account and by arithmetic: 13 December 1931 plus the Spanish account's own 121 days lands on 12 April 1932; the rival 12 March 1932, printed one sentence away, is ninety days out and is rejected as an internal corruption",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426810.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.86,
+    "text": "Aries 22°52′",
+    "longitude": 22.861
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 9.47,
+    "text": "Cancer 9°28′",
+    "longitude": 99.472
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 18.42,
+    "text": "Aries 18°25′",
+    "longitude": 18.418
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 8.33,
+    "text": "Gemini 8°20′",
+    "longitude": 68.327
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 7.52,
+    "text": "Aries 7°31′",
+    "longitude": 7.523
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 12.6,
+    "text": "Leo 12°36′",
+    "longitude": 132.598
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 3.7,
+    "text": "Aquarius 3°42′",
+    "longitude": 303.7
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Ketch Built at Tigre",
+   "stop": "Tigre, Astilleros Parodi builds Lehg II",
+   "date": "1934-01-01",
+   "date_confidence": "year attested; month and day unknown, defaulted to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427438.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.896
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ketch Built at Tigre",
+   "stop": "The South Atlantic, a full turn on her side",
+   "date": "1937-01-01",
+   "date_confidence": "year attested; month unknown, defaulted to January; the position is an open-water approximation on the Rio de Janeiro track, since no fix was recorded, only the turn",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Roaring Forties: to the Cape of Good Hope",
+   "stop": "Buenos Aires, ten pounds sterling and no radio",
+   "date": "1942-06-01",
+   "date_confidence": "preparation, undated within 1942; placed in the month before sailing",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430511.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.88,
+    "text": "Gemini 9°53′",
+    "longitude": 69.883
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Roaring Forties: to the Cape of Good Hope",
+   "stop": "Darsena Norte, Lehg II sails for the three capes",
+   "date": "1942-06-27",
+   "date_confidence": "attested; the anchor date from which the voyage's 437-day total is counted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430537.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 4.72,
+    "text": "Cancer 4°43′",
+    "longitude": 94.725
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 13.14,
+    "text": "Sagittarius 13°08′",
+    "longitude": 253.139
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 17.24,
+    "text": "Gemini 17°14′",
+    "longitude": 77.236
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 28.92,
+    "text": "Taurus 28°55′",
+    "longitude": 58.925
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 7.95,
+    "text": "Leo 7°57′",
+    "longitude": 127.951
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 3.8,
+    "text": "Cancer 3°48′",
+    "longitude": 93.802
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 6.06,
+    "text": "Gemini 6°04′",
+    "longitude": 66.062
+   }
+  },
+  {
+   "segment": "The Roaring Forties: to the Cape of Good Hope",
+   "stop": "Montevideo, the last port",
+   "date": "1942-07-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430541.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.54,
+    "text": "Cancer 8°32′",
+    "longitude": 98.538
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Roaring Forties: to the Cape of Good Hope",
+   "stop": "Cape Town, fifty-five days and an infected arm",
+   "date": "1942-08-24",
+   "date_confidence": "attested; the mooring is approximated to the Royal Cape Yacht Club in Table Bay",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430595.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 0.2,
+    "text": "Virgo 0°12′",
+    "longitude": 150.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Indian Ocean and the Terrible Reality",
+   "stop": "Cape Town, out again for New Zealand",
+   "date": "1942-09-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430616.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 20.55,
+    "text": "Virgo 20°33′",
+    "longitude": 170.551
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 2.12,
+    "text": "Scorpio 2°07′",
+    "longitude": 212.122
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 17.06,
+    "text": "Libra 17°04′",
+    "longitude": 197.064
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 4.2,
+    "text": "Virgo 4°12′",
+    "longitude": 154.195
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 27.8,
+    "text": "Virgo 27°48′",
+    "longitude": 177.8
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 20.02,
+    "text": "Cancer 20°01′",
+    "longitude": 110.019
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 12.22,
+    "text": "Gemini 12°13′",
+    "longitude": 72.218
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Indian Ocean and the Terrible Reality",
+   "stop": "Cape Leeuwin, the second cape passed unseen",
+   "date": "1942-11-01",
+   "date_confidence": "reconstruction: no source gives a date and none records a sighting; placed mid-leg between 14 September and late December",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430664.5,
+   "precision": "year",
+   "precision_triggers": [
+    "between",
+    "placed (the date)",
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.94,
+    "text": "Scorpio 7°56′",
+    "longitude": 217.941
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Indian Ocean and the Terrible Reality",
+   "stop": "Wellington, landfall after one hundred and four days",
+   "date": "1942-12-27",
+   "date_confidence": "reconstruction: the Spanish source gives no arrival date at all, and two independent counts from its own figures converge on 27 and 28 December 1942; the widely repeated 30 November 1942 would make the leg 77 days rather than 104 and the stay 61 days rather than 33",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430720.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.61,
+    "text": "Capricornus 4°37′",
+    "longitude": 274.612
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 21.94,
+    "text": "Leo 21°56′",
+    "longitude": 141.939
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 19.03,
+    "text": "Capricornus 19°02′",
+    "longitude": 289.027
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 14.43,
+    "text": "Capricornus 14°26′",
+    "longitude": 284.426
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 7.96,
+    "text": "Sagittarius 7°58′",
+    "longitude": 247.958
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 22.2,
+    "text": "Cancer 22°12′",
+    "longitude": 112.202
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 6.87,
+    "text": "Gemini 6°52′",
+    "longitude": 66.871
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Indian Ocean and the Terrible Reality",
+   "stop": "Wellington, thirty-three days and away",
+   "date": "1943-01-30",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430754.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 9.24,
+    "text": "Aquarius 9°14′",
+    "longitude": 309.236
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 17.5,
+    "text": "Scorpio 17°30′",
+    "longitude": 227.497
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 27.93,
+    "text": "Capricornus 27°56′",
+    "longitude": 297.926
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 27.05,
+    "text": "Aquarius 27°03′",
+    "longitude": 327.054
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 2.34,
+    "text": "Capricornus 2°20′",
+    "longitude": 272.34
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 17.79,
+    "text": "Cancer 17°47′",
+    "longitude": 107.785
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 5.43,
+    "text": "Gemini 5°26′",
+    "longitude": 65.427
+   }
+  },
+  {
+   "segment": "Cape Horn and Home",
+   "stop": "Valparaiso, the Pacific crossed",
+   "date": "1943-04-12",
+   "date_confidence": "reconstruction from the French leg table's 72 days added to the attested 30 January departure; no source gives a Valparaiso arrival date, and accounts that place Cape Horn before this landfall have the voyage backwards",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430826.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 21.23,
+    "text": "Aries 21°14′",
+    "longitude": 21.231
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cape Horn and Home",
+   "stop": "Cape Horn, thrown against the bulkhead",
+   "date": "1943-07-01",
+   "date_confidence": "month unknown; the rounding falls inside the 37-day Valparaiso to Mar del Plata leg, which places it roughly between June and August 1943, and not in March as the earlier accounts have it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430906.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.31,
+    "text": "Cancer 8°18′",
+    "longitude": 98.308
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cape Horn and Home",
+   "stop": "Buenos Aires, a tango called Navegante",
+   "date": "1943-08-05",
+   "date_confidence": "the English account gives 5 August 1943 in one place and simply 1943 in another; composer and lyricist are unrecorded in anything reachable",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430941.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (unrecorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 11.72,
+    "text": "Leo 11°43′",
+    "longitude": 131.719
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 23.51,
+    "text": "Virgo 23°31′",
+    "longitude": 173.514
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 29.27,
+    "text": "Leo 29°16′",
+    "longitude": 149.267
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 18.49,
+    "text": "Virgo 18°29′",
+    "longitude": 168.488
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 18.61,
+    "text": "Taurus 18°36′",
+    "longitude": 48.607
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 7.69,
+    "text": "Leo 7°42′",
+    "longitude": 127.693
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 22.88,
+    "text": "Gemini 22°53′",
+    "longitude": 82.877
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Cape Horn and Home",
+   "stop": "Mar del Plata, the first Argentine landfall",
+   "date": "1943-08-08",
+   "date_confidence": "reassignment: the Spanish source attaches 8 August 1943 to the Buenos Aires arrival, where it contradicts the 437-day total by thirty days; it fits the Mar del Plata landfall, which the same source names among the ports touched",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430944.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 14.59,
+    "text": "Leo 14°36′",
+    "longitude": 134.593
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cape Horn and Home",
+   "stop": "Buenos Aires, four hundred and thirty-seven days",
+   "date": "1943-09-07",
+   "date_confidence": "attested and arithmetically exact: 27 June 1942 plus 437 days is 7 September 1943 to the day, and the Italian account agrees on September; the rival 8 August is thirty days short of the source's own total",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430974.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 13.51,
+    "text": "Virgo 13°31′",
+    "longitude": 163.51
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 6.92,
+    "text": "Sagittarius 6°55′",
+    "longitude": 246.916
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 8.46,
+    "text": "Libra 8°28′",
+    "longitude": 188.461
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 11.89,
+    "text": "Virgo 11°54′",
+    "longitude": 161.894
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 7.42,
+    "text": "Gemini 7°25′",
+    "longitude": 67.416
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 14.8,
+    "text": "Leo 14°48′",
+    "longitude": 134.801
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 25.53,
+    "text": "Gemini 25°32′",
+    "longitude": 85.529
+   }
+  },
+  {
+   "segment": "Cape Horn and Home",
+   "stop": "Buenos Aires, Los cuarenta bramadores",
+   "date": "1944-01-01",
+   "date_confidence": "reconstruction: the year of first publication is commonly cited as 1944 and has not been checked against any library catalogue",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431090.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.46,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.46
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing of the Unforeseen",
+   "stop": "Rio de Janeiro, the second Atlantic circuit begins",
+   "date": "1945-01-01",
+   "date_confidence": "year only; no source gives a month for any leg of the 1945 voyage, so every 1945 stop defaults to January and the order is the order of the route",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing of the Unforeseen",
+   "stop": "Havana, north through the Caribbean",
+   "date": "1945-01-01",
+   "date_confidence": "year only; position within the voyage fixed by the route, not by a date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing of the Unforeseen",
+   "stop": "Coney Island, nearly lost within sight of New York",
+   "date": "1945-01-01",
+   "date_confidence": "year only; the Spanish source records the near-disaster without a date and without a precise position within Coney Island waters",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing of the Unforeseen",
+   "stop": "South of the Canaries, the Serantes finds him",
+   "date": "1945-01-01",
+   "date_confidence": "year only; no coordinates were recorded for the rescue and this pin is an approximation in open water south of the Canary Islands",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "year only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing of the Unforeseen",
+   "stop": "Montevideo, the penultimate port",
+   "date": "1945-01-01",
+   "date_confidence": "year only; the Ceara call precedes this one on the same undated homeward run",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "year only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing of the Unforeseen",
+   "stop": "Buenos Aires, seventeen thousand miles closed",
+   "date": "1945-01-01",
+   "date_confidence": "year only; no arrival date is given for the 1945 return",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sirio, Peron, and the Mufa",
+   "stop": "Buenos Aires, the Escuela Nautica Deportiva",
+   "date": "1953-01-01",
+   "date_confidence": "undated in the source; the Peron government fell in September 1955, so the honorary commission and the founding of the school necessarily precede that, and the year here is a placement inside the Peronist decade",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434378.5,
+   "precision": "month",
+   "precision_triggers": [
+    "undated",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.291
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sirio, Peron, and the Mufa",
+   "stop": "Buenos Aires, the Sirio sails for New York",
+   "date": "1955-05-29",
+   "date_confidence": "reconstruction: counted back 117 days from the attested 23 September 1955 arrival; the printed departure date of 16 September 1955 falls a week after that arrival and is probably contamination from the coup of that same date, discussed two sentences later in the same article",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435256.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 6.87,
+    "text": "Gemini 6°52′",
+    "longitude": 66.871
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sirio, Peron, and the Mufa",
+   "stop": "Hamilton, the calms and the hospital",
+   "date": "1955-07-01",
+   "date_confidence": "reconstruction: the call is attested but undated, and is placed mid-passage between the reconstructed May departure and the attested September arrival; the harbour point is approximated to Hamilton",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435289.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "undated",
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.4,
+    "text": "Cancer 8°24′",
+    "longitude": 98.404
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sirio, Peron, and the Mufa",
+   "stop": "New York, Hurricane Ione and a year of illness",
+   "date": "1955-09-23",
+   "date_confidence": "attested, and independently corroborated: Hurricane Ione, which the Spanish source misspells Ionne, came ashore on the American coast on 19 September 1955, four days before",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435373.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 29.2,
+    "text": "Virgo 29°12′",
+    "longitude": 179.196
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 16.72,
+    "text": "Sagittarius 16°43′",
+    "longitude": 256.717
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 25.11,
+    "text": "Libra 25°07′",
+    "longitude": 205.11
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 5.06,
+    "text": "Libra 5°03′",
+    "longitude": 185.055
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 16.93,
+    "text": "Virgo 16°56′",
+    "longitude": 166.926
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 21.59,
+    "text": "Leo 21°36′",
+    "longitude": 141.595
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 17.87,
+    "text": "Scorpio 17°52′",
+    "longitude": 227.868
+   }
+  },
+  {
+   "segment": "Sirio, Peron, and the Mufa",
+   "stop": "Buenos Aires, the Slocum Award for 1956",
+   "date": "1956-01-01",
+   "date_confidence": "the award is for the year 1956; no presentation date or place is recorded, and the stop is pinned to his own city rather than to a ceremony nobody described",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435473.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.55,
+    "text": "Capricornus 9°33′",
+    "longitude": 279.549
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sirio, Peron, and the Mufa",
+   "stop": "Buenos Aires, Sirio II launched",
+   "date": "1961-01-01",
+   "date_confidence": "year attested; month and day unknown, defaulted to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437300.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.35,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.35
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sirio, Peron, and the Mufa",
+   "stop": "Buenos Aires, the Medalla Azul handed over",
+   "date": "1962-01-01",
+   "date_confidence": "the presentation is attested to the 1962 skippers' briefing for the Buenos Aires to Rio race; the award year is unresolved, the Cruising Club of America's own roster listing him without a date and secondary accounts giving 1957, while nothing supports the 1943 attribution in circulation",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437665.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.103
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sirio, Peron, and the Mufa",
+   "stop": "Cabo Polonio, the race abandoned",
+   "date": "1962-01-01",
+   "date_confidence": "year attested; month and day unknown, defaulted to January, and it is the same race whose briefing produced the medal",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437665.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.103
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sirio, Peron, and the Mufa",
+   "stop": "Mar del Plata, the last passage",
+   "date": "1964-01-01",
+   "date_confidence": "year attested; month and day unknown, defaulted to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438395.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.61,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.608
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Naval Pantheon",
+   "stop": "Vicente Lopez, the stroke",
+   "date": "1965-03-28",
+   "date_confidence": "attested; the precise site within Vicente Lopez is not specified",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438847.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 7.12,
+    "text": "Aries 7°07′",
+    "longitude": 7.119
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Naval Pantheon",
+   "stop": "Cementerio de Olivos, the first grave",
+   "date": "1965-03-30",
+   "date_confidence": "the burial date is not recorded anywhere reachable and falls within days of the death; the plot is approximated to the cemetery grounds",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438849.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 9.1,
+    "text": "Aries 9°06′",
+    "longitude": 9.096
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Naval Pantheon",
+   "stop": "Buenos Aires, the Konex diploma",
+   "date": "1980-01-01",
+   "date_confidence": "year attested; no month is given for the award",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444239.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.73,
+    "text": "Capricornus 9°44′",
+    "longitude": 279.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Naval Pantheon",
+   "stop": "Club Nautico Mar del Plata, Sirio II afloat",
+   "date": "1982-01-01",
+   "date_confidence": "restoration year attested; month unknown, and the club mooring is approximated",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1982,
+   "jd_ut": 2444970.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.25,
+    "text": "Capricornus 10°15′",
+    "longitude": 280.251
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Naval Pantheon",
+   "stop": "Mar del Plata, the bust on the Boulevard Maritimo",
+   "date": "1986-11-01",
+   "date_confidence": "month and year attested; the day is not given, defaulted to the first",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1986,
+   "jd_ut": 2446735.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.28,
+    "text": "Scorpio 8°17′",
+    "longitude": 218.276
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Naval Pantheon",
+   "stop": "Chacarita, moved to the Panteon Naval",
+   "date": "2000-01-01",
+   "date_confidence": "the source dates the transfer to 2000 or later; month and day unknown, defaulted to January, and the plot is approximated to the cemetery grounds",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451544.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.874
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Naval Pantheon",
+   "stop": "Lujan, the Lehg in the museum",
+   "date": "2000-01-01",
+   "date_confidence": "undated in every reachable source; the year on this stop is a placeholder and carries no evidentiary weight",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451544.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.874
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Naval Pantheon",
+   "stop": "Tigre, Lehg II under a roof",
+   "date": "2000-01-01",
+   "date_confidence": "undated in every reachable source for both the donation and the restoration; the year on this stop is a placeholder, and the only fixed date in the boat's afterlife is the 1966 wreck at the mouth of the port of La Plata",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451544.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.874
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 10,
+  "month": 3,
+  "year": 32
+ },
+ "parse_failures": []
+}

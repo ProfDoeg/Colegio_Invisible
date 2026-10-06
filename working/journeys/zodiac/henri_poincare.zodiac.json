@@ -1,0 +1,1998 @@
+{
+ "slug": "henri_poincare",
+ "traveler": "Jules Henri Poincaré",
+ "title": "The Step of the Omnibus at Coutances: the Fuchsian Functions, the Recalled Memoir, and the Measure of Time",
+ "years": "1854-1912",
+ "years_parsed": {
+  "first": 1854,
+  "last": 1912
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "A Physician's House in Nancy",
+  "stop": "Nancy, the house opposite the ducal palace",
+  "date": "1854-04-29",
+  "date_confidence": "date attested (MacTutor, biography of Poincaré; Académie française notice). Coordinate corrected: the research pool gave 48.6934/6.1817 for a supposed Cité Ducale birthplace, roughly 400 m too far south. Lebon (Gutenberg 32948) places the birth house facing the ducal palace, which fr.wikipedia pins at 48.69694/6.18028, and the palace and the rue de Guise stand in the Ville-Vieille, not in a quarter called Cité ducale; that phrase is en.wikipedia's and is not reproduced here. The exact street number, commonly given as 2 rue de Guise, is not geocoded to a building.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1854,
+  "jd_ut": 2398337.5,
+  "precision": "year",
+  "precision_triggers": [
+   "approximation"
+  ],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 8.35,
+   "text": "Taurus 8°21′",
+   "longitude": 38.345
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1854-1912",
+  "first_year_parsed": 1854
+ },
+ "stops": [
+  {
+   "segment": "A Physician's House in Nancy",
+   "stop": "Nancy, the house opposite the ducal palace",
+   "date": "1854-04-29",
+   "date_confidence": "date attested (MacTutor, biography of Poincaré; Académie française notice). Coordinate corrected: the research pool gave 48.6934/6.1817 for a supposed Cité Ducale birthplace, roughly 400 m too far south. Lebon (Gutenberg 32948) places the birth house facing the ducal palace, which fr.wikipedia pins at 48.69694/6.18028, and the palace and the rue de Guise stand in the Ville-Vieille, not in a quarter called Cité ducale; that phrase is en.wikipedia's and is not reproduced here. The exact street number, commonly given as 2 rue de Guise, is not geocoded to a building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1854,
+   "jd_ut": 2398337.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 8.35,
+    "text": "Taurus 8°21′",
+    "longitude": 38.345
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Physician's House in Nancy",
+   "stop": "Nancy, the diphtheria and the five months",
+   "date": "1859-01-01",
+   "date_confidence": "attested, and upgraded here from the reconstruction the pool first offered: fr.wikipedia states he contracted diphtheria at five, that is in 1859, with a paralysis of about five months, not merely a temporary one. Month and day are nowhere recorded and default to 01-01. The mother's bedside teaching during the convalescence is the traditional account, carried in the biographical literature rather than in a document.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400045.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.108
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Physician's House in Nancy",
+   "stop": "Nancy, eleven years at the lycée",
+   "date": "1862-10-01",
+   "date_confidence": "year attested (MacTutor: 'In 1862, Henri entered the Lycée in Nancy'; Académie française notice; Stanford Encyclopedia of Philosophy). Month and day not recorded; October is the ordinary start of the French school year and is used here as an ordering device. Coordinate corrected from the pool's 48.6903/6.1796 to the school's own, 48° 41' 28\" N 6° 10' 42\" E per fr.wikipedia, entrance at 2 rue de la Visitation. The two baccalaureates of 1871 are attested by the Stanford Encyclopedia entry.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401414.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "to the year",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.55,
+    "text": "Libra 7°33′",
+    "longitude": 187.55
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Physician's House in Nancy",
+   "stop": "Nancy, the ambulance rounds of the war",
+   "date": "1870-08-01",
+   "date_confidence": "attested that he served for a time in the ambulance corps alongside his physician father during the Franco-Prussian War (Times of London obituary, reprinted at mathshistory.st-andrews.ac.uk). No month is recorded; August 1870, the month the French armies broke in Lorraine, is an ordering device. Coordinate is central Nancy, not a specific dressing station, none being named in any source reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404275.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.5,
+    "text": "Leo 8°30′",
+    "longitude": 128.503
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Schools of the State",
+   "stop": "Paris, first in the competition for the Polytechnique",
+   "date": "1873-10-01",
+   "date_confidence": "attested that he entered the École polytechnique in 1873 placing first in the entrance competition, and graduated in 1875 ranked second (MacTutor; Académie française notice). Month and day not recorded; October is the ordinary start of the school year. The coordinate is the canonical atlas pin for the old Polytechnique on the rue Descartes, inherited byte-identically from evariste_galois.journey.json and augustin_louis_cauchy.journey.json. The attribution of his second place to weak draughtsmanship is carried from the research pool's geography lens rather than from a graded record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405432.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.88,
+    "text": "Libra 7°53′",
+    "longitude": 187.882
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Schools of the State",
+   "stop": "Paris, the École des mines on the boulevard Saint-Michel",
+   "date": "1875-11-01",
+   "date_confidence": "attested: 'From November 1875 to June 1878 he studied at the École des Mines' (en.wikipedia, 'Henri Poincaré'), corroborated by MacTutor. Day within November not recorded and defaults to 01. His first mathematical paper, on the properties of the indicatrix of a surface (1874), is tagged R in the pool's chronology lens and is not given a stop of its own here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2406193.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.18,
+    "text": "Scorpio 8°11′",
+    "longitude": 218.184
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Schools of the State",
+   "stop": "Vesoul, the mineralogical sub-district",
+   "date": "1879-03-01",
+   "date_confidence": "attested: the Times obituary has him acting 'for a short time as mining engineer at Vesoul', and the Annales des mines dossier (annales.org/archives/x/hpoincar.html) documents the posting to the Vesoul sub-district in the spring of 1879. Day within March not recorded and defaults to 01. The six-month duration is the pool's geography lens, consistent with the December 1879 move to Caen.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407409.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.07,
+    "text": "Pisces 10°04′",
+    "longitude": 340.069
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Schools of the State",
+   "stop": "Paris, the thesis before Hermite and Darboux",
+   "date": "1879-08-01",
+   "date_confidence": "attested to 1 August 1879 (MacTutor; Sorbonne heritage library digitized thesis record, patrimoine.sorbonne-universite.fr/idurl/1/1607). Coordinate is the canonical atlas Sorbonne pin, 47 rue des Écoles, inherited byte-identically from marie_curie.journey.json, whose own file records that the research material repeatedly gave the Panthéon's latitude for the Sorbonne. Darboux's remark that the thesis held enough for several dissertations is carried from MacTutor and is a reported judgement, not a minuted one.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407562.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.34,
+    "text": "Leo 8°20′",
+    "longitude": 128.335
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 21.78,
+    "text": "Capricornus 21°47′",
+    "longitude": 291.777
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 4.89,
+    "text": "Virgo 4°54′",
+    "longitude": 154.893
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 22.79,
+    "text": "Virgo 22°47′",
+    "longitude": 172.79
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 4.94,
+    "text": "Taurus 4°56′",
+    "longitude": 34.941
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 11.51,
+    "text": "Pisces 11°31′",
+    "longitude": 341.515
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 15.44,
+    "text": "Aries 15°26′",
+    "longitude": 15.439
+   }
+  },
+  {
+   "segment": "The Schools of the State",
+   "stop": "Ronchamp, down the shaft at Magny",
+   "date": "1879-09-01",
+   "date_confidence": "date and death toll corrected here against the pool's own chronology lens, which gave August 1879 and eighteen dead from en.wikipedia. Both French sources agree on sixteen and on 1 September 1879: annales.org ('une explosion de grisou avait fait 16 victimes') and fr.wikipedia ('1er septembre 1879 dans le Puits du Magny, causant la mort de seize mineurs'). The en.wikipedia figure is the weaker witness on both counts and is not followed. Coordinate is the Ronchamp basin, not the individual shaft head.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407593.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.16,
+    "text": "Virgo 8°10′",
+    "longitude": 158.159
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 10.64,
+    "text": "Pisces 10°39′",
+    "longitude": 340.642
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 25.45,
+    "text": "Leo 25°27′",
+    "longitude": 145.453
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 8.43,
+    "text": "Libra 8°26′",
+    "longitude": 188.435
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 20.67,
+    "text": "Taurus 20°40′",
+    "longitude": 50.67
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 7.87,
+    "text": "Pisces 7°52′",
+    "longitude": 337.868
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 14.45,
+    "text": "Aries 14°27′",
+    "longitude": 14.445
+   }
+  },
+  {
+   "segment": "Caen: the Fuchsian Functions",
+   "stop": "Caen, the lectureship in analysis",
+   "date": "1879-12-01",
+   "date_confidence": "attested to December 1879 (MacTutor; en.wikipedia; Stanford Encyclopedia of Philosophy). Day not recorded and defaults to 01. The Académie des sciences Grand Prix des sciences mathématiques of 1880, on the theory of linear differential equations, is the competition into which his first supplements went; the pool's chronology lens dated the Fuchsian breakthrough to 1881, which is too late, and it is placed here at 1880 with the Acta Mathematica papers following in 1882.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407684.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.46,
+    "text": "Sagittarius 8°28′",
+    "longitude": 248.462
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Caen: the Fuchsian Functions",
+   "stop": "Caen, a fortnight of failure and a night of black coffee",
+   "date": "1880-02-01",
+   "date_confidence": "the episode is Poincaré's own retrospective testimony, given in the 1908 lecture on mathematical invention and printed in Science and Method; the quotation is verified verbatim in the Halsted translation of The Foundations of Science, Project Gutenberg 39713. He supplies no date. It belongs to the Caen period and to the 1880 Grand Prix work, and February 1880 is an ordering device only. The naming of the functions after Lazarus Fuchs is attested; Fuchs's own priority in them is precisely what Klein will dispute the following year.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407746.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day",
+    "disputed",
+    "ordering",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.56,
+    "text": "Aquarius 11°34′",
+    "longitude": 311.562
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Caen: the Fuchsian Functions",
+   "stop": "Coutances, the step of the omnibus",
+   "date": "1880-06-01",
+   "date_confidence": "reconstruction as to date. The episode is Poincaré's own first-person testimony in Science and Method, verified verbatim in the Halsted translation, and it carries no year; MacTutor reproduces it and assigns none. The pool's geography lens dated it c. 1881, which sits after the Caen year's decisive work; it belongs with the geological excursion of the Caen period and the 1880 supplements, and June 1880 is an ordering device. The [R] tag on uncorroborated first-person recollection stands.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407867.5,
+   "precision": "month",
+   "precision_triggers": [
+    "c.",
+    "no month/day",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.83,
+    "text": "Gemini 10°50′",
+    "longitude": 70.828
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Caen: the Fuchsian Functions",
+   "stop": "Caen, the marriage to Louise Poulain d'Andecy",
+   "date": "1881-04-20",
+   "date_confidence": "the date, 20 April 1881, is attested by both the Stanford Encyclopedia entry and en.wikipedia. The PLACE is contradicted between them and the contradiction is not resolved here: en.wikipedia puts the wedding at Caen, where they met, and the pool's chronology lens gives Paris on the same day. Caen is used for the pin because it is the reading that was independently checked, and the conflict is recorded rather than adjudicated. The descent of Louise's mother from the Geoffroy Saint-Hilaire naturalists is attested by en.wikipedia.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408190.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 0.04,
+    "text": "Taurus 0°03′",
+    "longitude": 30.042
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 11.55,
+    "text": "Capricornus 11°33′",
+    "longitude": 281.546
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 5.35,
+    "text": "Aries 5°21′",
+    "longitude": 5.354
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 20.07,
+    "text": "Taurus 20°04′",
+    "longitude": 50.067
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 12.73,
+    "text": "Pisces 12°44′",
+    "longitude": 342.727
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 2.03,
+    "text": "Taurus 2°02′",
+    "longitude": 32.035
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 1.56,
+    "text": "Taurus 1°33′",
+    "longitude": 31.555
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Caen: the Fuchsian Functions",
+   "stop": "Caen, the letters going to Leipzig",
+   "date": "1881-06-01",
+   "date_confidence": "attested that Klein and Poincaré corresponded and competed over automorphic functions and uniformization through 1881-82 (MacTutor, biography of Felix Klein; felix_klein.journey.json, stop 'Leipzig, the race with Poincaré and the collapse'). The opening month is placed at June 1881, when Klein wrote first after the Comptes rendus notes; the exact letter count is not fixed by any source reached and the figure given in the campa is approximate. Klein's collapse in the autumn of 1882 is attested in his own file and its sources.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408232.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "not fixed",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.6,
+    "text": "Gemini 10°36′",
+    "longitude": 70.596
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Chairs and King Oscar's Prize",
+   "stop": "Paris, maître de conférences d'analyse",
+   "date": "1881-10-01",
+   "date_confidence": "attested to October 1881 (Stanford Encyclopedia of Philosophy; MacTutor). Day not recorded and defaults to 01. Coordinate is the canonical atlas Sorbonne pin inherited from marie_curie.journey.json. The Acta Mathematica papers on Fuchsian groups are dated 1882 per en.wikipedia, 'Fuchsian group'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408354.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.94,
+    "text": "Libra 7°57′",
+    "longitude": 187.944
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Chairs and King Oscar's Prize",
+   "stop": "Paris, analysis at the Polytechnique",
+   "date": "1883-01-01",
+   "date_confidence": "attested to 1883 (Académie française notice; MacTutor). Month and day not recorded and default to 01-01. The tenure to 1897 is carried from the pool's interlock lens. Coordinate is the canonical atlas pin for the old Polytechnique on the rue Descartes. The list of published lecture volumes is a compressed characterization of the Cours de la Faculté des sciences and the Polytechnique courses rather than a titled bibliography.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2408811.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.284
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Chairs and King Oscar's Prize",
+   "stop": "Paris, the chair of mathematical physics and probability",
+   "date": "1886-01-01",
+   "date_confidence": "attested to 1886, succeeding Gabriel Lippmann (Stanford Encyclopedia of Philosophy; en.wikipedia). Month and day not recorded and default to 01-01. Coordinate is the canonical atlas Sorbonne pin. That he never worked in a laboratory is a characterization consistent with every source reached but is nowhere stated as such in them.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409907.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.561
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Chairs and King Oscar's Prize",
+   "stop": "Paris, the Institut de France, elected at thirty-two",
+   "date": "1887-01-31",
+   "date_confidence": "date attested (Times of London obituary; en.wikipedia). He was thirty-two, the Times obituary saying thirty-three, which is an error in a source otherwise relied on here. The claim in the pool's geography lens that he was the only member ever associated with every mathematical and physical section of the Academy could not be confirmed against any source reached and is dropped rather than carried. His presidency of the Academy in 1906 is attested by the Académie française notice.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410302.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 10.85,
+    "text": "Aquarius 10°51′",
+    "longitude": 310.852
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 25.77,
+    "text": "Aries 25°46′",
+    "longitude": 25.768
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 6.07,
+    "text": "Aquarius 6°04′",
+    "longitude": 306.069
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 24.88,
+    "text": "Aquarius 24°53′",
+    "longitude": 324.885
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 29.7,
+    "text": "Aquarius 29°42′",
+    "longitude": 329.695
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 5.3,
+    "text": "Scorpio 5°18′",
+    "longitude": 215.303
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 17.38,
+    "text": "Cancer 17°23′",
+    "longitude": 107.378
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Paris Chairs and King Oscar's Prize",
+   "stop": "Paris, the memoir for King Oscar's competition",
+   "date": "1888-06-01",
+   "date_confidence": "the competition was announced in Acta Mathematica in 1885, not 1887 as MacTutor implies, per actamathematica.org/library/prize-competition; entries were due in 1888. The submission day is not recorded and 1 June is an ordering device. Coordinate is the canonical atlas Paris pin. The motto Nunquam praescriptos transibunt sidera fines is the one attached to his entry in the standard accounts of the competition.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410789.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.89,
+    "text": "Gemini 10°53′",
+    "longitude": 70.891
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Chairs and King Oscar's Prize",
+   "stop": "Paris, the prize from the hands of the Swedish ambassador",
+   "date": "1889-03-01",
+   "date_confidence": "corrected against the pool's own chronology and geography lenses, which both placed this in Stockholm. Poincaré never went. Per actamathematica.org/library/prize-competition the result was announced 20 January 1889, the day before the King's sixtieth birthday, and 'he received his prize from the Swedish ambassador in Paris in March 1889'. Day within March not recorded and defaults to 01. Weierstrass's judgement that the memoir opens a new era is attested in the same source and in the Times obituary's shorter notice of the prize.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411062.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.65,
+    "text": "Pisces 10°39′",
+    "longitude": 340.645
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Chairs and King Oscar's Prize",
+   "stop": "Paris, the telegram to stop the presses",
+   "date": "1889-11-30",
+   "date_confidence": "corrected. The pool's chronology, geography, and afterlife lenses all state that Phragmén found the error; he did not. Per actamathematica.org/library/prize-competition his persistent questions about the convergence of infinite series prompted Poincaré to re-examine the memoir, and Poincaré found his own mistake, that he had assumed the asymptotic surfaces were closed, and telegraphed Mittag-Leffler on 30 November 1889 to stop the presses. The figures, over 3,500 kronor against a 2,500-kronor prize, are documented in the same source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411336.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.03,
+    "text": "Sagittarius 8°02′",
+    "longitude": 248.029
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 11.46,
+    "text": "Pisces 11°28′",
+    "longitude": 341.462
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 3.59,
+    "text": "Sagittarius 3°35′",
+    "longitude": 243.587
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 18.77,
+    "text": "Scorpio 18°46′",
+    "longitude": 228.774
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 11.44,
+    "text": "Libra 11°26′",
+    "longitude": 191.438
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 10.7,
+    "text": "Capricornus 10°42′",
+    "longitude": 280.696
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 3.83,
+    "text": "Virgo 3°50′",
+    "longitude": 153.826
+   }
+  },
+  {
+   "segment": "The Paris Chairs and King Oscar's Prize",
+   "stop": "Paris, the corrected memoir and the theorem of return",
+   "date": "1890-12-01",
+   "date_confidence": "attested: the corrected memoir appeared in December 1890 in Acta Mathematica vol. 13 (actamathematica.org/library/prize-competition). Day not recorded and defaults to 01. The recurrence theorem is standardly attributed to the same 1890 work. The quotation is verified verbatim in the Halsted translation, Project Gutenberg 39713, and is from the essay 'Chance' in Science and Method, written some years later; it is placed here because it is the passage in which he states the sensitivity that the corrected memoir had forced on him.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411702.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.8,
+    "text": "Sagittarius 8°48′",
+    "longitude": 248.797
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Longitudes, Situs, and the Measure of Time",
+   "stop": "Paris Observatory, the Bureau des longitudes",
+   "date": "1893-01-01",
+   "date_confidence": "attested to 1893 for both the Bureau des longitudes and the promotion to chief engineer in the Corps des mines (Académie française notice; en.wikipedia). Month and day not recorded and default to 01-01. The description of the Bureau's work on telegraphic longitude is standard institutional history and is the ground on which Peter Galison's Einstein's Clocks, Poincaré's Maps reads the 1898 paper; that reading is cited in the research dossier but was not independently re-fetched.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Longitudes, Situs, and the Measure of Time",
+   "stop": "Paris, Analysis Situs",
+   "date": "1895-01-01",
+   "date_confidence": "attested to 1895, with the first topology papers dated 1894-95 (MacTutor). Month and day not recorded and default to 01-01. Coordinate is the canonical atlas Sorbonne pin. The five supplements ran to 1904; the fifth is where the false homological claim is replaced by the question later called the Poincaré conjecture. The quotation is verified verbatim in the Halsted translation and comes from 'The Future of Mathematics' in Science and Method, correcting the essay attribution given in the research pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Longitudes, Situs, and the Measure of Time",
+   "stop": "Paris, la mesure du temps",
+   "date": "1898-01-01",
+   "date_confidence": "attested to 1898 (Stanford Encyclopedia of Philosophy; Internet Encyclopedia of Philosophy, entry on Poincaré, on the conventionality of simultaneity). Month and day not recorded and default to 01-01. Coordinate is the canonical atlas Sorbonne pin; the paper appeared in the Revue de métaphysique et de morale, whose editorial address is not used here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention",
+    "not recorded",
+    "year named only",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Longitudes, Situs, and the Measure of Time",
+   "stop": "Cambridge, the Senate House",
+   "date": "1900-06-12",
+   "date_confidence": "reconstruction as to his presence. Lebon's bibliography (Project Gutenberg 32948) documents the date of the Cambridge honorary degree precisely and says nothing about attendance, and no source reached places Poincaré in England that June. The other honorary doctorates named in the campa are documented in the same list with their own dates: Christiania 6 September 1902, Kolozsvár 8 January 1903, Oxford 24 June 1903, Glasgow 23 April 1907, Brussels 19 November 1909, Stockholm 7 December 1909, Berlin 12 October 1910. Attendance at any of them is unconfirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415182.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (no source, reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.55,
+    "text": "Gemini 20°33′",
+    "longitude": 80.551
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 6.43,
+    "text": "Sagittarius 6°26′",
+    "longitude": 246.427
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 5.15,
+    "text": "Cancer 5°09′",
+    "longitude": 95.149
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 23.53,
+    "text": "Cancer 23°32′",
+    "longitude": 113.533
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 18.93,
+    "text": "Taurus 18°56′",
+    "longitude": 48.933
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 4.13,
+    "text": "Sagittarius 4°08′",
+    "longitude": 244.128
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 2.54,
+    "text": "Capricornus 2°32′",
+    "longitude": 272.535
+   }
+  },
+  {
+   "segment": "Longitudes, Situs, and the Measure of Time",
+   "stop": "Paris, presiding over the congress of 1900",
+   "date": "1900-08-06",
+   "date_confidence": "corrected. The pool's geography lens had him lecturing at Paris 1900 on the future of mathematics; that address belongs to the 1908 Rome congress. Lebon records him as 'Président du Congrès des Mathématiciens tenu à Paris du 6 au 12 août 1900', and his Paris address was on the roles of intuition and logic. The Royal Astronomical Society Gold Medal of 1900 is attested in the RAS list of Gold Medallists. That Hilbert read his problems at this congress is well established in the general history of mathematics but appears in no source fetched for this file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415237.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.05,
+    "text": "Leo 13°03′",
+    "longitude": 133.051
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bordereau",
+   "stop": "Paris, the petition of January 1898",
+   "date": "1898-01-15",
+   "date_confidence": "reconstruction. The pool tags the signature [R], sourced to the Edinburgh dossier on Poincaré and the Dreyfus affair (webhomes.maths.ed.ac.uk/~v1ranick/dreyfus.htm), and the month, January 1898, is all that is given; the fifteenth is an ordering device placed after the appearance of J'accuse on the thirteenth. Coordinate is the canonical atlas Paris pin, no signing venue being recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414304.5,
+   "precision": "month",
+   "precision_triggers": [
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 24.92,
+    "text": "Capricornus 24°55′",
+    "longitude": 294.917
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bordereau",
+   "stop": "Paris, the letter to the council of war at Rennes",
+   "date": "1899-08-01",
+   "date_confidence": "attested that he addressed a letter to the council of war at Rennes in 1899 (fr.wikipedia, 'Henri Poincaré': 'En 1899, Henri Poincaré adresse une lettre au Conseil de guerre de Rennes'). Month and day are not recorded; August is the month the retrial opened and is an ordering device. The pool's geography lens said Paul Painlevé read the letter into the record; nothing reached confirms that, and it is dropped. The Edinburgh dossier, which the pool cited here, was fetched and says nothing about 1899, Painlevé, or Bertillon. The stop stays in Paris: Rennes belongs to those who were in the courtroom.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414867.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.5,
+    "text": "Leo 8°30′",
+    "longitude": 128.495
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bordereau",
+   "stop": "Paris, the Institut de France, the report with Darboux and Appell",
+   "date": "1904-01-01",
+   "date_confidence": "attested to 1904 (Edinburgh dossier, webhomes.maths.ed.ac.uk/~v1ranick/dreyfus.htm) for the joint report of Poincaré, Gaston Darboux and Paul Appell used in the Court of Cassation review; month and day not recorded and default to 01-01. The 1906 annulment and reinstatement are attested in the same source and narrated in captain_alfred_dreyfus.journey.json, whose surviving text does not itself name the three mathematicians. The Cour de cassation session of 12 July 1906 is that file's stop, not this one, and is stated here only as an outcome.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416480.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.17,
+    "text": "Capricornus 9°10′",
+    "longitude": 279.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Principle of Relativity",
+   "stop": "Paris, La Science et l'Hypothèse",
+   "date": "1902-01-01",
+   "date_confidence": "attested to 1902 (Stanford Encyclopedia of Philosophy). Month and day not recorded and default to 01-01. Coordinate is the canonical atlas Sorbonne pin. The English translation of 1905 by W. J. Greenstreet, with a preface by Joseph Larmor, published by Walter Scott in London and New York, is attested by the Internet Archive item metadata for sciencehypothesi00poin. The Bern reading of the book by Einstein and the Olympia Academy is attested in einstein.journey.json and is carried here as a reference, not as a scene.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Principle of Relativity",
+   "stop": "St. Louis, Forest Park, the principles of mathematical physics",
+   "date": "1904-09-24",
+   "date_confidence": "corrected. The pool dated this 17 September 1904 from Lebon, but Lebon's 17 September entry is a different paper, on geodesic lines of convex surfaces, given to the American Mathematical Society meeting. 'The Principles of Mathematical Physics' was delivered to the International Congress of Arts and Science, which ran 19-25 September 1904, and is conventionally dated 24 September. The two St. Louis papers are not conflated here. Coordinate is Forest Park, the fairground site, not a named hall.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416747.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 0.51,
+    "text": "Libra 0°31′",
+    "longitude": 180.511
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Principle of Relativity",
+   "stop": "Paris, Académie des sciences, sur la dynamique de l'électron",
+   "date": "1905-06-05",
+   "date_confidence": "date attested: Comptes rendus 140 (1905), 1504-1508, presented 5 June 1905. The final sentence records a chronological fact and nothing more: Einstein's paper on the electrodynamics of moving bodies was received at Annalen der Physik on 30 June 1905. No source establishes that Einstein had read this note, and the priority question is left standing rather than resolved in either direction, per the research dossier's own caution.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417001.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year range, no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.66,
+    "text": "Gemini 13°40′",
+    "longitude": 73.659
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 4.33,
+    "text": "Cancer 4°20′",
+    "longitude": 94.325
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 23.58,
+    "text": "Taurus 23°35′",
+    "longitude": 53.575
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 3.35,
+    "text": "Taurus 3°21′",
+    "longitude": 33.355
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 9.31,
+    "text": "Scorpio 9°19′",
+    "longitude": 219.311
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 20.55,
+    "text": "Taurus 20°33′",
+    "longitude": 50.546
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 2.7,
+    "text": "Pisces 2°42′",
+    "longitude": 332.696
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Principle of Relativity",
+   "stop": "Palermo, the long memoir received",
+   "date": "1905-07-23",
+   "date_confidence": "attested: the memoir was received by the Circolo Matematico di Palermo on 23 July 1905 and printed in Rendiconti del Circolo Matematico di Palermo 21 (1906), 129-176, as cited in the arXiv translation arxiv.org/pdf/1710.00706. Poincaré himself did not travel to Palermo; the pin marks where the paper was received and published, and the coordinate is central Palermo rather than a located editorial address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417049.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft) editorial"
+   ],
+   "notes": [
+    "soft triggers (year range, editorial) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 29.46,
+    "text": "Cancer 29°28′",
+    "longitude": 119.463
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 12.58,
+    "text": "Aries 12°35′",
+    "longitude": 12.579
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 24.46,
+    "text": "Leo 24°28′",
+    "longitude": 144.464
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 14.63,
+    "text": "Gemini 14°38′",
+    "longitude": 74.629
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 15.75,
+    "text": "Scorpio 15°45′",
+    "longitude": 225.753
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 0.34,
+    "text": "Gemini 0°20′",
+    "longitude": 60.338
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 1.54,
+    "text": "Pisces 1°33′",
+    "longitude": 331.544
+   }
+  },
+  {
+   "segment": "The Immortal and the Last Congress",
+   "stop": "Paris, Science et Méthode",
+   "date": "1908-01-01",
+   "date_confidence": "attested to 1908 (Stanford Encyclopedia of Philosophy), incorporating the lecture 'L'invention mathématique' given that year to the Société de psychologie in Paris. Month and day not recorded and default to 01-01. Coordinate is the canonical atlas Sorbonne pin. The quotation is verified verbatim in the Halsted translation and belongs to 'The Choice of Facts' in Science and Method, correcting the research pool, which assigned it to a section of The Value of Science that does not contain it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only",
+    "assigned"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Immortal and the Last Congress",
+   "stop": "Paris, fauteuil 24 of the Académie française",
+   "date": "1908-03-05",
+   "date_confidence": "attested in full by the Académie française biographical notice: elected 5 March 1908 to fauteuil 24, the seat of Sully-Prudhomme, on the second ballot with 17 of 33 votes against Charles de Pomairols and Jean Aicard. The sales figures for the three popular books are a characterization drawn from the general publishing record rather than from a figure in any source fetched.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418005.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 14.04,
+    "text": "Pisces 14°03′",
+    "longitude": 344.045
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 14.3,
+    "text": "Aries 14°18′",
+    "longitude": 14.304
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 4.39,
+    "text": "Pisces 4°24′",
+    "longitude": 334.392
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 23.76,
+    "text": "Aries 23°45′",
+    "longitude": 23.756
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 7.47,
+    "text": "Taurus 7°28′",
+    "longitude": 37.471
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 4.6,
+    "text": "Leo 4°36′",
+    "longitude": 124.603
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 28.09,
+    "text": "Pisces 28°06′",
+    "longitude": 358.094
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Immortal and the Last Congress",
+   "stop": "Paris, under the Coupole",
+   "date": "1909-01-28",
+   "date_confidence": "attested: received 28 January 1909, with the reply delivered by Frédéric Masson (Académie française notice). The notice also records, in its own words, that on the day of his reception he tried to begin reading his discourse before the session had been opened. The eulogy of the predecessor is a standing requirement of the reception discourse; that Sully-Prudhomme is its subject follows from the custom and from the seat, and is not separately sourced here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418334.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 7.46,
+    "text": "Aquarius 7°28′",
+    "longitude": 307.461
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 29.4,
+    "text": "Aries 29°24′",
+    "longitude": 29.404
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 25.87,
+    "text": "Aquarius 25°52′",
+    "longitude": 325.866
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 15.01,
+    "text": "Capricornus 15°01′",
+    "longitude": 285.012
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 11.89,
+    "text": "Sagittarius 11°53′",
+    "longitude": 251.891
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 13.27,
+    "text": "Virgo 13°16′",
+    "longitude": 163.268
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 5.62,
+    "text": "Aries 5°37′",
+    "longitude": 5.618
+   }
+  },
+  {
+   "segment": "The Immortal and the Last Congress",
+   "stop": "Paris, inspector general of mines",
+   "date": "1910-01-01",
+   "date_confidence": "attested and upgraded here from the pool's hedged [R]: en.wikipedia's career list states 'Inspector general (1910)' outright. fr.wikipedia gives only the 1893 promotion to ingénieur en chef and is silent on 1910, which is a gap rather than a contradiction. Month and day not recorded and default to 01-01. Coordinate is the canonical atlas Paris pin. The size of the published corpus is taken from the Nantes Henri Poincaré Papers database, cited through the research dossier and not independently queried.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Immortal and the Last Congress",
+   "stop": "Brussels, the Hotel Metropole, the first Solvay",
+   "date": "1911-10-30",
+   "date_confidence": "attested: the first Solvay Conference on radiation and the quanta ran 30 October to 3 November 1911 at the Hotel Metropole in Brussels, chaired by Lorentz, with Poincaré, Einstein, Curie and Planck present (en.wikipedia, 'Solvay Conference'; Comptes rendus retrospective). The coordinate is inherited byte-identically from einstein.journey.json, whose stop for the same congress names Poincaré directly; a verification pass here places the Hotel Metropole nearer 50.8515/4.3535 on the place de Brouckère, and the canonical atlas pin is kept for consistency across the files.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419339.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 5.46,
+    "text": "Scorpio 5°27′",
+    "longitude": 215.456
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 2.38,
+    "text": "Aquarius 2°23′",
+    "longitude": 302.383
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 9.38,
+    "text": "Scorpio 9°23′",
+    "longitude": 219.375
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 22.28,
+    "text": "Virgo 22°17′",
+    "longitude": 172.282
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 9.95,
+    "text": "Gemini 9°57′",
+    "longitude": 69.953
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 20.84,
+    "text": "Scorpio 20°51′",
+    "longitude": 230.844
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 17.61,
+    "text": "Taurus 17°37′",
+    "longitude": 47.612
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Seventeenth of July, and After",
+   "stop": "Paris, 63 rue Claude-Bernard",
+   "date": "1912-07-17",
+   "date_confidence": "attested: death on 17 July 1912 of an embolism following prostate surgery, while dressing (Times of London obituary; en.wikipedia). Coordinate corrected and reconciled: the pool's geography lens gave 48.841/2.3428 and its afterlife lens 48.8407/2.3457 for the same building. fr.wikipedia gives the address as 63 rue Claude-Bernard, Paris 5e, and a single value of 48.8402/2.3455 is used throughout this file. That the Times had the news in print the same day follows from the obituary's own dateline.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419600.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 24.03,
+    "text": "Cancer 24°02′",
+    "longitude": 114.031
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 28.87,
+    "text": "Leo 28°52′",
+    "longitude": 148.871
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 19.49,
+    "text": "Leo 19°29′",
+    "longitude": 139.491
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 27.05,
+    "text": "Cancer 27°03′",
+    "longitude": 117.05
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 29.93,
+    "text": "Leo 29°56′",
+    "longitude": 149.935
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 5.93,
+    "text": "Sagittarius 5°56′",
+    "longitude": 245.934
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 0.98,
+    "text": "Gemini 0°59′",
+    "longitude": 60.983
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Seventeenth of July, and After",
+   "stop": "Paris, Saint-Jacques-du-Haut-Pas",
+   "date": "1912-07-19",
+   "date_confidence": "attested and made precise here: fr.wikipedia gives the funeral as 19 July 1912 at Saint-Jacques-du-Haut-Pas, and the Times obituary of the seventeenth calls it 'next Friday'. The pool's geography lens gave only 'July 1912' and a coordinate about 200 m off; the church stands at 252 rue Saint-Jacques. The attendance list, including the Prime Minister Raymond Poincaré, the President of the Senate, the Prince of Monaco, the sons of the Bey of Tunis, and Royal Society delegates Joseph Larmor and F. W. Dyson, is the Times obituary's own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419602.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 25.94,
+    "text": "Cancer 25°56′",
+    "longitude": 115.939
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 27.89,
+    "text": "Virgo 27°53′",
+    "longitude": 177.888
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 22.05,
+    "text": "Leo 22°03′",
+    "longitude": 142.049
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 29.51,
+    "text": "Cancer 29°31′",
+    "longitude": 119.513
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.17,
+    "text": "Virgo 1°10′",
+    "longitude": 151.169
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 5.84,
+    "text": "Sagittarius 5°50′",
+    "longitude": 245.84
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 1.17,
+    "text": "Gemini 1°10′",
+    "longitude": 61.17
+   }
+  },
+  {
+   "segment": "The Seventeenth of July, and After",
+   "stop": "Paris, Montparnasse, the family vault in section 16",
+   "date": "1912-07-19",
+   "date_confidence": "attested: burial in the Poincaré family vault, section 16 of Montparnasse cemetery, near the rue Émile-Richard (en.wikipedia; Times obituary). Coordinate reconciled to the geography lens value 48.8384/2.3282; the afterlife lens gave 48.8412/2.3277, which lies about 320 m north of the cemetery near Montparnasse station. The 2004 proposal by the former education minister Claude Allègre to transfer him to the Panthéon is carried from en.wikipedia only; a Le Monde report on it could not be fetched. The 2003 resolution of the conjecture is attested by the same article.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419602.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 25.94,
+    "text": "Cancer 25°56′",
+    "longitude": 115.939
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 27.89,
+    "text": "Virgo 27°53′",
+    "longitude": 177.888
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 22.05,
+    "text": "Leo 22°03′",
+    "longitude": 142.049
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 29.51,
+    "text": "Cancer 29°31′",
+    "longitude": 119.513
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.17,
+    "text": "Virgo 1°10′",
+    "longitude": 151.169
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 5.84,
+    "text": "Sagittarius 5°50′",
+    "longitude": 245.84
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 1.17,
+    "text": "Gemini 1°10′",
+    "longitude": 61.17
+   }
+  },
+  {
+   "segment": "The Seventeenth of July, and After",
+   "stop": "Nancy, the bronze in the lycée square",
+   "date": "1913-01-01",
+   "date_confidence": "the bust by Joseph Carlier, erected 1913 in the lycée square at Nancy, and the renaming of the lycée in the same year, are attested by fr.wikipedia. Month and day are not recorded and default to 01-01. The detail that the subscription was raised among alumni of the lycées of Nancy, Colmar, Metz and Strasbourg is [R]: it is in the research pool and could not be independently confirmed. Coordinate corrected from the pool's 48.6921/6.1844, which is generic Nancy centre, to the lycée's own. The quotation is by Sir George Darwin about Poincaré, not by him.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419768.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 279.996
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seventeenth of July, and After",
+   "stop": "Paris, the Institut Henri Poincaré",
+   "date": "1928-11-17",
+   "date_confidence": "attested in full against the institute's own history page, ihp.fr/en/history: inaugurated 17 November 1928, Émile Borel founder and first director, Jean Perrin and Paul Langevin on the committee, funded by the Rockefeller Foundation's International Education Board with Edmond de Rothschild, at 11 rue Pierre et Marie Curie. Coordinate corrected from the pool's 48.8443/2.3448, about 180 m off that address. The lunar basin, 319 km across and centred near 56.7 S 163.6 E, was named by the IAU in 1970 (en.wikipedia, 'Poincaré (crater)').",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425567.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 24.41,
+    "text": "Scorpio 24°25′",
+    "longitude": 234.414
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 14.13,
+    "text": "Capricornus 14°08′",
+    "longitude": 284.13
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 7.49,
+    "text": "Scorpio 7°30′",
+    "longitude": 217.494
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 29.7,
+    "text": "Sagittarius 29°42′",
+    "longitude": 269.702
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 9.1,
+    "text": "Cancer 9°06′",
+    "longitude": 99.103
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 3.11,
+    "text": "Taurus 3°07′",
+    "longitude": 33.113
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 18.36,
+    "text": "Sagittarius 18°21′",
+    "longitude": 258.358
+   }
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 15,
+  "month": 8,
+  "year": 21
+ },
+ "parse_failures": []
+}

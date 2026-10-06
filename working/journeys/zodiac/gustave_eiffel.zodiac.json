@@ -1,0 +1,2133 @@
+{
+ "slug": "gustave_eiffel",
+ "traveler": "Alexandre Gustave Bonickhausen dit Eiffel (Gustave Eiffel)",
+ "title": "The Arch Stood Upright: Bordeaux, the Douro, Garabit, and Three Hundred Metres over the Champ de Mars",
+ "years": "1832-1923",
+ "years_parsed": {
+  "first": 1832,
+  "last": 1923
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Bonickhausen Boy",
+  "stop": "Dijon, the birth on the Cote-d'Or",
+  "date": "1832-12-15",
+  "date_confidence": "attested (fr.wikipedia, en.wikipedia)",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1832,
+  "jd_ut": 2390532.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Sagittarius",
+   "degree": 23.1,
+   "text": "Sagittarius 23°06′",
+   "longitude": 263.103
+  },
+  "moon": {
+   "sign": "Virgo",
+   "degree": 29.21,
+   "text": "Virgo 29°13′",
+   "longitude": 179.209
+  },
+  "mercury": {
+   "sign": "Capricornus",
+   "degree": 10.93,
+   "text": "Capricornus 10°56′",
+   "longitude": 280.926
+  },
+  "venus": {
+   "sign": "Capricornus",
+   "degree": 28.11,
+   "text": "Capricornus 28°07′",
+   "longitude": 298.113
+  },
+  "mars": {
+   "sign": "Taurus",
+   "degree": 21.53,
+   "text": "Taurus 21°32′",
+   "longitude": 51.533
+  },
+  "jupiter": {
+   "sign": "Pisces",
+   "degree": 20.4,
+   "text": "Pisces 20°24′",
+   "longitude": 350.398
+  },
+  "saturn": {
+   "sign": "Virgo",
+   "degree": 27.71,
+   "text": "Virgo 27°42′",
+   "longitude": 177.708
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1832-1923",
+  "first_year_parsed": 1832
+ },
+ "stops": [
+  {
+   "segment": "The Bonickhausen Boy",
+   "stop": "Dijon, the birth on the Cote-d'Or",
+   "date": "1832-12-15",
+   "date_confidence": "attested (fr.wikipedia, en.wikipedia)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390532.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 23.1,
+    "text": "Sagittarius 23°06′",
+    "longitude": 263.103
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 29.21,
+    "text": "Virgo 29°13′",
+    "longitude": 179.209
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 10.93,
+    "text": "Capricornus 10°56′",
+    "longitude": 280.926
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 28.11,
+    "text": "Capricornus 28°07′",
+    "longitude": 298.113
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 21.53,
+    "text": "Taurus 21°32′",
+    "longitude": 51.533
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 20.4,
+    "text": "Pisces 20°24′",
+    "longitude": 350.398
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 27.71,
+    "text": "Virgo 27°42′",
+    "longitude": 177.708
+   }
+  },
+  {
+   "segment": "The Bonickhausen Boy",
+   "stop": "Paris, the College Sainte-Barbe",
+   "date": "1850-01-01",
+   "date_confidence": "year attested (fr.wikipedia); month and day unknown, defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396758.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.3,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.296
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bonickhausen Boy",
+   "stop": "Paris, the Hotel Sale and the Ecole Centrale",
+   "date": "1855-01-01",
+   "date_confidence": "graduation year attested (en.wikipedia); month unknown, defaulted. Location corrected: the school occupied the Hotel Sale, 5 rue de Thorigny, from 1829 to 1884, not the later Ecole Centrale site the research pool gave",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398584.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.078
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Garonne and the First Iron",
+   "stop": "Paris, Charles Nepveu and the trade of metal",
+   "date": "1856-01-01",
+   "date_confidence": "year attested (fr.wikipedia); month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2398949.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.831
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Garonne and the First Iron",
+   "stop": "Bordeaux, the bridge over the Garonne",
+   "date": "1858-01-01",
+   "date_confidence": "contested. fr.wikipedia dates his involvement from 1858 and calls it his first major project at twenty-six; en.wikipedia dates the works 1857-1860 and has him take over site management from Nepveu only in March 1860, aged twenty-seven. Not resolved. Coordinates corrected: the Passerelle Eiffel is at 44.8322/-0.5522, not the 44.8478 the research pool gave, which lands near the Pont Chaban-Delmas",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399680.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.36,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.355
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Garonne and the First Iron",
+   "stop": "Dijon, the marriage to Marguerite Gaudelet",
+   "date": "1862-04-07",
+   "date_confidence": "attested (fr.wikipedia)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401237.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 16.93,
+    "text": "Aries 16°56′",
+    "longitude": 16.926
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 11.24,
+    "text": "Cancer 11°14′",
+    "longitude": 101.239
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 21.94,
+    "text": "Pisces 21°56′",
+    "longitude": 351.942
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 5.64,
+    "text": "Pisces 5°38′",
+    "longitude": 335.637
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 1.9,
+    "text": "Aquarius 1°54′",
+    "longitude": 301.9
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 19.5,
+    "text": "Virgo 19°30′",
+    "longitude": 169.501
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 17.34,
+    "text": "Virgo 17°20′",
+    "longitude": 167.337
+   }
+  },
+  {
+   "segment": "The Garonne and the First Iron",
+   "stop": "Suez, the canal of Ferdinand de Lesseps",
+   "date": "1866-01-01",
+   "date_confidence": "year attested (en.wikipedia); month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1866,
+   "jd_ut": 2402602.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.414
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Garonne and the First Iron",
+   "stop": "Levallois-Perret, the workshops on the rue Fouquet",
+   "date": "1866-01-01",
+   "date_confidence": "year attested (fr.wikipedia); month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1866,
+   "jd_ut": 2402602.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.414
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eiffel et Cie: the World Trade in Iron",
+   "stop": "Champ de Mars, the Galerie des Machines",
+   "date": "1867-01-01",
+   "date_confidence": "year attested (Wikipedia, 'Gustave Eiffel'); month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2402967.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.166
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eiffel et Cie: the World Trade in Iron",
+   "stop": "Paris, Eiffel et Cie founded with Seyrig",
+   "date": "1868-10-06",
+   "date_confidence": "attested (en.wikipedia)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403611.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.02,
+    "text": "Libra 13°01′",
+    "longitude": 193.019
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.08,
+    "text": "Gemini 2°05′",
+    "longitude": 62.08
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 6.76,
+    "text": "Scorpio 6°46′",
+    "longitude": 216.764
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 27.19,
+    "text": "Leo 27°11′",
+    "longitude": 147.192
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 2.18,
+    "text": "Leo 2°11′",
+    "longitude": 122.18
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 8.91,
+    "text": "Aries 8°54′",
+    "longitude": 8.907
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 2.06,
+    "text": "Sagittarius 2°04′",
+    "longitude": 242.061
+   }
+  },
+  {
+   "segment": "Eiffel et Cie: the World Trade in Iron",
+   "stop": "Verdun, the station put into service",
+   "date": "1870-04-14",
+   "date_confidence": "the station was built in 1868 to Eiffel's plans, put into service 14 April 1870 and officially inaugurated 1 July 1870; the research pool's wording, 'completed', is wrong for this date. Coordinates corrected from 49.1593/5.3822 (about 0.7 km off) to 49.1656/5.3794",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404166.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 23.85,
+    "text": "Aries 23°51′",
+    "longitude": 23.851
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 26.22,
+    "text": "Virgo 26°13′",
+    "longitude": 176.223
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 24.21,
+    "text": "Aries 24°12′",
+    "longitude": 24.207
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 9.73,
+    "text": "Pisces 9°44′",
+    "longitude": 339.728
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 16.94,
+    "text": "Aries 16°57′",
+    "longitude": 16.942
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 24.31,
+    "text": "Taurus 24°18′",
+    "longitude": 54.307
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 28.27,
+    "text": "Sagittarius 28°16′",
+    "longitude": 268.268
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Eiffel et Cie: the World Trade in Iron",
+   "stop": "La Paz, the gasworks in the Andes",
+   "date": "1873-01-01",
+   "date_confidence": "year attested (Wikipedia, 'Gustave Eiffel'); month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.72,
+    "text": "Capricornus 10°43′",
+    "longitude": 280.72
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eiffel et Cie: the World Trade in Iron",
+   "stop": "Arica, the iron church redirected by an earthquake",
+   "date": "1876-01-01",
+   "date_confidence": "the pieces arrive 1875 and the building is inaugurated 1876 (es.wikipedia); month unknown, defaulted. The research pool tagged the attribution [R], but es.wikipedia states plainly that the church was commissioned from Eiffel's workshops, so the doubt is weaker than the tag implies. Coordinates corrected from -18.4783/-70.3126, about 0.9 km off",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.978
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eiffel et Cie: the World Trade in Iron",
+   "stop": "Levallois-Perret, the death of Marguerite",
+   "date": "1877-09-08",
+   "date_confidence": "the research pool tags this [R]; fr.wikipedia gives 8 September 1877 at Levallois-Perret, aged 32",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406870.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.42,
+    "text": "Virgo 15°25′",
+    "longitude": 165.418
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 21.87,
+    "text": "Virgo 21°52′",
+    "longitude": 171.87
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.99,
+    "text": "Libra 10°59′",
+    "longitude": 190.99
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 18.09,
+    "text": "Libra 18°05′",
+    "longitude": 198.087
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 12.84,
+    "text": "Pisces 12°51′",
+    "longitude": 342.843
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 24.37,
+    "text": "Sagittarius 24°22′",
+    "longitude": 264.373
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 16.67,
+    "text": "Pisces 16°40′",
+    "longitude": 346.672
+   }
+  },
+  {
+   "segment": "Eiffel et Cie: the World Trade in Iron",
+   "stop": "Budapest, the Nyugati train shed",
+   "date": "1877-10-28",
+   "date_confidence": "opening date attested (en.wikipedia); the contract dates to 1875",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406920.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 4.7,
+    "text": "Scorpio 4°42′",
+    "longitude": 214.697
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eiffel et Cie: the World Trade in Iron",
+   "stop": "Porto, the arch over the Douro",
+   "date": "1877-11-04",
+   "date_confidence": "opening attested (en.wikipedia). The competition was won in 1875, but on-site construction ran 5 January 1876 to 1 October 1877; the research pool's '1875-05' conflated the award with a construction start. Coordinates corrected from 41.1372/-8.6076, about 0.9 km off",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406927.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 11.71,
+    "text": "Scorpio 11°42′",
+    "longitude": 221.707
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 23.59,
+    "text": "Libra 23°36′",
+    "longitude": 203.594
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 5.76,
+    "text": "Scorpio 5°46′",
+    "longitude": 215.76
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 25.64,
+    "text": "Sagittarius 25°39′",
+    "longitude": 265.642
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 13.73,
+    "text": "Pisces 13°44′",
+    "longitude": 343.735
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 1.68,
+    "text": "Capricornus 1°41′",
+    "longitude": 271.68
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 13.38,
+    "text": "Pisces 13°23′",
+    "longitude": 343.381
+   }
+  },
+  {
+   "segment": "The Curve of the Arch",
+   "stop": "Champ de Mars, the Gas Company pavilion",
+   "date": "1878-01-01",
+   "date_confidence": "year attested (Wikipedia, 'Gustave Eiffel'); month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2406985.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.502
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Curve of the Arch",
+   "stop": "Paris, Seyrig goes and Koechlin comes",
+   "date": "1879-01-01",
+   "date_confidence": "year attested for both the dissolution and Koechlin's arrival (en.wikipedia, fr.wikipedia); months unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407350.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.25,
+    "text": "Capricornus 10°15′",
+    "longitude": 280.255
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Curve of the Arch",
+   "stop": "Paris, the judgment on the name",
+   "date": "1880-12-15",
+   "date_confidence": "a decree of 1879 and a civil judgment of 15 December 1880 are both cited by fr.wikipedia; the relation between the two acts is not spelled out in the sources reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2408064.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 23.46,
+    "text": "Sagittarius 23°27′",
+    "longitude": 263.458
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 5.48,
+    "text": "Gemini 5°29′",
+    "longitude": 65.482
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 2.65,
+    "text": "Sagittarius 2°39′",
+    "longitude": 242.653
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 1.54,
+    "text": "Aquarius 1°32′",
+    "longitude": 301.536
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 7.86,
+    "text": "Sagittarius 7°51′",
+    "longitude": 247.856
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 9.94,
+    "text": "Aries 9°56′",
+    "longitude": 9.937
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 21.89,
+    "text": "Aries 21°53′",
+    "longitude": 21.886
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Curve of the Arch",
+   "stop": "Rue de Chazelles, the pylon under the copper",
+   "date": "1884-01-01",
+   "date_confidence": "Bartholdi's approach is dated 1881 by en.wikipedia 'Gustave Eiffel' and 1880 by en.wikipedia 'Statue of Liberty'; not resolved. The Paris assembly is complete by July 1884 and dismantling begins January 1885. Month of the 1884 assembly stage defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409176.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.037
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Curve of the Arch",
+   "stop": "Ruynes-en-Margeride, the arch over the Truyere",
+   "date": "1884-01-01",
+   "date_confidence": "contract 1879, arch closed 1884, opened to traffic November 1885; month of closure unknown, defaulted. Coordinates corrected to 44.97528/3.17750: the research pool gave three different and all incorrect pairs for Garabit across its three lenses. Height given as 124 m by en.wikipedia and 122.5 m elsewhere",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409176.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.037
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Curve of the Arch",
+   "stop": "Liberty Island, the armature dedicated",
+   "date": "1886-10-28",
+   "date_confidence": "dedication date attested (fr.wikipedia); the research pool's chronology lens gives the year only",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2410207.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 4.52,
+    "text": "Scorpio 4°31′",
+    "longitude": 214.516
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Three Hundred Metres",
+   "stop": "Paris, the patent of eighteen September",
+   "date": "1884-09-18",
+   "date_confidence": "attested (toureiffel.paris official history)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409437.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 25.46,
+    "text": "Virgo 25°28′",
+    "longitude": 175.462
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 8.38,
+    "text": "Virgo 8°23′",
+    "longitude": 158.384
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 28.8,
+    "text": "Virgo 28°48′",
+    "longitude": 178.795
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 9.43,
+    "text": "Leo 9°26′",
+    "longitude": 129.431
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 3.5,
+    "text": "Scorpio 3°30′",
+    "longitude": 213.504
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 24.37,
+    "text": "Leo 24°22′",
+    "longitude": 144.375
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 23.87,
+    "text": "Gemini 23°52′",
+    "longitude": 83.872
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Three Hundred Metres",
+   "stop": "Paris, the paper to the civil engineers",
+   "date": "1885-03-30",
+   "date_confidence": "attested (en.wikipedia, quoting the paper)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409630.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 9.47,
+    "text": "Aries 9°28′",
+    "longitude": 9.471
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 0.88,
+    "text": "Libra 0°53′",
+    "longitude": 180.882
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 25.04,
+    "text": "Aries 25°02′",
+    "longitude": 25.036
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 0.21,
+    "text": "Aries 0°13′",
+    "longitude": 0.208
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 29.56,
+    "text": "Pisces 29°34′",
+    "longitude": 359.562
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 26.61,
+    "text": "Leo 26°36′",
+    "longitude": 146.607
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 18.75,
+    "text": "Gemini 18°45′",
+    "longitude": 78.754
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Three Hundred Metres",
+   "stop": "Champ de Mars, the foundations opened",
+   "date": "1887-01-28",
+   "date_confidence": "28 January 1887 per en.wikipedia and fr.wikipedia. The research pool's chronology lens gave 26 January and its geography lens 28 January, an internal contradiction; the official figure of two years, two months and five days is what tempts sources toward the 26th",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410299.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 7.81,
+    "text": "Aquarius 7°48′",
+    "longitude": 307.806
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Three Hundred Metres",
+   "stop": "Paris, the protest of the three hundred",
+   "date": "1887-02-14",
+   "date_confidence": "attested; protest and reply printed in Le Temps the same day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410316.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 25.03,
+    "text": "Aquarius 25°02′",
+    "longitude": 325.029
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 11.47,
+    "text": "Scorpio 11°28′",
+    "longitude": 221.47
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 0.81,
+    "text": "Pisces 0°49′",
+    "longitude": 330.813
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 12.38,
+    "text": "Pisces 12°23′",
+    "longitude": 342.377
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 10.73,
+    "text": "Pisces 10°44′",
+    "longitude": 340.733
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 5.86,
+    "text": "Scorpio 5°51′",
+    "longitude": 215.855
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 16.48,
+    "text": "Cancer 16°29′",
+    "longitude": 106.484
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Three Hundred Metres",
+   "stop": "Place de l'Etoile, the answer from the Arc de Triomphe",
+   "date": "1887-02-14",
+   "date_confidence": "attested; the passage is in the reply of 14 February 1887",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410316.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 25.03,
+    "text": "Aquarius 25°02′",
+    "longitude": 325.029
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 11.47,
+    "text": "Scorpio 11°28′",
+    "longitude": 221.47
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 0.81,
+    "text": "Pisces 0°49′",
+    "longitude": 330.813
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 12.38,
+    "text": "Pisces 12°23′",
+    "longitude": 342.377
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 10.73,
+    "text": "Pisces 10°44′",
+    "longitude": 340.733
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 5.86,
+    "text": "Scorpio 5°51′",
+    "longitude": 215.855
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 16.48,
+    "text": "Cancer 16°29′",
+    "longitude": 106.484
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Three Hundred Metres",
+   "stop": "Champ de Mars, the tricolour at the summit",
+   "date": "1889-03-31",
+   "date_confidence": "attested (toureiffel.paris official history)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411092.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.49,
+    "text": "Aries 10°29′",
+    "longitude": 10.489
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 4.72,
+    "text": "Aries 4°43′",
+    "longitude": 4.72
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 18.29,
+    "text": "Pisces 18°18′",
+    "longitude": 348.294
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 17.34,
+    "text": "Taurus 17°21′",
+    "longitude": 47.343
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 1.31,
+    "text": "Taurus 1°19′",
+    "longitude": 31.314
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 7.39,
+    "text": "Capricornus 7°24′",
+    "longitude": 277.395
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 13.7,
+    "text": "Leo 13°42′",
+    "longitude": 133.702
+   }
+  },
+  {
+   "segment": "Three Hundred Metres",
+   "stop": "Champ de Mars, the fair opens",
+   "date": "1889-05-15",
+   "date_confidence": "attested (fr.wikipedia)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411137.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 24.33,
+    "text": "Taurus 24°20′",
+    "longitude": 54.332
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 20.39,
+    "text": "Scorpio 20°23′",
+    "longitude": 230.386
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 14.08,
+    "text": "Gemini 14°05′",
+    "longitude": 74.085
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 3.79,
+    "text": "Taurus 3°47′",
+    "longitude": 33.791
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 3.59,
+    "text": "Gemini 3°35′",
+    "longitude": 63.588
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 7.74,
+    "text": "Capricornus 7°44′",
+    "longitude": 277.736
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 14.33,
+    "text": "Leo 14°20′",
+    "longitude": 134.333
+   }
+  },
+  {
+   "segment": "The Isthmus and the Fall",
+   "stop": "Panama, the locks of the Compagnie Universelle",
+   "date": "1887-01-01",
+   "date_confidence": "year attested (en.wikipedia); month unknown, defaulted. Whether Eiffel travelled to the isthmus, as against directing the lock design from Paris, is not confirmed in the sources reached and is recorded as a gap",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410272.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.314
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Isthmus and the Fall",
+   "stop": "Colon, the payments suspended",
+   "date": "1888-12-14",
+   "date_confidence": "attested (en.wikipedia). The suspension is a corporate act taken in Paris; the pin is placed at the Caribbean end of the works, where its effect is visible",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410985.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 22.5,
+    "text": "Sagittarius 22°30′",
+    "longitude": 262.499
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Isthmus and the Fall",
+   "stop": "Iquitos, the iron house up the Amazon",
+   "date": "1890-01-01",
+   "date_confidence": "attribution disputed and left disputed. es.wikipedia credits the design to Eiffel around 1860 and the fabrication to the Belgian Forges d'Aiseau; the house was shown at the 1889 Paris Exposition and reached Iquitos in 1890 aboard the Brazilian ship Perseveranca. The research pool's '1889-1892' and its 'another Parisian iron-house manufacturer' are both wrong. Month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411368.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.591
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Isthmus and the Fall",
+   "stop": "Munchenstein, the bridge over the Birs",
+   "date": "1891-06-14",
+   "date_confidence": "attested (en.wikipedia). Corrections to the research pool: seventy-three killed, not seventy-one, and the bridge was built by Eiffel et Cie itself in 1874-75, not by 'Eiffel's former associates'. Coordinates corrected to 47.5177/7.6183",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411897.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 22.63,
+    "text": "Gemini 22°38′",
+    "longitude": 82.629
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 16.91,
+    "text": "Virgo 16°54′",
+    "longitude": 166.907
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 0.68,
+    "text": "Gemini 0°41′",
+    "longitude": 60.679
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 26.87,
+    "text": "Taurus 26°52′",
+    "longitude": 56.872
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 6.79,
+    "text": "Cancer 6°48′",
+    "longitude": 96.795
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 17.17,
+    "text": "Pisces 17°10′",
+    "longitude": 347.171
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 11.33,
+    "text": "Virgo 11°20′",
+    "longitude": 161.334
+   }
+  },
+  {
+   "segment": "The Isthmus and the Fall",
+   "stop": "Paris, the Palais de Justice",
+   "date": "1893-02-09",
+   "date_confidence": "attested (en.wikipedia, fr.wikipedia)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412503.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 20.52,
+    "text": "Aquarius 20°31′",
+    "longitude": 320.524
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 22.22,
+    "text": "Scorpio 22°13′",
+    "longitude": 232.222
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 14.6,
+    "text": "Aquarius 14°36′",
+    "longitude": 314.603
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 29.92,
+    "text": "Capricornus 29°55′",
+    "longitude": 299.916
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 28.43,
+    "text": "Aries 28°26′",
+    "longitude": 28.434
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 20.84,
+    "text": "Aries 20°51′",
+    "longitude": 20.844
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 12.63,
+    "text": "Libra 12°38′",
+    "longitude": 192.627
+   }
+  },
+  {
+   "segment": "The Isthmus and the Fall",
+   "stop": "Paris, the general meeting",
+   "date": "1893-02-14",
+   "date_confidence": "attested (en.wikipedia). The research pool's geography lens says he resigned before the verdict; he announced the intention before the trial, but the resignation was formalised at the general meeting five days after it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412508.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 25.58,
+    "text": "Aquarius 25°35′",
+    "longitude": 325.578
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 22.95,
+    "text": "Capricornus 22°57′",
+    "longitude": 292.947
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 23.33,
+    "text": "Aquarius 23°20′",
+    "longitude": 323.334
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 6.15,
+    "text": "Aquarius 6°09′",
+    "longitude": 306.148
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 1.75,
+    "text": "Taurus 1°45′",
+    "longitude": 31.755
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 21.73,
+    "text": "Aries 21°44′",
+    "longitude": 21.735
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 12.45,
+    "text": "Libra 12°27′",
+    "longitude": 192.445
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Instrument",
+   "stop": "Champ de Mars, the observatory at the summit",
+   "date": "1898-01-01",
+   "date_confidence": "the 1898 meteorological installation is tagged [R] in the research pool and rests on fr.wikipedia alone; month unknown, defaulted. Eugene Ducretet's wireless experiment from the summit to the Pantheon on 5 November 1898 is separately attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instrument",
+   "stop": "Borjomi, the bridge over the Tsemistskali",
+   "date": "1902-01-01",
+   "date_confidence": "year attested (Wikipedia, 'Gustave Eiffel'); month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instrument",
+   "stop": "Champ de Mars, the wireless station",
+   "date": "1903-01-01",
+   "date_confidence": "the permanent military wireless station is Gustave Ferrie's, 1903, per fr.wikipedia; the research pool's '1901 permanent transmitter' does not exist. Month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.41,
+    "text": "Capricornus 9°25′",
+    "longitude": 279.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instrument",
+   "stop": "Champ de Mars, the first wind tunnel",
+   "date": "1909-01-01",
+   "date_confidence": "year attested (en.wikipedia, fr.wikipedia); month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instrument",
+   "stop": "Auteuil, the tunnel on the rue Boileau",
+   "date": "1912-01-01",
+   "date_confidence": "relocation year attested (fr.wikipedia); month unknown, defaulted. The 1997 classification as a historic monument rests on fr.wikipedia alone and was not independently verifiable",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instrument",
+   "stop": "Paris, the Langley Medal",
+   "date": "1913-01-01",
+   "date_confidence": "year attested (en.wikipedia); the precise Paris venue of the ceremony is not confirmed in the sources reached, and the Institut de France pin is a placeholder for an unlocated address. Month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419768.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "placeholder",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 279.996
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vault at Levallois",
+   "stop": "Rue Rabelais, the andante",
+   "date": "1923-12-27",
+   "date_confidence": "date and street attested (fr.wikipedia, en.wikipedia). Coordinates: the research pool's three lenses give 48.8566/2.3522 (the Paris centroid, about 3 km off), 48.8721/2.3121 and 48.8698/2.3092; the last is used here and the spread is flagged rather than resolved. The Beethoven detail is tradition, given as fact by some sources and as anecdote by others",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423780.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.22,
+    "text": "Capricornus 4°13′",
+    "longitude": 274.216
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vault at Levallois",
+   "stop": "Saint-Philippe-du-Roule, the funeral",
+   "date": "1923-12-31",
+   "date_confidence": "attested (fr.wikipedia)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423784.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.29,
+    "text": "Capricornus 8°18′",
+    "longitude": 278.293
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 9.82,
+    "text": "Libra 9°49′",
+    "longitude": 189.824
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 27.49,
+    "text": "Capricornus 27°29′",
+    "longitude": 297.491
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 5.81,
+    "text": "Aquarius 5°49′",
+    "longitude": 305.809
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 17.29,
+    "text": "Scorpio 17°17′",
+    "longitude": 227.286
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 7.87,
+    "text": "Sagittarius 7°52′",
+    "longitude": 247.872
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 0.9,
+    "text": "Scorpio 0°54′",
+    "longitude": 210.901
+   }
+  },
+  {
+   "segment": "The Vault at Levallois",
+   "stop": "Levallois-Perret, the family vault",
+   "date": "1923-12-31",
+   "date_confidence": "same-day burial attested (fr.wikipedia). Coordinates corrected: the cemetery is at about 48.9000/2.2889, and the research pool's three figures (48.8935/2.2833, 48.8935/2.2868, 48.8935/2.288) are all roughly 0.8 km off",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423784.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.29,
+    "text": "Capricornus 8°18′",
+    "longitude": 278.293
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vault at Levallois",
+   "stop": "Champ de Mars, the bust at the north leg",
+   "date": "1929-05-02",
+   "date_confidence": "attested (en.wikipedia)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425733.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.11,
+    "text": "Taurus 11°07′",
+    "longitude": 41.114
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 10.43,
+    "text": "Aquarius 10°26′",
+    "longitude": 310.434
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 26.62,
+    "text": "Taurus 26°37′",
+    "longitude": 56.621
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 23.53,
+    "text": "Aries 23°32′",
+    "longitude": 23.527
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 24.06,
+    "text": "Cancer 24°04′",
+    "longitude": 114.062
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 20.4,
+    "text": "Taurus 20°24′",
+    "longitude": 50.402
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 29.95,
+    "text": "Sagittarius 29°57′",
+    "longitude": 269.954
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 18,
+  "month": 3,
+  "year": 24
+ },
+ "parse_failures": []
+}

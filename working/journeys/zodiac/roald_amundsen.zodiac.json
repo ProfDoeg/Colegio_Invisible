@@ -1,0 +1,2046 @@
+{
+ "slug": "roald_amundsen",
+ "traveler": "Roald Engebreth Gravning Amundsen",
+ "title": "Both Ends of the Earth: the Passages, the Pole, and the Sea With No Grave",
+ "years": "1872-1928",
+ "years_parsed": {
+  "first": 1872,
+  "last": 1928
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Shipowner's Son",
+  "stop": "Borge, Ostfold: the fourth son of a shipping house",
+  "date": "1872-07-16",
+  "date_confidence": "attested. Birth date and parentage from Britannica and the MiA/Roald Amundsen's House person records; the pin is the Tomta site on the Hvidsten farm land at Borge, between Fredrikstad and Sarpsborg, given to two decimals only. The family's move to Kristiania is undated in the reachable sources and is carried inside this campa rather than given a stop of its own.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1872,
+  "jd_ut": 2404990.5,
+  "precision": "year",
+  "precision_triggers": [
+   "undated"
+  ],
+  "sun": {
+   "sign": "Cancer",
+   "degree": 23.71,
+   "text": "Cancer 23°43′",
+   "longitude": 113.71
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1872-1928",
+  "first_year_parsed": 1872
+ },
+ "stops": [
+  {
+   "segment": "The Shipowner's Son",
+   "stop": "Borge, Ostfold: the fourth son of a shipping house",
+   "date": "1872-07-16",
+   "date_confidence": "attested. Birth date and parentage from Britannica and the MiA/Roald Amundsen's House person records; the pin is the Tomta site on the Hvidsten farm land at Borge, between Fredrikstad and Sarpsborg, given to two decimals only. The family's move to Kristiania is undated in the reachable sources and is carried inside this campa rather than given a stop of its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404990.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 23.71,
+    "text": "Cancer 23°43′",
+    "longitude": 113.71
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Shipowner's Son",
+   "stop": "Kristiansand: the father dies aboard the Rollo",
+   "date": "1886-01-01",
+   "date_confidence": "year attested (Fram Museum chronology; MiA person record for Jens Engebreth Amundsen); month and day not established in this pass and defaulted to 01. The pin is Kristiansand harbour; the death was at sea off the town and has no fixed position.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409907.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.561
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Shipowner's Son",
+   "stop": "Royal Frederick University, Kristiania: the medicine he does not finish",
+   "date": "1890-01-01",
+   "date_confidence": "attested to the years 1890-1893 (Fram Museum chronology; Britannica; Wikipedia). Month of enrolment not fixed and defaulted to 01. The mother's death and the signing-on aboard the sealer Magdalena, both 1893, are carried in this campa and have no separate stop, the Magdalena's port of departure not being established in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411368.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "to the year",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.591
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Shipowner's Son",
+   "stop": "Hardangervidda: the plateau crossed on skis",
+   "date": "1894-01-01",
+   "date_confidence": "reconstruction. The crossings are standard in the Fram Museum and MiA biographical chronologies but the dating varies from one retelling to the next; the file places the stop in the early 1890s with month and day defaulted. The pin is the plateau, not a route.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412829.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.62
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Belgica: the First Winter in the Ice",
+   "stop": "Antwerp: first mate of the Belgica",
+   "date": "1897-08-01",
+   "date_confidence": "attested to 1897 (Britannica; Fram Museum, 'the-belgica-expedition-1897-1899'); the pin is the ship's registered departure port and the month is given as August in the Fram Museum account, the day not fixed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2414137.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed",
+    "year named only",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.96,
+    "text": "Leo 8°57′",
+    "longitude": 128.958
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Belgica: the First Winter in the Ice",
+   "stop": "Bellingshausen Sea: beset, and the polar night",
+   "date": "1898-03-01",
+   "date_confidence": "the besetment and the winter drift of 1898 are attested (Fram Museum; Wikipedia, 'Roald Amundsen'); the exact date of besetment is not fixed in this pass and March is used to place the stop at the start of the drift. The pin is an approximate position in the drifting pack, which had no fixed location.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414349.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "notes": [
+    "hard triggers (approximately) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.46,
+    "text": "Pisces 10°28′",
+    "longitude": 340.462
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Belgica: the First Winter in the Ice",
+   "stop": "Bellingshausen Sea: the channel cut out to open water",
+   "date": "1899-03-01",
+   "date_confidence": "attested to 1899 (Fram Museum chronology); month and day not fixed in this pass. Same approximate pack-ice pin as the besetment stop. Amundsen's later public defence of Cook is standard biography, not documented from a single citable letter in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414714.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "not fixed",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.22,
+    "text": "Pisces 10°13′",
+    "longitude": 340.219
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gjoa: the Northwest Passage",
+   "stop": "Kristiania harbour: the Gjoa slips out at night",
+   "date": "1903-06-16",
+   "date_confidence": "departure date attested (Britannica; Wikipedia). The ship's dimensions are corrected here: the pool's '47-foot sloop' conflated length with tonnage, and Gjoa measured about 70 by 20 feet at 47 net register tons, built 1872, bought 28 March 1901 (Wikipedia, 'Gjoa'). The Hamburg magnetic training under Georg von Neumayer is a reconstruction and is carried in this campa rather than given a stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416281.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.68,
+    "text": "Gemini 23°41′",
+    "longitude": 83.679
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 28.16,
+    "text": "Aquarius 28°09′",
+    "longitude": 328.155
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 7.55,
+    "text": "Gemini 7°33′",
+    "longitude": 67.546
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 7.49,
+    "text": "Leo 7°29′",
+    "longitude": 127.489
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 4.84,
+    "text": "Libra 4°50′",
+    "longitude": 184.837
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 22.02,
+    "text": "Pisces 22°01′",
+    "longitude": 352.025
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 8.64,
+    "text": "Aquarius 8°39′",
+    "longitude": 308.645
+   }
+  },
+  {
+   "segment": "Gjoa: the Northwest Passage",
+   "stop": "Beechey Island: Franklin's beach",
+   "date": "1903-08-01",
+   "date_confidence": "attested to the summer of 1903 (Fram Museum, Gjoa expedition itinerary); month given as summer, day not fixed, defaulted to 01. The twenty sled dogs taken aboard at Godhavn, Greenland (69.2455, -53.5325) belong to the same summer and are carried in this campa, Godhavn having no stop of its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416327.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.57,
+    "text": "Leo 7°34′",
+    "longitude": 127.57
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gjoa: the Northwest Passage",
+   "stop": "Gjoa Haven, King William Island: the harbour with the bar across its mouth",
+   "date": "1903-09-09",
+   "date_confidence": "attested (Britannica chronology; Fram Museum itinerary). The Netsilik name Uqsuqtuuq is given in the Fram Museum and University of Oslo Historical Museum material; the file does not translate it, no verified gloss having been reached in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416366.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.14,
+    "text": "Virgo 15°08′",
+    "longitude": 165.137
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 7.66,
+    "text": "Aries 7°39′",
+    "longitude": 7.658
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 11.98,
+    "text": "Libra 11°59′",
+    "longitude": 191.975
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 28.77,
+    "text": "Virgo 28°46′",
+    "longitude": 178.771
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 20.82,
+    "text": "Scorpio 20°49′",
+    "longitude": 230.823
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 18.7,
+    "text": "Pisces 18°42′",
+    "longitude": 348.699
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 3.25,
+    "text": "Aquarius 3°15′",
+    "longitude": 303.25
+   }
+  },
+  {
+   "segment": "Gjoa: the Northwest Passage",
+   "stop": "Gjoa Haven: what the Netsilik teach them",
+   "date": "1904-01-01",
+   "date_confidence": "sustained contact from late October 1903 through August 1905 is attested (Fram Museum itinerary; University of Oslo Historical Museum, 'the Netsilik meet Amundsen'). The stop is dated 1904-01-01 to sit inside the two winters; no single date applies to a two-year relationship.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416480.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.17,
+    "text": "Capricornus 9°10′",
+    "longitude": 279.165
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gjoa: the Northwest Passage",
+   "stop": "Cape Colborne: the passage joined",
+   "date": "1905-08-17",
+   "date_confidence": "date attested (Britannica; Fram Museum itinerary). COORDINATES CORRECTED: the pool gave 70.45, -116.75, which sits in Amundsen Gulf, hundreds of kilometres ahead of where the ship was four days out of Gjoa Haven. GeoNames places Cape Colborne, Nunavut at 68.9647, -105.2411, at the approach to Cambridge Bay, which is the water charted from the west by Collinson. The file uses the GeoNames position.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417074.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 23.41,
+    "text": "Leo 23°25′",
+    "longitude": 143.41
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 14.61,
+    "text": "Pisces 14°37′",
+    "longitude": 344.612
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 14.04,
+    "text": "Virgo 14°02′",
+    "longitude": 164.041
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 11.86,
+    "text": "Cancer 11°52′",
+    "longitude": 101.862
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 27.35,
+    "text": "Scorpio 27°21′",
+    "longitude": 237.349
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 4.01,
+    "text": "Gemini 4°00′",
+    "longitude": 64.008
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 29.85,
+    "text": "Aquarius 29°51′",
+    "longitude": 329.845
+   }
+  },
+  {
+   "segment": "Gjoa: the Northwest Passage",
+   "stop": "Eagle, Alaska: the telegram out of the Yukon",
+   "date": "1905-12-05",
+   "date_confidence": "the overland dog journey to the telegraph station at Eagle is attested (Fram Museum itinerary) and belongs to the winter of 1905-1906; the exact date is not fixed in this pass and 5 December is used to place the stop inside that winter. Treat the day as a placement, not a record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417184.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 12.21,
+    "text": "Sagittarius 12°12′",
+    "longitude": 252.206
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gjoa: the Northwest Passage",
+   "stop": "King Point, Yukon: Gustav Juel Wiik in the observatory",
+   "date": "1906-04-01",
+   "date_confidence": "attested (Fram Museum chronology). The pin is King Point, near Herschel Island, given to four decimals from the pool without independent survey.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417301.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.37,
+    "text": "Aries 10°22′",
+    "longitude": 10.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gjoa: the Northwest Passage",
+   "stop": "Nome, Alaska: the passage completed",
+   "date": "1906-08-31",
+   "date_confidence": "attested (Britannica; Fram Museum itinerary). Gjoa's later history is corrected from the pool: she went on display in Golden Gate Park in 1909, not 1906, and stood there until 1972 (Wikipedia, 'Gjoa'). No San Francisco stop is written, Amundsen's own presence at the donation not being established in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417453.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 6.68,
+    "text": "Virgo 6°41′",
+    "longitude": 156.678
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lie That Sailed South",
+   "stop": "Kristiania: Nansen gives up the Fram",
+   "date": "1908-11-01",
+   "date_confidence": "attested to November 1908 (Fram Museum chronology); day not fixed and defaulted to 01. The pin is central Oslo, used throughout this file for Kristiania events without a fixed address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418246.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.18,
+    "text": "Scorpio 8°11′",
+    "longitude": 218.184
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lie That Sailed South",
+   "stop": "Bunnefjord: the Fram leaves Norway with a false destination",
+   "date": "1910-06-03",
+   "date_confidence": "attested (Wikipedia, 'Roald Amundsen': the Fram left Norway on 3 June 1910). PLACE CORRECTED: the pool attached this date to Kristiansand; the June departure was from the Kristiania and Bundefjord area, and the Kristiansand departure was 9 August 1910. The pin is Amundsen's own house at Svartskog on the Bunnefjord, off which the ship was fitted out; it is a placement, not a documented mooring position.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418825.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.54,
+    "text": "Gemini 11°33′",
+    "longitude": 71.545
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 8.56,
+    "text": "Aries 8°33′",
+    "longitude": 8.555
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 29.69,
+    "text": "Taurus 29°41′",
+    "longitude": 59.69
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 29.32,
+    "text": "Aries 29°19′",
+    "longitude": 29.316
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 19.95,
+    "text": "Cancer 19°57′",
+    "longitude": 109.954
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 4.62,
+    "text": "Libra 4°37′",
+    "longitude": 184.618
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 1.85,
+    "text": "Taurus 1°51′",
+    "longitude": 31.846
+   }
+  },
+  {
+   "segment": "The Lie That Sailed South",
+   "stop": "Kristiansand: ninety-seven dogs come aboard",
+   "date": "1910-08-09",
+   "date_confidence": "attested (Wikipedia, 'Amundsen's South Pole expedition': departure from Kristiansand after the trial cruise and final loading, 9 August 1910). Same harbour pin as the 1886 stop for the father's death; the two events share the town, not a documented spot in it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418892.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 15.53,
+    "text": "Leo 15°32′",
+    "longitude": 135.527
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 0.41,
+    "text": "Libra 0°25′",
+    "longitude": 180.412
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 4.7,
+    "text": "Virgo 4°42′",
+    "longitude": 154.703
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 17.62,
+    "text": "Cancer 17°37′",
+    "longitude": 107.624
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.88,
+    "text": "Virgo 1°53′",
+    "longitude": 151.875
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 10.75,
+    "text": "Libra 10°45′",
+    "longitude": 190.751
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 6.43,
+    "text": "Taurus 6°26′",
+    "longitude": 36.427
+   }
+  },
+  {
+   "segment": "The Lie That Sailed South",
+   "stop": "Funchal, Madeira: the crew is told where it is going",
+   "date": "1910-09-09",
+   "date_confidence": "DATE CORRECTED: the pool gave 19 September 1910; Fram reached Funchal on 6 September and Amundsen told the crew on 9 September (Wikipedia, 'Amundsen's South Pole expedition'). The telegram to Scott, 'Beg to inform you Fram proceeding Antarctic', is quoted in the same source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418923.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.44,
+    "text": "Virgo 15°26′",
+    "longitude": 165.435
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 14.6,
+    "text": "Scorpio 14°36′",
+    "longitude": 224.6
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.19,
+    "text": "Libra 10°12′",
+    "longitude": 190.194
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 25.37,
+    "text": "Leo 25°22′",
+    "longitude": 145.368
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 21.62,
+    "text": "Virgo 21°37′",
+    "longitude": 171.618
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 16.42,
+    "text": "Libra 16°25′",
+    "longitude": 196.423
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 6.16,
+    "text": "Taurus 6°09′",
+    "longitude": 36.156
+   }
+  },
+  {
+   "segment": "The Lie That Sailed South",
+   "stop": "Bay of Whales, Ross Ice Shelf: Framheim on floating ice",
+   "date": "1911-01-14",
+   "date_confidence": "arrival 14 January 1911 and completion of the hut 28 January are attested (Wikipedia, 'Roald Amundsen'; Fram Museum). The coordinates are approximate: the Bay of Whales ice front has since calved away and Framheim's platform no longer exists.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419050.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (approximately) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.72,
+    "text": "Capricornus 22°43′",
+    "longitude": 292.721
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 9.87,
+    "text": "Cancer 9°52′",
+    "longitude": 99.866
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 14.55,
+    "text": "Capricornus 14°33′",
+    "longitude": 284.549
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 4.34,
+    "text": "Aquarius 4°20′",
+    "longitude": 304.335
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 17.22,
+    "text": "Sagittarius 17°13′",
+    "longitude": 257.218
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 11.37,
+    "text": "Scorpio 11°22′",
+    "longitude": 221.375
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 29.77,
+    "text": "Aries 29°46′",
+    "longitude": 29.774
+   }
+  },
+  {
+   "segment": "The Lie That Sailed South",
+   "stop": "Ross Ice Shelf: the false start, and Johansen speaks",
+   "date": "1911-09-08",
+   "date_confidence": "attested to 8 September 1911 (Fram Museum chronology). The stop is placed at the Framheim pin because the party turned back to the base; the furthest point of the aborted start is not fixed in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419287.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (not fixed, placed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 14.23,
+    "text": "Virgo 14°14′",
+    "longitude": 164.229
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 6.26,
+    "text": "Pisces 6°16′",
+    "longitude": 336.259
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 17.43,
+    "text": "Virgo 17°26′",
+    "longitude": 167.43
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 25.84,
+    "text": "Virgo 25°50′",
+    "longitude": 175.84
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 1.06,
+    "text": "Gemini 1°03′",
+    "longitude": 61.058
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 10.68,
+    "text": "Scorpio 10°41′",
+    "longitude": 220.683
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 20.18,
+    "text": "Taurus 20°11′",
+    "longitude": 50.179
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Polheim",
+   "stop": "Framheim: five men, four sledges, fifty-two dogs",
+   "date": "1911-10-19",
+   "date_confidence": "attested (Fram Museum chronology). Johansen's later fate after his removal is not carried here, no verified account of it having been reached in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419328.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.49,
+    "text": "Libra 24°30′",
+    "longitude": 204.493
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 16.04,
+    "text": "Virgo 16°02′",
+    "longitude": 166.041
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 21.13,
+    "text": "Libra 21°08′",
+    "longitude": 201.128
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 16.09,
+    "text": "Virgo 16°06′",
+    "longitude": 166.094
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 10.96,
+    "text": "Gemini 10°57′",
+    "longitude": 70.956
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 18.49,
+    "text": "Scorpio 18°29′",
+    "longitude": 228.487
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 18.43,
+    "text": "Taurus 18°26′",
+    "longitude": 48.435
+   }
+  },
+  {
+   "segment": "Polheim",
+   "stop": "The Butcher's Shop, top of the Axel Heiberg Glacier: the dogs are killed",
+   "date": "1911-11-21",
+   "date_confidence": "CORRECTED from the pool: the pool put the Butcher's Shop at -85.667 and said ten dogs were killed. Wikipedia's expedition article places the camp at 85 degrees 36 minutes south, which is about -85.60, and records 27 dogs killed with 18 going on; other accounts give 24, which is also Amundsen's own figure in The South Pole. The contradiction is left standing. The longitude is approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419361.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 27.57,
+    "text": "Scorpio 27°34′",
+    "longitude": 237.566
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Polheim",
+   "stop": "The South Pole: the flag planted by five hands",
+   "date": "1911-12-14",
+   "date_confidence": "attested (Britannica; Wikipedia; Fram Museum). Some secondary sources historically printed 15 December through date-line confusion. The pin is the geographic pole itself, the same 0.0 longitude used for the North Pole elsewhere in the atlas.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419384.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 20.89,
+    "text": "Sagittarius 20°53′",
+    "longitude": 260.889
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 6.19,
+    "text": "Libra 6°11′",
+    "longitude": 186.191
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.056
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 5.08,
+    "text": "Scorpio 5°05′",
+    "longitude": 215.08
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 25.98,
+    "text": "Taurus 25°59′",
+    "longitude": 55.975
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 0.75,
+    "text": "Sagittarius 0°45′",
+    "longitude": 240.752
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 14.25,
+    "text": "Taurus 14°15′",
+    "longitude": 44.255
+   }
+  },
+  {
+   "segment": "Polheim",
+   "stop": "Framheim: ninety-nine days, eleven dogs, five men",
+   "date": "1912-01-25",
+   "date_confidence": "attested (Wikipedia, 'Roald Amundsen'). DISTANCE CORRECTED: the pool gave roughly 3,000 km; the expedition article gives the round trip as approximately 1,860 nautical miles, about 3,440 km. Eleven dogs on two sledges and the 99-day duration are attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419426.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 3.67,
+    "text": "Aquarius 3°40′",
+    "longitude": 303.671
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Polheim",
+   "stop": "Hobart, Tasmania: the news goes out by cable",
+   "date": "1912-03-07",
+   "date_confidence": "attested (Britannica; Fram Museum). Scott's arrival at the Pole on 17 January 1912 and the deaths of his party on the return are attested in the general polar record; the news of them did not reach the world until 1913, which is carried at the Philadelphia stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419468.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 16.08,
+    "text": "Pisces 16°05′",
+    "longitude": 346.076
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 1.97,
+    "text": "Scorpio 1°58′",
+    "longitude": 211.972
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 20.12,
+    "text": "Pisces 20°07′",
+    "longitude": 350.12
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 15.11,
+    "text": "Aquarius 15°07′",
+    "longitude": 315.115
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 14.87,
+    "text": "Gemini 14°52′",
+    "longitude": 74.867
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.37,
+    "text": "Sagittarius 14°22′",
+    "longitude": 254.375
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 15.63,
+    "text": "Taurus 15°38′",
+    "longitude": 45.626
+   }
+  },
+  {
+   "segment": "Polheim",
+   "stop": "Buenos Aires: the patron on the River Plate",
+   "date": "1912-05-25",
+   "date_confidence": "Fram's arrival at Buenos Aires on 25 May 1912 is attested (Fram Museum, 'the-polar-ship-fram'). Whether Amundsen himself was aboard or ashore in Buenos Aires was not established in this pass; the stop is placed on the ship's movement and on his patron's presence there. Don Pedro Christophersen's patronage is a reconstruction, and the mountain named for him is not verified in this pass. The pin is the canonical Buenos Aires anchor used across the atlas, not the geography lens's -58.3705. CORRECTED: Fram never reached San Francisco; she waited at Colon, was refused the canal transit, returned to Buenos Aires, and went home to Horten on 16 July 1914.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419547.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (not established, placed (the date), reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (placed, reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.41,
+    "text": "Gemini 3°25′",
+    "longitude": 63.411
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 21.53,
+    "text": "Virgo 21°32′",
+    "longitude": 171.528
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 10.78,
+    "text": "Taurus 10°47′",
+    "longitude": 40.78
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 21.98,
+    "text": "Taurus 21°59′",
+    "longitude": 51.979
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 28.04,
+    "text": "Cancer 28°02′",
+    "longitude": 118.037
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 11.43,
+    "text": "Sagittarius 11°26′",
+    "longitude": 251.434
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 24.86,
+    "text": "Taurus 24°51′",
+    "longitude": 54.857
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Polheim",
+   "stop": "Philadelphia: three explorers in one photograph",
+   "date": "1913-01-01",
+   "date_confidence": "attested to January 1913 (Wikipedia, 'Roald Amundsen'); day not fixed and defaulted to 01. News of Scott's death reached the world in February 1913 and is carried in this campa. Shackleton's own later statement about Amundsen is cited in the sources; it belongs to Shackleton's file as his own words.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419768.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 279.996
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Maud: the Northeast Passage",
+   "stop": "Vollen, Asker: a ship built to be squeezed out of the ice",
+   "date": "1917-06-01",
+   "date_confidence": "attested to June 1917 (Fram Museum); day not fixed. COORDINATES CORRECTED: the pool's geography lens gave 59.8333, 10.45, about five kilometres north of the village and inconsistent with its own afterlife entry; the file uses 59.7975, 10.4508, the same Vollen pin as Maud's 2018 return.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421380.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.92,
+    "text": "Gemini 9°55′",
+    "longitude": 69.924
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Maud: the Northeast Passage",
+   "stop": "Vardo: the last Norwegian harbour",
+   "date": "1918-07-18",
+   "date_confidence": "attested (Wikipedia, 'Roald Amundsen'; Fram Museum). Crew given as nine men, later ten.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421792.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 24.56,
+    "text": "Cancer 24°33′",
+    "longitude": 114.556
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 13.69,
+    "text": "Scorpio 13°42′",
+    "longitude": 223.693
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 15.27,
+    "text": "Leo 15°16′",
+    "longitude": 135.265
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 21.95,
+    "text": "Gemini 21°57′",
+    "longitude": 81.946
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 12.28,
+    "text": "Libra 12°17′",
+    "longitude": 192.281
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 1.07,
+    "text": "Cancer 1°04′",
+    "longitude": 91.067
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 15.08,
+    "text": "Leo 15°05′",
+    "longitude": 135.08
+   }
+  },
+  {
+   "segment": "Maud: the Northeast Passage",
+   "stop": "Cape Chelyuskin: the arm, the bear, and the gas",
+   "date": "1918-12-10",
+   "date_confidence": "the carbon-monoxide poisoning of 10 December 1918 is given by the Fram Museum, which states that it left his health permanently impaired; the broken arm and the polar-bear mauling are from the same account and are tagged as institutional narrative rather than independently documented. The pin is Cape Chelyuskin; Maud lay east of it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421937.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 17.13,
+    "text": "Sagittarius 17°08′",
+    "longitude": 257.128
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 2.96,
+    "text": "Pisces 2°58′",
+    "longitude": 332.962
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 3.77,
+    "text": "Capricornus 3°46′",
+    "longitude": 273.771
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 21.02,
+    "text": "Sagittarius 21°01′",
+    "longitude": 261.021
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 21.89,
+    "text": "Capricornus 21°53′",
+    "longitude": 291.89
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 13.72,
+    "text": "Cancer 13°43′",
+    "longitude": 103.72
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 28.38,
+    "text": "Leo 28°23′",
+    "longitude": 148.378
+   }
+  },
+  {
+   "segment": "Maud: the Northeast Passage",
+   "stop": "Dikson: Tessem and Knudsen do not arrive",
+   "date": "1919-01-01",
+   "date_confidence": "reconstruction. The disappearance is attested in the Fram Museum material to 1919; the month is not fixed in this pass and is defaulted to 01. The pin is the destination, Port Dikson; neither the route nor the place of death is established, which is the point of the stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Maud: the Northeast Passage",
+   "stop": "Nome, Alaska: both passages, one man",
+   "date": "1920-07-28",
+   "date_confidence": "attested (Wikipedia, 'Roald Amundsen'; Fram Museum). Third full navigation of the route after Nordenskiold's Vega (1878-1879) and the Russian Taymyr and Vaygach (1914-1915). The Seattle refit of 1921 is carried in this campa and has no stop of its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422533.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 4.6,
+    "text": "Leo 4°36′",
+    "longitude": 124.599
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Debts and Aeroplanes",
+   "stop": "Long Island, New York: the Junkers that does not reach Seattle",
+   "date": "1922-01-01",
+   "date_confidence": "reconstruction. The 1922 crash in Pennsylvania during a New York to Seattle flight with Oskar Omdal is from the Fram Museum and MiA aviation chronology; the exact departure field in the New York area is not confirmed, and the month is not fixed and is defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423055.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Debts and Aeroplanes",
+   "stop": "Wainwright, Alaska: the base for a flight that is not made",
+   "date": "1923-01-01",
+   "date_confidence": "attested to 1923 (Fram Museum and MiA aviation chronology); month not fixed and defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423420.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.56,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.56
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Debts and Aeroplanes",
+   "stop": "Uranienborg, Svartskog: the bankruptcy, and the two girls sent east",
+   "date": "1924-09-01",
+   "date_confidence": "the bankruptcy is recorded to September 1924 in the MiA/Uranienborg archive material; no criminal or judicial finding against Leon Amundsen or Haakon Hammer is established in the archival record, and the blame is Amundsen's own. CORRECTED: the adopted girl was Kakonita, called Nita, not 'Nita Kakot'; she and Camilla were sent to be cared for by Camilla's father in eastern Russia, and Camilla's father was a foreign trader, so the pool's 'two Chukchi girls' oversimplifies. The 1924 dating of their departure follows the bankruptcy year and inherits its uncertainty.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2424029.5,
+   "precision": "month",
+   "precision_triggers": [
+    "uncertain"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.27,
+    "text": "Virgo 8°16′",
+    "longitude": 158.272
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flying Boats and the Airship",
+   "stop": "Ny-Alesund, Svalbard: N 24 and N 25 lift off the water",
+   "date": "1925-05-21",
+   "date_confidence": "attested (Britannica; Fram Museum, 'the-n24-n25-flight-towards-the-north-pole-1925'). Six men in two Dornier Wal flying boats, with Lincoln Ellsworth financing and Hjalmar Riiser-Larsen and Leif Dietrichson among the pilots.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424291.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 29.43,
+    "text": "Taurus 29°26′",
+    "longitude": 59.429
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 10.27,
+    "text": "Taurus 10°16′",
+    "longitude": 40.267
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 4.32,
+    "text": "Taurus 4°19′",
+    "longitude": 34.316
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 6.58,
+    "text": "Gemini 6°35′",
+    "longitude": 66.576
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 7.02,
+    "text": "Cancer 7°01′",
+    "longitude": 97.019
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 22.41,
+    "text": "Capricornus 22°25′",
+    "longitude": 292.409
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 9.64,
+    "text": "Scorpio 9°38′",
+    "longitude": 219.641
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Flying Boats and the Airship",
+   "stop": "Eighty-seven degrees forty-three minutes north: a runway cut in moving ice",
+   "date": "1925-05-21",
+   "date_confidence": "DATES CORRECTED. The pool attributed a 22 May landing and a 6 June takeoff to Britannica; the Fram Museum's N24/N25 page gives the forced landing on 21 May 1925, the same day they left, after more than eight hours of flight, and the takeoff on 15 June 1925, about three and a half weeks later. A 6 June takeoff also contradicts the pool's own 'over three weeks'. The longitude of the landing is not independently confirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424291.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 29.43,
+    "text": "Taurus 29°26′",
+    "longitude": 59.429
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flying Boats and the Airship",
+   "stop": "The North Pole: the Norge overhead and three flags down",
+   "date": "1926-05-12",
+   "date_confidence": "attested (Britannica; Fram Museum, 'the-norge-flight-1926'). CORRECTED: the pool called Nobile the airship's commander. Nobile designed the airship and served as its pilot; Amundsen led the expedition (Wikipedia, 'Norge (airship)'). Financing was Ellsworth together with the Norsk Luftseiladsforening, not Ellsworth alone. The 11 May 1926 departure from Ny-Alesund at 09:55 is carried in this campa. The pin is the geographic pole, the same 90.0 / 0.0 used elsewhere in the atlas.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424647.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 20.52,
+    "text": "Taurus 20°31′",
+    "longitude": 50.525
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 21.09,
+    "text": "Taurus 21°05′",
+    "longitude": 51.09
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 27.75,
+    "text": "Aries 27°45′",
+    "longitude": 27.75
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 5.78,
+    "text": "Aries 5°47′",
+    "longitude": 5.778
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 5.97,
+    "text": "Pisces 5°58′",
+    "longitude": 335.97
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 25.37,
+    "text": "Aquarius 25°22′",
+    "longitude": 325.368
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 22.94,
+    "text": "Scorpio 22°56′",
+    "longitude": 232.936
+   }
+  },
+  {
+   "segment": "The Flying Boats and the Airship",
+   "stop": "Teller, Alaska: seventy-two hours across the Arctic Ocean",
+   "date": "1926-05-14",
+   "date_confidence": "attested (Britannica; Fram Museum, 'the-norge-flight-1926').",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424649.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 22.45,
+    "text": "Taurus 22°27′",
+    "longitude": 52.455
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 17.77,
+    "text": "Gemini 17°46′",
+    "longitude": 77.773
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 0.88,
+    "text": "Taurus 0°53′",
+    "longitude": 30.885
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 7.95,
+    "text": "Aries 7°57′",
+    "longitude": 7.949
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 7.41,
+    "text": "Pisces 7°24′",
+    "longitude": 337.406
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 25.57,
+    "text": "Aquarius 25°34′",
+    "longitude": 325.574
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 22.79,
+    "text": "Scorpio 22°47′",
+    "longitude": 232.786
+   }
+  },
+  {
+   "segment": "The Flying Boats and the Airship",
+   "stop": "Oslo: the homecoming, and the book that settles scores",
+   "date": "1926-07-01",
+   "date_confidence": "reconstruction for the scale of the reception, which comes from Fram Museum narrative material; July 1926 with the day defaulted to 01. The publication of Mitt liv som polarforsker in 1927 and its attacks on Nobile are attested in the same source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424697.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.41,
+    "text": "Cancer 8°25′",
+    "longitude": 98.41
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Latham and the Empty Sea",
+   "stop": "Uranienborg, Svartskog: the debts cleared before he goes",
+   "date": "1928-06-01",
+   "date_confidence": "reconstruction. The Italia dates are CORRECTED from the pool: the airship reached the Pole on 24 May 1928 and crashed on 25 May near 81 degrees 14 minutes north, northeast of Nordaustlandet (Wikipedia, 'Italia (airship)'), not 23 May. The instruction to the lawyer, 'Make me a free man', is attributed in Fram Museum institutional history and was not verified against a letter or court record in this pass; the sale of part of the medal collection comes from the same material. June 1928 with the day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425398.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.25,
+    "text": "Gemini 10°15′",
+    "longitude": 70.251
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Latham and the Empty Sea",
+   "stop": "Tromso: the Latham 47 takes off and is not heard again",
+   "date": "1928-06-18",
+   "date_confidence": "attested (Britannica; Wikipedia, 'Latham 47'). Radio contact was lost within hours of departure. The assessment of the aircraft as an untested prototype for the conditions comes from Karen May and George Lewis in Polar Record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425415.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 26.5,
+    "text": "Gemini 26°30′",
+    "longitude": 86.504
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 28.41,
+    "text": "Gemini 28°25′",
+    "longitude": 88.413
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 12.44,
+    "text": "Cancer 12°26′",
+    "longitude": 102.436
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 22.77,
+    "text": "Gemini 22°46′",
+    "longitude": 82.765
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 23.93,
+    "text": "Aries 23°56′",
+    "longitude": 23.926
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 2.89,
+    "text": "Taurus 2°53′",
+    "longitude": 32.885
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 14.9,
+    "text": "Sagittarius 14°54′",
+    "longitude": 254.902
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Latham and the Empty Sea",
+   "stop": "The coast off Troms: a float comes ashore",
+   "date": "1928-08-31",
+   "date_confidence": "attested (Wikipedia, 'Latham 47': the torn-off port float found off the coast of Troms, 31 August 1928). CONTRADICTION NOT RESOLVED: the pool's Fram Museum-derived chronology reads the recovered artifacts as indicating a crash south of Bjornoya, while the Latham 47 article draws no conclusion at all and says the aircraft disappeared without a trace. Both float and fuel tank came ashore south of Bjornoya, off mainland Norway, which is consistent with drift and establishes no crash site. The file records no crash location. The pin is an approximate position on the Troms coast.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425489.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (approximately, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.34,
+    "text": "Virgo 7°20′",
+    "longitude": 157.336
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 5.97,
+    "text": "Pisces 5°58′",
+    "longitude": 335.966
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 20.66,
+    "text": "Virgo 20°40′",
+    "longitude": 170.661
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 23.9,
+    "text": "Virgo 23°54′",
+    "longitude": 173.897
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 13.32,
+    "text": "Gemini 13°19′",
+    "longitude": 73.318
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 10.62,
+    "text": "Taurus 10°37′",
+    "longitude": 40.619
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 12.56,
+    "text": "Sagittarius 12°34′",
+    "longitude": 252.559
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Latham and the Empty Sea",
+   "stop": "Haltenbanken: the last piece ever found",
+   "date": "1928-10-01",
+   "date_confidence": "attested to October 1928 (Wikipedia, 'Latham 47'); day not fixed and defaulted to 01. The Royal Norwegian Navy's seabed searches with the unmanned submarine Hugin 1000 in 2004 and 2009, both of which found nothing, are attested in Wikipedia, 'Roald Amundsen', and are carried in this campa.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425520.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.57,
+    "text": "Libra 7°34′",
+    "longitude": 187.57
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 19,
+  "month": 10,
+  "year": 16
+ },
+ "parse_failures": []
+}

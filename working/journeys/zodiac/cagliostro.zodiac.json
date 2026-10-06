@@ -1,0 +1,2253 @@
+{
+ "slug": "cagliostro",
+ "traveler": "Giuseppe Balsamo, called Count Alessandro di Cagliostro",
+ "title": "The Grand Cophta: from the Albergheria to the Pozzetto of San Leo",
+ "years": "1743-1795",
+ "years_parsed": {
+  "first": 1743,
+  "last": 1795
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Albergheria and the Name Not Yet Invented",
+  "stop": "Palermo, birth in the Albergheria",
+  "date": "1743-06-02",
+  "date_confidence": "attested; born 2 June 1743 and baptised 8 June, which English sources report as the birth date",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1743,
+  "jd_ut": 2357829.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 10.94,
+   "text": "Gemini 10°56′",
+   "longitude": 70.936
+  },
+  "moon": {
+   "sign": "Libra",
+   "degree": 12.23,
+   "text": "Libra 12°14′",
+   "longitude": 192.234
+  },
+  "mercury": {
+   "sign": "Gemini",
+   "degree": 29.79,
+   "text": "Gemini 29°47′",
+   "longitude": 89.788
+  },
+  "venus": {
+   "sign": "Cancer",
+   "degree": 13.92,
+   "text": "Cancer 13°55′",
+   "longitude": 103.922
+  },
+  "mars": {
+   "sign": "Virgo",
+   "degree": 5.65,
+   "text": "Virgo 5°39′",
+   "longitude": 155.652
+  },
+  "jupiter": {
+   "sign": "Virgo",
+   "degree": 5.73,
+   "text": "Virgo 5°44′",
+   "longitude": 155.728
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 29.68,
+   "text": "Leo 29°41′",
+   "longitude": 149.683
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1743-1795",
+  "first_year_parsed": 1743
+ },
+ "stops": [
+  {
+   "segment": "The Albergheria and the Name Not Yet Invented",
+   "stop": "Palermo, birth in the Albergheria",
+   "date": "1743-06-02",
+   "date_confidence": "attested; born 2 June 1743 and baptised 8 June, which English sources report as the birth date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1743,
+   "jd_ut": 2357829.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.94,
+    "text": "Gemini 10°56′",
+    "longitude": 70.936
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 12.23,
+    "text": "Libra 12°14′",
+    "longitude": 192.234
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 29.79,
+    "text": "Gemini 29°47′",
+    "longitude": 89.788
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 13.92,
+    "text": "Cancer 13°55′",
+    "longitude": 103.922
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 5.65,
+    "text": "Virgo 5°39′",
+    "longitude": 155.652
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 5.73,
+    "text": "Virgo 5°44′",
+    "longitude": 155.728
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 29.68,
+    "text": "Leo 29°41′",
+    "longitude": 149.683
+   }
+  },
+  {
+   "segment": "The Albergheria and the Name Not Yet Invented",
+   "stop": "Caltagirone, the convent apothecary",
+   "date": "1756-01-01",
+   "date_confidence": "year attested (1756); month and day unknown, defaulted to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1756,
+   "jd_ut": 2362425.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Albergheria and the Name Not Yet Invented",
+   "stop": "Palermo, Beppo Maldetto",
+   "date": "1758-01-01",
+   "date_confidence": "before his fifteenth year per en.wikipedia; the exact year is not recorded and is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1758,
+   "jd_ut": 2363156.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.64,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Albergheria and the Name Not Yet Invented",
+   "stop": "Palermo, the olive field and the goldsmith Marano",
+   "date": "1760-06-01",
+   "date_confidence": "c.1760, at age seventeen per en.wikipedia; the pool's c.1764 is unsupported and the month is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2364038.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c."
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.83,
+    "text": "Gemini 10°50′",
+    "longitude": 70.832
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Albergheria and the Name Not Yet Invented",
+   "stop": "Messina, the harbor and Althotas",
+   "date": "1761-01-01",
+   "date_confidence": "reconstruction: the flight follows the Marano fraud, c.1760-61; the meeting rests on Cagliostro's testimony alone",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1761,
+   "jd_ut": 2364252.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.92,
+    "text": "Capricornus 10°55′",
+    "longitude": 280.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Claimed East",
+   "stop": "Valletta, the claimed initiation",
+   "date": "1766-01-01",
+   "date_confidence": "reconstruction: self-reported in his memorial, undated there; the year follows the traditional account",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1766,
+   "jd_ut": 2366078.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.7,
+    "text": "Capricornus 10°42′",
+    "longitude": 280.697
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Claimed East",
+   "stop": "Alexandria, the harbor and the claimed priests",
+   "date": "1766-06-01",
+   "date_confidence": "reconstruction: self-reported only, no independent record; month and day unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1766,
+   "jd_ut": 2366229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.4,
+    "text": "Gemini 10°24′",
+    "longitude": 70.401
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Claimed East",
+   "stop": "Giza, the pyramids and the chamber",
+   "date": "1766-08-01",
+   "date_confidence": "tradition, self-reported; no contemporary corroboration and no fixed date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1766,
+   "jd_ut": 2366290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.63,
+    "text": "Leo 8°38′",
+    "longitude": 128.63
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome, and the Roads of the Fugitive",
+   "stop": "Rome, San Salvatore in Campo: the marriage",
+   "date": "1768-04-21",
+   "date_confidence": "attested, 21 April 1768; the church is San Salvatore in Campo in the rione Regola, not Piazza di Spagna",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1768,
+   "jd_ut": 2366919.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 1.36,
+    "text": "Taurus 1°21′",
+    "longitude": 31.357
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 26.16,
+    "text": "Gemini 26°10′",
+    "longitude": 86.164
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 6.17,
+    "text": "Aries 6°10′",
+    "longitude": 6.168
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 1.32,
+    "text": "Aries 1°19′",
+    "longitude": 1.32
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 19.25,
+    "text": "Aquarius 19°15′",
+    "longitude": 319.247
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 16.24,
+    "text": "Libra 16°14′",
+    "longitude": 196.237
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 29.71,
+    "text": "Gemini 29°43′",
+    "longitude": 89.712
+   }
+  },
+  {
+   "segment": "Rome, and the Roads of the Fugitive",
+   "stop": "Rome, the Marquis Agliata and the forged seals",
+   "date": "1768-06-01",
+   "date_confidence": "1768 attested; the month is not recorded and is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1768,
+   "jd_ut": 2366960.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.9,
+    "text": "Gemini 10°54′",
+    "longitude": 70.896
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome, and the Roads of the Fugitive",
+   "stop": "Aix-en-Provence, Casanova at the same inn",
+   "date": "1770-01-01",
+   "date_confidence": "1770 attested by Trowbridge quoting Casanova; the month is not given, and the Spanish and Portuguese years around it are dated only as a block, 1769-1772",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1770,
+   "jd_ut": 2367539.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mason and the Northern Courts",
+   "stop": "London, Gerrard Street: initiation at the Esperance Lodge",
+   "date": "1777-04-12",
+   "date_confidence": "attested, 12 April 1777, by both wikipedias and the lodge minutes cited in Trowbridge",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1777,
+   "jd_ut": 2370197.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.4,
+    "text": "Aries 22°24′",
+    "longitude": 22.4
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 17.96,
+    "text": "Gemini 17°58′",
+    "longitude": 77.965
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 6.96,
+    "text": "Aries 6°57′",
+    "longitude": 6.958
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 6.48,
+    "text": "Gemini 6°29′",
+    "longitude": 66.479
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 5.29,
+    "text": "Libra 5°18′",
+    "longitude": 185.292
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 16.72,
+    "text": "Cancer 16°43′",
+    "longitude": 106.719
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 0.71,
+    "text": "Scorpio 0°42′",
+    "longitude": 210.707
+   }
+  },
+  {
+   "segment": "The Mason and the Northern Courts",
+   "stop": "Southwark, the King's Bench Prison",
+   "date": "1777-11-01",
+   "date_confidence": "1777 attested; the month is not fixed in the consulted sources and is placed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1777,
+   "jd_ut": 2370400.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.94,
+    "text": "Scorpio 8°57′",
+    "longitude": 218.945
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mason and the Northern Courts",
+   "stop": "Mitau, the lodge among the Baltic nobility",
+   "date": "1779-02-01",
+   "date_confidence": "1779 attested, fixed by Elisa von der Recke's later expose; the month is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1779,
+   "jd_ut": 2370857.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.08,
+    "text": "Aquarius 12°05′",
+    "longitude": 312.083
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mason and the Northern Courts",
+   "stop": "Saint Petersburg, the Count Phoenix and the court physicians",
+   "date": "1779-06-01",
+   "date_confidence": "1779-1780, a stay of about nine months, per ru.wikipedia; en.wikipedia's Spring 1778 would put Petersburg before Mitau and reverse the documented route, and is rejected",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1779,
+   "jd_ut": 2370977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.27,
+    "text": "Gemini 10°16′",
+    "longitude": 70.265
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mason and the Northern Courts",
+   "stop": "Warsaw, the alchemy exposed",
+   "date": "1780-05-01",
+   "date_confidence": "attested: arrival May 1780, departure 26 June 1780, per it.wikipedia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371312.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.16,
+    "text": "Taurus 11°10′",
+    "longitude": 41.161
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 29.95,
+    "text": "Pisces 29°57′",
+    "longitude": 359.955
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 27.82,
+    "text": "Aries 27°49′",
+    "longitude": 27.824
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 23.88,
+    "text": "Gemini 23°53′",
+    "longitude": 83.878
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 3.81,
+    "text": "Gemini 3°49′",
+    "longitude": 63.815
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 19.89,
+    "text": "Libra 19°53′",
+    "longitude": 199.889
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 6.86,
+    "text": "Sagittarius 6°51′",
+    "longitude": 246.855
+   }
+  },
+  {
+   "segment": "The Grand Cophta",
+   "stop": "Strasbourg, the Palais Rohan",
+   "date": "1780-09-19",
+   "date_confidence": "arrival 19 September 1780, the Strasbourg period running to 1783 per it.wikipedia; the pool's 1781 matches neither source",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371453.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) span/window"
+   ],
+   "notes": [
+    "soft triggers (span/window) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 26.61,
+    "text": "Virgo 26°36′",
+    "longitude": 176.607
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 24.56,
+    "text": "Taurus 24°34′",
+    "longitude": 54.565
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 10.29,
+    "text": "Virgo 10°17′",
+    "longitude": 160.291
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 15.5,
+    "text": "Leo 15°30′",
+    "longitude": 135.496
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 5.85,
+    "text": "Virgo 5°51′",
+    "longitude": 155.848
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 28.81,
+    "text": "Libra 28°48′",
+    "longitude": 208.806
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 3.35,
+    "text": "Sagittarius 3°21′",
+    "longitude": 243.349
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Grand Cophta",
+   "stop": "Bordeaux, the winter vision",
+   "date": "1783-11-08",
+   "date_confidence": "attested: arrival 8 November 1783; the vision is placed between February and May 1784",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1783,
+   "jd_ut": 2372598.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 15.52,
+    "text": "Scorpio 15°31′",
+    "longitude": 225.517
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 2.86,
+    "text": "Taurus 2°52′",
+    "longitude": 32.859
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.69,
+    "text": "Libra 27°41′",
+    "longitude": 207.687
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 21.09,
+    "text": "Libra 21°05′",
+    "longitude": 201.087
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 2.92,
+    "text": "Aries 2°55′",
+    "longitude": 2.922
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 26.44,
+    "text": "Capricornus 26°26′",
+    "longitude": 296.438
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 8.49,
+    "text": "Capricornus 8°30′",
+    "longitude": 278.492
+   }
+  },
+  {
+   "segment": "The Grand Cophta",
+   "stop": "Lyon, La Sagesse Triomphante",
+   "date": "1784-10-20",
+   "date_confidence": "attested, 20 October 1784; the alias Comte Phoenix belongs to Russia in 1779-80, not to Lyon",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372945.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 27.25,
+    "text": "Libra 27°15′",
+    "longitude": 207.253
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 5.72,
+    "text": "Capricornus 5°43′",
+    "longitude": 275.718
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 11.53,
+    "text": "Libra 11°32′",
+    "longitude": 191.526
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 16.35,
+    "text": "Scorpio 16°21′",
+    "longitude": 226.351
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 20.24,
+    "text": "Libra 20°15′",
+    "longitude": 200.243
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 27.98,
+    "text": "Aquarius 27°59′",
+    "longitude": 327.975
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 17.85,
+    "text": "Capricornus 17°51′",
+    "longitude": 287.849
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Grand Cophta",
+   "stop": "Venice, a patent claimed for the Rite of Misraim",
+   "date": "1784-12-01",
+   "date_confidence": "reconstruction: the Misraim origin is disputed and wholly undated; the year follows the rite's own claim and is placed after Lyon, and the place follows en.wikipedia, which puts the origin in Venice and Naples only on the onward route",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372987.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.53,
+    "text": "Sagittarius 9°32′",
+    "longitude": 249.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: The Necklace and the Bastille",
+   "stop": "Paris, the house on the Rue Saint-Claude",
+   "date": "1785-01-30",
+   "date_confidence": "attested: he reaches Paris 30 January 1785, lodging first at the Palais Royal and then in the Marais",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1785,
+   "jd_ut": 2373047.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 10.61,
+    "text": "Aquarius 10°36′",
+    "longitude": 310.606
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 0.79,
+    "text": "Libra 0°47′",
+    "longitude": 180.789
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 28.86,
+    "text": "Capricornus 28°52′",
+    "longitude": 298.862
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 21.54,
+    "text": "Pisces 21°33′",
+    "longitude": 351.543
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 1.23,
+    "text": "Capricornus 1°14′",
+    "longitude": 271.228
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 11.28,
+    "text": "Pisces 11°17′",
+    "longitude": 341.283
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 27.81,
+    "text": "Capricornus 27°49′",
+    "longitude": 297.81
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Mercury",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Paris: The Necklace and the Bastille",
+   "stop": "Versailles, the cardinal arrested in the Hall of Mirrors",
+   "date": "1785-08-15",
+   "date_confidence": "attested: Rohan is arrested 15 August 1785, Jeanne de Valois-Saint-Remy three days later, Cagliostro about a week after Rohan",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1785,
+   "jd_ut": 2373244.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 22.46,
+    "text": "Leo 22°27′",
+    "longitude": 142.456
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 13.0,
+    "text": "Sagittarius 13°00′",
+    "longitude": 253.003
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 16.02,
+    "text": "Virgo 16°01′",
+    "longitude": 166.024
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 6.87,
+    "text": "Cancer 6°52′",
+    "longitude": 96.868
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 22.27,
+    "text": "Taurus 22°16′",
+    "longitude": 52.268
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 14.34,
+    "text": "Aries 14°20′",
+    "longitude": 14.339
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.38,
+    "text": "Aquarius 0°23′",
+    "longitude": 300.377
+   }
+  },
+  {
+   "segment": "Paris: The Necklace and the Bastille",
+   "stop": "Paris, the Bastille: seized on the Rue Saint-Claude",
+   "date": "1785-08-23",
+   "date_confidence": "attested: he is taken around 22-23 August 1785, a week after Rohan and in a different place",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1785,
+   "jd_ut": 2373252.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 0.16,
+    "text": "Virgo 0°10′",
+    "longitude": 150.165
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 7.71,
+    "text": "Aries 7°42′",
+    "longitude": 7.707
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 26.55,
+    "text": "Virgo 26°33′",
+    "longitude": 176.545
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 15.04,
+    "text": "Cancer 15°03′",
+    "longitude": 105.042
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 26.71,
+    "text": "Taurus 26°42′",
+    "longitude": 56.706
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 13.93,
+    "text": "Aries 13°56′",
+    "longitude": 13.933
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 29.88,
+    "text": "Capricornus 29°53′",
+    "longitude": 299.879
+   }
+  },
+  {
+   "segment": "Paris: The Necklace and the Bastille",
+   "stop": "Paris, the Parlement acquits",
+   "date": "1786-05-31",
+   "date_confidence": "attested, 31 May 1786, by both wikipedias and the trial verdict",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1786,
+   "jd_ut": 2373533.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.6,
+    "text": "Gemini 9°36′",
+    "longitude": 69.603
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 24.57,
+    "text": "Cancer 24°34′",
+    "longitude": 114.566
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 15.5,
+    "text": "Taurus 15°30′",
+    "longitude": 45.498
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 27.87,
+    "text": "Gemini 27°52′",
+    "longitude": 87.866
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 2.74,
+    "text": "Leo 2°44′",
+    "longitude": 122.736
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 7.73,
+    "text": "Taurus 7°44′",
+    "longitude": 37.728
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 16.86,
+    "text": "Aquarius 16°51′",
+    "longitude": 316.858
+   }
+  },
+  {
+   "segment": "Paris: The Necklace and the Bastille",
+   "stop": "Boulogne, the crossing to Dover",
+   "date": "1786-06-19",
+   "date_confidence": "attested: departure from Boulogne for Dover, 19 June 1786",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1786,
+   "jd_ut": 2373552.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 27.76,
+    "text": "Gemini 27°45′",
+    "longitude": 87.755
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 23.39,
+    "text": "Pisces 23°23′",
+    "longitude": 353.391
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 12.82,
+    "text": "Gemini 12°49′",
+    "longitude": 72.818
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 21.01,
+    "text": "Cancer 21°01′",
+    "longitude": 111.011
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.02,
+    "text": "Leo 14°01′",
+    "longitude": 134.017
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 11.73,
+    "text": "Taurus 11°44′",
+    "longitude": 41.731
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 16.45,
+    "text": "Aquarius 16°27′",
+    "longitude": 316.45
+   }
+  },
+  {
+   "segment": "The Descent",
+   "stop": "London, the Lettre au peuple francais",
+   "date": "1786-06-20",
+   "date_confidence": "attested: the Lettre au peuple francais is dated London, 20 June 1786; it is a separate document from the 1787 letter to the English people",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1786,
+   "jd_ut": 2373553.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 28.71,
+    "text": "Gemini 28°43′",
+    "longitude": 88.709
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 7.44,
+    "text": "Aries 7°26′",
+    "longitude": 7.438
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 14.73,
+    "text": "Gemini 14°44′",
+    "longitude": 74.733
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 22.23,
+    "text": "Cancer 22°14′",
+    "longitude": 112.226
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.62,
+    "text": "Leo 14°37′",
+    "longitude": 134.617
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 11.93,
+    "text": "Taurus 11°56′",
+    "longitude": 41.93
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 16.41,
+    "text": "Aquarius 16°25′",
+    "longitude": 316.413
+   }
+  },
+  {
+   "segment": "The Descent",
+   "stop": "London, Morande and the letter to the English people",
+   "date": "1787-01-01",
+   "date_confidence": "1787 per en.wikipedia; the month is not fixed, and this letter is distinct from the Lettre au peuple francais of June 1786",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373748.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.6,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.597
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Descent",
+   "stop": "Palermo, Goethe at the Balsamo house",
+   "date": "1787-04-13",
+   "date_confidence": "April 1787 per Goethe's Italienische Reise; the exact day is not fixed and is placed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373850.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.97,
+    "text": "Aries 22°58′",
+    "longitude": 22.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Descent",
+   "stop": "Turin, refused by the King of Sardinia",
+   "date": "1788-07-23",
+   "date_confidence": "attested: departure toward Aix-les-Bains and Turin dated 23 July 1788 by it.wikipedia; the expulsions from Switzerland and Savoy precede it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1788,
+   "jd_ut": 2374317.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 0.68,
+    "text": "Leo 0°41′",
+    "longitude": 120.676
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 22.65,
+    "text": "Pisces 22°39′",
+    "longitude": 352.646
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 17.53,
+    "text": "Leo 17°32′",
+    "longitude": 137.532
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 23.55,
+    "text": "Leo 23°33′",
+    "longitude": 143.548
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 17.77,
+    "text": "Virgo 17°46′",
+    "longitude": 167.773
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 13.63,
+    "text": "Cancer 13°38′",
+    "longitude": 103.626
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 9.96,
+    "text": "Pisces 9°58′",
+    "longitude": 339.961
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Descent",
+   "stop": "Trento, the bishop writes to Rome",
+   "date": "1789-03-25",
+   "date_confidence": "25 March 1789 per it.wikipedia; the letter itself is known only at second hand, so the entry stands as reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1789,
+   "jd_ut": 2374562.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 4.79,
+    "text": "Aries 4°47′",
+    "longitude": 4.788
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 14.98,
+    "text": "Pisces 14°59′",
+    "longitude": 344.982
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 10.96,
+    "text": "Pisces 10°58′",
+    "longitude": 340.96
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 17.25,
+    "text": "Pisces 17°15′",
+    "longitude": 347.248
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 15.05,
+    "text": "Pisces 15°03′",
+    "longitude": 345.048
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 19.92,
+    "text": "Cancer 19°55′",
+    "longitude": 109.92
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 16.03,
+    "text": "Pisces 16°02′",
+    "longitude": 346.029
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Holy Office",
+   "stop": "Rome, the return and the denunciation",
+   "date": "1789-05-27",
+   "date_confidence": "departure from Trento 17 May 1789 with arrival about ten days later; the lodging is placed in the rione Regola because the denunciation goes to the parish priest of Santa Caterina della Rota, against a rival account putting them at Piazza di Spagna",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1789,
+   "jd_ut": 2374625.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (placed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 6.03,
+    "text": "Gemini 6°02′",
+    "longitude": 66.034
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 2.32,
+    "text": "Cancer 2°19′",
+    "longitude": 92.32
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 19.37,
+    "text": "Gemini 19°22′",
+    "longitude": 79.368
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 4.88,
+    "text": "Gemini 4°53′",
+    "longitude": 64.884
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 3.33,
+    "text": "Taurus 3°20′",
+    "longitude": 33.33
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 26.97,
+    "text": "Cancer 26°58′",
+    "longitude": 116.966
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 22.0,
+    "text": "Pisces 22°00′",
+    "longitude": 352.001
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Holy Office",
+   "stop": "Castel Sant'Angelo, taken by the Inquisition",
+   "date": "1789-12-27",
+   "date_confidence": "27 December 1789 per it.wikipedia; en.wikipedia gives 29 December and the disagreement is unresolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1789,
+   "jd_ut": 2374839.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.78,
+    "text": "Capricornus 5°47′",
+    "longitude": 275.776
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Holy Office",
+   "stop": "Rome, the Holy Office pronounces death",
+   "date": "1791-03-21",
+   "date_confidence": "attested, 21 March 1791, per it.wikipedia; the commutation follows on 7 April and the public proclamation on 13 April",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375288.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 0.35,
+    "text": "Aries 0°21′",
+    "longitude": 0.348
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 9.83,
+    "text": "Libra 9°50′",
+    "longitude": 189.825
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 9.58,
+    "text": "Pisces 9°35′",
+    "longitude": 339.58
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 19.11,
+    "text": "Aries 19°07′",
+    "longitude": 19.109
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 27.58,
+    "text": "Pisces 27°35′",
+    "longitude": 357.58
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 26.16,
+    "text": "Virgo 26°10′",
+    "longitude": 176.161
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 7.68,
+    "text": "Aries 7°41′",
+    "longitude": 7.676
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Holy Office",
+   "stop": "Santa Maria sopra Minerva, the abjuration and the burning",
+   "date": "1791-04-13",
+   "date_confidence": "attested: the sentence is proclaimed and abjured 13 April 1791, the commutation by Pius VI having been signed on 7 April; the site is the Minerva, not Campo de' Fiori",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375311.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 23.0,
+    "text": "Aries 23°00′",
+    "longitude": 22.997
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 7.99,
+    "text": "Leo 7°59′",
+    "longitude": 127.987
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 21.83,
+    "text": "Aries 21°50′",
+    "longitude": 21.83
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 17.36,
+    "text": "Taurus 17°22′",
+    "longitude": 47.359
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 15.32,
+    "text": "Aries 15°19′",
+    "longitude": 15.316
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 23.46,
+    "text": "Virgo 23°27′",
+    "longitude": 173.456
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 10.56,
+    "text": "Aries 10°33′",
+    "longitude": 10.557
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Holy Office",
+   "stop": "San Leo, the transfer to the Rocca",
+   "date": "1791-04-20",
+   "date_confidence": "attested, 20 April 1791; the fortress stands in the Montefeltro, province of Rimini, not in the Tuscan-Romagnol Apennines",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375318.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.83,
+    "text": "Aries 29°50′",
+    "longitude": 29.831
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 18.21,
+    "text": "Scorpio 18°13′",
+    "longitude": 228.213
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 6.65,
+    "text": "Taurus 6°39′",
+    "longitude": 36.651
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 25.89,
+    "text": "Taurus 25°53′",
+    "longitude": 55.887
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 20.64,
+    "text": "Aries 20°38′",
+    "longitude": 20.641
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 22.82,
+    "text": "Virgo 22°49′",
+    "longitude": 172.818
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 11.42,
+    "text": "Aries 11°25′",
+    "longitude": 11.416
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Holy Office",
+   "stop": "San Leo, the Pozzetto",
+   "date": "1791-09-11",
+   "date_confidence": "attested, 11 September 1791, per it.wikipedia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375462.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 18.15,
+    "text": "Virgo 18°09′",
+    "longitude": 168.149
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 0.2,
+    "text": "Pisces 0°12′",
+    "longitude": 330.205
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 14.76,
+    "text": "Libra 14°45′",
+    "longitude": 194.755
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 28.61,
+    "text": "Libra 28°37′",
+    "longitude": 208.611
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 0.38,
+    "text": "Leo 0°23′",
+    "longitude": 120.381
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 6.73,
+    "text": "Libra 6°44′",
+    "longitude": 186.726
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 17.47,
+    "text": "Aries 17°28′",
+    "longitude": 17.472
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Holy Office",
+   "stop": "San Leo, the letters to the Pope",
+   "date": "1793-12-01",
+   "date_confidence": "December 1793 per it.wikipedia; the letters are known only through the fortress record, so the entry stands as reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2376274.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.34,
+    "text": "Sagittarius 9°21′",
+    "longitude": 249.344
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Holy Office",
+   "stop": "Rome, Serafina dies at Sant'Apollonia",
+   "date": "1794-01-01",
+   "date_confidence": "1794 attested, at the age of forty-three; the month is not recorded and is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1794,
+   "jd_ut": 2376305.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.903
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Holy Office",
+   "stop": "San Leo, the death in the Pozzetto",
+   "date": "1795-08-26",
+   "date_confidence": "attested: found semi-paralysed 23 August 1795, dead about 22:30 on 26 August, aged fifty-two",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1795,
+   "jd_ut": 2376907.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 2.66,
+    "text": "Virgo 2°39′",
+    "longitude": 152.658
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.083
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 20.0,
+    "text": "Leo 20°00′",
+    "longitude": 140.001
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 19.14,
+    "text": "Leo 19°08′",
+    "longitude": 139.142
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 15.61,
+    "text": "Leo 15°36′",
+    "longitude": 135.608
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 28.81,
+    "text": "Capricornus 28°49′",
+    "longitude": 298.814
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 12.99,
+    "text": "Gemini 12°59′",
+    "longitude": 72.987
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Prosecution's Book and the Afterlife",
+   "stop": "Rome, the Compendio printed at the Vatican press",
+   "date": "1791-06-01",
+   "date_confidence": "published in Rome in 1791, after the April sentence; the month is not fixed and is placed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375360.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.36,
+    "text": "Gemini 10°22′",
+    "longitude": 70.36
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prosecution's Book and the Afterlife",
+   "stop": "Weimar, Der Gross-Cophta on stage",
+   "date": "1791-12-17",
+   "date_confidence": "attested: premiere at the Weimar court theatre, 17 December 1791",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375559.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 25.09,
+    "text": "Sagittarius 25°05′",
+    "longitude": 265.091
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 6.22,
+    "text": "Virgo 6°13′",
+    "longitude": 156.225
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 7.97,
+    "text": "Capricornus 7°58′",
+    "longitude": 277.967
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 8.93,
+    "text": "Scorpio 8°56′",
+    "longitude": 218.934
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 23.05,
+    "text": "Virgo 23°03′",
+    "longitude": 173.045
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 26.31,
+    "text": "Libra 26°19′",
+    "longitude": 206.31
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 12.05,
+    "text": "Aries 12°03′",
+    "longitude": 12.047
+   }
+  },
+  {
+   "segment": "The Prosecution's Book and the Afterlife",
+   "stop": "San Leo, the Polish troops and the skull",
+   "date": "1797-12-01",
+   "date_confidence": "December 1797 attested for the occupation and the disturbance of the remains; everything concerning the skull is local tradition only and no relic has been produced",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377735.5,
+   "precision": "month",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.37,
+    "text": "Sagittarius 9°22′",
+    "longitude": 249.374
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prosecution's Book and the Afterlife",
+   "stop": "Paris, Dumas makes him the engine of the Revolution",
+   "date": "1846-01-01",
+   "date_confidence": "serialization runs 1846-1848; the month is not fixed and is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395297.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prosecution's Book and the Afterlife",
+   "stop": "Manchester, the Egyptian Rite line handed on",
+   "date": "1902-09-24",
+   "date_confidence": "24 September 1902 per theodor_reuss.journey.json; the descent from Cagliostro's own rite is claimed by the tradition and is not documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2416016.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 0.01,
+    "text": "Libra 0°00′",
+    "longitude": 180.006
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 20.9,
+    "text": "Gemini 20°54′",
+    "longitude": 80.897
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 26.03,
+    "text": "Libra 26°02′",
+    "longitude": 206.028
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 13.22,
+    "text": "Virgo 13°13′",
+    "longitude": 163.222
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 12.09,
+    "text": "Leo 12°06′",
+    "longitude": 132.095
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 7.57,
+    "text": "Aquarius 7°34′",
+    "longitude": 307.571
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 21.09,
+    "text": "Capricornus 21°05′",
+    "longitude": 291.086
+   }
+  },
+  {
+   "segment": "The Prosecution's Book and the Afterlife",
+   "stop": "San Leo, the cell shown to visitors",
+   "date": "2026-01-01",
+   "date_confidence": "present state; the fortress operates as a museum under the Musei Nazionali dell'Emilia-Romagna",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461041.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.58,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.576
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 23,
+  "month": 3,
+  "year": 19
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,2127 @@
+{
+ "slug": "george_orwell",
+ "traveler": "George Orwell (Eric Arthur Blair)",
+ "title": "The Opium Clerk's Son: Burma, the Aragon Front, and the Farmhouse on Jura",
+ "years": "1903-1950",
+ "years_parsed": {
+  "first": 1903,
+  "last": 1950
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Opium Clerk's Son",
+  "stop": "Motihari, the birth in the opium district",
+  "date": "1903-06-25",
+  "date_confidence": "attested to the day. City-level coordinate; the birth bungalow survives as a memorial in Motihari but its exact plot is not confirmed by the fetched sources.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1903,
+  "jd_ut": 2416290.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Cancer",
+   "degree": 2.27,
+   "text": "Cancer 2°16′",
+   "longitude": 92.267
+  },
+  "moon": {
+   "sign": "Gemini",
+   "degree": 28.61,
+   "text": "Gemini 28°36′",
+   "longitude": 88.608
+  },
+  "mercury": {
+   "sign": "Gemini",
+   "degree": 10.83,
+   "text": "Gemini 10°50′",
+   "longitude": 70.834
+  },
+  "venus": {
+   "sign": "Leo",
+   "degree": 17.04,
+   "text": "Leo 17°02′",
+   "longitude": 137.035
+  },
+  "mars": {
+   "sign": "Libra",
+   "degree": 8.32,
+   "text": "Libra 8°19′",
+   "longitude": 188.317
+  },
+  "jupiter": {
+   "sign": "Pisces",
+   "degree": 22.69,
+   "text": "Pisces 22°41′",
+   "longitude": 352.688
+  },
+  "saturn": {
+   "sign": "Aquarius",
+   "degree": 8.22,
+   "text": "Aquarius 8°13′",
+   "longitude": 308.224
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1903-1950",
+  "first_year_parsed": 1903
+ },
+ "stops": [
+  {
+   "segment": "The Opium Clerk's Son",
+   "stop": "Motihari, the birth in the opium district",
+   "date": "1903-06-25",
+   "date_confidence": "attested to the day. City-level coordinate; the birth bungalow survives as a memorial in Motihari but its exact plot is not confirmed by the fetched sources.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416290.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.27,
+    "text": "Cancer 2°16′",
+    "longitude": 92.267
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 28.61,
+    "text": "Gemini 28°36′",
+    "longitude": 88.608
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 10.83,
+    "text": "Gemini 10°50′",
+    "longitude": 70.834
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 17.04,
+    "text": "Leo 17°02′",
+    "longitude": 137.035
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 8.32,
+    "text": "Libra 8°19′",
+    "longitude": 188.317
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 22.69,
+    "text": "Pisces 22°41′",
+    "longitude": 352.688
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 8.22,
+    "text": "Aquarius 8°13′",
+    "longitude": 308.224
+   }
+  },
+  {
+   "segment": "The Opium Clerk's Son",
+   "stop": "Henley-on-Thames, the household without a father",
+   "date": "1904-01-01",
+   "date_confidence": "attested to the year; month and day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416480.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.17,
+    "text": "Capricornus 9°10′",
+    "longitude": 279.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Opium Clerk's Son",
+   "stop": "Eastbourne, the scholarship boy at St Cyprian's",
+   "date": "1911-09-01",
+   "date_confidence": "attested to the month (September 1911 to December 1916). Coordinate corrected: one working note carried Eastbourne at negative longitude, which places the school in the Channel; Eastbourne lies east of Greenwich.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419280.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.44,
+    "text": "Virgo 7°27′",
+    "longitude": 157.443
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Opium Clerk's Son",
+   "stop": "Eton, the King's Scholar who does no work",
+   "date": "1917-05-01",
+   "date_confidence": "attested to the month (May 1917 to December 1921). One term at Wellington College, January to May 1917, precedes it; a working note gave that stay as a single month and misplaced the college by several kilometres.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421349.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.05,
+    "text": "Taurus 10°03′",
+    "longitude": 40.05
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Opium Clerk's Son",
+   "stop": "Southwold, the crammer for the India Office",
+   "date": "1921-12-01",
+   "date_confidence": "attested to the month.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2423024.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.27,
+    "text": "Sagittarius 8°16′",
+    "longitude": 248.267
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Indian Imperial Police: Five Years in Burma",
+   "stop": "Rangoon, the landing",
+   "date": "1922-11-01",
+   "date_confidence": "attested to the month. Sequence corrected: he sailed on the SS Herefordshire in October 1922 and reached Rangoon in November; the formal appointment follows on 29 November, not before the voyage as one working note had it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423359.5,
+   "precision": "month",
+   "precision_triggers": [
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.79,
+    "text": "Scorpio 7°47′",
+    "longitude": 217.79
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Indian Imperial Police: Five Years in Burma",
+   "stop": "Mandalay, the training school and the appointment",
+   "date": "1922-11-29",
+   "date_confidence": "attested to the day for the appointment as Assistant District Superintendent on probation, at 525 rupees a month; training at Mandalay runs through the following months.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423387.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 5.99,
+    "text": "Sagittarius 6°00′",
+    "longitude": 245.995
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 4.74,
+    "text": "Aries 4°45′",
+    "longitude": 4.743
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 1.65,
+    "text": "Sagittarius 1°39′",
+    "longitude": 241.65
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 29.93,
+    "text": "Scorpio 29°56′",
+    "longitude": 239.934
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 20.84,
+    "text": "Aquarius 20°50′",
+    "longitude": 320.836
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 7.03,
+    "text": "Scorpio 7°02′",
+    "longitude": 217.029
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 17.05,
+    "text": "Libra 17°03′",
+    "longitude": 197.055
+   }
+  },
+  {
+   "segment": "The Indian Imperial Police: Five Years in Burma",
+   "stop": "Insein, the prison beside the office",
+   "date": "1925-09-01",
+   "date_confidence": "attested to the month. The exact order of the short 1924 postings, Myaungmya, Twante and Syriam, differs between biographies and is not settled here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424394.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.04,
+    "text": "Virgo 8°02′",
+    "longitude": 158.038
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Indian Imperial Police: Five Years in Burma",
+   "stop": "Moulmein, the family town",
+   "date": "1926-04-01",
+   "date_confidence": "attested to the month.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424606.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.53,
+    "text": "Aries 10°32′",
+    "longitude": 10.525
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Indian Imperial Police: Five Years in Burma",
+   "stop": "Katha, the town that becomes Kyauktada",
+   "date": "1926-12-01",
+   "date_confidence": "attested to late 1926, running into 1927; a working note dated this posting 1924, two years early, against the source's own sequence.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424850.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.05,
+    "text": "Sagittarius 8°03′",
+    "longitude": 248.051
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Indian Imperial Police: Five Years in Burma",
+   "stop": "Southwold, the leave that becomes a resignation",
+   "date": "1927-07-01",
+   "date_confidence": "attested to the month for the return on medical leave; the resignation is dated 12 March 1928 and is sent from England. One working note reversed the order and had him resign first.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425062.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.18,
+    "text": "Cancer 8°11′",
+    "longitude": 98.18
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 29.56,
+    "text": "Cancer 29°34′",
+    "longitude": 119.564
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 1.08,
+    "text": "Leo 1°05′",
+    "longitude": 121.076
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 23.6,
+    "text": "Leo 23°36′",
+    "longitude": 143.599
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.95,
+    "text": "Leo 14°57′",
+    "longitude": 134.955
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 2.82,
+    "text": "Aries 2°49′",
+    "longitude": 2.822
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 1.94,
+    "text": "Sagittarius 1°57′",
+    "longitude": 241.944
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Plongeur and Tramp",
+   "stop": "Portobello Road, the first expeditions east",
+   "date": "1927-12-01",
+   "date_confidence": "attested to the end of 1927; day defaulted to 01. The blue plaque marks the street rather than a confirmed building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425215.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.81,
+    "text": "Sagittarius 7°48′",
+    "longitude": 247.805
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Plongeur and Tramp",
+   "stop": "Rue du Pot-de-Fer, the room in the fifth arrondissement",
+   "date": "1928-01-01",
+   "date_confidence": "attested to the year, with the move placed in early 1928; month and day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Plongeur and Tramp",
+   "stop": "Paris, the first article anybody pays for",
+   "date": "1928-10-06",
+   "date_confidence": "attested to the day. Pinned to the canonical Paris coordinate; the paper's own office address is not established here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425525.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not established) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 12.5,
+    "text": "Libra 12°30′",
+    "longitude": 192.496
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 9.74,
+    "text": "Cancer 9°44′",
+    "longitude": 99.738
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 7.27,
+    "text": "Scorpio 7°16′",
+    "longitude": 217.268
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 8.25,
+    "text": "Scorpio 8°15′",
+    "longitude": 218.255
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 1.14,
+    "text": "Cancer 1°08′",
+    "longitude": 91.137
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 8.5,
+    "text": "Taurus 8°30′",
+    "longitude": 38.495
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 14.35,
+    "text": "Sagittarius 14°21′",
+    "longitude": 254.353
+   }
+  },
+  {
+   "segment": "Plongeur and Tramp",
+   "stop": "Hopital Cochin, the free ward",
+   "date": "1929-02-01",
+   "date_confidence": "attested to the month. Coordinate corrected to the hospital on the boulevard de Port-Royal; a working note placed it some three hundred metres east on the Val-de-Grace block.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425643.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) placed",
+    "text affirms the month, not the day"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.67,
+    "text": "Aquarius 11°40′",
+    "longitude": 311.671
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Plongeur and Tramp",
+   "stop": "Southwold, two lives at once",
+   "date": "1929-12-01",
+   "date_confidence": "attested to the end of 1929; the tramping and hop-picking run through 1930 and 1931.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425946.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.33,
+    "text": "Sagittarius 8°20′",
+    "longitude": 248.327
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Plongeur and Tramp",
+   "stop": "Hayes, the schoolmaster and the pen name",
+   "date": "1932-04-01",
+   "date_confidence": "attested to the month for The Hawthorns. The move to the larger Frays College at Uxbridge belongs to 1933, not 1932 as one working note had it, and pneumonia ends the teaching by January 1934.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426798.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.06,
+    "text": "Aries 11°04′",
+    "longitude": 11.064
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Booklovers' Corner to Wigan Pier",
+   "stop": "Hampstead, the bookshop counter",
+   "date": "1934-10-01",
+   "date_confidence": "attested to the month (October 1934 to January 1936). The party at which he met Eileen O'Shaughnessy is placed in London in 1935 without an address; it is pinned here, near his Hampstead lodgings, for want of a better location.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427711.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.13,
+    "text": "Libra 7°08′",
+    "longitude": 187.125
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Booklovers' Corner to Wigan Pier",
+   "stop": "Wigan, the room over the tripe shop",
+   "date": "1936-02-01",
+   "date_confidence": "attested to the month; he leaves London on 31 January 1936. Correction: the trip was not commissioned for the Left Book Club, which was not founded until May 1936; Gollancz suggested the journey and the Club published the result in 1937.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428199.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 10.96,
+    "text": "Aquarius 10°58′",
+    "longitude": 310.961
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 23.96,
+    "text": "Taurus 23°58′",
+    "longitude": 53.965
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 10.84,
+    "text": "Aquarius 10°51′",
+    "longitude": 310.843
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 4.15,
+    "text": "Capricornus 4°09′",
+    "longitude": 274.151
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 13.6,
+    "text": "Pisces 13°36′",
+    "longitude": 343.602
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 17.67,
+    "text": "Sagittarius 17°40′",
+    "longitude": 257.674
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 8.74,
+    "text": "Pisces 8°45′",
+    "longitude": 338.744
+   }
+  },
+  {
+   "segment": "Booklovers' Corner to Wigan Pier",
+   "stop": "Bryn Hall, the crawl to the coal face",
+   "date": "1936-02-01",
+   "date_confidence": "attested to the month; the exact day of the descent is not fixed here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428199.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed",
+    "editorial (the date)"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 10.96,
+    "text": "Aquarius 10°58′",
+    "longitude": 310.961
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Booklovers' Corner to Wigan Pier",
+   "stop": "Wallington, the marriage and the village shop",
+   "date": "1936-06-09",
+   "date_confidence": "attested to the day. Coordinate corrected: a working note put Wallington some eight kilometres east of the village, in open farmland.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428328.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 17.97,
+    "text": "Gemini 17°58′",
+    "longitude": 77.971
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 3.17,
+    "text": "Aquarius 3°10′",
+    "longitude": 303.165
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 5.98,
+    "text": "Gemini 5°59′",
+    "longitude": 65.984
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 12.4,
+    "text": "Gemini 12°24′",
+    "longitude": 72.397
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 18.51,
+    "text": "Gemini 18°31′",
+    "longitude": 78.509
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 19.76,
+    "text": "Sagittarius 19°46′",
+    "longitude": 259.764
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 21.68,
+    "text": "Pisces 21°41′",
+    "longitude": 351.68
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Spain: The Militia, the May Days, the Bullet",
+   "stop": "Barcelona, the Lenin Barracks",
+   "date": "1936-12-26",
+   "date_confidence": "attested for the departure from England on 23 December 1936; the Barcelona arrival is placed at the end of December. Barracks coordinate approximate to the central city; no street address is established here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428528.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (approximately, placed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.06,
+    "text": "Capricornus 4°03′",
+    "longitude": 274.058
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 4.64,
+    "text": "Gemini 4°39′",
+    "longitude": 64.645
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 23.12,
+    "text": "Capricornus 23°07′",
+    "longitude": 293.124
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 17.06,
+    "text": "Aquarius 17°04′",
+    "longitude": 317.06
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 24.01,
+    "text": "Libra 24°01′",
+    "longitude": 204.01
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 5.41,
+    "text": "Capricornus 5°25′",
+    "longitude": 275.411
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 16.62,
+    "text": "Pisces 16°37′",
+    "longitude": 346.616
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Spain: The Militia, the May Days, the Bullet",
+   "stop": "Alcubierre, the winter trenches",
+   "date": "1937-01-01",
+   "date_confidence": "attested to the month; day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain: The Militia, the May Days, the Bullet",
+   "stop": "Barcelona, the rooftop in the May Days",
+   "date": "1937-05-03",
+   "date_confidence": "attested to the day for the outbreak of the fighting, 3 to 7 May 1937. The specific hotel, the Continental, comes from the dossier and is tagged [R]; the fetched biography confirms the episode but not the address, which supplies this pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428656.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 12.15,
+    "text": "Taurus 12°09′",
+    "longitude": 42.146
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 3.05,
+    "text": "Aquarius 3°03′",
+    "longitude": 303.051
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 24.16,
+    "text": "Taurus 24°10′",
+    "longitude": 54.159
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 20.24,
+    "text": "Aries 20°14′",
+    "longitude": 20.236
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 3.37,
+    "text": "Sagittarius 3°22′",
+    "longitude": 243.368
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 27.14,
+    "text": "Capricornus 27°08′",
+    "longitude": 297.141
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 0.5,
+    "text": "Aries 0°30′",
+    "longitude": 0.502
+   }
+  },
+  {
+   "segment": "Spain: The Militia, the May Days, the Bullet",
+   "stop": "The Huesca front, shot through the throat",
+   "date": "1937-05-20",
+   "date_confidence": "attested to the day by the Spanish-language biography, at about five in the morning on 20 May 1937. Contradiction flagged: one working note dated the wounding 27 May, which is in fact the date of the onward transfer from Lleida to Tarragona.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428673.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.56,
+    "text": "Taurus 28°34′",
+    "longitude": 58.562
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 0.21,
+    "text": "Libra 0°13′",
+    "longitude": 180.212
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 15.95,
+    "text": "Taurus 15°57′",
+    "longitude": 45.947
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 21.53,
+    "text": "Aries 21°32′",
+    "longitude": 21.526
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 28.21,
+    "text": "Scorpio 28°12′",
+    "longitude": 238.207
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 27.36,
+    "text": "Capricornus 27°22′",
+    "longitude": 297.363
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 2.12,
+    "text": "Aries 2°07′",
+    "longitude": 2.116
+   }
+  },
+  {
+   "segment": "Spain: The Militia, the May Days, the Bullet",
+   "stop": "Lleida, the hospital and the road back",
+   "date": "1937-05-22",
+   "date_confidence": "attested to about 22 May for the Lleida admission, with the onward move to Tarragona dated 27 May 1937. A working note dated the Lleida stop itself to the 27th, conflating admission and transfer.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428675.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.49,
+    "text": "Gemini 0°29′",
+    "longitude": 60.486
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 24.38,
+    "text": "Libra 24°23′",
+    "longitude": 204.382
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 15.48,
+    "text": "Taurus 15°29′",
+    "longitude": 45.477
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 22.32,
+    "text": "Aries 22°19′",
+    "longitude": 22.323
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 27.5,
+    "text": "Scorpio 27°30′",
+    "longitude": 237.5
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 27.33,
+    "text": "Capricornus 27°20′",
+    "longitude": 297.329
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 2.29,
+    "text": "Aries 2°17′",
+    "longitude": 2.285
+   }
+  },
+  {
+   "segment": "Spain: The Militia, the May Days, the Bullet",
+   "stop": "Barcelona, the sanatorium and the flight",
+   "date": "1937-05-29",
+   "date_confidence": "attested to the day for the admission to the POUM sanatorium; the discharge as medically unfit and the crossing into France follow in June 1937.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428682.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.21,
+    "text": "Gemini 7°12′",
+    "longitude": 67.207
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 17.63,
+    "text": "Capricornus 17°38′",
+    "longitude": 287.625
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 16.13,
+    "text": "Taurus 16°08′",
+    "longitude": 46.135
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 25.91,
+    "text": "Aries 25°55′",
+    "longitude": 25.912
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 25.06,
+    "text": "Scorpio 25°04′",
+    "longitude": 235.059
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 27.11,
+    "text": "Capricornus 27°07′",
+    "longitude": 297.112
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 2.84,
+    "text": "Aries 2°51′",
+    "longitude": 2.843
+   }
+  },
+  {
+   "segment": "Spain: The Militia, the May Days, the Bullet",
+   "stop": "Valencia, the deposition against the Blairs",
+   "date": "1937-07-13",
+   "date_confidence": "attested to the day. Orwell was not present: he and Eileen had been out of Spain for some weeks. The pin marks where the document was filed, not where he stood. Place corrected: a working note gave Barcelona; the Tribunal for Espionage and High Treason sat at Valencia, and the trial in absentia followed at Barcelona in late 1938.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428727.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 20.18,
+    "text": "Cancer 20°11′",
+    "longitude": 110.177
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 22.5,
+    "text": "Virgo 22°30′",
+    "longitude": 172.498
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 25.53,
+    "text": "Cancer 25°32′",
+    "longitude": 115.528
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 5.27,
+    "text": "Gemini 5°16′",
+    "longitude": 65.273
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 21.08,
+    "text": "Scorpio 21°05′",
+    "longitude": 231.084
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 22.8,
+    "text": "Capricornus 22°48′",
+    "longitude": 292.796
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 4.76,
+    "text": "Aries 4°45′",
+    "longitude": 4.756
+   }
+  },
+  {
+   "segment": "The Stores, the Sanatorium, and Marrakesh",
+   "stop": "Wallington, writing Homage to Catalonia",
+   "date": "1937-07-01",
+   "date_confidence": "attested to the summer of 1937 for the return and the writing; publication by Secker and Warburg is dated April 1938.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428715.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.74,
+    "text": "Cancer 8°44′",
+    "longitude": 98.737
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Stores, the Sanatorium, and Marrakesh",
+   "stop": "Aylesford, Preston Hall sanatorium",
+   "date": "1938-03-01",
+   "date_confidence": "attested to the month, with the stay running March to September 1938. The essay written on joining the Independent Labour Party is 'Why I Join the I.L.P.', New Leader, 24 June 1938; one working note gave a past-tense title that does not exist.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428958.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.76,
+    "text": "Pisces 9°46′",
+    "longitude": 339.758
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 25.1,
+    "text": "Aquarius 25°06′",
+    "longitude": 325.095
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 3.34,
+    "text": "Pisces 3°21′",
+    "longitude": 333.345
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 15.81,
+    "text": "Pisces 15°48′",
+    "longitude": 345.805
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 21.76,
+    "text": "Aries 21°46′",
+    "longitude": 21.765
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 16.56,
+    "text": "Aquarius 16°34′",
+    "longitude": 316.564
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 4.17,
+    "text": "Aries 4°10′",
+    "longitude": 4.171
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Stores, the Sanatorium, and Marrakesh",
+   "stop": "Marrakesh, the winter on the Casablanca road",
+   "date": "1938-09-01",
+   "date_confidence": "attested to the month of departure, with the Moroccan stay running to March 1939. A lease from 15 October 1938 at 550 francs a month is reported in the dossier and is not independently verified here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429142.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.9,
+    "text": "Virgo 7°54′",
+    "longitude": 157.899
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 29.76,
+    "text": "Scorpio 29°45′",
+    "longitude": 239.758
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 1.32,
+    "text": "Virgo 1°19′",
+    "longitude": 151.322
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 23.87,
+    "text": "Libra 23°52′",
+    "longitude": 203.865
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 25.65,
+    "text": "Leo 25°39′",
+    "longitude": 145.647
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 26.03,
+    "text": "Aquarius 26°02′",
+    "longitude": 326.031
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 16.82,
+    "text": "Aries 16°49′",
+    "longitude": 16.819
+   }
+  },
+  {
+   "segment": "The Stores, the Sanatorium, and Marrakesh",
+   "stop": "Casablanca, the passage home",
+   "date": "1939-03-01",
+   "date_confidence": "attested only as far as the return to England on 30 March 1939; a departure date of 26 March circulates but is not carried by the fetched source. Month kept, day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429323.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.51,
+    "text": "Pisces 9°31′",
+    "longitude": 339.515
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War Years in London",
+   "stop": "Broadcasting House, the Eastern Service",
+   "date": "1941-08-01",
+   "date_confidence": "attested to the month. End date corrected: he resigned from the BBC in September 1943, not November as one working note had it; Tribune follows in November 1943.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430207.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.35,
+    "text": "Leo 8°21′",
+    "longitude": 128.353
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War Years in London",
+   "stop": "Kilburn, the flying bomb on Mortimer Crescent",
+   "date": "1944-06-01",
+   "date_confidence": "attested to the month for the V-1 strike; the adoption of Richard Horatio Blair is dated 14 May 1944. The detail of the crumpled Animal Farm typescript recovered from the rubble is widely repeated and is tagged [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431242.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.38,
+    "text": "Gemini 10°23′",
+    "longitude": 70.378
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 2.19,
+    "text": "Libra 2°11′",
+    "longitude": 182.192
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 16.02,
+    "text": "Taurus 16°01′",
+    "longitude": 46.022
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 3.26,
+    "text": "Gemini 3°15′",
+    "longitude": 63.256
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 5.46,
+    "text": "Leo 5°27′",
+    "longitude": 125.455
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 20.44,
+    "text": "Leo 20°27′",
+    "longitude": 140.443
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 27.4,
+    "text": "Gemini 27°24′",
+    "longitude": 87.404
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The War Years in London",
+   "stop": "Canonbury Square, Tribune and the weekly column",
+   "date": "1944-10-01",
+   "date_confidence": "attested to 1944 for the move to 27b Canonbury Square; month and day set to order the segment. He becomes literary editor of Tribune in November 1943 and leaves the staff post in early 1945.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431364.5,
+   "precision": "month",
+   "precision_triggers": [
+    "year named only",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.69,
+    "text": "Libra 7°42′",
+    "longitude": 187.695
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War Years in London",
+   "stop": "Newcastle upon Tyne, the death of Eileen Blair",
+   "date": "1945-03-29",
+   "date_confidence": "attested to the day, at Fernwood House nursing home; the inquest returned death from cardiac failure under ether and chloroform properly administered.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431543.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 7.95,
+    "text": "Aries 7°57′",
+    "longitude": 7.955
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 10.79,
+    "text": "Libra 10°47′",
+    "longitude": 190.787
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 26.12,
+    "text": "Aries 26°07′",
+    "longitude": 26.12
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 3.35,
+    "text": "Taurus 3°21′",
+    "longitude": 33.345
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 3.01,
+    "text": "Pisces 3°00′",
+    "longitude": 333.006
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 20.6,
+    "text": "Virgo 20°36′",
+    "longitude": 170.596
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 4.23,
+    "text": "Cancer 4°14′",
+    "longitude": 94.228
+   }
+  },
+  {
+   "segment": "The War Years in London",
+   "stop": "Canonbury Square, Animal Farm published",
+   "date": "1945-08-17",
+   "date_confidence": "attested to the day. T. S. Eliot's rejection letter for Faber is widely quoted and is tagged [R] here, having not been re-verified in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431684.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 23.73,
+    "text": "Leo 23°44′",
+    "longitude": 143.728
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 4.56,
+    "text": "Sagittarius 4°33′",
+    "longitude": 244.557
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 0.3,
+    "text": "Virgo 0°18′",
+    "longitude": 150.297
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 14.27,
+    "text": "Cancer 14°16′",
+    "longitude": 104.267
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 16.43,
+    "text": "Gemini 16°26′",
+    "longitude": 76.427
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 28.36,
+    "text": "Virgo 28°22′",
+    "longitude": 178.365
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 19.47,
+    "text": "Cancer 19°28′",
+    "longitude": 109.468
+   }
+  },
+  {
+   "segment": "Barnhill: The Island and the Book",
+   "stop": "Barnhill, the farmhouse at the north end of Jura",
+   "date": "1946-05-01",
+   "date_confidence": "attested to the month; he first visited Jura in September 1945 and the residence runs to January 1949. Coordinate corrected: a working note placed Barnhill some sixteen kilometres out in the Sound of Jura.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431941.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) placed",
+    "text affirms the month, not the day"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.03,
+    "text": "Taurus 10°02′",
+    "longitude": 40.034
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Barnhill: The Island and the Book",
+   "stop": "The Gulf of Corryvreckan, the boat in the whirlpool",
+   "date": "1947-08-19",
+   "date_confidence": "attested to the day; the episode is carried in the fetched biography and is promoted here from the dossier's [R] tagging. The detail of the islet and the passing lobster boat is standard in the biographies and not separately re-verified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432416.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 25.19,
+    "text": "Leo 25°11′",
+    "longitude": 145.187
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 29.96,
+    "text": "Virgo 29°58′",
+    "longitude": 179.965
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 14.82,
+    "text": "Leo 14°49′",
+    "longitude": 134.818
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 20.92,
+    "text": "Leo 20°55′",
+    "longitude": 140.924
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 3.35,
+    "text": "Cancer 3°21′",
+    "longitude": 93.349
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 19.42,
+    "text": "Scorpio 19°25′",
+    "longitude": 229.422
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 14.15,
+    "text": "Leo 14°09′",
+    "longitude": 134.149
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Barnhill: The Island and the Book",
+   "stop": "Barnhill, the first draft finished in bed",
+   "date": "1947-11-07",
+   "date_confidence": "attested to the day for the completion of the first draft of the novel then called The Last Man in Europe.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432496.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 13.74,
+    "text": "Scorpio 13°44′",
+    "longitude": 223.741
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 0.64,
+    "text": "Virgo 0°38′",
+    "longitude": 150.641
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.3,
+    "text": "Scorpio 11°18′",
+    "longitude": 221.303
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 0.49,
+    "text": "Sagittarius 0°29′",
+    "longitude": 240.489
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 19.67,
+    "text": "Leo 19°40′",
+    "longitude": 139.674
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 2.99,
+    "text": "Sagittarius 3°00′",
+    "longitude": 242.993
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.01,
+    "text": "Leo 22°00′",
+    "longitude": 142.005
+   }
+  },
+  {
+   "segment": "Barnhill: The Island and the Book",
+   "stop": "East Kilbride, streptomycin at Hairmyres",
+   "date": "1947-12-20",
+   "date_confidence": "attested to the week before Christmas 1947, with the stay running to July 1948; the streptomycin course begins 19 or 20 February 1948 and is stopped after fifty days. Coordinate corrected to the hospital; a working note gave the East Kilbride town centre.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432539.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 27.26,
+    "text": "Sagittarius 27°16′",
+    "longitude": 267.263
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 19.0,
+    "text": "Pisces 19°00′",
+    "longitude": 349.0
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 19.13,
+    "text": "Sagittarius 19°08′",
+    "longitude": 259.126
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 24.06,
+    "text": "Capricornus 24°03′",
+    "longitude": 294.056
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 5.37,
+    "text": "Virgo 5°22′",
+    "longitude": 155.369
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 12.57,
+    "text": "Sagittarius 12°34′",
+    "longitude": 252.568
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.48,
+    "text": "Leo 22°29′",
+    "longitude": 142.476
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Barnhill: The Island and the Book",
+   "stop": "Cranham, the chalet, the list, and publication day",
+   "date": "1949-01-06",
+   "date_confidence": "attested to January 1949 for the admission, with the stay running to September; Celia Kirwan's visit for the Information Research Department is dated 29 March 1949 and publication 8 June 1949. The Gandhi essay in Partisan Review, January 1949, is a standard bibliographic fact carried here as [R], not re-verified in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432922.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.36,
+    "text": "Capricornus 15°22′",
+    "longitude": 285.359
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 29.18,
+    "text": "Pisces 29°11′",
+    "longitude": 359.18
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 29.42,
+    "text": "Capricornus 29°25′",
+    "longitude": 299.423
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 20.8,
+    "text": "Sagittarius 20°48′",
+    "longitude": 260.803
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 0.98,
+    "text": "Aquarius 0°59′",
+    "longitude": 300.983
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 11.59,
+    "text": "Capricornus 11°36′",
+    "longitude": 281.593
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 5.9,
+    "text": "Virgo 5°54′",
+    "longitude": 155.896
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "University College Hospital and the Grave",
+   "stop": "University College Hospital, the bedside marriage",
+   "date": "1949-10-13",
+   "date_confidence": "attested to the day; he was transferred to the hospital in September 1949. The crimson smoking jacket and David Astor as best man are standard in the biographies and tagged [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433202.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 19.33,
+    "text": "Libra 19°20′",
+    "longitude": 199.33
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.85,
+    "text": "Gemini 23°51′",
+    "longitude": 83.849
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 3.95,
+    "text": "Libra 3°57′",
+    "longitude": 183.952
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 2.96,
+    "text": "Sagittarius 2°57′",
+    "longitude": 242.957
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 21.87,
+    "text": "Leo 21°52′",
+    "longitude": 141.872
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 23.34,
+    "text": "Capricornus 23°21′",
+    "longitude": 293.343
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 14.57,
+    "text": "Virgo 14°34′",
+    "longitude": 164.57
+   }
+  },
+  {
+   "segment": "University College Hospital and the Grave",
+   "stop": "University College Hospital, the artery in the lung",
+   "date": "1950-01-21",
+   "date_confidence": "attested to the day; death from a massive pulmonary haemorrhage in the early hours of 21 January 1950.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433302.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 0.39,
+    "text": "Aquarius 0°23′",
+    "longitude": 300.391
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 2.83,
+    "text": "Pisces 2°50′",
+    "longitude": 332.829
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 22.87,
+    "text": "Capricornus 22°52′",
+    "longitude": 292.87
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 16.52,
+    "text": "Aquarius 16°31′",
+    "longitude": 316.522
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 8.29,
+    "text": "Libra 8°17′",
+    "longitude": 188.29
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 11.2,
+    "text": "Aquarius 11°12′",
+    "longitude": 311.198
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 19.1,
+    "text": "Virgo 19°06′",
+    "longitude": 169.098
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "University College Hospital and the Grave",
+   "stop": "Sutton Courtenay, the stone that says Eric Arthur Blair",
+   "date": "1950-01-26",
+   "date_confidence": "attested to the day. Coordinate corrected to the church itself; two working notes placed the grave several hundred metres outside the churchyard.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433307.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 5.48,
+    "text": "Aquarius 5°29′",
+    "longitude": 305.477
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 3.38,
+    "text": "Taurus 3°23′",
+    "longitude": 33.377
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 18.77,
+    "text": "Capricornus 18°46′",
+    "longitude": 288.77
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 14.03,
+    "text": "Aquarius 14°02′",
+    "longitude": 314.027
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 9.34,
+    "text": "Libra 9°20′",
+    "longitude": 189.336
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 12.38,
+    "text": "Aquarius 12°23′",
+    "longitude": 312.383
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 18.89,
+    "text": "Virgo 18°53′",
+    "longitude": 168.885
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 24,
+  "month": 15,
+  "year": 6
+ },
+ "parse_failures": []
+}

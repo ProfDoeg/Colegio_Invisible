@@ -1,0 +1,1801 @@
+{
+ "slug": "borges",
+ "traveler": "Jorge Luis Borges",
+ "title": "The Library and the Night: Buenos Aires to Geneva",
+ "years": "1899-1987",
+ "years_parsed": {
+  "first": 1899,
+  "last": 1987
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Buenos Aires, the Library of the Father",
+  "stop": "Buenos Aires, the house on Calle Tucumán",
+  "date": "1899-08-24",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1899,
+  "jd_ut": 2414890.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Virgo",
+   "degree": 0.59,
+   "text": "Virgo 0°35′",
+   "longitude": 150.585
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 10.02,
+   "text": "Aries 10°01′",
+   "longitude": 10.021
+  },
+  "mercury": {
+   "sign": "Leo",
+   "degree": 22.58,
+   "text": "Leo 22°35′",
+   "longitude": 142.582
+  },
+  "venus": {
+   "sign": "Leo",
+   "degree": 24.25,
+   "text": "Leo 24°15′",
+   "longitude": 144.252
+  },
+  "mars": {
+   "sign": "Libra",
+   "degree": 11.41,
+   "text": "Libra 11°25′",
+   "longitude": 191.412
+  },
+  "jupiter": {
+   "sign": "Scorpio",
+   "degree": 4.85,
+   "text": "Scorpio 4°51′",
+   "longitude": 214.845
+  },
+  "saturn": {
+   "sign": "Sagittarius",
+   "degree": 17.05,
+   "text": "Sagittarius 17°03′",
+   "longitude": 257.046
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1899-1987",
+  "first_year_parsed": 1899
+ },
+ "stops": [
+  {
+   "segment": "Buenos Aires, the Library of the Father",
+   "stop": "Buenos Aires, the house on Calle Tucumán",
+   "date": "1899-08-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414890.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 0.59,
+    "text": "Virgo 0°35′",
+    "longitude": 150.585
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 10.02,
+    "text": "Aries 10°01′",
+    "longitude": 10.021
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 22.58,
+    "text": "Leo 22°35′",
+    "longitude": 142.582
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 24.25,
+    "text": "Leo 24°15′",
+    "longitude": 144.252
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 11.41,
+    "text": "Libra 11°25′",
+    "longitude": 191.412
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 4.85,
+    "text": "Scorpio 4°51′",
+    "longitude": 214.845
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 17.05,
+    "text": "Sagittarius 17°03′",
+    "longitude": 257.046
+   }
+  },
+  {
+   "segment": "Buenos Aires, the Library of the Father",
+   "stop": "Palermo, the paternal library",
+   "date": "1905-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416846.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.937
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Buenos Aires, the Library of the Father",
+   "stop": "Buenos Aires, the sailing of the Sierra Nevada",
+   "date": "1914-02-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420166.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 13.34,
+    "text": "Aquarius 13°20′",
+    "longitude": 313.335
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.49,
+    "text": "Taurus 8°30′",
+    "longitude": 38.493
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 19.63,
+    "text": "Aquarius 19°38′",
+    "longitude": 319.63
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 11.2,
+    "text": "Aquarius 11°12′",
+    "longitude": 311.201
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 6.31,
+    "text": "Cancer 6°18′",
+    "longitude": 96.307
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.89,
+    "text": "Aquarius 2°53′",
+    "longitude": 302.889
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 11.34,
+    "text": "Gemini 11°21′",
+    "longitude": 71.342
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Geneva, the War and the Schoolroom",
+   "stop": "Geneva, rue de Malagnou",
+   "date": "1914-03-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420206.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.58,
+    "text": "Pisces 23°35′",
+    "longitude": 353.578
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the War and the Schoolroom",
+   "stop": "Geneva, the Collège Calvin",
+   "date": "1915-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420588.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.19,
+    "text": "Aries 10°12′",
+    "longitude": 10.194
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the War and the Schoolroom",
+   "stop": "Geneva, Schopenhauer, Heine, and the Golem",
+   "date": "1916-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2421015.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.16,
+    "text": "Gemini 10°09′",
+    "longitude": 70.156
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the War and the Schoolroom",
+   "stop": "Geneva, the baccalauréat",
+   "date": "1918-07-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421775.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.35,
+    "text": "Cancer 8°21′",
+    "longitude": 98.346
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Ultra",
+   "stop": "Valldemossa and Palma, Mallorca",
+   "date": "1919-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422110.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.46,
+    "text": "Gemini 9°28′",
+    "longitude": 69.461
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Ultra",
+   "stop": "Seville, \"Himno al mar\"",
+   "date": "1919-12-31",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422323.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.26,
+    "text": "Capricornus 8°16′",
+    "longitude": 278.264
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 18.08,
+    "text": "Aries 18°05′",
+    "longitude": 18.075
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 18.36,
+    "text": "Sagittarius 18°22′",
+    "longitude": 258.361
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 24.86,
+    "text": "Scorpio 24°52′",
+    "longitude": 234.862
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 16.02,
+    "text": "Libra 16°01′",
+    "longitude": 196.016
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 17.07,
+    "text": "Leo 17°04′",
+    "longitude": 137.068
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 11.75,
+    "text": "Virgo 11°45′",
+    "longitude": 161.754
+   }
+  },
+  {
+   "segment": "Spain, the Ultra",
+   "stop": "Madrid, the tertulia of the Café Colonial",
+   "date": "1920-02-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422369.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 25.02,
+    "text": "Aquarius 25°01′",
+    "longitude": 325.022
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Ultra",
+   "stop": "Buenos Aires, the return on the Reina Victoria",
+   "date": "1921-03-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422749.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.88,
+    "text": "Pisces 9°53′",
+    "longitude": 339.882
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Buenos Aires, the Mythology of the Suburb",
+   "stop": "Buenos Aires, the mural magazine Prisma",
+   "date": "1921-12-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2423024.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.27,
+    "text": "Sagittarius 8°16′",
+    "longitude": 248.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Buenos Aires, the Mythology of the Suburb",
+   "stop": "Buenos Aires, Fervor de Buenos Aires",
+   "date": "1923-07-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423615.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 21.5,
+    "text": "Cancer 21°30′",
+    "longitude": 111.496
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 3.39,
+    "text": "Leo 3°24′",
+    "longitude": 123.392
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 12.83,
+    "text": "Cancer 12°50′",
+    "longitude": 102.827
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 5.88,
+    "text": "Cancer 5°53′",
+    "longitude": 95.878
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 29.32,
+    "text": "Cancer 29°19′",
+    "longitude": 119.318
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 9.09,
+    "text": "Scorpio 9°05′",
+    "longitude": 219.085
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 14.1,
+    "text": "Libra 14°06′",
+    "longitude": 194.099
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Buenos Aires, the Mythology of the Suburb",
+   "stop": "San Isidro, Villa Ocampo — the founding of Sur",
+   "date": "1931-01-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426356.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 23.89,
+    "text": "Capricornus 23°53′",
+    "longitude": 293.888
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 10.34,
+    "text": "Sagittarius 10°21′",
+    "longitude": 250.345
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 6.38,
+    "text": "Capricornus 6°23′",
+    "longitude": 276.383
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 8.5,
+    "text": "Sagittarius 8°30′",
+    "longitude": 248.496
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 11.79,
+    "text": "Leo 11°47′",
+    "longitude": 131.79
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 14.41,
+    "text": "Cancer 14°24′",
+    "longitude": 104.406
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 15.18,
+    "text": "Capricornus 15°11′",
+    "longitude": 285.185
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Buenos Aires, the Mythology of the Suburb",
+   "stop": "San Isidro, Villa Ocampo — meeting Bioy Casares",
+   "date": "1932-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Buenos Aires, the Mythology of the Suburb",
+   "stop": "Buenos Aires, \"Una vindicación de la Cábala\"",
+   "date": "1932-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426859.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.28,
+    "text": "Gemini 10°17′",
+    "longitude": 70.283
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Buenos Aires, the Mythology of the Suburb",
+   "stop": "Buenos Aires, \"El acercamiento a Almotásim\"",
+   "date": "1936-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428168.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.4,
+    "text": "Capricornus 9°24′",
+    "longitude": 279.401
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Buenos Aires, the Mythology of the Suburb",
+   "stop": "Boedo, the Biblioteca Municipal Miguel Cané",
+   "date": "1937-09-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428777.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.13,
+    "text": "Virgo 8°08′",
+    "longitude": 158.133
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wound, the Labyrinth, and the Tyranny",
+   "stop": "Buenos Aires, the accident on the stairs",
+   "date": "1938-12-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429256.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 1.53,
+    "text": "Capricornus 1°32′",
+    "longitude": 271.525
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 26.05,
+    "text": "Capricornus 26°03′",
+    "longitude": 296.051
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 13.49,
+    "text": "Sagittarius 13°29′",
+    "longitude": 253.486
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 22.8,
+    "text": "Scorpio 22°48′",
+    "longitude": 232.799
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 7.51,
+    "text": "Scorpio 7°31′",
+    "longitude": 217.509
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 29.06,
+    "text": "Aquarius 29°04′",
+    "longitude": 329.06
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 10.95,
+    "text": "Aries 10°57′",
+    "longitude": 10.946
+   }
+  },
+  {
+   "segment": "The Wound, the Labyrinth, and the Tyranny",
+   "stop": "Buenos Aires, \"Pierre Menard, autor del Quijote\"",
+   "date": "1939-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429384.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.74,
+    "text": "Taurus 9°44′",
+    "longitude": 39.736
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wound, the Labyrinth, and the Tyranny",
+   "stop": "Buenos Aires, \"Tlön, Uqbar, Orbis Tertius\"",
+   "date": "1940-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429750.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.47,
+    "text": "Taurus 10°28′",
+    "longitude": 40.472
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wound, the Labyrinth, and the Tyranny",
+   "stop": "Buenos Aires, El jardín de senderos que se bifurcan",
+   "date": "1941-11-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430299.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.18,
+    "text": "Scorpio 8°11′",
+    "longitude": 218.184
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wound, the Labyrinth, and the Tyranny",
+   "stop": "Buenos Aires, \"El Aleph\"",
+   "date": "1945-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431699.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.2,
+    "text": "Virgo 8°12′",
+    "longitude": 158.196
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wound, the Labyrinth, and the Tyranny",
+   "stop": "Boedo, the dismissal from the library",
+   "date": "1946-06-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431999.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 5.71,
+    "text": "Cancer 5°43′",
+    "longitude": 95.71
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 19.27,
+    "text": "Gemini 19°16′",
+    "longitude": 79.265
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 0.29,
+    "text": "Leo 0°17′",
+    "longitude": 120.287
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 11.58,
+    "text": "Leo 11°35′",
+    "longitude": 131.581
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 4.38,
+    "text": "Virgo 4°23′",
+    "longitude": 154.377
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 17.72,
+    "text": "Libra 17°43′",
+    "longitude": 197.721
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 25.41,
+    "text": "Cancer 25°25′",
+    "longitude": 115.409
+   }
+  },
+  {
+   "segment": "The Wound, the Labyrinth, and the Tyranny",
+   "stop": "Buenos Aires, \"El Simurgh y el águila\"",
+   "date": "1948-03-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432624.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.34,
+    "text": "Pisces 23°20′",
+    "longitude": 353.337
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 28.61,
+    "text": "Aries 28°36′",
+    "longitude": 28.605
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 26.01,
+    "text": "Aquarius 26°01′",
+    "longitude": 326.014
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 6.52,
+    "text": "Taurus 6°31′",
+    "longitude": 36.517
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 19.62,
+    "text": "Leo 19°37′",
+    "longitude": 139.619
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 27.41,
+    "text": "Sagittarius 27°24′",
+    "longitude": 267.408
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 16.79,
+    "text": "Leo 16°47′",
+    "longitude": 136.791
+   }
+  },
+  {
+   "segment": "The Wound, the Labyrinth, and the Tyranny",
+   "stop": "Buenos Aires, the presidency of SADE",
+   "date": "1950-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wound, the Labyrinth, and the Tyranny",
+   "stop": "Buenos Aires, \"El escritor argentino y la tradición\"",
+   "date": "1951-12-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433999.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 26.27,
+    "text": "Sagittarius 26°16′",
+    "longitude": 266.274
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 27.08,
+    "text": "Leo 27°05′",
+    "longitude": 147.079
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 21.82,
+    "text": "Sagittarius 21°49′",
+    "longitude": 261.819
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 12.6,
+    "text": "Scorpio 12°36′",
+    "longitude": 222.603
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 13.8,
+    "text": "Libra 13°48′",
+    "longitude": 193.799
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 4.88,
+    "text": "Aries 4°53′",
+    "longitude": 4.877
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 13.91,
+    "text": "Libra 13°55′",
+    "longitude": 193.913
+   }
+  },
+  {
+   "segment": "Blindness and the Library",
+   "stop": "Buenos Aires, Director of the Biblioteca Nacional",
+   "date": "1955-10-08",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435388.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.94,
+    "text": "Libra 13°56′",
+    "longitude": 193.938
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Blindness and the Library",
+   "stop": "Buenos Aires, \"Poema de los dones\"",
+   "date": "1955-12-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435442.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.01,
+    "text": "Sagittarius 8°01′",
+    "longitude": 248.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Blindness and the Library",
+   "stop": "Buenos Aires, the study of Old English and Old Norse",
+   "date": "1956-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435564.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.25,
+    "text": "Aries 11°15′",
+    "longitude": 11.248
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Blindness and the Library",
+   "stop": "Buenos Aires, \"El Golem\"",
+   "date": "1958-08-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436416.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.25,
+    "text": "Leo 8°15′",
+    "longitude": 128.25
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Blindness and the Library",
+   "stop": "Formentor, Mallorca — the International Publishers' Prize",
+   "date": "1961-04-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437416.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 6.51,
+    "text": "Taurus 6°30′",
+    "longitude": 36.507
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 21.44,
+    "text": "Virgo 21°26′",
+    "longitude": 171.435
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 0.83,
+    "text": "Taurus 0°50′",
+    "longitude": 30.832
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 13.29,
+    "text": "Aries 13°17′",
+    "longitude": 13.29
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 25.42,
+    "text": "Cancer 25°25′",
+    "longitude": 115.416
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 5.86,
+    "text": "Aquarius 5°52′",
+    "longitude": 305.86
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 29.7,
+    "text": "Capricornus 29°42′",
+    "longitude": 299.696
+   }
+  },
+  {
+   "segment": "The World Lecture Circuit and the Dante-Islam Door",
+   "stop": "Buenos Aires, marriage to Elsa Astete Millán",
+   "date": "1967-09-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439754.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 27.33,
+    "text": "Virgo 27°20′",
+    "longitude": 177.333
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 22.46,
+    "text": "Aries 22°28′",
+    "longitude": 22.46
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 17.6,
+    "text": "Libra 17°36′",
+    "longitude": 197.598
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 27.64,
+    "text": "Leo 27°39′",
+    "longitude": 147.643
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 7.29,
+    "text": "Sagittarius 7°17′",
+    "longitude": 247.291
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 24.77,
+    "text": "Leo 24°46′",
+    "longitude": 144.771
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 9.8,
+    "text": "Aries 9°48′",
+    "longitude": 9.799
+   }
+  },
+  {
+   "segment": "The World Lecture Circuit and the Dante-Islam Door",
+   "stop": "Cambridge, Massachusetts — the Norton Lectures",
+   "date": "1967-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439764.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.14,
+    "text": "Libra 7°08′",
+    "longitude": 187.136
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World Lecture Circuit and the Dante-Islam Door",
+   "stop": "Reykjavík, Iceland — the first crossing",
+   "date": "1971-06-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2441117.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.27,
+    "text": "Gemini 23°16′",
+    "longitude": 83.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World Lecture Circuit and the Dante-Islam Door",
+   "stop": "Buenos Aires, Teatro Coliseo — the night of the Thousand and One Nights",
+   "date": "1977-06-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443309.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.79,
+    "text": "Gemini 23°48′",
+    "longitude": 83.793
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World Lecture Circuit and the Dante-Islam Door",
+   "stop": "Buenos Aires, Teatro Coliseo — the night of the Kabbalah",
+   "date": "1977-07-20",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443344.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 27.18,
+    "text": "Cancer 27°11′",
+    "longitude": 117.176
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Late Honors",
+   "stop": "Alcalá de Henares — the Cervantes Prize",
+   "date": "1980-04-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444352.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.0,
+    "text": "Taurus 3°00′",
+    "longitude": 33.004
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 12.89,
+    "text": "Leo 12°53′",
+    "longitude": 132.891
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 12.94,
+    "text": "Aries 12°57′",
+    "longitude": 12.943
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 17.46,
+    "text": "Gemini 17°28′",
+    "longitude": 77.465
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 27.44,
+    "text": "Leo 27°27′",
+    "longitude": 147.442
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 0.23,
+    "text": "Virgo 0°14′",
+    "longitude": 150.227
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 21.07,
+    "text": "Virgo 21°04′",
+    "longitude": 171.068
+   }
+  },
+  {
+   "segment": "Late Honors",
+   "stop": "Madrid, Nueve ensayos dantescos",
+   "date": "1982-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1982,
+   "jd_ut": 2444970.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.25,
+    "text": "Capricornus 10°15′",
+    "longitude": 280.251
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Late Honors",
+   "stop": "Asunción, Paraguay — marriage to María Kodama",
+   "date": "1986-04-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1986,
+   "jd_ut": 2446546.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 5.49,
+    "text": "Taurus 5°29′",
+    "longitude": 35.486
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 26.08,
+    "text": "Scorpio 26°05′",
+    "longitude": 236.076
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 11.15,
+    "text": "Aries 11°09′",
+    "longitude": 11.145
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 29.04,
+    "text": "Taurus 29°03′",
+    "longitude": 59.043
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 13.16,
+    "text": "Capricornus 13°10′",
+    "longitude": 283.164
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 14.53,
+    "text": "Pisces 14°32′",
+    "longitude": 344.527
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 8.62,
+    "text": "Sagittarius 8°37′",
+    "longitude": 248.619
+   }
+  },
+  {
+   "segment": "Geneva, the Return and the Grave",
+   "stop": "Geneva, the death",
+   "date": "1986-06-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1986,
+   "jd_ut": 2446595.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 22.67,
+    "text": "Gemini 22°40′",
+    "longitude": 82.671
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 4.61,
+    "text": "Virgo 4°37′",
+    "longitude": 154.61
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 14.45,
+    "text": "Cancer 14°27′",
+    "longitude": 104.449
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 27.91,
+    "text": "Cancer 27°54′",
+    "longitude": 117.905
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 22.91,
+    "text": "Capricornus 22°54′",
+    "longitude": 292.907
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 21.69,
+    "text": "Pisces 21°42′",
+    "longitude": 351.692
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 5.21,
+    "text": "Sagittarius 5°13′",
+    "longitude": 245.212
+   }
+  },
+  {
+   "segment": "Geneva, the Return and the Grave",
+   "stop": "Geneva, Cimetière de Plainpalais",
+   "date": "1987-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1987,
+   "jd_ut": 2447069.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.29,
+    "text": "Libra 7°17′",
+    "longitude": 187.291
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 42,
+  "dated": 42,
+  "unparsed": 0,
+  "day": 14,
+  "month": 8,
+  "year": 20
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1769 @@
+{
+ "slug": "tertullian",
+ "traveler": "Tertullian (Septimius Tertullianus)",
+ "title": "The Tribunal and the Paraclete: a Carthaginian Lawyer's Case Against the Empire and Then Against His Own Church",
+ "years": "c.160-c.220",
+ "years_parsed": {
+  "first": 160,
+  "last": 220
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Carthage Before the Books",
+  "stop": "Carthage, birth in Africa Proconsularis",
+  "date": "0160-01-01",
+  "date_confidence": "reconstruction. No source gives a birth year, month, parents or household; c. 155-160 is the conventional estimate and c. 150-170 the defensible range [R, Barnes, Tertullian: A Historical and Literary Study, via tertullian.org/chronology.htm]. The birthplace rests on Jerome's testimony alone, not on anything Tertullian says of himself [A, Jerome, De viris illustribus 53].",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 160,
+  "jd_ut": 1779497.5,
+  "precision": "year",
+  "precision_triggers": [
+   "c.",
+   "convention",
+   "estimated",
+   "no source (for the date)",
+   "reconstructed (the date)",
+   "(soft-year) year range",
+   "(soft) no source",
+   "(soft) reconstruct"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 9.76,
+   "text": "Capricornus 9°45′",
+   "longitude": 279.758
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "c.160-c.220",
+  "first_year_parsed": 160
+ },
+ "stops": [
+  {
+   "segment": "Carthage Before the Books",
+   "stop": "Carthage, birth in Africa Proconsularis",
+   "date": "0160-01-01",
+   "date_confidence": "reconstruction. No source gives a birth year, month, parents or household; c. 155-160 is the conventional estimate and c. 150-170 the defensible range [R, Barnes, Tertullian: A Historical and Literary Study, via tertullian.org/chronology.htm]. The birthplace rests on Jerome's testimony alone, not on anything Tertullian says of himself [A, Jerome, De viris illustribus 53].",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 160,
+   "jd_ut": 1779497.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "convention",
+    "estimated",
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.76,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.758
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage Before the Books",
+   "stop": "Carthage, the harbour and the working city",
+   "date": "0175-01-01",
+   "date_confidence": "undated civic backdrop, placed here only to order the segment. The description of Roman Carthage is uncontroversial [A, Serge Lancel, Carthage: A History]; the harbour coordinate is approximate and was not verified against a cited source by the research pool [R].",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 175,
+   "jd_ut": 1784976.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "undated",
+    "ordering",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.119
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage Before the Books",
+   "stop": "Forum of Carthage, the training in forensic Latin",
+   "date": "0180-01-01",
+   "date_confidence": "reconstruction, undated. No teacher, school or lawsuit is named in any surviving source; the education is inferred from the writing itself [R]. The research pool tagged this claim A in its chronology and R in its geography, and flagged the two entries as inconsistent with each other; the R reading is followed here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 180,
+   "jd_ut": 1786802.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "undated",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.901
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage Before the Books",
+   "stop": "Governor's tribunal, Carthage: the Scillitan twelve",
+   "date": "0180-07-17",
+   "date_confidence": "attested to the day [A, Acts of the Scillitan Martyrs, the earliest precisely dated Latin Christian document]. No source ties Tertullian personally to this trial; it is included as documented civic background, not as an event in his life.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 180,
+   "jd_ut": 1787000.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.81,
+    "text": "Cancer 22°49′",
+    "longitude": 112.811
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 16.46,
+    "text": "Libra 16°28′",
+    "longitude": 196.459
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 2.76,
+    "text": "Leo 2°45′",
+    "longitude": 122.758
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 8.18,
+    "text": "Gemini 8°11′",
+    "longitude": 68.183
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 15.44,
+    "text": "Virgo 15°27′",
+    "longitude": 165.444
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 5.84,
+    "text": "Scorpio 5°50′",
+    "longitude": 215.838
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 25.13,
+    "text": "Cancer 25°08′",
+    "longitude": 115.131
+   }
+  },
+  {
+   "segment": "The Wife, the Water, and a Career He May Never Have Had",
+   "stop": "Carthage, the wife with no name",
+   "date": "0190-01-01",
+   "date_confidence": "undated. The marriage is attested only by the treatise addressed to her [A, Ad uxorem]; no name, wedding date, children or later history survives, and whether the marriage preceded or followed his conversion is unknown [R for the ordering date].",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 190,
+   "jd_ut": 1790455.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "undated"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.48,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.481
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wife, the Water, and a Career He May Never Have Had",
+   "stop": "Carthage, the conversion nobody wrote down",
+   "date": "0195-01-01",
+   "date_confidence": "reconstruction. c. 193-196 is scholarly convention, derived from the internal dating of the earliest works rather than from any account of the event [R, tertullian.org/chronology.htm]. No font, baptizer, church, day or motive is recorded.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 195,
+   "jd_ut": 1792281.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "convention",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wife, the Water, and a Career He May Never Have Had",
+   "stop": "Roman Forum, the jurist who is probably not him",
+   "date": "0200-01-01",
+   "date_confidence": "undated tradition, pinned here to place the legend rather than the man. Eusebius's description is attested [A, Historia Ecclesiastica II.2, written early 4th c.]; the identification of the theologian with the jurist Tertullianus excerpted in Justinian's Digest of 533 is rejected as unproven or improbable by Barnes and Rankin [R]. No source places Tertullian in Rome at any point.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 200,
+   "jd_ut": 1794107.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "legend",
+    "probably",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Books: a Brief Filed From a Province",
+   "stop": "Prison, Carthage: the letter into the cells",
+   "date": "0196-01-01",
+   "date_confidence": "attested work, conventionally dated before 197 and just ahead of the Apologeticum [A, tertullian.org/chronology.htm]. The prisoners are unnamed, the prison's location within the city is unrecorded, and the year is a convention rather than a record.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 196,
+   "jd_ut": 1792646.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "unrecorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.02,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.015
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Books: a Brief Filed From a Province",
+   "stop": "Carthage, Ad nationes and a battle already over",
+   "date": "0197-02-19",
+   "date_confidence": "attested terminus post quem. Ad nationes refers to Severus's defeat of Clodius Albinus as past, which dates the work after 19 February 197 [A, internal reference, tertullian.org/chronology.htm]. The date given is the battle, not the day of writing.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 197,
+   "jd_ut": 1793061.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 0.08,
+    "text": "Pisces 0°05′",
+    "longitude": 330.08
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 16.16,
+    "text": "Leo 16°09′",
+    "longitude": 136.157
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 16.55,
+    "text": "Pisces 16°33′",
+    "longitude": 346.547
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 4.2,
+    "text": "Pisces 4°12′",
+    "longitude": 334.205
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 5.74,
+    "text": "Leo 5°44′",
+    "longitude": 125.737
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 10.23,
+    "text": "Aries 10°14′",
+    "longitude": 10.233
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 8.26,
+    "text": "Aquarius 8°16′",
+    "longitude": 308.261
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The First Books: a Brief Filed From a Province",
+   "stop": "Governor's tribunal, the Apologeticum addressed to the bench",
+   "date": "0197-06-01",
+   "date_confidence": "attested to the year, conventionally later in 197 after the Ad nationes reference to Severus's victory [A, tertullian.org/chronology.htm]; month assigned only to order the segment. It is a literary address, not a brief filed in a known case, and no record shows a governor received or answered it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 197,
+   "jd_ut": 1793163.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "to the year",
+    "ordering",
+    "assigned",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.79,
+    "text": "Gemini 8°47′",
+    "longitude": 68.789
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Books: a Brief Filed From a Province",
+   "stop": "Carthage, the charges turned around",
+   "date": "0197-07-01",
+   "date_confidence": "attested content of the Apologeticum [A, newadvent.org/fathers/0301.htm]; the month is an ordering device within 197. These passages are evidence of polemical strategy, not a statistical account of Roman behaviour.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 197,
+   "jd_ut": 1793193.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 7.38,
+    "text": "Cancer 7°23′",
+    "longitude": 97.381
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Books: a Brief Filed From a Province",
+   "stop": "Carthage, the sentence that outlived the book",
+   "date": "0197-09-01",
+   "date_confidence": "attested text [A, Apologeticum 50.13, Latin and ANF translation]; the month is an ordering device. The familiar English form, the blood of the martyrs is the seed of the Church, is a later paraphrase and is not in the Latin, which names neither martyrs nor Church.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 197,
+   "jd_ut": 1793255.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.36,
+    "text": "Virgo 7°22′",
+    "longitude": 157.363
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Books: a Brief Filed From a Province",
+   "stop": "Carthage, the soul called as a witness",
+   "date": "0198-01-01",
+   "date_confidence": "attested work, dated c. 197-198 by convention [A, tertullian.org/chronology.htm]; the day and month are defaults.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 198,
+   "jd_ut": 1793377.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "convention",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Athens and Jerusalem: the Rule, the Water, and the Arena",
+   "stop": "Carthage, the objection raised before the case",
+   "date": "0200-01-01",
+   "date_confidence": "attested work, assigned to the c. 198-203 cluster [A, tertullian.org/chronology.htm]; the year is the middle of that range and the day and month are defaults.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 200,
+   "jd_ut": 1794107.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "assigned",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Athens and Jerusalem: the Rule, the Water, and the Arena",
+   "stop": "Rome, the two graves the rule rests on",
+   "date": "0200-06-01",
+   "date_confidence": "ordering date only, inside the c. 198-203 cluster of De praescriptione. That chapter 36 grounds Rome's authority in the deaths of Peter and Paul is [R]: the research pool inferred it from standard scholarship and did not refetch the primary text. That no source places Tertullian himself in Rome, Greece or Asia Minor is [A] as a negative finding across the consulted sources.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 200,
+   "jd_ut": 1794259.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "inferred",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.05,
+    "text": "Gemini 9°03′",
+    "longitude": 69.051
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Athens and Jerusalem: the Rule, the Water, and the Arena",
+   "stop": "Carthage, the earliest Latin book on baptism",
+   "date": "0200-09-01",
+   "date_confidence": "attested work, assigned to the c. 198-203 cluster [A, tertullian.org/chronology.htm]; month is an ordering device.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 200,
+   "jd_ut": 1794351.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "ordering",
+    "assigned",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.63,
+    "text": "Virgo 7°38′",
+    "longitude": 157.632
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Athens and Jerusalem: the Rule, the Water, and the Arena",
+   "stop": "Carthage, the address to the women of the church",
+   "date": "0201-01-01",
+   "date_confidence": "attested text, disputed date: variously placed before c. 197 or in the c. 198-203 cluster [A for the text, R for the year, which is assigned here only to order the segment].",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 201,
+   "jd_ut": 1794473.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "to the year",
+    "disputed",
+    "ordering",
+    "assigned",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.814
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Athens and Jerusalem: the Rule, the Water, and the Arena",
+   "stop": "Carthage, the treatise on patience",
+   "date": "0202-01-01",
+   "date_confidence": "attested text [A, De patientia 1, ANF tr.]; the date is an ordering device only, since the treatise carries no secure position in the chronology.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 202,
+   "jd_ut": 1794838.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.567
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Athens and Jerusalem: the Rule, the Water, and the Arena",
+   "stop": "Amphitheatre of Carthage, the seats forbidden",
+   "date": "0202-06-01",
+   "date_confidence": "attested work, dated c. 198-206 [A, De spectaculis, ANF vol. 3, newadvent.org/fathers/0303.htm]; the year within that span is an ordering choice. Coordinate corrected during verification to the amphitheatre's actual site west of the Byrsa, 36.85612 N / 10.315078 E, replacing a pool value about 1.2 km out toward the shore.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 202,
+   "jd_ut": 1794989.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.59,
+    "text": "Gemini 8°35′",
+    "longitude": 68.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Athens and Jerusalem: the Rule, the Water, and the Arena",
+   "stop": "Amphitheatre of Carthage, Perpetua and Felicity",
+   "date": "0203-03-07",
+   "date_confidence": "the martyrdom at Carthage in 203, at military games for the birthday of Caesar Geta, is attested [A, Passio Perpetuae; en.wikipedia.org/wiki/Perpetua_and_Felicity]. The day, 7 March, is the martyrological feast date and is not stated in the Passio [R]. Tertullian's long-proposed editorship is no longer regarded as established, and no personal meeting is documented.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 203,
+   "jd_ut": 1795268.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 15.45,
+    "text": "Pisces 15°27′",
+    "longitude": 345.449
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Athens and Jerusalem: the Rule, the Water, and the Arena",
+   "stop": "Carthage, the debate with a Jewish proselyte",
+   "date": "0204-01-01",
+   "date_confidence": "attested work, date disputed within his career [R for the year, assigned only to order the segment]. Whether the second half is authentic, unfinished or composite is unresolved; Geoffrey D. Dunn defends the work's rhetorical unity against older doubts. The staged dispute is of contested historicity.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 204,
+   "jd_ut": 1795568.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "disputed",
+    "ordering",
+    "assigned"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.073
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paraclete and the Psychici",
+   "stop": "Pepouza, Phrygia: where the New Prophecy begins",
+   "date": "0170-01-01",
+   "date_confidence": "reconstruction. The movement's mid-second-century Phrygian origin is standard scholarship [R, Tabbernee, Trevett]; the exact year is an ordering device. The Pepouza site itself is a modern archaeological identification by Tabbernee and Lampe, near Karayakuplu in the Karahalli district of Usak province; the coordinate was corrected during verification and an erroneous reference to Suhut removed. No text places Tertullian in Phrygia or in the company of Montanus, Prisca or Maximilla.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 170,
+   "jd_ut": 1783150.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°20′",
+    "longitude": 280.338
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paraclete and the Psychici",
+   "stop": "Carthage, the lost book on ecstasy",
+   "date": "0205-01-01",
+   "date_confidence": "attested as a lost work by ancient testimony (Jerome, De viris illustribus 53; Praedestinatus) [A]; tertullian.org/chronology.htm places the Montanist-leaning group after 204. The year is an ordering choice. No text records a formal joining, an excommunication, or any self-description as a Montanist.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 205,
+   "jd_ut": 1795934.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.84,
+    "text": "Capricornus 10°51′",
+    "longitude": 280.842
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paraclete and the Psychici",
+   "stop": "Carthage, the third assault on Marcion",
+   "date": "0207-01-01",
+   "date_confidence": "attested by internal reference to the fifteenth year of Severus, giving 207-208 [A, tertullian.org/chronology.htm]. Tertullian states this is his third version; an earlier draft was stolen and circulated uncorrected. Marcion's own Roman base is named in the campa but is not a place Tertullian is attested to have gone.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 207,
+   "jd_ut": 1796664.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.35,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.348
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paraclete and the Psychici",
+   "stop": "Carthage, the soul as a body and the sister who sees",
+   "date": "0210-01-01",
+   "date_confidence": "attested work, dated c. 208-212 [A, tertullian.org/chronology.htm]; the year is the middle of that range. The research pool could not retrieve the text of De anima 9 directly and relied on the standard critical understanding of the treatise, including J. H. Waszink's edition [R for the chapter reference].",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 210,
+   "jd_ut": 1797760.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.624
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paraclete and the Psychici",
+   "stop": "Carthage, the flesh that is not an appearance",
+   "date": "0210-06-01",
+   "date_confidence": "attested text, dated c. 206-212 [A, De carne Christi 5, tr. Ernest Evans]; the month is an ordering device. The maxim credo quia absurdum is not Tertullian's: it was reworded by Thomas Browne in 1643 and recast by Voltaire in 1767, who attributed his own version to Augustine [A, en.wikipedia.org/wiki/Credo_quia_absurdum; Peter Harrison's scholarship].",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 210,
+   "jd_ut": 1797911.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "ordering",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.65,
+    "text": "Gemini 8°39′",
+    "longitude": 68.653
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paraclete and the Psychici",
+   "stop": "A camp in Africa Proconsularis, the crown refused",
+   "date": "0211-01-01",
+   "date_confidence": "attested work and scene [A, De corona 1, ANF tr., newadvent.org/fathers/0304.htm], dated c. 211. The camp is not named in the text; the coordinate is a generic African placement given Tertullian's vantage, and the incident could have occurred anywhere in the empire. The soldier is unnamed.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 211,
+   "jd_ut": 1798125.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.38,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.377
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ad Scapulam: the Proconsul and the Darkened Sun",
+   "stop": "Proconsul's residence, Carthage: the letter to Scapula",
+   "date": "0212-08-14",
+   "date_confidence": "attested work addressed to Scapula, proconsul of Africa [A, Ad Scapulam 2-3, newadvent.org/fathers/0305.htm]. The date is the conventional one, after the solar eclipse of 14 August 212, per tertullian.org/chronology.htm; the text itself gives no calendar date, and neither the research pool nor the verification pass confirmed the eclipse identification from a primary source.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 212,
+   "jd_ut": 1798716.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 20.12,
+    "text": "Leo 20°07′",
+    "longitude": 140.116
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ad Scapulam: the Proconsul and the Darkened Sun",
+   "stop": "Utica, the sun going out",
+   "date": "0212-08-14",
+   "date_confidence": "the passage is attested verbatim [A, Ad Scapulam 3, newadvent.org/fathers/0305.htm]; the association with the solar eclipse of 14 August 212 is a modern astronomical back-calculation and is not stated by Tertullian [R]. The Utica coordinate was corrected during verification to the ancient site at 37.05694 N / 10.06194 E, about 3 km from the pool value.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 212,
+   "jd_ut": 1798716.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 20.12,
+    "text": "Leo 20°07′",
+    "longitude": 140.116
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ad Scapulam: the Proconsul and the Darkened Sun",
+   "stop": "Carthage, the word trinitas put into Latin",
+   "date": "0213-01-01",
+   "date_confidence": "attested text [A, Adversus Praxean 2, ANF tr. Peter Holmes, newadvent.org/fathers/0317.htm], conventionally dated after c. 213; Barnes's compressed chronology would end Tertullian's activity around 212, which the standard dating contradicts. The contradiction is recorded, not resolved. The exact slogan una substantia, tres personae does not appear verbatim in this chapter.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 213,
+   "jd_ut": 1798856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "convention",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.899
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ad Scapulam: the Proconsul and the Darkened Sun",
+   "stop": "Rome, the letter of peace that was recalled",
+   "date": "0213-02-01",
+   "date_confidence": "attested report [A, Adversus Praxean 1, newadvent.org/fathers/0317.htm]; the events it describes precede Praxeas's intervention and are undated. The unnamed Roman bishop's identity is debated, with Eleutherus and Victor both proposed [R]. The pin is Rome because that is where the events happened; Tertullian is not attested to have been there, and how the news reached him is unrecorded.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 213,
+   "jd_ut": 1798887.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.23,
+    "text": "Aquarius 12°14′",
+    "longitude": 312.225
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigorist Close",
+   "stop": "Carthage, no flight and no bribe",
+   "date": "0213-06-01",
+   "date_confidence": "attested work, dated after c. 213 [A, tertullian.org/chronology.htm]; the month orders the segment. Barnes would compress this and the following treatises earlier; the ordering here follows the standard chronology and the contradiction is noted rather than settled.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 213,
+   "jd_ut": 1799007.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.91,
+    "text": "Gemini 8°55′",
+    "longitude": 68.914
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigorist Close",
+   "stop": "Carthage, the veil demanded of the unmarried",
+   "date": "0213-08-01",
+   "date_confidence": "attested work, in the post-213 cluster [A, tertullian.org/chronology.htm]; the month is an ordering device. No specific congregation or individual case is named in the sources available to the research pool.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 213,
+   "jd_ut": 1799068.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.27,
+    "text": "Leo 7°16′",
+    "longitude": 127.274
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigorist Close",
+   "stop": "Carthage, the concession withdrawn",
+   "date": "0213-10-01",
+   "date_confidence": "attested work, in the post-213 cluster [A, tertullian.org/chronology.htm]; the month orders the segment. The hardening against the milder counsel of Ad uxorem is visible in the two texts themselves; whether his wife was still living is unrecorded.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 213,
+   "jd_ut": 1799129.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.24,
+    "text": "Libra 7°15′",
+    "longitude": 187.242
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigorist Close",
+   "stop": "Carthage, the edict of the bishop of bishops",
+   "date": "0213-12-01",
+   "date_confidence": "attested text [A, De pudicitia 1, newadvent.org/fathers/0407.htm]. The dating is contradictory and is not resolved here: tertullian.org/chronology.htm groups the work with the post-213 treatises, while the research pool cited that same page for 222-223, a reading the verification pass could not confirm; other reference works give 213-223. The target's identity, Callistus of Rome or a Carthaginian bishop, remains unsettled, and it materially affects both the date and the place.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 213,
+   "jd_ut": 1799190.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.05,
+    "text": "Sagittarius 9°03′",
+    "longitude": 249.05
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigorist Close",
+   "stop": "Carthage, the prose runs out",
+   "date": "0214-01-01",
+   "date_confidence": "reconstruction. The last securely dated work is conventionally placed at 212-213; what follows is arranged by argument rather than evidence [R]. Barnes compresses the whole corpus to end activity around 212, against a traditional dating that extends some works to 222-223. The contradiction stands unresolved in the scholarship and is left standing here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 214,
+   "jd_ut": 1799221.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "convention",
+    "disputed",
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.652
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rigorist Close",
+   "stop": "Carthage, the presumed place of death",
+   "date": "0220-01-01",
+   "date_confidence": "reconstruction, and a weak one. No surviving source records his last residence, health, office, trial, imprisonment or death; the traditional dates c. 220, c. 225 and c. 240 are estimates, not records [R]. Carthage is presumed only because it is his last documented setting. Barnes's proposal of death soon after 212, possibly as a martyr, is supported by no martyr act, cult, tomb or feast.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 220,
+   "jd_ut": 1801412.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "probably",
+    "estimated",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.19,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.187
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Corpus Without a Tomb",
+   "stop": "Carthage, give me the master",
+   "date": "0250-01-01",
+   "date_confidence": "attested only as Jerome's late report of an oral chain: an elderly Italian named Paul, who claimed to have met a secretary of Cyprian at Rome [A for Jerome's text, R for the anecdote itself]. Cyprian never names Tertullian in any of his own surviving works. The date is Cyprian's episcopate, used to order the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 250,
+   "jd_ut": 1812370.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.91,
+    "text": "Capricornus 10°55′",
+    "longitude": 280.91
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Corpus Without a Tomb",
+   "stop": "Carthage, the presbyter Jerome describes",
+   "date": "0393-01-01",
+   "date_confidence": "attested testimony, written c. 392-393, roughly 170 years after Tertullian's active career [A, Jerome, De viris illustribus 53]. Jerome composed it at Bethlehem; the pin is Tertullian's own city, because the stop is his and not Jerome's. The presbyter claim is in tension with the lay standpoint of Tertullian's own late works, and no African source knows of an ordination. The contradiction is recorded, not resolved.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 393,
+   "jd_ut": 1864601.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "approximation",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 12.19,
+    "text": "Capricornus 12°11′",
+    "longitude": 282.189
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Corpus Without a Tomb",
+   "stop": "Carthage, the Tertullianists give up the basilica",
+   "date": "0428-01-01",
+   "date_confidence": "attested testimony written c. 428, two centuries after Tertullian [A, Augustine, De haeresibus 86]. Augustine gives no dates for Tertullian's own break, and his claim that Tertullian separated even from the Montanists and founded his own congregations is uncorroborated by any earlier source [R].",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 428,
+   "jd_ut": 1877384.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.68,
+    "text": "Capricornus 11°41′",
+    "longitude": 281.677
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Corpus Without a Tomb",
+   "stop": "Paris, the Codex Agobardinus",
+   "date": "0850-01-01",
+   "date_confidence": "attested manuscript, ninth century, 204 folios [A, tertullian.org/manuscripts/agobardinus.htm]. That page dates Agobard 814-840; he in fact succeeded to Lyon in 816, and 814 reflects a disputed earlier designation as coadjutor. The pin is the BnF Richelieu site, where the manuscript department holds Latin 1622.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 850,
+   "jd_ut": 2031520.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "decade/century",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.23,
+    "text": "Capricornus 15°14′",
+    "longitude": 285.227
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Corpus Without a Tomb",
+   "stop": "Basel, the corpus printed whole",
+   "date": "1521-01-01",
+   "date_confidence": "attested [A, en.wikipedia.org/wiki/Beatus_Rhenanus, for the 1521 editio princeps at Basel; tertullian.org/rediscovery.htm for Poggio's find of 1416-17, Niccoli's Apologeticum of 1424, Benalio's Venice printing before 1493 and Scinzenzeler's Milan printing of 1494]. Day and month are defaults.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276603.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.36,
+    "text": "Capricornus 20°22′",
+    "longitude": 290.363
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Corpus Without a Tomb",
+   "stop": "Paris, a face invented in 1584",
+   "date": "1584-01-01",
+   "date_confidence": "attested [A, the 1584 engraving in Andre Thevet, Les Vrais Pourtraits et Vies des Hommes Illustres]. The characterization of it as a later representation rather than contemporary evidence is the research pool's own gloss and was wrongly presented as a Wikipedia quotation; the verification pass caught that and it is not quoted here. The four-part name Quintus Septimius Florens Tertullianus is a medieval manuscript-title tradition, attested in no inscription [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1584,
+   "jd_ut": 2299603.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.87
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 2,
+  "month": 0,
+  "year": 41
+ },
+ "parse_failures": []
+}

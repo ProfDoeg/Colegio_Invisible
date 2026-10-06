@@ -1,0 +1,1820 @@
+{
+ "slug": "mary_may_morris",
+ "traveler": "Mary \"May\" Morris",
+ "title": "The Needle and the Twenty-Four Volumes: May Morris from Red House to Kelmscott",
+ "years": "1862-1938",
+ "years_parsed": {
+  "first": 1862,
+  "last": 1938
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Red House and Queen Square, a Childhood Over the Workshops",
+  "stop": "Red House, Bexleyheath, the birth on the Annunciation",
+  "date": "1862-03-25",
+  "date_confidence": "attested; Wikipedia 'May Morris' gives 25 March 1862 at Red House, Bexleyheath, and Wikidata Q449758 carries P569 +1862-03-25. The coordinate is the one the atlas already uses for Red House in william_morris.journey.json, jane_morris.journey.json and elizabeth_bessie_burden.journey.json",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1862,
+  "jd_ut": 2401224.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Aries",
+   "degree": 4.11,
+   "text": "Aries 4°06′",
+   "longitude": 4.107
+  },
+  "moon": {
+   "sign": "Aquarius",
+   "degree": 0.58,
+   "text": "Aquarius 0°35′",
+   "longitude": 300.582
+  },
+  "mercury": {
+   "sign": "Pisces",
+   "degree": 6.35,
+   "text": "Pisces 6°21′",
+   "longitude": 336.347
+  },
+  "venus": {
+   "sign": "Pisces",
+   "degree": 0.1,
+   "text": "Pisces 0°06′",
+   "longitude": 330.097
+  },
+  "mars": {
+   "sign": "Capricornus",
+   "degree": 22.97,
+   "text": "Capricornus 22°58′",
+   "longitude": 292.965
+  },
+  "jupiter": {
+   "sign": "Virgo",
+   "degree": 20.99,
+   "text": "Virgo 21°00′",
+   "longitude": 170.992
+  },
+  "saturn": {
+   "sign": "Virgo",
+   "degree": 18.24,
+   "text": "Virgo 18°14′",
+   "longitude": 168.24
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1862-1938",
+  "first_year_parsed": 1862
+ },
+ "stops": [
+  {
+   "segment": "Red House and Queen Square, a Childhood Over the Workshops",
+   "stop": "Red House, Bexleyheath, the birth on the Annunciation",
+   "date": "1862-03-25",
+   "date_confidence": "attested; Wikipedia 'May Morris' gives 25 March 1862 at Red House, Bexleyheath, and Wikidata Q449758 carries P569 +1862-03-25. The coordinate is the one the atlas already uses for Red House in william_morris.journey.json, jane_morris.journey.json and elizabeth_bessie_burden.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401224.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 4.11,
+    "text": "Aries 4°06′",
+    "longitude": 4.107
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 0.58,
+    "text": "Aquarius 0°35′",
+    "longitude": 300.582
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 6.35,
+    "text": "Pisces 6°21′",
+    "longitude": 336.347
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 0.1,
+    "text": "Pisces 0°06′",
+    "longitude": 330.097
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 22.97,
+    "text": "Capricornus 22°58′",
+    "longitude": 292.965
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 20.99,
+    "text": "Virgo 21°00′",
+    "longitude": 170.992
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 18.24,
+    "text": "Virgo 18°14′",
+    "longitude": 168.24
+   }
+  },
+  {
+   "segment": "Red House and Queen Square, a Childhood Over the Workshops",
+   "stop": "26 Queen Square, the move over the workshops",
+   "date": "1865-11-01",
+   "date_confidence": "attested as to the year; Red House is given up in autumn 1865 and the family moves to Queen Square, and the atlas pins the move at November 1865 through jane_morris.journey.json and elizabeth_bessie_burden.journey.json. No day is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402541.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.61,
+    "text": "Scorpio 8°37′",
+    "longitude": 218.608
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Red House and Queen Square, a Childhood Over the Workshops",
+   "stop": "26 Queen Square, the needle from her mother and her aunt",
+   "date": "1868-01-01",
+   "date_confidence": "reconstruction; the Victoria and Albert Museum states that she learned embroidery as a child from Jane Morris and Elizabeth Burden but gives no date. The year here is a placement inside her Queen Square childhood, not an attestation",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403332.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.92,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.919
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Red House and Queen Square, a Childhood Over the Workshops",
+   "stop": "Kelmscott Manor, the summers on the upper Thames",
+   "date": "1871-06-01",
+   "date_confidence": "attested; the joint tenancy of Kelmscott Manor with Dante Gabriel Rossetti is taken in June 1871, the date and coordinate the atlas already carries in william_morris.journey.json, jane_morris.journey.json and elizabeth_bessie_burden.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404579.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.04,
+    "text": "Gemini 10°02′",
+    "longitude": 70.038
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Red House and Queen Square, a Childhood Over the Workshops",
+   "stop": "Oneglia, the sister's seizure on the Ligurian coast",
+   "date": "1876-01-01",
+   "date_confidence": "attested as to the year through Wikipedia 'William Morris'; no month is given by any source consulted, and January is the atlas placement already carried in jane_morris.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.978
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Red House and Queen Square, a Childhood Over the Workshops",
+   "stop": "Venice, the tour that continues anyway",
+   "date": "1876-04-01",
+   "date_confidence": "attested as to the year only; Wikipedia 'William Morris' names Venice, Padua and Verona as stops on the 1876 journey without dates, and April is the atlas placement carried from jane_morris.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406345.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year only",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.62,
+    "text": "Aries 11°37′",
+    "longitude": 11.622
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School and the Upper Mall",
+   "stop": "National Art Training School, South Kensington, the government school",
+   "date": "1878-01-01",
+   "date_confidence": "attested as to the year through the Victoria and Albert Museum's feature on May Morris; no month is recorded and January is the atlas default. The coordinate is the South Kensington Museum site on which the school stood",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2406985.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.502
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School and the Upper Mall",
+   "stop": "Kelmscott House, Hammersmith, the move to the Upper Mall",
+   "date": "1878-10-01",
+   "date_confidence": "attested; Wikipedia 'Kelmscott House' gives the family in residence from October 1878, the date and coordinate the atlas already carries in william_morris.journey.json and jane_morris.journey.json. No day is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407258.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.67,
+    "text": "Libra 7°40′",
+    "longitude": 187.675
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School and the Upper Mall",
+   "stop": "Merton Abbey Works, the vats on the Wandle",
+   "date": "1881-06-01",
+   "date_confidence": "attested as to the works; Morris relocates the dyeworks from Queen Square to Merton Abbey in June 1881, the date and coordinate the atlas carries in william_morris.journey.json and elizabeth_bessie_burden.journey.json. The often repeated claim that May began work for the firm at Merton Abbey in 1880 is impossible on those grounds, and the 1880 start year itself is unsupported by any source retrieved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408232.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.6,
+    "text": "Gemini 10°36′",
+    "longitude": 70.596
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Director of Embroidery",
+   "stop": "449 Oxford Street, director of embroidery at twenty-three",
+   "date": "1885-01-01",
+   "date_confidence": "attested as to the year through Wikipedia 'May Morris' ('aged 23') and Wikipedia 'Morris & Co.' ('in 1885, when she was in her early twenties'); no month is recorded and January is the atlas default. The coordinate is 449 Oxford Street near the Marble Arch end and is approximate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409542.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "no month/day",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.809
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Director of Embroidery",
+   "stop": "The coach house at Kelmscott House, the Socialist League Sundays",
+   "date": "1885-02-01",
+   "date_confidence": "attested as to the Hammersmith branch of the Socialist League and its Sunday meetings in the coach house, which the atlas dates to February 1885 in william_morris.journey.json. May Morris's own attendance is not separately documented in the sources consulted and is reconstruction from the household",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409573.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) reconstruct",
+    "text affirms the month, not the day"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.36,
+    "text": "Aquarius 12°22′",
+    "longitude": 312.36
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Director of Embroidery",
+   "stop": "London, the Valentine sent to Shaw",
+   "date": "1886-02-14",
+   "date_confidence": "reconstruction; a Guardian piece of 2017 reports Shaw noting a Valentine in his diary on 14 February 1886, reached in this session only through a search summary and not through the diary itself. The place is generic London, not a documented address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409951.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct",
+    "(soft) generic"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct, generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 25.27,
+    "text": "Aquarius 25°16′",
+    "longitude": 325.274
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 19.23,
+    "text": "Gemini 19°14′",
+    "longitude": 79.226
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 17.03,
+    "text": "Aquarius 17°02′",
+    "longitude": 317.028
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 3.07,
+    "text": "Pisces 3°04′",
+    "longitude": 333.073
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 22.85,
+    "text": "Virgo 22°51′",
+    "longitude": 172.849
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 5.04,
+    "text": "Libra 5°03′",
+    "longitude": 185.044
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.68,
+    "text": "Cancer 1°41′",
+    "longitude": 91.683
+   }
+  },
+  {
+   "segment": "Director of Embroidery",
+   "stop": "Trafalgar Square, Bloody Sunday",
+   "date": "1887-11-13",
+   "date_confidence": "attested as to the event and the date, which the atlas carries in william_morris.journey.json. May Morris's presence in the square is not attested in any source consulted and is reconstruction from the household's politics",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410588.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 20.33,
+    "text": "Scorpio 20°20′",
+    "longitude": 230.326
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 17.3,
+    "text": "Libra 17°18′",
+    "longitude": 197.297
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 0.98,
+    "text": "Sagittarius 0°59′",
+    "longitude": 240.98
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 5.15,
+    "text": "Libra 5°09′",
+    "longitude": 185.155
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 17.23,
+    "text": "Virgo 17°14′",
+    "longitude": 167.227
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 17.29,
+    "text": "Scorpio 17°17′",
+    "longitude": 227.287
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 6.57,
+    "text": "Leo 6°34′",
+    "longitude": 126.567
+   }
+  },
+  {
+   "segment": "Director of Embroidery",
+   "stop": "The New Gallery, Regent Street, the exhibitions that name the movement",
+   "date": "1888-01-01",
+   "date_confidence": "attested as to the Arts and Crafts Exhibition Society and its use of the New Gallery from 1888, the coordinate the atlas carries in elizabeth_bessie_burden.journey.json. The particular showings in which May Morris's work hung are not itemized in the sources consulted, and January is the atlas default",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410637.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.066
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Director of Embroidery",
+   "stop": "Fulham Register Office, the marriage to Sparling",
+   "date": "1890-06-14",
+   "date_confidence": "attested as to the wedding; Wikipedia 'May Morris' gives 14 June 1890 at Fulham Register Office, the date and coordinate the atlas carries in jane_morris.journey.json. The duration is contradictory across the record: jane_morris.journey.json says the marriage lasts under five years, while the divorce is given as 1898. Not resolved here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411532.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 22.86,
+    "text": "Gemini 22°52′",
+    "longitude": 82.859
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 13.57,
+    "text": "Taurus 13°34′",
+    "longitude": 43.568
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 4.61,
+    "text": "Gemini 4°37′",
+    "longitude": 64.61
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 21.98,
+    "text": "Cancer 21°59′",
+    "longitude": 111.978
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 0.81,
+    "text": "Sagittarius 0°49′",
+    "longitude": 240.813
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 11.94,
+    "text": "Aquarius 11°56′",
+    "longitude": 311.938
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 28.93,
+    "text": "Leo 28°56′",
+    "longitude": 148.931
+   }
+  },
+  {
+   "segment": "Director of Embroidery",
+   "stop": "The Kelmscott Press, Hammersmith, the father's last workshop",
+   "date": "1891-01-12",
+   "date_confidence": "attested; the Kelmscott Press is founded in January 1891, the date and coordinate the atlas carries in william_morris.journey.json and elizabeth_bessie_burden.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411744.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 21.55,
+    "text": "Capricornus 21°33′",
+    "longitude": 291.555
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Director of Embroidery",
+   "stop": "London, Decorative Needlework goes to press",
+   "date": "1893-01-01",
+   "date_confidence": "attested as to the year; Wikipedia 'May Morris' gives Decorative Needlework (Joseph Hughes & Co., 1893) and OpenLibrary confirms first publication in 1893. No month is recorded, and the place is the publisher's London rather than a documented address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Director of Embroidery",
+   "stop": "South Kensington Museum, the old work behind the book",
+   "date": "1893-06-01",
+   "date_confidence": "reconstruction; no source retrieved states that May Morris researched Decorative Needlework in the South Kensington collections. The link is drawn from the book's historical chapters and from her training on the site, and the date is arbitrary within the year of publication",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412615.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.69,
+    "text": "Gemini 10°41′",
+    "longitude": 70.692
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Father's Death and the Teaching Circuit",
+   "stop": "Kelmscott House, Hammersmith, William Morris dies",
+   "date": "1896-10-03",
+   "date_confidence": "attested; 3 October 1896 at Kelmscott House, the date and coordinate the atlas already carries in william_morris.journey.json, jane_morris.journey.json and elizabeth_bessie_burden.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413835.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 10.28,
+    "text": "Libra 10°17′",
+    "longitude": 190.276
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 16.2,
+    "text": "Leo 16°12′",
+    "longitude": 136.2
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 22.3,
+    "text": "Libra 22°18′",
+    "longitude": 202.301
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 3.22,
+    "text": "Scorpio 3°13′",
+    "longitude": 213.218
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 23.66,
+    "text": "Gemini 23°40′",
+    "longitude": 83.662
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 0.89,
+    "text": "Virgo 0°53′",
+    "longitude": 150.886
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 17.07,
+    "text": "Scorpio 17°04′",
+    "longitude": 227.068
+   }
+  },
+  {
+   "segment": "The Father's Death and the Teaching Circuit",
+   "stop": "Kelmscott churchyard, the tomb by Philip Webb",
+   "date": "1896-10-06",
+   "date_confidence": "attested; the burial at St George's, Kelmscott, under a tomb designed by Philip Webb, the date and coordinate the atlas carries in william_morris.journey.json and jane_morris.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413838.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.24,
+    "text": "Libra 13°14′",
+    "longitude": 193.235
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 30.0,
+    "text": "Virgo 30°00′",
+    "longitude": 179.998
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 19.38,
+    "text": "Libra 19°23′",
+    "longitude": 199.378
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 6.92,
+    "text": "Scorpio 6°55′",
+    "longitude": 216.919
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 24.66,
+    "text": "Gemini 24°40′",
+    "longitude": 84.661
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 1.45,
+    "text": "Virgo 1°27′",
+    "longitude": 151.454
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 17.38,
+    "text": "Scorpio 17°23′",
+    "longitude": 227.381
+   }
+  },
+  {
+   "segment": "The Father's Death and the Teaching Circuit",
+   "stop": "Regent Street, the Central School of Arts and Crafts",
+   "date": "1897-01-01",
+   "date_confidence": "attested as to the year; Wikipedia 'May Morris' gives her teaching embroidery at the LCC Central School from 1897. The school is founded in 1896 in Morley Hall, rented from the Regent Street Polytechnic, and does not move to Southampton Row until 1908, so the Southampton Row address commonly attached to this date is anachronistic. The coordinate is the Regent Street Polytechnic building and is approximate; no source retrieved gives Morley Hall's exact address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "to the year",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Father's Death and the Teaching Circuit",
+   "stop": "London, the divorce and the name taken back",
+   "date": "1898-01-01",
+   "date_confidence": "attested as to the year through Wikipedia 'May Morris'; no month is recorded and the place is generic London. The atlas's jane_morris.journey.json describes the marriage as lasting under five years, which does not fit a 1890 wedding and an 1898 divorce; the discrepancy is left open",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "disputed",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Father's Death and the Teaching Circuit",
+   "stop": "Birmingham School of Art, the circuit out of London",
+   "date": "1900-01-01",
+   "date_confidence": "reconstruction as to date; Wikipedia 'May Morris' names Birmingham, Leicester and Hammersmith as places where she taught but gives no years. 1900 is a placement inside her documented teaching decade of 1897 to 1910",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Father's Death and the Teaching Circuit",
+   "stop": "Leicester School of Art, the Hawthorn Building",
+   "date": "1902-01-01",
+   "date_confidence": "reconstruction; the source names the city only, not the school, the syllabus or the years. The coordinate is the Hawthorn Building on The Newarke, which housed the Leicester School of Art, and the date is a placement inside her teaching decade",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Father's Death and the Teaching Circuit",
+   "stop": "Hammersmith School of Art, the loop closed",
+   "date": "1903-01-01",
+   "date_confidence": "reconstruction as to date; Wikipedia 'May Morris' names Hammersmith among the schools where she taught without giving years, and 1903 is a placement inside her documented teaching decade",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.41,
+    "text": "Capricornus 9°25′",
+    "longitude": 279.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Father's Death and the Teaching Circuit",
+   "stop": "Bloomsbury, the Women's Guild of Arts founded",
+   "date": "1907-01-01",
+   "date_confidence": "attested as to the year and the founders through Wikipedia 'May Morris'; no month is recorded. The coordinate marks the Bloomsbury district of the Art Workers' Guild rather than a documented meeting address for the Women's Guild",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417576.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.44,
+    "text": "Capricornus 9°27′",
+    "longitude": 279.442
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Father's Death and the Teaching Circuit",
+   "stop": "Southampton Row, the school gets a building",
+   "date": "1908-01-01",
+   "date_confidence": "attested as to the school's move to purpose-built premises in Southampton Row in 1908 (Wikipedia, 'Central School of Art and Design'); whether May Morris taught in the new building during her remaining Visitor years to 1910 is not stated by any source consulted. No month is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Five Months in America",
+   "stop": "The Port of New York, landing for the lecture tour",
+   "date": "1909-10-01",
+   "date_confidence": "attested as to the month; the Textile Society of America paper 'The Reluctant Reformer: May Morris' United States Lecture Tour of 1909-1910' gives an October 1909 arrival in New York. The exact day, the ship and the pier are not named, and the coordinate is the Manhattan waterfront",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418580.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.18,
+    "text": "Libra 7°11′",
+    "longitude": 187.177
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Five Months in America",
+   "stop": "Hull House, Chicago, a month at the settlement",
+   "date": "1909-11-01",
+   "date_confidence": "attested as to the stay and roughly its length; the Textile Society of America paper and the Jane Addams Hull-House Museum both record about a month based at Hull House during the tour. The precise dates are not given and November is a placement",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418611.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.94,
+    "text": "Scorpio 7°56′",
+    "longitude": 217.941
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Five Months in America",
+   "stop": "Glessner House, Prairie Avenue, the lecture on design in costume",
+   "date": "1909-11-15",
+   "date_confidence": "attested as to the lecture and the venue through the Glessner House archive blog; the exact date within the Chicago stay is not recorded, and 15 November is a placement inside it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418625.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 22.0,
+    "text": "Scorpio 22°00′",
+    "longitude": 232.002
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Five Months in America",
+   "stop": "Detroit Museum of Art, the handicraft societies",
+   "date": "1910-01-01",
+   "date_confidence": "reconstruction; an Archives of American Art item records a Detroit lecture for the Detroit Society of Arts and Crafts, but the citation could not be re-fetched in this session and no date within the tour is given. The coordinate is the museum's Jefferson Avenue building, which it occupied from 1888 until 1927",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Five Months in America",
+   "stop": "The North Atlantic, the crossing home",
+   "date": "1910-03-01",
+   "date_confidence": "reconstruction; the return in March 1910 follows from the tour's stated five-month duration and its October 1909 start. No source consulted names the ship, the port of departure or the port of arrival, and the coordinate is a mid-ocean placeholder rather than a position",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418731.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.55,
+    "text": "Pisces 9°33′",
+    "longitude": 339.549
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Twenty-Four Volumes",
+   "stop": "London, the Collected Works begun",
+   "date": "1910-06-01",
+   "date_confidence": "attested as to the year through Wikipedia 'May Morris'; the Collected Works of William Morris is issued by Longmans, Green and Company between 1910 and 1915. No month is recorded and June is arbitrary within the first year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418823.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "no month/day",
+    "to the year",
+    "between",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.63,
+    "text": "Gemini 9°38′",
+    "longitude": 69.629
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Twenty-Four Volumes",
+   "stop": "Kelmscott Manor, the freehold bought",
+   "date": "1913-01-01",
+   "date_confidence": "attested as to the year; Wikipedia 'Kelmscott Manor' records Jane Morris purchasing the freehold in 1913, and Wikipedia 'Jane Morris' adds that she bought it a few months before her death to secure it for her daughters. No month is given. The claim, repeated in some summaries, that May took up residence in 1913 is unsupported by any source retrieved; her documented residence begins in 1917",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419768.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 279.996
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Twenty-Four Volumes",
+   "stop": "5 Brock Street, Bath, Jane Morris dies",
+   "date": "1914-01-26",
+   "date_confidence": "attested as to date and place through the atlas's jane_morris.journey.json, which pins the death at 5 Brock Street, Bath, on 26 January 1914. The research pool flagged this as drawn from standard biography rather than from a source re-fetched in this session",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420158.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 5.21,
+    "text": "Aquarius 5°13′",
+    "longitude": 305.211
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 2.01,
+    "text": "Aquarius 2°01′",
+    "longitude": 302.011
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 5.66,
+    "text": "Aquarius 5°39′",
+    "longitude": 305.658
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 1.16,
+    "text": "Aquarius 1°09′",
+    "longitude": 301.155
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 7.78,
+    "text": "Cancer 7°47′",
+    "longitude": 97.782
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 1.01,
+    "text": "Aquarius 1°00′",
+    "longitude": 301.007
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 11.53,
+    "text": "Gemini 11°32′",
+    "longitude": 71.534
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Twenty-Four Volumes",
+   "stop": "London, the twenty-four volumes finished",
+   "date": "1915-01-01",
+   "date_confidence": "attested as to the year of completion through Wikipedia 'May Morris'; no month is recorded and the place is the publisher's London",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kelmscott, with Mary Lobb",
+   "stop": "Kelmscott Manor, Mary Lobb comes to the house",
+   "date": "1917-01-01",
+   "date_confidence": "attested as to the year through Wikipedia 'May Morris', which dates her living at Kelmscott with Mary Lobb from 1917; no month is recorded. This is the earliest dated anchor for May Morris's residence at the manor, which is why the 1913 residence claim is rejected above",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kelmscott, with Mary Lobb",
+   "stop": "Kelmscott Manor, the sister dies and the house is hers",
+   "date": "1935-01-01",
+   "date_confidence": "attested as to the year through Wikipedia 'Kelmscott Manor', which places Jenny Morris's death immediately before May's outright inheritance of the house; no month is recorded and January is the atlas default",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kelmscott, with Mary Lobb",
+   "stop": "Oxford, William Morris: Artist, Writer, Socialist",
+   "date": "1936-01-01",
+   "date_confidence": "reconstruction; the two-volume study is commonly cited as published by Basil Blackwell at Oxford in 1936, but this session's fetches did not confirm publisher, place or date directly. The coordinate is Blackwell's on Broad Street and is approximate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428168.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.4,
+    "text": "Capricornus 9°24′",
+    "longitude": 279.401
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kelmscott, with Mary Lobb",
+   "stop": "Kelmscott Manor, the letter to Shaw",
+   "date": "1936-06-01",
+   "date_confidence": "reconstruction; the sentence is quoted from Sally Peters' study of Shaw and May Morris, reached in this session only through a search summary. The source dates it late in her life without a precise year or month, and 1936 is a placement, not an attestation. The place follows her residence, not a documented letterhead",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428320.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.31,
+    "text": "Gemini 10°19′",
+    "longitude": 70.315
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kelmscott, with Mary Lobb",
+   "stop": "Kelmscott Manor, the death",
+   "date": "1938-10-17",
+   "date_confidence": "attested; Wikipedia 'May Morris' and Wikidata Q449758 (P570) both give 17 October 1938 at Kelmscott Manor, aged seventy-six, which is consistent with the birth date of 25 March 1862",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429188.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 22.96,
+    "text": "Libra 22°58′",
+    "longitude": 202.963
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 0.99,
+    "text": "Leo 0°59′",
+    "longitude": 120.987
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.5,
+    "text": "Libra 27°30′",
+    "longitude": 207.503
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 1.6,
+    "text": "Sagittarius 1°36′",
+    "longitude": 241.596
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 24.78,
+    "text": "Virgo 24°47′",
+    "longitude": 174.783
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.55,
+    "text": "Aquarius 22°33′",
+    "longitude": 322.547
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 13.54,
+    "text": "Aries 13°33′",
+    "longitude": 13.543
+   }
+  },
+  {
+   "segment": "Kelmscott, with Mary Lobb",
+   "stop": "St George's churchyard, Kelmscott, the burial",
+   "date": "1938-10-20",
+   "date_confidence": "attested as to the place; Wikidata Q449758 records her place of burial as St George's Churchyard, Kelmscott (Q114737519), and the coordinate is the one the atlas already carries for her father and mother. The day of the funeral is not recorded in any source consulted, and 20 October is a placement",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429191.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 25.94,
+    "text": "Libra 25°57′",
+    "longitude": 205.942
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House She Kept, After Her",
+   "stop": "Kelmscott Manor, the bequest Oxford declines",
+   "date": "1962-01-01",
+   "date_confidence": "attested as to both ends; Wikipedia 'Kelmscott Manor' records the 1938 bequest to Oxford University on condition the contents be preserved, and the transfer to the Society of Antiquaries of London in 1962 when the University found the arrangement unworkable. No month is recorded for the transfer",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437665.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.103
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House She Kept, After Her",
+   "stop": "The William Morris Gallery, Walthamstow, her own name on the wall",
+   "date": "2017-10-01",
+   "date_confidence": "attested as to the year; Anna Mason and others, May Morris: Arts and Crafts Designer (Thames and Hudson, 2017), is published alongside a William Morris Gallery exhibition of the same name, and Jan Marsh publishes 'Feminist, socialist, embroiderer: the untold story of May Morris' in the same year. The opening date was not confirmed in this session and October is a placement",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2017,
+   "jd_ut": 2458027.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.02,
+    "text": "Libra 8°01′",
+    "longitude": 188.016
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 8,
+  "month": 8,
+  "year": 28
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,2222 @@
+{
+ "slug": "saint_francis",
+ "traveler": "Francis of Assisi (Francesco di Pietro di Bernardone)",
+ "title": "The Life of Saint Francis: from the Stall of Assisi to Sister Death",
+ "years": "1181/82-1226",
+ "years_parsed": {
+  "first": 1181,
+  "last": 1226
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Merchant's Son",
+  "stop": "Assisi, the stall of San Francesco il Piccolino",
+  "date": "1182-01-01",
+  "date_confidence": "inferred",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1182,
+  "jd_ut": 2152783.5,
+  "precision": "year",
+  "precision_triggers": [
+   "inferred"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 17.63,
+   "text": "Capricornus 17°38′",
+   "longitude": 287.63
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1181/82-1226",
+  "first_year_parsed": 1181
+ },
+ "stops": [
+  {
+   "segment": "The Merchant's Son",
+   "stop": "Assisi, the stall of San Francesco il Piccolino",
+   "date": "1182-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1182,
+   "jd_ut": 2152783.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.63,
+    "text": "Capricornus 17°38′",
+    "longitude": 287.63
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Merchant's Son",
+   "stop": "Assisi, Cathedral of San Rufino, the baptism",
+   "date": "1182-01-08",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1182,
+   "jd_ut": 2152790.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 24.75,
+    "text": "Capricornus 24°45′",
+    "longitude": 294.751
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Merchant's Son",
+   "stop": "Assisi, Piazza del Comune, king of the revels",
+   "date": "1200-06-24",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1200,
+   "jd_ut": 2159532.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.82,
+    "text": "Cancer 8°49′",
+    "longitude": 98.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Merchant's Son",
+   "stop": "Collestrada, the battle with Perugia",
+   "date": "1202-11-11",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1202,
+   "jd_ut": 2160402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 25.59,
+    "text": "Scorpio 25°35′",
+    "longitude": 235.586
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Merchant's Son",
+   "stop": "Perugia, the year in the pits",
+   "date": "1203-03-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1203,
+   "jd_ut": 2160512.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 16.98,
+    "text": "Pisces 16°59′",
+    "longitude": 346.978
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Merchant's Son",
+   "stop": "Assisi, the sickbed and the stale world",
+   "date": "1204-03-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1204,
+   "jd_ut": 2160878.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 17.73,
+    "text": "Pisces 17°44′",
+    "longitude": 347.731
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conversion",
+   "stop": "Spoleto, the dream of the arms",
+   "date": "1205-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1205,
+   "jd_ut": 2161335.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.7,
+    "text": "Gemini 16°42′",
+    "longitude": 76.697
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conversion",
+   "stop": "The plain below Assisi, the kiss of the leper",
+   "date": "1205-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1205,
+   "jd_ut": 2161365.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 15.29,
+    "text": "Cancer 15°17′",
+    "longitude": 105.292
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conversion",
+   "stop": "Rome, the beggar's rags at St. Peter's",
+   "date": "1205-08-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1205,
+   "jd_ut": 2161410.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 28.5,
+    "text": "Leo 28°30′",
+    "longitude": 148.503
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conversion",
+   "stop": "San Damiano, the crucifix speaks",
+   "date": "1205-10-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1205,
+   "jd_ut": 2161471.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 28.62,
+    "text": "Libra 28°37′",
+    "longitude": 208.623
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conversion",
+   "stop": "Foligno, the cloth and the horse sold",
+   "date": "1205-10-20",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1205,
+   "jd_ut": 2161476.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 3.64,
+    "text": "Scorpio 3°39′",
+    "longitude": 213.642
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conversion",
+   "stop": "Assisi, the renunciation before the bishop",
+   "date": "1206-04-10",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1206,
+   "jd_ut": 2161648.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 26.52,
+    "text": "Aries 26°31′",
+    "longitude": 26.518
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conversion",
+   "stop": "The woods toward Gubbio, the herald of the great King",
+   "date": "1206-04-20",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1206,
+   "jd_ut": 2161658.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 6.2,
+    "text": "Taurus 6°12′",
+    "longitude": 36.202
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conversion",
+   "stop": "Gubbio, the tunic of the Spadalonga",
+   "date": "1206-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1206,
+   "jd_ut": 2161669.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 16.8,
+    "text": "Taurus 16°48′",
+    "longitude": 46.803
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conversion",
+   "stop": "San Damiano, stones for a reward",
+   "date": "1206-07-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1206,
+   "jd_ut": 2161744.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 28.44,
+    "text": "Cancer 28°26′",
+    "longitude": 118.436
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conversion",
+   "stop": "Porziuncola, the Gospel of the sending",
+   "date": "1208-02-24",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1208,
+   "jd_ut": 2162333.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 11.79,
+    "text": "Pisces 11°48′",
+    "longitude": 341.794
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Companions",
+   "stop": "Assisi, San Nicolò, the triple opening of the Gospels",
+   "date": "1208-04-16",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1208,
+   "jd_ut": 2162385.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 2.83,
+    "text": "Taurus 2°50′",
+    "longitude": 32.834
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Companions",
+   "stop": "Poggio Bustone: 'Good day, good people!'",
+   "date": "1208-10-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1208,
+   "jd_ut": 2162553.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 14.91,
+    "text": "Libra 14°55′",
+    "longitude": 194.911
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Companions",
+   "stop": "Rivotorto, the hovel of the brotherhood",
+   "date": "1209-01-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1209,
+   "jd_ut": 2162659.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 2.31,
+    "text": "Aquarius 2°19′",
+    "longitude": 302.311
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Companions",
+   "stop": "Rome, Innocent III and the dream of the falling Lateran",
+   "date": "1209-04-16",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1209,
+   "jd_ut": 2162750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 2.6,
+    "text": "Taurus 2°36′",
+    "longitude": 32.599
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Companions",
+   "stop": "Orte, the fortnight in the tombs",
+   "date": "1209-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1209,
+   "jd_ut": 2162765.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 17.07,
+    "text": "Taurus 17°04′",
+    "longitude": 47.067
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Companions",
+   "stop": "Porziuncola, the Little Portion granted",
+   "date": "1210-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1210,
+   "jd_ut": 2163161.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.5,
+    "text": "Gemini 16°30′",
+    "longitude": 76.498
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Preaching Roads",
+   "stop": "Isola Maggiore, Lake Trasimeno, the fast of forty days",
+   "date": "1211-02-16",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1211,
+   "jd_ut": 2163421.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.08,
+    "text": "Pisces 4°05′",
+    "longitude": 334.078
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Preaching Roads",
+   "stop": "Cannara, the town that would follow him whole",
+   "date": "1211-05-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1211,
+   "jd_ut": 2163509.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.03,
+    "text": "Gemini 0°02′",
+    "longitude": 60.03
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Preaching Roads",
+   "stop": "Piandarca, between Cannara and Bevagna, the sermon to the birds",
+   "date": "1211-05-16",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1211,
+   "jd_ut": 2163510.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.99,
+    "text": "Gemini 0°59′",
+    "longitude": 60.987
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Preaching Roads",
+   "stop": "Porziuncola, Clare's flight and tonsure",
+   "date": "1212-03-18",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1212,
+   "jd_ut": 2163817.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 4.59,
+    "text": "Aries 4°35′",
+    "longitude": 4.586
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Preaching Roads",
+   "stop": "Alviano, the silencing of the swallows",
+   "date": "1212-05-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1212,
+   "jd_ut": 2163875.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.76,
+    "text": "Gemini 0°45′",
+    "longitude": 60.756
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Preaching Roads",
+   "stop": "The Dalmatian coast, shipwrecked toward Syria",
+   "date": "1212-10-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1212,
+   "jd_ut": 2164014.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 14.94,
+    "text": "Libra 14°56′",
+    "longitude": 194.941
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Preaching Roads",
+   "stop": "San Leo, the verse of the castle feast and the gift of La Verna",
+   "date": "1213-05-08",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1213,
+   "jd_ut": 2164233.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.82,
+    "text": "Taurus 23°49′",
+    "longitude": 53.819
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Preaching Roads",
+   "stop": "Santiago de Compostela, the houses through all the world",
+   "date": "1214-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1214,
+   "jd_ut": 2164622.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.53,
+    "text": "Gemini 16°32′",
+    "longitude": 76.53
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Preaching Roads",
+   "stop": "Rome, the Fourth Lateran Council: Francis and Dominic",
+   "date": "1215-11-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1215,
+   "jd_ut": 2165150.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 25.43,
+    "text": "Scorpio 25°26′",
+    "longitude": 235.428
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Beyond the Sea",
+   "stop": "Porziuncola, the Pentecost Chapter of the missions",
+   "date": "1217-05-14",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1217,
+   "jd_ut": 2165700.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 29.6,
+    "text": "Taurus 29°36′",
+    "longitude": 59.599
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 13.24,
+    "text": "Leo 13°14′",
+    "longitude": 133.238
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 15.02,
+    "text": "Gemini 15°01′",
+    "longitude": 75.024
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 28.27,
+    "text": "Gemini 28°16′",
+    "longitude": 88.266
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 23.02,
+    "text": "Pisces 23°01′",
+    "longitude": 353.024
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 8.96,
+    "text": "Taurus 8°57′",
+    "longitude": 38.957
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 17.29,
+    "text": "Libra 17°17′",
+    "longitude": 197.289
+   }
+  },
+  {
+   "segment": "Beyond the Sea",
+   "stop": "Ancona, embarkation for the East",
+   "date": "1219-06-24",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1219,
+   "jd_ut": 2166471.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.25,
+    "text": "Cancer 8°15′",
+    "longitude": 98.251
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Beyond the Sea",
+   "stop": "The camp before Damietta, the prophecy of defeat",
+   "date": "1219-08-29",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1219,
+   "jd_ut": 2166537.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 11.74,
+    "text": "Virgo 11°44′",
+    "longitude": 161.738
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 7.77,
+    "text": "Aries 7°46′",
+    "longitude": 7.773
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 7.98,
+    "text": "Libra 7°59′",
+    "longitude": 187.984
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 25.99,
+    "text": "Cancer 25°59′",
+    "longitude": 115.988
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 23.09,
+    "text": "Gemini 23°06′",
+    "longitude": 83.093
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.85,
+    "text": "Cancer 24°51′",
+    "longitude": 114.854
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 12.17,
+    "text": "Scorpio 12°10′",
+    "longitude": 222.17
+   }
+  },
+  {
+   "segment": "Beyond the Sea",
+   "stop": "Fariskur, the court of Sultan al-Kamil",
+   "date": "1219-09-08",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1219,
+   "jd_ut": 2166547.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 21.52,
+    "text": "Virgo 21°31′",
+    "longitude": 171.524
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Beyond the Sea",
+   "stop": "Damietta taken, the grief in the victory",
+   "date": "1219-11-05",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1219,
+   "jd_ut": 2166605.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 19.38,
+    "text": "Scorpio 19°23′",
+    "longitude": 229.38
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 4.93,
+    "text": "Libra 4°56′",
+    "longitude": 184.926
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 17.31,
+    "text": "Scorpio 17°19′",
+    "longitude": 227.313
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 13.97,
+    "text": "Libra 13°58′",
+    "longitude": 193.972
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 19.91,
+    "text": "Cancer 19°54′",
+    "longitude": 109.905
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 2.66,
+    "text": "Leo 2°39′",
+    "longitude": 122.656
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 19.26,
+    "text": "Scorpio 19°16′",
+    "longitude": 229.26
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Beyond the Sea",
+   "stop": "Porziuncola, the resignation at the Michaelmas chapter",
+   "date": "1220-09-29",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1220,
+   "jd_ut": 2166934.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.01,
+    "text": "Libra 13°01′",
+    "longitude": 193.013
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wolf, the Rule and the Crib",
+   "stop": "Gubbio, the wolf at the Vittorina",
+   "date": "1220-12-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1220,
+   "jd_ut": 2167011.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 0.84,
+    "text": "Capricornus 0°50′",
+    "longitude": 270.841
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wolf, the Rule and the Crib",
+   "stop": "Porziuncola, the Chapter of Mats",
+   "date": "1221-05-30",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1221,
+   "jd_ut": 2167177.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 14.92,
+    "text": "Gemini 14°55′",
+    "longitude": 74.916
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wolf, the Rule and the Crib",
+   "stop": "Bologna, the sermon of the Angels, Men and Demons",
+   "date": "1222-08-15",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1222,
+   "jd_ut": 2167619.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 28.39,
+    "text": "Leo 28°24′",
+    "longitude": 148.394
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 21.04,
+    "text": "Scorpio 21°02′",
+    "longitude": 231.04
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 10.35,
+    "text": "Leo 10°21′",
+    "longitude": 130.349
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 6.81,
+    "text": "Virgo 6°49′",
+    "longitude": 156.812
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 17.56,
+    "text": "Libra 17°33′",
+    "longitude": 197.556
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 4.42,
+    "text": "Libra 4°25′",
+    "longitude": 184.415
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 14.18,
+    "text": "Sagittarius 14°11′",
+    "longitude": 254.176
+   }
+  },
+  {
+   "segment": "The Wolf, the Rule and the Crib",
+   "stop": "Fonte Colombo, the writing of the Rule",
+   "date": "1223-02-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1223,
+   "jd_ut": 2167789.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 19.1,
+    "text": "Aquarius 19°06′",
+    "longitude": 319.102
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wolf, the Rule and the Crib",
+   "stop": "Rome, Solet annuere: the Rule confirmed",
+   "date": "1223-11-29",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1223,
+   "jd_ut": 2168090.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 13.79,
+    "text": "Sagittarius 13°47′",
+    "longitude": 253.786
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 14.78,
+    "text": "Aquarius 14°47′",
+    "longitude": 314.785
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 26.11,
+    "text": "Scorpio 26°07′",
+    "longitude": 236.113
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 25.31,
+    "text": "Capricornus 25°19′",
+    "longitude": 295.308
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 14.24,
+    "text": "Virgo 14°14′",
+    "longitude": 164.235
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 20.86,
+    "text": "Scorpio 20°52′",
+    "longitude": 230.862
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 2.03,
+    "text": "Capricornus 2°02′",
+    "longitude": 272.035
+   }
+  },
+  {
+   "segment": "The Wolf, the Rule and the Crib",
+   "stop": "Greccio, the first nativity",
+   "date": "1223-12-24",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1223,
+   "jd_ut": 2168115.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.275
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 13.81,
+    "text": "Capricornus 13°48′",
+    "longitude": 283.807
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 4.17,
+    "text": "Capricornus 4°10′",
+    "longitude": 274.174
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 24.45,
+    "text": "Aquarius 24°27′",
+    "longitude": 324.447
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 23.49,
+    "text": "Virgo 23°30′",
+    "longitude": 173.493
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 25.95,
+    "text": "Scorpio 25°57′",
+    "longitude": 235.947
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 4.96,
+    "text": "Capricornus 4°58′",
+    "longitude": 274.959
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "La Verna, the seraph and the stigmata",
+   "date": "1224-09-14",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1224,
+   "jd_ut": 2168380.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 28.2,
+    "text": "Virgo 28°12′",
+    "longitude": 178.2
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "Borgo San Sepolcro, carried through the town unseeing",
+   "date": "1224-10-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1224,
+   "jd_ut": 2168397.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.03,
+    "text": "Libra 15°02′",
+    "longitude": 195.032
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "San Damiano, the Canticle of the Creatures",
+   "date": "1225-04-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1225,
+   "jd_ut": 2168593.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 1.76,
+    "text": "Taurus 1°45′",
+    "longitude": 31.755
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "La Foresta, the miracle of the vintage",
+   "date": "1225-09-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1225,
+   "jd_ut": 2168746.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 28.95,
+    "text": "Virgo 28°57′",
+    "longitude": 178.947
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "Fonte Colombo, Brother Fire and the cautery",
+   "date": "1225-10-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1225,
+   "jd_ut": 2168776.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 28.77,
+    "text": "Libra 28°46′",
+    "longitude": 208.773
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "Siena: blood in the night, the little testament",
+   "date": "1226-04-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1226,
+   "jd_ut": 2168958.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 1.52,
+    "text": "Taurus 1°31′",
+    "longitude": 31.521
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "Le Celle di Cortona, the hermitage above the gorge",
+   "date": "1226-05-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1226,
+   "jd_ut": 2168988.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.39,
+    "text": "Gemini 0°23′",
+    "longitude": 60.388
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "Bagnara above Nocera, the knights and the begged supper",
+   "date": "1226-08-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1226,
+   "jd_ut": 2169066.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 14.91,
+    "text": "Leo 14°54′",
+    "longitude": 134.907
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "Assisi, the bishop's palace and the strophe of pardon",
+   "date": "1226-08-25",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1226,
+   "jd_ut": 2169090.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.14,
+    "text": "Virgo 8°08′",
+    "longitude": 158.137
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "The road to the Porziuncola, the blessing of Assisi",
+   "date": "1226-09-30",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1226,
+   "jd_ut": 2169126.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.56,
+    "text": "Libra 13°33′",
+    "longitude": 193.555
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "Porziuncola, Sister Death",
+   "date": "1226-10-03",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1226,
+   "jd_ut": 2169129.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.54,
+    "text": "Libra 16°32′",
+    "longitude": 196.54
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 20.51,
+    "text": "Aquarius 20°31′",
+    "longitude": 320.511
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 29.78,
+    "text": "Virgo 29°47′",
+    "longitude": 179.779
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 28.72,
+    "text": "Libra 28°43′",
+    "longitude": 208.719
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 25.18,
+    "text": "Sagittarius 25°11′",
+    "longitude": 265.177
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.06,
+    "text": "Aquarius 2°04′",
+    "longitude": 302.06
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 29.81,
+    "text": "Capricornus 29°49′",
+    "longitude": 299.814
+   }
+  },
+  {
+   "segment": "The Seraph and Sister Death",
+   "stop": "Assisi, San Giorgio, the burial, and the window of San Damiano",
+   "date": "1226-10-04",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1226,
+   "jd_ut": 2169130.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 17.54,
+    "text": "Libra 17°32′",
+    "longitude": 197.536
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 4.77,
+    "text": "Pisces 4°46′",
+    "longitude": 334.772
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 1.24,
+    "text": "Libra 1°14′",
+    "longitude": 181.24
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 29.97,
+    "text": "Libra 29°58′",
+    "longitude": 209.968
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 25.9,
+    "text": "Sagittarius 25°54′",
+    "longitude": 265.905
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.1,
+    "text": "Aquarius 2°06′",
+    "longitude": 302.101
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 29.82,
+    "text": "Capricornus 29°49′",
+    "longitude": 299.825
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 55,
+  "dated": 55,
+  "unparsed": 0,
+  "day": 8,
+  "month": 0,
+  "year": 47
+ },
+ "parse_failures": []
+}

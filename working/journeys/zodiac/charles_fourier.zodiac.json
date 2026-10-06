@@ -1,0 +1,1818 @@
+{
+ "slug": "charles_fourier",
+ "traveler": "Francois Marie Charles Fourier",
+ "title": "The Rice in the Harbour: the Clerk, the Twelve Passions, and the Table Set for Ten Years",
+ "years": "1772-1837",
+ "years_parsed": {
+  "first": 1772,
+  "last": 1837
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Draper's Son at Besancon",
+  "stop": "Besancon, born above the drapery",
+  "date": "1772-04-07",
+  "date_confidence": "Attested to the day by French Wikipedia, citing Beecher's biography, which also gives the address: the Grande-Rue at the corner of the old ruelle Baron. Coordinates are that corner in the old town.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1772,
+  "jd_ut": 2368366.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Aries",
+   "degree": 17.71,
+   "text": "Aries 17°42′",
+   "longitude": 17.707
+  },
+  "moon": {
+   "sign": "Taurus",
+   "degree": 29.45,
+   "text": "Taurus 29°27′",
+   "longitude": 59.45
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 23.95,
+   "text": "Aries 23°57′",
+   "longitude": 23.951
+  },
+  "venus": {
+   "sign": "Taurus",
+   "degree": 25.96,
+   "text": "Taurus 25°58′",
+   "longitude": 55.959
+  },
+  "mars": {
+   "sign": "Pisces",
+   "degree": 15.24,
+   "text": "Pisces 15°14′",
+   "longitude": 345.237
+  },
+  "jupiter": {
+   "sign": "Aquarius",
+   "degree": 24.79,
+   "text": "Aquarius 24°48′",
+   "longitude": 324.795
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 23.27,
+   "text": "Leo 23°16′",
+   "longitude": 143.266
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1772-1837",
+  "first_year_parsed": 1772
+ },
+ "stops": [
+  {
+   "segment": "The Draper's Son at Besancon",
+   "stop": "Besancon, born above the drapery",
+   "date": "1772-04-07",
+   "date_confidence": "Attested to the day by French Wikipedia, citing Beecher's biography, which also gives the address: the Grande-Rue at the corner of the old ruelle Baron. Coordinates are that corner in the old town.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1772,
+   "jd_ut": 2368366.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 17.71,
+    "text": "Aries 17°42′",
+    "longitude": 17.707
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 29.45,
+    "text": "Taurus 29°27′",
+    "longitude": 59.45
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 23.95,
+    "text": "Aries 23°57′",
+    "longitude": 23.951
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 25.96,
+    "text": "Taurus 25°58′",
+    "longitude": 55.959
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 15.24,
+    "text": "Pisces 15°14′",
+    "longitude": 345.237
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 24.79,
+    "text": "Aquarius 24°48′",
+    "longitude": 324.795
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.27,
+    "text": "Leo 23°16′",
+    "longitude": 143.266
+   }
+  },
+  {
+   "segment": "The Draper's Son at Besancon",
+   "stop": "Besancon, the father's estate",
+   "date": "1781-01-01",
+   "date_confidence": "Year attested by English Wikipedia; no month or day is given in any source reached, so January is a placeholder. The valuation of over 200,000 francs is reported, not documented.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371557.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.06,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Draper's Son at Besancon",
+   "stop": "Besancon, the ecclesiastical college",
+   "date": "1785-01-01",
+   "date_confidence": "French Wikipedia says he was educated chez les ecclesiastiques du college de Besancon until about sixteen, which places the schooling roughly 1781 to 1788. The date here sits in the middle of that span and is an ordering device. The building is not identified in any source reached and the coordinates are a placement in the old town, not an address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1785,
+   "jd_ut": 2373018.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "approximation",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.09,
+    "text": "Capricornus 11°05′",
+    "longitude": 281.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Apprentice, and the Siege of Lyon",
+   "stop": "Rouen, the apprenticeship on the Seine",
+   "date": "1791-01-01",
+   "date_confidence": "The apprenticeship circuit through Rouen and Lyon is attested by English Wikipedia and French Wikipedia; 1791 is the year given, month and day unrecorded and defaulted to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375209.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.63,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.626
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Apprentice, and the Siege of Lyon",
+   "stop": "Lyon, the house of Bousquet",
+   "date": "1791-06-01",
+   "date_confidence": "English Wikipedia names the merchant Bousquet and places the employment at Lyon in the same apprenticeship period; the month is a placeholder inside 1791.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375360.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.36,
+    "text": "Gemini 10°22′",
+    "longitude": 70.36
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Apprentice, and the Siege of Lyon",
+   "stop": "Besancon, home before the storm",
+   "date": "1793-02-01",
+   "date_confidence": "French Wikipedia records the return to Besancon in early 1793; the month is a placeholder within that phrase.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2375971.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.69,
+    "text": "Aquarius 12°42′",
+    "longitude": 312.693
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Apprentice, and the Siege of Lyon",
+   "stop": "Lyon, the siege, the fortune, the escape",
+   "date": "1793-10-09",
+   "date_confidence": "Attested by French Wikipedia, verbatim: he fought with the Lyon federalists, the siege cost him his fortune, and he escaped arrest and returned to Besancon. The date used is the fall of the city. The research pool's claim that he was arrested and in danger of execution is contradicted by that sentence and is not written here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2376221.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.15,
+    "text": "Libra 16°09′",
+    "longitude": 196.149
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Apprentice, and the Siege of Lyon",
+   "stop": "Speyer, the Army of the Rhine",
+   "date": "1794-05-21",
+   "date_confidence": "The enrolment on 2 prairial an II and the discharge on 3 pluviose an IV are both attested by French Wikipedia, as is the eighteen months with the Army of the Rhine in the Palatinate. No garrison is named in any source reached. Speyer is pinned as a point inside the Palatinate proper; the research pool's Mainz coordinate was neither Mainz nor Palatine and is refused.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1794,
+   "jd_ut": 2376445.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.08,
+    "text": "Gemini 0°05′",
+    "longitude": 60.076
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 13.18,
+    "text": "Aquarius 13°11′",
+    "longitude": 313.175
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 9.76,
+    "text": "Taurus 9°46′",
+    "longitude": 39.761
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 16.3,
+    "text": "Gemini 16°18′",
+    "longitude": 76.301
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 25.87,
+    "text": "Libra 25°52′",
+    "longitude": 205.869
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 2.23,
+    "text": "Capricornus 2°14′",
+    "longitude": 272.226
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 20.64,
+    "text": "Taurus 20°38′",
+    "longitude": 50.638
+   }
+  },
+  {
+   "segment": "The Rice in the Harbour",
+   "stop": "Lyon, the correspondence clerk",
+   "date": "1799-01-01",
+   "date_confidence": "English Wikipedia places him at Lyon under the Consulate as a commercial traveller and correspondence clerk and quotes his own words for the work; the year is given, the month defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378131.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.68,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.685
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rice in the Harbour",
+   "stop": "Marseille, the rice in the harbour",
+   "date": "1799-06-01",
+   "date_confidence": "Tradition, not record. The episode is repeated throughout Fourier scholarship and Beecher places it around 1799 at Marseille; French Wikipedia carries it without a hard date, and no contemporary independent account was found. The month is a placeholder. Coordinates inherited byte-identical from the corpus canonical Marseille pin used in andre_breton.journey.json and adnan_khashoggi.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.42,
+    "text": "Gemini 10°25′",
+    "longitude": 70.424
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rice in the Harbour",
+   "stop": "Bordeaux, the circuit of the ports",
+   "date": "1802-01-01",
+   "date_confidence": "English Wikipedia lists Bordeaux among the cities of his years as traveller and clerk without dating the stay. The year and month here order the segment and carry no authority; the Place de la Bourse is a placement in the merchant quarter, not an attested address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379226.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.943
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rice in the Harbour",
+   "stop": "Paris, the statistics office",
+   "date": "1814-01-01",
+   "date_confidence": "English Wikipedia records that he worked for a few months as head of an Office of Statistics in Paris. No year, address or duration is given by any source reached. The 1814 date is an ordering device only and the coordinates are a placement, not a located office.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383609.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.031
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Theory of the Four Movements",
+   "stop": "Lyon, the book with the Leipzig imprint",
+   "date": "1808-01-01",
+   "date_confidence": "The 1808 publication is attested by both Wikipedias; French Wikipedia's works list gives the title page as Leipzig, 1808, a false imprint on a book actually printed at Lyon. Month and day unrecorded and defaulted. The printer's shop is not identified in any source reached, so the rue Merciere coordinates carried by the research pool are treated as reconstruction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1808,
+   "jd_ut": 2381417.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.48,
+    "text": "Capricornus 9°29′",
+    "longitude": 279.477
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Theory of the Four Movements",
+   "stop": "Lyon, the page against the Jews",
+   "date": "1808-06-01",
+   "date_confidence": "Attested. English Wikipedia quotes the passages directly from the 1808 text, which is also on French Wikisource. Same publication year as the previous stop; the month is a placeholder used only to keep the two stops in order.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1808,
+   "jd_ut": 2381569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.26,
+    "text": "Gemini 10°15′",
+    "longitude": 70.256
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Theory of the Four Movements",
+   "stop": "Besancon, Just Muiron reads the book",
+   "date": "1814-01-01",
+   "date_confidence": "French Wikipedia gives Just Muiron as a disciple from 1814. The research pool's geography lens dated the meeting to about 1803, which is impossible: Muiron came to Fourier through a book published in 1808. Month and day unrecorded and defaulted. The prefecture coordinates are a placement in Besancon, not an attested meeting site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383609.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.031
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Talissieu, and the Book He Did Not Print",
+   "stop": "Talissieu, the winter with the Rubat nieces",
+   "date": "1815-12-01",
+   "date_confidence": "French Wikipedia places him at Talissieu for the winter, lodging chez ses nieces de Rubat, and records that after a falling-out he moved to another sister, Madame Parrat-Brillat, where he stayed to 1820. The research pool put the Parrat-Brillat household at Talissieu, which the source does not support; that address is not located by anything reachable. Coordinates corrected to French Wikipedia's Talissieu article, about four kilometres from the pool's value.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384308.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.99,
+    "text": "Sagittarius 7°59′",
+    "longitude": 247.986
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Talissieu, and the Book He Did Not Print",
+   "stop": "Talissieu, Le Nouveau Monde amoureux",
+   "date": "1816-06-01",
+   "date_confidence": "The composition window of about 1816 to 1818 is the dating of Beecher and of Simone Debout's 1967 edition, not a dated manuscript; the month is a placeholder. That the work went unpublished in his lifetime is attested by both Wikipedias.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1816,
+   "jd_ut": 2384491.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.32,
+    "text": "Gemini 10°19′",
+    "longitude": 70.32
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Talissieu, and the Book He Did Not Print",
+   "stop": "Lyon, the deterioration of the planet",
+   "date": "1821-01-01",
+   "date_confidence": "French Wikipedia dates the composition of De la deterioration materielle de la planete to 1821 and its publication to 1847, posthumously, in La Phalange. The research pool filed it as an 1836 Paris composition, which is fifteen years out. The place of writing is not established by any source reached; Lyon is a placement inside his working orbit of these years and carries no authority.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1821,
+   "jd_ut": 2386166.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°20′",
+    "longitude": 280.338
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Talissieu, and the Book He Did Not Print",
+   "stop": "Lyon, the Traite printed",
+   "date": "1822-06-01",
+   "date_confidence": "The 1822 publication of the Traite de l'association domestique-agricole is attested by both Wikipedias; the month is a placeholder ahead of the November journey to Paris with copies, which French Wikipedia does date. The press is not named in any source reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386682.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.89,
+    "text": "Gemini 9°53′",
+    "longitude": 69.889
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Rooms and the Thursdays",
+   "stop": "Paris, 14 rue de Grenelle-Saint-Honore",
+   "date": "1822-11-01",
+   "date_confidence": "Attested by French Wikipedia to November 1822, with the address and the landlord: 14 rue de Grenelle-Saint-Honore, chez Monsieur Saussol. The day is not given. This is not his first time in Paris, as an earlier statistics post and his own apple anecdote both precede it. Coordinates corrected: the street is the southern section of today's rue Jean-Jacques-Rousseau, merged in 1868; the research pool's pin had been copied from Saint-Roch, about 950 metres away.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386835.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.03,
+    "text": "Scorpio 8°02′",
+    "longitude": 218.033
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Rooms and the Thursdays",
+   "stop": "Paris, the Hotel Saint-Roch",
+   "date": "1823-06-01",
+   "date_confidence": "French Wikipedia records the Hotel Saint-Roch on the rue Neuve-Saint-Roch for 1823; no month is given and June is a placeholder.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1823,
+   "jd_ut": 2387047.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.66,
+    "text": "Gemini 9°39′",
+    "longitude": 69.657
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Rooms and the Thursdays",
+   "stop": "Paris, the hotel de Hollande on the rue de Richelieu",
+   "date": "1825-12-15",
+   "date_confidence": "Attested to the day by French Wikipedia: le 15 decembre 1825, il descend a l'hotel de Hollande, 45, rue Richelieu. The research pool dated the move to January 1826, a month and a half late.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387975.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 22.8,
+    "text": "Sagittarius 22°48′",
+    "longitude": 262.797
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 27.05,
+    "text": "Aquarius 27°03′",
+    "longitude": 327.055
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 13.11,
+    "text": "Capricornus 13°07′",
+    "longitude": 283.11
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 2.27,
+    "text": "Sagittarius 2°16′",
+    "longitude": 242.275
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 12.95,
+    "text": "Libra 12°57′",
+    "longitude": 192.954
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 14.06,
+    "text": "Virgo 14°04′",
+    "longitude": 164.061
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 18.13,
+    "text": "Gemini 18°08′",
+    "longitude": 78.127
+   }
+  },
+  {
+   "segment": "Paris: the Rooms and the Thursdays",
+   "stop": "Paris, the Thursday dinners",
+   "date": "1826-01-01",
+   "date_confidence": "Legend, and French Wikipedia says so: la legende rapporte. It gives the shape precisely, 1825 to 1835, every Thursday, a dinner, and adds that the story may be fabricated and that Beranger propagated it. The research pool's version, a standing daily noon appointment called the millionaire at noon, is not what the source says and is not written here. The January 1826 date opens the ten-year span.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2387992.5,
+   "precision": "month",
+   "precision_triggers": [
+    "legend",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.119
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Rooms and the Thursdays",
+   "stop": "Paris, the Bisontins arrive",
+   "date": "1826-11-01",
+   "date_confidence": "French Wikipedia's Considerant article dates his conversion to Fourierism to 1824 at the lycee de Besancon, through Clarisse Vigoureux, and his entry to Polytechnique to 1826, after which he met Fourier in Paris. The month here is a placeholder in that year. The Besancon conversion is deliberately not staged as a scene, because Fourier was not present at it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2388296.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.06,
+    "text": "Scorpio 8°04′",
+    "longitude": 218.063
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Rooms and the Thursdays",
+   "stop": "Paris, Le Nouveau Monde industriel et societaire",
+   "date": "1829-01-01",
+   "date_confidence": "The 1829 publication is attested by both Wikipedias; month and day unrecorded and defaulted. The Little Hordes are Fourier's own term from this exposition.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389088.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal, the Colony, the Last Rooms",
+   "stop": "Paris, 5 rue Joquelet: Le Phalanstere",
+   "date": "1832-03-01",
+   "date_confidence": "The launch of Le Phalanstere in 1832 is attested by French Wikipedia. The rue Joquelet address and the spring date come from the research pool's geography lens and were not independently confirmed in any source reached; treat the address as reconstruction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390243.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.47,
+    "text": "Pisces 10°28′",
+    "longitude": 340.469
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal, the Colony, the Last Rooms",
+   "stop": "Paris, the American who came to study",
+   "date": "1832-06-01",
+   "date_confidence": "Albert Brisbane's period of study with Fourier in Paris is standard in the American Fourierist historiography and in Beecher; the year is given as 1832 and the month is a placeholder. That the study happened at the rue Joquelet offices is the research pool's reconstruction, not a documented room.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390335.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.45,
+    "text": "Gemini 10°27′",
+    "longitude": 70.447
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal, the Colony, the Last Rooms",
+   "stop": "Conde-sur-Vesgre, eleven hundred and then two hundred",
+   "date": "1833-10-01",
+   "date_confidence": "French Wikipedia gives about 1,100 associates in autumn 1833 and about 200 after the winter; the Conde-sur-Vesgre article dates the attempt from 1832 and records that the association still exists. The research pool's failed entirely is therefore wrong for the association and right only for the phalanstery. No source reached says whether Fourier himself ever visited the site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1833,
+   "jd_ut": 2390822.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.57,
+    "text": "Libra 7°34′",
+    "longitude": 187.572
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal, the Colony, the Last Rooms",
+   "stop": "Paris, 9 rue Saint-Pierre-Montmartre",
+   "date": "1834-04-01",
+   "date_confidence": "April 1834 to October 1837 is the residence period carried by the research pool from French Wikipedia. Coordinates corrected: the rue Saint-Pierre-Montmartre was in the 2nd arrondissement and was renamed rue Paul-Lelong in 1847, at 48.8678 / 2.3422; the pool's pin sat 1.9 km north on the Montmartre butte, which the street has nothing to do with.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1834,
+   "jd_ut": 2391004.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.81,
+    "text": "Aries 10°48′",
+    "longitude": 10.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal, the Colony, the Last Rooms",
+   "stop": "Paris, La Fausse Industrie",
+   "date": "1835-01-01",
+   "date_confidence": "Publication across 1835 and 1836 is standard; month and day unrecorded and defaulted to January 1835. The work itself was not reachable in any edition this pass, so everything about its contents rests on secondary summary.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391279.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.931
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal, the Colony, the Last Rooms",
+   "stop": "Paris, the return to Palestine",
+   "date": "1836-01-01",
+   "date_confidence": "Reconstruction, and heavily hedged. English Wikipedia carries one sentence: by the end of his life he advocated the return of Jews to Palestine with the assistance of the Rothschilds. Nothing reachable supports the research pool's fuller version, a monarchy, a flag, consuls, Jerusalem as named seat, or James de Rothschild imagined as king of Judea; Silberner is behind JSTOR and was not reached. The stop sits at Fourier's own desk because he never went to Palestine, and no Levantine pin appears in this file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391644.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.683
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal, the Colony, the Last Rooms",
+   "stop": "Paris, death at number nine",
+   "date": "1837-10-10",
+   "date_confidence": "Attested to the day by both Wikipedias, and the address is confirmed by the rue Paul-Lelong article, which records number 9 as the place of death. That he never married is attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392292.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.49,
+    "text": "Libra 16°29′",
+    "longitude": 196.488
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 22.44,
+    "text": "Aquarius 22°26′",
+    "longitude": 322.439
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 8.01,
+    "text": "Libra 8°00′",
+    "longitude": 188.006
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 23.68,
+    "text": "Scorpio 23°41′",
+    "longitude": 233.684
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 20.47,
+    "text": "Scorpio 20°28′",
+    "longitude": 230.474
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 9.09,
+    "text": "Virgo 9°05′",
+    "longitude": 159.087
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 15.94,
+    "text": "Scorpio 15°56′",
+    "longitude": 225.94
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Grave and the Phalanx",
+   "stop": "Cimetiere de Montmartre, the modest stone",
+   "date": "1837-10-12",
+   "date_confidence": "The burial at the cimetiere de Montmartre is attested by both Wikipedias; no source reached gives the day, and 12 October is a placeholder two days after death. Coordinates inherited byte-identical from the most-used corpus pin for this cemetery, shared with vaslav_nijinsky.journey.json and marie_taglioni.journey.json; the corpus carries four different pins for the one cemetery and the research pool adds two more, a spread recorded rather than averaged.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392294.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 18.47,
+    "text": "Libra 18°28′",
+    "longitude": 198.468
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Phalanx",
+   "stop": "Colts Neck, the North American Phalanx",
+   "date": "1843-09-01",
+   "date_confidence": "Founded September 1843 in Colts Neck Township, Monmouth County; mill fire 10 September 1854; formally terminated January 1856, all per English Wikipedia. Coordinates corrected from the research pool's value, which sat about 3.7 km away.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1843,
+   "jd_ut": 2394444.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.87,
+    "text": "Virgo 7°52′",
+    "longitude": 157.875
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 4.99,
+    "text": "Sagittarius 4°59′",
+    "longitude": 244.99
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 27.99,
+    "text": "Virgo 28°00′",
+    "longitude": 177.995
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 29.39,
+    "text": "Leo 29°23′",
+    "longitude": 149.388
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 21.42,
+    "text": "Sagittarius 21°25′",
+    "longitude": 261.424
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 20.5,
+    "text": "Aquarius 20°30′",
+    "longitude": 320.5
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 19.48,
+    "text": "Capricornus 19°29′",
+    "longitude": 289.478
+   }
+  },
+  {
+   "segment": "The Grave and the Phalanx",
+   "stop": "West Roxbury, Brook Farm takes the constitution",
+   "date": "1844-01-01",
+   "date_confidence": "The Fourierist reorganization is dated 1844 by English Wikipedia; month and day unrecorded and defaulted. The Phalanstery fire of 3 March 1846, the two-hour burn and the 7,000 dollar uninsured loss, the 1841 founding by George and Sophia Ripley and Hawthorne's early membership are all attested there. Coordinates corrected from the research pool's value, about 1.8 km away.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394566.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.742
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Phalanx",
+   "stop": "Paris, the disciple who wrote the tract",
+   "date": "1845-01-01",
+   "date_confidence": "The 1845 publication of Les Juifs, rois de l'epoque by the Fourierist Alphonse Toussenel is standard in the secondary literature on French antisemitism, Silberner in particular, which was not reachable directly this pass. Month and day unrecorded and defaulted. Coordinates are the corpus canonical Paris pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1845,
+   "jd_ut": 2394932.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.51,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.514
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Phalanx",
+   "stop": "West Dallas, La Reunion on the Trinity",
+   "date": "1855-06-16",
+   "date_confidence": "The Texas State Historical Association handbook gives the arrival of the colonists on 16 June 1855 and the dissolution announced by Allyre Bureau on 28 January 1857, and places the site on the south bank of the Trinity in central Dallas County just north of Interstate 30. Coordinates corrected from the research pool's value, which pointed into Oak Cliff about 4 km south-east.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398750.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 24.25,
+    "text": "Gemini 24°15′",
+    "longitude": 84.251
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 10.28,
+    "text": "Cancer 10°17′",
+    "longitude": 100.284
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 18.82,
+    "text": "Cancer 18°49′",
+    "longitude": 108.819
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 6.28,
+    "text": "Leo 6°17′",
+    "longitude": 126.28
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 8.51,
+    "text": "Gemini 8°31′",
+    "longitude": 68.513
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 2.53,
+    "text": "Pisces 2°32′",
+    "longitude": 332.532
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 20.15,
+    "text": "Gemini 20°09′",
+    "longitude": 80.15
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Grave and the Phalanx",
+   "stop": "Guise, the Familistere",
+   "date": "1858-01-01",
+   "date_confidence": "French Wikipedia dates Godin's discovery of Fourier to 1842 and construction from 1858 to 1859, continuing into the 1880s; the Societe du Familistere is dated 1880, the Monument Historique classification 4 July 1991, and Musee de France status from 2010. Month and day of the start of building are unrecorded and defaulted. The research pool carries two longitudes for the site, 3.6247 and 3.6253; the first is used and the divergence recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399680.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.36,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.355
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pedestal and the Manuscript",
+   "stop": "Boulevard de Clichy, the bronze",
+   "date": "1899-06-01",
+   "date_confidence": "French Wikipedia gives the Derre bronze, funded by public subscription, inaugurated June 1899 by the disciple Jean-Adolphe Alhaiza; the day is not given. Coordinates follow the boulevard de Clichy article, which places the pedestal on the central island at the level of the lycee Jules-Ferry. The research pool's two lenses disagree with each other here, 2.3281 against 2.3325, the latter being the place Blanche longitude some 300 metres east; the disagreement is recorded and not averaged.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414806.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.26,
+    "text": "Gemini 10°16′",
+    "longitude": 70.26
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pedestal and the Manuscript",
+   "stop": "Boulevard de Clichy, the metal drive",
+   "date": "1942-01-01",
+   "date_confidence": "French Wikipedia records the melting of the statue for metal by the occupying authorities under Vichy, without giving a year within the Occupation; the research pool brackets it 1941 to 1944 and 1942 is a placeholder inside that. The Breton detail is dated 1945 for the American West journey and 1947 for the publication of the Ode, both attested by French Wikipedia's Breton article and English Wikipedia's works list.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430360.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.955
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pedestal and the Manuscript",
+   "stop": "Besancon, the plaque on a street cut after him",
+   "date": "1950-01-01",
+   "date_confidence": "The plaque is attested by French Wikipedia's article on the rue Moncey, which quotes it: au n. 2, plaque commemorant le lieu de naissance du philosophe Charles Fourier (1772-1837). No date of installation is recorded anywhere reached, and the pool says only twentieth century; 1950 is an arbitrary placeholder used to order the segment. Coordinates corrected to the article's own geolocation of the street, about 120 metres from the pool's value.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "arbitrary",
+    "no month/day",
+    "ordering",
+    "decade/century",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pedestal and the Manuscript",
+   "stop": "Paris, the manuscript printed at last",
+   "date": "1967-01-01",
+   "date_confidence": "The 1967 Debout edition is attested by English Wikipedia; her L'Utopie de Charles Fourier is dated 1978 by French Wikipedia. Month and day unrecorded and defaulted. Coordinates are the corpus canonical Paris pin, standing for the publication rather than a located address. Barthes's Sade, Fourier, Loyola is dated 1971.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439491.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pedestal and the Manuscript",
+   "stop": "Boulevard de Clichy, the plaster copy",
+   "date": "1969-03-10",
+   "date_confidence": "Attested to the day by French Wikipedia, which credits libertarian and situationist groups and records that the copy was removed within days. The research pool placed this during a period of general strike, which is wrong: the general strike was May and June 1968, ten months earlier.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440290.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) span/window",
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (span/window, placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 19.25,
+    "text": "Pisces 19°15′",
+    "longitude": 349.255
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 1.88,
+    "text": "Sagittarius 1°53′",
+    "longitude": 241.877
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 26.13,
+    "text": "Aquarius 26°08′",
+    "longitude": 326.133
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 25.47,
+    "text": "Aries 25°28′",
+    "longitude": 25.472
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 5.45,
+    "text": "Sagittarius 5°27′",
+    "longitude": 245.448
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 2.66,
+    "text": "Libra 2°39′",
+    "longitude": 182.657
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 23.62,
+    "text": "Aries 23°37′",
+    "longitude": 23.624
+   }
+  },
+  {
+   "segment": "The Pedestal and the Manuscript",
+   "stop": "Boulevard de Clichy, the fourth apple",
+   "date": "2011-01-01",
+   "date_confidence": "French Wikipedia dates Franck Scurti's La Quatrieme Pomme to 2011 on the same pedestal; month and day unrecorded and defaulted. Fourier's apple anecdote, the Paris restaurant and the price comparison, is his own and is reported in the general biographical record rather than from a dated document.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2011,
+   "jd_ut": 2455562.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.21,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.21
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 7,
+  "month": 5,
+  "year": 32
+ },
+ "parse_failures": []
+}

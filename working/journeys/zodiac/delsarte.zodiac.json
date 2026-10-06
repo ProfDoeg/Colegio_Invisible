@@ -1,0 +1,975 @@
+{
+ "slug": "delsarte",
+ "traveler": "François Delsarte",
+ "title": "The Grammar of the Body: Solesmes to Paris",
+ "years": "1811-1871",
+ "years_parsed": {
+  "first": 1811,
+  "last": 1871
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "L'Enfant du Cambrésis: The Frozen Cradle (1811–1822)",
+  "stop": "Solesmes, the town of the North",
+  "date": "1811-11-19",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1811,
+  "jd_ut": 2382835.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Scorpio",
+   "degree": 25.81,
+   "text": "Scorpio 25°48′",
+   "longitude": 235.808
+  },
+  "moon": {
+   "sign": "Sagittarius",
+   "degree": 29.96,
+   "text": "Sagittarius 29°58′",
+   "longitude": 269.962
+  },
+  "mercury": {
+   "sign": "Scorpio",
+   "degree": 25.81,
+   "text": "Scorpio 25°48′",
+   "longitude": 235.806
+  },
+  "venus": {
+   "sign": "Sagittarius",
+   "degree": 5.35,
+   "text": "Sagittarius 5°21′",
+   "longitude": 245.348
+  },
+  "mars": {
+   "sign": "Aquarius",
+   "degree": 7.24,
+   "text": "Aquarius 7°15′",
+   "longitude": 307.244
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 5.28,
+   "text": "Cancer 5°17′",
+   "longitude": 95.276
+  },
+  "saturn": {
+   "sign": "Sagittarius",
+   "degree": 25.03,
+   "text": "Sagittarius 25°02′",
+   "longitude": 265.028
+  },
+  "conjunctions": [
+   {
+    "sign": "Sagittarius",
+    "bodies": [
+     "Moon",
+     "Venus",
+     "Saturn"
+    ]
+   }
+  ],
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1811-1871",
+  "first_year_parsed": 1811
+ },
+ "stops": [
+  {
+   "segment": "L'Enfant du Cambrésis: The Frozen Cradle (1811–1822)",
+   "stop": "Solesmes, the town of the North",
+   "date": "1811-11-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1811,
+   "jd_ut": 2382835.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 25.81,
+    "text": "Scorpio 25°48′",
+    "longitude": 235.808
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 29.96,
+    "text": "Sagittarius 29°58′",
+    "longitude": 269.962
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 25.81,
+    "text": "Scorpio 25°48′",
+    "longitude": 235.806
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 5.35,
+    "text": "Sagittarius 5°21′",
+    "longitude": 245.348
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 7.24,
+    "text": "Aquarius 7°15′",
+    "longitude": 307.244
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 5.28,
+    "text": "Cancer 5°17′",
+    "longitude": 95.276
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 25.03,
+    "text": "Sagittarius 25°02′",
+    "longitude": 265.028
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "L'Enfant du Cambrésis: The Frozen Cradle (1811–1822)",
+   "stop": "The road to Paris, the mother's flight",
+   "date": "1819-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385435.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.813
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "L'Enfant du Cambrésis: The Frozen Cradle (1811–1822)",
+   "stop": "Paris, the death of mother and brother",
+   "date": "1820-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1820,
+   "jd_ut": 2385952.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.35,
+    "text": "Gemini 10°21′",
+    "longitude": 70.352
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "L'Apprenti: The Porcelain and the Hunger (1822–1825)",
+   "stop": "Paris, apprenticed to the porcelain painter",
+   "date": "1822-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386531.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.09,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.09
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "L'Apprenti: The Porcelain and the Hunger (1822–1825)",
+   "stop": "Paris, the starving apprentice and Bambini",
+   "date": "1824-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387261.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.6,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.595
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Voix Perdue: The Ruined Voice (1825–1832)",
+   "stop": "Conservatoire de Paris, admission as pensioner",
+   "date": "1825-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387627.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.367
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Voix Perdue: The Ruined Voice (1825–1832)",
+   "stop": "Conservatoire de Paris, the voice breaks",
+   "date": "1829-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389088.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Voix Perdue: The Ruined Voice (1825–1832)",
+   "stop": "Opéra-Comique, the singer with the ruined instrument",
+   "date": "1830-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389604.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.95,
+    "text": "Gemini 9°57′",
+    "longitude": 69.952
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Savant de l'Expression: The Watcher in the City (1830–1839)",
+   "stop": "Jardin des Tuileries, the nurse and the child's thumb",
+   "date": "1833-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1833,
+   "jd_ut": 2390669.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.36,
+    "text": "Taurus 10°22′",
+    "longitude": 40.364
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Savant de l'Expression: The Watcher in the City (1830–1839)",
+   "stop": "Paris, marriage to Rosine Andrien",
+   "date": "1833-06-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1833,
+   "jd_ut": 2390703.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.09,
+    "text": "Gemini 13°05′",
+    "longitude": 73.087
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 0.89,
+    "text": "Capricornus 0°53′",
+    "longitude": 270.891
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 27.49,
+    "text": "Taurus 27°29′",
+    "longitude": 57.492
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 18.23,
+    "text": "Taurus 18°14′",
+    "longitude": 48.231
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 2.89,
+    "text": "Leo 2°53′",
+    "longitude": 122.89
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 26.13,
+    "text": "Aries 26°08′",
+    "longitude": 26.129
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 21.48,
+    "text": "Virgo 21°29′",
+    "longitude": 171.478
+   }
+  },
+  {
+   "segment": "Le Savant de l'Expression: The Watcher in the City (1830–1839)",
+   "stop": "Hôpitaux de Paris, the wards of the dying",
+   "date": "1834-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1834,
+   "jd_ut": 2390914.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.18,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.178
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Savant de l'Expression: The Watcher in the City (1830–1839)",
+   "stop": "The asylums and the graveside, the mad and the grieving",
+   "date": "1835-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391279.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.931
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Cours d'Esthétique Appliquée: The Master and the Salons (1839–1867)",
+   "stop": "Paris, the Course of Applied Aesthetics opens",
+   "date": "1839-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1839,
+   "jd_ut": 2392860.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.93,
+    "text": "Taurus 9°56′",
+    "longitude": 39.926
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Cours d'Esthétique Appliquée: The Master and the Salons (1839–1867)",
+   "stop": "The studio, the Law of Correspondence and the Trinity",
+   "date": "1845-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1845,
+   "jd_ut": 2394932.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.51,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.514
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Cours d'Esthétique Appliquée: The Master and the Salons (1839–1867)",
+   "stop": "The studio, the nine attitudes and the zones",
+   "date": "1848-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396027.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.772
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Cours d'Esthétique Appliquée: The Master and the Salons (1839–1867)",
+   "stop": "The salons, the great pupils gather",
+   "date": "1850-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396758.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.3,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.296
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Cours d'Esthétique Appliquée: The Master and the Salons (1839–1867)",
+   "stop": "The court, recitals before the kings",
+   "date": "1855-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398584.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.078
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Cours d'Esthétique Appliquée: The Master and the Salons (1839–1867)",
+   "stop": "The Sorbonne, the address before the Philotechnic Society",
+   "date": "1859-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400045.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.108
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "L'Héritier d'Amérique: The Doctrine Crosses the Sea (1869–1871)",
+   "stop": "Paris, Steele MacKaye at the master's feet",
+   "date": "1869-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403971.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.85,
+    "text": "Libra 7°51′",
+    "longitude": 187.851
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "L'Héritier d'Amérique: The Doctrine Crosses the Sea (1869–1871)",
+   "stop": "New York and Boston, the system reaches America",
+   "date": "1871-03-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404487.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.01,
+    "text": "Pisces 10°01′",
+    "longitude": 340.009
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Mort dans Paris Assiégée: The Siege and the Grave (1870–1871)",
+   "stop": "Paris, the siege closes round the master",
+   "date": "1870-09-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404324.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 25.84,
+    "text": "Virgo 25°50′",
+    "longitude": 175.842
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 6.39,
+    "text": "Cancer 6°23′",
+    "longitude": 96.387
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 19.3,
+    "text": "Libra 19°18′",
+    "longitude": 199.296
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 5.61,
+    "text": "Virgo 5°37′",
+    "longitude": 155.613
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 6.35,
+    "text": "Leo 6°21′",
+    "longitude": 126.352
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 25.45,
+    "text": "Gemini 25°27′",
+    "longitude": 85.446
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 22.14,
+    "text": "Sagittarius 22°09′",
+    "longitude": 262.142
+   }
+  },
+  {
+   "segment": "La Mort dans Paris Assiégée: The Siege and the Grave (1870–1871)",
+   "stop": "Paris, the death of François Delsarte",
+   "date": "1871-07-20",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404628.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.8,
+    "text": "Cancer 26°48′",
+    "longitude": 116.804
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 22.67,
+    "text": "Leo 22°40′",
+    "longitude": 142.667
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 6.34,
+    "text": "Leo 6°20′",
+    "longitude": 126.341
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 12.37,
+    "text": "Virgo 12°22′",
+    "longitude": 162.374
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 16.29,
+    "text": "Libra 16°17′",
+    "longitude": 196.288
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 12.75,
+    "text": "Cancer 12°45′",
+    "longitude": 102.755
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 4.8,
+    "text": "Capricornus 4°48′",
+    "longitude": 274.803
+   }
+  },
+  {
+   "segment": "La Mort dans Paris Assiégée: The Siege and the Grave (1870–1871)",
+   "stop": "The world after: Stebbins, Laban, Muybridge and the notated body",
+   "date": "1885-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409542.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.809
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 23,
+  "dated": 23,
+  "unparsed": 0,
+  "day": 4,
+  "month": 3,
+  "year": 16
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1874 @@
+{
+ "slug": "max_glucksmann",
+ "traveler": "Max Glücksmann (Mordechai David Glücksmann)",
+ "title": "The Counter on Bolivar: an Importer of Machines and the First Argentine Century of Film and Shellac",
+ "years": "1875-1946",
+ "years_parsed": {
+  "first": 1875,
+  "last": 1946
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Czernowitz and the Crossing",
+  "stop": "Czernowitz, the birth on the edge of the empire",
+  "date": "1875-03-08",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1875,
+  "jd_ut": 2405955.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Pisces",
+   "degree": 17.05,
+   "text": "Pisces 17°03′",
+   "longitude": 347.048
+  },
+  "moon": {
+   "sign": "Pisces",
+   "degree": 19.08,
+   "text": "Pisces 19°05′",
+   "longitude": 349.08
+  },
+  "mercury": {
+   "sign": "Pisces",
+   "degree": 5.08,
+   "text": "Pisces 5°05′",
+   "longitude": 335.081
+  },
+  "venus": {
+   "sign": "Aquarius",
+   "degree": 1.17,
+   "text": "Aquarius 1°10′",
+   "longitude": 301.167
+  },
+  "mars": {
+   "sign": "Sagittarius",
+   "degree": 12.39,
+   "text": "Sagittarius 12°23′",
+   "longitude": 252.386
+  },
+  "jupiter": {
+   "sign": "Scorpio",
+   "degree": 0.95,
+   "text": "Scorpio 0°57′",
+   "longitude": 210.947
+  },
+  "saturn": {
+   "sign": "Aquarius",
+   "degree": 19.97,
+   "text": "Aquarius 19°58′",
+   "longitude": 319.968
+  },
+  "conjunctions": [
+   {
+    "sign": "Pisces",
+    "bodies": [
+     "Sun",
+     "Moon",
+     "Mercury"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1875-1946",
+  "first_year_parsed": 1875
+ },
+ "stops": [
+  {
+   "segment": "Czernowitz and the Crossing",
+   "stop": "Czernowitz, the birth on the edge of the empire",
+   "date": "1875-03-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2405955.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 17.05,
+    "text": "Pisces 17°03′",
+    "longitude": 347.048
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 19.08,
+    "text": "Pisces 19°05′",
+    "longitude": 349.08
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 5.08,
+    "text": "Pisces 5°05′",
+    "longitude": 335.081
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 1.17,
+    "text": "Aquarius 1°10′",
+    "longitude": 301.167
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 12.39,
+    "text": "Sagittarius 12°23′",
+    "longitude": 252.386
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 0.95,
+    "text": "Scorpio 0°57′",
+    "longitude": 210.947
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 19.97,
+    "text": "Aquarius 19°58′",
+    "longitude": 319.968
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Czernowitz and the Crossing",
+   "stop": "Port of Buenos Aires, the landing",
+   "date": "1890-01-01",
+   "date_confidence": "year attested; month and day unrecorded, and no source consulted names the ship or the berth",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411368.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.591
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Casa Lepage, Bolivar 375",
+   "stop": "Casa Lepage, the photography assistant",
+   "date": "1891-01-01",
+   "date_confidence": "c. 1891; ES Wikipedia dates the job to 1890 in the same sentence in which it dates Lepage's own arrival to 1891, a contradiction left standing in the source; EN says only shortly after his arrival",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411733.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.343
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Casa Lepage, Bolivar 375",
+   "stop": "Teatro Odeon, the first cinematograph in Argentina",
+   "date": "1896-07-28",
+   "date_confidence": "day disputed: ES Wikipedia 'Max Glucksmann' gives 18 July 1896, EN 'Cinema of Argentina' and eugene_py.journey.json give 28 July 1896; not resolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413768.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 5.36,
+    "text": "Leo 5°22′",
+    "longitude": 125.362
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Casa Lepage, Bolivar 375",
+   "stop": "Casa Lepage, the order that goes to Paris instead",
+   "date": "1897-01-01",
+   "date_confidence": "year attested for the Cronofotografo Elge import; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Casa Lepage, Bolivar 375",
+   "stop": "Plaza de Mayo, the flag over the square",
+   "date": "1897-01-01",
+   "date_confidence": "year attested; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Casa Lepage, Bolivar 375",
+   "stop": "Casa Lepage, the rooster of Pathe",
+   "date": "1898-01-01",
+   "date_confidence": "reconstruction: the Pathe import is undated in the sources and is placed here only as following the 1897 Gaumont order",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Casa Lepage, Bolivar 375",
+   "stop": "Salon Nacional, Maipu 471",
+   "date": "1900-01-01",
+   "date_confidence": "year attested; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Casa Lepage, Bolivar 375",
+   "stop": "Santiago de Chile, the arbitration filmed for him",
+   "date": "1902-01-01",
+   "date_confidence": "year attested; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shellac, and the Purchase of the Firm",
+   "stop": "Berlin, the label he never visits",
+   "date": "1903-01-01",
+   "date_confidence": "EN 'Odeon Records' dates the label's founding to 1903; the Glücksmann articles date it to 1904, which is the year of his agency; the discrepancy is left standing",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.41,
+    "text": "Capricornus 9°25′",
+    "longitude": 279.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shellac, and the Purchase of the Firm",
+   "stop": "Buenos Aires, agent for Odeon",
+   "date": "1904-01-01",
+   "date_confidence": "year attested; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416480.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.17,
+    "text": "Capricornus 9°10′",
+    "longitude": 279.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shellac, and the Purchase of the Firm",
+   "stop": "Buenos Aires, the royalty nobody else pays",
+   "date": "1905-01-01",
+   "date_confidence": "the sources date the founding of Discos Glücksmann only to the 1900s; the year here is a placement within that decade",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416846.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.937
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shellac, and the Purchase of the Firm",
+   "stop": "Casa Lepage, the firm bought outright",
+   "date": "1908-01-01",
+   "date_confidence": "year attested; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shellac, and the Purchase of the Firm",
+   "stop": "The Argentine interior, halls without names",
+   "date": "1909-01-01",
+   "date_confidence": "reconstruction: the sources attest expansion into the interior from 1908 onward but name no town and no year, and the position is the country's geographic centre standing for all of them",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shellac, and the Purchase of the Firm",
+   "stop": "Montevideo, the other bank",
+   "date": "1910-01-01",
+   "date_confidence": "reconstruction: Uruguay is attested as a country of operation from 1908 onward, but no source names the first hall or the year it opened",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shellac, and the Purchase of the Firm",
+   "stop": "Asuncion, upriver",
+   "date": "1912-01-01",
+   "date_confidence": "reconstruction: Paraguay is attested as a country of operation, but city, venue and year are unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shellac, and the Purchase of the Firm",
+   "stop": "Buenos Aires, the only competitor marginalised",
+   "date": "1914-01-01",
+   "date_confidence": "year attested; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420133.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.75,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.749
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Screen and the Voice",
+   "stop": "Teatro Colon, Amalia before the President",
+   "date": "1914-12-12",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420478.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 19.13,
+    "text": "Sagittarius 19°08′",
+    "longitude": 259.132
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 8.7,
+    "text": "Libra 8°42′",
+    "longitude": 188.703
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 5.72,
+    "text": "Sagittarius 5°43′",
+    "longitude": 245.715
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 27.77,
+    "text": "Scorpio 27°46′",
+    "longitude": 237.771
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 22.38,
+    "text": "Sagittarius 22°23′",
+    "longitude": 262.384
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 18.51,
+    "text": "Aquarius 18°31′",
+    "longitude": 318.51
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 29.71,
+    "text": "Gemini 29°43′",
+    "longitude": 89.713
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Screen and the Voice",
+   "stop": "Buenos Aires, the Chilean reel",
+   "date": "1915-07-01",
+   "date_confidence": "the trade notice is dated July 1915; the shooting and processing are undated within that year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420679.5,
+   "precision": "month",
+   "precision_triggers": [
+    "undated"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.08,
+    "text": "Cancer 8°05′",
+    "longitude": 98.084
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Screen and the Voice",
+   "stop": "Buenos Aires, Gardel and Razzano under contract",
+   "date": "1917-01-01",
+   "date_confidence": "year attested; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Screen and the Voice",
+   "stop": "Buenos Aires, Mi noche triste",
+   "date": "1917-01-01",
+   "date_confidence": "year attested for the recording; the label is not named in the source, and the tie to Glucksmann's operation is a reconstruction from the exclusive contracts of the same year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Screen and the Voice",
+   "stop": "Avenida Santa Fe 1860, the ground broken",
+   "date": "1917-01-01",
+   "date_confidence": "construction initiated 1917 per EN and ES 'El Ateneo Grand Splendid'; the research chronology dated the commission to 1919, which is the year of the dome and the opening, and the discrepancy is left standing",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Screen and the Voice",
+   "stop": "Grand Splendid, the dome",
+   "date": "1919-01-01",
+   "date_confidence": "year attested for the completion of the dome; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Screen and the Voice",
+   "stop": "Grand Splendid, the figures under the dome",
+   "date": "1919-01-01",
+   "date_confidence": "year attested for the sculptural work; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Screen and the Voice",
+   "stop": "Grand Splendid, the opening",
+   "date": "1919-05-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422092.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 22.16,
+    "text": "Taurus 22°09′",
+    "longitude": 52.158
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 10.84,
+    "text": "Scorpio 10°51′",
+    "longitude": 220.842
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 27.15,
+    "text": "Aries 27°09′",
+    "longitude": 27.154
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 1.4,
+    "text": "Cancer 1°24′",
+    "longitude": 91.4
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 21.12,
+    "text": "Taurus 21°07′",
+    "longitude": 51.116
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 13.08,
+    "text": "Cancer 13°05′",
+    "longitude": 103.078
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 21.83,
+    "text": "Leo 21°50′",
+    "longitude": 141.828
+   }
+  },
+  {
+   "segment": "The Screen and the Voice",
+   "stop": "Grand Splendid, the studio in the house",
+   "date": "1920-01-01",
+   "date_confidence": "year attested; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decade of the Machine",
+   "stop": "Radio Splendid, the signal",
+   "date": "1923-05-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423562.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.86,
+    "text": "Gemini 0°51′",
+    "longitude": 60.856
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 23.29,
+    "text": "Leo 23°17′",
+    "longitude": 143.289
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 9.78,
+    "text": "Gemini 9°47′",
+    "longitude": 69.784
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 1.67,
+    "text": "Taurus 1°40′",
+    "longitude": 31.672
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 24.79,
+    "text": "Gemini 24°47′",
+    "longitude": 84.787
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 11.85,
+    "text": "Scorpio 11°51′",
+    "longitude": 221.854
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 13.96,
+    "text": "Libra 13°58′",
+    "longitude": 193.965
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Decade of the Machine",
+   "stop": "Buenos Aires, the first Concurso del Disco Nacional",
+   "date": "1924-01-01",
+   "date_confidence": "year attested; month, day and venue unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423785.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.31,
+    "text": "Capricornus 9°19′",
+    "longitude": 279.313
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decade of the Machine",
+   "stop": "Montevideo, the contest crosses the river",
+   "date": "1927-01-01",
+   "date_confidence": "year attested; month, day and venue unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decade of the Machine",
+   "stop": "Montevideo, the second edition",
+   "date": "1928-01-01",
+   "date_confidence": "year attested; month, day and venue unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decade of the Machine",
+   "stop": "Montaneses 2130, the plant in Belgrano",
+   "date": "1928-11-01",
+   "date_confidence": "month and year attested; day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425551.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.34,
+    "text": "Scorpio 8°20′",
+    "longitude": 218.336
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decade of the Machine",
+   "stop": "Grand Splendid, the first sound films",
+   "date": "1929-01-01",
+   "date_confidence": "year attested; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decade of the Machine",
+   "stop": "Radio Splendid, Gardel on the air",
+   "date": "1929-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425885.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.33,
+    "text": "Libra 7°20′",
+    "longitude": 187.332
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decade of the Machine",
+   "stop": "Buenos Aires, the halls sold",
+   "date": "1929-11-01",
+   "date_confidence": "the sale is attested as a consequence of the 1929 crash; no source gives a month, and November is placed as following the October collapse",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425916.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "no source (for the date)",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.09,
+    "text": "Scorpio 8°06′",
+    "longitude": 218.093
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decade of the Machine",
+   "stop": "Buenos Aires, the seventh contest",
+   "date": "1930-01-01",
+   "date_confidence": "year attested; month, day and venue unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2425977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.867
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nacional-Odeon, and the Taking of the Archive",
+   "stop": "Templo Libertad, the disputed gift",
+   "date": "1925-01-01",
+   "date_confidence": "reconstruction: the sole basis is a grandson's recollection printed in Clarin in 2000, giving a span of 1925 to 1942; the year here is the opening of that span, and the congregation's own history does not corroborate it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nacional-Odeon, and the Taking of the Archive",
+   "stop": "Buenos Aires, the label absorbed",
+   "date": "1931-01-01",
+   "date_confidence": "year attested; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nacional-Odeon, and the Taking of the Archive",
+   "stop": "Buenos Aires, the archive expropriated",
+   "date": "1944-01-01",
+   "date_confidence": "the expropriation is dated only to the period after the 1943 coup in the source; month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431090.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.46,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.46
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nacional-Odeon, and the Taking of the Archive",
+   "stop": "Buenos Aires, the heart attack",
+   "date": "1946-10-20",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2432113.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 26.0,
+    "text": "Libra 26°00′",
+    "longitude": 206.004
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 26.89,
+    "text": "Leo 26°54′",
+    "longitude": 146.892
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 17.31,
+    "text": "Scorpio 17°19′",
+    "longitude": 227.313
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 1.24,
+    "text": "Sagittarius 1°14′",
+    "longitude": 241.241
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 17.41,
+    "text": "Scorpio 17°24′",
+    "longitude": 227.405
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 5.22,
+    "text": "Scorpio 5°13′",
+    "longitude": 215.224
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 7.96,
+    "text": "Leo 7°58′",
+    "longitude": 127.961
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Nacional-Odeon, and the Taking of the Archive",
+   "stop": "Ciudadela, the Jewish cemetery",
+   "date": "1946-10-21",
+   "date_confidence": "reconstruction: the cemetery is named by a single source and could not be checked against its registers; the day after the death is a placement, not an attested burial date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2432114.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 27.0,
+    "text": "Libra 27°00′",
+    "longitude": 206.998
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What Outlasts Him",
+   "stop": "Buenos Aires, what the nitrate did",
+   "date": "1978-02-05",
+   "date_confidence": "attested date of the newspaper article in which the judgment is printed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443544.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 15.84,
+    "text": "Aquarius 15°50′",
+    "longitude": 315.838
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 9.39,
+    "text": "Capricornus 9°24′",
+    "longitude": 279.393
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 0.54,
+    "text": "Aquarius 0°32′",
+    "longitude": 300.537
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 19.14,
+    "text": "Aquarius 19°09′",
+    "longitude": 319.144
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 26.41,
+    "text": "Cancer 26°25′",
+    "longitude": 116.409
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 26.47,
+    "text": "Gemini 26°28′",
+    "longitude": 86.473
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 28.15,
+    "text": "Leo 28°09′",
+    "longitude": 148.154
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "What Outlasts Him",
+   "stop": "Avenida Santa Fe 1860, the last projection",
+   "date": "1999-01-01",
+   "date_confidence": "the building ran as theatre and cinema until 1982 and as cinema alone until 1999; the exact closing date is not given in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1999,
+   "jd_ut": 2451179.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What Outlasts Him",
+   "stop": "El Ateneo Grand Splendid, the bookshop",
+   "date": "2000-12-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451882.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 12.15,
+    "text": "Sagittarius 12°09′",
+    "longitude": 252.153
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 10.33,
+    "text": "Pisces 10°20′",
+    "longitude": 340.33
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 0.25,
+    "text": "Sagittarius 0°15′",
+    "longitude": 240.248
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 24.89,
+    "text": "Capricornus 24°53′",
+    "longitude": 294.889
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 18.28,
+    "text": "Libra 18°17′",
+    "longitude": 198.28
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 5.47,
+    "text": "Gemini 5°28′",
+    "longitude": 65.466
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 26.01,
+    "text": "Taurus 26°01′",
+    "longitude": 56.009
+   }
+  },
+  {
+   "segment": "What Outlasts Him",
+   "stop": "Casa Lepage, the plaque on Bolivar",
+   "date": "2000-01-01",
+   "date_confidence": "reconstruction: the plaque is attested but the source gives no installation date, and the year here is a placeholder within the period the source describes",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451544.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.874
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 7,
+  "month": 3,
+  "year": 34
+ },
+ "parse_failures": []
+}

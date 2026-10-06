@@ -1,0 +1,2074 @@
+{
+ "slug": "pierre_francois_bouchard",
+ "traveler": "Pierre-François-Xavier Bouchard",
+ "title": "The Wall at Fort Julien: an Engineer of the Republic, Five Captivities, and the Stone He Handed Over",
+ "years": "1771-1822",
+ "years_parsed": {
+  "first": 1771,
+  "last": 1822
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Jura, the Republic, the Schools",
+  "stop": "Orgelet, the joiner's youngest son",
+  "date": "1771-04-29",
+  "date_confidence": "attested; the coordinate follows the accurate Orgelet fix, 46.5217 by 5.6114, and not the variant pin about a kilometre southeast that circulates in the same research pool",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1771,
+  "jd_ut": 2368022.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 8.43,
+   "text": "Taurus 8°26′",
+   "longitude": 38.425
+  },
+  "moon": {
+   "sign": "Scorpio",
+   "degree": 7.39,
+   "text": "Scorpio 7°24′",
+   "longitude": 217.394
+  },
+  "mercury": {
+   "sign": "Taurus",
+   "degree": 20.48,
+   "text": "Taurus 20°29′",
+   "longitude": 50.483
+  },
+  "venus": {
+   "sign": "Pisces",
+   "degree": 25.57,
+   "text": "Pisces 25°34′",
+   "longitude": 355.569
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 19.98,
+   "text": "Cancer 19°59′",
+   "longitude": 109.98
+  },
+  "jupiter": {
+   "sign": "Capricornus",
+   "degree": 27.08,
+   "text": "Capricornus 27°05′",
+   "longitude": 297.076
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 9.66,
+   "text": "Leo 9°39′",
+   "longitude": 129.657
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1771-1822",
+  "first_year_parsed": 1771
+ },
+ "stops": [
+  {
+   "segment": "The Jura, the Republic, the Schools",
+   "stop": "Orgelet, the joiner's youngest son",
+   "date": "1771-04-29",
+   "date_confidence": "attested; the coordinate follows the accurate Orgelet fix, 46.5217 by 5.6114, and not the variant pin about a kilometre southeast that circulates in the same research pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1771,
+   "jd_ut": 2368022.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 8.43,
+    "text": "Taurus 8°26′",
+    "longitude": 38.425
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 7.39,
+    "text": "Scorpio 7°24′",
+    "longitude": 217.394
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 20.48,
+    "text": "Taurus 20°29′",
+    "longitude": 50.483
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 25.57,
+    "text": "Pisces 25°34′",
+    "longitude": 355.569
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 19.98,
+    "text": "Cancer 19°59′",
+    "longitude": 109.98
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 27.08,
+    "text": "Capricornus 27°05′",
+    "longitude": 297.076
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 9.66,
+    "text": "Leo 9°39′",
+    "longitude": 129.657
+   }
+  },
+  {
+   "segment": "The Jura, the Republic, the Schools",
+   "stop": "Orgelet, the collège through the rhetoric class",
+   "date": "1785-01-01",
+   "date_confidence": "inferred; the sources attest that he completed the collège of Orgelet through the rhetoric class but give no years, and the date here is a placeholder for his mid-teens",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1785,
+   "jd_ut": 2373018.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.09,
+    "text": "Capricornus 11°05′",
+    "longitude": 281.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Jura, the Republic, the Schools",
+   "stop": "Besançon, two years of philosophy and mathematics",
+   "date": "1789-01-01",
+   "date_confidence": "attested as two years at Besançon, dated in the pool to about 1789 to 1791; the month and day are defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1789,
+   "jd_ut": 2374479.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.12,
+    "text": "Capricornus 11°07′",
+    "longitude": 281.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Jura, the Republic, the Schools",
+   "stop": "Paris, sergeant-major of the Grenadiers",
+   "date": "1793-01-01",
+   "date_confidence": "year attested; month and day not given in the sources and defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2375940.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.15,
+    "text": "Capricornus 11°09′",
+    "longitude": 281.15
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Jura, the Republic, the Schools",
+   "stop": "Meudon, the hydrogen and the eyes",
+   "date": "1794-01-01",
+   "date_confidence": "year attested; month and day not given in the sources and defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1794,
+   "jd_ut": 2376305.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.903
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Jura, the Republic, the Schools",
+   "stop": "Paris, the Hôtel de Lassay and Monge",
+   "date": "1796-11-21",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1796,
+   "jd_ut": 2377360.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 29.49,
+    "text": "Scorpio 29°29′",
+    "longitude": 239.486
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 19.41,
+    "text": "Leo 19°25′",
+    "longitude": 139.414
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.33,
+    "text": "Scorpio 11°20′",
+    "longitude": 221.329
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 16.24,
+    "text": "Libra 16°15′",
+    "longitude": 196.244
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 18.64,
+    "text": "Aquarius 18°39′",
+    "longitude": 318.643
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 4.06,
+    "text": "Pisces 4°04′",
+    "longitude": 334.061
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 26.47,
+    "text": "Gemini 26°28′",
+    "longitude": 86.468
+   }
+  },
+  {
+   "segment": "The Jura, the Republic, the Schools",
+   "stop": "Paris, the marriage of 23 April",
+   "date": "1798-04-23",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377878.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.05,
+    "text": "Taurus 3°03′",
+    "longitude": 33.05
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 24.34,
+    "text": "Cancer 24°20′",
+    "longitude": 114.339
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 19.71,
+    "text": "Taurus 19°42′",
+    "longitude": 49.706
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 22.81,
+    "text": "Pisces 22°49′",
+    "longitude": 352.812
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 2.08,
+    "text": "Aquarius 2°05′",
+    "longitude": 302.078
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 2.87,
+    "text": "Taurus 2°52′",
+    "longitude": 32.866
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 7.27,
+    "text": "Cancer 7°16′",
+    "longitude": 97.265
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fleet and the Delta",
+   "stop": "Toulon, aboard the Franklin",
+   "date": "1798-05-19",
+   "date_confidence": "attested to the day for the embarkation; the fleet's sailing is dated in the pool to May 1798",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377904.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.19,
+    "text": "Taurus 28°11′",
+    "longitude": 58.186
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 7.4,
+    "text": "Cancer 7°24′",
+    "longitude": 97.402
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 10.31,
+    "text": "Gemini 10°18′",
+    "longitude": 70.308
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 12.46,
+    "text": "Aries 12°27′",
+    "longitude": 12.456
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 17.48,
+    "text": "Aquarius 17°29′",
+    "longitude": 317.48
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 9.03,
+    "text": "Taurus 9°02′",
+    "longitude": 39.028
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 9.73,
+    "text": "Cancer 9°44′",
+    "longitude": 99.735
+   }
+  },
+  {
+   "segment": "The Fleet and the Delta",
+   "stop": "Valletta, the Knights give way",
+   "date": "1798-06-11",
+   "date_confidence": "attested to 10 to 12 June 1798; the middle day is used",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377927.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.22,
+    "text": "Gemini 20°13′",
+    "longitude": 80.216
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 9.88,
+    "text": "Taurus 9°53′",
+    "longitude": 39.881
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 2.26,
+    "text": "Gemini 2°16′",
+    "longitude": 62.26
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 5.21,
+    "text": "Taurus 5°13′",
+    "longitude": 35.211
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 29.61,
+    "text": "Aquarius 29°37′",
+    "longitude": 329.611
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 14.18,
+    "text": "Taurus 14°11′",
+    "longitude": 44.184
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 12.42,
+    "text": "Cancer 12°25′",
+    "longitude": 102.424
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fleet and the Delta",
+   "stop": "Alexandria, the landing",
+   "date": "1798-07-01",
+   "date_confidence": "attested; the fleet raised Alexandria on 1 July 1798 and the city fell on 2 July, all troops ashore by 3 to 4 July. One summary of Bouchard's life dates his landing to 4 July 1799, which is a year-typo: he found the stone at Rosetta in July 1799",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377947.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.29,
+    "text": "Cancer 9°18′",
+    "longitude": 99.292
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 11.2,
+    "text": "Aquarius 11°12′",
+    "longitude": 311.2
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 19.82,
+    "text": "Gemini 19°49′",
+    "longitude": 79.82
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 26.85,
+    "text": "Taurus 26°51′",
+    "longitude": 56.846
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 8.05,
+    "text": "Pisces 8°03′",
+    "longitude": 338.047
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 18.24,
+    "text": "Taurus 18°14′",
+    "longitude": 48.24
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 14.97,
+    "text": "Cancer 14°58′",
+    "longitude": 104.971
+   }
+  },
+  {
+   "segment": "The Fleet and the Delta",
+   "stop": "Imbaba, the march on Cairo",
+   "date": "1798-07-21",
+   "date_confidence": "attested for the battle; the coordinate is Imbaba on the Nile, where the fighting was, and not the Giza pyramid pin that circulates under the name of the battle",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377967.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 28.37,
+    "text": "Cancer 28°22′",
+    "longitude": 118.368
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 7.51,
+    "text": "Scorpio 7°30′",
+    "longitude": 217.506
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 28.91,
+    "text": "Cancer 28°55′",
+    "longitude": 118.909
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 19.47,
+    "text": "Gemini 19°28′",
+    "longitude": 79.469
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 13.16,
+    "text": "Pisces 13°10′",
+    "longitude": 343.162
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 21.7,
+    "text": "Taurus 21°42′",
+    "longitude": 51.704
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 17.56,
+    "text": "Cancer 17°34′",
+    "longitude": 107.565
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fleet and the Delta",
+   "stop": "Cairo, the Institut d'Égypte",
+   "date": "1798-08-22",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377999.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 29.06,
+    "text": "Leo 29°04′",
+    "longitude": 149.061
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 9.8,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.796
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 24.21,
+    "text": "Virgo 24°12′",
+    "longitude": 174.206
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 27.04,
+    "text": "Cancer 27°02′",
+    "longitude": 117.042
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 11.29,
+    "text": "Pisces 11°17′",
+    "longitude": 341.287
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 25.47,
+    "text": "Taurus 25°28′",
+    "longitude": 55.474
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 21.47,
+    "text": "Cancer 21°28′",
+    "longitude": 111.465
+   }
+  },
+  {
+   "segment": "Fort Julien and the Stone",
+   "stop": "Fort Julien, the wall comes down",
+   "date": "1799-07-15",
+   "date_confidence": "contested and not resolved: the biography gives 15 or 19 July 1799, French sources give 19 July specifically, and Budge's 1913 account says August 1799. The earliest of the candidate dates is used and the others are recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378326.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.41,
+    "text": "Cancer 22°25′",
+    "longitude": 112.41
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 25.97,
+    "text": "Sagittarius 25°58′",
+    "longitude": 265.966
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 3.74,
+    "text": "Leo 3°44′",
+    "longitude": 123.737
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 6.58,
+    "text": "Virgo 6°35′",
+    "longitude": 156.575
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 12.85,
+    "text": "Leo 12°51′",
+    "longitude": 132.854
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 19.18,
+    "text": "Gemini 19°11′",
+    "longitude": 79.175
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 28.96,
+    "text": "Cancer 28°58′",
+    "longitude": 118.961
+   }
+  },
+  {
+   "segment": "Fort Julien and the Stone",
+   "stop": "Rosetta, the report to Menou",
+   "date": "1799-07-16",
+   "date_confidence": "reconstructed; the report to Menou is attested but not dated, and is placed here on the day after the earliest candidate date for the find",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378327.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 23.36,
+    "text": "Cancer 23°22′",
+    "longitude": 113.365
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fort Julien and the Stone",
+   "stop": "Cairo, Lancret before the Institut",
+   "date": "1799-07-19",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378330.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.23,
+    "text": "Cancer 26°14′",
+    "longitude": 116.228
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 20.17,
+    "text": "Aquarius 20°10′",
+    "longitude": 320.168
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 11.27,
+    "text": "Leo 11°16′",
+    "longitude": 131.274
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 10.86,
+    "text": "Virgo 10°52′",
+    "longitude": 160.858
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 15.37,
+    "text": "Leo 15°22′",
+    "longitude": 135.374
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 20.01,
+    "text": "Gemini 20°01′",
+    "longitude": 80.014
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 29.48,
+    "text": "Cancer 29°29′",
+    "longitude": 119.477
+   }
+  },
+  {
+   "segment": "Fort Julien and the Stone",
+   "stop": "Cairo, the stone delivered",
+   "date": "1799-08-15",
+   "date_confidence": "attested as the middle of August 1799; the day is a placeholder for that phrase",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378357.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 22.09,
+    "text": "Leo 22°05′",
+    "longitude": 142.086
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fort Julien and the Stone",
+   "stop": "Cairo, the Courrier de l'Égypte",
+   "date": "1799-09-01",
+   "date_confidence": "attested to September 1799; the day is not recorded and is defaulted to the first",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378374.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.5,
+    "text": "Virgo 8°30′",
+    "longitude": 158.496
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prisoner in the East",
+   "stop": "El-Arish, the fort opened",
+   "date": "1799-12-30",
+   "date_confidence": "reconstructed to late December 1799; the pool's own placement of this capture in January 1800, at the collapse of the convention, reverses the sequence, since the fort fell before the convention was signed on 24 January 1800",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378494.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "convention",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.4,
+    "text": "Capricornus 8°24′",
+    "longitude": 278.398
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prisoner in the East",
+   "stop": "Damascus, forty-two days",
+   "date": "1800-01-15",
+   "date_confidence": "attested as forty-two days of imprisonment at Damascus following the El-Arish capture; the pool dates it to 1800, and the day here is a placeholder inside that window",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1800,
+   "jd_ut": 2378510.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "year named only",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 24.7,
+    "text": "Capricornus 24°42′",
+    "longitude": 294.705
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prisoner in the East",
+   "stop": "Cairo, captain of engineers",
+   "date": "1800-05-01",
+   "date_confidence": "attested to the day; the place within Egypt is not specified in the sources and Cairo is used as the marker",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1800,
+   "jd_ut": 2378616.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not given) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.35,
+    "text": "Taurus 10°21′",
+    "longitude": 40.348
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 26.83,
+    "text": "Cancer 26°50′",
+    "longitude": 116.834
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 21.8,
+    "text": "Aries 21°48′",
+    "longitude": 21.801
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 14.72,
+    "text": "Aries 14°43′",
+    "longitude": 14.723
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 0.65,
+    "text": "Pisces 0°39′",
+    "longitude": 330.648
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 29.25,
+    "text": "Gemini 29°15′",
+    "longitude": 89.249
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 4.04,
+    "text": "Leo 4°03′",
+    "longitude": 124.043
+   }
+  },
+  {
+   "segment": "Prisoner in the East",
+   "stop": "Fort Julien, taken a second time",
+   "date": "1801-04-01",
+   "date_confidence": "year attested; the month is reconstructed from the British advance up the Rosetta branch in the spring of 1801 and is not given in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2378951.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "to the year",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.8,
+    "text": "Aries 10°48′",
+    "longitude": 10.802
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prisoner in the East",
+   "stop": "Marseille, the landing home",
+   "date": "1801-07-30",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2379071.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 6.28,
+    "text": "Leo 6°17′",
+    "longitude": 126.277
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 6.19,
+    "text": "Aries 6°12′",
+    "longitude": 6.192
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 19.4,
+    "text": "Leo 19°24′",
+    "longitude": 139.403
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 20.76,
+    "text": "Gemini 20°45′",
+    "longitude": 80.758
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 4.03,
+    "text": "Virgo 4°02′",
+    "longitude": 154.035
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.36,
+    "text": "Leo 13°22′",
+    "longitude": 133.359
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 24.78,
+    "text": "Leo 24°47′",
+    "longitude": 144.783
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Antilles",
+   "stop": "Brest, the fleet for Saint-Domingue",
+   "date": "1801-12-14",
+   "date_confidence": "attested to the day for the fleet's departure from Brest; the pool's compression of embarkation and capture into a single 1801 entry is corrected here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2379208.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 21.6,
+    "text": "Sagittarius 21°36′",
+    "longitude": 261.602
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 9.96,
+    "text": "Aries 9°57′",
+    "longitude": 9.956
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 0.39,
+    "text": "Sagittarius 0°24′",
+    "longitude": 240.392
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 29.05,
+    "text": "Scorpio 29°03′",
+    "longitude": 239.052
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 5.55,
+    "text": "Sagittarius 5°33′",
+    "longitude": 245.546
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 5.6,
+    "text": "Virgo 5°36′",
+    "longitude": 155.596
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 7.56,
+    "text": "Virgo 7°34′",
+    "longitude": 157.564
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Antilles",
+   "stop": "Paris, a daughter born while he is at sea",
+   "date": "1802-01-01",
+   "date_confidence": "year attested; month, day, and the town within France are not given in the sources and are defaulted, with Paris used as the marker",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379226.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.943
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Antilles",
+   "stop": "Cap-Français, the fever colony",
+   "date": "1802-06-01",
+   "date_confidence": "reconstructed; the yellow fever is attested but undated, and neither the port nor the station within Saint-Domingue is specified in the sources. Cap-Français is used as the marker",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379377.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.73,
+    "text": "Gemini 9°44′",
+    "longitude": 69.73
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Antilles",
+   "stop": "Cap-Français, the surrender of the colony",
+   "date": "1803-11-30",
+   "date_confidence": "reconstructed to late 1803: the French position collapsed after Vertières on 18 November 1803 and the last troops left by the end of December. The pool's dating of this capture to 1801 is three years early and is corrected here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1803,
+   "jd_ut": 2379924.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 6.88,
+    "text": "Sagittarius 6°53′",
+    "longitude": 246.882
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Antilles",
+   "stop": "Kingston, parole in Jamaica",
+   "date": "1804-08-01",
+   "date_confidence": "the release on parole is attested to August 1804; the day is defaulted, and the place of internment within Jamaica is not named in the sources, with Kingston used as the marker",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1804,
+   "jd_ut": 2380169.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.45,
+    "text": "Leo 8°27′",
+    "longitude": 128.455
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vendée and the Peninsula",
+   "stop": "Napoléon-Vendée, the works in the west",
+   "date": "1805-01-01",
+   "date_confidence": "reconstruction: the sources place his construction work in the Vendée across 1805 to 1807 without detail, and the month and day are defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380322.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.22,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.22
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vendée and the Peninsula",
+   "stop": "Irun, the crossing into Spain",
+   "date": "1807-11-01",
+   "date_confidence": "reconstruction: the seven years of Peninsular service beginning in 1807 are attested, but no crossing point or date is documented for Bouchard individually and the Bidasoa pass stands as the army's route",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1807,
+   "jd_ut": 2381356.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.67,
+    "text": "Scorpio 7°40′",
+    "longitude": 217.669
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vendée and the Peninsula",
+   "stop": "Bailén, the capitulation of Dupont",
+   "date": "1808-07-22",
+   "date_confidence": "attested; the fighting ran 16 to 19 July 1808 and the capitulation was signed on 22 July. The apparent conflict between the two dates in the sources is a battle and its consequence, three days apart, and not a contradiction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1808,
+   "jd_ut": 2381620.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (sequencing, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 28.93,
+    "text": "Cancer 28°56′",
+    "longitude": 118.926
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 10.38,
+    "text": "Cancer 10°23′",
+    "longitude": 100.379
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 11.59,
+    "text": "Leo 11°35′",
+    "longitude": 131.59
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 25.58,
+    "text": "Cancer 25°35′",
+    "longitude": 115.579
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 5.46,
+    "text": "Cancer 5°28′",
+    "longitude": 95.463
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 17.89,
+    "text": "Pisces 17°54′",
+    "longitude": 347.894
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 15.39,
+    "text": "Scorpio 15°23′",
+    "longitude": 225.386
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Vendée and the Peninsula",
+   "stop": "Cádiz Bay, the hulks and the island",
+   "date": "1808-10-01",
+   "date_confidence": "reconstruction, and flagged as such: the fate of the Bailén prisoners is attested, but whether Bouchard passed through the hulks, or was exchanged or paroled early, is not established in the sources consulted. Month and day are defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1808,
+   "jd_ut": 2381691.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.63,
+    "text": "Libra 7°38′",
+    "longitude": 187.625
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vendée and the Peninsula",
+   "stop": "Amarante, the bridge on the Tâmega",
+   "date": "1809-05-01",
+   "date_confidence": "the action at Amarante is attested to 1809 without a day in the sources consulted; the month and day are defaulted. The promotion to chef de bataillon that follows is attested to 24 November 1809",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1809,
+   "jd_ut": 2381903.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.18,
+    "text": "Taurus 10°11′",
+    "longitude": 40.176
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vendée and the Peninsula",
+   "stop": "Coimbra, the Portuguese campaigns and the Legion of Honour",
+   "date": "1810-09-01",
+   "date_confidence": "reconstruction: the service through Masséna's invasion and the campaigns of 1810 to 1811 is attested and the Legion of Honour is dated to 1811, but no engagement is named for him and the coordinate marks central Portugal as a theatre rather than an attested position",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1810,
+   "jd_ut": 2382391.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.86,
+    "text": "Virgo 7°51′",
+    "longitude": 157.856
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vendée and the Peninsula",
+   "stop": "Astorga, the garrison surrenders",
+   "date": "1812-08-18",
+   "date_confidence": "attested: the siege of Astorga ran 29 June to 19 August 1812 and the garrison surrendered on 18 August. Sources dating this capture to September confuse it with his shipment to England; sources dating it to 1810 confuse it with the earlier siege, in which the French were the besiegers",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383108.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.84,
+    "text": "Leo 24°50′",
+    "longitude": 144.836
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 25.66,
+    "text": "Sagittarius 25°40′",
+    "longitude": 265.658
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 22.17,
+    "text": "Virgo 22°10′",
+    "longitude": 172.174
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 1.83,
+    "text": "Leo 1°50′",
+    "longitude": 121.831
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 17.84,
+    "text": "Leo 17°50′",
+    "longitude": 137.839
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 26.37,
+    "text": "Cancer 26°22′",
+    "longitude": 116.368
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 1.32,
+    "text": "Capricornus 1°19′",
+    "longitude": 271.323
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "England, the Restoration, and Givet",
+   "stop": "Portsmouth, shipped to England",
+   "date": "1812-09-01",
+   "date_confidence": "the shipment to England is attested to September 1812; the day is defaulted, and the depot or hulk that held him is not named in the sources. Portsmouth is an approximate marker, not an attested location",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383122.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.36,
+    "text": "Virgo 8°21′",
+    "longitude": 158.357
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "England, the Restoration, and Givet",
+   "stop": "Paris, home under the Restoration",
+   "date": "1814-07-01",
+   "date_confidence": "attested to July 1814; the day is not recorded and is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383790.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.47,
+    "text": "Cancer 8°28′",
+    "longitude": 98.467
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "England, the Restoration, and Givet",
+   "stop": "Orléans, chief engineer",
+   "date": "1814-09-01",
+   "date_confidence": "year attested; the month is reconstructed from the sequence after his July return and is not given in the sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383852.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "not given",
+    "to the year",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.89,
+    "text": "Virgo 7°53′",
+    "longitude": 157.888
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "England, the Restoration, and Givet",
+   "stop": "Laon, the Hundred Days",
+   "date": "1815-06-01",
+   "date_confidence": "year attested; month and day not given in the sources and defaulted to the month of Waterloo",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384125.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.59,
+    "text": "Gemini 9°36′",
+    "longitude": 69.594
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "England, the Restoration, and Givet",
+   "stop": "Arras, the fortified towns of the north",
+   "date": "1816-01-01",
+   "date_confidence": "1816 is the date the atlas follows; sources placing the reinstatement in 1815 contradict the half-pay of that same year, and two mutually exclusive states cannot share one year. Month and day are defaulted, and the coordinate marks the northern fortified belt rather than one attested town",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1816,
+   "jd_ut": 2384339.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.54,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.536
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "England, the Restoration, and Givet",
+   "stop": "Givet, death at his post",
+   "date": "1822-08-05",
+   "date_confidence": "attested to the day; the coordinate is the accurate Givet fix, and the fort of Charlemont stands on the promontory upstream on the left bank, not at the town-centre pin that circulates for this event",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386747.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 11.95,
+    "text": "Leo 11°57′",
+    "longitude": 131.95
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 5.75,
+    "text": "Pisces 5°45′",
+    "longitude": 335.753
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 22.89,
+    "text": "Cancer 22°53′",
+    "longitude": 112.886
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 7.42,
+    "text": "Cancer 7°25′",
+    "longitude": 97.424
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 11.99,
+    "text": "Libra 11°59′",
+    "longitude": 191.991
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 2.52,
+    "text": "Gemini 2°31′",
+    "longitude": 62.518
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 9.76,
+    "text": "Taurus 9°46′",
+    "longitude": 39.759
+   }
+  },
+  {
+   "segment": "The Stone Without Him",
+   "stop": "Alexandria, the stone surrendered",
+   "date": "1801-09-01",
+   "date_confidence": "year attested; the sources consulted give only 1801 for the Capitulation of Alexandria and the transfer of the antiquities, and the month here orders the event after Bouchard's 30 July repatriation",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2379104.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.03,
+    "text": "Virgo 8°02′",
+    "longitude": 158.028
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Stone Without Him",
+   "stop": "Portsmouth, the Égyptienne comes in",
+   "date": "1802-02-01",
+   "date_confidence": "attested to February 1802; the day is not recorded in the sources consulted and is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379257.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.49,
+    "text": "Aquarius 11°30′",
+    "longitude": 311.493
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Stone Without Him",
+   "stop": "London, the British Museum",
+   "date": "1802-06-01",
+   "date_confidence": "year attested; the month is not given in the sources consulted and is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379377.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.73,
+    "text": "Gemini 9°44′",
+    "longitude": 69.73
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Stone Without Him",
+   "stop": "Paris, Champollion reads it",
+   "date": "1822-09-01",
+   "date_confidence": "the year 1822 is attested for the announcement; the month is a placeholder that orders it after Bouchard's death on 5 August of the same year, and the sources consulted give no day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386774.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.95,
+    "text": "Virgo 7°57′",
+    "longitude": 157.951
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Stone Without Him",
+   "stop": "Figeac, the replica in the other man's town",
+   "date": "2026-01-01",
+   "date_confidence": "not a dated event: the sources record the Kosuth replica at Figeac and the absence of any Bouchard monument as a present state of the record, with no installation date given, and the date field carries the date of compilation",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461041.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.58,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.576
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 16,
+  "month": 5,
+  "year": 24
+ },
+ "parse_failures": []
+}

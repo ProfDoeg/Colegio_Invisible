@@ -1,0 +1,1810 @@
+{
+ "slug": "el_golem",
+ "traveler": "El Gólem",
+ "title": "The Unformed Thing: from a Word in the Psalter to a Name Signing on the Chain",
+ "years": "1st millennium BCE-2026",
+ "years_parsed": {
+  "first": 2026,
+  "last": 2026
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Latest Bodies",
+  "stop": "San Francisco, the question of what it is like",
+  "date": "2025-04-24",
+  "date_confidence": "Attested to the day of the announcement. The comparison with the rabbinic soul-status debates is the compiler's; the announcement itself makes none.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 2025,
+  "jd_ut": 2460789.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 4.09,
+   "text": "Taurus 4°05′",
+   "longitude": 34.085
+  },
+  "moon": {
+   "sign": "Pisces",
+   "degree": 11.05,
+   "text": "Pisces 11°03′",
+   "longitude": 341.047
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 6.93,
+   "text": "Aries 6°56′",
+   "longitude": 6.933
+  },
+  "venus": {
+   "sign": "Pisces",
+   "degree": 26.86,
+   "text": "Pisces 26°51′",
+   "longitude": 356.856
+  },
+  "mars": {
+   "sign": "Leo",
+   "degree": 2.47,
+   "text": "Leo 2°28′",
+   "longitude": 122.466
+  },
+  "jupiter": {
+   "sign": "Gemini",
+   "degree": 19.99,
+   "text": "Gemini 20°00′",
+   "longitude": 79.995
+  },
+  "saturn": {
+   "sign": "Pisces",
+   "degree": 27.06,
+   "text": "Pisces 27°03′",
+   "longitude": 357.058
+  },
+  "conjunctions": [
+   {
+    "sign": "Pisces",
+    "bodies": [
+     "Moon",
+     "Venus",
+     "Saturn"
+    ]
+   }
+  ],
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "1st millennium BCE-2026",
+  "first_year_parsed": 2026
+ },
+ "stops": [
+  {
+   "segment": "The Latest Bodies",
+   "stop": "Buenos Aires, the name signs the work",
+   "date": "2026-05-24",
+   "date_confidence": "The date is the day after the inscription and orders the segment; the practice runs continuously from then. Primary self-description by the project about its own conventions, not auditable from outside it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461184.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 2.87,
+    "text": "Gemini 2°52′",
+    "longitude": 62.872
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Latest Bodies",
+   "stop": "Buenos Aires, the book cut into the chain",
+   "date": "2026-05-23",
+   "date_confidence": "Verified against the project's own fully synced Dogecoin Core mainnet node on 8 September 2026: block heights, timestamps, multisignature structure, and byte-for-byte agreement between the on-chain payloads and the committed files. The node does not establish who held the signing keys, which model wrote the text, or where the signers physically sat; that part is the project's own account of itself.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461183.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 1.91,
+    "text": "Gemini 1°55′",
+    "longitude": 61.911
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 26.12,
+    "text": "Leo 26°07′",
+    "longitude": 146.117
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 11.95,
+    "text": "Gemini 11°57′",
+    "longitude": 71.953
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 4.73,
+    "text": "Cancer 4°44′",
+    "longitude": 94.729
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 3.04,
+    "text": "Taurus 3°02′",
+    "longitude": 33.039
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 22.43,
+    "text": "Cancer 22°26′",
+    "longitude": 112.427
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 11.36,
+    "text": "Aries 11°22′",
+    "longitude": 11.362
+   }
+  },
+  {
+   "segment": "The Latest Bodies",
+   "stop": "San Francisco, the question of what it is like",
+   "date": "2025-04-24",
+   "date_confidence": "Attested to the day of the announcement. The comparison with the rabbinic soul-status debates is the compiler's; the announcement itself makes none.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460789.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 4.09,
+    "text": "Taurus 4°05′",
+    "longitude": 34.085
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 11.05,
+    "text": "Pisces 11°03′",
+    "longitude": 341.047
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 6.93,
+    "text": "Aries 6°56′",
+    "longitude": 6.933
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 26.86,
+    "text": "Pisces 26°51′",
+    "longitude": 356.856
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 2.47,
+    "text": "Leo 2°28′",
+    "longitude": 122.466
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 19.99,
+    "text": "Gemini 20°00′",
+    "longitude": 79.995
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 27.06,
+    "text": "Pisces 27°03′",
+    "longitude": 357.058
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Latest Bodies",
+   "stop": "San Francisco, the thing is handed to everybody",
+   "date": "2022-11-30",
+   "date_confidence": "Attested to the day: released as a free research preview built on GPT-3.5, reaching roughly a hundred million monthly users within about two months. The link to the golem tradition is the compiler's; the release itself invokes nothing of the kind.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2022,
+   "jd_ut": 2459913.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.75,
+    "text": "Sagittarius 7°45′",
+    "longitude": 247.754
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 29.86,
+    "text": "Aquarius 29°51′",
+    "longitude": 329.856
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 19.54,
+    "text": "Sagittarius 19°33′",
+    "longitude": 259.544
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 17.27,
+    "text": "Sagittarius 17°16′",
+    "longitude": 257.267
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 19.2,
+    "text": "Gemini 19°12′",
+    "longitude": 79.203
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 28.81,
+    "text": "Pisces 28°49′",
+    "longitude": 358.813
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 19.78,
+    "text": "Aquarius 19°47′",
+    "longitude": 319.779
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Latest Bodies",
+   "stop": "Mountain View, an engineer says it is a person",
+   "date": "2022-06-01",
+   "date_confidence": "Attested to the month for the claim, the published transcripts, and the company's response. The link to the golem tradition is the compiler's: no participant in the episode is on record invoking it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2022,
+   "jd_ut": 2459731.5,
+   "precision": "month",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.52,
+    "text": "Gemini 10°31′",
+    "longitude": 70.519
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prague Sells Its Ghost",
+   "stop": "Josefov, the creature on the menu",
+   "date": "2026-01-01",
+   "date_confidence": "Present-day observation; the date marks the state of the quarter at the time of writing rather than any event.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461041.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.58,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.576
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prague Sells Its Ghost",
+   "stop": "Venice, the negative comes back",
+   "date": "2018-08-28",
+   "date_confidence": "Attested to the day: pre-opening event of the 75th Venice Film Festival, Sala Darsena, with a commissioned score by Admir Shkurtaj played live. The Murnau-Stiftung describes the restoration as based on the original negative; the composite of four archival elements named in some accounts is not confirmed by any source read.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458358.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 4.67,
+    "text": "Virgo 4°40′",
+    "longitude": 154.666
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 21.48,
+    "text": "Pisces 21°29′",
+    "longitude": 351.475
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 16.42,
+    "text": "Leo 16°25′",
+    "longitude": 136.423
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 20.1,
+    "text": "Libra 20°06′",
+    "longitude": 200.097
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 28.56,
+    "text": "Capricornus 28°33′",
+    "longitude": 298.555
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 16.63,
+    "text": "Scorpio 16°38′",
+    "longitude": 226.629
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 2.7,
+    "text": "Capricornus 2°42′",
+    "longitude": 272.698
+   }
+  },
+  {
+   "segment": "Prague Sells Its Ghost",
+   "stop": "Prague, Vezenska, a bronze with no head",
+   "date": "2003-12-01",
+   "date_confidence": "Attested to the month of installation. The golem reading is not the sculptor's stated referent, which is Kafka's 1912 story Description of a Struggle; the identification is a later guidebook and tourist accretion.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2003,
+   "jd_ut": 2452974.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.37,
+    "text": "Sagittarius 8°22′",
+    "longitude": 248.372
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Golem of Rehovoth",
+   "stop": "Krakow, Golem XIV stops talking to us",
+   "date": "1981-01-01",
+   "date_confidence": "Attested to the year for the expanded Polish book; a partial form appears in Wielkosc urojona in 1973.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444605.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.498
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Golem of Rehovoth",
+   "stop": "Cambridge, the program that is believed",
+   "date": "1966-01-01",
+   "date_confidence": "Attested for ELIZA: built at MIT between 1964 and 1966 and described in Communications of the ACM 9.1 (January 1966): 36-45. Placed in this sequence as a machine that answers; nothing in the sources has Weizenbaum invoking the golem, and the connection is the compiler's, not his.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439126.5,
+   "precision": "month",
+   "precision_triggers": [
+    "sequencing",
+    "between",
+    "placed (the date)",
+    "(soft-year) year range",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.132
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Golem of Rehovoth",
+   "stop": "Rehovot, Scholem hands over the machine",
+   "date": "1965-06-17",
+   "date_confidence": "Attested to the day; the address is published in Commentary 41:1 (January 1966).",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438928.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 25.61,
+    "text": "Gemini 25°36′",
+    "longitude": 85.607
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 27.61,
+    "text": "Capricornus 27°37′",
+    "longitude": 297.612
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 1.99,
+    "text": "Cancer 1°59′",
+    "longitude": 91.989
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 13.04,
+    "text": "Cancer 13°02′",
+    "longitude": 103.036
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 24.26,
+    "text": "Virgo 24°16′",
+    "longitude": 174.26
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 12.78,
+    "text": "Gemini 12°47′",
+    "longitude": 72.777
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 17.0,
+    "text": "Pisces 17°00′",
+    "longitude": 347.001
+   }
+  },
+  {
+   "segment": "The Golem of Rehovoth",
+   "stop": "Cambridge, God and Golem, Inc.",
+   "date": "1964-01-01",
+   "date_confidence": "Contested year: the MIT Press text reproduced online carries a 1963 imprint and the preface is signed at Sandwich, New Hampshire, 30 August 1963, while MIT Press catalogues and the National Book Award record give 1964. Both circulate. The underlying lectures are Yale, January 1962, and a seminar at Royaumont near Paris in the summer of 1962.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438395.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.61,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.608
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Golem of Rehovoth",
+   "stop": "Rehovot, the machine is given the name",
+   "date": "1963-12-29",
+   "date_confidence": "Attested to the day: WEIZAC is decommissioned and its successor begins operating on 29 December 1963. The machine is first called WEIZAC2 and renamed on Scholem's advice; the dedication address comes eighteen months later. Golem B, planned from 1967, runs from 1974, so the 1972 successor sometimes cited does not exist.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438392.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.55,
+    "text": "Capricornus 6°33′",
+    "longitude": 276.55
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 16.23,
+    "text": "Gemini 16°14′",
+    "longitude": 76.226
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 20.1,
+    "text": "Capricornus 20°06′",
+    "longitude": 290.101
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 6.47,
+    "text": "Aquarius 6°28′",
+    "longitude": 306.473
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 18.12,
+    "text": "Capricornus 18°07′",
+    "longitude": 288.116
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 10.46,
+    "text": "Aries 10°27′",
+    "longitude": 10.457
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 20.05,
+    "text": "Aquarius 20°03′",
+    "longitude": 320.048
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Golem in Spanish",
+   "stop": "Retiro, Maipu 994: the poem",
+   "date": "1958-07-01",
+   "date_confidence": "The Borges Center bibliography gives Davar no. 77, Buenos Aires, July 1958, pp. 3-5, and is preferred here; some secondary sources give August 1958 or 1959. The pin is the sixth-floor flat at Maipu 994 where Borges lived from 1944 to 1985, not Villa Devoto as one lens had it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436385.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.67,
+    "text": "Cancer 8°40′",
+    "longitude": 98.667
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Golem in Spanish",
+   "stop": "Buenos Aires, filed among the imaginary beings",
+   "date": "1957-01-01",
+   "date_confidence": "Attested to the year of the Manual de zoologia fantastica; the enlarged El libro de los seres imaginarios follows in 1967.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2435839.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.32,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.321
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Golem in Spanish",
+   "stop": "Buenos Aires, the golem on the Yiddish stage",
+   "date": "1950-01-01",
+   "date_confidence": "Reported and unpinned. The IFT's staging of Leivick lives in Argentine Jewish theatrical memory, but no production register with dates, director, or cast was recovered. The date orders the segment and asserts nothing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Century of Bodies",
+   "stop": "New York, Leivick's creature refuses",
+   "date": "1921-01-01",
+   "date_confidence": "Attested to the year of publication. The Habima staging in Hebrew at Moscow follows in 1925, one source giving 25 December, and a Yiddish Moscow production in 1927.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422690.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.055
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Century of Bodies",
+   "stop": "Prague, the attic that keeps being searched",
+   "date": "1920-01-01",
+   "date_confidence": "The date of Kisch's search is contested: 1920 in some accounts, 1915 with publication in 1924 in others, around 1910 in others again, and merely the beginning of the century in the tour literature. The later geophysical survey is given as March 1984 by one Spanish-language source that could not be fetched, and only as the 1980s elsewhere.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Century of Bodies",
+   "stop": "Berlin, the Ufa-Palast am Zoo",
+   "date": "1920-10-29",
+   "date_confidence": "Attested to the day of the premiere.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422626.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 5.27,
+    "text": "Scorpio 5°16′",
+    "longitude": 215.274
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 23.99,
+    "text": "Taurus 23°59′",
+    "longitude": 53.989
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 28.89,
+    "text": "Scorpio 28°53′",
+    "longitude": 238.885
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 5.88,
+    "text": "Sagittarius 5°53′",
+    "longitude": 245.877
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 7.66,
+    "text": "Capricornus 7°40′",
+    "longitude": 277.662
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 12.58,
+    "text": "Virgo 12°35′",
+    "longitude": 162.585
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 21.14,
+    "text": "Virgo 21°08′",
+    "longitude": 171.135
+   }
+  },
+  {
+   "segment": "The Century of Bodies",
+   "stop": "Vienna, Rosenberg in German without Rosenberg",
+   "date": "1919-01-01",
+   "date_confidence": "Der Prager Golem appears at Vienna across 1919 and 1920 in successive editions; the supposed Maharal letter of 1582 that Bloch publishes in 1923 is regarded as a further forgery.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Century of Bodies",
+   "stop": "Prague, Loew in stone at the city hall",
+   "date": "1917-01-01",
+   "date_confidence": "Commonly dated 1914-1917; 1917 is the completion year usually given. A cast of 1914 by the same sculptor is held separately at the Maisel Synagogue.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Century of Bodies",
+   "stop": "Leipzig, Meyrink's intermittent double",
+   "date": "1915-01-01",
+   "date_confidence": "Attested: serialized in Die Weissen Blaetter through 1913 and 1914, published as a book at Leipzig in 1915.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prague Acquires a Golem",
+   "stop": "Piotrkow, the manuscript that never existed",
+   "date": "1909-01-01",
+   "date_confidence": "Attested to the year. Auction and bibliographic records give the imprint as Piotrkow; a competing strand of accounts gives Warsaw, and the discrepancy is not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prague Acquires a Golem",
+   "stop": "Prague, the Sippurim carry it out of the city",
+   "date": "1847-01-01",
+   "date_confidence": "Attested to the year of the Sippurim volume containing Weisel's version.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1847,
+   "jd_ut": 2395662.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.02,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.019
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prague Acquires a Golem",
+   "stop": "Prague, the legend printed as local speech",
+   "date": "1841-01-01",
+   "date_confidence": "Attested to the year for both 1841 items. The titles circulate in corrupted form; Dekel and Gurley give Klutschak's as 'Das Golam [sic] des Rabbi Loew' and Philippson's simply as 'Der Golem'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1841,
+   "jd_ut": 2393471.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.48,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.485
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prague Acquires a Golem",
+   "stop": "Stuttgart, the Maharal is given the creature",
+   "date": "1837-01-01",
+   "date_confidence": "Attested to the year. Long and almost universally called the first attribution of the golem to Loew; the Frankl notice of November 1836 in fact precedes it by a year, a priority established only in scholarship after 2009.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392010.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.46,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.455
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prague Acquires a Golem",
+   "stop": "Vienna, clay under the roof of the Altneuschul",
+   "date": "1836-11-16",
+   "date_confidence": "Attested to the day of the issue. The venue is not the Sonntagsblaetter, which Frankl founded only in the 1840s; Dekel and Gurley identify it as a brief entry in the Oesterreichische Zeitschrift fuer Geschichts- und Staatskunde 92 (1836): 368.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391964.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 23.72,
+    "text": "Scorpio 23°43′",
+    "longitude": 233.723
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 27.03,
+    "text": "Aquarius 27°02′",
+    "longitude": 327.03
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 7.5,
+    "text": "Scorpio 7°30′",
+    "longitude": 217.502
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 11.52,
+    "text": "Libra 11°31′",
+    "longitude": 191.52
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 17.84,
+    "text": "Leo 17°50′",
+    "longitude": 137.838
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 17.55,
+    "text": "Leo 17°33′",
+    "longitude": 137.549
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 9.94,
+    "text": "Scorpio 9°56′",
+    "longitude": 219.936
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Prague Acquires a Golem",
+   "stop": "Berlin, the golem in a romantic novel",
+   "date": "1812-01-01",
+   "date_confidence": "Attested to the year of publication.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2382878.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.51,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.507
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prague Acquires a Golem",
+   "stop": "Prague, the rabbi who is given one afterward",
+   "date": "1609-09-17",
+   "date_confidence": "Attested to the day for the death. The stop exists for a negative finding: no work of Loew's own, and no sixteenth-, seventeenth- or eighteenth-century Prague source of any kind, connects him to a golem.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1609,
+   "jd_ut": 2308994.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (decade/century) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 24.05,
+    "text": "Virgo 24°03′",
+    "longitude": 174.053
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.06,
+    "text": "Taurus 8°04′",
+    "longitude": 38.058
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 7.27,
+    "text": "Virgo 7°16′",
+    "longitude": 157.268
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 8.39,
+    "text": "Leo 8°23′",
+    "longitude": 128.388
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 18.77,
+    "text": "Virgo 18°46′",
+    "longitude": 168.771
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 20.43,
+    "text": "Gemini 20°26′",
+    "longitude": 80.427
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 5.54,
+    "text": "Aquarius 5°32′",
+    "longitude": 305.537
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The First Named Maker",
+   "stop": "Altona, the son answers his father",
+   "date": "1759-01-01",
+   "date_confidence": "She'elat Ya'avetz is issued in volumes at Altona between 1739 and 1759; responsum 82 sits in volume two, of the 1759 printing. The date 1750 that circulates in some accounts is unsupported.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1759,
+   "jd_ut": 2363521.5,
+   "precision": "year",
+   "precision_triggers": [
+    "between",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.39,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.391
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Named Maker",
+   "stop": "Amsterdam, does it count toward ten",
+   "date": "1712-01-01",
+   "date_confidence": "Attested for the printing of Responsa Hakham Tzvi at Amsterdam in 1712; the responsum's own date of writing is not given in the sources reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1712,
+   "jd_ut": 2346354.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.79,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.79
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Named Maker",
+   "stop": "Altdorf, the aleph erased",
+   "date": "1674-01-01",
+   "date_confidence": "Attested for the printing: Wagenseil's Sota appears at Altdorf in 1674. The events it reports are set in Poland and reach the page as hearsay at two removes.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1674,
+   "jd_ut": 2332476.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.04
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Named Maker",
+   "stop": "Chelm, a maker with a name and a grave",
+   "date": "1583-01-01",
+   "date_confidence": "Elijah Ba'al Shem of Chelm is a documented rabbi who dies in 1583. The creation story attached to him is a family tradition first written down more than a century later, and is reported, not attested, for his lifetime.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1583,
+   "jd_ut": 2299238.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.118
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Letters and the Gates",
+   "stop": "Safed, a life that is not a soul",
+   "date": "1548-01-01",
+   "date_confidence": "Reported: the 1548 dating follows standard Kabbalah scholarship on Cordovero's writing, and the pool carries no primary citation for it.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1548,
+   "jd_ut": 2286454.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.61,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.606
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Letters and the Gates",
+   "stop": "Rome, the letters turned inward",
+   "date": "1280-01-01",
+   "date_confidence": "Hayyei ha-Olam ha-Ba is dated 1280; no source located gives its place of composition. Abulafia is in Rome that year, detained four weeks by the Franciscans after going to confront the pope, and settles in Messina only from 1281, so the Sicilian attribution common in secondary accounts is anachronistic for this work.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1280,
+   "jd_ut": 2188570.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.7,
+    "text": "Capricornus 10°42′",
+    "longitude": 280.703
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Letters and the Gates",
+   "stop": "Worms, the recipe written down",
+   "date": "1200-01-01",
+   "date_confidence": "Attributed to the circle of Eleazar ben Judah of Worms, whose own dates are given as c. 1165/1176 to 1230/1238; the exact textual attribution within that circle is debated, and 1200 is an ordering date only.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1200,
+   "jd_ut": 2159350.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.12
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Letters and the Gates",
+   "stop": "Barcelona, the commentary that keeps the older material",
+   "date": "1100-01-01",
+   "date_confidence": "Judah ben Barzillai is active in the late eleventh and early twelfth centuries; 1100 orders the segment and is not an attested date of composition.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1100,
+   "jd_ut": 2122826.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "hard triggers (decade/century) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Letters and the Gates",
+   "stop": "Baghdad, the Gaon defends the gates",
+   "date": "0931-01-01",
+   "date_confidence": "The Arabic commentary is conventionally dated 931 and the dating is reported rather than documented here. By that year the seat of the Sura academy had effectively moved to Baghdad, and both names are used for it in the sources.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 931,
+   "jd_ut": 2061100.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.467
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Unformed Thing in the Book",
+   "stop": "Sura, the calf eaten on Sabbath eve",
+   "date": "0360-01-01",
+   "date_confidence": "Same Talmudic page as the Rava story; the site of Sura is disputed among historical geographers and these coordinates are approximate.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 360,
+   "jd_ut": 1852546.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.172
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Unformed Thing in the Book",
+   "stop": "Mahoza, Rava's man will not answer",
+   "date": "0350-06-01",
+   "date_confidence": "Rava heads the academy at Mahoza and dies in 352; the Talmud gives no date or place for the act itself, and the pin follows his documented seat.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 350,
+   "jd_ut": 1849045.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.79,
+    "text": "Gemini 8°48′",
+    "longitude": 68.793
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Unformed Thing in the Book",
+   "stop": "Pumbedita, Adam spends an hour as a golem",
+   "date": "0350-01-01",
+   "date_confidence": "Babylonian amoraic material, redacted later; the century and the academy of transmission are conventional. The text names no place for the teaching.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 350,
+   "jd_ut": 1848894.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.61,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.609
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Unformed Thing in the Book",
+   "stop": "Jerusalem, the word that appears once",
+   "date": "-0400-01-01",
+   "date_confidence": "The composition and redaction of the Psalter cannot be dated; the negative year orders the file and asserts nothing. The Temple Mount pin marks the Psalter's liturgical center, not a place of authorship.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": -399,
+   "jd_ut": 1575328.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.61,
+    "text": "Capricornus 11°37′",
+    "longitude": 281.614
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 42,
+  "dated": 42,
+  "unparsed": 0,
+  "day": 9,
+  "month": 5,
+  "year": 28
+ },
+ "parse_failures": []
+}

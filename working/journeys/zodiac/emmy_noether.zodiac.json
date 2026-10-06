@@ -1,0 +1,2019 @@
+{
+ "slug": "emmy_noether",
+ "traveler": "Amalie Emmy Noether",
+ "title": "The Credential Won Twice: Erlangen, Göttingen, and the Cloister at Bryn Mawr",
+ "years": "1882-1935",
+ "years_parsed": {
+  "first": 1882,
+  "last": 1935
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Erlangen: The Professor's Daughter",
+  "stop": "Erlangen, Hauptstraße 23",
+  "date": "1882-03-23",
+  "date_confidence": "attested. MacTutor gives the birth date and the street address at Hauptstraße 23, Erlangen. Coordinate corrected against Nominatim to 49.5968, 11.0039; the research pool's 11.0118 lands about 570 m east, outside the Stadtmauer and off Hauptstraße entirely. Also corrected here: Max Noether came to Erlangen in 1875 as ausserordentlicher professor and was made ordinary professor only on 16 April 1888, so the campa does not call him a full professor at her birth.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1882,
+  "jd_ut": 2408527.5,
+  "precision": "day",
+  "precision_triggers": [
+   "(soft-year) year named with preposition"
+  ],
+  "notes": [
+   "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+  ],
+  "sun": {
+   "sign": "Aries",
+   "degree": 2.28,
+   "text": "Aries 2°17′",
+   "longitude": 2.278
+  },
+  "moon": {
+   "sign": "Taurus",
+   "degree": 19.5,
+   "text": "Taurus 19°30′",
+   "longitude": 49.499
+  },
+  "mercury": {
+   "sign": "Pisces",
+   "degree": 4.61,
+   "text": "Pisces 4°36′",
+   "longitude": 334.606
+  },
+  "venus": {
+   "sign": "Aries",
+   "degree": 9.72,
+   "text": "Aries 9°43′",
+   "longitude": 9.722
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 8.11,
+   "text": "Cancer 8°07′",
+   "longitude": 98.111
+  },
+  "jupiter": {
+   "sign": "Taurus",
+   "degree": 23.86,
+   "text": "Taurus 23°52′",
+   "longitude": 53.859
+  },
+  "saturn": {
+   "sign": "Taurus",
+   "degree": 10.03,
+   "text": "Taurus 10°02′",
+   "longitude": 40.027
+  },
+  "conjunctions": [
+   {
+    "sign": "Taurus",
+    "bodies": [
+     "Moon",
+     "Jupiter",
+     "Saturn"
+    ]
+   }
+  ],
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1882-1935",
+  "first_year_parsed": 1882
+ },
+ "stops": [
+  {
+   "segment": "Erlangen: The Professor's Daughter",
+   "stop": "Erlangen, Hauptstraße 23",
+   "date": "1882-03-23",
+   "date_confidence": "attested. MacTutor gives the birth date and the street address at Hauptstraße 23, Erlangen. Coordinate corrected against Nominatim to 49.5968, 11.0039; the research pool's 11.0118 lands about 570 m east, outside the Stadtmauer and off Hauptstraße entirely. Also corrected here: Max Noether came to Erlangen in 1875 as ausserordentlicher professor and was made ordinary professor only on 16 April 1888, so the campa does not call him a full professor at her birth.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408527.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 2.28,
+    "text": "Aries 2°17′",
+    "longitude": 2.278
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 19.5,
+    "text": "Taurus 19°30′",
+    "longitude": 49.499
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 4.61,
+    "text": "Pisces 4°36′",
+    "longitude": 334.606
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 9.72,
+    "text": "Aries 9°43′",
+    "longitude": 9.722
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 8.11,
+    "text": "Cancer 8°07′",
+    "longitude": 98.111
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 23.86,
+    "text": "Taurus 23°52′",
+    "longitude": 53.859
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 10.03,
+    "text": "Taurus 10°02′",
+    "longitude": 40.027
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Erlangen: The Professor's Daughter",
+   "stop": "Erlangen, the school on Fahrstraße",
+   "date": "1888-09-01",
+   "date_confidence": "attested to about 1888-1889 by MacTutor, which names the Fahrstraße elementary school; no month or day is recorded, and September orders the stop at the start of a school year. Coordinate is approximate to the street, carried from the research pool, and not fixed to a surviving building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "not fixed",
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.96,
+    "text": "Virgo 8°57′",
+    "longitude": 158.956
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Erlangen: The Professor's Daughter",
+   "stop": "Erlangen, the Städtische Höhere Töchterschule",
+   "date": "1889-09-01",
+   "date_confidence": "attested to 1889 by MacTutor, which names the municipal higher school for daughters on Friedrichstraße and its curriculum of languages, arithmetic, music and domestic subjects. Month and day are not recorded; September orders the stop at the start of a school year. Coordinate approximate to the street.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.72,
+    "text": "Virgo 8°43′",
+    "longitude": 158.722
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Erlangen: The Professor's Daughter",
+   "stop": "Erlangen, the apartment on Nürnberger Straße",
+   "date": "1892-01-01",
+   "date_confidence": "attested to 1892 by MacTutor for the family's move to a larger apartment on Nürnberger Straße; month and day unrecorded, defaulted to 01-01. Coordinate corrected against Nominatim to about 49.5900, 11.0070; the research pool's 11.0145 sits some 550 m east of the street, which runs through the Innenstadt at about lng 11.007.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412098.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.096
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Erlangen: The Professor's Daughter",
+   "stop": "Erlangen, the state examination in English and French",
+   "date": "1900-04-01",
+   "date_confidence": "attested to 1900 by MacTutor, including the overall grade of very good and the weakest mark being for classroom delivery; month and day are not recorded and April only orders the stop before the autumn auditing. No source consulted names the building the examination was sat in, so the pin is the corpus canonical Erlangen coordinate inherited byte-identical from felix_klein.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415110.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.82,
+    "text": "Aries 10°49′",
+    "longitude": 10.819
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Credential Won Twice",
+   "stop": "University of Erlangen, two women among a thousand",
+   "date": "1900-10-01",
+   "date_confidence": "attested to 1900-1902 by MacTutor: auditing mathematics, Romance languages and history with each lecturer's individual permission, as one of two women among roughly a thousand students. Month defaulted to October for the start of the winter semester. Corpus canonical Erlangen pin, inherited byte-identical from felix_klein.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415293.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.35,
+    "text": "Libra 7°21′",
+    "longitude": 187.353
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Credential Won Twice",
+   "stop": "Nuremberg, the external Abitur",
+   "date": "1903-07-14",
+   "date_confidence": "attested to 14 July 1903 by MacTutor. Which of the Nuremberg Realgymnasien administered the examination is stated by no source consulted, and the coordinate is Nuremberg city centre, not a school building. This gap is stated in the campa rather than covered over.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416309.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 20.38,
+    "text": "Cancer 20°23′",
+    "longitude": 110.382
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 6.97,
+    "text": "Pisces 6°58′",
+    "longitude": 336.974
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 6.27,
+    "text": "Cancer 6°16′",
+    "longitude": 96.271
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 5.81,
+    "text": "Virgo 5°49′",
+    "longitude": 155.814
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 17.07,
+    "text": "Libra 17°04′",
+    "longitude": 197.071
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 23.27,
+    "text": "Pisces 23°16′",
+    "longitude": 353.273
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 7.05,
+    "text": "Aquarius 7°03′",
+    "longitude": 307.05
+   }
+  },
+  {
+   "segment": "The Credential Won Twice",
+   "stop": "Göttingen, one semester at the back of the room",
+   "date": "1903-10-01",
+   "date_confidence": "attested to the winter of 1903-04 by MacTutor, which names Hilbert, Klein, Minkowski, Schwarzschild and Blumenthal as the lecturers she audited; month defaulted to October for the semester's start. Coordinate is the corpus canonical Göttingen pin 51.534, 9.935, inherited byte-identical from felix_klein.journey.json and heisenberg.journey.json; a rival Göttingen pin at 51.5413, 9.9158 exists in the oppenheimer and dirac files and is a standing corpus contradiction, not resolved here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416388.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.64,
+    "text": "Libra 6°38′",
+    "longitude": 186.639
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Credential Won Twice",
+   "stop": "University of Erlangen, matriculation at last",
+   "date": "1904-10-24",
+   "date_confidence": "attested to 24 October 1904 by MacTutor, including that she now restricted herself to mathematics. Corpus canonical Erlangen pin, inherited byte-identical from felix_klein.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416777.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 0.16,
+    "text": "Scorpio 0°10′",
+    "longitude": 210.162
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 25.06,
+    "text": "Aries 25°04′",
+    "longitude": 25.059
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 25.24,
+    "text": "Libra 25°14′",
+    "longitude": 205.239
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 28.5,
+    "text": "Scorpio 28°30′",
+    "longitude": 238.496
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.75,
+    "text": "Virgo 13°45′",
+    "longitude": 163.751
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 24.44,
+    "text": "Aries 24°26′",
+    "longitude": 24.439
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 14.23,
+    "text": "Aquarius 14°14′",
+    "longitude": 314.231
+   }
+  },
+  {
+   "segment": "The Credential Won Twice",
+   "stop": "Erlangen, the doctorate under Paul Gordan",
+   "date": "1907-12-13",
+   "date_confidence": "attested to 13 December 1907 by MacTutor: the oral examination passed summa cum laude under Paul Gordan, on invariants of ternary biquadratic forms, the published thesis enumerating 331 covariants. The quote is verbatim from Auguste Dick's documentary biography, fetched as OCR from archive.org; only the single word is Noether's, and the framing sentence around it is Dick's, which is why the quote field carries one word and the source line says so.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417922.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 19.84,
+    "text": "Sagittarius 19°51′",
+    "longitude": 259.842
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 1.24,
+    "text": "Aries 1°14′",
+    "longitude": 1.237
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 2.64,
+    "text": "Sagittarius 2°39′",
+    "longitude": 242.642
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 12.12,
+    "text": "Capricornus 12°07′",
+    "longitude": 282.117
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 9.52,
+    "text": "Pisces 9°31′",
+    "longitude": 339.516
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.39,
+    "text": "Leo 13°23′",
+    "longitude": 133.392
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 20.84,
+    "text": "Pisces 20°51′",
+    "longitude": 350.844
+   }
+  },
+  {
+   "segment": "Seven Years Without Salary",
+   "stop": "Erlangen, the Mathematical Institute and no salary",
+   "date": "1908-01-01",
+   "date_confidence": "attested to roughly 1908-1915 by MacTutor: unpaid research at Erlangen's Mathematical Institute, substituting in her father's courses, with habilitation closed to women by German law and custom. No start month is recorded and 01-01 is the default. Corpus canonical Erlangen pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "approximation",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Seven Years Without Salary",
+   "stop": "Salzburg, the address to the Vereinigung",
+   "date": "1909-09-01",
+   "date_confidence": "attested to 1909 by MacTutor for both the address on invariant theory at the Deutsche Mathematiker-Vereinigung meeting in Salzburg and her joining the society that year. Month and day are not recorded; September orders the stop at the society's usual autumn meeting season and is reconstruction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418550.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.91,
+    "text": "Virgo 7°55′",
+    "longitude": 157.912
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Seven Years Without Salary",
+   "stop": "Erlangen, the decisive impulse from Ernst Fischer",
+   "date": "1911-01-01",
+   "date_confidence": "the quotation is verbatim from the MacTutor biography and is Noether's own statement about Fischer's influence, but MacTutor does not date the remark and this pass did not locate its original context. The date 1911 is reconstruction, chosen only to order the stop between Gordan's retirement and the Vienna lecture of 1913. Corpus canonical Erlangen pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419037.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.47,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.472
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Seven Years Without Salary",
+   "stop": "Vienna, the Vereinigung and old Franz Mertens",
+   "date": "1913-09-01",
+   "date_confidence": "attested to 1913 by MacTutor: the lecture to the Deutsche Mathematiker-Vereinigung in Vienna on fields of rational functions, and the visit to the aging Franz Mertens, whose grandson's later recollection concerned her appearance. Month and day are not recorded and September orders the stop; the coordinate is central Vienna, not a lecture hall.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2420011.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.94,
+    "text": "Virgo 7°57′",
+    "longitude": 157.943
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen: Invariante Variationsprobleme",
+   "stop": "Göttingen, called north for Einstein's theory",
+   "date": "1915-04-01",
+   "date_confidence": "attested to spring 1915 by the University of Göttingen memorial page and by MacTutor: Hilbert and Klein bring her to Göttingen to work on invariant-theoretic questions arising from general relativity and from Hilbert's variational formulation of gravitation, with no position and no pay. Exact day not recorded, April is the recorded season. Corpus canonical Göttingen pin, inherited byte-identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420588.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.19,
+    "text": "Aries 10°12′",
+    "longitude": 10.194
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen: Invariante Variationsprobleme",
+   "stop": "Erlangen, the death of Ida Noether",
+   "date": "1915-05-01",
+   "date_confidence": "reconstruction. The fact that Ida Amalia Kaufmann Noether died suddenly shortly after Emmy's move to Göttingen is consistent with Dick's documentary biography as reported in the research dossier and with MacTutor's placement of the move in spring 1915, but no primary source confirming the exact month was fetched in this pass. May 1915 orders the stop and is not asserted as attested. Coordinate is the corrected Nürnberger Straße pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420618.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.55,
+    "text": "Taurus 9°33′",
+    "longitude": 39.549
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen: Invariante Variationsprobleme",
+   "stop": "Göttingen, the habilitation refused",
+   "date": "1915-07-20",
+   "date_confidence": "attested to 20 July 1915 by the University of Göttingen memorial page: the petition, Hilbert's and Klein's support, the Philosophical Faculty's rejection on grounds of her sex, and Hilbert's workaround of advertising courses under his own name. The two famous lines of this dispute are deliberately kept out of the prose as reconstruction: Hilbert's 'we are a university, not a bathhouse' survives only through later recollection, and Wikipedia notes his exact words were not preserved; the objection about soldiers learning at the feet of a woman is citable to Kimberling 1981 p. 14 and Lederman and Hill 2004 p. 72, from an unnamed faculty member, with no transcript. The research dossier's attribution of that second line to Dick is wrong, it does not occur in Dick's text. Corpus canonical Göttingen pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420698.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (not given, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.2,
+    "text": "Cancer 26°12′",
+    "longitude": 116.202
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 27.75,
+    "text": "Libra 27°45′",
+    "longitude": 207.752
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 5.98,
+    "text": "Cancer 5°59′",
+    "longitude": 95.975
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 11.32,
+    "text": "Cancer 11°19′",
+    "longitude": 101.321
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 9.6,
+    "text": "Gemini 9°36′",
+    "longitude": 69.597
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 28.49,
+    "text": "Pisces 28°29′",
+    "longitude": 358.491
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 8.75,
+    "text": "Cancer 8°45′",
+    "longitude": 98.749
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Göttingen: Invariante Variationsprobleme",
+   "stop": "Göttingen, Klein reads the paper to the Society",
+   "date": "1918-07-26",
+   "date_confidence": "attested. Wikipedia confirms that Klein presented Invariante Variationsprobleme to the Royal Society of Sciences at Göttingen on 26 July 1918; the arXiv English translation, physics/0503066, confirms the publication record in the Göttinger Nachrichten 1918, pp. 235-257. Coordinate corrected against Nominatim to the Akademie der Wissenschaften, Theaterstraße 7, at 51.5346, 9.9373; the research pool's 51.5322, 9.9354 is about 280 m off. This is the one stop in the file that departs from the canonical Göttingen pin, because the building is specifically identified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421800.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.19,
+    "text": "Leo 2°12′",
+    "longitude": 122.193
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 0.88,
+    "text": "Pisces 0°53′",
+    "longitude": 330.883
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 27.26,
+    "text": "Leo 27°15′",
+    "longitude": 147.257
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 1.46,
+    "text": "Cancer 1°28′",
+    "longitude": 91.459
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 16.75,
+    "text": "Libra 16°45′",
+    "longitude": 196.753
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 2.8,
+    "text": "Cancer 2°48′",
+    "longitude": 92.799
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 16.08,
+    "text": "Leo 16°05′",
+    "longitude": 136.076
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Göttingen: Invariante Variationsprobleme",
+   "stop": "Göttingen, the habilitation accepted",
+   "date": "1919-06-04",
+   "date_confidence": "the year 1919 and the removal of the formal bar after the German Revolution are attested by the University of Göttingen memorial page. The precise date of 4 June 1919, and a May 1919 oral examination, are dossier-only and are reconstruction: neither was confirmed against a Göttingen record in this pass. Corpus canonical Göttingen pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422113.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 12.33,
+    "text": "Gemini 12°20′",
+    "longitude": 72.335
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 24.42,
+    "text": "Leo 24°25′",
+    "longitude": 144.421
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 3.18,
+    "text": "Gemini 3°11′",
+    "longitude": 63.184
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 25.13,
+    "text": "Cancer 25°08′",
+    "longitude": 115.132
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 6.07,
+    "text": "Gemini 6°04′",
+    "longitude": 66.074
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 17.09,
+    "text": "Cancer 17°05′",
+    "longitude": 107.09
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.92,
+    "text": "Leo 22°55′",
+    "longitude": 142.918
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Göttingen: The Noether School",
+   "stop": "Göttingen, lecturing under her own name",
+   "date": "1919-11-01",
+   "date_confidence": "attested to winter semester 1919-20 by MacTutor for the start of lecturing in her own name, still unpaid; November orders the stop inside that semester and the day is not recorded. The characterisation of her teaching as thinking at the blackboard rather than delivering polished lectures is attested by MacTutor. Corpus canonical Göttingen pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422263.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.52,
+    "text": "Scorpio 7°31′",
+    "longitude": 217.517
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen: The Noether School",
+   "stop": "Göttingen, Idealtheorie in Ringbereichen",
+   "date": "1921-01-01",
+   "date_confidence": "attested to 1921 by MacTutor for the publication of Idealtheorie in Ringbereichen and for the ascending chain condition becoming central through it; month and day are not recorded and 01-01 is the default. The eponym Noetherian ring is attested through the standard literature and the bibliography in van der Waerden's 1935 obituary. Corpus canonical Göttingen pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422690.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.055
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen: The Noether School",
+   "stop": "Erlangen, the death of Max Noether",
+   "date": "1921-12-13",
+   "date_confidence": "attested to 13 December 1921 by MacTutor for Max Noether's death at Erlangen, and to the same source for the postwar inflation eroding the family's resources. The coincidence of the calendar date with her own doctoral oral of 13 December 1907 is arithmetic on two attested dates, not a claim from any source. Coordinate is the corrected Nürnberger Straße pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2423036.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 20.45,
+    "text": "Sagittarius 20°27′",
+    "longitude": 260.455
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 23.12,
+    "text": "Taurus 23°07′",
+    "longitude": 53.124
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 12.34,
+    "text": "Sagittarius 12°21′",
+    "longitude": 252.345
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 6.51,
+    "text": "Sagittarius 6°31′",
+    "longitude": 246.509
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 22.02,
+    "text": "Libra 22°01′",
+    "longitude": 202.016
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 14.9,
+    "text": "Libra 14°54′",
+    "longitude": 194.895
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 6.62,
+    "text": "Libra 6°37′",
+    "longitude": 186.625
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    },
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Mars",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Göttingen: The Noether School",
+   "stop": "Göttingen, paid at forty-one",
+   "date": "1923-01-01",
+   "date_confidence": "attested to 1923 by the University of Göttingen memorial page for the Lehrauftrag with a small fixed stipend, her first paid university position, at age 41; month unrecorded, defaulted to 01-01. The 1922 title of nichtbeamteter ausserordentlicher Professor is attested by MacTutor. Correction applied: the research dossier's added clause that the 1923 stipend enabled her to supervise doctoral examinations is unsupported by anything checked and is dropped.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423420.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.56,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.56
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen: The Noether School",
+   "stop": "Göttingen, Dedekind axiomatized",
+   "date": "1924-01-01",
+   "date_confidence": "attested to 1924 by MacTutor for the publication of Abstrakter Aufbau der Idealtheorie in algebraischen Zahlkörpern and for its axiomatization of Dedekind-type ideal theory; month and day unrecorded, defaulted to 01-01. Corpus canonical Göttingen pin. Noted for the operator: Dedekind is a real one-directional relation for Noether, but there is no dedekind journey file in this checkout to interlock against.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423785.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.31,
+    "text": "Capricornus 9°19′",
+    "longitude": 279.313
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen: The Noether School",
+   "stop": "Göttingen, the school in the seminar room",
+   "date": "1926-01-01",
+   "date_confidence": "attested to about 1923-1932 by MacTutor for the seminar style and for the students named: Grete Hermann, Max Deuring, Hans Fitting, Ernst Witt, Chiungtze Tsen, and for methods reaching print through them before her own name did. The year 1926 is a midpoint chosen to order the stop and is not a dated event. Van der Waerden's Moderne Algebra as the vehicle carrying her Göttingen lectures into general circulation is attested by MacTutor and Wikipedia. Corpus canonical Göttingen pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bologna, Moscow, Zürich",
+   "stop": "Bologna, the sectional address",
+   "date": "1928-09-01",
+   "date_confidence": "attested to September 1928 by the University of Göttingen memorial page and MacTutor for the invited sectional address at the International Congress of Mathematicians in Bologna, on hypercomplex quantities and representation theory. The congress hall within Bologna is not confirmed by any source consulted; the coordinate is the corpus canonical Bologna pin, matching dante and other files.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425490.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.3,
+    "text": "Virgo 8°18′",
+    "longitude": 158.304
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bologna, Moscow, Zürich",
+   "stop": "Moscow, the winter on Mokhovaya Street",
+   "date": "1928-11-01",
+   "date_confidence": "attested to the winter of 1928-29 by MacTutor and Wikipedia for the visiting professorship at Moscow State University and for the work with Alexandrov, Pontryagin and Chebotaryov; correction applied to the research dossier, which dated it 1928 alone. November orders the stop inside the winter term. Coordinate corrected: the pool's 55.7558, 37.6176 is the Kremlin, and the Sparrow Hills main building did not exist until 1953. In 1928-29 the university occupied its old Mokhovaya Street campus, about 55.7560, 37.6122.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425551.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.34,
+    "text": "Scorpio 8°20′",
+    "longitude": 218.336
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bologna, Moscow, Zürich",
+   "stop": "Frankfurt, a term away",
+   "date": "1930-01-01",
+   "date_confidence": "attested to 1930 by MacTutor for visiting teaching at Frankfurt; month and day are not recorded and 01-01 is the default. The named correspondents are attested individually elsewhere in the pool, Hasse through the 10 May 1933 letter, Artin through the shared 1932 prize and the 1934 Hamburg visit, Brauer through the 1934 Princeton audience, van der Waerden through Moderne Algebra, but the description of a single network is a characterisation and not a sourced claim.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2425977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.867
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bologna, Moscow, Zürich",
+   "stop": "Zürich, the plenary lecture",
+   "date": "1932-09-05",
+   "date_confidence": "attested to the September 1932 International Congress of Mathematicians at Zürich by the University of Göttingen memorial page and MacTutor: the plenary lecture on hypercomplex systems in their relation to commutative algebra and number theory, the first ever given by a woman, with Karen Uhlenbeck the next 58 years later. The congress ran 5-12 September; the opening date is used to place the stop, and the specific day of her lecture is not recorded in anything consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426955.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.21,
+    "text": "Virgo 12°13′",
+    "longitude": 162.211
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bologna, Moscow, Zürich",
+   "stop": "Göttingen, the Ackermann-Teubner prize",
+   "date": "1932-12-01",
+   "date_confidence": "attested to 1932 by the University of Göttingen memorial page and MacTutor for the Alfred Ackermann-Teubner Memorial Prize shared with Emil Artin; no month is recorded and December orders the stop at the end of the year, before January 1933. Hermann Weyl's failed attempt in 1932 to have her elected to the Göttingen Academy of Sciences is carried from the interlock lens and the dossier and is reconstruction. Corpus canonical Göttingen pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2427042.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year named only",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.6,
+    "text": "Sagittarius 8°36′",
+    "longitude": 248.603
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Law of the Seventh of April",
+   "stop": "Göttingen, the notice under paragraph three",
+   "date": "1933-04-25",
+   "date_confidence": "attested to April 1933 by Wikipedia, which quotes the Prussian Ministry letter citing the Law for the Restoration of the Professional Civil Service of 7 April 1933; the Göttingen memorial page confirms she was among the first faculty forced out but gives no date. The exact day of the letter is not recorded in anything consulted, and 25 April orders the stop between the law's promulgation and the 10 May letter to Hasse. This April notice is a Beurlaubung and is deliberately kept separate from the final withdrawal of the Lehrbefugnis in September; the research pool conflated the two. Quote verbatim from Dick's documentary biography, fetched as OCR. Corpus canonical Göttingen pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427187.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 4.34,
+    "text": "Taurus 4°21′",
+    "longitude": 34.343
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Law of the Seventh of April",
+   "stop": "Göttingen, the seminar in her own apartment",
+   "date": "1933-06-01",
+   "date_confidence": "the seminar continuing in her own apartment after she was barred from the institute is attested only through Hermann Weyl's funeral address of 18 April 1935, a memorial recollection given two years after the events, not a contemporaneous record. No source consulted gives the apartment's address, so the stop sits at the corpus canonical Göttingen pin rather than at an invented street. June 1933 orders the stop between the April notice and the September withdrawal and is not a dated event. Quote verbatim from the St Andrews reproduction of Beaumont's translation.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427224.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "hard triggers (no source (for the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.05,
+    "text": "Gemini 10°03′",
+    "longitude": 70.051
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 4.17,
+    "text": "Virgo 4°10′",
+    "longitude": 154.169
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 14.04,
+    "text": "Gemini 14°03′",
+    "longitude": 74.043
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 20.76,
+    "text": "Gemini 20°46′",
+    "longitude": 80.764
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 12.71,
+    "text": "Virgo 12°42′",
+    "longitude": 162.708
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 13.9,
+    "text": "Virgo 13°54′",
+    "longitude": 163.901
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 16.06,
+    "text": "Aquarius 16°04′",
+    "longitude": 316.059
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    },
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Law of the Seventh of April",
+   "stop": "Göttingen, the Lehrbefugnis withdrawn",
+   "date": "1933-09-13",
+   "date_confidence": "attested to 13 September 1933 by de.wikipedia: 'wurde Noether am 13. September 1933 die Lehrbefugnis endgültig entzogen'. Contradiction flagged and not resolved: the research pool's geography lens gave 2 September 1933 and cited the Göttingen memorial page for it, but that page carries no date at all, saying only that in 1933 she was among the first to lose her position. The eleven-day discrepancy appears to be a dossier artifact. The additional grounds cited against her, her pacifism, her politics and her Soviet contacts, come from the Göttingen memorial page. Corpus canonical Göttingen pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427328.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 19.75,
+    "text": "Virgo 19°45′",
+    "longitude": 169.75
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Law of the Seventh of April",
+   "stop": "Bremerhaven, the Columbuskaje",
+   "date": "1933-10-01",
+   "date_confidence": "the crossing aboard the SS Bremen in October 1933 is attested by MacTutor; the departure port is inferred, not attested. Bremerhaven was North German Lloyd's terminal and the Bremen's standard port, but no fetched source names it for this sailing. Coordinate corrected to the Columbuskaje at 53.5607, 8.5529 per Nominatim; the research pool's 53.5396, 8.573 sits about 2.5 km inland, south of the Überseehafen. The Bryn Mawr offer behind the sailing, a one-year research professorship at 4,000 dollars arranged with the Emergency Committee in Aid of Displaced German Scholars and dated 4 August 1933, is dossier-only and unverified here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427346.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (inferred) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.36,
+    "text": "Libra 7°22′",
+    "longitude": 187.363
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 3.73,
+    "text": "Pisces 3°44′",
+    "longitude": 333.729
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 21.4,
+    "text": "Libra 21°24′",
+    "longitude": 201.404
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 18.14,
+    "text": "Scorpio 18°08′",
+    "longitude": 228.136
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 24.03,
+    "text": "Scorpio 24°02′",
+    "longitude": 234.027
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 4.41,
+    "text": "Libra 4°25′",
+    "longitude": 184.412
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 9.58,
+    "text": "Aquarius 9°35′",
+    "longitude": 309.578
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Law of the Seventh of April",
+   "stop": "New York, the harbour",
+   "date": "1933-11-07",
+   "date_confidence": "reconstruction. The arrival date of 7 November 1933 is dossier-only and was not independently refetched in this pass; MacTutor gives only the October sailing and arrival in New York before Bryn Mawr. No pier is documented and the coordinate is a generic Manhattan harbour point. Einstein's arrival at Princeton on 17 October 1933 aboard the SS Westmoreland is attested in einstein.journey.json; the two crossings falling three weeks apart is arithmetic on those two dates.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427383.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct",
+    "(soft) generic"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct, generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 14.14,
+    "text": "Scorpio 14°08′",
+    "longitude": 224.137
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 5.87,
+    "text": "Cancer 5°52′",
+    "longitude": 95.874
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 4.64,
+    "text": "Sagittarius 4°38′",
+    "longitude": 244.637
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 0.37,
+    "text": "Capricornus 0°22′",
+    "longitude": 270.365
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 20.77,
+    "text": "Sagittarius 20°46′",
+    "longitude": 260.767
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 12.19,
+    "text": "Libra 12°11′",
+    "longitude": 192.188
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 9.9,
+    "text": "Aquarius 9°54′",
+    "longitude": 309.9
+   }
+  },
+  {
+   "segment": "Bryn Mawr",
+   "stop": "Bryn Mawr College, three students and a textbook",
+   "date": "1933-12-01",
+   "date_confidence": "attested to the winter term of 1933-34 by MacTutor and Wikipedia: a first seminar of three students and one staff participant, working through van der Waerden's Moderne Algebra. December orders the stop inside that term. Coordinate corrected against Nominatim to Bryn Mawr College at 40.0287, -75.3155; the research pool reused 40.0227, -75.3141 across five stops, which falls roughly 700 m south of campus, below Lancaster Avenue.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427407.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.36,
+    "text": "Sagittarius 8°21′",
+    "longitude": 248.357
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bryn Mawr",
+   "stop": "Princeton, old Fine Hall",
+   "date": "1934-02-01",
+   "date_confidence": "attested to February 1934 by MacTutor and Wikipedia for the start of weekly lectures at the Institute for Advanced Study on Flexner's and Veblen's invitation, with Albert, Vandiver, Brauer and Weyl attending. The IAS had no building of its own until 1939 and used Princeton University's old Fine Hall, so the pin is inherited byte-identical from dirac.journey.json rather than pointing at a later building. The remark about a men's university is reconstruction: the IAS institutional history page returned HTTP 403 on attempted fetch and it could not be confirmed, which is why it is reported as attributed and not used as a quote field.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427469.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.45,
+    "text": "Aquarius 11°27′",
+    "longitude": 311.454
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bryn Mawr",
+   "stop": "Hamburg, the word on the underground",
+   "date": "1934-07-01",
+   "date_confidence": "the summer 1934 return trip to Germany, including seeing her brother Fritz, visiting Göttingen and meeting Emil Artin in Hamburg, is attested by MacTutor; no month within the summer is recorded and July orders the stop. Natascha Artin's underground anecdote is reconstruction, a recollection recorded decades later. The Fritz Noether material is corrected from the research pool, which mis-tagged it and placed his death at Tomsk: he took the Tomsk chair in 1934, was arrested by the NKVD there in November 1937, sentenced to 25 years on 23 October 1938, sentenced to death on 8 September 1941 and shot at Oryol on 11 September 1941 in the Medvedev Forest massacre, rehabilitated 22 December 1988. Coordinate is central Hamburg, not a specific building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427619.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (decade/century) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.47,
+    "text": "Cancer 8°28′",
+    "longitude": 98.474
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bryn Mawr",
+   "stop": "Göttingen, the last visit",
+   "date": "1934-08-01",
+   "date_confidence": "attested to summer 1934 by MacTutor for a final visit to Göttingen during the German return trip; no month or day is recorded and August orders the stop after the Hamburg meeting. Corpus canonical Göttingen pin. The absence of any written account by her of the visit is a stated gap, not an inference: nothing was located in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427650.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.06,
+    "text": "Leo 8°03′",
+    "longitude": 128.057
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bryn Mawr",
+   "stop": "Bryn Mawr College, the second year",
+   "date": "1934-10-01",
+   "date_confidence": "attested to 1934-35 by MacTutor for the renewal of the Bryn Mawr appointment for a second year alongside the continuing Princeton lectures, with no permanent American chair secured; month unrecorded, October orders the stop at the start of the academic year. Weyl's judgement about her happiest years is his own, from the 1935 memorial material, and is a third-party characterisation rather than her statement. Corrected Bryn Mawr College coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427711.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.13,
+    "text": "Libra 7°08′",
+    "longitude": 187.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bryn Mawr",
+   "stop": "Bryn Mawr Hospital, the fourth day",
+   "date": "1935-04-14",
+   "date_confidence": "attested to 14 April 1935 by MacTutor and Wikipedia: surgery for a pelvic mass, three days of apparently normal recovery, then circulatory collapse, unconsciousness and a temperature of 109 F (42.8 C), with cause given cautiously as probable postoperative infection. Coordinate corrected against Nominatim to Bryn Mawr Hospital, 130 S Bryn Mawr Avenue, at 40.0193, -75.3211; the research pool's 40.0186, -75.3129 is about 690 m off, and the afterlife lens gave a third, different coordinate for the same death.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427906.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 23.13,
+    "text": "Aries 23°08′",
+    "longitude": 23.129
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ashes in the Cloister",
+   "stop": "Bryn Mawr, the service at President Park's house",
+   "date": "1935-04-18",
+   "date_confidence": "attested to 18 April 1935 by the St Andrews reproduction of Weyl's funeral address, which is dated and translated by Ian Beaumont following Peter Roquette. The venue, the home of Bryn Mawr president Marion Edwards Park, and Brauer's presence come from the same body of memorial material. Note that Weyl's long published memorial address is a separate text from these graveside remarks; the distinction is real and is preserved. Corrected Bryn Mawr College coordinate; the president's house is on campus and is not separately pinned.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427910.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 27.04,
+    "text": "Aries 27°03′",
+    "longitude": 27.043
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 16.87,
+    "text": "Libra 16°52′",
+    "longitude": 196.868
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 16.84,
+    "text": "Aries 16°50′",
+    "longitude": 16.836
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 2.01,
+    "text": "Gemini 2°00′",
+    "longitude": 62.007
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 11.71,
+    "text": "Libra 11°42′",
+    "longitude": 191.706
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 21.0,
+    "text": "Scorpio 21°00′",
+    "longitude": 230.998
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 6.71,
+    "text": "Pisces 6°43′",
+    "longitude": 336.713
+   }
+  },
+  {
+   "segment": "The Ashes in the Cloister",
+   "stop": "Bryn Mawr College, the cloister of the Old Library",
+   "date": "1935-04-20",
+   "date_confidence": "the cremation and interment of the ashes under the walkway around the cloisters of the Old Library, formerly the M. Carey Thomas Library, are attested by both en.wikipedia and de.wikipedia. No source consulted gives the date of interment, and 20 April orders it after the 18 April service. Coordinate corrected to about 40.0280, -75.3148: the research pool offered two mutually inconsistent pins for this one spot, 40.0233, -75.3138 and 40.0234, -75.3116, both roughly 700 m to 1 km southeast of campus. Einstein's letter is dated by St Andrews: written at Princeton 1 May 1935, published in the New York Times 4 May 1935. Correction applied to the dossier's note, which claimed the page renders an umlaut-less Fraulein; the raw HTML reads Fräulein.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427912.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.0,
+    "text": "Aries 29°00′",
+    "longitude": 28.997
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ashes in the Cloister",
+   "stop": "Bryn Mawr, Goodhart Hall",
+   "date": "1935-04-26",
+   "date_confidence": "contradiction flagged and not resolved. A larger memorial gathering in Goodhart Hall on 26 April 1935 comes from the research dossier's chronology, cross-checked only against MacTutor's general timeline; neither the date nor the venue could be confirmed against a Bryn Mawr record in this pass, and what is independently confirmable is only that Weyl's graveside speech was on 18 April. Coordinate corrected to about 40.0290, -75.3163; the pool's 40.0224, -75.3122 is roughly 900 m off campus. The posthumous names in the campa are separately attested: the eponyms through van der Waerden's 1935 bibliography and the standard literature, the lunar crater through the USGS and IAU Gazetteer Feature ID 4380 at 66.38 N, -114.19, 64.80 km across, approved 1970 and officially spelled Nöther, and the DFG Emmy Noether Programme through dfg.de, whose own page states no founding year, so the dossier's 1997 is not asserted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427918.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 4.85,
+    "text": "Taurus 4°51′",
+    "longitude": 34.846
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 12,
+  "month": 6,
+  "year": 26
+ },
+ "parse_failures": []
+}

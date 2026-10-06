@@ -1,0 +1,1881 @@
+{
+ "slug": "mesmer",
+ "traveler": "Franz Anton Mesmer",
+ "title": "The Fluid and the Lake: Mesmer from Iznang to the Commission of the King and back to the Bodensee",
+ "years": "1734-1815",
+ "years_parsed": {
+  "first": 1734,
+  "last": 1815
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Lake and the Jesuits",
+  "stop": "Iznang, birth on the Untersee shore",
+  "date": "1734-05-23",
+  "date_confidence": "attested. Coordinate corrected: the birth house at Hoeristrasse 10, Iznang, geocodes to 47.71495, 8.95704 and the village to 47.71542, 8.96012; an earlier working coordinate of 47.6958, 8.9779 fell in open water 2.5 km offshore.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1734,
+  "jd_ut": 2354532.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 1.52,
+   "text": "Gemini 1°31′",
+   "longitude": 61.522
+  },
+  "moon": {
+   "sign": "Capricornus",
+   "degree": 27.98,
+   "text": "Capricornus 27°59′",
+   "longitude": 297.982
+  },
+  "mercury": {
+   "sign": "Taurus",
+   "degree": 6.73,
+   "text": "Taurus 6°44′",
+   "longitude": 36.728
+  },
+  "venus": {
+   "sign": "Aries",
+   "degree": 17.86,
+   "text": "Aries 17°52′",
+   "longitude": 17.861
+  },
+  "mars": {
+   "sign": "Aquarius",
+   "degree": 1.48,
+   "text": "Aquarius 1°29′",
+   "longitude": 301.478
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 6.39,
+   "text": "Sagittarius 6°23′",
+   "longitude": 246.388
+  },
+  "saturn": {
+   "sign": "Taurus",
+   "degree": 7.12,
+   "text": "Taurus 7°07′",
+   "longitude": 37.115
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1734-1815",
+  "first_year_parsed": 1734
+ },
+ "stops": [
+  {
+   "segment": "The Lake and the Jesuits",
+   "stop": "Iznang, birth on the Untersee shore",
+   "date": "1734-05-23",
+   "date_confidence": "attested. Coordinate corrected: the birth house at Hoeristrasse 10, Iznang, geocodes to 47.71495, 8.95704 and the village to 47.71542, 8.96012; an earlier working coordinate of 47.6958, 8.9779 fell in open water 2.5 km offshore.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1734,
+   "jd_ut": 2354532.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 1.52,
+    "text": "Gemini 1°31′",
+    "longitude": 61.522
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 27.98,
+    "text": "Capricornus 27°59′",
+    "longitude": 297.982
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 6.73,
+    "text": "Taurus 6°44′",
+    "longitude": 36.728
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 17.86,
+    "text": "Aries 17°52′",
+    "longitude": 17.861
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 1.48,
+    "text": "Aquarius 1°29′",
+    "longitude": 301.478
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 6.39,
+    "text": "Sagittarius 6°23′",
+    "longitude": 246.388
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 7.12,
+    "text": "Taurus 7°07′",
+    "longitude": 37.115
+   }
+  },
+  {
+   "segment": "The Lake and the Jesuits",
+   "stop": "Gruenenberg, the monastery school",
+   "date": "1742-01-01",
+   "date_confidence": "attested for 1742 to 1746; German Wikipedia states the Gruenenberg schooling flatly, citing Warndorf. Month and day unknown and defaulted. Coordinate corrected to the Denkmal Kloster Gruenenberg marker at 47.69582, 8.95261, about 1 km from an earlier working figure.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1742,
+   "jd_ut": 2357312.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.52,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.52
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lake and the Jesuits",
+   "stop": "Constance, the Jesuit college",
+   "date": "1746-01-01",
+   "date_confidence": "attested for 1746 to 1750; month and day unknown and defaulted. Coordinate corrected: German Wikipedia places the college at the present site of the Stadttheater Konstanz, Konzilstrasse 11, at 47.66384, 9.17742.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1746,
+   "jd_ut": 2358773.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.55,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.55
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lake and the Jesuits",
+   "stop": "Dillingen an der Donau, logic and metaphysics",
+   "date": "1750-01-01",
+   "date_confidence": "attested for 1750 to 1754; month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1750,
+   "jd_ut": 2360234.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.58,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.579
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lake and the Jesuits",
+   "stop": "Ingolstadt, theology set down",
+   "date": "1753-01-01",
+   "date_confidence": "attested for 1753; month and day unknown and defaulted. German Wikipedia's Dillingen and Ingolstadt spans overlap and are not reconciled in the source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1753,
+   "jd_ut": 2361330.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.86,
+    "text": "Capricornus 10°51′",
+    "longitude": 280.856
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vienna: the Planets and the Fluid",
+   "stop": "Vienna, the Old University",
+   "date": "1759-01-01",
+   "date_confidence": "attested for 1759; month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1759,
+   "jd_ut": 2363521.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.39,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.391
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vienna: the Planets and the Fluid",
+   "stop": "Vienna, the doctorate on planetary influx",
+   "date": "1766-01-01",
+   "date_confidence": "attested for 1766 after public disputation; month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1766,
+   "jd_ut": 2366078.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.7,
+    "text": "Capricornus 10°42′",
+    "longitude": 280.697
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vienna: the Planets and the Fluid",
+   "stop": "Vienna, the palais on the Landstrasse",
+   "date": "1768-01-10",
+   "date_confidence": "attested for the marriage on 10 January 1768. Coordinate corrected to Palais Mesmer, Rasumofskygasse 29 (formerly Landstrasse 261), at 48.203163, 16.391392; earlier working figures of 48.1975, 16.385 and 48.197, 16.3891 were 700 to 900 m off. The Mozart tradition is hedged: German Wikipedia says the Bastien und Bastienne commission is repeatedly and wrongly given to Franz Anton and belonged to his cousin Joseph Conrad Mesmer, and Nissen found no proof.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1768,
+   "jd_ut": 2366817.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.38,
+    "text": "Capricornus 19°23′",
+    "longitude": 289.376
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 25.71,
+    "text": "Virgo 25°43′",
+    "longitude": 175.715
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 27.94,
+    "text": "Sagittarius 27°56′",
+    "longitude": 267.936
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 2.55,
+    "text": "Sagittarius 2°33′",
+    "longitude": 242.552
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 7.05,
+    "text": "Sagittarius 7°03′",
+    "longitude": 247.053
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 21.67,
+    "text": "Libra 21°40′",
+    "longitude": 201.668
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 29.18,
+    "text": "Gemini 29°11′",
+    "longitude": 89.183
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Vienna: the Planets and the Fluid",
+   "stop": "Vienna, the magnets and Franziska Oesterlin",
+   "date": "1774-01-01",
+   "date_confidence": "attested for 1774; month and day unknown and defaulted. The two events, learning of Maximilian Hell's magnetic cures and the treatment of Franziska Oesterlin, are given under the same year by German and English Wikipedia respectively and are combined here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1774,
+   "jd_ut": 2369000.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.76,
+    "text": "Capricornus 10°45′",
+    "longitude": 280.756
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vienna: the Planets and the Fluid",
+   "stop": "Munich, judging the exorcist Gassner",
+   "date": "1775-01-01",
+   "date_confidence": "attested for 1775; month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1775,
+   "jd_ut": 2369365.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.51,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.508
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vienna: the Planets and the Fluid",
+   "stop": "Vienna, the Sendschreiben on the magnetic cure",
+   "date": "1775-01-01",
+   "date_confidence": "attested for 1775; month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1775,
+   "jd_ut": 2369365.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.51,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.508
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vienna: the Planets and the Fluid",
+   "stop": "Vienna, the sight of Maria Theresia Paradis",
+   "date": "1776-11-01",
+   "date_confidence": "attested for treatment from late 1776 to the middle of 1777 (English Wikipedia, 'Maria Theresia von Paradis'); the month here is an approximation of 'late 1776'. The pension motive attributed to her parents is in Wikipedia but contested in the literature: see Pattie, 'A Mesmer-Paradis Myth Dispelled', American Journal of Clinical Hypnosis 22:1 (1979). English Wikipedia also states that the Empress was not her godmother.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1776,
+   "jd_ut": 2370035.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.19,
+    "text": "Scorpio 9°11′",
+    "longitude": 219.188
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vienna: the Planets and the Fluid",
+   "stop": "Vienna, the verdict and the departure",
+   "date": "1778-01-20",
+   "date_confidence": "attested: the imperial commission's finding of fraud is dated 1777 and the departure for Paris 20 January 1778 (German Wikipedia). Canonical Vienna pin inherited from freud.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1778,
+   "jd_ut": 2370480.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 0.14,
+    "text": "Aquarius 0°08′",
+    "longitude": 300.14
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 23.94,
+    "text": "Libra 23°56′",
+    "longitude": 203.941
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 17.91,
+    "text": "Aquarius 17°55′",
+    "longitude": 317.915
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 14.68,
+    "text": "Capricornus 14°41′",
+    "longitude": 284.68
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 3.24,
+    "text": "Pisces 3°14′",
+    "longitude": 333.239
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 24.57,
+    "text": "Leo 24°34′",
+    "longitude": 144.565
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 14.33,
+    "text": "Scorpio 14°20′",
+    "longitude": 224.329
+   }
+  },
+  {
+   "segment": "Paris: the Tub and the Subscription",
+   "stop": "Creteil, first ground in France",
+   "date": "1778-05-01",
+   "date_confidence": "contradiction not resolved. French Wikipedia has him halt at Creteil in May 1778 and only afterwards take the hotel Bourret on the Place Vendome; German Wikipedia dates the Place Vendome practice to February 1778, which would put the consulting room three months before the arrival. Both are recorded; neither is adopted over the other. Day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1778,
+   "jd_ut": 2370581.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.66,
+    "text": "Taurus 10°40′",
+    "longitude": 40.661
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Tub and the Subscription",
+   "stop": "Place Vendome, the Hotel Bourret",
+   "date": "1778-02-01",
+   "date_confidence": "German Wikipedia gives February 1778 for the Place Vendome practice; French Wikipedia's sequence puts it after a May 1778 arrival at Creteil. The February date is used here and the conflict is left standing. Day defaulted. Coordinate within about 100 m of the Place Vendome centroid at 48.86746, 2.32943.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1778,
+   "jd_ut": 2370492.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.33,
+    "text": "Aquarius 12°20′",
+    "longitude": 312.329
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Tub and the Subscription",
+   "stop": "Geneva, the Memoire of twenty-seven propositions",
+   "date": "1779-01-01",
+   "date_confidence": "attested for 1779, printed at Geneva by P. Fr. Didot le jeune, eighty-five pages; month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1779,
+   "jd_ut": 2370826.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Tub and the Subscription",
+   "stop": "Hotel Bullion, the great baquet",
+   "date": "1780-01-01",
+   "date_confidence": "English Wikipedia dates the group baquet treatment to 1780; French Wikipedia places the largest baquet at the hotel Bullion, at the corner of the rue Coq-Heron and the rue du Louvre, without a precise year. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371191.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.29
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Tub and the Subscription",
+   "stop": "Spa, the springs and the Precis historique",
+   "date": "1781-05-01",
+   "date_confidence": "French Wikipedia has him leave Paris in May 1781 and write the Precis at Spa; the book is dated London, 1781. Day defaulted. The page count is 229, not the 1,229 given in one working note.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371677.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.93,
+    "text": "Taurus 10°56′",
+    "longitude": 40.926
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Tub and the Subscription",
+   "stop": "Paris, the subscription of three hundred and forty thousand livres",
+   "date": "1781-01-01",
+   "date_confidence": "attested for the return to Paris and the Bergasse subscription in 1781 to 1782 (German Wikipedia). Month and day defaulted. The foundation of the Societe de l'Harmonie is a separate and later event and is not dated here. Canonical Paris pin inherited from gurdjieff.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371557.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.06,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Tub and the Subscription",
+   "stop": "Paris, the Societe de l'Harmonie universelle",
+   "date": "1784-01-01",
+   "date_confidence": "date contested and not resolved. French Wikipedia dates the Societe de l'harmonie universelle to 1784, founded with Bergasse and Kornmann; the usual scholarly date is 1783; one working note wrongly folded it into the 1781 subscription. 1784 is used here on the French Wikipedia authority. Month and day defaulted. German Wikipedia gives twenty affiliated societies.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372652.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.32,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.32
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Commission of the King",
+   "stop": "Passy, the blindfolded boy in Franklin's garden",
+   "date": "1784-03-12",
+   "date_confidence": "attested: the report itself states that the king named four physicians of the Faculty of Paris on the twelfth of March 1784, with the Academy of Sciences members joined to them; the trials were conducted partly at Franklin's residence at Passy.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372723.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 22.1,
+    "text": "Pisces 22°06′",
+    "longitude": 352.098
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 19.0,
+    "text": "Scorpio 19°00′",
+    "longitude": 229.0
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 24.95,
+    "text": "Aquarius 24°57′",
+    "longitude": 324.954
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 14.31,
+    "text": "Aquarius 14°18′",
+    "longitude": 314.307
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 0.92,
+    "text": "Gemini 0°55′",
+    "longitude": 60.92
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 23.43,
+    "text": "Aquarius 23°26′",
+    "longitude": 323.433
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 21.7,
+    "text": "Capricornus 21°42′",
+    "longitude": 291.699
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Commission of the King",
+   "stop": "Paris, the clinic of Charles Deslon",
+   "date": "1784-04-01",
+   "date_confidence": "attested that both commissions examined Deslon's practice and not Mesmer's: 'The commission did not examine Mesmer specifically, but instead observed the practice of d'Eslon' (English Wikipedia). Month and day are inferred from the commission's working period and defaulted; the coordinate is a round-number placeholder for a Paris address not established in any source consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372743.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "inferred",
+    "placeholder",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.9,
+    "text": "Aries 11°54′",
+    "longitude": 11.903
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Commission of the King",
+   "stop": "The Louvre, the report to the King",
+   "date": "1784-08-11",
+   "date_confidence": "attested: the report is dated 'Paris, the 11th day of August, 1784' and was presented to the King. One working note had it presented to the Academy of Sciences on that date and gave the twelfth; both are wrong. The coordinate is the Academie Royale des Sciences seat at the Louvre and stands for the institutional setting, not for a delivery to the Academy.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372875.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 18.84,
+    "text": "Leo 18°51′",
+    "longitude": 138.843
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.85,
+    "text": "Gemini 23°51′",
+    "longitude": 83.85
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 27.38,
+    "text": "Leo 27°23′",
+    "longitude": 147.384
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 19.44,
+    "text": "Leo 19°27′",
+    "longitude": 139.443
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 4.87,
+    "text": "Virgo 4°52′",
+    "longitude": 154.872
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 4.72,
+    "text": "Pisces 4°43′",
+    "longitude": 334.716
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 18.42,
+    "text": "Capricornus 18°25′",
+    "longitude": 288.418
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Commission of the King",
+   "stop": "Paris, the second report and the one dissent",
+   "date": "1784-08-16",
+   "date_confidence": "attested for 16 August 1784, five days after the Franklin report. The coordinate for the Societe Royale de Medecine is approximate and was not independently verified. This commission was not unanimous: Antoine Laurent de Jussieu dissented and issued a separate report, which qualifies the 'unanimous scientific weight' sometimes claimed for the year's verdict as a whole.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372880.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "notes": [
+    "hard triggers (approximately) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 23.65,
+    "text": "Leo 23°39′",
+    "longitude": 143.651
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Commission of the King",
+   "stop": "Buzancy, the sleep of Victor Race",
+   "date": "1784-05-01",
+   "date_confidence": "attested for 1784 at Buzancy (English Wikipedia, 'Animal magnetism'); month and day unknown and defaulted. The coordinate is the commune of Buzancy in the Aisne and is supplied here from general geography, not from any source in the verified pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372773.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.19,
+    "text": "Taurus 11°12′",
+    "longitude": 41.192
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Commission of the King",
+   "stop": "Paris, the last departure",
+   "date": "1785-01-01",
+   "date_confidence": "French Wikipedia dates the final departure from Paris to 1785; German Wikipedia describes the departure from France more loosely as 1784 to 1788, with travel through England and the German lands. Month and day defaulted. Canonical Paris pin inherited.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1785,
+   "jd_ut": 2373018.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.09,
+    "text": "Capricornus 11°05′",
+    "longitude": 281.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering Years",
+   "stop": "London, the years under another name",
+   "date": "1785-01-01",
+   "date_confidence": "reconstruction. French Wikipedia reports the English residence under an assumed identity; no address, no patient and no year within the span are established. German Wikipedia says only that he travelled through England and the German lands between 1784 and 1788. Dated here to the start of that span with month and day defaulted. Canonical London pin, as used in bulwer_lytton.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1785,
+   "jd_ut": 2373018.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "between",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.09,
+    "text": "Capricornus 11°05′",
+    "longitude": 281.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering Years",
+   "stop": "Karlsruhe, the Margrave's recognition",
+   "date": "1788-06-01",
+   "date_confidence": "attested for June 1788; day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1788,
+   "jd_ut": 2374265.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.05,
+    "text": "Gemini 11°03′",
+    "longitude": 71.054
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering Years",
+   "stop": "Vienna, arrested as a Jacobin",
+   "date": "1793-09-14",
+   "date_confidence": "attested: arrival 14 September 1793, detention 17 November, release 9 December, exile under surveillance to the region of his birth. French Wikipedia also reports a Vienna return in 1790, which German Wikipedia does not have at all; the wife's death is placed in 1790 by German Wikipedia, with the couple then living apart. Canonical Vienna pin inherited.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2376196.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 21.58,
+    "text": "Virgo 21°35′",
+    "longitude": 171.577
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering Years",
+   "stop": "Wagenhausen, a Swiss residence bought",
+   "date": "1794-01-01",
+   "date_confidence": "attested: Thurgau residency rights acquired 1794, residence at Wagenhausen 1794 to 1798. Month and day defaulted. Coordinate corrected to Wagenhausen TG at 47.65963, 8.84849, about 3 km from an earlier working figure. The often repeated detail that he kept bees here is in no source consulted and is omitted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1794,
+   "jd_ut": 2376305.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.903
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering Years",
+   "stop": "Paris, creditor of the state",
+   "date": "1798-01-01",
+   "date_confidence": "attested for 1798: German Wikipedia, citing Kerner, has him obtain an annual pension of 3,000 francs as creancier d'etat, payable also into Germany. One working note claimed he sought a pension unsuccessfully; that is the opposite of the source. Month and day defaulted. Canonical Paris pin inherited.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377766.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.93,
+    "text": "Capricornus 10°56′",
+    "longitude": 280.932
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering Years",
+   "stop": "Versailles, writing into an emptied country",
+   "date": "1801-02-01",
+   "date_confidence": "attested for the move to Versailles in February 1801; day defaulted. The Memoire sur ses decouvertes is dated 1799 and the Briefe ueber den Ursprung der Blattern 1800, both within the 1798 to 1801 French period.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2378892.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.74,
+    "text": "Aquarius 11°44′",
+    "longitude": 311.739
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lake Again",
+   "stop": "Riedetsweiler, the hamlet above Meersburg",
+   "date": "1802-01-01",
+   "date_confidence": "German Wikipedia gives the return as the winter of 1802 to 1803; the closing year of the stay is inferred from the 1808 move to Frauenfeld and is a reconstruction. Month and day defaulted. Coordinate corrected to the Riedetsweiler hamlet node at 47.70350, 9.28956, about 4 km from an earlier working figure.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379226.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.943
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lake Again",
+   "stop": "Frauenfeld, the papers handed to Wolfart",
+   "date": "1808-09-01",
+   "date_confidence": "attested: residence at Frauenfeld 1808 to 1812, practising largely without charge, and the reception of Karl Christian Wolfart in September 1808. Day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1808,
+   "jd_ut": 2381661.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.33,
+    "text": "Virgo 8°20′",
+    "longitude": 158.325
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lake Again",
+   "stop": "Constance, the Hardthaus on the Hussenstrasse",
+   "date": "1812-12-01",
+   "date_confidence": "contradiction resolved against one source and recorded. The body text of German Wikipedia gives December 1808 for this move; that is contradicted by its own preceding section, by its photograph caption reading 'Wohnung von Franz Anton Mesmer von 1812 bis 1814', and by de.wikipedia 'Hussenstrasse', which states that Mesmer lived in the Hardthaus at Hussenstrasse 17 from 1812 to 1814. December 1812 is used; day defaulted. Coordinate corrected to the building 'Zum Hardthaus' at 47.65999, 9.17274.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383213.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.72,
+    "text": "Sagittarius 8°43′",
+    "longitude": 248.724
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lake Again",
+   "stop": "Constance, the testament in his own hand",
+   "date": "1814-04-11",
+   "date_confidence": "attested for 11 April 1814. The passage of the diploma and seal ring to Justinus Kerner is a secondary characterization in German Wikipedia's estate summary and is a reconstruction as to the route by which they reached him.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383709.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 20.48,
+    "text": "Aries 20°29′",
+    "longitude": 20.482
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 29.93,
+    "text": "Sagittarius 29°56′",
+    "longitude": 269.932
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 6.56,
+    "text": "Aries 6°33′",
+    "longitude": 6.558
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 14.72,
+    "text": "Pisces 14°43′",
+    "longitude": 344.718
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 6.96,
+    "text": "Gemini 6°58′",
+    "longitude": 66.962
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 0.47,
+    "text": "Virgo 0°28′",
+    "longitude": 150.473
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 29.72,
+    "text": "Capricornus 29°43′",
+    "longitude": 299.722
+   }
+  },
+  {
+   "segment": "The Lake Again",
+   "stop": "Riedetsweiler, the last summer",
+   "date": "1814-07-01",
+   "date_confidence": "attested for the summer of 1814 at Sebastian Futterer's farmstead, formerly the inn 'zu den Drei Luemmeln'; month and day approximate within that summer and defaulted. Coordinate as corrected for Riedetsweiler.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383790.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.47,
+    "text": "Cancer 8°28′",
+    "longitude": 98.467
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lake Again",
+   "stop": "Meersburg, the pensioner's room in the Heilig-Geist-Spital",
+   "date": "1814-10-01",
+   "date_confidence": "attested for the autumn of 1814; month approximate and day defaulted. Corrected in one detail: the room is the Pfruendnerstube on the first floor, one storey up, not a ground-floor room. The coordinate follows the corrected death-house figure 47.6938, 9.2731; a nearby working figure of 47.6942, 9.2664 is about 510 m west, and the street address given elsewhere is Vorburggasse 11.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383882.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.18,
+    "text": "Libra 7°11′",
+    "longitude": 187.179
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lake Again",
+   "stop": "Meersburg, death waiting for the glass harmonica",
+   "date": "1815-03-05",
+   "date_confidence": "attested: illness from 26 February 1815, death by stroke 5 March 1815, aged 80. The deathbed detail is a contemporary account reported in German Wikipedia and carries the weight of a contemporary account, no more.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384037.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 13.6,
+    "text": "Pisces 13°36′",
+    "longitude": 343.597
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 6.37,
+    "text": "Capricornus 6°22′",
+    "longitude": 276.371
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 29.63,
+    "text": "Pisces 29°38′",
+    "longitude": 359.633
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 0.04,
+    "text": "Aries 0°02′",
+    "longitude": 0.039
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 11.73,
+    "text": "Capricornus 11°44′",
+    "longitude": 281.731
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 7.91,
+    "text": "Libra 7°54′",
+    "longitude": 187.906
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 7.41,
+    "text": "Aquarius 7°24′",
+    "longitude": 307.408
+   }
+  },
+  {
+   "segment": "The Afterlife of the Fluid",
+   "stop": "Meersburg cemetery, the monument of 1830",
+   "date": "1830-01-01",
+   "date_confidence": "attested for erection in 1830 and renovation in 1902; month and day unknown and defaulted. The plot is precisely located by German Wikipedia beside the Hochkreuz, about 10 m from the western cemetery wall, at 47.696006, 9.278171; an earlier working coordinate of 47.6889, 9.2694 fell outside the cemetery.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389453.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.149
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Fluid",
+   "stop": "London, the practice keeps the name and drops the physics",
+   "date": "1843-01-01",
+   "date_confidence": "attested for Braid's coinage of 'hypnotism' in 1843 and his 1851 repudiation of 'Transcendental Mesmerism'; month and day unknown and defaulted. The coordinate is the canonical London pin standing for Britain as a whole; Braid himself practised in Manchester, and no location is given for these events in the verified pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1843,
+   "jd_ut": 2394201.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.99,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.99
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Fluid",
+   "stop": "Paris, the Salpetriere and the clinical descendants",
+   "date": "1885-01-01",
+   "date_confidence": "reconstruction of the lineage. The Salpetriere pin is inherited byte for byte from delsarte.journey.json, where Delsarte visits the asylum around 1835 to study the gestures of the mad; Freud's Vienna practice advertising electrotherapy and hypnotic suggestion follows his return from Charcot and is attested in freud.journey.json. Neither journey names Mesmer, and the genealogical link from animal magnetism through Charcot to Freud is a historian's inference, not a documented citation. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409542.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.809
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Fluid",
+   "stop": "Paris, the trick film and the long ridicule",
+   "date": "1905-01-01",
+   "date_confidence": "attested for the 1905 Melies satire and for several hundred books on animal magnetism and its offshoots published between 1766 and 1925; month and day unknown and defaulted. The Schelling and Gurdjieff connections are reconstructions of intellectual descent: neither journey cites Mesmer by name. Canonical Paris pin inherited.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416846.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "between",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.937
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Fluid",
+   "stop": "Iznang, the bust on the shore",
+   "date": "2013-01-01",
+   "date_confidence": "attested for the 2013 Zilly bust at Iznang; month and day unknown and defaulted. Peter Lenk's 'Magische Saeule' on the Meersburg harbour mole is attested without a year in the sources consulted. Coordinate corrected: Iznang is at 47.71542, 8.96012 with its shorefront just south, so about 47.7135, 8.9585; an earlier working figure of 47.7139, 8.9928 fell 2.4 km east toward Gundholzen.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2013,
+   "jd_ut": 2456293.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.734
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Fluid",
+   "stop": "Vienna, a plaque on a building that is not the house",
+   "date": "2019-01-01",
+   "date_confidence": "attested for 2019 at Rasumofskygasse 29, on the building erected in 1920 over the site of the former Palais Mesmer; month and day unknown and defaulted. Coordinate corrected to 48.203163, 16.391392; an earlier working figure of 48.1919, 16.3838 was 1.4 km off.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2019,
+   "jd_ut": 2458484.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.269
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 7,
+  "month": 7,
+  "year": 31
+ },
+ "parse_failures": []
+}

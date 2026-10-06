@@ -1,0 +1,1730 @@
+{
+ "slug": "dore_hoyer",
+ "traveler": "Dore Hoyer",
+ "title": "The Rented Hall: Dresden, Buenos Aires, and the Last Solo of Ausdruckstanz",
+ "years": "1911-1967",
+ "years_parsed": {
+  "first": 1911,
+  "last": 1967
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Rhythm School",
+  "stop": "Dresden, born in a mason's household",
+  "date": "1911-12-12",
+  "date_confidence": "attested; the Neue Deutsche Biographie, the Sächsische Biografie and the Deutsches Tanzarchiv Köln give 12 December 1911 independently. Coordinate is the corpus's general Dresden pin, inherited from mary_wigman.journey.json; the birth address is not recorded in any reachable source.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1911,
+  "jd_ut": 2419382.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "notes": [
+   "hard triggers (not recorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+  ],
+  "sun": {
+   "sign": "Sagittarius",
+   "degree": 18.86,
+   "text": "Sagittarius 18°51′",
+   "longitude": 258.855
+  },
+  "moon": {
+   "sign": "Virgo",
+   "degree": 9.57,
+   "text": "Virgo 9°34′",
+   "longitude": 159.568
+  },
+  "mercury": {
+   "sign": "Capricornus",
+   "degree": 9.04,
+   "text": "Capricornus 9°02′",
+   "longitude": 279.04
+  },
+  "venus": {
+   "sign": "Scorpio",
+   "degree": 2.87,
+   "text": "Scorpio 2°52′",
+   "longitude": 212.869
+  },
+  "mars": {
+   "sign": "Taurus",
+   "degree": 26.43,
+   "text": "Taurus 26°26′",
+   "longitude": 56.427
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 0.32,
+   "text": "Sagittarius 0°19′",
+   "longitude": 240.32
+  },
+  "saturn": {
+   "sign": "Taurus",
+   "degree": 14.37,
+   "text": "Taurus 14°22′",
+   "longitude": 44.37
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1911-1967",
+  "first_year_parsed": 1911
+ },
+ "stops": [
+  {
+   "segment": "The Rhythm School",
+   "stop": "Dresden, born in a mason's household",
+   "date": "1911-12-12",
+   "date_confidence": "attested; the Neue Deutsche Biographie, the Sächsische Biografie and the Deutsches Tanzarchiv Köln give 12 December 1911 independently. Coordinate is the corpus's general Dresden pin, inherited from mary_wigman.journey.json; the birth address is not recorded in any reachable source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419382.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not recorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.86,
+    "text": "Sagittarius 18°51′",
+    "longitude": 258.855
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 9.57,
+    "text": "Virgo 9°34′",
+    "longitude": 159.568
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 9.04,
+    "text": "Capricornus 9°02′",
+    "longitude": 279.04
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 2.87,
+    "text": "Scorpio 2°52′",
+    "longitude": 212.869
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 26.43,
+    "text": "Taurus 26°26′",
+    "longitude": 56.427
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 0.32,
+    "text": "Sagittarius 0°19′",
+    "longitude": 240.32
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 14.37,
+    "text": "Taurus 14°22′",
+    "longitude": 44.37
+   }
+  },
+  {
+   "segment": "The Rhythm School",
+   "stop": "Dresden-Blasewitz, the school of Ilse Homilius",
+   "date": "1928-01-01",
+   "date_confidence": "attested for the year, month unrecorded and defaulted. Coordinate corrected to the centre of Blasewitz; the background dossier's 51.0311/13.7897 lands in Strehlen. The Dalcroze derivation of the curriculum is reconstruction, not attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rhythm School",
+   "stop": "Deutsches Hygiene-Museum, the teacher's diploma",
+   "date": "1930-06-01",
+   "date_confidence": "attested for the year; the month is inferred from the usual examination season and defaulted. Coordinate corrected to Lingnerplatz 1 from the dossier's 51.0533/13.7625.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426128.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.79,
+    "text": "Gemini 9°47′",
+    "longitude": 69.788
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rhythm School",
+   "stop": "Dresden, the year at Palucca's school",
+   "date": "1930-10-01",
+   "date_confidence": "attested for the academic year 1930/31; the month is a convention for the term's start. The premises are unlocated: the present Palucca Hochschule building at Basteiplatz dates from 1952-55, and Palucca's earlier rooms are undocumented, so the general Dresden pin stands in.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426250.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.09,
+    "text": "Libra 7°06′",
+    "longitude": 187.094
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rhythm School",
+   "stop": "Plauen, a season of operetta",
+   "date": "1931-09-01",
+   "date_confidence": "attested for the 1931-32 season; the month is the conventional season opening and is defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426585.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.6,
+    "text": "Virgo 7°36′",
+    "longitude": 157.602
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Peter Cieslak",
+   "stop": "Dresden, the composer at the piano",
+   "date": "1932-01-01",
+   "date_confidence": "attested for the year by the Deutsches Tanzarchiv Köln; month and day unrecorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Peter Cieslak",
+   "stop": "Künstlerhaus Dresden, the first evening of their own",
+   "date": "1933-03-30",
+   "date_confidence": "date attested exactly by the Deutsches Tanzarchiv Köln. Venue doubtful: the archive names the Künstlerhaus without an address, and the only Dresden building of that name is the studio house at Pillnitzer Landstrasse in Loschwitz, used here and flagged. The dossier's 51.058/13.744 matched no building of the name.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427161.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 8.85,
+    "text": "Aries 8°51′",
+    "longitude": 8.851
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 22.42,
+    "text": "Taurus 22°25′",
+    "longitude": 52.423
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 26.87,
+    "text": "Pisces 26°52′",
+    "longitude": 356.874
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 3.02,
+    "text": "Aries 3°01′",
+    "longitude": 3.016
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.93,
+    "text": "Virgo 1°56′",
+    "longitude": 151.929
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 15.68,
+    "text": "Virgo 15°41′",
+    "longitude": 165.681
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 13.51,
+    "text": "Aquarius 13°30′",
+    "longitude": 313.508
+   }
+  },
+  {
+   "segment": "Peter Cieslak",
+   "stop": "Oldenburg, ballet mistress for a salary",
+   "date": "1933-09-01",
+   "date_confidence": "attested for the 1933-34 season; the month is the conventional season opening and is defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427316.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.1,
+    "text": "Virgo 8°06′",
+    "longitude": 158.101
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Peter Cieslak",
+   "stop": "Deutsches Hygiene-Museum, five dances with no names",
+   "date": "1935-02-01",
+   "date_confidence": "attested for February 1935 by the Deutsches Tanzarchiv Köln; the day is unrecorded and defaulted. The 1934 evening at the Komödie is folded into this stop because that theatre's historical address could not be established.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427834.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.21,
+    "text": "Aquarius 11°12′",
+    "longitude": 311.207
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Peter Cieslak",
+   "stop": "Dresden, the death of Peter Cieslak",
+   "date": "1935-04-05",
+   "date_confidence": "attested exactly by the Deutsches Tanzarchiv Köln. The place of his death is not given in any reachable source; the general Dresden pin stands in.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427897.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 14.29,
+    "text": "Aries 14°17′",
+    "longitude": 14.29
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Company Dancer, Not Pupil",
+   "stop": "Dresden, asking Mary Wigman for the group",
+   "date": "1935-09-01",
+   "date_confidence": "attested for September 1935; the day is unrecorded and defaulted. That she joined as a company dancer and not as a pupil is attested; de.wikipedia's Mary Wigman article states she 'war jedoch nie ihre Schülerin'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2428046.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.63,
+    "text": "Virgo 7°38′",
+    "longitude": 157.633
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Company Dancer, Not Pupil",
+   "stop": "Dresden, Tanzgesänge and the northern tour",
+   "date": "1935-11-01",
+   "date_confidence": "attested by the NDB, the Sächsische Biografie and the Tanzarchiv independently; the day is unrecorded and defaulted. Gap: no reachable source names the festival's host city or any single stop on the tour, only the four countries, so the Dresden pin holds the whole episode.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2428107.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.64,
+    "text": "Scorpio 7°38′",
+    "longitude": 217.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Company Dancer, Not Pupil",
+   "stop": "Dresden, Wiatowitsch and the rented halls",
+   "date": "1936-05-01",
+   "date_confidence": "attested for May 1936 by the Deutsches Tanzarchiv Köln, which is sharper than the background dossier's bare 1936; the day is unrecorded and defaulted. The self-financing under the concert agencies' resistance is attested from about 1937.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428289.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.44,
+    "text": "Taurus 10°26′",
+    "longitude": 40.441
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Company Dancer, Not Pupil",
+   "stop": "Berlin, the Deutsche Tanzbühne",
+   "date": "1940-01-01",
+   "date_confidence": "attested for 1940-41 by the NDB and the Tanzarchiv; month and day unrecorded and defaulted. Gap: no reachable source names the Berlin house, so a declared central Berlin coordinate is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429629.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.43,
+    "text": "Capricornus 9°26′",
+    "longitude": 279.431
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Company Dancer, Not Pupil",
+   "stop": "Dresden, two seasons at the Theater des Volkes",
+   "date": "1941-09-01",
+   "date_confidence": "attested by the Deutsches Tanzarchiv Köln, which records the engagement on the dissolution of the Tanzbühne in 1941; the month is the conventional season opening. The theatre's exact address is approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430238.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "convention",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.16,
+    "text": "Virgo 8°10′",
+    "longitude": 158.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Company Dancer, Not Pupil",
+   "stop": "Graz, the last wartime season",
+   "date": "1943-09-01",
+   "date_confidence": "attested for the 1943-44 season by the Tanzarchiv, the NDB and the Sächsische Biografie; the month is the conventional season opening and is defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430968.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.7,
+    "text": "Virgo 7°42′",
+    "longitude": 157.697
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ashes and the Studio",
+   "stop": "Dresden, forced labour at Zeiss Ikon",
+   "date": "1944-09-01",
+   "date_confidence": "attested for September 1944 by the Deutsches Tanzarchiv Köln, which sharpens the background dossier's '1944-1945'; the day is unrecorded and defaulted. The branch is unnamed in every reachable source, so the Ernemann works at Schandauer Strasse 76 stand in as the nearest documented Zeiss Ikon site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431334.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.43,
+    "text": "Virgo 8°26′",
+    "longitude": 158.43
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ashes and the Studio",
+   "stop": "Blasewitz, the cellar under the firestorm",
+   "date": "1945-02-13",
+   "date_confidence": "attested; the Deutsches Tanzarchiv Köln places her in a Blasewitz cellar on the night of 13-14 February 1945. Coordinate corrected to the centre of Blasewitz from the dossier's 51.0311/13.7897.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431499.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 23.94,
+    "text": "Aquarius 23°57′",
+    "longitude": 323.945
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 27.62,
+    "text": "Aquarius 27°37′",
+    "longitude": 327.618
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 12.07,
+    "text": "Aquarius 12°04′",
+    "longitude": 312.073
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 10.42,
+    "text": "Aries 10°25′",
+    "longitude": 10.419
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 28.93,
+    "text": "Capricornus 28°56′",
+    "longitude": 298.931
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 25.91,
+    "text": "Virgo 25°55′",
+    "longitude": 175.913
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 4.12,
+    "text": "Cancer 4°07′",
+    "longitude": 94.125
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Ashes and the Studio",
+   "stop": "Bautzner Strasse, the Dore-Hoyer-Studio opens",
+   "date": "1945-06-01",
+   "date_confidence": "attested for June 1945; the day is unrecorded and defaulted. Coordinate inherited byte-identical from mary_wigman.journey.json, which pins the school to Bautzner Strasse 107.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431607.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.15,
+    "text": "Gemini 10°09′",
+    "longitude": 70.147
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ashes and the Studio",
+   "stop": "Bautzner Strasse, dances for Käthe Kollwitz",
+   "date": "1946-01-01",
+   "date_confidence": "contradiction printed, not resolved: the Deutsches Tanzarchiv Köln dates the cycle 1945, other summaries 1946. Month and day unrecorded and defaulted. The background dossier's added claim that Hoyer dedicated the cycle to the Communist Party is supported by no reachable source and has been dropped.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431821.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "disputed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.985
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ashes and the Studio",
+   "stop": "Dresden, Der grosse Gesang and the charge of formalism",
+   "date": "1947-01-01",
+   "date_confidence": "attested for 1947 by the Deutsches Tanzarchiv Köln, which records the formalism charge from Soviet-zone authorities; month and day unrecorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432186.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°44′",
+    "longitude": 279.737
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ashes and the Studio",
+   "stop": "Dresden, leaving the Soviet zone",
+   "date": "1948-09-01",
+   "date_confidence": "the departure and its political cause are attested by the Deutsches Tanzarchiv Köln; de.wikipedia supplies September 1948. The day is unrecorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432795.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.46,
+    "text": "Virgo 8°28′",
+    "longitude": 158.462
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ashes and the Studio",
+   "stop": "Augsburg, guest evenings in the American zone",
+   "date": "1948-10-01",
+   "date_confidence": "attested for 1948 by the Deutsches Tanzarchiv Köln, which places Augsburg between Dresden and Hamburg; month and day unrecorded and defaulted to follow the September departure.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432825.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.73,
+    "text": "Libra 7°44′",
+    "longitude": 187.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hamburg, and the Prize",
+   "stop": "Hamburgische Staatsoper, engaged by Günther Rennert",
+   "date": "1949-09-01",
+   "date_confidence": "attested for 1949 by the Sächsische Biografie, the NDB and the Tanzarchiv; the month is the conventional season opening and is defaulted. Coordinate corrected to Dammtorstrasse from the dossier's 53.5637/9.9908.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433160.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.23,
+    "text": "Virgo 8°14′",
+    "longitude": 158.228
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hamburg, and the Prize",
+   "stop": "Hamburgische Staatsoper, Der Fremde",
+   "date": "1950-02-01",
+   "date_confidence": "attested for February 1950 by the Deutsches Tanzarchiv Köln; the day is unrecorded and defaulted. The quotation is a Spanish translation at one remove, printed in Patricia Dorin's paper from Durante/Falcoff 2008; Hoyer's German original was not located.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433313.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.57,
+    "text": "Aquarius 11°34′",
+    "longitude": 311.572
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hamburg, and the Prize",
+   "stop": "Hamburg, the resignation and the critics' prize",
+   "date": "1951-02-01",
+   "date_confidence": "the February 1951 resignation is attested by the Sächsische Biografie and the prize by the Sächsische Biografie and the NDB; the day is unrecorded and defaulted. The jury citation reaches this file only through de.wikipedia citing Müller/Peter/Schuldt 1992, p. 45; one verification pass reported that article carrying no such wording, and the monograph was not seen.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433678.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.33,
+    "text": "Aquarius 11°20′",
+    "longitude": 311.326
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hamburg, and the Prize",
+   "stop": "Mannheim, Joan of Arc in a cinema",
+   "date": "1952-01-01",
+   "date_confidence": "attested for 1952 by the Tanzarchiv and de.wikipedia; month and day unrecorded and defaulted. Coordinate is Mannheim city centre by deliberate choice: the Nationaltheater's Goetheplatz house was built 1955-57, so in 1952 the company was playing out of the Schauburg cinema in block K 1, its Schillerplatz house having been destroyed on 5 September 1943. The quotation's original letter, essay or interview is not named by the source that carries it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434012.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "year named only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.52,
+    "text": "Capricornus 9°31′",
+    "longitude": 279.519
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guest Years",
+   "stop": "Buenos Aires, the first South American tour",
+   "date": "1952-06-01",
+   "date_confidence": "the 1952 Argentina and Brazil tour with Wiatowitsch is attested by the Deutsches Tanzarchiv Köln, which also records regular South American tours through 1963; month and day unrecorded and defaulted. The Teatro Colon as a venue of this tour is reconstruction only: the page the background dossier cited for it contains nothing on Argentina at all. Coordinate is the corpus's canonical Buenos Aires city pin, inherited byte-identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434164.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.44,
+    "text": "Gemini 10°27′",
+    "longitude": 70.442
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guest Years",
+   "stop": "Ulm, the year of the knee",
+   "date": "1954-01-01",
+   "date_confidence": "the Ulm guest work and the 1954 accident are both attested for the year, the accident by de.wikipedia and indirectly by the NDB; month and day unrecorded and defaulted. The two are placed together for order only: no source connects the injury to Ulm, and its place, day and circumstances are undocumented.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434743.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year",
+    "no source (for the date)",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guest Years",
+   "stop": "Athens, guest work and an Elektra",
+   "date": "1956-01-01",
+   "date_confidence": "attested for 1956 by the Deutsches Tanzarchiv Köln; month and day unrecorded and defaulted. Kreutzberg's Moira von Mykene is dated to the same year but its performance venue is not established, and it is named here rather than given a pin of its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435473.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "unrecorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.55,
+    "text": "Capricornus 9°33′",
+    "longitude": 279.549
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guest Years",
+   "stop": "New London, the American Dance Festival",
+   "date": "1957-07-01",
+   "date_confidence": "attested for 1957 and for six weeks at the tenth American Dance Festival; the month follows the festival's usual summer season and is defaulted. The quotation's German is confirmed in the de.wikipedia raw wikitext; its ultimate source is Müller/Peter/Schuldt 1992, p. 59, which was not seen. The reported New York studio visits are reconstruction, no address being itemised anywhere reachable.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2436020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.9,
+    "text": "Cancer 8°54′",
+    "longitude": 98.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chosen One, and La Plata",
+   "stop": "Berlin, the Chosen One in Le Sacre du printemps",
+   "date": "1957-09-24",
+   "date_confidence": "attested; the Deutsches Tanzarchiv Köln gives September 1957 and de.wikipedia's Mary Wigman article names the Städtische Oper, which between 1945 and September 1961 played in the Theater des Westens. Coordinate inherited byte-identical from mary_wigman.journey.json. The quotation's German original, date and occasion are attested nowhere reachable.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2436105.5,
+   "precision": "month",
+   "precision_triggers": [
+    "between"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 0.68,
+    "text": "Libra 0°41′",
+    "longitude": 180.68
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chosen One, and La Plata",
+   "stop": "Berlin, the dances round the golden calf",
+   "date": "1959-01-01",
+   "date_confidence": "contradiction printed, not resolved: the Neue Deutsche Biographie dates the work 1958, de.wikipedia attaches it to the 1959 German premiere. Month and day unrecorded and defaulted. The house is uncertain for the same reason as the 1957 stop, the opera company still playing in the Theater des Westens until September 1961; the pin is deliberately identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "disputed",
+    "uncertain"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chosen One, and La Plata",
+   "stop": "La Plata, the movement choir on the Rio de la Plata",
+   "date": "1960-04-01",
+   "date_confidence": "attested: the Deutsches Tanzarchiv Köln records the movement choir and chamber group, and es.wikipedia's Oscar Araiz article independently confirms both the teaching and the Grupo Camara. Month and day unrecorded and defaulted. Coordinate corrected to the Teatro Argentino on Calle 10 from the dossier's -34.9187/-57.9545. The quotation is an eyewitness's words about Hoyer, not Hoyer's own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2437025.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.28,
+    "text": "Aries 11°17′",
+    "longitude": 11.279
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Affectos Humanos",
+   "stop": "Berlin, the five passions after Spinoza",
+   "date": "1962-06-01",
+   "date_confidence": "the work, its five titles, its Spinoza source and the Wiatowitsch score are attested for 1962; the return to Germany that year is attested by the Tanzarchiv, though the motives the background dossier gave for it are unsourced and dropped. Month and day unrecorded and defaulted. A declared central Berlin coordinate: no source names the room the cycle was made in.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437816.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year",
+    "year named only",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.04,
+    "text": "Gemini 10°03′",
+    "longitude": 70.042
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Affectos Humanos",
+   "stop": "Akademie der Künste, the solo from Dostoevsky",
+   "date": "1964-01-01",
+   "date_confidence": "attested for 1964 by the Deutsches Tanzarchiv Köln; month and day unrecorded and defaulted. The Hanseatenweg address is institutional record rather than a documented residence, and the sources describe the arrangement only loosely.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438395.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.61,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.608
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Affectos Humanos",
+   "stop": "Akademie der Künste, Grossstadt and the second failure",
+   "date": "1965-05-01",
+   "date_confidence": "the work is attested for 1965; that it failed is reconstruction, carried by the background dossier and not reconfirmed by any source fetched. Month and day unrecorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "year named only",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.42,
+    "text": "Taurus 10°25′",
+    "longitude": 40.425
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Affectos Humanos",
+   "stop": "Delhi, the Goethe-Institut tour",
+   "date": "1965-10-01",
+   "date_confidence": "contradiction printed and weighted: the Deutsches Tanzarchiv Köln gives autumn 1965 specifically, the Sächsische Biografie a bare 1966; the specific attestation anchors the date and 1966 is the variant. The day is unrecorded and defaulted. Coordinate is a declared placeholder: no reachable source names a single city or hall on the itinerary, only the regions.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2439034.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placeholder",
+    "unrecorded",
+    "disputed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.61,
+    "text": "Libra 7°37′",
+    "longitude": 187.612
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Affectos Humanos",
+   "stop": "Frankfurt am Main, Affectos Humanos on tape",
+   "date": "1967-02-01",
+   "date_confidence": "reconstruction. That a Hessischer Rundfunk recording of Affectos Humanos exists is supported by de.wikipedia's reference to 'die Filmaufzeichnung des HR', but the page the background dossier cited carries no broadcaster, no 15 February 1967 date, no issue date and no credits, so all of those are stripped. Frankfurt is the broadcaster's home city; no source names the studio. Day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439522.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.44,
+    "text": "Aquarius 11°27′",
+    "longitude": 311.444
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Affectos Humanos",
+   "stop": "Theater des Westens, the last evening",
+   "date": "1967-12-18",
+   "date_confidence": "attested exactly by the Deutsches Tanzarchiv Köln and de.wikipedia, including the self-financing, the attendance of a little over one hundred, and the topical piece Vietnam. Coordinate deliberately identical to the 1957 Sacre stop: the same building, inherited byte-identical from mary_wigman.journey.json, reconciling the two divergent values the background dossier carried.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439842.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 25.37,
+    "text": "Sagittarius 25°22′",
+    "longitude": 265.375
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Affectos Humanos",
+   "stop": "West Berlin, the poison brought from South America",
+   "date": "1967-12-31",
+   "date_confidence": "the death is attested for 31 December 1967 by the NDB, the Sächsische Biografie and the Tanzarchiv independently; machine-readable catalogues give 30 December, a divergence printed and not adjudicated. The December 1967 second Kritikerpreis is attested by the Tanzarchiv. The quotation is reconstruction: the letter is untraced and the English is a translation at one remove. The apartment is unrecorded, so a declared central coordinate is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439855.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (unrecorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.62,
+    "text": "Capricornus 8°37′",
+    "longitude": 278.618
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What Was Left",
+   "stop": "Frankfurter Hauptfriedhof, the grave nobody explains",
+   "date": "1968-01-01",
+   "date_confidence": "the burial at Frankfurt's main cemetery is attested by the Tanzarchiv and de.wikipedia; the date of interment is unrecorded and defaulted. Coordinate corrected to Eckenheimer Landstrasse from two different wrong values the background dossier carried for the same grave. The cemetery's own article does not list her among its notable burials.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2439856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.64,
+    "text": "Capricornus 9°38′",
+    "longitude": 279.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What Was Left",
+   "stop": "Köln, Bestand 001 of the German Dance Archive",
+   "date": "1968-06-01",
+   "date_confidence": "the estate's contents and its catalogue number are attested by the archive's own finding aid; the year of deposit is not stated in any reachable source and the date here orders the segment only.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2440008.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.57,
+    "text": "Gemini 10°34′",
+    "longitude": 70.569
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What Was Left",
+   "stop": "Dresden, a street by the Grosser Garten",
+   "date": "1990-01-01",
+   "date_confidence": "the street is attested by de.wikipedia and the Sächsische Biografie, but no reachable source gives the year of dedication; the date here is a declared placeholder that orders the segment only. Coordinate from OSM, correcting the background dossier's 51.04/13.79, which lands in Gruna three kilometres east.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2447892.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "ordering",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.31
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 3,
+  "month": 9,
+  "year": 32
+ },
+ "parse_failures": []
+}

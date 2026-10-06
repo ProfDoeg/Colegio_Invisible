@@ -1,0 +1,1790 @@
+{
+ "slug": "emanuel_swedenborg",
+ "traveler": "Emanuel Swedenborg (born Emanuel Swedberg)",
+ "title": "The Assessor of Mines: Longitude, Metallurgy, and the Spiritual Sense of Scripture",
+ "years": "1688-1772",
+ "years_parsed": {
+  "first": 1688,
+  "last": 1772
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Bishop's Son at Uppsala",
+  "stop": "Stockholm, Gamla Stan: the court chaplain's son",
+  "date": "1688-01-29",
+  "date_confidence": "attested to 29 January 1688 Old Style. The Gregorian equivalent is 8 February, not the 9 February that swedenborg.com and several English sources give: the Julian-Gregorian offset in 1688 was ten days, and Swedish Wikipedia states the conversion outright. The Old Style date is used as the sort key because it is what Stockholm itself wrote. The birth house is not recorded in any reachable source, so the coordinate is a district anchor in the old town, near Stortorget, and is not a street address.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1688,
+  "jd_ut": 2337617.5,
+  "precision": "day",
+  "precision_triggers": [
+   "(soft-year) year named with preposition"
+  ],
+  "notes": [
+   "hard triggers (not recorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+   "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+  ],
+  "sun": {
+   "sign": "Aquarius",
+   "degree": 9.13,
+   "text": "Aquarius 9°08′",
+   "longitude": 309.129
+  },
+  "moon": {
+   "sign": "Sagittarius",
+   "degree": 17.22,
+   "text": "Sagittarius 17°13′",
+   "longitude": 257.216
+  },
+  "mercury": {
+   "sign": "Capricornus",
+   "degree": 16.18,
+   "text": "Capricornus 16°11′",
+   "longitude": 286.184
+  },
+  "venus": {
+   "sign": "Sagittarius",
+   "degree": 22.33,
+   "text": "Sagittarius 22°20′",
+   "longitude": 262.333
+  },
+  "mars": {
+   "sign": "Aries",
+   "degree": 21.49,
+   "text": "Aries 21°29′",
+   "longitude": 21.491
+  },
+  "jupiter": {
+   "sign": "Capricornus",
+   "degree": 13.16,
+   "text": "Capricornus 13°10′",
+   "longitude": 283.161
+  },
+  "saturn": {
+   "sign": "Libra",
+   "degree": 24.78,
+   "text": "Libra 24°47′",
+   "longitude": 204.78
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1688-1772",
+  "first_year_parsed": 1688
+ },
+ "stops": [
+  {
+   "segment": "The Bishop's Son at Uppsala",
+   "stop": "Stockholm, Gamla Stan: the court chaplain's son",
+   "date": "1688-01-29",
+   "date_confidence": "attested to 29 January 1688 Old Style. The Gregorian equivalent is 8 February, not the 9 February that swedenborg.com and several English sources give: the Julian-Gregorian offset in 1688 was ten days, and Swedish Wikipedia states the conversion outright. The Old Style date is used as the sort key because it is what Stockholm itself wrote. The birth house is not recorded in any reachable source, so the coordinate is a district anchor in the old town, near Stortorget, and is not a street address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1688,
+   "jd_ut": 2337617.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (not recorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 9.13,
+    "text": "Aquarius 9°08′",
+    "longitude": 309.129
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 17.22,
+    "text": "Sagittarius 17°13′",
+    "longitude": 257.216
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 16.18,
+    "text": "Capricornus 16°11′",
+    "longitude": 286.184
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 22.33,
+    "text": "Sagittarius 22°20′",
+    "longitude": 262.333
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 21.49,
+    "text": "Aries 21°29′",
+    "longitude": 21.491
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 13.16,
+    "text": "Capricornus 13°10′",
+    "longitude": 283.161
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 24.78,
+    "text": "Libra 24°47′",
+    "longitude": 204.78
+   }
+  },
+  {
+   "segment": "The Bishop's Son at Uppsala",
+   "stop": "Uppsala, the professor's house",
+   "date": "1692-01-01",
+   "date_confidence": "the family's move to Uppsala on Jesper Swedberg's professorship is dated 1692 in the Colegio Invisible dossier and is consistent with sv.wikipedia on his career, but I could not confirm the specific move date against an independent source in this pass. Treat the year as dossier-sourced. Month and day unknown, defaulted to 01-01. The coordinate is Uppsala Cathedral, the town's fixed point; the professorial house itself is not identified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1692,
+   "jd_ut": 2339050.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.66,
+    "text": "Capricornus 10°40′",
+    "longitude": 280.663
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bishop's Son at Uppsala",
+   "stop": "Uppsala, the eleven-year-old matriculant",
+   "date": "1699-01-01",
+   "date_confidence": "matriculation at eleven attested by swedenborg.com's life chronology; month and day are not given and default to 01-01. Sara Behm's death when he was eight, dated 1696, comes from the dossier citing Acton's Letters and Memorials and is not independently reverified here. The coordinate is the Gustavianum, the university's main building in this period.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1699,
+   "jd_ut": 2341607.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.97,
+    "text": "Capricornus 10°58′",
+    "longitude": 280.969
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bishop's Son at Uppsala",
+   "stop": "Uppsala, the librarian's household",
+   "date": "1703-01-01",
+   "date_confidence": "en.wikipedia documents his residence with Erik Benzelius the Younger as 1703-1709. The dossier and the geography lens both compressed this into a single span running from the family's 1692 arrival, which conflates two separate events; 1703 is used here and the conflation is flagged in the report. Jesper Swedberg's elevation to the see of Skara is attested to 1702 by sv.wikipedia. Month and day unknown, defaulted to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1703,
+   "jd_ut": 2343067.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.979
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bishop's Son at Uppsala",
+   "stop": "Uppsala, Gustavianum: Seneca and Publilius Syrus",
+   "date": "1709-01-01",
+   "date_confidence": "attested to 1709 by swedenborg.com's life chronology and by Wikipedia; the month is not given in either and defaults to 01. The work is an edition with commentary rather than an original dissertation in the modern sense, and sources describe it both ways without contradiction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1709,
+   "jd_ut": 2345259.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.533
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grand Tour",
+   "stop": "London, Crane Court: among the Newtonians",
+   "date": "1710-01-01",
+   "date_confidence": "the 1710 departure and the several London years are attested by Wikipedia; the month is not fixed and defaults to 01. The Crane Court coordinate is inherited byte-identical from newton.journey.json, where the Royal Society's 1710 purchase of the houses is documented; Swedenborg's presence in that milieu is dossier and standard-biography material, not an attendance record. The claim that he attended Newton's lectures rests on the Swedenborg Society's own biography and is marked [R] in the report.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1710,
+   "jd_ut": 2345624.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.285
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grand Tour",
+   "stop": "Greenwich, the Astronomer Royal's tables",
+   "date": "1711-01-01",
+   "date_confidence": "[R]. The Royal Observatory and John Flamsteed's tenure are attested; Swedenborg's approach to him is the dossier's reading of his correspondence with Benzelius and was not confirmed against a primary document in this pass. Dated 1711 as a sort placeholder inside the documented 1710-1715 English stay. The coordinate is inherited byte-identical from edmond_halley.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1711,
+   "jd_ut": 2345989.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.038
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grand Tour",
+   "stop": "Amsterdam, the first of the returns",
+   "date": "1713-01-01",
+   "date_confidence": "the Netherlands leg of the grand tour is attested to the 1710-1715 span by Wikipedia without a precise year; 1713 orders the itinerary and is not a claim about the month or the day. The trades he learned in the Low Countries come from the dossier's synthesis. City-level coordinate; no lodging or press address is established.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1713,
+   "jd_ut": 2346720.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.562
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grand Tour",
+   "stop": "Paris, the notebook of machines",
+   "date": "1714-01-01",
+   "date_confidence": "the Paris leg is attested at city level by the dossier's grand-tour synthesis; no specific sites of his stay are documented in sources reachable here. Dated 1714 to order the itinerary. The catalogue of unbuilt machines belongs to this period of his notebooks in the standard biographies rather than to a document dated at Paris.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1714,
+   "jd_ut": 2347085.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.315
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Board of Mines and the Machine of the World",
+   "stop": "Lund, the king and the assessorship",
+   "date": "1716-01-01",
+   "date_confidence": "the Lund meeting with Charles XII and the 1716 appointment as assessor extraordinary of the Bergskollegium are attested by Wikipedia; the month is not given and defaults to 01. The coordinate is Lund Cathedral, the town's central landmark, used because no specific meeting site is named in the sources. Daedalus Hyperboreus is attested to 1716-1718 and six issues by swedenborg.com and Wikipedia, which give no printing address; the periodical is folded into this stop rather than pinned separately.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1716,
+   "jd_ut": 2347815.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.82,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.82
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Board of Mines and the Machine of the World",
+   "stop": "Trollhattan, the locks and Polhem's daughter",
+   "date": "1718-09-01",
+   "date_confidence": "[R]. The Emerentia Polhem episode is dated September 1718 by swedenborgdigitallibrary.org's Swedenborg Epic, which rests on a document produced to a Stockholm society only in 1789 and on Gabriel Polhem's late family testimony. The dossier itself flags that this is not evidence of a consummated engagement. The canal work with Polhem at Trollhattan is well attested; the courtship is tradition.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1718,
+   "jd_ut": 2348789.5,
+   "precision": "month",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.1,
+    "text": "Virgo 8°06′",
+    "longitude": 158.101
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Board of Mines and the Machine of the World",
+   "stop": "Fredriksten, the vessels overland and the shot in the trench",
+   "date": "1718-11-01",
+   "date_confidence": "Charles XII's death at the siege of Fredriksten is attested to November 1718 by Wikipedia; the pool gives the month only, so the day defaults to 01. Swedenborg's role in the overland ship transport is [R]: broadly grounded engineering fact per the dossier, inflated into a solo feat by later retelling. The coordinate is corrected from the research pool's 11.3861, which lands in Halden town some 400 metres west of the ramparts, to the fortress height at 59.1181, 11.3925 per en.wikipedia's listed position.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1718,
+   "jd_ut": 2348850.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.25,
+    "text": "Scorpio 8°15′",
+    "longitude": 218.248
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Board of Mines and the Machine of the World",
+   "stop": "Stockholm, Riddarhuset: the new name",
+   "date": "1719-01-01",
+   "date_confidence": "the 1719 ennoblement by Ulrika Eleonora and the introduction at the House of Nobility are attested by swedenborg.com and Wikipedia; the month is not given and defaults to 01. The Riddarhuset coordinate is the building itself, per Wikipedia. That he spoke with difficulty is reported later rather than contemporaneously, and is carried here as report.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1719,
+   "jd_ut": 2348911.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.097
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Board of Mines and the Machine of the World",
+   "stop": "Uppsala, the chair declined",
+   "date": "1724-01-01",
+   "date_confidence": "attested to 1724 by Wikipedia; month and day are not given and default to 01-01. The stammer is given in the sources as a later report, not as a contemporaneous statement by Swedenborg, and the dossier flags it as such.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1724,
+   "jd_ut": 2350737.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.88,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.878
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Board of Mines and the Machine of the World",
+   "stop": "Dresden and Leipzig, the Opera philosophica et mineralia",
+   "date": "1734-01-01",
+   "date_confidence": "the 1734 three-volume publication at Dresden and Leipzig is attested by swedenborg.com and Wikipedia; the month is not given and defaults to 01. The coordinate is Dresden at city level; the specific presses are not established in sources reachable here, and the work was printed across both cities.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1734,
+   "jd_ut": 2354390.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.46,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.462
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Board of Mines and the Machine of the World",
+   "stop": "Amsterdam, the economy of the animal kingdom",
+   "date": "1740-01-01",
+   "date_confidence": "swedenborg.com gives Oeconomia regni animalis as published 1740-1741 in two volumes at Amsterdam. The research pool's chronology lens gave the place as 'London, England / Amsterdam', which contradicts its own geography lens and the imprint; London does not belong here and is dropped. Month unknown, defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1740,
+   "jd_ut": 2356581.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 279.996
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Board of Mines and the Machine of the World",
+   "stop": "Stockholm, elected to the Academy of Sciences",
+   "date": "1740-01-01",
+   "date_confidence": "the 1740 election is confirmed by sv.wikipedia and carried by the dossier chronology; month and day unknown, defaulted to 01-01. The coordinate is a central Stockholm point and is deliberately not the Academy's modern Frescati premises at 59.3697, 18.0559, which were not built until 1915 and would be anachronistic for a 1740 election. In 1740 the Academy had no purpose-built home. The two lenses of the research pool gave both coordinates for the same institution; the split is resolved by dating, not by preference.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1740,
+   "jd_ut": 2356581.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 279.996
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal of Dreams",
+   "stop": "Stockholm, Hornsgatan: the house and the garden",
+   "date": "1743-01-01",
+   "date_confidence": "swedenborg.com's account of the garden gives acquisition in 1743 and occupancy from 1745, and lists the gate, orchard, kitchen garden, maze, birdhouse, library and summerhouse. The street is given, not a number. The coordinate is corrected from the research pool's 59.3172, 18.0672, which sits at the Slussen end of Sodermalm, westward to the Hornsgatan stretch by Mariatorget where the plot stood; it remains an approximation on that street.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1743,
+   "jd_ut": 2357677.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.273
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal of Dreams",
+   "stop": "Ystad, the road south",
+   "date": "1743-07-21",
+   "date_confidence": "[R]. The 21 July 1743 departure from Stockholm and the itinerary through Ystad, Stralsund, Hamburg, Bremen and the Netherlands come from the journal's own dated entries as presented at newchristianbiblestudy.org and relayed by the dossier; I did not re-verify against a scholarly edition. The stop is placed at Ystad, the Baltic crossing point, on the departure date. The 1859 first publication is dossier-sourced and is flagged in the report.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1743,
+   "jd_ut": 2357878.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 27.69,
+    "text": "Cancer 27°41′",
+    "longitude": 117.69
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal of Dreams",
+   "stop": "The Hague, the animal kingdom continued",
+   "date": "1744-01-01",
+   "date_confidence": "[R]. Wikipedia attests Regnum animale to 1744 and gives the place as The Hague, with London also named in the pool for the continuation; the month is not given and defaults to 01. The Hague is also documented as one of his recurring European bases across the 1720s-1740s rather than as a single dated visit, so this stop carries both the imprint and the residence pattern.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1744,
+   "jd_ut": 2358042.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal of Dreams",
+   "stop": "Delft, the nights after Easter",
+   "date": "1744-04-06",
+   "date_confidence": "the crisis is attested to 6-7 April 1744 by Wikipedia. The place is corrected: the research pool's geography lens put this in London at 51.5074, -0.1278, contradicting its own chronology lens, which put it in the Netherlands; the standard reading of the journal places the vision at Delft, and Delft is used. The framing 'Easter weekend' is dropped, since Gregorian Easter Sunday 1744 fell on 5 April, making 6-7 April Easter Monday into Tuesday.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1744,
+   "jd_ut": 2358138.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 16.51,
+    "text": "Aries 16°31′",
+    "longitude": 16.511
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal of Dreams",
+   "stop": "London, the inn and the commission",
+   "date": "1745-01-01",
+   "date_confidence": "[R]. The fullest early source is Carl Robsahm's memoir, written and published after Swedenborg's death from later conversations, so the episode documents his own narrated self-understanding rather than an independently verified event. The year 1745 is what the sources give; no month or day, defaulted to 01-01. The inn is not named in anything reachable, so the coordinate is central London.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1745,
+   "jd_ut": 2358408.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.8,
+    "text": "Capricornus 10°48′",
+    "longitude": 280.797
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journal of Dreams",
+   "stop": "Stockholm, released from the Board of Mines",
+   "date": "1747-06-01",
+   "date_confidence": "swedenborg.com gives the petition under 1747; Wikipedia gives the resignation as June 1747. The day is not given and defaults to 01. That the release was honourable and carried half salary as pension is attested by both, against the later story that he was dismissed. City-level coordinate for an administrative act.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1747,
+   "jd_ut": 2359289.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.01,
+    "text": "Gemini 10°01′",
+    "longitude": 70.011
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Anonymous Eight Volumes",
+   "stop": "London, Arcana Coelestia",
+   "date": "1749-01-01",
+   "date_confidence": "attested to London 1749-1756, eight quarto volumes, 4,559 pages, published anonymously and at his own cost, by swedenborg.com's writings chronology and by Wikipedia. Month not given, defaulted to 01. The specific London printer is not established in sources reachable here. The poor sales are attested; the exact first-year figure is not.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1749,
+   "jd_ut": 2359869.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "not given",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.83,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.827
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Anonymous Eight Volumes",
+   "stop": "Stockholm, the summerhouse at the garden's end",
+   "date": "1752-01-01",
+   "date_confidence": "undated. 1752 is a sort placeholder inside the documented occupancy of the Hornsgatan property from 1745, chosen to sit between Arcana Coelestia and Heaven and Hell. The summerhouse and its use are attested by swedenborg.com; the visitors' descriptions of his manner and habits come from the dossier's synthesis of Tafel's collected testimony and are reports, not records.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1752,
+   "jd_ut": 2360964.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placeholder",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.084
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Anonymous Eight Volumes",
+   "stop": "London, Heaven and Hell",
+   "date": "1758-01-01",
+   "date_confidence": "attested to London 1758 by swedenborg.com and Wikipedia as one of five concise theological works published there that year; month not given, defaulted to 01. The quotation is verbatim from Heaven and Hell section 59 in the Project Gutenberg English text (ebook 17368). Blake's Marriage of Heaven and Hell is dated to 1790 by the standard record and is named here as later reception, not as a scene.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1758,
+   "jd_ut": 2363156.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.64,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fire, the Receipt, and the Queen's Secret",
+   "stop": "Gothenburg, William Castel's house",
+   "date": "1759-07-19",
+   "date_confidence": "[R] as to the clairvoyance, [A] as to the fire. The Stockholm fire is independently documented as the Mariabranden, which broke out 19 July 1759 and was extinguished the evening of the 20th (sv.wikipedia; en.wikipedia gives 'Thursday, 19 July 1759'). Kant's letter to Charlotte von Knobloch, which I read at en.wikisource, dates his arrival at Gothenburg to 'towards the end of September' 1759: the year agrees with the record and only the month is wrong, a slip in a letter reconstructing second-hand report years afterwards. The research pool presented July and September as rival dates of equal weight; they are not. City-level coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1759,
+   "jd_ut": 2363720.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 25.91,
+    "text": "Cancer 25°54′",
+    "longitude": 115.908
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fire, the Receipt, and the Queen's Secret",
+   "stop": "Stockholm, the widow Marteville and the receipt",
+   "date": "1760-01-01",
+   "date_confidence": "[R]. Kant's own account, the earliest substantial one, names Madame Marteville, widow of the Dutch ambassador, and the goldsmith Croon as the creditor; the research pool's claim that sources differ over whether the ambassador was Dutch or French overstates the disagreement. Kant gives no date at all, so the 1760 year is inference and the month and day are defaults. The quotation is verbatim from Tafel's 1847 edition, Part II ch. XIV, p. 94, not the 1841 edition the pool first cited, whose Marteville pages contain no mention of Bayle; the ultimate source is Thiebault's Souvenirs (1804), relaying Chamberlain d'Hamon.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2363886.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.143
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fire, the Receipt, and the Queen's Secret",
+   "stop": "Stockholm, Riddarhuset: the memorial on the exchange",
+   "date": "1760-11-01",
+   "date_confidence": "[R]. The November 1760 parliamentary memorial on currency and exchange is carried by the dossier from newchurchhistory.org's reproduction of its structure and was not independently refetched in this pass. The day is not given and defaults to 01. The coordinate is the Riddarhuset, where the noble estate sat.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2364191.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.07,
+    "text": "Scorpio 9°04′",
+    "longitude": 219.067
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fire, the Receipt, and the Queen's Secret",
+   "stop": "Stockholm, the royal palace: the queen's brother",
+   "date": "1761-01-01",
+   "date_confidence": "[R]. The episode circulates through Thiebault's account of Frederick the Great's court and through the queen's own later remarks, collected in Tafel; the quotation is verbatim from the 1847 edition, Part II ch. XIV, p. 95, where it belongs to this episode and not, as the research pool had it, to the Marteville affair. The date is loose across sources, given variously as circa 1758-61; 1761 is used as a sort key. The content of what he said was never recorded by anybody, which is why the claim is unfalsifiable rather than merely unverified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1761,
+   "jd_ut": 2364252.5,
+   "precision": "year",
+   "precision_triggers": [
+    "circa"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.92,
+    "text": "Capricornus 10°55′",
+    "longitude": 280.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Books Under His Own Name",
+   "stop": "Amsterdam, Divine Love and Wisdom",
+   "date": "1763-01-01",
+   "date_confidence": "Sapientia angelica de Divino Amore et de Divina Sapientia is attested to Amsterdam 1763 and Divina Providentia to Amsterdam 1764 by swedenborg.com's life chronology; Apocalypsis Revelata to Amsterdam 1766. Months are not given and default to 01. Kant's purchase and reading of Arcana Coelestia and his 1766 publication of Traume eines Geistersehers at Konigsberg are attested by Wikipedia; the Konigsberg scene itself belongs to kant.journey.json and is not staged here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1763,
+   "jd_ut": 2364982.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.42,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.42
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Books Under His Own Name",
+   "stop": "Amsterdam, Conjugial Love, with his name on it",
+   "date": "1768-01-01",
+   "date_confidence": "attested to Amsterdam 1768 by swedenborg.com, which calls it the first of his theological books to bear his name. The month is not given and defaults to 01. The quotation is verbatim from section 1 of the Project Gutenberg English text (ebook 11248). Chapman's holding of the marriage-after-death doctrine is reported as tradition in johnny_appleseed.journey.json, not as record, and is named here as later reception only.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1768,
+   "jd_ut": 2366808.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.202
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Books Under His Own Name",
+   "stop": "Gothenburg, the Consistory's complaint",
+   "date": "1768-09-27",
+   "date_confidence": "the complaint is dated 27 September 1768 by swedenborgdigitallibrary.org's Swedenborg Epic ch. 41, which also names Bishop Eric Lamberg, Dean Olof Ekebom and the prosecuting lawyer Anders Aurell. The research pool gave the proceeding as concluding in 1770; that is a year short. The Royal Council's final order, that Beyer and Rosen be treated with mildness and Christian charity, is dated 7 December 1771, and the case then passed to the Gota Court of Appeals and stalled. The April 1770 decree condemning the doctrines was an interim step.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1768,
+   "jd_ut": 2367078.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 4.36,
+    "text": "Libra 4°22′",
+    "longitude": 184.363
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 13.39,
+    "text": "Aries 13°23′",
+    "longitude": 13.385
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.09,
+    "text": "Libra 10°05′",
+    "longitude": 190.091
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 16.41,
+    "text": "Libra 16°25′",
+    "longitude": 196.413
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 11.11,
+    "text": "Taurus 11°07′",
+    "longitude": 41.112
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 26.99,
+    "text": "Libra 27°00′",
+    "longitude": 206.995
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 17.33,
+    "text": "Cancer 17°20′",
+    "longitude": 107.334
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Books Under His Own Name",
+   "stop": "Stockholm, the petition to the king",
+   "date": "1770-05-25",
+   "date_confidence": "attested to 25 May 1770 by swedenborgdigitallibrary.org's Swedenborg Epic ch. 41, which carries the quotation verbatim. The coordinate is the royal palace at Stockholm, where the petition was directed; he was writing from Stockholm at this point in the Epic's account, having written earlier from Amsterdam.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1770,
+   "jd_ut": 2367683.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.73,
+    "text": "Gemini 3°44′",
+    "longitude": 63.726
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.86,
+    "text": "Gemini 2°52′",
+    "longitude": 62.863
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 24.49,
+    "text": "Gemini 24°30′",
+    "longitude": 84.494
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 19.2,
+    "text": "Gemini 19°12′",
+    "longitude": 79.202
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 4.09,
+    "text": "Aries 4°06′",
+    "longitude": 4.094
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 21.54,
+    "text": "Sagittarius 21°32′",
+    "longitude": 261.541
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 28.38,
+    "text": "Cancer 28°23′",
+    "longitude": 118.376
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Books Under His Own Name",
+   "stop": "Amsterdam, the last book through the press",
+   "date": "1770-07-01",
+   "date_confidence": "the July 1770 journey to Amsterdam is attested by Wikipedia; the day is not given and defaults to 01. Publication is a separate fact: swedenborg.com gives the first Latin edition of Vera Christiana Religio as Amsterdam, 1771, and lists True Christianity under 1771 in the life chronology. The research pool collapsed the journey and the publication into 1770 and called it the first book under his own name, which is wrong: Conjugial Love (1768) already carried it. This is the second.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1770,
+   "jd_ut": 2367720.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.07,
+    "text": "Cancer 9°04′",
+    "longitude": 99.068
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "London, the Last Lodging",
+   "stop": "London, Great Bath Street",
+   "date": "1771-01-01",
+   "date_confidence": "the 1771 London lodging with Richard Shearsmith, peruke-maker, in Great Bath Street, Coldbath Fields, is attested by Wikipedia; the month of arrival is not given and defaults to 01. The coordinate is corrected from the research pool's 51.527, -0.1107, which lands in Amwell some 350-400 metres north of the historic Coldbath Fields; Great Bath Street ran off Coldbath Square around present-day Mount Pleasant. The street no longer exists, so the pin is an area approximation.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1771,
+   "jd_ut": 2367904.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "not given",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.48,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.479
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "London, the Last Lodging",
+   "stop": "London, the stroke before Christmas",
+   "date": "1771-12-01",
+   "date_confidence": "attested to December 1771, shortly before Christmas, by Wikipedia and swedenborg.com; the exact day is not given and defaults to 01. That Arvid Ferelius, the Swedish pastor in London, attended him and administered communion is carried by the dossier's synthesis of Tafel and Sigstedt. The much-repeated deathbed exchange in which he is asked to retract his writings is not in the material verified for this file and is deliberately not written into the campa.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1771,
+   "jd_ut": 2368238.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.67,
+    "text": "Sagittarius 8°40′",
+    "longitude": 248.673
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "London, the Last Lodging",
+   "stop": "London, death on a Sunday",
+   "date": "1772-03-29",
+   "date_confidence": "attested to Sunday 29 March 1772 by swedenborg.com, Wikipedia and the Swedenborg Society, three independent sources in agreement. No autopsy is documented and stroke complications are given as the probable cause, which is an inference the sources make and not a coroner's finding.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1772,
+   "jd_ut": 2368357.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (probably) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 8.85,
+    "text": "Aries 8°51′",
+    "longitude": 8.855
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 11.96,
+    "text": "Aquarius 11°57′",
+    "longitude": 311.958
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 5.4,
+    "text": "Aries 5°24′",
+    "longitude": 5.395
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 15.35,
+    "text": "Taurus 15°21′",
+    "longitude": 45.348
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 8.22,
+    "text": "Pisces 8°13′",
+    "longitude": 338.221
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 23.05,
+    "text": "Aquarius 23°03′",
+    "longitude": 323.048
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.6,
+    "text": "Leo 23°36′",
+    "longitude": 143.599
+   }
+  },
+  {
+   "segment": "London, the Last Lodging",
+   "stop": "Shadwell, the Swedish church at Princes Square",
+   "date": "1772-04-05",
+   "date_confidence": "burial at the Swedish church, Princes Square, Shadwell, on 5 April 1772 is attested by the Swedenborg Society; Wikipedia describes the same location as Wapping, which is a neighbouring designation for the same ground rather than a conflicting claim. The church was later demolished; the research pool could not corroborate the renaming of the square from a fetched source, so that detail is carried as report. The New Church founding on 7 May 1787 is attested by Wikipedia's article on the General Conference.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1772,
+   "jd_ut": 2368364.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.74,
+    "text": "Aries 15°45′",
+    "longitude": 15.744
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 5.13,
+    "text": "Taurus 5°08′",
+    "longitude": 35.133
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 19.77,
+    "text": "Aries 19°46′",
+    "longitude": 19.771
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 23.61,
+    "text": "Taurus 23°37′",
+    "longitude": 53.613
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 13.68,
+    "text": "Pisces 13°41′",
+    "longitude": 343.68
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 24.42,
+    "text": "Aquarius 24°25′",
+    "longitude": 324.417
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.33,
+    "text": "Leo 23°20′",
+    "longitude": 143.328
+   }
+  },
+  {
+   "segment": "The Archive and the Vault",
+   "stop": "Stockholm, twenty thousand pages to the Academy",
+   "date": "1772-06-01",
+   "date_confidence": "UNESCO's Memory of the World record attests that the manuscripts were donated by his heirs to the Royal Swedish Academy of Sciences following his death in 1772 and gives the scale as roughly 20,000 pages. No month is given for the donation; June 1772 is a sort placeholder after the March death and is not a claim about the day. The coordinate is central Stockholm, matching the Academy's premises-less state in the eighteenth century rather than its modern campus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1772,
+   "jd_ut": 2368421.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no month/day",
+    "decade/century",
+    "approximation",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.93,
+    "text": "Gemini 10°56′",
+    "longitude": 70.927
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Archive and the Vault",
+   "stop": "Stockholm, Skansen: the summerhouse moved",
+   "date": "1896-01-01",
+   "date_confidence": "swedenborg.com gives 1896 as the year the summerhouse was moved to Skansen; Wikipedia's Skansen article confirms the building is in the museum's collection but supplies no date, so the year rests on a single Swedenborgian-affiliated source. Month and day unknown, defaulted to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413559.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Archive and the Vault",
+   "stop": "Uppsala Cathedral, the vault",
+   "date": "1908-05-19",
+   "date_confidence": "the year is corrected against both figures the research pool offered. sv.wikipedia states the remains were moved in 1908 to the Bielke-Liewen burial vault in Uppsala Cathedral, with the ceremony on 19 May 1908, and en.wikipedia's article on Uppsala Cathedral independently states they were transported from England in 1908. The Swedenborg Society's 1910 and the en.wikipedia Swedenborg article's '1912/1913, the 140th anniversary' are both errors, and the anniversary arithmetic does not work in either case. The dossier's separate claim that a skull was returned to Sweden in 1978 could not be confirmed against any independent source and is left out of the campa.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418080.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 27.61,
+    "text": "Taurus 27°37′",
+    "longitude": 57.612
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 4.31,
+    "text": "Capricornus 4°18′",
+    "longitude": 274.307
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 10.64,
+    "text": "Gemini 10°38′",
+    "longitude": 70.641
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 10.81,
+    "text": "Cancer 10°49′",
+    "longitude": 100.815
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 27.66,
+    "text": "Gemini 27°40′",
+    "longitude": 87.661
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 7.13,
+    "text": "Leo 7°08′",
+    "longitude": 127.127
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 6.81,
+    "text": "Aries 6°48′",
+    "longitude": 6.807
+   }
+  },
+  {
+   "segment": "The Archive and the Vault",
+   "stop": "Stockholm, Frescati: Memory of the World",
+   "date": "2005-01-01",
+   "date_confidence": "the 2005 inscription and the scale of roughly 20,000 autograph pages are confirmed verbatim at UNESCO's Memory of the World record. Month and day unknown, defaulted to 01-01. The coordinate is the Academy's modern Frescati premises, opened in 1915, where the archive physically sits today; it is used here deliberately for a 2005 event and is not the coordinate used for the 1740 election or the 1772 donation, both of which predate this building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2005,
+   "jd_ut": 2453371.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "approximation",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.68,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.675
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 6,
+  "month": 6,
+  "year": 31
+ },
+ "parse_failures": []
+}

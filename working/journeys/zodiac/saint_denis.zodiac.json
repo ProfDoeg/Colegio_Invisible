@@ -1,0 +1,1809 @@
+{
+ "slug": "saint_denis",
+ "traveler": "Saint Denis of Paris (Dionysius, Denys), first bishop of the Parisii",
+ "title": "The Head Carried North: Denis of Paris, the Hill of Mercury, and the Abbey of the Kings",
+ "years": "c. 250-1987",
+ "years_parsed": {
+  "first": 250,
+  "last": 1987
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Sending from Rome",
+  "stop": "Rome, seven bishops ordained for Gaul",
+  "date": "0250-01-01",
+  "date_confidence": "attested for the year, reconstruction for the place. Gregory of Tours, Historia Francorum I.30, dates the sending to the consulship of Decius and Gratus, AD 250, but names no sender and never mentions Rome. The commission by Pope Fabian is a later Gallican gloss and is impossible as framed: Fabian died on 20 January 250.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 250,
+  "jd_ut": 1812370.5,
+  "precision": "year",
+  "precision_triggers": [
+   "to the year",
+   "reconstructed (the date)",
+   "(soft) reconstruct"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 10.91,
+   "text": "Capricornus 10°55′",
+   "longitude": 280.91
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 250-1987",
+  "first_year_parsed": 250
+ },
+ "stops": [
+  {
+   "segment": "The Athenian Prologue",
+   "stop": "Heliopolis, the sun goes dark out of season",
+   "date": "0033-04-03",
+   "date_confidence": "legendary. The Golden Legend opens Denis's life in Egypt and Athens two centuries before Gregory of Tours dates his mission to Gaul; the two chronologies cannot both stand, and the atlas records the clash without settling it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 33,
+   "jd_ut": 1733203.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.01,
+    "text": "Aries 11°01′",
+    "longitude": 11.009
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Athenian Prologue",
+   "stop": "Athens, the altar of the unknown God",
+   "date": "0051-01-01",
+   "date_confidence": "traditional. Acts 17:34 names Dionysius the Areopagite among Paul's converts; the identification of that man with Denis of Paris is a ninth-century graft by Hilduin and is rejected by modern scholarship.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 51,
+   "jd_ut": 1739685.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.23,
+    "text": "Capricornus 9°14′",
+    "longitude": 279.234
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Athenian Prologue",
+   "stop": "Athens, the first bishop of the city",
+   "date": "0060-01-01",
+   "date_confidence": "attested for the Areopagite, not for Denis of Paris. Eusebius, Historia Ecclesiastica IV.23.3, quoting Dionysius of Corinth, has the Areopagite as first bishop of Athens. Eusebius does not say he was martyred there; the martyred Athenian bishop of that passage is Publius, succeeded by Quadratus.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 60,
+   "jd_ut": 1742972.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.04,
+    "text": "Capricornus 9°03′",
+    "longitude": 279.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sending from Rome",
+   "stop": "Rome, seven bishops ordained for Gaul",
+   "date": "0250-01-01",
+   "date_confidence": "attested for the year, reconstruction for the place. Gregory of Tours, Historia Francorum I.30, dates the sending to the consulship of Decius and Gratus, AD 250, but names no sender and never mentions Rome. The commission by Pope Fabian is a later Gallican gloss and is impossible as framed: Fabian died on 20 January 250.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 250,
+   "jd_ut": 1812370.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.91,
+    "text": "Capricornus 10°55′",
+    "longitude": 280.91
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sending from Rome",
+   "stop": "Ostia, the port no text names",
+   "date": "0250-02-01",
+   "date_confidence": "reconstruction. No ancient source names an embarkation point; the port is supplied by later hagiographic narrative and the absence is recorded in the report as a gap.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 250,
+   "jd_ut": 1812401.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.24,
+    "text": "Aquarius 12°15′",
+    "longitude": 312.243
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sending from Rome",
+   "stop": "Massilia, the landing on the Provencal coast",
+   "date": "0250-03-01",
+   "date_confidence": "local Provencal tradition, absent from Gregory of Tours and possibly borrowed from the Lazarus and Trophimus landing legends of the same coast.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 250,
+   "jd_ut": 1812429.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "legend",
+    "probably"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.13,
+    "text": "Pisces 10°08′",
+    "longitude": 340.129
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road Through Gaul",
+   "stop": "Arelate, the seat of Trophimus",
+   "date": "0250-04-01",
+   "date_confidence": "reconstruction. Hilduin's ninth-century Passio supplies the elaborated itinerary and no corroboration exists outside it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 250,
+   "jd_ut": 1812460.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.47,
+    "text": "Aries 10°28′",
+    "longitude": 10.474
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road Through Gaul",
+   "stop": "Trier, miracles added five centuries later",
+   "date": "0250-06-01",
+   "date_confidence": "reconstruction, and a visible inflation. Hilduin extends the itinerary into Germania some five hundred years after the events described; Gregory of Tours has nothing of it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 250,
+   "jd_ut": 1812521.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.96,
+    "text": "Gemini 8°58′",
+    "longitude": 68.964
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road Through Gaul",
+   "stop": "Meaux, where Sanctinus stays behind",
+   "date": "0250-07-01",
+   "date_confidence": "reconstruction. Local Meaux hagiography names Sanctinus a companion of Denis and first bishop there; companion traditions of this kind are standard padding in later cults seeking apostolic pedigree.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 250,
+   "jd_ut": 1812551.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 7.55,
+    "text": "Cancer 7°33′",
+    "longitude": 97.555
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bishop of the Parisii",
+   "stop": "Ile de la Cite, the church on the island",
+   "date": "0250-09-01",
+   "date_confidence": "attested for the see, reconstruction for the founding narrative. Gregory of Tours attests Denis as bishop of the Parisii; the island church and the conversion numbers come from the Catholic Encyclopedia tradition, and the date of 246 sometimes given for the settlement would precede the mission itself.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 250,
+   "jd_ut": 1812613.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.52,
+    "text": "Virgo 7°31′",
+    "longitude": 157.517
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bishop of the Parisii",
+   "stop": "The forum of Lutetia, before the prefect",
+   "date": "0251-01-01",
+   "date_confidence": "reconstruction. Earlier passiones do not name the prefect; Fescenninus Sisinnius appears only from Hilduin onward and the name may be invented.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1812735.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.66,
+    "text": "Capricornus 10°40′",
+    "longitude": 280.663
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bishop of the Parisii",
+   "stop": "Saint-Denis-de-la-Chartre, the bread in the cell",
+   "date": "0251-02-01",
+   "date_confidence": "reconstruction. The prison Eucharist is a stock hagiographic motif shared with many martyr narratives of the period, preserved in Hilduin and the Legenda Aurea.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1812766.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "reconstructed (the date)",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.0,
+    "text": "Aquarius 12°00′",
+    "longitude": 312.0
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bishop of the Parisii",
+   "stop": "Arenes de Lutece, the lion that will not touch him",
+   "date": "0251-03-01",
+   "date_confidence": "reconstruction. The Legenda Aurea, drawing on Hilduin; a common literary topos across martyr legends rather than a distinct historical event.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1812794.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.89,
+    "text": "Pisces 9°53′",
+    "longitude": 339.889
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bishop of the Parisii",
+   "stop": "Lutetia, the gridiron, the furnace, the cross",
+   "date": "0251-04-01",
+   "date_confidence": "reconstruction for the particulars. Gregory of Tours says only that Denis suffered various pains for the name of Christ; the gridiron, the furnace, and the crucifixion come from Hilduin and the Legenda Aurea.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1812825.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.24,
+    "text": "Aries 10°14′",
+    "longitude": 10.239
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bishop of the Parisii",
+   "stop": "The Seine at Pont Notre-Dame, a variant drowning",
+   "date": "0251-05-01",
+   "date_confidence": "contradiction flagged, not resolved. A variant local tradition drowns Rusticus and Eleutherius in the Seine rather than beheading them with Denis on the hill; the standard Passio has all three die together.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1812855.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.15,
+    "text": "Taurus 9°09′",
+    "longitude": 39.15
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hill of Mercury",
+   "stop": "Montmartre, the sword on the mount of Mercury",
+   "date": "0251-10-09",
+   "date_confidence": "date not fixed and the sources disagree: c. 250 under Decius, favoured by modern scholarship where Denis's historicity is granted; 258 under Valerian; 270 to 275 in other accounts; and c. 96 under Domitian in the Golden Legend, as a consequence of the Areopagite conflation. The ninth of October is the feast, not an attested day of death. Pin inherited from catorce_santos_ayudantes.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1813016.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "not fixed",
+    "legend",
+    "sequencing",
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.04,
+    "text": "Libra 15°02′",
+    "longitude": 195.04
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hill of Mercury",
+   "stop": "Saint-Pierre de Montmartre, the rival crypt",
+   "date": "0251-10-09",
+   "date_confidence": "contradiction flagged, not resolved. Two Montmartre sites claim the exact place of beheading, the Chapelle du Martyre on the rue Yvonne-Le-Tac and this crypt, and local tradition supports both.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1813016.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.04,
+    "text": "Libra 15°02′",
+    "longitude": 195.04
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hill of Mercury",
+   "stop": "The fontaine Saint-Denis, the head washed at the spring",
+   "date": "0251-10-09",
+   "date_confidence": "reconstruction, devotional. The spring no longer survives identifiably; the coordinate follows the impasse Girardon site on the north slope, against two other values in circulation.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1813016.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.04,
+    "text": "Libra 15°02′",
+    "longitude": 195.04
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hill of Mercury",
+   "stop": "Rue des Martyrs, six kilometres with the head",
+   "date": "0251-10-09",
+   "date_confidence": "reconstruction. French Wikipedia and the Golden Legend give six kilometres, or two leagues; the six Roman miles sometimes repeated would be about 8.9 km and is an error. Gregory of Tours, three centuries closer, has no cephalophory whatever.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1813016.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.04,
+    "text": "Libra 15°02′",
+    "longitude": 195.04
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hill of Mercury",
+   "stop": "Catulliacus, the widow takes the body",
+   "date": "0251-10-09",
+   "date_confidence": "reconstruction. Catulla and the burial come from the Catholic Encyclopedia tradition and from Hilduin; Gregory of Tours attests only that a basilica dedicated to Denis stood near Paris in his own century.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1813016.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.04,
+    "text": "Libra 15°02′",
+    "longitude": 195.04
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Abbey Over the Grave",
+   "stop": "Saint-Denis, Genevieve builds over the tomb",
+   "date": "0475-01-01",
+   "date_confidence": "attested indirectly through the Vita Sanctae Genovefae, composed shortly after 502; no significant discrepancy between the reachable sources on this point.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 475,
+   "jd_ut": 1894551.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 12.27,
+    "text": "Capricornus 12°16′",
+    "longitude": 282.269
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Abbey Over the Grave",
+   "stop": "Tours, the earliest witness writes him down",
+   "date": "0594-01-01",
+   "date_confidence": "attested. Gregory of Tours, writing in the sixth century, is the earliest historical witness to the mission, the see, and the death; the date given is that of Gregory's own death and stands for the closing of his work.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 594,
+   "jd_ut": 1938016.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 13.38,
+    "text": "Capricornus 13°23′",
+    "longitude": 283.379
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Abbey Over the Grave",
+   "stop": "Saint-Denis, the Passio takes the legend down",
+   "date": "0600-01-01",
+   "date_confidence": "reconstruction. The Passio SS. Dionysii Rustici et Eleutherii is dated to about 600 and its attribution to Venantius Fortunatus is disputed; its editors call it legendary, and its place of composition is nowhere fixed beyond Gaul, so the abbey pin is an editorial choice.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 600,
+   "jd_ut": 1940207.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) editorial",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 12.91,
+    "text": "Capricornus 12°55′",
+    "longitude": 282.914
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Abbey Over the Grave",
+   "stop": "Saint-Denis, Dagobert founds the royal abbey",
+   "date": "0632-01-01",
+   "date_confidence": "attested, year disputed. The Gesta Dagoberti and surviving charters support the foundation; the reachable sources give 630, a 628 to 636 window, and 636, while Wikipedia's Basilica of Saint-Denis gives 632, which is adopted. Dagobert rules Austrasia 623 to 634, Neustria and Burgundy 629 to 639, and all the Franks 632 to 639, dying 19 January 639.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 632,
+   "jd_ut": 1951895.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 13.14,
+    "text": "Capricornus 13°09′",
+    "longitude": 283.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Abbey Over the Grave",
+   "stop": "Saint-Denis, Fulrad takes the abbacy",
+   "date": "0750-01-01",
+   "date_confidence": "attested. Wikipedia gives around 749 or 750 for Fulrad's accession as abbot and credits him with the construction of a new church at the abbey.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 750,
+   "jd_ut": 1994995.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.5,
+    "text": "Capricornus 14°30′",
+    "longitude": 284.504
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Abbey Over the Grave",
+   "stop": "Saint-Denis, the pope anoints Pepin and his sons",
+   "date": "0754-07-28",
+   "date_confidence": "attested; pin and date inherited byte for byte from charlemagne.journey.json, which carries this stop.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 754,
+   "jd_ut": 1996664.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.37,
+    "text": "Leo 7°22′",
+    "longitude": 127.366
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 25.62,
+    "text": "Virgo 25°37′",
+    "longitude": 175.622
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 2.97,
+    "text": "Virgo 2°58′",
+    "longitude": 152.967
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 28.19,
+    "text": "Gemini 28°11′",
+    "longitude": 88.187
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 27.8,
+    "text": "Scorpio 27°48′",
+    "longitude": 237.798
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 4.88,
+    "text": "Taurus 4°53′",
+    "longitude": 34.877
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 15.29,
+    "text": "Capricornus 15°17′",
+    "longitude": 285.288
+   }
+  },
+  {
+   "segment": "The Abbey Over the Grave",
+   "stop": "Saint-Denis, the bones of Vitus pass through",
+   "date": "0756-01-01",
+   "date_confidence": "attested; pin and date inherited from catorce_santos_ayudantes.journey.json, which dates the translation of Vitus to Saint-Denis to 756 and the onward gift to Corvey afterwards.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 756,
+   "jd_ut": 1997186.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.04,
+    "text": "Capricornus 14°02′",
+    "longitude": 284.039
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Abbey Over the Grave",
+   "stop": "Saint-Denis, Pepin buried face down at the door",
+   "date": "0768-09-24",
+   "date_confidence": "attested; pin and date inherited byte for byte from charlemagne.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 768,
+   "jd_ut": 2001836.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 4.64,
+    "text": "Libra 4°38′",
+    "longitude": 184.641
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 3.97,
+    "text": "Capricornus 3°58′",
+    "longitude": 273.971
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 12.19,
+    "text": "Libra 12°11′",
+    "longitude": 192.188
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 21.33,
+    "text": "Leo 21°20′",
+    "longitude": 141.332
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 22.73,
+    "text": "Leo 22°44′",
+    "longitude": 142.726
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 16.64,
+    "text": "Cancer 16°38′",
+    "longitude": 106.64
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 25.24,
+    "text": "Cancer 25°14′",
+    "longitude": 115.238
+   }
+  },
+  {
+   "segment": "The Abbey Over the Grave",
+   "stop": "Saint-Denis, Charlemagne at the rededication",
+   "date": "0775-02-24",
+   "date_confidence": "attested for the year 775 by the Carolingian annals; the day given is the traditional date of the dedication and is not independently confirmed here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 775,
+   "jd_ut": 2004180.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 8.82,
+    "text": "Pisces 8°49′",
+    "longitude": 338.823
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Areopagite Grafted On",
+   "stop": "Saint-Denis, a Greek codex arrives from Byzantium",
+   "date": "0827-01-01",
+   "date_confidence": "attested. Wikipedia, 'Pseudo-Dionysius the Areopagite': Michael the Second sends the manuscript to Louis the Pious in 827 and Louis donates it to the abbey.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 827,
+   "jd_ut": 2023119.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.81,
+    "text": "Capricornus 14°48′",
+    "longitude": 284.806
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Areopagite Grafted On",
+   "stop": "Saint-Denis, Hilduin makes the three men one",
+   "date": "0835-01-01",
+   "date_confidence": "attested. Louis the Pious commissions the biography in 835 (Wikipedia, 'Hilduin of Saint-Denis'); the Rescriptum, also called the Areopagitica, dates to about 835 to 836, and the separate Passio sanctissimi Dionysii to 835 to 840. The two works are routinely conflated and are kept apart here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 835,
+   "jd_ut": 2026041.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.86,
+    "text": "Capricornus 14°52′",
+    "longitude": 284.864
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Areopagite Grafted On",
+   "stop": "Saint-Denis, Eriugena makes the Greek speak Latin",
+   "date": "0862-01-01",
+   "date_confidence": "attested. Wikipedia dates Hilduin's own version to about 838 and judges it almost unintelligible; Eriugena completes his translation in 862 at the request of Charles the Bald, and it is criticized for excessive literalness.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 862,
+   "jd_ut": 2035903.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.31,
+    "text": "Capricornus 15°19′",
+    "longitude": 285.314
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Areopagite Grafted On",
+   "stop": "Regensburg, Saint Emmeram claims the body",
+   "date": "1052-01-01",
+   "date_confidence": "reconstruction. The abbey documents a Saint Denis altar and a stone relief of about 1052, consistent with the eleventh-century Regensburg claim to hold Denis's body; the ninth-century translation asserted in circulation is unsupported by the reachable article and is recorded as a gap.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1052,
+   "jd_ut": 2105300.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.17,
+    "text": "Capricornus 16°10′",
+    "longitude": 286.175
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Areopagite Grafted On",
+   "stop": "Saint-Denis, Abelard says it is not the same man",
+   "date": "1121-01-01",
+   "date_confidence": "attested. Wikipedia records Abelard's public challenge to the identification while a monk of the abbey, and the community's hostility to it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1121,
+   "jd_ut": 2130503.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.44,
+    "text": "Capricornus 17°26′",
+    "longitude": 287.44
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Abbey of the Kings",
+   "stop": "Montmartre, Louis the Sixth builds the Martyrium",
+   "date": "1130-01-01",
+   "date_confidence": "attested for the twelfth century by Wikipedia, 'Montmartre'; the precise year within the reign of Louis the Sixth, 1108 to 1137, is not fixed by the reachable sources. Coordinate corrected to the geocode of 11 rue Yvonne-Le-Tac.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1130,
+   "jd_ut": 2133790.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "decade/century",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.25,
+    "text": "Capricornus 17°15′",
+    "longitude": 287.251
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Abbey of the Kings",
+   "stop": "Saint-Denis, Suger dedicates the first Gothic choir",
+   "date": "1144-06-11",
+   "date_confidence": "attested. Wikipedia, 'Basilica of Saint-Denis': Suger begins rebuilding in 1135 and the new choir is finished and dedicated on 11 June 1144 in the presence of the king, when the relics are installed beneath the new high altar. The date of 1140 sometimes given for the translation belongs to the works, not the dedication.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1144,
+   "jd_ut": 2139065.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 25.98,
+    "text": "Gemini 25°59′",
+    "longitude": 85.983
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 2.94,
+    "text": "Libra 2°57′",
+    "longitude": 182.942
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 21.63,
+    "text": "Cancer 21°38′",
+    "longitude": 111.628
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 12.31,
+    "text": "Taurus 12°18′",
+    "longitude": 42.305
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 1.08,
+    "text": "Gemini 1°05′",
+    "longitude": 61.081
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 17.43,
+    "text": "Pisces 17°26′",
+    "longitude": 347.429
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 23.1,
+    "text": "Aries 23°06′",
+    "longitude": 23.102
+   }
+  },
+  {
+   "segment": "The Abbey of the Kings",
+   "stop": "Saint-Denis, Joan of Arc lays down her armour",
+   "date": "1429-09-13",
+   "date_confidence": "attested; pin and date inherited byte for byte from joan_of_arc.journey.json, which carries this stop with the same coordinate.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243255.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 28.55,
+    "text": "Virgo 28°33′",
+    "longitude": 178.546
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 28.28,
+    "text": "Pisces 28°17′",
+    "longitude": 358.284
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 21.04,
+    "text": "Libra 21°02′",
+    "longitude": 201.04
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 2.43,
+    "text": "Libra 2°26′",
+    "longitude": 182.433
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 23.54,
+    "text": "Scorpio 23°33′",
+    "longitude": 233.544
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 28.45,
+    "text": "Pisces 28°27′",
+    "longitude": 358.45
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 26.55,
+    "text": "Sagittarius 26°33′",
+    "longitude": 266.553
+   }
+  },
+  {
+   "segment": "The Abbey of the Kings",
+   "stop": "Regensburg, the count closes at fourteen",
+   "date": "1500-01-01",
+   "date_confidence": "attested for the closed list by about 1500 through catorce_santos_ayudantes.journey.json, which locates it across Regensburg, Bamberg, Wurzburg and Nuremberg. The date of 1350 sometimes given for Denis's entry into the group rests on the general tradition of the cult and is a reconstruction.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1500,
+   "jd_ut": 2268932.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.45,
+    "text": "Capricornus 19°27′",
+    "longitude": 289.446
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Revolution and Return",
+   "stop": "Montmartre, the abbey pulled down",
+   "date": "1790-01-01",
+   "date_confidence": "attested. Wikipedia, 'Montmartre', dates the demolition of the abbey to 1790; the figure of 1794 in circulation is the year the last abbess was guillotined, not the year of the demolition.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1790,
+   "jd_ut": 2374855.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.08,
+    "text": "Capricornus 22°05′",
+    "longitude": 292.084
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Revolution and Return",
+   "stop": "Saint-Denis, the kings taken out of the ground",
+   "date": "1793-08-06",
+   "date_confidence": "attested for August and October 1793 by Wikipedia, 'Basilica of Saint-Denis', following the decrees of the Convention and the records of Alexandre Lenoir; the specific day given stands for the August campaign and is not itself attested.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1793,
+   "jd_ut": 2376168.5,
+   "precision": "month",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.44,
+    "text": "Leo 24°27′",
+    "longitude": 144.444
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Revolution and Return",
+   "stop": "Saint-Denis, the ossuary and the relics come back",
+   "date": "1817-01-01",
+   "date_confidence": "attested. Restoration-era administrative records of the basilica for the 1817 ossuary; Wikipedia, 'Basilica of Saint-Denis', for the return of the relics of Denis in 1819 and for the nineteenth-century restorations.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1817,
+   "jd_ut": 2384717.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.54,
+    "text": "Capricornus 22°32′",
+    "longitude": 292.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Revolution and Return",
+   "stop": "Montmartre, the oratory over the martyrdom",
+   "date": "1855-01-01",
+   "date_confidence": "attested. Wikipedia, 'Montmartre': an oratory is built at 11 rue Yvonne-Le-Tac in 1855 and renovated in 1994. Coordinate corrected to the geocode of that address.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1855,
+   "jd_ut": 2398596.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.31,
+    "text": "Capricornus 22°19′",
+    "longitude": 292.309
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Revolution and Return",
+   "stop": "Montmartre, the white basilica and Merson's apse",
+   "date": "1876-06-16",
+   "date_confidence": "attested for the construction span 1876 to 1919 by Wikipedia, 'Montmartre'; the day given is the laying of the foundation stone, and Merson's apse mosaic is executed in the following decades. Pin inherited from catorce_santos_ayudantes.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1876,
+   "jd_ut": 2406433.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 6.58,
+    "text": "Cancer 6°35′",
+    "longitude": 96.58
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Revolution and Return",
+   "stop": "Vatican City, the calendar separates the two Dionysii",
+   "date": "1969-01-01",
+   "date_confidence": "attested for the 1969 reform of the General Roman Calendar under Paul VI, which formally separates Denis of Paris from Dionysius the Areopagite. Scholarship had settled the question earlier, with Koch and Stiglmayr in 1895.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Revolution and Return",
+   "stop": "Saint-Denis, the church measured to the millimetre",
+   "date": "1987-01-01",
+   "date_confidence": "attested for the posthumous publication of Sumner McKnight Crosby's The Royal Abbey of Saint-Denis in 1987; the reachable source does not say whether his fieldwork located or verified an original grave, and that is recorded as a gap.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1987,
+   "jd_ut": 2446796.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.033
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 4,
+  "month": 1,
+  "year": 40
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1970 @@
+{
+ "slug": "james_clerk_maxwell",
+ "traveler": "James Clerk Maxwell",
+ "title": "Glenlair to the Cavendish: the Ovals, the Rings, the Demon, and the Field That Carries Light",
+ "years": "1831-1879",
+ "years_parsed": {
+  "first": 1831,
+  "last": 1879
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "What's the Go o' That: Glenlair and the Edinburgh Schoolrooms",
+  "stop": "14 India Street, Edinburgh, the birth",
+  "date": "1831-06-13",
+  "date_confidence": "attested to 13 June 1831; older reference works print a November date, and the modern consensus followed here is June",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1831,
+  "jd_ut": 2389981.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 21.2,
+   "text": "Gemini 21°12′",
+   "longitude": 81.195
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 29.09,
+   "text": "Cancer 29°06′",
+   "longitude": 119.094
+  },
+  "mercury": {
+   "sign": "Gemini",
+   "degree": 1.03,
+   "text": "Gemini 1°02′",
+   "longitude": 61.033
+  },
+  "venus": {
+   "sign": "Leo",
+   "degree": 1.53,
+   "text": "Leo 1°32′",
+   "longitude": 121.534
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 25.2,
+   "text": "Cancer 25°12′",
+   "longitude": 115.203
+  },
+  "jupiter": {
+   "sign": "Aquarius",
+   "degree": 22.4,
+   "text": "Aquarius 22°24′",
+   "longitude": 322.396
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 26.84,
+   "text": "Leo 26°50′",
+   "longitude": 146.839
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1831-1879",
+  "first_year_parsed": 1831
+ },
+ "stops": [
+  {
+   "segment": "What's the Go o' That: Glenlair and the Edinburgh Schoolrooms",
+   "stop": "14 India Street, Edinburgh, the birth",
+   "date": "1831-06-13",
+   "date_confidence": "attested to 13 June 1831; older reference works print a November date, and the modern consensus followed here is June",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389981.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 21.2,
+    "text": "Gemini 21°12′",
+    "longitude": 81.195
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 29.09,
+    "text": "Cancer 29°06′",
+    "longitude": 119.094
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 1.03,
+    "text": "Gemini 1°02′",
+    "longitude": 61.033
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 1.53,
+    "text": "Leo 1°32′",
+    "longitude": 121.534
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 25.2,
+    "text": "Cancer 25°12′",
+    "longitude": 115.203
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.4,
+    "text": "Aquarius 22°24′",
+    "longitude": 322.396
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 26.84,
+    "text": "Leo 26°50′",
+    "longitude": 146.839
+   }
+  },
+  {
+   "segment": "What's the Go o' That: Glenlair and the Edinburgh Schoolrooms",
+   "stop": "Glenlair, the estate and the question",
+   "date": "1833-01-01",
+   "date_confidence": "the family's relocation is attested to 1833; the month and day are set to 01 as unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1833,
+   "jd_ut": 2390549.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.43,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.426
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What's the Go o' That: Glenlair and the Edinburgh Schoolrooms",
+   "stop": "Glenlair, the death of Frances Cay",
+   "date": "1839-12-01",
+   "date_confidence": "attested to December 1839; the day is set to 01 as unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1839,
+   "jd_ut": 2393074.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.16,
+    "text": "Sagittarius 8°10′",
+    "longitude": 248.164
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What's the Go o' That: Glenlair and the Edinburgh Schoolrooms",
+   "stop": "Edinburgh Academy, the boy they call Dafty",
+   "date": "1841-11-01",
+   "date_confidence": "attested to November 1841; the day is set to 01 as unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1841,
+   "jd_ut": 2393775.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.43,
+    "text": "Scorpio 8°26′",
+    "longitude": 218.427
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What's the Go o' That: Glenlair and the Edinburgh Schoolrooms",
+   "stop": "Glenlair, the ovals drawn with pins and string",
+   "date": "1846-01-01",
+   "date_confidence": "the work is attested to 1846, when Maxwell was fourteen; the month and day are set to 01 as unknown, and Glenlair is given as the pin though the sources place the work loosely between Glenlair and Edinburgh",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395297.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What's the Go o' That: Glenlair and the Edinburgh Schoolrooms",
+   "stop": "The Mound, Forbes reads the paper to the Royal Society",
+   "date": "1846-04-06",
+   "date_confidence": "attested to 6 April 1846",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395392.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.82,
+    "text": "Aries 15°49′",
+    "longitude": 15.821
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 10.72,
+    "text": "Leo 10°43′",
+    "longitude": 130.72
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 2.88,
+    "text": "Taurus 2°53′",
+    "longitude": 32.883
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 7.24,
+    "text": "Pisces 7°14′",
+    "longitude": 337.238
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 7.29,
+    "text": "Gemini 7°18′",
+    "longitude": 67.292
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 14.56,
+    "text": "Taurus 14°33′",
+    "longitude": 44.558
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 27.35,
+    "text": "Aquarius 27°21′",
+    "longitude": 327.349
+   }
+  },
+  {
+   "segment": "What's the Go o' That: Glenlair and the Edinburgh Schoolrooms",
+   "stop": "University of Edinburgh, Old College, the three professors",
+   "date": "1847-11-01",
+   "date_confidence": "attested to November 1847; the day is set to 01 as unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1847,
+   "jd_ut": 2395966.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.97,
+    "text": "Scorpio 7°58′",
+    "longitude": 217.972
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: The Wranglers and Faraday's Lines",
+   "stop": "Peterhouse, Cambridge, the first term",
+   "date": "1850-10-01",
+   "date_confidence": "attested to October 1850; the day is set to 01 as unknown. The pin is the Peterhouse coordinate already carried in lord_kelvin.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2397031.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.46,
+    "text": "Libra 7°27′",
+    "longitude": 187.458
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: The Wranglers and Faraday's Lines",
+   "stop": "Trinity College, Cambridge, Hopkins and the Apostles",
+   "date": "1851-01-01",
+   "date_confidence": "the transfer to Trinity is attested to Maxwell's first Cambridge term, late 1850; this date is set to the start of 1851 to order the coaching years that follow. The pin is the Trinity College coordinate already carried in newton.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397123.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.049
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: The Wranglers and Faraday's Lines",
+   "stop": "Otley, Suffolk, the illness at the rectory",
+   "date": "1853-07-01",
+   "date_confidence": "attested to the summer of 1853; the parish is Otley, where Charles Benjamin Tayler was rector from 1846, and the month and day are an estimate within that summer. The coordinate is Otley village and has not been checked against a gazetteer",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2398035.5,
+   "precision": "year",
+   "precision_triggers": [
+    "estimated",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.02,
+    "text": "Cancer 9°01′",
+    "longitude": 99.018
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: The Wranglers and Faraday's Lines",
+   "stop": "Senate House, Cambridge, Second Wrangler",
+   "date": "1854-01-01",
+   "date_confidence": "the Tripos result is attested to January 1854; the day is set to 01 as unknown. The pin is the Senate House coordinate already carried in lord_kelvin.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1854,
+   "jd_ut": 2398219.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.33,
+    "text": "Capricornus 10°20′",
+    "longitude": 280.326
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: The Wranglers and Faraday's Lines",
+   "stop": "Trinity College, Cambridge, elected Fellow",
+   "date": "1855-10-10",
+   "date_confidence": "attested to 10 October 1855",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398866.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.13,
+    "text": "Libra 16°08′",
+    "longitude": 196.131
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 3.41,
+    "text": "Libra 3°25′",
+    "longitude": 183.414
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.02,
+    "text": "Scorpio 11°01′",
+    "longitude": 221.024
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 2.55,
+    "text": "Libra 2°33′",
+    "longitude": 182.548
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 24.04,
+    "text": "Leo 24°03′",
+    "longitude": 144.044
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.87,
+    "text": "Aquarius 22°52′",
+    "longitude": 322.875
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 0.15,
+    "text": "Cancer 0°09′",
+    "longitude": 90.149
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Cambridge: The Wranglers and Faraday's Lines",
+   "stop": "Cambridge Philosophical Society, On Faraday's Lines of Force",
+   "date": "1855-12-01",
+   "date_confidence": "read in two parts, one in 1855 and one in 1856; the date given is the first reading, with month and day estimated. Chronologies that date the whole paper to 1855 silently drop the second part",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398918.5,
+   "precision": "year",
+   "precision_triggers": [
+    "estimated",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.28,
+    "text": "Sagittarius 8°17′",
+    "longitude": 248.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge: The Wranglers and Faraday's Lines",
+   "stop": "Glenlair, the death of John Clerk Maxwell",
+   "date": "1856-04-03",
+   "date_confidence": "attested to 3 April 1856",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399042.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 13.44,
+    "text": "Aries 13°26′",
+    "longitude": 13.439
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 11.71,
+    "text": "Pisces 11°43′",
+    "longitude": 341.711
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 21.95,
+    "text": "Pisces 21°57′",
+    "longitude": 351.952
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 15.02,
+    "text": "Pisces 15°01′",
+    "longitude": 345.023
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 12.8,
+    "text": "Libra 12°48′",
+    "longitude": 192.796
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 22.17,
+    "text": "Pisces 22°10′",
+    "longitude": 352.166
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 24.6,
+    "text": "Gemini 24°36′",
+    "longitude": 84.6
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Aberdeen: The Rings of Saturn",
+   "stop": "Marischal College, Aberdeen, the chair at twenty-five",
+   "date": "1856-11-01",
+   "date_confidence": "attested to November 1856; the day is set to 01 as unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399254.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.79,
+    "text": "Scorpio 8°47′",
+    "longitude": 218.791
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aberdeen: The Rings of Saturn",
+   "stop": "Marischal College, the rings of Saturn",
+   "date": "1857-01-01",
+   "date_confidence": "the Adams Prize was awarded in 1857 per MacTutor, the Clerk Maxwell Foundation chronology and the Adams Prize winners list; Wikipedia's Maxwell article gives 1859, which is the year the essay was published as a monograph. The contradiction is left standing. Month and day set to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399315.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.6,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.603
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aberdeen: The Rings of Saturn",
+   "stop": "Old Machar, Aberdeen, the marriage to Katherine Dewar",
+   "date": "1858-06-02",
+   "date_confidence": "Wikipedia and the Clerk Maxwell Foundation chronology both give 2 June 1858; MacTutor gives June 1859. The discrepancy is not resolved here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399832.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.13,
+    "text": "Gemini 11°08′",
+    "longitude": 71.132
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 8.58,
+    "text": "Aquarius 8°35′",
+    "longitude": 308.582
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 18.63,
+    "text": "Taurus 18°38′",
+    "longitude": 48.625
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 4.96,
+    "text": "Cancer 4°57′",
+    "longitude": 94.956
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 19.19,
+    "text": "Scorpio 19°12′",
+    "longitude": 229.192
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 1.73,
+    "text": "Gemini 1°44′",
+    "longitude": 61.728
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 25.62,
+    "text": "Cancer 25°37′",
+    "longitude": 115.619
+   }
+  },
+  {
+   "segment": "Aberdeen: The Rings of Saturn",
+   "stop": "Marischal College, the colour top and the free class",
+   "date": "1859-01-01",
+   "date_confidence": "the Aberdeen colour work runs across the Marischal years and is not tied to a single date; 1859 is set to order the segment, and the month and day are set to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400045.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.108
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "London: The Field Becomes a Theory",
+   "stop": "Burlington House, the theory of compound colours",
+   "date": "1860-01-01",
+   "date_confidence": "the paper is attested to 1860 and the Rumford Medal followed; the month and day are set to 01 as unknown. The venue is Burlington House, the Royal Society's premises from 1857, not Somerset House, which the Society had already left",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400410.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "year named only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.86
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "London: The Field Becomes a Theory",
+   "stop": "Glenlair, smallpox",
+   "date": "1860-07-01",
+   "date_confidence": "attested to 1860; the month and day are an estimate within that summer",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400592.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "estimated"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.31,
+    "text": "Cancer 9°19′",
+    "longitude": 99.312
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "London: The Field Becomes a Theory",
+   "stop": "King's College London, the chair on the Strand",
+   "date": "1860-10-01",
+   "date_confidence": "the appointment is attested to 1860; the month and day are set to the opening of the session as an estimate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400684.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "estimated"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.03,
+    "text": "Libra 8°02′",
+    "longitude": 188.027
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "London: The Field Becomes a Theory",
+   "stop": "Royal Institution, the tartan ribbon",
+   "date": "1861-05-17",
+   "date_confidence": "attested to 17 May 1861 by the Clerk Maxwell Foundation chronology and Wikipedia; the verification pass could not re-check the date or Thomas Sutton's role against a primary source. The pin is the Royal Institution coordinate already carried in charles_babbage.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400912.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 26.04,
+    "text": "Taurus 26°02′",
+    "longitude": 56.038
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 17.6,
+    "text": "Leo 17°36′",
+    "longitude": 137.601
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 19.82,
+    "text": "Taurus 19°49′",
+    "longitude": 49.818
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 27.46,
+    "text": "Taurus 27°28′",
+    "longitude": 57.463
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 28.64,
+    "text": "Gemini 28°38′",
+    "longitude": 88.637
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 18.7,
+    "text": "Leo 18°42′",
+    "longitude": 138.701
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 2.89,
+    "text": "Virgo 2°53′",
+    "longitude": 152.889
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "London: The Field Becomes a Theory",
+   "stop": "King's College London, On Physical Lines of Force",
+   "date": "1862-01-01",
+   "date_confidence": "published in four parts across 1861 and 1862; the date is set to the start of 1862 to order the segment",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401141.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.38,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.384
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "London: The Field Becomes a Theory",
+   "stop": "Burlington House, A Dynamical Theory of the Electromagnetic Field",
+   "date": "1864-12-08",
+   "date_confidence": "attested to 8 December 1864. The venue is Burlington House; the Royal Society had left Somerset House in 1857, and sources placing this reading at Somerset House are in error",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2402213.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 16.22,
+    "text": "Sagittarius 16°13′",
+    "longitude": 256.219
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 8.32,
+    "text": "Aries 8°19′",
+    "longitude": 8.316
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 1.18,
+    "text": "Capricornus 1°11′",
+    "longitude": 271.177
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 21.89,
+    "text": "Capricornus 21°53′",
+    "longitude": 291.89
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 6.87,
+    "text": "Gemini 6°52′",
+    "longitude": 66.87
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 10.15,
+    "text": "Sagittarius 10°09′",
+    "longitude": 250.153
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 27.21,
+    "text": "Libra 27°12′",
+    "longitude": 207.208
+   }
+  },
+  {
+   "segment": "London: The Field Becomes a Theory",
+   "stop": "King's College London, the chair given up",
+   "date": "1865-04-01",
+   "date_confidence": "MacTutor dates the departure to spring 1865; the month and day are an estimate. Maxwell was thirty-three at the time and turned thirty-four on 13 June that year, so accounts giving his age as thirty-four at the resignation are wrong",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402327.5,
+   "precision": "year",
+   "precision_triggers": [
+    "estimated"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.29,
+    "text": "Aries 11°17′",
+    "longitude": 11.291
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Glenlair Again: The Demon and the Governor",
+   "stop": "Glenlair, the branch and the erysipelas",
+   "date": "1865-08-01",
+   "date_confidence": "attested to 1865, soon after the return to Glenlair; the month and day are an estimate. The riding-injury detail comes from the Campbell and Garnett biography by way of secondary accounts and is not corroborated by any primary medical record",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402449.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "estimated"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.7,
+    "text": "Leo 8°42′",
+    "longitude": 128.702
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Glenlair Again: The Demon and the Governor",
+   "stop": "Glenlair, the neat-fingered being",
+   "date": "1867-12-01",
+   "date_confidence": "the letter to Tait is attested to 1867; the month and day are an estimate within that year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403301.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "estimated"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.37,
+    "text": "Sagittarius 8°22′",
+    "longitude": 248.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Glenlair Again: The Demon and the Governor",
+   "stop": "Glenlair, On Governors",
+   "date": "1868-01-01",
+   "date_confidence": "the paper is attested to 1868; the month and day are set to 01 as unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403332.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.92,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.919
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Glenlair Again: The Demon and the Governor",
+   "stop": "Glenlair, Theory of Heat",
+   "date": "1871-01-01",
+   "date_confidence": "Wikipedia gives 1871 for the publication of Theory of Heat and is followed here; the Clerk Maxwell Foundation chronology places it inside a compressed 1870 entry bundling several years of items. Month and day set to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404428.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cavendish: A Laboratory Built From Nothing",
+   "stop": "Cambridge, the chair that does not exist yet",
+   "date": "1871-03-01",
+   "date_confidence": "the appointment is attested to 1871; the month and day are an estimate. The pin is central Cambridge, the appointment not being tied to a building that existed at the time",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404487.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "estimated"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.01,
+    "text": "Pisces 10°01′",
+    "longitude": 340.009
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cavendish: A Laboratory Built From Nothing",
+   "stop": "Cavendish Laboratory, A Treatise on Electricity and Magnetism",
+   "date": "1873-01-01",
+   "date_confidence": "publication is attested to 1873; the month and day are set to 01 as unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.72,
+    "text": "Capricornus 10°43′",
+    "longitude": 280.72
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cavendish: A Laboratory Built From Nothing",
+   "stop": "Cambridge, the Eranus essay on free will",
+   "date": "1873-02-11",
+   "date_confidence": "attested to 11 February 1873, read to the Eranus club at Cambridge; the meeting place within Cambridge is not established and the pin is central Cambridge",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405200.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not established) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 22.4,
+    "text": "Aquarius 22°24′",
+    "longitude": 322.399
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 6.29,
+    "text": "Leo 6°18′",
+    "longitude": 126.294
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 14.3,
+    "text": "Aquarius 14°18′",
+    "longitude": 314.298
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 8.47,
+    "text": "Aries 8°28′",
+    "longitude": 8.473
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 7.71,
+    "text": "Scorpio 7°42′",
+    "longitude": 217.707
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 26.98,
+    "text": "Leo 26°59′",
+    "longitude": 146.979
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 26.65,
+    "text": "Capricornus 26°39′",
+    "longitude": 296.65
+   }
+  },
+  {
+   "segment": "The Cavendish: A Laboratory Built From Nothing",
+   "stop": "Cavendish Laboratory, the doors open",
+   "date": "1874-06-16",
+   "date_confidence": "attested to 16 June 1874",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405690.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 24.64,
+    "text": "Gemini 24°38′",
+    "longitude": 84.641
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 16.73,
+    "text": "Cancer 16°44′",
+    "longitude": 106.729
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 16.57,
+    "text": "Cancer 16°34′",
+    "longitude": 106.569
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 23.15,
+    "text": "Cancer 23°09′",
+    "longitude": 113.146
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 0.32,
+    "text": "Cancer 0°19′",
+    "longitude": 90.32
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 22.9,
+    "text": "Virgo 22°54′",
+    "longitude": 172.905
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 13.56,
+    "text": "Aquarius 13°34′",
+    "longitude": 313.565
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Cavendish: A Laboratory Built From Nothing",
+   "stop": "Cavendish Laboratory, the Cavendish papers",
+   "date": "1874-10-01",
+   "date_confidence": "the editorial work is attested to have begun in 1874 and the edition appeared in 1879; the month and day are an estimate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405797.5,
+   "precision": "year",
+   "precision_triggers": [
+    "estimated",
+    "(soft-year) year named with preposition",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.64,
+    "text": "Libra 7°39′",
+    "longitude": 187.644
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cavendish: A Laboratory Built From Nothing",
+   "stop": "Cambridge, the Rede Lecture on the telephone",
+   "date": "1878-01-01",
+   "date_confidence": "attested to 1878 by the Clerk Maxwell Foundation chronology, which also records the Volta Medal that year; the traditional Rede Lecture venue is the Senate House but this is unconfirmed, so the pin is central Cambridge. Month and day set to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2406985.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.502
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Year",
+   "stop": "Cambridge, the last lecture course",
+   "date": "1879-05-01",
+   "date_confidence": "attested to May 1879; the day is set to 01 as unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407470.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.24,
+    "text": "Taurus 10°14′",
+    "longitude": 40.238
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Year",
+   "stop": "Glenlair, the physician's letter",
+   "date": "1879-10-05",
+   "date_confidence": "attested to 5 October 1879, the date of Dr Lorraine's letter to Dr Paget",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407627.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 11.38,
+    "text": "Libra 11°23′",
+    "longitude": 191.377
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.17,
+    "text": "Gemini 2°10′",
+    "longitude": 62.175
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.54,
+    "text": "Libra 10°32′",
+    "longitude": 190.54
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 24.65,
+    "text": "Virgo 24°39′",
+    "longitude": 174.652
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 28.75,
+    "text": "Taurus 28°45′",
+    "longitude": 58.748
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 4.01,
+    "text": "Pisces 4°00′",
+    "longitude": 334.005
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 12.05,
+    "text": "Aries 12°03′",
+    "longitude": 12.048
+   }
+  },
+  {
+   "segment": "The Last Year",
+   "stop": "Cambridge, the return",
+   "date": "1879-10-08",
+   "date_confidence": "attested to 8 October 1879",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407630.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 14.34,
+    "text": "Libra 14°20′",
+    "longitude": 194.339
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 7.92,
+    "text": "Cancer 7°55′",
+    "longitude": 97.919
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 15.75,
+    "text": "Libra 15°45′",
+    "longitude": 195.746
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 23.6,
+    "text": "Virgo 23°36′",
+    "longitude": 173.6
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 28.76,
+    "text": "Taurus 28°46′",
+    "longitude": 58.761
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 3.78,
+    "text": "Pisces 3°47′",
+    "longitude": 333.781
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 11.81,
+    "text": "Aries 11°49′",
+    "longitude": 11.812
+   }
+  },
+  {
+   "segment": "The Last Year",
+   "stop": "Cambridge, the death",
+   "date": "1879-11-05",
+   "date_confidence": "attested to 5 November 1879; the sources gathered do not name the house or street where he died, so the pin is central Cambridge",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407658.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 12.22,
+    "text": "Scorpio 12°13′",
+    "longitude": 222.223
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 16.57,
+    "text": "Cancer 16°34′",
+    "longitude": 106.567
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 29.61,
+    "text": "Scorpio 29°37′",
+    "longitude": 239.612
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 29.86,
+    "text": "Virgo 29°51′",
+    "longitude": 179.856
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 22.9,
+    "text": "Taurus 22°54′",
+    "longitude": 52.896
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 3.08,
+    "text": "Pisces 3°05′",
+    "longitude": 333.083
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 9.8,
+    "text": "Aries 9°48′",
+    "longitude": 9.802
+   }
+  },
+  {
+   "segment": "The Last Year",
+   "stop": "Parton Kirk, the burial",
+   "date": "1879-11-08",
+   "date_confidence": "the burial is attested to November 1879; the day is not established in the sources gathered and is set here only to order the segment after the death",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407661.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established",
+    "ordering",
+    "editorial (the date)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 15.24,
+    "text": "Scorpio 15°14′",
+    "longitude": 225.236
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave, the Ruin, and the Name",
+   "stop": "Cavendish Laboratory, the papers put in order",
+   "date": "1890-01-01",
+   "date_confidence": "posthumous. Niven's two-volume Scientific Papers appeared in 1890 and the month and day are set to 01; the second edition of the Treatise was completed by Niven in 1881 and a third prepared by J. J. Thomson in 1892",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411368.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.591
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave, the Ruin, and the Name",
+   "stop": "Glenlair, the house burns",
+   "date": "1929-01-01",
+   "date_confidence": "posthumous. The fire is attested to 1929 by Wikipedia's article on Glenlair; the month and day are set to 01 as unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave, the Ruin, and the Name",
+   "stop": "Westminster Abbey, the memorial stone",
+   "date": "1931-09-30",
+   "date_confidence": "posthumous, attested to 30 September 1931; the stone was replaced by a cast-iron version in 1976. The pin is the Westminster Abbey coordinate already carried in newton.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426614.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 5.87,
+    "text": "Libra 5°52′",
+    "longitude": 185.873
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 10.36,
+    "text": "Taurus 10°22′",
+    "longitude": 40.362
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 21.75,
+    "text": "Virgo 21°45′",
+    "longitude": 171.746
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 11.73,
+    "text": "Libra 11°44′",
+    "longitude": 191.732
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 8.58,
+    "text": "Scorpio 8°35′",
+    "longitude": 218.577
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 15.59,
+    "text": "Leo 15°35′",
+    "longitude": 135.59
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 16.49,
+    "text": "Capricornus 16°29′",
+    "longitude": 286.487
+   }
+  },
+  {
+   "segment": "The Grave, the Ruin, and the Name",
+   "stop": "14 India Street, the birthplace bought back",
+   "date": "1993-01-01",
+   "date_confidence": "posthumous. The James Clerk Maxwell Foundation was established by Sydney Ross in 1977 and acquired 14 India Street in 1993; the month and day are set to 01 as unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1993,
+   "jd_ut": 2448988.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.587
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave, the Ruin, and the Name",
+   "stop": "George Street, Edinburgh, the statue",
+   "date": "2008-11-25",
+   "date_confidence": "posthumous, attested to 25 November 2008 by the Clerk Maxwell Foundation chronology. The coordinate is the eastern end of George Street near St Andrew Square and is an estimate; two earlier working values for this statue, 55.9548 -3.1936 and 55.9548 -3.1966, both fall well north of the street and are rejected",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2008,
+   "jd_ut": 2454795.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (estimated) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 3.09,
+    "text": "Sagittarius 3°06′",
+    "longitude": 243.094
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 3.12,
+    "text": "Scorpio 3°07′",
+    "longitude": 213.116
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 2.7,
+    "text": "Sagittarius 2°42′",
+    "longitude": 242.703
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 14.74,
+    "text": "Capricornus 14°44′",
+    "longitude": 284.736
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 6.22,
+    "text": "Sagittarius 6°13′",
+    "longitude": 246.218
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 21.04,
+    "text": "Capricornus 21°02′",
+    "longitude": 291.036
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 20.59,
+    "text": "Virgo 20°36′",
+    "longitude": 170.593
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 14,
+  "month": 8,
+  "year": 23
+ },
+ "parse_failures": []
+}

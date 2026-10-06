@@ -1,0 +1,1756 @@
+{
+ "slug": "ann_lee",
+ "traveler": "Ann Lee (Ann Lees, called Mother Ann)",
+ "title": "The Mill and the Wilderness: Mother Ann from Toad Lane to Niskayuna",
+ "years": "1736-1784",
+ "years_parsed": {
+  "first": 1736,
+  "last": 1784
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Mill Town",
+  "stop": "Manchester, birth on the leap day",
+  "date": "1736-02-29",
+  "date_confidence": "attested: Wikipedia, Appletons' Cyclopaedia and the National Park Service all give 29 February 1736; the Toad Lane address is Shaker tradition and is documented nowhere",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1736,
+  "jd_ut": 2355179.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "notes": [
+   "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+  ],
+  "sun": {
+   "sign": "Pisces",
+   "degree": 9.75,
+   "text": "Pisces 9°45′",
+   "longitude": 339.75
+  },
+  "moon": {
+   "sign": "Libra",
+   "degree": 13.39,
+   "text": "Libra 13°23′",
+   "longitude": 193.389
+  },
+  "mercury": {
+   "sign": "Pisces",
+   "degree": 27.79,
+   "text": "Pisces 27°47′",
+   "longitude": 357.786
+  },
+  "venus": {
+   "sign": "Capricornus",
+   "degree": 27.11,
+   "text": "Capricornus 27°07′",
+   "longitude": 297.109
+  },
+  "mars": {
+   "sign": "Capricornus",
+   "degree": 7.88,
+   "text": "Capricornus 7°53′",
+   "longitude": 277.879
+  },
+  "jupiter": {
+   "sign": "Aquarius",
+   "degree": 5.05,
+   "text": "Aquarius 5°03′",
+   "longitude": 305.047
+  },
+  "saturn": {
+   "sign": "Taurus",
+   "degree": 22.16,
+   "text": "Taurus 22°10′",
+   "longitude": 52.164
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1736-1784",
+  "first_year_parsed": 1736
+ },
+ "stops": [
+  {
+   "segment": "The Mill Town",
+   "stop": "Manchester, birth on the leap day",
+   "date": "1736-02-29",
+   "date_confidence": "attested: Wikipedia, Appletons' Cyclopaedia and the National Park Service all give 29 February 1736; the Toad Lane address is Shaker tradition and is documented nowhere",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1736,
+   "jd_ut": 2355179.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.75,
+    "text": "Pisces 9°45′",
+    "longitude": 339.75
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 13.39,
+    "text": "Libra 13°23′",
+    "longitude": 193.389
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 27.79,
+    "text": "Pisces 27°47′",
+    "longitude": 357.786
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 27.11,
+    "text": "Capricornus 27°07′",
+    "longitude": 297.109
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 7.88,
+    "text": "Capricornus 7°53′",
+    "longitude": 277.879
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 5.05,
+    "text": "Aquarius 5°03′",
+    "longitude": 305.047
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 22.16,
+    "text": "Taurus 22°10′",
+    "longitude": 52.164
+   }
+  },
+  {
+   "segment": "The Mill Town",
+   "stop": "Manchester Collegiate Church, the baptism",
+   "date": "1742-06-01",
+   "date_confidence": "attested, from the parish register as cited in Wikipedia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1742,
+   "jd_ut": 2357463.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.21,
+    "text": "Gemini 10°13′",
+    "longitude": 70.211
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mill Town",
+   "stop": "Manchester, the cotton mill",
+   "date": "1745-01-01",
+   "date_confidence": "traditional: the sources agree she worked in a Manchester cotton mill as a child but name no mill and no year, and the coordinate is the atlas's canonical Manchester pin, not an address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1745,
+   "jd_ut": 2358408.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.8,
+    "text": "Capricornus 10°48′",
+    "longitude": 280.797
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mill Town",
+   "stop": "Manchester, cutting fur for the hatters",
+   "date": "1755-01-01",
+   "date_confidence": "traditional: the trade is attested, the workshop and the year are not",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1755,
+   "jd_ut": 2362060.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.36,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.361
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mill Town",
+   "stop": "Manchester Infirmary at Piccadilly, the kitchen",
+   "date": "1756-01-01",
+   "date_confidence": "attested that she cooked at the infirmary around age twenty; the year is approximate and the building is the Lever's Row site at Piccadilly, opened 1755, not the Market Street site named in some summaries",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1756,
+   "jd_ut": 2362425.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Shaking Quakers",
+   "stop": "Manchester, joining the Wardley society",
+   "date": "1758-01-01",
+   "date_confidence": "disputed: Wikipedia and the National Park Service give 1758, Appletons' Cyclopaedia gives 1747, when she would have been eleven; the meeting address is recorded nowhere and the coordinate is the canonical Manchester pin",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1758,
+   "jd_ut": 2363156.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.64,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Shaking Quakers",
+   "stop": "Manchester Collegiate Church, the marriage to Abraham Stanley",
+   "date": "1761-01-05",
+   "date_confidence": "attested from the parish register as cited in Wikipedia; Encyclopedia.com gives 1762 instead, and Appletons' gives no date at all",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1761,
+   "jd_ut": 2364256.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.99,
+    "text": "Capricornus 15°00′",
+    "longitude": 284.993
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Shaking Quakers",
+   "stop": "Manchester, the four children",
+   "date": "1762-01-01",
+   "date_confidence": "the four births and the four deaths are attested; not one birth or death date survives in any source, and the year given here is a placeholder for a decade",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1762,
+   "jd_ut": 2364617.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.67,
+    "text": "Capricornus 10°40′",
+    "longitude": 280.668
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Shaking Quakers",
+   "stop": "Manchester, taken up by the magistrates",
+   "date": "1768-01-01",
+   "date_confidence": "the repeated imprisonments are attested; the building is unnamed in every source consulted and the dates of the individual jailings are not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1768,
+   "jd_ut": 2366808.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.202
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Shaking Quakers",
+   "stop": "Manchester, fourteen days and the revelation",
+   "date": "1770-01-01",
+   "date_confidence": "the fourteen-day imprisonment and the revelation are attested by Wikipedia and corroborated by the National Park Service; the month and the building are not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1770,
+   "jd_ut": 2367539.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mother Ann and the Call",
+   "stop": "Manchester, acknowledged Mother in spiritual things",
+   "date": "1770-06-01",
+   "date_confidence": "traditional: the sources place the acknowledgement around 1770 and give no month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1770,
+   "jd_ut": 2367690.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.43,
+    "text": "Gemini 10°26′",
+    "longitude": 70.433
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mother Ann and the Call",
+   "stop": "Manchester, the vision of America",
+   "date": "1772-01-01",
+   "date_confidence": "attested by the National Park Service, which states the 1772 vision flatly; the Manchester location is the canonical city pin and no source narrows it further",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1772,
+   "jd_ut": 2368269.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) no source",
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.231
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mother Ann and the Call",
+   "stop": "Liverpool, the nine go aboard the Mariah",
+   "date": "1774-05-01",
+   "date_confidence": "the ship Mariah and the party of nine are attested; no source names the port of departure, and Liverpool is inference from the transatlantic trade of the period",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1774,
+   "jd_ut": 2369120.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) span/window",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.63,
+    "text": "Taurus 10°38′",
+    "longitude": 40.63
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Waiting Years",
+   "stop": "The North Atlantic, the plank driven back",
+   "date": "1774-06-01",
+   "date_confidence": "Shaker testimony only, taken down decades later; no log, manifest, or independent witness of the leak or the vision exists",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1774,
+   "jd_ut": 2369151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.46,
+    "text": "Gemini 10°28′",
+    "longitude": 70.465
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Waiting Years",
+   "stop": "New York, the landing at the East River",
+   "date": "1774-08-06",
+   "date_confidence": "attested by Wikipedia and the National Park Service; Appletons' Cyclopaedia gives May 1774 instead, and the coordinate is the eighteenth-century shoreline rather than the modern landfill",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1774,
+   "jd_ut": 2369217.5,
+   "precision": "month",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.48,
+    "text": "Leo 13°29′",
+    "longitude": 133.484
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Waiting Years",
+   "stop": "Queen Street, the Cunningham house",
+   "date": "1774-09-01",
+   "date_confidence": "attested: Wikipedia names the Cunningham family and Queen Street; the month is inferred from the August landing",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1774,
+   "jd_ut": 2369243.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.54,
+    "text": "Virgo 8°32′",
+    "longitude": 158.541
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Waiting Years",
+   "stop": "New York, the years of waiting",
+   "date": "1776-01-01",
+   "date_confidence": "the dispersal and the long wait are attested; this coordinate is the atlas's canonical lower Manhattan pin, inherited from the Bellamy file, and not a documented address of Lee's",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1776,
+   "jd_ut": 2369730.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.261
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Waiting Years",
+   "stop": "New York, Abraham Stanley leaves",
+   "date": "1777-01-01",
+   "date_confidence": "no source gives a year: Wikipedia records the threat and the departure without a date, Appletons' gives no date, and the 1776 and 1777 datings in circulation are unsourced",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1777,
+   "jd_ut": 2370096.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "no source (for the date)",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.03,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.033
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Niskayuna and the War",
+   "stop": "Niskayuna, Hocknell takes the lease",
+   "date": "1779-01-01",
+   "date_confidence": "attested by Wikipedia and the Watervliet Shaker Historic District record; no month is given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1779,
+   "jd_ut": 2370826.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Niskayuna and the War",
+   "stop": "Niskayuna, the Dark Day",
+   "date": "1780-05-19",
+   "date_confidence": "attested: the Dark Day falls on 19 May 1780 and Wikipedia places her public opening of the testimony in that month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371330.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.52,
+    "text": "Taurus 28°31′",
+    "longitude": 58.524
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 5.18,
+    "text": "Sagittarius 5°11′",
+    "longitude": 245.177
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 3.48,
+    "text": "Taurus 3°29′",
+    "longitude": 33.478
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 13.27,
+    "text": "Cancer 13°16′",
+    "longitude": 103.273
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 16.07,
+    "text": "Gemini 16°04′",
+    "longitude": 76.067
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 18.19,
+    "text": "Libra 18°12′",
+    "longitude": 198.192
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 5.61,
+    "text": "Sagittarius 5°37′",
+    "longitude": 245.614
+   }
+  },
+  {
+   "segment": "Niskayuna and the War",
+   "stop": "New Lebanon, the revival empties toward Niskayuna",
+   "date": "1780-01-01",
+   "date_confidence": "Appletons' places the New Lebanon revival at the beginning of 1780; the claim that a Shaker society was gathered there that year is false, the society dates from 1787, and Joseph Meacham's presence in 1780 is tradition rather than documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371191.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.29
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Niskayuna and the War",
+   "stop": "Albany, arrested for treason",
+   "date": "1780-07-01",
+   "date_confidence": "contested: Appletons' dates the Albany treason arrest to summer 1776, which conflicts with the party still being in New York City until 1779; standard Shaker accounts give July 1780, unverified from a reachable source; Wikipedia's article records only the refusal of the oath and no arrest at all",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371373.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.62,
+    "text": "Cancer 9°37′",
+    "longitude": 99.625
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Niskayuna and the War",
+   "stop": "Poughkeepsie, the jail and the governor's release",
+   "date": "1780-12-01",
+   "date_confidence": "contested: Appletons' gives 1777 and a pardon by Governor George Clinton, who took office only in July 1777, leaving no room for the sequence it describes; the standard dating is a transfer from Albany and release in December 1780, which could not be independently verified this session",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371526.5,
+   "precision": "month",
+   "precision_triggers": [
+    "sequencing",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.5,
+    "text": "Sagittarius 9°30′",
+    "longitude": 249.501
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The New England Mission",
+   "stop": "Niskayuna, setting out east",
+   "date": "1781-05-01",
+   "date_confidence": "attested: Wikipedia dates the departure to spring 1781 and the tour to roughly two years",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371677.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.93,
+    "text": "Taurus 10°56′",
+    "longitude": 40.926
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The New England Mission",
+   "stop": "Mount Washington, the Osborn house",
+   "date": "1781-06-01",
+   "date_confidence": "reconstruction: the coordinate matches the listed Benjamin Osborn House, but Wikipedia says only that the party often stayed in homes and never names the Osborns; the identification comes from Shaker local history",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371708.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.76,
+    "text": "Gemini 10°46′",
+    "longitude": 70.76
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The New England Mission",
+   "stop": "Harvard, the Square House",
+   "date": "1781-08-01",
+   "date_confidence": "attested that she took the Square House and that Harvard became the first Massachusetts settlement; the month of arrival is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371769.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.99,
+    "text": "Leo 8°59′",
+    "longitude": 128.989
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The New England Mission",
+   "stop": "Shirley, dragged from the house",
+   "date": "1782-01-01",
+   "date_confidence": "the mob violence of the mission is attested in general terms by Wikipedia, which lists no towns; the Shirley episode and its date come from Shaker local history",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1782,
+   "jd_ut": 2371922.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The New England Mission",
+   "stop": "Petersham, the house surrounded",
+   "date": "1782-06-01",
+   "date_confidence": "tradition: nineteenth-century Shaker histories name Petersham, the general accounts of the mission describe the violence without listing towns",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1782,
+   "jd_ut": 2372073.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.53,
+    "text": "Gemini 10°32′",
+    "longitude": 70.528
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The New England Mission",
+   "stop": "Ashfield, the hill farms",
+   "date": "1782-08-01",
+   "date_confidence": "tradition: Ashfield is named in Shaker local history and not confirmed in the sources that attest the mission",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1782,
+   "jd_ut": 2372134.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.76,
+    "text": "Leo 8°45′",
+    "longitude": 128.757
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The New England Mission",
+   "stop": "Enfield, Joseph Meacham comes over",
+   "date": "1782-10-01",
+   "date_confidence": "reconstruction: her personal visit to Enfield is Shaker tradition, but Joseph Meacham's New Light ministry at Enfield and his later leadership from 1787 are attested; the coordinate is the town centre, not the Shaker Pines site three kilometres east where the village later stood",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1782,
+   "jd_ut": 2372195.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.92,
+    "text": "Libra 7°55′",
+    "longitude": 187.916
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The New England Mission",
+   "stop": "New Marlborough, the last winter of the tour",
+   "date": "1783-01-01",
+   "date_confidence": "tradition: New Marlborough is named in nineteenth-century Shaker histories and not in the general summary of the mission",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1783,
+   "jd_ut": 2372287.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.567
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The New England Mission",
+   "stop": "Richmond, the kitchen tables",
+   "date": "1783-04-01",
+   "date_confidence": "tradition: Richmond is named in Shaker local history and is not independently confirmed in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1783,
+   "jd_ut": 2372377.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.16,
+    "text": "Aries 11°09′",
+    "longitude": 11.156
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return and the Two Graves",
+   "stop": "New Lebanon, the converts holding",
+   "date": "1783-07-01",
+   "date_confidence": "inferred from the geography of the attested mission; the 1783 itinerary is documented nowhere",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1783,
+   "jd_ut": 2372468.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.93,
+    "text": "Cancer 8°56′",
+    "longitude": 98.934
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return and the Two Graves",
+   "stop": "Niskayuna, the company comes home broken",
+   "date": "1783-09-01",
+   "date_confidence": "attested that she and William Lee returned injured near the end of the mission; the month is inferred from the tour's stated length of two years and four months",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1783,
+   "jd_ut": 2372530.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.37,
+    "text": "Virgo 8°22′",
+    "longitude": 158.37
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return and the Two Graves",
+   "stop": "Watervliet, the death of William Lee",
+   "date": "1784-07-21",
+   "date_confidence": "attested to 21 July 1784 by Wikipedia; the attribution of his death to mission injuries is the Shaker account",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372854.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 28.73,
+    "text": "Cancer 28°44′",
+    "longitude": 118.733
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 8.21,
+    "text": "Virgo 8°12′",
+    "longitude": 158.207
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 14.98,
+    "text": "Cancer 14°59′",
+    "longitude": 104.977
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 23.54,
+    "text": "Cancer 23°32′",
+    "longitude": 113.537
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 21.64,
+    "text": "Leo 21°38′",
+    "longitude": 141.635
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 6.85,
+    "text": "Pisces 6°51′",
+    "longitude": 336.852
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 19.81,
+    "text": "Capricornus 19°49′",
+    "longitude": 289.814
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Return and the Two Graves",
+   "stop": "Watervliet, the death of Mother Ann",
+   "date": "1784-09-08",
+   "date_confidence": "attested to 8 September 1784 by Wikipedia, Appletons' and the National Park Service",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372903.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.9,
+    "text": "Virgo 15°54′",
+    "longitude": 165.903
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 2.85,
+    "text": "Cancer 2°51′",
+    "longitude": 92.854
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 11.22,
+    "text": "Libra 11°13′",
+    "longitude": 191.224
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 24.15,
+    "text": "Virgo 24°09′",
+    "longitude": 174.149
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 22.76,
+    "text": "Virgo 22°45′",
+    "longitude": 172.756
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 1.11,
+    "text": "Pisces 1°07′",
+    "longitude": 331.111
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 17.28,
+    "text": "Capricornus 17°17′",
+    "longitude": 287.28
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Mother Ann's Work",
+   "stop": "Watervliet Shaker cemetery, the burial",
+   "date": "1784-09-01",
+   "date_confidence": "the burial beside her brother in the Watervliet Shaker ground is attested; no source consulted gives the day, and the stone has been photographed but never transcribed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372896.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 9.1,
+    "text": "Virgo 9°06′",
+    "longitude": 159.105
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mother Ann's Work",
+   "stop": "New Lebanon, the doctrine written down",
+   "date": "1808-01-01",
+   "date_confidence": "attested for the book and the year; the place of first printing is not established by any source consulted, and this coordinate is the ministry seat rather than a documented press",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1808,
+   "jd_ut": 2381417.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.48,
+    "text": "Capricornus 9°29′",
+    "longitude": 279.477
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mother Ann's Work",
+   "stop": "Watervliet, the Testimonies collected",
+   "date": "1816-01-01",
+   "date_confidence": "attested: first published 1816, compiled by Rufus Bishop, revised by Seth Y. Wells, the accessible text being the 1888 edition",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1816,
+   "jd_ut": 2384339.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.54,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.536
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mother Ann's Work",
+   "stop": "Watervliet, the Era of Manifestations",
+   "date": "1837-01-01",
+   "date_confidence": "attested: Wikipedia dates the Era of Manifestations from 1837 into the mid-1850s, not the ten years given in some summaries",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392010.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.46,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.455
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mother Ann's Work",
+   "stop": "New York, the gift drawings at the Folk Art Museum",
+   "date": "1845-01-01",
+   "date_confidence": "the drawings belong to the Era of Manifestations, 1837 to the mid-1850s, and no single year applies; the museum holding is present-day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1845,
+   "jd_ut": 2394932.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.51,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.514
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mother Ann's Work",
+   "stop": "Colonie, the airport on the herb garden",
+   "date": "1960-01-01",
+   "date_confidence": "the construction of Albany International Airport on the Shaker community's herb garden is attested; the construction year given here is a placeholder, and whether the work approached the graves is documented nowhere",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2436934.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.58,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.578
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mother Ann's Work",
+   "stop": "Sabbathday Lake, the last three",
+   "date": "2025-01-01",
+   "date_confidence": "attested as of 2025",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460676.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.82,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.823
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mother Ann's Work",
+   "stop": "Venice, the testament filmed",
+   "date": "2025-09-01",
+   "date_confidence": "attested: the premiere is dated 1 September 2025 at the Venice International Film Festival",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460919.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.83,
+    "text": "Virgo 8°50′",
+    "longitude": 158.829
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 16.92,
+    "text": "Sagittarius 16°55′",
+    "longitude": 256.923
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 27.06,
+    "text": "Leo 27°03′",
+    "longitude": 147.058
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 7.56,
+    "text": "Leo 7°34′",
+    "longitude": 127.564
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 15.92,
+    "text": "Libra 15°55′",
+    "longitude": 195.919
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 17.88,
+    "text": "Cancer 17°53′",
+    "longitude": 107.877
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 29.93,
+    "text": "Pisces 29°56′",
+    "longitude": 359.933
+   }
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 5,
+  "month": 5,
+  "year": 34
+ },
+ "parse_failures": []
+}

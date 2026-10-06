@@ -1,0 +1,2974 @@
+{
+ "slug": "charlemagne",
+ "traveler": "Charlemagne (Karolus Magnus)",
+ "title": "From the Frankish Cradle to the Throne in the Tomb",
+ "years": "742-814 (the tomb kept open to 1215)",
+ "years_parsed": {
+  "first": 742,
+  "last": 1215
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Anointed Cradle (742-771)",
+  "stop": "Herstal, the Pippinid hall on the Meuse (birthplace uncertain: Herstal? Aachen? Quierzy?)",
+  "date": "0742-04-02",
+  "date_confidence": "traditional",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 742,
+  "jd_ut": 1992164.5,
+  "precision": "year",
+  "precision_triggers": [
+   "traditional"
+  ],
+  "sun": {
+   "sign": "Aries",
+   "degree": 15.19,
+   "text": "Aries 15°11′",
+   "longitude": 15.19
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "742-814 (the tomb kept open to 1215)",
+  "first_year_parsed": 742
+ },
+ "stops": [
+  {
+   "segment": "The Anointed Cradle (742-771)",
+   "stop": "Herstal, the Pippinid hall on the Meuse (birthplace uncertain: Herstal? Aachen? Quierzy?)",
+   "date": "0742-04-02",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 742,
+   "jd_ut": 1992164.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.19,
+    "text": "Aries 15°11′",
+    "longitude": 15.19
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Anointed Cradle (742-771)",
+   "stop": "Basilica of Saint-Denis, Pope Stephen anoints Pepin and his sons",
+   "date": "0754-07-28",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 754,
+   "jd_ut": 1996664.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.37,
+    "text": "Leo 7°22′",
+    "longitude": 127.366
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 25.62,
+    "text": "Virgo 25°37′",
+    "longitude": 175.622
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 2.97,
+    "text": "Virgo 2°58′",
+    "longitude": 152.967
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 28.19,
+    "text": "Gemini 28°11′",
+    "longitude": 88.187
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 27.8,
+    "text": "Scorpio 27°48′",
+    "longitude": 237.798
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 4.88,
+    "text": "Taurus 4°53′",
+    "longitude": 34.877
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 15.29,
+    "text": "Capricornus 15°17′",
+    "longitude": 285.288
+   }
+  },
+  {
+   "segment": "The Anointed Cradle (742-771)",
+   "stop": "Saint-Denis, the death of Pepin the Short",
+   "date": "0768-09-24",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 768,
+   "jd_ut": 2001836.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 4.64,
+    "text": "Libra 4°38′",
+    "longitude": 184.641
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 3.97,
+    "text": "Capricornus 3°58′",
+    "longitude": 273.971
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 12.19,
+    "text": "Libra 12°11′",
+    "longitude": 192.188
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 21.33,
+    "text": "Leo 21°20′",
+    "longitude": 141.332
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 22.73,
+    "text": "Leo 22°44′",
+    "longitude": 142.726
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 16.64,
+    "text": "Cancer 16°38′",
+    "longitude": 106.64
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 25.24,
+    "text": "Cancer 25°14′",
+    "longitude": 115.238
+   }
+  },
+  {
+   "segment": "The Anointed Cradle (742-771)",
+   "stop": "Noyon, Charles raised king of the Franks",
+   "date": "0768-10-09",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 768,
+   "jd_ut": 2001851.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 19.61,
+    "text": "Libra 19°36′",
+    "longitude": 199.608
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 6.26,
+    "text": "Leo 6°15′",
+    "longitude": 126.257
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 5.32,
+    "text": "Scorpio 5°19′",
+    "longitude": 215.316
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 3.47,
+    "text": "Virgo 3°28′",
+    "longitude": 153.466
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.87,
+    "text": "Virgo 1°52′",
+    "longitude": 151.871
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 18.05,
+    "text": "Cancer 18°03′",
+    "longitude": 108.049
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 26.12,
+    "text": "Cancer 26°07′",
+    "longitude": 116.123
+   }
+  },
+  {
+   "segment": "The Anointed Cradle (742-771)",
+   "stop": "Fronsac on the Dordogne, the first war fought alone",
+   "date": "0769-07-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 769,
+   "jd_ut": 2002130.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 25.24,
+    "text": "Cancer 25°14′",
+    "longitude": 115.241
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Anointed Cradle (742-771)",
+   "stop": "Samoussy, the death of Carloman",
+   "date": "0771-12-04",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 771,
+   "jd_ut": 2003002.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 15.61,
+    "text": "Sagittarius 15°36′",
+    "longitude": 255.606
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 16.51,
+    "text": "Virgo 16°30′",
+    "longitude": 166.506
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 20.76,
+    "text": "Sagittarius 20°45′",
+    "longitude": 260.755
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 2.95,
+    "text": "Scorpio 2°57′",
+    "longitude": 212.948
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 4.74,
+    "text": "Pisces 4°45′",
+    "longitude": 334.743
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 15.53,
+    "text": "Libra 15°32′",
+    "longitude": 195.531
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 6.73,
+    "text": "Virgo 6°44′",
+    "longitude": 156.735
+   }
+  },
+  {
+   "segment": "The Anointed Cradle (742-771)",
+   "stop": "Corbeny, the whole realm his",
+   "date": "0771-12-13",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 771,
+   "jd_ut": 2003011.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 24.79,
+    "text": "Sagittarius 24°47′",
+    "longitude": 264.788
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World-Pillar and the Iron Crown (772-774)",
+   "stop": "Worms, the assembly decrees the Saxon war",
+   "date": "0772-05-20",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 772,
+   "jd_ut": 2003170.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 2.08,
+    "text": "Gemini 2°05′",
+    "longitude": 62.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World-Pillar and the Iron Crown (772-774)",
+   "stop": "The Eresburg, the Saxon fortress stormed",
+   "date": "0772-07-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 772,
+   "jd_ut": 2003212.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.12,
+    "text": "Cancer 12°07′",
+    "longitude": 102.118
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World-Pillar and the Iron Crown (772-774)",
+   "stop": "The Irminsul, the world-pillar felled",
+   "date": "0772-07-04",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 772,
+   "jd_ut": 2003215.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 14.98,
+    "text": "Cancer 14°59′",
+    "longitude": 104.982
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World-Pillar and the Iron Crown (772-774)",
+   "stop": "The camp by the Irminsul, the spring at noon",
+   "date": "0772-07-06",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 772,
+   "jd_ut": 2003217.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 16.89,
+    "text": "Cancer 16°54′",
+    "longitude": 106.893
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World-Pillar and the Iron Crown (772-774)",
+   "stop": "Geneva, the muster for Italy",
+   "date": "0773-09-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 773,
+   "jd_ut": 2003639.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 11.73,
+    "text": "Virgo 11°44′",
+    "longitude": 161.735
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World-Pillar and the Iron Crown (772-774)",
+   "stop": "The Cluses of Susa, the Lombard wall turned",
+   "date": "0773-10-05",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 773,
+   "jd_ut": 2003673.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.39,
+    "text": "Libra 15°24′",
+    "longitude": 195.392
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World-Pillar and the Iron Crown (772-774)",
+   "stop": "Pavia, the siege of the Lombard capital begins",
+   "date": "0773-10-20",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 773,
+   "jd_ut": 2003688.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 0.44,
+    "text": "Scorpio 0°27′",
+    "longitude": 210.445
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World-Pillar and the Iron Crown (772-774)",
+   "stop": "Verona, the widow's sons taken",
+   "date": "0774-01-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 774,
+   "jd_ut": 2003775.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 28.9,
+    "text": "Capricornus 28°54′",
+    "longitude": 298.896
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The World-Pillar and the Iron Crown (772-774)",
+   "stop": "Rome, Saint Peter's, Easter: the king climbs the steps on his knees",
+   "date": "0774-04-02",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 774,
+   "jd_ut": 2003852.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.43,
+    "text": "Aries 15°26′",
+    "longitude": 15.435
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 21.54,
+    "text": "Libra 21°32′",
+    "longitude": 201.537
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 21.81,
+    "text": "Aries 21°48′",
+    "longitude": 21.807
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 18.33,
+    "text": "Aries 18°20′",
+    "longitude": 18.334
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 9.29,
+    "text": "Gemini 9°17′",
+    "longitude": 69.29
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 23.3,
+    "text": "Sagittarius 23°18′",
+    "longitude": 263.297
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 27.25,
+    "text": "Virgo 27°15′",
+    "longitude": 177.247
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The World-Pillar and the Iron Crown (772-774)",
+   "stop": "Pavia falls: the Iron Crown of the Lombards",
+   "date": "0774-06-05",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 774,
+   "jd_ut": 2003916.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.88,
+    "text": "Gemini 16°53′",
+    "longitude": 76.878
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Paderborn, the Saracens of Zaragoza kneel at the Saxon assembly",
+   "date": "0777-06-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 777,
+   "jd_ut": 2005022.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 26.66,
+    "text": "Gemini 26°40′",
+    "longitude": 86.665
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Chasseneuil, the queen left behind; Louis born",
+   "date": "0778-04-16",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005327.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.03,
+    "text": "Aries 29°02′",
+    "longitude": 29.033
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Pamplona, the gates opened",
+   "date": "0778-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005373.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.1,
+    "text": "Gemini 13°06′",
+    "longitude": 73.098
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Zaragoza, the promised city refuses",
+   "date": "0778-07-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005403.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 11.69,
+    "text": "Cancer 11°41′",
+    "longitude": 101.688
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Pamplona, the walls razed on the way home",
+   "date": "0778-08-10",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005443.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 20.1,
+    "text": "Leo 20°06′",
+    "longitude": 140.102
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "The Pass of Ibaneta, Roncevaux: the rear-guard set",
+   "date": "0778-08-15",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005448.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.95,
+    "text": "Leo 24°57′",
+    "longitude": 144.949
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 19.87,
+    "text": "Pisces 19°52′",
+    "longitude": 349.874
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 17.5,
+    "text": "Virgo 17°30′",
+    "longitude": 167.499
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 20.98,
+    "text": "Cancer 20°59′",
+    "longitude": 110.976
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 28.53,
+    "text": "Virgo 28°32′",
+    "longitude": 178.532
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 15.68,
+    "text": "Taurus 15°41′",
+    "longitude": 45.678
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 12.98,
+    "text": "Scorpio 12°59′",
+    "longitude": 222.976
+   }
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Roncevaux, Roland refuses the horn",
+   "date": "0778-08-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005448.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.95,
+    "text": "Leo 24°57′",
+    "longitude": 144.949
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Roncevaux, the Oliphant blown at last",
+   "date": "0778-08-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005448.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.95,
+    "text": "Leo 24°57′",
+    "longitude": 144.949
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Roncevaux, Durendal against the stone",
+   "date": "0778-08-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005448.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.95,
+    "text": "Leo 24°57′",
+    "longitude": 144.949
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Roncevaux, Roland dies facing Spain",
+   "date": "0778-08-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005448.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.95,
+    "text": "Leo 24°57′",
+    "longitude": 144.949
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Roncevaux, the emperor turns back too late",
+   "date": "0778-08-16",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005449.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 25.92,
+    "text": "Leo 25°55′",
+    "longitude": 145.92
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain and the Pass of Roncevaux (777-778)",
+   "stop": "Blaye, the three biers in Saint-Romain",
+   "date": "0778-08-25",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 778,
+   "jd_ut": 2005458.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 4.68,
+    "text": "Virgo 4°41′",
+    "longitude": 154.683
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saxon Grind (782-785)",
+   "stop": "The Suntel hills, the host cut down among the trees",
+   "date": "0782-07-20",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 782,
+   "jd_ut": 2006883.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 29.9,
+    "text": "Cancer 29°54′",
+    "longitude": 119.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saxon Grind (782-785)",
+   "stop": "Verden on the Aller, the terrible number",
+   "date": "0782-10-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 782,
+   "jd_ut": 2006970.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 25.23,
+    "text": "Libra 25°14′",
+    "longitude": 205.23
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saxon Grind (782-785)",
+   "stop": "The Eresburg, the king winters inside Saxony",
+   "date": "0784-12-25",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 784,
+   "jd_ut": 2007772.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.88,
+    "text": "Capricornus 7°53′",
+    "longitude": 277.883
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 21.94,
+    "text": "Aries 21°56′",
+    "longitude": 21.936
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 24.22,
+    "text": "Capricornus 24°13′",
+    "longitude": 294.222
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 0.49,
+    "text": "Sagittarius 0°29′",
+    "longitude": 240.489
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 23.65,
+    "text": "Aquarius 23°39′",
+    "longitude": 323.649
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 18.32,
+    "text": "Scorpio 18°19′",
+    "longitude": 228.323
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 26.73,
+    "text": "Capricornus 26°44′",
+    "longitude": 296.733
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Saxon Grind (782-785)",
+   "stop": "Attigny, Widukind baptized; the emperor his godfather",
+   "date": "0785-12-25",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 785,
+   "jd_ut": 2008137.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.64,
+    "text": "Capricornus 7°38′",
+    "longitude": 277.636
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bavaria Folded, the Ring Broken (788-796)",
+   "stop": "Ingelheim, Tassilo shorn",
+   "date": "0788-06-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 788,
+   "jd_ut": 2009040.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 26.99,
+    "text": "Gemini 26°59′",
+    "longitude": 86.99
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bavaria Folded, the Ring Broken (788-796)",
+   "stop": "Regensburg, the Avar war launched",
+   "date": "0791-09-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 791,
+   "jd_ut": 2010213.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 11.38,
+    "text": "Virgo 11°23′",
+    "longitude": 161.383
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bavaria Folded, the Ring Broken (788-796)",
+   "stop": "The Fossa Carolina, the canal between the seas",
+   "date": "0793-10-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 793,
+   "jd_ut": 2010988.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 25.56,
+    "text": "Libra 25°34′",
+    "longitude": 205.563
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bavaria Folded, the Ring Broken (788-796)",
+   "stop": "Frankfurt, the great synod; Tassilo's last renunciation",
+   "date": "0794-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 794,
+   "jd_ut": 2011217.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.22,
+    "text": "Gemini 13°13′",
+    "longitude": 73.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bavaria Folded, the Ring Broken (788-796)",
+   "stop": "The Ring of the Avars, the hoard of two centuries",
+   "date": "0796-08-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 796,
+   "jd_ut": 2012009.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 12.03,
+    "text": "Leo 12°02′",
+    "longitude": 132.029
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bavaria Folded, the Ring Broken (788-796)",
+   "stop": "Aachen, the hoard arrives; the gold that pays for everything",
+   "date": "0796-10-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 796,
+   "jd_ut": 2012070.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 11.82,
+    "text": "Libra 11°49′",
+    "longitude": 191.819
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aachen, New Rome, and the Crown of the World (794-800)",
+   "stop": "Aachen, the capital chosen on the hot springs",
+   "date": "0796-11-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 796,
+   "jd_ut": 2012101.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 12.99,
+    "text": "Scorpio 12°59′",
+    "longitude": 222.986
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aachen, New Rome, and the Crown of the World (794-800)",
+   "stop": "Aachen, Alcuin and the palace school; the tablets under the pillow",
+   "date": "0796-12-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 796,
+   "jd_ut": 2012131.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 13.49,
+    "text": "Sagittarius 13°30′",
+    "longitude": 253.492
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aachen, New Rome, and the Crown of the World (794-800)",
+   "stop": "Ravenna, the marbles of the Caesars taken down",
+   "date": "0797-05-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 797,
+   "jd_ut": 2012282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 13.86,
+    "text": "Taurus 13°52′",
+    "longitude": 43.861
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aachen, New Rome, and the Crown of the World (794-800)",
+   "stop": "Aachen, the Palatine Chapel rising: the octagon, the bronze, the throne",
+   "date": "0798-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 798,
+   "jd_ut": 2012678.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.26,
+    "text": "Gemini 13°15′",
+    "longitude": 73.255
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aachen, New Rome, and the Crown of the World (794-800)",
+   "stop": "Paderborn, the blinded pope comes seeing",
+   "date": "0799-07-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 799,
+   "jd_ut": 2013087.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 25.0,
+    "text": "Cancer 25°00′",
+    "longitude": 114.997
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aachen, New Rome, and the Crown of the World (794-800)",
+   "stop": "Mentana (Nomentum), the pope waits twelve miles from Rome",
+   "date": "0800-11-23",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 800,
+   "jd_ut": 2013584.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 5.37,
+    "text": "Sagittarius 5°22′",
+    "longitude": 245.366
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 11.92,
+    "text": "Capricornus 11°55′",
+    "longitude": 281.925
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 22.08,
+    "text": "Sagittarius 22°05′",
+    "longitude": 262.077
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 23.08,
+    "text": "Libra 23°05′",
+    "longitude": 203.078
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 2.0,
+    "text": "Libra 2°00′",
+    "longitude": 182.002
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 5.1,
+    "text": "Pisces 5°06′",
+    "longitude": 335.096
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 1.04,
+    "text": "Virgo 1°02′",
+    "longitude": 151.042
+   }
+  },
+  {
+   "segment": "Aachen, New Rome, and the Crown of the World (794-800)",
+   "stop": "Saint Peter's, the oath of purgation",
+   "date": "0800-12-23",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 800,
+   "jd_ut": 2013614.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.96,
+    "text": "Capricornus 5°58′",
+    "longitude": 275.961
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 19.06,
+    "text": "Aquarius 19°04′",
+    "longitude": 319.065
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 12.26,
+    "text": "Sagittarius 12°16′",
+    "longitude": 252.26
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 29.18,
+    "text": "Scorpio 29°11′",
+    "longitude": 239.176
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 18.98,
+    "text": "Libra 18°59′",
+    "longitude": 198.98
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 9.08,
+    "text": "Pisces 9°05′",
+    "longitude": 339.083
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 1.0,
+    "text": "Virgo 1°00′",
+    "longitude": 151.001
+   }
+  },
+  {
+   "segment": "Aachen, New Rome, and the Crown of the World (794-800)",
+   "stop": "Saint Peter's, Rome, Christmas Day: the imperial coronation",
+   "date": "0800-12-25",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 800,
+   "jd_ut": 2013616.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.0,
+    "text": "Capricornus 8°00′",
+    "longitude": 277.999
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 16.52,
+    "text": "Pisces 16°31′",
+    "longitude": 346.522
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 14.38,
+    "text": "Sagittarius 14°23′",
+    "longitude": 254.378
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 1.62,
+    "text": "Sagittarius 1°37′",
+    "longitude": 241.616
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 20.07,
+    "text": "Libra 20°04′",
+    "longitude": 200.069
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 9.42,
+    "text": "Pisces 9°25′",
+    "longitude": 339.423
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 0.94,
+    "text": "Virgo 0°56′",
+    "longitude": 150.941
+   }
+  },
+  {
+   "segment": "Aachen, New Rome, and the Crown of the World (794-800)",
+   "stop": "Saint Peter's, the emperor's protest, recorded forever",
+   "date": "0800-12-25",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 800,
+   "jd_ut": 2013616.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.0,
+    "text": "Capricornus 8°00′",
+    "longitude": 277.999
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 16.52,
+    "text": "Pisces 16°31′",
+    "longitude": 346.522
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 14.38,
+    "text": "Sagittarius 14°23′",
+    "longitude": 254.378
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 1.62,
+    "text": "Sagittarius 1°37′",
+    "longitude": 241.616
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 20.07,
+    "text": "Libra 20°04′",
+    "longitude": 200.069
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 9.42,
+    "text": "Pisces 9°25′",
+    "longitude": 339.423
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 0.94,
+    "text": "Virgo 0°56′",
+    "longitude": 150.941
+   }
+  },
+  {
+   "segment": "The Empire and the Elephant (801-811)",
+   "stop": "Portovenere, Abul-Abbas the elephant lands in Italy",
+   "date": "0801-10-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 801,
+   "jd_ut": 2013910.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 25.62,
+    "text": "Libra 25°37′",
+    "longitude": 205.622
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Empire and the Elephant (801-811)",
+   "stop": "Vercelli, the elephant winters below the Alps",
+   "date": "0801-12-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 801,
+   "jd_ut": 2013971.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 27.55,
+    "text": "Sagittarius 27°33′",
+    "longitude": 267.555
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Empire and the Elephant (801-811)",
+   "stop": "Aachen, the missi ride out; the empire ordered",
+   "date": "0802-03-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 802,
+   "jd_ut": 2014061.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 28.05,
+    "text": "Pisces 28°03′",
+    "longitude": 358.05
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Empire and the Elephant (801-811)",
+   "stop": "Aachen, the elephant delivered to the emperor",
+   "date": "0802-07-20",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 802,
+   "jd_ut": 2014188.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 0.05,
+    "text": "Leo 0°03′",
+    "longitude": 120.054
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 16.79,
+    "text": "Aquarius 16°48′",
+    "longitude": 316.793
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 18.35,
+    "text": "Cancer 18°21′",
+    "longitude": 108.348
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 22.05,
+    "text": "Gemini 22°03′",
+    "longitude": 82.053
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 26.02,
+    "text": "Cancer 26°01′",
+    "longitude": 116.015
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 22.03,
+    "text": "Taurus 22°02′",
+    "longitude": 52.032
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 11.53,
+    "text": "Virgo 11°32′",
+    "longitude": 161.526
+   }
+  },
+  {
+   "segment": "The Empire and the Elephant (801-811)",
+   "stop": "Thionville, the ordering of the succession",
+   "date": "0806-02-06",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 806,
+   "jd_ut": 2015485.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 21.32,
+    "text": "Aquarius 21°19′",
+    "longitude": 321.323
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 6.7,
+    "text": "Leo 6°42′",
+    "longitude": 126.704
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 29.73,
+    "text": "Capricornus 29°44′",
+    "longitude": 299.733
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 12.75,
+    "text": "Aquarius 12°45′",
+    "longitude": 312.754
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 10.7,
+    "text": "Taurus 10°42′",
+    "longitude": 40.699
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 29.35,
+    "text": "Leo 29°21′",
+    "longitude": 149.349
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 2.42,
+    "text": "Scorpio 2°25′",
+    "longitude": 212.421
+   }
+  },
+  {
+   "segment": "The Empire and the Elephant (801-811)",
+   "stop": "Aachen, the water-clock of brass strikes the hours",
+   "date": "0807-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 807,
+   "jd_ut": 2015965.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.09,
+    "text": "Gemini 13°05′",
+    "longitude": 73.088
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Empire and the Elephant (801-811)",
+   "stop": "Milan, Pippin the son dies",
+   "date": "0810-07-08",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 810,
+   "jd_ut": 2017098.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 18.63,
+    "text": "Cancer 18°38′",
+    "longitude": 108.625
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 15.66,
+    "text": "Leo 15°39′",
+    "longitude": 135.658
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 29.12,
+    "text": "Gemini 29°07′",
+    "longitude": 89.118
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 8.75,
+    "text": "Gemini 8°45′",
+    "longitude": 68.751
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 7.48,
+    "text": "Virgo 7°29′",
+    "longitude": 157.476
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 0.75,
+    "text": "Capricornus 0°45′",
+    "longitude": 270.747
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 12.13,
+    "text": "Sagittarius 12°08′",
+    "longitude": 252.132
+   }
+  },
+  {
+   "segment": "The Empire and the Elephant (801-811)",
+   "stop": "Lippeham on the Rhine, the death of Abul-Abbas",
+   "date": "0810-07-25",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 810,
+   "jd_ut": 2017115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 4.92,
+    "text": "Leo 4°55′",
+    "longitude": 124.918
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Empire and the Elephant (801-811)",
+   "stop": "The camp on the Danish march, the fireball throws the emperor from his horse",
+   "date": "0810-07-26",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 810,
+   "jd_ut": 2017116.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 5.88,
+    "text": "Leo 5°53′",
+    "longitude": 125.879
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Empire and the Elephant (801-811)",
+   "stop": "Aachen, the death of Charles the Younger; the emperor weeps",
+   "date": "0811-12-04",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 811,
+   "jd_ut": 2017612.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 15.9,
+    "text": "Sagittarius 15°54′",
+    "longitude": 255.895
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 16.83,
+    "text": "Gemini 16°50′",
+    "longitude": 76.834
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 27.41,
+    "text": "Sagittarius 27°24′",
+    "longitude": 267.406
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 0.2,
+    "text": "Scorpio 0°12′",
+    "longitude": 210.203
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 21.85,
+    "text": "Leo 21°51′",
+    "longitude": 141.848
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 9.94,
+    "text": "Aquarius 9°57′",
+    "longitude": 309.942
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 29.6,
+    "text": "Sagittarius 29°36′",
+    "longitude": 269.597
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Omens and the Throne in the Tomb (813-1215)",
+   "stop": "Mainz, the bridge of ten years burns in three hours",
+   "date": "0813-05-10",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 813,
+   "jd_ut": 2018135.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 22.61,
+    "text": "Taurus 22°37′",
+    "longitude": 52.61
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Omens and the Throne in the Tomb (813-1215)",
+   "stop": "Aachen, the portico falls; the word PRINCEPS fades from the wall",
+   "date": "0813-06-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 813,
+   "jd_ut": 2018171.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 26.95,
+    "text": "Gemini 26°57′",
+    "longitude": 86.948
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Omens and the Throne in the Tomb (813-1215)",
+   "stop": "Aachen, the Palatine Chapel: with his own hands he crowns Louis",
+   "date": "0813-09-11",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 813,
+   "jd_ut": 2018259.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 21.87,
+    "text": "Virgo 21°52′",
+    "longitude": 171.868
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 11.04,
+    "text": "Aquarius 11°02′",
+    "longitude": 311.036
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 6.17,
+    "text": "Virgo 6°10′",
+    "longitude": 156.17
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 10.81,
+    "text": "Leo 10°48′",
+    "longitude": 130.808
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 29.86,
+    "text": "Cancer 29°52′",
+    "longitude": 119.862
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 24.07,
+    "text": "Aries 24°04′",
+    "longitude": 24.066
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 15.25,
+    "text": "Capricornus 15°15′",
+    "longitude": 285.252
+   }
+  },
+  {
+   "segment": "The Omens and the Throne in the Tomb (813-1215)",
+   "stop": "Aachen, the last winter: fever, the seventh day",
+   "date": "0814-01-22",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 814,
+   "jd_ut": 2018392.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 6.27,
+    "text": "Aquarius 6°16′",
+    "longitude": 306.271
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 27.77,
+    "text": "Sagittarius 27°46′",
+    "longitude": 267.768
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 21.84,
+    "text": "Capricornus 21°50′",
+    "longitude": 291.842
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 24.68,
+    "text": "Capricornus 24°41′",
+    "longitude": 294.685
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 27.41,
+    "text": "Virgo 27°25′",
+    "longitude": 177.41
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 19.06,
+    "text": "Aries 19°04′",
+    "longitude": 19.061
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 25.68,
+    "text": "Capricornus 25°41′",
+    "longitude": 295.683
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Omens and the Throne in the Tomb (813-1215)",
+   "stop": "Aachen, the death of the emperor",
+   "date": "0814-01-28",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 814,
+   "jd_ut": 2018398.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.33,
+    "text": "Aquarius 12°20′",
+    "longitude": 312.328
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 13.44,
+    "text": "Pisces 13°26′",
+    "longitude": 343.438
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 1.65,
+    "text": "Aquarius 1°39′",
+    "longitude": 301.648
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 2.19,
+    "text": "Aquarius 2°11′",
+    "longitude": 302.186
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 27.47,
+    "text": "Virgo 27°28′",
+    "longitude": 177.471
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 19.94,
+    "text": "Aries 19°56′",
+    "longitude": 19.941
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 26.39,
+    "text": "Capricornus 26°23′",
+    "longitude": 296.388
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Omens and the Throne in the Tomb (813-1215)",
+   "stop": "The Palatine Chapel, the entombment and the golden epitaph",
+   "date": "0814-01-28",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 814,
+   "jd_ut": 2018398.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.33,
+    "text": "Aquarius 12°20′",
+    "longitude": 312.328
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 13.44,
+    "text": "Pisces 13°26′",
+    "longitude": 343.438
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 1.65,
+    "text": "Aquarius 1°39′",
+    "longitude": 301.648
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 2.19,
+    "text": "Aquarius 2°11′",
+    "longitude": 302.186
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 27.47,
+    "text": "Virgo 27°28′",
+    "longitude": 177.471
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 19.94,
+    "text": "Aries 19°56′",
+    "longitude": 19.941
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 26.39,
+    "text": "Capricornus 26°23′",
+    "longitude": 296.388
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Omens and the Throne in the Tomb (813-1215)",
+   "stop": "The vault beneath the octagon, the emperor seated in the tomb",
+   "date": "0814-01-28",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 814,
+   "jd_ut": 2018398.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.33,
+    "text": "Aquarius 12°20′",
+    "longitude": 312.328
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Omens and the Throne in the Tomb (813-1215)",
+   "stop": "Aachen, Otto III opens the vault in the year 1000",
+   "date": "1000-05-19",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086446.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 2.91,
+    "text": "Gemini 2°55′",
+    "longitude": 62.913
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Omens and the Throne in the Tomb (813-1215)",
+   "stop": "Aachen, the canonization of the emperor",
+   "date": "1165-12-29",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1165,
+   "jd_ut": 2146936.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.46,
+    "text": "Capricornus 14°27′",
+    "longitude": 284.458
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 1.06,
+    "text": "Scorpio 1°04′",
+    "longitude": 211.063
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 27.87,
+    "text": "Capricornus 27°52′",
+    "longitude": 297.873
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 24.29,
+    "text": "Capricornus 24°18′",
+    "longitude": 294.294
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 13.02,
+    "text": "Scorpio 13°01′",
+    "longitude": 223.021
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 29.63,
+    "text": "Sagittarius 29°38′",
+    "longitude": 269.631
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 13.75,
+    "text": "Capricornus 13°45′",
+    "longitude": 283.747
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Omens and the Throne in the Tomb (813-1215)",
+   "stop": "Aachen, the last nail: the emperor sealed in the golden shrine",
+   "date": "1215-07-27",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1215,
+   "jd_ut": 2165043.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 9.77,
+    "text": "Leo 9°46′",
+    "longitude": 129.772
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 25.87,
+    "text": "Cancer 25°52′",
+    "longitude": 115.871
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 27.24,
+    "text": "Leo 27°15′",
+    "longitude": 147.242
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 21.75,
+    "text": "Leo 21°45′",
+    "longitude": 141.752
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.43,
+    "text": "Aries 8°26′",
+    "longitude": 8.433
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 11.07,
+    "text": "Pisces 11°04′",
+    "longitude": 341.07
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 25.78,
+    "text": "Virgo 25°47′",
+    "longitude": 175.779
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 68,
+  "dated": 68,
+  "unparsed": 0,
+  "day": 21,
+  "month": 0,
+  "year": 47
+ },
+ "parse_failures": []
+}

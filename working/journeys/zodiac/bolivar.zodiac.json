@@ -1,0 +1,3752 @@
+{
+ "slug": "bolivar",
+ "traveler": "Simón Bolívar",
+ "title": "El Viaje del Libertador: Caracas a Santa Marta",
+ "years": "1783-1830",
+ "years_parsed": {
+  "first": 1783,
+  "last": 1830
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "La Cuna y el Duelo",
+  "stop": "Caracas, Casa Natal, parish of San Jacinto",
+  "date": "1783-07-24",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1783,
+  "jd_ut": 2372491.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Leo",
+   "degree": 0.87,
+   "text": "Leo 0°52′",
+   "longitude": 120.875
+  },
+  "moon": {
+   "sign": "Gemini",
+   "degree": 2.47,
+   "text": "Gemini 2°28′",
+   "longitude": 62.467
+  },
+  "mercury": {
+   "sign": "Cancer",
+   "degree": 11.33,
+   "text": "Cancer 11°20′",
+   "longitude": 101.326
+  },
+  "venus": {
+   "sign": "Virgo",
+   "degree": 15.6,
+   "text": "Virgo 15°36′",
+   "longitude": 165.596
+  },
+  "mars": {
+   "sign": "Aries",
+   "degree": 6.46,
+   "text": "Aries 6°27′",
+   "longitude": 6.457
+  },
+  "jupiter": {
+   "sign": "Capricornus",
+   "degree": 27.04,
+   "text": "Capricornus 27°03′",
+   "longitude": 297.043
+  },
+  "saturn": {
+   "sign": "Capricornus",
+   "degree": 7.49,
+   "text": "Capricornus 7°29′",
+   "longitude": 277.488
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1783-1830",
+  "first_year_parsed": 1783
+ },
+ "stops": [
+  {
+   "segment": "La Cuna y el Duelo",
+   "stop": "Caracas, Casa Natal, parish of San Jacinto",
+   "date": "1783-07-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1783,
+   "jd_ut": 2372491.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 0.87,
+    "text": "Leo 0°52′",
+    "longitude": 120.875
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.47,
+    "text": "Gemini 2°28′",
+    "longitude": 62.467
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 11.33,
+    "text": "Cancer 11°20′",
+    "longitude": 101.326
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 15.6,
+    "text": "Virgo 15°36′",
+    "longitude": 165.596
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 6.46,
+    "text": "Aries 6°27′",
+    "longitude": 6.457
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 27.04,
+    "text": "Capricornus 27°03′",
+    "longitude": 297.043
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 7.49,
+    "text": "Capricornus 7°29′",
+    "longitude": 277.488
+   }
+  },
+  {
+   "segment": "La Cuna y el Duelo",
+   "stop": "San Mateo, Hacienda Bolívar, valleys of Aragua",
+   "date": "1790-06-24",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1790,
+   "jd_ut": 2375018.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.56,
+    "text": "Cancer 2°33′",
+    "longitude": 92.555
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Cuna y el Duelo",
+   "stop": "Caracas, the house of Simón Rodríguez",
+   "date": "1795-07-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1795,
+   "jd_ut": 2376873.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 0.02,
+    "text": "Leo 0°01′",
+    "longitude": 120.015
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 19.98,
+    "text": "Libra 19°59′",
+    "longitude": 199.975
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 6.19,
+    "text": "Leo 6°11′",
+    "longitude": 126.186
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 7.54,
+    "text": "Cancer 7°32′",
+    "longitude": 97.536
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 23.76,
+    "text": "Cancer 23°45′",
+    "longitude": 113.755
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.76,
+    "text": "Aquarius 2°46′",
+    "longitude": 302.764
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 10.32,
+    "text": "Gemini 10°19′",
+    "longitude": 70.324
+   }
+  },
+  {
+   "segment": "La Cuna y el Duelo",
+   "stop": "La Guaira, embarkation on the San Ildefonso",
+   "date": "1799-01-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378149.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 29.02,
+    "text": "Capricornus 29°01′",
+    "longitude": 299.023
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.97,
+    "text": "Gemini 23°58′",
+    "longitude": 83.973
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 13.25,
+    "text": "Capricornus 13°15′",
+    "longitude": 283.251
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 3.66,
+    "text": "Aquarius 3°40′",
+    "longitude": 303.662
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 21.34,
+    "text": "Aries 21°20′",
+    "longitude": 21.341
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 16.49,
+    "text": "Taurus 16°29′",
+    "longitude": 46.491
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 22.42,
+    "text": "Cancer 22°25′",
+    "longitude": 112.417
+   }
+  },
+  {
+   "segment": "La Cuna y el Duelo",
+   "stop": "Veracruz and Mexico City, the prophecy at the viceroy's table",
+   "date": "1799-02-02",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378163.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 13.24,
+    "text": "Aquarius 13°15′",
+    "longitude": 313.245
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 9.7,
+    "text": "Capricornus 9°42′",
+    "longitude": 279.699
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 17.73,
+    "text": "Capricornus 17°44′",
+    "longitude": 287.734
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 21.23,
+    "text": "Aquarius 21°14′",
+    "longitude": 321.234
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 0.03,
+    "text": "Taurus 0°02′",
+    "longitude": 30.026
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 17.22,
+    "text": "Taurus 17°13′",
+    "longitude": 47.225
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 21.32,
+    "text": "Cancer 21°19′",
+    "longitude": 111.323
+   }
+  },
+  {
+   "segment": "La Cuna y el Duelo",
+   "stop": "Madrid, the palace of the Marqués de Ustáriz",
+   "date": "1800-08-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1800,
+   "jd_ut": 2378722.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.85,
+    "text": "Leo 21°51′",
+    "longitude": 141.854
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Cuna y el Duelo",
+   "stop": "Madrid, wedding in the parish of San José",
+   "date": "1802-05-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379371.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.98,
+    "text": "Gemini 3°59′",
+    "longitude": 63.98
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 24.21,
+    "text": "Pisces 24°12′",
+    "longitude": 354.208
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 12.16,
+    "text": "Gemini 12°10′",
+    "longitude": 72.162
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 21.86,
+    "text": "Gemini 21°51′",
+    "longitude": 81.857
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.42,
+    "text": "Aries 8°25′",
+    "longitude": 8.423
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 27.33,
+    "text": "Leo 27°20′",
+    "longitude": 147.329
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 1.16,
+    "text": "Virgo 1°09′",
+    "longitude": 151.156
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Cuna y el Duelo",
+   "stop": "La Guaira and San Mateo, the return of the newlyweds",
+   "date": "1802-07-12",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379418.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 18.86,
+    "text": "Cancer 18°51′",
+    "longitude": 108.858
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 4.2,
+    "text": "Sagittarius 4°12′",
+    "longitude": 244.197
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 0.47,
+    "text": "Leo 0°28′",
+    "longitude": 120.47
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 18.86,
+    "text": "Leo 18°52′",
+    "longitude": 138.863
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 12.62,
+    "text": "Taurus 12°37′",
+    "longitude": 42.62
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 4.02,
+    "text": "Virgo 4°01′",
+    "longitude": 154.017
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 4.57,
+    "text": "Virgo 4°34′",
+    "longitude": 154.567
+   }
+  },
+  {
+   "segment": "La Cuna y el Duelo",
+   "stop": "Caracas, death of María Teresa",
+   "date": "1803-01-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1803,
+   "jd_ut": 2379612.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 1.09,
+    "text": "Aquarius 1°05′",
+    "longitude": 301.088
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 11.92,
+    "text": "Capricornus 11°55′",
+    "longitude": 281.915
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 10.09,
+    "text": "Aquarius 10°05′",
+    "longitude": 310.088
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 1.72,
+    "text": "Capricornus 1°43′",
+    "longitude": 271.723
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 24.48,
+    "text": "Gemini 24°29′",
+    "longitude": 84.482
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 5.86,
+    "text": "Libra 5°51′",
+    "longitude": 185.858
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 20.34,
+    "text": "Virgo 20°20′",
+    "longitude": 170.34
+   }
+  },
+  {
+   "segment": "El Juramento del Monte Sacro",
+   "stop": "Paris, Notre-Dame, the coronation of Napoleon",
+   "date": "1804-12-02",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1804,
+   "jd_ut": 2380292.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.68,
+    "text": "Sagittarius 9°41′",
+    "longitude": 249.68
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 7.22,
+    "text": "Sagittarius 7°13′",
+    "longitude": 247.218
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 12.38,
+    "text": "Sagittarius 12°23′",
+    "longitude": 252.376
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 28.46,
+    "text": "Libra 28°27′",
+    "longitude": 208.457
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 17.08,
+    "text": "Leo 17°05′",
+    "longitude": 137.076
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 21.4,
+    "text": "Scorpio 21°24′",
+    "longitude": 231.396
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 13.65,
+    "text": "Libra 13°39′",
+    "longitude": 193.646
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "El Juramento del Monte Sacro",
+   "stop": "Paris, Humboldt's answer and the return of the teacher",
+   "date": "1805-04-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380412.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.83,
+    "text": "Aries 10°50′",
+    "longitude": 10.832
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Juramento del Monte Sacro",
+   "stop": "The Alps on foot: Lyon, Chambéry, the Mont Cenis pass",
+   "date": "1805-04-20",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380431.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.45,
+    "text": "Aries 29°27′",
+    "longitude": 29.453
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Juramento del Monte Sacro",
+   "stop": "Milan, the Iron Crown of Lombardy",
+   "date": "1805-05-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380467.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 4.24,
+    "text": "Gemini 4°15′",
+    "longitude": 64.243
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 27.0,
+    "text": "Aries 27°00′",
+    "longitude": 26.997
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 24.95,
+    "text": "Taurus 24°57′",
+    "longitude": 54.953
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 3.78,
+    "text": "Gemini 3°47′",
+    "longitude": 63.783
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 23.25,
+    "text": "Leo 23°15′",
+    "longitude": 143.249
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 1.12,
+    "text": "Sagittarius 1°07′",
+    "longitude": 241.123
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 9.6,
+    "text": "Libra 9°36′",
+    "longitude": 189.596
+   }
+  },
+  {
+   "segment": "El Juramento del Monte Sacro",
+   "stop": "Rome, the city of the republic",
+   "date": "1805-07-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380503.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.63,
+    "text": "Cancer 8°38′",
+    "longitude": 98.634
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Juramento del Monte Sacro",
+   "stop": "MONTE SACRO, the Oath, 15 August 1805",
+   "date": "1805-08-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380548.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.65,
+    "text": "Leo 21°39′",
+    "longitude": 141.653
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 14.62,
+    "text": "Aries 14°37′",
+    "longitude": 14.622
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 16.87,
+    "text": "Virgo 16°52′",
+    "longitude": 166.866
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 13.24,
+    "text": "Virgo 13°14′",
+    "longitude": 163.235
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 9.62,
+    "text": "Libra 9°37′",
+    "longitude": 189.615
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 27.19,
+    "text": "Scorpio 27°12′",
+    "longitude": 237.194
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 12.5,
+    "text": "Libra 12°30′",
+    "longitude": 192.498
+   }
+  },
+  {
+   "segment": "El Juramento del Monte Sacro",
+   "stop": "Naples, the ascent of Vesuvius",
+   "date": "1805-09-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380565.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.06,
+    "text": "Virgo 8°04′",
+    "longitude": 158.059
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Juramento del Monte Sacro",
+   "stop": "Caracas, the return of the sworn man",
+   "date": "1807-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1807,
+   "jd_ut": 2381203.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.53,
+    "text": "Gemini 9°32′",
+    "longitude": 69.53
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Primera República",
+   "stop": "Caracas, the 19th of April",
+   "date": "1810-04-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1810,
+   "jd_ut": 2382256.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 28.27,
+    "text": "Aries 28°16′",
+    "longitude": 28.273
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 20.21,
+    "text": "Libra 20°13′",
+    "longitude": 200.209
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 19.87,
+    "text": "Aries 19°52′",
+    "longitude": 19.866
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 7.08,
+    "text": "Taurus 7°05′",
+    "longitude": 37.078
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 13.53,
+    "text": "Taurus 13°32′",
+    "longitude": 43.528
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 5.64,
+    "text": "Taurus 5°38′",
+    "longitude": 35.636
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 14.52,
+    "text": "Sagittarius 14°31′",
+    "longitude": 254.518
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Primera República",
+   "stop": "London, Apsley House, the mission to Wellesley",
+   "date": "1810-07-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1810,
+   "jd_ut": 2382344.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.74,
+    "text": "Cancer 22°44′",
+    "longitude": 112.737
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 13.78,
+    "text": "Capricornus 13°47′",
+    "longitude": 283.785
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 2.43,
+    "text": "Cancer 2°26′",
+    "longitude": 92.427
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 24.27,
+    "text": "Leo 24°16′",
+    "longitude": 144.267
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 14.0,
+    "text": "Cancer 14°00′",
+    "longitude": 103.997
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 25.01,
+    "text": "Taurus 25°00′",
+    "longitude": 55.005
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 9.02,
+    "text": "Sagittarius 9°01′",
+    "longitude": 249.017
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Primera República",
+   "stop": "London, 58 Grafton Way, Miranda and the Rational Knights",
+   "date": "1810-09-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1810,
+   "jd_ut": 2382391.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.86,
+    "text": "Virgo 7°51′",
+    "longitude": 157.856
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Primera República",
+   "stop": "Caracas, the Sociedad Patriótica",
+   "date": "1811-07-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1811,
+   "jd_ut": 2382697.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 11.06,
+    "text": "Cancer 11°04′",
+    "longitude": 101.065
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 10.24,
+    "text": "Sagittarius 10°14′",
+    "longitude": 250.239
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 21.28,
+    "text": "Gemini 21°17′",
+    "longitude": 81.277
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 14.65,
+    "text": "Gemini 14°39′",
+    "longitude": 74.653
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 24.3,
+    "text": "Scorpio 24°18′",
+    "longitude": 234.295
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 20.42,
+    "text": "Gemini 20°25′",
+    "longitude": 80.421
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 21.72,
+    "text": "Sagittarius 21°43′",
+    "longitude": 261.716
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Primera República",
+   "stop": "Caracas, the earthquake of Holy Thursday",
+   "date": "1812-03-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2382963.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 5.21,
+    "text": "Aries 5°13′",
+    "longitude": 5.211
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 13.4,
+    "text": "Virgo 13°24′",
+    "longitude": 163.4
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 6.82,
+    "text": "Aries 6°49′",
+    "longitude": 6.817
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 13.35,
+    "text": "Taurus 13°21′",
+    "longitude": 43.352
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 11.55,
+    "text": "Taurus 11°33′",
+    "longitude": 41.545
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 28.04,
+    "text": "Gemini 28°02′",
+    "longitude": 88.04
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 7.29,
+    "text": "Capricornus 7°17′",
+    "longitude": 277.291
+   }
+  },
+  {
+   "segment": "La Primera República",
+   "stop": "Puerto Cabello, the lost fortress",
+   "date": "1812-07-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383065.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 13.69,
+    "text": "Cancer 13°42′",
+    "longitude": 103.694
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 8.84,
+    "text": "Gemini 8°50′",
+    "longitude": 68.841
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 11.79,
+    "text": "Cancer 11°47′",
+    "longitude": 101.79
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 17.05,
+    "text": "Leo 17°03′",
+    "longitude": 137.052
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 20.22,
+    "text": "Cancer 20°13′",
+    "longitude": 110.224
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 16.91,
+    "text": "Cancer 16°55′",
+    "longitude": 106.915
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 3.66,
+    "text": "Capricornus 3°39′",
+    "longitude": 273.657
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Primera República",
+   "stop": "La Guaira, the arrest of Miranda",
+   "date": "1812-07-31",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383090.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.56,
+    "text": "Leo 7°34′",
+    "longitude": 127.561
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 7.34,
+    "text": "Taurus 7°20′",
+    "longitude": 37.335
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 29.29,
+    "text": "Leo 29°17′",
+    "longitude": 149.289
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 10.72,
+    "text": "Leo 10°43′",
+    "longitude": 130.723
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 6.33,
+    "text": "Leo 6°20′",
+    "longitude": 126.333
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 22.49,
+    "text": "Cancer 22°30′",
+    "longitude": 112.494
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 2.06,
+    "text": "Capricornus 2°04′",
+    "longitude": 272.061
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Primera República",
+   "stop": "Cartagena de Indias, the Manifesto",
+   "date": "1812-12-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383227.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 22.96,
+    "text": "Sagittarius 22°57′",
+    "longitude": 262.955
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.57,
+    "text": "Taurus 8°34′",
+    "longitude": 38.567
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 13.04,
+    "text": "Capricornus 13°03′",
+    "longitude": 283.044
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 14.58,
+    "text": "Scorpio 14°35′",
+    "longitude": 224.578
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 3.26,
+    "text": "Scorpio 3°16′",
+    "longitude": 213.261
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 8.4,
+    "text": "Leo 8°24′",
+    "longitude": 128.404
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 8.07,
+    "text": "Capricornus 8°04′",
+    "longitude": 278.066
+   }
+  },
+  {
+   "segment": "La Campaña Admirable",
+   "stop": "Mompox, the two hundred volunteers",
+   "date": "1812-12-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383239.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.18,
+    "text": "Capricornus 5°11′",
+    "longitude": 275.181
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 20.08,
+    "text": "Libra 20°05′",
+    "longitude": 200.079
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.439
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 29.18,
+    "text": "Scorpio 29°11′",
+    "longitude": 239.181
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 10.82,
+    "text": "Scorpio 10°49′",
+    "longitude": 220.824
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 7.44,
+    "text": "Leo 7°26′",
+    "longitude": 127.439
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 9.47,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.468
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Campaña Admirable",
+   "stop": "Cúcuta, the door of Venezuela",
+   "date": "1813-02-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383302.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.07,
+    "text": "Pisces 9°04′",
+    "longitude": 339.073
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 1.82,
+    "text": "Aquarius 1°49′",
+    "longitude": 301.821
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 2.4,
+    "text": "Pisces 2°24′",
+    "longitude": 332.402
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 17.02,
+    "text": "Aquarius 17°01′",
+    "longitude": 317.016
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 19.84,
+    "text": "Sagittarius 19°51′",
+    "longitude": 259.845
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 0.03,
+    "text": "Leo 0°02′",
+    "longitude": 120.027
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 16.28,
+    "text": "Capricornus 16°17′",
+    "longitude": 286.279
+   }
+  },
+  {
+   "segment": "La Campaña Admirable",
+   "stop": "Mérida, first hailed Libertador",
+   "date": "1813-05-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383386.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 1.43,
+    "text": "Gemini 1°26′",
+    "longitude": 61.427
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 27.31,
+    "text": "Aquarius 27°19′",
+    "longitude": 327.313
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 6.58,
+    "text": "Taurus 6°35′",
+    "longitude": 36.578
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 0.77,
+    "text": "Gemini 0°46′",
+    "longitude": 60.773
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 4.21,
+    "text": "Aquarius 4°12′",
+    "longitude": 304.208
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 3.78,
+    "text": "Leo 3°47′",
+    "longitude": 123.779
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 18.54,
+    "text": "Capricornus 18°32′",
+    "longitude": 288.537
+   }
+  },
+  {
+   "segment": "La Campaña Admirable",
+   "stop": "Trujillo, the Decree of War to the Death",
+   "date": "1813-06-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383409.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.44,
+    "text": "Gemini 23°26′",
+    "longitude": 83.439
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 4.32,
+    "text": "Capricornus 4°19′",
+    "longitude": 274.32
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 14.93,
+    "text": "Gemini 14°56′",
+    "longitude": 74.932
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 29.04,
+    "text": "Gemini 29°02′",
+    "longitude": 89.037
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 10.98,
+    "text": "Aquarius 10°59′",
+    "longitude": 310.978
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 7.66,
+    "text": "Leo 7°40′",
+    "longitude": 127.661
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 17.34,
+    "text": "Capricornus 17°21′",
+    "longitude": 287.344
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Campaña Admirable",
+   "stop": "Caracas, the triumphal entry of the Libertador",
+   "date": "1813-08-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383461.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.08,
+    "text": "Leo 13°05′",
+    "longitude": 133.076
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 3.07,
+    "text": "Sagittarius 3°04′",
+    "longitude": 243.066
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 9.33,
+    "text": "Virgo 9°20′",
+    "longitude": 159.326
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 2.86,
+    "text": "Virgo 2°52′",
+    "longitude": 152.864
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 6.04,
+    "text": "Aquarius 6°02′",
+    "longitude": 306.04
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 18.39,
+    "text": "Leo 18°23′",
+    "longitude": 138.387
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 13.73,
+    "text": "Capricornus 13°44′",
+    "longitude": 283.728
+   }
+  },
+  {
+   "segment": "La Campaña Admirable",
+   "stop": "San Mateo, the immolation of Ricaurte",
+   "date": "1814-03-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383692.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 3.74,
+    "text": "Aries 3°45′",
+    "longitude": 3.742
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 14.39,
+    "text": "Taurus 14°23′",
+    "longitude": 44.391
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 17.09,
+    "text": "Aries 17°05′",
+    "longitude": 17.089
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 14.75,
+    "text": "Pisces 14°45′",
+    "longitude": 344.749
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 25.82,
+    "text": "Taurus 25°49′",
+    "longitude": 55.821
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 1.71,
+    "text": "Virgo 1°43′",
+    "longitude": 151.714
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 28.72,
+    "text": "Capricornus 28°43′",
+    "longitude": 298.717
+   }
+  },
+  {
+   "segment": "La Campaña Admirable",
+   "stop": "La Puerta, the gorge of disaster",
+   "date": "1814-06-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383774.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.21,
+    "text": "Gemini 23°12′",
+    "longitude": 83.208
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 11.5,
+    "text": "Taurus 11°30′",
+    "longitude": 41.498
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 3.37,
+    "text": "Cancer 3°22′",
+    "longitude": 93.372
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 9.0,
+    "text": "Taurus 9°00′",
+    "longitude": 39.002
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 18.79,
+    "text": "Cancer 18°48′",
+    "longitude": 108.795
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 3.46,
+    "text": "Virgo 3°28′",
+    "longitude": 153.459
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 29.47,
+    "text": "Capricornus 29°28′",
+    "longitude": 299.465
+   }
+  },
+  {
+   "segment": "La Campaña Admirable",
+   "stop": "Carúpano, the Manifesto of the accused",
+   "date": "1814-09-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383858.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 13.71,
+    "text": "Virgo 13°43′",
+    "longitude": 163.709
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 10.7,
+    "text": "Gemini 10°42′",
+    "longitude": 70.698
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 0.56,
+    "text": "Virgo 0°34′",
+    "longitude": 150.558
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 16.37,
+    "text": "Leo 16°22′",
+    "longitude": 136.37
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 12.15,
+    "text": "Virgo 12°09′",
+    "longitude": 162.149
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 19.04,
+    "text": "Virgo 19°02′",
+    "longitude": 169.041
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 24.18,
+    "text": "Capricornus 24°11′",
+    "longitude": 294.184
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "El Destierro y el Orinoco",
+   "stop": "Kingston, the Jamaica Letter",
+   "date": "1815-09-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384222.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.5,
+    "text": "Virgo 12°30′",
+    "longitude": 162.502
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 16.14,
+    "text": "Libra 16°08′",
+    "longitude": 196.14
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 13.69,
+    "text": "Virgo 13°41′",
+    "longitude": 163.686
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 22.32,
+    "text": "Libra 22°19′",
+    "longitude": 202.322
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 0.44,
+    "text": "Taurus 0°27′",
+    "longitude": 30.445
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 12.32,
+    "text": "Libra 12°19′",
+    "longitude": 192.321
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 6.29,
+    "text": "Aquarius 6°17′",
+    "longitude": 306.287
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "El Destierro y el Orinoco",
+   "stop": "Kingston, the hammock and the dagger",
+   "date": "1815-12-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384317.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 17.13,
+    "text": "Sagittarius 17°08′",
+    "longitude": 257.127
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 29.11,
+    "text": "Pisces 29°07′",
+    "longitude": 359.114
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 29.77,
+    "text": "Scorpio 29°46′",
+    "longitude": 239.768
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 1.06,
+    "text": "Scorpio 1°04′",
+    "longitude": 211.059
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 20.25,
+    "text": "Aries 20°15′",
+    "longitude": 20.252
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 2.13,
+    "text": "Scorpio 2°08′",
+    "longitude": 212.133
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 8.22,
+    "text": "Aquarius 8°13′",
+    "longitude": 308.224
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "El Destierro y el Orinoco",
+   "stop": "Port-au-Prince, Pétion, the generous republic",
+   "date": "1816-01-02",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1816,
+   "jd_ut": 2384340.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.556
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Destierro y el Orinoco",
+   "stop": "Carúpano, the decree of emancipation",
+   "date": "1816-06-02",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1816,
+   "jd_ut": 2384492.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.28,
+    "text": "Gemini 11°17′",
+    "longitude": 71.277
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 25.18,
+    "text": "Leo 25°11′",
+    "longitude": 145.18
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 4.75,
+    "text": "Cancer 4°45′",
+    "longitude": 94.754
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 24.99,
+    "text": "Taurus 25°00′",
+    "longitude": 54.994
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 23.69,
+    "text": "Cancer 23°41′",
+    "longitude": 113.691
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 1.18,
+    "text": "Scorpio 1°11′",
+    "longitude": 211.177
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 23.72,
+    "text": "Aquarius 23°43′",
+    "longitude": 323.717
+   }
+  },
+  {
+   "segment": "El Destierro y el Orinoco",
+   "stop": "Laguna de Casacoima, the Delirium that mapped the future",
+   "date": "1817-07-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384889.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 11.59,
+    "text": "Cancer 11°35′",
+    "longitude": 101.589
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 14.6,
+    "text": "Pisces 14°36′",
+    "longitude": 344.604
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 20.69,
+    "text": "Gemini 20°42′",
+    "longitude": 80.694
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 29.74,
+    "text": "Taurus 29°44′",
+    "longitude": 59.736
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 29.71,
+    "text": "Aries 29°42′",
+    "longitude": 29.708
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 1.92,
+    "text": "Sagittarius 1°55′",
+    "longitude": 241.919
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 5.43,
+    "text": "Pisces 5°26′",
+    "longitude": 335.431
+   }
+  },
+  {
+   "segment": "El Destierro y el Orinoco",
+   "stop": "Angostura, the capital on the Orinoco",
+   "date": "1817-07-17",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384902.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 23.99,
+    "text": "Cancer 23°59′",
+    "longitude": 113.986
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 25.68,
+    "text": "Leo 25°41′",
+    "longitude": 145.676
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 7.23,
+    "text": "Cancer 7°14′",
+    "longitude": 97.228
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 9.23,
+    "text": "Gemini 9°14′",
+    "longitude": 69.226
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 8.67,
+    "text": "Taurus 8°40′",
+    "longitude": 38.666
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 1.2,
+    "text": "Sagittarius 1°12′",
+    "longitude": 241.202
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 4.94,
+    "text": "Pisces 4°56′",
+    "longitude": 334.936
+   }
+  },
+  {
+   "segment": "El Destierro y el Orinoco",
+   "stop": "Angostura, the execution of Piar",
+   "date": "1817-10-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384993.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 22.28,
+    "text": "Libra 22°17′",
+    "longitude": 202.283
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 5.51,
+    "text": "Capricornus 5°30′",
+    "longitude": 275.506
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.95,
+    "text": "Libra 10°57′",
+    "longitude": 190.952
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 17.44,
+    "text": "Virgo 17°26′",
+    "longitude": 167.441
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 24.54,
+    "text": "Gemini 24°33′",
+    "longitude": 84.543
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 9.29,
+    "text": "Sagittarius 9°17′",
+    "longitude": 249.289
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 29.25,
+    "text": "Aquarius 29°15′",
+    "longitude": 329.249
+   }
+  },
+  {
+   "segment": "El Destierro y el Orinoco",
+   "stop": "Angostura, the Address, 15 February 1819",
+   "date": "1819-02-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385480.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 25.53,
+    "text": "Aquarius 25°32′",
+    "longitude": 325.533
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 20.06,
+    "text": "Libra 20°03′",
+    "longitude": 200.057
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 3.86,
+    "text": "Aquarius 3°52′",
+    "longitude": 303.859
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 10.83,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.831
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 1.74,
+    "text": "Aquarius 1°45′",
+    "longitude": 301.743
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 1.96,
+    "text": "Aquarius 1°57′",
+    "longitude": 301.957
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 17.57,
+    "text": "Pisces 17°34′",
+    "longitude": 347.571
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Campaña Libertadora",
+   "stop": "Las Queseras del Medio, the hundred and fifty",
+   "date": "1819-04-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385527.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 12.42,
+    "text": "Aries 12°25′",
+    "longitude": 12.417
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 15.88,
+    "text": "Cancer 15°53′",
+    "longitude": 105.877
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 27.97,
+    "text": "Aries 27°58′",
+    "longitude": 27.966
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 27.63,
+    "text": "Aquarius 27°38′",
+    "longitude": 327.628
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 8.29,
+    "text": "Pisces 8°18′",
+    "longitude": 338.293
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 11.44,
+    "text": "Aquarius 11°26′",
+    "longitude": 311.437
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 23.3,
+    "text": "Pisces 23°18′",
+    "longitude": 353.301
+   }
+  },
+  {
+   "segment": "La Campaña Libertadora",
+   "stop": "Aldea de Setenta, the council in the ruined hut",
+   "date": "1819-05-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385577.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.99,
+    "text": "Gemini 1°00′",
+    "longitude": 60.995
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 18.96,
+    "text": "Taurus 18°57′",
+    "longitude": 48.957
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 8.3,
+    "text": "Taurus 8°18′",
+    "longitude": 38.303
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 25.21,
+    "text": "Aries 25°12′",
+    "longitude": 25.205
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 16.78,
+    "text": "Aries 16°47′",
+    "longitude": 16.776
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 17.03,
+    "text": "Aquarius 17°02′",
+    "longitude": 317.033
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 28.4,
+    "text": "Pisces 28°24′",
+    "longitude": 358.397
+   }
+  },
+  {
+   "segment": "La Campaña Libertadora",
+   "stop": "PÁRAMO DE PISBA, the crossing above the clouds",
+   "date": "1819-07-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385621.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 13.04,
+    "text": "Cancer 13°02′",
+    "longitude": 103.035
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 19.75,
+    "text": "Sagittarius 19°45′",
+    "longitude": 259.752
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 18.24,
+    "text": "Cancer 18°15′",
+    "longitude": 108.244
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 17.69,
+    "text": "Gemini 17°42′",
+    "longitude": 77.694
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 19.1,
+    "text": "Taurus 19°06′",
+    "longitude": 49.096
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 15.98,
+    "text": "Aquarius 15°59′",
+    "longitude": 315.979
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 0.43,
+    "text": "Aries 0°26′",
+    "longitude": 0.431
+   }
+  },
+  {
+   "segment": "La Campaña Libertadora",
+   "stop": "Pantano de Vargas: Rondón saves the fatherland",
+   "date": "1819-07-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385640.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.16,
+    "text": "Leo 1°10′",
+    "longitude": 121.163
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 1.22,
+    "text": "Virgo 1°13′",
+    "longitude": 151.224
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 23.19,
+    "text": "Leo 23°11′",
+    "longitude": 143.191
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 10.7,
+    "text": "Cancer 10°42′",
+    "longitude": 100.705
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 2.34,
+    "text": "Gemini 2°20′",
+    "longitude": 62.338
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 13.92,
+    "text": "Aquarius 13°55′",
+    "longitude": 313.919
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 0.35,
+    "text": "Aries 0°21′",
+    "longitude": 0.345
+   }
+  },
+  {
+   "segment": "La Campaña Libertadora",
+   "stop": "PUENTE DE BOYACÁ, the birth-certificate of Colombia",
+   "date": "1819-08-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385653.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.6,
+    "text": "Leo 13°36′",
+    "longitude": 133.604
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 29.01,
+    "text": "Aquarius 29°01′",
+    "longitude": 329.01
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 10.68,
+    "text": "Virgo 10°41′",
+    "longitude": 160.678
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 26.57,
+    "text": "Cancer 26°34′",
+    "longitude": 116.57
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 11.08,
+    "text": "Gemini 11°05′",
+    "longitude": 71.083
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 12.25,
+    "text": "Aquarius 12°15′",
+    "longitude": 312.25
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 29.95,
+    "text": "Pisces 29°57′",
+    "longitude": 359.946
+   }
+  },
+  {
+   "segment": "La Campaña Libertadora",
+   "stop": "Santafé de Bogotá, the empty palace",
+   "date": "1819-08-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385656.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 16.48,
+    "text": "Leo 16°29′",
+    "longitude": 136.481
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 12.58,
+    "text": "Aries 12°35′",
+    "longitude": 12.576
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 13.84,
+    "text": "Virgo 13°51′",
+    "longitude": 163.844
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 0.25,
+    "text": "Leo 0°15′",
+    "longitude": 120.246
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 13.06,
+    "text": "Gemini 13°04′",
+    "longitude": 73.061
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 11.86,
+    "text": "Aquarius 11°52′",
+    "longitude": 311.86
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 29.82,
+    "text": "Pisces 29°49′",
+    "longitude": 359.817
+   }
+  },
+  {
+   "segment": "La Campaña Libertadora",
+   "stop": "Angostura, the Fundamental Law of Colombia",
+   "date": "1819-12-17",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385785.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 24.28,
+    "text": "Sagittarius 24°17′",
+    "longitude": 264.28
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 20.98,
+    "text": "Sagittarius 20°59′",
+    "longitude": 260.977
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 7.46,
+    "text": "Capricornus 7°27′",
+    "longitude": 277.457
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 11.12,
+    "text": "Capricornus 11°07′",
+    "longitude": 281.12
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 5.13,
+    "text": "Leo 5°08′",
+    "longitude": 125.129
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 15.41,
+    "text": "Aquarius 15°25′",
+    "longitude": 315.41
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.02,
+    "text": "Pisces 24°01′",
+    "longitude": 354.023
+   }
+  },
+  {
+   "segment": "La Campaña Libertadora",
+   "stop": "Santa Ana de Trujillo, the embrace with Morillo",
+   "date": "1820-11-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1820,
+   "jd_ut": 2386131.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 4.73,
+    "text": "Sagittarius 4°44′",
+    "longitude": 244.728
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 27.81,
+    "text": "Leo 27°49′",
+    "longitude": 147.813
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 22.56,
+    "text": "Sagittarius 22°34′",
+    "longitude": 262.56
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 23.52,
+    "text": "Libra 23°31′",
+    "longitude": 203.517
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 16.51,
+    "text": "Sagittarius 16°30′",
+    "longitude": 256.506
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 14.12,
+    "text": "Pisces 14°07′",
+    "longitude": 344.116
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 6.66,
+    "text": "Aries 6°39′",
+    "longitude": 6.658
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Campaña Libertadora",
+   "stop": "CAMPO DE CARABOBO, the gate of Caracas",
+   "date": "1821-06-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1821,
+   "jd_ut": 2386340.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.09,
+    "text": "Cancer 2°05′",
+    "longitude": 92.088
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 16.65,
+    "text": "Aries 16°39′",
+    "longitude": 16.654
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 25.32,
+    "text": "Cancer 25°19′",
+    "longitude": 115.318
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 10.77,
+    "text": "Cancer 10°46′",
+    "longitude": 100.768
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 26.66,
+    "text": "Taurus 26°40′",
+    "longitude": 56.66
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 25.44,
+    "text": "Aries 25°26′",
+    "longitude": 25.438
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 24.8,
+    "text": "Aries 24°48′",
+    "longitude": 24.803
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    },
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Moon",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Campaña Libertadora",
+   "stop": "Caracas, the second homecoming",
+   "date": "1821-06-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1821,
+   "jd_ut": 2386345.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 6.86,
+    "text": "Cancer 6°51′",
+    "longitude": 96.855
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 28.24,
+    "text": "Gemini 28°14′",
+    "longitude": 88.239
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 2.09,
+    "text": "Leo 2°05′",
+    "longitude": 122.091
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 16.91,
+    "text": "Cancer 16°54′",
+    "longitude": 106.908
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 0.21,
+    "text": "Gemini 0°13′",
+    "longitude": 60.215
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 26.2,
+    "text": "Aries 26°12′",
+    "longitude": 26.202
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 25.15,
+    "text": "Aries 25°09′",
+    "longitude": 25.149
+   }
+  },
+  {
+   "segment": "La Cima de América",
+   "stop": "Quito, the wreath from the balcony",
+   "date": "1822-06-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386697.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 24.23,
+    "text": "Gemini 24°14′",
+    "longitude": 84.226
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.04,
+    "text": "Taurus 8°02′",
+    "longitude": 38.036
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 19.0,
+    "text": "Cancer 19°00′",
+    "longitude": 108.997
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 10.43,
+    "text": "Taurus 10°26′",
+    "longitude": 40.431
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.82,
+    "text": "Virgo 13°49′",
+    "longitude": 163.818
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 23.12,
+    "text": "Taurus 23°07′",
+    "longitude": 53.122
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 6.34,
+    "text": "Taurus 6°20′",
+    "longitude": 36.341
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Cima de América",
+   "stop": "GUAYAQUIL, the interview of the two liberators",
+   "date": "1822-07-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386737.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.38,
+    "text": "Leo 2°23′",
+    "longitude": 122.381
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 2.9,
+    "text": "Scorpio 2°54′",
+    "longitude": 212.896
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 16.72,
+    "text": "Cancer 16°43′",
+    "longitude": 106.717
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 25.69,
+    "text": "Gemini 25°42′",
+    "longitude": 85.693
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 5.94,
+    "text": "Libra 5°56′",
+    "longitude": 185.941
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 0.95,
+    "text": "Gemini 0°57′",
+    "longitude": 60.953
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 9.36,
+    "text": "Taurus 9°22′",
+    "longitude": 39.364
+   }
+  },
+  {
+   "segment": "La Cima de América",
+   "stop": "CHIMBORAZO, the Delirium upon the roof of America",
+   "date": "1822-10-13",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386816.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 19.1,
+    "text": "Libra 19°06′",
+    "longitude": 199.096
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Cima de América",
+   "stop": "Lima, the dictator of Peru",
+   "date": "1823-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1823,
+   "jd_ut": 2387139.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.72,
+    "text": "Virgo 7°43′",
+    "longitude": 157.717
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Cima de América",
+   "stop": "Pativilca, 'Triumph!'",
+   "date": "1824-01-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387279.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 27.94,
+    "text": "Capricornus 27°56′",
+    "longitude": 297.936
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 4.97,
+    "text": "Virgo 4°58′",
+    "longitude": 154.969
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 16.61,
+    "text": "Aquarius 16°36′",
+    "longitude": 316.605
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 13.13,
+    "text": "Sagittarius 13°08′",
+    "longitude": 253.131
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 9.33,
+    "text": "Libra 9°20′",
+    "longitude": 189.335
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 3.29,
+    "text": "Cancer 3°17′",
+    "longitude": 93.287
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 16.9,
+    "text": "Taurus 16°54′",
+    "longitude": 46.896
+   }
+  },
+  {
+   "segment": "La Cima de América",
+   "stop": "JUNÍN, the battle without gunpowder",
+   "date": "1824-08-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387479.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.4,
+    "text": "Leo 13°24′",
+    "longitude": 133.404
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 1.36,
+    "text": "Capricornus 1°22′",
+    "longitude": 271.365
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 24.73,
+    "text": "Leo 24°44′",
+    "longitude": 144.728
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 15.44,
+    "text": "Leo 15°27′",
+    "longitude": 135.443
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 28.94,
+    "text": "Libra 28°56′",
+    "longitude": 208.937
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 27.43,
+    "text": "Cancer 27°26′",
+    "longitude": 117.434
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 6.07,
+    "text": "Gemini 6°04′",
+    "longitude": 66.074
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Cima de América",
+   "stop": "Lima, the news of Ayacucho",
+   "date": "1824-12-25",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387620.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.23,
+    "text": "Capricornus 3°14′",
+    "longitude": 273.231
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Cima de América",
+   "stop": "Cuzco, the crown of the Incas refused",
+   "date": "1825-06-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387802.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 3.07,
+    "text": "Cancer 3°04′",
+    "longitude": 93.074
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 23.37,
+    "text": "Libra 23°22′",
+    "longitude": 203.365
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 16.33,
+    "text": "Gemini 16°20′",
+    "longitude": 76.325
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 23.89,
+    "text": "Taurus 23°54′",
+    "longitude": 53.893
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 25.3,
+    "text": "Gemini 25°18′",
+    "longitude": 85.296
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.18,
+    "text": "Leo 13°11′",
+    "longitude": 133.185
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 14.25,
+    "text": "Gemini 14°15′",
+    "longitude": 74.249
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Mercury",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "La Cima de América",
+   "stop": "POTOSÍ, the standard on the Cerro Rico",
+   "date": "1825-10-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387925.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 2.3,
+    "text": "Scorpio 2°18′",
+    "longitude": 212.304
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 22.43,
+    "text": "Aries 22°26′",
+    "longitude": 22.43
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 28.3,
+    "text": "Libra 28°18′",
+    "longitude": 208.296
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 0.2,
+    "text": "Libra 0°12′",
+    "longitude": 180.196
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.94,
+    "text": "Virgo 13°57′",
+    "longitude": 163.942
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 8.38,
+    "text": "Virgo 8°23′",
+    "longitude": 158.384
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 21.55,
+    "text": "Gemini 21°33′",
+    "longitude": 81.552
+   }
+  },
+  {
+   "segment": "La Cima de América",
+   "stop": "Chuquisaca, the republic that bears his name",
+   "date": "1825-11-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387933.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 10.31,
+    "text": "Scorpio 10°19′",
+    "longitude": 220.311
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 0.98,
+    "text": "Leo 0°59′",
+    "longitude": 120.98
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.43,
+    "text": "Scorpio 11°26′",
+    "longitude": 221.433
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 10.01,
+    "text": "Libra 10°01′",
+    "longitude": 190.012
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 18.74,
+    "text": "Virgo 18°44′",
+    "longitude": 168.74
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 9.66,
+    "text": "Virgo 9°40′",
+    "longitude": 159.661
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 21.19,
+    "text": "Gemini 21°11′",
+    "longitude": 81.191
+   }
+  },
+  {
+   "segment": "El Arado en el Mar",
+   "stop": "Caracas, the last homecoming",
+   "date": "1827-01-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1827,
+   "jd_ut": 2388366.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.05,
+    "text": "Capricornus 19°03′",
+    "longitude": 289.046
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 13.0,
+    "text": "Gemini 13°00′",
+    "longitude": 73.002
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 26.33,
+    "text": "Sagittarius 26°20′",
+    "longitude": 266.333
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 24.52,
+    "text": "Sagittarius 24°31′",
+    "longitude": 264.522
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 9.3,
+    "text": "Pisces 9°18′",
+    "longitude": 339.296
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.85,
+    "text": "Libra 13°51′",
+    "longitude": 193.851
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.4,
+    "text": "Cancer 1°24′",
+    "longitude": 91.4
+   }
+  },
+  {
+   "segment": "El Arado en el Mar",
+   "stop": "Bucaramanga, the diary of the waiting lion",
+   "date": "1828-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1828,
+   "jd_ut": 2388813.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.25,
+    "text": "Aries 11°15′",
+    "longitude": 11.255
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Arado en el Mar",
+   "stop": "Bogotá, the night of September, 25 September 1828",
+   "date": "1828-09-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1828,
+   "jd_ut": 2388990.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 1.88,
+    "text": "Libra 1°53′",
+    "longitude": 181.881
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 20.9,
+    "text": "Aries 20°54′",
+    "longitude": 20.901
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 15.82,
+    "text": "Libra 15°49′",
+    "longitude": 195.819
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 16.27,
+    "text": "Leo 16°16′",
+    "longitude": 136.273
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 18.19,
+    "text": "Capricornus 18°12′",
+    "longitude": 288.192
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.83,
+    "text": "Scorpio 13°50′",
+    "longitude": 223.83
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 2.08,
+    "text": "Leo 2°05′",
+    "longitude": 122.077
+   }
+  },
+  {
+   "segment": "El Arado en el Mar",
+   "stop": "Bogotá, resignation and the road out",
+   "date": "1830-05-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389580.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 16.87,
+    "text": "Taurus 16°52′",
+    "longitude": 46.873
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 16.88,
+    "text": "Scorpio 16°53′",
+    "longitude": 226.878
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 3.69,
+    "text": "Gemini 3°41′",
+    "longitude": 63.688
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 1.2,
+    "text": "Aries 1°12′",
+    "longitude": 1.198
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 17.06,
+    "text": "Aquarius 17°04′",
+    "longitude": 317.063
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.85,
+    "text": "Capricornus 17°51′",
+    "longitude": 287.854
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 11.92,
+    "text": "Leo 11°55′",
+    "longitude": 131.917
+   }
+  },
+  {
+   "segment": "El Arado en el Mar",
+   "stop": "Cartagena, the blood of Abel",
+   "date": "1830-07-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389634.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.6,
+    "text": "Cancer 8°36′",
+    "longitude": 98.595
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Arado en el Mar",
+   "stop": "Barranquilla, 'he who serves a revolution ploughs the sea'",
+   "date": "1830-11-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389765.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 16.12,
+    "text": "Scorpio 16°07′",
+    "longitude": 226.123
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 4.2,
+    "text": "Virgo 4°12′",
+    "longitude": 154.201
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 1.75,
+    "text": "Scorpio 1°45′",
+    "longitude": 211.753
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 5.82,
+    "text": "Scorpio 5°49′",
+    "longitude": 215.815
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 23.59,
+    "text": "Pisces 23°36′",
+    "longitude": 353.592
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 14.21,
+    "text": "Capricornus 14°13′",
+    "longitude": 284.213
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 0.84,
+    "text": "Virgo 0°50′",
+    "longitude": 150.84
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "El Arado en el Mar",
+   "stop": "Santa Marta, Quinta de San Pedro Alejandrino, the last proclamation",
+   "date": "1830-12-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389796.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 17.49,
+    "text": "Sagittarius 17°30′",
+    "longitude": 257.492
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 19.14,
+    "text": "Libra 19°08′",
+    "longitude": 199.137
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 20.73,
+    "text": "Sagittarius 20°44′",
+    "longitude": 260.734
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 14.8,
+    "text": "Sagittarius 14°48′",
+    "longitude": 254.797
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 4.97,
+    "text": "Aries 4°58′",
+    "longitude": 4.973
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 20.3,
+    "text": "Capricornus 20°18′",
+    "longitude": 290.298
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 1.89,
+    "text": "Virgo 1°53′",
+    "longitude": 151.886
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "El Arado en el Mar",
+   "stop": "Santa Marta, death of the Liberator, 17 December 1830",
+   "date": "1830-12-17",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389803.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 24.62,
+    "text": "Sagittarius 24°37′",
+    "longitude": 264.616
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 13.31,
+    "text": "Capricornus 13°18′",
+    "longitude": 283.307
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 1.8,
+    "text": "Capricornus 1°48′",
+    "longitude": 271.795
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 23.61,
+    "text": "Sagittarius 23°36′",
+    "longitude": 263.608
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.32,
+    "text": "Aries 8°19′",
+    "longitude": 8.316
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 21.83,
+    "text": "Capricornus 21°50′",
+    "longitude": 291.83
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 1.88,
+    "text": "Virgo 1°53′",
+    "longitude": 151.88
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 69,
+  "dated": 69,
+  "unparsed": 0,
+  "day": 55,
+  "month": 3,
+  "year": 11
+ },
+ "parse_failures": []
+}

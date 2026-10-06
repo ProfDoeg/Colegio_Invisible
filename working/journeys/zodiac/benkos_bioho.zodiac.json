@@ -1,0 +1,1557 @@
+{
+ "slug": "benkos_bioho",
+ "traveler": "Benkos Biohó",
+ "title": "The Bijagós to the Plaza: Benkos Biohó, the Arcabuco, and the Free Town of Palenque",
+ "years": "c.1570-1621",
+ "years_parsed": {
+  "first": 1570,
+  "last": 1621
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Bijagós and the Crossing",
+  "stop": "Bijagós Islands, the birth",
+  "date": "1570-01-01",
+  "date_confidence": "Undocumented. English Wikipedia gives only 'late 16th century'; Spanish Wikipedia a range of roughly c.1550-1599. No source states a birth year, and the widely quoted 1550 sits at the extreme early edge of that range. The pin year is a nominal placeholder inside the range. Ethnicity contradicted between editions: Spanish says Bijago, English says Mandinka of royal lineage; not resolved.",
+  "calendar_applied": "gregorian (proleptic)",
+  "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+  "astronomical_year": 1570,
+  "jd_ut": 2294490.5,
+  "precision": "year",
+  "precision_triggers": [
+   "c.",
+   "placeholder",
+   "disputed",
+   "decade/century",
+   "between",
+   "approximation",
+   "no source (for the date)",
+   "nominal (the date)",
+   "(soft-year) year range",
+   "(soft) no source",
+   "(soft) nominal"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 10.28,
+   "text": "Capricornus 10°17′",
+   "longitude": 280.277
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "c.1570-1621",
+  "first_year_parsed": 1570
+ },
+ "stops": [
+  {
+   "segment": "The Bijagós and the Crossing",
+   "stop": "Bijagós Islands, the birth",
+   "date": "1570-01-01",
+   "date_confidence": "Undocumented. English Wikipedia gives only 'late 16th century'; Spanish Wikipedia a range of roughly c.1550-1599. No source states a birth year, and the widely quoted 1550 sits at the extreme early edge of that range. The pin year is a nominal placeholder inside the range. Ethnicity contradicted between editions: Spanish says Bijago, English says Mandinka of royal lineage; not resolved.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1570,
+   "jd_ut": 2294490.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "placeholder",
+    "disputed",
+    "decade/century",
+    "between",
+    "approximation",
+    "no source (for the date)",
+    "nominal (the date)",
+    "(soft-year) year range",
+    "(soft) no source",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.277
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bijagós and the Crossing",
+   "stop": "Cacheu, the fort at the river mouth",
+   "date": "1595-01-01",
+   "date_confidence": "Reconstruction. No source places Biohó at Cacheu by name; the fort is included as the necessary route between the Bijagós and the Atlantic trade. The year is nominal, taken as shortly before the 1596 sale at Cartagena that Spanish Wikipedia does attest.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1595,
+   "jd_ut": 2303621.5,
+   "precision": "year",
+   "precision_triggers": [
+    "nominal (the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) nominal",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.21,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.206
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bijagós and the Crossing",
+   "stop": "The Atlantic crossing, under Reynel's licence",
+   "date": "1596-01-01",
+   "date_confidence": "Reconstruction, and the coordinate is a nominal mid-ocean marker corresponding to no documented position: no source records the vessel, its route, or any point of the crossing. Pedro Gómez Reynel held the Crown's asiento rather than personally shipping captives. The wife Wiwa and the children Sando and Orika are Spanish-language tradition, not documented at sea.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1596,
+   "jd_ut": 2303986.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) nominal",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.958
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cartagena de Indias, the Market",
+   "stop": "Cartagena de Indias, the landing",
+   "date": "1596-01-01",
+   "date_confidence": "Attested to the year by Spanish and English Wikipedia, which give 1596 for both the enslavement by Reynel and the sale at Cartagena; the month and day are unknown and default to 01-01. The pin is the atlas canonical Cartagena coordinate rather than the colonial mole, whose exact site is not attested for this landing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1596,
+   "jd_ut": 2303986.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.958
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cartagena de Indias, the Market",
+   "stop": "Cartagena de Indias, the slave market",
+   "date": "1596-06-01",
+   "date_confidence": "The sale year is attested; the month is arbitrary, placed after the landing. The market's siting at what is now the Plaza de los Coches rests on general historiography of the city and is not attested for Biohó's sale in particular.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1596,
+   "jd_ut": 2304138.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "to the year",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.49,
+    "text": "Gemini 10°29′",
+    "longitude": 70.488
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cartagena de Indias, the Market",
+   "stop": "The lower Magdalena, the boat goes down",
+   "date": "1598-01-01",
+   "date_confidence": "Undated in every source consulted. English Wikipedia records the sinking and the recapture with no year; the commonly quoted 1598 appears nowhere. The date is a placeholder between the 1596 sale and the 1599 flight. The coordinate is a nominal point on the lower Magdalena: no source locates the wreck.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1598,
+   "jd_ut": 2304717.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placeholder",
+    "no month/day",
+    "(soft) no source",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.48,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.483
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight of 1599",
+   "stop": "Cartagena de Indias, the flight of the thirty",
+   "date": "1599-12-01",
+   "date_confidence": "Attested as to the year by both Wikipedia editions and by Simón, who places the rising 'en estos tiempos' around the turn of the governorship of Jerónimo de Suazo, which he dates to the end of 1599 or the beginning of 1600. The month is inferred from that phrasing, not documented. The number thirty is traditional.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1599,
+   "jd_ut": 2305416.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "traditional",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.41,
+    "text": "Sagittarius 8°25′",
+    "longitude": 248.414
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight of 1599",
+   "stop": "The marshes southeast of Cartagena, the band forms",
+   "date": "1600-01-01",
+   "date_confidence": "Attested in outline by both Wikipedia editions, which place the fugitives in swampland southeast of the city; the coordinate is a regional marker for that marsh country rather than a documented camp, and the year is nominal for the months after the flight.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1600,
+   "jd_ut": 2305447.5,
+   "precision": "year",
+   "precision_triggers": [
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.99,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.988
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight of 1599",
+   "stop": "Montes de María, the death of Juan Gómez",
+   "date": "1600-01-01",
+   "date_confidence": "The engagement is attested by en.wikipedia 'San Basilio de Palenque', which records a first expedition of twenty armed men defeated and its leader Juan Gómez killed. No source locates the fight or dates it; the coordinate is a nominal Montes de María marker and the year is inferred from the sequence.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1600,
+   "jd_ut": 2305447.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "sequencing",
+    "no source (for the date)",
+    "(soft) no source",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.99,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.988
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight of 1599",
+   "stop": "La Matuna, the first settlement",
+   "date": "1600-06-01",
+   "date_confidence": "Placement contradicted between Spanish-language sources and not resolved: es.wikipedia 'San Basilio de Palenque' puts La Matuna in marshland near the present Canal del Dique, roughly 10.1 to 10.2 N, while es.wikipedia 'Benkos Biohó' puts it south of Tolú, roughly 9.67 N, some 70 km away. The northern reading is pinned here. The date is nominal.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1600,
+   "jd_ut": 2305599.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "approximation",
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.52,
+    "text": "Gemini 10°31′",
+    "longitude": 70.52
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King of the Arcabuco",
+   "stop": "San Basilio de Palenque, the stakes driven",
+   "date": "1603-01-01",
+   "date_confidence": "The year 1603 is the founding date cut into the town's own monument, not a documentary date; no source dates the founding. English Wikipedia further states there is no direct documentary relationship between Biohó and this specific modern municipality, only a palenque of the same tradition in the same hills; the contradiction with Spanish sources and local memory is left open.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1603,
+   "jd_ut": 2306543.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.265
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King of the Arcabuco",
+   "stop": "Palenque de San Miguel Arcángel, the naming",
+   "date": "1605-01-01",
+   "date_confidence": "Contradicted and not resolved: en.wikipedia 'San Basilio de Palenque' says the village was first known as Palenque de San Miguel Arcángel, while es.wikipedia says it was initially called palenque de la Matuna. The date is nominal for the early years of the settlement. The later name San Basilio belongs to the eighteenth century, itself dated 1713 in English and 1714 in Spanish.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1605,
+   "jd_ut": 2307274.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "decade/century",
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.79,
+    "text": "Capricornus 10°47′",
+    "longitude": 280.789
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King of the Arcabuco",
+   "stop": "The Montes de María, rey del Arcabuco",
+   "date": "1606-01-01",
+   "date_confidence": "Reconstruction, and later than it appears. The title rey del Arcabuco is absent from en.wikipedia; in es.wikipedia it traces to Camilo Delgado's legend 'El Rey del Arcabuco', published in 1913 in Historia, leyendas y tradiciones de Cartagena. It is a twentieth-century literary coinage absorbed into the historical account, not a contemporary title. The coordinate is a regional anchor in the Montes de María; the year is nominal.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1606,
+   "jd_ut": 2307639.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "decade/century",
+    "nominal (the date)",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) nominal",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.541
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King of the Arcabuco",
+   "stop": "The palenque, the offices of government",
+   "date": "1608-01-01",
+   "date_confidence": "The offices are attested by es.wikipedia 'Benkos Biohó': a captain general named Lorencillo, a lieutenant of war, a chief constable, a treasurer. Neither the seat nor any date is documented; the coordinate is a nominal point in the palenque's hill country and the year is arbitrary within the settlement's armed decade.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1608,
+   "jd_ut": 2308369.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "decade/century",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.046
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Raids",
+   "stop": "Cartagena de Indias, the hinterland ungovernable",
+   "date": "1604-01-01",
+   "date_confidence": "Attested in general terms by both Wikipedia editions, which record repeated Spanish expeditions repelled over more than a decade; no individual expedition after Juan Gómez is named or dated in the sources consulted, and the year is a nominal placement before the 1605 peace offer.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1604,
+   "jd_ut": 2306908.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.02,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.017
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Raids",
+   "stop": "Santiago de Tolú, the coast raided",
+   "date": "1607-01-01",
+   "date_confidence": "Tolú is named among the raid targets by es.wikipedia 'Benkos Biohó'; no individual raid is dated or narrated in any source, so the year is a nominal placement inside the raiding decade.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1607,
+   "jd_ut": 2308004.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.294
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Raids",
+   "stop": "Santa Cruz de Mompox, the river port struck",
+   "date": "1609-01-01",
+   "date_confidence": "Mompós is named among the raid targets by es.wikipedia 'Benkos Biohó'. No raid on it is dated or described in any source consulted; the year is nominal.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1609,
+   "jd_ut": 2308735.5,
+   "precision": "year",
+   "precision_triggers": [
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.82,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.818
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Raids",
+   "stop": "Tenerife, the Magdalena town taken",
+   "date": "1610-01-01",
+   "date_confidence": "Tenerife is named among the raid targets by es.wikipedia 'Benkos Biohó'; the raid is undated and the year is nominal. Coordinate corrected to the town's own figure, 9 degrees 53 minutes 56 seconds N, 74 degrees 51 minutes 32 seconds W; a widely circulated 9.9422, -74.8506 sits about 5 km north of the town.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1610,
+   "jd_ut": 2309100.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.571
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Peace of the Governors",
+   "stop": "Cartagena de Indias, the offer of Governor Suazo",
+   "date": "1605-07-18",
+   "date_confidence": "Attested to the exact day by both Wikipedia editions: 18 July 1605, Governor Jerónimo de Suazo y Casasola opens peace negotiations recognising the maroons' freedom. The place within the city is not specified in the sources; the canonical Cartagena pin is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1605,
+   "jd_ut": 2307472.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not given) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 25.16,
+    "text": "Cancer 25°09′",
+    "longitude": 115.156
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 16.95,
+    "text": "Leo 16°57′",
+    "longitude": 136.95
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 14.77,
+    "text": "Cancer 14°46′",
+    "longitude": 104.772
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 24.39,
+    "text": "Cancer 24°23′",
+    "longitude": 114.392
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 15.63,
+    "text": "Cancer 15°38′",
+    "longitude": 105.631
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 21.89,
+    "text": "Capricornus 21°53′",
+    "longitude": 291.89
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 20.56,
+    "text": "Sagittarius 20°34′",
+    "longitude": 260.559
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Peace of the Governors",
+   "stop": "Montes de María, the years the offer does not hold",
+   "date": "1608-01-01",
+   "date_confidence": "Reconstruction. Spanish Wikipedia indicates the 1605 offer was not implemented at once and that conflict and negotiation continued for years; no event in this interval is documented and no date within it is attested. The year is a midpoint marker between 1605 and the treaty.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1608,
+   "jd_ut": 2308369.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "between",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.046
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Peace of the Governors",
+   "stop": "Cartagena de Indias, the treaty of Fernández de Velasco",
+   "date": "1613-01-01",
+   "date_confidence": "Year contradicted three ways and not resolved: en.wikipedia gives 1612, es.wikipedia gives 1613, and Simón himself writes 'los años de 1612 ó 13'. All three name Governor Diego Fernández de Velasco. The month and day are unknown. Terms sometimes attached to this treaty, requiring Spanish dress and a sword or barring Biohó from royal titles, appear in no source and are not carried here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1613,
+   "jd_ut": 2310196.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "disputed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.85,
+    "text": "Capricornus 10°51′",
+    "longitude": 280.848
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Peace of the Governors",
+   "stop": "The streets of Cartagena, the gilded dagger",
+   "date": "1615-01-01",
+   "date_confidence": "The manner of his appearance in the city is attested by Simón, quoted here; no individual visit is dated and the year is a nominal placement inside the period the peace held. Note that the dress and the sword are Simón's description of his bearing, not, as is often stated, conditions of the treaty.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1615,
+   "jd_ut": 2310926.5,
+   "precision": "year",
+   "precision_triggers": [
+    "nominal (the date)",
+    "(soft-year) span/window",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.35,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.353
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gate and the Plaza",
+   "stop": "Cartagena de Indias, taken at the wall",
+   "date": "1619-01-01",
+   "date_confidence": "The year 1619 is attested by both Wikipedia editions; the month and day are unknown. English Wikipedia has him seized while walking into the city, Spanish Wikipedia at the city wall, unguarded. Simón, the earliest source, does not describe an arrest at all and instead has Biohó hanged in 1619.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1619,
+   "jd_ut": 2312387.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.38,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.382
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gate and the Plaza",
+   "stop": "Cartagena de Indias, the two years unaccounted for",
+   "date": "1620-01-01",
+   "date_confidence": "Reconstruction, and an empty interval. No source documents a holding site, conditions, a trial, or any event between the 1619 arrest and the 1621 execution; the custody is inferred from the gap between two dates. Simón's dating of the execution to 1619 would remove the interval altogether.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1620,
+   "jd_ut": 2312752.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.134
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gate and the Plaza",
+   "stop": "Cartagena de Indias, hanged and quartered",
+   "date": "1621-03-16",
+   "date_confidence": "The date 16 March 1621, the method, and the ordering governor García Girón are attested by both Wikipedia editions. Contradicted at source: Simón, the earliest narrative, says Biohó was hanged in 1619, also by García Girón. Not resolved. The square is not named by either Wikipedia edition; identifying it as the Plaza Mayor or the present Plaza de la Aduana is unsourced inference, so the canonical Cartagena pin is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1621,
+   "jd_ut": 2313192.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 25.59,
+    "text": "Pisces 25°35′",
+    "longitude": 355.589
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 6.98,
+    "text": "Capricornus 6°59′",
+    "longitude": 276.98
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 15.27,
+    "text": "Pisces 15°16′",
+    "longitude": 345.273
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 24.05,
+    "text": "Aquarius 24°03′",
+    "longitude": 324.047
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 20.99,
+    "text": "Scorpio 21°00′",
+    "longitude": 230.993
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 18.32,
+    "text": "Taurus 18°19′",
+    "longitude": 48.32
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 0.03,
+    "text": "Cancer 0°02′",
+    "longitude": 90.025
+   }
+  },
+  {
+   "segment": "The Gate and the Plaza",
+   "stop": "Cartagena de Indias, the remains unaccounted for",
+   "date": "1621-03-17",
+   "date_confidence": "Reconstruction throughout. Display of the quartered parts is standard Spanish colonial practice, but no source names where Biohós remains were set, for how long, or what became of them. The date is the day after the execution and is a marker only.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1621,
+   "jd_ut": 2313193.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 26.58,
+    "text": "Pisces 26°35′",
+    "longitude": 356.581
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Town That Outlived Him",
+   "stop": "Montes de María, the palenque holds",
+   "date": "1650-01-01",
+   "date_confidence": "Reconstruction from the documented continuity of the settlement into the eighteenth century; no event is attested for this year, which is a marker for the decades between the execution and the royal decree of 1691.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1650,
+   "jd_ut": 2323710.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.86,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.864
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Town That Outlived Him",
+   "stop": "San Basilio de Palenque, the royal decree of 1691",
+   "date": "1691-01-01",
+   "date_confidence": "Attested to the year by en.wikipedia 'San Basilio de Palenque': a royal decree guaranteeing the community's freedom on condition it stop harbouring new runaways. The month and day are unknown.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1691,
+   "jd_ut": 2338685.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.91,
+    "text": "Capricornus 10°55′",
+    "longitude": 280.91
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Town That Outlived Him",
+   "stop": "San Basilio de Palenque, the agreement of Bishop Casiani",
+   "date": "1713-01-01",
+   "date_confidence": "Contradicted and not resolved. en.wikipedia 'Benkos Biohó' calls the 1713 instrument a royal decree making San Basilio the first free village of the Americas; en.wikipedia 'San Basilio de Palenque' describes it as an agreement signed by Bishop Antonio María Casiani in January 1713 granting conditional land rights, with 137 houses counted; es.wikipedia dates the decree establishing the name San Basilio to 1714. The day within January is unknown.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1713,
+   "jd_ut": 2346720.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.562
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Town That Outlived Him",
+   "stop": "Mahates, the jurisdiction closes over it",
+   "date": "1772-01-01",
+   "date_confidence": "Attested to the year by en.wikipedia 'San Basilio de Palenque': formal incorporation into the jurisdiction of Mahates under continuing restrictions against sheltering maroons. Month and day unknown.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1772,
+   "jd_ut": 2368269.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.231
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Town That Outlived Him",
+   "stop": "The Canal del Dique, the road that passed it by",
+   "date": "1800-01-01",
+   "date_confidence": "The channel's proximity to the town is attested by en.wikipedia 'San Basilio de Palenque'; the date is a nominal marker for the colonial and republican centuries and no event is claimed for it. The coordinate is a point on the channel near the town rather than a specific site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1800,
+   "jd_ut": 2378496.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.438
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Palenque Now",
+   "stop": "Cartagena de Indias, the written afterlife",
+   "date": "1913-01-01",
+   "date_confidence": "The three works and their dates are attested by es.wikipedia: Camilo Delgado's legend 'El Rey del Arcabuco' (1913), Germán Espinosa's 'Orika de los palenques' (1991), Antonio Prada Fortul's 'Benkos, las alas de un cimarrón' (2023). Corrected from a common error: the Espinosa piece is a short story, not a novel; his 1991 novel was La tragedia de Belinda Elsner, on an unrelated subject. The stop is dated to the earliest of the three.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419768.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 279.996
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Palenque Now",
+   "stop": "San Basilio de Palenque, the statue in the plaza",
+   "date": "1990-01-01",
+   "date_confidence": "The statue and its inscribed founding date of 1603 are attested by Spanish and English Wikipedia; the sculptor and the year of unveiling are not established in any source reached, and the date given here is a nominal twentieth-century marker. English Wikipedia's statement that no direct documentary relationship links Biohó to this municipality stands in flat contradiction to the monument and is not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2447892.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "disputed",
+    "decade/century",
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.31
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Palenque Now",
+   "stop": "Parque Apolo, Cartagena, the second figure",
+   "date": "1995-01-01",
+   "date_confidence": "The existence of a monument to Biohó in the Parque Apolo at Cartagena is attested by es.wikipedia; the sculptor, the unveiling year and the park's own coordinates were not available in the sources reached, so the canonical Cartagena pin is used and the date is a nominal twentieth-century marker.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1995,
+   "jd_ut": 2449718.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.09,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Palenque Now",
+   "stop": "San Basilio de Palenque, the language",
+   "date": "2005-01-01",
+   "date_confidence": "Palenquero's description as the only creole in the Americas with a Spanish lexicon and Bantu grammatical structure, chiefly Kikongo, is attested by UNESCO element 00102. The lumbalú and the mapalé are documented in English and Spanish Wikipedia 'San Basilio de Palenque', not in the UNESCO element description. The date is the year of the UNESCO proclamation.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2005,
+   "jd_ut": 2453371.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.68,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.675
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Palenque Now",
+   "stop": "San Basilio de Palenque, the UNESCO listing",
+   "date": "2005-11-25",
+   "date_confidence": "The 2005 proclamation as a Masterpiece of the Oral and Intangible Heritage of Humanity and the 2008 inscription on the Representative List at the Committee's third session are both attested by UNESCO element 00102. These are two administrative stages of one recognition; sources cite them inconsistently. The day given is the date of the third proclamation of Masterpieces and is not separately confirmed for this element.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2005,
+   "jd_ut": 2453699.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 2.82,
+    "text": "Sagittarius 2°49′",
+    "longitude": 242.819
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 14.49,
+    "text": "Virgo 14°29′",
+    "longitude": 164.488
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 1.99,
+    "text": "Sagittarius 1°59′",
+    "longitude": 241.988
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 17.79,
+    "text": "Capricornus 17°47′",
+    "longitude": 287.789
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 9.78,
+    "text": "Taurus 9°47′",
+    "longitude": 39.777
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 6.4,
+    "text": "Scorpio 6°24′",
+    "longitude": 216.397
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 11.23,
+    "text": "Leo 11°14′",
+    "longitude": 131.231
+   }
+  },
+  {
+   "segment": "Palenque Now",
+   "stop": "San Basilio de Palenque, the ma kuagro",
+   "date": "2008-01-01",
+   "date_confidence": "The kuagro system is attested by UNESCO element 00102 as age-based groups coordinating collective labour and life-cycle events. The population figure of roughly 3,500 is from the same source. The date is the year of inscription on the Representative List and marks the documentation, not the practice, which is undated.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2008,
+   "jd_ut": 2454466.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.933
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 37,
+  "dated": 37,
+  "unparsed": 0,
+  "day": 3,
+  "month": 1,
+  "year": 33
+ },
+ "parse_failures": []
+}

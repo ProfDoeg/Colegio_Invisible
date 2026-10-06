@@ -1,0 +1,1384 @@
+{
+ "slug": "ibn_adlan",
+ "traveler": "Afif al-Din Ali ibn Adlan al-Mawsili (Ibn Adlan)",
+ "title": "The Ninety Letters: Mosul, the Syrian Circuit, and the Floor Under Frequency Analysis",
+ "years": "1187-1268",
+ "years_parsed": {
+  "first": 1187,
+  "last": 1268
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Mosul, 583 of the Hijra",
+  "stop": "Mosul, birth under the Zangids",
+  "date": "1187-01-01",
+  "date_confidence": "the year 583 AH / 1187 CE is attested in both the Arabic and English encyclopedia entries; no month or day is recorded anywhere consulted, so the date defaults to 1 January",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1187,
+  "jd_ut": 2154609.5,
+  "precision": "year",
+  "precision_triggers": [
+   "defaulted",
+   "no month/day"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 17.41,
+   "text": "Capricornus 17°25′",
+   "longitude": 287.411
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1187-1268",
+  "first_year_parsed": 1187
+ },
+ "stops": [
+  {
+   "segment": "The Counting Before Him",
+   "stop": "Basra, every word the language could hold",
+   "date": "0760-01-01",
+   "date_confidence": "al-Khalil's dates, 717 to 786, are attested; the Book of Cryptographic Messages is undated in every source consulted, and the eighth-century placement here is a bracket, not a citation",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 760,
+   "jd_ut": 1998647.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "decade/century",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.07,
+    "text": "Capricornus 14°04′",
+    "longitude": 284.068
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Counting Before Him",
+   "stop": "Kufa, the boy in the garrison town",
+   "date": "0801-01-01",
+   "date_confidence": "al-Kindi's birth is given as around 801 CE without a fixed day; the sources disagree over whether his father governed Kufa or Basra, and that disagreement is left standing",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 801,
+   "jd_ut": 2013623.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.13,
+    "text": "Capricornus 15°08′",
+    "longitude": 285.127
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Counting Before Him",
+   "stop": "Baghdad, the treatise on deciphering",
+   "date": "0850-01-01",
+   "date_confidence": "the Risala is placed in the mid-ninth century; no composition year is recorded, and no source places the writing inside the House of Wisdom, whose site is not archaeologically identified",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 850,
+   "jd_ut": 2031520.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "placed (the date)",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.23,
+    "text": "Capricornus 15°14′",
+    "longitude": 285.227
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mosul, 583 of the Hijra",
+   "stop": "Mosul, birth under the Zangids",
+   "date": "1187-01-01",
+   "date_confidence": "the year 583 AH / 1187 CE is attested in both the Arabic and English encyclopedia entries; no month or day is recorded anywhere consulted, so the date defaults to 1 January",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1187,
+   "jd_ut": 2154609.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.41,
+    "text": "Capricornus 17°25′",
+    "longitude": 287.411
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mosul, 583 of the Hijra",
+   "stop": "Mosul, hadith and the anatomy of a word",
+   "date": "1198-01-01",
+   "date_confidence": "no year is given for his Mosul schooling in any source consulted; the date here brackets a boyhood between the attested birth of 1187 and the attested study in Baghdad, and should be read as a bracket only",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1198,
+   "jd_ut": 2158627.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.75,
+    "text": "Capricornus 17°45′",
+    "longitude": 287.746
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mosul, 583 of the Hijra",
+   "stop": "Mosul, the appetite for riddles",
+   "date": "1203-01-01",
+   "date_confidence": "undated biographical note; the placement in his late teens is inference from the sequence of his life, not from any source",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1203,
+   "jd_ut": 2160453.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.53,
+    "text": "Capricornus 17°32′",
+    "longitude": 287.528
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Baghdad, Under the Blind Grammarian",
+   "stop": "Baghdad, studying under Abu al-Baqa al-Ukbari",
+   "date": "1208-01-01",
+   "date_confidence": "the studentship under al-Ukbari is attested; the years are not, and the window here is inferred from al-Ukbari's floruit and from Ibn Adlan's later Syrian career",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1208,
+   "jd_ut": 2162279.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "floruit",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.31,
+    "text": "Capricornus 17°19′",
+    "longitude": 287.31
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Baghdad, Under the Blind Grammarian",
+   "stop": "Baghdad, the book on a shelf he may never open",
+   "date": "1210-01-01",
+   "date_confidence": "no source records Ibn Adlan reading al-Kindi at Baghdad or anywhere else; the date is a marker for his years in the city, and the encounter itself is unattested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1210,
+   "jd_ut": 2163010.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.83,
+    "text": "Capricornus 17°50′",
+    "longitude": 287.834
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Syrian Circuit",
+   "stop": "Aleppo, a post on the circuit",
+   "date": "1212-01-01",
+   "date_confidence": "Aleppo is attested as a stop in his career; no year is given. The window is narrowed here to before 1216 because al-Zahir Ghazi, the emir named in the earlier draft of this account, died in that year",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1212,
+   "jd_ut": 2163740.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.34,
+    "text": "Capricornus 17°20′",
+    "longitude": 287.339
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Syrian Circuit",
+   "stop": "Aleppo, known first as a poet",
+   "date": "1218-01-01",
+   "date_confidence": "traditional; the reputation is reported without dates, and the year given here is a marker inside the Aleppo residence rather than an event",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1218,
+   "jd_ut": 2165932.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.89,
+    "text": "Capricornus 17°54′",
+    "longitude": 287.892
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Syrian Circuit",
+   "stop": "Damascus, settling at the Umayyad Mosque",
+   "date": "1226-01-01",
+   "date_confidence": "the Damascus residence is attested; its start and end years are not recorded, and the date given is inferred from the reign of the treatise's dedicatee",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1226,
+   "jd_ut": 2168854.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.95,
+    "text": "Capricornus 17°57′",
+    "longitude": 287.95
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Syrian Circuit",
+   "stop": "Damascus Citadel, the work composed for King al-Ashraf",
+   "date": "1233-01-01",
+   "date_confidence": "no composition year exists in any source. The dedication brackets the writing to the reign of al-Ashraf Musa at Damascus, 1229 to 1237, and the date shown is the midpoint of that bracket, not a record",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1233,
+   "jd_ut": 2171411.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.26,
+    "text": "Capricornus 18°15′",
+    "longitude": 288.256
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Syrian Circuit",
+   "stop": "Homs, the other Ashraf",
+   "date": "1246-01-01",
+   "date_confidence": "an alternative reading of the dedication, not the majority one. It is recorded here because the secondary literature does not settle the identification, and it is not adjudicated in this account",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1246,
+   "jd_ut": 2176159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.1,
+    "text": "Capricornus 18°06′",
+    "longitude": 288.096
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Twenty Rules in Nine Sections",
+   "stop": "Damascus, the cipher with the spaces taken out",
+   "date": "1233-02-01",
+   "date_confidence": "the technique is attested in the treatise; the date is the same unfixed composition bracket of 1229 to 1237 and carries no independent authority",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1233,
+   "jd_ut": 2171442.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 19.68,
+    "text": "Aquarius 19°41′",
+    "longitude": 319.68
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Twenty Rules in Nine Sections",
+   "stop": "Damascus, seven common, eleven middling, ten rare",
+   "date": "1233-03-01",
+   "date_confidence": "attested content of the treatise, reported from Al-Kadi 1992 p.113 and the 2004 translation pp.18-19; the date remains the composition bracket only",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1233,
+   "jd_ut": 2171470.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 17.7,
+    "text": "Pisces 17°42′",
+    "longitude": 347.7
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Twenty Rules in Nine Sections",
+   "stop": "Damascus, the floor at ninety letters",
+   "date": "1233-04-01",
+   "date_confidence": "attested content of the treatise, footnoted in the encyclopedia entry to Al-Kadi 1992 p.113 and to the 2004 translation pp.18-19; the composition date remains unfixed",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1233,
+   "jd_ut": 2171501.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.21,
+    "text": "Aries 18°13′",
+    "longitude": 18.211
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Twenty Rules in Nine Sections",
+   "stop": "Damascus, the short words and the invocation",
+   "date": "1233-05-01",
+   "date_confidence": "attested content of the treatise; composition bracket 1229 to 1237, no closer date available",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1233,
+   "jd_ut": 2171531.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 17.25,
+    "text": "Taurus 17°15′",
+    "longitude": 47.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Twenty Rules in Nine Sections",
+   "stop": "Damascus, the section on enciphered verse",
+   "date": "1233-06-01",
+   "date_confidence": "attested content of the treatise; the twenty techniques in nine sections are reported in the encyclopedia entry, the composition date is not",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1233,
+   "jd_ut": 2171562.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.92,
+    "text": "Gemini 16°55′",
+    "longitude": 76.919
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, the Salihiyya",
+   "stop": "Cairo, arriving in an Ayyubid city",
+   "date": "1242-01-01",
+   "date_confidence": "the move to Cairo is attested, the year is not. The date is anchored to the 1242 foundation of the Salihiyya madrasa by al-Salih Najm al-Din Ayyub, the institution he is later attested teaching in",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1242,
+   "jd_ut": 2174698.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.07,
+    "text": "Capricornus 18°04′",
+    "longitude": 288.067
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, the Salihiyya",
+   "stop": "Cairo, the chair of Arabic at the Salihiyya",
+   "date": "1245-01-01",
+   "date_confidence": "the teaching post is attested without dates; the year shown marks the start of a residence that runs to his death in 1268",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1245,
+   "jd_ut": 2175794.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.34,
+    "text": "Capricornus 18°21′",
+    "longitude": 288.344
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, the Salihiyya",
+   "stop": "Cairo, the sultanate changes hands",
+   "date": "1250-01-01",
+   "date_confidence": "the Mamluk seizure of the Egyptian sultanate is dated to 1250; the month is not specified in the sources used here, and Ibn Adlan himself appears in no account of it",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1250,
+   "jd_ut": 2177620.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.13,
+    "text": "Capricornus 18°08′",
+    "longitude": 288.126
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, the Salihiyya",
+   "stop": "Cairo, in contact with rulers",
+   "date": "1250-06-01",
+   "date_confidence": "the tradition of contact with rulers is reported without names, occasions or dates; the year here is a marker inside the Cairo decades and carries no evidential weight",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1250,
+   "jd_ut": 2177771.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.82,
+    "text": "Gemini 16°49′",
+    "longitude": 76.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, the Salihiyya",
+   "stop": "Cairo, four titles and one book",
+   "date": "1255-01-01",
+   "date_confidence": "the lost titles are attested as titles; nothing dates their composition, and the year here is a marker only",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1255,
+   "jd_ut": 2179446.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.91,
+    "text": "Capricornus 17°54′",
+    "longitude": 287.908
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, the Salihiyya",
+   "stop": "Baghdad, the sack, at a distance of a thousand miles",
+   "date": "1258-02-01",
+   "date_confidence": "the sack of Baghdad in February 1258 is attested; Ibn Adlan's absence from it is arithmetic, since he was seventy-one and resident in Cairo",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1258,
+   "jd_ut": 2180573.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 19.61,
+    "text": "Aquarius 19°37′",
+    "longitude": 319.612
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, the Salihiyya",
+   "stop": "Cairo, death in 666 of the Hijra",
+   "date": "1268-01-01",
+   "date_confidence": "the year 666 AH / 1268 CE is attested in both encyclopedia traditions; no month or day is recorded, so the date defaults to 1 January",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1268,
+   "jd_ut": 2184194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.75,
+    "text": "Capricornus 17°45′",
+    "longitude": 287.748
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, the Salihiyya",
+   "stop": "Al-Qarafa, a grave that is not recorded",
+   "date": "1268-02-01",
+   "date_confidence": "reconstruction. No source consulted names a burial place for Ibn Adlan; the southern cemetery is offered as the ordinary district for scholars of his city and century, and nothing more",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1268,
+   "jd_ut": 2184225.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 19.18,
+    "text": "Aquarius 19°11′",
+    "longitude": 319.182
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line After Him",
+   "stop": "Cairo, the copyists' market",
+   "date": "1300-01-01",
+   "date_confidence": "reconstruction. No transaction, copyist or owner's note is documented; the route is inferred from how Mamluk-era books generally moved, and the date is a century marker",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1300,
+   "jd_ut": 2195882.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.98,
+    "text": "Capricornus 17°59′",
+    "longitude": 287.982
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line After Him",
+   "stop": "Mosul, Ibn al-Durayhim born in the same city",
+   "date": "1312-01-01",
+   "date_confidence": "the birth in Sha'ban 712 AH / 1312 CE is attested; the birthplace is inferred from the nisba al-Mawsili rather than stated outright in the sources consulted",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1312,
+   "jd_ut": 2200265.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.07,
+    "text": "Capricornus 18°04′",
+    "longitude": 288.069
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line After Him",
+   "stop": "Mardin, a stretch nobody documented",
+   "date": "1335-01-01",
+   "date_confidence": "reconstruction. No source found places Ibn al-Durayhim at Mardin in the 1330s; the association comes from general biographical notice and the decade is a guess inside his working life",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1335,
+   "jd_ut": 2208666.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.49,
+    "text": "Capricornus 18°30′",
+    "longitude": 288.492
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line After Him",
+   "stop": "Damascus, the scribe's desk",
+   "date": "1345-01-01",
+   "date_confidence": "reconstruction. The scribal work under Mamluk administration is reported without dates; the decade shown is inferred from his lifespan",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1345,
+   "jd_ut": 2212319.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "no month/day",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.07,
+    "text": "Capricornus 19°04′",
+    "longitude": 289.074
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line After Him",
+   "stop": "Qalqashanda, a name from a Delta village",
+   "date": "1355-01-01",
+   "date_confidence": "the birth year is given as 1355 or 1355/56 across sources; no day or month is recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1355,
+   "jd_ut": 2215971.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.64,
+    "text": "Capricornus 18°38′",
+    "longitude": 288.638
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line After Him",
+   "stop": "Cairo, a book found and still unread",
+   "date": "1359-01-01",
+   "date_confidence": "the death year is given variously as 1359, 1361 and 1362 across the encyclopedia entries; no source consulted states the place of death, and Cairo here follows the Mamluk chancery career rather than a citation",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1359,
+   "jd_ut": 2217432.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.67,
+    "text": "Capricornus 18°40′",
+    "longitude": 288.668
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line After Him",
+   "stop": "Cairo, Subh al-A'sha finished",
+   "date": "1412-01-01",
+   "date_confidence": "the completion of Subh al-A'sha in 1412 is attested; al-Qalqashandi is identified as Katib al-Darj of the Mamluk chancery at Cairo, but no source consulted places his work at the Citadel specifically",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1412,
+   "jd_ut": 2236790.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.8,
+    "text": "Capricornus 18°48′",
+    "longitude": 288.801
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line After Him",
+   "stop": "Cairo, the name that drops out of the citation",
+   "date": "1418-01-01",
+   "date_confidence": "the death year 1418 is attested; the day is not recorded in the sources consulted",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1418,
+   "jd_ut": 2238982.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.35,
+    "text": "Capricornus 19°21′",
+    "longitude": 289.354
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Manuscript Reopened",
+   "stop": "Istanbul, the copy in the Suleymaniye",
+   "date": "1987-01-01",
+   "date_confidence": "the presence of the manuscript in the Suleymaniye collection is attested; nothing records when it entered the library, and the date shown is that of the modern edition made from it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1987,
+   "jd_ut": 2446796.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.033
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Manuscript Reopened",
+   "stop": "Damascus, the critical edition",
+   "date": "1987-06-01",
+   "date_confidence": "the 1987 Damascus edition is attested; no month is recorded, and the month shown here is arbitrary within the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1987,
+   "jd_ut": 2446947.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.0,
+    "text": "Gemini 10°00′",
+    "longitude": 70.001
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Manuscript Reopened",
+   "stop": "Riyadh, translated into English at last",
+   "date": "2004-01-01",
+   "date_confidence": "the year 2004 is attested for the English translation; no month is given, and the coordinates point at the city rather than at the publishing institution's building",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 2004,
+   "jd_ut": 2453005.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.903
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 37,
+  "dated": 37,
+  "unparsed": 0,
+  "day": 0,
+  "month": 5,
+  "year": 32
+ },
+ "parse_failures": []
+}

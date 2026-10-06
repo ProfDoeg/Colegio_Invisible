@@ -1,0 +1,1925 @@
+{
+ "slug": "etienne_jules_marey",
+ "traveler": "Étienne-Jules Marey",
+ "title": "The Line the Thing Draws Itself: Beaune, the Bay of Naples, and the Track at the Edge of the Wood",
+ "years": "1830-1904",
+ "years_parsed": {
+  "first": 1830,
+  "last": 1904
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Wine Town and the Pulse",
+  "stop": "Beaune, the wine agent's only son",
+  "date": "1830-03-05",
+  "date_confidence": "attested; fr.wikipedia, corroborated in the dossier crawl against the BnF authority record and an Académie de médecine eulogy",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1830,
+  "jd_ut": 2389516.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Pisces",
+   "degree": 13.96,
+   "text": "Pisces 13°58′",
+   "longitude": 343.959
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 22.39,
+   "text": "Cancer 22°23′",
+   "longitude": 112.387
+  },
+  "mercury": {
+   "sign": "Aquarius",
+   "degree": 17.16,
+   "text": "Aquarius 17°10′",
+   "longitude": 317.161
+  },
+  "venus": {
+   "sign": "Pisces",
+   "degree": 18.34,
+   "text": "Pisces 18°20′",
+   "longitude": 348.339
+  },
+  "mars": {
+   "sign": "Capricornus",
+   "degree": 4.86,
+   "text": "Capricornus 4°52′",
+   "longitude": 274.861
+  },
+  "jupiter": {
+   "sign": "Capricornus",
+   "degree": 12.41,
+   "text": "Capricornus 12°25′",
+   "longitude": 282.41
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 12.67,
+   "text": "Leo 12°40′",
+   "longitude": 132.67
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1830-1904",
+  "first_year_parsed": 1830
+ },
+ "stops": [
+  {
+   "segment": "The Wine Town and the Pulse",
+   "stop": "Beaune, the wine agent's only son",
+   "date": "1830-03-05",
+   "date_confidence": "attested; fr.wikipedia, corroborated in the dossier crawl against the BnF authority record and an Académie de médecine eulogy",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389516.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 13.96,
+    "text": "Pisces 13°58′",
+    "longitude": 343.959
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 22.39,
+    "text": "Cancer 22°23′",
+    "longitude": 112.387
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 17.16,
+    "text": "Aquarius 17°10′",
+    "longitude": 317.161
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 18.34,
+    "text": "Pisces 18°20′",
+    "longitude": 348.339
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 4.86,
+    "text": "Capricornus 4°52′",
+    "longitude": 274.861
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 12.41,
+    "text": "Capricornus 12°25′",
+    "longitude": 282.41
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 12.67,
+    "text": "Leo 12°40′",
+    "longitude": 132.67
+   }
+  },
+  {
+   "segment": "The Wine Town and the Pulse",
+   "stop": "Collège Monge, Beaune: the baccalaureate and three futures",
+   "date": "1849-08-01",
+   "date_confidence": "the literary baccalaureate is dated 1849 by the Beaune municipal archive account; no month is given and August is a default for ordering. The anecdote of three competing family wishes is repeated in institutional biographies with no contemporary letter behind it and is [R]. The building coordinate is approximate, in the Beaune old town.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396605.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.57,
+    "text": "Leo 8°34′",
+    "longitude": 128.574
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wine Town and the Pulse",
+   "stop": "Faculté de médecine, Paris: the compromise begun",
+   "date": "1849-11-01",
+   "date_confidence": "1849 attested for the start of medical study in Paris (fr.wikipedia chronology, 1849-1859); no month, November defaulted for the academic year. Coordinate corrected: the historic faculty at 12 rue de l'École-de-Médecine is at 48.8516, 2.3411, about 190 m from the value the geography lens carried.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396697.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.49,
+    "text": "Scorpio 8°29′",
+    "longitude": 218.488
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wine Town and the Pulse",
+   "stop": "Hôpital Cochin, first in the competition",
+   "date": "1854-01-01",
+   "date_confidence": "the internship is dated 1854-1858 by the institutional biography relayed in the dossier crawl; no month attested, January defaulted. The placing-first detail reaches me only through that summary and is [R]; Beau and Cochin are [A]. Coordinate corrected to fr.wikipedia's value for Cochin at 27 rue du Faubourg-Saint-Jacques, about 380 m from the geography lens's figure.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1854,
+   "jd_ut": 2398219.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.33,
+    "text": "Capricornus 10°20′",
+    "longitude": 280.326
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wine Town and the Pulse",
+   "stop": "Faculté de médecine, the thesis on the circulation of the blood",
+   "date": "1859-03-04",
+   "date_confidence": "attested; academie-medecine.fr, and the published thesis (Paris: Rignoux, 1859) cited in the dossier bibliography",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400107.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 12.93,
+    "text": "Pisces 12°56′",
+    "longitude": 342.926
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 3.91,
+    "text": "Pisces 3°54′",
+    "longitude": 333.906
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 8.51,
+    "text": "Pisces 8°31′",
+    "longitude": 338.514
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 26.44,
+    "text": "Capricornus 26°26′",
+    "longitude": 296.44
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 23.01,
+    "text": "Aries 23°00′",
+    "longitude": 23.005
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 12.71,
+    "text": "Gemini 12°42′",
+    "longitude": 72.705
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 6.53,
+    "text": "Leo 6°32′",
+    "longitude": 126.526
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Instrument That Writes By Itself",
+   "stop": "École vétérinaire d'Alfort, Donders makes an introduction",
+   "date": "1859-06-01",
+   "date_confidence": "1859 and the Donders introduction are stated outright by academie-medecine.fr, which upgrades this from the [R] the geography lens assigned to [A]; no month is given and June is a default. Coordinate corrected to the school campus at 7 avenue du Général-de-Gaulle, about 580 m from the lens's value, which fell off the grounds.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400196.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "assigned"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.94,
+    "text": "Gemini 9°57′",
+    "longitude": 69.943
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instrument That Writes By Itself",
+   "stop": "Rue Cuvier, the laboratory paid for out of pocket",
+   "date": "1859-10-01",
+   "date_confidence": "dated c.1859-1863 by the Beaune municipal archive account; October 1859 is a default for ordering, not an attested month. The exact house number in the rue Cuvier is not located and the pin is street-level. The claim that this was the first private laboratory of experimental physiology in Paris is a later institutional boast with no census behind it and is [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400318.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.28,
+    "text": "Libra 7°17′",
+    "longitude": 187.281
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instrument That Writes By Itself",
+   "stop": "Paris, the sphygmograph: the pulse writes itself down",
+   "date": "1860-01-01",
+   "date_confidence": "sources conflict and the conflict is not resolved here. fr.wikipedia has the device built in 1859 and presented to the Académie des sciences in 1860 with Chauveau; academie-medecine.fr says it was presented in 1860 to the Société de biologie; en.wikipedia dates the Chauveau and Breguet wearable version to 1859. Built 1859, presented 1860, presenting body disputed; January is a default. The pin is the Institut de France, correct only if the Académie des sciences account is.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400410.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.86
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instrument That Writes By Itself",
+   "stop": "Alfort, probes in the heart of a standing horse",
+   "date": "1861-01-01",
+   "date_confidence": "1861 is the dossier crawl's date for the start of the intensive cardiographic work; the joint memoir Appareils et expériences cardiographiques is 1863. No month attested, January defaulted. [A]. The 1884 anti-vivisection pamphlet listed under sources names Marey among physiologists who cut into living animals; it is a real one-directional engagement with this work and is cited here rather than staged as a scene.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400776.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.63,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.632
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instrument That Writes By Itself",
+   "stop": "Académie de médecine, Gavarret closes the question",
+   "date": "1864-07-01",
+   "date_confidence": "the controversy and its closure in Marey and Chauveau's favour are reported from Académie de médecine proceedings through the dossier crawl and were not independently verified; July 1864 is given, with no day, and the tag is [R] on that basis. Coordinate corrected to fr.wikipedia's value for the Académie nationale de médecine in the rue Bonaparte, about 230 m from the geography lens's figure, which was repeated wrongly at four indices.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2402053.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.34,
+    "text": "Cancer 9°21′",
+    "longitude": 99.344
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instrument That Writes By Itself",
+   "stop": "Rue de l'Ancienne-Comédie, the laboratory in Molière's room",
+   "date": "1865-01-01",
+   "date_confidence": "the Beaune archive dates the move only to the 1860s; 1865 is a placement for ordering and not an attested year. The claim that the room was a former performance space associated with Molière's company is a later institutional recollection, not independently confirmed, and is [R]. The 1863 publication of Physiologie médicale de la circulation du sang, carried in this campa, is [A] from the dossier bibliography.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402237.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.66,
+    "text": "Capricornus 10°40′",
+    "longitude": 280.661
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Animal Machine",
+   "stop": "Collège de France, deputy and then the chair",
+   "date": "1869-11-01",
+   "date_confidence": "deputy to Pierre Flourens from 1867 and succession to the chair of histoire naturelle des corps organisés in 1869 are both in fr.wikipedia's chronology; no month, November defaulted for the academic year. Contradiction flagged, not resolved: the Collège's own succession table reads 1869-1903, against the 1869-1904 carried by the chronologies and obituaries. Coordinate corrected to 11 place Marcelin-Berthelot, about 200 m from the lens's value. Du mouvement dans les fonctions de la vie (1868) is [R], from the dossier bibliography.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2404002.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.64,
+    "text": "Scorpio 8°38′",
+    "longitude": 218.639
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Animal Machine",
+   "stop": "Rue de l'Ancienne-Comédie, the artificial insect",
+   "date": "1869-12-01",
+   "date_confidence": "1869 and the apparatus are attested in en.wikipedia, which specifies gold foil and a soot-covered glass fibre; the dossier's gold foil and light is wrong and the correction is taken, since the trace was inscribed mechanically and not photographically. No month is attested and December is a default chosen to place the stop after the chair within the same year; the true order of the two is unknown. The siting at the rue de l'Ancienne-Comédie laboratory is inference from the period, not an attested venue.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2404032.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "no month/day",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.89,
+    "text": "Sagittarius 8°54′",
+    "longitude": 248.894
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Animal Machine",
+   "stop": "Paris, La Machine animale and the horse in the air",
+   "date": "1873-01-01",
+   "date_confidence": "publication attested for 1873 (Germer-Baillière) in both the English and French chronologies; no month, January defaulted. The election to the Académie nationale de médecine in 1872 is from the dossier's institutional table. Placed at his laboratory address, where the work was done, rather than at a publisher's premises. Muybridge's 1878 Palo Alto sequence is cited here as the later answer to this book's claim; Marey's body was never in California and no Palo Alto stop exists in this file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "sequencing",
+    "no month/day",
+    "year named only",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.72,
+    "text": "Capricornus 10°43′",
+    "longitude": 280.72
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Animal Machine",
+   "stop": "Institut de France, Claude Bernard's seat and the graphic method",
+   "date": "1878-01-01",
+   "date_confidence": "both the election to the Académie des sciences in Claude Bernard's seat and the publication of La Méthode graphique dans les sciences expérimentales (G. Masson) are attested to 1878; no months are given and January is a default for ordering. Bernard died in February 1878.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2406985.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.502
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bay of Naples and the Bird in the Air",
+   "stop": "Stazione Zoologica, Naples: a request for live torpedo rays",
+   "date": "1876-11-01",
+   "date_confidence": "it.wikipedia records the request to Anton Dohrn's station for live torpedo rays on 1 November 1876, which puts the Naples connection four years before the villa and corrects the dossier's dating of it to the 1880s. Coordinate corrected to en.wikipedia's value for the Stazione Zoologica, about 530 m from the geography lens's figure. Whether Marey came in person for this request is not stated in the source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406559.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not given) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.94,
+    "text": "Scorpio 8°57′",
+    "longitude": 218.942
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 26.3,
+    "text": "Aries 26°18′",
+    "longitude": 26.297
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 20.9,
+    "text": "Libra 20°54′",
+    "longitude": 200.895
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 26.36,
+    "text": "Virgo 26°22′",
+    "longitude": 176.364
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 11.6,
+    "text": "Libra 11°36′",
+    "longitude": 191.603
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 5.47,
+    "text": "Sagittarius 5°28′",
+    "longitude": 245.475
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 1.02,
+    "text": "Pisces 1°01′",
+    "longitude": 331.024
+   }
+  },
+  {
+   "segment": "The Bay of Naples and the Bird in the Air",
+   "stop": "Paris, the letter to Gaston Tissandier",
+   "date": "1878-12-01",
+   "date_confidence": "the letter is dated 1878 in the dossier's narrative of the Marey-Muybridge exchange and in the hekint.org essay; I never saw the text or a printed transcription, so it is [R] and the wording below is paraphrase. No month, December defaulted after La Nature's reproduction of the Palo Alto plates. The office of La Nature is not pinned and the corpus's general Paris coordinate stands in, the specific-pin discipline having nothing specific to work with here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407319.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.71,
+    "text": "Sagittarius 8°42′",
+    "longitude": 248.708
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bay of Naples and the Bird in the Air",
+   "stop": "Posillipo, Villa Maria above the bay",
+   "date": "1880-01-01",
+   "date_confidence": "it.wikipedia states plainly that the two bought Villa Maria at Posillipo in 1880, so the c.1870 hedge carried by other accounts is dropped; no month, January defaulted. The villa's exact street address is not located and the coordinate is an approximate Posillipo coastal position. it.wikipedia identifies the companion as Madame Vilbort, wife of Joseph Vilbort, director of the Paris paper Le Globe. The claim that Francesca Gallone, born at Naples in 1871, was his daughter rests on Marta Braun's research as relayed by later scholars, a book I did not read, and is [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407715.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "c.",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.007
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bay of Naples and the Bird in the Air",
+   "stop": "11 boulevard Delessert, the soirée for Muybridge",
+   "date": "1881-09-26",
+   "date_confidence": "attested. fr.wikipedia confirms 11 boulevard Delessert as his address from 1881 to 1904 and gives 48.85896, 2.28664, used here. Coordinate discrepancy flagged and not resolved: muybridge.journey.json carries 48.858, 2.288 for the same apartment, the pool's afterlife lens a third value at 48.858, 2.2817, and the interlock lens reported a fourth, 48.8566, 2.2833, matching none of them. The sourced fr.wikipedia figure is preferred over byte-identical inheritance of an unsourced one; the operator can overrule.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408349.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 3.03,
+    "text": "Libra 3°02′",
+    "longitude": 183.029
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bay of Naples and the Bird in the Air",
+   "stop": "Naples, the photographic gun finished",
+   "date": "1882-02-01",
+   "date_confidence": "the 1882 gun and its twelve-frames-a-second mechanism are attested by en.wikipedia and hekint.org; the completion at Naples with the Paris shutter-maker Otto Lund comes from the dossier's narrative alone, so the Naples siting is [R] and the villa coordinate stands in for a workshop that is not located. February is the dossier's month. The Janssen precedent is [A]: Marey names Janssen himself in Movement, chapter VII.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408477.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.08,
+    "text": "Aquarius 12°05′",
+    "longitude": 312.084
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bay of Naples and the Bird in the Air",
+   "stop": "Institut de France, the gun described to the Académie des sciences",
+   "date": "1882-03-13",
+   "date_confidence": "corrected. The dossier gave 27 March 1882; fr.wikipedia's articles on the fusil photographique and on chronophotographie independently both give 13 March 1882 for the first communication of results, and that date is taken. The 10 April 1882 presentation of gull and bat sequences is confirmed and is carried in the same stop. The primary Comptes rendus were not consulted for either date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408517.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 22.34,
+    "text": "Pisces 22°20′",
+    "longitude": 352.34
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Station Physiologique",
+   "stop": "Boulogne, ground for a laboratory with no roof",
+   "date": "1882-05-01",
+   "date_confidence": "coordinate corrected, and this is the most consequential correction in the pool. The Station and the later Institut Marey stood on the land now occupied by Roland-Garros, not at the Parc des Princes football stadium: fr.wikipedia's Institut Marey article gives 48.8467, 2.2506, and its Stade Roland-Garros article confirms Court No. 1 was built on the former Institut Marey site. The geography lens's wrong value was repeated at five indices and is corrected at all of them. fr.wikipedia dates the creation to 1882 against the lens's 1881; May is a default month. The military funding rationale is the dossier's.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408566.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.5,
+    "text": "Taurus 10°30′",
+    "longitude": 40.504
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Station Physiologique",
+   "stop": "Institut de France, one plate and many moments",
+   "date": "1882-07-03",
+   "date_confidence": "the 3 July 1882 presentation is fr.wikipedia's chronology; hekint.org confirms the 1882 origin of chronophotography without an exact day, and the primary Comptes rendus record was not consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408629.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 10.92,
+    "text": "Cancer 10°55′",
+    "longitude": 100.918
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 4.49,
+    "text": "Aquarius 4°29′",
+    "longitude": 304.49
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 3.8,
+    "text": "Cancer 3°48′",
+    "longitude": 93.796
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 14.1,
+    "text": "Leo 14°06′",
+    "longitude": 134.098
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.33,
+    "text": "Virgo 1°20′",
+    "longitude": 151.333
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 16.53,
+    "text": "Gemini 16°32′",
+    "longitude": 76.528
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 22.35,
+    "text": "Taurus 22°21′",
+    "longitude": 52.353
+   }
+  },
+  {
+   "segment": "The Station Physiologique",
+   "stop": "Station physiologique, the man reduced to points and rods",
+   "date": "1883-01-01",
+   "date_confidence": "1883 and the method are attested in en.wikipedia; no month, January defaulted. The pin is the corrected Station physiologique site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2408811.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.284
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Station Physiologique",
+   "stop": "Paris, president of the aeronauts",
+   "date": "1884-03-01",
+   "date_confidence": "1884 is attested for the presidency of the Société française de navigation aérienne; the pool tags it [A] on academie-medecine.fr in one lens and [R] in another for the same fact, and the inconsistency is flagged rather than resolved. No month, March defaulted. The society's rooms are not pinned and the corpus's general Paris coordinate stands in.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409236.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.86,
+    "text": "Pisces 10°52′",
+    "longitude": 340.858
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Station Physiologique",
+   "stop": "Académie de médecine, contaminated water and the cholera",
+   "date": "1884-10-14",
+   "date_confidence": "presentation date and title come from the dossier's bibliography by way of academie-medecine.fr and were not checked against the academy's proceedings. Whether Marey travelled to Beaune during the outbreak is not stated anywhere reachable, so no stop is placed there and this one is staged where he demonstrably was. Coordinate is the corrected rue Bonaparte value.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409463.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.06,
+    "text": "Libra 21°04′",
+    "longitude": 201.06
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Station Physiologique",
+   "stop": "Institut de France, from a strip of paper to celluloid",
+   "date": "1888-10-29",
+   "date_confidence": "the 29 October 1888 presentation is the dossier's and was not re-checked against the Comptes rendus, so it is [R]; the 1888 paper-strip work in general and the 1889 celluloid chronophotographe are both [A] in en.wikipedia. The two developments are carried in one stop for that reason. The celluloid camera was built at his laboratory, not at the Institut, and only the 1888 presentation belongs to this pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410939.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 6.03,
+    "text": "Scorpio 6°02′",
+    "longitude": 216.031
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 16.74,
+    "text": "Leo 16°44′",
+    "longitude": 136.739
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 12.79,
+    "text": "Scorpio 12°48′",
+    "longitude": 222.792
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 4.63,
+    "text": "Sagittarius 4°38′",
+    "longitude": 244.626
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 4.1,
+    "text": "Capricornus 4°06′",
+    "longitude": 274.096
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 8.41,
+    "text": "Sagittarius 8°25′",
+    "longitude": 248.415
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 19.44,
+    "text": "Leo 19°27′",
+    "longitude": 139.444
+   }
+  },
+  {
+   "segment": "The Station Physiologique",
+   "stop": "Station physiologique, Edison in the laboratory",
+   "date": "1889-08-11",
+   "date_confidence": "fr.wikipedia's chronology has Edison visiting Marey's laboratory on 11 August 1889 during the Universal Exposition, which corrects the geography lens's placement of the meeting on the Champ de Mars: the exposition is the occasion, not the venue. fr.wikipedia does not say which laboratory, and the choice of the Station over the boulevard Delessert apartment is inference. thomas_edison.journey.json independently places Edison at the Champ de Mars, 48.8556, 2.2986, that August, which is the right pin for Edison's own attested location and the wrong one for this meeting.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411225.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 18.48,
+    "text": "Leo 18°29′",
+    "longitude": 138.478
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 15.78,
+    "text": "Aquarius 15°47′",
+    "longitude": 315.778
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 21.84,
+    "text": "Leo 21°51′",
+    "longitude": 141.844
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 5.43,
+    "text": "Cancer 5°26′",
+    "longitude": 95.435
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 2.49,
+    "text": "Leo 2°30′",
+    "longitude": 122.492
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 28.84,
+    "text": "Sagittarius 28°50′",
+    "longitude": 268.836
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.21,
+    "text": "Leo 23°13′",
+    "longitude": 143.211
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Station Physiologique",
+   "stop": "Station physiologique, Le Vol des oiseaux",
+   "date": "1890-01-01",
+   "date_confidence": "1890 publication by G. Masson is attested in both the dossier bibliography and en.wikipedia; no month, January defaulted. Placed at the Station physiologique, where the photographs were taken, rather than at a publisher's address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411368.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.591
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Water: the Naples Films",
+   "stop": "Naples, the fencers on the terrace",
+   "date": "1890-06-01",
+   "date_confidence": "Naples filming in this period is attested generally by en.wikipedia; the specific title Scènes d'escrime and the 1890 date come from the dossier's reading of the Cinémathèque française catalogue, which I did not reach, so both are [R]. June is a default month.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411519.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.43,
+    "text": "Gemini 10°26′",
+    "longitude": 70.428
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Water: the Naples Films",
+   "stop": "Bay of Naples, La Vague",
+   "date": "1891-01-01",
+   "date_confidence": "en.wikipedia confirms the Naples water studies in general; the title La Vague and the 1891 date are carried from the dossier's account of the Cinémathèque catalogue and were not independently located, so both are [R]. No month, January defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411733.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.343
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Water: the Naples Films",
+   "stop": "Stazione Zoologica, the things that swim",
+   "date": "1891-06-01",
+   "date_confidence": "en.wikipedia attests the Naples studies of swimming fish, eels, rays and torpedo fish at Dohrn's station; no year or month is given for individual sequences, and 1891 is a placement to order the Naples work rather than an attested date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411884.5,
+   "precision": "month",
+   "precision_triggers": [
+    "sequencing",
+    "no month/day",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.2,
+    "text": "Gemini 10°12′",
+    "longitude": 70.197
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rupture, the Institute, and the Smoke",
+   "stop": "Station physiologique, Demenÿ loses his post",
+   "date": "1894-01-01",
+   "date_confidence": "corrected. The dossier said Marey obtained his resignation; fr.wikipedia's article on Georges Demenÿ says he lost his job in 1894, that is, was dismissed, over Marey's insistence on pure research against Demenÿ's practical and commercial applications. Demenÿ patented the Biographe on 27 July 1894 and, ruined, sold the rights to Léon Gaumont, who launched his film business from 1896. No month for the dismissal, January defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412829.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.62
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rupture, the Institute, and the Smoke",
+   "stop": "Station physiologique, the cat that falls",
+   "date": "1894-06-01",
+   "date_confidence": "the falling-cat sequence is attested to this period by en.wikipedia without a precise date; June 1894 is a placement for ordering. The surviving negative is held by the Science Museum Group as part of object 1952-75, a 36-frame sequence, confirmed directly from the museum's online record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412980.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.46,
+    "text": "Gemini 10°28′",
+    "longitude": 70.46
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rupture, the Institute, and the Smoke",
+   "stop": "11 boulevard Delessert, Le Mouvement",
+   "date": "1894-11-01",
+   "date_confidence": "1894 is attested for the publication of Le Mouvement and for the honorary presidency of the Société française de photographie; no month, November defaulted. Eric Pritchard's English translation appeared in 1895. Placed at the Passy apartment rather than at a publisher's address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2413133.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.58,
+    "text": "Scorpio 8°35′",
+    "longitude": 218.578
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rupture, the Institute, and the Smoke",
+   "stop": "Institut de France, the presidency and the Cinématographe",
+   "date": "1895-01-01",
+   "date_confidence": "the presidency of the Académie des sciences in 1895 is attested in fr.wikipedia's chronology; no month, January defaulted. The first paying Lumière screening falls in December of the same year and is carried in this stop. Marey's own stated position, crediting the Lumières rather than himself with cinema, reaches me only as the dossier's characterisation with no quotation behind it, and is [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rupture, the Institute, and the Smoke",
+   "stop": "Saint-Étienne, a complaint about instruments",
+   "date": "1897-08-01",
+   "date_confidence": "corrected, and it rewrites the institute's origin. fr.wikipedia's Institut Marey article puts the proposal at the 1897 congress of the Association française pour l'avancement des sciences at Saint-Étienne, ratified the following year at Cambridge; the dossier gave only Cambridge. No month for the congress, August defaulted. The coordinate is the city, not a venue.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2414137.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.96,
+    "text": "Leo 8°57′",
+    "longitude": 128.958
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rupture, the Institute, and the Smoke",
+   "stop": "Cambridge, the physiologists ratify",
+   "date": "1898-08-01",
+   "date_confidence": "the Fourth International Congress of Physiologists at Cambridge in 1898 is attested by en.wikipedia and the IUPS congress list (Basel 1889, Liège 1892, Bern 1895, Cambridge 1898, Turin 1901, Brussels 1904). The dossier's precise 26 August is supported by no source found and is dropped; August is retained only as a month. The coordinate is the city, not a venue. fr.wikipedia states that the Saint-Étienne proposal was ratified here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414502.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.73,
+    "text": "Leo 8°44′",
+    "longitude": 128.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rupture, the Institute, and the Smoke",
+   "stop": "Paris Exposition Universelle, the instruments shown and Langley",
+   "date": "1900-06-01",
+   "date_confidence": "the 1900 display is carried from the dossier and was not checked against an exhibition catalogue, so it is [R]; en.wikipedia attests the meeting with Samuel Pierpont Langley at the 1900 exposition, and academie-medecine.fr the presidency of the Académie nationale de médecine in the same year, both [A]. The pool is internally inconsistent about Langley's offer, dating it 1900 in one lens and 1897 in another; 1900 is taken as the only one with a source attached. No month, June defaulted. The coordinate is the exposition ground given by the geography lens.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415171.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.03,
+    "text": "Gemini 10°02′",
+    "longitude": 70.029
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rupture, the Institute, and the Smoke",
+   "stop": "Station physiologique, fifty-eight threads of smoke",
+   "date": "1901-01-01",
+   "date_confidence": "en.wikipedia's chronology gives 1901 and fifty-eight smoke trails; no month, January defaulted. The popular description of this apparatus as the first wind tunnel in the world is imprecise and is not repeated as a claim here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415385.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.907
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rupture, the Institute, and the Smoke",
+   "stop": "Boulogne, the Institut Marey",
+   "date": "1902-01-01",
+   "date_confidence": "corrected. fr.wikipedia's Institut Marey article dates the institute's creation to 1902 with national assembly funding, against the 1899-1904 span the geography lens carried; no month, January defaulted. The dossier's claim of a surviving chronophotographic film of a 1902 inauguration gathering appears nowhere in that article and is downgraded to unverified and not used. Marey was not director for life: after his death the presidency passed to Chauveau, then Hugo Kronecker, then Charles Richet from 1911 to 1935, with Lucien Bull and Pierre Noguès running it in practice. The 1899 Bull 35-mm patent, carried in this campa, is [R] from the dossier.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rupture, the Institute, and the Smoke",
+   "stop": "11 boulevard Delessert, death in Passy",
+   "date": "1904-05-15",
+   "date_confidence": "15 May 1904 in Paris is given by en.wikipedia, fr.wikipedia and the Beaune municipal archive; contradiction flagged and not resolved, one Institut Marey history gives 13 May. The liver disease is reported without a firm diagnosis. Whether he died at the boulevard Delessert apartment rather than elsewhere in Paris is not pinned in anything reachable, and the address is used as the likeliest place. The plaque quoted is undated.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416615.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "notes": [
+    "hard triggers (undated) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.73,
+    "text": "Taurus 23°44′",
+    "longitude": 53.728
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ashes at the Edge of the Wood",
+   "stop": "Beaune, the monument to the native son",
+   "date": "1913-08-31",
+   "date_confidence": "31 August 1913 is given in fr.wikipedia's chronology of Marey. The Beaune town coordinate is used; the monument's exact position in the town is not pinned. Note that the archivesbeaune page the dossier cited for the monument contains no mention of it, so the sourcing there was wrong even though the fact holds elsewhere. The asteroid (3456) Etiennemarey, named in his honour, was discovered in 1985.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2420010.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 6.98,
+    "text": "Virgo 6°59′",
+    "longitude": 156.976
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 24.8,
+    "text": "Leo 24°48′",
+    "longitude": 144.797
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 21.98,
+    "text": "Leo 21°59′",
+    "longitude": 141.983
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 28.39,
+    "text": "Cancer 28°23′",
+    "longitude": 118.39
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 20.89,
+    "text": "Gemini 20°53′",
+    "longitude": 80.891
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.0,
+    "text": "Capricornus 8°00′",
+    "longitude": 277.997
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 17.36,
+    "text": "Gemini 17°22′",
+    "longitude": 77.362
+   }
+  },
+  {
+   "segment": "The Ashes at the Edge of the Wood",
+   "stop": "Boulogne, the ashes and Poincaré",
+   "date": "1914-06-03",
+   "date_confidence": "attested by fr.wikipedia's Institut Marey article: the monument holding his ashes was inaugurated by President Raymond Poincaré on 3 June 1914. Coordinate corrected to fr.wikipedia's figure for the Stade Roland-Garros, replacing the geography lens's Parc des Princes stadium value about 440 m east. The 1968-1978 relocation of the CNRS teams to Gif-sur-Yvette, the 1978 razing and the 2019 demolition of Court No. 1 are all [A] except the monument's fate after 2019, on which no source could be found and which is left open.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420286.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (year range, year named with preposition, no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.58,
+    "text": "Gemini 11°35′",
+    "longitude": 71.577
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 0.09,
+    "text": "Libra 0°05′",
+    "longitude": 180.09
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 29.58,
+    "text": "Gemini 29°35′",
+    "longitude": 89.58
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 9.4,
+    "text": "Cancer 9°24′",
+    "longitude": 99.396
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 16.85,
+    "text": "Leo 16°51′",
+    "longitude": 136.847
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.15,
+    "text": "Aquarius 22°09′",
+    "longitude": 322.148
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 20.38,
+    "text": "Gemini 20°23′",
+    "longitude": 80.381
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Ashes at the Edge of the Wood",
+   "stop": "Beaune, Porte Marie de Bourgogne: the instruments kept",
+   "date": "2002-01-01",
+   "date_confidence": "a separate Musée Marey was created in 1955 on the first floor of the Beaune town hall and installed with the fine-arts museum in the Porte Marie de Bourgogne, 19 rue Poterne and 6 boulevard Perpreuil, in 2001-2002, per fr.wikipedia's Musée des beaux-arts de Beaune, which gives 47.0217, 4.8389; January 2002 is a default within that span. The Science Museum Group holding of four Marey negatives from 1890-1894, object 1952-75, is confirmed directly from the museum record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2002,
+   "jd_ut": 2452275.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.398
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 8,
+  "month": 4,
+  "year": 33
+ },
+ "parse_failures": []
+}

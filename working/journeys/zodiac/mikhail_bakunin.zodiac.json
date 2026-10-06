@@ -1,0 +1,2074 @@
+{
+ "slug": "mikhail_bakunin",
+ "traveler": "Mikhail Aleksandrovich Bakunin",
+ "title": "The Estate, the Fortress, and the Way Around the World: Bakunin from Pryamukhino to the Bremgarten Ground",
+ "years": "1814-1876",
+ "years_parsed": {
+  "first": 1814,
+  "last": 1876
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Estate and the Garrison",
+  "stop": "Pryamukhino, birth on the family estate",
+  "date": "1814-05-30",
+  "date_confidence": "attested; 30 May 1814 New Style, 18 May Old Style, per en. and ru.wikipedia",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1814,
+  "jd_ut": 2383758.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 7.91,
+   "text": "Gemini 7°55′",
+   "longitude": 67.909
+  },
+  "moon": {
+   "sign": "Libra",
+   "degree": 22.34,
+   "text": "Libra 22°20′",
+   "longitude": 202.336
+  },
+  "mercury": {
+   "sign": "Taurus",
+   "degree": 28.88,
+   "text": "Taurus 28°53′",
+   "longitude": 58.882
+  },
+  "venus": {
+   "sign": "Aries",
+   "degree": 22.25,
+   "text": "Aries 22°15′",
+   "longitude": 22.246
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 8.59,
+   "text": "Cancer 8°36′",
+   "longitude": 98.592
+  },
+  "jupiter": {
+   "sign": "Virgo",
+   "degree": 1.67,
+   "text": "Virgo 1°40′",
+   "longitude": 151.672
+  },
+  "saturn": {
+   "sign": "Aquarius",
+   "degree": 0.13,
+   "text": "Aquarius 0°08′",
+   "longitude": 300.13
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1814-1876",
+  "first_year_parsed": 1814
+ },
+ "stops": [
+  {
+   "segment": "The Estate and the Garrison",
+   "stop": "Pryamukhino, birth on the family estate",
+   "date": "1814-05-30",
+   "date_confidence": "attested; 30 May 1814 New Style, 18 May Old Style, per en. and ru.wikipedia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383758.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.91,
+    "text": "Gemini 7°55′",
+    "longitude": 67.909
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 22.34,
+    "text": "Libra 22°20′",
+    "longitude": 202.336
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 28.88,
+    "text": "Taurus 28°53′",
+    "longitude": 58.882
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 22.25,
+    "text": "Aries 22°15′",
+    "longitude": 22.246
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 8.59,
+    "text": "Cancer 8°36′",
+    "longitude": 98.592
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 1.67,
+    "text": "Virgo 1°40′",
+    "longitude": 151.672
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.13,
+    "text": "Aquarius 0°08′",
+    "longitude": 300.13
+   }
+  },
+  {
+   "segment": "The Estate and the Garrison",
+   "stop": "St Petersburg, the Artillery School on the Arsenal embankment",
+   "date": "1829-01-01",
+   "date_confidence": "attested by ru.wikipedia as 1829; the first research pass gave 1828, and the disagreement is left standing",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389088.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Estate and the Garrison",
+   "stop": "The Minsk frontier, the posting abandoned",
+   "date": "1834-09-01",
+   "date_confidence": "reconstruction; the exact garrison is disputed among biographers and the month is not documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1834,
+   "jd_ut": 2391157.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.05,
+    "text": "Virgo 8°03′",
+    "longitude": 158.046
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Moscow, Berlin, and the Creative Passion",
+   "stop": "Moscow, the Stankevich circle",
+   "date": "1835-01-01",
+   "date_confidence": "attested for the year; en. and ru.wikipedia both put the move at 1835, correcting the 1840 given in one research array",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391279.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.931
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Moscow, Berlin, and the Creative Passion",
+   "stop": "Berlin, the university on Unter den Linden",
+   "date": "1840-10-01",
+   "date_confidence": "attested for the year 1840; the month of enrolment is not documented in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393379.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.87,
+    "text": "Libra 7°52′",
+    "longitude": 187.873
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Moscow, Berlin, and the Creative Passion",
+   "stop": "Berlin, Schelling at the rostrum",
+   "date": "1841-11-15",
+   "date_confidence": "attested; three corpus journeys independently record the same dated lecture and name Bakunin in the audience",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1841,
+   "jd_ut": 2393789.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 22.5,
+    "text": "Scorpio 22°30′",
+    "longitude": 232.5
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 13.55,
+    "text": "Sagittarius 13°33′",
+    "longitude": 253.547
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 26.23,
+    "text": "Scorpio 26°14′",
+    "longitude": 236.229
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 26.12,
+    "text": "Libra 26°07′",
+    "longitude": 206.122
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 19.42,
+    "text": "Capricornus 19°25′",
+    "longitude": 289.418
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 22.66,
+    "text": "Sagittarius 22°39′",
+    "longitude": 262.655
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 0.61,
+    "text": "Capricornus 0°36′",
+    "longitude": 270.606
+   }
+  },
+  {
+   "segment": "Moscow, Berlin, and the Creative Passion",
+   "stop": "Dresden, the passion for destruction",
+   "date": "1842-10-01",
+   "date_confidence": "attested for the year of publication in the Deutsche Jahrbucher; the month is conventional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1842,
+   "jd_ut": 2394109.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.4,
+    "text": "Libra 7°24′",
+    "longitude": 187.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ahead of the Police Files",
+   "stop": "Zurich, the order to come home",
+   "date": "1843-01-01",
+   "date_confidence": "attested for the year; the month of arrival is not documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1843,
+   "jd_ut": 2394201.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.99,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.99
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ahead of the Police Files",
+   "stop": "Paris, the two rivals and the long nights",
+   "date": "1844-01-01",
+   "date_confidence": "attested for the residence 1844-1847; one research array gives the itinerant range as 1843-1847, and the difference is not adjudicated",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394566.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.742
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ahead of the Police Files",
+   "stop": "Paris, the Palais Royal in February",
+   "date": "1848-02-24",
+   "date_confidence": "attested for the February Revolution; his day-by-day movements within it are not documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396081.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.56,
+    "text": "Pisces 4°34′",
+    "longitude": 334.565
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 28.02,
+    "text": "Libra 28°01′",
+    "longitude": 208.015
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 22.44,
+    "text": "Pisces 22°27′",
+    "longitude": 352.442
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 27.07,
+    "text": "Capricornus 27°04′",
+    "longitude": 297.07
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 29.54,
+    "text": "Taurus 29°33′",
+    "longitude": 59.542
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 10.73,
+    "text": "Cancer 10°44′",
+    "longitude": 100.725
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 14.09,
+    "text": "Pisces 14°05′",
+    "longitude": 344.086
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Year of Revolutions and the Fortresses",
+   "stop": "Prague, the Slav Congress on the island",
+   "date": "1848-06-02",
+   "date_confidence": "attested; the congress ran 2-12 June 1848 at Zofin Palace, correcting the Bethlehem Chapel location given in the first research pass",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396180.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.53,
+    "text": "Gemini 11°32′",
+    "longitude": 71.531
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 16.96,
+    "text": "Gemini 16°58′",
+    "longitude": 76.962
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 26.92,
+    "text": "Gemini 26°55′",
+    "longitude": 86.921
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 27.65,
+    "text": "Taurus 27°39′",
+    "longitude": 57.65
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 26.88,
+    "text": "Cancer 26°53′",
+    "longitude": 116.88
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 20.63,
+    "text": "Cancer 20°38′",
+    "longitude": 110.633
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.22,
+    "text": "Pisces 24°13′",
+    "longitude": 354.218
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Year of Revolutions and the Fortresses",
+   "stop": "Dresden, the barricades at the Kreuzkirche",
+   "date": "1849-05-09",
+   "date_confidence": "attested; the rising is crushed on 9 May 1849 and the co-presence is recorded in the corpus and in Wagner's memoirs",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396521.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 18.23,
+    "text": "Taurus 18°14′",
+    "longitude": 48.23
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 6.96,
+    "text": "Sagittarius 6°57′",
+    "longitude": 246.957
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 24.44,
+    "text": "Taurus 24°26′",
+    "longitude": 54.439
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 24.15,
+    "text": "Taurus 24°09′",
+    "longitude": 54.146
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 23.03,
+    "text": "Pisces 23°02′",
+    "longitude": 353.033
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.93,
+    "text": "Leo 13°56′",
+    "longitude": 133.928
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 3.92,
+    "text": "Aries 3°55′",
+    "longitude": 3.917
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Year of Revolutions and the Fortresses",
+   "stop": "Konigstein, the first death sentence",
+   "date": "1849-08-01",
+   "date_confidence": "reconstruction; the fortress name comes from Carr rather than from a document, and the month of transfer is not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396605.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.57,
+    "text": "Leo 8°34′",
+    "longitude": 128.574
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Year of Revolutions and the Fortresses",
+   "stop": "Olmutz, chained to the wall",
+   "date": "1850-05-01",
+   "date_confidence": "reconstruction; the chaining is traditional and repeated across the biographies without a primary document reached this pass",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396878.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.25,
+    "text": "Taurus 10°15′",
+    "longitude": 40.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Year of Revolutions and the Fortresses",
+   "stop": "St Petersburg, the Alekseevsky Ravelin and the Confession",
+   "date": "1851-05-01",
+   "date_confidence": "attested for the imprisonment 1851-1854; the Confession is written in 1851 at the direction of Nicholas I",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397243.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.02,
+    "text": "Taurus 10°01′",
+    "longitude": 40.02
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Year of Revolutions and the Fortresses",
+   "stop": "Shlisselburg, the scurvy years",
+   "date": "1854-03-01",
+   "date_confidence": "attested for the years 1854-1857; the month of transfer is not documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1854,
+   "jd_ut": 2398278.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.13,
+    "text": "Pisces 10°08′",
+    "longitude": 340.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Siberia and the Way Around the World",
+   "stop": "Tomsk, exile and the marriage",
+   "date": "1857-03-01",
+   "date_confidence": "attested for the exile beginning 1857 and the marriage in 1858; one research array wrongly dated the marriage to 1857",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399374.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.41,
+    "text": "Pisces 10°24′",
+    "longitude": 340.406
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Siberia and the Way Around the World",
+   "stop": "Irkutsk, the governor-general's relative",
+   "date": "1859-01-01",
+   "date_confidence": "reconstruction; the Irkutsk residence and the kinship with Muravyov-Amursky are reported across the biographies without a document reached this pass",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400045.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.108
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Siberia and the Way Around the World",
+   "stop": "Nikolaevsk, the mouth of the Amur",
+   "date": "1861-07-01",
+   "date_confidence": "attested for the departure from Irkutsk on 5 June 1861 and arrival at the river mouth in July, correcting a June date in the first research pass",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400957.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.08,
+    "text": "Cancer 9°05′",
+    "longitude": 99.081
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 18.8,
+    "text": "Aries 18°48′",
+    "longitude": 18.805
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 3.57,
+    "text": "Leo 3°34′",
+    "longitude": 123.565
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 22.73,
+    "text": "Cancer 22°44′",
+    "longitude": 112.727
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 27.52,
+    "text": "Cancer 27°31′",
+    "longitude": 117.515
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 25.13,
+    "text": "Leo 25°08′",
+    "longitude": 145.132
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 5.45,
+    "text": "Virgo 5°27′",
+    "longitude": 155.447
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Siberia and the Way Around the World",
+   "stop": "Hakodate, the treaty port",
+   "date": "1861-08-01",
+   "date_confidence": "reconstruction; the port call is well attested but the weeks he spent there are not documented in any source reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400988.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.67,
+    "text": "Leo 8°40′",
+    "longitude": 128.67
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Siberia and the Way Around the World",
+   "stop": "Yokohama, passage across the Pacific",
+   "date": "1861-09-01",
+   "date_confidence": "reconstruction; the Yokohama contacts vary between secondary accounts and Bakunin's own record of the weeks is thin",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2401019.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.5,
+    "text": "Virgo 8°30′",
+    "longitude": 158.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Siberia and the Way Around the World",
+   "stop": "San Francisco, landfall",
+   "date": "1861-10-15",
+   "date_confidence": "attested; the Carrington arrives 15 October 1861 and Bakunin's letter from the city is dated that month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2401063.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.63,
+    "text": "Libra 21°38′",
+    "longitude": 201.627
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 9.69,
+    "text": "Pisces 9°41′",
+    "longitude": 339.691
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 15.09,
+    "text": "Scorpio 15°06′",
+    "longitude": 225.094
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 1.26,
+    "text": "Sagittarius 1°16′",
+    "longitude": 241.261
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 5.16,
+    "text": "Libra 5°09′",
+    "longitude": 185.157
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 17.09,
+    "text": "Virgo 17°05′",
+    "longitude": 167.085
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 17.74,
+    "text": "Virgo 17°45′",
+    "longitude": 167.744
+   }
+  },
+  {
+   "segment": "Siberia and the Way Around the World",
+   "stop": "Aspinwall, the isthmus by rail",
+   "date": "1861-11-01",
+   "date_confidence": "attested for the Panama route; the railroad crossing is the standard transit of the period and is not separately documented for him",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2401080.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.58,
+    "text": "Scorpio 8°35′",
+    "longitude": 218.578
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Siberia and the Way Around the World",
+   "stop": "New York, received by the exiles",
+   "date": "1861-11-15",
+   "date_confidence": "attested for November-December 1861 in the United States; the day is not documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2401094.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 22.65,
+    "text": "Scorpio 22°39′",
+    "longitude": 232.65
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Siberia and the Way Around the World",
+   "stop": "London, the Free Russian Press",
+   "date": "1861-12-27",
+   "date_confidence": "attested for the end of December 1861; the day is given as the 27th in the standard accounts",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2401136.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.29,
+    "text": "Capricornus 5°17′",
+    "longitude": 275.287
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 2.75,
+    "text": "Scorpio 2°45′",
+    "longitude": 212.755
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 25.98,
+    "text": "Sagittarius 25°59′",
+    "longitude": 265.979
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 22.14,
+    "text": "Aquarius 22°08′",
+    "longitude": 322.138
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 23.12,
+    "text": "Scorpio 23°07′",
+    "longitude": 233.122
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 27.01,
+    "text": "Virgo 27°01′",
+    "longitude": 177.009
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 22.74,
+    "text": "Virgo 22°44′",
+    "longitude": 172.74
+   }
+  },
+  {
+   "segment": "The Bell, the Baltic, and the Italian Cells",
+   "stop": "Paris, the plate exposed by Nadar",
+   "date": "1862-08-07",
+   "date_confidence": "attested to the day by the photograph itself; tagged R in the research pass because only one source carries the date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401359.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 14.19,
+    "text": "Leo 14°11′",
+    "longitude": 134.186
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 4.88,
+    "text": "Capricornus 4°53′",
+    "longitude": 274.88
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 1.24,
+    "text": "Leo 1°14′",
+    "longitude": 121.236
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 12.74,
+    "text": "Cancer 12°44′",
+    "longitude": 102.741
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 14.57,
+    "text": "Aries 14°34′",
+    "longitude": 14.569
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 26.43,
+    "text": "Virgo 26°26′",
+    "longitude": 176.427
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 20.85,
+    "text": "Virgo 20°51′",
+    "longitude": 170.847
+   }
+  },
+  {
+   "segment": "The Bell, the Baltic, and the Italian Cells",
+   "stop": "Stockholm, the Polish cause argued in Swedish halls",
+   "date": "1863-02-24",
+   "date_confidence": "attested; ru.wikipedia gives the arrival as 24 February 1863, correcting the June date in the first research pass",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401560.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.93,
+    "text": "Pisces 4°56′",
+    "longitude": 334.928
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 18.01,
+    "text": "Taurus 18°00′",
+    "longitude": 48.008
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 12.28,
+    "text": "Aquarius 12°17′",
+    "longitude": 312.28
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 22.84,
+    "text": "Pisces 22°50′",
+    "longitude": 352.838
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 22.07,
+    "text": "Taurus 22°04′",
+    "longitude": 52.069
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 27.05,
+    "text": "Libra 27°03′",
+    "longitude": 207.051
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 4.24,
+    "text": "Libra 4°14′",
+    "longitude": 184.239
+   }
+  },
+  {
+   "segment": "The Bell, the Baltic, and the Italian Cells",
+   "stop": "Malmo, the Ward Jackson detained",
+   "date": "1863-04-01",
+   "date_confidence": "attested that the ship left London in March and was detained at Malmo in spring; the exact day of detention is not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401596.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.78,
+    "text": "Aries 10°47′",
+    "longitude": 10.783
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bell, the Baltic, and the Italian Cells",
+   "stop": "Florence, the International Brotherhood",
+   "date": "1864-01-01",
+   "date_confidence": "attested for Italian residence 1864-1867; Florence specifically and the Brotherhood's structure rest on Carr",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2401871.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.889
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bell, the Baltic, and the Italian Cells",
+   "stop": "Naples, the first real following",
+   "date": "1865-01-01",
+   "date_confidence": "reconstruction; the Naples years 1865-1867 and the Friscia connection come from Carr rather than from documents reached this pass",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402237.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.66,
+    "text": "Capricornus 10°40′",
+    "longitude": 280.661
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva to The Hague",
+   "stop": "Geneva, the League of Peace and Freedom",
+   "date": "1867-09-09",
+   "date_confidence": "attested; the inaugural congress opened at 14:00 on 9 September 1867 at the Palais Electoral, not the Salle de la Reformation as the first pass had it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403218.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.83,
+    "text": "Virgo 15°50′",
+    "longitude": 165.826
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 18.84,
+    "text": "Capricornus 18°50′",
+    "longitude": 288.835
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 9.95,
+    "text": "Virgo 9°57′",
+    "longitude": 159.953
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 11.36,
+    "text": "Virgo 11°22′",
+    "longitude": 161.36
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 18.63,
+    "text": "Libra 18°38′",
+    "longitude": 198.626
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 1.01,
+    "text": "Pisces 1°01′",
+    "longitude": 331.011
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 19.21,
+    "text": "Scorpio 19°12′",
+    "longitude": 229.207
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Geneva to The Hague",
+   "stop": "Geneva, the Alliance of Socialist Democracy",
+   "date": "1868-10-01",
+   "date_confidence": "attested for the founding in autumn 1868; the day is not documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403606.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.09,
+    "text": "Libra 8°05′",
+    "longitude": 188.089
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva to The Hague",
+   "stop": "Minusio, the Villa Baronata",
+   "date": "1869-01-01",
+   "date_confidence": "reconstruction; the Baronata years 1869-1874 rest on Carr, and Bakunin was resident only at intervals. Contradiction left standing: the purchase by Cafiero is dated 1873 in the reference note, which cannot be reconciled with a 1869 installation, and no document was reached to adjudicate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403698.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.69,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.691
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva to The Hague",
+   "stop": "Locarno, the letter to Nechayev",
+   "date": "1870-06-02",
+   "date_confidence": "attested to the day; the letter of 2 June 1870 survives and is translated on marxists.org",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404215.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.23,
+    "text": "Gemini 11°14′",
+    "longitude": 71.227
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 10.63,
+    "text": "Cancer 10°38′",
+    "longitude": 100.626
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 15.37,
+    "text": "Gemini 15°22′",
+    "longitude": 75.37
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 27.33,
+    "text": "Aries 27°20′",
+    "longitude": 27.329
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 23.34,
+    "text": "Taurus 23°20′",
+    "longitude": 53.341
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 5.59,
+    "text": "Gemini 5°36′",
+    "longitude": 65.592
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 26.06,
+    "text": "Sagittarius 26°03′",
+    "longitude": 266.058
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Geneva to The Hague",
+   "stop": "Lyon, the Hotel de Ville taken",
+   "date": "1870-09-28",
+   "date_confidence": "attested for the September 1870 Lyon rising; the details of the seizure and escape rest on Carr",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404333.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 4.66,
+    "text": "Libra 4°40′",
+    "longitude": 184.662
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva to The Hague",
+   "stop": "Marseille, the last hiding place",
+   "date": "1870-10-01",
+   "date_confidence": "reconstruction; the Marseille month comes from Carr and is not documented elsewhere in sources reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404336.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.61,
+    "text": "Libra 7°37′",
+    "longitude": 187.613
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva to The Hague",
+   "stop": "The Hague, the expulsion",
+   "date": "1872-09-02",
+   "date_confidence": "attested; the congress sits 2-7 September 1872 and is the only one Marx attends in person",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2405038.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 9.8,
+    "text": "Virgo 9°48′",
+    "longitude": 159.798
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 28.21,
+    "text": "Leo 28°12′",
+    "longitude": 148.208
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 5.72,
+    "text": "Virgo 5°43′",
+    "longitude": 155.715
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 22.91,
+    "text": "Virgo 22°55′",
+    "longitude": 172.914
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 9.01,
+    "text": "Leo 9°00′",
+    "longitude": 129.006
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 17.52,
+    "text": "Leo 17°31′",
+    "longitude": 137.524
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 14.57,
+    "text": "Capricornus 14°34′",
+    "longitude": 284.57
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    },
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Locarno, Statism and Anarchy",
+   "date": "1873-01-01",
+   "date_confidence": "attested for the year of writing and anonymous publication; the month is not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.72,
+    "text": "Capricornus 10°43′",
+    "longitude": 280.72
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Bologna, the rising that does not start",
+   "date": "1874-08-07",
+   "date_confidence": "attested to the day; the insurrection was set for 7 August 1874",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405742.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 14.28,
+    "text": "Leo 14°17′",
+    "longitude": 134.281
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 10.78,
+    "text": "Gemini 10°47′",
+    "longitude": 70.78
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 28.29,
+    "text": "Cancer 28°17′",
+    "longitude": 118.291
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 24.59,
+    "text": "Virgo 24°36′",
+    "longitude": 174.594
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 4.37,
+    "text": "Leo 4°22′",
+    "longitude": 124.368
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 29.94,
+    "text": "Virgo 29°56′",
+    "longitude": 179.936
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 10.35,
+    "text": "Aquarius 10°21′",
+    "longitude": 310.348
+   }
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Bern, the workingmen's hospital",
+   "date": "1876-07-01",
+   "date_confidence": "attested to the day; ru.wikipedia carries the death date and the reported words on arrival",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406436.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.44,
+    "text": "Cancer 9°26′",
+    "longitude": 99.44
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 7.04,
+    "text": "Scorpio 7°02′",
+    "longitude": 217.038
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 21.45,
+    "text": "Gemini 21°27′",
+    "longitude": 81.45
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 29.13,
+    "text": "Cancer 29°08′",
+    "longitude": 119.127
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 23.04,
+    "text": "Cancer 23°03′",
+    "longitude": 113.045
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 22.63,
+    "text": "Scorpio 22°38′",
+    "longitude": 232.626
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 7.58,
+    "text": "Pisces 7°35′",
+    "longitude": 337.579
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Bern, the Bremgarten ground",
+   "date": "1876-07-04",
+   "date_confidence": "attested; plot 9201, grave 68, and the mourner count are confirmed verbatim by ru.wikipedia, and the coordinates by de.wikipedia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406439.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.3,
+    "text": "Cancer 12°18′",
+    "longitude": 102.3
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 13.3,
+    "text": "Sagittarius 13°18′",
+    "longitude": 253.298
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.63,
+    "text": "Gemini 22°38′",
+    "longitude": 82.633
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 28.0,
+    "text": "Cancer 28°00′",
+    "longitude": 118.004
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 24.97,
+    "text": "Cancer 24°58′",
+    "longitude": 114.973
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 22.48,
+    "text": "Scorpio 22°29′",
+    "longitude": 232.476
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 7.51,
+    "text": "Pisces 7°30′",
+    "longitude": 337.507
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Geneva, the unfinished book printed",
+   "date": "1882-01-01",
+   "date_confidence": "attested for the year of publication; the month is not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408446.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.532
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Petrograd, the Confession out of the archive",
+   "date": "1921-01-01",
+   "date_confidence": "attested for publication in 1921; the first research pass gave 1919, which is when the manuscript surfaced rather than when it was printed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422690.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.055
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Moscow, Steklov's four volumes",
+   "date": "1934-01-01",
+   "date_confidence": "attested; the edition ran 1934-1935, correcting the 1934-1936 span given in the first research pass",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427438.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.896
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Barcelona, the collectives",
+   "date": "1936-07-19",
+   "date_confidence": "attested for the July 1936 rising in Barcelona; the doctrinal descent from Bakunin is a historiographical reading, not a documented citation chain",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428368.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.13,
+    "text": "Cancer 26°08′",
+    "longitude": 116.131
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 16,
+  "month": 4,
+  "year": 25
+ },
+ "parse_failures": []
+}

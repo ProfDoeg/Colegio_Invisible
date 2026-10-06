@@ -1,0 +1,1432 @@
+{
+ "slug": "count_orlando_di_chiusi_orlando_catani",
+ "traveler": "Count Orlando di Chiusi (Orlando Catani)",
+ "title": "The Sentence at the Table: dominus Orlando de Cataniis and the Gift of La Verna",
+ "years": "fl. 1213-1236; died between 6 May 1236 and 4 September 1237",
+ "years_parsed": {
+  "first": 1213,
+  "last": 1237
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Capitanei Under the Mountain",
+  "stop": "Monte della Verna, the wolf ground while it is still his",
+  "date": "1210-01-01",
+  "date_confidence": "inferred: the mountain's tenure with the fief of Chiusi is attested, and the terrain is fixed geography, but no source dates Orlando's own use of it or places him on it. Canonical pin inherited from saint_francis.journey.json.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1210,
+  "jd_ut": 2163010.5,
+  "precision": "year",
+  "precision_triggers": [
+   "inferred",
+   "no source (for the date)",
+   "(soft) no source"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 17.83,
+   "text": "Capricornus 17°50′",
+   "longitude": 287.834
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "fl. 1213-1236; died between 6 May 1236 and 4 September 1237",
+  "first_year_parsed": 1213
+ },
+ "stops": [
+  {
+   "segment": "The Capitanei Under the Mountain",
+   "stop": "Chiusi della Verna, the fief granted in 967",
+   "date": "0967-01-01",
+   "date_confidence": "attested for the grant, unproven for the descent: it.wikipedia 'Chiusi della Verna' records the 967 investiture of Goffredo del fu Ildebrando di Catenaia by Otto I. The gathered brief added a day, 7 December, and a place of issue, Ostia; neither is attested anywhere reachable, and Ostia does not sit on Otto I's autumn itinerary, which ran Verona, Ravenna, Rome for the coronation of 25 December. Both dropped. Whether the later Catani of Chiusi descend from this Goffredo cannot be demonstrated.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 967,
+   "jd_ut": 2074254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.82,
+    "text": "Capricornus 15°49′",
+    "longitude": 285.82
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Capitanei Under the Mountain",
+   "stop": "Alpe di Catenaia, the name before the castle",
+   "date": "1000-01-01",
+   "date_confidence": "reconstruction: the toponymic derivation is standard and it.wikipedia styles both the 967 recipient and the 1261 brothers di Catenaia, but no source dates the family's move from the massif to Chiusi. The year here only orders the segment. Coordinates corrected to the massif itself, summit Il Castello, 1414 m; the gathered brief had drifted about eleven kilometres north.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.8,
+    "text": "Capricornus 15°48′",
+    "longitude": 285.798
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Capitanei Under the Mountain",
+   "stop": "Arezzo, the bishop's captains",
+   "date": "1100-01-01",
+   "date_confidence": "reconstruction, attributed to Pierluigi Licciardello and not independently verified: the study could not be retrieved this pass, and it.wikipedia's full-text search returns nothing for it. No act of Orlando's personal homage to the bishop survives; the feudal tie is inferred from the family's documented class, not from any record of him in the city. The date only orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1100,
+   "jd_ut": 2122832.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.52,
+    "text": "Capricornus 16°31′",
+    "longitude": 286.524
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Capitanei Under the Mountain",
+   "stop": "Chiusi della Verna, a birth with no year",
+   "date": "1180-01-01",
+   "date_confidence": "unattested: no source gives a birth date, year, birthplace, parentage or education. 1180 is a placeholder for a man already adult and already styled dominus by the 1230s, and it carries no evidential weight.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1180,
+   "jd_ut": 2152052.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.11,
+    "text": "Capricornus 17°06′",
+    "longitude": 287.106
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Capitanei Under the Mountain",
+   "stop": "Pietramala, the wife the genealogists supply",
+   "date": "1205-01-01",
+   "date_confidence": "unconfirmed tradition, and disclaimed by the man who reported it: Zeffirino Lazzeri published the Maria di Pietramala identification in 1913 and explicitly declined to affirm its truth. Lazzeri's study could not be retrieved this pass. The date is a placeholder for a marriage nobody dates. Coordinates corrected to the Tarlati seat east of Arezzo, toward Anghiari; the gathered brief had placed it west of the city, and it is not the Pietramala near Firenzuola.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1205,
+   "jd_ut": 2161184.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placeholder",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.05,
+    "text": "Capricornus 18°03′",
+    "longitude": 288.052
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Capitanei Under the Mountain",
+   "stop": "Monte della Verna, the wolf ground while it is still his",
+   "date": "1210-01-01",
+   "date_confidence": "inferred: the mountain's tenure with the fief of Chiusi is attested, and the terrain is fixed geography, but no source dates Orlando's own use of it or places him on it. Canonical pin inherited from saint_francis.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1210,
+   "jd_ut": 2163010.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.83,
+    "text": "Capricornus 17°50′",
+    "longitude": 287.834
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Castle of Montefeltro",
+   "stop": "San Leo, the crag and the knighting",
+   "date": "1213-05-08",
+   "date_confidence": "traditional, and the tradition is contradicted by its own source: the earliest narrative, the Prima Considerazione of the Considerazioni sulle sacre sante stimmate, names the setting only Castello di Montefeltro and dates the episode to 1224. San Leo is a later gloss, defensible because San Leo was the seat of the Montefeltro. The pin is inherited byte-identical from saint_francis.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1213,
+   "jd_ut": 2164233.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.82,
+    "text": "Taurus 23°49′",
+    "longitude": 53.819
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Castle of Montefeltro",
+   "stop": "San Leo, the friar on the wall",
+   "date": "1213-05-08",
+   "date_confidence": "traditional: the sermon on the courtyard wall is narrated only in the fourteenth-century Considerazioni, more than a century after the alleged event. No contemporary document mentions the preaching, the audience, or Orlando's presence.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1213,
+   "jd_ut": 2164233.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "decade/century",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.82,
+    "text": "Taurus 23°49′",
+    "longitude": 53.819
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Castle of Montefeltro",
+   "stop": "San Leo, the counsel asked and deferred",
+   "date": "1213-05-08",
+   "date_confidence": "traditional: the exchange survives only in the Considerazioni. It is the sole report of anything Orlando said or thought, and it is a devotional formula recorded a hundred years later.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1213,
+   "jd_ut": 2164233.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.82,
+    "text": "Taurus 23°49′",
+    "longitude": 53.819
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Castle of Montefeltro",
+   "stop": "San Leo, the mountain offered after dinner",
+   "date": "1213-05-08",
+   "date_confidence": "traditional, and the quotation needs its own caution: the gathered brief supplied a composite text carrying the phrases e salvatico and in luogo rimosso dalle gente, which the Wikisource text of the Prima Considerazione does not have. The quote here is the Wikisource wording, elided at the ellipsis. No charter, notarial instrument or contemporary record of the donation survives at all.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1213,
+   "jd_ut": 2164233.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.82,
+    "text": "Taurus 23°49′",
+    "longitude": 53.819
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Castle of Montefeltro",
+   "stop": "San Leo, the year the oldest text actually gives",
+   "date": "1213-05-08",
+   "date_confidence": "contradiction flagged, NOT resolved: devotional tradition and the sanctuary's painted memory give 8 May 1213; the Prima Considerazione, the oldest narrative of the scene, opens by dating it to 1224 with Francis aged forty-three. The gathered brief said the earliest narrative gives no exact date, only 'in that year'. That is false, and the correction makes the traditional date harder to hold, not easier. Both years are carried; neither is adjudicated here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1213,
+   "jd_ut": 2164233.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.82,
+    "text": "Taurus 23°49′",
+    "longitude": 53.819
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifty Men for Two Friars",
+   "stop": "Chiusi della Verna, the count rides home",
+   "date": "1213-05-20",
+   "date_confidence": "inferred: the return follows the feast in the narrative sequence of the Prima Considerazione, which gives the distance between castle and mountain as about a mile. No source dates the ride.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1213,
+   "jd_ut": 2164245.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "sequencing",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 5.31,
+    "text": "Gemini 5°18′",
+    "longitude": 65.306
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifty Men for Two Friars",
+   "stop": "Chiusi della Verna, the escort against the wolves",
+   "date": "1213-06-01",
+   "date_confidence": "traditional: the reception of the two friars and the escort of fifty armed men are narrated only in the Prima Considerazione. No charter, chronicle or account book corroborates them, and none of the fifty is named.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1213,
+   "jd_ut": 2164257.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.76,
+    "text": "Gemini 16°46′",
+    "longitude": 76.761
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifty Men for Two Friars",
+   "stop": "Monte della Verna, the friars find it fit",
+   "date": "1213-06-01",
+   "date_confidence": "traditional: the inspection belongs entirely to the Prima Considerazione, and no source places Orlando himself on the climb. Canonical pin inherited from saint_francis.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1213,
+   "jd_ut": 2164257.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.76,
+    "text": "Gemini 16°46′",
+    "longitude": 76.761
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifty Men for Two Friars",
+   "stop": "La Verna, the first cell under the Sasso Spicco",
+   "date": "1214-01-01",
+   "date_confidence": "reconstruction: it.wikipedia 'Santuario della Verna' places the first cell of wood and earth near the Sasso Spicco, but fixes no year, and no source puts Orlando there at any time. The date only orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1214,
+   "jd_ut": 2164471.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.86,
+    "text": "Capricornus 17°52′",
+    "longitude": 287.863
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifty Men for Two Friars",
+   "stop": "La Verna, the chapel of Santa Maria degli Angeli begun",
+   "date": "1216-01-01",
+   "date_confidence": "attested for the building, unsupported for the financing: it.wikipedia 'Santuario della Verna' dates construction of the first chapel to 1216-1218, begun at Francis's request. The claim that Orlando helped pay for it appears only in weakly sourced devotional accounts; no reachable account of the chapel names any lay financier, and later compilers do not say which Orlando they mean.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1216,
+   "jd_ut": 2165201.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.37,
+    "text": "Capricornus 17°22′",
+    "longitude": 287.368
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wounds on the Given Ground",
+   "stop": "La Verna, the chapel standing",
+   "date": "1218-01-01",
+   "date_confidence": "attested: it.wikipedia 'Santuario della Verna' gives construction 1216-1218, enlargement from about 1250 under Cardinal Rainaldo da Segni, consecration of the enlarged church in 1260 with Bonaventure present. Orlando was dead more than twenty years before that consecration.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1218,
+   "jd_ut": 2165932.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.89,
+    "text": "Capricornus 17°54′",
+    "longitude": 287.892
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wounds on the Given Ground",
+   "stop": "Chiusi della Verna, the years without a document",
+   "date": "1220-01-01",
+   "date_confidence": "gap: no source places Orlando anywhere, or records any act of his, between the donation narrative and the notarial instrument of 6 May 1236. The date is a placeholder inside that silence.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1220,
+   "jd_ut": 2166662.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.4,
+    "text": "Capricornus 17°24′",
+    "longitude": 287.398
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wounds on the Given Ground",
+   "stop": "Monte della Verna, the seraph on land he gave away",
+   "date": "1224-09-14",
+   "date_confidence": "attested in Franciscan tradition, and not this file's event: the stigmata is Francis's own, recorded on saint_francis.journey.json with its own apparatus, the Chartula of Assisi among it. It stands here once, as the consequence of the donation, and is not restaged. Canonical pin inherited from saint_francis.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1224,
+   "jd_ut": 2168380.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 28.2,
+    "text": "Virgo 28°12′",
+    "longitude": 178.2
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wounds on the Given Ground",
+   "stop": "Chiusi della Verna, whether word came down the mile",
+   "date": "1224-10-01",
+   "date_confidence": "gap: no source records that Orlando learned of the stigmata, when he learned, or what he said. Nothing here is asserted beyond the silence, and the date is a placeholder.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1224,
+   "jd_ut": 2168397.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.03,
+    "text": "Libra 15°02′",
+    "longitude": 195.032
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Man in the Parchment",
+   "stop": "Poppi, the Guidi castle and the seller",
+   "date": "1236-05-06",
+   "date_confidence": "attested for the transaction, unresolved for the man: Mencherini's regesto names the seller Guidone de Puppio, Guido of Poppi. Which Guido this is could not be established, since the Guidi succession at Poppi in the 1230s is not documented in anything reachable. Coordinates corrected to the town; the gathered brief lay about a kilometre and a half south of it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1236,
+   "jd_ut": 2172632.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 22.32,
+    "text": "Taurus 22°19′",
+    "longitude": 52.321
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Man in the Parchment",
+   "stop": "Chiusi della Verna, the instrument of 6 May 1236",
+   "date": "1236-05-06",
+   "date_confidence": "attested, and verified directly in the primary edition the gathering pass could not open: Mencherini, Codice diplomatico della Verna e delle SS. Stimate (Florence, 1924), p. 685, regesto of the instrument. The brief supplied a nominative form, nobilis vir Orlandus de Catanis de castro Clusii, which appears nowhere in the edition; a full-text search for nobilis vir returns one hit, on p. 181, in an unrelated letter salutation. The correct wording is the genitive governed by ad favorem, quoted here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1236,
+   "jd_ut": 2172632.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 22.32,
+    "text": "Taurus 22°19′",
+    "longitude": 52.321
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 10.82,
+    "text": "Taurus 10°49′",
+    "longitude": 40.825
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 15.38,
+    "text": "Taurus 15°23′",
+    "longitude": 45.382
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 2.35,
+    "text": "Gemini 2°21′",
+    "longitude": 62.348
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 15.81,
+    "text": "Aries 15°49′",
+    "longitude": 15.809
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 5.99,
+    "text": "Sagittarius 6°00′",
+    "longitude": 245.993
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 5.19,
+    "text": "Gemini 5°11′",
+    "longitude": 65.191
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Man in the Parchment",
+   "stop": "Chiusi della Verna, the title no notary wrote",
+   "date": "1236-05-07",
+   "date_confidence": "attested by absence, and checked against the primary edition: the phrase de castro Clusii occurs four times in the whole codex, pp. 123, 199, 685, 690, and on three of those it is a place-of-action formula rather than a style of the lords. Comes de Clusio appears at p. 64 and de Clusi at pp. 62 and 66, for other men and other centuries. The date only holds this stop beside the instrument it comments on.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1236,
+   "jd_ut": 2172633.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.28,
+    "text": "Taurus 23°17′",
+    "longitude": 53.28
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Man in the Parchment",
+   "stop": "Abbey of Santa Fiora, quondam domini Orlandi",
+   "date": "1237-09-04",
+   "date_confidence": "attested: Mencherini's codex records dominus Orlandus quondam domini Orlandi lending money to the abbey. The act is the son's; it is entered here because the two words quondam domini are the only record of the father's death that exists.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1237,
+   "jd_ut": 2173118.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 18.23,
+    "text": "Virgo 18°14′",
+    "longitude": 168.232
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 14.24,
+    "text": "Aquarius 14°15′",
+    "longitude": 314.245
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 7.29,
+    "text": "Libra 7°18′",
+    "longitude": 187.293
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 4.85,
+    "text": "Virgo 4°51′",
+    "longitude": 154.848
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 25.78,
+    "text": "Libra 25°47′",
+    "longitude": 205.776
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 2.45,
+    "text": "Capricornus 2°27′",
+    "longitude": 272.451
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.17,
+    "text": "Cancer 1°10′",
+    "longitude": 91.168
+   }
+  },
+  {
+   "segment": "The Man in the Parchment",
+   "stop": "Chiusi della Verna, a death sixteen months wide",
+   "date": "1237-09-04",
+   "date_confidence": "attested only as an interval: after 6 May 1236 and before 4 September 1237. No cause, no exact day, no place of death and no burial record survives. Family burial at Santa Maria degli Angeli is documented for later descendants of the line, not for the donor himself.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1237,
+   "jd_ut": 2173118.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 18.23,
+    "text": "Virgo 18°14′",
+    "longitude": 168.232
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 14.24,
+    "text": "Aquarius 14°15′",
+    "longitude": 314.245
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 7.29,
+    "text": "Libra 7°18′",
+    "longitude": 187.293
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 4.85,
+    "text": "Virgo 4°51′",
+    "longitude": 154.848
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 25.78,
+    "text": "Libra 25°47′",
+    "longitude": 205.776
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 2.45,
+    "text": "Capricornus 2°27′",
+    "longitude": 272.451
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.17,
+    "text": "Cancer 1°10′",
+    "longitude": 91.168
+   }
+  },
+  {
+   "segment": "The Man in the Parchment",
+   "stop": "Chiusi della Verna, nothing in his own hand",
+   "date": "1237-10-01",
+   "date_confidence": "attested by absence across Mencherini's codex: every surviving document naming Orlando is a legal or notarial record of a transaction involving him, never a text he composed. The date is a placeholder just past the death window.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1237,
+   "jd_ut": 2173145.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 14.88,
+    "text": "Libra 14°53′",
+    "longitude": 194.882
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Other Orlando",
+   "stop": "Sarna, the podesteria of 1250",
+   "date": "1250-01-01",
+   "date_confidence": "reconstruction, and a correction: popular accounts give the office to the donor, who had been dead thirteen years. The 1250 podesteria itself could not be verified in anything reachable. Coordinates corrected to the frazione of Chiusi della Verna; the gathered brief placed Sarna on the valley floor outside the comune. It.wikipedia does list Sarna among the villages of the 967 fief, so the family's tie to the place is real.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1250,
+   "jd_ut": 2177620.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.13,
+    "text": "Capricornus 18°08′",
+    "longitude": 288.126
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Other Orlando",
+   "stop": "Chiusi della Verna, the bishop takes the country back",
+   "date": "1261-01-01",
+   "date_confidence": "attested for the act, and explicitly not the donor's: it.wikipedia 'Chiusi della Verna' names the three brothers Orlando, Alberto and Niccolo di Catenaia left with the castle alone. This Orlando is the son. The donor had been dead twenty-four years, and local histories that fold this quarrel into his life are the reason his biography appears to run a hundred years.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1261,
+   "jd_ut": 2181638.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.46,
+    "text": "Capricornus 18°28′",
+    "longitude": 288.46
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Other Orlando",
+   "stop": "Arezzo, the letters nobody can produce",
+   "date": "1270-01-01",
+   "date_confidence": "unattested, and the exclusion is stronger than the brief made it: Guittone d'Arezzo was born between 1230 and 1240 per the Dizionario Biografico degli Italiani, so he was at most seven when the donor died. The DBI also lists Guittone's known correspondents and dedicatees, Marzucco Iscornigiano, Guido Guidi, Loderengo Andalo among them, and includes no Orlando of Chiusi at all, noting only that the recipients of some letters remain obscure.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1270,
+   "jd_ut": 2184925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "between",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.27,
+    "text": "Capricornus 18°16′",
+    "longitude": 288.272
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Other Orlando",
+   "stop": "Campaldino, the counsel in nobody's chronicle",
+   "date": "1289-06-11",
+   "date_confidence": "date and place attested, the episode not: en. and it.wikipedia fix the battle to 11 June 1289 on the plain between Poppi and Pratovecchio, near the church of Certomondo. Neither account mentions any Orlando di Chiusi advising the Florentines; the named commanders and advisers are Amerigo di Narbona, Guillaume de Durfort, Corso Donati, Vieri de' Cerchi, Barone dei Mangiadori, Bindo degli Adimari, Ugolino de' Rossi. This is popular tradition with no traceable source, not a real episode misfiled. Coordinates corrected by about 2.4 km from the gathered brief.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1289,
+   "jd_ut": 2192026.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 26.9,
+    "text": "Gemini 26°54′",
+    "longitude": 86.895
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 11.97,
+    "text": "Pisces 11°58′",
+    "longitude": 341.972
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 22.27,
+    "text": "Cancer 22°16′",
+    "longitude": 112.275
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 6.43,
+    "text": "Leo 6°26′",
+    "longitude": 126.431
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 22.17,
+    "text": "Gemini 22°10′",
+    "longitude": 82.169
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 8.68,
+    "text": "Gemini 8°41′",
+    "longitude": 68.676
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 27.17,
+    "text": "Pisces 27°10′",
+    "longitude": 357.169
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Papers That Made Him a Count",
+   "stop": "Chiusi della Verna, the confirmation of 1274",
+   "date": "1274-01-01",
+   "date_confidence": "reported, not tested: the forgery verdict on the 1274 confirmation comes from modern diplomatic analysis as relayed through Licciardello's reconstruction, which could not be retrieved this pass. The instrument itself was not opened, reproduced or seen. The month and day are unknown.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1274,
+   "jd_ut": 2186386.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.3,
+    "text": "Capricornus 18°18′",
+    "longitude": 288.301
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Papers That Made Him a Count",
+   "stop": "Chiusi della Verna, the century-late book that supplies everything",
+   "date": "1330-01-01",
+   "date_confidence": "attested for the text, interpretive for its placement: the Actus beati Francisci et sociorum eius is attributed to Ugolino Brunforte da Montegiorgio and dated by it.wikipedia between 1322 and 1337 depending on the page, so it is given here as c.1320s-1340s. The stop sits at Orlando's own castle, not at Montegiorgio in the Marche, which is Ugolino's place and one Orlando never went near. The year only orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1330,
+   "jd_ut": 2206840.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "interpretive",
+    "year only",
+    "ordering",
+    "between",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.71,
+    "text": "Capricornus 18°43′",
+    "longitude": 288.71
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Papers That Made Him a Count",
+   "stop": "Chiusi della Verna, the arms the town paints for him",
+   "date": "1500-01-01",
+   "date_confidence": "later civic memory, not personal arms: it.wikipedia gives the comune's blazon as di rosso, alla fascia cucita di azzurro, caricata di tre gigli d'oro, sormontata da una croce gigliata dello stesso, which is a cross flory, not a plain gilded cross as the gathered brief rendered it. No seal or shield of Orlando's own survives on any act. The date is a placeholder and carries no evidential weight.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1500,
+   "jd_ut": 2268932.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.45,
+    "text": "Capricornus 19°27′",
+    "longitude": 289.446
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Papers That Made Him a Count",
+   "stop": "La Verna, two canvases of 1877",
+   "date": "1877-01-01",
+   "date_confidence": "attested: it.wikipedia 'Santuario della Verna' records two canvases of 1877 by the Florentine painter Ferdinando Folchi on the walls before the tramezzo of Santa Maria degli Angeli, one showing the meeting of Francis and Orlando at San Leo.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1877,
+   "jd_ut": 2406620.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.75,
+    "text": "Capricornus 10°45′",
+    "longitude": 280.75
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 34,
+  "dated": 34,
+  "unparsed": 0,
+  "day": 4,
+  "month": 0,
+  "year": 30
+ },
+ "parse_failures": []
+}

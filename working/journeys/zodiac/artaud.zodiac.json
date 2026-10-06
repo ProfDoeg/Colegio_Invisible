@@ -1,0 +1,2695 @@
+{
+ "slug": "artaud",
+ "traveler": "Antonin Artaud",
+ "title": "Le Voyage au bout du corps: Marseille to Ivry",
+ "years": "1896–1948",
+ "years_parsed": {
+  "first": 1896,
+  "last": 1948
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "La blessure à la racine: Marseille & Smyrne",
+  "stop": "Marseille, 4 rue du Jardin-des-Plantes",
+  "date": "1896-09-04",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1896,
+  "jd_ut": 2413806.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Virgo",
+   "degree": 11.93,
+   "text": "Virgo 11°56′",
+   "longitude": 161.927
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 24.21,
+   "text": "Cancer 24°13′",
+   "longitude": 114.213
+  },
+  "mercury": {
+   "sign": "Libra",
+   "degree": 6.94,
+   "text": "Libra 6°57′",
+   "longitude": 186.944
+  },
+  "venus": {
+   "sign": "Virgo",
+   "degree": 27.4,
+   "text": "Virgo 27°24′",
+   "longitude": 177.4
+  },
+  "mars": {
+   "sign": "Gemini",
+   "degree": 10.71,
+   "text": "Gemini 10°42′",
+   "longitude": 70.707
+  },
+  "jupiter": {
+   "sign": "Leo",
+   "degree": 24.97,
+   "text": "Leo 24°58′",
+   "longitude": 144.966
+  },
+  "saturn": {
+   "sign": "Scorpio",
+   "degree": 14.46,
+   "text": "Scorpio 14°28′",
+   "longitude": 224.459
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1896–1948",
+  "first_year_parsed": 1896
+ },
+ "stops": [
+  {
+   "segment": "La blessure à la racine: Marseille & Smyrne",
+   "stop": "Marseille, 4 rue du Jardin-des-Plantes",
+   "date": "1896-09-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413806.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 11.93,
+    "text": "Virgo 11°56′",
+    "longitude": 161.927
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 24.21,
+    "text": "Cancer 24°13′",
+    "longitude": 114.213
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 6.94,
+    "text": "Libra 6°57′",
+    "longitude": 186.944
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 27.4,
+    "text": "Virgo 27°24′",
+    "longitude": 177.4
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 10.71,
+    "text": "Gemini 10°42′",
+    "longitude": 70.707
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 24.97,
+    "text": "Leo 24°58′",
+    "longitude": 144.966
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 14.46,
+    "text": "Scorpio 14°28′",
+    "longitude": 224.459
+   }
+  },
+  {
+   "segment": "La blessure à la racine: Marseille & Smyrne",
+   "stop": "Marseille, the sickroom of the meningitis",
+   "date": "1901-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415505.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.92,
+    "text": "Taurus 9°55′",
+    "longitude": 39.925
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La blessure à la racine: Marseille & Smyrne",
+   "stop": "Smyrna, the grandmothers' city",
+   "date": "1905-08-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417072.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.49,
+    "text": "Leo 21°29′",
+    "longitude": 141.487
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La blessure à la racine: Marseille & Smyrne",
+   "stop": "Marseille, Collège du Sacré-Cœur",
+   "date": "1910-10-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418945.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.94,
+    "text": "Libra 6°56′",
+    "longitude": 186.939
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La blessure à la racine: Marseille & Smyrne",
+   "stop": "Marseille, La Rougière: the first house of health",
+   "date": "1915-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420649.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.43,
+    "text": "Gemini 9°26′",
+    "longitude": 69.429
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La blessure à la racine: Marseille & Smyrne",
+   "stop": "Digne, the two months of the soldier",
+   "date": "1916-08-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2421076.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.39,
+    "text": "Leo 8°24′",
+    "longitude": 128.392
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La blessure à la racine: Marseille & Smyrne",
+   "stop": "Le Chanet, Neuchâtel: the pact of laudanum",
+   "date": "1918-11-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421898.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.76,
+    "text": "Scorpio 7°46′",
+    "longitude": 217.759
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: l'acteur et les surréalistes",
+   "stop": "Villejuif, the house of Dr Toulouse",
+   "date": "1920-03-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422384.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.13,
+    "text": "Pisces 10°08′",
+    "longitude": 340.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: l'acteur et les surréalistes",
+   "stop": "Théâtre de l'Œuvre, first stage",
+   "date": "1921-02-17",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422737.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 27.81,
+    "text": "Aquarius 27°48′",
+    "longitude": 327.806
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: l'acteur et les surréalistes",
+   "stop": "Théâtre de l'Atelier, place Dullin: the actor who plays with his organs",
+   "date": "1921-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422963.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.27,
+    "text": "Libra 7°16′",
+    "longitude": 187.27
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: l'acteur et les surréalistes",
+   "stop": "3 rue de Grenelle, the letters to Jacques Rivière",
+   "date": "1923-06-05",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423575.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.32,
+    "text": "Gemini 13°19′",
+    "longitude": 73.324
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 27.54,
+    "text": "Aquarius 27°33′",
+    "longitude": 327.543
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 3.31,
+    "text": "Gemini 3°19′",
+    "longitude": 63.314
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 17.33,
+    "text": "Taurus 17°20′",
+    "longitude": 47.334
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 3.36,
+    "text": "Cancer 3°22′",
+    "longitude": 93.358
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 10.51,
+    "text": "Scorpio 10°31′",
+    "longitude": 220.51
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 13.57,
+    "text": "Libra 13°34′",
+    "longitude": 193.573
+   }
+  },
+  {
+   "segment": "Paris: l'acteur et les surréalistes",
+   "stop": "15 rue de Grenelle, the Bureau of Surrealist Researches",
+   "date": "1925-01-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424177.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 6.56,
+    "text": "Aquarius 6°34′",
+    "longitude": 306.563
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 9.13,
+    "text": "Pisces 9°08′",
+    "longitude": 339.131
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 14.0,
+    "text": "Capricornus 14°00′",
+    "longitude": 283.999
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 15.07,
+    "text": "Capricornus 15°04′",
+    "longitude": 285.069
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 23.97,
+    "text": "Aries 23°58′",
+    "longitude": 23.966
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 9.01,
+    "text": "Capricornus 9°00′",
+    "longitude": 279.008
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 13.76,
+    "text": "Scorpio 13°45′",
+    "longitude": 223.757
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Paris: l'acteur et les surréalistes",
+   "stop": "Paris, L'Ombilic des Limbes",
+   "date": "1925-07-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424332.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.64,
+    "text": "Cancer 8°38′",
+    "longitude": 98.641
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: l'acteur et les surréalistes",
+   "stop": "Studios de Billancourt, Marat in Gance's Napoléon",
+   "date": "1926-06-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424681.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.15,
+    "text": "Gemini 23°09′",
+    "longitude": 83.147
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: l'acteur et les surréalistes",
+   "stop": "Café Le Prophète, the expulsion",
+   "date": "1926-11-26",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424845.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 2.99,
+    "text": "Sagittarius 2°59′",
+    "longitude": 242.987
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le théâtre et son double: cinéma, Jarry, Cruauté",
+   "stop": "Opéra de Paris, the triple screen",
+   "date": "1927-04-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424977.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 16.2,
+    "text": "Aries 16°12′",
+    "longitude": 16.197
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 21.8,
+    "text": "Gemini 21°48′",
+    "longitude": 81.8
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 18.79,
+    "text": "Pisces 18°47′",
+    "longitude": 348.789
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 18.25,
+    "text": "Taurus 18°15′",
+    "longitude": 48.254
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 24.18,
+    "text": "Gemini 24°11′",
+    "longitude": 84.179
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 18.67,
+    "text": "Pisces 18°40′",
+    "longitude": 348.67
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 7.27,
+    "text": "Sagittarius 7°16′",
+    "longitude": 247.269
+   }
+  },
+  {
+   "segment": "Le théâtre et son double: cinéma, Jarry, Cruauté",
+   "stop": "Théâtre de Grenelle, first night of the Théâtre Alfred Jarry",
+   "date": "1927-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425032.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.52,
+    "text": "Gemini 9°31′",
+    "longitude": 69.525
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le théâtre et son double: cinéma, Jarry, Cruauté",
+   "stop": "Studios de Billancourt, the monk Massieu, facing Rouen",
+   "date": "1927-10-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425168.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 20.65,
+    "text": "Libra 20°39′",
+    "longitude": 200.646
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le théâtre et son double: cinéma, Jarry, Cruauté",
+   "stop": "Théâtre de l'Avenue, the scandal of the Dream Play",
+   "date": "1928-06-02",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425399.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.21,
+    "text": "Gemini 11°13′",
+    "longitude": 71.209
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 24.77,
+    "text": "Scorpio 24°46′",
+    "longitude": 234.768
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 4.65,
+    "text": "Cancer 4°39′",
+    "longitude": 94.65
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 3.13,
+    "text": "Gemini 3°08′",
+    "longitude": 63.133
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 12.11,
+    "text": "Aries 12°07′",
+    "longitude": 12.109
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 29.71,
+    "text": "Aries 29°43′",
+    "longitude": 29.713
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 16.08,
+    "text": "Sagittarius 16°05′",
+    "longitude": 256.075
+   }
+  },
+  {
+   "segment": "Le théâtre et son double: cinéma, Jarry, Cruauté",
+   "stop": "NRF, rue de Grenelle: the First Manifesto of the Theatre of Cruelty",
+   "date": "1932-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426981.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.6,
+    "text": "Libra 7°36′",
+    "longitude": 187.602
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le théâtre et son double: cinéma, Jarry, Cruauté",
+   "stop": "Sorbonne, amphithéâtre: Le Théâtre et la Peste",
+   "date": "1933-04-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427168.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.75,
+    "text": "Aries 15°45′",
+    "longitude": 15.751
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 17.2,
+    "text": "Leo 17°12′",
+    "longitude": 137.195
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 24.63,
+    "text": "Pisces 24°38′",
+    "longitude": 354.631
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 11.7,
+    "text": "Aries 11°42′",
+    "longitude": 11.701
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.07,
+    "text": "Virgo 1°04′",
+    "longitude": 151.069
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 14.95,
+    "text": "Virgo 14°57′",
+    "longitude": 164.95
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 14.07,
+    "text": "Aquarius 14°04′",
+    "longitude": 314.067
+   }
+  },
+  {
+   "segment": "Le théâtre et son double: cinéma, Jarry, Cruauté",
+   "stop": "Folies-Wagram, Les Cenci",
+   "date": "1935-05-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427928.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 14.55,
+    "text": "Taurus 14°33′",
+    "longitude": 44.552
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.64,
+    "text": "Gemini 23°39′",
+    "longitude": 83.642
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 24.48,
+    "text": "Taurus 24°29′",
+    "longitude": 54.479
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 23.17,
+    "text": "Gemini 23°10′",
+    "longitude": 83.166
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 6.95,
+    "text": "Libra 6°57′",
+    "longitude": 186.945
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 18.86,
+    "text": "Scorpio 18°52′",
+    "longitude": 228.862
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 8.18,
+    "text": "Pisces 8°11′",
+    "longitude": 338.18
+   }
+  },
+  {
+   "segment": "La montagne des signes: Mexique & Ciguri",
+   "stop": "Antwerp, embarkation on the Albertville",
+   "date": "1936-01-10",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428177.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.58,
+    "text": "Capricornus 18°35′",
+    "longitude": 288.575
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La montagne des signes: Mexique & Ciguri",
+   "stop": "Havana, the sorcerer's little sword",
+   "date": "1936-01-30",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428197.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 8.93,
+    "text": "Aquarius 8°56′",
+    "longitude": 308.93
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La montagne des signes: Mexique & Ciguri",
+   "stop": "Veracruz, landing in Mexico",
+   "date": "1936-02-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428205.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 17.05,
+    "text": "Aquarius 17°03′",
+    "longitude": 317.046
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 11.71,
+    "text": "Leo 11°42′",
+    "longitude": 131.706
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 4.28,
+    "text": "Aquarius 4°17′",
+    "longitude": 304.278
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 11.45,
+    "text": "Capricornus 11°27′",
+    "longitude": 281.454
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 18.27,
+    "text": "Pisces 18°16′",
+    "longitude": 348.269
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 18.69,
+    "text": "Sagittarius 18°41′",
+    "longitude": 258.691
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 9.43,
+    "text": "Pisces 9°26′",
+    "longitude": 339.433
+   }
+  },
+  {
+   "segment": "La montagne des signes: Mexique & Ciguri",
+   "stop": "Mexico City, the lectures at San Ildefonso",
+   "date": "1936-02-26",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428224.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 6.23,
+    "text": "Pisces 6°14′",
+    "longitude": 336.228
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La montagne des signes: Mexique & Ciguri",
+   "stop": "Chihuahua, the rail-head of the sierra",
+   "date": "1936-08-25",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428405.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 1.6,
+    "text": "Virgo 1°36′",
+    "longitude": 151.603
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La montagne des signes: Mexique & Ciguri",
+   "stop": "The ascent, la Montagne des signes",
+   "date": "1936-09-05",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428416.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.24,
+    "text": "Virgo 12°15′",
+    "longitude": 162.242
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La montagne des signes: Mexique & Ciguri",
+   "stop": "Norogachic, among the Rarámuri",
+   "date": "1936-09-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428426.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 21.97,
+    "text": "Virgo 21°58′",
+    "longitude": 171.965
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La montagne des signes: Mexique & Ciguri",
+   "stop": "The rite of Ciguri, the dance of the peyote",
+   "date": "1936-10-03",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428444.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 9.6,
+    "text": "Libra 9°36′",
+    "longitude": 189.601
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La montagne des signes: Mexique & Ciguri",
+   "stop": "Saint-Nazaire, return on the Mexique",
+   "date": "1936-11-12",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428484.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 19.44,
+    "text": "Scorpio 19°26′",
+    "longitude": 229.436
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 25.62,
+    "text": "Libra 25°37′",
+    "longitude": 205.625
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 15.62,
+    "text": "Scorpio 15°37′",
+    "longitude": 225.619
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 24.19,
+    "text": "Sagittarius 24°12′",
+    "longitude": 264.194
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 28.42,
+    "text": "Virgo 28°25′",
+    "longitude": 178.424
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 25.65,
+    "text": "Sagittarius 25°39′",
+    "longitude": 265.648
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 15.46,
+    "text": "Pisces 15°28′",
+    "longitude": 345.464
+   }
+  },
+  {
+   "segment": "La canne de saint Patrick: Bruxelles & l'Irlande",
+   "stop": "Paris, the cane given by René Thomas",
+   "date": "1937-02-03",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428567.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 13.76,
+    "text": "Aquarius 13°46′",
+    "longitude": 313.759
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La canne de saint Patrick: Bruxelles & l'Irlande",
+   "stop": "Brussels, Maison d'Art: the broken engagement",
+   "date": "1937-05-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428671.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 26.64,
+    "text": "Taurus 26°38′",
+    "longitude": 56.637
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 5.19,
+    "text": "Virgo 5°11′",
+    "longitude": 155.191
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 16.68,
+    "text": "Taurus 16°41′",
+    "longitude": 46.676
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 20.85,
+    "text": "Aries 20°51′",
+    "longitude": 20.846
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 28.91,
+    "text": "Scorpio 28°54′",
+    "longitude": 238.905
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 27.38,
+    "text": "Capricornus 27°23′",
+    "longitude": 297.384
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 1.94,
+    "text": "Aries 1°56′",
+    "longitude": 1.941
+   }
+  },
+  {
+   "segment": "La canne de saint Patrick: Bruxelles & l'Irlande",
+   "stop": "Paris, Les Nouvelles Révélations de l'Être",
+   "date": "1937-07-28",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428742.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 4.5,
+    "text": "Leo 4°30′",
+    "longitude": 124.496
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La canne de saint Patrick: Bruxelles & l'Irlande",
+   "stop": "Cobh, landfall in Ireland",
+   "date": "1937-08-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428759.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 20.78,
+    "text": "Leo 20°47′",
+    "longitude": 140.781
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 19.66,
+    "text": "Scorpio 19°39′",
+    "longitude": 229.657
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 17.76,
+    "text": "Virgo 17°46′",
+    "longitude": 167.765
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 10.34,
+    "text": "Cancer 10°20′",
+    "longitude": 100.339
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 2.29,
+    "text": "Sagittarius 2°18′",
+    "longitude": 242.294
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 19.04,
+    "text": "Capricornus 19°03′",
+    "longitude": 289.044
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 4.11,
+    "text": "Aries 4°07′",
+    "longitude": 4.114
+   }
+  },
+  {
+   "segment": "La canne de saint Patrick: Bruxelles & l'Irlande",
+   "stop": "Galway, toward the islands",
+   "date": "1937-08-17",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428762.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 23.66,
+    "text": "Leo 23°40′",
+    "longitude": 143.664
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La canne de saint Patrick: Bruxelles & l'Irlande",
+   "stop": "Kilronan, Inishmore: among the fishermen",
+   "date": "1937-08-23",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428768.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 29.44,
+    "text": "Leo 29°26′",
+    "longitude": 149.441
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La canne de saint Patrick: Bruxelles & l'Irlande",
+   "stop": "Eoghanacht & Dún Aonghasa, the western rampart",
+   "date": "1937-08-30",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428775.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 6.2,
+    "text": "Virgo 6°12′",
+    "longitude": 156.198
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La canne de saint Patrick: Bruxelles & l'Irlande",
+   "stop": "Dublin, destitute",
+   "date": "1937-09-08",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428784.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 14.92,
+    "text": "Virgo 14°55′",
+    "longitude": 164.919
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La canne de saint Patrick: Bruxelles & l'Irlande",
+   "stop": "Milltown Park, the arrest at the Jesuit house",
+   "date": "1937-09-18",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428794.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 24.66,
+    "text": "Virgo 24°39′",
+    "longitude": 174.656
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La canne de saint Patrick: Bruxelles & l'Irlande",
+   "stop": "Cobh, deported aboard the Washington",
+   "date": "1937-09-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428805.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 5.43,
+    "text": "Libra 5°26′",
+    "longitude": 185.429
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 28.15,
+    "text": "Cancer 28°09′",
+    "longitude": 118.147
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 17.66,
+    "text": "Virgo 17°39′",
+    "longitude": 167.656
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 4.65,
+    "text": "Virgo 4°39′",
+    "longitude": 154.65
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 29.06,
+    "text": "Sagittarius 29°03′",
+    "longitude": 269.058
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.92,
+    "text": "Capricornus 17°55′",
+    "longitude": 287.916
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 1.01,
+    "text": "Aries 1°01′",
+    "longitude": 1.009
+   }
+  },
+  {
+   "segment": "Les stations d'asile",
+   "stop": "Le Havre, the first station",
+   "date": "1937-09-30",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428806.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.41,
+    "text": "Libra 6°25′",
+    "longitude": 186.411
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 11.8,
+    "text": "Leo 11°48′",
+    "longitude": 131.801
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 18.56,
+    "text": "Virgo 18°34′",
+    "longitude": 168.562
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 5.87,
+    "text": "Virgo 5°52′",
+    "longitude": 155.865
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 29.72,
+    "text": "Sagittarius 29°43′",
+    "longitude": 269.722
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.96,
+    "text": "Capricornus 17°58′",
+    "longitude": 287.965
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 0.93,
+    "text": "Aries 0°56′",
+    "longitude": 0.931
+   }
+  },
+  {
+   "segment": "Les stations d'asile",
+   "stop": "Quatre-Mares, Sotteville-lès-Rouen: the second station",
+   "date": "1937-10-16",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428822.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 22.21,
+    "text": "Libra 22°13′",
+    "longitude": 202.211
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Les stations d'asile",
+   "stop": "Sainte-Anne, Paris: Lacan pronounces",
+   "date": "1938-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428989.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.62,
+    "text": "Aries 10°37′",
+    "longitude": 10.617
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Les stations d'asile",
+   "stop": "Ville-Évrard, the hunger years, signed Antonin Nalpas",
+   "date": "1939-02-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429321.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 7.51,
+    "text": "Pisces 7°30′",
+    "longitude": 337.506
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 5.71,
+    "text": "Gemini 5°43′",
+    "longitude": 65.709
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 14.35,
+    "text": "Pisces 14°21′",
+    "longitude": 344.352
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 22.56,
+    "text": "Capricornus 22°34′",
+    "longitude": 292.562
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 17.16,
+    "text": "Sagittarius 17°09′",
+    "longitude": 257.156
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 13.35,
+    "text": "Pisces 13°21′",
+    "longitude": 343.349
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 15.42,
+    "text": "Aries 15°25′",
+    "longitude": 15.419
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Les stations d'asile",
+   "stop": "Chezal-Benoît, the ruse of the transfer",
+   "date": "1943-01-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430746.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 1.1,
+    "text": "Aquarius 1°06′",
+    "longitude": 301.103
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 7.06,
+    "text": "Leo 7°04′",
+    "longitude": 127.061
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 7.31,
+    "text": "Aquarius 7°19′",
+    "longitude": 307.311
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 17.05,
+    "text": "Aquarius 17°03′",
+    "longitude": 317.046
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 26.54,
+    "text": "Sagittarius 26°32′",
+    "longitude": 266.54
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 18.77,
+    "text": "Cancer 18°46′",
+    "longitude": 108.774
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 5.59,
+    "text": "Gemini 5°36′",
+    "longitude": 65.593
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Les stations d'asile",
+   "stop": "Rodez, arrival at the asylum of Dr Ferdière",
+   "date": "1943-02-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430766.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 21.4,
+    "text": "Aquarius 21°24′",
+    "longitude": 321.401
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 9.52,
+    "text": "Taurus 9°31′",
+    "longitude": 39.515
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 26.53,
+    "text": "Capricornus 26°32′",
+    "longitude": 296.526
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 12.02,
+    "text": "Pisces 12°01′",
+    "longitude": 342.022
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 11.11,
+    "text": "Capricornus 11°07′",
+    "longitude": 281.108
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 16.53,
+    "text": "Cancer 16°32′",
+    "longitude": 106.531
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 5.4,
+    "text": "Gemini 5°24′",
+    "longitude": 65.403
+   }
+  },
+  {
+   "segment": "Les stations d'asile",
+   "stop": "Rodez, the electroshocks: fifty-one comas",
+   "date": "1943-06-20",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430895.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 27.82,
+    "text": "Gemini 27°49′",
+    "longitude": 87.817
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 22.81,
+    "text": "Capricornus 22°48′",
+    "longitude": 292.806
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 5.12,
+    "text": "Gemini 5°07′",
+    "longitude": 65.121
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 12.99,
+    "text": "Leo 12°59′",
+    "longitude": 132.988
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 17.27,
+    "text": "Aries 17°16′",
+    "longitude": 17.274
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 27.71,
+    "text": "Cancer 27°43′",
+    "longitude": 117.713
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 17.46,
+    "text": "Gemini 17°28′",
+    "longitude": 77.461
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Les stations d'asile",
+   "stop": "Rodez, the apostasy and the tongues",
+   "date": "1945-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431546.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.92,
+    "text": "Aries 10°55′",
+    "longitude": 10.917
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "Ivry-sur-Seine, the clinic of Dr Delmas",
+   "date": "1946-05-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431966.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 4.16,
+    "text": "Gemini 4°10′",
+    "longitude": 64.16
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 27.06,
+    "text": "Pisces 27°04′",
+    "longitude": 357.059
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 27.51,
+    "text": "Taurus 27°31′",
+    "longitude": 57.512
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 2.25,
+    "text": "Cancer 2°15′",
+    "longitude": 92.248
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 16.14,
+    "text": "Leo 16°08′",
+    "longitude": 136.136
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 18.04,
+    "text": "Libra 18°02′",
+    "longitude": 198.04
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 21.62,
+    "text": "Cancer 21°37′",
+    "longitude": 111.623
+   }
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "Théâtre Sarah-Bernhardt, the homage",
+   "date": "1946-06-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431978.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 15.66,
+    "text": "Gemini 15°40′",
+    "longitude": 75.66
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 19.54,
+    "text": "Virgo 19°32′",
+    "longitude": 169.54
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 23.61,
+    "text": "Gemini 23°37′",
+    "longitude": 83.611
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 16.66,
+    "text": "Cancer 16°40′",
+    "longitude": 106.66
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 22.57,
+    "text": "Leo 22°34′",
+    "longitude": 142.57
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 17.55,
+    "text": "Libra 17°33′",
+    "longitude": 197.549
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 22.91,
+    "text": "Cancer 22°54′",
+    "longitude": 112.908
+   }
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "Galerie Pierre, the auction of the manuscripts",
+   "date": "1946-06-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431984.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 21.4,
+    "text": "Gemini 21°24′",
+    "longitude": 81.396
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 2.05,
+    "text": "Sagittarius 2°03′",
+    "longitude": 242.05
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 5.8,
+    "text": "Cancer 5°48′",
+    "longitude": 95.803
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 23.82,
+    "text": "Cancer 23°49′",
+    "longitude": 113.823
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 25.88,
+    "text": "Leo 25°53′",
+    "longitude": 145.877
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 17.46,
+    "text": "Libra 17°28′",
+    "longitude": 197.464
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 23.59,
+    "text": "Cancer 23°36′",
+    "longitude": 113.595
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "Théâtre du Vieux-Colombier, Artaud le Mômo before the world",
+   "date": "1947-01-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432198.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 21.97,
+    "text": "Capricornus 21°58′",
+    "longitude": 291.968
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 8.81,
+    "text": "Libra 8°49′",
+    "longitude": 188.809
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 15.51,
+    "text": "Capricornus 15°31′",
+    "longitude": 285.511
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 6.1,
+    "text": "Sagittarius 6°06′",
+    "longitude": 246.102
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 20.31,
+    "text": "Capricornus 20°19′",
+    "longitude": 290.309
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 22.41,
+    "text": "Scorpio 22°24′",
+    "longitude": 232.405
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 6.49,
+    "text": "Leo 6°29′",
+    "longitude": 126.49
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "Musée de l'Orangerie, before the Van Goghs",
+   "date": "1947-02-02",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432218.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.31,
+    "text": "Aquarius 12°19′",
+    "longitude": 312.311
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "Galerie Pierre, Portraits et dessins par Antonin Artaud",
+   "date": "1947-07-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432370.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 11.2,
+    "text": "Cancer 11°12′",
+    "longitude": 101.2
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 17.25,
+    "text": "Capricornus 17°15′",
+    "longitude": 287.253
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 26.87,
+    "text": "Cancer 26°52′",
+    "longitude": 116.866
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 24.45,
+    "text": "Gemini 24°27′",
+    "longitude": 84.45
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 2.03,
+    "text": "Gemini 2°02′",
+    "longitude": 62.03
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 17.94,
+    "text": "Scorpio 17°57′",
+    "longitude": 227.944
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 8.34,
+    "text": "Leo 8°20′",
+    "longitude": 128.336
+   }
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "Studios de la Radiodiffusion, rue François-Ier: recording the judgment",
+   "date": "1947-11-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432511.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 28.85,
+    "text": "Scorpio 28°51′",
+    "longitude": 238.846
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 10.96,
+    "text": "Pisces 10°57′",
+    "longitude": 340.957
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 9.26,
+    "text": "Scorpio 9°16′",
+    "longitude": 219.263
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 19.2,
+    "text": "Sagittarius 19°12′",
+    "longitude": 259.197
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 26.35,
+    "text": "Leo 26°21′",
+    "longitude": 146.346
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 6.3,
+    "text": "Sagittarius 6°18′",
+    "longitude": 246.303
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.56,
+    "text": "Leo 22°33′",
+    "longitude": 142.555
+   }
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "Radiodiffusion française, the ban",
+   "date": "1948-02-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432582.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.05,
+    "text": "Aquarius 11°03′",
+    "longitude": 311.05
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "Ivry, the crowning and the sentence",
+   "date": "1948-02-10",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432591.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 20.17,
+    "text": "Aquarius 20°10′",
+    "longitude": 320.174
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "The pavilion at Ivry, dawn of 4 March 1948",
+   "date": "1948-03-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432614.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 13.34,
+    "text": "Pisces 13°21′",
+    "longitude": 343.343
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 28.07,
+    "text": "Sagittarius 28°04′",
+    "longitude": 268.069
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 21.56,
+    "text": "Aquarius 21°33′",
+    "longitude": 321.558
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 25.06,
+    "text": "Aries 25°04′",
+    "longitude": 25.062
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 22.22,
+    "text": "Leo 22°13′",
+    "longitude": 142.222
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 26.32,
+    "text": "Sagittarius 26°19′",
+    "longitude": 266.324
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 17.42,
+    "text": "Leo 17°25′",
+    "longitude": 137.421
+   }
+  },
+  {
+   "segment": "Ivry: le jugement de dieu",
+   "stop": "Cimetière d'Ivry, the grave",
+   "date": "1948-03-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432618.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 17.35,
+    "text": "Pisces 17°21′",
+    "longitude": 347.347
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 15.68,
+    "text": "Aquarius 15°41′",
+    "longitude": 315.683
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 22.35,
+    "text": "Aquarius 22°21′",
+    "longitude": 322.354
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 29.68,
+    "text": "Aries 29°41′",
+    "longitude": 29.677
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 21.04,
+    "text": "Leo 21°02′",
+    "longitude": 141.042
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 26.79,
+    "text": "Sagittarius 26°47′",
+    "longitude": 266.788
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 17.15,
+    "text": "Leo 17°09′",
+    "longitude": 137.155
+   }
+  }
+ ],
+ "counts": {
+  "stops": 60,
+  "dated": 60,
+  "unparsed": 0,
+  "day": 25,
+  "month": 6,
+  "year": 29
+ },
+ "parse_failures": []
+}

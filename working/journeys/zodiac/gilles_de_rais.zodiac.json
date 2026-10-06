@@ -1,0 +1,2063 @@
+{
+ "slug": "gilles_de_rais",
+ "traveler": "Gilles de Montmorency-Laval, baron de Rais, Marshal of France",
+ "title": "The Marshal's Road: from the Loire of Joan of Arc to the gibbets of Nantes",
+ "years": "c. 1405-1440",
+ "years_parsed": {
+  "first": 1405,
+  "last": 1440
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Craon Inheritance",
+  "stop": "Champtocé-sur-Loire, birth in the castle chapel",
+  "date": "1405-01-01",
+  "date_confidence": "disputed: estimates run from 1396 to 1406, with September or October 1404 and 1405 most often cited; no birth record survives and the disagreement is not resolvable from the sources reached",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1405,
+  "jd_ut": 2234234.5,
+  "precision": "month",
+  "precision_triggers": [
+   "disputed",
+   "estimated",
+   "(soft-year) year range",
+   "(soft-year) year named with preposition"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 19.51,
+   "text": "Capricornus 19°31′",
+   "longitude": 289.513
+  },
+  "sun_range": [
+   "Capricornus",
+   "Aquarius"
+  ],
+  "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 1405-1440",
+  "first_year_parsed": 1405
+ },
+ "stops": [
+  {
+   "segment": "The Craon Inheritance",
+   "stop": "Champtocé-sur-Loire, birth in the castle chapel",
+   "date": "1405-01-01",
+   "date_confidence": "disputed: estimates run from 1396 to 1406, with September or October 1404 and 1405 most often cited; no birth record survives and the disagreement is not resolvable from the sources reached",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1405,
+   "jd_ut": 2234234.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "estimated",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.51,
+    "text": "Capricornus 19°31′",
+    "longitude": 289.513
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Craon Inheritance",
+   "stop": "Machecoul, the death of Guy de Rais",
+   "date": "1415-10-01",
+   "date_confidence": "attested to October 1415; the day is not given in the sources reached",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1415,
+   "jd_ut": 2238159.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.74,
+    "text": "Libra 15°44′",
+    "longitude": 195.737
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Craon Inheritance",
+   "stop": "Champtoceaux, the siege in the Breton civil war",
+   "date": "1420-05-01",
+   "date_confidence": "the siege ran May to July 1420 and ended in capitulation on 5 July; the February to May range given in the pool is wrong, and Gilles's personal presence is reconstruction, not attestation",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1420,
+   "jd_ut": 2239833.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 18.96,
+    "text": "Taurus 18°58′",
+    "longitude": 48.96
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Craon Inheritance",
+   "stop": "Chalonnes-sur-Loire, the marriage to Catherine de Thouars",
+   "date": "1422-06-26",
+   "date_confidence": "sources contradict: one gives an abduction and marriage in 1420 with papal validation in 1422 after her father's death, another gives the church ceremony itself on 26 June 1422; both may describe different acts, and the contradiction is left open",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1422,
+   "jd_ut": 2240619.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.01,
+    "text": "Cancer 12°01′",
+    "longitude": 102.01
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 28.18,
+    "text": "Virgo 28°11′",
+    "longitude": 178.183
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.67,
+    "text": "Gemini 22°40′",
+    "longitude": 82.666
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 7.07,
+    "text": "Cancer 7°04′",
+    "longitude": 97.072
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 23.61,
+    "text": "Aries 23°37′",
+    "longitude": 23.611
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 17.37,
+    "text": "Leo 17°22′",
+    "longitude": 137.373
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 5.49,
+    "text": "Libra 5°29′",
+    "longitude": 185.489
+   }
+  },
+  {
+   "segment": "The Marches of Maine",
+   "stop": "Le Mans, raiding the garrisons of Maine",
+   "date": "1427-01-01",
+   "date_confidence": "1427 is the year English Wikipedia gives for the start of active service; French Wikipedia dates his service from about 1420, so the beginning is not fixed",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1427,
+   "jd_ut": 2242269.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.17,
+    "text": "Capricornus 19°10′",
+    "longitude": 289.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marches of Maine",
+   "stop": "Blois, the convoy for the relief of Orléans",
+   "date": "1429-04-27",
+   "date_confidence": "the pool's 25 April is two or three days early; the relief convoy left Blois on 27 or 28 April 1429",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243116.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 14.94,
+    "text": "Taurus 14°56′",
+    "longitude": 44.938
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 28.0,
+    "text": "Aquarius 28°00′",
+    "longitude": 327.996
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 5.12,
+    "text": "Gemini 5°07′",
+    "longitude": 65.122
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 12.43,
+    "text": "Aries 12°26′",
+    "longitude": 12.432
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 11.22,
+    "text": "Virgo 11°13′",
+    "longitude": 161.216
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 24.77,
+    "text": "Pisces 24°46′",
+    "longitude": 354.77
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 2.32,
+    "text": "Capricornus 2°19′",
+    "longitude": 272.322
+   }
+  },
+  {
+   "segment": "The Deliverance of Orléans",
+   "stop": "Orléans, the relief force enters by the Burgundy gate",
+   "date": "1429-04-29",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243118.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 16.87,
+    "text": "Taurus 16°52′",
+    "longitude": 46.865
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 24.25,
+    "text": "Pisces 24°15′",
+    "longitude": 354.254
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 7.97,
+    "text": "Gemini 7°58′",
+    "longitude": 67.973
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 14.82,
+    "text": "Aries 14°49′",
+    "longitude": 14.823
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 11.57,
+    "text": "Virgo 11°34′",
+    "longitude": 161.572
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 25.16,
+    "text": "Pisces 25°09′",
+    "longitude": 355.157
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 2.24,
+    "text": "Capricornus 2°15′",
+    "longitude": 272.245
+   }
+  },
+  {
+   "segment": "The Deliverance of Orléans",
+   "stop": "Bastille Saint-Loup, the first bastille stormed",
+   "date": "1429-05-04",
+   "date_confidence": "4 May 1429, launched at midday; the 6 May carried in the Wikipedia article on Gilles de Rais is an error, since 6 May was the assault on Saint-Jean-le-Blanc and Les Augustins",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243123.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 21.68,
+    "text": "Taurus 21°41′",
+    "longitude": 51.676
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 26.18,
+    "text": "Taurus 26°11′",
+    "longitude": 56.179
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 14.0,
+    "text": "Gemini 14°00′",
+    "longitude": 74.001
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 20.81,
+    "text": "Aries 20°49′",
+    "longitude": 20.809
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 12.63,
+    "text": "Virgo 12°38′",
+    "longitude": 162.629
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 26.1,
+    "text": "Pisces 26°06′",
+    "longitude": 356.097
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 2.03,
+    "text": "Capricornus 2°02′",
+    "longitude": 272.028
+   }
+  },
+  {
+   "segment": "The Deliverance of Orléans",
+   "stop": "Les Tourelles, the bridge-fort carried",
+   "date": "1429-05-07",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243126.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 24.56,
+    "text": "Taurus 24°33′",
+    "longitude": 54.558
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 1.95,
+    "text": "Cancer 1°57′",
+    "longitude": 91.947
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 16.83,
+    "text": "Gemini 16°50′",
+    "longitude": 76.827
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 24.4,
+    "text": "Aries 24°24′",
+    "longitude": 24.405
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.37,
+    "text": "Virgo 13°22′",
+    "longitude": 163.37
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 26.64,
+    "text": "Pisces 26°38′",
+    "longitude": 356.641
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 1.88,
+    "text": "Capricornus 1°53′",
+    "longitude": 271.882
+   }
+  },
+  {
+   "segment": "The Deliverance of Orléans",
+   "stop": "Orléans, the siege lifted",
+   "date": "1429-05-08",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243127.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 25.52,
+    "text": "Taurus 25°31′",
+    "longitude": 55.518
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 13.81,
+    "text": "Cancer 13°48′",
+    "longitude": 103.806
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 17.63,
+    "text": "Gemini 17°38′",
+    "longitude": 77.63
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 25.6,
+    "text": "Aries 25°36′",
+    "longitude": 25.604
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.63,
+    "text": "Virgo 13°38′",
+    "longitude": 163.634
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 26.82,
+    "text": "Pisces 26°49′",
+    "longitude": 356.819
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 1.83,
+    "text": "Capricornus 1°50′",
+    "longitude": 271.831
+   }
+  },
+  {
+   "segment": "The Week of Victories and the Anointing",
+   "stop": "Jargeau, the storming of the town",
+   "date": "1429-06-12",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243162.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 28.96,
+    "text": "Gemini 28°58′",
+    "longitude": 88.962
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 20.47,
+    "text": "Libra 20°28′",
+    "longitude": 200.467
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 12.9,
+    "text": "Gemini 12°54′",
+    "longitude": 72.895
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 7.82,
+    "text": "Gemini 7°49′",
+    "longitude": 67.818
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 27.03,
+    "text": "Virgo 27°02′",
+    "longitude": 177.032
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 1.78,
+    "text": "Aries 1°47′",
+    "longitude": 1.781
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 29.52,
+    "text": "Sagittarius 29°31′",
+    "longitude": 269.523
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Week of Victories and the Anointing",
+   "stop": "Meung-sur-Loire, the bridge taken",
+   "date": "1429-06-15",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243165.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 1.82,
+    "text": "Cancer 1°49′",
+    "longitude": 91.821
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 3.72,
+    "text": "Sagittarius 3°43′",
+    "longitude": 243.723
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 13.45,
+    "text": "Gemini 13°27′",
+    "longitude": 73.454
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 11.46,
+    "text": "Gemini 11°27′",
+    "longitude": 71.458
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 28.47,
+    "text": "Virgo 28°28′",
+    "longitude": 178.474
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 2.07,
+    "text": "Aries 2°04′",
+    "longitude": 2.07
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 29.3,
+    "text": "Sagittarius 29°18′",
+    "longitude": 269.303
+   }
+  },
+  {
+   "segment": "The Week of Victories and the Anointing",
+   "stop": "Beaugency, the surrender",
+   "date": "1429-06-16",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243166.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.77,
+    "text": "Cancer 2°46′",
+    "longitude": 92.774
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 18.9,
+    "text": "Sagittarius 18°54′",
+    "longitude": 258.9
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 13.81,
+    "text": "Gemini 13°48′",
+    "longitude": 73.805
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 12.67,
+    "text": "Gemini 12°40′",
+    "longitude": 72.672
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 28.96,
+    "text": "Virgo 28°58′",
+    "longitude": 178.963
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 2.16,
+    "text": "Aries 2°10′",
+    "longitude": 2.161
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 29.23,
+    "text": "Sagittarius 29°14′",
+    "longitude": 269.229
+   }
+  },
+  {
+   "segment": "The Week of Victories and the Anointing",
+   "stop": "Patay, the English broken in the field",
+   "date": "1429-06-18",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243168.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 4.68,
+    "text": "Cancer 4°41′",
+    "longitude": 94.68
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 19.52,
+    "text": "Capricornus 19°31′",
+    "longitude": 289.519
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 14.75,
+    "text": "Gemini 14°45′",
+    "longitude": 74.754
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 15.1,
+    "text": "Gemini 15°06′",
+    "longitude": 75.102
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 29.95,
+    "text": "Virgo 29°57′",
+    "longitude": 179.953
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 2.33,
+    "text": "Aries 2°20′",
+    "longitude": 2.335
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 29.08,
+    "text": "Sagittarius 29°05′",
+    "longitude": 269.083
+   }
+  },
+  {
+   "segment": "The Week of Victories and the Anointing",
+   "stop": "Reims, marshal of France at the coronation",
+   "date": "1429-07-17",
+   "date_confidence": "attested for the marshalcy and the coronation; the identification of Gilles as one of the four knights who escorted the Sainte Ampoule is tradition rather than document, and the corpus's joan_of_arc file names the four without naming them",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243197.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.36,
+    "text": "Leo 2°21′",
+    "longitude": 122.358
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The March on Paris and the Last Campaigns",
+   "stop": "Montépilloy, the skirmish before Senlis",
+   "date": "1429-08-15",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243226.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 0.26,
+    "text": "Virgo 0°15′",
+    "longitude": 150.258
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 5.84,
+    "text": "Pisces 5°50′",
+    "longitude": 335.836
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 21.63,
+    "text": "Virgo 21°38′",
+    "longitude": 171.635
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 26.34,
+    "text": "Leo 26°20′",
+    "longitude": 146.338
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 3.85,
+    "text": "Scorpio 3°51′",
+    "longitude": 213.853
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 1.96,
+    "text": "Aries 1°57′",
+    "longitude": 1.956
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 26.22,
+    "text": "Sagittarius 26°13′",
+    "longitude": 266.218
+   }
+  },
+  {
+   "segment": "The March on Paris and the Last Campaigns",
+   "stop": "Paris, the assault on the Porte Saint-Honoré",
+   "date": "1429-09-08",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1429,
+   "jd_ut": 2243250.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 23.64,
+    "text": "Virgo 23°38′",
+    "longitude": 173.637
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 17.47,
+    "text": "Capricornus 17°28′",
+    "longitude": 287.469
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 18.96,
+    "text": "Libra 18°58′",
+    "longitude": 198.96
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 26.2,
+    "text": "Virgo 26°12′",
+    "longitude": 176.196
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 20.05,
+    "text": "Scorpio 20°03′",
+    "longitude": 230.048
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 29.12,
+    "text": "Pisces 29°07′",
+    "longitude": 359.119
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 26.4,
+    "text": "Sagittarius 26°24′",
+    "longitude": 266.398
+   }
+  },
+  {
+   "segment": "The March on Paris and the Last Campaigns",
+   "stop": "Lagny-sur-Marne, the siege lifted",
+   "date": "1432-08-01",
+   "date_confidence": "1432; the month is given as August by one lens only and is not fixed in the sources reached",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1432,
+   "jd_ut": 2244308.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 17.01,
+    "text": "Leo 17°01′",
+    "longitude": 137.014
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The March on Paris and the Last Campaigns",
+   "stop": "Champtocé, the death of Jean de Craon",
+   "date": "1432-11-01",
+   "date_confidence": "November 1432; the day is not given in the sources reached",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1432,
+   "jd_ut": 2244400.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 17.68,
+    "text": "Scorpio 17°41′",
+    "longitude": 227.676
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ruin of the House",
+   "stop": "Machecoul, the children begin to disappear",
+   "date": "1432-01-01",
+   "date_confidence": "the onset is disputed: the indictment-derived chronology gives about 1432, other accounts late 1433; nothing contemporary fixes it and neither figure is adopted here",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1432,
+   "jd_ut": 2244095.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.95,
+    "text": "Capricornus 18°57′",
+    "longitude": 288.947
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ruin of the House",
+   "stop": "Chinon, the fall of Georges de La Trémoille",
+   "date": "1433-06-01",
+   "date_confidence": "June 1433; the day is not given in the sources reached",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1433,
+   "jd_ut": 2244612.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 18.51,
+    "text": "Gemini 18°30′",
+    "longitude": 78.506
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ruin of the House",
+   "stop": "Orléans, the Mystère du siège d'Orléans",
+   "date": "1435-01-01",
+   "date_confidence": "1435; the run of performances is not precisely dated in the sources reached, and the whole enterprise is reported as tradition rather than as document",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1435,
+   "jd_ut": 2245191.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.22,
+    "text": "Capricornus 19°13′",
+    "longitude": 289.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ruin of the House",
+   "stop": "Ingrandes, the lands sold and the king's edict",
+   "date": "1435-07-01",
+   "date_confidence": "July 1435 for the royal edict; the sales run from about 1435 to 1437, and the place where the letters were issued is not named in the sources reached",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1435,
+   "jd_ut": 2245372.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 16.64,
+    "text": "Cancer 16°39′",
+    "longitude": 106.643
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ruin of the House",
+   "stop": "Machecoul, the chapel of the Holy Innocents",
+   "date": "1436-01-01",
+   "date_confidence": "about 1435 to 1436; the foundation is not precisely dated in the sources reached and rests on a single chronology",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245556.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.98,
+    "text": "Capricornus 18°59′",
+    "longitude": 288.977
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Barony of Retz",
+   "stop": "Château de Pouzauges, the Thouars castle",
+   "date": "1437-01-01",
+   "date_confidence": "held from 1420 or 1422; no date attaches to the acts named here beyond the indictment's span of 1432 to 1440",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1437,
+   "jd_ut": 2245922.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.75,
+    "text": "Capricornus 19°45′",
+    "longitude": 289.748
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Barony of Retz",
+   "stop": "La Roche-Bernard, the children reported missing",
+   "date": "1438-01-01",
+   "date_confidence": "no year is fixed; the testimony belongs to the span of disappearances running from about 1432 to 1440",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1438,
+   "jd_ut": 2246287.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.5,
+    "text": "Capricornus 19°30′",
+    "longitude": 289.5
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Barony of Retz",
+   "stop": "Hôtel de la Suze, Nantes",
+   "date": "1439-01-01",
+   "date_confidence": "no date attaches; the house is named in the 1440 indictment among those used across the whole span from 1432 to 1440",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1439,
+   "jd_ut": 2246652.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.25,
+    "text": "Capricornus 19°15′",
+    "longitude": 289.253
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Barony of Retz",
+   "stop": "Château de Tiffauges, the furnace",
+   "date": "1439-01-01",
+   "date_confidence": "the alchemical work at Tiffauges is dated by trial testimony to the years around 1438 and 1439; the tradition is firmer than the dating",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1439,
+   "jd_ut": 2246652.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "to the year",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.25,
+    "text": "Capricornus 19°15′",
+    "longitude": 289.253
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Barony of Retz",
+   "stop": "Tiffauges, the arrival of François Prelati",
+   "date": "1439-05-14",
+   "date_confidence": "the precise date of 14 May 1439 appears in one chronology and is corroborated by nothing else reached; treat it as reconstruction",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1439,
+   "jd_ut": 2246785.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.87,
+    "text": "Gemini 0°52′",
+    "longitude": 60.871
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 10.38,
+    "text": "Gemini 10°23′",
+    "longitude": 70.382
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 16.24,
+    "text": "Taurus 16°14′",
+    "longitude": 46.239
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 9.69,
+    "text": "Gemini 9°41′",
+    "longitude": 69.691
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 4.73,
+    "text": "Aries 4°44′",
+    "longitude": 4.728
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 26.65,
+    "text": "Capricornus 26°39′",
+    "longitude": 296.652
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 29.68,
+    "text": "Aries 29°41′",
+    "longitude": 29.677
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Nantes, the Two Courts",
+   "stop": "Saint-Étienne-de-Mer-Morte, the church broken open",
+   "date": "1440-05-15",
+   "date_confidence": "attested and commemorated on a plaque in the church; the ducal recapture that follows is dated 24 August 1440 by a single narrative source that was unreachable at verification",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247152.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 2.55,
+    "text": "Gemini 2°33′",
+    "longitude": 62.555
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 7.82,
+    "text": "Scorpio 7°49′",
+    "longitude": 217.824
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 8.32,
+    "text": "Gemini 8°19′",
+    "longitude": 68.318
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 20.29,
+    "text": "Aries 20°17′",
+    "longitude": 20.291
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 4.44,
+    "text": "Leo 4°26′",
+    "longitude": 124.435
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 0.86,
+    "text": "Pisces 0°52′",
+    "longitude": 330.865
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 11.95,
+    "text": "Taurus 11°57′",
+    "longitude": 41.953
+   }
+  },
+  {
+   "segment": "Nantes, the Two Courts",
+   "stop": "Machecoul, the arrest",
+   "date": "1440-09-15",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247275.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 0.85,
+    "text": "Libra 0°51′",
+    "longitude": 180.845
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 18.15,
+    "text": "Taurus 18°09′",
+    "longitude": 48.15
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 16.47,
+    "text": "Libra 16°28′",
+    "longitude": 196.475
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 17.24,
+    "text": "Virgo 17°15′",
+    "longitude": 167.244
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 20.93,
+    "text": "Libra 20°56′",
+    "longitude": 200.927
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 23.21,
+    "text": "Aquarius 23°13′",
+    "longitude": 323.21
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 18.92,
+    "text": "Taurus 18°55′",
+    "longitude": 48.917
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Nantes, the Two Courts",
+   "stop": "Nantes, the inquest and the innkeepers' testimony",
+   "date": "1440-09-18",
+   "date_confidence": "18 September 1440 for the deposition document; the secular inquest opens in the same week",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247278.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 3.8,
+    "text": "Libra 3°48′",
+    "longitude": 183.802
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 29.89,
+    "text": "Gemini 29°53′",
+    "longitude": 89.886
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 21.02,
+    "text": "Libra 21°01′",
+    "longitude": 201.015
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 20.98,
+    "text": "Virgo 20°59′",
+    "longitude": 170.981
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 22.96,
+    "text": "Libra 22°58′",
+    "longitude": 202.962
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.99,
+    "text": "Aquarius 22°59′",
+    "longitude": 322.989
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 18.79,
+    "text": "Taurus 18°47′",
+    "longitude": 48.79
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Nantes, the Two Courts",
+   "stop": "Château des ducs de Bretagne, the indictment read",
+   "date": "1440-10-13",
+   "date_confidence": "13 October 1440 for the bill of forty-nine articles; a first indictment in general terms was laid on 13 September, and the pool's dating of the articles to September conflates the two",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247303.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 28.64,
+    "text": "Libra 28°38′",
+    "longitude": 208.638
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 26.54,
+    "text": "Taurus 26°33′",
+    "longitude": 56.543
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 22.24,
+    "text": "Scorpio 22°14′",
+    "longitude": 232.238
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 22.26,
+    "text": "Libra 22°15′",
+    "longitude": 202.258
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 10.25,
+    "text": "Scorpio 10°15′",
+    "longitude": 220.25
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.26,
+    "text": "Aquarius 22°15′",
+    "longitude": 322.258
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 17.25,
+    "text": "Taurus 17°15′",
+    "longitude": 47.249
+   }
+  },
+  {
+   "segment": "Nantes, the Two Courts",
+   "stop": "Nantes, the servants questioned",
+   "date": "1440-10-17",
+   "date_confidence": "the confessions of Henriet and Poitou are taken in the second half of October 1440; the sources reached give the month only, so the day is placed",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 2.64,
+    "text": "Scorpio 2°39′",
+    "longitude": 212.644
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nantes, the Two Courts",
+   "stop": "The Tour Neuve, the confession",
+   "date": "1440-10-22",
+   "date_confidence": "the in-court confession is of 22 October 1440; 21 October was the separate out-of-court interrogation, and the pool dated the courtroom document to the wrong day",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247312.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.66,
+    "text": "Scorpio 7°40′",
+    "longitude": 217.662
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 22.64,
+    "text": "Virgo 22°39′",
+    "longitude": 172.642
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 25.73,
+    "text": "Scorpio 25°44′",
+    "longitude": 235.726
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 3.56,
+    "text": "Scorpio 3°33′",
+    "longitude": 213.557
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 16.62,
+    "text": "Scorpio 16°37′",
+    "longitude": 226.616
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.51,
+    "text": "Aquarius 22°30′",
+    "longitude": 322.507
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 16.55,
+    "text": "Taurus 16°33′",
+    "longitude": 46.548
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Nantes, the Two Courts",
+   "stop": "Nantes, the two courts sentence him",
+   "date": "1440-10-25",
+   "date_confidence": "attested for both ecclesiastical sentences; the secular sentence is known from the narrative accounts and does not appear in the surviving sentencing document",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247315.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 10.68,
+    "text": "Scorpio 10°41′",
+    "longitude": 220.68
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 28.19,
+    "text": "Libra 28°11′",
+    "longitude": 208.189
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 24.47,
+    "text": "Scorpio 24°28′",
+    "longitude": 234.466
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 7.33,
+    "text": "Scorpio 7°20′",
+    "longitude": 217.327
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 18.75,
+    "text": "Scorpio 18°45′",
+    "longitude": 228.755
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.65,
+    "text": "Aquarius 22°39′",
+    "longitude": 322.65
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 16.31,
+    "text": "Taurus 16°18′",
+    "longitude": 46.305
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Nantes, the Two Courts",
+   "stop": "Île de la Grande Biesse, the three gibbets",
+   "date": "1440-10-26",
+   "date_confidence": "attested for the date and the hanging; the two lenses give coordinates 400 metres apart for a meadow on an island that no longer exists, and the contradiction is not resolved",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247316.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 11.69,
+    "text": "Scorpio 11°41′",
+    "longitude": 221.686
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nantes, the Two Courts",
+   "stop": "Notre-Dame des Carmes, the burial",
+   "date": "1440-10-26",
+   "date_confidence": "attested for the burial and the church; the two lenses give coordinates 360 metres apart for the vanished convent and neither figure is sourced",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247316.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 11.69,
+    "text": "Scorpio 11°41′",
+    "longitude": 221.686
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 10.2,
+    "text": "Scorpio 10°12′",
+    "longitude": 220.204
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 23.71,
+    "text": "Scorpio 23°43′",
+    "longitude": 233.712
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 8.58,
+    "text": "Scorpio 8°35′",
+    "longitude": 218.583
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 19.47,
+    "text": "Scorpio 19°28′",
+    "longitude": 229.469
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.7,
+    "text": "Aquarius 22°42′",
+    "longitude": 322.704
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 16.22,
+    "text": "Taurus 16°13′",
+    "longitude": 46.224
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Long Afterlife",
+   "stop": "Paris, La Barbe bleue",
+   "date": "1697-01-01",
+   "date_confidence": "1697 for Perrault's collection; the identification of Gilles de Rais with Bluebeard is not traced earlier than the nineteenth century and modern scholarship treats it as speculative",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1697,
+   "jd_ut": 2340877.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.46,
+    "text": "Capricornus 11°28′",
+    "longitude": 281.464
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Afterlife",
+   "stop": "Chaussée de la Madeleine, Notre-Dame-de-Crée-Lait",
+   "date": "1867-01-01",
+   "date_confidence": "1867 for the disappearance of the monument; its erection is not dated in the sources reached, and the whole entry rests on one site that returned HTTP 404 at verification",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1867,
+   "jd_ut": 2402967.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.166
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Afterlife",
+   "stop": "Paris, Là-bas",
+   "date": "1891-02-15",
+   "date_confidence": "serialised from 15 February 1891 in L'Écho de Paris and issued in book form that April",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1891,
+   "jd_ut": 2411778.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 26.07,
+    "text": "Aquarius 26°04′",
+    "longitude": 326.068
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 16.62,
+    "text": "Taurus 16°37′",
+    "longitude": 46.623
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 1.75,
+    "text": "Aquarius 1°45′",
+    "longitude": 301.753
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 9.31,
+    "text": "Capricornus 9°19′",
+    "longitude": 279.312
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 14.51,
+    "text": "Aries 14°31′",
+    "longitude": 14.51
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 25.05,
+    "text": "Aquarius 25°03′",
+    "longitude": 325.048
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 15.3,
+    "text": "Virgo 15°18′",
+    "longitude": 165.295
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Long Afterlife",
+   "stop": "Paris, the trial documents printed",
+   "date": "1965-01-01",
+   "date_confidence": "1965 for the Pauvert edition; the English translation by Richard Robinson is dated 1991 by Open Library and 2004 by booksellers, and that contradiction is left open",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1965,
+   "jd_ut": 2438761.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.38,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.38
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Afterlife",
+   "stop": "Nantes, the mock rehabilitation",
+   "date": "1992-01-01",
+   "date_confidence": "1992 for the staged trial and for Prouteau's book; the earlier rehabilitation essay by Salomon Reinach, who died in 1932, is undated in the sources reached and no date is printed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1992,
+   "jd_ut": 2448622.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Afterlife",
+   "stop": "Tiffauges, the ruins",
+   "date": "2026-01-01",
+   "date_confidence": "present day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 2026,
+   "jd_ut": 2461041.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.58,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.576
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 21,
+  "month": 7,
+  "year": 16
+ },
+ "parse_failures": []
+}

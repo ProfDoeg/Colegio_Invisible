@@ -1,0 +1,1826 @@
+{
+ "slug": "francisco_salamone",
+ "traveler": "Francisco Salamone (Francesco Salamone)",
+ "title": "The Towers on the Grass: an Immigrant Engineer, a Governor's Four Years, and Sixty Buildings in the Pampa",
+ "years": "1897-1959",
+ "years_parsed": {
+  "first": 1897,
+  "last": 1959
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Leonforte and the Crossing",
+  "stop": "Leonforte, born into the builder's house",
+  "date": "1897-06-05",
+  "date_confidence": "attested; the Spanish and English encyclopedia articles agree on 5 June 1897. Two research passes give slightly different coordinates for the town (37.6389/14.3903 and 37.6497/14.3947); the latter is used here.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1897,
+  "jd_ut": 2414080.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 14.55,
+   "text": "Gemini 14°33′",
+   "longitude": 74.552
+  },
+  "moon": {
+   "sign": "Leo",
+   "degree": 4.85,
+   "text": "Leo 4°51′",
+   "longitude": 124.852
+  },
+  "mercury": {
+   "sign": "Taurus",
+   "degree": 26.07,
+   "text": "Taurus 26°04′",
+   "longitude": 56.067
+  },
+  "venus": {
+   "sign": "Taurus",
+   "degree": 4.84,
+   "text": "Taurus 4°51′",
+   "longitude": 34.843
+  },
+  "mars": {
+   "sign": "Leo",
+   "degree": 10.02,
+   "text": "Leo 10°01′",
+   "longitude": 130.022
+  },
+  "jupiter": {
+   "sign": "Virgo",
+   "degree": 2.47,
+   "text": "Virgo 2°28′",
+   "longitude": 152.471
+  },
+  "saturn": {
+   "sign": "Scorpio",
+   "degree": 26.22,
+   "text": "Scorpio 26°13′",
+   "longitude": 236.223
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1897-1959",
+  "first_year_parsed": 1897
+ },
+ "stops": [
+  {
+   "segment": "Leonforte and the Crossing",
+   "stop": "Leonforte, born into the builder's house",
+   "date": "1897-06-05",
+   "date_confidence": "attested; the Spanish and English encyclopedia articles agree on 5 June 1897. Two research passes give slightly different coordinates for the town (37.6389/14.3903 and 37.6497/14.3947); the latter is used here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2414080.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 14.55,
+    "text": "Gemini 14°33′",
+    "longitude": 74.552
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 4.85,
+    "text": "Leo 4°51′",
+    "longitude": 124.852
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 26.07,
+    "text": "Taurus 26°04′",
+    "longitude": 56.067
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 4.84,
+    "text": "Taurus 4°51′",
+    "longitude": 34.843
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 10.02,
+    "text": "Leo 10°01′",
+    "longitude": 130.022
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 2.47,
+    "text": "Virgo 2°28′",
+    "longitude": 152.471
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 26.22,
+    "text": "Scorpio 26°13′",
+    "longitude": 236.223
+   }
+  },
+  {
+   "segment": "Leonforte and the Crossing",
+   "stop": "Puerto de Buenos Aires, the family lands",
+   "date": "1905-01-01",
+   "date_confidence": "reconstruction: the English article gives only 'between 1903 and 1906'; the year shown is the midpoint of that window and appears in no source. Neither ship nor port of embarkation is recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416846.5,
+   "precision": "year",
+   "precision_triggers": [
+    "between",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.937
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leonforte and the Crossing",
+   "stop": "Escuela Técnica Otto Krause, the master builder's title",
+   "date": "1912-01-01",
+   "date_confidence": "reconstruction: attendance is attested (he is listed among the school's distinguished graduates) but no source gives a year. The date shown is a placeholder inside his school years, not a source date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Student's Titles",
+   "stop": "La Plata, the contested year at the university",
+   "date": "1915-01-01",
+   "date_confidence": "reconstruction, and the stage itself is contested: the Spanish article includes the Universidad Nacional de La Plata, the English article names only Córdoba. Neither gives a year; 1915 is not a source date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Student's Titles",
+   "stop": "Milan, a medal at the exhibition",
+   "date": "1919-01-01",
+   "date_confidence": "attested for the year and the city; the exhibition is not named and the awarded design is not described.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Student's Titles",
+   "stop": "Barcelona, the second medal",
+   "date": "1919-01-01",
+   "date_confidence": "attested for the year and the city; as with Milan, no exhibition is named and no catalogue entry has been located.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Student's Titles",
+   "stop": "Córdoba, architect and civil engineer",
+   "date": "1920-01-01",
+   "date_confidence": "contradiction, not resolved: the Spanish article gives 1920 as the graduation year, the English article gives 1917. The degrees themselves and the university are attested in both.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, the Practice and the Primary",
+   "stop": "Córdoba province, the first houses",
+   "date": "1922-01-01",
+   "date_confidence": "reconstruction: the Spanish article attests private houses and minor works in Córdoba in the early 1920s but gives no year. The date shown is a placeholder within the decade.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423055.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no month/day",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, the Practice and the Primary",
+   "stop": "Córdoba, the primary he loses",
+   "date": "1923-01-01",
+   "date_confidence": "attested for the year and the contest; the pin is the city of Córdoba, since the seat sought was that of the Punilla department in the same province and no single site is recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423420.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.56,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.56
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, the Practice and the Primary",
+   "stop": "Buenos Aires, marriage to Adolfina Croft",
+   "date": "1928-01-01",
+   "date_confidence": "attested for the year and the marriage; the place is given by no source. The English article says only that Adolfina Croft was the daughter of the Austro-Hungarian vice-consul stationed at Bahía Blanca, so siting the wedding there would be inference; the canonical Buenos Aires pin (inherited from victoria_ocampo.journey.json) is used instead.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, the Practice and the Primary",
+   "stop": "Las Varillas, the first municipal palace",
+   "date": "1935-05-01",
+   "date_confidence": "attested: the works annex dates the Las Varillas municipal building from May 1935 to 22 March 1936. An earlier research pass gave the range as 1934-1936, which belongs to the Villa María works instead.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427923.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.71,
+    "text": "Taurus 9°42′",
+    "longitude": 39.705
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 14.26,
+    "text": "Aries 14°16′",
+    "longitude": 14.264
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 13.86,
+    "text": "Taurus 13°51′",
+    "longitude": 43.855
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 17.34,
+    "text": "Gemini 17°20′",
+    "longitude": 77.34
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 7.89,
+    "text": "Libra 7°54′",
+    "longitude": 187.895
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 19.49,
+    "text": "Scorpio 19°29′",
+    "longitude": 229.489
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 7.81,
+    "text": "Pisces 7°49′",
+    "longitude": 337.811
+   }
+  },
+  {
+   "segment": "Córdoba, the Practice and the Primary",
+   "stop": "Villa María, the slaughterhouse in Córdoba",
+   "date": "1935-01-01",
+   "date_confidence": "attested within a range: the works annex brackets the Villa María works between 1934 and 1936 and does not narrow them further.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "between",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Governor's Commission",
+   "stop": "La Plata, Fresco takes the province",
+   "date": "1936-02-18",
+   "date_confidence": "attested for the date of Fresco's assumption of office; the commissioning relationship with Salamone is documented, the personal friendship is not.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428216.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 28.17,
+    "text": "Aquarius 28°10′",
+    "longitude": 328.17
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 25.42,
+    "text": "Sagittarius 25°25′",
+    "longitude": 265.419
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 3.18,
+    "text": "Aquarius 3°11′",
+    "longitude": 303.177
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 24.89,
+    "text": "Capricornus 24°53′",
+    "longitude": 294.89
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 26.78,
+    "text": "Pisces 26°47′",
+    "longitude": 356.783
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 20.39,
+    "text": "Sagittarius 20°23′",
+    "longitude": 260.387
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 10.74,
+    "text": "Pisces 10°44′",
+    "longitude": 340.739
+   }
+  },
+  {
+   "segment": "The Governor's Commission",
+   "stop": "Balcarce, the portal of the cemetery",
+   "date": "1936-01-01",
+   "date_confidence": "attested for the year (works annex, Balcarce cementerio 1936); no month recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428168.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.4,
+    "text": "Capricornus 9°24′",
+    "longitude": 279.401
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Governor's Commission",
+   "stop": "Balcarce, the wedding cake in the plaza",
+   "date": "1936-01-01",
+   "date_confidence": "attested for the fountain and the nickname (Forn, 2002) and for Plaza Libertad at Balcarce in 1936 (works annex). Contradiction flagged: the municipal palace the fountain is said to face appears only in the English article's undifferentiated list and not in the detailed Spanish annex, which lists seven other Balcarce works.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428168.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.4,
+    "text": "Capricornus 9°24′",
+    "longitude": 279.401
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Municipal Palaces",
+   "stop": "Guaminí, the palace beside the lagoon",
+   "date": "1937-01-01",
+   "date_confidence": "attested for the year; no month recorded. The saying quoted is dated only to the building years, roughly 1936-1940.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "approximation",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Municipal Palaces",
+   "stop": "Rauch, the palace and the unstable count",
+   "date": "1937-01-01",
+   "date_confidence": "attested for the year. Numeric contradiction flagged: the English article's works section says more than sixty buildings across twenty-five rural districts, while the figure seventy appears elsewhere inside the same article; the Spanish article says more than sixty.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Municipal Palaces",
+   "stop": "Coronel Pringles, the palace and the slaughterhouse",
+   "date": "1937-01-01",
+   "date_confidence": "attested for the year in both editions of his catalogue; no month given for either building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Municipal Palaces",
+   "stop": "Alberti, the tower sized against the horizon",
+   "date": "1937-01-01",
+   "date_confidence": "attested within a range: the works annex dates the Alberti municipal building 1937-1938. Coordinates corrected: an earlier pass placed the town twenty kilometres west of where it stands.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Municipal Palaces",
+   "stop": "Pellegrini, the palace and the misnamed town",
+   "date": "1937-01-01",
+   "date_confidence": "attested for the year (works annex: Pellegrini, municipalidad and matadero, 1937). Source error flagged: the English article calls the town Carlos Pellegrini, which is a different place in Santa Fe, and the mistake has propagated into coordinates roughly 185 kilometres off.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Municipal Palaces",
+   "stop": "Puan, the charge over the southwest",
+   "date": "1937-01-01",
+   "date_confidence": "reconstruction: a Puan municipal palace is listed in the biographical articles but not in the detailed works annex, and no year is given anywhere. The date shown falls inside the campaign, not on a source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Municipal Palaces",
+   "stop": "Laprida, the town given three buildings",
+   "date": "1937-01-01",
+   "date_confidence": "attested for the year; the works annex assigns the Laprida municipal palace, slaughterhouse and cemetery portal all to 1937, without months.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Municipal Palaces",
+   "stop": "Carhué, the palace inaugurated",
+   "date": "1938-12-03",
+   "date_confidence": "attested to the day for the inauguration (3 December 1938); the works annex dates construction 1937-1938. The 2014 national monument declaration is attested in the article on Carhué.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429235.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 10.17,
+    "text": "Sagittarius 10°10′",
+    "longitude": 250.169
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 12.81,
+    "text": "Aries 12°49′",
+    "longitude": 12.813
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 29.54,
+    "text": "Sagittarius 29°32′",
+    "longitude": 269.539
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 20.83,
+    "text": "Scorpio 20°50′",
+    "longitude": 230.833
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 24.37,
+    "text": "Libra 24°22′",
+    "longitude": 204.374
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 25.72,
+    "text": "Aquarius 25°43′",
+    "longitude": 325.723
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 10.98,
+    "text": "Aries 10°59′",
+    "longitude": 10.982
+   }
+  },
+  {
+   "segment": "The Portals of the Dead",
+   "stop": "Laprida, the cross taken off the train",
+   "date": "1937-01-01",
+   "date_confidence": "attested for the year of the portal. The interception scene comes from Forn's 2002 article and is not corroborated elsewhere. Superlative flagged: the biographical article calls the cross the second highest religious work in South America after the Cristo Redentor, while the article on Laprida claims only the second highest cross, thirty metres. No measurement source settles either version.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Portals of the Dead",
+   "stop": "Saldungaray, the Christ inside the circle",
+   "date": "1937-01-01",
+   "date_confidence": "attested for the year (works annex: Saldungaray cementerio 1937, matadero 1937). Coordinates corrected: two earlier passes placed the village ten and seventeen kilometres from where it stands.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Portals of the Dead",
+   "stop": "Salliqueló, the gate and the shed",
+   "date": "1937-01-01",
+   "date_confidence": "attested within a range: the works annex dates the Salliqueló cemetery portal and slaughterhouse 1937-1938. Coordinates corrected: an earlier pass placed the town about sixty-five kilometres south of its real position.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Portals of the Dead",
+   "stop": "Carhué, the Cristo del Lago",
+   "date": "1937-01-01",
+   "date_confidence": "contradiction, not resolved: the works annex enters the Carhué cross under 1938, while the article on Carhué says it was emplaced in 1937, made with the sculptor Santiago Chierico. There is no Salamone cemetery portal at Carhué; earlier passes that reported one were in error.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "placed (the date)",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Portals of the Dead",
+   "stop": "Azul, the archangel over the gate",
+   "date": "1938-01-01",
+   "date_confidence": "attested for the works annex year; the figure over the gate is described in the Spanish article as the archangel Gabriel, elsewhere as an angel of death. Coordinates for the Azul cemetery differ between research passes by about three kilometres.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428899.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.926
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Portals of the Dead",
+   "stop": "Pilar, the portal near the capital",
+   "date": "1938-01-01",
+   "date_confidence": "attested for the year (works annex: Pilar cementerio 1938, Plaza San Martín 1938). Correction noted: Pilar is a district of Greater Buenos Aires about fifty kilometres from the capital, not of the provincial interior.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428899.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.926
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Slaughterhouses",
+   "stop": "Villa Epecuén, the slaughterhouse by the salt lake",
+   "date": "1937-01-01",
+   "date_confidence": "attested: the works annex dates the Villa Epecuén slaughterhouse from 1937 to 3 December 1938. Coordinates corrected: earlier passes placed the resort sixteen to eighteen kilometres from its real position, and one pass duplicated this building as a separate matadero at Carhué town.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition, placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 29.04,
+    "text": "Leo 29°02′",
+    "longitude": 149.041
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 29.49,
+    "text": "Capricornus 29°29′",
+    "longitude": 299.492
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 24.07,
+    "text": "Aquarius 24°04′",
+    "longitude": 324.068
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 27.33,
+    "text": "Libra 27°20′",
+    "longitude": 207.334
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 6.8,
+    "text": "Capricornus 6°48′",
+    "longitude": 276.795
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 17.02,
+    "text": "Pisces 17°01′",
+    "longitude": 347.018
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Slaughterhouses",
+   "stop": "Tornquist, the pair under the sierra",
+   "date": "1937-01-01",
+   "date_confidence": "attested for the year of the slaughterhouse in the works annex; the municipal palace is attested in both biographical articles without a month.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Slaughterhouses",
+   "stop": "Chillar, the delegation building",
+   "date": "1937-01-01",
+   "date_confidence": "attested for the year (works annex: Delegación de Chillar, 1937, listed under Azul). Source error flagged: the English article lists Chillar as having a municipal palace, which is impossible, since Chillar is a locality of the Azul district and has no municipality of its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Slaughterhouses",
+   "stop": "Vedia, the meat first and the government after",
+   "date": "1937-01-01",
+   "date_confidence": "attested: the works annex dates the Vedia slaughterhouse to 1937 and the municipal building to 1938. Coordinates corrected: earlier passes placed the town about thirty-eight kilometres west of its real position.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) placed",
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Slaughterhouses",
+   "stop": "Azul, the matadero that outlives its trade",
+   "date": "1938-01-01",
+   "date_confidence": "attested for the year of construction. The conversion into the Centro Cultural Salamone is reported in the biographical articles but no reachable source dates it; the building's own encyclopedia page returned an error when fetched.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428899.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.926
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Works of the Program",
+   "stop": "Adolfo Gonzales Chaves, a late palace",
+   "date": "1939-01-01",
+   "date_confidence": "attested for the year in the works annex; no month recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429264.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.678
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Works of the Program",
+   "stop": "Chascomús, the last palace",
+   "date": "1940-01-01",
+   "date_confidence": "attested for the year in the works annex; the counter-saying quoted is dated only to the building years.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429629.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.43,
+    "text": "Capricornus 9°26′",
+    "longitude": 279.431
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Works of the Program",
+   "stop": "La Plata, the governorship ends",
+   "date": "1940-03-07",
+   "date_confidence": "attested to the day for the end of Fresco's term; the building totals carry the 60 versus 70 discrepancy noted at Rauch.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429695.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 16.29,
+    "text": "Pisces 16°17′",
+    "longitude": 346.287
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tucumán, Montevideo, and the Grave at Pilar",
+   "stop": "San Miguel de Tucumán, the paving contract",
+   "date": "1943-01-01",
+   "date_confidence": "attested for the year and the nature of the dispute; the charges, the court and the parties are not described in any reachable source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430725.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.71,
+    "text": "Capricornus 9°42′",
+    "longitude": 279.708
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tucumán, Montevideo, and the Grave at Pilar",
+   "stop": "Montevideo, the years outside the country",
+   "date": "1944-01-01",
+   "date_confidence": "reconstruction as to the city: the Spanish article says only that he lived in Uruguay for the duration of the case. Montevideo is the researcher's assumption and is asserted as attested in one earlier pass, which is not supportable.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431090.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.46,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.46
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tucumán, Montevideo, and the Grave at Pilar",
+   "stop": "Buenos Aires, the case won",
+   "date": "1945-01-01",
+   "date_confidence": "attested for the year of return and the outcome of the claim; the canonical Buenos Aires pin is inherited unchanged.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tucumán, Montevideo, and the Grave at Pilar",
+   "stop": "Buenos Aires, the Rationalist decade",
+   "date": "1950-01-01",
+   "date_confidence": "reconstruction: the post-war Rationalist work is attested but undated; the English article spreads it across the 1950s. The year shown is a placeholder inside that decade.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placeholder",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tucumán, Montevideo, and the Grave at Pilar",
+   "stop": "Buenos Aires, death at sixty-two",
+   "date": "1959-08-08",
+   "date_confidence": "attested to the day in both editions; the age of sixty-two follows from the 1897 birth.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436788.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 14.72,
+    "text": "Leo 14°43′",
+    "longitude": 134.72
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 26.62,
+    "text": "Virgo 26°37′",
+    "longitude": 176.624
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 10.85,
+    "text": "Leo 10°51′",
+    "longitude": 130.853
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 15.94,
+    "text": "Virgo 15°56′",
+    "longitude": 165.941
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 11.57,
+    "text": "Virgo 11°34′",
+    "longitude": 161.567
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 22.65,
+    "text": "Scorpio 22°39′",
+    "longitude": 232.649
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 1.09,
+    "text": "Capricornus 1°05′",
+    "longitude": 271.087
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Tucumán, Montevideo, and the Grave at Pilar",
+   "stop": "Pilar, the grave and the contradiction",
+   "date": "1959-08-09",
+   "date_confidence": "contradiction, not resolved: the Spanish article buries him directly at the Cementerio Jardín de Paz in Pilar, the English article buries him first at Recoleta and has him transferred to Jardín de Paz later, with no date for the move. The day shown is the day after death, not a source date, and the pin is the Pilar town point rather than the cemetery, whose exact site could not be verified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436789.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 15.68,
+    "text": "Leo 15°41′",
+    "longitude": 135.679
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 6,
+  "month": 0,
+  "year": 37
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1982 @@
+{
+ "slug": "cecil_rhodes",
+ "traveler": "Cecil John Rhodes",
+ "title": "The Road to the North: the Diamond Monopoly, the Chartered Country, and the Grave in the Matobo Hills",
+ "years": "1853-1902",
+ "years_parsed": {
+  "first": 1853,
+  "last": 1902
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Vicarage and the Voyage Out",
+  "stop": "Bishop's Stortford, the fifth son of the vicar",
+  "date": "1853-07-05",
+  "date_confidence": "attested; the birth date and the parsonage are documented, though the coordinate used by one research lens fell some 700 metres east of St Michael's and has been corrected to the church itself",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1853,
+  "jd_ut": 2398039.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Cancer",
+   "degree": 12.83,
+   "text": "Cancer 12°50′",
+   "longitude": 102.831
+  },
+  "moon": {
+   "sign": "Gemini",
+   "degree": 26.66,
+   "text": "Gemini 26°39′",
+   "longitude": 86.656
+  },
+  "mercury": {
+   "sign": "Leo",
+   "degree": 4.22,
+   "text": "Leo 4°13′",
+   "longitude": 124.216
+  },
+  "venus": {
+   "sign": "Cancer",
+   "degree": 26.96,
+   "text": "Cancer 26°58′",
+   "longitude": 116.961
+  },
+  "mars": {
+   "sign": "Gemini",
+   "degree": 7.97,
+   "text": "Gemini 7°58′",
+   "longitude": 67.974
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 16.67,
+   "text": "Sagittarius 16°40′",
+   "longitude": 256.671
+  },
+  "saturn": {
+   "sign": "Taurus",
+   "degree": 27.8,
+   "text": "Taurus 27°48′",
+   "longitude": 57.798
+  },
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "1853-1902",
+  "first_year_parsed": 1853
+ },
+ "stops": [
+  {
+   "segment": "The Vicarage and the Voyage Out",
+   "stop": "Bishop's Stortford, the fifth son of the vicar",
+   "date": "1853-07-05",
+   "date_confidence": "attested; the birth date and the parsonage are documented, though the coordinate used by one research lens fell some 700 metres east of St Michael's and has been corrected to the church itself",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2398039.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.83,
+    "text": "Cancer 12°50′",
+    "longitude": 102.831
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 26.66,
+    "text": "Gemini 26°39′",
+    "longitude": 86.656
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 4.22,
+    "text": "Leo 4°13′",
+    "longitude": 124.216
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 26.96,
+    "text": "Cancer 26°58′",
+    "longitude": 116.961
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 7.97,
+    "text": "Gemini 7°58′",
+    "longitude": 67.974
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 16.67,
+    "text": "Sagittarius 16°40′",
+    "longitude": 256.671
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 27.8,
+    "text": "Taurus 27°48′",
+    "longitude": 57.798
+   }
+  },
+  {
+   "segment": "The Vicarage and the Voyage Out",
+   "stop": "Southampton, the passage to Natal",
+   "date": "1870-06-01",
+   "date_confidence": "the departure in June 1870 is attested, but the port is not fixed: Rotberg gives Southampton, other biographies Plymouth; the pin follows the better attested Southampton and the divergence stands unresolved. One research lens dated the sailing to 1869, which contradicts the arrival of 1 September 1870 and is rejected here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404214.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.27,
+    "text": "Gemini 10°16′",
+    "longitude": 70.269
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vicarage and the Voyage Out",
+   "stop": "Port Natal, the landing at Durban",
+   "date": "1870-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404306.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.33,
+    "text": "Virgo 8°20′",
+    "longitude": 158.33
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vicarage and the Voyage Out",
+   "stop": "Umkomaas valley, the cotton that fails",
+   "date": "1870-10-01",
+   "date_confidence": "reconstruction; the farm and its failure are attested, the month of his arrival on it is not",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404336.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.61,
+    "text": "Libra 7°37′",
+    "longitude": 187.613
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New Rush",
+   "stop": "New Rush, the boy buys claims",
+   "date": "1871-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404701.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.37,
+    "text": "Libra 7°22′",
+    "longitude": 187.374
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New Rush",
+   "stop": "The Big Hole, the pit and the arithmetic",
+   "date": "1872-01-01",
+   "date_confidence": "attested for Frank Rhodes joining the camp in January 1872; the consolidation described runs from here to 1888. Coordinates corrected to the pit itself, one lens having placed it some 700 metres east",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404793.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) placed",
+    "text affirms the month, not the day"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.95,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.948
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New Rush",
+   "stop": "Bechuanaland, the trek after the first attack",
+   "date": "1872-08-01",
+   "date_confidence": "attested that a heart attack in mid-1872 stopped him working for nearly eight months and that he then trekked north through Bechuanaland and the Transvaal; the route is not documented and this pin marks the Bechuanaland leg generically",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2405006.5,
+   "precision": "year",
+   "precision_triggers": [
+    "generic (the date)",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 9.0,
+    "text": "Leo 9°00′",
+    "longitude": 128.997
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oriel and the Confession of Faith",
+   "stop": "Oriel College, matriculation in fragments",
+   "date": "1873-10-01",
+   "date_confidence": "attested; the geography and afterlife lenses give slightly different coordinates for Oriel, 51.7505/-1.2529 and 51.7519/-1.2528, and the divergence is recorded rather than resolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405432.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.88,
+    "text": "Libra 7°53′",
+    "longitude": 187.882
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oriel and the Confession of Faith",
+   "stop": "Oriel College, the second residence",
+   "date": "1876-01-01",
+   "date_confidence": "attested for the return to Oxford in 1876; the term is not specified in the reachable sources and the date defaults to the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.978
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oriel and the Confession of Faith",
+   "stop": "Oxford, the Confession of Faith and the Apollo Lodge",
+   "date": "1877-06-01",
+   "date_confidence": "the Confession of Faith is dated 1877 and the Masonic initiation to June 1877; the lodge's meeting place in that year is not pinned in the sources reached, and the coordinate marks central Oxford rather than a documented address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406771.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.56,
+    "text": "Gemini 10°34′",
+    "longitude": 70.564
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Member for Barkly West",
+   "stop": "Kimberley, the De Beers Mining Company floated",
+   "date": "1880-04-01",
+   "date_confidence": "reconstruction; Rotberg dates the float to April 1880 and the month is not independently confirmed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407806.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.65,
+    "text": "Aries 11°39′",
+    "longitude": 11.652
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Member for Barkly West",
+   "stop": "Cape Town, the seat for Barkly West",
+   "date": "1881-04-01",
+   "date_confidence": "attested that he was elected for Barkly West in 1880 and took his seat in 1881; South African History Online gives his age as 29, which is wrong, he was 27, and Wikipedia gives 27",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408171.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.41,
+    "text": "Aries 11°25′",
+    "longitude": 11.414
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Member for Barkly West",
+   "stop": "Barkly West, the constituency that never turns",
+   "date": "1881-06-01",
+   "date_confidence": "reconstruction; he held the seat continuously from 1881 to 1902 and this pin stands for the whole tenure rather than a dated visit",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408232.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.6,
+    "text": "Gemini 10°36′",
+    "longitude": 70.596
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road to the North",
+   "stop": "Kuruman, the Warren Expedition on the missionaries' road",
+   "date": "1885-02-01",
+   "date_confidence": "attested that the Warren Expedition marched from the Cape in the early months of 1885 and passed through Bechuanaland; the month at Kuruman itself is a reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409573.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.36,
+    "text": "Aquarius 12°22′",
+    "longitude": 312.36
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road to the North",
+   "stop": "Vryburg, the corridor secured",
+   "date": "1885-09-01",
+   "date_confidence": "the Protectorate was declared 31 March 1885 and British Bechuanaland became a separate Crown colony in September 1885; one research lens dated the whole business to 1884, which belongs to the lobbying rather than to the act",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409785.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.69,
+    "text": "Virgo 8°41′",
+    "longitude": 158.69
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 23.08,
+    "text": "Taurus 23°05′",
+    "longitude": 53.082
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 12.12,
+    "text": "Virgo 12°07′",
+    "longitude": 162.116
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 10.24,
+    "text": "Libra 10°14′",
+    "longitude": 190.24
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 20.07,
+    "text": "Cancer 20°04′",
+    "longitude": 110.073
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 14.65,
+    "text": "Virgo 14°39′",
+    "longitude": 164.645
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 6.22,
+    "text": "Cancer 6°13′",
+    "longitude": 96.221
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Road to the North",
+   "stop": "New Court, the money in St Swithin's Lane",
+   "date": "1887-06-01",
+   "date_confidence": "reconstruction; the Rothschild financing of the De Beers amalgamation and of the chartered company is attested, the dates of particular meetings at New Court are not",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410423.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.16,
+    "text": "Gemini 10°10′",
+    "longitude": 70.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road to the North",
+   "stop": "Kimberley, De Beers Consolidated Mines",
+   "date": "1888-03-13",
+   "date_confidence": "sources diverge: Wikipedia gives 13 March 1888 for the founding, South African History Online gives April 1888 for the formal formation; the divergence is left standing and the earlier date used for ordering",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410709.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 22.88,
+    "text": "Pisces 22°53′",
+    "longitude": 352.884
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 26.45,
+    "text": "Pisces 26°27′",
+    "longitude": 356.449
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 6.12,
+    "text": "Pisces 6°07′",
+    "longitude": 336.121
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 21.85,
+    "text": "Aquarius 21°51′",
+    "longitude": 321.847
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 29.73,
+    "text": "Libra 29°44′",
+    "longitude": 209.729
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 6.29,
+    "text": "Sagittarius 6°17′",
+    "longitude": 246.288
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 29.94,
+    "text": "Cancer 29°57′",
+    "longitude": 119.942
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Road to the North",
+   "stop": "Bulawayo, the Rudd Concession signed",
+   "date": "1888-10-30",
+   "date_confidence": "attested to 30 October 1888 at Bulawayo; South African History Online's March 1888 is an error and is rejected rather than hedged. The coordinate is the site of Lobengula's later Bulawayo, near the modern city; one lens placed the kraal more than a degree of latitude too far north",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410940.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.03,
+    "text": "Scorpio 7°02′",
+    "longitude": 217.031
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 29.79,
+    "text": "Leo 29°48′",
+    "longitude": 149.795
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.58,
+    "text": "Scorpio 11°35′",
+    "longitude": 221.581
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 5.86,
+    "text": "Sagittarius 5°51′",
+    "longitude": 245.857
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 4.84,
+    "text": "Capricornus 4°50′",
+    "longitude": 274.84
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 8.62,
+    "text": "Sagittarius 8°37′",
+    "longitude": 248.622
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 19.5,
+    "text": "Leo 19°30′",
+    "longitude": 139.502
+   }
+  },
+  {
+   "segment": "The Road to the North",
+   "stop": "Downing Street, the royal charter",
+   "date": "1889-10-29",
+   "date_confidence": "attested to 29 October 1889 by South African History Online; Wikipedia gives the year without the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411304.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 5.79,
+    "text": "Scorpio 5°47′",
+    "longitude": 215.788
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 4.74,
+    "text": "Capricornus 4°44′",
+    "longitude": 274.741
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 17.6,
+    "text": "Libra 17°36′",
+    "longitude": 197.595
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 8.89,
+    "text": "Libra 8°54′",
+    "longitude": 188.895
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 22.13,
+    "text": "Virgo 22°08′",
+    "longitude": 172.128
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 4.5,
+    "text": "Capricornus 4°30′",
+    "longitude": 274.501
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 2.1,
+    "text": "Virgo 2°06′",
+    "longitude": 152.104
+   }
+  },
+  {
+   "segment": "Premier and Chartered Company",
+   "stop": "Macloutsie, the Pioneer Column musters",
+   "date": "1890-06-28",
+   "date_confidence": "attested; the column set out from Macloutsie on 28 June 1890 and crossed the Tuli on 11 July. Coordinates corrected: one lens placed the camp south of the Limpopo inside present-day South Africa, whereas Macloutsie lay on the Motloutse river in the Bechuanaland Protectorate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411546.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 6.22,
+    "text": "Cancer 6°13′",
+    "longitude": 96.215
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 4.99,
+    "text": "Scorpio 5°00′",
+    "longitude": 214.993
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 14.55,
+    "text": "Gemini 14°33′",
+    "longitude": 74.553
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 8.74,
+    "text": "Leo 8°44′",
+    "longitude": 128.735
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 28.25,
+    "text": "Scorpio 28°15′",
+    "longitude": 238.246
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 11.03,
+    "text": "Aquarius 11°02′",
+    "longitude": 311.034
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 0.09,
+    "text": "Virgo 0°06′",
+    "longitude": 150.094
+   }
+  },
+  {
+   "segment": "Premier and Chartered Company",
+   "stop": "Cape Town, sworn in as Prime Minister",
+   "date": "1890-07-17",
+   "date_confidence": "attested; Wikipedia gives 1890 broadly, South African History Online July 1890, Rotberg the seventeenth",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411565.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 24.33,
+    "text": "Cancer 24°20′",
+    "longitude": 114.331
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Premier and Chartered Company",
+   "stop": "Fort Salisbury, the flag on the veld",
+   "date": "1890-09-13",
+   "date_confidence": "attested; the column halted at the site on 12 September 1890 and the flag was hoisted the following morning, 13 September. One lens dated the dispatch of the column to 13 September, conflating the departure with the flag-raising",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411623.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 20.14,
+    "text": "Virgo 20°09′",
+    "longitude": 170.143
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 5.39,
+    "text": "Virgo 5°23′",
+    "longitude": 155.391
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 14.6,
+    "text": "Libra 14°36′",
+    "longitude": 194.605
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 6.23,
+    "text": "Scorpio 6°14′",
+    "longitude": 216.235
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 23.38,
+    "text": "Sagittarius 23°23′",
+    "longitude": 263.375
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.8,
+    "text": "Aquarius 2°48′",
+    "longitude": 302.801
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 9.07,
+    "text": "Virgo 9°04′",
+    "longitude": 159.07
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Premier and Chartered Company",
+   "stop": "Bulawayo, the royal town burned",
+   "date": "1893-11-01",
+   "date_confidence": "attested for November 1893; the coordinate is the site of Lobengula's later Bulawayo near the modern city, and the lens value of -19.15 is rejected as roughly 110 kilometres too far north. Old Bulawayo, the earlier royal town, lies further south at -20.3023, 28.6264",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412768.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.82,
+    "text": "Scorpio 8°49′",
+    "longitude": 218.821
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Premier and Chartered Company",
+   "stop": "Bulawayo, the new town and the name Rhodesia",
+   "date": "1894-06-01",
+   "date_confidence": "the new town dates from 1894 and the official renaming of Zambesia to Rhodesia from May 1895; the month of the town's founding is a reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412980.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.46,
+    "text": "Gemini 10°28′",
+    "longitude": 70.46
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Premier and Chartered Company",
+   "stop": "Cape Town, the franchise and the Glen Grey Act",
+   "date": "1894-07-27",
+   "date_confidence": "attested; the Franchise and Ballot Act is dated 1892 without a month in the reachable sources, and the Glen Grey speech to 27 July 1894, the Act becoming law in August",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2413036.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 3.91,
+    "text": "Leo 3°55′",
+    "longitude": 123.913
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Premier and Chartered Company",
+   "stop": "Great Zimbabwe, the ruins given to strangers",
+   "date": "1895-01-01",
+   "date_confidence": "reconstruction; Rhodes's funding of early excavation and his backing of the foreign-builder theory are attested, but his personal visit is asserted only in later company-era accounts and is not documented to any date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Raid and the Fall",
+   "stop": "Pitsani Potlugo, the raid rides out",
+   "date": "1895-12-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413556.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.07,
+    "text": "Capricornus 7°04′",
+    "longitude": 277.067
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 1.13,
+    "text": "Gemini 1°08′",
+    "longitude": 61.131
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 11.89,
+    "text": "Capricornus 11°54′",
+    "longitude": 281.893
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 22.47,
+    "text": "Scorpio 22°28′",
+    "longitude": 232.472
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 11.92,
+    "text": "Sagittarius 11°55′",
+    "longitude": 251.924
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 7.32,
+    "text": "Leo 7°19′",
+    "longitude": 127.324
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 16.29,
+    "text": "Scorpio 16°17′",
+    "longitude": 226.287
+   }
+  },
+  {
+   "segment": "The Raid and the Fall",
+   "stop": "Cape Town, the resignation",
+   "date": "1896-01-12",
+   "date_confidence": "the premiership formally ended 12 January 1896, Sprigg taking office the next day; one research lens dated the resignation to 6 January, which at most marks the day he tendered it, and the two dates are recorded rather than merged",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413570.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 21.34,
+    "text": "Capricornus 21°20′",
+    "longitude": 291.337
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 16.41,
+    "text": "Sagittarius 16°25′",
+    "longitude": 256.41
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 4.84,
+    "text": "Aquarius 4°51′",
+    "longitude": 304.842
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 8.77,
+    "text": "Sagittarius 8°46′",
+    "longitude": 248.768
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 21.99,
+    "text": "Sagittarius 21°59′",
+    "longitude": 261.992
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 5.72,
+    "text": "Leo 5°43′",
+    "longitude": 125.716
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 17.43,
+    "text": "Scorpio 17°26′",
+    "longitude": 227.431
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Raid and the Fall",
+   "stop": "Matobo Hills, the indaba",
+   "date": "1896-08-01",
+   "date_confidence": "the indabas in the Matobo Hills in August 1896 are attested; the detail that Rhodes walked in unarmed rests on Flint and the tradition around him and is carried as reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413772.5,
+   "precision": "month",
+   "precision_triggers": [
+    "traditional",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 9.19,
+    "text": "Leo 9°11′",
+    "longitude": 129.189
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Raid and the Fall",
+   "stop": "Malindidzimu, the grave chosen",
+   "date": "1896-09-01",
+   "date_confidence": "attested that he chose the site during the 1896 peace talks; the month is a reconstruction. Coordinates corrected: two lenses placed Malindidzimu some 5.7 kilometres south-southwest of its actual position",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 9.02,
+    "text": "Virgo 9°01′",
+    "longitude": 159.019
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Raid and the Fall",
+   "stop": "Westminster, Committee Room 15",
+   "date": "1897-02-01",
+   "date_confidence": "reconstruction; the Select Committee on the raid sat in 1897 and Rhodes gave evidence to it, but the room and the month are not confirmed against a primary record here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413956.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.45,
+    "text": "Aquarius 12°27′",
+    "longitude": 312.448
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cape to Cairo",
+   "stop": "Victoria Falls, the line and the bridge",
+   "date": "1898-01-01",
+   "date_confidence": "disputed; the railway and telegraph scheme is attested and the bridge was completed in 1905, after his death, but whether Rhodes ever stood at the falls is a persistent tradition with no dated primary account behind it, and the year here is nominal",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed",
+    "nominal (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cape to Cairo",
+   "stop": "Cairo, the terminus he never reached",
+   "date": "1899-01-01",
+   "date_confidence": "no source places Rhodes in Egypt; the visit is legend rather than record and the pin marks the northern terminus of the scheme, not a journey. The date is nominal and is recorded as a gap",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414655.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "nominal (the date)",
+    "(soft) no source",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.402
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cape to Cairo",
+   "stop": "Groote Schuur, the will signed",
+   "date": "1899-07-01",
+   "date_confidence": "attested; the main will is dated 1 July 1899 with codicils running to March 1902, and it was probated after his death. One research lens dated the will itself to 1902, which is the probate year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414836.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.91,
+    "text": "Cancer 8°55′",
+    "longitude": 98.909
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 19.07,
+    "text": "Aries 19°04′",
+    "longitude": 19.074
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 26.43,
+    "text": "Cancer 26°26′",
+    "longitude": 116.432
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 18.08,
+    "text": "Gemini 18°05′",
+    "longitude": 78.076
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 8.39,
+    "text": "Virgo 8°23′",
+    "longitude": 158.388
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 0.34,
+    "text": "Scorpio 0°20′",
+    "longitude": 210.342
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 18.98,
+    "text": "Sagittarius 18°59′",
+    "longitude": 258.975
+   }
+  },
+  {
+   "segment": "Cape to Cairo",
+   "stop": "Kimberley, inside the siege",
+   "date": "1899-10-15",
+   "date_confidence": "attested that he was in Kimberley through the siege of October 1899 to February 1900; the day of his arrival is a reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414942.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.42,
+    "text": "Libra 21°25′",
+    "longitude": 201.423
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cape to Cairo",
+   "stop": "Muizenberg, the cottage by the sea",
+   "date": "1902-03-26",
+   "date_confidence": "attested for the date, place, age and cause; the coordinates are corrected to Rhodes Cottage on Main Road, two research lenses having placed it between 1.1 and 1.5 kilometres away",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415834.5,
+   "precision": "year",
+   "precision_triggers": [
+    "between",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 4.41,
+    "text": "Aries 4°25′",
+    "longitude": 4.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Grave",
+   "stop": "Cape Town, lying in state",
+   "date": "1902-04-02",
+   "date_confidence": "attested that the body lay in state in the Houses of Parliament before the funeral of 3 April; the exact days are not pinned in the sources reached. One research lens placed the lying in state in St George's Cathedral, which is where the service was held, and the two locations are separated here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415841.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.33,
+    "text": "Aries 11°20′",
+    "longitude": 11.328
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 19.51,
+    "text": "Capricornus 19°31′",
+    "longitude": 289.515
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 18.04,
+    "text": "Pisces 18°02′",
+    "longitude": 348.041
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 27.94,
+    "text": "Aquarius 27°56′",
+    "longitude": 327.936
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 10.67,
+    "text": "Aries 10°40′",
+    "longitude": 10.671
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 11.17,
+    "text": "Aquarius 11°10′",
+    "longitude": 311.166
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 26.66,
+    "text": "Capricornus 26°40′",
+    "longitude": 296.661
+   }
+  },
+  {
+   "segment": "The Afterlife of the Grave",
+   "stop": "St George's Cathedral, the funeral",
+   "date": "1902-04-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415842.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 12.31,
+    "text": "Aries 12°19′",
+    "longitude": 12.314
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 1.91,
+    "text": "Aquarius 1°55′",
+    "longitude": 301.91
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 19.55,
+    "text": "Pisces 19°33′",
+    "longitude": 349.554
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 28.66,
+    "text": "Aquarius 28°39′",
+    "longitude": 328.658
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 11.44,
+    "text": "Aries 11°26′",
+    "longitude": 11.439
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 11.34,
+    "text": "Aquarius 11°20′",
+    "longitude": 311.335
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 26.72,
+    "text": "Capricornus 26°43′",
+    "longitude": 296.717
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Afterlife of the Grave",
+   "stop": "Malindidzimu, the burial and the royal salute",
+   "date": "1902-04-10",
+   "date_confidence": "attested for the date and for the salute; coordinates corrected as at the 1896 stop",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415849.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 19.2,
+    "text": "Aries 19°12′",
+    "longitude": 19.198
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.7,
+    "text": "Taurus 8°42′",
+    "longitude": 38.7
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 0.85,
+    "text": "Aries 0°51′",
+    "longitude": 0.85
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 4.13,
+    "text": "Pisces 4°08′",
+    "longitude": 334.125
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 16.8,
+    "text": "Aries 16°48′",
+    "longitude": 16.798
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 12.47,
+    "text": "Aquarius 12°28′",
+    "longitude": 312.467
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 27.07,
+    "text": "Capricornus 27°04′",
+    "longitude": 297.067
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Afterlife of the Grave",
+   "stop": "Devil's Peak, the memorial dedicated",
+   "date": "1912-01-01",
+   "date_confidence": "attested for the year; the month of dedication is not given in the reachable sources and defaults to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Grave",
+   "stop": "Matobo Hills, the demand for the bones",
+   "date": "2012-02-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2012,
+   "jd_ut": 2455958.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.52,
+    "text": "Aquarius 11°31′",
+    "longitude": 311.524
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Grave",
+   "stop": "Rondebosch, the statue comes down",
+   "date": "2015-04-09",
+   "date_confidence": "attested for the removal on 9 April 2015, the day after the council vote; the precipitating protest of March 2015 is widely reported but is carried here as reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2015,
+   "jd_ut": 2457121.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.84,
+    "text": "Aries 18°50′",
+    "longitude": 18.84
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 10.01,
+    "text": "Sagittarius 10°01′",
+    "longitude": 250.014
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 17.58,
+    "text": "Aries 17°35′",
+    "longitude": 17.584
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 26.91,
+    "text": "Taurus 26°55′",
+    "longitude": 56.912
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 6.12,
+    "text": "Taurus 6°07′",
+    "longitude": 36.124
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 12.54,
+    "text": "Leo 12°33′",
+    "longitude": 132.543
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 4.54,
+    "text": "Sagittarius 4°33′",
+    "longitude": 244.543
+   }
+  },
+  {
+   "segment": "The Afterlife of the Grave",
+   "stop": "Devil's Peak, the nose cut from the bust",
+   "date": "2015-09-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2015,
+   "jd_ut": 2457283.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 24.78,
+    "text": "Virgo 24°47′",
+    "longitude": 174.78
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 16.07,
+    "text": "Scorpio 16°04′",
+    "longitude": 226.067
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 15.92,
+    "text": "Libra 15°55′",
+    "longitude": 195.918
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 16.83,
+    "text": "Leo 16°50′",
+    "longitude": 136.833
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 25.55,
+    "text": "Leo 25°33′",
+    "longitude": 145.548
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 8.1,
+    "text": "Virgo 8°06′",
+    "longitude": 158.097
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 0.13,
+    "text": "Sagittarius 0°08′",
+    "longitude": 240.125
+   }
+  },
+  {
+   "segment": "The Afterlife of the Grave",
+   "stop": "Oriel College, the statue that stays",
+   "date": "2016-01-29",
+   "date_confidence": "attested for the Oxford Union vote of 19 January 2016 and the college announcement of 29 January 2016, and for the 2020 and 2021 decisions described; the Oriel coordinates differ slightly between research lenses and the afterlife value is used here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457416.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 8.51,
+    "text": "Aquarius 8°30′",
+    "longitude": 308.506
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 4.47,
+    "text": "Libra 4°28′",
+    "longitude": 184.47
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 15.51,
+    "text": "Capricornus 15°31′",
+    "longitude": 285.511
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 6.34,
+    "text": "Capricornus 6°21′",
+    "longitude": 276.343
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 13.46,
+    "text": "Scorpio 13°28′",
+    "longitude": 223.459
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 22.51,
+    "text": "Virgo 22°30′",
+    "longitude": 172.508
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 14.0,
+    "text": "Sagittarius 14°00′",
+    "longitude": 254.002
+   }
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 16,
+  "month": 10,
+  "year": 18
+ },
+ "parse_failures": []
+}

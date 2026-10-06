@@ -1,0 +1,1950 @@
+{
+ "slug": "james_matthew_barrie",
+ "traveler": "Sir James Matthew Barrie, 1st Baronet",
+ "title": "The Wash-House and the Lasher: Kirriemuir, Kensington Gardens, and the Boy Who Would Not Grow Up",
+ "years": "1860-1937",
+ "years_parsed": {
+  "first": 1860,
+  "last": 1937
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Weaver's House at Kirriemuir",
+  "stop": "Kirriemuir, birth on Brechin Road",
+  "date": "1860-05-09",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1860,
+  "jd_ut": 2400539.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 18.56,
+   "text": "Taurus 18°33′",
+   "longitude": 48.557
+  },
+  "moon": {
+   "sign": "Capricornus",
+   "degree": 5.49,
+   "text": "Capricornus 5°29′",
+   "longitude": 275.489
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 23.46,
+   "text": "Aries 23°27′",
+   "longitude": 23.458
+  },
+  "venus": {
+   "sign": "Cancer",
+   "degree": 3.95,
+   "text": "Cancer 3°57′",
+   "longitude": 93.949
+  },
+  "mars": {
+   "sign": "Capricornus",
+   "degree": 22.16,
+   "text": "Capricornus 22°10′",
+   "longitude": 292.161
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 20.21,
+   "text": "Cancer 20°12′",
+   "longitude": 110.206
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 19.58,
+   "text": "Leo 19°35′",
+   "longitude": 139.576
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1860-1937",
+  "first_year_parsed": 1860
+ },
+ "stops": [
+  {
+   "segment": "The Weaver's House at Kirriemuir",
+   "stop": "Kirriemuir, birth on Brechin Road",
+   "date": "1860-05-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400539.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 18.56,
+    "text": "Taurus 18°33′",
+    "longitude": 48.557
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 5.49,
+    "text": "Capricornus 5°29′",
+    "longitude": 275.489
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 23.46,
+    "text": "Aries 23°27′",
+    "longitude": 23.458
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 3.95,
+    "text": "Cancer 3°57′",
+    "longitude": 93.949
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 22.16,
+    "text": "Capricornus 22°10′",
+    "longitude": 292.161
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 20.21,
+    "text": "Cancer 20°12′",
+    "longitude": 110.206
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 19.58,
+    "text": "Leo 19°35′",
+    "longitude": 139.576
+   }
+  },
+  {
+   "segment": "The Weaver's House at Kirriemuir",
+   "stop": "Kirriemuir, the wash-house theatre",
+   "date": "1866-01-01",
+   "date_confidence": "traditional: Barrie's own memoir places these theatricals in boyhood and gives no year; the date shown is a placeholder within the 1866-1870 span",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1866,
+   "jd_ut": 2402602.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placeholder",
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.414
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Weaver's House at Kirriemuir",
+   "stop": "Kirriemuir, the death of David",
+   "date": "1867-01-01",
+   "date_confidence": "year attested; the exact date is not established by any source reached, which give only 1867 and the phrase 'the day before his fourteenth birthday'",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2402967.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.166
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Weaver's House at Kirriemuir",
+   "stop": "Glasgow, the Academy in Elmbank Street",
+   "date": "1868-01-01",
+   "date_confidence": "year attested; the coordinate is the Academy's original Elmbank Street site, since the school did not move to Colebrooke Street until 1878, ten years after Barrie's arrival",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403332.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.92,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.919
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Weaver's House at Kirriemuir",
+   "stop": "Forfar, the year nearer home",
+   "date": "1870-01-01",
+   "date_confidence": "year attested; the coordinate resolves the modern Turfbeg campus, whereas the school Barrie attended in 1870 stood in the town centre",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404063.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.443
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Weaver's House at Kirriemuir",
+   "stop": "Dumfries, the garden at Moat Brae",
+   "date": "1873-01-01",
+   "date_confidence": "the sources disagree by a year: the chronology gives enrolment at Dumfries Academy in 1874, the geography gives the Dumfries period as 1873-1878; both derive from the same article and the disagreement is not resolved here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.72,
+    "text": "Capricornus 10°43′",
+    "longitude": 280.72
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Edinburgh, Nottingham, and the Trade of Letters",
+   "stop": "Edinburgh, the degree taken against the family's wish",
+   "date": "1882-04-21",
+   "date_confidence": "attested for the conferral of the M.A.; the four years of study run from 1878",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408556.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 0.78,
+    "text": "Taurus 0°47′",
+    "longitude": 30.781
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Edinburgh, Nottingham, and the Trade of Letters",
+   "stop": "Nottingham, a year and a half of leaders",
+   "date": "1883-01-01",
+   "date_confidence": "the engagement is attested as roughly eighteen months beginning after his 1882 graduation; no start date is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2408811.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.284
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Edinburgh, Nottingham, and the Trade of Letters",
+   "stop": "Kirriemuir, the return and the mother's stories",
+   "date": "1884-01-01",
+   "date_confidence": "attested as the year his sketches begin appearing in the St James's Gazette",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409176.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.037
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Edinburgh, Nottingham, and the Trade of Letters",
+   "stop": "London, arrival with a portfolio of Scottish sketches",
+   "date": "1885-01-01",
+   "date_confidence": "attested to the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409542.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.809
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Edinburgh, Nottingham, and the Trade of Letters",
+   "stop": "The British Museum Reading Room, the Thrums books",
+   "date": "1888-01-01",
+   "date_confidence": "attested: Auld Licht Idylls 1888, A Window in Thrums 1889, The Little Minister 1891",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410637.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.066
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Theatre and the Marriage",
+   "stop": "Toole's Theatre, William IV Street: the first plays",
+   "date": "1891-01-01",
+   "date_confidence": "the pool carried a contradiction: it dated Walker, London to 1891 and called it his first London play. Wikipedia gives Ibsen's Ghost, or Toole Up-to-Date as the first, 1891, and Walker, London as his third, opened 1892 for 497 performances. This stop follows Wikipedia and leaves the disagreement standing",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411733.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.343
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Theatre and the Marriage",
+   "stop": "Vailima, Samoa: the invitation not taken",
+   "date": "1893-01-01",
+   "date_confidence": "reconstruction: the correspondence and the invitation are biographical tradition and were not verified against any letter this session; the date is a placeholder inside Stevenson's Samoan years, 1890-1894",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Theatre and the Marriage",
+   "stop": "Kirriemuir, the marriage to Mary Ansell",
+   "date": "1894-07-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2413018.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 16.73,
+    "text": "Cancer 16°44′",
+    "longitude": 106.734
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 5.34,
+    "text": "Libra 5°20′",
+    "longitude": 185.338
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 4.07,
+    "text": "Leo 4°04′",
+    "longitude": 124.07
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 10.8,
+    "text": "Gemini 10°48′",
+    "longitude": 70.803
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 9.7,
+    "text": "Aries 9°42′",
+    "longitude": 9.701
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 21.7,
+    "text": "Gemini 21°42′",
+    "longitude": 81.698
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 18.8,
+    "text": "Libra 18°48′",
+    "longitude": 198.8
+   }
+  },
+  {
+   "segment": "The Theatre and the Marriage",
+   "stop": "Gloucester Road, the house in Kensington",
+   "date": "1895-01-01",
+   "date_confidence": "attested to the year of purchase",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kensington Gardens and the Boy Castaways",
+   "stop": "Kensington Gardens, the meeting by the Long Water",
+   "date": "1897-01-01",
+   "date_confidence": "attested to the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kensington Gardens and the Boy Castaways",
+   "stop": "100 Bayswater Road, rooms above the Gardens",
+   "date": "1900-01-01",
+   "date_confidence": "attested from about 1900; the tenancy runs to about 1909, not to 1902 as an earlier draft had it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kensington Gardens and the Boy Castaways",
+   "stop": "Black Lake Cottage, Tilford: the castaways photographed",
+   "date": "1901-01-01",
+   "date_confidence": "the lease runs from about 1900 to about 1907; the Boy Castaways album is made in the summer of 1901",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415385.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.907
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kensington Gardens and the Boy Castaways",
+   "stop": "Egerton House, Berkhamsted: the family and the father",
+   "date": "1904-01-01",
+   "date_confidence": "the family's residence 1904-1907 is attested; Arthur Llewelyn Davies dies in 1907",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416480.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.17,
+    "text": "Capricornus 9°10′",
+    "longitude": 279.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kensington Gardens and the Boy Castaways",
+   "stop": "Duke of York's Theatre, the premiere",
+   "date": "1904-12-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416841.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.84,
+    "text": "Capricornus 4°50′",
+    "longitude": 274.84
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 29.99,
+    "text": "Leo 29°59′",
+    "longitude": 149.988
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 15.11,
+    "text": "Capricornus 15°06′",
+    "longitude": 285.107
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 16.33,
+    "text": "Aquarius 16°20′",
+    "longitude": 316.327
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 20.72,
+    "text": "Libra 20°43′",
+    "longitude": 200.717
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 20.43,
+    "text": "Aries 20°26′",
+    "longitude": 20.429
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 17.93,
+    "text": "Aquarius 17°56′",
+    "longitude": 317.931
+   }
+  },
+  {
+   "segment": "Kensington Gardens and the Boy Castaways",
+   "stop": "Empire Theatre, New York: Peter Pan on Broadway",
+   "date": "1905-11-06",
+   "date_confidence": "the source reached states only that a Broadway production was mounted in 1905 at the Empire with Maude Adams; the exact date is reconstruction, and no source establishes that Barrie crossed the Atlantic for it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417155.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 12.92,
+    "text": "Scorpio 12°55′",
+    "longitude": 222.922
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guardian",
+   "stop": "3 Adelphi Terrace, the divorce and the flat above the river",
+   "date": "1909-10-01",
+   "date_confidence": "the divorce is attested to October 1909; the move to Adelphi Terrace follows it, and the flat is held until his death",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418580.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.18,
+    "text": "Libra 7°11′",
+    "longitude": 187.177
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guardian",
+   "stop": "London, the death of Sylvia and the guardianship",
+   "date": "1910-01-01",
+   "date_confidence": "attested to the year; the precise legal and practical arrangements are described differently across accounts and are not settled here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guardian",
+   "stop": "London, Peter and Wendy in prose",
+   "date": "1911-01-01",
+   "date_confidence": "attested to the year of publication",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419037.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.47,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.472
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guardian",
+   "stop": "The Ross Ice Shelf, the last letter from the tent",
+   "date": "1912-03-01",
+   "date_confidence": "Scott's party reached its final camp on 19 March 1912 and the letters are undated; the coordinate is the conventional placement of that camp, roughly twelve and a half miles short of One Ton Depot, and is not a surveyed point",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419462.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.07,
+    "text": "Pisces 10°04′",
+    "longitude": 340.065
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guardian",
+   "stop": "Kensington Gardens, the statue put up in the night",
+   "date": "1912-04-30",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419522.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.28,
+    "text": "Taurus 9°17′",
+    "longitude": 39.283
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 21.82,
+    "text": "Libra 21°49′",
+    "longitude": 201.821
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 18.91,
+    "text": "Aries 18°55′",
+    "longitude": 18.912
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 21.33,
+    "text": "Aries 21°20′",
+    "longitude": 21.333
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 13.6,
+    "text": "Cancer 13°36′",
+    "longitude": 103.6
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.13,
+    "text": "Sagittarius 14°08′",
+    "longitude": 254.132
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 21.63,
+    "text": "Taurus 21°38′",
+    "longitude": 51.635
+   }
+  },
+  {
+   "segment": "The Guardian",
+   "stop": "London, created a baronet",
+   "date": "1913-06-14",
+   "date_confidence": "the creation is attested to 14 June 1913; the ceremonial detail at court is reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419932.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 22.33,
+    "text": "Gemini 22°20′",
+    "longitude": 82.327
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 22.47,
+    "text": "Libra 22°28′",
+    "longitude": 202.473
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 6.22,
+    "text": "Cancer 6°13′",
+    "longitude": 96.223
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 8.54,
+    "text": "Taurus 8°32′",
+    "longitude": 38.536
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 27.77,
+    "text": "Aries 27°46′",
+    "longitude": 27.772
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 15.52,
+    "text": "Capricornus 15°31′",
+    "longitude": 285.521
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 9.57,
+    "text": "Gemini 9°34′",
+    "longitude": 69.57
+   }
+  },
+  {
+   "segment": "The War and the Water",
+   "stop": "St Eloi, near Ypres: George killed",
+   "date": "1915-03-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420571.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.34,
+    "text": "Pisces 23°20′",
+    "longitude": 353.337
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 13.76,
+    "text": "Pisces 13°46′",
+    "longitude": 343.763
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 26.4,
+    "text": "Aquarius 26°24′",
+    "longitude": 326.399
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 9.59,
+    "text": "Aquarius 9°36′",
+    "longitude": 309.593
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 4.29,
+    "text": "Pisces 4°18′",
+    "longitude": 334.293
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 9.33,
+    "text": "Pisces 9°20′",
+    "longitude": 339.332
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 25.72,
+    "text": "Gemini 25°43′",
+    "longitude": 85.717
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The War and the Water",
+   "stop": "Voormezeele Enclosure No. 3, the reburial",
+   "date": "1915-03-15",
+   "date_confidence": "the first burial near where he fell and the later removal to this cemetery are both attested; the date of the removal is not established by any source reached, so the stop carries the date of his death",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420571.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.34,
+    "text": "Pisces 23°20′",
+    "longitude": 353.337
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War and the Water",
+   "stop": "St Andrews, elected Rector",
+   "date": "1919-01-01",
+   "date_confidence": "the three-year term beginning 1919 is attested; the election date is not recorded here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War and the Water",
+   "stop": "Sandford Lasher, near Oxford: Michael drowns",
+   "date": "1921-05-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422828.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 27.47,
+    "text": "Taurus 27°28′",
+    "longitude": 57.474
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 23.17,
+    "text": "Libra 23°10′",
+    "longitude": 203.168
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 7.61,
+    "text": "Gemini 7°37′",
+    "longitude": 67.614
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 24.35,
+    "text": "Aries 24°21′",
+    "longitude": 24.35
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 8.99,
+    "text": "Gemini 8°59′",
+    "longitude": 68.992
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 9.14,
+    "text": "Virgo 9°08′",
+    "longitude": 159.138
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 18.09,
+    "text": "Virgo 18°06′",
+    "longitude": 168.093
+   }
+  },
+  {
+   "segment": "The War and the Water",
+   "stop": "St John-at-Hampstead churchyard, the grave of Michael",
+   "date": "1921-05-19",
+   "date_confidence": "the burial here is attested; the date of the funeral is not established by the sources reached, so the stop carries the date of the drowning",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422828.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 27.47,
+    "text": "Taurus 27°28′",
+    "longitude": 57.474
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War and the Water",
+   "stop": "St Andrews, the address on courage",
+   "date": "1922-05-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423177.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.79,
+    "text": "Taurus 11°47′",
+    "longitude": 41.786
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 21.91,
+    "text": "Cancer 21°55′",
+    "longitude": 111.909
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 21.38,
+    "text": "Taurus 21°23′",
+    "longitude": 51.384
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 2.39,
+    "text": "Gemini 2°24′",
+    "longitude": 62.392
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 25.08,
+    "text": "Sagittarius 25°05′",
+    "longitude": 265.079
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 10.59,
+    "text": "Libra 10°36′",
+    "longitude": 190.593
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 1.75,
+    "text": "Libra 1°45′",
+    "longitude": 181.749
+   }
+  },
+  {
+   "segment": "Chancellor, Copyright, and the Freedom of the Town",
+   "stop": "London, the Order of Merit",
+   "date": "1922-01-01",
+   "date_confidence": "attested to the New Year Honours of January 1922; no day is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423055.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chancellor, Copyright, and the Freedom of the Town",
+   "stop": "University College Dundee, opening the playing fields",
+   "date": "1922-01-01",
+   "date_confidence": "attested to the year; the day of the visit is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423055.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chancellor, Copyright, and the Freedom of the Town",
+   "stop": "Eilean Shona, Loch Moidart",
+   "date": "1924-01-01",
+   "date_confidence": "the lease and the summers there are attested to the 1920s; the year given is that of the Peter Pan screenplay written on the island",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423785.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.31,
+    "text": "Capricornus 9°19′",
+    "longitude": 279.313
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chancellor, Copyright, and the Freedom of the Town",
+   "stop": "Bowring Park, St John's: the boy in bronze for a drowned child",
+   "date": "1925-08-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424391.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 5.14,
+    "text": "Virgo 5°08′",
+    "longitude": 155.137
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 28.62,
+    "text": "Sagittarius 28°37′",
+    "longitude": 268.621
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 28.65,
+    "text": "Leo 28°39′",
+    "longitude": 148.649
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 8.41,
+    "text": "Libra 8°24′",
+    "longitude": 188.407
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 10.25,
+    "text": "Virgo 10°15′",
+    "longitude": 160.252
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 12.94,
+    "text": "Capricornus 12°57′",
+    "longitude": 282.944
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 9.47,
+    "text": "Scorpio 9°28′",
+    "longitude": 219.472
+   }
+  },
+  {
+   "segment": "Chancellor, Copyright, and the Freedom of the Town",
+   "stop": "Great Ormond Street, the copyright given away",
+   "date": "1929-04-01",
+   "date_confidence": "attested to April 1929; no day is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425702.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.79,
+    "text": "Aries 10°48′",
+    "longitude": 10.795
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chancellor, Copyright, and the Freedom of the Town",
+   "stop": "Edinburgh, Chancellor of the University",
+   "date": "1930-01-01",
+   "date_confidence": "attested to the year of election; he holds the office until his death in 1937",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2425977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.867
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chancellor, Copyright, and the Freedom of the Town",
+   "stop": "Kirriemuir Town Hall, the Freedom of the burgh",
+   "date": "1930-06-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426134.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 15.53,
+    "text": "Gemini 15°32′",
+    "longitude": 75.532
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 24.75,
+    "text": "Libra 24°45′",
+    "longitude": 204.749
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 24.83,
+    "text": "Taurus 24°50′",
+    "longitude": 54.826
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 15.44,
+    "text": "Cancer 15°27′",
+    "longitude": 105.444
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 2.87,
+    "text": "Taurus 2°52′",
+    "longitude": 32.873
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 25.51,
+    "text": "Gemini 25°31′",
+    "longitude": 85.512
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.065
+   }
+  },
+  {
+   "segment": "The Grave and What Outlives It",
+   "stop": "Manchester Street, Marylebone: death in a nursing home",
+   "date": "1937-06-19",
+   "date_confidence": "attested; how long before the nineteenth he was moved here from the Adelphi Terrace flat, which he had kept since 1909, is not reconciled by any source reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428703.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 27.29,
+    "text": "Gemini 27°18′",
+    "longitude": 87.292
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and What Outlives It",
+   "stop": "Kirriemuir Cemetery, the grave beside his parents",
+   "date": "1937-06-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428708.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.06,
+    "text": "Cancer 2°04′",
+    "longitude": 92.062
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 2.52,
+    "text": "Capricornus 2°31′",
+    "longitude": 272.519
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 15.97,
+    "text": "Gemini 15°58′",
+    "longitude": 75.974
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 16.43,
+    "text": "Taurus 16°26′",
+    "longitude": 46.432
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 19.56,
+    "text": "Scorpio 19°34′",
+    "longitude": 229.562
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 25.1,
+    "text": "Capricornus 25°06′",
+    "longitude": 295.095
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 4.33,
+    "text": "Aries 4°20′",
+    "longitude": 4.332
+   }
+  },
+  {
+   "segment": "The Grave and What Outlives It",
+   "stop": "Kirriemuir, 9 Brechin Road: the cottage kept open",
+   "date": "1937-06-24",
+   "date_confidence": "the National Trust for Scotland's ownership of the birthplace is attested; the date of acquisition is not established by any source reached, so the stop carries the date of the burial as a placeholder and makes no claim about when the museum opened",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428708.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.06,
+    "text": "Cancer 2°04′",
+    "longitude": 92.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and What Outlives It",
+   "stop": "London, Sloane Square: the last of the Peter Pan boys but one",
+   "date": "1960-04-05",
+   "date_confidence": "attested to 5 April 1960 at Sloane Square Underground station; no verified coordinate for the station was obtained, so the atlas's canonical London pin is used in its place",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2437029.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.22,
+    "text": "Aries 15°13′",
+    "longitude": 15.221
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 22.96,
+    "text": "Cancer 22°58′",
+    "longitude": 112.962
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 17.65,
+    "text": "Pisces 17°39′",
+    "longitude": 347.651
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 24.55,
+    "text": "Pisces 24°33′",
+    "longitude": 354.547
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 2.1,
+    "text": "Pisces 2°06′",
+    "longitude": 332.103
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 3.26,
+    "text": "Capricornus 3°15′",
+    "longitude": 273.257
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 18.01,
+    "text": "Capricornus 18°01′",
+    "longitude": 288.009
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Grave and What Outlives It",
+   "stop": "Great Ormond Street, the right that does not expire",
+   "date": "1988-01-01",
+   "date_confidence": "attested: UK copyright expired in 1987, the Copyright, Designs and Patents Act granting the perpetual royalty right received Royal Assent in 1988, the EU term extension restored full copyright in 1996, and that term lapsed again in 2007",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1988,
+   "jd_ut": 2447161.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.79,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.785
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 12,
+  "month": 2,
+  "year": 31
+ },
+ "parse_failures": []
+}

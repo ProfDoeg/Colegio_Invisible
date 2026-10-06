@@ -1,0 +1,1291 @@
+{
+ "slug": "angel_della_valle",
+ "traveler": "Ángel della Valle",
+ "title": "The Room and the Raid: eleven years in Florence, and a frontier painted at second hand",
+ "years": "1852-1903",
+ "years_parsed": {
+  "first": 1852,
+  "last": 1903
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "A House of Builders",
+  "stop": "Buenos Aires, born in the year of Caseros",
+  "date": "1852-10-10",
+  "date_confidence": "attested by es.wikipedia; a Wikidata statement field has returned 1855, and the 1852 reading is followed here as the majority one",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1852,
+  "jd_ut": 2397771.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Libra",
+   "degree": 16.85,
+   "text": "Libra 16°51′",
+   "longitude": 196.851
+  },
+  "moon": {
+   "sign": "Virgo",
+   "degree": 0.92,
+   "text": "Virgo 0°55′",
+   "longitude": 150.917
+  },
+  "mercury": {
+   "sign": "Libra",
+   "degree": 10.77,
+   "text": "Libra 10°46′",
+   "longitude": 190.771
+  },
+  "venus": {
+   "sign": "Virgo",
+   "degree": 0.93,
+   "text": "Virgo 0°56′",
+   "longitude": 150.929
+  },
+  "mars": {
+   "sign": "Scorpio",
+   "degree": 15.28,
+   "text": "Scorpio 15°17′",
+   "longitude": 225.283
+  },
+  "jupiter": {
+   "sign": "Scorpio",
+   "degree": 23.85,
+   "text": "Scorpio 23°51′",
+   "longitude": 233.852
+  },
+  "saturn": {
+   "sign": "Taurus",
+   "degree": 16.57,
+   "text": "Taurus 16°34′",
+   "longitude": 46.565
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1852-1903",
+  "first_year_parsed": 1852
+ },
+ "stops": [
+  {
+   "segment": "A House of Builders",
+   "stop": "Palermo, the father's commissions for Rosas",
+   "date": "1848-01-01",
+   "date_confidence": "reconstruction: the father's Rosas-era commissions are attested but no structure and no dates are named, and Palermo is the standard identification of Rosas's Buenos Aires seat, not a documented site of this family's work",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396027.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.772
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A House of Builders",
+   "stop": "Buenos Aires, born in the year of Caseros",
+   "date": "1852-10-10",
+   "date_confidence": "attested by es.wikipedia; a Wikidata statement field has returned 1855, and the 1852 reading is followed here as the majority one",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397771.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.85,
+    "text": "Libra 16°51′",
+    "longitude": 196.851
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 0.92,
+    "text": "Virgo 0°55′",
+    "longitude": 150.917
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.77,
+    "text": "Libra 10°46′",
+    "longitude": 190.771
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 0.93,
+    "text": "Virgo 0°56′",
+    "longitude": 150.929
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 15.28,
+    "text": "Scorpio 15°17′",
+    "longitude": 225.283
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 23.85,
+    "text": "Scorpio 23°51′",
+    "longitude": 233.852
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 16.57,
+    "text": "Taurus 16°34′",
+    "longitude": 46.565
+   }
+  },
+  {
+   "segment": "A House of Builders",
+   "stop": "Colegio San José, the schooling of a builder's son",
+   "date": "1862-01-01",
+   "date_confidence": "inferred: attendance at the Colegio San José is attested, but no source gives the years",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401141.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.38,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.384
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Florentine Discipline",
+   "stop": "Puerto de Buenos Aires, embarkation for Italy",
+   "date": "1872-01-01",
+   "date_confidence": "reconstruction: the source says only that he went to Italy at twenty, and no port, ship or month is named anywhere",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404793.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.95,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.948
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Florentine Discipline",
+   "stop": "Porto di Genova, the landfall",
+   "date": "1872-03-01",
+   "date_confidence": "reconstruction: no source names his port of arrival, and Genoa is offered as the standard nineteenth-century landfall for River Plate passenger routes",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404853.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.77,
+    "text": "Pisces 10°46′",
+    "longitude": 340.768
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Florentine Discipline",
+   "stop": "Florence, the studio of Antonio Ciseri",
+   "date": "1872-06-01",
+   "date_confidence": "attested that he studied in Florence under Ciseri from about 1872 until 1883; the month and the exact premises are not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404945.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.76,
+    "text": "Gemini 10°46′",
+    "longitude": 70.764
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Florentine Discipline",
+   "stop": "Buenos Aires, the Sociedad Estímulo founded without him",
+   "date": "1876-10-23",
+   "date_confidence": "attested to the day for the founding; della Valle is in Italy and has no part in it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406550.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 29.95,
+    "text": "Libra 29°57′",
+    "longitude": 209.948
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 4.6,
+    "text": "Capricornus 4°36′",
+    "longitude": 274.603
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 13.68,
+    "text": "Libra 13°41′",
+    "longitude": 193.678
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 16.07,
+    "text": "Virgo 16°04′",
+    "longitude": 166.067
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 5.83,
+    "text": "Libra 5°50′",
+    "longitude": 185.825
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 3.6,
+    "text": "Sagittarius 3°36′",
+    "longitude": 243.6
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 1.14,
+    "text": "Pisces 1°09′",
+    "longitude": 331.142
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Crossing and the Florentine Discipline",
+   "stop": "Venice, the bronze horses of San Marco",
+   "date": "1881-01-01",
+   "date_confidence": "the painting and its 1881 date are attested in the work list; that he executed it in Venice before the basilica, rather than from prints elsewhere in Italy, is inferred from the title",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408081.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.78,
+    "text": "Capricornus 10°47′",
+    "longitude": 280.779
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return and the Room in His Parents' House",
+   "stop": "Puerto de Buenos Aires, the return",
+   "date": "1883-01-01",
+   "date_confidence": "the 1883 return is attested in both the Spanish and English articles; the port, the month and the vessel are reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2408811.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.284
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return and the Room in His Parents' House",
+   "stop": "Buenos Aires, the easel in his parents' house",
+   "date": "1883-06-01",
+   "date_confidence": "attested that he installed his studio in his parents' house on returning in 1883; no source gives the address, so this stop falls back to the city pin",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2408962.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.13,
+    "text": "Gemini 10°08′",
+    "longitude": 70.133
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return and the Room in His Parents' House",
+   "stop": "Buenos Aires, the circle of the generation of 1880",
+   "date": "1883-01-01",
+   "date_confidence": "the names are attested as his circle, the date is not: de la Cárcova was seventeen in 1883 and Cafferata died in 1890, and the only documented assembly of the group is the 1893 photograph, so read this as c.1883-1893",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2408811.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.284
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return and the Room in His Parents' House",
+   "stop": "Buenos Aires, taken on to teach drawing",
+   "date": "1884-01-01",
+   "date_confidence": "the eighteen years of drawing teaching at the Sociedad Estímulo are attested, the starting year is not given and is inferred from the 1883 return",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409176.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.037
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return and the Room in His Parents' House",
+   "stop": "Casa Rosada, the portrait of the president",
+   "date": "1886-01-01",
+   "date_confidence": "reconstruction: the Lagleyze connection and the Roca portrait are attested, the year is not recorded, and no source places the sitting at the Casa de Gobierno rather than a private house or the painter's own room",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409907.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.561
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return and the Room in His Parents' House",
+   "stop": "Buenos Aires, the pampa sold by the frame",
+   "date": "1888-01-01",
+   "date_confidence": "the titles and years are attested in the es.wikipedia work list; the studio setting is inferred from his documented working method",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410637.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.066
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Raid: a Frontier Invented in a City Room",
+   "stop": "Choele Choel, the frontier closed by clearing it",
+   "date": "1879-06-02",
+   "date_confidence": "attested to the day for Roca's letter from Choele Choel; della Valle is not present and never travels here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407502.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.06,
+    "text": "Gemini 11°04′",
+    "longitude": 71.059
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 4.92,
+    "text": "Scorpio 4°55′",
+    "longitude": 214.917
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 22.73,
+    "text": "Taurus 22°44′",
+    "longitude": 52.728
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 21.85,
+    "text": "Cancer 21°51′",
+    "longitude": 111.853
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 25.02,
+    "text": "Pisces 25°01′",
+    "longitude": 355.016
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 11.43,
+    "text": "Pisces 11°26′",
+    "longitude": 341.43
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 12.93,
+    "text": "Aries 12°56′",
+    "longitude": 12.927
+   }
+  },
+  {
+   "segment": "The Raid: a Frontier Invented in a City Room",
+   "stop": "Buenos Aires, La vuelta del Malón painted",
+   "date": "1892-01-01",
+   "date_confidence": "the 1892 date, the medium and the dimensions 186.5 by 292 cm come from the painting's own article; della Valle's own article gives 192 by 131 cm, a contradiction left standing",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412098.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.096
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Raid: a Frontier Invented in a City Room",
+   "stop": "Buenos Aires, the bazaar of Nocetti y Repetto",
+   "date": "1892-06-01",
+   "date_confidence": "the bazaar showing is attested, the month is not recorded, and the street is unnamed in the source",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412250.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.92,
+    "text": "Gemini 10°55′",
+    "longitude": 70.923
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Raid: a Frontier Invented in a City Room",
+   "stop": "Jackson Park, Chicago, the canvas travels alone",
+   "date": "1893-05-01",
+   "date_confidence": "the Chicago showing in the Argentine section is attested; the month is taken from the exposition's own opening and no source records della Valle crossing with the painting",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412584.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.83,
+    "text": "Taurus 10°50′",
+    "longitude": 40.832
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Teacher and the Last Decade",
+   "stop": "Buenos Aires, the group photograph of 1893",
+   "date": "1893-01-01",
+   "date_confidence": "the photograph is dated 1893 in its caption; the month, the photographer and the room are not recorded, and no source names the premises",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Teacher and the Last Decade",
+   "stop": "Lomas de Zamora, the station on the southern line",
+   "date": "1893-01-01",
+   "date_confidence": "the title and year are attested in the work list; whether he worked trackside or from sketches afterward is not recorded anywhere",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Teacher and the Last Decade",
+   "stop": "Buenos Aires, the ring race painted from town",
+   "date": "1893-06-01",
+   "date_confidence": "the title and 1893 date are attested; the month is arbitrary and the studio setting is assumed from his documented working method, not attested for this canvas",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412615.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.69,
+    "text": "Gemini 10°41′",
+    "longitude": 70.692
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Teacher and the Last Decade",
+   "stop": "Buenos Aires, the edge of the monte",
+   "date": "1895-01-01",
+   "date_confidence": "the title and 1895 date are attested; the depicted ground is generic scrubland with no identifiable site, and the studio setting is inferred rather than documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Teacher and the Last Decade",
+   "stop": "Buenos Aires, the names in the classroom",
+   "date": "1896-01-01",
+   "date_confidence": "the students are attested by surname only, Boggio, Daneri and Victorica, with no years given; the identification of Victorica as Miguel Carlos and Daneri as Eugenio is inference, and no article was found for a painter named Boggio",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413559.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Teacher and the Last Decade",
+   "stop": "Buenos Aires, fire on the pampa",
+   "date": "1900-01-01",
+   "date_confidence": "the title and 1900 date are attested in the work list; the studio setting is inferred, and the scene described here is the subject named by the title, not a documented description of the canvas",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Teacher and the Last Decade",
+   "stop": "Buenos Aires, the gaucho at work",
+   "date": "1900-06-01",
+   "date_confidence": "the title and 1900 date are attested; the month is arbitrary and the studio setting is inferred from his working pattern",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415171.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "arbitrary"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.03,
+    "text": "Gemini 10°02′",
+    "longitude": 70.029
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Teacher and the Last Decade",
+   "stop": "Buenos Aires, the studio painted from inside",
+   "date": "1900-09-01",
+   "date_confidence": "the title and 1900 date are attested; the month is arbitrary and no description of the canvas was found in any reachable source",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415263.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.08,
+    "text": "Virgo 8°05′",
+    "longitude": 158.082
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Class That Did Not Finish",
+   "stop": "Buenos Aires, death in the middle of a lesson",
+   "date": "1903-07-16",
+   "date_confidence": "attested to the day in both the Spanish and English articles; the room is not specified beyond the fact that he was teaching",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416311.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not given) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.29,
+    "text": "Cancer 22°17′",
+    "longitude": 112.289
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 1.23,
+    "text": "Aries 1°14′",
+    "longitude": 1.233
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 10.16,
+    "text": "Cancer 10°09′",
+    "longitude": 100.157
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 7.64,
+    "text": "Virgo 7°39′",
+    "longitude": 157.644
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 18.09,
+    "text": "Libra 18°05′",
+    "longitude": 198.085
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 23.27,
+    "text": "Pisces 23°16′",
+    "longitude": 353.267
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 6.91,
+    "text": "Aquarius 6°55′",
+    "longitude": 306.91
+   }
+  },
+  {
+   "segment": "The Class That Did Not Finish",
+   "stop": "Museo Nacional de Bellas Artes, Room 24",
+   "date": "1932-01-01",
+   "date_confidence": "the museum reached this Recoleta building in 1932 and the painting hangs in Room 24 today; no source consulted dates the acquisition of the canvas, and the museum's own site returned HTTP 403",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Class That Did Not Finish",
+   "stop": "Diagonal Sur y Perú, the argument in bronze",
+   "date": "1941-01-01",
+   "date_confidence": "the monument's 1941 erection and the vandalism from 2005 onward are attested; della Valle has been dead thirty-eight years when the bronze goes up",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2429995.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Class That Did Not Finish",
+   "stop": "Buenos Aires, the canvas read as evidence",
+   "date": "2021-10-31",
+   "date_confidence": "the article's outlet and date are attested through a secondary summary; the original text could not be reached and no direct quotation from it was available",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2021,
+   "jd_ut": 2459518.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.79,
+    "text": "Scorpio 7°48′",
+    "longitude": 217.792
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 3.2,
+    "text": "Virgo 3°12′",
+    "longitude": 153.202
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 20.95,
+    "text": "Libra 20°57′",
+    "longitude": 200.952
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 24.72,
+    "text": "Sagittarius 24°43′",
+    "longitude": 264.72
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 0.28,
+    "text": "Scorpio 0°17′",
+    "longitude": 210.279
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.56,
+    "text": "Aquarius 22°33′",
+    "longitude": 322.558
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 7.22,
+    "text": "Aquarius 7°13′",
+    "longitude": 307.224
+   }
+  }
+ ],
+ "counts": {
+  "stops": 30,
+  "dated": 30,
+  "unparsed": 0,
+  "day": 5,
+  "month": 0,
+  "year": 25
+ },
+ "parse_failures": []
+}

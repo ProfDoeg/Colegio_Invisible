@@ -1,0 +1,1747 @@
+{
+ "slug": "origen",
+ "traveler": "Origen of Alexandria (Origenes Adamantius)",
+ "title": "The Six Columns and the Iron Collar: Origen from Alexandria to Caesarea",
+ "years": "c. 185-253",
+ "years_parsed": {
+  "first": 185,
+  "last": 253
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Alexandria: The Martyr's Son",
+  "stop": "Alexandria, born into a Christian house",
+  "date": "0185-01-01",
+  "date_confidence": "reconstruction. No source gives a birth date. The year c. 185 is arrived at backward from Eusebius, Ecclesiastical History VI.2.12, which says he was not quite seventeen when his father died in 202. Month and day are ordering devices. Coordinates are the Alexandria pin already in use in this corpus for the Brucheion and the Museion; the family's actual quarter is unknown.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 185,
+  "jd_ut": 1788629.5,
+  "precision": "year",
+  "precision_triggers": [
+   "c.",
+   "unknown",
+   "ordering",
+   "no source (for the date)",
+   "reconstructed (the date)",
+   "(soft-year) year named with preposition",
+   "(soft) no source",
+   "(soft) reconstruct"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 10.7,
+   "text": "Capricornus 10°42′",
+   "longitude": 280.699
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 185-253",
+  "first_year_parsed": 185
+ },
+ "stops": [
+  {
+   "segment": "Alexandria: The Martyr's Son",
+   "stop": "Alexandria, born into a Christian house",
+   "date": "0185-01-01",
+   "date_confidence": "reconstruction. No source gives a birth date. The year c. 185 is arrived at backward from Eusebius, Ecclesiastical History VI.2.12, which says he was not quite seventeen when his father died in 202. Month and day are ordering devices. Coordinates are the Alexandria pin already in use in this corpus for the Brucheion and the Museion; the family's actual quarter is unknown.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 185,
+   "jd_ut": 1788629.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "unknown",
+    "ordering",
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.7,
+    "text": "Capricornus 10°42′",
+    "longitude": 280.699
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Alexandria: The Martyr's Son",
+   "stop": "Alexandria, the daily recitation",
+   "date": "0195-01-01",
+   "date_confidence": "attested as a practice, undated. Eusebius, Ecclesiastical History VI.2, describes the double curriculum without giving years. The date here orders the segment and is not a finding.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 195,
+   "jd_ut": 1792281.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Alexandria: The Martyr's Son",
+   "stop": "Alexandria, Leonides taken in the persecution",
+   "date": "0202-01-01",
+   "date_confidence": "attested to 202 (Eusebius, Ecclesiastical History VI.1-2). Month and day default to 01. The charge, the informer, and the length of the imprisonment are not given by any source.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 202,
+   "jd_ut": 1794838.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.567
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Alexandria: The Martyr's Son",
+   "stop": "Alexandria, the clothes hidden",
+   "date": "0202-02-01",
+   "date_confidence": "reported, not corroborated. Eusebius, Ecclesiastical History VI.2, is the sole witness; he claims access to letters and to people who knew Origen, but nothing independent confirms the episode. Month and day are ordering devices within 202.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 202,
+   "jd_ut": 1794869.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.89,
+    "text": "Aquarius 11°54′",
+    "longitude": 311.895
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Alexandria: The Martyr's Son",
+   "stop": "Alexandria, the beheading and the confiscated estate",
+   "date": "0202-03-01",
+   "date_confidence": "attested to 202 (Eusebius, Ecclesiastical History VI.1-2; Jerome, De Viris Illustribus 54). The month and day are ordering devices; no source dates the execution more closely.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 202,
+   "jd_ut": 1794897.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "ordering",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.77,
+    "text": "Pisces 9°46′",
+    "longitude": 339.773
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Alexandria: The Martyr's Son",
+   "stop": "Alexandria, the rich woman's household",
+   "date": "0202-09-01",
+   "date_confidence": "attested (Eusebius, Ecclesiastical History VI.2), dated only to the aftermath of the confiscation, so 202 or 203. The patroness is unnamed in every surviving source. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 202,
+   "jd_ut": 1795081.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.16,
+    "text": "Virgo 7°09′",
+    "longitude": 157.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Catechetical School",
+   "stop": "Alexandria, eighteen years old and the school entrusted",
+   "date": "0203-01-01",
+   "date_confidence": "attested to his eighteenth year (Eusebius, Ecclesiastical History VI.3). Two elements of the pool are corrected here. Eusebius VI.3.1 has him begin because persecution had driven every teacher out, while VI.3.8 says the school was entrusted to him alone by Demetrius: the appointment is the bishop's, not his own initiative, and Eusebius does not reconcile the two. Eusebius VI.3.3 also sets the persecution under the prefect Aquila, whose term in Egypt runs c. 206-211 and cannot be folded into a 203 date; that discrepancy is left open.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 203,
+   "jd_ut": 1795203.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.32,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.32
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Catechetical School",
+   "stop": "Alexandria, the kiss at the door of the condemned",
+   "date": "0204-01-01",
+   "date_confidence": "attested for the persons and the practice (Eusebius, Ecclesiastical History VI.3-VI.5); the deaths are spread across the early years of the school and are not individually dated. The seven names are given here in full, correcting a pool list that omitted Basilides and the second Serenus.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 204,
+   "jd_ut": 1795568.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.073
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Catechetical School",
+   "stop": "Alexandria, the grammar school given up",
+   "date": "0206-01-01",
+   "date_confidence": "attested in sequence but not in year (Eusebius, Ecclesiastical History VI.3.8-9). The pool had him selling the books while teaching grammar and doing it to feed his mother and brothers; Eusebius has the two acts in the other order, the grammar school abandoned first, and frames the four obols as ascetic self-sufficiency, saying nothing about the family. Year, month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 206,
+   "jd_ut": 1796299.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.6,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.595
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Catechetical School",
+   "stop": "Alexandria, the floor, the bare feet, no wine",
+   "date": "0208-01-01",
+   "date_confidence": "attested as a sustained practice, undated (Eusebius, Ecclesiastical History VI.3). The year orders the segment. Eusebius's judgement that the regime endangered his health is his own, offered as praise.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 208,
+   "jd_ut": 1797029.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.101
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Catechetical School",
+   "stop": "Alexandria, the deed Eusebius calls daring",
+   "date": "0210-01-01",
+   "date_confidence": "reported and disputed. Eusebius, Ecclesiastical History VI.8, is the sole ancient witness; since the early twentieth century a substantial body of scholarship has questioned whether the self-castration happened at all, reading it as hostile tradition Eusebius passed on. Trigg accepts it, Chadwick and McGuckin doubt it. Origen's own Commentary on Matthew rejects a literal reading of the verse. The pool tagged this attested in one lens and reported in another; it is treated here as reported. Year, month and day are ordering devices within c. 206-213.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 210,
+   "jd_ut": 1797760.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "disputed",
+    "ordering",
+    "decade/century",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.624
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Catechetical School",
+   "stop": "Alexandria, Heraclas takes the beginners",
+   "date": "0212-01-01",
+   "date_confidence": "the delegation to Heraclas is attested (Eusebius, Ecclesiastical History VI.15). The philosophy studies under a teacher named Ammonius and the philosopher's cloak reach Eusebius only inside a passage he quotes from the hostile pagan Porphyry at VI.19.5-8 and then argues against, so they are reported, not attested. The identification of this Ammonius with Ammonius Saccas, later teacher of Plotinus, is disputed and unresolved; Eusebius answers Porphyry by insisting that Ammonius was a Christian raised by Christian parents, which Porphyry denied, and neither claim is independently testable. Year, month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 212,
+   "jd_ut": 1798490.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.13
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Journeys Out",
+   "stop": "Rome, to see the oldest church there is",
+   "date": "0213-01-01",
+   "date_confidence": "attested to the episcopate of Zephyrinus, who died in 217, so c. 212-215 (Eusebius, Ecclesiastical History VI.14.10). Month and day are ordering devices. Coordinates are the Rome pin already in use in this corpus. No building, meeting, or Roman contact is named by any source.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 213,
+   "jd_ut": 1798856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "ordering",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.899
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Journeys Out",
+   "stop": "Bostra, the governor's soldier and the letters",
+   "date": "0215-01-01",
+   "date_confidence": "reconstruction. Eusebius, Ecclesiastical History VI.19, reports the summons, the escort, and the return, and names neither the governor, the purpose, nor the town. Bostra is inferred as the seat of the Roman governor of Arabia and is not attested for this visit. The date c. 214-216 comes from the surrounding narrative and is not fixed by any source.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 215,
+   "jd_ut": 1799586.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "not fixed",
+    "inferred",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.405
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Journeys Out",
+   "stop": "Caesarea Maritima, the layman told to preach",
+   "date": "0216-01-01",
+   "date_confidence": "attested for the preaching and the objection (Eusebius, Ecclesiastical History VI.19.16-17); the flight from Alexandria is reconstruction, since Eusebius reports the disturbances without naming Caracalla, and the connection to his punitive action against the city's youth is the modern reading. Dated 215/216 in the sources; month and day default within it. Coordinates are the Caesarea Maritima pin already in use in this corpus.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 216,
+   "jd_ut": 1799951.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.16,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.158
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Journeys Out",
+   "stop": "Alexandria, recalled by the deacons",
+   "date": "0217-01-01",
+   "date_confidence": "attested (Eusebius, Ecclesiastical History VI.19), dated only by position in the narrative. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 217,
+   "jd_ut": 1800317.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.93,
+    "text": "Capricornus 10°56′",
+    "longitude": 280.928
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ambrose's Seven Shorthand Writers",
+   "stop": "Alexandria, Ambrose brought out of Valentinus",
+   "date": "0218-01-01",
+   "date_confidence": "attested (Eusebius, Ecclesiastical History VI.18.1 for the conversion from Valentinianism, VI.23.2 for the writing apparatus). The pool cited VI.21 for both, which is the chapter on Julia Mamaea; that citation is corrected here. The year is a position in the narrative, not a date in any source.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 218,
+   "jd_ut": 1800682.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.68,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.681
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ambrose's Seven Shorthand Writers",
+   "stop": "Alexandria, more than seven amanuenses",
+   "date": "0222-01-01",
+   "date_confidence": "attested for the arrangement (Eusebius, Ecclesiastical History VI.23.2: 'he dictated to more than seven amanuenses, who relieved each other at appointed times'). The year is an ordering device. The Galatians discrepancy is from Roger Pearse's edited translation of Jerome's catalogue and its use of Crouzel's notes.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 222,
+   "jd_ut": 1802143.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.71,
+    "text": "Capricornus 10°43′",
+    "longitude": 280.71
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ambrose's Seven Shorthand Writers",
+   "stop": "Antioch, the empress's escort",
+   "date": "0224-01-01",
+   "date_confidence": "contested and not resolved. Eusebius, Ecclesiastical History VI.21, places the summons in the reign of Severus Alexander and calls Mamaea the mother of the emperor, which rules out anything before March 222; the pool's window of c. 218-222 falls in Elagabalus's reign and is rejected here. Many reconstructions put the Antioch summons at c. 231-232, when Alexander was at Antioch for the Persian campaign, which would place it after the break with Demetrius, whereas Eusebius has him return to Alexandria afterwards. The date given here follows Eusebius's narrative position and is an ordering device, not a finding. Coordinates are the Antioch on the Orontes pin already in use in this corpus.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 224,
+   "jd_ut": 1802873.5,
+   "precision": "month",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "ordering",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.22,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.216
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ambrose's Seven Shorthand Writers",
+   "stop": "Alexandria, the columns set side by side",
+   "date": "0225-01-01",
+   "date_confidence": "attested for the arrangement and the named versions (Eusebius, Ecclesiastical History VI.16, which describes the parallel columns with the Hebrew text and names Aquila, Symmachus and Theodotion, and mentions the fifth, sixth and seventh versions of the Psalms). The second column of Greek transliteration, carried by the pool, is not in Eusebius and rests on later witnesses such as Epiphanius and the Milan palimpsest; it is omitted here. The work spans decades and both cities; the year is an ordering device.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 225,
+   "jd_ut": 1803239.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.99,
+    "text": "Capricornus 10°59′",
+    "longitude": 280.985
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ambrose's Seven Shorthand Writers",
+   "stop": "Alexandria, the Commentary on John against Heracleon",
+   "date": "0226-01-01",
+   "date_confidence": "attested (Eusebius, Ecclesiastical History VI.24: the first five books of the John commentary, the first eight on Genesis, Psalms 1-25, Lamentations, two books On the Resurrection and the Stromateis all written at Alexandria). The pool over-hedged this as reconstruction with no citation; the citation exists and is given. The Heracleon target comes from Origen's own commentary, not from Eusebius. Year, month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 226,
+   "jd_ut": 1803604.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.74,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.738
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ambrose's Seven Shorthand Writers",
+   "stop": "Alexandria, On First Principles",
+   "date": "0229-01-01",
+   "date_confidence": "attested to the Alexandrian years (Eusebius, Ecclesiastical History VI.24). The Greek is substantially lost; the four books survive mainly in Rufinus of Aquileia's Latin of c. 397-398, made by a translator who stated openly that he corrected passages he took to be later heretical insertions, and Jerome's rival literal Latin version, produced to expose those changes, is itself lost. No modern edition can adjudicate between them. Year, month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 229,
+   "jd_ut": 1804700.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.01,
+    "text": "Capricornus 11°01′",
+    "longitude": 281.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Break with Demetrius",
+   "stop": "Achaea, sent to Greece on the church's business",
+   "date": "0230-06-01",
+   "date_confidence": "partly mis-sourced in the pool and corrected here. Eusebius, Ecclesiastical History VI.23.4, says only that he was sent to Greece on account of a pressing necessity in church matters, and names neither Achaea, nor Corinth, nor any doctrinal dispute. The Achaean heresy detail comes from Photius, Bibliotheca cod. 118, reporting Pamphilus's lost Apology. The coordinate is Ancient Corinth, chosen as the province's principal see, and the arrival there is not narrated in any source. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 230,
+   "jd_ut": 1805216.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.81,
+    "text": "Gemini 8°49′",
+    "longitude": 68.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Break with Demetrius",
+   "stop": "Caesarea Maritima, the hands laid on a layman from Egypt",
+   "date": "0231-01-01",
+   "date_confidence": "attested (Eusebius, Ecclesiastical History VI.23.4; Jerome, De Viris Illustribus 54; Catholic Encyclopedia, 'Origen and Origenism'), dated c. 230-231; month and day are ordering devices. Whether the ordination was a courtesy or a deliberate provocation is asserted in opposite directions by partisan sources and is not resolved here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 231,
+   "jd_ut": 1805430.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.52,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.52
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Break with Demetrius",
+   "stop": "Alexandria, the synods and the deposition",
+   "date": "0231-09-01",
+   "date_confidence": "reported, not attested, and re-sourced against the pool. Eusebius, Ecclesiastical History VI.26, contains no synod, no expulsion and no deposition; its content is the move to Caesarea, Demetrius's death after forty-three years as bishop, and Heraclas's succession. The two Alexandrian synods come from Photius, Bibliotheca cod. 118, echoed by Jerome, and the decrees themselves do not survive. Eusebius's attribution of jealousy to Demetrius is his own partisan reading. Month and day are ordering devices within 231/232.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 231,
+   "jd_ut": 1805673.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.13,
+    "text": "Virgo 7°08′",
+    "longitude": 157.128
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Break with Demetrius",
+   "stop": "Caesarea Maritima, quitting Egypt",
+   "date": "0232-01-01",
+   "date_confidence": "attested for the permanent removal (Catholic Encyclopedia, 'Origen and Origenism'; Eusebius, Ecclesiastical History VI.26 for the move in Alexander's tenth year). Dated 231/232; month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 232,
+   "jd_ut": 1805795.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.273
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School at Caesarea",
+   "stop": "Caesarea Maritima, two brothers who never reach the law school",
+   "date": "0233-01-01",
+   "date_confidence": "Eusebius, Ecclesiastical History VI.30, names Theodore, later Gregory, and his brother Athenodore, and supplies neither the five-year figure nor the abandoned law studies at Berytus; both of those come from Gregory's own Address of Thanksgiving to Origen, and the five years are independently reported by the Catholic Encyclopedia. The pool's two lenses gave c. 232-235 and c. 233-238; the later window is preferred here, since a five-year course beginning in the very year Origen arrived is the weaker reconstruction. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 233,
+   "jd_ut": 1806161.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°03′",
+    "longitude": 281.042
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School at Caesarea",
+   "stop": "Caesarea in Cappadocia, the other Caesarea",
+   "date": "0236-01-01",
+   "date_confidence": "reported. Eusebius, Ecclesiastical History VI.27, attests the friendship with Firmilian and mutual visits between the two men in general terms and dates none of them. Placing Origen physically in Cappadocia through the Maximinus persecution is a modern reconstruction on thin evidence, and his whereabouts in 235-238 are not recoverable. Coordinates are Kayseri. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 236,
+   "jd_ut": 1807256.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.3,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.301
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School at Caesarea",
+   "stop": "Caesarea Maritima, the Exhortation to Martyrdom",
+   "date": "0237-01-01",
+   "date_confidence": "attested for the treatise and its two dedicatees (Eusebius, Ecclesiastical History VI.28), dated to the persecution under Maximinus, 235-238. Origen's own whereabouts during those years are uncertain. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 237,
+   "jd_ut": 1807622.5,
+   "precision": "year",
+   "precision_triggers": [
+    "uncertain",
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.07,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.071
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School at Caesarea",
+   "stop": "Athens, the Ezekiel finished and the Song begun",
+   "date": "0240-01-01",
+   "date_confidence": "reconstruction. The pool carries this from a synthesis of Eusebius and Jerome's catalogue and did not re-fetch a passage for it; no source reached in this pass narrates the Athenian stay directly. The date window c. 238-244 is inherited from that synthesis. Month and day are ordering devices. Who invited him and how long he stayed are not recorded anywhere.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 240,
+   "jd_ut": 1808717.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "not recorded",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.33,
+    "text": "Capricornus 10°20′",
+    "longitude": 280.33
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School at Caesarea",
+   "stop": "Bostra, Beryllus talked back",
+   "date": "0241-01-01",
+   "date_confidence": "attested (Eusebius, Ecclesiastical History VI.33; the pool's chronology lens cited VI.27, which is the Firmilian chapter, and that citation is corrected here). Dated to the reign of Gordian III, c. 238-244; month and day are ordering devices. The record of the discussion existed in Eusebius's day and does not survive.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 241,
+   "jd_ut": 1809083.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.1,
+    "text": "Capricornus 11°06′",
+    "longitude": 281.1
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School at Caesarea",
+   "stop": "Roman Arabia, the synod on the soul that dies",
+   "date": "0243-01-01",
+   "date_confidence": "attested for the synod and its outcome (Eusebius, Ecclesiastical History VI.37), which names no town; Bostra is used here as the likeliest Arabian see given the Beryllus precedent, and is not attested for this meeting. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 243,
+   "jd_ut": 1809813.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.61,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.606
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School at Caesarea",
+   "stop": "Caesarea Maritima, the letter to Africanus on Susanna",
+   "date": "0244-01-01",
+   "date_confidence": "attested (Eusebius, Ecclesiastical History VI.31; both letters survive). Dated c. 240 in the pool; the year here is an ordering device within the Caesarean period. Africanus wrote from Alexandria.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 244,
+   "jd_ut": 1810178.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "ordering",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.36,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.359
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Past Sixty",
+   "stop": "Caesarea Maritima, the shorthand writers admitted",
+   "date": "0245-01-01",
+   "date_confidence": "attested (Eusebius, Ecclesiastical History VI.36: past the age of sixty he permitted stenographers to record his public discourses for the first time, and the twenty-five books on Matthew belong to this period). The Mount Tabor identification is credited to Origen in Eusebius and is already carried on apostle_peter.journey.json; Eusebius, Ecclesiastical History 3.1, cites Origen for Peter's inverted crucifixion without naming which work. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 245,
+   "jd_ut": 1810544.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.13,
+    "text": "Capricornus 11°08′",
+    "longitude": 281.128
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Past Sixty",
+   "stop": "Caesarea Maritima, a bishop cross-examined in public",
+   "date": "0246-01-01",
+   "date_confidence": "reconstruction, and re-sourced against the pool, which cited Eusebius. Eusebius nowhere mentions the Dialogue with Heraclides: the text was entirely unknown before the Tura discovery of August 1941 and was published by Jean Scherer as Entretien d'Origene avec Heraclide. Its Caesarean setting and its date within the 240s are scholarly placements, not attestations. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 246,
+   "jd_ut": 1810909.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.88,
+    "text": "Capricornus 10°53′",
+    "longitude": 280.881
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Past Sixty",
+   "stop": "Caesarea Maritima, Against Celsus",
+   "date": "0248-01-01",
+   "date_confidence": "attested (Eusebius, Ecclesiastical History VI.36) for the eight books answering Celsus's True Discourse, written at Ambrose's urging. The remark on the near-extinction of Simon Magus's followers is carried from simon_magus.journey.json, which flags its own Origen citation as taken from a research pool and not independently re-fetched; it is unverified here and is stated as such. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 248,
+   "jd_ut": 1811639.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.39,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.387
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Past Sixty",
+   "stop": "Caesarea Maritima, the letters to Philip and Severa",
+   "date": "0249-01-01",
+   "date_confidence": "attested that the letters existed (Eusebius, Ecclesiastical History VI.36); their contents are lost and no source quotes them. Eusebius does not say Philip was a Christian, and that inference goes beyond the text. Dated c. 244-249; month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 249,
+   "jd_ut": 1812005.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "ordering",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.16,
+    "text": "Capricornus 11°09′",
+    "longitude": 281.157
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Iron Collar",
+   "stop": "Roman Palestine, the stocks at the fourth hole",
+   "date": "0250-01-01",
+   "date_confidence": "attested (Eusebius, Ecclesiastical History VI.39), who drew the details from Origen's own letters. The exact city of the imprisonment is not named; Caesarea is presumed as his residence at the time rather than confirmed as the site of arrest, and the coordinate is the Caesarea Maritima pin already in use in this corpus. No court transcript or sentence survives. Month and day are ordering devices within 250-251.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 250,
+   "jd_ut": 1812370.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably",
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.91,
+    "text": "Capricornus 10°55′",
+    "longitude": 280.91
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Iron Collar",
+   "stop": "Caesarea Maritima, out alive and writing letters",
+   "date": "0251-01-01",
+   "date_confidence": "reconstruction. Eusebius, Ecclesiastical History VI, reports the survival and the consolatory letters written afterwards; no recantation is recorded and no sentence survives. The physical consequences of the imprisonment are not stated by any ancient source, and the common assumption that the torture killed him is not attested. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 251,
+   "jd_ut": 1812735.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "not given",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.66,
+    "text": "Capricornus 10°40′",
+    "longitude": 280.663
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Iron Collar",
+   "stop": "Tyre, the sixty-ninth year",
+   "date": "0253-01-01",
+   "date_confidence": "reported, and the pool's date corrected. Jerome, De Viris Illustribus 54, anchors the death to the reign of Gallus and Volusianus, who were killed in August 253, so the pool's 253/254 overshoots; Wikipedia's biography has him dying less than a year after his release in 251, which would push it earlier. Give c. 251-253. Wikipedia further calls the Tyre burial 'a later legend, recounted by Jerome and numerous itineraries', to which 'little value can be attached', so the tag is reported, not attested. Coordinates are the Tyre pin already in use in this corpus. Month and day are ordering devices.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 253,
+   "jd_ut": 1813466.5,
+   "precision": "month",
+   "precision_triggers": [
+    "c.",
+    "legend",
+    "ordering",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.19,
+    "text": "Capricornus 11°11′",
+    "longitude": 281.186
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After",
+   "stop": "Constantinople, the edict to Mennas",
+   "date": "0543-01-01",
+   "date_confidence": "attested to 543, sometimes given as 542 or 544 (Wikipedia, 'Origen', legacy section; Justinian's Letter to Mennas). A home synod at Constantinople endorsed the condemnation the same year. Month and day are ordering devices. The stop is a posthumous event concerning Origen and his books, not a place he went.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 543,
+   "jd_ut": 1919388.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 12.76,
+    "text": "Capricornus 12°45′",
+    "longitude": 282.758
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After",
+   "stop": "Constantinople, the eleventh anathema",
+   "date": "0553-05-05",
+   "date_confidence": "contested and not resolved. The Second Council of Constantinople sat from 5 May to 2 June 553. The fifteen anathemas against Origen popularly attributed to it do not appear in the surviving acts of its eight sessions and no debate on them is recorded there; critical scholarship assigns them to a separate pre-conciliar home synod. Origen's name does appear in the council's eleventh general anathema in most of the manuscript tradition. Wikipedia states the council 'may have anathematized Origen, or it may have only condemned certain heretical teachings which claimed to be derived from Origen'. The existing justinian_i.journey.json stop for this council covers the Three Chapters business only.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 553,
+   "jd_ut": 1923165.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 15.8,
+    "text": "Taurus 15°48′",
+    "longitude": 45.799
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 26.0,
+    "text": "Cancer 26°00′",
+    "longitude": 115.998
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 27.81,
+    "text": "Taurus 27°49′",
+    "longitude": 57.809
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 22.28,
+    "text": "Aries 22°17′",
+    "longitude": 22.278
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 27.93,
+    "text": "Aquarius 27°56′",
+    "longitude": 327.931
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 5.83,
+    "text": "Taurus 5°50′",
+    "longitude": 35.834
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 19.32,
+    "text": "Pisces 19°19′",
+    "longitude": 349.32
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "After",
+   "stop": "Tura, the quarry tunnels",
+   "date": "1941-08-01",
+   "date_confidence": "attested to August 1941 (Brent Nongbri, 'The Tura Papyri'). The pool's coordinate of 29.9394, 31.2864 sits about three kilometres west of Tura, down at the riverside rather than at the limestone quarries in the hills where the cache was found; the coordinate is corrected here to the town's own point. The day within August is not recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1941,
+   "jd_ut": 2430207.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.35,
+    "text": "Leo 8°21′",
+    "longitude": 128.353
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After",
+   "stop": "Munich, twenty-nine homilies in a Byzantine hand",
+   "date": "2012-01-01",
+   "date_confidence": "attested to 2012 for the identification by Marina Molin Pradel at the Bayerische Staatsbibliothek, with Lorenzo Perrone's Greek critical edition in 2015 and Joseph W. Trigg's English translation in 2021 (Catholic University of America Press, publisher's page for Homilies on the Psalms). Month and day are ordering devices.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 2012,
+   "jd_ut": 2455927.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.962
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 1,
+  "month": 3,
+  "year": 40
+ },
+ "parse_failures": []
+}

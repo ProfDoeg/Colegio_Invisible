@@ -1,0 +1,1915 @@
+{
+ "slug": "janos_czetz",
+ "traveler": "János Czetz (Juan Fernando Czetz)",
+ "title": "From Gidófalva to the Pampa: the Youngest Honvéd General and the Surveyor of Argentina",
+ "years": "1822-1904",
+ "years_parsed": {
+  "first": 1822,
+  "last": 1904
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Cadet Ladder",
+  "stop": "Gidófalva, the birth in Háromszék",
+  "date": "1822-06-08",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1822,
+  "jd_ut": 2386689.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 16.59,
+   "text": "Gemini 16°35′",
+   "longitude": 76.586
+  },
+  "moon": {
+   "sign": "Capricornus",
+   "degree": 21.51,
+   "text": "Capricornus 21°30′",
+   "longitude": 291.506
+  },
+  "mercury": {
+   "sign": "Cancer",
+   "degree": 9.27,
+   "text": "Cancer 9°16′",
+   "longitude": 99.269
+  },
+  "venus": {
+   "sign": "Taurus",
+   "degree": 1.83,
+   "text": "Taurus 1°50′",
+   "longitude": 31.829
+  },
+  "mars": {
+   "sign": "Virgo",
+   "degree": 9.9,
+   "text": "Virgo 9°54′",
+   "longitude": 159.895
+  },
+  "jupiter": {
+   "sign": "Taurus",
+   "degree": 21.34,
+   "text": "Taurus 21°21′",
+   "longitude": 51.343
+  },
+  "saturn": {
+   "sign": "Taurus",
+   "degree": 5.51,
+   "text": "Taurus 5°31′",
+   "longitude": 35.514
+  },
+  "conjunctions": [
+   {
+    "sign": "Taurus",
+    "bodies": [
+     "Venus",
+     "Jupiter",
+     "Saturn"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1822-1904",
+  "first_year_parsed": 1822
+ },
+ "stops": [
+  {
+   "segment": "The Cadet Ladder",
+   "stop": "Gidófalva, the birth in Háromszék",
+   "date": "1822-06-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386689.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.59,
+    "text": "Gemini 16°35′",
+    "longitude": 76.586
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 21.51,
+    "text": "Capricornus 21°30′",
+    "longitude": 291.506
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 9.27,
+    "text": "Cancer 9°16′",
+    "longitude": 99.269
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 1.83,
+    "text": "Taurus 1°50′",
+    "longitude": 31.829
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 9.9,
+    "text": "Virgo 9°54′",
+    "longitude": 159.895
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 21.34,
+    "text": "Taurus 21°21′",
+    "longitude": 51.343
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 5.51,
+    "text": "Taurus 5°31′",
+    "longitude": 35.514
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Cadet Ladder",
+   "stop": "Kézdivásárhely, the institute at seven years old",
+   "date": "1829-01-01",
+   "date_confidence": "traditional; year approximate, given as 'around age seven'",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389088.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cadet Ladder",
+   "stop": "Wiener Neustadt, first in his class",
+   "date": "1842-01-01",
+   "date_confidence": "attested for graduation and commission; the years of attendance are not itemized in the sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1842,
+   "jd_ut": 2393836.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.24,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.237
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cadet Ladder",
+   "stop": "Pest, the Magyar hadnyelvtan",
+   "date": "1844-01-01",
+   "date_confidence": "attested to the year; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394566.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.742
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cadet Ladder",
+   "stop": "Vienna, the drafting table at the Cartographic Institute",
+   "date": "1846-01-01",
+   "date_confidence": "attested to the year; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395297.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Honvéd Year",
+   "stop": "Pest, out of the imperial corps",
+   "date": "1848-07-01",
+   "date_confidence": "month attested; the enlistment site is not documented and Pest is given as the seat of the honvéd ministry",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396209.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.22,
+    "text": "Cancer 9°13′",
+    "longitude": 99.216
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Honvéd Year",
+   "stop": "The Bácska, the southern campaigns",
+   "date": "1848-09-01",
+   "date_confidence": "month attested; no town is named in any reachable source and the pin is the theatre, not a battlefield",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396271.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.64,
+    "text": "Virgo 8°38′",
+    "longitude": 158.64
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Honvéd Year",
+   "stop": "Kolozsvár, temporary command of Transylvania",
+   "date": "1848-10-30",
+   "date_confidence": "date attested; the headquarters is inferred and probably wrong, since Kolozsvár fell to Wardener in mid-November",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396330.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (inferred, probably) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 6.73,
+    "text": "Scorpio 6°44′",
+    "longitude": 216.728
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 8.03,
+    "text": "Sagittarius 8°02′",
+    "longitude": 248.031
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 26.02,
+    "text": "Scorpio 26°01′",
+    "longitude": 236.015
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 2.7,
+    "text": "Sagittarius 2°42′",
+    "longitude": 242.702
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 2.49,
+    "text": "Scorpio 2°30′",
+    "longitude": 212.495
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 20.16,
+    "text": "Leo 20°10′",
+    "longitude": 140.163
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 18.86,
+    "text": "Pisces 18°52′",
+    "longitude": 348.858
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Honvéd Year",
+   "stop": "The Csucsa pass, Puchner halted",
+   "date": "1848-11-15",
+   "date_confidence": "reconstructed; the action is attested to Czetz's November command but no source consulted gives an exact day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396346.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 22.8,
+    "text": "Scorpio 22°48′",
+    "longitude": 232.805
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bem's Chief of Staff",
+   "stop": "Szilágysomlyó, the Pole addresses his officers",
+   "date": "1848-12-01",
+   "date_confidence": "attested for Bem's assumption of command on 1 December 1848; Czetz's appointment as chief of staff is dated 29 November",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396362.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.99,
+    "text": "Sagittarius 9°00′",
+    "longitude": 248.992
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 5.52,
+    "text": "Aquarius 5°31′",
+    "longitude": 305.519
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 19.63,
+    "text": "Scorpio 19°38′",
+    "longitude": 229.626
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 12.14,
+    "text": "Capricornus 12°08′",
+    "longitude": 282.14
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 24.58,
+    "text": "Scorpio 24°35′",
+    "longitude": 234.58
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 22.47,
+    "text": "Leo 22°28′",
+    "longitude": 142.466
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 18.5,
+    "text": "Pisces 18°30′",
+    "longitude": 348.497
+   }
+  },
+  {
+   "segment": "Bem's Chief of Staff",
+   "stop": "The Csucsa pass, the winter offensive opens",
+   "date": "1848-12-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396379.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 26.28,
+    "text": "Sagittarius 26°17′",
+    "longitude": 266.276
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 2.29,
+    "text": "Libra 2°17′",
+    "longitude": 182.285
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 14.15,
+    "text": "Sagittarius 14°09′",
+    "longitude": 254.154
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 2.93,
+    "text": "Aquarius 2°56′",
+    "longitude": 302.932
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 6.61,
+    "text": "Sagittarius 6°36′",
+    "longitude": 246.607
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 22.41,
+    "text": "Leo 22°24′",
+    "longitude": 142.407
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 19.04,
+    "text": "Pisces 19°02′",
+    "longitude": 349.038
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Bem's Chief of Staff",
+   "stop": "The Marosvásárhely road, two hussars condemned",
+   "date": "1849-01-01",
+   "date_confidence": "reconstructed; the passage is undated in Czetz's book, and Marosvásárhely comes under Bem's control in January 1849",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396393.5,
+   "precision": "month",
+   "precision_triggers": [
+    "undated",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.544
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bem's Chief of Staff",
+   "stop": "Medgyes, the first day held",
+   "date": "1849-03-02",
+   "date_confidence": "attested for the day; the engagement runs 2 to 3 March and the outcome of the second day reverses the first",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396453.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 11.35,
+    "text": "Pisces 11°21′",
+    "longitude": 341.348
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 11.31,
+    "text": "Gemini 11°19′",
+    "longitude": 71.31
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 29.56,
+    "text": "Aquarius 29°33′",
+    "longitude": 329.557
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 27.7,
+    "text": "Aries 27°42′",
+    "longitude": 27.704
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 1.16,
+    "text": "Aquarius 1°10′",
+    "longitude": 301.162
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 14.64,
+    "text": "Leo 14°38′",
+    "longitude": 134.642
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 25.88,
+    "text": "Pisces 25°53′",
+    "longitude": 355.88
+   }
+  },
+  {
+   "segment": "Bem's Chief of Staff",
+   "stop": "Nagyszeben, the citadel taken",
+   "date": "1849-03-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396462.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 20.35,
+    "text": "Pisces 20°21′",
+    "longitude": 350.346
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 13.51,
+    "text": "Libra 13°30′",
+    "longitude": 193.506
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 26.89,
+    "text": "Aquarius 26°53′",
+    "longitude": 326.889
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 6.4,
+    "text": "Taurus 6°24′",
+    "longitude": 36.401
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 7.99,
+    "text": "Aquarius 8°00′",
+    "longitude": 307.992
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.77,
+    "text": "Leo 13°46′",
+    "longitude": 133.773
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 26.99,
+    "text": "Pisces 26°59′",
+    "longitude": 356.986
+   }
+  },
+  {
+   "segment": "Bem's Chief of Staff",
+   "stop": "Kolozsvár, the fall from the horse",
+   "date": "1849-05-29",
+   "date_confidence": "date attested; the place of the accident is nowhere documented and Kolozsvár is the presumed seat of the acting command",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396541.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (probably) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.47,
+    "text": "Gemini 7°28′",
+    "longitude": 67.468
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 7.77,
+    "text": "Virgo 7°46′",
+    "longitude": 157.769
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 0.14,
+    "text": "Cancer 0°08′",
+    "longitude": 90.141
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 14.13,
+    "text": "Taurus 14°08′",
+    "longitude": 44.129
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.1,
+    "text": "Aries 8°06′",
+    "longitude": 8.105
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 16.18,
+    "text": "Leo 16°11′",
+    "longitude": 136.175
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 5.73,
+    "text": "Aries 5°44′",
+    "longitude": 5.729
+   }
+  },
+  {
+   "segment": "Bem's Chief of Staff",
+   "stop": "Déva, the officers bring their banner",
+   "date": "1849-08-01",
+   "date_confidence": "attested to August 1849; Czetz is not present, having been out of command since 29 May, and records the scene in his 1868 book",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396605.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.57,
+    "text": "Leo 8°34′",
+    "longitude": 128.574
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bem's Chief of Staff",
+   "stop": "Arad, Schlick asks a prisoner his name",
+   "date": "1849-08-25",
+   "date_confidence": "reconstructed; the scene follows Kazinczy's surrender in late August 1849 and Czetz records it without a date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396629.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 1.64,
+    "text": "Virgo 1°38′",
+    "longitude": 151.637
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ten Years Without a Country",
+   "stop": "Hamburg, the campaign put into print",
+   "date": "1850-01-01",
+   "date_confidence": "year attested; month unknown, defaulted, and the months of evasion inside Hungary before the escape are undocumented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396758.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.3,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.296
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ten Years Without a Country",
+   "stop": "Paris, among the exiles of 1849",
+   "date": "1851-01-01",
+   "date_confidence": "reconstructed; residency implied by the general exile itinerary, with no dates or addresses in any source consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397123.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.049
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ten Years Without a Country",
+   "stop": "Istanbul, a legion that is never raised",
+   "date": "1853-01-01",
+   "date_confidence": "reconstructed to the Crimean War years; no source consulted gives a precise date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2397854.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.573
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ten Years Without a Country",
+   "stop": "The Mont Cenis works, measuring mountains for wages",
+   "date": "1857-01-01",
+   "date_confidence": "reconstructed to the 1850s; no specific work site within the project is documented and the pin marks the Mont Cenis corridor",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399315.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.6,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.603
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ten Years Without a Country",
+   "stop": "Villafranca, the armistice that closes Europe",
+   "date": "1859-07-11",
+   "date_confidence": "attested for the armistice; Czetz's physical presence at Villafranca is not confirmed in any source consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400236.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 18.12,
+    "text": "Cancer 18°07′",
+    "longitude": 108.122
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 3.04,
+    "text": "Sagittarius 3°03′",
+    "longitude": 243.044
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 6.68,
+    "text": "Leo 6°41′",
+    "longitude": 126.681
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 26.96,
+    "text": "Gemini 26°57′",
+    "longitude": 86.957
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 21.36,
+    "text": "Cancer 21°22′",
+    "longitude": 111.359
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 7.05,
+    "text": "Cancer 7°03′",
+    "longitude": 97.047
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 12.32,
+    "text": "Leo 12°19′",
+    "longitude": 132.32
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Ten Years Without a Country",
+   "stop": "Seville, the marriage that decides the continent",
+   "date": "1859-01-01",
+   "date_confidence": "reconstructed to about 1859; the sources place the meeting and marriage in Spain before the 1860 emigration but give no date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400045.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.108
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surveyor of the Republic",
+   "stop": "Port of Buenos Aires, the name changed at the gangplank",
+   "date": "1860-01-01",
+   "date_confidence": "year attested; month and day unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400410.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.86
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surveyor of the Republic",
+   "stop": "Buenos Aires, the surveyor's licence revalidated",
+   "date": "1861-01-01",
+   "date_confidence": "year attested; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400776.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.63,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.632
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surveyor of the Republic",
+   "stop": "Buenos Aires, the borders with Paraguay and Brazil",
+   "date": "1863-01-01",
+   "date_confidence": "reconstructed to the 1860s; the sources name an army engineering section and a geographic-military institute without dates or address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401506.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.137
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surveyor of the Republic",
+   "stop": "Rojas, the town laid out on the grass",
+   "date": "1866-01-01",
+   "date_confidence": "year attested; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1866,
+   "jd_ut": 2402602.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.414
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surveyor of the Republic",
+   "stop": "Esperanza, the rails toward the colony",
+   "date": "1866-01-01",
+   "date_confidence": "reconstructed; the sources place this railroad planning in the general 1866 period without fixing the dates",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1866,
+   "jd_ut": 2402602.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.414
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line of Fortines",
+   "stop": "General Villegas, the frontier line staked",
+   "date": "1869-01-01",
+   "date_confidence": "year attested; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403698.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.69,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.691
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line of Fortines",
+   "stop": "The pampa forts, the band at sundown",
+   "date": "1869-06-01",
+   "date_confidence": "reconstructed; the passage is undated in Emlékezéseim and belongs to the 1869 survey expedition",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403849.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.5,
+    "text": "Gemini 10°30′",
+    "longitude": 70.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Colegio Militar",
+   "stop": "Buenos Aires, the railway directorship declined",
+   "date": "1869-01-01",
+   "date_confidence": "year attested by Czetz's own section heading, 'A Colegio Militar megszervezése. 1869'; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403698.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.69,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.691
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Colegio Militar",
+   "stop": "San Benito de Palermo, the academy established by law",
+   "date": "1869-10-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403981.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 17.72,
+    "text": "Libra 17°43′",
+    "longitude": 197.724
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 0.72,
+    "text": "Capricornus 0°43′",
+    "longitude": 270.724
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 5.52,
+    "text": "Scorpio 5°31′",
+    "longitude": 215.518
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 27.04,
+    "text": "Scorpio 27°02′",
+    "longitude": 237.035
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 24.65,
+    "text": "Scorpio 24°39′",
+    "longitude": 234.655
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 19.58,
+    "text": "Taurus 19°35′",
+    "longitude": 49.583
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 12.88,
+    "text": "Sagittarius 12°53′",
+    "longitude": 252.88
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Colegio Militar",
+   "stop": "Palermo, first director of the Colegio Militar",
+   "date": "1870-06-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404235.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 0.33,
+    "text": "Cancer 0°20′",
+    "longitude": 90.334
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 12.48,
+    "text": "Aries 12°29′",
+    "longitude": 12.483
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 10.65,
+    "text": "Gemini 10°39′",
+    "longitude": 70.646
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 19.64,
+    "text": "Taurus 19°38′",
+    "longitude": 49.636
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 7.58,
+    "text": "Gemini 7°35′",
+    "longitude": 67.578
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 10.2,
+    "text": "Gemini 10°12′",
+    "longitude": 70.201
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 24.6,
+    "text": "Sagittarius 24°36′",
+    "longitude": 264.603
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Colegio Militar",
+   "stop": "Paraná, the cadastre of Entre Ríos",
+   "date": "1875-01-01",
+   "date_confidence": "attested from 1875 onward; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2405889.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.225
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Colegio Militar",
+   "stop": "Buenos Aires, thirty-five years and retirement",
+   "date": "1895-01-01",
+   "date_confidence": "year attested; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Colegio Militar",
+   "stop": "Buenos Aires, the letter to Deáky",
+   "date": "1901-01-01",
+   "date_confidence": "reconstructed to c. 1900-1903, the premiership of Kálmán Széll; the letter itself is undated in the source",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415385.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "undated",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.907
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Second Inscription",
+   "stop": "Buenos Aires, death at eighty-two",
+   "date": "1904-09-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416729.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.96,
+    "text": "Virgo 12°58′",
+    "longitude": 162.96
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 19.28,
+    "text": "Cancer 19°17′",
+    "longitude": 109.279
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 0.81,
+    "text": "Libra 0°49′",
+    "longitude": 180.81
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 29.3,
+    "text": "Virgo 29°18′",
+    "longitude": 179.303
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 13.98,
+    "text": "Leo 13°59′",
+    "longitude": 133.979
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 29.72,
+    "text": "Aries 29°43′",
+    "longitude": 29.716
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 15.66,
+    "text": "Aquarius 15°40′",
+    "longitude": 315.66
+   }
+  },
+  {
+   "segment": "The Grave and the Second Inscription",
+   "stop": "Recoleta, the vault of the Ortiz de Rozas",
+   "date": "1904-09-01",
+   "date_confidence": "year attested; the day of interment is not given in the sources and is defaulted within the month of death",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416724.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.11,
+    "text": "Virgo 8°07′",
+    "longitude": 158.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Second Inscription",
+   "stop": "El Palomar, the chapel on the centenary",
+   "date": "1969-01-01",
+   "date_confidence": "year attested for the transfer, made during the academy's centennial; month and day not given, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Second Inscription",
+   "stop": "Gyergyószentmiklós, the relief in the Armenian courtyard",
+   "date": "1990-01-01",
+   "date_confidence": "reconstructed; the relief is attested but its date of installation is not given in any source consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2447892.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.31
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Second Inscription",
+   "stop": "Óbuda, a street in the third district",
+   "date": "1990-01-01",
+   "date_confidence": "reconstructed; the street name is attested but the date of naming is not given in any source consulted and the pin is the district, not the street",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2447892.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.31
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Second Inscription",
+   "stop": "Gidófalva, the plaque on the town hall wall",
+   "date": "2000-01-01",
+   "date_confidence": "reconstructed; the plaque is attested but no source consulted dates its installation",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451544.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.874
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Second Inscription",
+   "stop": "Békásmegyer, the horse he is finally given",
+   "date": "2019-10-04",
+   "date_confidence": "attested for the unveiling; the pin is Lékai Bíboros tér in Békásmegyer, located approximately",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2019,
+   "jd_ut": 2458760.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 10.49,
+    "text": "Libra 10°29′",
+    "longitude": 190.491
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 11,
+  "month": 5,
+  "year": 27
+ },
+ "parse_failures": []
+}

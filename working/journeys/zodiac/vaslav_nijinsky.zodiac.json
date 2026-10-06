@@ -1,0 +1,1914 @@
+{
+ "slug": "vaslav_nijinsky",
+ "traveler": "Vaslav Nijinsky (Wacław Niżyński)",
+ "title": "The Leap and the Pause: Nijinsky from Theatre Street to Montmartre",
+ "years": "1889-1950",
+ "years_parsed": {
+  "first": 1889,
+  "last": 1950
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Touring Company",
+  "stop": "Kiev, the birth on tour",
+  "date": "1889-03-12",
+  "date_confidence": "day and month attested as 12 March; the year is disputed across sources between 1889 and 1890, and the gravestone's 1889 is itself contested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1889,
+  "jd_ut": 2411073.5,
+  "precision": "month",
+  "precision_triggers": [
+   "disputed",
+   "between",
+   "(soft-year) year range"
+  ],
+  "sun": {
+   "sign": "Pisces",
+   "degree": 21.65,
+   "text": "Pisces 21°39′",
+   "longitude": 351.645
+  },
+  "sun_range": [
+   "Pisces",
+   "Aries"
+  ],
+  "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1889-1950",
+  "first_year_parsed": 1889
+ },
+ "stops": [
+  {
+   "segment": "The Touring Company",
+   "stop": "Tiflis, a first son to the touring dancers",
+   "date": "1886-12-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2410269.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.26,
+    "text": "Capricornus 7°15′",
+    "longitude": 277.256
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 18.33,
+    "text": "Aquarius 18°20′",
+    "longitude": 318.326
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 16.33,
+    "text": "Sagittarius 16°20′",
+    "longitude": 256.332
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 13.46,
+    "text": "Capricornus 13°28′",
+    "longitude": 283.462
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 3.65,
+    "text": "Aquarius 3°39′",
+    "longitude": 303.653
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 1.87,
+    "text": "Scorpio 1°52′",
+    "longitude": 211.872
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 20.02,
+    "text": "Cancer 20°01′",
+    "longitude": 110.015
+   }
+  },
+  {
+   "segment": "The Touring Company",
+   "stop": "Kiev, the birth on tour",
+   "date": "1889-03-12",
+   "date_confidence": "day and month attested as 12 March; the year is disputed across sources between 1889 and 1890, and the gravestone's 1889 is itself contested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411073.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "between",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 21.65,
+    "text": "Pisces 21°39′",
+    "longitude": 351.645
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Touring Company",
+   "stop": "Minsk, the birth of Bronislava",
+   "date": "1891-01-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411740.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.48,
+    "text": "Capricornus 17°29′",
+    "longitude": 287.479
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 12.03,
+    "text": "Sagittarius 12°02′",
+    "longitude": 252.035
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 29.44,
+    "text": "Capricornus 29°26′",
+    "longitude": 299.437
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 8.19,
+    "text": "Sagittarius 8°12′",
+    "longitude": 248.193
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 16.41,
+    "text": "Pisces 16°25′",
+    "longitude": 346.412
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 16.11,
+    "text": "Aquarius 16°06′",
+    "longitude": 316.107
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 17.19,
+    "text": "Virgo 17°12′",
+    "longitude": 167.194
+   }
+  },
+  {
+   "segment": "The Touring Company",
+   "stop": "Odessa, the father as soloist",
+   "date": "1893-01-01",
+   "date_confidence": "period only: sources place Tomasz's Odessa seasons in the 1890s without fixing a year; January is a default",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "period only",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Touring Company",
+   "stop": "St Petersburg, the apartment on Mokhovaya Street",
+   "date": "1897-01-01",
+   "date_confidence": "year attested; month unrecorded and defaulted to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Theatre Street",
+   "stop": "St Petersburg, entry to the Imperial Ballet School",
+   "date": "1900-01-01",
+   "date_confidence": "year attested; the examination month is not fixed in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Theatre Street",
+   "stop": "St Petersburg, expelled over the catapult",
+   "date": "1903-01-01",
+   "date_confidence": "year attested; month not recorded in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.41,
+    "text": "Capricornus 9°25′",
+    "longitude": 279.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Theatre Street",
+   "stop": "Nevsky Prospect, the ninth of January",
+   "date": "1905-01-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416854.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.09,
+    "text": "Capricornus 18°05′",
+    "longitude": 288.092
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 25.49,
+    "text": "Aquarius 25°29′",
+    "longitude": 325.486
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 1.32,
+    "text": "Capricornus 1°19′",
+    "longitude": 271.323
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 1.63,
+    "text": "Pisces 1°38′",
+    "longitude": 331.632
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 27.55,
+    "text": "Libra 27°33′",
+    "longitude": 207.555
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 21.21,
+    "text": "Aries 21°13′",
+    "longitude": 21.21
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 19.28,
+    "text": "Aquarius 19°17′",
+    "longitude": 319.284
+   }
+  },
+  {
+   "segment": "Theatre Street",
+   "stop": "St Petersburg, graduation with top marks",
+   "date": "1907-04-01",
+   "date_confidence": "April 1907 in Wikipedia and Buckle; Encyclopedia.com gives 1908 instead, and the contradiction is not resolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417666.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.13,
+    "text": "Aries 10°08′",
+    "longitude": 10.133
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Theatre Street",
+   "stop": "Mariinsky Theatre, coryphee at 780 roubles",
+   "date": "1907-09-01",
+   "date_confidence": "month and year attested; day defaulted to the first",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417819.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.41,
+    "text": "Virgo 7°25′",
+    "longitude": 157.412
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Theatre Street",
+   "stop": "St Petersburg, introduced to Diaghilev",
+   "date": "1908-01-01",
+   "date_confidence": "the introduction is placed in 1908 by Wikipedia, Ostwald and Buckle; one lens of the research pool gave 1909, which is the year of the Paris debut and not of the meeting. Venue unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Diaghilev's Company",
+   "stop": "Theatre du Chatelet, the first Paris season",
+   "date": "1909-05-19",
+   "date_confidence": "the season opens in May 1909; the specific programme dates vary across the run",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418445.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 27.38,
+    "text": "Taurus 27°23′",
+    "longitude": 57.379
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Diaghilev's Company",
+   "stop": "Venice Lido, painted by Bakst",
+   "date": "1910-08-01",
+   "date_confidence": "year attested by the painting's caption; the month is a summer inference",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418884.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.87,
+    "text": "Leo 7°52′",
+    "longitude": 127.865
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Diaghilev's Company",
+   "stop": "Mariinsky Theatre, dismissed over the costume",
+   "date": "1911-01-01",
+   "date_confidence": "January 1911 attested; the day is not fixed. Sources disagree on which royal was present, Wikipedia naming the Tsarina Alexandra Feodorovna and Buckle the Dowager Empress Maria Feodorovna",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419037.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.47,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.472
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Diaghilev's Company",
+   "stop": "Salle Garnier, Monte Carlo, the rose",
+   "date": "1911-04-19",
+   "date_confidence": "Le Spectre de la Rose premieres in the Monte Carlo spring season of 1911; the company used the Salle Garnier as its winter workshop from 1911 to 1913",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419145.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 27.83,
+    "text": "Aries 27°50′",
+    "longitude": 27.835
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Diaghilev's Company",
+   "stop": "Theatre du Chatelet, the puppet Petrushka",
+   "date": "1911-06-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419200.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.88,
+    "text": "Gemini 20°53′",
+    "longitude": 80.878
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 2.74,
+    "text": "Capricornus 2°45′",
+    "longitude": 272.742
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 29.92,
+    "text": "Taurus 29°55′",
+    "longitude": 59.922
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 4.59,
+    "text": "Leo 4°35′",
+    "longitude": 124.591
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 7.32,
+    "text": "Aries 7°19′",
+    "longitude": 7.319
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 5.24,
+    "text": "Scorpio 5°15′",
+    "longitude": 215.242
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 14.98,
+    "text": "Taurus 14°59′",
+    "longitude": 44.981
+   }
+  },
+  {
+   "segment": "The Choreographer and the Riot",
+   "stop": "Theatre du Chatelet, the faun and the scarf",
+   "date": "1912-05-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419551.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.25,
+    "text": "Gemini 7°15′",
+    "longitude": 67.249
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 14.24,
+    "text": "Scorpio 14°14′",
+    "longitude": 224.241
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 17.07,
+    "text": "Taurus 17°04′",
+    "longitude": 47.067
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 26.88,
+    "text": "Taurus 26°53′",
+    "longitude": 56.882
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 0.39,
+    "text": "Leo 0°23′",
+    "longitude": 120.388
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 10.93,
+    "text": "Sagittarius 10°56′",
+    "longitude": 250.93
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 25.37,
+    "text": "Taurus 25°22′",
+    "longitude": 55.37
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Choreographer and the Riot",
+   "stop": "Theatre des Champs-Elysees, the game of tennis",
+   "date": "1913-05-15",
+   "date_confidence": "the pool attests 1913 and Paris; the May placement follows the same Champs-Elysees season and the day is not independently confirmed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419902.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.56,
+    "text": "Taurus 23°33′",
+    "longitude": 53.558
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 13.52,
+    "text": "Virgo 13°31′",
+    "longitude": 163.517
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 4.64,
+    "text": "Taurus 4°38′",
+    "longitude": 34.635
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 26.12,
+    "text": "Aries 26°07′",
+    "longitude": 26.124
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 5.25,
+    "text": "Aries 5°15′",
+    "longitude": 5.248
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.67,
+    "text": "Capricornus 17°40′",
+    "longitude": 287.665
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 5.69,
+    "text": "Gemini 5°41′",
+    "longitude": 65.687
+   }
+  },
+  {
+   "segment": "The Choreographer and the Riot",
+   "stop": "Theatre des Champs-Elysees, the Rite of Spring",
+   "date": "1913-05-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419916.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.02,
+    "text": "Gemini 7°01′",
+    "longitude": 67.017
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 17.84,
+    "text": "Pisces 17°50′",
+    "longitude": 347.835
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 2.13,
+    "text": "Gemini 2°08′",
+    "longitude": 62.126
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 28.92,
+    "text": "Aries 28°55′",
+    "longitude": 28.918
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 15.85,
+    "text": "Aries 15°51′",
+    "longitude": 15.848
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 16.96,
+    "text": "Capricornus 16°58′",
+    "longitude": 286.964
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 7.5,
+    "text": "Gemini 7°30′",
+    "longitude": 67.499
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Choreographer and the Riot",
+   "stop": "Theatre Royal, Drury Lane, the Rite in London",
+   "date": "1913-07-26",
+   "date_confidence": "the date is that of The Times review of the London production; the London performances run through July 1913",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419974.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.39,
+    "text": "Leo 2°24′",
+    "longitude": 122.392
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing to Buenos Aires",
+   "stop": "Cherbourg, sailing without Diaghilev",
+   "date": "1913-08-15",
+   "date_confidence": "August 1913 attested; sources differ on whether the company sailed from Cherbourg or Southampton, and the day is not fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419994.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.55,
+    "text": "Leo 21°33′",
+    "longitude": 141.551
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing to Buenos Aires",
+   "stop": "Rio de Janeiro, the port of call",
+   "date": "1913-08-25",
+   "date_confidence": "August 1913; the exact date of the Rio call is not fixed in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2420004.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 1.18,
+    "text": "Virgo 1°11′",
+    "longitude": 151.179
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing to Buenos Aires",
+   "stop": "Buenos Aires, the marriage",
+   "date": "1913-09-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2420020.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 16.67,
+    "text": "Virgo 16°40′",
+    "longitude": 166.674
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 15.69,
+    "text": "Capricornus 15°41′",
+    "longitude": 285.686
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 10.6,
+    "text": "Virgo 10°36′",
+    "longitude": 160.596
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 10.11,
+    "text": "Leo 10°06′",
+    "longitude": 130.107
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 26.78,
+    "text": "Gemini 26°47′",
+    "longitude": 86.776
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.01,
+    "text": "Capricornus 8°01′",
+    "longitude": 278.011
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 17.82,
+    "text": "Gemini 17°49′",
+    "longitude": 77.824
+   }
+  },
+  {
+   "segment": "The Crossing to Buenos Aires",
+   "stop": "Hotel Majestic, the company's hotel on the Avenida de Mayo",
+   "date": "1913-09-10",
+   "date_confidence": "the wedding day, 10 September 1913, is attested (Buckle; Ostwald pp. 87-89). Nijinsky's presence at the Majestic in 1913 is reported by the Argentine press on the hotel's history (Pagina/12, 2007) and by the city's heritage pages, which say he married there; the church was San Miguel Arcangel (Forn, Pagina/12, 2013). That the wedding celebration was held in the hotel is a reader's claim that no reached source confirms, and the civil registry and the witnesses are not named",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2420020.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 16.67,
+    "text": "Virgo 16°40′",
+    "longitude": 166.674
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 15.69,
+    "text": "Capricornus 15°41′",
+    "longitude": 285.686
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 10.6,
+    "text": "Virgo 10°36′",
+    "longitude": 160.596
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 10.11,
+    "text": "Leo 10°06′",
+    "longitude": 130.107
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 26.78,
+    "text": "Gemini 26°47′",
+    "longitude": 86.776
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.01,
+    "text": "Capricornus 8°01′",
+    "longitude": 278.011
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 17.82,
+    "text": "Gemini 17°49′",
+    "longitude": 77.824
+   }
+  },
+  {
+   "segment": "The Crossing to Buenos Aires",
+   "stop": "Teatro Colon, the last season as Diaghilev's dancer",
+   "date": "1913-09-15",
+   "date_confidence": "September 1913; individual performance dates within the engagement are not fixed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2420025.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed",
+    "editorial (the date)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 21.54,
+    "text": "Virgo 21°32′",
+    "longitude": 171.541
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing to Buenos Aires",
+   "stop": "Paris, the telegram of dismissal",
+   "date": "1913-09-30",
+   "date_confidence": "September 1913 attested; the exact date of the telegram is not fixed in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2420040.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.22,
+    "text": "Libra 6°13′",
+    "longitude": 186.225
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Enemy Alien",
+   "stop": "Palace Theatre, London, his own company",
+   "date": "1914-03-02",
+   "date_confidence": "March 1914 attested for the eight-week season; the opening day is not fixed in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420193.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.58,
+    "text": "Pisces 10°35′",
+    "longitude": 340.582
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Enemy Alien",
+   "stop": "Vienna, the birth of Kyra",
+   "date": "1914-06-19",
+   "date_confidence": "attested; some accounts wrongly place the birth in Budapest, where the family was interned weeks later",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420302.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 26.87,
+    "text": "Gemini 26°52′",
+    "longitude": 86.869
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 3.96,
+    "text": "Taurus 3°57′",
+    "longitude": 33.958
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 21.72,
+    "text": "Cancer 21°43′",
+    "longitude": 111.725
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 28.6,
+    "text": "Cancer 28°36′",
+    "longitude": 118.595
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 25.85,
+    "text": "Leo 25°51′",
+    "longitude": 145.846
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.16,
+    "text": "Aquarius 22°10′",
+    "longitude": 322.164
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 22.46,
+    "text": "Gemini 22°28′",
+    "longitude": 82.463
+   }
+  },
+  {
+   "segment": "Enemy Alien",
+   "stop": "Budapest, house arrest at the Markus villa",
+   "date": "1914-08-01",
+   "date_confidence": "the internment runs from the outbreak of war in 1914 to early 1916; the day of confinement is not fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420345.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.9,
+    "text": "Leo 7°54′",
+    "longitude": 127.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Enemy Alien",
+   "stop": "New York, released into the American tour",
+   "date": "1916-04-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420957.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 13.9,
+    "text": "Aries 13°54′",
+    "longitude": 13.898
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 29.9,
+    "text": "Aries 29°54′",
+    "longitude": 29.897
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 2.87,
+    "text": "Aries 2°52′",
+    "longitude": 2.872
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 28.31,
+    "text": "Taurus 28°19′",
+    "longitude": 58.309
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 11.34,
+    "text": "Leo 11°21′",
+    "longitude": 131.343
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 12.11,
+    "text": "Aries 12°06′",
+    "longitude": 12.106
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 10.15,
+    "text": "Cancer 10°09′",
+    "longitude": 100.152
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Enemy Alien",
+   "stop": "Metropolitan Opera House, Till Eulenspiegel",
+   "date": "1916-10-23",
+   "date_confidence": "the autumn 1916 American season is attested; the day given here is the recorded Till Eulenspiegel premiere and is not independently confirmed in the pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2421159.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 29.26,
+    "text": "Libra 29°15′",
+    "longitude": 209.257
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 12.75,
+    "text": "Virgo 12°45′",
+    "longitude": 162.749
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 11.28,
+    "text": "Libra 11°17′",
+    "longitude": 191.283
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 17.09,
+    "text": "Virgo 17°05′",
+    "longitude": 167.086
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 0.62,
+    "text": "Sagittarius 0°37′",
+    "longitude": 240.623
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 0.49,
+    "text": "Taurus 0°29′",
+    "longitude": 30.49
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 0.34,
+    "text": "Leo 0°20′",
+    "longitude": 120.341
+   }
+  },
+  {
+   "segment": "Enemy Alien",
+   "stop": "Petrograd, the death of Stanislav",
+   "date": "1917-01-01",
+   "date_confidence": "year attested; the month and the hospital are not named in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Enemy Alien",
+   "stop": "Montevideo, the last performance",
+   "date": "1917-09-30",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421501.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.26,
+    "text": "Libra 6°15′",
+    "longitude": 186.256
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 24.14,
+    "text": "Pisces 24°09′",
+    "longitude": 354.143
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 19.8,
+    "text": "Virgo 19°48′",
+    "longitude": 169.795
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 15.95,
+    "text": "Scorpio 15°57′",
+    "longitude": 225.953
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 10.74,
+    "text": "Leo 10°45′",
+    "longitude": 130.745
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 11.54,
+    "text": "Gemini 11°32′",
+    "longitude": 71.535
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 11.81,
+    "text": "Leo 11°49′",
+    "longitude": 131.815
+   }
+  },
+  {
+   "segment": "St Moritz and the Diary",
+   "stop": "St Moritz, the family settles in the mountains",
+   "date": "1917-12-01",
+   "date_confidence": "the move is placed in 1917; the month is not fixed in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421563.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.24,
+    "text": "Sagittarius 8°14′",
+    "longitude": 248.238
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "St Moritz and the Diary",
+   "stop": "Suvretta House, the last dance",
+   "date": "1919-01-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421977.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 27.87,
+    "text": "Capricornus 27°52′",
+    "longitude": 297.872
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 0.02,
+    "text": "Virgo 0°01′",
+    "longitude": 150.024
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 6.8,
+    "text": "Capricornus 6°48′",
+    "longitude": 276.802
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 11.28,
+    "text": "Aquarius 11°17′",
+    "longitude": 311.28
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 23.3,
+    "text": "Aquarius 23°18′",
+    "longitude": 323.3
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 8.59,
+    "text": "Cancer 8°35′",
+    "longitude": 98.59
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 26.98,
+    "text": "Leo 26°59′",
+    "longitude": 146.976
+   }
+  },
+  {
+   "segment": "St Moritz and the Diary",
+   "stop": "St Moritz, the six weeks of the notebooks",
+   "date": "1919-01-20",
+   "date_confidence": "the notebooks are written between January and early March 1919; the starting day is approximate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421978.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 28.89,
+    "text": "Capricornus 28°53′",
+    "longitude": 298.89
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "St Moritz and the Diary",
+   "stop": "Burgholzli, Zurich, the diagnosis",
+   "date": "1919-03-04",
+   "date_confidence": "the Zurich examination takes place in 1919; the day given here is approximate and the month is placed at the end of the diary period",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422021.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "placed (the date)",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 12.37,
+    "text": "Pisces 12°22′",
+    "longitude": 342.374
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "St Moritz and the Diary",
+   "stop": "Bellevue Sanatorium, Kreuzlingen",
+   "date": "1919-06-01",
+   "date_confidence": "the transfer follows the 1919 Zurich diagnosis; the month is not fixed in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422110.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.46,
+    "text": "Gemini 9°28′",
+    "longitude": 69.461
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Silence",
+   "stop": "Sopron, moved away from the front",
+   "date": "1942-01-01",
+   "date_confidence": "the Sopron years are placed in the early to middle 1940s; no month or year is fixed in reachable sources, and January is a default",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430360.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.955
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Silence",
+   "stop": "Vienna, speech returns among the Russian soldiers",
+   "date": "1945-05-01",
+   "date_confidence": "1945 attested; the month follows the Soviet occupation of Vienna and is not independently fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431576.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.27,
+    "text": "Taurus 10°16′",
+    "longitude": 40.269
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Silence",
+   "stop": "Virginia Water, Surrey, the last house",
+   "date": "1947-01-01",
+   "date_confidence": "the move is placed in 1947; the month is not recorded and some accounts locate the residence slightly differently within Surrey",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432186.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°44′",
+    "longitude": 279.737
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Silence",
+   "stop": "London, death in the clinic",
+   "date": "1950-04-08",
+   "date_confidence": "attested; his age at death is sixty or sixty-one depending on which disputed birth year is used",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433379.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 17.6,
+    "text": "Aries 17°36′",
+    "longitude": 17.603
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave at Montmartre",
+   "stop": "Cimetiere de Montmartre, reinterred among dancers",
+   "date": "1953-01-01",
+   "date_confidence": "the reinterment is dated 1953; the month and day are not recorded in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434378.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.291
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave at Montmartre",
+   "stop": "Hamburg, the ballets made about him",
+   "date": "1979-01-01",
+   "date_confidence": "Vaslav is created for Hamburg Ballet in 1979; the premiere day is not fixed in reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1979,
+   "jd_ut": 2443874.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.974
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave at Montmartre",
+   "stop": "Teatr Wielki, Warsaw, the faun and the nymph in bronze",
+   "date": "2011-06-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2011,
+   "jd_ut": 2455723.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 19.76,
+    "text": "Gemini 19°46′",
+    "longitude": 79.764
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 15.24,
+    "text": "Libra 15°14′",
+    "longitude": 195.239
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 17.3,
+    "text": "Gemini 17°18′",
+    "longitude": 77.302
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 1.71,
+    "text": "Gemini 1°43′",
+    "longitude": 61.711
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 22.7,
+    "text": "Taurus 22°42′",
+    "longitude": 52.704
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 1.31,
+    "text": "Taurus 1°18′",
+    "longitude": 31.306
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 10.56,
+    "text": "Libra 10°34′",
+    "longitude": 190.559
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 15,
+  "month": 11,
+  "year": 19
+ },
+ "parse_failures": []
+}

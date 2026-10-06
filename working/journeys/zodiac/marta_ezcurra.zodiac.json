@@ -1,0 +1,1822 @@
+{
+ "slug": "marta_ezcurra",
+ "traveler": "Marta María Ezcurra Real de Azúa",
+ "title": "El Azote de Dios: from the Hijas de María to the Dissolution of the Fundación Eva Perón",
+ "years": "1900-1996 (both ends contested)",
+ "years_parsed": {
+  "first": 1900,
+  "last": 1996
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "La Casa Ezcurra",
+  "stop": "Buenos Aires, the birth in a contested year",
+  "date": "1900-05-02",
+  "date_confidence": "contested and unresolved. Las Balas del Campanario (2020) gives 2 May 1900; es.wikipedia's Hospital Escuela Eva Perón gives 'Marta María Ezcurra (1901-¿?)', footnoted to her electoral-roll entry, CUIT 27-00227996-2. Neither is a birth registry. 1900-05-02 is carried here for ordering only. Pin is the canonical central Buenos Aires coordinate: no address for the birth is given by any source.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1900,
+  "jd_ut": 2415141.5,
+  "precision": "year",
+  "precision_triggers": [
+   "ordering"
+  ],
+  "notes": [
+   "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+  ],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 11.13,
+   "text": "Taurus 11°08′",
+   "longitude": 41.129
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1900-1996 (both ends contested)",
+  "first_year_parsed": 1900
+ },
+ "stops": [
+  {
+   "segment": "La Casa Ezcurra",
+   "stop": "Cementerio de la Recoleta, the vault the surname opens",
+   "date": "1838-10-20",
+   "date_confidence": "attested for Encarnación Ezcurra's death and burial. Pin inherited byte-identical from juan_manuel_de_rosas.journey.json, 'La Recoleta, the bones brought home'. Marta Ezcurra is placed in this vault by no source; the stop marks the lineage, not a grave.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1838,
+   "jd_ut": 2392667.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 26.17,
+    "text": "Libra 26°10′",
+    "longitude": 206.172
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Casa Ezcurra",
+   "stop": "Buenos Aires, the birth in a contested year",
+   "date": "1900-05-02",
+   "date_confidence": "contested and unresolved. Las Balas del Campanario (2020) gives 2 May 1900; es.wikipedia's Hospital Escuela Eva Perón gives 'Marta María Ezcurra (1901-¿?)', footnoted to her electoral-roll entry, CUIT 27-00227996-2. Neither is a birth registry. 1900-05-02 is carried here for ordering only. Pin is the canonical central Buenos Aires coordinate: no address for the birth is given by any source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415141.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.13,
+    "text": "Taurus 11°08′",
+    "longitude": 41.129
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Casa Ezcurra",
+   "stop": "Buenos Aires, the father in the cabinet",
+   "date": "1907-11-04",
+   "date_confidence": "attested (es.wikipedia, 'Pedro Ezcurra'): Minister of Agriculture 4 November 1907 to 12 October 1910; born 9 October 1860, died 8 October 1913. No ministry address given; canonical central Buenos Aires pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417883.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 10.43,
+    "text": "Scorpio 10°26′",
+    "longitude": 220.43
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 15.58,
+    "text": "Libra 15°35′",
+    "longitude": 195.585
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 29.63,
+    "text": "Scorpio 29°38′",
+    "longitude": 239.633
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 23.4,
+    "text": "Scorpio 23°24′",
+    "longitude": 233.4
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 13.15,
+    "text": "Aquarius 13°09′",
+    "longitude": 313.152
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 12.47,
+    "text": "Leo 12°28′",
+    "longitude": 132.466
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 20.94,
+    "text": "Pisces 20°56′",
+    "longitude": 350.937
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Hijas de María",
+   "stop": "Almagro, the Colegio del Sagrado Corazón",
+   "date": "1915-01-01",
+   "date_confidence": "year attested (Testa 2017: 'en 1915... recién egresada del Colegio Sagrado Corazón de Almagro'); month and day unknown and defaulted to 01-01. Pin is the Almagro neighbourhood centroid, declared as a placeholder: the school itself returns no result in any gazetteer consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "placeholder",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hijas de María",
+   "stop": "Buenos Aires, the Congregación Hijas de María",
+   "date": "1915-01-01",
+   "date_confidence": "year attested (Testa 2017); month, day and venue unknown. Pin is the canonical central Buenos Aires placeholder shared with alberto_gerchunoff and juan_manuel_de_rosas: no address for the sodality was found.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "placeholder",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hijas de María",
+   "stop": "Buenos Aires, El Centavo and the sewing workshops",
+   "date": "1925-01-01",
+   "date_confidence": "year attested (Testa 2017: joins El Centavo in 1925, later sitting on its Consejo Superior); month, day and premises unknown. Canonical central Buenos Aires pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hijas de María",
+   "stop": "Avenida Corrientes 1723, the Escuela de Servicio Social",
+   "date": "1930-01-01",
+   "date_confidence": "years attested (Testa 2017: 'En el año 1930 había ingresado a la recientemente fundada Escuela de Servicio Social del Museo Social Argentino, donde obtuvo el título de asistente social, en 1933'); months and days unknown. Coordinate corrected to the Museo Social Argentino at Av. Corrientes 1723; the research pool's pin was some 600 m off.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2425977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.867
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Acción Católica",
+   "stop": "Buenos Aires, the Primer Congreso Superior de las Jóvenes",
+   "date": "1931-01-01",
+   "date_confidence": "year attested, office contradicted and not resolved. Testa 2017: 'En 1931 fue nombrada presidenta del Primer Congreso Superior de las Jóvenes de la Acción Católica por el arzobispo Santiago Copello'. Four Spanish Wikipedia articles, all descending from Sandra Russo's Página/12 column of 17 September 2016, instead call her founder of the ACA youth branch. Month, day and venue unknown.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Acción Católica",
+   "stop": "Vatican City, the audience with Pius XI",
+   "date": "1932-01-01",
+   "date_confidence": "year attested (Testa 2017: travels to Europe in 1932 with a private audience with Pius XI 'en representación de la flamante Asociación de Jóvenes de la Acción Católica'); month and day unknown. Pin is the corpus-standard Vatican coordinate, inherited byte-identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Acción Católica",
+   "stop": "Buenos Aires, Primeras Nociones de Doctrina Social Católica",
+   "date": "1937-01-01",
+   "date_confidence": "year attested (Testa 2017, fn. 5): manual issued by the Junta Central de la Acción Católica Argentina in 1937, second edition 1939. Month, day and place of printing unknown. Canonical central Buenos Aires pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Iron Lungs of ALPI",
+   "stop": "Buenos Aires, la Asociación para la Lucha contra la Parálisis Infantil",
+   "date": "1943-12-17",
+   "date_confidence": "attested (Efemérides de Salta; corroborated by the SEDICI record of Testa 2017). The association's headquarters address was not located, so the canonical central Buenos Aires pin is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2431075.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 24.18,
+    "text": "Sagittarius 24°11′",
+    "longitude": 264.179
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 23.44,
+    "text": "Leo 23°26′",
+    "longitude": 143.44
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 12.93,
+    "text": "Capricornus 12°56′",
+    "longitude": 282.933
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 9.88,
+    "text": "Scorpio 9°53′",
+    "longitude": 219.879
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 8.72,
+    "text": "Gemini 8°43′",
+    "longitude": 68.721
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 27.03,
+    "text": "Leo 27°02′",
+    "longitude": 147.029
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 22.89,
+    "text": "Gemini 22°54′",
+    "longitude": 82.895
+   }
+  },
+  {
+   "segment": "The Iron Lungs of ALPI",
+   "stop": "Buenos Aires, presidenta y vicepresidenta, alternadamente",
+   "date": "1944-01-01",
+   "date_confidence": "span attested, not the day: Testa 2017, 'Marta Ezcurra ocupó los cargos de presidenta y vicepresidenta alternadamente durante los primeros seis ejercicios (1944-1950)'. The research pool's 'president from 1943' was wrong on both the date and the shape of the office.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431090.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.46,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.46
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Iron Lungs of ALPI",
+   "stop": "Salta, the branch opened four years after her last term",
+   "date": "1954-06-12",
+   "date_confidence": "attested (El Tribuno, 'Alpi festejará sus 60 años de vida en Salta', 2014; Salta efemérides). Pin is Salta city centre: the filial's address was not located. The research pool's clause tying the opening to Ezcurra's presidency is struck, her last term having ended in 1950.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434905.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.5,
+    "text": "Gemini 20°30′",
+    "longitude": 80.504
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Other Argentina",
+   "stop": "Carlos Calvo 102, el Hogar de Tránsito N.º 1",
+   "date": "1948-04-03",
+   "date_confidence": "attested (es.wikipedia, 'Fundación Eva Perón'): the Foundation's first public act. Coordinate geocoded from the street address in San Telmo; the research pool's pin was some 750 m off. No source places Ezcurra here at any date, and no source says this specific building was occupied in 1955.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432644.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 13.16,
+    "text": "Aries 13°10′",
+    "longitude": 13.159
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Other Argentina",
+   "stop": "Buenos Aires, la Fundación Eva Perón",
+   "date": "1948-06-19",
+   "date_confidence": "attested; pin inherited byte-identical from eva_peron.journey.json, 'Fundación Eva Perón: donde hay una necesidad hay un derecho'. Legal personality granted 8 July 1948, with seat at Avenida Paseo Colón 850.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432721.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 27.62,
+    "text": "Gemini 27°37′",
+    "longitude": 87.618
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 27.58,
+    "text": "Scorpio 27°35′",
+    "longitude": 237.578
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 5.33,
+    "text": "Cancer 5°20′",
+    "longitude": 95.325
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 6.3,
+    "text": "Cancer 6°18′",
+    "longitude": 96.299
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 14.5,
+    "text": "Virgo 14°30′",
+    "longitude": 164.499
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 23.66,
+    "text": "Sagittarius 23°40′",
+    "longitude": 263.66
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 19.04,
+    "text": "Leo 19°02′",
+    "longitude": 139.036
+   }
+  },
+  {
+   "segment": "The Other Argentina",
+   "stop": "Echeverría 955, la Ciudad Infantil",
+   "date": "1949-07-14",
+   "date_confidence": "attested for the institution and its entrance address, Echeverría 955, Belgrano. Coordinate geocoded from that address. Flagged: eva_peron.journey.json pins the Ciudad Infantil at -34.627, -58.438, roughly 8 km south, in a different half of the city. Contradiction inside the corpus, recorded and not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433111.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 21.23,
+    "text": "Cancer 21°14′",
+    "longitude": 111.227
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Other Argentina",
+   "stop": "Burzaco, the first home for the old",
+   "date": "1949-10-17",
+   "date_confidence": "attested verbatim (es.wikipedia, 'Fundación Eva Perón': 'El 17 de octubre de 1949 se inauguró el primero de ellos en Burzaco y, hasta 1950, se abrieron otros cuatro'). Coordinate corrected to the Burzaco town centroid; the research pool's pin lay some 1.5 km to the south. No source places Ezcurra here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433206.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 23.3,
+    "text": "Libra 23°18′",
+    "longitude": 203.295
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 16.11,
+    "text": "Leo 16°06′",
+    "longitude": 136.106
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 5.47,
+    "text": "Libra 5°28′",
+    "longitude": 185.468
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 7.52,
+    "text": "Sagittarius 7°31′",
+    "longitude": 247.523
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 24.22,
+    "text": "Leo 24°13′",
+    "longitude": 144.217
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 23.67,
+    "text": "Capricornus 23°40′",
+    "longitude": 293.671
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 15.01,
+    "text": "Virgo 15°01′",
+    "longitude": 165.009
+   }
+  },
+  {
+   "segment": "The Other Argentina",
+   "stop": "Avenida de Mayo 869, el Hogar de la Empleada",
+   "date": "1949-12-30",
+   "date_confidence": "attested for the opening and the building's dimensions. Coordinate geocoded from the Monserrat address, some 320 m from the research pool's pin. Occupation of this specific building in 1955 is inference and is tagged [R]: the sources say only 'cada uno de los institutos'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433280.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.98,
+    "text": "Capricornus 7°59′",
+    "longitude": 277.976
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Other Argentina",
+   "stop": "El Buen Pastor, San Telmo, the other Catholic institution",
+   "date": "1953-05-10",
+   "date_confidence": "attested for Victoria Ocampo's imprisonment; pin inherited byte-identical from victoria_ocampo.journey.json, 'Buenos Aires, El Buen Pastor, twenty-six days among the condemned'. Ezcurra is placed here by no source; the stop marks the institutional world she belongs to.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434507.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.05,
+    "text": "Taurus 19°03′",
+    "longitude": 49.046
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Septiembre de 1955",
+   "stop": "Córdoba city centre, the artillery school rises (site unlocated)",
+   "date": "1955-09-16",
+   "date_confidence": "attested to the hour (es.wikipedia, 'Comandos civiles': 'El 16 de septiembre de 1955 a las 00:00 horas el general Eduardo Lonardi sublevó la Escuela de Artillería de Córdoba, dando inicio al golpe'). Pin is Córdoba city centre, declared as a placeholder: the Escuela de Artillería returns no OSM or Nominatim result.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435366.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (placeholder) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 22.36,
+    "text": "Virgo 22°21′",
+    "longitude": 172.358
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 19.06,
+    "text": "Virgo 19°04′",
+    "longitude": 169.062
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 18.66,
+    "text": "Libra 18°40′",
+    "longitude": 198.664
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 26.34,
+    "text": "Virgo 26°21′",
+    "longitude": 176.344
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 12.46,
+    "text": "Virgo 12°28′",
+    "longitude": 162.464
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 20.21,
+    "text": "Leo 20°12′",
+    "longitude": 140.206
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 17.25,
+    "text": "Scorpio 17°15′",
+    "longitude": 227.252
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Septiembre de 1955",
+   "stop": "Casa Rosada, Lonardi sworn in",
+   "date": "1955-09-23",
+   "date_confidence": "attested; coordinate confirmed against Nominatim for the Casa Rosada to within 10 m.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435373.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 29.2,
+    "text": "Virgo 29°12′",
+    "longitude": 179.196
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 16.72,
+    "text": "Sagittarius 16°43′",
+    "longitude": 256.717
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 25.11,
+    "text": "Libra 25°07′",
+    "longitude": 205.11
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 5.06,
+    "text": "Libra 5°03′",
+    "longitude": 185.055
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 16.93,
+    "text": "Virgo 16°56′",
+    "longitude": 166.926
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 21.59,
+    "text": "Leo 21°36′",
+    "longitude": 141.595
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 17.87,
+    "text": "Scorpio 17°52′",
+    "longitude": 227.868
+   }
+  },
+  {
+   "segment": "Septiembre de 1955",
+   "stop": "Buenos Aires, Directora de Asistencia Integral",
+   "date": "1955-09-23",
+   "date_confidence": "title attested (Testa 2017: 'en 1955 fue nombrada por el gobierno de facto como Directora de Asistencia Integral del Ministerio de Asistencia Social y Salud Pública'; Grassi 1989, p. 220, uses the looser 'directora de asistencia social'). The day of appointment is given by no source and is defaulted here to the swearing-in. Office address unlocated; canonical central Buenos Aires pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435373.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 29.2,
+    "text": "Virgo 29°12′",
+    "longitude": 179.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Septiembre de 1955",
+   "stop": "Buenos Aires, the order of the twenty-third",
+   "date": "1955-09-23",
+   "date_confidence": "text verified verbatim in es.wikipedia, 'Fundación Eva Perón': 'Marta Ezcurra ordena el día 23 de septiembre la ocupación militar de cada una de las Escuelas Hogar'. The sentence carries no footnote, and no Ezcurra sentence in that section does. Text [A], fact [R]. The office from which the order issued is named by no source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435373.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 29.2,
+    "text": "Virgo 29°12′",
+    "longitude": 179.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Septiembre de 1955",
+   "stop": "Buenos Aires, the twenty-fourth and the comandos civiles",
+   "date": "1955-09-24",
+   "date_confidence": "text verified verbatim in es.wikipedia, 'Fundación Eva Perón', and likewise uncited: text [A], fact [R]. The venue of the convening is named by no source. The quoted passage is NOT Ezcurra's own report, as the research pool had it, but language from the interventores' reports sent to her; re-attributed here and left [R], since neither carrier gives a file number or an archive.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435374.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 0.17,
+    "text": "Libra 0°10′",
+    "longitude": 180.175
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Septiembre de 1955",
+   "stop": "Buenos Aires, the blood of the Foundation's hospitals",
+   "date": "1955-09-24",
+   "date_confidence": "month attested, day inferred: the sources give only September, and 24 September is taken from the sequence in which es.wikipedia narrates the destruction, immediately after the intervention of the institutes. Single-rooted besides. The burnings, the destroyed pulmotores and the smashed blood-bank flasks all descend from Sandra Russo's Página/12 column of 17 September 2016 through four Wikipedia articles and two blogs, with no archival citation anywhere in that chain, so [R] despite the near-unanimity of the retellings.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435374.5,
+   "precision": "month",
+   "precision_triggers": [
+    "inferred",
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 0.17,
+    "text": "Libra 0°10′",
+    "longitude": 180.175
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Provinces Emptied",
+   "stop": "Termas de Reyes, Jujuy, the children out and the casino in",
+   "date": "1955-01-01",
+   "date_confidence": "year only: no source gives a month for the closure, and 01-01 is a default. Coordinate given precisely by es.wikipedia ('Termas de Reyes') and confirmed to within 180 m against Nominatim. No source places Ezcurra at this site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435108.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.8,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.796
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Provinces Emptied",
+   "stop": "Ciudad Universitaria de Córdoba, the unfinished city",
+   "date": "1955-01-01",
+   "date_confidence": "year only, and the claim is downgraded. es.wikipedia attests the Foundation's $70,000,000 budget and that the city was under construction at Eva Perón's death in 1952, but does NOT say construction was interrupted by the Revolución Libertadora, nor connect it to Ezcurra's order. That sentence was inference wearing an [A] tag in the research pool: [R] here. Coordinate corrected to the campus centroid.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435108.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.8,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.796
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Provinces Emptied",
+   "stop": "Comodoro Rivadavia, the Hogar Escuela Presidente Perón",
+   "date": "1955-01-01",
+   "date_confidence": "year only. Coordinate is the Liceo Militar General Roca, which the claim names as the site; the research pool's pin lay some 2.3 km north, in the city centre. Ezcurra is named by this source nowhere: the stop records the reach of the dissolution, not her presence.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435108.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.8,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.796
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aramburu's December",
+   "stop": "Casa Rosada, Aramburu displaces Lonardi",
+   "date": "1955-11-13",
+   "date_confidence": "attested (es.wikipedia, 'Revolución Libertadora (Argentina)').",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435424.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 19.83,
+    "text": "Scorpio 19°50′",
+    "longitude": 229.831
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 2.99,
+    "text": "Scorpio 2°59′",
+    "longitude": 212.988
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 7.4,
+    "text": "Scorpio 7°24′",
+    "longitude": 217.404
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 8.63,
+    "text": "Sagittarius 8°38′",
+    "longitude": 248.635
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 19.62,
+    "text": "Libra 19°37′",
+    "longitude": 199.622
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 29.55,
+    "text": "Leo 29°33′",
+    "longitude": 149.547
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 23.43,
+    "text": "Scorpio 23°26′",
+    "longitude": 233.434
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Aramburu's December",
+   "stop": "Paseo Colón 850, the liquidating commission",
+   "date": "1955-12-01",
+   "date_confidence": "month attested for the commission and its named members; the research pool's added claim that it sat at the Paseo Colón headquarters is not in the cited source and is [R]. Coordinate geocoded to Paseo Colón 850, the Foundation's purpose-built seat, assigned to the UBA Facultad de Ingeniería in 1956; the pool's pin lay some 860 m south. Whether María Delfina Matilde Salomé Caprile de Ezcurra is a relative of the subject is stated by no source and is not assumed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435442.5,
+   "precision": "month",
+   "precision_triggers": [
+    "assigned",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.01,
+    "text": "Sagittarius 8°01′",
+    "longitude": 248.014
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aramburu's December",
+   "stop": "Echeverría 955, the twenty-third of December",
+   "date": "1955-12-23",
+   "date_confidence": "attested to the day by es.wikipedia, 'Hospital Escuela Eva Perón', which places the burning and the eviction from the Clínica de Recuperación here on 23 December 1955, following Aramburu's order, with Ezcurra convening the comandos civiles. The research pool read this as a rival dating of the September intervention; it is a second and later event. Coordinate as at the earlier Ciudad Infantil stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435464.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 0.38,
+    "text": "Capricornus 0°23′",
+    "longitude": 270.377
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 7.6,
+    "text": "Aries 7°36′",
+    "longitude": 7.603
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 10.71,
+    "text": "Capricornus 10°42′",
+    "longitude": 280.706
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 28.41,
+    "text": "Capricornus 28°25′",
+    "longitude": 298.414
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 15.57,
+    "text": "Scorpio 15°34′",
+    "longitude": 225.567
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 1.42,
+    "text": "Virgo 1°25′",
+    "longitude": 151.421
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 28.05,
+    "text": "Scorpio 28°03′",
+    "longitude": 238.055
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Aramburu's December",
+   "stop": "Buenos Aires, the furniture carried home",
+   "date": "1955-12-27",
+   "date_confidence": "attested to the day (es.wikipedia, 'Comandos civiles', citing the historian Néstor Ferioli); the specific homes are named by no source, so the canonical central Buenos Aires pin is used. Ferioli's monograph was not accessible for this file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435468.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.45,
+    "text": "Capricornus 4°27′",
+    "longitude": 274.453
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 3.99,
+    "text": "Gemini 3°59′",
+    "longitude": 63.989
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 17.06,
+    "text": "Capricornus 17°03′",
+    "longitude": 287.057
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 3.37,
+    "text": "Aquarius 3°22′",
+    "longitude": 303.372
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 18.18,
+    "text": "Scorpio 18°11′",
+    "longitude": 228.176
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 1.33,
+    "text": "Virgo 1°20′",
+    "longitude": 151.331
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 28.48,
+    "text": "Scorpio 28°29′",
+    "longitude": 238.476
+   }
+  },
+  {
+   "segment": "Aramburu's December",
+   "stop": "Buenos Aires, Decreto-Ley 4161",
+   "date": "1956-01-01",
+   "date_confidence": "year attested from the decree's own number and primary text (es.wikisource, 'Decreto Ley 4161/1956 de prohibición de propaganda peronista'); the day of promulgation is given nowhere in the verified research pool and 01-01 is a default, not a claim. The pool's wording 'ofendían el sentimiento democrático del pueblo argentino' is corrected against the considerandos.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435473.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.55,
+    "text": "Capricornus 9°33′",
+    "longitude": 279.549
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aramburu's December",
+   "stop": "Buenos Aires, twenty-one lungs from the north",
+   "date": "1956-01-01",
+   "date_confidence": "year only, no month given, and single-rooted: the detail appears in es.wikipedia, 'Revolución Libertadora (Argentina)', within the Russo lineage and with no archival citation. [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435473.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.55,
+    "text": "Capricornus 9°33′",
+    "longitude": 279.549
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Open Bracket",
+   "stop": "Buenos Aires, the interview in Revista Diálogo",
+   "date": "1964-01-01",
+   "date_confidence": "year attested through Testa 2017's citation of the piece; month and day unknown. The document itself could not be read: the Acción Católica Argentina archive copy at accioncatolica.org.ar/wp-content/uploads/2011/04/MARTA-EZCURRA.pdf returns HTTP 500. Named as an inaccessible source, not as a gap in the record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438395.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.61,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.608
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Open Bracket",
+   "stop": "Buenos Aires, the year the sources disagree about",
+   "date": "1996-01-01",
+   "date_confidence": "contested and unresolved, and downgraded to [R]. Las Balas del Campanario, verbatim: 'Murió, o descendió a los infiernos, en 1996, durante la segunda presidencia de Menem, a sus 95 años', a single hostile blog with no obituary, cemetery or registry record behind it. es.wikipedia gives '1901-¿?', leaving the death open. Note also that 2 May 1900 plus 'aged 95' requires a death before 2 May 1996.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450083.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.844
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 16.69,
+    "text": "Taurus 16°41′",
+    "longitude": 46.691
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 29.15,
+    "text": "Capricornus 29°09′",
+    "longitude": 299.146
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 12.63,
+    "text": "Aquarius 12°38′",
+    "longitude": 312.629
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 24.16,
+    "text": "Capricornus 24°10′",
+    "longitude": 294.162
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 29.46,
+    "text": "Sagittarius 29°28′",
+    "longitude": 269.463
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 19.1,
+    "text": "Pisces 19°06′",
+    "longitude": 349.098
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Open Bracket",
+   "stop": "Cementerio de la Recoleta, the ground she is not recorded in",
+   "date": "1996-01-01",
+   "date_confidence": "[R] throughout: no source places Marta Ezcurra in the Recoleta or in any other cemetery, and the date is carried over from the disputed death year only to sit the stop at the end of the journey. Pin inherited byte-identical from eva_peron.journey.json and marks the necropolis, not a grave.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450083.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only",
+    "disputed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.844
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Open Bracket",
+   "stop": "Buenos Aires, the contratapa that resurrects her",
+   "date": "2016-09-17",
+   "date_confidence": "attested: Sandra Russo, 'Un lugar seguro', Página/12 contratapa, 17 September 2016, cited by name in es.wikipedia's Hospital Escuela Eva Perón and Revolución Libertadora. The column itself was not fetched for this file and is known only through those citations, which is itself the point of the stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457648.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 24.54,
+    "text": "Virgo 24°33′",
+    "longitude": 174.543
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 27.33,
+    "text": "Pisces 27°20′",
+    "longitude": 357.329
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 16.94,
+    "text": "Virgo 16°56′",
+    "longitude": 166.94
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 21.93,
+    "text": "Libra 21°56′",
+    "longitude": 201.935
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 23.41,
+    "text": "Sagittarius 23°24′",
+    "longitude": 263.406
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 1.6,
+    "text": "Libra 1°36′",
+    "longitude": 181.599
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 10.85,
+    "text": "Sagittarius 10°51′",
+    "longitude": 250.85
+   }
+  },
+  {
+   "segment": "The Open Bracket",
+   "stop": "La Plata, the paper that reads the archive",
+   "date": "2017-09-14",
+   "date_confidence": "attested: Daniela Testa, X JIDEEP, Facultad de Trabajo Social, UNLP, 14-15 September 2017, deposited in SEDICI at handle 10915/64267, part of UNPAZ project A00317. Pin is central La Plata; the faculty building's own coordinate was not separately checked.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2017,
+   "jd_ut": 2458010.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 21.38,
+    "text": "Virgo 21°23′",
+    "longitude": 171.384
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 1.06,
+    "text": "Cancer 1°04′",
+    "longitude": 91.063
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 3.61,
+    "text": "Virgo 3°37′",
+    "longitude": 153.61
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 22.64,
+    "text": "Leo 22°39′",
+    "longitude": 142.644
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 5.47,
+    "text": "Virgo 5°28′",
+    "longitude": 155.465
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 24.48,
+    "text": "Libra 24°29′",
+    "longitude": 204.478
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 21.59,
+    "text": "Sagittarius 21°36′",
+    "longitude": 261.593
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Open Bracket",
+   "stop": "Buenos Aires, an act of hatred, seventy-one years on",
+   "date": "2026-02-28",
+   "date_confidence": "attested against the blog's own listing: walteronorato.blogspot.com/2026/02/marta-ezcurra-la-ejecutora-de.html, 28 February 2026, tagged Antiperonismo and Marta Ezcurra. The research pool dated this piece 2018, an error of eight years that would place the reception history in the wrong decade.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461099.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.41,
+    "text": "Pisces 9°25′",
+    "longitude": 339.414
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 40,
+  "dated": 40,
+  "unparsed": 0,
+  "day": 12,
+  "month": 2,
+  "year": 26
+ },
+ "parse_failures": []
+}

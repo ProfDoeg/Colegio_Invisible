@@ -1,0 +1,1863 @@
+{
+ "slug": "sophie_taeuber_arp",
+ "traveler": "Sophie Taeuber-Arp",
+ "title": "The Grid and the Mask: Textile, Dance, and the Rooms She Built",
+ "years": "1889-1943",
+ "years_parsed": {
+  "first": 1889,
+  "last": 1943
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Davos to Munich: An Education in Materials",
+  "stop": "Davos-Platz, born in the sanatorium valley",
+  "date": "1889-01-19",
+  "date_confidence": "attested; German and English Wikipedia agree on 19 January 1889 at Davos-Platz",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1889,
+  "jd_ut": 2411021.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 29.18,
+   "text": "Capricornus 29°11′",
+   "longitude": 299.178
+  },
+  "moon": {
+   "sign": "Leo",
+   "degree": 19.45,
+   "text": "Leo 19°27′",
+   "longitude": 139.451
+  },
+  "mercury": {
+   "sign": "Aquarius",
+   "degree": 12.66,
+   "text": "Aquarius 12°40′",
+   "longitude": 312.659
+  },
+  "venus": {
+   "sign": "Pisces",
+   "degree": 13.5,
+   "text": "Pisces 13°30′",
+   "longitude": 343.501
+  },
+  "mars": {
+   "sign": "Pisces",
+   "degree": 7.34,
+   "text": "Pisces 7°20′",
+   "longitude": 337.335
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 26.49,
+   "text": "Sagittarius 26°29′",
+   "longitude": 266.491
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 18.39,
+   "text": "Leo 18°23′",
+   "longitude": 138.388
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1889-1943",
+  "first_year_parsed": 1889
+ },
+ "stops": [
+  {
+   "segment": "Davos to Munich: An Education in Materials",
+   "stop": "Davos-Platz, born in the sanatorium valley",
+   "date": "1889-01-19",
+   "date_confidence": "attested; German and English Wikipedia agree on 19 January 1889 at Davos-Platz",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411021.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 29.18,
+    "text": "Capricornus 29°11′",
+    "longitude": 299.178
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 19.45,
+    "text": "Leo 19°27′",
+    "longitude": 139.451
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 12.66,
+    "text": "Aquarius 12°40′",
+    "longitude": 312.659
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 13.5,
+    "text": "Pisces 13°30′",
+    "longitude": 343.501
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 7.34,
+    "text": "Pisces 7°20′",
+    "longitude": 337.335
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 26.49,
+    "text": "Sagittarius 26°29′",
+    "longitude": 266.491
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 18.39,
+    "text": "Leo 18°23′",
+    "longitude": 138.388
+   }
+  },
+  {
+   "segment": "Davos to Munich: An Education in Materials",
+   "stop": "Trogen, the pension her mother builds",
+   "date": "1895-01-01",
+   "date_confidence": "attested for the family's resettlement in Trogen and for the mother running a guesthouse there (German Wikipedia; English Wikipedia). The house name Pension Taeuber and an opening around 1902 come from the dossier lead alone and are [R]. Month and day defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Davos to Munich: An Education in Materials",
+   "stop": "Vevey, a year of boarding school above the lake",
+   "date": "1905-01-01",
+   "date_confidence": "[R] throughout: the Mesdames van Muyden school at Vevey and the year 1905-06 come from the dossier lead only and were not located on any independently accessible source in this pass. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416846.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.937
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Davos to Munich: An Education in Materials",
+   "stop": "St. Gallen, the textile department",
+   "date": "1906-01-01",
+   "date_confidence": "attested for 1906-1910 in the textile department of the Ecole des arts decoratifs, St. Gallen, under Johannes Stauffacher (1850-1916), a school founded 11 November 1867 by the chamber of commerce and industry of St. Gallen-Appenzell (German Wikipedia). The dossier's naming of the institution as the Industrie- und Gewerbemuseum is an error and is corrected here. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417211.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.69,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.689
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Davos to Munich: An Education in Materials",
+   "stop": "Munich, the Debschitz School",
+   "date": "1910-10-01",
+   "date_confidence": "attested that she entered the Lehr- und Versuch-Ateliers fuer angewandte und freie Kunst of Wilhelm von Debschitz and Hermann Obrist in 1910 and graduated in 1914 (German Wikipedia). English Wikipedia compresses the attendance to 1911 and 1913; the precise October 1910 start is the dossier's reconstruction and is [R]",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418945.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.94,
+    "text": "Libra 6°56′",
+    "longitude": 186.939
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Davos to Munich: An Education in Materials",
+   "stop": "Hamburg, a year at the loom",
+   "date": "1912-01-01",
+   "date_confidence": "attested for a year of weaving study at the Kunstgewerbeschule Hamburg in 1912-13 (German and English Wikipedia). Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Davos to Munich: An Education in Materials",
+   "stop": "Munich, the teaching diploma",
+   "date": "1914-06-01",
+   "date_confidence": "attested that she completed the Debschitz School in summer 1914 with a qualification to teach (German Wikipedia); the month of June is the dossier's precision and is [R]",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420284.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.66,
+    "text": "Gemini 9°40′",
+    "longitude": 69.661
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Zurich, 1914-1915: Movement and the Right Angle",
+   "stop": "Zurich, moving in with Erika",
+   "date": "1914-11-01",
+   "date_confidence": "attested that she returned to neutral Switzerland in 1914 after the diploma and moved in with her sister Erika Schlegel in Zurich (German Wikipedia). The precise month, November, is dossier-only and is [R]",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420437.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.73,
+    "text": "Scorpio 7°44′",
+    "longitude": 217.729
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Zurich, 1914-1915: Movement and the Right Angle",
+   "stop": "Zurich, the Laban school of movement",
+   "date": "1915-07-01",
+   "date_confidence": "attested that she trained in Bewegungskunst under Rudolf von Laban in Zurich from 1915 and joined the Schweizerischer Werkbund the same year (German and English Wikipedia). 'From summer 1915' and the July date are ordering devices and are [R]. Building coordinate not pinned; central Zurich used",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420679.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.08,
+    "text": "Cancer 8°05′",
+    "longitude": 98.084
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Zurich, 1914-1915: Movement and the Right Angle",
+   "stop": "Zurich, the first vertical-horizontal compositions",
+   "date": "1915-01-01",
+   "date_confidence": "attested for 1915 (German Wikipedia). No month or day is recorded, so this stop is defaulted to 01-01 and precedes the Laban enrollment in this file only by that convention; the two are concurrent",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention",
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Zurich, 1914-1915: Movement and the Right Angle",
+   "stop": "Galerie Tanner, Zurich: meeting Hans Arp",
+   "date": "1915-11-01",
+   "date_confidence": "attested that they met at a Zurich exhibition in November 1915, commonly identified as the Galerie Tanner (English Wikipedia). The gallery's exact 1915 street address was not located, so the coordinate is central Zurich and approximate; the day is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420802.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.49,
+    "text": "Scorpio 7°29′",
+    "longitude": 217.486
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Dada: The Mask, the Marionette, the Salary",
+   "stop": "Cabaret Voltaire, Spiegelgasse 1: the cellar",
+   "date": "1916-02-05",
+   "date_confidence": "attested for the Cabaret Voltaire's opening on 5 February 1916 under Hugo Ball and Emmy Hennings, and for Taeuber's association with the circle (German Wikipedia). No dated print establishes that any surviving photograph of her masked and costumed was taken in this room; the popular Cabaret Voltaire caption is flagged in the scholarship and is not asserted here. Coordinate inherited byte-identical from laban.journey.json, suzanne_perrottet.journey.json and katja_wulff.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420898.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 14.87,
+    "text": "Aquarius 14°52′",
+    "longitude": 314.871
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 2.83,
+    "text": "Pisces 2°50′",
+    "longitude": 332.826
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 15.63,
+    "text": "Aquarius 15°38′",
+    "longitude": 315.626
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 19.53,
+    "text": "Pisces 19°32′",
+    "longitude": 349.527
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 22.05,
+    "text": "Leo 22°03′",
+    "longitude": 142.047
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 28.44,
+    "text": "Pisces 28°27′",
+    "longitude": 358.445
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 10.79,
+    "text": "Cancer 10°47′",
+    "longitude": 100.786
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Dada: The Mask, the Marionette, the Salary",
+   "stop": "Kunstgewerbeschule Zuerich, the textile class",
+   "date": "1916-05-05",
+   "date_confidence": "attested that she took charge of the textile design class at the Zurich Kunstgewerbeschule in May 1916 and held it until 1929 (German and English Wikipedia). The exact day, 5 May, is dossier-only and is [R]. Building coordinate not pinned; central Zurich used",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420988.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 14.16,
+    "text": "Taurus 14°10′",
+    "longitude": 44.161
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Dada: The Mask, the Marionette, the Salary",
+   "stop": "Galerie Dada, near the Paradeplatz: the abstract solos",
+   "date": "1917-03-29",
+   "date_confidence": "attested for the Galerie Dada's opening on 29 March 1917 in the former Galerie Corray premises, and for Taeuber dancing there to Hugo Ball's phonetic poems in a shamanic mask (German and English Wikipedia, which also credit Emmy Hennings with founding the gallery). Two corrections to the dossier: the mask is by Marcel Janco, not by Arp, and the coordinate is moved south from Bahnhofstrasse 19 to the Paradeplatz end of the street, since the dossier's 47.3757/8.5402 sits by the Hauptbahnhof, some 450 to 500 m too far north. German Wikipedia records only two documented solo Dada appearances by her in total",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421316.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 7.74,
+    "text": "Aries 7°44′",
+    "longitude": 7.741
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 21.54,
+    "text": "Gemini 21°32′",
+    "longitude": 81.537
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 7.0,
+    "text": "Aries 7°00′",
+    "longitude": 7.004
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 0.42,
+    "text": "Aries 0°25′",
+    "longitude": 0.423
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 1.76,
+    "text": "Aries 1°46′",
+    "longitude": 1.761
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 8.62,
+    "text": "Taurus 8°37′",
+    "longitude": 38.616
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 23.78,
+    "text": "Cancer 23°47′",
+    "longitude": 113.778
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Dada: The Mask, the Marionette, the Salary",
+   "stop": "Monte Verita, Ascona: the Sun Festival",
+   "date": "1917-08-01",
+   "date_confidence": "attested that she took part in Laban's Sonnenfest at Monte Verita in 1917 alongside Mary Wigman, Suzanne Perrottet and Katja Wulff (English Wikipedia; dossier citing the Arp foundations). The August dating is corroborated only loosely and the exact festival date should be treated with caution; the day is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421441.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.16,
+    "text": "Leo 8°10′",
+    "longitude": 128.161
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Dada: The Mask, the Marionette, the Salary",
+   "stop": "Zurich, the turned wooden heads",
+   "date": "1918-01-01",
+   "date_confidence": "attested for 1918 (German Wikipedia). Her membership of the group Das Neue Leben with Marcel Janco and Arp, exhibiting through 1920, is corroborated mainly through the dossier's cited foundations rather than a page fetched directly, and is [R]. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421594.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.78,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.778
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Dada: The Mask, the Marionette, the Salary",
+   "stop": "Zurich, the marionettes for Koenig Hirsch",
+   "date": "1918-09-11",
+   "date_confidence": "attested: Alfred Altherr, director of both the Zurich Kunstgewerbeschule and the Kunstgewerbemuseum, commissioned the marionettes, props and sets for Carlo Gozzi's Koenig Hirsch in Rene Morax's modern adaptation; premiere 11 September 1918 in Zurich, ignored by the Zurich press, with no second performance until 1965 in St. Gallen (German Wikipedia). The dossier omitted both Altherr and Morax",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421847.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 17.44,
+    "text": "Virgo 17°27′",
+    "longitude": 167.442
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 18.1,
+    "text": "Scorpio 18°06′",
+    "longitude": 228.1
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 3.25,
+    "text": "Virgo 3°15′",
+    "longitude": 153.252
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 28.49,
+    "text": "Leo 28°30′",
+    "longitude": 148.492
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 16.05,
+    "text": "Scorpio 16°03′",
+    "longitude": 226.048
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 11.53,
+    "text": "Cancer 11°32′",
+    "longitude": 101.525
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.01,
+    "text": "Leo 22°00′",
+    "longitude": 142.007
+   }
+  },
+  {
+   "segment": "Pura, Strasbourg, and the Aubette",
+   "stop": "Pura, Ticino: the marriage",
+   "date": "1922-10-20",
+   "date_confidence": "attested for 20 October 1922 at Pura, Ticino (German Wikipedia). Coordinate corrected: the dossier's 45.9847/8.9236 falls near Bioggio, about four kilometres east across the valley; English Wikipedia places Pura at 45.9833/8.8667. No church or registry address located",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423347.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 25.82,
+    "text": "Libra 25°49′",
+    "longitude": 205.82
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 17.78,
+    "text": "Libra 17°47′",
+    "longitude": 197.782
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 16.45,
+    "text": "Libra 16°27′",
+    "longitude": 196.455
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 5.52,
+    "text": "Sagittarius 5°31′",
+    "longitude": 245.516
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 22.61,
+    "text": "Capricornus 22°37′",
+    "longitude": 292.609
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 28.47,
+    "text": "Libra 28°28′",
+    "longitude": 208.47
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 12.65,
+    "text": "Libra 12°39′",
+    "longitude": 192.65
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Pura, Strasbourg, and the Aubette",
+   "stop": "Ruegen, the Baltic summer",
+   "date": "1923-07-01",
+   "date_confidence": "[R] throughout: the 1923 holiday on Ruegen with Kurt Schwitters and Hannah Hoech comes from the dossier lead alone and was not confirmed against any accessible source. Island-centre coordinate; month and day arbitrary",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423601.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.15,
+    "text": "Cancer 8°09′",
+    "longitude": 98.148
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pura, Strasbourg, and the Aubette",
+   "stop": "Paris, the Swiss section of the 1925 Exposition",
+   "date": "1925-06-01",
+   "date_confidence": "attested that she was a member of the Swiss division of the Exposition internationale des arts decoratifs et industriels modernes in Paris, 1925 (Fondazione Marguerite Arp chronology). Two dossier claims are demoted to [R] and are not asserted as fact: that she received a prize, whose class no source names, and that Johannes Itten was her co-representative. German Wikipedia does not mention 1925 at all. Coordinate marks the Invalides site; her pavilion is not pinned. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424302.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.99,
+    "text": "Gemini 9°59′",
+    "longitude": 69.988
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pura, Strasbourg, and the Aubette",
+   "stop": "Strasbourg, French citizenship and the first interiors",
+   "date": "1926-01-01",
+   "date_confidence": "attested that the Arps established themselves at Strasbourg in 1926 and acquired French citizenship, and that she received interior commissions there (German Wikipedia; English Wikipedia on the residency requirement). The naming of the developers Andre and Paul Horn is dossier-only and is [R]. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pura, Strasbourg, and the Aubette",
+   "stop": "Strasbourg, the Hotel Hannong",
+   "date": "1926-01-01",
+   "date_confidence": "attested as her first large project, the wall design of the Hotel Hannong (German Wikipedia: 'Ihr erstes grosses Projekt war die Wandgestaltung des Hotel Hannong'), which upgrades the dossier's [R] on the commission itself. The further claim that the mural was later destroyed by fire is unverified and stays [R]. Hotel coordinate approximate to central Strasbourg; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pura, Strasbourg, and the Aubette",
+   "stop": "Strasbourg, the stairwell at the Villa Heimendinger",
+   "date": "1927-01-01",
+   "date_confidence": "[R] throughout: the villa, its stairwell mural of stylized dancing figures, and the detail that its owner was an ear-nose-throat specialist treating her come from the dossier lead alone and were not located on any accessible source. Coordinate is a central-Strasbourg placeholder, the villa's address being unknown. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pura, Strasbourg, and the Aubette",
+   "stop": "The Aubette, Place Kleber: the largest commission",
+   "date": "1928-02-16",
+   "date_confidence": "attested: renovation from 1926 to 1928, opening 16 February 1928, Place Kleber (French Wikipedia, 'Aubette (Strasbourg)'). One genuine attribution dispute is flagged and not resolved: the dossier gives Taeuber-Arp the Five O'Clock tea room, the bar, the billiard room and the entrance, while English Wikipedia assigns her the entrance hall, tea room and two bars, gives Arp the basement, passage and billiard room, and makes the stairwell a three-way collaboration",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425292.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year range, year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 26.09,
+    "text": "Aquarius 26°05′",
+    "longitude": 326.091
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 20.29,
+    "text": "Sagittarius 20°18′",
+    "longitude": 260.293
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 10.77,
+    "text": "Pisces 10°46′",
+    "longitude": 340.771
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 21.85,
+    "text": "Capricornus 21°51′",
+    "longitude": 291.853
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 20.75,
+    "text": "Capricornus 20°45′",
+    "longitude": 290.755
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 4.91,
+    "text": "Aries 4°55′",
+    "longitude": 4.915
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 17.61,
+    "text": "Sagittarius 17°37′",
+    "longitude": 257.609
+   }
+  },
+  {
+   "segment": "Pura, Strasbourg, and the Aubette",
+   "stop": "Arosa, the cure",
+   "date": "1928-01-01",
+   "date_confidence": "attested that a lung illness sent her to Arosa during the Aubette years, exhausted by commuting between Zurich, Paris and Strasbourg, and that she spent the stay with Gala and Paul Eluard (German Wikipedia). This inverts the dossier, which staged an unattested c.1919-20 sanatorium stay as a stop and reduced the attested late-1920s one to a parenthesis; no source reached supports a 1919-20 stay. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Clamart: The House She Drew",
+   "stop": "Clamart, the house at the edge of the Meudon woods",
+   "date": "1929-01-01",
+   "date_confidence": "attested: a house constructed in 1927-28 at the edge of the Meudon forest to her design, occupied permanently from 1929 when she resigned the Zurich post (French Wikipedia, 'Fondation Arp', which supplies the coordinate 48.8036/2.2444; German Wikipedia). The street address, 21 rue des Chataigniers, comes from the dossier lead. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Clamart: The House She Drew",
+   "stop": "Paris, Cercle et Carre",
+   "date": "1930-01-01",
+   "date_confidence": "attested that she exhibited with Cercle et Carre in Paris in 1930 (dossier citing foundation biographical material; her general 1930s Paris activity is corroborated by English and German Wikipedia). Michel Seuphor's invitation is dossier-only and is [R]. Canonical Paris pin used; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2425977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.867
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Clamart: The House She Drew",
+   "stop": "Lodz, the museum the artists built",
+   "date": "1931-02-15",
+   "date_confidence": "attested: the Muzeum Sztuki opened to the public on 15 February 1931 as the International Collection of Modern Art assembled by the a.r. group, whose members included Wladyslaw Strzeminski, Katarzyna Kobro and Henryk Stazewski, the first museum of its kind in Europe (English Wikipedia). This corrects the dossier's '1931-32'. Her own contribution of work and her travel to the opening are dossier-only and remain [R]. City-centre coordinate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426387.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 25.36,
+    "text": "Aquarius 25°21′",
+    "longitude": 325.356
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 27.35,
+    "text": "Capricornus 27°21′",
+    "longitude": 297.354
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 5.0,
+    "text": "Aquarius 5°00′",
+    "longitude": 305.001
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 9.01,
+    "text": "Capricornus 9°00′",
+    "longitude": 279.008
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 0.41,
+    "text": "Leo 0°25′",
+    "longitude": 120.409
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 11.17,
+    "text": "Cancer 11°10′",
+    "longitude": 101.171
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 18.64,
+    "text": "Capricornus 18°38′",
+    "longitude": 288.637
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Clamart: The House She Drew",
+   "stop": "Paris, Abstraction-Creation",
+   "date": "1931-01-01",
+   "date_confidence": "attested that she was an active member of Abstraction-Creation in Paris in the 1930s, exhibiting and designing catalogues and invitations (German Wikipedia, which dates only to the decade). The dossier's tighter 1931-34 range is not independently confirmed by any source fetched. Canonical Paris pin; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Clamart: The House She Drew",
+   "stop": "Kunsthalle Basel, twenty-four works",
+   "date": "1937-01-01",
+   "date_confidence": "attested: the 1937 group exhibition Konstruktivisten at the Kunsthalle Basel showed twenty-four works by Sophie Taeuber-Arp (German Wikipedia's exhibition list), which removes the dossier's hedge. Two further dossier claims are held apart: the 1932 Basel show at which more than ten of her wooden sculptures were allegedly exhibited under Arp's name alone is unverified and is [R]; and Allianz, which she joined in 1937, was founded by Richard Paul Lohse and Leo Leuppi, not by Max Bill, whom the dossier miscredits, and its own first group show was in 1938. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Clamart: The House She Drew",
+   "stop": "Paris, the journal Plastique",
+   "date": "1937-01-01",
+   "date_confidence": "attested: plastique/PLASTIC was founded in 1937 by Albert Eugene Gallatin, the Paris-based Dutch artist Cesar Domela, George L. K. Morris and Sophie Taeuber-Arp, who acted as editor; trilingual in French, English and German, published in Paris and New York, five issues to 1939 (German Wikipedia). The dossier omitted Domela. Canonical Paris pin used although the journal was made between two cities; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight South",
+   "stop": "Nerac, the road out",
+   "date": "1940-06-01",
+   "date_confidence": "attested: the Fondazione Marguerite Arp chronology records that in 1940 she fled to Grasse via Nerac and Veyrier ahead of the German entry into Paris in June, which upgrades the dossier's [R] on Nerac itself. The further claim that they were hosted at Nerac by Gabrielle Buffet-Picabia is unverified in every source reached and stays [R]. Day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429781.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.35,
+    "text": "Gemini 10°21′",
+    "longitude": 70.347
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight South",
+   "stop": "Veyrier-du-Lac, the second stage",
+   "date": "1940-07-01",
+   "date_confidence": "attested that Veyrier lay on the 1940 route to Grasse (Fondazione Marguerite Arp) and that Peggy Guggenheim gave the Arps temporary shelter that year (German Wikipedia); the joining of the two, Guggenheim's household at Veyrier, is [R]. Coordinate corrected: the dossier's 46.1667/6.2167 is Veyrier in the canton of Geneva, in Switzerland, which they did not reach until late 1942; Veyrier-du-Lac in Haute-Savoie lies at 45.8822/6.1781, some 32 km south. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429811.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.0,
+    "text": "Cancer 9°00′",
+    "longitude": 98.999
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight South",
+   "stop": "Grasse, the perfume town",
+   "date": "1940-09-01",
+   "date_confidence": "attested that they reached Grasse in 1940 and stayed until the flight to Switzerland, in poverty and malnutrition, with food parcels from Erika Schlegel and Marguerite Hagenbach, and with Sonia Delaunay-Terk as her working companion (German Wikipedia; Fondazione Marguerite Arp). The 'Chateau Folie' named by the dossier is unattested in every source reached and is [R]; Alberto Magnelli's presence in the circle is plausible but uncited here. Coordinate corrected from the dossier's 43.6667/6.9167. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429873.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.4,
+    "text": "Virgo 8°24′",
+    "longitude": 158.399
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight South",
+   "stop": "Grasse, the line drawings",
+   "date": "1941-01-01",
+   "date_confidence": "attested that she worked chiefly in pencil and colored pencil at Grasse in 1940-42, given wartime scarcity of paint and canvas, producing the geometric line-drawing series (German Wikipedia). The letter quoted is dated January 1942 and is placed at this stop for continuity. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2429995.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight South",
+   "stop": "Zurich, back across the border",
+   "date": "1942-11-01",
+   "date_confidence": "attested that they fled to Switzerland at the end of 1942, before the Germans reached Grasse, and that she spent her last New Year, 1942/43, at Max Bill's house in Zurich-Hoengg (German and English Wikipedia). The precise November dating and the household split, Sophie at Erika's and Arp at the Bills', are dossier-only and are [R]; that split also sits awkwardly with her death at the Bills' two months later. The dossier's claim that Johannes Itten welcomed her at an exhibition opening is likewise [R] and is not confirmed in itten.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430664.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.94,
+    "text": "Scorpio 7°56′",
+    "longitude": 217.941
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight South",
+   "stop": "New York, thirty-one women",
+   "date": "1943-01-05",
+   "date_confidence": "attested: the Exhibition by 31 Women opened at Peggy Guggenheim's Art of This Century on 5 January 1943, Taeuber-Arp is among the thirty-one, and English Wikipedia states she died a week after it opened. This corrects the dossier, which called her inclusion posthumous. Coordinate from the English Wikipedia article on the exhibition, replacing the dossier's value some 200 m off. She was not herself in New York",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430729.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 13.79,
+    "text": "Capricornus 13°47′",
+    "longitude": 283.785
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Flight South",
+   "stop": "Zurich-Hoengg, the garden house",
+   "date": "1943-01-14",
+   "date_confidence": "The death is attested; the calendar date is genuinely disputed and is not resolved here. German Wikipedia: she died in the night of 13 to 14 January 1943 of carbon monoxide poisoning from a badly handled stove in the Bills' garden house. English Wikipedia's infobox gives 14 January. The Fondazione Marguerite Arp gives the night of 13-14. Kunstmuseum Basel gives 13 January. The 12-13 January variant asserted in the dossier was found in no source at all. 14 January is the majority reading and is used; the minority reading of 13 January stands unresolved beside it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430738.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.96,
+    "text": "Capricornus 22°57′",
+    "longitude": 292.957
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Afterward",
+   "stop": "Locarno, the shared grave",
+   "date": "1943-01-01",
+   "date_confidence": "attested that Sophie Taeuber-Arp, Jean Arp and Marguerite Arp-Hagenbach share one grave in the Locarno cemetery, in successive burials of 1943, 1966 and 1994 (Fondazione Marguerite Arp, Marguerite Hagenbach page). That page names no cemetery and describes no monument. The plot is dated here to the first of the three burials; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430725.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.71,
+    "text": "Capricornus 9°42′",
+    "longitude": 279.708
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Afterward",
+   "stop": "Kassel, documenta 1",
+   "date": "1955-07-16",
+   "date_confidence": "attested: documenta 1 ran at the Museum Fridericianum, Kassel, from 16 July to 18 September 1955 (English Wikipedia, 'documenta'), and Sophie Taeuber-Arp was included (German Wikipedia, relayed by the Kunstmuseum Basel retrospective page)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435304.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.71,
+    "text": "Cancer 22°42′",
+    "longitude": 112.706
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 4.43,
+    "text": "Gemini 4°26′",
+    "longitude": 64.431
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 3.17,
+    "text": "Cancer 3°10′",
+    "longitude": 93.166
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 9.77,
+    "text": "Cancer 9°46′",
+    "longitude": 99.774
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 2.95,
+    "text": "Leo 2°57′",
+    "longitude": 122.952
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 6.82,
+    "text": "Leo 6°49′",
+    "longitude": 126.821
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 14.63,
+    "text": "Scorpio 14°38′",
+    "longitude": 224.63
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Afterward",
+   "stop": "New York, 11 West 53rd Street",
+   "date": "1981-01-01",
+   "date_confidence": "The address is attested (English Wikipedia, 'Museum of Modern Art'), and the dossier's note that the 1936 show sat at a prior address is wrong: MoMA has occupied 11 West 53rd Street since 1932, the 1939 building going up on the same site. Her inclusion in the December 1936 exhibition 'Fantastic Art, Dada, Surrealism' is dossier-only and remains [R], moma.org having returned 403 on every route attempted. The 1981 retrospective is attested by German Wikipedia's exhibition list; its tour to Chicago, Houston and Montreal, and the claim that it was MoMA's first for her, are [R]. The stop is dated to the 1981 retrospective, the attested event of the two, which also keeps it in sequence within this segment; the 1936 appearance is narrated inside it. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444605.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "sequencing",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.498
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Afterward",
+   "stop": "Bern, the fifty-franc note",
+   "date": "1995-10-03",
+   "date_confidence": "attested: the Swiss National Bank's eighth-series 50-franc note carrying her portrait was issued 3 October 1995 and ceased to be legal tender 30 April 2021, with four of her works on the reverse, Relief rectangulaire (1936), Tete Dada (1919), Composition Aubette (1927) and Lignes ouvertes (1939) (Swiss National Bank, banknote series page). English Wikipedia gives a different active-circulation window, 1995 to 2016; the SNB is the primary source and the discrepancy is left standing. The April 2025 Christie's sale mentioned in the campa is attested at about EUR 3.06 million on 8 April 2025",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1995,
+   "jd_ut": 2449993.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year range, span/window) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 9.32,
+    "text": "Libra 9°19′",
+    "longitude": 189.321
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 27.65,
+    "text": "Capricornus 27°39′",
+    "longitude": 297.653
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 13.69,
+    "text": "Libra 13°41′",
+    "longitude": 193.689
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 20.9,
+    "text": "Libra 20°54′",
+    "longitude": 200.897
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 17.41,
+    "text": "Scorpio 17°24′",
+    "longitude": 227.405
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 10.72,
+    "text": "Sagittarius 10°43′",
+    "longitude": 250.725
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 19.62,
+    "text": "Pisces 19°37′",
+    "longitude": 349.618
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Afterward",
+   "stop": "Kunstmuseum Basel, Living Abstraction",
+   "date": "2021-03-20",
+   "date_confidence": "attested: 'Sophie Taeuber-Arp: Living Abstraction' ran at the Kunstmuseum Basel 20 March to 20 June 2021, then Tate Modern 15 July to 17 October 2021, billed there as the first retrospective of her work ever held in the United Kingdom, then MoMA 21 November 2021 to 12 March 2022 (Kunstmuseum Basel exhibition page and Tate exhibition page, both fetched). MoMA's own dates could not be reconfirmed directly, moma.org returning 403. The correspondence edition is corrected against Hyperallergic: the Nimbus set is 'Sophie Taeuber-Arp: Briefe 1905-1942' (2021), and the Mueller-Widmann volume holds 35 letters written between 1932 and 1942, most of them predating the war",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2021,
+   "jd_ut": 2459293.5,
+   "precision": "year",
+   "precision_triggers": [
+    "between",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 29.61,
+    "text": "Pisces 29°37′",
+    "longitude": 359.613
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 9,
+  "month": 5,
+  "year": 29
+ },
+ "parse_failures": []
+}

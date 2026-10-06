@@ -1,0 +1,1849 @@
+{
+ "slug": "nicholas_roerich",
+ "traveler": "Nicholas Konstantinovich Roerich (Nikolai Konstantinovich Rerikh)",
+ "title": "The Kurgan to the Banner: Roerich, the Central Asian Expedition, and the Treaty for Monuments",
+ "years": "1874-1947",
+ "years_parsed": {
+  "first": 1874,
+  "last": 1947
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Notary's Son and the Kurgans",
+  "stop": "Saint Petersburg, birth on the Nikolaevskaya Embankment",
+  "date": "1874-10-09",
+  "date_confidence": "attested; the birth house is Universitetskaya (then Nikolaevskaya) Embankment 25",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1874,
+  "jd_ut": 2405805.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Libra",
+   "degree": 15.54,
+   "text": "Libra 15°32′",
+   "longitude": 195.536
+  },
+  "moon": {
+   "sign": "Virgo",
+   "degree": 29.67,
+   "text": "Virgo 29°40′",
+   "longitude": 179.666
+  },
+  "mercury": {
+   "sign": "Scorpio",
+   "degree": 5.9,
+   "text": "Scorpio 5°54′",
+   "longitude": 215.897
+  },
+  "venus": {
+   "sign": "Sagittarius",
+   "degree": 1.7,
+   "text": "Sagittarius 1°42′",
+   "longitude": 241.704
+  },
+  "mars": {
+   "sign": "Virgo",
+   "degree": 14.32,
+   "text": "Virgo 14°19′",
+   "longitude": 164.321
+  },
+  "jupiter": {
+   "sign": "Libra",
+   "degree": 12.84,
+   "text": "Libra 12°50′",
+   "longitude": 192.835
+  },
+  "saturn": {
+   "sign": "Aquarius",
+   "degree": 7.33,
+   "text": "Aquarius 7°20′",
+   "longitude": 307.334
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1874-1947",
+  "first_year_parsed": 1874
+ },
+ "stops": [
+  {
+   "segment": "The Notary's Son and the Kurgans",
+   "stop": "Saint Petersburg, birth on the Nikolaevskaya Embankment",
+   "date": "1874-10-09",
+   "date_confidence": "attested; the birth house is Universitetskaya (then Nikolaevskaya) Embankment 25",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405805.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.54,
+    "text": "Libra 15°32′",
+    "longitude": 195.536
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 29.67,
+    "text": "Virgo 29°40′",
+    "longitude": 179.666
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 5.9,
+    "text": "Scorpio 5°54′",
+    "longitude": 215.897
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 1.7,
+    "text": "Sagittarius 1°42′",
+    "longitude": 241.704
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 14.32,
+    "text": "Virgo 14°19′",
+    "longitude": 164.321
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 12.84,
+    "text": "Libra 12°50′",
+    "longitude": 192.835
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 7.33,
+    "text": "Aquarius 7°20′",
+    "longitude": 307.334
+   }
+  },
+  {
+   "segment": "The Notary's Son and the Kurgans",
+   "stop": "Imperial Academy of Arts, the double enrollment",
+   "date": "1893-09-01",
+   "date_confidence": "year attested; month inferred from the academic calendar",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.75,
+    "text": "Virgo 8°45′",
+    "longitude": 158.753
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Notary's Son and the Kurgans",
+   "stop": "Izvara, the kurgans opened",
+   "date": "1899-06-01",
+   "date_confidence": "digging from 1892; the 1899 formulation of the protection idea is attested, month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414806.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.26,
+    "text": "Gemini 10°16′",
+    "longitude": 70.26
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Notary's Son and the Kurgans",
+   "stop": "Bologoye, Helena Shaposhnikova",
+   "date": "1899-07-01",
+   "date_confidence": "year and place attested; month traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414836.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.91,
+    "text": "Cancer 8°55′",
+    "longitude": 98.909
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Notary's Son and the Kurgans",
+   "stop": "Paris, the year in Cormon's orbit",
+   "date": "1900-10-01",
+   "date_confidence": "the Paris year under Fernand Cormon is attested; the specific studio address is reconstruction, and the Academie Julian attribution is unsupported",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415293.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.35,
+    "text": "Libra 7°21′",
+    "longitude": 187.353
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Notary's Son and the Kurgans",
+   "stop": "Saint Petersburg, the marriage",
+   "date": "1901-10-01",
+   "date_confidence": "year attested; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415658.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.11,
+    "text": "Libra 7°07′",
+    "longitude": 187.115
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Forty Towns and the Rite of Spring",
+   "stop": "Rostov Veliky, forty towns and ninety canvases",
+   "date": "1903-06-01",
+   "date_confidence": "tour attested 1903-1904; the Architectural Studies series published 1904-1905",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416266.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.33,
+    "text": "Gemini 9°20′",
+    "longitude": 69.334
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Forty Towns and the Rite of Spring",
+   "stop": "Saint Petersburg, the school and the World of Art",
+   "date": "1906-09-01",
+   "date_confidence": "directorship from 1906 attested; the World of Art presidency dates to 1910",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417454.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.65,
+    "text": "Virgo 7°39′",
+    "longitude": 157.646
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Forty Towns and the Rite of Spring",
+   "stop": "Talashkino, the Church of the Holy Spirit",
+   "date": "1908-01-01",
+   "date_confidence": "church built 1903-1906; Roerich's mosaic and mural work c.1908-1914, year within that range inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "inferred",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Forty Towns and the Rite of Spring",
+   "stop": "Paris, the Polovtsian camp for Diaghilev",
+   "date": "1909-05-19",
+   "date_confidence": "attested; the Saison Russe opens 19 May 1909",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418445.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 27.38,
+    "text": "Taurus 27°23′",
+    "longitude": 57.379
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 19.74,
+    "text": "Taurus 19°44′",
+    "longitude": 49.741
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 19.55,
+    "text": "Gemini 19°33′",
+    "longitude": 79.547
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 2.76,
+    "text": "Gemini 2°46′",
+    "longitude": 62.762
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 25.64,
+    "text": "Aquarius 25°38′",
+    "longitude": 325.637
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 5.0,
+    "text": "Virgo 5°00′",
+    "longitude": 154.998
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 18.43,
+    "text": "Aries 18°26′",
+    "longitude": 18.428
+   }
+  },
+  {
+   "segment": "Forty Towns and the Rite of Spring",
+   "stop": "Theatre des Champs-Elysees, the Rite of Spring",
+   "date": "1913-05-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419916.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.02,
+    "text": "Gemini 7°01′",
+    "longitude": 67.017
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 17.84,
+    "text": "Pisces 17°50′",
+    "longitude": 347.835
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 2.13,
+    "text": "Gemini 2°08′",
+    "longitude": 62.126
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 28.92,
+    "text": "Aries 28°55′",
+    "longitude": 28.918
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 15.85,
+    "text": "Aries 15°51′",
+    "longitude": 15.848
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 16.96,
+    "text": "Capricornus 16°58′",
+    "longitude": 286.964
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 7.5,
+    "text": "Gemini 7°30′",
+    "longitude": 67.499
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Forty Towns and the Rite of Spring",
+   "stop": "Petrograd, the revolution and the arts commission",
+   "date": "1917-02-01",
+   "date_confidence": "attested to February 1917; day not fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421260.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.58,
+    "text": "Aquarius 11°35′",
+    "longitude": 311.582
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Border Closes: Karelia, London, New York",
+   "stop": "Sortavala, the lung and the closing border",
+   "date": "1916-12-01",
+   "date_confidence": "move to Serdobol attested December 1916; the exile is created by the 1918 border, not by a departure",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2421198.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.48,
+    "text": "Sagittarius 8°29′",
+    "longitude": 248.484
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Border Closes: Karelia, London, New York",
+   "stop": "London, Covent Garden and the first pages",
+   "date": "1919-06-01",
+   "date_confidence": "arrival 1919 attested; the Agni Yoga writing begins in 1920, month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422110.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.46,
+    "text": "Gemini 9°28′",
+    "longitude": 69.461
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Border Closes: Karelia, London, New York",
+   "stop": "Manhattan, the American tour opens",
+   "date": "1920-12-01",
+   "date_confidence": "arrival 1920 attested; the tour runs to San Francisco into 1922; the opening gallery is not fixed in the sources used",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422659.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.51,
+    "text": "Sagittarius 8°31′",
+    "longitude": 248.513
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Border Closes: Karelia, London, New York",
+   "stop": "Santa Fe, the mesas",
+   "date": "1921-08-01",
+   "date_confidence": "reconstruction; the Southwest leg is a contested detail of the tour itinerary and the month is not fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422902.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.19,
+    "text": "Leo 8°12′",
+    "longitude": 128.193
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Border Closes: Karelia, London, New York",
+   "stop": "New York, the Master Institute of United Arts",
+   "date": "1921-11-01",
+   "date_confidence": "founding year attested; the 1921 premises are not fixed in the sources used",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422994.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.03,
+    "text": "Scorpio 8°02′",
+    "longitude": 218.032
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Darjeeling, the villa of the exiled Dalai Lama",
+   "date": "1923-12-01",
+   "date_confidence": "attested; the Roerichs land at Bombay in December 1923 and are in Sikkim by month's end",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423754.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.78,
+    "text": "Sagittarius 7°47′",
+    "longitude": 247.775
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Gangtok, the expedition departs",
+   "date": "1924-12-01",
+   "date_confidence": "the Sikkim departure is attested to 1924-1925; the month is inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2424120.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.54,
+    "text": "Sagittarius 8°33′",
+    "longitude": 248.543
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Srinagar, the Kashmir transit",
+   "date": "1925-07-01",
+   "date_confidence": "attested to 1925; month inferred from the marching season",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424332.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.64,
+    "text": "Cancer 8°38′",
+    "longitude": 98.641
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Leh, the Namgyal palace and the Karakoram",
+   "date": "1925-08-01",
+   "date_confidence": "attested to 1925; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424363.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.22,
+    "text": "Leo 8°13′",
+    "longitude": 128.225
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Khotan, the weeks under guard",
+   "date": "1925-10-01",
+   "date_confidence": "attested to 1925-1926; the length of the detention is approximate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424424.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.3,
+    "text": "Libra 7°18′",
+    "longitude": 187.301
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Kashgar, the Id Kah and the road east",
+   "date": "1926-02-01",
+   "date_confidence": "attested to 1926; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424547.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.39,
+    "text": "Aquarius 11°24′",
+    "longitude": 311.395
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Urumchi, papers for the north",
+   "date": "1926-04-01",
+   "date_confidence": "attested to 1926; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424606.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.53,
+    "text": "Aries 10°32′",
+    "longitude": 10.525
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Moscow, the casket of Himalayan soil",
+   "date": "1926-06-01",
+   "date_confidence": "the Siberia-to-Moscow detour is attested to 1926; the Chicherin meeting, the casket for Lenin's tomb, and the message from the Mahatmas are scholarly reconstruction (Znamenski, Andreyev), not in the Wikipedia biography",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424667.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.76,
+    "text": "Gemini 9°45′",
+    "longitude": 69.756
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Verkh-Uimon, Belukha and Belovodye",
+   "date": "1926-08-01",
+   "date_confidence": "attested to August 1926",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424728.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.99,
+    "text": "Leo 8°00′",
+    "longitude": 127.993
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Urga, wintering under Gandan",
+   "date": "1926-11-01",
+   "date_confidence": "wintering attested 1926-1927; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424820.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.82,
+    "text": "Scorpio 7°49′",
+    "longitude": 217.82
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Tsaidam, the salt crossing",
+   "date": "1927-06-01",
+   "date_confidence": "attested to 1927; month inferred from the route",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425032.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.52,
+    "text": "Gemini 9°31′",
+    "longitude": 69.525
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Chunargen, near Nagchu: five months on the plateau",
+   "date": "1927-10-01",
+   "date_confidence": "detention attested from autumn 1927 to March 1928; the campsite is approximate, reconstructed from route descriptions",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425154.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximately",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.83,
+    "text": "Libra 6°50′",
+    "longitude": 186.825
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Central Asian Expedition",
+   "stop": "Darjeeling, the return",
+   "date": "1928-05-01",
+   "date_confidence": "attested to May 1928",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425367.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.38,
+    "text": "Taurus 10°23′",
+    "longitude": 40.378
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naggar and Urusvati",
+   "stop": "Naggar, the estate above the Beas",
+   "date": "1928-08-01",
+   "date_confidence": "settlement attested to 1928; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425459.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.49,
+    "text": "Leo 8°29′",
+    "longitude": 128.488
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naggar and Urusvati",
+   "stop": "Urusvati, the institute",
+   "date": "1928-10-01",
+   "date_confidence": "founded 1928, active to 1939; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425520.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.57,
+    "text": "Libra 7°34′",
+    "longitude": 187.57
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naggar and Urusvati",
+   "stop": "Paris, the Pact drafted and the Banner designed",
+   "date": "1929-04-01",
+   "date_confidence": "attested to 1929; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425702.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.79,
+    "text": "Aries 10°48′",
+    "longitude": 10.795
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naggar and Urusvati",
+   "stop": "New York, the Master Apartments",
+   "date": "1929-10-17",
+   "date_confidence": "attested; the building opens 17 October 1929",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425901.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 23.14,
+    "text": "Libra 23°08′",
+    "longitude": 203.142
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 4.38,
+    "text": "Aries 4°23′",
+    "longitude": 4.38
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 8.04,
+    "text": "Libra 8°02′",
+    "longitude": 188.038
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 26.05,
+    "text": "Virgo 26°03′",
+    "longitude": 176.046
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 7.16,
+    "text": "Scorpio 7°09′",
+    "longitude": 217.157
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 16.32,
+    "text": "Gemini 16°19′",
+    "longitude": 76.318
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 25.64,
+    "text": "Sagittarius 25°38′",
+    "longitude": 265.64
+   }
+  },
+  {
+   "segment": "The Banner of Peace",
+   "stop": "Harbin, the seed expedition",
+   "date": "1934-05-01",
+   "date_confidence": "expedition attested to 1934; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427558.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.94,
+    "text": "Taurus 9°56′",
+    "longitude": 39.94
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Banner of Peace",
+   "stop": "Hailar, the Greater Khingan",
+   "date": "1934-08-01",
+   "date_confidence": "attested to 1934; month inferred from the collecting season",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427650.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.06,
+    "text": "Leo 8°03′",
+    "longitude": 128.057
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Banner of Peace",
+   "stop": "The White House, the treaty in the Oval Office",
+   "date": "1935-04-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427907.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 24.11,
+    "text": "Aries 24°07′",
+    "longitude": 24.109
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 10.47,
+    "text": "Virgo 10°28′",
+    "longitude": 160.475
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 11.12,
+    "text": "Aries 11°07′",
+    "longitude": 11.124
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 28.43,
+    "text": "Taurus 28°26′",
+    "longitude": 58.435
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 12.79,
+    "text": "Libra 12°47′",
+    "longitude": 192.79
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 21.31,
+    "text": "Scorpio 21°19′",
+    "longitude": 231.309
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 6.43,
+    "text": "Pisces 6°26′",
+    "longitude": 336.434
+   }
+  },
+  {
+   "segment": "The Banner of Peace",
+   "stop": "The Ordos and the Helan mountains",
+   "date": "1935-06-01",
+   "date_confidence": "second season attested to 1935; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427954.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.59,
+    "text": "Gemini 9°35′",
+    "longitude": 69.588
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Kullu Years",
+   "stop": "Naggar, Nehru and Indira at the house",
+   "date": "1942-04-01",
+   "date_confidence": "visit attested to 1942; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430450.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.65,
+    "text": "Aries 10°39′",
+    "longitude": 10.648
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Kullu Years",
+   "stop": "New York, the American-Russian Cultural Association",
+   "date": "1942-07-01",
+   "date_confidence": "founding attested to 1942; month inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430541.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.54,
+    "text": "Cancer 8°32′",
+    "longitude": 98.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Kullu Years",
+   "stop": "Naggar, the windless day",
+   "date": "1947-12-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432532.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 20.14,
+    "text": "Sagittarius 20°08′",
+    "longitude": 260.139
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 25.32,
+    "text": "Sagittarius 25°19′",
+    "longitude": 265.324
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 8.34,
+    "text": "Sagittarius 8°20′",
+    "longitude": 248.337
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 15.35,
+    "text": "Capricornus 15°21′",
+    "longitude": 285.354
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 3.65,
+    "text": "Virgo 3°39′",
+    "longitude": 153.647
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 11.01,
+    "text": "Sagittarius 11°01′",
+    "longitude": 251.011
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.63,
+    "text": "Leo 22°38′",
+    "longitude": 142.632
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Banner Outlives the Man",
+   "stop": "New York, the museum on West 107th Street",
+   "date": "1949-01-01",
+   "date_confidence": "refounded 1949; month not fixed; the brownstone at 319 West 107th Street is the present address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432917.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Banner Outlives the Man",
+   "stop": "The Hague, the Convention",
+   "date": "1954-05-14",
+   "date_confidence": "the Convention is dated 1954; the 14 May signing date is the standard date for the instrument and is not stated in the verified pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434876.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 22.68,
+    "text": "Taurus 22°41′",
+    "longitude": 52.675
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Banner Outlives the Man",
+   "stop": "Kalimpong, Helena dies",
+   "date": "1955-10-05",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435385.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 10.98,
+    "text": "Libra 10°59′",
+    "longitude": 190.98
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 23.42,
+    "text": "Taurus 23°25′",
+    "longitude": 53.417
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.92,
+    "text": "Libra 27°55′",
+    "longitude": 207.917
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 20.0,
+    "text": "Libra 20°00′",
+    "longitude": 200.004
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 24.59,
+    "text": "Virgo 24°35′",
+    "longitude": 174.587
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 23.85,
+    "text": "Leo 23°51′",
+    "longitude": 143.849
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 19.03,
+    "text": "Scorpio 19°02′",
+    "longitude": 229.032
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Banner Outlives the Man",
+   "stop": "The North Pole, the Banner on the ice",
+   "date": "1988-05-06",
+   "date_confidence": "North Pole 6 May 1988 attested; the Mir flight is 11 February 1990 and the South Pole 8 January 2000",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1988,
+   "jd_ut": 2447287.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 15.69,
+    "text": "Taurus 15°42′",
+    "longitude": 45.694
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 5.81,
+    "text": "Capricornus 5°49′",
+    "longitude": 275.815
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 2.16,
+    "text": "Gemini 2°10′",
+    "longitude": 62.161
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 25.72,
+    "text": "Gemini 25°43′",
+    "longitude": 85.724
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 19.38,
+    "text": "Aquarius 19°23′",
+    "longitude": 319.384
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 13.55,
+    "text": "Taurus 13°33′",
+    "longitude": 43.554
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 1.99,
+    "text": "Capricornus 1°59′",
+    "longitude": 271.99
+   }
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 8,
+  "month": 6,
+  "year": 31
+ },
+ "parse_failures": []
+}

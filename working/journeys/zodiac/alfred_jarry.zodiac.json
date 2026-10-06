@@ -1,0 +1,1795 @@
+{
+ "slug": "alfred_jarry",
+ "traveler": "Alfred Jarry",
+ "title": "The Science of Imaginary Solutions: Jarry from the Mayenne to the Grave at Bagneux",
+ "years": "1873-1907",
+ "years_parsed": {
+  "first": 1873,
+  "last": 1907
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Mayenne and the Breton Coast",
+  "stop": "Laval: born on the Mayenne",
+  "date": "1873-09-08",
+  "date_confidence": "attested to the day (fr.wikipedia, Alfred Jarry). The coordinate is the commemorative plaque at 15 rue Charles-Landelle, geocoded to 48.0682, -0.7728; research figures of 48.0736, -0.7699 and 48.0745, -0.766 are a generic town point and a misplaced street respectively, and are corrected here. Biographers disagree on the exact birth address.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1873,
+  "jd_ut": 2405409.5,
+  "precision": "day",
+  "precision_triggers": [
+   "(soft) generic"
+  ],
+  "notes": [
+   "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+   "soft triggers (generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+  ],
+  "sun": {
+   "sign": "Virgo",
+   "degree": 15.39,
+   "text": "Virgo 15°23′",
+   "longitude": 165.387
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 1.38,
+   "text": "Aries 1°23′",
+   "longitude": 1.384
+  },
+  "mercury": {
+   "sign": "Virgo",
+   "degree": 0.71,
+   "text": "Virgo 0°43′",
+   "longitude": 150.709
+  },
+  "venus": {
+   "sign": "Leo",
+   "degree": 6.24,
+   "text": "Leo 6°15′",
+   "longitude": 126.243
+  },
+  "mars": {
+   "sign": "Sagittarius",
+   "degree": 5.58,
+   "text": "Sagittarius 5°35′",
+   "longitude": 245.579
+  },
+  "jupiter": {
+   "sign": "Virgo",
+   "degree": 12.76,
+   "text": "Virgo 12°46′",
+   "longitude": 162.765
+  },
+  "saturn": {
+   "sign": "Capricornus",
+   "degree": 26.17,
+   "text": "Capricornus 26°10′",
+   "longitude": 296.17
+  },
+  "conjunctions": [
+   {
+    "sign": "Virgo",
+    "bodies": [
+     "Sun",
+     "Mercury",
+     "Jupiter"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1873-1907",
+  "first_year_parsed": 1873
+ },
+ "stops": [
+  {
+   "segment": "The Mayenne and the Breton Coast",
+   "stop": "Laval: born on the Mayenne",
+   "date": "1873-09-08",
+   "date_confidence": "attested to the day (fr.wikipedia, Alfred Jarry). The coordinate is the commemorative plaque at 15 rue Charles-Landelle, geocoded to 48.0682, -0.7728; research figures of 48.0736, -0.7699 and 48.0745, -0.766 are a generic town point and a misplaced street respectively, and are corrected here. Biographers disagree on the exact birth address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405409.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) generic"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.39,
+    "text": "Virgo 15°23′",
+    "longitude": 165.387
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 1.38,
+    "text": "Aries 1°23′",
+    "longitude": 1.384
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 0.71,
+    "text": "Virgo 0°43′",
+    "longitude": 150.709
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 6.24,
+    "text": "Leo 6°15′",
+    "longitude": 126.243
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 5.58,
+    "text": "Sagittarius 5°35′",
+    "longitude": 245.579
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 12.76,
+    "text": "Virgo 12°46′",
+    "longitude": 162.765
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 26.17,
+    "text": "Capricornus 26°10′",
+    "longitude": 296.17
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Mayenne and the Breton Coast",
+   "stop": "Laval: the household comes apart",
+   "date": "1877-01-01",
+   "date_confidence": "[R] reconstruction. Fell (2005) describes the breakdown of the household in the years before the 1879 departure but gives no date; the year here is a placeholder inside that span, and month and day are defaulted to 01. No address is attested, so the coordinate is the town centre.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406620.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placeholder",
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.75,
+    "text": "Capricornus 10°45′",
+    "longitude": 280.75
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mayenne and the Breton Coast",
+   "stop": "Saint-Brieuc: nine years at the lycee",
+   "date": "1879-01-01",
+   "date_confidence": "the move to Saint-Brieuc is dated 1879 and the schooling there runs to 1888 (fr.wikipedia, Alfred Jarry); no month or day is given and both are defaulted to 01. The family's address within the town is not attested, so the coordinate is town-level.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407350.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.25,
+    "text": "Capricornus 10°15′",
+    "longitude": 280.255
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rennes: Pere Heb and the Theatre des Phynances",
+   "stop": "Rennes: the physics master called Pere Heb",
+   "date": "1888-10-01",
+   "date_confidence": "entry into the rhetoric class at the Lycee de Rennes is dated October 1888 (fr.wikipedia, Alfred Jarry); the day is not given and is defaulted to 01. Coordinate corrected to the Lycee Emile-Zola at 2 avenue Jean Janvier, 48.1087, -1.6750; a research figure of 48.1088, -1.6674 sits some 560 metres east of the building. Hebert's forenames Felix-Frederic and his dates, 1832 to 1917, are attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410911.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.24,
+    "text": "Libra 8°15′",
+    "longitude": 188.244
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rennes: Pere Heb and the Theatre des Phynances",
+   "stop": "Rennes: the Morin brothers' attic",
+   "date": "1888-01-01",
+   "date_confidence": "the encounter is dated 1888 with no month or day, both defaulted to 01. Authorship corrected: en.wikipedia (Ubu Roi) states that Les Polonais was written by Henri Morin and his brother Charles before Jarry met it, so a research claim that Jarry co-wrote the farce is downgraded here to inheritance and adaptation. The house location within Rennes is approximate, and the name Theatre des Phynances cannot be independently dated to 1888.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410637.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.066
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Student Who Never Enters the Ecole",
+   "stop": "Paris: Bergson's classroom at the Lycee Henri-IV",
+   "date": "1891-01-01",
+   "date_confidence": "the year 1891 is attested (fr.wikipedia and en.wikipedia, Alfred Jarry); month and day are defaulted to 01. Two research coordinates for the lycee differ, 48.8462, 2.3468 and 48.8462, 2.3488; the western figure is kept here and the discrepancy of some 150 metres is left standing rather than silently averaged.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411733.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.343
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Student Who Never Enters the Ecole",
+   "stop": "Paris: the Latin Quarter rooms and three refusals",
+   "date": "1893-01-01",
+   "date_confidence": "corrected. fr.wikipedia states he failed the Ecole Normale Superieure entrance three times in succession, plus two unsuccessful attempts at the licence; a research claim of two failures in 1893 and 1894 is wrong on the count and unsupported on the years. No examination venue can be pinned, so the coordinate is the Pantheon and rue Cujas quarter where he lodged, and the year is a placeholder inside the run of attempts.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Student Who Never Enters the Ecole",
+   "stop": "Paris: two prizes at L'Echo de Paris",
+   "date": "1893-01-01",
+   "date_confidence": "the two prose competitions are dated to May and July 1893 (fr.wikipedia, Alfred Jarry); the stop is dated to the year with month and day defaulted to 01, since it carries both. The canonical Paris pin is inherited unchanged from the existing atlas files.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris: the Student Who Never Enters the Ecole",
+   "stop": "Paris: the influenza, and his mother",
+   "date": "1893-01-01",
+   "date_confidence": "[R]. en.wikipedia (Alfred Jarry) reports that Jarry caught influenza and that Caroline fell ill nursing him and died of it; fr.wikipedia corroborates the death in 1893 without the sequence. The place is contested: Fell (2005) and Arnaud (1974) disagree on whether she died in Paris or in Laval, and the contradiction is recorded rather than resolved. Month and day are not attested and are defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "sequencing",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pont-Aven, the Mercure, and the Barracks",
+   "stop": "Pont-Aven: the Pension Gloanec",
+   "date": "1894-05-01",
+   "date_confidence": "May 1894 is attested (fr.wikipedia, Alfred Jarry); the day is not given and is defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412949.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.6,
+    "text": "Taurus 10°36′",
+    "longitude": 40.598
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pont-Aven, the Mercure, and the Barracks",
+   "stop": "Paris: reading Ubu at the Mercure de France",
+   "date": "1894-10-01",
+   "date_confidence": "the reading at the home of Alfred Vallette and Rachilde is dated 1894 without month; the publication of Les Minutes de sable memorial is dated October 1894 (fr.wikipedia, Alfred Jarry). The stop carries both and takes the attested month, with the day defaulted to 01. The Mercure de France address is area-level.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2413102.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.8,
+    "text": "Libra 7°48′",
+    "longitude": 187.799
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pont-Aven, the Mercure, and the Barracks",
+   "stop": "Paris: L'Ymagier, with Remy de Gourmont",
+   "date": "1894-01-01",
+   "date_confidence": "the founding of L'Ymagier is dated 1894 (fr.wikipedia, Alfred Jarry); month and day are defaulted to 01. The office address is not confirmed, so the coordinate is area-level.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412829.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.62
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pont-Aven, the Mercure, and the Barracks",
+   "stop": "Laval: the 101st Infantry Regiment",
+   "date": "1894-01-01",
+   "date_confidence": "corrected, and the two research lenses contradict each other. One gives the 149th Infantry Regiment, an Epinal unit; the other, followed here, gives the 101st, which had been garrisoned at Laval since 1877 (fr.wikipedia, 101e regiment d'infanterie). Conscription is dated 1894 with no month or day, both defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412829.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.62
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pont-Aven, the Mercure, and the Barracks",
+   "stop": "Laval: his father dies, and the army releases him",
+   "date": "1895-01-01",
+   "date_confidence": "both the death of Anselme Jarry and the medical discharge are dated 1895 (fr.wikipedia and en.wikipedia, Alfred Jarry); no month or day is given for either and both are defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Merdre",
+   "stop": "Paris: the Clement Luxe bicycle",
+   "date": "1896-01-01",
+   "date_confidence": "the purchase is dated 1896 (fr.wikipedia, Alfred Jarry); month and day are defaulted to 01. The canonical Paris pin is inherited unchanged.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413559.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Merdre",
+   "stop": "Paris: Ubu roi in print",
+   "date": "1896-06-01",
+   "date_confidence": "corrected to month precision. fr.wikipedia gives only June 1896 for the Mercure de France book edition, so a research date of 10 June 1896 is not supported and the day is defaulted to 01. The fr.wikipedia article on Ubu roi records an earlier printing in Paul Fort's Le Livre d'art on 25 April 1896.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413711.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.95,
+    "text": "Gemini 10°57′",
+    "longitude": 70.955
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Merdre",
+   "stop": "Nouveau-Theatre: the speech before the curtain",
+   "date": "1896-12-10",
+   "date_confidence": "attested to the day. The venue is the Nouveau-Theatre, 15 rue Blanche in the 9th arrondissement, used by Lugne-Poe's Theatre de l'Oeuvre (en.wikipedia, Ubu Roi). Three research lenses gave three different coordinates for the same building, 48.8746/2.3316, 48.8811/2.3305 and 48.8802/2.3287; all are corrected and unified on 48.8786, 2.3314, from the fr.wikipedia entry for the Theatre de Paris at that address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413903.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.49,
+    "text": "Sagittarius 18°29′",
+    "longitude": 258.49
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 25.61,
+    "text": "Aquarius 25°37′",
+    "longitude": 325.614
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 24.72,
+    "text": "Sagittarius 24°43′",
+    "longitude": 264.72
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 26.59,
+    "text": "Capricornus 26°35′",
+    "longitude": 296.588
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 20.16,
+    "text": "Gemini 20°10′",
+    "longitude": 80.165
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 9.81,
+    "text": "Virgo 9°49′",
+    "longitude": 159.809
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 24.9,
+    "text": "Scorpio 24°54′",
+    "longitude": 234.896
+   }
+  },
+  {
+   "segment": "Merdre",
+   "stop": "Nouveau-Theatre: the riot",
+   "date": "1896-12-10",
+   "date_confidence": "attested to the day; the coordinate is the unified figure explained at the previous stop. The commonly repeated figure of roughly fifteen minutes of uproar is not carried by either fr.wikipedia or en.wikipedia, which record only that a riot broke out, and it is demoted here from attested to unverified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413903.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.49,
+    "text": "Sagittarius 18°29′",
+    "longitude": 258.49
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 25.61,
+    "text": "Aquarius 25°37′",
+    "longitude": 325.614
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 24.72,
+    "text": "Sagittarius 24°43′",
+    "longitude": 264.72
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 26.59,
+    "text": "Capricornus 26°35′",
+    "longitude": 296.588
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 20.16,
+    "text": "Gemini 20°10′",
+    "longitude": 80.165
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 9.81,
+    "text": "Virgo 9°49′",
+    "longitude": 159.809
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 24.9,
+    "text": "Scorpio 24°54′",
+    "longitude": 234.896
+   }
+  },
+  {
+   "segment": "Merdre",
+   "stop": "Paris: the Theatre des Pantins",
+   "date": "1898-01-20",
+   "date_confidence": "the puppet Ubu roi at the Theatre des Pantins is dated 20 January 1898 (fr.wikipedia and en.wikipedia, Alfred Jarry). Coordinate corrected: the theatre was at 6 rue Ballu in the 9th arrondissement, which geocodes to 48.8819, 2.3300; a research figure of 48.8837, 2.3186 lands nearly a kilometre west, by the place de Clichy.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414309.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 0.01,
+    "text": "Aquarius 0°00′",
+    "longitude": 300.008
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 28.19,
+    "text": "Sagittarius 28°11′",
+    "longitude": 268.191
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 7.93,
+    "text": "Capricornus 7°56′",
+    "longitude": 277.934
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 23.52,
+    "text": "Capricornus 23°31′",
+    "longitude": 293.517
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 13.44,
+    "text": "Capricornus 13°26′",
+    "longitude": 283.436
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 10.25,
+    "text": "Libra 10°15′",
+    "longitude": 190.246
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 9.39,
+    "text": "Sagittarius 9°24′",
+    "longitude": 249.395
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Merdre",
+   "stop": "Paris: Oscar Wilde comes to see him",
+   "date": "1898-05-01",
+   "date_confidence": "the meeting is dated May 1898 (fr.wikipedia, Alfred Jarry); the day is not given and is defaulted to 01. No location within Paris is attested, so the canonical Paris pin is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414410.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.63,
+    "text": "Taurus 10°38′",
+    "longitude": 40.629
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Skiff and the Chasubliere",
+   "stop": "Alfortville: the mahogany skiff",
+   "date": "1897-07-09",
+   "date_confidence": "attested to the day (fr.wikipedia, Alfred Jarry). Coordinate corrected: the research figure of 48.6333, 2.4333 falls in open country near Etiolles and matches neither named place; the purchase was made at Alfortville, which geocodes to 48.8052, 2.4197. Corbeil-Essonnes, where the boat was overhauled, is 48.6136, 2.4820.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2414114.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.0,
+    "text": "Cancer 17°00′",
+    "longitude": 106.996
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 6.0,
+    "text": "Scorpio 6°00′",
+    "longitude": 216.002
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 8.77,
+    "text": "Cancer 8°46′",
+    "longitude": 98.775
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 1.37,
+    "text": "Gemini 1°22′",
+    "longitude": 61.372
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 0.23,
+    "text": "Virgo 0°14′",
+    "longitude": 150.226
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 7.33,
+    "text": "Virgo 7°20′",
+    "longitude": 157.331
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 24.46,
+    "text": "Scorpio 24°27′",
+    "longitude": 234.458
+   }
+  },
+  {
+   "segment": "The Skiff and the Chasubliere",
+   "stop": "Paris: the Grande Chasubliere, 7 rue Cassette",
+   "date": "1897-11-01",
+   "date_confidence": "the move is dated November 1897, to the deuxieme etage et demi at 7 rue Cassette (fr.wikipedia, Alfred Jarry); the day is not given and is defaulted to 01. Coordinate corrected to 48.8505, 2.3309 for that address; a research figure of 48.8496, 2.3288 sits about 180 metres off. A rival claim placing this room on the boulevard de Port-Royal is superseded: Port-Royal is the lodging he was evicted from.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2414229.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.85,
+    "text": "Scorpio 8°51′",
+    "longitude": 218.851
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Skiff and the Chasubliere",
+   "stop": "Paris: Doctor Faustroll is drafted",
+   "date": "1897-01-01",
+   "date_confidence": "the drafting of Gestes et opinions du docteur Faustroll, pataphysicien is dated 1897 in one lens and 1898 in the standard accounts of composition; the year 1897 is kept with month and day defaulted to 01. The book was not published until 1911. No writing address is attested for the drafting, so the canonical Paris pin is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Skiff and the Chasubliere",
+   "stop": "Le Coudray-Montceaux: the Phalanstere and the revolver",
+   "date": "1898-01-01",
+   "date_confidence": "the riverside years run roughly 1898 to 1906; the year here opens that span and month and day are defaulted to 01. The pistol anecdote is dated 1901 by one lens and is [R]: it comes to us through Rachilde (1928) and is repeated in every later biography, with the wording varying between tellings. en.wikipedia carries a different English rendering of the same reply.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximation",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Skiff and the Chasubliere",
+   "stop": "Paris: rue Laffitte, Vollard and La Revue blanche",
+   "date": "1901-01-01",
+   "date_confidence": "corrected. fr.wikipedia records that La Revue blanche published Jarry from May 1896 to April 1903, so the association is a seven-year span and not a 1901 event; the research description of him as a kind of secretary to the Natanson brothers is not attested in any source reached and is downgraded. The year 1901 is kept as a point inside the span, with month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415385.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.907
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Skiff and the Chasubliere",
+   "stop": "Paris: Henri Rousseau's studio in Plaisance",
+   "date": "1902-01-01",
+   "date_confidence": "the friendship is dated to roughly 1900 to 1906 by Shattuck, The Banquet Years (1955); the year here sits inside that span and month and day are defaulted to 01. The studio address within the Plaisance quarter is approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "approximation",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Supermale",
+   "stop": "Paris: Ubu enchaine",
+   "date": "1900-01-01",
+   "date_confidence": "Ubu enchaine is dated 1900 and L'Amour absolu 1899 (fr.wikipedia, Alfred Jarry); no months or days are given and both are defaulted. The canonical Paris pin is inherited unchanged.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Supermale",
+   "stop": "Corbeil: writing Le Surmale",
+   "date": "1902-01-01",
+   "date_confidence": "Le Surmale is published in 1902 and Messaline in 1901 (fr.wikipedia and en.wikipedia, Alfred Jarry); months and days are not given and are defaulted. The writing is placed between the riverside hut and the rue Cassette room from the known residences of those years, which is reconstruction rather than record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Supermale",
+   "stop": "Le Grand-Lemps: La Dragonne begun",
+   "date": "1904-01-01",
+   "date_confidence": "the stay with Claude Terrasse at Le Grand-Lemps and the beginning of La Dragonne are dated 1904 (fr.wikipedia, Alfred Jarry); month and day are defaulted to 01. Coordinate corrected to 45.3992, 5.4206, the commune's own figure; the research value of 45.4667, 5.5833 sits some fourteen kilometres off.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416480.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.17,
+    "text": "Capricornus 9°10′",
+    "longitude": 279.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Supermale",
+   "stop": "Corbeil: the Tripode",
+   "date": "1904-12-01",
+   "date_confidence": "corrected. fr.wikipedia places the acquisition of the small Corbeil property and the order for the cabin at the end of 1904, with an enlargement of the holding in July 1905, so a research date of 1905 is slightly late. The day is defaulted to 01. Coordinate is Corbeil-Essonnes at 48.6136, 2.4820.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416815.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.39,
+    "text": "Sagittarius 8°24′",
+    "longitude": 248.394
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Machine Running Down",
+   "stop": "Laval: the fever and the last rites",
+   "date": "1906-05-28",
+   "date_confidence": "the letter to Rachilde is dated 28 May 1906 and the delirious fever, the last rites and the writing of his own will are dated to May 1906 (fr.wikipedia, Alfred Jarry). The refuge with his sister Charlotte is [R], drawn from the same article's account of his correspondence. The coordinate is town-level, since Charlotte's address in Laval is not attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417358.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 5.76,
+    "text": "Gemini 5°46′",
+    "longitude": 65.762
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 27.32,
+    "text": "Cancer 27°19′",
+    "longitude": 117.318
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 22.08,
+    "text": "Taurus 22°05′",
+    "longitude": 52.077
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 1.52,
+    "text": "Cancer 1°31′",
+    "longitude": 91.517
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 20.07,
+    "text": "Gemini 20°04′",
+    "longitude": 80.069
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 15.67,
+    "text": "Gemini 15°40′",
+    "longitude": 75.669
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 14.18,
+    "text": "Pisces 14°11′",
+    "longitude": 344.182
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Machine Running Down",
+   "stop": "Corbeil: the land sold to the creditors",
+   "date": "1906-06-01",
+   "date_confidence": "fr.wikipedia confirms the sale of the Corbeil land in June 1906 to appease creditors but names neither a buyer nor an intermediary; the research claims that his sister Charlotte bought it and that Octave Mirbeau and Thadee Natanson arranged the money are unattested and are not carried here. The day is defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417362.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.6,
+    "text": "Gemini 9°36′",
+    "longitude": 69.597
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Machine Running Down",
+   "stop": "Laval: the last photograph",
+   "date": "1906-07-01",
+   "date_confidence": "the photograph is dated July 1906 (fr.wikipedia, Alfred Jarry); the day is not given and is defaulted to 01. The place within Laval is not specified, so the coordinate is town-level.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417392.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.25,
+    "text": "Cancer 8°15′",
+    "longitude": 98.25
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Machine Running Down",
+   "stop": "Paris: the Closerie des Lilas",
+   "date": "1906-01-01",
+   "date_confidence": "attendance at Paul Fort's Vers et prose evenings at the Closerie des Lilas is dated 1906 (fr.wikipedia, Alfred Jarry); month and day are defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417211.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.69,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.689
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Machine Running Down",
+   "stop": "Paris: the manuscripts sold to Lemasle",
+   "date": "1907-04-01",
+   "date_confidence": "the sale of manuscripts to the autograph dealer Victor Lemasle and the publication of the memoir of Albert Samain are both dated April 1907 (fr.wikipedia, Alfred Jarry); the day is defaulted to 01. The canonical Paris pin is used, since no address is attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417666.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.13,
+    "text": "Aries 10°08′",
+    "longitude": 10.133
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Machine Running Down",
+   "stop": "Paris: found in the Chasubliere",
+   "date": "1907-10-01",
+   "date_confidence": "the discovery of Jarry in advanced physical collapse at the rue Cassette room and his removal to hospital are dated October 1907 (fr.wikipedia, Alfred Jarry); the day is not given and is defaulted to 01. The coordinate is 7 rue Cassette, as corrected earlier in this file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417849.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.67,
+    "text": "Libra 6°40′",
+    "longitude": 186.67
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Machine Running Down",
+   "stop": "Paris: the Hopital de la Charite",
+   "date": "1907-11-01",
+   "date_confidence": "attested to the day and the hour: 1 November 1907 at 4.15 in the afternoon, at the Hopital de la Charite, 47 rue Jacob in the 6th arrondissement, of tuberculous meningitis (fr.wikipedia, Alfred Jarry; en.wikipedia for the cause). Coordinate corrected to 48.8554, 2.3316, the hospital site at 45 rue des Saints-Peres and 47 rue Jacob; a research figure of 48.8534, 2.3339 sits some 290 metres southeast. The toothpick is [R]: the anecdote is repeated by every biographer and by both Wikipedias, where it carries no citation; a claimed footnote to Mark Ford in the New York Review of Books was checked and does not mention it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417880.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.43,
+    "text": "Scorpio 7°26′",
+    "longitude": 217.425
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 6.93,
+    "text": "Virgo 6°56′",
+    "longitude": 156.928
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 29.16,
+    "text": "Scorpio 29°10′",
+    "longitude": 239.161
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 19.65,
+    "text": "Scorpio 19°39′",
+    "longitude": 229.651
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 11.23,
+    "text": "Aquarius 11°14′",
+    "longitude": 311.226
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 12.2,
+    "text": "Leo 12°12′",
+    "longitude": 132.203
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 21.05,
+    "text": "Pisces 21°03′",
+    "longitude": 351.052
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Machine Running Down",
+   "stop": "Bagneux: the burial",
+   "date": "1907-11-01",
+   "date_confidence": "the burial is dated November 1907 without a day, which is defaulted to 01 and is therefore not the true date of the funeral. Coordinate corrected to 48.8056, 2.3083, the Cimetiere parisien de Bagneux at 45 avenue Marx-Dormoy; two research figures, 48.7947/2.3131 and 48.7936/2.3121, sit over a kilometre south in the town itself. fr.wikipedia names the mourners as Vallette, Rachilde, Mirbeau, Valery and Leautaud; a research claim adding Apollinaire and Leon-Paul Fargue is unattested and is not carried.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417880.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.43,
+    "text": "Scorpio 7°26′",
+    "longitude": 217.425
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Science of Imaginary Solutions",
+   "stop": "Paris: Picasso takes the revolver",
+   "date": "1908-01-01",
+   "date_confidence": "en.wikipedia (Alfred Jarry) records that Picasso acquired Jarry's revolver after his death, later collected a number of his manuscripts, and drew his portrait, but gives no date for any of the three. The year here is a placeholder immediately after the death and carries no attestation; month and day are defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placeholder",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Science of Imaginary Solutions",
+   "stop": "Paris: Faustroll printed at last",
+   "date": "1911-01-01",
+   "date_confidence": "the posthumous publication by Fasquelle is dated 1911 (fr.wikipedia, Alfred Jarry); month and day are defaulted to 01. The quotation carried here was verified against the French text on fr.wikisource, Livre VIII, De la surface de Dieu, where it stands as the penultimate sentence of the book; a research note calling it unsourced is corrected.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419037.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.47,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.472
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Science of Imaginary Solutions",
+   "stop": "Paris: the Theatre Alfred Jarry",
+   "date": "1926-01-01",
+   "date_confidence": "the founding of the Theatre Alfred Jarry by Antonin Artaud, Roger Vitrac and Robert Aron at the Theatre de Grenelle is dated 1926, and the Strindberg evening at which Andre Breton was barred is dated June 1928 (artaud.journey.json). Month and day are defaulted to 01. The canonical Paris pin is inherited unchanged rather than pinned to the Grenelle house.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Science of Imaginary Solutions",
+   "stop": "Paris: the College de 'Pataphysique",
+   "date": "1948-01-01",
+   "date_confidence": "the founding is dated 1948 (en.wikipedia, College de 'Pataphysique); month and day are defaulted to 01. No founding-meeting address was confirmed, so the canonical Paris pin is used. The claimed lineage from the College to the Situationist International around Guy Debord is [R] and contested: Asger Jorn belonged to both, but no direct textual link between Jarry and the Debord file exists, and the atlas queue itself flags the connection as inference.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432551.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.49,
+    "text": "Capricornus 9°29′",
+    "longitude": 279.49
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Science of Imaginary Solutions",
+   "stop": "Laval: Zadkine's bronze",
+   "date": "1966-01-01",
+   "date_confidence": "the inauguration of Ossip Zadkine's bronze on the esplanade des droits de l'homme at Laval is dated 1966 (fr.wikipedia, Alfred Jarry); month and day are defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439126.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Science of Imaginary Solutions",
+   "stop": "Bagneux: the concession never renewed",
+   "date": "1975-01-01",
+   "date_confidence": "undated in the sources. fr.wikipedia, citing cemetery documentation, records that the burial concession was never renewed and that the remains were nevertheless not exhumed; no year is given for the lapse, and the date here is a placeholder with no attestation. Popular accounts describing the tomb as lost outright and its occupant swept into a common grave contradict that documentation, and the contradiction is recorded rather than resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442413.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placeholder",
+    "no month/day",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.944
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 7,
+  "month": 11,
+  "year": 26
+ },
+ "parse_failures": []
+}

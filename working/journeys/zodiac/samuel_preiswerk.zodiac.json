@@ -1,0 +1,1535 @@
+{
+ "slug": "samuel_preiswerk",
+ "traveler": "Samuel Preiswerk",
+ "title": "The Chair Kept Empty: a Basel Hebraist, the Morning Land, and the House That Talked to the Dead",
+ "years": "1799-1871",
+ "years_parsed": {
+  "first": 1799,
+  "last": 1871
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Parsonage at Rümlingen",
+  "stop": "Rümlingen, born in the parsonage",
+  "date": "1799-09-19",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1799,
+  "jd_ut": 2378392.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Virgo",
+   "degree": 26.02,
+   "text": "Virgo 26°01′",
+   "longitude": 176.021
+  },
+  "moon": {
+   "sign": "Taurus",
+   "degree": 19.6,
+   "text": "Taurus 19°36′",
+   "longitude": 49.604
+  },
+  "mercury": {
+   "sign": "Virgo",
+   "degree": 12.24,
+   "text": "Virgo 12°15′",
+   "longitude": 162.243
+  },
+  "venus": {
+   "sign": "Scorpio",
+   "degree": 0.63,
+   "text": "Scorpio 0°38′",
+   "longitude": 210.629
+  },
+  "mars": {
+   "sign": "Virgo",
+   "degree": 24.83,
+   "text": "Virgo 24°50′",
+   "longitude": 174.835
+  },
+  "jupiter": {
+   "sign": "Gemini",
+   "degree": 29.94,
+   "text": "Gemini 29°56′",
+   "longitude": 89.938
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 6.92,
+   "text": "Leo 6°55′",
+   "longitude": 126.919
+  },
+  "conjunctions": [
+   {
+    "sign": "Virgo",
+    "bodies": [
+     "Sun",
+     "Mercury",
+     "Mars"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1799-1871",
+  "first_year_parsed": 1799
+ },
+ "stops": [
+  {
+   "segment": "The Parsonage at Rümlingen",
+   "stop": "Rümlingen, born in the parsonage",
+   "date": "1799-09-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378392.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 26.02,
+    "text": "Virgo 26°01′",
+    "longitude": 176.021
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 19.6,
+    "text": "Taurus 19°36′",
+    "longitude": 49.604
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 12.24,
+    "text": "Virgo 12°15′",
+    "longitude": 162.243
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 0.63,
+    "text": "Scorpio 0°38′",
+    "longitude": 210.629
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 24.83,
+    "text": "Virgo 24°50′",
+    "longitude": 174.835
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 29.94,
+    "text": "Gemini 29°56′",
+    "longitude": 89.938
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 6.92,
+    "text": "Leo 6°55′",
+    "longitude": 126.919
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Parsonage at Rümlingen",
+   "stop": "Basel, the old college above the Rhine",
+   "date": "1817-10-01",
+   "date_confidence": "inferred; no matriculation year appears in ADB or in either Wikipedia article, and the widely repeated 1818 is unsourced",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384978.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.45,
+    "text": "Libra 7°27′",
+    "longitude": 187.448
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Parsonage at Rümlingen",
+   "stop": "Tübingen, the university that fell out of the accounts",
+   "date": "1819-01-01",
+   "date_confidence": "inferred; ADB names the sequence Basel, Tübingen, Erlangen and dates none of the three. The year here is a position in the order, not a record",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385435.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.813
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Parsonage at Rümlingen",
+   "stop": "Erlangen, the fraternity that changed its name",
+   "date": "1821-11-01",
+   "date_confidence": "attested to the winter semester 1821/22; the month is the opening of that semester, not a recorded date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1821,
+   "jd_ut": 2386470.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.28,
+    "text": "Scorpio 8°17′",
+    "longitude": 218.276
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Country Curacies",
+   "stop": "Benken, the vicariate",
+   "date": "1822-01-01",
+   "date_confidence": "year attested; month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386531.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.09,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.09
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Country Curacies",
+   "stop": "Basel, chaplain to the orphanage",
+   "date": "1824-01-01",
+   "date_confidence": "year attested; month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387261.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.6,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.595
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Country Curacies",
+   "stop": "Basel, the death of Charlotte Hopf",
+   "date": "1825-01-01",
+   "date_confidence": "year attested by the Personenlexikon Baselland; month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387627.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.367
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Country Curacies",
+   "stop": "Basel, the chair kept for her",
+   "date": "1826-01-01",
+   "date_confidence": "undated tradition; the year is placed at the second marriage because the story requires a second wife to be dismayed by it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2387992.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.119
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Country Curacies",
+   "stop": "Basel, the Hebrew class at the Mission House",
+   "date": "1829-01-01",
+   "date_confidence": "disputed: ADB gives 1829 and names Hebrew as the subject, German Wikipedia gives 1828 and says only that he taught. Month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389088.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Country Curacies",
+   "stop": "Basel, the hymn that outlived the scholarship",
+   "date": "1829-06-01",
+   "date_confidence": "year attested; month unrecorded and set arbitrarily within it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389239.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.18,
+    "text": "Gemini 10°11′",
+    "longitude": 70.184
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Muttenz and the Revolution",
+   "stop": "Muttenz, the parish under the Wartenberg",
+   "date": "1830-01-01",
+   "date_confidence": "year attested; month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389453.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.149
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Muttenz and the Revolution",
+   "stop": "Muttenz, driven from the parsonage",
+   "date": "1832-01-01",
+   "date_confidence": "year attested by ADB; German Wikipedia gives only 'soon after' 1830. Month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390183.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.654
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Muttenz and the Revolution",
+   "stop": "Basel, two years of private lessons",
+   "date": "1832-06-01",
+   "date_confidence": "the interval 1832-1834 is attested by ADB; the month is arbitrary and the location is inference, since no source says where the family lodged",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390335.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.45,
+    "text": "Gemini 10°27′",
+    "longitude": 70.447
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva and the Irvingites",
+   "stop": "Geneva, the school of the Evangelical Society",
+   "date": "1834-01-01",
+   "date_confidence": "year attested; month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1834,
+   "jd_ut": 2390914.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.18,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.178
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva and the Irvingites",
+   "stop": "Geneva, the Grammaire hébraïque",
+   "date": "1835-01-01",
+   "date_confidence": "inferred; the sources place the grammar in the Geneva years without giving a publication date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391279.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.931
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva and the Irvingites",
+   "stop": "Geneva, the company of Edward Irving's men",
+   "date": "1836-01-01",
+   "date_confidence": "inferred; the sources attest the contact and its consequence in 1837 but give no date for its beginning",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391644.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "sequencing",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.683
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva and the Irvingites",
+   "stop": "Geneva, the second post lost to a refusal",
+   "date": "1837-01-01",
+   "date_confidence": "year attested; month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392010.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.46,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.455
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Das Morgenland",
+   "stop": "Basel, the monthly begun out of unemployment",
+   "date": "1838-06-01",
+   "date_confidence": "attested to June 1838 by ADB; the day is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1838,
+   "jd_ut": 2392526.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.02,
+    "text": "Gemini 10°01′",
+    "longitude": 70.016
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Das Morgenland",
+   "stop": "Basel, Palestine argued in a small monthly",
+   "date": "1840-01-01",
+   "date_confidence": "the position is attested for the run 1838-1843 as a whole; no individual article or date is identified in any source read",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393105.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.71,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.713
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Das Morgenland",
+   "stop": "Basel, the six volumes close",
+   "date": "1843-01-01",
+   "date_confidence": "year attested; ADB counts six annual volumes from June 1838, against the five-year run usually reported. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1843,
+   "jd_ut": 2394201.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.99,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.99
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Das Morgenland",
+   "stop": "Basel, sixteen hymns published without his name",
+   "date": "1844-01-01",
+   "date_confidence": "year attested; month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394566.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.742
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "St Leonhard",
+   "stop": "Basel, the lectureship and the licentiate",
+   "date": "1843-01-01",
+   "date_confidence": "disputed and left disputed: German Wikipedia gives 1839 for a lectureship in Hebrew language and literature, ADB gives 1843 for a Privatdozentur in Old Testament exegesis bundled with the licentiate and the parish. ADB's date is used for the pin",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1843,
+   "jd_ut": 2394201.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.99,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.99
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "St Leonhard",
+   "stop": "Basel, pastor of St Leonhard",
+   "date": "1843-06-01",
+   "date_confidence": "disputed: German Wikipedia gives 1840, ADB gives 1843. ADB is preferred here because its own arithmetic, sixteen years at St Leonhard ending in the undisputed 1859 election, works only from 1843. The month is arbitrary",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1843,
+   "jd_ut": 2394352.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.82,
+    "text": "Gemini 9°49′",
+    "longitude": 69.816
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "St Leonhard",
+   "stop": "Basel, the address spoken over him",
+   "date": "1845-01-01",
+   "date_confidence": "the pamphlet is dated 1845; the day of the installation is not recorded in any source read",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1845,
+   "jd_ut": 2394932.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.51,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.514
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "St Leonhard",
+   "stop": "Basel, the birth of Emilie",
+   "date": "1848-01-01",
+   "date_confidence": "year attested; month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396027.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.772
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "St Leonhard",
+   "stop": "Basel, the daughter set behind his chair",
+   "date": "1858-01-01",
+   "date_confidence": "undated tradition; the year is placed when Emilie is old enough to sit still, and rests on no record",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399680.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "placed (the date)",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.36,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.355
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Antistes",
+   "stop": "Basel, teaching Paul Achilles Jung his Hebrew",
+   "date": "1855-01-01",
+   "date_confidence": "undated; no source read gives a year for the coursework. The date here is a placement between Paul Jung's likely student years and the marriage, and is not a record",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398584.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "probably",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.078
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Antistes",
+   "stop": "Basel, elected to the Münster and to the office",
+   "date": "1859-01-01",
+   "date_confidence": "year attested by ADB, German Wikipedia and French Wikipedia alike; month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400045.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.108
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Antistes",
+   "stop": "Basel, the church and the schools together",
+   "date": "1860-01-01",
+   "date_confidence": "the office runs 1859-1871; this pin marks the administration rather than a dated event",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400410.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.86
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Antistes",
+   "stop": "Basel, the honorary doctorate",
+   "date": "1860-06-01",
+   "date_confidence": "year attested; month unrecorded and set arbitrarily within it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400562.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.67,
+    "text": "Gemini 10°40′",
+    "longitude": 70.669
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Antistes",
+   "stop": "Basel, death of the Antistes",
+   "date": "1871-01-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404440.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.43,
+    "text": "Capricornus 22°26′",
+    "longitude": 292.426
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 5.84,
+    "text": "Libra 5°50′",
+    "longitude": 185.839
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 3.12,
+    "text": "Aquarius 3°07′",
+    "longitude": 303.119
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 0.96,
+    "text": "Aquarius 0°58′",
+    "longitude": 300.962
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 4.2,
+    "text": "Libra 4°12′",
+    "longitude": 184.202
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 17.81,
+    "text": "Gemini 17°48′",
+    "longitude": 77.806
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 3.17,
+    "text": "Capricornus 3°10′",
+    "longitude": 273.174
+   }
+  },
+  {
+   "segment": "Antistes",
+   "stop": "Basel, the grave that was not found",
+   "date": "1871-01-20",
+   "date_confidence": "gap: no burial date, site, stone or plaque is recorded in any source reachable for this account. The date is a placeholder a week after death and carries no authority",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404447.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 29.55,
+    "text": "Capricornus 29°33′",
+    "longitude": 299.554
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What the House Handed On",
+   "stop": "Kesswil, the grandson born four years late",
+   "date": "1875-07-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2406095.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.57,
+    "text": "Leo 2°34′",
+    "longitude": 122.566
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 4.38,
+    "text": "Taurus 4°23′",
+    "longitude": 34.379
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 13.14,
+    "text": "Cancer 13°08′",
+    "longitude": 103.136
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 16.55,
+    "text": "Cancer 16°33′",
+    "longitude": 106.546
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 21.34,
+    "text": "Sagittarius 21°20′",
+    "longitude": 261.34
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 23.67,
+    "text": "Libra 23°40′",
+    "longitude": 203.669
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 23.87,
+    "text": "Aquarius 23°52′",
+    "longitude": 323.866
+   }
+  },
+  {
+   "segment": "What the House Handed On",
+   "stop": "Basel, the voice at the table",
+   "date": "1895-06-20",
+   "date_confidence": "traditional; the sittings run 1894 or 1895 to 1899 depending on the source, and the day is the one already carried in the family account",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413364.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 28.39,
+    "text": "Gemini 28°23′",
+    "longitude": 88.387
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What the House Handed On",
+   "stop": "Basel, the congress in the Stadtcasino",
+   "date": "1897-08-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2414165.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 5.88,
+    "text": "Virgo 5°53′",
+    "longitude": 155.882
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 16.8,
+    "text": "Virgo 16°48′",
+    "longitude": 166.804
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 2.96,
+    "text": "Libra 2°58′",
+    "longitude": 182.961
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 26.2,
+    "text": "Cancer 26°12′",
+    "longitude": 116.203
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 2.13,
+    "text": "Libra 2°08′",
+    "longitude": 182.125
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 17.39,
+    "text": "Virgo 17°24′",
+    "longitude": 167.394
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 24.96,
+    "text": "Scorpio 24°57′",
+    "longitude": 234.958
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "What the House Handed On",
+   "stop": "Zurich, the séances become a thesis",
+   "date": "1902-01-01",
+   "date_confidence": "the thesis is dated 1902 by German Wikipedia and given as published 1903 by English Wikipedia; both are correct for different acts and the confusion between them is common. Month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What the House Handed On",
+   "stop": "Küsnacht, the last of his children",
+   "date": "1923-01-15",
+   "date_confidence": "traditional; the family accounts give January 1923 without a fixed day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423434.5,
+   "precision": "month",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 23.83,
+    "text": "Capricornus 23°50′",
+    "longitude": 293.828
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 37,
+  "dated": 37,
+  "unparsed": 0,
+  "day": 4,
+  "month": 3,
+  "year": 30
+ },
+ "parse_failures": []
+}

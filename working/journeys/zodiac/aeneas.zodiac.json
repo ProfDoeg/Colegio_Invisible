@@ -1,0 +1,1435 @@
+{
+ "slug": "aeneas",
+ "traveler": "Aeneas (Aineías / Aeneas Anchisiades)",
+ "title": "The Aeneid: from Burning Troy to Latium",
+ "years": "c. 1184-1177 BC (traditional; the fall of Troy to the founding of the Roman line)",
+ "years_parsed": {
+  "first": -1184,
+  "last": -1177
+ },
+ "calendar": "julian_bce",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Funeral Games of Sicily",
+  "stop": "Return to Drepanum, the games at Anchises's tomb",
+  "date": "-1181-06-01",
+  "date_confidence": "traditional",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+  "astronomical_year": -1180,
+  "jd_ut": 1290214.5,
+  "precision": "year",
+  "precision_triggers": [
+   "traditional"
+  ],
+  "notes": [
+   "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+  ],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 28.41,
+   "text": "Taurus 28°25′",
+   "longitude": 58.409
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 1184-1177 BC (traditional; the fall of Troy to the founding of the Roman line)",
+  "first_year_parsed": -1184
+ },
+ "stops": [
+  {
+   "segment": "The Last Night of Troy, Ilium in Flames",
+   "stop": "Troy, the shore, and the horse brought within the walls",
+   "date": "-1184-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1183,
+   "jd_ut": 1289118.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.15,
+    "text": "Taurus 28°09′",
+    "longitude": 58.149
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Night of Troy, Ilium in Flames",
+   "stop": "The altar of the household gods, the serpents from Tenedos",
+   "date": "-1184-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1183,
+   "jd_ut": 1289118.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.15,
+    "text": "Taurus 28°09′",
+    "longitude": 58.149
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Night of Troy, Ilium in Flames",
+   "stop": "The ghost of Hector in the sleeping house",
+   "date": "-1184-06-02",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1183,
+   "jd_ut": 1289119.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 29.1,
+    "text": "Taurus 29°06′",
+    "longitude": 59.1
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Night of Troy, Ilium in Flames",
+   "stop": "The flight from Troy, Anchises on his shoulders, Ascanius at his hand, Creusa lost",
+   "date": "-1184-06-02",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1183,
+   "jd_ut": 1289119.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 29.1,
+    "text": "Taurus 29°06′",
+    "longitude": 59.1
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Night of Troy, Ilium in Flames",
+   "stop": "Antandros, building the fleet beneath Mount Ida",
+   "date": "-1184-08-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1183,
+   "jd_ut": 1289179.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.7,
+    "text": "Cancer 26°42′",
+    "longitude": 116.704
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering of the Seven Years: Book Three",
+   "stop": "Thrace, the bleeding bush of Polydorus",
+   "date": "-1184-08-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1183,
+   "jd_ut": 1289193.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 10.38,
+    "text": "Leo 10°23′",
+    "longitude": 130.381
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering of the Seven Years: Book Three",
+   "stop": "Delos, the oracle of Apollo and the ancient mother",
+   "date": "-1183-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1182,
+   "jd_ut": 1289422.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 29.69,
+    "text": "Pisces 29°41′",
+    "longitude": 359.688
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering of the Seven Years: Book Three",
+   "stop": "Crete: Pergamea, the plague, and the Penates' vision",
+   "date": "-1183-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1182,
+   "jd_ut": 1289452.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 28.42,
+    "text": "Aries 28°25′",
+    "longitude": 28.415
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering of the Seven Years: Book Three",
+   "stop": "The Strophades, the Harpies and Celaeno's prophecy",
+   "date": "-1183-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1182,
+   "jd_ut": 1289483.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 27.92,
+    "text": "Taurus 27°55′",
+    "longitude": 57.918
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering of the Seven Years: Book Three",
+   "stop": "Actium, the games and the shield of Abas",
+   "date": "-1183-09-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1182,
+   "jd_ut": 1289575.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 26.91,
+    "text": "Leo 26°54′",
+    "longitude": 146.905
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering of the Seven Years: Book Three",
+   "stop": "Buthrotum: Andromache, little Troy, and Helenus's prophecy",
+   "date": "-1182-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1289787.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 29.45,
+    "text": "Pisces 29°27′",
+    "longitude": 359.454
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wandering of the Seven Years: Book Three",
+   "stop": "Castrum Minervae, the first sight of Italy and the four white horses",
+   "date": "-1182-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1289817.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 28.18,
+    "text": "Aries 28°11′",
+    "longitude": 28.185
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Straits and the Cyclops' Shore",
+   "stop": "Tarentum and the Lacinian headland, skirting the gulf",
+   "date": "-1182-05-10",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1289826.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 6.76,
+    "text": "Taurus 6°45′",
+    "longitude": 36.758
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Straits and the Cyclops' Shore",
+   "stop": "The shore beneath Aetna: the Cyclops and Achaemenides",
+   "date": "-1182-05-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1289827.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 7.71,
+    "text": "Taurus 7°43′",
+    "longitude": 37.71
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Straits and the Cyclops' Shore",
+   "stop": "Drepanum, the death of Anchises",
+   "date": "-1182-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1289848.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 27.69,
+    "text": "Taurus 27°41′",
+    "longitude": 57.688
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage and Dido, the Tragic Queen",
+   "stop": "The storm off the Libyan coast, Juno's wrath, Neptune's rebuke",
+   "date": "-1182-06-10",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1289857.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 6.26,
+    "text": "Gemini 6°15′",
+    "longitude": 66.257
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage and Dido, the Tragic Queen",
+   "stop": "The Libyan shore: Venus, the huntress, and the mist",
+   "date": "-1182-06-12",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1289859.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.16,
+    "text": "Gemini 8°10′",
+    "longitude": 68.163
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage and Dido, the Tragic Queen",
+   "stop": "Carthage rising, the murals of Troy on Juno's temple",
+   "date": "-1182-06-13",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1289860.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.12,
+    "text": "Gemini 9°07′",
+    "longitude": 69.116
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage and Dido, the Tragic Queen",
+   "stop": "Dido's hall, the banquet and Cupid in Ascanius's shape",
+   "date": "-1182-06-13",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1289860.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.12,
+    "text": "Gemini 9°07′",
+    "longitude": 69.116
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage and Dido, the Tragic Queen",
+   "stop": "The cave, the hunt, the storm, and the fatal union",
+   "date": "-1182-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1289878.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 26.32,
+    "text": "Gemini 26°19′",
+    "longitude": 86.318
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage and Dido, the Tragic Queen",
+   "stop": "Mercury's command, the abandonment",
+   "date": "-1182-11-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1290001.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 28.1,
+    "text": "Libra 28°06′",
+    "longitude": 208.103
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage and Dido, the Tragic Queen",
+   "stop": "The pyre, Dido's curse and the seed of Hannibal",
+   "date": "-1182-11-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1181,
+   "jd_ut": 1290015.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 12.39,
+    "text": "Scorpio 12°24′",
+    "longitude": 222.393
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Funeral Games of Sicily",
+   "stop": "Return to Drepanum, the games at Anchises's tomb",
+   "date": "-1181-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290214.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.41,
+    "text": "Taurus 28°25′",
+    "longitude": 58.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Funeral Games of Sicily",
+   "stop": "The burning of the ships, Acesta founded, the weary left behind",
+   "date": "-1181-06-10",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290223.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 6.98,
+    "text": "Gemini 6°59′",
+    "longitude": 66.979
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Funeral Games of Sicily",
+   "stop": "Cape Palinurus, the helmsman lost to the sea",
+   "date": "-1181-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290244.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 27.04,
+    "text": "Gemini 27°03′",
+    "longitude": 87.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cumae, the Sibyl, and the Descent to the Dead",
+   "stop": "Cumae, the temple doors of Daedalus and the Sibyl's frenzy",
+   "date": "-1181-07-10",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290253.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 5.69,
+    "text": "Cancer 5°41′",
+    "longitude": 95.687
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cumae, the Sibyl, and the Descent to the Dead",
+   "stop": "Lake Avernus, the golden bough and the gate of hell",
+   "date": "-1181-07-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 6.65,
+    "text": "Cancer 6°39′",
+    "longitude": 96.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cumae, the Sibyl, and the Descent to the Dead",
+   "stop": "The banks of Acheron: Charon and the golden bough",
+   "date": "-1181-07-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 6.65,
+    "text": "Cancer 6°39′",
+    "longitude": 96.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cumae, the Sibyl, and the Descent to the Dead",
+   "stop": "The Fields of Mourning, Dido's silent shade",
+   "date": "-1181-07-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 6.65,
+    "text": "Cancer 6°39′",
+    "longitude": 96.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cumae, the Sibyl, and the Descent to the Dead",
+   "stop": "Elysium: Anchises and the pageant of unborn Roman souls",
+   "date": "-1181-07-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 6.65,
+    "text": "Cancer 6°39′",
+    "longitude": 96.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Latium, the Promised Land and the War for Lavinia",
+   "stop": "Caieta, the nurse buried on the shore",
+   "date": "-1181-08-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290275.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.97,
+    "text": "Cancer 26°58′",
+    "longitude": 116.97
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Latium, the Promised Land and the War for Lavinia",
+   "stop": "The mouth of the Tiber, the promised land at last",
+   "date": "-1181-08-05",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290279.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 0.87,
+    "text": "Leo 0°52′",
+    "longitude": 120.867
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Latium, the Promised Land and the War for Lavinia",
+   "stop": "Laurentum: King Latinus, Lavinia, and the flame in her hair",
+   "date": "-1181-08-10",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290284.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 5.75,
+    "text": "Leo 5°45′",
+    "longitude": 125.75
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Latium, the Promised Land and the War for Lavinia",
+   "stop": "Pallanteum, the future site of Rome, and the shield of Aeneas",
+   "date": "-1181-09-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1180,
+   "jd_ut": 1290306.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 27.42,
+    "text": "Leo 27°25′",
+    "longitude": 147.415
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Latium, the Promised Land and the War for Lavinia",
+   "stop": "The Latin field, the fall of Turnus and the founding of the line",
+   "date": "-1180-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian_bce; date before 1582-10-15 read as Julian",
+   "astronomical_year": -1179,
+   "jd_ut": 1290579.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.18,
+    "text": "Taurus 28°11′",
+    "longitude": 58.179
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 35,
+  "dated": 35,
+  "unparsed": 0,
+  "day": 0,
+  "month": 0,
+  "year": 35
+ },
+ "parse_failures": []
+}

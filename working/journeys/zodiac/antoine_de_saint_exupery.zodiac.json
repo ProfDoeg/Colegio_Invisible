@@ -1,0 +1,1967 @@
+{
+ "slug": "antoine_de_saint_exupery",
+ "traveler": "Antoine de Saint-Exupéry",
+ "title": "The Line and the Sea: Aéropostale, Patagonia, and the Flight That Did Not Return",
+ "years": "1900-1944",
+ "years_parsed": {
+  "first": 1900,
+  "last": 1944
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Impoverished Château",
+  "stop": "Lyon, rue du Peyrat, the birth",
+  "date": "1900-06-29",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1900,
+  "jd_ut": 2415199.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Cancer",
+   "degree": 6.77,
+   "text": "Cancer 6°46′",
+   "longitude": 96.772
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 29.83,
+   "text": "Cancer 29°50′",
+   "longitude": 119.831
+  },
+  "mercury": {
+   "sign": "Leo",
+   "degree": 2.04,
+   "text": "Leo 2°02′",
+   "longitude": 122.04
+  },
+  "venus": {
+   "sign": "Cancer",
+   "degree": 21.15,
+   "text": "Cancer 21°09′",
+   "longitude": 111.151
+  },
+  "mars": {
+   "sign": "Gemini",
+   "degree": 1.14,
+   "text": "Gemini 1°09′",
+   "longitude": 61.143
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 2.37,
+   "text": "Sagittarius 2°22′",
+   "longitude": 242.37
+  },
+  "saturn": {
+   "sign": "Capricornus",
+   "degree": 1.29,
+   "text": "Capricornus 1°18′",
+   "longitude": 271.293
+  },
+  "conjunctions": [
+   {
+    "sign": "Cancer",
+    "bodies": [
+     "Sun",
+     "Moon",
+     "Venus"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1900-1944",
+  "first_year_parsed": 1900
+ },
+ "stops": [
+  {
+   "segment": "The Impoverished Château",
+   "stop": "Lyon, rue du Peyrat, the birth",
+   "date": "1900-06-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415199.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 6.77,
+    "text": "Cancer 6°46′",
+    "longitude": 96.772
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 29.83,
+    "text": "Cancer 29°50′",
+    "longitude": 119.831
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 2.04,
+    "text": "Leo 2°02′",
+    "longitude": 122.04
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 21.15,
+    "text": "Cancer 21°09′",
+    "longitude": 111.151
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 1.14,
+    "text": "Gemini 1°09′",
+    "longitude": 61.143
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 2.37,
+    "text": "Sagittarius 2°22′",
+    "longitude": 242.37
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 1.29,
+    "text": "Capricornus 1°18′",
+    "longitude": 271.293
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Impoverished Château",
+   "stop": "Saint-Maurice-de-Rémens, the summers at the château",
+   "date": "1904-01-01",
+   "date_confidence": "attested for the property and the family's use of it; the year here stands for a childhood, not an event",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416480.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.17,
+    "text": "Capricornus 9°10′",
+    "longitude": 279.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Impoverished Château",
+   "stop": "Le Mans, the Jesuit college",
+   "date": "1909-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Impoverished Château",
+   "stop": "Fribourg, the Villa Saint-Jean",
+   "date": "1915-01-01",
+   "date_confidence": "attested for the school and the 1917 baccalauréat; the enrollment year is the biographers' range",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Impoverished Château",
+   "stop": "Saint-Maurice-de-Rémens, the death of François",
+   "date": "1917-07-10",
+   "date_confidence": "contested: the summer of 1917 and the rheumatic fever are attested, but fr.wikipedia gives no place, en.wikipedia leaves the scene near Fribourg, and Schiff and Cate put the death at the family house on 10 July with Antoine at the bedside; the biographers are followed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421419.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.16,
+    "text": "Cancer 17°09′",
+    "longitude": 107.156
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Impoverished Château",
+   "stop": "Paris, the Navy refuses him twice",
+   "date": "1919-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Brevet Bought with His Own Money",
+   "stop": "Strasbourg-Neuhof, the conscript pays for his lessons",
+   "date": "1921-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422780.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.73,
+    "text": "Aries 10°44′",
+    "longitude": 10.734
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Brevet Bought with His Own Money",
+   "stop": "Casablanca, Camp Cazes, the military brevet",
+   "date": "1921-12-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2423046.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 0.64,
+    "text": "Capricornus 0°38′",
+    "longitude": 270.635
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 15.58,
+    "text": "Libra 15°35′",
+    "longitude": 195.583
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 27.99,
+    "text": "Sagittarius 27°59′",
+    "longitude": 267.987
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 19.08,
+    "text": "Sagittarius 19°05′",
+    "longitude": 259.081
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 27.94,
+    "text": "Libra 27°57′",
+    "longitude": 207.944
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 16.2,
+    "text": "Libra 16°12′",
+    "longitude": 196.198
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 7.15,
+    "text": "Libra 7°09′",
+    "longitude": 187.152
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Brevet Bought with His Own Money",
+   "stop": "Le Bourget, the fractured skull",
+   "date": "1923-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423540.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.61,
+    "text": "Taurus 9°37′",
+    "longitude": 39.611
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Brevet Bought with His Own Money",
+   "stop": "Paris, L'Aviateur in Le Navire d'Argent",
+   "date": "1926-01-01",
+   "date_confidence": "attested to the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line to Dakar",
+   "stop": "Toulouse-Montaudran, Daurat and the royal grease",
+   "date": "1926-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424789.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.06,
+    "text": "Libra 7°04′",
+    "longitude": 187.063
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line to Dakar",
+   "stop": "Alicante, the Spanish legs of the line",
+   "date": "1927-01-01",
+   "date_confidence": "reconstruction: the route and its stopovers are documented, but no source names Saint-Exupéry at this field on a given date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line to Dakar",
+   "stop": "Agadir, the last field before the ransom country",
+   "date": "1927-06-01",
+   "date_confidence": "reconstruction: the sector is documented, the month is not",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425032.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.52,
+    "text": "Gemini 9°31′",
+    "longitude": 69.525
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line to Dakar",
+   "stop": "Cap Juby, chief of the fort",
+   "date": "1927-10-01",
+   "date_confidence": "attested for the posting; the month is the biographers' range",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425154.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.83,
+    "text": "Libra 6°50′",
+    "longitude": 186.825
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line to Dakar",
+   "stop": "Dakar, the southern anchor",
+   "date": "1928-06-01",
+   "date_confidence": "reconstruction: the terminus and its function are documented, the date is a placeholder within his Cap Juby years",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425398.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.25,
+    "text": "Gemini 10°15′",
+    "longitude": 70.251
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Line to Dakar",
+   "stop": "Paris, Courrier Sud",
+   "date": "1929-01-01",
+   "date_confidence": "attested to the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aeroposta Argentina",
+   "stop": "Buenos Aires, the Galería Güemes and the directorship",
+   "date": "1929-10-01",
+   "date_confidence": "contested: fr.wikipedia has him joining Guillaumet in South America in September 1929, the geography lens dates the directorship to October 1929, and es.wikipedia's biography says 1928; the first firmly dated Argentine action is the inspection flight of 29 October",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425885.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.33,
+    "text": "Libra 7°20′",
+    "longitude": 187.332
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aeroposta Argentina",
+   "stop": "Bahía Blanca, the inspection flights",
+   "date": "1929-10-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425913.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 5.09,
+    "text": "Scorpio 5°06′",
+    "longitude": 215.093
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 22.29,
+    "text": "Virgo 22°18′",
+    "longitude": 172.293
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 18.04,
+    "text": "Libra 18°02′",
+    "longitude": 198.04
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 10.88,
+    "text": "Libra 10°53′",
+    "longitude": 190.884
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 15.46,
+    "text": "Scorpio 15°28′",
+    "longitude": 225.465
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 15.62,
+    "text": "Gemini 15°37′",
+    "longitude": 75.625
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 26.61,
+    "text": "Sagittarius 26°36′",
+    "longitude": 266.607
+   }
+  },
+  {
+   "segment": "Aeroposta Argentina",
+   "stop": "Comodoro Rivadavia, the wind and the night mail",
+   "date": "1929-11-01",
+   "date_confidence": "attested for the field and the line's opening; the identification of this town with the atmosphere of Vol de Nuit is a reader's tradition, not a claim of the novel",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425916.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.09,
+    "text": "Scorpio 8°06′",
+    "longitude": 218.093
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aeroposta Argentina",
+   "stop": "Río Gallegos, the line stops here",
+   "date": "1930-03-01",
+   "date_confidence": "attested to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426036.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.7,
+    "text": "Pisces 9°42′",
+    "longitude": 339.698
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aeroposta Argentina",
+   "stop": "Mendoza, the gate of the cordillera",
+   "date": "1930-06-01",
+   "date_confidence": "attested for the route and his writing about it; his own presence in the city is inferred from the Guillaumet search",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426128.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.79,
+    "text": "Gemini 9°47′",
+    "longitude": 69.788
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aeroposta Argentina",
+   "stop": "The Andes, Guillaumet walks out",
+   "date": "1930-06-19",
+   "date_confidence": "attested for the crash and the survival; the coordinate is the Laguna Diamante sector by reconstruction, since no source fixes the crash point",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426146.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (no source, reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 27.0,
+    "text": "Gemini 27°00′",
+    "longitude": 86.997
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 22.8,
+    "text": "Pisces 22°48′",
+    "longitude": 352.799
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 4.38,
+    "text": "Gemini 4°23′",
+    "longitude": 64.383
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 29.78,
+    "text": "Cancer 29°47′",
+    "longitude": 119.784
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 11.71,
+    "text": "Taurus 11°43′",
+    "longitude": 41.713
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 28.26,
+    "text": "Gemini 28°15′",
+    "longitude": 88.256
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 9.25,
+    "text": "Capricornus 9°15′",
+    "longitude": 279.254
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Nice, Agay, and the Night Flight",
+   "stop": "Nice, the civil marriage to Consuelo",
+   "date": "1931-04-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426453.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 0.92,
+    "text": "Taurus 0°55′",
+    "longitude": 30.918
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 16.55,
+    "text": "Gemini 16°33′",
+    "longitude": 76.553
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 13.19,
+    "text": "Taurus 13°11′",
+    "longitude": 43.188
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 25.14,
+    "text": "Pisces 25°08′",
+    "longitude": 355.135
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 6.95,
+    "text": "Leo 6°57′",
+    "longitude": 126.952
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 13.63,
+    "text": "Cancer 13°38′",
+    "longitude": 103.627
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 22.94,
+    "text": "Capricornus 22°57′",
+    "longitude": 292.942
+   }
+  },
+  {
+   "segment": "Nice, Agay, and the Night Flight",
+   "stop": "Agay, the wedding at his sister's house",
+   "date": "1931-04-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426454.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 1.89,
+    "text": "Taurus 1°54′",
+    "longitude": 31.893
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 29.61,
+    "text": "Gemini 29°37′",
+    "longitude": 89.614
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 12.94,
+    "text": "Taurus 12°56′",
+    "longitude": 42.94
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 26.33,
+    "text": "Pisces 26°20′",
+    "longitude": 356.327
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 7.33,
+    "text": "Leo 7°20′",
+    "longitude": 127.328
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 13.76,
+    "text": "Cancer 13°45′",
+    "longitude": 103.757
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 22.96,
+    "text": "Capricornus 22°58′",
+    "longitude": 292.959
+   }
+  },
+  {
+   "segment": "Nice, Agay, and the Night Flight",
+   "stop": "Paris, Vol de Nuit and the Prix Femina",
+   "date": "1931-09-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426603.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 25.1,
+    "text": "Virgo 25°06′",
+    "longitude": 175.097
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 26.82,
+    "text": "Sagittarius 26°49′",
+    "longitude": 266.822
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 7.52,
+    "text": "Virgo 7°31′",
+    "longitude": 157.523
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 28.03,
+    "text": "Virgo 28°02′",
+    "longitude": 178.027
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 1.11,
+    "text": "Scorpio 1°07′",
+    "longitude": 211.11
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.57,
+    "text": "Leo 13°34′",
+    "longitude": 133.573
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 16.43,
+    "text": "Capricornus 16°26′",
+    "longitude": 286.434
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Records and the Desert",
+   "stop": "The Libyan Desert, the Simoun goes in",
+   "date": "1935-12-30",
+   "date_confidence": "attested for the date, the aircraft, and the four days; the coordinate is the Wadi Natrun region only, since no source records where the aeroplane struck and the research pool's own lenses give three different values",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2428166.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.36,
+    "text": "Capricornus 7°22′",
+    "longitude": 277.363
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 2.55,
+    "text": "Pisces 2°33′",
+    "longitude": 332.546
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 18.64,
+    "text": "Capricornus 18°38′",
+    "longitude": 288.638
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 24.58,
+    "text": "Scorpio 24°35′",
+    "longitude": 234.581
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 17.79,
+    "text": "Aquarius 17°47′",
+    "longitude": 317.785
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 11.21,
+    "text": "Sagittarius 11°13′",
+    "longitude": 251.21
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 5.46,
+    "text": "Pisces 5°27′",
+    "longitude": 335.457
+   }
+  },
+  {
+   "segment": "The Records and the Desert",
+   "stop": "Cairo, the two men come out of the sand",
+   "date": "1936-01-02",
+   "date_confidence": "attested to the first days of January 1936",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428169.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.42,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.421
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 15.21,
+    "text": "Aries 15°13′",
+    "longitude": 15.212
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 23.45,
+    "text": "Capricornus 23°27′",
+    "longitude": 293.45
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 28.12,
+    "text": "Scorpio 28°07′",
+    "longitude": 238.117
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 20.13,
+    "text": "Aquarius 20°08′",
+    "longitude": 320.135
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 11.84,
+    "text": "Sagittarius 11°51′",
+    "longitude": 251.844
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 5.71,
+    "text": "Pisces 5°43′",
+    "longitude": 335.71
+   }
+  },
+  {
+   "segment": "The Records and the Desert",
+   "stop": "Guatemala City, La Aurora, the takeoff that fails",
+   "date": "1938-02-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428944.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 25.66,
+    "text": "Aquarius 25°40′",
+    "longitude": 325.661
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 29.43,
+    "text": "Leo 29°26′",
+    "longitude": 149.427
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 9.83,
+    "text": "Aquarius 9°50′",
+    "longitude": 309.834
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 28.29,
+    "text": "Aquarius 28°17′",
+    "longitude": 328.289
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 11.48,
+    "text": "Aries 11°29′",
+    "longitude": 11.482
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 13.31,
+    "text": "Aquarius 13°19′",
+    "longitude": 313.314
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 2.58,
+    "text": "Aries 2°35′",
+    "longitude": 2.582
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Records and the Desert",
+   "stop": "Paris, Terre des hommes",
+   "date": "1939-02-01",
+   "date_confidence": "attested to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429295.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.24,
+    "text": "Aquarius 11°14′",
+    "longitude": 311.237
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Armistice and Exile",
+   "stop": "Arras, the reconnaissance over the collapse",
+   "date": "1940-05-23",
+   "date_confidence": "traditional: the sources date his II/33 reconnaissance flying to 1940, and the Arras mission is dated from Pilote de guerre rather than from a squadron document",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429772.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 1.71,
+    "text": "Gemini 1°43′",
+    "longitude": 61.711
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Armistice and Exile",
+   "stop": "Estoril, the Hotel Palácio and the waiting",
+   "date": "1940-11-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429961.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 5.62,
+    "text": "Sagittarius 5°37′",
+    "longitude": 245.622
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 16.84,
+    "text": "Scorpio 16°51′",
+    "longitude": 226.844
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 15.61,
+    "text": "Scorpio 15°37′",
+    "longitude": 225.612
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 1.82,
+    "text": "Scorpio 1°49′",
+    "longitude": 211.821
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 4.8,
+    "text": "Scorpio 4°48′",
+    "longitude": 214.803
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 7.64,
+    "text": "Taurus 7°38′",
+    "longitude": 37.637
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 9.13,
+    "text": "Taurus 9°08′",
+    "longitude": 39.132
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Armistice and Exile",
+   "stop": "New York, the Siboney docks",
+   "date": "1940-12-31",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429994.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.18,
+    "text": "Capricornus 9°11′",
+    "longitude": 279.183
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 6.03,
+    "text": "Aquarius 6°02′",
+    "longitude": 306.035
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 2.52,
+    "text": "Capricornus 2°31′",
+    "longitude": 272.518
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 12.68,
+    "text": "Sagittarius 12°41′",
+    "longitude": 252.679
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 26.76,
+    "text": "Scorpio 26°46′",
+    "longitude": 236.762
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 5.8,
+    "text": "Taurus 5°48′",
+    "longitude": 35.802
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 7.66,
+    "text": "Taurus 7°40′",
+    "longitude": 37.665
+   }
+  },
+  {
+   "segment": "Armistice and Exile",
+   "stop": "New York, Central Park South and the Astor luncheon",
+   "date": "1941-01-14",
+   "date_confidence": "attested for the award and the date; the apartments are attested without exact dates",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430008.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 23.45,
+    "text": "Capricornus 23°27′",
+    "longitude": 293.452
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 0.2,
+    "text": "Leo 0°12′",
+    "longitude": 120.197
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 25.09,
+    "text": "Capricornus 25°05′",
+    "longitude": 295.089
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 0.14,
+    "text": "Capricornus 0°08′",
+    "longitude": 270.141
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 6.19,
+    "text": "Sagittarius 6°11′",
+    "longitude": 246.187
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 6.13,
+    "text": "Taurus 6°08′",
+    "longitude": 36.131
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 7.61,
+    "text": "Taurus 7°36′",
+    "longitude": 37.608
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Armistice and Exile",
+   "stop": "Quebec City, the lecture tour",
+   "date": "1942-05-01",
+   "date_confidence": "attested to May and June 1942",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430480.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.0,
+    "text": "Taurus 10°00′",
+    "longitude": 40.002
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Armistice and Exile",
+   "stop": "Asharoken, the Bevin House and the manuscript",
+   "date": "1942-10-01",
+   "date_confidence": "attested for the completion of the manuscript in October 1942; en.wikipedia dates the rental to 'late 1942'",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430633.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.19,
+    "text": "Libra 7°11′",
+    "longitude": 187.187
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Armistice and Exile",
+   "stop": "New York, Le Petit Prince is published",
+   "date": "1943-04-06",
+   "date_confidence": "attested to April 1943; the day is the publisher's, carried by en.wikipedia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430820.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.34,
+    "text": "Aries 15°20′",
+    "longitude": 15.336
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Squadron",
+   "stop": "Algiers, before General Giraud",
+   "date": "1943-05-05",
+   "date_confidence": "attested: departure from North America in April 1943 per en.wikipedia, presentation to Giraud on 5 May 1943 per fr.wikipedia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430849.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 13.65,
+    "text": "Taurus 13°39′",
+    "longitude": 43.647
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 20.79,
+    "text": "Taurus 20°47′",
+    "longitude": 50.787
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 3.51,
+    "text": "Gemini 3°31′",
+    "longitude": 63.51
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 22.52,
+    "text": "Gemini 22°31′",
+    "longitude": 82.521
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 13.24,
+    "text": "Pisces 13°15′",
+    "longitude": 343.243
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 19.43,
+    "text": "Cancer 19°26′",
+    "longitude": 109.429
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 11.58,
+    "text": "Gemini 11°35′",
+    "longitude": 71.583
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Squadron",
+   "stop": "Borgo-Poretta, Corsica, the last field",
+   "date": "1944-07-17",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431288.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 24.29,
+    "text": "Cancer 24°17′",
+    "longitude": 114.287
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 16.37,
+    "text": "Gemini 16°22′",
+    "longitude": 76.373
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 10.71,
+    "text": "Leo 10°43′",
+    "longitude": 130.712
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 29.77,
+    "text": "Cancer 29°46′",
+    "longitude": 119.773
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 3.0,
+    "text": "Virgo 3°00′",
+    "longitude": 152.999
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 28.18,
+    "text": "Leo 28°11′",
+    "longitude": 148.177
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 3.33,
+    "text": "Cancer 3°20′",
+    "longitude": 93.33
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Squadron",
+   "stop": "Off Riou Island, the flight that does not return",
+   "date": "1944-07-31",
+   "date_confidence": "attested for the date and the loss; the takeoff hour is contested, fr.wikipedia giving 08:25 and en.wikipedia 08:45, with both agreeing it was full daylight",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431302.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.66,
+    "text": "Leo 7°40′",
+    "longitude": 127.659
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sea Gives It Back",
+   "stop": "Paris, the inscription in the Panthéon",
+   "date": "1967-11-01",
+   "date_confidence": "reconstruction: the wall inscription is attested, but the November 1967 legislative act rests on en.wikipedia alone and is uncorroborated in French sources, which do not list him among those transferred to the Panthéon",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439795.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.88,
+    "text": "Scorpio 7°53′",
+    "longitude": 217.881
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sea Gives It Back",
+   "stop": "Marseille, the bracelet in the net",
+   "date": "1998-09-07",
+   "date_confidence": "attested to September 1998; the day is carried by fr.wikipedia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1998,
+   "jd_ut": 2451063.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 14.19,
+    "text": "Virgo 14°11′",
+    "longitude": 164.187
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sea Gives It Back",
+   "stop": "Off Riou, the wreck on the seabed",
+   "date": "2000-05-01",
+   "date_confidence": "attested to May 2000",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451665.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.94,
+    "text": "Taurus 10°56′",
+    "longitude": 40.941
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sea Gives It Back",
+   "stop": "Lyon, the airport takes his name",
+   "date": "2000-06-29",
+   "date_confidence": "attested to the year 2000; the day here is his birthday, used as a placeholder because the renaming date is not given in the sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451724.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 7.57,
+    "text": "Cancer 7°34′",
+    "longitude": 97.573
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sea Gives It Back",
+   "stop": "Off Riou, the raising and the German claim",
+   "date": "2003-09-01",
+   "date_confidence": "contested: fr.wikipedia dates the lift to 1 to 3 September 2003, en.wikipedia to October 2003; the formal identification in 2004 is attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2003,
+   "jd_ut": 2452883.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.17,
+    "text": "Virgo 8°10′",
+    "longitude": 158.171
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 4.77,
+    "text": "Scorpio 4°46′",
+    "longitude": 214.775
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 25.74,
+    "text": "Virgo 25°44′",
+    "longitude": 175.741
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 11.81,
+    "text": "Virgo 11°49′",
+    "longitude": 161.81
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 4.08,
+    "text": "Pisces 4°05′",
+    "longitude": 334.076
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 1.0,
+    "text": "Virgo 1°00′",
+    "longitude": 151.004
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 10.47,
+    "text": "Cancer 10°28′",
+    "longitude": 100.472
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 16,
+  "month": 13,
+  "year": 15
+ },
+ "parse_failures": []
+}

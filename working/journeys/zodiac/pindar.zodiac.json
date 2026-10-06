@@ -1,0 +1,1685 @@
+{
+ "slug": "pindar",
+ "traveler": "Pindar of Thebes (Pindaros)",
+ "title": "The Road No Ship Finds: Pindar, Pytho, and the Seventeen Books",
+ "years": "c. 518 - c. 438 BCE",
+ "years_parsed": {
+  "first": -518,
+  "last": -438
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Cynoscephalae and the Bees",
+  "stop": "Thebes, the sixty-fifth Olympiad",
+  "date": "-0518-01-01",
+  "date_confidence": "Traditional. The Alexandrian chronographers assign the birth to the 65th Olympiad, conventionally c. 518 BCE; no contemporary document fixes the year, and the ancient Lives are centuries later than the man. Month and day are defaults. Coordinates inherit the atlas pin for Thebes.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": -517,
+  "jd_ut": 1532223.5,
+  "precision": "year",
+  "precision_triggers": [
+   "defaulted",
+   "c.",
+   "traditional",
+   "convention",
+   "decade/century",
+   "no source (for the date)",
+   "(soft) no source"
+  ],
+  "notes": [
+   "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 5.2,
+   "text": "Capricornus 5°12′",
+   "longitude": 275.202
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 518 - c. 438 BCE",
+  "first_year_parsed": -518
+ },
+ "stops": [
+  {
+   "segment": "Cynoscephalae and the Bees",
+   "stop": "Thebes, the sixty-fifth Olympiad",
+   "date": "-0518-01-01",
+   "date_confidence": "Traditional. The Alexandrian chronographers assign the birth to the 65th Olympiad, conventionally c. 518 BCE; no contemporary document fixes the year, and the ancient Lives are centuries later than the man. Month and day are defaults. Coordinates inherit the atlas pin for Thebes.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -517,
+   "jd_ut": 1532223.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "traditional",
+    "convention",
+    "decade/century",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.2,
+    "text": "Capricornus 5°12′",
+    "longitude": 275.202
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cynoscephalae and the Bees",
+   "stop": "Cynoscephalae, the village of the Dog's Heads",
+   "date": "-0518-01-01",
+   "date_confidence": "Traditional and unlocated. Some ancient Lives give Cynoscephalae rather than Thebes itself; the site has never been fixed on the ground and these coordinates are an approximate placement near Thebes, not a located village. The two birthplace traditions are not reconciled here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -517,
+   "jd_ut": 1532223.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional",
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.2,
+    "text": "Capricornus 5°12′",
+    "longitude": 275.202
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cynoscephalae and the Bees",
+   "stop": "Thebes, the bees at the mouth",
+   "date": "-0517-01-01",
+   "date_confidence": "Legend, undated. The bee story is a standard inspired-infant topos in ancient biography, attached to other poets and philosophers as well; the date is an ordering device only.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -516,
+   "jd_ut": 1532588.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "legend",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.96,
+    "text": "Capricornus 4°57′",
+    "longitude": 274.955
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cynoscephalae and the Bees",
+   "stop": "Thebes, the fathers the Lives cannot agree on",
+   "date": "-0512-01-01",
+   "date_confidence": "Reconstruction. The ancient Lives disagree; nothing here can be dated. The stop is placed in boyhood to order the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -511,
+   "jd_ut": 1534415.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "ordering",
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.75,
+    "text": "Capricornus 5°45′",
+    "longitude": 275.752
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cynoscephalae and the Bees",
+   "stop": "Thebes, the matter the poems are made of",
+   "date": "-0508-01-01",
+   "date_confidence": "Reconstruction, from the content of the surviving odes rather than from any biographical record. The date orders the segment and marks nothing.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -507,
+   "jd_ut": 1535876.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.78,
+    "text": "Capricornus 5°47′",
+    "longitude": 275.78
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cynoscephalae and the Bees",
+   "stop": "Athens, the school of Lasus of Hermione",
+   "date": "-0505-01-01",
+   "date_confidence": "Late tradition only. The apprenticeship under Lasus, and the rival tradition naming Agathocles, come from the ancient Lives; no contemporary word confirms either, and no date is transmitted. Placed c. 505 for order.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -504,
+   "jd_ut": 1536971.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "no month/day",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.04,
+    "text": "Capricornus 5°02′",
+    "longitude": 275.04
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cynoscephalae and the Bees",
+   "stop": "Tanagra, sow with the hand and not the whole sack",
+   "date": "-0502-01-01",
+   "date_confidence": "Anecdotal tradition, undated, and contested at the root: modern scholars dispute Corinna's own dates, and some place her long after Pindar, which would make the whole exchange impossible. The date is an ordering device.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -501,
+   "jd_ut": 1538067.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "disputed",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.32,
+    "text": "Capricornus 5°19′",
+    "longitude": 275.315
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cynoscephalae and the Bees",
+   "stop": "Mount Helicon, a god heard singing a mortal's paean",
+   "date": "-0500-01-01",
+   "date_confidence": "Legend, undated. The story that Pan was heard singing a paean of Pindar's is normally cited to Pausanias 9.23; Book 9 could not be retrieved from any open text this session, so the citation is secondhand. Coordinates inherit the atlas pin for Mount Helicon.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -499,
+   "jd_ut": 1538798.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "legend"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.84,
+    "text": "Capricornus 5°50′",
+    "longitude": 275.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pytho, 498: The Road No Ship Finds",
+   "stop": "Delphi, the boys' double stadion",
+   "date": "-0498-08-01",
+   "date_confidence": "Attested by the ancient scholia, which date Pythian 10 to 498 BCE; this is the earliest securely dated surviving poem. Month and day are defaults. Coordinates inherit the atlas pin for Delphi.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -497,
+   "jd_ut": 1539740.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.37,
+    "text": "Leo 1°22′",
+    "longitude": 121.371
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pytho, 498: The Road No Ship Finds",
+   "stop": "Pelinna, the father who ran twice in armour",
+   "date": "-0498-08-15",
+   "date_confidence": "Attested as text: Pythian 10.4-5 names Pytho, Pelinna, and the Aleuadae, and the ode credits Phricias with two Olympic victories in the race in armour. Pindar's own presence at Pelinna is not attested. Coordinates corrected to the ancient town site at Palaiogardiki.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -497,
+   "jd_ut": 1539754.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 14.99,
+    "text": "Leo 15°00′",
+    "longitude": 134.994
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 29.02,
+    "text": "Aries 29°01′",
+    "longitude": 29.019
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 11.48,
+    "text": "Virgo 11°29′",
+    "longitude": 161.481
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 19.5,
+    "text": "Virgo 19°30′",
+    "longitude": 169.5
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 9.33,
+    "text": "Libra 9°20′",
+    "longitude": 189.333
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 5.94,
+    "text": "Libra 5°57′",
+    "longitude": 185.943
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 26.8,
+    "text": "Cancer 26°48′",
+    "longitude": 116.796
+   }
+  },
+  {
+   "segment": "Pytho, 498: The Road No Ship Finds",
+   "stop": "Larissa, the Aleuadae buy a song",
+   "date": "-0498-09-01",
+   "date_confidence": "Attested: Thorax of the Aleuadae is named in the ode as its commissioner. The political reading is modern (Pavlou, Mnemosyne 76: 375-393, DOI 10.1163/1568525x-bja10107); the article's full text was not retrievable, so its argument is reported at second hand.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -497,
+   "jd_ut": 1539771.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 1.69,
+    "text": "Virgo 1°41′",
+    "longitude": 151.686
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pytho, 498: The Road No Ship Finds",
+   "stop": "Delphi, the road no ship finds",
+   "date": "-0498-09-02",
+   "date_confidence": "Attested as text, Pythian 10.27-30. The stop is pinned at Delphi because that is where the ode was sung; Hyperborea is declared unreachable by the poem itself and is given no pin.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -497,
+   "jd_ut": 1539772.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 2.67,
+    "text": "Virgo 2°40′",
+    "longitude": 152.673
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 17.99,
+    "text": "Sagittarius 17°59′",
+    "longitude": 257.989
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 12.9,
+    "text": "Virgo 12°54′",
+    "longitude": 162.903
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 11.07,
+    "text": "Libra 11°04′",
+    "longitude": 191.07
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 21.97,
+    "text": "Libra 21°58′",
+    "longitude": 201.973
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.32,
+    "text": "Libra 9°19′",
+    "longitude": 189.315
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 28.91,
+    "text": "Cancer 28°55′",
+    "longitude": 118.915
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Pytho, 498: The Road No Ship Finds",
+   "stop": "Delphi, Perseus at the feast of asses",
+   "date": "-0498-09-03",
+   "date_confidence": "Attested as text, Pythian 10.31-36. A mythic scene sung at Delphi, not a place anyone travelled to; the pin records where the ode was performed.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -497,
+   "jd_ut": 1539773.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 3.66,
+    "text": "Virgo 3°40′",
+    "longitude": 153.661
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 0.7,
+    "text": "Capricornus 0°42′",
+    "longitude": 270.697
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 11.93,
+    "text": "Virgo 11°56′",
+    "longitude": 161.931
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 12.26,
+    "text": "Libra 12°16′",
+    "longitude": 192.262
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 22.69,
+    "text": "Libra 22°41′",
+    "longitude": 202.688
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.51,
+    "text": "Libra 9°31′",
+    "longitude": 189.514
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 29.03,
+    "text": "Cancer 29°02′",
+    "longitude": 119.026
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Pytho, 498: The Road No Ship Finds",
+   "stop": "Delphi, the people without sickness or age",
+   "date": "-0498-09-04",
+   "date_confidence": "Attested as text, Pythian 10.37-44. Pinned at the performance site; the Hyperboreans are given no coordinates because the poem denies that any road reaches them.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -497,
+   "jd_ut": 1539774.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 4.65,
+    "text": "Virgo 4°39′",
+    "longitude": 154.649
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 13.79,
+    "text": "Capricornus 13°47′",
+    "longitude": 283.792
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 10.87,
+    "text": "Virgo 10°52′",
+    "longitude": 160.87
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 13.45,
+    "text": "Libra 13°27′",
+    "longitude": 193.453
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 23.41,
+    "text": "Libra 23°24′",
+    "longitude": 203.405
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.71,
+    "text": "Libra 9°43′",
+    "longitude": 189.713
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 29.14,
+    "text": "Cancer 29°08′",
+    "longitude": 119.137
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Pytho, 498: The Road No Ship Finds",
+   "stop": "Delphi, the anchor out of the prow",
+   "date": "-0498-09-05",
+   "date_confidence": "Attested as text, Pythian 10.44-54. Same pin and same reason as the preceding stops in this segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -497,
+   "jd_ut": 1539775.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 5.64,
+    "text": "Virgo 5°38′",
+    "longitude": 155.638
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 27.3,
+    "text": "Capricornus 27°18′",
+    "longitude": 297.304
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 9.74,
+    "text": "Virgo 9°44′",
+    "longitude": 159.74
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 14.64,
+    "text": "Libra 14°39′",
+    "longitude": 194.643
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 24.12,
+    "text": "Libra 24°07′",
+    "longitude": 204.124
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.91,
+    "text": "Libra 9°55′",
+    "longitude": 189.914
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 29.25,
+    "text": "Cancer 29°15′",
+    "longitude": 119.248
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Pytho, 498: The Road No Ship Finds",
+   "stop": "Larissa, a friend for a friend",
+   "date": "-0498-09-06",
+   "date_confidence": "Attested as text for the praise of Thorax and of unnamed brothers. The brothers' names, Eurypylus and Thrasydaeus, are supplied by the ancient scholia and are not in the poem; the two are kept apart here and not merged.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -497,
+   "jd_ut": 1539776.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 6.63,
+    "text": "Virgo 6°38′",
+    "longitude": 156.628
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 11.23,
+    "text": "Aquarius 11°14′",
+    "longitude": 311.232
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 8.57,
+    "text": "Virgo 8°34′",
+    "longitude": 158.569
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 15.83,
+    "text": "Libra 15°50′",
+    "longitude": 195.832
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 24.84,
+    "text": "Libra 24°51′",
+    "longitude": 204.843
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 10.12,
+    "text": "Libra 10°07′",
+    "longitude": 190.116
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 29.36,
+    "text": "Cancer 29°21′",
+    "longitude": 119.357
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Medism, and the Bulwark of Hellas",
+   "stop": "Thebes, the city that medized",
+   "date": "-0479-08-01",
+   "date_confidence": "The Theban medism is attested (Herodotus 9.31-32 puts Theban troops in the Persian line at Plataea). Pindar's personal conduct is not documented by any contemporary text; Polybius 4.31, three centuries later, is a hostile reading of a Pindaric fragment, not a record of what the poet did.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -478,
+   "jd_ut": 1546680.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.76,
+    "text": "Leo 1°45′",
+    "longitude": 121.757
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medism, and the Bulwark of Hellas",
+   "stop": "Athens, bulwark of Hellas",
+   "date": "-0478-01-01",
+   "date_confidence": "The fragment (fr. 76) is well attested in the later quotation tradition; its performance venue, occasion, and date are not. The story of an Athenian reward and a Theban fine is anecdote with no judicial or civic record behind it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -477,
+   "jd_ut": 1546833.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.48,
+    "text": "Capricornus 5°29′",
+    "longitude": 275.485
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medism, and the Bulwark of Hellas",
+   "stop": "Athens, the statue in the marketplace",
+   "date": "-0477-01-01",
+   "date_confidence": "Attested by Pausanias 1.8.4, who saw the statue and reports the Athenian explanation of it; he gives no erection date, so this date is an ordering device only and the monument may well be posthumous.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -476,
+   "jd_ut": 1547198.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.24,
+    "text": "Capricornus 5°14′",
+    "longitude": 275.238
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sicilian Courts",
+   "stop": "Syracuse, Ortygia and the horse of Hieron",
+   "date": "-0476-08-01",
+   "date_confidence": "The commission and the 476 BCE date are attested by the ode itself and the standard epinician chronology. Pindar's personal presence in Sicily is an inference from the commissions, not a documented journey; the court-rivalry stories with Simonides and Bacchylides are late scholiastic inference.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -475,
+   "jd_ut": 1547776.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.02,
+    "text": "Leo 2°01′",
+    "longitude": 122.022
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sicilian Courts",
+   "stop": "Acragas, the ridge of temples",
+   "date": "-0474-01-01",
+   "date_confidence": "The commissions for Theron and Thrasybulus are attested by the odes themselves (Olympian 2, Olympian 3 and related poems, 476-470s). Travel to Acragas is inferred from the commissions and asserted only by late Lives.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -473,
+   "jd_ut": 1548294.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.51,
+    "text": "Capricornus 5°31′",
+    "longitude": 275.513
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sicilian Courts",
+   "stop": "Olympia, where the wins are made",
+   "date": "-0472-08-01",
+   "date_confidence": "General across the career rather than a single event; the date orders the segment. Fourteen Olympian odes survive, composed across several decades, and the individual victories are dated by the ancient victor lists and scholia.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -471,
+   "jd_ut": 1549237.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.05,
+    "text": "Leo 2°03′",
+    "longitude": 122.053
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sicilian Courts",
+   "stop": "Aetna, the city under the mountain",
+   "date": "-0470-08-01",
+   "date_confidence": "Attested: Pythian 1 is dated to 470 BCE and takes Hieron's chariot victory and the foundation of Aetna as its occasion. The coordinates are those of Catania, on the site Hieron refounded.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -469,
+   "jd_ut": 1549967.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.58,
+    "text": "Leo 1°35′",
+    "longitude": 121.583
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Four Sanctuaries and the Long Middle Years",
+   "stop": "Nemea, the book that is not all Nemean",
+   "date": "-0468-01-01",
+   "date_confidence": "The eleven Nemean odes are a fact of the transmitted corpus; the individual dates vary and several are disputed. The date here orders the segment. Coordinates are those of the sanctuary of Zeus at ancient Nemea.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -467,
+   "jd_ut": 1550486.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.06,
+    "text": "Capricornus 6°04′",
+    "longitude": 276.063
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Four Sanctuaries and the Long Middle Years",
+   "stop": "Isthmia, the book that breaks off",
+   "date": "-0467-01-01",
+   "date_confidence": "The eight complete Isthmian odes are a fact of the transmitted corpus; the date orders the segment. The medieval manuscripts stop after Isthmian 8 and Race prints a fragmentary Isthmian 9, so the loss is at the end of the book, not the beginning. Coordinates are those of the sanctuary of Poseidon at Isthmia.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -466,
+   "jd_ut": 1550851.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.82,
+    "text": "Capricornus 5°49′",
+    "longitude": 275.816
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Four Sanctuaries and the Long Middle Years",
+   "stop": "Aegina, the island of the Aeacids",
+   "date": "-0465-01-01",
+   "date_confidence": "The proportion of Aeginetan odes is a straightforward count from the surviving corpus and is attested; the dates run from the 490s to the 450s and the stop is placed mid-range. Residence on the island is not established by the count and is not claimed here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -464,
+   "jd_ut": 1551581.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.32,
+    "text": "Capricornus 5°19′",
+    "longitude": 275.323
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Four Sanctuaries and the Long Middle Years",
+   "stop": "Lindos, the ode in letters of gold",
+   "date": "-0464-08-01",
+   "date_confidence": "The ode and its 464 BCE occasion are attested. The gold inscription in the temple of Athena Lindia is unverified tradition: no stone survives and no ancient inventory lists it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -463,
+   "jd_ut": 1552159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.11,
+    "text": "Leo 2°07′",
+    "longitude": 122.113
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Four Sanctuaries and the Long Middle Years",
+   "stop": "Cyrene, the longest ode and a man in exile",
+   "date": "-0462-01-01",
+   "date_confidence": "Attested: Pythian 4 and 5 honour Arcesilas IV and are dated 462/461 BCE. Whether Pindar knew Damophilus personally, or performed any assigned diplomatic role, is unresolved.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -461,
+   "jd_ut": 1552677.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "assigned"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.6,
+    "text": "Capricornus 5°36′",
+    "longitude": 275.598
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Four Sanctuaries and the Long Middle Years",
+   "stop": "Delphi, a dream of a shadow",
+   "date": "-0446-08-01",
+   "date_confidence": "Attested: Pythian 8, for Aristomenes of Aegina, is tied to the Pythian victory of 446 BCE and is the latest securely dated ode in the corpus. The famous closing phrase is quoted from the ode in many translations; no single verbatim rendering was verified in this pass, so none is given as a quote.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -445,
+   "jd_ut": 1558733.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.76,
+    "text": "Leo 1°46′",
+    "longitude": 121.765
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Persephone, Theoxenus, and the Road to Argos",
+   "stop": "Thebes, the Mother of the Gods next door",
+   "date": "-0445-01-01",
+   "date_confidence": "Tradition, undated. The scholia and Pausanias report both a vision and a cult founded near the poet's house; Pausanias Book 9 could not be retrieved from any open text this session, so the citation is secondhand. A real local shrine is easier to credit than the apparition.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -444,
+   "jd_ut": 1558886.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.46,
+    "text": "Capricornus 5°28′",
+    "longitude": 275.464
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Persephone, Theoxenus, and the Road to Argos",
+   "stop": "Argos, the boy from Tenedos",
+   "date": "-0440-01-01",
+   "date_confidence": "The fragment is attested; its date, occasion and place of composition are not. It is placed here only because the death legend attaches Theoxenus to the poet's last hour at Argos. Nothing establishes that the fragment was written there.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -439,
+   "jd_ut": 1560713.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.26,
+    "text": "Capricornus 6°16′",
+    "longitude": 276.261
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Persephone, Theoxenus, and the Road to Argos",
+   "stop": "Argos, the death at eighty",
+   "date": "-0438-01-01",
+   "date_confidence": "Traditional. Death at Argos at about eighty, conventionally c. 438 BCE, comes from the late Lives; no contemporary notice survives and the variant accounts of the manner of death are not reconciled. The only firm bracket is Pythian 8 of 446 BCE.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -437,
+   "jd_ut": 1561443.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "convention",
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.77,
+    "text": "Capricornus 5°46′",
+    "longitude": 275.768
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Persephone, Theoxenus, and the Road to Argos",
+   "stop": "Thebes, the daughters bring the ashes home",
+   "date": "-0438-06-01",
+   "date_confidence": "Late tradition. The names Eumetis and Protomache, the carrying of the ashes, and the Theban burial are all from the late Lives; nothing contemporary confirms any of it, and the date is an ordering device.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -437,
+   "jd_ut": 1561594.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.4,
+    "text": "Gemini 3°24′",
+    "longitude": 63.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chair, the Books, the House",
+   "stop": "Delphi, the iron chair and the supper of the gods",
+   "date": "-0400-01-01",
+   "date_confidence": "Posthumous honour of unknown original date. The only witness is Pausanias 10.24.5, writing in the second century CE; the passage could not be fetched from Perseus, Theoi, Wikisource, Attalus or Gutenberg this session and is reported at second hand. The date is an ordering device with no evidential value.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -399,
+   "jd_ut": 1575323.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "ordering",
+    "decade/century"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.54,
+    "text": "Capricornus 6°33′",
+    "longitude": 276.544
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chair, the Books, the House",
+   "stop": "Thebes, the house left standing",
+   "date": "-0335-09-01",
+   "date_confidence": "Attested for the bare fact: Arrian, Anabasis 1.9, says Alexander preserved the house and the descendants of Pindar out of respect for his memory. The motive usually attached, that Pindar had praised an ancestor of the Macedonian kings, is not in Arrian and belongs to a later strand of the tradition. Coordinates and date inherit the atlas pin for the Theban stop on alexander.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -334,
+   "jd_ut": 1599307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 3.14,
+    "text": "Virgo 3°09′",
+    "longitude": 153.142
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chair, the Books, the House",
+   "stop": "Alexandria, seventeen books by kind",
+   "date": "-0200-01-01",
+   "date_confidence": "Attested as transmission history: the seventeen-book arrangement by genre belongs to Hellenistic Alexandrian scholarship, associated with the tradition of Aristophanes of Byzantium, and is illuminated by P.Oxy. 2438. The date is a placement inside the Hellenistic period, not an event date. Pindar himself never went to Alexandria; the stop is for the corpus.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -199,
+   "jd_ut": 1648373.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) span/window"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.96,
+    "text": "Capricornus 7°58′",
+    "longitude": 277.962
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chair, the Books, the House",
+   "stop": "Oxyrhynchus, a Life in the rubbish mound",
+   "date": "0200-01-01",
+   "date_confidence": "The papyrus is dated on palaeographic grounds to the late second or early third century CE; the date given here is that palaeographic bracket, not a documented year. Published as P.Oxy. XXVI 2438 in 1961. Pindar never went to Egypt; the stop is for the document.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 200,
+   "jd_ut": 1794107.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 37,
+  "dated": 37,
+  "unparsed": 0,
+  "day": 6,
+  "month": 3,
+  "year": 28
+ },
+ "parse_failures": []
+}

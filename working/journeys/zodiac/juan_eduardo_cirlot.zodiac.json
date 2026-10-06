@@ -1,0 +1,1840 @@
+{
+ "slug": "juan_eduardo_cirlot",
+ "traveler": "Juan Eduardo Cirlot Laporta",
+ "title": "The Seventh Face of the Die: Barcelona, the Dictionary of Symbols, and the Bronwyn Cycle",
+ "years": "1916-1973",
+ "years_parsed": {
+  "first": 1916,
+  "last": 1973
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Eixample Boy",
+  "stop": "Barcelona, the birth in the Eixample",
+  "date": "1916-04-09",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1916,
+  "jd_ut": 2420962.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Aries",
+   "degree": 18.81,
+   "text": "Aries 18°49′",
+   "longitude": 18.815
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 1.39,
+   "text": "Cancer 1°23′",
+   "longitude": 91.388
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 12.53,
+   "text": "Aries 12°32′",
+   "longitude": 12.526
+  },
+  "venus": {
+   "sign": "Gemini",
+   "degree": 3.68,
+   "text": "Gemini 3°41′",
+   "longitude": 63.683
+  },
+  "mars": {
+   "sign": "Leo",
+   "degree": 12.21,
+   "text": "Leo 12°12′",
+   "longitude": 132.208
+  },
+  "jupiter": {
+   "sign": "Aries",
+   "degree": 13.31,
+   "text": "Aries 13°19′",
+   "longitude": 13.314
+  },
+  "saturn": {
+   "sign": "Cancer",
+   "degree": 10.39,
+   "text": "Cancer 10°23′",
+   "longitude": 100.386
+  },
+  "conjunctions": [
+   {
+    "sign": "Aries",
+    "bodies": [
+     "Sun",
+     "Mercury",
+     "Jupiter"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1916-1973",
+  "first_year_parsed": 1916
+ },
+ "stops": [
+  {
+   "segment": "The Eixample Boy",
+   "stop": "Barcelona, the birth in the Eixample",
+   "date": "1916-04-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420962.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.81,
+    "text": "Aries 18°49′",
+    "longitude": 18.815
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 1.39,
+    "text": "Cancer 1°23′",
+    "longitude": 91.388
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 12.53,
+    "text": "Aries 12°32′",
+    "longitude": 12.526
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 3.68,
+    "text": "Gemini 3°41′",
+    "longitude": 63.683
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 12.21,
+    "text": "Leo 12°12′",
+    "longitude": 132.208
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 13.31,
+    "text": "Aries 13°19′",
+    "longitude": 13.314
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 10.39,
+    "text": "Cancer 10°23′",
+    "longitude": 100.386
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Eixample Boy",
+   "stop": "Carrer de Casp, the Jesuit schoolroom",
+   "date": "1922-01-01",
+   "date_confidence": "reconstructed from his age; the sources name the school, not the years",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423055.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Eixample Boy",
+   "stop": "Barcelona, eight years under Fernando Ardevol",
+   "date": "1928-01-01",
+   "date_confidence": "traditional; the sources give eight years of study without fixing their start",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Eixample Boy",
+   "stop": "Banco Hispanoamericano, the ledgers",
+   "date": "1932-01-01",
+   "date_confidence": "inferred; no source dates his years at the customs agency or the bank",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Eixample Boy",
+   "stop": "Barcelona, the war arrives",
+   "date": "1936-07-01",
+   "date_confidence": "attested to July 1936; the day is context, not record",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428350.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.97,
+    "text": "Cancer 8°58′",
+    "longitude": 98.967
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Uniforms",
+   "stop": "Barcelona, mobilized for the Republic",
+   "date": "1937-01-01",
+   "date_confidence": "year attested; no month, no unit, no sector recorded in any source consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Uniforms",
+   "stop": "Zaragoza, mobilized by the victors",
+   "date": "1940-01-01",
+   "date_confidence": "attested to the start of 1940; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429629.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.43,
+    "text": "Capricornus 9°26′",
+    "longitude": 279.431
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Uniforms",
+   "stop": "Zaragoza, the library of Alfonso Bunuel",
+   "date": "1941-01-01",
+   "date_confidence": "within the attested 1940-1943 posting; the individual translations are undated",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2429995.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Uniforms",
+   "stop": "Barcelona, back to the ledgers",
+   "date": "1943-07-01",
+   "date_confidence": "year attested, summer per the sources; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430906.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.31,
+    "text": "Cancer 8°18′",
+    "longitude": 98.308
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Roll of the Die",
+   "stop": "Barcelona, a cafe on the Ramblas: El libro de Cartago",
+   "date": "1946-12-01",
+   "date_confidence": "attested to the last days of 1946; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2432155.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.2,
+    "text": "Sagittarius 8°12′",
+    "longitude": 248.2
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Roll of the Die",
+   "stop": "Barcelona, the marriage to Gloria Valenzuela",
+   "date": "1947-08-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432408.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 17.5,
+    "text": "Leo 17°30′",
+    "longitude": 137.501
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.15,
+    "text": "Gemini 2°09′",
+    "longitude": 62.147
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 0.43,
+    "text": "Leo 0°26′",
+    "longitude": 120.426
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 11.04,
+    "text": "Leo 11°03′",
+    "longitude": 131.044
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 28.09,
+    "text": "Gemini 28°06′",
+    "longitude": 88.092
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 18.73,
+    "text": "Scorpio 18°44′",
+    "longitude": 228.733
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 13.13,
+    "text": "Leo 13°08′",
+    "longitude": 133.126
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Roll of the Die",
+   "stop": "Editorial Argos, the bookshop years",
+   "date": "1947-09-01",
+   "date_confidence": "sequence attested (after the 1947 marriage, before Gustavo Gili in 1951); the exact years are not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432429.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "not recorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.73,
+    "text": "Virgo 7°44′",
+    "longitude": 157.728
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Roll of the Die",
+   "stop": "Barcelona, the first issue of Dau al Set",
+   "date": "1948-09-01",
+   "date_confidence": "attested to September 1948",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432795.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.46,
+    "text": "Virgo 8°28′",
+    "longitude": 158.462
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Roll of the Die",
+   "stop": "Ateneu Barcelones, the premiere of Preludio",
+   "date": "1948-10-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432845.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 27.51,
+    "text": "Libra 27°31′",
+    "longitude": 207.511
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 0.94,
+    "text": "Gemini 0°56′",
+    "longitude": 60.941
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 25.31,
+    "text": "Libra 25°18′",
+    "longitude": 205.307
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 16.68,
+    "text": "Virgo 16°41′",
+    "longitude": 166.679
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 2.7,
+    "text": "Sagittarius 2°42′",
+    "longitude": 242.701
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 25.26,
+    "text": "Sagittarius 25°16′",
+    "longitude": 265.26
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 3.45,
+    "text": "Virgo 3°27′",
+    "longitude": 153.45
+   }
+  },
+  {
+   "segment": "The Roll of the Die",
+   "stop": "Barcelona, the Diccionario de los ismos",
+   "date": "1949-01-01",
+   "date_confidence": "year attested; month unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432917.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Roll of the Die",
+   "stop": "Paris, the Place Blanche and Andre Breton",
+   "date": "1949-06-01",
+   "date_confidence": "year attested; month unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433068.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.18,
+    "text": "Gemini 10°11′",
+    "longitude": 70.179
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Symbol, Stone, and Sword",
+   "stop": "Barcelona, the apprenticeship to Marius Schneider",
+   "date": "1949-11-01",
+   "date_confidence": "start year attested; most sources end it in 1954, one blogspot source in 1952; the month is conjectural",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433221.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.24,
+    "text": "Scorpio 8°15′",
+    "longitude": 218.245
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Symbol, Stone, and Sword",
+   "stop": "Sagrada Familia, Gaudi read as myth",
+   "date": "1950-01-01",
+   "date_confidence": "reconstruction: no source records a dated visit; 1950 is the publication year of El arte de Gaudi",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Symbol, Stone, and Sword",
+   "stop": "Park Guell, the serpent and the fragment",
+   "date": "1950-02-01",
+   "date_confidence": "reconstruction: inferred from the subject matter of the Gaudi book; no visit attested and no month recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433313.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.57,
+    "text": "Aquarius 11°34′",
+    "longitude": 311.572
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Symbol, Stone, and Sword",
+   "stop": "Barcelona Cathedral, the sword of Pere IV",
+   "date": "1951-01-01",
+   "date_confidence": "the Sunday family habit is attested without dates; 1951 is the year the collecting begins",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433647.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.767
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Symbol, Stone, and Sword",
+   "stop": "Editorial Gustavo Gili, Carrer del Rossello",
+   "date": "1951-03-01",
+   "date_confidence": "year attested, month unknown; the Rossello headquarters is not built until 1954-1960, so his first years sit at an address no source establishes",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433706.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.6,
+    "text": "Pisces 9°36′",
+    "longitude": 339.605
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Symbol, Stone, and Sword",
+   "stop": "Sala Caralt, the last exhibition of the group",
+   "date": "1951-10-01",
+   "date_confidence": "attested to October 1951 (MACBA); the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433920.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.01,
+    "text": "Libra 7°01′",
+    "longitude": 187.012
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Symbol, Stone, and Sword",
+   "stop": "Vilanova i la Geltru, the Academia del Faro de San Cristobal",
+   "date": "1952-01-01",
+   "date_confidence": "membership attested, admission date unknown; 1952 placed inside Eugeni d'Ors's lifetime",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434012.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.52,
+    "text": "Capricornus 9°31′",
+    "longitude": 279.519
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dictionary",
+   "stop": "Barcelona, El ojo en la mitologia",
+   "date": "1954-01-01",
+   "date_confidence": "year attested; month unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434743.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dictionary",
+   "stop": "Barcelona, Victoria born on her father's birthday",
+   "date": "1955-04-09",
+   "date_confidence": "attested by es.wikipedia; the article on her father gives 1954, contradicting its own sister page",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435206.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.38,
+    "text": "Aries 18°23′",
+    "longitude": 18.378
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dictionary",
+   "stop": "Barcelona, the turn recorded in the diagram",
+   "date": "1955-06-01",
+   "date_confidence": "reconstruction: Cirlot's own retrospective periodization, reported at second hand and undated within the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435259.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.75,
+    "text": "Gemini 9°45′",
+    "longitude": 69.747
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dictionary",
+   "stop": "Sala Gaspar, the poems read aloud",
+   "date": "1955-09-01",
+   "date_confidence": "reconstruction: the reading is reported without a date; 1955 is placed inside the decade the sources give",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435351.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "decade/century",
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.79,
+    "text": "Virgo 7°47′",
+    "longitude": 157.792
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dictionary",
+   "stop": "Barcelona, the Diccionario de simbolos tradicionales",
+   "date": "1958-01-01",
+   "date_confidence": "year attested; month unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436204.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.073
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Travels, the Man Does Not",
+   "stop": "Cuenca, the museum built by letter",
+   "date": "1960-01-01",
+   "date_confidence": "reconstruction: the correspondence is undated in the sources and no source places him in Cuenca",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2436934.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.58,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.578
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Travels, the Man Does Not",
+   "stop": "London, A Dictionary of Symbols",
+   "date": "1962-01-01",
+   "date_confidence": "year attested; month unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437665.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.103
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Travels, the Man Does Not",
+   "stop": "Barcelona, the father dies",
+   "date": "1962-06-01",
+   "date_confidence": "year attested; month unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437816.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.04,
+    "text": "Gemini 10°03′",
+    "longitude": 70.042
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Travels, the Man Does Not",
+   "stop": "Barcelona, the break with Tapies",
+   "date": "1963-01-01",
+   "date_confidence": "year attested; month unknown, and no source gives a cause",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438030.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.855
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bronwyn",
+   "stop": "Barcelona, a cinema and The War Lord",
+   "date": "1966-01-01",
+   "date_confidence": "1966 per en. and es.wikipedia, dating the Spanish release; Villena instead ties the encounter to the film's US release of November 1965",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439126.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bronwyn",
+   "stop": "Barcelona, the Bronwyn cycle opens",
+   "date": "1967-01-01",
+   "date_confidence": "year attested; month unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439491.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bronwyn",
+   "stop": "Toledo, the order that is not his",
+   "date": "1968-01-01",
+   "date_confidence": "gap: no source consulted places Cirlot in Toledo at any date, or links him to any order of that name; the date marks only where the question falls in his life",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2439856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.64,
+    "text": "Capricornus 9°38′",
+    "longitude": 279.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bronwyn",
+   "stop": "Barcelona, Del no mundo and the dictionary enlarged",
+   "date": "1969-01-01",
+   "date_confidence": "year attested; month unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bronwyn",
+   "stop": "Madrid, the essay in Cuadernos Hispanoamericanos",
+   "date": "1970-07-01",
+   "date_confidence": "month and year attested; whether he came to Madrid to speak it, as some accounts suggest of a 1969 talk, is unsettled",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440768.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.76,
+    "text": "Cancer 8°46′",
+    "longitude": 98.763
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lance Wound",
+   "stop": "Barcelona, the diagnosis",
+   "date": "1971-01-01",
+   "date_confidence": "year attested; month unknown",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2440952.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lance Wound",
+   "stop": "Carrer d'Hercegovina, the surgery and the same day",
+   "date": "1973-05-11",
+   "date_confidence": "attested; the street appears as Hercegovina in some sources and Herzegovino in others",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1973,
+   "jd_ut": 2441813.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 20.17,
+    "text": "Taurus 20°10′",
+    "longitude": 50.17
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 8.71,
+    "text": "Virgo 8°42′",
+    "longitude": 158.707
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 9.42,
+    "text": "Taurus 9°25′",
+    "longitude": 39.425
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 28.33,
+    "text": "Taurus 28°20′",
+    "longitude": 58.332
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 1.98,
+    "text": "Pisces 1°59′",
+    "longitude": 331.977
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 11.45,
+    "text": "Aquarius 11°27′",
+    "longitude": 311.448
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 19.65,
+    "text": "Gemini 19°39′",
+    "longitude": 79.651
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Lance Wound",
+   "stop": "Barcelona, the grave that no register holds",
+   "date": "1973-05-12",
+   "date_confidence": "gap: no cemetery record for Cirlot was found in any source consulted; the date is the day after the death, not an attested burial date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1973,
+   "jd_ut": 2441814.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 21.14,
+    "text": "Taurus 21°08′",
+    "longitude": 51.136
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 21.72,
+    "text": "Virgo 21°43′",
+    "longitude": 171.719
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 11.44,
+    "text": "Taurus 11°26′",
+    "longitude": 41.441
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 29.56,
+    "text": "Taurus 29°34′",
+    "longitude": 59.563
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 2.68,
+    "text": "Pisces 2°41′",
+    "longitude": 332.68
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 11.51,
+    "text": "Aquarius 11°30′",
+    "longitude": 311.508
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 19.77,
+    "text": "Gemini 19°46′",
+    "longitude": 79.771
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Book Outlives the Man",
+   "stop": "Valencia, Mundo de Juan Eduardo Cirlot",
+   "date": "1996-09-19",
+   "date_confidence": "attested; the exhibition ran to 17 November 1996",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450345.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 26.34,
+    "text": "Virgo 26°20′",
+    "longitude": 176.339
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 7.55,
+    "text": "Sagittarius 7°33′",
+    "longitude": 247.546
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 23.42,
+    "text": "Virgo 23°25′",
+    "longitude": 173.415
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 12.84,
+    "text": "Leo 12°50′",
+    "longitude": 132.836
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 5.7,
+    "text": "Leo 5°42′",
+    "longitude": 125.699
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.2,
+    "text": "Capricornus 8°12′",
+    "longitude": 278.202
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 4.2,
+    "text": "Aries 4°12′",
+    "longitude": 4.197
+   }
+  },
+  {
+   "segment": "The Book Outlives the Man",
+   "stop": "Madrid, Siruela keeps it in print",
+   "date": "1997-01-01",
+   "date_confidence": "reconstruction: the continuous print run since 1997 is stated by the publisher's own catalogue and not independently checked",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1997,
+   "jd_ut": 2450449.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.616
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Outlives the Man",
+   "stop": "Barcelona, El libro de Cartago comes back",
+   "date": "2016-09-01",
+   "date_confidence": "attested to September 2016, the centenary year of his birth; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457632.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 9.0,
+    "text": "Virgo 9°00′",
+    "longitude": 159.0
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Outlives the Man",
+   "stop": "New York, the revised dictionary",
+   "date": "2020-09-22",
+   "date_confidence": "attested by the NYRB product page; retail listings give 2022",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2020,
+   "jd_ut": 2459114.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 29.46,
+    "text": "Virgo 29°28′",
+    "longitude": 179.459
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 2.67,
+    "text": "Sagittarius 2°40′",
+    "longitude": 242.673
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 23.55,
+    "text": "Libra 23°33′",
+    "longitude": 203.549
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 17.49,
+    "text": "Leo 17°29′",
+    "longitude": 137.491
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 27.01,
+    "text": "Aries 27°01′",
+    "longitude": 27.013
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.51,
+    "text": "Capricornus 17°31′",
+    "longitude": 287.51
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 25.42,
+    "text": "Capricornus 25°25′",
+    "longitude": 295.416
+   }
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 7,
+  "month": 5,
+  "year": 32
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1801 @@
+{
+ "slug": "johannes_kepler",
+ "traveler": "Johannes Kepler",
+ "title": "The Five Solids and the Ellipse: Kepler from Weil der Stadt to the Lost Grave at Regensburg",
+ "years": "1571-1630",
+ "years_parsed": {
+  "first": 1571,
+  "last": 1630
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Comet and the Red Moon: Weil der Stadt and Leonberg",
+  "stop": "Weil der Stadt, the premature son",
+  "date": "1571-12-27",
+  "date_confidence": "attested; the hour of about half past two in the afternoon comes from Kepler's own retrospective horoscope of himself, not from a register. The date is transmitted in the Julian calendar, as standard biography gives it; the Gregorian equivalent would fall in January 1572.",
+  "calendar_applied": "gregorian (proleptic)",
+  "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+  "astronomical_year": 1571,
+  "jd_ut": 2295215.5,
+  "precision": "month",
+  "precision_triggers": [
+   "text affirms the month, not the day"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 4.68,
+   "text": "Capricornus 4°41′",
+   "longitude": 274.684
+  },
+  "sun_range": [
+   "Sagittarius",
+   "Capricornus"
+  ],
+  "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "1571-1630",
+  "first_year_parsed": 1571
+ },
+ "stops": [
+  {
+   "segment": "The Comet and the Red Moon: Weil der Stadt and Leonberg",
+   "stop": "Weil der Stadt, the premature son",
+   "date": "1571-12-27",
+   "date_confidence": "attested; the hour of about half past two in the afternoon comes from Kepler's own retrospective horoscope of himself, not from a register. The date is transmitted in the Julian calendar, as standard biography gives it; the Gregorian equivalent would fall in January 1572.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1571,
+   "jd_ut": 2295215.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.68,
+    "text": "Capricornus 4°41′",
+    "longitude": 274.684
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Comet and the Red Moon: Weil der Stadt and Leonberg",
+   "stop": "Leonberg, the inn and the German school",
+   "date": "1576-01-01",
+   "date_confidence": "year attested by MacTutor; month and day set to 01 for ordering, the family's move being dated only to the year.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1576,
+   "jd_ut": 2296681.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.811
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Comet and the Red Moon: Weil der Stadt and Leonberg",
+   "stop": "Leonberg, the great comet of 1577",
+   "date": "1577-11-01",
+   "date_confidence": "attested as a childhood memory Kepler himself recorded; the year is firm, the month is set from the known apparition of the Great Comet of 1577, and no source gives the day.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1577,
+   "jd_ut": 2297351.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.44,
+    "text": "Scorpio 8°26′",
+    "longitude": 218.44
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Comet and the Red Moon: Weil der Stadt and Leonberg",
+   "stop": "Leonberg, the lunar eclipse of 1580",
+   "date": "1580-01-01",
+   "date_confidence": "year attested; month and day set to 01 for ordering. The attribution is corrected here: the Colegio dossier gave the father as the parent who called him outdoors, but both the German and English Wikipedia accounts give the mother for both childhood sky events.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1580,
+   "jd_ut": 2298142.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.841
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Scholarship Ladder: Adelberg, Maulbronn, Tübingen",
+   "stop": "Adelberg, the lower seminary",
+   "date": "1584-01-01",
+   "date_confidence": "year attested by MacTutor; month and day set to 01 for ordering.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1584,
+   "jd_ut": 2299603.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.87
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Scholarship Ladder: Adelberg, Maulbronn, Tübingen",
+   "stop": "Maulbronn, the higher seminary",
+   "date": "1586-01-01",
+   "date_confidence": "year attested by Britannica; month and day set to 01 for ordering.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1586,
+   "jd_ut": 2300334.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.39,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.395
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Scholarship Ladder: Adelberg, Maulbronn, Tübingen",
+   "stop": "Tübingen, Mästlin teaching Copernicus in private",
+   "date": "1589-09-01",
+   "date_confidence": "matriculation attested to September 1589; day set to 01. The Magister Artium of 1591, folded into this stop, is attested to the year only.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1589,
+   "jd_ut": 2301673.5,
+   "precision": "month",
+   "precision_triggers": [
+    "year only",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.3,
+    "text": "Virgo 8°18′",
+    "longitude": 158.3
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Scholarship Ladder: Adelberg, Maulbronn, Tübingen",
+   "stop": "Tübingen, the disputation and the view from the moon",
+   "date": "1593-01-01",
+   "date_confidence": "reconstruction, dated c. 1593; month and day set to 01. The whole episode reaches us only through the tradition attached to the Somnium, and no source independent of that tradition was reachable.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1593,
+   "jd_ut": 2302891.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.7,
+    "text": "Capricornus 10°42′",
+    "longitude": 280.701
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Graz: The Five Solids and the Edict",
+   "stop": "Graz, the mathematics post he did not want",
+   "date": "1594-04-01",
+   "date_confidence": "attested to April 1594; day set to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1594,
+   "jd_ut": 2303346.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.94,
+    "text": "Aries 10°56′",
+    "longitude": 10.941
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Graz: The Five Solids and the Edict",
+   "stop": "Graz, the figure on the classroom board",
+   "date": "1595-07-19",
+   "date_confidence": "attested to the day, from Kepler's own account.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1595,
+   "jd_ut": 2303820.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 25.55,
+    "text": "Cancer 25°33′",
+    "longitude": 115.554
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 26.59,
+    "text": "Sagittarius 26°35′",
+    "longitude": 266.588
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 10.09,
+    "text": "Leo 10°05′",
+    "longitude": 130.087
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 18.8,
+    "text": "Gemini 18°48′",
+    "longitude": 78.805
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 26.37,
+    "text": "Aries 26°22′",
+    "longitude": 26.374
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 3.77,
+    "text": "Aries 3°46′",
+    "longitude": 3.768
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.99,
+    "text": "Leo 23°59′",
+    "longitude": 143.985
+   }
+  },
+  {
+   "segment": "Graz: The Five Solids and the Edict",
+   "stop": "Graz, the Mysterium sent to Tübingen",
+   "date": "1596-01-01",
+   "date_confidence": "year attested; month and day set to 01. The stop is pinned at Graz, where Kepler held his post and did the work; the printing was carried out at Tübingen under Mästlin's supervision.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1596,
+   "jd_ut": 2303986.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.958
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Graz: The Five Solids and the Edict",
+   "stop": "Gössendorf, the miller's daughter",
+   "date": "1597-04-27",
+   "date_confidence": "attested to the day. Coordinates are the municipality of Gössendorf to two decimals; German Wikipedia names Schloss Mühlegg as the residence but gives no coordinates for the castle itself.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1597,
+   "jd_ut": 2304468.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 6.58,
+    "text": "Taurus 6°35′",
+    "longitude": 36.585
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 2.93,
+    "text": "Virgo 2°56′",
+    "longitude": 152.933
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 9.98,
+    "text": "Aries 9°59′",
+    "longitude": 9.976
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 13.36,
+    "text": "Aries 13°22′",
+    "longitude": 13.362
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 17.71,
+    "text": "Pisces 17°43′",
+    "longitude": 347.713
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 19.24,
+    "text": "Taurus 19°14′",
+    "longitude": 49.24
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 14.68,
+    "text": "Virgo 14°41′",
+    "longitude": 164.68
+   }
+  },
+  {
+   "segment": "Graz: The Five Solids and the Edict",
+   "stop": "Graz, the edict",
+   "date": "1598-09-01",
+   "date_confidence": "attested to September 1598; day set to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1598,
+   "jd_ut": 2304960.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.13,
+    "text": "Virgo 8°08′",
+    "longitude": 158.128
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Benátky nad Jizerou, the data he came for",
+   "date": "1600-02-04",
+   "date_confidence": "attested to the day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1600,
+   "jd_ut": 2305481.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 14.56,
+    "text": "Aquarius 14°34′",
+    "longitude": 314.561
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 7.38,
+    "text": "Libra 7°23′",
+    "longitude": 187.382
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 20.72,
+    "text": "Aquarius 20°43′",
+    "longitude": 320.716
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 0.19,
+    "text": "Capricornus 0°11′",
+    "longitude": 270.19
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 6.29,
+    "text": "Leo 6°18′",
+    "longitude": 126.294
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 17.11,
+    "text": "Leo 17°07′",
+    "longitude": 137.112
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 28.44,
+    "text": "Libra 28°26′",
+    "longitude": 208.438
+   }
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Graz, the last departure",
+   "date": "1600-09-30",
+   "date_confidence": "attested to the day. Note that Kepler's February visit to Benátky preceded this departure: he returned to Graz in mid-1600 and was expelled for good in the autumn.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1600,
+   "jd_ut": 2305720.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.01,
+    "text": "Libra 7°00′",
+    "longitude": 187.006
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 13.84,
+    "text": "Cancer 13°51′",
+    "longitude": 103.842
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 21.04,
+    "text": "Libra 21°03′",
+    "longitude": 201.044
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 7.12,
+    "text": "Libra 7°07′",
+    "longitude": 187.117
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 10.75,
+    "text": "Scorpio 10°45′",
+    "longitude": 220.751
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 10.01,
+    "text": "Virgo 10°01′",
+    "longitude": 160.009
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 28.32,
+    "text": "Libra 28°19′",
+    "longitude": 208.324
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Prague Castle, imperial mathematician",
+   "date": "1601-10-26",
+   "date_confidence": "corrected. The dossier gave 24 October 1601, which is Tycho Brahe's death date; English Wikipedia states Kepler was appointed successor two days after Tycho's death, i.e. 26 October 1601.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1601,
+   "jd_ut": 2306111.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 2.61,
+    "text": "Scorpio 2°36′",
+    "longitude": 212.606
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 2.99,
+    "text": "Scorpio 3°00′",
+    "longitude": 212.992
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 25.1,
+    "text": "Libra 25°06′",
+    "longitude": 205.104
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 18.05,
+    "text": "Virgo 18°03′",
+    "longitude": 168.049
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 21.11,
+    "text": "Leo 21°07′",
+    "longitude": 141.111
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.11,
+    "text": "Libra 9°07′",
+    "longitude": 189.114
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 11.73,
+    "text": "Scorpio 11°44′",
+    "longitude": 221.732
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Prague, the astrology he means to reform",
+   "date": "1601-12-01",
+   "date_confidence": "year of publication attested; month and day set to 01 for ordering within the segment. The relation to Pico is asserted in the corpus file for Giovanni Pico della Mirandola on the authority of the Stanford Encyclopedia of Philosophy, and is a relation of text to text, not of persons.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1601,
+   "jd_ut": 2306147.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.94,
+    "text": "Sagittarius 8°56′",
+    "longitude": 248.937
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Prague, the eye as an instrument",
+   "date": "1604-01-01",
+   "date_confidence": "year attested; month and day set to 01. Corrected as to place: MacTutor gives Frankfurt as the place of printing, but the work was written in Prague, where the stop is pinned.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1604,
+   "jd_ut": 2306908.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.02,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.017
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Prague, the new star in the serpent-bearer",
+   "date": "1604-10-01",
+   "date_confidence": "attested to October 1604; day set to 01. The stop folds in the publication of De stella nova in 1606, also attested to the year only.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1604,
+   "jd_ut": 2307182.5,
+   "precision": "month",
+   "precision_triggers": [
+    "year only",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.02,
+    "text": "Libra 8°01′",
+    "longitude": 188.023
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Prague, the war on Mars",
+   "date": "1609-01-01",
+   "date_confidence": "year of publication attested; month and day set to 01. Printed at Heidelberg; the stop is pinned at Prague, where the work was done across the preceding years.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1609,
+   "jd_ut": 2308735.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.82,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.818
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Prague, answering the Sidereus nuncius",
+   "date": "1610-01-01",
+   "date_confidence": "year attested; month and day set to 01. The stop folds in Dioptrice, published 1611, which the pool carries tagged R on the authority of the Stanford Encyclopedia of Philosophy.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1610,
+   "jd_ut": 2309100.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.571
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Prague, the death of Friedrich",
+   "date": "1611-01-01",
+   "date_confidence": "corrected. The dossier bound this death to Barbara's under a single July date; German Wikipedia puts Friedrich's smallpox death in January 1611, roughly five months earlier. Day set to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1611,
+   "jd_ut": 2309465.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.32,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.323
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Prague, the death of Barbara",
+   "date": "1611-07-03",
+   "date_confidence": "contradiction flagged and not resolved: English Wikipedia gives 3 July 1611, the Stanford Encyclopedia of Philosophy timeline gives 3 August 1611. The July date is used here for ordering only.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1611,
+   "jd_ut": 2309648.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 10.42,
+    "text": "Cancer 10°25′",
+    "longitude": 100.42
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tycho's Numbers: Benátky and the Prague Court",
+   "stop": "Prague, the emperor dies",
+   "date": "1612-01-01",
+   "date_confidence": "attested to January 1612; day set to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1612,
+   "jd_ut": 2309830.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.076
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Linz: The Barrels, the Third Law, the Harmony",
+   "stop": "Linz, the provincial mathematician",
+   "date": "1612-04-01",
+   "date_confidence": "corrected. The dossier gave August 1612; German Wikipedia gives April 1612 for the move, MacTutor puts the acceptance in late 1611 and Stanford gives only the bare year. Spring 1612 is used, with the day set to 01. Coordinates are the canonical Linz pin already used in robert_fludd.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1612,
+   "jd_ut": 2309921.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.57,
+    "text": "Aries 11°34′",
+    "longitude": 11.571
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Linz: The Barrels, the Third Law, the Harmony",
+   "stop": "Linz, the second marriage",
+   "date": "1613-10-30",
+   "date_confidence": "attested to the day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1613,
+   "jd_ut": 2310498.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 6.7,
+    "text": "Scorpio 6°42′",
+    "longitude": 216.705
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 21.5,
+    "text": "Taurus 21°30′",
+    "longitude": 51.501
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 19.09,
+    "text": "Libra 19°05′",
+    "longitude": 199.089
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 3.73,
+    "text": "Sagittarius 3°44′",
+    "longitude": 243.732
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 12.66,
+    "text": "Scorpio 12°40′",
+    "longitude": 222.664
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.39,
+    "text": "Libra 13°23′",
+    "longitude": 193.389
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.44,
+    "text": "Pisces 24°27′",
+    "longitude": 354.444
+   }
+  },
+  {
+   "segment": "Linz: The Barrels, the Third Law, the Harmony",
+   "stop": "Linz, the wine barrels",
+   "date": "1615-01-01",
+   "date_confidence": "year of publication attested by MacTutor; month and day set to 01. The origin story, that the problem came from a gauger's rod at his own wedding, is reported rather than documented.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1615,
+   "jd_ut": 2310926.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.35,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.353
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Linz: The Barrels, the Third Law, the Harmony",
+   "stop": "Linz, the fifteenth of May",
+   "date": "1618-05-15",
+   "date_confidence": "attested to the day, by Kepler's own account in Harmonice Mundi Book V, which also gives the failed first attempt of 8 March 1618.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1618,
+   "jd_ut": 2312156.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.88,
+    "text": "Taurus 23°53′",
+    "longitude": 53.883
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 23.45,
+    "text": "Capricornus 23°27′",
+    "longitude": 293.446
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 24.53,
+    "text": "Taurus 24°32′",
+    "longitude": 54.532
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 25.34,
+    "text": "Taurus 25°20′",
+    "longitude": 55.336
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 13.0,
+    "text": "Taurus 13°00′",
+    "longitude": 42.996
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 4.85,
+    "text": "Pisces 4°51′",
+    "longitude": 334.849
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 27.21,
+    "text": "Taurus 27°12′",
+    "longitude": 57.208
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Linz: The Barrels, the Third Law, the Harmony",
+   "stop": "Linz, Harmonices mundi and the quarrel with Robert Fludd",
+   "date": "1619-01-01",
+   "date_confidence": "year attested; month and day set to 01. Note that the discovery narrative in Book V dates itself to 1618 while the volume appears in 1619, which is why some sources date the book 1618.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1619,
+   "jd_ut": 2312387.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.38,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.382
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Linz: The Barrels, the Third Law, the Harmony",
+   "stop": "Linz, the Epitome and the Index",
+   "date": "1619-06-01",
+   "date_confidence": "the Epitome appeared in installments across 1618-1621; the Index placement is given in the pool as 1619 on a bibliographic synthesis cross-checked against MacTutor's listing, and was not independently verified against a Roman decree. Month set to 06 to order it after the Harmonices within the same year.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1619,
+   "jd_ut": 2312538.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.95,
+    "text": "Gemini 9°57′",
+    "longitude": 69.953
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Witch of Leonberg: His Mother's Trial",
+   "stop": "Linz, the letter out of Leonberg",
+   "date": "1615-06-01",
+   "date_confidence": "year attested; month set to 06 for ordering after the Nova stereometria within 1615. The stop is pinned at Linz because that is where Kepler was; the accusation itself was made at Leonberg.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1615,
+   "jd_ut": 2311077.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.92,
+    "text": "Gemini 9°55′",
+    "longitude": 69.921
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Witch of Leonberg: His Mother's Trial",
+   "stop": "Leonberg, taking his mother out",
+   "date": "1616-12-01",
+   "date_confidence": "attested to December 1616; day set to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1616,
+   "jd_ut": 2311626.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.3,
+    "text": "Sagittarius 9°18′",
+    "longitude": 249.302
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Witch of Leonberg: His Mother's Trial",
+   "stop": "Güglingen, the arrest and the son for counsel",
+   "date": "1620-08-07",
+   "date_confidence": "arrest attested to 7 August 1620. Coordinates for Güglingen are given to low precision in the source; the specific cell is not located. German Wikipedia's Güglingen article did not itself carry the detention when fetched, which reaches this file through the Leonberg article.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1620,
+   "jd_ut": 2312971.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 14.66,
+    "text": "Leo 14°40′",
+    "longitude": 134.659
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 5.54,
+    "text": "Sagittarius 5°32′",
+    "longitude": 245.537
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 27.15,
+    "text": "Leo 27°09′",
+    "longitude": 147.15
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 28.39,
+    "text": "Virgo 28°24′",
+    "longitude": 178.394
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 24.09,
+    "text": "Cancer 24°06′",
+    "longitude": 114.092
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 19.26,
+    "text": "Taurus 19°16′",
+    "longitude": 49.262
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 2.41,
+    "text": "Cancer 2°25′",
+    "longitude": 92.41
+   }
+  },
+  {
+   "segment": "The Witch of Leonberg: His Mother's Trial",
+   "stop": "Güglingen, the territio verbalis",
+   "date": "1621-08-20",
+   "date_confidence": "corrected. The dossier gave September 1621; both English and German Wikipedia date the court hearing and the threat of torture to 20 August 1621, with release following in October, about six weeks later rather than the following month.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1621,
+   "jd_ut": 2313349.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 26.94,
+    "text": "Leo 26°56′",
+    "longitude": 146.938
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 2.96,
+    "text": "Libra 2°58′",
+    "longitude": 182.962
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 24.19,
+    "text": "Virgo 24°12′",
+    "longitude": 174.193
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 6.51,
+    "text": "Virgo 6°31′",
+    "longitude": 156.512
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 28.49,
+    "text": "Scorpio 28°30′",
+    "longitude": 238.492
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 21.61,
+    "text": "Gemini 21°36′",
+    "longitude": 81.607
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 16.41,
+    "text": "Cancer 16°24′",
+    "longitude": 106.406
+   }
+  },
+  {
+   "segment": "The Witch of Leonberg: His Mother's Trial",
+   "stop": "Roßwälden, released and dead within six months",
+   "date": "1622-04-13",
+   "date_confidence": "death attested to 13 April 1622; the release is attested to October 1621, after roughly 405 days of pretrial detention.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1622,
+   "jd_ut": 2313585.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.92,
+    "text": "Aries 22°55′",
+    "longitude": 22.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ulm: The Rudolphine Tables",
+   "stop": "Linz, the fire in the printing quarter",
+   "date": "1626-06-01",
+   "date_confidence": "attested to June 1626; day set to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1626,
+   "jd_ut": 2315095.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.25,
+    "text": "Gemini 10°15′",
+    "longitude": 70.248
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ulm: The Rudolphine Tables",
+   "stop": "Ulm, the move with the manuscript",
+   "date": "1626-11-01",
+   "date_confidence": "attested to November 1626; day set to 01. Coordinates are the Ulm old town; the address of Jonas Saur's shop was not confirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1626,
+   "jd_ut": 2315248.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.56,
+    "text": "Scorpio 8°33′",
+    "longitude": 218.558
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ulm: The Rudolphine Tables",
+   "stop": "Ulm, the Tables printed",
+   "date": "1627-09-01",
+   "date_confidence": "attested to September 1627; day set to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1627,
+   "jd_ut": 2315552.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.11,
+    "text": "Virgo 8°07′",
+    "longitude": 158.113
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ulm: The Rudolphine Tables",
+   "stop": "Prague, presenting the Tables and asking for the money",
+   "date": "1628-01-01",
+   "date_confidence": "year attested; month and day set to 01. Corrected as to figures: the dossier placed the ~12,000 gulden arrears here, but that is the sum standing at Kepler's death in 1630. The printing-period figure is 6,299 florins owed by the Imperial Court, of which he recovered 2,000.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1628,
+   "jd_ut": 2315674.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.19,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.193
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sagan and the Last Road",
+   "stop": "Żagań, under Wallenstein",
+   "date": "1628-07-20",
+   "date_confidence": "attested to the day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1628,
+   "jd_ut": 2315875.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 27.49,
+    "text": "Cancer 27°29′",
+    "longitude": 117.488
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 7.46,
+    "text": "Pisces 7°27′",
+    "longitude": 337.456
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 15.02,
+    "text": "Leo 15°01′",
+    "longitude": 135.024
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 13.01,
+    "text": "Virgo 13°00′",
+    "longitude": 163.006
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 0.98,
+    "text": "Virgo 0°59′",
+    "longitude": 150.98
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 24.91,
+    "text": "Sagittarius 24°55′",
+    "longitude": 264.914
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 5.72,
+    "text": "Libra 5°43′",
+    "longitude": 185.719
+   }
+  },
+  {
+   "segment": "Sagan and the Last Road",
+   "stop": "Żagań, the press and the notes to the dream",
+   "date": "1629-01-01",
+   "date_confidence": "year attested; month and day set to 01. Corrected as to relationship: Jacob Bartsch was Kepler's collaborator in 1629 and became his son-in-law only in March 1630, so the dossier's 'son-in-law' at this date is an anachronism.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1629,
+   "jd_ut": 2316040.5,
+   "precision": "month",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.97,
+    "text": "Capricornus 10°58′",
+    "longitude": 280.965
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sagan and the Last Road",
+   "stop": "Regensburg, the last ride",
+   "date": "1630-10-08",
+   "date_confidence": "given in the Stanford Encyclopedia timeline and corroborated by standard chronology; carried in the pool tagged R rather than A.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1630,
+   "jd_ut": 2316685.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 14.65,
+    "text": "Libra 14°39′",
+    "longitude": 194.651
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 11.01,
+    "text": "Scorpio 11°01′",
+    "longitude": 221.012
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 29.01,
+    "text": "Libra 29°01′",
+    "longitude": 209.014
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 12.24,
+    "text": "Virgo 12°14′",
+    "longitude": 162.235
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 5.5,
+    "text": "Scorpio 5°30′",
+    "longitude": 215.505
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 3.76,
+    "text": "Pisces 3°45′",
+    "longitude": 333.756
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 5.13,
+    "text": "Scorpio 5°08′",
+    "longitude": 215.132
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Sagan and the Last Road",
+   "stop": "Regensburg, the fever",
+   "date": "1630-11-15",
+   "date_confidence": "attested to the day. Coordinates are those of the Keplergedächtnishaus given by German Wikipedia, 49 degrees 1 minute 16 seconds north, 12 degrees 5 minutes 37.7 seconds east; the identification of the house as the death house rests on that article.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1630,
+   "jd_ut": 2316723.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 22.69,
+    "text": "Scorpio 22°41′",
+    "longitude": 232.687
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 28.22,
+    "text": "Pisces 28°13′",
+    "longitude": 358.224
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 8.81,
+    "text": "Sagittarius 8°49′",
+    "longitude": 248.809
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 29.13,
+    "text": "Libra 29°08′",
+    "longitude": 209.13
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 2.5,
+    "text": "Sagittarius 2°30′",
+    "longitude": 242.504
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 3.49,
+    "text": "Pisces 3°29′",
+    "longitude": 333.49
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 9.63,
+    "text": "Scorpio 9°38′",
+    "longitude": 219.635
+   }
+  },
+  {
+   "segment": "Sagan and the Last Road",
+   "stop": "Regensburg, the grave that was taken apart",
+   "date": "1630-11-19",
+   "date_confidence": "burial attested to 19 November 1630 at the Petersfriedhof. Coordinates are a Regensburg city-centre placeholder: the Petersfriedhof lay outside the walls to the south-west and its exact site is not recoverable, which is the point of the stop. German Wikipedia dates the razing to 1632-1633 rather than to a specific month.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1630,
+   "jd_ut": 2316727.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "hard triggers (placeholder) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 26.73,
+    "text": "Scorpio 26°44′",
+    "longitude": 236.731
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 16.24,
+    "text": "Taurus 16°14′",
+    "longitude": 46.236
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 5.94,
+    "text": "Sagittarius 5°56′",
+    "longitude": 245.939
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 4.12,
+    "text": "Scorpio 4°07′",
+    "longitude": 214.124
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 5.43,
+    "text": "Sagittarius 5°26′",
+    "longitude": 245.427
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 3.74,
+    "text": "Pisces 3°45′",
+    "longitude": 333.743
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 10.1,
+    "text": "Scorpio 10°06′",
+    "longitude": 220.104
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 13,
+  "month": 15,
+  "year": 16
+ },
+ "parse_failures": []
+}

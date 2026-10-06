@@ -1,0 +1,1806 @@
+{
+ "slug": "hegel",
+ "traveler": "Georg Wilhelm Friedrich Hegel",
+ "title": "The Owl and the World-Soul: from the Stift chamber at Tübingen to the grave beside Fichte",
+ "years": "1770-1831",
+ "years_parsed": {
+  "first": 1770,
+  "last": 1831
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Stuttgart and the Stift",
+  "stop": "Stuttgart, birth in the Eberhardstraße",
+  "date": "1770-08-27",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1770,
+  "jd_ut": 2367777.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Virgo",
+   "degree": 3.67,
+   "text": "Virgo 3°40′",
+   "longitude": 153.669
+  },
+  "moon": {
+   "sign": "Scorpio",
+   "degree": 21.15,
+   "text": "Scorpio 21°09′",
+   "longitude": 231.151
+  },
+  "mercury": {
+   "sign": "Virgo",
+   "degree": 13.04,
+   "text": "Virgo 13°03′",
+   "longitude": 163.043
+  },
+  "venus": {
+   "sign": "Libra",
+   "degree": 12.44,
+   "text": "Libra 12°26′",
+   "longitude": 192.438
+  },
+  "mars": {
+   "sign": "Gemini",
+   "degree": 8.15,
+   "text": "Gemini 8°09′",
+   "longitude": 68.146
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 14.92,
+   "text": "Sagittarius 14°55′",
+   "longitude": 254.919
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 9.63,
+   "text": "Leo 9°38′",
+   "longitude": 129.631
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1770-1831",
+  "first_year_parsed": 1770
+ },
+ "stops": [
+  {
+   "segment": "Stuttgart and the Stift",
+   "stop": "Stuttgart, birth in the Eberhardstraße",
+   "date": "1770-08-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1770,
+   "jd_ut": 2367777.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 3.67,
+    "text": "Virgo 3°40′",
+    "longitude": 153.669
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 21.15,
+    "text": "Scorpio 21°09′",
+    "longitude": 231.151
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 13.04,
+    "text": "Virgo 13°03′",
+    "longitude": 163.043
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 12.44,
+    "text": "Libra 12°26′",
+    "longitude": 192.438
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 8.15,
+    "text": "Gemini 8°09′",
+    "longitude": 68.146
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.92,
+    "text": "Sagittarius 14°55′",
+    "longitude": 254.919
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 9.63,
+    "text": "Leo 9°38′",
+    "longitude": 129.631
+   }
+  },
+  {
+   "segment": "Stuttgart and the Stift",
+   "stop": "Stuttgart, the Gymnasium illustre",
+   "date": "1776-01-01",
+   "date_confidence": "year attested for entry to the Gymnasium; month and day defaulted. The school is named here as it was named in 1776: the Gymnasium illustre, founded 1686, which takes the title Eberhard-Ludwigs-Gymnasium only later.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1776,
+   "jd_ut": 2369730.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.261
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stuttgart and the Stift",
+   "stop": "Stuttgart, the death of the mother",
+   "date": "1783-01-01",
+   "date_confidence": "year attested; month and day not established in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1783,
+   "jd_ut": 2372287.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.567
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stuttgart and the Stift",
+   "stop": "Tübingen, entering the Tübinger Stift",
+   "date": "1788-10-01",
+   "date_confidence": "1788 per en.wikipedia; October is the customary term start and the day is defaulted. The atlas file schelling.journey.json instead dates Hegel's entry to 18 October 1790; the contradiction is left standing and both stops are carried.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1788,
+   "jd_ut": 2374387.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.46,
+    "text": "Libra 8°27′",
+    "longitude": 188.455
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stuttgart and the Stift",
+   "stop": "Tübingen, the Stift, the shared chamber",
+   "date": "1790-10-18",
+   "date_confidence": "18 October 1790 as fixed by schelling.journey.json, whose pin is inherited here unchanged; Hegel's own record has him in the Stift since 1788, and the two datings are not reconciled",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1790,
+   "jd_ut": 2375134.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.81,
+    "text": "Libra 24°49′",
+    "longitude": 204.81
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stuttgart and the Stift",
+   "stop": "Tübingen, the tree of liberty in the meadow",
+   "date": "1793-07-14",
+   "date_confidence": "traditional. The date comes from schelling.journey.json, which carries the planting as attested; the verification pass finds no contemporary evidence for the tree, calls it a later legend, and notes that the geography lens's own wording concedes as much.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2376134.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "legend"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 21.89,
+    "text": "Cancer 21°53′",
+    "longitude": 111.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stuttgart and the Stift",
+   "stop": "Tübingen, the examinations and the leaving",
+   "date": "1793-09-01",
+   "date_confidence": "September 1793 per Deutsche Biographie; day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2376183.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.93,
+    "text": "Virgo 8°56′",
+    "longitude": 158.933
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hofmeister Years",
+   "stop": "Bern, tutor in the house of von Steiger",
+   "date": "1793-10-01",
+   "date_confidence": "1793 attested; the month is inferred from the September departure from Tübingen and the day is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2376213.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.25,
+    "text": "Libra 8°15′",
+    "longitude": 188.248
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hofmeister Years",
+   "stop": "Tschugg, the summers at the Steiger estate",
+   "date": "1794-07-01",
+   "date_confidence": "the Steiger summers of 1793-1796 are attested as a period; the single July 1794 date is a placeholder inside it. Coordinates corrected to the village of Tschugg, 47° 1′ 38″ N, 7° 4′ 37″ E; the earlier pin lay some nine kilometres off near Gals.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1794,
+   "jd_ut": 2376486.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.26,
+    "text": "Cancer 9°16′",
+    "longitude": 99.26
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hofmeister Years",
+   "stop": "Frankfurt am Main, the house of the wine merchant Gogel",
+   "date": "1797-01-01",
+   "date_confidence": "1797 attested for the Frankfurt post; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377401.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.18,
+    "text": "Capricornus 11°11′",
+    "longitude": 281.18
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hofmeister Years",
+   "stop": "Stuttgart, the death of the father",
+   "date": "1799-01-01",
+   "date_confidence": "January 1799 per de.wikipedia; day not established. The chronology lens tagged this event as tradition; it is attested, and the geography lens already had it so.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378131.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.68,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.685
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Jena",
+   "stop": "Jena, the habilitation and the first book",
+   "date": "1801-01-01",
+   "date_confidence": "January 1801 per the geography lens; day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2378861.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.19,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.19
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Jena",
+   "stop": "Jena, the Kritisches Journal der Philosophie",
+   "date": "1802-01-01",
+   "date_confidence": "1802 attested; the journal runs 1802-1803; month and day defaulted. The chronology lens misspelled the title as Kritische Journal; the correct form is used here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379226.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.943
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Jena",
+   "stop": "Jena, extraordinary professor without a salary",
+   "date": "1805-01-01",
+   "date_confidence": "1805 attested; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380322.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.22,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.22
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Jena",
+   "stop": "Jena, Napoleon rides through the town",
+   "date": "1806-10-13",
+   "date_confidence": "attested. The chronology lens filed this together with the battle under 14 October; Napoleon entered Jena on the thirteenth, the day before, and Hegel's letter is dated the thirteenth.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1806,
+   "jd_ut": 2380972.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 18.97,
+    "text": "Libra 18°58′",
+    "longitude": 198.974
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 2.49,
+    "text": "Scorpio 2°29′",
+    "longitude": 212.491
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 15.34,
+    "text": "Libra 15°21′",
+    "longitude": 195.342
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 0.04,
+    "text": "Libra 0°02′",
+    "longitude": 180.035
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 13.78,
+    "text": "Leo 13°47′",
+    "longitude": 133.784
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 1.94,
+    "text": "Capricornus 1°56′",
+    "longitude": 271.937
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 29.69,
+    "text": "Libra 29°41′",
+    "longitude": 209.689
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Jena",
+   "stop": "Jena, the Phenomenology finished as the battle opens",
+   "date": "1806-10-14",
+   "date_confidence": "the battle is 14 October 1806, attested. Whether the last pages of the manuscript went to the printer just before, during, or just after it is disputed among biographers and is not settled here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1806,
+   "jd_ut": 2380973.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 19.97,
+    "text": "Libra 19°58′",
+    "longitude": 199.965
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 16.42,
+    "text": "Scorpio 16°25′",
+    "longitude": 226.42
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 17.07,
+    "text": "Libra 17°04′",
+    "longitude": 197.068
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 1.28,
+    "text": "Libra 1°17′",
+    "longitude": 181.279
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.35,
+    "text": "Leo 14°21′",
+    "longitude": 134.354
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 2.07,
+    "text": "Capricornus 2°04′",
+    "longitude": 272.073
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 29.81,
+    "text": "Libra 29°48′",
+    "longitude": 209.808
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Jena",
+   "stop": "Jena, the son of the landlady",
+   "date": "1807-02-05",
+   "date_confidence": "5 February 1807 per de.wikipedia, corroborated by the boy joining the household in April 1817 aged about ten. The chronology lens gave February 1806; that reading is rejected here and recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1807,
+   "jd_ut": 2381087.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 15.33,
+    "text": "Aquarius 15°20′",
+    "longitude": 315.331
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 16.7,
+    "text": "Capricornus 16°42′",
+    "longitude": 286.704
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 0.44,
+    "text": "Aquarius 0°27′",
+    "longitude": 300.443
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 24.42,
+    "text": "Aquarius 24°25′",
+    "longitude": 324.417
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 21.44,
+    "text": "Virgo 21°26′",
+    "longitude": 171.439
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 25.88,
+    "text": "Capricornus 25°53′",
+    "longitude": 295.882
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 10.15,
+    "text": "Scorpio 10°09′",
+    "longitude": 220.152
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Bamberg and Nuremberg",
+   "stop": "Bamberg, the editor of the Bamberger Zeitung",
+   "date": "1807-03-01",
+   "date_confidence": "he leaves Jena in March 1807 per Deutsche Biographie and takes the Bamberg post the same year; the day is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1807,
+   "jd_ut": 2381111.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.53,
+    "text": "Pisces 9°32′",
+    "longitude": 339.53
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bamberg and Nuremberg",
+   "stop": "Nuremberg, rector of the Ägidiengymnasium",
+   "date": "1808-11-01",
+   "date_confidence": "November 1808 per de.wikipedia and the chronology lens; the geography lens gives December 1808 and the disagreement is left standing. Day defaulted. The pin is the historic school on the Egidienplatz, not the 1911 building of its successor.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1808,
+   "jd_ut": 2381722.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.43,
+    "text": "Scorpio 8°26′",
+    "longitude": 218.428
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bamberg and Nuremberg",
+   "stop": "Nuremberg, the marriage to Marie von Tucher",
+   "date": "1811-09-01",
+   "date_confidence": "1811 attested, September per the geography lens, day defaulted. The venue of the ceremony is not established in the sources consulted and the pin is central Nuremberg.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1811,
+   "jd_ut": 2382756.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.62,
+    "text": "Virgo 7°37′",
+    "longitude": 157.622
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bamberg and Nuremberg",
+   "stop": "Nuremberg, the Science of Logic",
+   "date": "1812-01-01",
+   "date_confidence": "1812 for the first volume, attested; the three volumes appear 1812, 1813 and 1816. Month and day defaulted. The brother's death in Russia is attested for 1812, but no place precise enough to pin was found, so it is carried in this stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2382878.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.51,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.507
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bamberg and Nuremberg",
+   "stop": "Nuremberg, the two sons",
+   "date": "1813-01-01",
+   "date_confidence": "Karl born 1813 and Immanuel 1814, both attested by year; months and days not established, and the stop is dated to the earlier birth",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383244.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.279
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Heidelberg",
+   "stop": "Heidelberg, the first ordinary chair",
+   "date": "1816-10-01",
+   "date_confidence": "October 1816 per en.wikipedia and Deutsche Biographie; day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1816,
+   "jd_ut": 2384613.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.69,
+    "text": "Libra 7°41′",
+    "longitude": 187.687
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Heidelberg",
+   "stop": "Heidelberg, the Encyclopaedia of the Philosophical Sciences",
+   "date": "1817-01-01",
+   "date_confidence": "1817 attested; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384705.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.308
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Heidelberg",
+   "stop": "Heidelberg, Ludwig Fischer enters the house",
+   "date": "1817-04-01",
+   "date_confidence": "April 1817 attested. That the boy is about ten at this date is what fixes his birth to 1807 rather than 1806.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384795.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.92,
+    "text": "Aries 10°55′",
+    "longitude": 10.924
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berlin, the Chair of Fichte",
+   "stop": "Berlin, the chair on Unter den Linden",
+   "date": "1818-10-01",
+   "date_confidence": "October 1818 attested. The institution is named here as it was named in 1818: the University of Berlin, which becomes the Friedrich-Wilhelms-Universität only in 1828 and the Humboldt-Universität in 1949.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1818,
+   "jd_ut": 2385343.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.21,
+    "text": "Libra 7°13′",
+    "longitude": 187.21
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berlin, the Chair of Fichte",
+   "stop": "Berlin, the house at the Kupfergraben",
+   "date": "1819-01-01",
+   "date_confidence": "the residence Am Kupfergraben is attested by the memorial plaque in Berlin-Mitte; the house number and the date of moving in are not established, and 1819 is a placeholder inside the Berlin years. The geography lens had marked this as unverified tradition before the plaque was found.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385435.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "traditional",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.813
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berlin, the Chair of Fichte",
+   "stop": "Berlin, the Philosophy of Right",
+   "date": "1820-01-01",
+   "date_confidence": "published 1820; the original title page dates it 1821 and both research lenses followed the title page. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1820,
+   "jd_ut": 2385800.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.57,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.566
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Travelling Decade",
+   "stop": "Weimar, calling on Goethe",
+   "date": "1820-01-01",
+   "date_confidence": "en.wikipedia gives two trips to Weimar, the second ending in their last meeting; neither trip is dated in the sources consulted, and 1820 is a placeholder inside the Berlin decade. The geography lens's 'repeated visits' overstates the record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1820,
+   "jd_ut": 2385800.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.57,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.566
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Travelling Decade",
+   "stop": "Amsterdam, the Dutch pictures",
+   "date": "1822-01-01",
+   "date_confidence": "1822 attested for the journey to the northern Netherlands; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386531.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.09,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.09
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Travelling Decade",
+   "stop": "Vienna, the opera every evening",
+   "date": "1824-01-01",
+   "date_confidence": "1824 attested for the Vienna and Prague journey; month and day defaulted. The Rossini enthusiasm is widely repeated in the biographies and was not independently re-verified in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387261.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.6,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.595
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Travelling Decade",
+   "stop": "Paris, the galleries of the Louvre",
+   "date": "1827-01-01",
+   "date_confidence": "1827 attested for the one recorded Paris journey; the dates within the year were not established, so month and day are defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1827,
+   "jd_ut": 2388357.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.872
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rector, Cholera, and the Grave",
+   "stop": "Berlin, elected rector of the university",
+   "date": "1829-10-01",
+   "date_confidence": "October 1829 attested; the term ends in September 1830; day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389361.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.54,
+    "text": "Libra 7°32′",
+    "longitude": 187.541
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rector, Cholera, and the Grave",
+   "stop": "Berlin, the tricentennial of the Augsburg Confession",
+   "date": "1830-06-01",
+   "date_confidence": "June 1830 per Deutsche Biographie as relayed by the geography lens; the text of the address was not reached and the claim stands as reconstruction. Day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389604.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.95,
+    "text": "Gemini 9°57′",
+    "longitude": 69.952
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rector, Cholera, and the Grave",
+   "stop": "Batavia, the death of Ludwig Fischer",
+   "date": "1831-01-01",
+   "date_confidence": "1831 attested for the death, shortly before Hegel's own; month, day and burial place are not established, and the pin is Batavia, the present-day Jakarta",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389818.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.901
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rector, Cholera, and the Grave",
+   "stop": "Kreuzberg, out of the city while the cholera runs",
+   "date": "1831-08-01",
+   "date_confidence": "August 1831 attested; day defaulted. The Order of the Red Eagle is attested for 1831 without a month and is carried in this stop rather than pinned separately.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390030.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.95,
+    "text": "Leo 7°57′",
+    "longitude": 127.952
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rector, Cholera, and the Grave",
+   "stop": "Berlin, back for the new semester",
+   "date": "1831-10-01",
+   "date_confidence": "October 1831 attested; day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390091.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.06,
+    "text": "Libra 7°04′",
+    "longitude": 187.065
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rector, Cholera, and the Grave",
+   "stop": "Berlin, death at the Kupfergraben",
+   "date": "1831-11-14",
+   "date_confidence": "14 November 1831 attested. The cause is contested between the contemporary cholera diagnosis and a later reading as a different gastrointestinal illness; neither is chosen here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390135.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed, editorial (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 20.91,
+    "text": "Scorpio 20°55′",
+    "longitude": 230.913
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 5.1,
+    "text": "Pisces 5°06′",
+    "longitude": 335.101
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 21.25,
+    "text": "Scorpio 21°15′",
+    "longitude": 231.255
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 10.8,
+    "text": "Libra 10°48′",
+    "longitude": 190.801
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 4.11,
+    "text": "Scorpio 4°06′",
+    "longitude": 214.107
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 14.59,
+    "text": "Aquarius 14°36′",
+    "longitude": 314.593
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 13.61,
+    "text": "Virgo 13°37′",
+    "longitude": 163.612
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Rector, Cholera, and the Grave",
+   "stop": "Berlin, buried beside Fichte in the Dorotheenstadt ground",
+   "date": "1831-11-16",
+   "date_confidence": "16 November 1831 attested. Two coordinate readings for the cemetery differ by about forty metres, 52.5293/13.3839 and 52.5296/13.3835; the first is used here and the second is recorded in the report.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390137.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 22.93,
+    "text": "Scorpio 22°56′",
+    "longitude": 232.929
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 1.59,
+    "text": "Aries 1°36′",
+    "longitude": 1.594
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 24.43,
+    "text": "Scorpio 24°26′",
+    "longitude": 234.427
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 11.89,
+    "text": "Libra 11°53′",
+    "longitude": 191.887
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 5.46,
+    "text": "Scorpio 5°27′",
+    "longitude": 215.456
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 14.82,
+    "text": "Aquarius 14°49′",
+    "longitude": 314.821
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 13.75,
+    "text": "Virgo 13°45′",
+    "longitude": 163.753
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Afterlife of the System",
+   "stop": "Stuttgart, the drowning of Christiane",
+   "date": "1832-01-01",
+   "date_confidence": "1832 attested. The place is given only as Württemberg in the sources consulted; the pin defaults to Stuttgart and claims nothing more. Month and day not established.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390183.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.654
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the System",
+   "stop": "Berlin, the friends of the departed",
+   "date": "1832-01-01",
+   "date_confidence": "the society and its collected edition are attested in outline; the publication span, usually placed in the 1830s and 1840s, and the volume count could not be verified before the search budget ran out, and both remain reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390183.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft-year) span/window",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.654
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the System",
+   "stop": "Berlin, Marx matriculates at the dead man's university",
+   "date": "1836-10-22",
+   "date_confidence": "22 October 1836 per karl_marx.journey.json; the canonical Berlin university pin is inherited from that file unchanged",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391939.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 28.65,
+    "text": "Libra 28°39′",
+    "longitude": 208.647
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 27.57,
+    "text": "Pisces 27°34′",
+    "longitude": 357.568
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 28.51,
+    "text": "Libra 28°31′",
+    "longitude": 208.508
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 13.2,
+    "text": "Virgo 13°12′",
+    "longitude": 163.201
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 6.67,
+    "text": "Leo 6°40′",
+    "longitude": 126.668
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 15.24,
+    "text": "Leo 15°14′",
+    "longitude": 135.237
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 6.95,
+    "text": "Scorpio 6°57′",
+    "longitude": 216.945
+   }
+  },
+  {
+   "segment": "The Afterlife of the System",
+   "stop": "Berlin, Schelling summoned against him",
+   "date": "1841-11-15",
+   "date_confidence": "15 November 1841 per schelling.journey.json and humboldt.journey.json, which record the same event from both sides; the Berlin pin is inherited from schelling.journey.json unchanged",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1841,
+   "jd_ut": 2393789.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 22.5,
+    "text": "Scorpio 22°30′",
+    "longitude": 232.5
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 13.55,
+    "text": "Sagittarius 13°33′",
+    "longitude": 253.547
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 26.23,
+    "text": "Scorpio 26°14′",
+    "longitude": 236.229
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 26.12,
+    "text": "Libra 26°07′",
+    "longitude": 206.122
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 19.42,
+    "text": "Capricornus 19°25′",
+    "longitude": 289.418
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 22.66,
+    "text": "Sagittarius 22°39′",
+    "longitude": 262.655
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 0.61,
+    "text": "Capricornus 0°36′",
+    "longitude": 270.606
+   }
+  },
+  {
+   "segment": "The Afterlife of the System",
+   "stop": "Berlin, the graves moved for a street",
+   "date": "1889-01-01",
+   "date_confidence": "1889 attested by de.wikipedia; month and day not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411003.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.84,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.838
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the System",
+   "stop": "Stuttgart, the Hegel-Haus opens",
+   "date": "1991-01-01",
+   "date_confidence": "museum since 1991 and reopening on 27 August 2020, both attested; the month and day of the 1991 opening are not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448257.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 8,
+  "month": 13,
+  "year": 24
+ },
+ "parse_failures": []
+}

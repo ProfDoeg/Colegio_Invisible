@@ -1,0 +1,1851 @@
+{
+ "slug": "ted_shawn",
+ "traveler": "Ted Shawn (Edwin Myers Shawn)",
+ "title": "The Pulpit He Did Not Take: Denishawn, the Men Dancers, and the Farm Called Jacob's Pillow",
+ "years": "1891-1972",
+ "years_parsed": {
+  "first": 1891,
+  "last": 1972
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Ministry Interrupted",
+  "stop": "Kansas City, Missouri: born in a newspaperman's house",
+  "date": "1891-10-21",
+  "date_confidence": "Attested. Birth date, birth name and Kansas City are given by Wikipedia, 'Ted Shawn'. The deaths of the elder brother and of the mother about eight months apart, and the boarding-house years after, come from the NYPL Ted Shawn Papers biographical note as relayed through the research dossier; I did not re-fetch that finding aid myself, so the 1903 sequence is reconstruction here, not attestation. The parents' names follow the Wikipedia article.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1891,
+  "jd_ut": 2412026.5,
+  "precision": "year",
+  "precision_triggers": [
+   "sequencing",
+   "reconstructed (the date)",
+   "(soft) reconstruct"
+  ],
+  "sun": {
+   "sign": "Libra",
+   "degree": 27.32,
+   "text": "Libra 27°19′",
+   "longitude": 207.323
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1891-1972",
+  "first_year_parsed": 1891
+ },
+ "stops": [
+  {
+   "segment": "The Ministry Interrupted",
+   "stop": "Kansas City, Missouri: born in a newspaperman's house",
+   "date": "1891-10-21",
+   "date_confidence": "Attested. Birth date, birth name and Kansas City are given by Wikipedia, 'Ted Shawn'. The deaths of the elder brother and of the mother about eight months apart, and the boarding-house years after, come from the NYPL Ted Shawn Papers biographical note as relayed through the research dossier; I did not re-fetch that finding aid myself, so the 1903 sequence is reconstruction here, not attestation. The parents' names follow the Wikipedia article.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2412026.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 27.32,
+    "text": "Libra 27°19′",
+    "longitude": 207.323
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ministry Interrupted",
+   "stop": "University of Denver: the third year of the ministry",
+   "date": "1909-01-01",
+   "date_confidence": "Reconstruction on the dating. The NYPL chronology states that he was in his third year of studying for the ministry at the University of Denver when he contracted diphtheria, which puts the enrolment around 1908 or 1909 rather than at 1911, the year the research dossier originally attached to it. The dossier itself flagged that internal inconsistency and left it open; the correction resolves in favour of the illness interrupting a course already three years old. Month and day are unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ministry Interrupted",
+   "stop": "Denver: diphtheria, and Hazel Wallack's studio",
+   "date": "1910-01-01",
+   "date_confidence": "The illness, the temporary lower-body paralysis, the age of about nineteen and the therapeutic study with Hazel Wallack, a former Metropolitan Opera dancer, are attested by Wikipedia, 'Ted Shawn'. The month is unknown and defaulted. The popular framing that dance cured the paralysis is a conversion narrative Shawn himself propagated and is carried here as his telling, not as a clinical finding. Denver coordinates inherited byte-identical from ruth_st_denis.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ministry Interrupted",
+   "stop": "Denver: The Incense",
+   "date": "1911-01-01",
+   "date_confidence": "The year is attested through both Shawn's own account in Ruth St. Denis: Pioneer and Prophet and the corresponding stop in ruth_st_denis.journey.json; the month and day of the performance are not established by any source reached. Coordinates inherited byte-identical from ruth_st_denis.journey.json, segment 'Denver: Ted Shawn in the house'. Nothing about the encounter is mutual and nothing is recorded on her side.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419037.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.47,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.472
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ballroom Floors, and a Letter East",
+   "stop": "Los Angeles: exhibition ballroom with Norma Gould",
+   "date": "1912-01-01",
+   "date_confidence": "The relocation to Los Angeles and the exhibition ballroom partnership with Norma Gould are attested by Wikipedia, 'Ted Shawn', which dates the move to 1912; the geography lens gave the working period as 1912-1913. Month and day are unknown and defaulted. The coordinate is a Los Angeles city centroid, not a venue: no specific ballroom or tea room is named in any source reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ballroom Floors, and a Letter East",
+   "stop": "New York: he arrives with a letter and an intention",
+   "date": "1914-03-01",
+   "date_confidence": "Attested that Shawn travelled east in 1914, met St. Denis, and became her pupil, partner and manager; the March dating is inherited from ruth_st_denis.journey.json, segment 'New York: Ted Shawn arrives with a letter and an intention'. The NYPL finding aid records that on 13 April 1914 the two began a tour of the southern United States, four months before the August wedding, which rules out the research dossier's 'roughly two months later' interval and its 'within weeks the two are engaged'. Coordinates inherited byte-identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420192.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.58,
+    "text": "Pisces 9°35′",
+    "longitude": 339.579
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 23.05,
+    "text": "Aries 23°03′",
+    "longitude": 23.048
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 24.79,
+    "text": "Pisces 24°47′",
+    "longitude": 354.789
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 13.77,
+    "text": "Pisces 13°46′",
+    "longitude": 343.771
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 7.15,
+    "text": "Cancer 7°09′",
+    "longitude": 97.145
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 8.82,
+    "text": "Aquarius 8°49′",
+    "longitude": 308.821
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 11.55,
+    "text": "Gemini 11°33′",
+    "longitude": 71.546
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Ballroom Floors, and a Letter East",
+   "stop": "New York: the marriage that neither of them ends",
+   "date": "1914-08-13",
+   "date_confidence": "The date 13 August 1914 is solidly attested across sources and matches ruth_st_denis.journey.json. The place is not: no source I reached names the ceremony's city, let alone its venue. The pin is inherited byte-identical from ruth_st_denis.journey.json's marriage stop, which places the marker at New York as the couple's last confirmed shared location before the date. Read the coordinate as the atlas's convention, not as evidence of where they stood.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420357.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "hard triggers (convention) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 19.4,
+    "text": "Leo 19°24′",
+    "longitude": 139.397
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.02,
+    "text": "Taurus 8°01′",
+    "longitude": 38.018
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 2.66,
+    "text": "Leo 2°39′",
+    "longitude": 122.656
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 2.51,
+    "text": "Libra 2°31′",
+    "longitude": 182.51
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 29.0,
+    "text": "Virgo 29°00′",
+    "longitude": 178.998
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 17.03,
+    "text": "Aquarius 17°02′",
+    "longitude": 317.028
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 29.0,
+    "text": "Gemini 29°00′",
+    "longitude": 88.997
+   }
+  },
+  {
+   "segment": "Ballroom Floors, and a Letter East",
+   "stop": "Saratoga Springs: the honeymoon booked as a tour",
+   "date": "1914-09-01",
+   "date_confidence": "The honeymoon dance tour running from Saratoga Springs to San Francisco is attested by Wikipedia, 'Denishawn'. No month is given; September is a default placing it after the 13 August wedding, and should be read only as ordering. The Saratoga Springs coordinate doubles as the site of the National Museum of Dance, which inducted Shawn posthumously in 1987, a fact carried here in the campa rather than staged as a separate stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420376.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.71,
+    "text": "Virgo 7°43′",
+    "longitude": 157.709
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Denishawn",
+   "stop": "Portland, Oregon: the two names fuse on a bill",
+   "date": "1915-02-06",
+   "date_confidence": "Attested to the day by Wikipedia, 'Denishawn': a theatre manager's naming contest at a Portland performance produced 'The Denishawn Rose Mazurka', and the shortened form became the official identity of school and company. Coordinates inherited byte-identical from ruth_st_denis.journey.json, segment 'Portland, Oregon: the two names fuse on a bill'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420534.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 16.13,
+    "text": "Aquarius 16°08′",
+    "longitude": 316.131
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 0.12,
+    "text": "Scorpio 0°07′",
+    "longitude": 210.117
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 4.36,
+    "text": "Pisces 4°22′",
+    "longitude": 334.362
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 29.34,
+    "text": "Sagittarius 29°20′",
+    "longitude": 269.341
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 5.26,
+    "text": "Aquarius 5°15′",
+    "longitude": 305.258
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 0.45,
+    "text": "Pisces 0°27′",
+    "longitude": 330.45
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 25.83,
+    "text": "Gemini 25°50′",
+    "longitude": 85.832
+   }
+  },
+  {
+   "segment": "Denishawn",
+   "stop": "600 St. Paul Avenue, Los Angeles: the school opens under her name",
+   "date": "1915-06-01",
+   "date_confidence": "Summer 1915 and the address are attested; the month is not fixed and June is a default. Correction carried from the verify pass: the institution opened as the Ruth St. Denis School of Dancing and Its Related Arts, not as the Denishawn School, per Wikipedia's Denishawn article read raw. Coordinates inherited byte-identical from ruth_st_denis.journey.json, martha_graham.journey.json and doris_humphrey.journey.json, all of which carry this pin. Flagged and unresolved: an OSM geocode of St. Paul Avenue returns roughly 34.0526 / -118.2615, some distance east of the inherited pin; atlas consistency wins here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420649.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "disputed",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.43,
+    "text": "Gemini 9°26′",
+    "longitude": 69.429
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Denishawn",
+   "stop": "The Palace Theatre, New York: the Pyrrhic Dance",
+   "date": "1916-01-01",
+   "date_confidence": "The Palace booking and the all-male Pyrrhic Dance set inside the 1916 Egyptian Ballet are attested through ruth_st_denis.journey.json's own stop for the same event and through Wikipedia, 'Denishawn'. The month within 1916 is not established and is defaulted. Coordinates inherited byte-identical from ruth_st_denis.journey.json, segment 'The Palace Theatre, New York: the Egyptian Ballet and the Pyrrhic Dance'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420863.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.25,
+    "text": "Capricornus 9°15′",
+    "longitude": 279.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Denishawn",
+   "stop": "600 St. Paul Avenue: Martha Graham enters the school",
+   "date": "1916-06-01",
+   "date_confidence": "Graham's arrival in the school's second summer, June 1916, is attested through ruth_st_denis.journey.json and martha_graham.journey.json; the exact day is not. Humphrey's 1917 enrolment is attested through doris_humphrey.journey.json. The Limon relation is a lineage inference, not an attested meeting: Limon trained under Humphrey and Weidman years after they left Denishawn, and jose_limon.journey.json names Shawn only as the company his teachers had broken from. Coordinates inherited byte-identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2421015.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.16,
+    "text": "Gemini 10°09′",
+    "longitude": 70.156
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Denishawn",
+   "stop": "Los Angeles: Invocation to the Thunderbird",
+   "date": "1917-01-01",
+   "date_confidence": "Contradiction flagged, not resolved. Wikipedia's Ted Shawn article dates Invocation to the Thunderbird to 1917; Wikipedia's Denishawn article dates the same piece to 1916. Both readings are in the pool and neither is preferred here. The month is unknown and defaulted, and the premiere venue within Los Angeles is not established by anything reached, so the coordinate is a city centroid. That no Indigenous collaborator is named is a gap in the sources, stated as a gap.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "unknown",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Denishawn",
+   "stop": "West Lake Park, Los Angeles: the second house",
+   "date": "1918-01-01",
+   "date_confidence": "Attested by Wikipedia, 'Denishawn' that a second Los Angeles house was opened beside West Lake Park with garden, tennis court, tented dance platform and auditorium; the source dates it only to the later 1910s, and 1918 is the ordering date inherited from ruth_st_denis.journey.json, segment 'West Lake Park, Los Angeles: the second house, and the picture business', from which the coordinates are also taken byte-identical. The film-industry traffic is attested there rather than in the Shawn pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421594.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.78,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.778
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Denishawn",
+   "stop": "Los Angeles: Xochitl, built on Martha Graham",
+   "date": "1920-01-01",
+   "date_confidence": "Attested by Wikipedia, 'Ted Shawn' for 1920, for the purported Aztec subject, and for the piece having been created for and performed by Martha Graham. The month is unknown and defaulted; the premiere venue is not established in the pool, and the coordinate reuses the inherited Denishawn school pin as the company's own address rather than claiming a theatre. That the ethnography is invented is a judgment stated plainly, not a sourced claim.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Denishawn",
+   "stop": "San Francisco: Pioneer and Prophet",
+   "date": "1920-01-01",
+   "date_confidence": "The 1920 San Francisco imprint of John Howell is a standard library catalogue record and the full text was fetched from archive.org (identifier ruthstdenis01shawrich), so the quoted preface is verified against its surrounding page rather than against a snippet. The month is unknown and defaulted. The San Francisco coordinate is a city centroid marking the place of printing, not a place Shawn is recorded as standing in that year.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Asian Tour",
+   "stop": "Bombay: the company lands in India",
+   "date": "1925-10-01",
+   "date_confidence": "Evidentiary caution applies to this whole segment. Wikipedia's Denishawn article names only countries, 'Japan, Burma, China, India, Ceylon, Java, Malaya and the Philippines (1925-26)', and dates the tour 1925-26, correcting the research pool's bare 1925. The individual cities and their month-by-month order are inherited from ruth_st_denis.journey.json and doris_humphrey.journey.json, which carry all eight as canonical pins; coordinates here are byte-identical to those files. Read the city stops as reconstruction. The 'first American company to present serious Western dance' billing is the company's own marketing claim and no independent verification was found.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424424.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.3,
+    "text": "Libra 7°18′",
+    "longitude": 187.301
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Asian Tour",
+   "stop": "Colombo, Ceylon: the mask without the grammar",
+   "date": "1925-11-01",
+   "date_confidence": "Ceylon is attested as a country on the tour; Colombo as the city, and November 1925 as the month, are inherited from ruth_st_denis.journey.json and are reconstruction. The Sinhalese Devil Dance as a later Men Dancers solo comes from the research dossier's repertory listing and was not independently confirmed against a programme or the Jacob's Pillow film catalogue, which returned 403 to WebFetch.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424455.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.06,
+    "text": "Scorpio 8°04′",
+    "longitude": 218.063
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Asian Tour",
+   "stop": "Rangoon, Burma: the argument gathers its material",
+   "date": "1925-12-01",
+   "date_confidence": "Burma is attested as a country on the tour; Rangoon and December 1925 are inherited from ruth_st_denis.journey.json and are reconstruction. That Gods Who Dance draws on the tour is an inference from its subject and date, stated as such: no source reached names particular Burmese observations as its sources. That he never claims to be an ethnographer is a reading of the books, both of which were fetched in full text.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424485.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.3,
+    "text": "Sagittarius 8°18′",
+    "longitude": 248.297
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Asian Tour",
+   "stop": "Singapore: the steamer circuit",
+   "date": "1926-01-01",
+   "date_confidence": "Malaya is attested as a country on the tour; Singapore and January 1926 are inherited from ruth_st_denis.journey.json and doris_humphrey.journey.json and are reconstruction. That nobody was minding the Los Angeles school during the fifteen months away is an inference from the tour's length and from the school's subsequent difficulties, not a sourced claim.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Asian Tour",
+   "stop": "Batavia, Java: the spear that is not from here",
+   "date": "1926-02-01",
+   "date_confidence": "Java is attested as a country on the tour; Batavia and February 1926 are inherited from ruth_st_denis.journey.json and are reconstruction. The Dyak Spear Dance as a later solo comes from the research dossier's repertory listing, not independently confirmed. That the Dyak are Bornean rather than Javanese is a plain ethnographic fact and is the point of the stop; whether Shawn knew it is not established by anything reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424547.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.39,
+    "text": "Aquarius 11°24′",
+    "longitude": 311.395
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Asian Tour",
+   "stop": "Shanghai: every temple proves him right",
+   "date": "1926-03-01",
+   "date_confidence": "China is attested as a country on the tour; Shanghai and March 1926 are inherited from ruth_st_denis.journey.json and are reconstruction. The characterisation of Shawn's method as circular is a reading of Gods Who Dance and The American Ballet, both fetched in full text, and is offered as a reading, not as a claim any source makes.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424575.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.67,
+    "text": "Pisces 9°40′",
+    "longitude": 339.668
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Asian Tour",
+   "stop": "Tokyo: the postures of the gods, taught first",
+   "date": "1926-04-01",
+   "date_confidence": "Japan is attested as a country on the tour; Tokyo and April 1926 are inherited from ruth_st_denis.journey.json and are reconstruction. The quote is verbatim from the 1929 Gods Who Dance, fetched in full text from archive.org, and is used here on the 1926 stop that supplied its material: the observation is dated to the tour by subject, not by any statement in the book placing it in a named school or city, and Shawn records neither.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424606.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.53,
+    "text": "Aries 10°32′",
+    "longitude": 10.525
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Asian Tour",
+   "stop": "Manila: the tour closes",
+   "date": "1926-05-01",
+   "date_confidence": "The Philippines are attested as a country on the tour; Manila and May 1926 as its close are inherited from ruth_st_denis.journey.json and are reconstruction. Graham's departure from Denishawn before the tour and the Humphrey-Weidman restiveness are attested through martha_graham.journey.json and doris_humphrey.journey.json; that the institution had five years left is arithmetic from the attested 1931 collapse.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424636.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.88,
+    "text": "Taurus 9°53′",
+    "longitude": 39.877
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Books, and the End of the Institution",
+   "stop": "New York: The American Ballet, and its argument",
+   "date": "1926-01-01",
+   "date_confidence": "Only the year is attested: New York, Henry Holt, 1926, from the standard bibliographic record, with the full text fetched from archive.org (identifier americanballet0000teds). Month and day are unknown and defaulted to 1 January per convention, which places the book earlier in the calendar than the tour's May 1926 close in the preceding segment; the ordering of the two segments should not be read as an ordering of months. The quote is the whole of Shawn's sentence: the research pool carried a spliced version that joined two sentences across an intervening passage about Russians, and that splice is not used here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "convention",
+    "year only",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Books, and the End of the Institution",
+   "stop": "Stevenson Place, the Bronx: Denishawn House",
+   "date": "1927-01-01",
+   "date_confidence": "The 1927 Bronx school on Stevenson Place is attested by Wikipedia, 'Denishawn'; no street number was found and the month is unknown. Coordinates inherited byte-identical from ruth_st_denis.journey.json, whose own confidence field calls this pin a general Bronx placeholder. Flagged and unresolved: OSM puts Stevenson Place, Kingsbridge, at roughly 40.8825 / -73.8945, about four and a half kilometres northwest of the inherited pin; atlas consistency wins here. That Humphrey and Weidman ran much of the teaching is attested through doris_humphrey.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "placeholder",
+    "disputed",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Books, and the End of the Institution",
+   "stop": "New York: Gods Who Dance",
+   "date": "1929-01-01",
+   "date_confidence": "Only the year is attested: New York, E. P. Dutton, 1929, from the standard bibliographic record, with the full text fetched from archive.org (identifier bwb_W9-BTJ-415). Month and day defaulted. The quote is restored to its full sentence: the research pool carried it truncated mid-clause and closed with a period, which made a fragment read as complete. The New York coordinate marks the place of publication, not a recorded location of Shawn's in 1929.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only",
+    "to the year",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Books, and the End of the Institution",
+   "stop": "New York: Denishawn stops existing",
+   "date": "1931-01-01",
+   "date_confidence": "Wikipedia, 'Denishawn' dates the disintegration to 1931 and states plainly that St. Denis and Shawn never divorced; ruth_st_denis.journey.json carries the same 1931 date on its own stop. The month is unknown and defaulted. The New York coordinate is conventional: the collapse has no single site, and the research pool records the place only as 'United States'. The quote is from 1920, eleven years earlier, and is used here as what he had written of her, not as anything said in 1931.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "convention",
+    "year named only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Jacob's Pillow: the Farm and the Men Dancers",
+   "stop": "Becket, Massachusetts: the farm that already has the name",
+   "date": "1931-01-01",
+   "date_confidence": "Wikipedia, 'Jacob's Pillow' gives the acquisition flatly as 1931, correcting the research pool's '1930-1931'; the month is unknown and defaulted. The name origin, Jacob Carter III settling the land in 1790, the switchback called Jacob's Ladder and the pillow-shaped boulder, is attested there. Coordinates are the George Carter Road site, matching the article's own 42d15'52\"N 73d7'5\"W and OSM's 42.26398 / -73.11760 to within a hundred metres, and are byte-identical to the pin ruth_st_denis.journey.json already carries.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Jacob's Pillow: the Farm and the Men Dancers",
+   "stop": "Becket: Barton Mumaw in the house",
+   "date": "1931-06-01",
+   "date_confidence": "Attested by Wikipedia, 'Ted Shawn' that the relationship with Barton Mumaw began in 1931 and ran to about 1948, and by Wikipedia, 'Barton Mumaw' that he was born in Hazleton, Pennsylvania, reared in Eustis, Florida, and came to Shawn after seeing a Denishawn performance in 1930 at eighteen. The month is unknown and defaulted. Correction carried from the verify pass: the research pool named Mumaw as foremost among the Springfield College athletic recruits, which is false; he did not come from that campus. That nobody said any of this in print is a characterisation of the period, not a sourced claim.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426493.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.56,
+    "text": "Gemini 9°33′",
+    "longitude": 69.556
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Jacob's Pillow: the Farm and the Men Dancers",
+   "stop": "Springfield College: recruiting athletes into a men's company",
+   "date": "1933-01-01",
+   "date_confidence": "The Springfield College teaching and the recruitment of its athletes into Ted Shawn and His Men Dancers are attested by Wikipedia, 'Ted Shawn'. Correction carried from the verify pass: the research pool cited the NEA feature 'The House That Ted Built' for this, and that article contains no mention of Springfield College at all. Coordinates corrected to 42.1024 / -72.5580, OSM's figure for 263 Alden Street, about a kilometre west of the pool's value. The month is unknown and defaulted. The quote is attested only at one remove, see quote_source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427073.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Jacob's Pillow: the Farm and the Men Dancers",
+   "stop": "Becket: the first performance of the continuing festival",
+   "date": "1933-07-14",
+   "date_confidence": "Attested to the day by Wikipedia, 'Ted Shawn' and 'Jacob's Pillow' as the first performance from which the festival counts itself continuous, and attested there that members of the Men Dancers constructed many of the campus buildings themselves. The Friday tea lecture-demonstrations at seventy-five cents, and the first one drawing fifty-seven people to seating built for twenty-five, are attested by the NEA feature 'The House That Ted Built' (arts.gov, 2015), which was reachable; jacobspillow.org returns 403 to WebFetch and could not corroborate it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427267.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 21.1,
+    "text": "Cancer 21°06′",
+    "longitude": 111.099
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 15.14,
+    "text": "Aries 15°08′",
+    "longitude": 15.137
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 13.06,
+    "text": "Leo 13°03′",
+    "longitude": 133.055
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 13.35,
+    "text": "Leo 13°21′",
+    "longitude": 133.352
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 3.88,
+    "text": "Libra 3°53′",
+    "longitude": 183.88
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 18.8,
+    "text": "Virgo 18°48′",
+    "longitude": 168.804
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 14.35,
+    "text": "Aquarius 14°21′",
+    "longitude": 314.352
+   }
+  },
+  {
+   "segment": "Jacob's Pillow: the Farm and the Men Dancers",
+   "stop": "Becket: Kinetic Molpai",
+   "date": "1935-01-01",
+   "date_confidence": "The 1935 premiere comes from the research dossier's citation of the Jacob's Pillow Dance Interactive film catalogue, which could not be independently re-fetched; the same archive is cited on Wikipedia, 'Ted Shawn' for a restored 1937 film of the work, and the two dates are left unreconciled here. The month is unknown and defaulted. Mumaw's 1992 return to teach the piece is attested by Wikipedia, 'Ted Shawn'; it is his own later act and is carried in this campa and in suggested_refs as a source on Shawn's stop, not staged as a scene of its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Jacob's Pillow: the Farm and the Men Dancers",
+   "stop": "Becket: the letter about defenseless boys",
+   "date": "1939-08-11",
+   "date_confidence": "Reconstruction. The five-page letter of 11 August 1939 and the phrases 'defenseless boys' and 'an impossible lover' come from the research dossier's citation of a University of Florida finding-aid excerpt, which was not independently re-fetched; the wording is therefore reported rather than quoted in a quote field. Neither the place of writing nor the place of receipt is established by anything reached, and the pin is Shawn's own Becket pin as the household the letter is about. That he did not answer is an absence in the record, not an attested fact.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429486.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 17.44,
+    "text": "Leo 17°26′",
+    "longitude": 137.437
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 19.78,
+    "text": "Gemini 19°47′",
+    "longitude": 79.777
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 16.85,
+    "text": "Leo 16°51′",
+    "longitude": 136.854
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 10.36,
+    "text": "Leo 10°22′",
+    "longitude": 130.363
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 25.01,
+    "text": "Capricornus 25°01′",
+    "longitude": 295.015
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 8.73,
+    "text": "Aries 8°44′",
+    "longitude": 8.725
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 0.93,
+    "text": "Taurus 0°56′",
+    "longitude": 30.928
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Jacob's Pillow: the Farm and the Men Dancers",
+   "stop": "Becket: the last homecoming of the Men Dancers",
+   "date": "1940-08-31",
+   "date_confidence": "Attested to the day by Wikipedia, 'Ted Shawn' as the final homecoming performance, with the approach of American entry into the war given as part of the reason. The Mary Washington Ball lease and its financial failure are attested by Wikipedia, 'Jacob's Pillow'. The roughly twenty thousand dollars of debt is attested by the Berkshire Edge account of the Lee rescue, which was reachable, and dated there to October 1941.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429872.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.43,
+    "text": "Virgo 7°26′",
+    "longitude": 157.431
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 7.43,
+    "text": "Leo 7°26′",
+    "longitude": 127.429
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 3.04,
+    "text": "Virgo 3°02′",
+    "longitude": 153.041
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 21.68,
+    "text": "Cancer 21°41′",
+    "longitude": 111.676
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 7.22,
+    "text": "Virgo 7°13′",
+    "longitude": 157.219
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 15.77,
+    "text": "Taurus 15°46′",
+    "longitude": 45.773
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 14.47,
+    "text": "Taurus 14°28′",
+    "longitude": 44.471
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The House That Gets Built",
+   "stop": "Lee, Massachusetts: seven citizens in a parlour",
+   "date": "1941-10-01",
+   "date_confidence": "The October 1941 meeting of seven local citizens at Mabel Dwight Busey's home in Lee, the roughly twenty thousand dollars of debt, and the fifty thousand dollar goal are attested by theberkshireedge.com's history of Jacob's Pillow in Lee, which was reachable. Markova and Dolin's involvement and Reginald Wright's backing are attested by Wikipedia, 'Jacob's Pillow'. The day within October is unknown and defaulted. The coordinate is a Lee town-centre value; Busey's house has no independently confirmed address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430268.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.43,
+    "text": "Libra 7°26′",
+    "longitude": 187.426
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House That Gets Built",
+   "stop": "Becket: the Ted Shawn Theatre opens",
+   "date": "1942-07-01",
+   "date_confidence": "Attested by the NEA feature 'The House That Ted Built' (arts.gov), which was reachable: opened 1942, 514 seats, described as the first facility in the United States built specifically for dance. The month within 1942 is given as July by the research pool and is not independently confirmed. Correction carried from the verify pass: the pool bundled a 'University of the Dance' founded in 1942 with this item; nothing reachable supports that institution or that date, and it is dropped from the file and recorded as a gap in the report instead.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430541.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.54,
+    "text": "Cancer 8°32′",
+    "longitude": 98.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House That Gets Built",
+   "stop": "Becket: Joseph Pilates on the apparatus",
+   "date": "1943-01-01",
+   "date_confidence": "Reconstruction, and a real gap flagged. The research dossier asserts a 1943 friendship and teaching association at Jacob's Pillow, with surviving photographs of Shawn using the apparatus and correspondence listed at NYPL; the Berkshire Edge article whose own title names Pilates as a Pillow instructor was reachable, but the specific 1943 demonstration could not be confirmed firsthand. The atlas's own joseph_pilates.journey.json was checked in full for Shawn, Pillow and Becket and contains none of them, so nothing corroborates this from that side either. Month unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430725.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.71,
+    "text": "Capricornus 9°42′",
+    "longitude": 279.708
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House That Gets Built",
+   "stop": "Becket: John Christian, and the end with Mumaw",
+   "date": "1949-01-01",
+   "date_confidence": "Attested by Wikipedia, 'Ted Shawn' that the partnership with the designer and stage manager John Christian Ammann ran from about 1949 to 1972, and that Mumaw's relationship with Christian led to Mumaw's separation from Shawn. The month is unknown and defaulted, and the 1949 start is given in the source as approximate. That the arrangements went undiscussed in institutional publications is a characterisation of the period's silence, not a sourced claim.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432917.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "unknown",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Founding Director",
+   "stop": "Becket: Every Little Movement, and the debt to Delsarte",
+   "date": "1954-01-01",
+   "date_confidence": "The 1954 publication of Every Little Movement is confirmed by the OpenLibrary catalogue record (Pittsfield and Brooklyn, 1954, with Dance Horizons reprints from 1968), as is the French edition Chaque petit mouvement, published in Brussels by Editions Complexe in 2005; the research pool had that translation flagged as unconfirmed and it can be upgraded. The month is unknown and defaulted. That Shawn received the Delsarte system at second hand through St. Denis and her mother is the standard account of Denishawn's pedagogy rather than a claim from a source fetched this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434743.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Founding Director",
+   "stop": "Becket: Inge Sand steps in",
+   "date": "1954-07-01",
+   "date_confidence": "Attested by pointemagazine.com's account of the Royal Danish Ballet at Jacob's Pillow: Inge Sand made her United States debut at the Pillow in 1954 on short notice, bringing Bournonville choreography before an American audience for the first time. The month is not given and July is a default placing it inside a summer festival season. Whether Shawn wanted the festival to become a presenting house rather than his own company's home is a reading of what he then did with it, not a statement he is on record making.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434924.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.63,
+    "text": "Cancer 8°38′",
+    "longitude": 98.635
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Founding Director",
+   "stop": "Becket: knighted by the Danish crown",
+   "date": "1957-01-01",
+   "date_confidence": "The knighthood in 1957 by the King of Denmark, for bringing Danish ballet to America through Jacob's Pillow, is attested by pointemagazine.com; the source does not name the king, who was Frederik IX. Correction carried from the verify pass: the research pool staged this at a Copenhagen coordinate, and no source says the honour was conferred in Denmark or that Shawn travelled there. The stop is placed at his own Becket pin instead, since his base in 1957 was the Berkshires. The month is unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2435839.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.32,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.321
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Founding Director",
+   "stop": "Becket: Siddhas of the Upper Air, at fifty years",
+   "date": "1964-01-01",
+   "date_confidence": "Attested through ruth_st_denis.journey.json, whose own stop for this reunion dates it to 1964 on the fiftieth anniversary of the 1914 partnership and calls it Shawn's final appearance on the stage of the Ted Shawn Theatre, correcting an earlier 1941 dating in the research pool. The month within 1964 is not established. Coordinates inherited byte-identical. This is Shawn's own side of a scene St. Denis's file already stages, written for his file rather than copied from hers.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438395.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.61,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.608
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Founding Director",
+   "stop": "Becket: the title of founding director",
+   "date": "1967-01-01",
+   "date_confidence": "Attested by Wikipedia, 'Jacob's Pillow': in 1967 declining health prompted the board to appoint John Christian, Shawn's domestic partner and longtime collaborator, as executive director, while Shawn kept the title of founding director. The research pool carried this as an unverified '1966 onward' item and it is corrected to 1967 and upgraded to attested. The National Dance Association Heritage Award of 1965 is attested by Wikipedia, 'Ted Shawn'. Month unknown and defaulted. That the board minutes did not mention the domestic relation is an inference from the period's silence.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439491.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Founding Director",
+   "stop": "Orlando, Florida: death at eighty",
+   "date": "1972-01-09",
+   "date_confidence": "The date of death, 9 January 1972 at age eighty after a lengthy illness, is solidly attested; the illness is not named in the public finding aids. Orlando as the place of death is reconstruction: it traces to an NYPL biographical record cited by the research dossier and not independently accessed, and Wikipedia's infobox leaves death place and resting place blank. That no grave, cremation record or marker was found is a genuine gap, stated as one; any 'buried at X' claim should be treated as unconfirmed until a certificate or cemetery record surfaces. St. Denis's death on 21 July 1968 in Los Angeles and her burial at Forest Lawn are attested by Wikipedia, 'Ruth St. Denis'. The 27 May 2003 National Historic Landmark District designation is attested by Wikipedia, 'Jacob's Pillow'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441325.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.82,
+    "text": "Capricornus 17°49′",
+    "longitude": 287.822
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 22.55,
+    "text": "Libra 22°33′",
+    "longitude": 202.553
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 26.37,
+    "text": "Sagittarius 26°22′",
+    "longitude": 266.366
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 20.65,
+    "text": "Aquarius 20°39′",
+    "longitude": 320.654
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.56,
+    "text": "Aries 8°34′",
+    "longitude": 8.561
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 24.07,
+    "text": "Sagittarius 24°04′",
+    "longitude": 264.067
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 0.01,
+    "text": "Gemini 0°00′",
+    "longitude": 60.006
+   }
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 7,
+  "month": 9,
+  "year": 29
+ },
+ "parse_failures": []
+}

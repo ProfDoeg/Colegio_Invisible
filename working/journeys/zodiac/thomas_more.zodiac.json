@@ -1,0 +1,2130 @@
+{
+ "slug": "thomas_more",
+ "traveler": "Sir Thomas More (Saint Thomas More)",
+ "title": "Milk Street to Tower Hill: the Under-Sheriff, the Island of Nowhere, and the Oath Not Sworn",
+ "years": "1478-1535",
+ "years_parsed": {
+  "first": 1478,
+  "last": 1535
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Lawyer's Son",
+  "stop": "Milk Street, City of London: the birth",
+  "date": "1478-02-07",
+  "date_confidence": "Day and year attested (7 February 1478, thomasmorestudies.org chronology; Wikipedia, 'Thomas More'). The street is not. Only London is secure; Milk Street is family and local tradition, and Joanne Paul's archival work treats the exact birth house as disputed. Pinned at Milk Street because that is where the tradition puts it, tagged [R] for the address.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1478,
+  "jd_ut": 2260934.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "notes": [
+   "hard triggers (traditional, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+  ],
+  "sun": {
+   "sign": "Aquarius",
+   "degree": 27.28,
+   "text": "Aquarius 27°17′",
+   "longitude": 327.284
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 13.23,
+   "text": "Aries 13°14′",
+   "longitude": 13.232
+  },
+  "mercury": {
+   "sign": "Aquarius",
+   "degree": 19.72,
+   "text": "Aquarius 19°43′",
+   "longitude": 319.717
+  },
+  "venus": {
+   "sign": "Aries",
+   "degree": 7.85,
+   "text": "Aries 7°51′",
+   "longitude": 7.846
+  },
+  "mars": {
+   "sign": "Libra",
+   "degree": 28.11,
+   "text": "Libra 28°07′",
+   "longitude": 208.109
+  },
+  "jupiter": {
+   "sign": "Aries",
+   "degree": 21.75,
+   "text": "Aries 21°45′",
+   "longitude": 21.751
+  },
+  "saturn": {
+   "sign": "Virgo",
+   "degree": 1.94,
+   "text": "Virgo 1°56′",
+   "longitude": 151.937
+  },
+  "conjunctions": [
+   {
+    "sign": "Aries",
+    "bodies": [
+     "Moon",
+     "Venus",
+     "Jupiter"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1478-1535",
+  "first_year_parsed": 1478
+ },
+ "stops": [
+  {
+   "segment": "The Lawyer's Son",
+   "stop": "Milk Street, City of London: the birth",
+   "date": "1478-02-07",
+   "date_confidence": "Day and year attested (7 February 1478, thomasmorestudies.org chronology; Wikipedia, 'Thomas More'). The street is not. Only London is secure; Milk Street is family and local tradition, and Joanne Paul's archival work treats the exact birth house as disputed. Pinned at Milk Street because that is where the tradition puts it, tagged [R] for the address.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1478,
+   "jd_ut": 2260934.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 27.28,
+    "text": "Aquarius 27°17′",
+    "longitude": 327.284
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 13.23,
+    "text": "Aries 13°14′",
+    "longitude": 13.232
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 19.72,
+    "text": "Aquarius 19°43′",
+    "longitude": 319.717
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 7.85,
+    "text": "Aries 7°51′",
+    "longitude": 7.846
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 28.11,
+    "text": "Libra 28°07′",
+    "longitude": 208.109
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 21.75,
+    "text": "Aries 21°45′",
+    "longitude": 21.751
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 1.94,
+    "text": "Virgo 1°56′",
+    "longitude": 151.937
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Lawyer's Son",
+   "stop": "St Anthony's School, Threadneedle Street: the Latin grammar",
+   "date": "1484-01-01",
+   "date_confidence": "Range, not a point. thomasmorestudies.org/chronology/ gives 'c. 1484-1489 Attends St. Anthony's School, London (7-12)'. Wikipedia and Luminarium compress this to a single year, 1485; that compression is an artefact of the chronologies, not evidence. Dated here to the opening of the range and defaulted to 01-01.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1484,
+   "jd_ut": 2263088.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.33,
+    "text": "Capricornus 19°20′",
+    "longitude": 289.328
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lawyer's Son",
+   "stop": "Lambeth Palace: the page at Morton's table",
+   "date": "1489-01-01",
+   "date_confidence": "Sources disagree on the years and none can be preferred. Wikipedia, 'Thomas More' gives 1490-1492; thomasmorestudies.org/chronology/ gives 'c. 1489-1491 Page for Archbishop and Chancellor Morton (12-14)'. Rendered here as c.1489/1490-1492, dated to the earliest reading. Coordinate corrected to Wikipedia's Lambeth Palace figures (51.49556N, 0.11972W); the dossier's -0.1219 sat in the river. Morton's prediction is Roper writing sixty years later and is a biographical motif, not a transcript.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1489,
+   "jd_ut": 2264915.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.13,
+    "text": "Capricornus 20°08′",
+    "longitude": 290.129
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lawyer's Son",
+   "stop": "Oxford: two years of the new learning",
+   "date": "1491-01-01",
+   "date_confidence": "Wikipedia, 'Thomas More' and Luminarium give entry in 1492; Roper-derived chronologies give c.1491-1493. Which hall, Canterbury College or St Mary Hall, is disputed and not resolvable from any source reached. Pinned at the Canterbury College site.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1491,
+   "jd_ut": 2265645.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.63,
+    "text": "Capricornus 19°38′",
+    "longitude": 289.634
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lawyer's Son",
+   "stop": "New Inn, Wych Street: the father's redirection",
+   "date": "1493-01-01",
+   "date_confidence": "Wikipedia, 'Thomas More' gives 1494 for the move to New Inn; Roper-derived chronology gives c.1493-1495. Attested that the Inn of Chancery preceded Lincoln's Inn; the exact year is soft. Wych Street itself was demolished for the Aldwych in 1901 and the pin is the historic line of the street.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1493,
+   "jd_ut": 2266376.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.16,
+    "text": "Capricornus 20°09′",
+    "longitude": 290.158
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lawyer's Son",
+   "stop": "Lincoln's Inn: called to the bar",
+   "date": "1496-01-01",
+   "date_confidence": "Admission to Lincoln's Inn 1496 attested (Wikipedia, 'Thomas More'; Luminarium). The call to the bar is given as 1501 by Luminarium and 1502 by Wikipedia; the two traditions are recorded, not reconciled. Coordinate corrected to Wikipedia's Lincoln's Inn figures (51.5171250N, 0.1145778W). The dossier's added 'reader 1511, treasurer 1512' is dropped here: it is sourced to nothing reachable, the Lincoln's Inn article does not mention More at all, and thomasmorestudies.org carries no such entries.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1496,
+   "jd_ut": 2267471.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.42,
+    "text": "Capricornus 19°25′",
+    "longitude": 289.416
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Charterhouse and the Choice",
+   "stop": "St Lawrence Jewry, Guildhall Yard: the layman on the City of God",
+   "date": "1501-01-01",
+   "date_confidence": "Attested, 1501 (Stanford Encyclopedia of Philosophy chronology, 'Thomas More'; Roper). Month unknown, defaulted to 01-01. Roper adds Grocyn among the hearers.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1501,
+   "jd_ut": 2269298.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.22,
+    "text": "Capricornus 20°13′",
+    "longitude": 290.217
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Charterhouse and the Choice",
+   "stop": "London Charterhouse, Charterhouse Square: four years beside the Carthusians",
+   "date": "1502-01-01",
+   "date_confidence": "Range, and the dossier carried it twice. thomasmorestudies.org/chronology/ gives 'c. 1501-1504 Frequents Charterhouse (Carthusians)'; Wikipedia gives 1503-1504. The dossier separately logged the same episode at 1504 with an [R] tag, and that second entry misplaced the City of God lectures at the Charterhouse; they belong at St Lawrence Jewry. Merged here at c.1501-1504. The hair shirt and the severity of practice are Erasmus (to Ulrich von Hutten, 23 July 1519) and Roper, both friends writing for the record, and are [R].",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1502,
+   "jd_ut": 2269663.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "hard triggers (c.) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.97,
+    "text": "Capricornus 19°58′",
+    "longitude": 289.969
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 11.48,
+    "text": "Libra 11°29′",
+    "longitude": 191.481
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 8.75,
+    "text": "Aquarius 8°45′",
+    "longitude": 308.747
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 25.06,
+    "text": "Aquarius 25°04′",
+    "longitude": 325.062
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 26.01,
+    "text": "Taurus 26°00′",
+    "longitude": 56.007
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 25.92,
+    "text": "Aries 25°55′",
+    "longitude": 25.918
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 13.35,
+    "text": "Gemini 13°21′",
+    "longitude": 73.345
+   }
+  },
+  {
+   "segment": "The Charterhouse and the Choice",
+   "stop": "Palace of Westminster: the subsidy cut down",
+   "date": "1504-01-01",
+   "date_confidence": "The Parliament seat for Great Yarmouth in 1504 is documented (Wikipedia, 'Thomas More'). The leadership of the opposition to Henry VII's subsidy, and the reprisal against John More, are Roper's family tradition and are doubted by modern scholars; tagged [R] and left standing as tradition, not resolved.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1504,
+   "jd_ut": 2270393.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.47,
+    "text": "Capricornus 19°28′",
+    "longitude": 289.475
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Charterhouse and the Choice",
+   "stop": "Netherhall, Roydon, Essex: the marriage to Jane Colt",
+   "date": "1505-01-01",
+   "date_confidence": "Marriage in 1505 to Jane (Joanna) Colt of Netherhall attested (Wikipedia, 'Thomas More'; Roper). Month unknown, defaulted. COORDINATE CORRECTED: the dossier's 51.7719/0.1725 fell about nine kilometres east of Roydon, in open country toward Sheering. Roydon village is 51.773N, 0.0396E per Wikipedia; the Nether Hall moated site lies north-east of it and is pinned here at 51.7740, 0.0450. The preferred-sister anecdote is Roper family tradition, [R], and cannot be checked.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1505,
+   "jd_ut": 2270759.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "traditional",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.25,
+    "text": "Capricornus 20°15′",
+    "longitude": 290.246
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Charterhouse and the Choice",
+   "stop": "Bucklersbury, City of London: the house of Latin daughters",
+   "date": "1506-01-01",
+   "date_confidence": "Residence at Bucklersbury from 1505 attested (Roper; Wikipedia). The Lucian translations with Erasmus, 1506, are given by the Stanford Encyclopedia chronology and Luminarium and described in the humanist correspondence as a friendly contest, tagged [R] for the contest framing. Jane Colt's death and the remarriage to Alice Middleton within weeks are attested for 1511 and are carried into this stop rather than given a pin of their own.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1506,
+   "jd_ut": 2271124.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.0,
+    "text": "Capricornus 20°00′",
+    "longitude": 289.999
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Island of Nowhere",
+   "stop": "Bucklersbury, City of London: the Life of John Pico",
+   "date": "1510-01-01",
+   "date_confidence": "Publication of The Life of John Pico, Earl of Mirandola dated 1510 by the Stanford Encyclopedia of Philosophy chronology. Month unknown, defaulted. Pinned at the household rather than a printing house; the printer is not established by any source reached.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1510,
+   "jd_ut": 2272585.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.03,
+    "text": "Capricornus 20°02′",
+    "longitude": 290.028
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Island of Nowhere",
+   "stop": "Bucklersbury, City of London: the History of King Richard III",
+   "date": "1513-01-01",
+   "date_confidence": "Drafting begun c.1513 in parallel English and Latin versions, per the Stanford Encyclopedia of Philosophy chronology. Both versions were left unfinished and neither was published in More's lifetime; the date is the start of composition, not of any edition.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1513,
+   "jd_ut": 2273681.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c."
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.3,
+    "text": "Capricornus 20°18′",
+    "longitude": 290.305
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Island of Nowhere",
+   "stop": "Stadhuis, Bruges: the embassy that stalls",
+   "date": "1515-01-01",
+   "date_confidence": "Attested: royal commercial embassy to Flanders in 1515, Bruges and Antwerp (Wikipedia, 'Thomas More'; thomasmorestudies.org/chronology/). Month of arrival not fixed, defaulted to 01-01. Coordinate tightened to Bruges City Hall on the Burg, approximately 51.2085, 3.2277; the dossier's 51.2094/3.2260 sat between the Burg and the Markt.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1515,
+   "jd_ut": 2274411.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "not fixed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.81,
+    "text": "Capricornus 19°49′",
+    "longitude": 289.81
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Island of Nowhere",
+   "stop": "Stadhuis, Antwerp: Peter Giles and the frame of the fiction",
+   "date": "1516-01-01",
+   "date_confidence": "Attested for 1515-1516 (Wikipedia, 'Utopia (book)'; thomasmorestudies.org). Split from the Bruges stop and dated 1516-01-01 to hold the travel order; the exact months of the Antwerp residence are not fixed by anything reached.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1516,
+   "jd_ut": 2274776.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.56,
+    "text": "Capricornus 19°34′",
+    "longitude": 289.563
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Island of Nowhere",
+   "stop": "Louvain: the golden little book",
+   "date": "1516-12-01",
+   "date_confidence": "Attested: first Latin edition printed at Louvain, December 1516, by Dirk Martens under Erasmus's editorial supervision (Stanford Encyclopedia chronology; Wikipedia, 'Utopia (More book)'; Wikipedia, 'Dirk Martens'). CORRECTION CARRIED: the dossier credited the woodcuts to Ambrosius Holbein. Those belong to the 1518 Basel edition; the 1516 Louvain editio princeps carried a different, anonymous map. More himself was in London and did not attend the printing.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1516,
+   "jd_ut": 2275111.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) editorial",
+    "text affirms the month, not the day"
+   ],
+   "notes": [
+    "soft triggers (editorial) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.74,
+    "text": "Sagittarius 18°44′",
+    "longitude": 258.737
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Island of Nowhere",
+   "stop": "Cheapside, City of London: Evil May Day",
+   "date": "1517-05-01",
+   "date_confidence": "Attested: More was involved as a London officer in the suppression of the Evil May Day riot, 1 May 1517 (Wikipedia, 'Thomas More'), holding the under-sheriffship from 1510. The speech to the rioters, 'the Strangers' Case,' comes from the Elizabethan play Sir Thomas More, written roughly seventy years later; it is dramatic reconstruction and no contemporary record confirms he spoke it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1517,
+   "jd_ut": 2275262.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition, no source, reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.48,
+    "text": "Taurus 19°29′",
+    "longitude": 49.481
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 12.43,
+    "text": "Virgo 12°26′",
+    "longitude": 162.432
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 25.67,
+    "text": "Aries 25°40′",
+    "longitude": 25.674
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 24.0,
+    "text": "Aries 24°00′",
+    "longitude": 24.0
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 13.86,
+    "text": "Cancer 13°51′",
+    "longitude": 103.857
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.02,
+    "text": "Leo 13°01′",
+    "longitude": 133.024
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 28.68,
+    "text": "Sagittarius 28°41′",
+    "longitude": 268.676
+   }
+  },
+  {
+   "segment": "The King's Servant",
+   "stop": "Palace of Westminster: sworn of the king's council",
+   "date": "1518-01-01",
+   "date_confidence": "CONTESTED AND LEFT CONTESTED. The dossier asserted 1518 while sourcing it to Wikipedia, 'Thomas More', which in fact dates Master of Requests and the Privy Council membership to 1514. Luminarium and other chronologies give 1517 or 1518. The entry into full royal service is genuinely unfixed between 1514 and 1518; dated here at the late end of the range and flagged rather than resolved.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1518,
+   "jd_ut": 2275507.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "between",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.09,
+    "text": "Capricornus 20°05′",
+    "longitude": 290.087
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Servant",
+   "stop": "Val d'Or, Balinghem: the Field of Cloth of Gold",
+   "date": "1520-06-07",
+   "date_confidence": "Attested: the kings met at the Val d'Or on Thursday 7 June 1520 and separated Sunday 24 June, and Wikipedia, 'Field of the Cloth of Gold' names More explicitly among the English guests. COORDINATE CORRECTED: the site is 50deg51'8.28\"N 1deg55'22.44\"E, that is 50.8523, 1.9229, in Balinghem between Guines and Ardres. The dossier's 50.8608/1.8654 was Guines town, about four kilometres off.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276395.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 25.16,
+    "text": "Gemini 25°10′",
+    "longitude": 85.158
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 5.99,
+    "text": "Pisces 5°59′",
+    "longitude": 335.988
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 13.8,
+    "text": "Cancer 13°48′",
+    "longitude": 103.796
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 22.14,
+    "text": "Taurus 22°08′",
+    "longitude": 52.137
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 11.49,
+    "text": "Taurus 11°29′",
+    "longitude": 41.485
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.04,
+    "text": "Scorpio 13°02′",
+    "longitude": 223.038
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 2.75,
+    "text": "Aquarius 2°45′",
+    "longitude": 302.749
+   }
+  },
+  {
+   "segment": "The King's Servant",
+   "stop": "Calais: knighted, and Under-Treasurer of the Exchequer",
+   "date": "1521-01-01",
+   "date_confidence": "Knighthood and the Under-Treasurership are attested for 1521 (Wikipedia, 'Thomas More'; thomasmorestudies.org: '1521 Knighted'). The Calais diplomatic service in the same year is given by thomasmorestudies.org and is consistent with the Wolsey conference; month not fixed, defaulted. Coordinate tightened to approximately 50.9513, 1.8587; the dossier's figure sat about a kilometre north.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276603.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "not fixed",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.36,
+    "text": "Capricornus 20°22′",
+    "longitude": 290.363
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Servant",
+   "stop": "Crosby Place, Bishopsgate: the Responsio ad Lutherum",
+   "date": "1523-01-01",
+   "date_confidence": "Publication of the Responsio ad Lutherum in 1523 under the pseudonym Gulielmus Rosseus is attested (Wikipedia, 'Thomas More'; Stanford Encyclopedia chronology). Month unknown, defaulted. CORRECTION CARRIED on the pin: Wikipedia, 'Crosby Hall, London' has More leasing the Bishopsgate property in 1519, purchasing in 1523, and in that same year selling on the remainder of the lease to Antonio Bonvisi. The dossier's 'leased 1523' inverted this. A property interest is not proof of continuous residence, and the pin is where his Bishopsgate interest lay, not a proven writing desk.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1523,
+   "jd_ut": 2277333.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.87,
+    "text": "Capricornus 19°52′",
+    "longitude": 289.869
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House at Chelsea",
+   "stop": "Palace of Westminster: Speaker of the Commons",
+   "date": "1523-04-15",
+   "date_confidence": "Attested: Speaker of the House of Commons, 15 April to 13 August 1523 (Wikipedia, 'Thomas More'), with the petition to Henry VIII for freedom of speech in Parliament.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1523,
+   "jd_ut": 2277437.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.58,
+    "text": "Taurus 3°35′",
+    "longitude": 33.585
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 23.51,
+    "text": "Aries 23°31′",
+    "longitude": 23.514
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 13.71,
+    "text": "Taurus 13°43′",
+    "longitude": 43.711
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 26.79,
+    "text": "Pisces 26°48′",
+    "longitude": 356.792
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 0.64,
+    "text": "Virgo 0°38′",
+    "longitude": 150.635
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 27.27,
+    "text": "Aquarius 27°16′",
+    "longitude": 327.274
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 6.81,
+    "text": "Pisces 6°49′",
+    "longitude": 336.814
+   }
+  },
+  {
+   "segment": "The House at Chelsea",
+   "stop": "Chelsea: the new house on the river",
+   "date": "1524-01-01",
+   "date_confidence": "Genuinely disputed. thomasmorestudies.org/chronology/ gives 1524 for the move to Chelsea; Wikipedia, 'Thomas More' gives 1525. Rendered as c.1524-1525 and dated to the earlier reading. COORDINATE SEPARATED: the dossier used one point for both More's house and Chelsea Old Church. The church is 51.48306N, 0.17083W; the Beaufort House estate lay north-east of it and is pinned here at approximately 51.4847, -0.1712.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1524,
+   "jd_ut": 2277698.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "c.",
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.62,
+    "text": "Capricornus 19°37′",
+    "longitude": 289.622
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House at Chelsea",
+   "stop": "Palace of Westminster: Chancellor of the Duchy of Lancaster",
+   "date": "1525-12-31",
+   "date_confidence": "Attested to the day: 31 December 1525 (Wikipedia, 'Thomas More'). Pinned at Westminster for the government office rather than at the Duchy's own Savoy premises, which are not fixed by any source reached.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1525,
+   "jd_ut": 2278428.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not fixed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.13,
+    "text": "Capricornus 19°08′",
+    "longitude": 289.127
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 1.86,
+    "text": "Leo 1°52′",
+    "longitude": 121.859
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 11.89,
+    "text": "Capricornus 11°54′",
+    "longitude": 281.892
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 25.58,
+    "text": "Aquarius 25°35′",
+    "longitude": 325.581
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 28.28,
+    "text": "Aquarius 28°17′",
+    "longitude": 328.276
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 5.76,
+    "text": "Taurus 5°46′",
+    "longitude": 35.761
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 29.19,
+    "text": "Pisces 29°12′",
+    "longitude": 359.192
+   }
+  },
+  {
+   "segment": "The House at Chelsea",
+   "stop": "Chelsea: the school of the household",
+   "date": "1526-01-01",
+   "date_confidence": "Undated in the strict sense; the household regime at Chelsea is described by Roper and by Erasmus without a year attached. Dated 1526 purely to order the segment between the move and Holbein's visit. The quote is Roper's, given without a date in his text.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1526,
+   "jd_ut": 2278429.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "no month/day",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.15,
+    "text": "Capricornus 20°09′",
+    "longitude": 290.145
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House at Chelsea",
+   "stop": "Chelsea: Holbein in the house",
+   "date": "1527-01-01",
+   "date_confidence": "The individual portrait is dated 1527 by standard art history and by Wikipedia, 'Thomas More'; the panel is in the Frick Collection, New York, whose own provenance page could not be fetched (404) and is therefore carried on the Wikipedia cross-reference. The lost group portrait is dated c.1527. Month unknown, defaulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1527,
+   "jd_ut": 2278794.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.9,
+    "text": "Capricornus 19°54′",
+    "longitude": 289.898
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House at Chelsea",
+   "stop": "Chelsea Old Church: the private chapel",
+   "date": "1528-01-01",
+   "date_confidence": "Attested: the south chapel was rebuilt in 1528 as Sir Thomas More's private chapel, with the date carved on a chancel pillar capital (Wikipedia, 'Chelsea Old Church'). COORDINATE CORRECTED to 51.48306N, 0.17083W and separated from the pin for More's own house, which the dossier had collapsed into the same point.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1528,
+   "jd_ut": 2279159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.65,
+    "text": "Capricornus 19°39′",
+    "longitude": 289.651
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chancellor",
+   "stop": "Cambrai, prince-bishopric in the Habsburg Netherlands: the peace",
+   "date": "1529-08-05",
+   "date_confidence": "The treaty was signed 5 August 1529 and Cambrai in that year was NOT French: Wikipedia, 'Treaty of Cambrai' calls it the centre of a principality-bishopric in the Netherlands, now the French department of Nord. The dossier's label 'Cambrai, France' is anachronistic and is corrected here. More's own participation could NOT be independently confirmed: the Treaty of Cambrai article names no English envoys, and the Cuthbert Tunstall article credits Tunstall alone. The claim rests on thomasmorestudies.org and is tagged [R].",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1529,
+   "jd_ut": 2279741.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.39,
+    "text": "Leo 21°23′",
+    "longitude": 141.391
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 1.53,
+    "text": "Virgo 1°32′",
+    "longitude": 151.528
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 18.36,
+    "text": "Virgo 18°21′",
+    "longitude": 168.357
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 16.0,
+    "text": "Leo 16°00′",
+    "longitude": 136.005
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 2.78,
+    "text": "Aquarius 2°47′",
+    "longitude": 302.785
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 3.12,
+    "text": "Virgo 3°07′",
+    "longitude": 153.121
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 28.22,
+    "text": "Taurus 28°13′",
+    "longitude": 58.22
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Chancellor",
+   "stop": "Palace of Westminster: the great seal after Wolsey",
+   "date": "1529-10-26",
+   "date_confidence": "Attested to the day: Lord Chancellor of England from 26 October 1529 (Wikipedia, 'Thomas More'). The Dialogue Concerning Heresies is attested to 1529 without a month and is carried into this stop rather than given a pin of its own.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1529,
+   "jd_ut": 2279823.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 12.1,
+    "text": "Scorpio 12°06′",
+    "longitude": 222.101
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chancellor",
+   "stop": "Chelsea: the walk along the water",
+   "date": "1530-01-01",
+   "date_confidence": "Undated in Roper, who places it at Chelsea without a year; the internal reference to the king's matter puts it in the chancellorship or just before. Dated 1530 purely to order the segment. Roper wrote the scene about thirty years after the fact, from memory, in Mary's reign.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1530,
+   "jd_ut": 2279890.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.17,
+    "text": "Capricornus 20°10′",
+    "longitude": 290.175
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chancellor",
+   "stop": "Palace of Westminster: the seal given back",
+   "date": "1532-05-16",
+   "date_confidence": "Attested to the day: resignation as Lord Chancellor, 16 May 1532, citing ill health (Wikipedia, 'Thomas More'). That the true reason was the break with Rome is the universal reading and is not itself a documented statement by More, who gave no reason but his health.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1532,
+   "jd_ut": 2280756.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 4.24,
+    "text": "Gemini 4°14′",
+    "longitude": 64.24
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 25.68,
+    "text": "Libra 25°41′",
+    "longitude": 205.684
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 9.53,
+    "text": "Gemini 9°32′",
+    "longitude": 69.528
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 8.18,
+    "text": "Cancer 8°11′",
+    "longitude": 98.184
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.97,
+    "text": "Cancer 17°58′",
+    "longitude": 107.971
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 20.08,
+    "text": "Scorpio 20°05′",
+    "longitude": 230.079
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 27.29,
+    "text": "Gemini 27°18′",
+    "longitude": 87.292
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Oath and the Tower",
+   "stop": "Chelsea: the coronation not attended",
+   "date": "1533-06-01",
+   "date_confidence": "Attested: More refused to attend Anne Boleyn's coronation, 1 June 1533 (Wikipedia, 'Thomas More'; Luminarium). The detail of the twenty pounds sent by three bishops for a gown is Roper's and is [R]. The questioning over Elizabeth Barton, the Holy Maid of Kent, by Cromwell's agents is attested for 1534 and is carried into this stop.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1533,
+   "jd_ut": 2281137.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 19.3,
+    "text": "Gemini 19°18′",
+    "longitude": 79.301
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oath and the Tower",
+   "stop": "Lambeth Palace: the oath refused",
+   "date": "1534-04-13",
+   "date_confidence": "Attested: summoned before the commissioners at Lambeth 13 April 1534, committed to the Tower 17 April (Wikipedia, 'Thomas More'; thomasmorestudies.org gives the imprisonment as 17 April). Same coordinate correction as the earlier Lambeth stop: 51.49556, -0.11972, not the dossier's -0.1219.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1534,
+   "jd_ut": 2281453.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 1.97,
+    "text": "Taurus 1°58′",
+    "longitude": 31.972
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 25.98,
+    "text": "Aries 25°59′",
+    "longitude": 25.981
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 5.02,
+    "text": "Taurus 5°01′",
+    "longitude": 35.022
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 12.26,
+    "text": "Gemini 12°15′",
+    "longitude": 72.257
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 12.54,
+    "text": "Cancer 12°32′",
+    "longitude": 102.536
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 0.69,
+    "text": "Aquarius 0°42′",
+    "longitude": 300.693
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 19.59,
+    "text": "Cancer 19°35′",
+    "longitude": 109.592
+   }
+  },
+  {
+   "segment": "The Oath and the Tower",
+   "stop": "Tower of London: fifteen months",
+   "date": "1534-04-17",
+   "date_confidence": "Attested: imprisoned in the Tower from 17 April 1534 to 6 July 1535, writing A Dialogue of Comfort against Tribulation and the unfinished De tristitia Christi there (Wikipedia, 'Thomas More'; Roper). The specific cell, the Bell Tower, is the standard tradition rather than a documented assignment and is [R].",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1534,
+   "jd_ut": 2281457.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 5.85,
+    "text": "Taurus 5°51′",
+    "longitude": 35.852
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 13.59,
+    "text": "Gemini 13°35′",
+    "longitude": 73.588
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 13.59,
+    "text": "Taurus 13°35′",
+    "longitude": 43.589
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 14.22,
+    "text": "Gemini 14°13′",
+    "longitude": 74.22
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 14.71,
+    "text": "Cancer 14°42′",
+    "longitude": 104.706
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 1.01,
+    "text": "Aquarius 1°01′",
+    "longitude": 301.01
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 19.83,
+    "text": "Cancer 19°50′",
+    "longitude": 109.833
+   }
+  },
+  {
+   "segment": "The Oath and the Tower",
+   "stop": "Westminster Hall: the trial",
+   "date": "1535-07-01",
+   "date_confidence": "Attested for 1 July 1535 (Wikipedia, 'Thomas More'; the Paris newsletter of 4 August 1535). CONTRADICTION FLAGGED, NOT RESOLVED: famous-trials.com's report of the trial carries a conflicting May date. The 1 July date is followed here because two independent sources give it, but the discrepancy stands unexplained. Conviction in about a quarter of an hour is attested.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1535,
+   "jd_ut": 2281897.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.44,
+    "text": "Cancer 17°26′",
+    "longitude": 107.441
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 22.89,
+    "text": "Cancer 22°54′",
+    "longitude": 112.892
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 9.19,
+    "text": "Cancer 9°11′",
+    "longitude": 99.19
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 16.09,
+    "text": "Leo 16°05′",
+    "longitude": 136.087
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 21.82,
+    "text": "Taurus 21°49′",
+    "longitude": 51.825
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 7.19,
+    "text": "Pisces 7°11′",
+    "longitude": 337.189
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 9.66,
+    "text": "Leo 9°40′",
+    "longitude": 129.663
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Oath and the Tower",
+   "stop": "Westminster Hall: the indictment answered after judgment",
+   "date": "1535-07-01",
+   "date_confidence": "Same session, 1 July 1535, after the verdict. Roper reports that More interrupted Lord Chancellor Audley before sentence to claim the prisoner's old right to be asked why judgment should not be given. The speeches are Roper's text and the Paris Newsletter's, and the two accounts differ in wording though not in substance; both are given in the sources. Split from the preceding stop so that the argument, which is the only public statement of his position he ever made, is not buried inside the account of Rich.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1535,
+   "jd_ut": 2281897.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.44,
+    "text": "Cancer 17°26′",
+    "longitude": 107.441
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 22.89,
+    "text": "Cancer 22°54′",
+    "longitude": 112.892
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 9.19,
+    "text": "Cancer 9°11′",
+    "longitude": 99.19
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 16.09,
+    "text": "Leo 16°05′",
+    "longitude": 136.087
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 21.82,
+    "text": "Taurus 21°49′",
+    "longitude": 51.825
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 7.19,
+    "text": "Pisces 7°11′",
+    "longitude": 337.189
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 9.66,
+    "text": "Leo 9°40′",
+    "longitude": 129.663
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Oath and the Tower",
+   "stop": "Old Swan Stairs and the Tower wharf: parting from Kingston",
+   "date": "1535-07-01",
+   "date_confidence": "Roper's scene, undated within the day but placed immediately after the trial, 1 July 1535. Pinned at the Tower landing rather than at Old Swan Stairs upriver, since the parting from Kingston and Margaret's interception both happen at the Tower end of the passage.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1535,
+   "jd_ut": 2281897.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.44,
+    "text": "Cancer 17°26′",
+    "longitude": 107.441
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oath and the Tower",
+   "stop": "Tower of London: the last letter to Margaret",
+   "date": "1535-07-05",
+   "date_confidence": "Attested: the last letter to Margaret Roper, written with a coal on 5 July 1535, the day before the execution (Roper). St Thomas's Eve and the octave of St Peter both fall on 6 July, which is why he asks for that day.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1535,
+   "jd_ut": 2281901.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 21.26,
+    "text": "Cancer 21°15′",
+    "longitude": 111.257
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 11.95,
+    "text": "Virgo 11°57′",
+    "longitude": 161.948
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 17.67,
+    "text": "Cancer 17°40′",
+    "longitude": 107.667
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 20.91,
+    "text": "Leo 20°54′",
+    "longitude": 140.906
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 24.6,
+    "text": "Taurus 24°36′",
+    "longitude": 54.598
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 6.99,
+    "text": "Pisces 7°00′",
+    "longitude": 336.993
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 10.15,
+    "text": "Leo 10°09′",
+    "longitude": 130.154
+   }
+  },
+  {
+   "segment": "The Oath and the Tower",
+   "stop": "Tower Hill: the scaffold",
+   "date": "1535-07-06",
+   "date_confidence": "Attested: beheaded on Tower Hill, 6 July 1535, aged 57, the sentence for treason commuted to beheading. THE FAMOUS LINE IS TAGGED [R] AND IS NOT PRINTED AS A QUOTE HERE. It appears in no primary source that could be reached: 'good servant', 'king's good servant' and 'God's first' are all absent from Roper's Life entirely, and the Paris Newsletter of 4 August 1535 gives only reported speech, 'protesting that he died his faithful servant, and God's first' (the CTMS transcription reads 'and', the 1882 Letters and Papers translation 'but'). Note the further drift from 'faithful servant' to 'good servant' in the popular version. The executioner quote below is Roper's and is direct.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1535,
+   "jd_ut": 2281902.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.21,
+    "text": "Cancer 22°13′",
+    "longitude": 112.211
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 24.75,
+    "text": "Virgo 24°45′",
+    "longitude": 174.75
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 19.8,
+    "text": "Cancer 19°48′",
+    "longitude": 109.8
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 22.11,
+    "text": "Leo 22°07′",
+    "longitude": 142.11
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 25.29,
+    "text": "Taurus 25°17′",
+    "longitude": 55.287
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 6.94,
+    "text": "Pisces 6°56′",
+    "longitude": 336.936
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 10.28,
+    "text": "Leo 10°17′",
+    "longitude": 130.278
+   }
+  },
+  {
+   "segment": "The Body, the Head, and the Altar",
+   "stop": "Chapel Royal of St Peter ad Vincula, Tower of London: the body",
+   "date": "1535-07-06",
+   "date_confidence": "Attested: buried in St Peter ad Vincula inside the Tower, in an unmarked grave, the same day (Wikipedia, 'Thomas More'). Coordinate tightened to approximately 51.5085, -0.0770 at the Tower's north-west corner; the dossier's -0.0762 sat nearer the White Tower. The competing tradition that the body lies at Chelsea Old Church is unsubstantiated and is flagged rather than resolved.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1535,
+   "jd_ut": 2281902.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.21,
+    "text": "Cancer 22°13′",
+    "longitude": 112.211
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Body, the Head, and the Altar",
+   "stop": "Old London Bridge, the drawbridge gate: the head",
+   "date": "1535-07-06",
+   "date_confidence": "The head was parboiled and displayed on London Bridge, attested. CORRECTION CARRIED: the dossier put it on the southern gatehouse, which is anachronistic by four decades. Wikipedia, 'Old London Bridge' has traitors' heads exhibited on the DRAWBRIDGE TOWER mid-span, the Southwark stone gate taking over that function only after the drawbridge tower was replaced in 1577-1579. Coordinate moved to approximately 51.5065, -0.0873 on the old bridge line, which stood about thirty metres east of the present bridge. Margaret's recovery of the head is [R]: famous-trials.com confirms only that it stood 'for some Months' and that she 'bought it'; the bribed bridge-keeper and the rescue from the river are later elaboration.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1535,
+   "jd_ut": 2281902.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "decade/century",
+    "placed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.21,
+    "text": "Cancer 22°13′",
+    "longitude": 112.211
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Body, the Head, and the Altar",
+   "stop": "St Dunstan's Church, Canterbury: the Roper vault",
+   "date": "1544-01-01",
+   "date_confidence": "Tradition throughout, tagged [R]. Margaret Roper died in 1544; the chain of custody from London Bridge to the Roper vault at St Dunstan's is family and ecclesiastical tradition, not continuous documentation. COORDINATE CORRECTED to 51.2836583N, 1.0708139E per Wikipedia, 'St Dunstan's, Canterbury'; the dossier gave two different wrong latitudes in two different lenses. DATE CORRECTED: the dossier's '1997 vault opening' appears to be a corruption of 1978, the opening reported in H. O. Albin, 'Opening of the Roper Vault in St. Dunstan's Canterbury', Moreana (1979). The 2025 exhumation proposal and the GBP 50,000 figure in the dossier could not be confirmed anywhere and are not printed. Margaret's own burial place is contradicted between Canterbury and Chelsea Old Church, and the contradiction is left standing.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1544,
+   "jd_ut": 2285003.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.77,
+    "text": "Capricornus 19°46′",
+    "longitude": 289.768
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Body, the Head, and the Altar",
+   "stop": "Vatican City: beatified, then canonized with Fisher",
+   "date": "1935-05-19",
+   "date_confidence": "Both dates attested and both were missing their day in the dossier. Leo XIII's beatification decree is dated 29 December 1886, the same decree under which Wikipedia, 'Forty Martyrs of England and Wales' records eleven beatifications on that day. Pius XI canonized More jointly with John Fisher on 19 May 1935 (Wikipedia, 'Thomas More'). The stop is dated to the canonization and carries the beatification in the campa.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1935,
+   "jd_ut": 2427941.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 27.1,
+    "text": "Taurus 27°06′",
+    "longitude": 57.103
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 4.33,
+    "text": "Sagittarius 4°20′",
+    "longitude": 244.329
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 17.85,
+    "text": "Gemini 17°51′",
+    "longitude": 77.849
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 8.09,
+    "text": "Cancer 8°05′",
+    "longitude": 98.087
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 6.02,
+    "text": "Libra 6°01′",
+    "longitude": 186.022
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 17.22,
+    "text": "Scorpio 17°13′",
+    "longitude": 227.216
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 8.98,
+    "text": "Pisces 8°59′",
+    "longitude": 338.984
+   }
+  },
+  {
+   "segment": "The Body, the Head, and the Altar",
+   "stop": "Chelsea Old Church: the chapel that survived the mine",
+   "date": "1941-04-14",
+   "date_confidence": "Attested: the church was hit by a parachute mine on 14 April 1941; the More Chapel sustained the least damage of the standing fabric. More's chapel reopened in 1950, the chancel and Lawrence Chapel in May 1954, and the whole church was reconsecrated in May 1958 (Wikipedia, 'Chelsea Old Church'). The Leslie Cubitt Bevis statue outside, facing the river, is attested by the same source without a date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1941,
+   "jd_ut": 2430098.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 23.67,
+    "text": "Aries 23°40′",
+    "longitude": 23.665
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Body, the Head, and the Altar",
+   "stop": "Vatican City: patron of statesmen and politicians",
+   "date": "2000-10-31",
+   "date_confidence": "Attested and verified directly against vatican.va: the apostolic letter is dated 31 October 2000 and reads 'I establish and declare Saint Thomas More the heavenly Patron of Statesmen and Politicians.' TITLE CORRECTED: the incipit is 'E sancti Thomae Mori', not the dossier's 'Ex Sancti Thomae Mori'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 2000,
+   "jd_ut": 2451848.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.88,
+    "text": "Scorpio 7°53′",
+    "longitude": 217.882
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 20.9,
+    "text": "Sagittarius 20°54′",
+    "longitude": 260.901
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 5.8,
+    "text": "Scorpio 5°48′",
+    "longitude": 215.799
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 14.24,
+    "text": "Sagittarius 14°14′",
+    "longitude": 254.239
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 27.49,
+    "text": "Virgo 27°29′",
+    "longitude": 177.491
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 9.74,
+    "text": "Gemini 9°44′",
+    "longitude": 69.736
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 28.71,
+    "text": "Taurus 28°42′",
+    "longitude": 58.708
+   }
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 16,
+  "month": 1,
+  "year": 28
+ },
+ "parse_failures": []
+}

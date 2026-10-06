@@ -1,0 +1,1696 @@
+{
+ "slug": "leif_erikson",
+ "traveler": "Leif Erikson (Leifr Eiriksson, Leif the Lucky)",
+ "title": "The Booths at the River Mouth: Greenland, Vinland, and the Winter Without Frost",
+ "years": "c. 970 - c. 1020",
+ "years_parsed": {
+  "first": 970,
+  "last": 1020
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Outlawries of Erik the Red",
+  "stop": "Eiriksstadir, Haukadalur: the birth no saga records",
+  "date": "0970-01-01",
+  "date_confidence": "reconstruction: no saga states where or when Leif was born. The year c. 970 is a scholarly estimate; Eiriksstadir is tradition, carried by the reconstructed farm on the site, and Breidafjordur generally is the most that can be defended.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 970,
+  "jd_ut": 2075350.5,
+  "precision": "year",
+  "precision_triggers": [
+   "c.",
+   "traditional",
+   "estimated",
+   "reconstructed (the date)",
+   "(soft) reconstruct"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 16.1,
+   "text": "Capricornus 16°06′",
+   "longitude": 286.096
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 970 - c. 1020",
+  "first_year_parsed": 970
+ },
+ "stops": [
+  {
+   "segment": "The Outlawries of Erik the Red",
+   "stop": "Drangar, Hornstrandir: the family arrives outlawed",
+   "date": "0965-01-01",
+   "date_confidence": "reconstruction: Landnamabok and Eiriks saga rauda ch. 1 name Drangar as Thorvald Asvaldsson's settlement after a killing in Norway, but give no year; the date here is a placeholder for Erik's boyhood.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 965,
+   "jd_ut": 2073524.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.31,
+    "text": "Capricornus 16°19′",
+    "longitude": 286.314
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Outlawries of Erik the Red",
+   "stop": "Eiriksstadir, Haukadalur: the birth no saga records",
+   "date": "0970-01-01",
+   "date_confidence": "reconstruction: no saga states where or when Leif was born. The year c. 970 is a scholarly estimate; Eiriksstadir is tradition, carried by the reconstructed farm on the site, and Breidafjordur generally is the most that can be defended.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 970,
+   "jd_ut": 2075350.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "estimated",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.1,
+    "text": "Capricornus 16°06′",
+    "longitude": 286.096
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Outlawries of Erik the Red",
+   "stop": "Thorsnes: the assembly that sentences a family westward",
+   "date": "0982-01-01",
+   "date_confidence": "attested in Eiriks saga rauda ch. 2 for the outlawry and its three-year term. Coordinate corrected: the Thorsnes thing site lies on the north coast of Snaefellsnes near Helgafell and Stykkisholmur, not on the south coast.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 982,
+   "jd_ut": 2079733.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.18,
+    "text": "Capricornus 16°11′",
+    "longitude": 286.183
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Outlawries of Erik the Red",
+   "stop": "Ondverdarnes: the sail set into the unknown west",
+   "date": "0982-06-01",
+   "date_confidence": "reconstruction: the saga has Erik put out from under Snaefellsjokull; the precise departure point is inferred, and the month is not given.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 982,
+   "jd_ut": 2079884.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "not given",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 14.7,
+    "text": "Gemini 14°42′",
+    "longitude": 74.704
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Greenland, a Country Named to Attract Settlers",
+   "stop": "Eiriksfjord: three years of exile spent surveying",
+   "date": "0982-06-15",
+   "date_confidence": "attested for the exile and the naming (Eiriks saga rauda ch. 2, Groenlendinga saga); the day and month are conventional, the span 982 to 985 is the saga's own three-year term.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 982,
+   "jd_ut": 2079898.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 28.04,
+    "text": "Gemini 28°03′",
+    "longitude": 88.043
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Greenland, a Country Named to Attract Settlers",
+   "stop": "Brattahlid: the farm at the head of the fjord",
+   "date": "0986-01-01",
+   "date_confidence": "attested for the founding (Groenlendinga saga; Saga of Erik the Red) and confirmed archaeologically at Qassiarsuk. Coordinate corrected to 61.150 / -45.517, the Qassiarsuk site; a widely circulated 61.1667 / -45.4167 sits several kilometres northeast of the ruins.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 986,
+   "jd_ut": 2081194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.21,
+    "text": "Capricornus 16°13′",
+    "longitude": 286.212
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Greenland, a Country Named to Attract Settlers",
+   "stop": "Herjolfsnes: Bjarni brings back a coastline he did not land on",
+   "date": "0986-09-01",
+   "date_confidence": "attested in Groenlendinga saga ch. 2-3; absent entirely from the Saga of Erik the Red, which knows no Bjarni Herjolfsson. Coordinate corrected to 59.983 / -44.700 (Ikigaat).",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 986,
+   "jd_ut": 2081437.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 13.12,
+    "text": "Virgo 13°07′",
+    "longitude": 163.122
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Greenland, a Country Named to Attract Settlers",
+   "stop": "Brattahlid: Tyrker the thrall is given the boy to raise",
+   "date": "0990-01-01",
+   "date_confidence": "attested in Groenlendinga saga only, and undated there; the year is a placeholder for Leif's childhood. Widely miscited to the Saga of Erik the Red, which does not contain Tyrker at all.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 990,
+   "jd_ut": 2082655.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.24,
+    "text": "Capricornus 16°14′",
+    "longitude": 286.241
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Court at Nidaros",
+   "stop": "Nidaros: Leif enters the king's hird",
+   "date": "0999-01-01",
+   "date_confidence": "attested in both sagas (Groenlendinga saga ch. 5; Saga of Erik the Red ch. 5) for the visit and the retainership; the year 999 is the conventional dating, constrained by Olaf Tryggvason's reign of 995 to 1000.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 999,
+   "jd_ut": 2085942.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.05,
+    "text": "Capricornus 16°03′",
+    "longitude": 286.052
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Court at Nidaros",
+   "stop": "Nidaros: baptism, and an errand for Greenland",
+   "date": "0999-12-01",
+   "date_confidence": "attested in both sagas for the baptism and the commission. Dated here to 999 or the winter of 999-1000: Olaf Tryggvason died at Svolder on 9 September 1000, so a flat date of 1000 risks placing the commission after the king's death.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 999,
+   "jd_ut": 2086276.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 14.2,
+    "text": "Sagittarius 14°12′",
+    "longitude": 254.198
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 23.62,
+    "text": "Leo 23°37′",
+    "longitude": 143.618
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 24.23,
+    "text": "Scorpio 24°14′",
+    "longitude": 234.227
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 11.54,
+    "text": "Capricornus 11°32′",
+    "longitude": 281.536
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 3.57,
+    "text": "Leo 3°34′",
+    "longitude": 123.57
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 23.0,
+    "text": "Sagittarius 23°00′",
+    "longitude": 262.999
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 18.85,
+    "text": "Taurus 18°51′",
+    "longitude": 48.85
+   }
+  },
+  {
+   "segment": "The Court at Nidaros",
+   "stop": "The Hebrides: Thorgunna, and a son Leif does not take home",
+   "date": "1000-01-01",
+   "date_confidence": "reconstruction: the episode is in the Saga of Erik the Red ch. 5 alone and is absent from Groenlendinga saga; the text names no island, so the coordinate marks the Outer Hebrides generally. Eyrbyggja saga knows a Thorgils Leifsson independently.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.8,
+    "text": "Capricornus 15°48′",
+    "longitude": 285.798
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Accounts of How Vinland Was Found",
+   "stop": "The North Atlantic: where the sagas part company",
+   "date": "1000-05-01",
+   "date_confidence": "reconstruction: this stop marks a contradiction, not a place. The coordinate is a mid-passage marker between Norway and Greenland and corresponds to no event either saga locates.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086428.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 15.67,
+    "text": "Taurus 15°40′",
+    "longitude": 45.675
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Accounts of How Vinland Was Found",
+   "stop": "Brattahlid: the ship bought, and the horse that falls",
+   "date": "1000-06-01",
+   "date_confidence": "attested in Groenlendinga saga for the purchase, the crew of thirty-five, and Erik's fall; the whole episode is absent from the Saga of Erik the Red, which has no deliberate expedition to describe.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086459.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 15.32,
+    "text": "Gemini 15°19′",
+    "longitude": 75.316
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Accounts of How Vinland Was Found",
+   "stop": "Helluland: the land of flat stones",
+   "date": "1000-07-01",
+   "date_confidence": "reconstruction: the landfall and the naming are attested in Groenlendinga saga ch. 5, but the identification with Baffin Island is scholarly consensus rather than textual fact, and the coordinate is approximate at the scale of a whole coast.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086489.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 13.91,
+    "text": "Cancer 13°54′",
+    "longitude": 103.908
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Accounts of How Vinland Was Found",
+   "stop": "Markland: the land of forests",
+   "date": "1000-07-20",
+   "date_confidence": "reconstruction: naming attested in Groenlendinga saga ch. 5; the traditional identification with the Labrador coast near Cape Porcupine is inference, and the exact landfall is unknown.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086508.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "traditional",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.08,
+    "text": "Leo 2°05′",
+    "longitude": 122.08
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Accounts of How Vinland Was Found",
+   "stop": "Furdustrandir: the wonder strands",
+   "date": "1000-08-01",
+   "date_confidence": "reconstruction, and a flagged cross-saga contradiction: the name is given in the Saga of Erik the Red ch. 8, where it belongs to Karlsefni's later voyage retracing this route. Groenlendinga saga does not use the word for Leif's voyage at all.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086520.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.62,
+    "text": "Leo 13°37′",
+    "longitude": 133.615
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leifsbudir, the Winter Without Frost",
+   "stop": "L'Anse aux Meadows: the booths built and the salmon counted",
+   "date": "1000-09-01",
+   "date_confidence": "attested in Groenlendinga saga ch. 5 for the camp, the river, the lake, and the salmon; the identification of Leifsbudir with the excavated Norse site at L'Anse aux Meadows is scholarly inference and is not textually proven.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086551.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 13.71,
+    "text": "Virgo 13°43′",
+    "longitude": 163.713
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leifsbudir, the Winter Without Frost",
+   "stop": "Leifsbudir: Tyrker comes back speaking German",
+   "date": "1000-10-01",
+   "date_confidence": "attested in Groenlendinga saga ch. 5 and in Gathorne-Hardy's translation of it; entirely absent from the Saga of Erik the Red, along with Tyrker himself.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086581.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.34,
+    "text": "Libra 13°21′",
+    "longitude": 193.342
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leifsbudir, the Winter Without Frost",
+   "stop": "The Gulf of St Lawrence: the grape country the site cannot supply",
+   "date": "1000-10-15",
+   "date_confidence": "reconstruction: no saga names this coast and no Norse structure has been found on it. The pin is placed on the botanical argument alone, from the northern range of wild grape and butternut, and marks a place the sagas locate at the door of Leifsbudir.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086595.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 27.34,
+    "text": "Libra 27°21′",
+    "longitude": 207.343
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leifsbudir, the Winter Without Frost",
+   "stop": "Leifsbudir: the winter in which the grass does not wither",
+   "date": "1001-01-01",
+   "date_confidence": "attested in Groenlendinga saga ch. 5 as the saga's own description, not as a climatic fact; the common paraphrase that no snow fell is an embellishment the text does not contain.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1001,
+   "jd_ut": 2086673.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.57,
+    "text": "Capricornus 16°34′",
+    "longitude": 286.568
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leifsbudir, the Winter Without Frost",
+   "stop": "Leifsbudir: grapes and timber loaded for home",
+   "date": "1001-05-01",
+   "date_confidence": "attested in Groenlendinga saga for the cargo and the division of labour; the month is the saga's spring, not a recorded date.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1001,
+   "jd_ut": 2086793.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 15.44,
+    "text": "Taurus 15°27′",
+    "longitude": 45.442
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leif the Lucky",
+   "stop": "The skerry: fifteen people taken off a wreck",
+   "date": "1001-06-01",
+   "date_confidence": "attested in Groenlendinga saga, which names Thorir the Norwegian merchant and his wife Gudrid. The Saga of Erik the Red does not mention Thorir at all, and the two sources place the byname's origin differently; the position at sea is approximate and disputed between an Atlantic and a near-Greenland location.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1001,
+   "jd_ut": 2086824.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 15.09,
+    "text": "Gemini 15°05′",
+    "longitude": 75.086
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leif the Lucky",
+   "stop": "Brattahlid: the cargo landed and the name earned",
+   "date": "1001-08-01",
+   "date_confidence": "attested in both sagas for the return, the cargo, and the byname heppni; the sagas disagree on which act earns it, the rescue or the Christian mission, and Sephton's translation gives it flatly with no reason attached.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1001,
+   "jd_ut": 2086885.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.38,
+    "text": "Leo 13°23′",
+    "longitude": 133.382
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leif the Lucky",
+   "stop": "Brattahlid: Thjodhild builds a church her husband will not enter",
+   "date": "1002-01-01",
+   "date_confidence": "attested in both sagas for the mission and Thjodhild's church, and confirmed by the excavated church ruin at Qassiarsuk; the year is conventional. The ruin lies a few hundred metres from the farm mound, inside the same site, not in a separate coordinate cluster.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1002,
+   "jd_ut": 2087038.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.32,
+    "text": "Capricornus 16°19′",
+    "longitude": 286.321
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leif the Lucky",
+   "stop": "Brattahlid: Erik the Red dies and the chieftaincy passes",
+   "date": "1003-01-01",
+   "date_confidence": "reconstruction: both sagas place Erik's death not long after 1000 and neither gives a year; 1003 is a conventional estimate. The succession of Leif to the chieftaincy is attested, the date is not.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1003,
+   "jd_ut": 2087403.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "estimated",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.07,
+    "text": "Capricornus 16°04′",
+    "longitude": 286.074
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Houses Lent Out",
+   "stop": "Krossanes: Thorvald is buried under two crosses",
+   "date": "1004-01-01",
+   "date_confidence": "reconstruction: the episode is attested in Groenlendinga saga ch. 7, but Krossanes has never been located and the coordinate is a placeholder in the Leifsbudir region. The year is conventional.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1004,
+   "jd_ut": 2087768.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "convention",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.83,
+    "text": "Capricornus 15°50′",
+    "longitude": 285.827
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Houses Lent Out",
+   "stop": "Leifsbudir: Karlsefni borrows the houses, or does not",
+   "date": "1010-01-01",
+   "date_confidence": "attested in both sagas that Karlsefni led the largest expedition, and flagged as a contradiction on where he based it: Groenlendinga saga has him at Leif's houses at Leifsbudir, while the Saga of Erik the Red has him found his own camp at Straumfjord and never mentions Leifsbudir. Karlsefni was not Leif's brother-in-law; his only tie is his marriage to Gudrid.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1010,
+   "jd_ut": 2089960.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.38,
+    "text": "Capricornus 16°23′",
+    "longitude": 286.379
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Houses Lent Out",
+   "stop": "Hop: the tidal lagoon and the end of the settlement",
+   "date": "1010-06-01",
+   "date_confidence": "reconstruction: Hop appears in the Saga of Erik the Red ch. 11-12 only and is absent from Groenlendinga saga. The place has never been securely identified and the coordinate is a guess along a plausible southern coast.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1010,
+   "jd_ut": 2090111.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 14.92,
+    "text": "Gemini 14°55′",
+    "longitude": 74.918
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Houses Lent Out",
+   "stop": "Leifsbudir: Freydis and the two ships",
+   "date": "1013-01-01",
+   "date_confidence": "attested in Groenlendinga saga ch. 9, and absent from the Saga of Erik the Red, which has no massacre. Kinship contradiction flagged: the saga that tells this story calls Freydis Leif's full sister, while the Saga of Erik the Red makes her Erik's illegitimate daughter and so a half-sister.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1013,
+   "jd_ut": 2091056.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.66,
+    "text": "Capricornus 16°39′",
+    "longitude": 286.655
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Houses Lent Out",
+   "stop": "Brattahlid: Leif does not punish his sister",
+   "date": "1013-06-01",
+   "date_confidence": "attested in Groenlendinga saga ch. 9; undated in the text, and the year follows from the narrative sequence rather than from any record.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1013,
+   "jd_ut": 2091207.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 15.18,
+    "text": "Gemini 15°11′",
+    "longitude": 75.18
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chieftain, and the Silence",
+   "stop": "The Western Settlement: the outer bound of a chieftaincy",
+   "date": "1015-01-01",
+   "date_confidence": "reconstruction, and weakly attested at that: no saga sends Leif to the Western Settlement, and the connection is inferred from Groenlendinga saga's picture of how the colony was organized. The date is arbitrary within his chieftaincy.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1015,
+   "jd_ut": 2091786.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "arbitrary",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.16,
+    "text": "Capricornus 16°10′",
+    "longitude": 286.161
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chieftain, and the Silence",
+   "stop": "Brattahlid: the last mention of a living man",
+   "date": "1018-01-01",
+   "date_confidence": "attested as a passing reference in the Saga of Saint Olaf within the Heimskringla tradition, which places Leif alive and chief in Greenland; the year is conventional and the notice carries no date of its own.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1018,
+   "jd_ut": 2092882.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "convention",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.44,
+    "text": "Capricornus 16°26′",
+    "longitude": 286.437
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chieftain, and the Silence",
+   "stop": "Brattahlid: a death no saga records",
+   "date": "1020-01-01",
+   "date_confidence": "reconstruction, and an honest gap: no saga records the year, manner, or place of Leif's death, or names a grave. The bound comes from his son Thorkell Leifsson holding the chieftaincy by 1025; scholars place the death between 1018 and 1025.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1020,
+   "jd_ut": 2093612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "between",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.94,
+    "text": "Capricornus 15°57′",
+    "longitude": 285.943
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chieftain, and the Silence",
+   "stop": "Gardar: a bishop's seat, a hundred and twenty years late",
+   "date": "1124-01-01",
+   "date_confidence": "attested for the bishopric: Sokki Thorisson petitioned King Sigurd I, Arnaldur was ordained in 1124 and arrived in 1126. The traditional line from Leif's mission to Gardar is reconstruction only, and it skips roughly one hundred and twenty-five years.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1124,
+   "jd_ut": 2131598.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.7,
+    "text": "Capricornus 16°42′",
+    "longitude": 286.698
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parchment, Bronze, and Spade",
+   "stop": "Iceland: two sagas written down two centuries later",
+   "date": "1250-01-01",
+   "date_confidence": "attested that both Vinland sagas are thirteenth-century compositions surviving in later manuscripts; the year 1250 is a midpoint placeholder, not a date of composition. Corrected from a commonly cited range of 1200 to 1400, which conflates composition with the date of the Flateyjarbok copy.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1250,
+   "jd_ut": 2177620.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "decade/century",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.13,
+    "text": "Capricornus 18°08′",
+    "longitude": 288.126
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parchment, Bronze, and Spade",
+   "stop": "Flateyjarbok: the Greenlanders' saga survives as an interruption",
+   "date": "1387-01-01",
+   "date_confidence": "attested: Groenlendinga saga survives only within Flateyjarbok, compiled 1387 to 1394, where it appears as two separate episodes interpolated into the Saga of Olaf Tryggvason rather than as a standalone text.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1387,
+   "jd_ut": 2227659.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.87,
+    "text": "Capricornus 18°52′",
+    "longitude": 288.872
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parchment, Bronze, and Spade",
+   "stop": "Ultima Thule: Columbus among the old men of Iceland",
+   "date": "1477-02-01",
+   "date_confidence": "attested through Columbus's own note as quoted by his son Ferdinand; what the old men in the harbours said is reported at second hand and cannot be checked. Coordinate inherited byte-for-byte from the existing Thule stop in columbus.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1477,
+   "jd_ut": 2260563.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 21.48,
+    "text": "Aquarius 21°29′",
+    "longitude": 321.483
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parchment, Bronze, and Spade",
+   "stop": "London: the sagas enter English",
+   "date": "1841-01-01",
+   "date_confidence": "attested for the year and the place. The common claim that Beamish gave the first English translation is overstated: his book summarizes Carl Christian Rafn's Antiquitates Americanae of 1837, and Joshua Toulmin Smith published a nearly identically titled English volume in 1839.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1841,
+   "jd_ut": 2393471.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.48,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.485
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parchment, Bronze, and Spade",
+   "stop": "Commonwealth Avenue, Boston: a bronze raised on a wrong theory",
+   "date": "1887-01-01",
+   "date_confidence": "attested for the statue, the sculptor, and the year; the exact dedication day is not established here. Horsford's Vinland-on-the-Charles thesis is unsupported by any archaeology then or since.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1887,
+   "jd_ut": 2410272.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.314
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parchment, Bronze, and Spade",
+   "stop": "Skolavorduholt, Reykjavik: a gift for a thousand years of law",
+   "date": "1932-07-17",
+   "date_confidence": "attested: gifted by the United States in 1930 for the Althing millennium, set on its pedestal 2 May 1932 and unveiled 17 July 1932. The common description placing it before Hallgrimskirkja in 1930 is anachronistic; the church was begun in 1945.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1932,
+   "jd_ut": 2426905.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 24.19,
+    "text": "Cancer 24°11′",
+    "longitude": 114.191
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parchment, Bronze, and Spade",
+   "stop": "L'Anse aux Meadows: George Decker points at the mounds",
+   "date": "1960-01-01",
+   "date_confidence": "attested: Helge Ingstad was guided to the site by the local resident George Decker in 1960, and seven seasons of excavation with Anne Stine Ingstad followed through 1968, uncovering eight and possibly nine Norse-style buildings.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1960,
+   "jd_ut": 2436934.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.58,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.578
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parchment, Bronze, and Spade",
+   "stop": "Washington: October the ninth by proclamation",
+   "date": "1964-01-01",
+   "date_confidence": "attested that Wisconsin established the observance in 1929 and that federal proclamation authority dates from 1964; the exact 1964 statute date is not fixed here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1964,
+   "jd_ut": 2438395.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "editorial (the date)",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.61,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.608
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parchment, Bronze, and Spade",
+   "stop": "New Haven: a map made to be believed",
+   "date": "1965-10-11",
+   "date_confidence": "attested: the map surfaced in 1957 and was unveiled by Yale on 11 October 1965, the day before Columbus Day. McCrone's titanium dioxide analysis is 1972. Yale held a symposium calling it a forgery in 2018, and issued its formal announcement on 1 September 2021.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1965,
+   "jd_ut": 2439044.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 17.47,
+    "text": "Libra 17°28′",
+    "longitude": 197.474
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 22.3,
+    "text": "Aries 22°18′",
+    "longitude": 22.3
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.01,
+    "text": "Libra 27°01′",
+    "longitude": 207.01
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 1.49,
+    "text": "Sagittarius 1°29′",
+    "longitude": 241.49
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 4.76,
+    "text": "Sagittarius 4°46′",
+    "longitude": 244.764
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 1.19,
+    "text": "Cancer 1°11′",
+    "longitude": 91.19
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 11.33,
+    "text": "Pisces 11°20′",
+    "longitude": 341.331
+   }
+  },
+  {
+   "segment": "Parchment, Bronze, and Spade",
+   "stop": "L'Anse aux Meadows: the year 1021, exactly",
+   "date": "2021-01-01",
+   "date_confidence": "attested by the 2021 Nature study, which used the carbon-14 signature of the 993 CE solar storm to date felled wood at the site to 1021. Whether the camp is the saga's Leifsbudir remains disputed; no artifact names Leif.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 2021,
+   "jd_ut": 2459215.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.79,
+    "text": "Capricornus 10°48′",
+    "longitude": 280.793
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 2,
+  "month": 6,
+  "year": 36
+ },
+ "parse_failures": []
+}

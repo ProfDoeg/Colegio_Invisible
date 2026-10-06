@@ -1,0 +1,1428 @@
+{
+ "slug": "gaius_julius_solinus",
+ "traveler": "Gaius Julius Solinus",
+ "title": "The Circuit of the Whole World: Solinus, the Collectanea, and a Life Made Entirely of Text",
+ "years": "fl. 3rd or 4th century CE (no birth, death or documented life event attested)",
+ "years_parsed": {
+  "first": 3,
+  "last": 3
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "note": "no stop identified as the birth (no birth/born/nace in a stop name, no stop in the first year 3)",
+  "years_field": "fl. 3rd or 4th century CE (no birth, death or documented life event attested)",
+  "first_year_parsed": 3
+ },
+ "stops": [
+  {
+   "segment": "A Name and Two Prefaces",
+   "stop": "Rome, the last emperor the book will name",
+   "date": "0079-01-01",
+   "date_confidence": "Terminus post quem only, and the hardest edge the text supplies about itself. Vespasian, who dies in 79, is the latest Roman emperor named anywhere in the Collectanea (29.6), and nothing in the work refers to a later reign. The date marks that limit and nothing else; it is not an event in Solinus's life, of which no source records any. Coordinate is the canonical Rome pin, inherited unchanged from plinio_el_viejo.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 79,
+   "jd_ut": 1749912.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.43,
+    "text": "Capricornus 9°26′",
+    "longitude": 279.434
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Name and Two Prefaces",
+   "stop": "Rome, the consulship of a stranger",
+   "date": "0218-01-01",
+   "date_confidence": "[A] for the consulship, [R] for everything that hangs on it. Marcus Oclatinius Adventus holds his second consulship in 218; that is documented. That he is the 'Adventus' of Solinus's two prefaces is Mommsen's conjecture, adopted by the handbooks, and no ancient source connects the two men. The traditional dating of Solinus rests entirely on this unproved equation.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 218,
+   "jd_ut": 1800682.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.68,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.681
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Name and Two Prefaces",
+   "stop": "Rome, a floruit hung on one identification",
+   "date": "0230-01-01",
+   "date_confidence": "[R] throughout. The conventional placement runs from the early third century to the middle of it, and the sources disagree with each other: New World Encyclopedia records that Solinus 'probably flourished in the early 3rd century AD, though Mommsen places him in the middle of the 3rd century.' Both variants descend from the Adventus identification of the previous stop. Month and day are placeholders.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 230,
+   "jd_ut": 1805065.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "convention",
+    "disputed",
+    "probably",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.77,
+    "text": "Capricornus 10°46′",
+    "longitude": 280.767
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Name and Two Prefaces",
+   "stop": "Rome, the first preface",
+   "date": "0231-01-01",
+   "date_confidence": "Undated. The preface is a part of the text, not a dated document, and the year is a placeholder ordering the segment inside the conventional floruit. The Latin was surfaced by a fetch-and-summarize pass over the Latin Library file solinus1a.html rather than read in a continuous run; the trailing ellipsis marks that the full clause was not re-verified word for word.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 231,
+   "jd_ut": 1805430.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placeholder",
+    "convention",
+    "floruit"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.52,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.52
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Name and Two Prefaces",
+   "stop": "Rome, a book prepared for brevity",
+   "date": "0231-06-01",
+   "date_confidence": "Undated; the year orders the segment. The Latin is verbatim from the Latin Library file and is quoted whole here, since a shorter cut circulating in secondary summaries stops at the comma and turns a result clause into a sentence. The manuscript spelling is 'conpendium', not the normalized 'compendium'.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 231,
+   "jd_ut": 1805581.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.58,
+    "text": "Gemini 8°35′",
+    "longitude": 68.578
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Name and Two Prefaces",
+   "stop": "Rome, the tracks of the old coinage",
+   "date": "0232-01-01",
+   "date_confidence": "Undated; the year orders the segment. Quoted from the governing 'quoniam quidem' onward, because the shortened form in circulation begins mid-sentence and capitalizes 'Vestigia', presenting a subordinate clause as an independent one. The following sentence, 'constantia veritatis penes eos est quos secuti sumus,' is equally verified and is paraphrased in the campa.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 232,
+   "jd_ut": 1805795.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.273
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Name and Two Prefaces",
+   "stop": "Rome, a second preface and a second name",
+   "date": "0233-01-01",
+   "date_confidence": "Disputed, and the dispute is the point. The older and majority position, in the 1911 Encyclopaedia Britannica and still the default, is that the Polyhistor recension is a sixth-century reworking, not the author's own second edition; English Wikipedia hedges to 'perhaps by Solinus himself'; Hermann Walter's 1969 monograph defends Solinian authorship as the minority view. Von Buren notes that the second dedicatory letter characterizes only Mommsen's third manuscript class. The date orders the segment and asserts nothing.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 233,
+   "jd_ut": 1806161.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "probably",
+    "ordering",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°03′",
+    "longitude": 281.042
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Name and Two Prefaces",
+   "stop": "Rome, no tomb, no face, no city",
+   "date": "0235-01-01",
+   "date_confidence": "Negative finding, stated as one. No source of any kind records a birth, a death, a burial, a family, a city, a career or a single dated event for Solinus himself. English Wikipedia, checked directly, carries no mention of a tomb, monument or memorial. The date is nominal, placed at the close of the conventional floruit purely to order the segment, and the coordinate is the canonical Rome pin, not a claim that he lived or died there.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 235,
+   "jd_ut": 1806891.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "ordering",
+    "floruit",
+    "placed (the date)",
+    "nominal (the date)",
+    "(soft) placed",
+    "(soft) no source",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.55,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.548
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Circuit Opens: Rome to the Northern Sea",
+   "stop": "Rome, the head of the world",
+   "date": "0240-01-01",
+   "date_confidence": "Structural, not biographical. The Collectanea opens its world-circuit at Rome and calls the city the head of the world, and the arrangement of the entire book follows from that decision. Nothing documents that Solinus was born at Rome, lived there, or ever saw it. The date orders the segment. Coordinate is the canonical Rome pin rather than the Capitoline, which the text names in its opening chapter.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 240,
+   "jd_ut": 1808717.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.33,
+    "text": "Capricornus 10°20′",
+    "longitude": 280.33
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Circuit Opens: Rome to the Northern Sea",
+   "stop": "The Bay of Naples, the fires under Italy",
+   "date": "0240-03-01",
+   "date_confidence": "Content of the Collectanea, not a documented journey. Chapters 2 to 8 carry the Italian sequence, praising climate, fertility, harbors and volcanic marvels. No source places Solinus at the bay or anywhere else; the pin marks where the text is, not where the man was. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 240,
+   "jd_ut": 1808777.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "ordering",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.55,
+    "text": "Pisces 10°33′",
+    "longitude": 340.549
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Circuit Opens: Rome to the Northern Sea",
+   "stop": "Mount Etna, the fire that stays at home",
+   "date": "0240-05-01",
+   "date_confidence": "Content of the Collectanea. The Sicilian chapters carry Etna's fires. No source places Solinus in Sicily, and none of the ancient material about him permits any statement about his travels at all. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 240,
+   "jd_ut": 1808838.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.78,
+    "text": "Taurus 9°47′",
+    "longitude": 39.783
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Circuit Opens: Rome to the Northern Sea",
+   "stop": "Massalia, the turn toward the ocean",
+   "date": "0240-08-01",
+   "date_confidence": "Content of the Collectanea. The Gallic sequence turns the circuit toward the Atlantic provinces; the old Greek harbor is the conventional anchor for that turn rather than a place the text dwells on. No travel by Solinus is attested or implied. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 240,
+   "jd_ut": 1808930.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "convention",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.72,
+    "text": "Leo 7°43′",
+    "longitude": 127.724
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Circuit Opens: Rome to the Northern Sea",
+   "stop": "The Strait of Dover, the island chapter",
+   "date": "0240-11-01",
+   "date_confidence": "Content of the Collectanea 22 (Britannia). The downstream use is now documented: Wikipedia's article on the Historia ecclesiastica states that for the period before 597 'Bede drew on earlier writers, including Orosius, Eutropius, Pliny, and Solinus.' Adam of Bremen's citations of Solinus for Thule are attested in his own Gesta IV.38-40. Neither reader's own location is staged here; both belong to their own files. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 240,
+   "jd_ut": 1809022.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.94,
+    "text": "Scorpio 8°57′",
+    "longitude": 218.944
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Atlantic Threshold",
+   "stop": "Cadiz, the pillars at the end of the land",
+   "date": "0241-02-01",
+   "date_confidence": "Content of the Collectanea, Hispania and Oceanus sequence. The coordinate is the city of Cadiz, deliberately, and not the Temple of Hercules Gaditanus, which recent LiDAR work locates either underwater in the Sancti Petri marsh or at the cerro de los Martires some 16 km away; labelling this pin as the temple would put it in the wrong place. No travel by Solinus is attested.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 241,
+   "jd_ut": 1809114.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.43,
+    "text": "Aquarius 12°26′",
+    "longitude": 312.429
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Atlantic Threshold",
+   "stop": "Tenerife, the Fortunate Isles",
+   "date": "0241-05-01",
+   "date_confidence": "Content of Collectanea 56. The identification of the Fortunatae Insulae with the Canaries is a later convention, not a statement in the text; the pin follows that convention. No travel by Solinus is attested, and the material predates him by centuries.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 241,
+   "jd_ut": 1809203.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.55,
+    "text": "Taurus 9°33′",
+    "longitude": 39.551
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Africa, and the Bodies at the Edge",
+   "stop": "Carthage, Africa opens",
+   "date": "0241-09-01",
+   "date_confidence": "Content of the Collectanea, Africa sequence, plus a reception fact placed here because Africa is where it happens. The Liber genealogus of 455 is reported to name Solinus as the writer who described the circuit of the whole world; this rests on the dossier's account and was not re-fetched against the primary text in this pass. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 241,
+   "jd_ut": 1809326.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "ordering",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.7,
+    "text": "Virgo 7°42′",
+    "longitude": 157.695
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Africa, and the Bodies at the Edge",
+   "stop": "Cyrenaica, the serpent that scorches the ground",
+   "date": "0241-11-01",
+   "date_confidence": "Content of Collectanea 27.50-53, quoted verbatim from the Latin Library. The coordinate is editorial and should be read as such: Solinus places the basilisk in the African sequence without a precise locality, and the pin follows Pliny's Cyrenaica, the standard ancient placement. It is not drawn from the text and not from the verified pool.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 241,
+   "jd_ut": 1809387.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.7,
+    "text": "Scorpio 8°42′",
+    "longitude": 218.698
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Africa, and the Bodies at the Edge",
+   "stop": "Cyrenaica, the weasel in the hole",
+   "date": "0241-12-01",
+   "date_confidence": "Same passage, same editorial coordinate as the preceding stop, split because the two sentences do different work. Quoted verbatim from the Latin Library. Date orders the segment only.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 241,
+   "jd_ut": 1809417.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.25,
+    "text": "Sagittarius 9°15′",
+    "longitude": 249.25
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Africa, and the Bodies at the Edge",
+   "stop": "Meroe, the dog-heads that are apes",
+   "date": "0242-02-01",
+   "date_confidence": "Content of Collectanea 27.58 and 30.4-8, quoted verbatim from the Latin Library. Meroe is the conventional pin for the Ethiopian material; the text does not locate these creatures more precisely than 'in Aethiopiae partibus'. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 242,
+   "jd_ut": 1809479.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.19,
+    "text": "Aquarius 12°11′",
+    "longitude": 312.185
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Africa, and the Bodies at the Edge",
+   "stop": "Alexandria, the mouth of the Nile",
+   "date": "0242-05-01",
+   "date_confidence": "Content of the Collectanea, Aegyptus sequence. The pin is the ancient harbor mouth at the Pharos headland. No travel by Solinus is attested. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 242,
+   "jd_ut": 1809568.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.32,
+    "text": "Taurus 9°19′",
+    "longitude": 39.319
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The East, and the Sentences That Traveled Instead",
+   "stop": "Palibothra, what came down from Megasthenes",
+   "date": "0242-09-01",
+   "date_confidence": "The transmission chain is [A] at its Solinian end, since Solinus names Megasthenes in the text at 52.27, and [R] for the Ctesias link, which reaches Solinus only through Pliny's citation of Ctesias for the same beings. megasthenes.journey.json states the chain explicitly and names Solinus in its campa. The pin is Palibothra, the city Megasthenes reached; Solinus never went anywhere the record can show.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 242,
+   "jd_ut": 1809691.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.46,
+    "text": "Virgo 7°27′",
+    "longitude": 157.457
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The East, and the Sentences That Traveled Instead",
+   "stop": "The mountains of India, the men who bark",
+   "date": "0242-10-01",
+   "date_confidence": "Content of Collectanea 52.27, quoted verbatim from the Latin Library, with Megasthenes named inside the sentence by Solinus himself. Coordinate inherited byte-identical from megasthenes.journey.json, stop 'The mountains of the dog-headed men'. Date orders the segment; the underlying report is fourth century BCE.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 242,
+   "jd_ut": 1809721.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.21,
+    "text": "Libra 7°12′",
+    "longitude": 187.206
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The East, and the Sentences That Traveled Instead",
+   "stop": "India, the shade of a single foot",
+   "date": "0242-11-01",
+   "date_confidence": "Content of Collectanea 52.29, quoted verbatim from the Latin Library. Coordinate reuses the pin of the cynocephali passage two sentences earlier, since Solinus gives the Monocoli no locality beyond India. Adam of Bremen's use of the passage is attested in his own Gesta IV.25 and belongs to his file, not to a scene here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 242,
+   "jd_ut": 1809752.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.45,
+    "text": "Scorpio 8°27′",
+    "longitude": 218.452
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The East, and the Sentences That Traveled Instead",
+   "stop": "India, three rows of teeth",
+   "date": "0243-01-01",
+   "date_confidence": "Content of Collectanea 52.37-38, quoted verbatim from the Latin Library and confirmed as a named bestiary debt by bestiary.ca, which cites the manticore at 52.37-52.38. Coordinate reuses the Indian pin; the text gives no locality. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 243,
+   "jd_ut": 1809813.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.61,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.606
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The East, and the Sentences That Traveled Instead",
+   "stop": "India, the beast fiercest of all",
+   "date": "0243-02-01",
+   "date_confidence": "Content of Collectanea 52.39-40, quoted verbatim from the Latin Library. The monoceros is among the creatures Wikipedia's article on the Aberdeen Bestiary lists as sourced to Solinus by name in that manuscript. Coordinate reuses the Indian pin; the text gives no locality. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 243,
+   "jd_ut": 1809844.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.94,
+    "text": "Aquarius 11°56′",
+    "longitude": 311.941
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The East, and the Sentences That Traveled Instead",
+   "stop": "Taprobane, where the circuit turns back",
+   "date": "0243-05-01",
+   "date_confidence": "Content of Collectanea 52-53. The pin follows the standard identification of Taprobane with Sri Lanka and sits at the gem country near Adam's Peak; the text gives no such precision. No travel by Solinus is attested. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 243,
+   "jd_ut": 1809933.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.09,
+    "text": "Taurus 9°05′",
+    "longitude": 39.088
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Manuscript Centuries",
+   "stop": "Reading Abbey, the circuit given a Last Judgment",
+   "date": "1150-01-01",
+   "date_confidence": "[R], and doubly hedged. The manuscript now at Leiden as BPL 68 is described as probably monastic and possibly from Reading Abbey; the dossier itself says 'probably', and this pass could not confirm the provenance independently. The interpolated geographical note, running the peoples back through Noah's sons and forward to the Last Judgment, is reported from the same description. Date is the conventional twelfth-century placement.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1150,
+   "jd_ut": 2141095.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "probably",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.4,
+    "text": "Capricornus 17°24′",
+    "longitude": 287.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Manuscript Centuries",
+   "stop": "Leiden, two hundred and fifty survivors",
+   "date": "1180-01-01",
+   "date_confidence": "Mixed, and the mixture is stated: the pin is the book's present address, Leiden University Libraries at Witte Singel 27, while the date is the manuscript's approximate making in the second half of the twelfth century. The Leiden catalogue could not be reached in this pass (connection reset), so the presence of Solinus in BPL 68, its date and its interpolation rest on the dossier's description rather than on a catalogue record. Von Buren's count of at least 251 surviving manuscripts likewise rests on the dossier's report of her 1996 study.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1180,
+   "jd_ut": 2152052.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.11,
+    "text": "Capricornus 17°06′",
+    "longitude": 287.106
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Manuscript Centuries",
+   "stop": "London, the only portrait there is",
+   "date": "1450-01-01",
+   "date_confidence": "The present holding at the British Library, Egerton 818, is a catalogue fact; the illumination described, Solinus presenting his book to Adventus with a griffin, a lion, Bucephalus and the Temple of Diana, comes from the dossier's manuscript description and was not re-examined here. A contradiction stands unresolved: the manuscript is described as fifteenth-century Italian, while Coluccio Salutati, named as its annotator, died on 4 May 1406. Both cannot be right as stated.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1450,
+   "jd_ut": 2250670.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.59,
+    "text": "Capricornus 19°35′",
+    "longitude": 289.588
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Manuscript Centuries",
+   "stop": "Ann Arbor, eighty-six leaves across the ocean",
+   "date": "1470-01-01",
+   "date_confidence": "The present holding at the William L. Clements Library is a standard library-record fact; the description of an 86-leaf Italian Polyhistor in a later vellum binding comes from the dossier and was not re-examined here. The date is the conventional fifteenth-century placement of the manuscript, not of its arrival in Michigan.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1470,
+   "jd_ut": 2257975.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.73,
+    "text": "Capricornus 19°44′",
+    "longitude": 289.735
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Printed Solinus",
+   "stop": "Venice, the book set in type",
+   "date": "1473-01-01",
+   "date_confidence": "[A]. Wikipedia's article on Solinus states that the first printed edition appeared at Venice in 1473; the printer Nicolaus Jenson and the title De mirabilibus mundi come from the dossier's account of the editio princeps. The coordinate is the printers' quarter near San Bartolomeo and the Rialto rather than an identified shop address.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1473,
+   "jd_ut": 2259071.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.01,
+    "text": "Capricornus 20°01′",
+    "longitude": 290.012
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Printed Solinus",
+   "stop": "Vienna, a life invented out of the book",
+   "date": "1520-01-01",
+   "date_confidence": "[R] for the edition itself, which rests on the dossier's account and was not independently confirmed in this pass. [A] for the existence of Camers's prefatory 'Life of Solinus', which survives in the 1587 Golding translation, read directly in the archive.org scan of the 1587 volume.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276237.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.59,
+    "text": "Capricornus 19°36′",
+    "longitude": 289.592
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Printed Solinus",
+   "stop": "Poitiers, the schoolroom text",
+   "date": "1554-01-01",
+   "date_confidence": "[R]. Elias Vinet's Poitiers edition of 1554 rests on the dossier's account and was not independently confirmed in this pass. The characterization of the book's school and antiquarian use is inference from the pattern of editions, not a documented statement by any sixteenth-century schoolmaster.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1554,
+   "jd_ut": 2288656.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.35,
+    "text": "Capricornus 20°21′",
+    "longitude": 290.351
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Printed Solinus",
+   "stop": "Antwerp, another press, another edition",
+   "date": "1572-01-01",
+   "date_confidence": "[R]. Martin Delrio's Antwerp edition of 1572 rests on the dossier's account and was not independently confirmed in this pass. The coordinate is the Plantin printing house, which is the standard pin for Antwerp scholarly Latin of the decade rather than a documented imprint for this book.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1572,
+   "jd_ut": 2295230.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.97,
+    "text": "Capricornus 19°58′",
+    "longitude": 289.974
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Printed Solinus",
+   "stop": "London, the ape that was denied",
+   "date": "1587-01-01",
+   "date_confidence": "[A] for the translation and for the quoted passage, both read directly in the archive.org full text of the 1587 volume. Two corrections to the received story are carried here: the epithet is spelled 'Plinies Ape' without an apostrophe, and it is not Golding's own verdict but a line in Camers's prefatory Life, quoted there in order to be refuted. The copy read is titled 'The Worthie Worke'; 'The Excellent and Pleasant Worke' is a genuine variant title-page of the same edition. The coordinate is the St Paul's Churchyard book trade, inferred from standard practice rather than from the imprint.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1587,
+   "jd_ut": 2300699.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.147
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Printed Solinus",
+   "stop": "Paris, the commentary that swallows the text",
+   "date": "1629-01-01",
+   "date_confidence": "[A] for the 1629 Paris first edition, confirmed at de.wikipedia 'Claudius Salmasius' ('Plinianae exercitationes in Solinum, Paris, 1629'). The enlarged edition of 1689 was NOT Parisian: Internet Archive records A212099 and A212100 give its imprint as 'Trajecti ad Rhenum', that is Utrecht, printed by Johannes vande Water, Johannes Ribbius, Franciscus Halma and Guilielmus vande Water. Saumaise died in 1653, so the second edition is posthumous.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1629,
+   "jd_ut": 2316040.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.97,
+    "text": "Capricornus 10°58′",
+    "longitude": 280.965
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Text Re-dated",
+   "stop": "Berlin, the manuscripts sorted into three",
+   "date": "1895-01-01",
+   "date_confidence": "[A] for the edition, recorded in the standard reference entries. The quoted French is von Buren's own modern description of the second dedicatory letter, retrieved twice from persee.fr, and not a translation of Solinus's Latin; its context is a sentence about Mommsen's manuscript classes, which is why the letter is described here as a feature of the third class rather than a settled part of the text. Weyman's 1896 review is reported from the dossier and was not re-fetched from the original.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Text Re-dated",
+   "stop": "Melbourne, the date moves again",
+   "date": "2022-01-01",
+   "date_confidence": "[A] for the dissertation, confirmed at minerva-access.unimelb.edu.au. [R] for its conclusion, which is one scholar's argument from internal evidence and not a new dated witness; it stands against the traditional third-century floruit rather than replacing it. No external document has ever dated the Collectanea, which is why an eighteen-hundred-year-old text can still change centuries.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 2022,
+   "jd_ut": 2459580.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "floruit",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.55,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.546
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 38,
+  "dated": 38,
+  "unparsed": 0,
+  "day": 0,
+  "month": 2,
+  "year": 36
+ },
+ "parse_failures": []
+}

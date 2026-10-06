@@ -1,0 +1,2137 @@
+{
+ "slug": "george_hw_bush",
+ "traveler": "George Herbert Walker Bush",
+ "title": "The Point and the Payroll: Milton to Chichi Jima to Langley to a Grave on the Brazos",
+ "years": "1924-2018",
+ "years_parsed": {
+  "first": 1924,
+  "last": 2018
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The House at Greenwich",
+  "stop": "Milton, Massachusetts: the birth on Adams Street",
+  "date": "1924-06-12",
+  "date_confidence": "Date attested. Two atlas coordinates exist for this house: the research pool gives 42.2495, -71.0662 for 173 Adams Street, which is the Milton town centroid, while prescott_bush.journey.json pins the house itself at 42.262, -71.055. The father's pin is inherited so that the two births share one point; the divergence is recorded, not resolved.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1924,
+  "jd_ut": 2423948.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "notes": [
+   "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+  ],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 20.74,
+   "text": "Gemini 20°45′",
+   "longitude": 80.743
+  },
+  "moon": {
+   "sign": "Libra",
+   "degree": 8.74,
+   "text": "Libra 8°45′",
+   "longitude": 188.744
+  },
+  "mercury": {
+   "sign": "Taurus",
+   "degree": 28.5,
+   "text": "Taurus 28°30′",
+   "longitude": 58.498
+  },
+  "venus": {
+   "sign": "Cancer",
+   "degree": 17.5,
+   "text": "Cancer 17°30′",
+   "longitude": 107.501
+  },
+  "mars": {
+   "sign": "Aquarius",
+   "degree": 25.16,
+   "text": "Aquarius 25°10′",
+   "longitude": 325.165
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 14.25,
+   "text": "Sagittarius 14°15′",
+   "longitude": 254.249
+  },
+  "saturn": {
+   "sign": "Libra",
+   "degree": 25.92,
+   "text": "Libra 25°55′",
+   "longitude": 205.924
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1924-2018",
+  "first_year_parsed": 1924
+ },
+ "stops": [
+  {
+   "segment": "The House at Greenwich",
+   "stop": "Milton, Massachusetts: the birth on Adams Street",
+   "date": "1924-06-12",
+   "date_confidence": "Date attested. Two atlas coordinates exist for this house: the research pool gives 42.2495, -71.0662 for 173 Adams Street, which is the Milton town centroid, while prescott_bush.journey.json pins the house itself at 42.262, -71.055. The father's pin is inherited so that the two births share one point; the divergence is recorded, not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423948.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.74,
+    "text": "Gemini 20°45′",
+    "longitude": 80.743
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 8.74,
+    "text": "Libra 8°45′",
+    "longitude": 188.744
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 28.5,
+    "text": "Taurus 28°30′",
+    "longitude": 58.498
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 17.5,
+    "text": "Cancer 17°30′",
+    "longitude": 107.501
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 25.16,
+    "text": "Aquarius 25°10′",
+    "longitude": 325.165
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.25,
+    "text": "Sagittarius 14°15′",
+    "longitude": 254.249
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 25.92,
+    "text": "Libra 25°55′",
+    "longitude": 205.924
+   }
+  },
+  {
+   "segment": "The House at Greenwich",
+   "stop": "Greenwich, Connecticut: the family seat",
+   "date": "1925-01-01",
+   "date_confidence": "The pool attests 1925 with no month or day; defaulted to 1 January. The geography lens labels this pin the family home on Grove Lane and then corrects itself: 41.0262, -73.6282 is the town centre, and 15 Grove Lane lies about 1.4 km north-northwest. The correction allows either moving the pin or dropping the street name; the street name is dropped, because this coordinate is also the Greenwich pin of prescott_bush.journey.json and keeping it makes the pin shared.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House at Greenwich",
+   "stop": "Phillips Academy, Andover: the captaincies and the enlistment",
+   "date": "1937-09-01",
+   "date_confidence": "The pool attests the Andover years as 1937 to 1942 without months; September 1937 is supplied for the entering term and is not itself attested. The coordinate is corrected from the Andover town centroid given in the pool, 42.6584, -71.1367, to the Phillips Academy campus. Enlistment on his eighteenth birthday, 12 June 1942, is attested; the pool's chronology lens wrongly folds it into the 1943 commissioning entry, and the two events are separated here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428777.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.13,
+    "text": "Virgo 8°08′",
+    "longitude": 158.133
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House at Greenwich",
+   "stop": "Greenwich, the Christmas dance",
+   "date": "1941-12-01",
+   "date_confidence": "The pool attests a Christmas dance at Greenwich in 1941 and no more: no venue, no day. December is inferred from the word Christmas. The coordinate is the Round Hill Club pin carried by prescott_bush.journey.json, where the father held club championships; the club is the venue named by popular biography and is tradition here, not attestation.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430329.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "traditional",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.42,
+    "text": "Sagittarius 8°25′",
+    "longitude": 248.417
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pacific",
+   "stop": "Naval Air Station Corpus Christi: the wings",
+   "date": "1943-06-09",
+   "date_confidence": "Commissioning date attested. The pool's chronology lens conflates enlistment on 12 June 1942 with this commissioning under the single date 1943-06-09; its own correction separates them and the correction is followed. Chapel Hill and Wold-Chamberlain Field are attested by the geography lens for 1942 and 1942-1943 without days, and are narrated here rather than pinned.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430884.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 17.31,
+    "text": "Gemini 17°19′",
+    "longitude": 77.31
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pacific",
+   "stop": "USS San Jacinto: the station in the Pacific",
+   "date": "1944-05-01",
+   "date_confidence": "The pool gives May 1944 for the first combat mission and no day. The coordinate is not a place: the geography lens marks the carrier at 15, 150 and tags the entry [R] with the note that the ship had no single fixed position. The pin is inherited exactly. Carrier landings are given as 128 by the chronology lens and as 126 to 128 by its own correction; the lower figure is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431211.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.5,
+    "text": "Taurus 10°30′",
+    "longitude": 40.503
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pacific",
+   "stop": "Chichi Jima: the water off the island",
+   "date": "1944-09-02",
+   "date_confidence": "Contradiction between lenses, recorded and not adjudicated: the chronology lens gives September 1944 with no day, the geography lens gives 2 September 1944. The later date is used and the disagreement stands.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431335.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 9.4,
+    "text": "Virgo 9°24′",
+    "longitude": 159.398
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pacific",
+   "stop": "First Presbyterian Church, Rye: the marriage",
+   "date": "1945-01-06",
+   "date_confidence": "Attested. Release from active duty is dated 1945-09-02 by the chronology lens; that is the date of the Japanese surrender aboard USS Missouri, and the lens's own correction gives only September 1945 for the release. The narrative therefore says September without a day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431461.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.33,
+    "text": "Capricornus 15°20′",
+    "longitude": 285.329
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New Haven and the Permian Basin",
+   "stop": "Yale, Old Campus: two and a half years",
+   "date": "1945-11-01",
+   "date_confidence": "The pool attests the Yale years as 1945 to 1948 without months; November 1945 stands for the entering term and is not itself attested. Graduation in 1948 with a B.A. in economics is attested, as are the fraternity presidency, the baseball captaincy, and Phi Beta Kappa. Skull and Bones comes from the geography lens citing Yale archives.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431760.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.21,
+    "text": "Scorpio 8°13′",
+    "longitude": 218.214
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New Haven and the Permian Basin",
+   "stop": "New Haven, the first son",
+   "date": "1946-07-06",
+   "date_confidence": "The research pool attests only the year 1946 and the city. The exact date and the coordinate are inherited byte-identical from prescott_bush.journey.json, where the same birth is stopped from the grandfather's side.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2432007.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 13.34,
+    "text": "Cancer 13°20′",
+    "longitude": 103.337
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New Haven and the Permian Basin",
+   "stop": "Odessa, the Dresser posting",
+   "date": "1948-01-01",
+   "date_confidence": "The pool attests 1948 with no month or day; defaulted to 1 January, though the move followed the summer graduation. That Prescott Bush sat on the Dresser Industries board is not in this pool and comes from prescott_bush.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432551.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.49,
+    "text": "Capricornus 9°29′",
+    "longitude": 279.49
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New Haven and the Permian Basin",
+   "stop": "Compton, California: the birth of Robin",
+   "date": "1949-12-20",
+   "date_confidence": "Birth date attested. The pool's chronology lens places this birth in Texas; its own correction, citing Wikipedia on Pauline Robinson Bush, places it in Compton, California, during the Dresser posting, and the correction is followed. The coordinate is the centre of Compton; the pool gives no address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433270.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 27.79,
+    "text": "Sagittarius 27°47′",
+    "longitude": 267.787
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 0.6,
+    "text": "Capricornus 0°36′",
+    "longitude": 270.601
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 13.04,
+    "text": "Capricornus 13°03′",
+    "longitude": 283.042
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 10.73,
+    "text": "Aquarius 10°44′",
+    "longitude": 310.732
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 27.43,
+    "text": "Virgo 27°26′",
+    "longitude": 177.429
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 3.93,
+    "text": "Aquarius 3°56′",
+    "longitude": 303.93
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 19.43,
+    "text": "Virgo 19°26′",
+    "longitude": 169.428
+   }
+  },
+  {
+   "segment": "New Haven and the Permian Basin",
+   "stop": "Midland, the independent companies",
+   "date": "1951-01-01",
+   "date_confidence": "The pool attests 1951 for Bush-Overbey, 1953 for Zapata Petroleum and for the birth of John Ellis Bush, and 1954 for the presidency of Zapata Offshore, in every case with no month or day. Dates default to 1 January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433647.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.767
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New Haven and the Permian Basin",
+   "stop": "Memorial Hospital, New York: the death of Robin",
+   "date": "1953-10-11",
+   "date_confidence": "Date and city attested by the correction to the chronology lens, which also corrects the birthplace. The coordinate is the Memorial Hospital pin inherited from prescott_bush.journey.json, where the grandfather dies in 1972; the pool names only New York City, so the building is atlas inheritance, not attestation. The seven-month duration of treatment is the traditional figure.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434661.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 17.38,
+    "text": "Libra 17°23′",
+    "longitude": 197.381
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New Haven and the Permian Basin",
+   "stop": "Houston, Zapata Offshore",
+   "date": "1959-01-01",
+   "date_confidence": "The pool attests 1959 with no month or day; defaulted to 1 January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harris County to Langley",
+   "stop": "Houston, chairman of the Harris County Republicans",
+   "date": "1963-02-01",
+   "date_confidence": "Month and year attested; no day given, defaulted to the first. The 1964 Senate defeat is attested to 1964 and the Zapata stock sale to 1966; the chronology lens files them out of order and they are narrated here in calendar order.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438061.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.41,
+    "text": "Aquarius 11°25′",
+    "longitude": 311.415
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harris County to Langley",
+   "stop": "United States Capitol: the Seventh District",
+   "date": "1967-01-03",
+   "date_confidence": "The pool attests election in 1966 with 57 percent and service from 1967 to 1971; 3 January 1967 is the opening of the Ninetieth Congress and is supplied here rather than attested by the pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439493.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year range, year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.92,
+    "text": "Capricornus 11°55′",
+    "longitude": 281.924
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 4.1,
+    "text": "Libra 4°06′",
+    "longitude": 184.1
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 3.07,
+    "text": "Capricornus 3°04′",
+    "longitude": 273.065
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 25.23,
+    "text": "Capricornus 25°14′",
+    "longitude": 295.235
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 15.05,
+    "text": "Libra 15°03′",
+    "longitude": 195.049
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 1.69,
+    "text": "Leo 1°42′",
+    "longitude": 121.693
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.02,
+    "text": "Pisces 24°01′",
+    "longitude": 354.022
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Harris County to Langley",
+   "stop": "United Nations Headquarters: Resolution 2758",
+   "date": "1971-01-01",
+   "date_confidence": "The pool attests service from 1971 to 1973 and the Resolution 2758 vote in 1971, in both cases without months; defaulted to 1 January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2440952.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harris County to Langley",
+   "stop": "Republican National Committee, 1625 Eye Street: the Watergate year",
+   "date": "1973-01-01",
+   "date_confidence": "The pool attests the chairmanship for 1973-1974 without months; defaulted to 1 January. The address is tagged [R] at source: the geography lens gives it from period press accounts and notes that the committee later relocated.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1973,
+   "jd_ut": 2441683.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.439
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harris County to Langley",
+   "stop": "Beijing, the Liaison Office",
+   "date": "1974-01-01",
+   "date_confidence": "The pool attests 1974-1975 without months; defaulted to 1 January. The coordinate is city-level: the geography lens states that the office's precise historical street address is not confirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1974,
+   "jd_ut": 2442048.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.19,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.192
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harris County to Langley",
+   "stop": "Central Intelligence Agency, Langley: the director's year",
+   "date": "1976-01-30",
+   "date_confidence": "Appointment date attested; he leaves on 20 January 1977. The 1976 renewal of Noriega's asset status is flagged inside manuel_noriega.journey.json as tradition, not FOIA-confirmed, and is stated here as tradition. Operation Condor is carried in the exact form the chronology lens carries it: as a note that the source records active American support during his tenure.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1976,
+   "jd_ut": 2442807.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 9.23,
+    "text": "Aquarius 9°14′",
+    "longitude": 309.226
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 24.33,
+    "text": "Capricornus 24°20′",
+    "longitude": 294.329
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 25.02,
+    "text": "Capricornus 25°01′",
+    "longitude": 295.018
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 4.59,
+    "text": "Capricornus 4°35′",
+    "longitude": 274.588
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 15.22,
+    "text": "Gemini 15°13′",
+    "longitude": 75.218
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 18.83,
+    "text": "Aries 18°50′",
+    "longitude": 18.83
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 28.83,
+    "text": "Cancer 28°50′",
+    "longitude": 118.827
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Ticket",
+   "stop": "Detroit, the convention and the second place",
+   "date": "1980-07-16",
+   "date_confidence": "The pool attests the Detroit convention and the running-mate selection to 1980 with no month or day; 16 July 1980 is the nomination night and is supplied here, not attested by the pool. Iowa and New Hampshire are attested but carry no coordinates in the pool, so they are narrated rather than pinned. That Casey helped broker this ticket is a claim william_casey.journey.json examined and dropped as unsupported; it is not repeated.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444436.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 23.62,
+    "text": "Cancer 23°37′",
+    "longitude": 113.622
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ticket",
+   "stop": "United States Naval Observatory: the vice president's house",
+   "date": "1981-01-20",
+   "date_confidence": "The pool attests the vice presidency as 1981-1989 and the residence at the Naval Observatory, and names the response to the 1981 assassination attempt among the crisis-management duties. The tag [R] the chronology lens placed on the vice presidency itself is a fetch artifact, not an evidentiary grade, and is corrected to attested by the pool's own note.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444624.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft-year) year range",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 29.86,
+    "text": "Capricornus 29°51′",
+    "longitude": 299.857
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ticket",
+   "stop": "Old Executive Office Building: the desk next door",
+   "date": "1986-11-05",
+   "date_confidence": "Diary date attested by National Security Archive EBB 210, which prints the excerpt with the ellipsis shown. The stop rests on an inference the interlock lens tags [R]: oliver_north.journey.json places North's desk in this building from 1981 but does not itself state where Bush's office was. The Walsh report finding on what Bush knew was never fetched in this research pass and is therefore not asserted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1986,
+   "jd_ut": 2446739.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 12.28,
+    "text": "Scorpio 12°17′",
+    "longitude": 222.282
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 20.25,
+    "text": "Sagittarius 20°15′",
+    "longitude": 260.255
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 28.62,
+    "text": "Scorpio 28°37′",
+    "longitude": 238.617
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 12.96,
+    "text": "Scorpio 12°57′",
+    "longitude": 222.958
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 16.08,
+    "text": "Aquarius 16°05′",
+    "longitude": 316.083
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 13.14,
+    "text": "Pisces 13°08′",
+    "longitude": 343.141
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 8.79,
+    "text": "Sagittarius 8°48′",
+    "longitude": 248.794
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The White House",
+   "stop": "Louisiana Superdome, New Orleans: the six words",
+   "date": "1988-08-18",
+   "date_confidence": "Date attested; the acceptance speech text verified against the American Presidency Project transcript. The pool corrects one famous line: the transcript reads I want a kinder and gentler nation, not a kinder, gentler nation, and no printing drops the conjunction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1988,
+   "jd_ut": 2447391.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 25.27,
+    "text": "Leo 25°16′",
+    "longitude": 145.273
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 24.86,
+    "text": "Libra 24°52′",
+    "longitude": 204.863
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 9.53,
+    "text": "Virgo 9°32′",
+    "longitude": 159.534
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 9.6,
+    "text": "Cancer 9°36′",
+    "longitude": 99.6
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 10.91,
+    "text": "Aries 10°55′",
+    "longitude": 10.911
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 4.05,
+    "text": "Gemini 4°03′",
+    "longitude": 64.051
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 26.0,
+    "text": "Sagittarius 26°00′",
+    "longitude": 266.001
+   }
+  },
+  {
+   "segment": "The White House",
+   "stop": "The White House: the inauguration",
+   "date": "1989-01-20",
+   "date_confidence": "Attested by Miller Center and Wikipedia; inaugural text verified against the Avalon Project transcript. The coordinate is the White House pin used by the geography lens for the presidency as a whole; the oath itself was administered at the Capitol.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1989,
+   "jd_ut": 2447546.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 29.92,
+    "text": "Capricornus 29°55′",
+    "longitude": 299.916
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 7.63,
+    "text": "Cancer 7°38′",
+    "longitude": 97.629
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 10.4,
+    "text": "Aquarius 10°24′",
+    "longitude": 310.402
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 11.58,
+    "text": "Capricornus 11°35′",
+    "longitude": 281.581
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 0.36,
+    "text": "Taurus 0°21′",
+    "longitude": 30.358
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 26.26,
+    "text": "Taurus 26°15′",
+    "longitude": 56.256
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 7.73,
+    "text": "Capricornus 7°44′",
+    "longitude": 277.726
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The White House",
+   "stop": "Marsaxlokk Bay: the summit in the storm",
+   "date": "1989-12-02",
+   "date_confidence": "Attested by Wikipedia on the Malta Summit and by the Bush Presidential Library.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1989,
+   "jd_ut": 2447862.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.79,
+    "text": "Sagittarius 9°47′",
+    "longitude": 249.788
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 20.62,
+    "text": "Capricornus 20°37′",
+    "longitude": 290.618
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 21.48,
+    "text": "Sagittarius 21°29′",
+    "longitude": 261.484
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 24.33,
+    "text": "Capricornus 24°20′",
+    "longitude": 294.333
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 18.82,
+    "text": "Scorpio 18°49′",
+    "longitude": 228.821
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 9.11,
+    "text": "Cancer 9°07′",
+    "longitude": 99.113
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 12.1,
+    "text": "Capricornus 12°06′",
+    "longitude": 282.103
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The White House",
+   "stop": "Panama City: Operation Just Cause",
+   "date": "1989-12-20",
+   "date_confidence": "Attested. The coordinate is inherited byte-identical from manuel_noriega, william_casey, agha_hasan_abedi and arthur_ben, in whose files it is already a shared pin; the interlock lens names it as the coordinate a Bush file would most naturally inherit. Bush directs from Washington and does not travel to Panama during the fighting.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1989,
+   "jd_ut": 2447880.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 28.08,
+    "text": "Sagittarius 28°05′",
+    "longitude": 268.083
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 28.11,
+    "text": "Virgo 28°07′",
+    "longitude": 178.114
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 17.61,
+    "text": "Capricornus 17°37′",
+    "longitude": 287.611
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 4.76,
+    "text": "Aquarius 4°46′",
+    "longitude": 304.76
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 1.26,
+    "text": "Sagittarius 1°15′",
+    "longitude": 241.256
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 6.94,
+    "text": "Cancer 6°56′",
+    "longitude": 96.938
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 14.1,
+    "text": "Capricornus 14°06′",
+    "longitude": 284.101
+   }
+  },
+  {
+   "segment": "The Gulf",
+   "stop": "The White House: the Americans with Disabilities Act",
+   "date": "1990-07-26",
+   "date_confidence": "The pool attests the signing to 1990 and names the Immigration Act of 1990 and the Clean Air Act amendments in the same year; 26 July 1990 is the signing date and is supplied here rather than given by the pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2448098.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.77,
+    "text": "Leo 2°46′",
+    "longitude": 122.77
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 21.84,
+    "text": "Virgo 21°50′",
+    "longitude": 171.839
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 24.8,
+    "text": "Leo 24°48′",
+    "longitude": 144.798
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 7.05,
+    "text": "Cancer 7°03′",
+    "longitude": 97.047
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 8.81,
+    "text": "Taurus 8°49′",
+    "longitude": 38.811
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.94,
+    "text": "Cancer 24°56′",
+    "longitude": 114.942
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 21.04,
+    "text": "Capricornus 21°03′",
+    "longitude": 291.043
+   }
+  },
+  {
+   "segment": "The Gulf",
+   "stop": "Camp David: this will not stand",
+   "date": "1990-08-05",
+   "date_confidence": "The quotes lens tags this line [R]: widely attributed to remarks to reporters on 5 August 1990 and frequently cited in secondary sources, but not fetched from a primary transcript in this research pass. The Camp David pin is attested by the geography lens for the Gulf War planning sessions without a date of its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2448108.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 12.33,
+    "text": "Leo 12°20′",
+    "longitude": 132.334
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gulf",
+   "stop": "The White House: the war address",
+   "date": "1991-01-16",
+   "date_confidence": "Attested; transcript verified against the Miller Center presidential speeches archive.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448272.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 25.35,
+    "text": "Capricornus 25°21′",
+    "longitude": 295.349
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 25.42,
+    "text": "Capricornus 25°25′",
+    "longitude": 295.416
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 1.75,
+    "text": "Capricornus 1°45′",
+    "longitude": 271.75
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 13.53,
+    "text": "Aquarius 13°32′",
+    "longitude": 313.528
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 28.99,
+    "text": "Taurus 28°59′",
+    "longitude": 58.986
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 10.29,
+    "text": "Leo 10°18′",
+    "longitude": 130.292
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 27.3,
+    "text": "Capricornus 27°18′",
+    "longitude": 297.298
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Gulf",
+   "stop": "Kuwait City: the occupation ends",
+   "date": "1991-02-27",
+   "date_confidence": "Attested by Miller Center. The coordinate is the pool's Kuwait City value; saddam_hussein.journey.json pins the Seif Palace, seized on 2 August 1990, two hundred metres away at 29.3777, 47.9791. That the ceasefire permitted Iraqi helicopter flights, and what those helicopters then did, is carried from that file rather than from this pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448314.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 7.9,
+    "text": "Pisces 7°54′",
+    "longitude": 337.896
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 14.75,
+    "text": "Leo 14°45′",
+    "longitude": 134.752
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 5.25,
+    "text": "Pisces 5°15′",
+    "longitude": 335.25
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 5.71,
+    "text": "Aries 5°42′",
+    "longitude": 5.705
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 12.78,
+    "text": "Gemini 12°47′",
+    "longitude": 72.781
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 5.1,
+    "text": "Leo 5°06′",
+    "longitude": 125.104
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 2.08,
+    "text": "Aquarius 2°05′",
+    "longitude": 302.082
+   }
+  },
+  {
+   "segment": "The Gulf",
+   "stop": "The White House: Souter and Thomas",
+   "date": "1991-10-15",
+   "date_confidence": "The chronology lens files both appointments under a single 1990 date; its own correction separates them, and the correction is followed. Souter was nominated in July 1990 and confirmed in October 1990. Thomas was nominated on 1 July 1991, confirmed 52-48 on 15 October 1991, and sworn in on 23 October 1991. The stop is dated to the Thomas confirmation and narrates both.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448544.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.14,
+    "text": "Libra 21°08′",
+    "longitude": 201.139
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 13.24,
+    "text": "Capricornus 13°14′",
+    "longitude": 283.239
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 29.06,
+    "text": "Libra 29°04′",
+    "longitude": 209.064
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 6.08,
+    "text": "Virgo 6°05′",
+    "longitude": 156.077
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 28.79,
+    "text": "Libra 28°48′",
+    "longitude": 208.794
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 6.51,
+    "text": "Virgo 6°31′",
+    "longitude": 156.512
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.11,
+    "text": "Aquarius 0°06′",
+    "longitude": 300.106
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Year and the Long Coda",
+   "stop": "Astrodome, Houston: the renomination",
+   "date": "1992-08-20",
+   "date_confidence": "Attested by Wikipedia on the 1992 Republican National Convention. The defeat is attested to November 1992 without a day; NAFTA is attested as negotiated by him and ratified after he leaves office.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448854.5,
+   "precision": "month",
+   "precision_triggers": [
+    "convention",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 27.23,
+    "text": "Leo 27°14′",
+    "longitude": 147.229
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Year and the Long Coda",
+   "stop": "Baidoa: New Year's Eve with the troops",
+   "date": "1992-12-31",
+   "date_confidence": "Tagged [R] at source: the geography lens rests it on Wikipedia plus contemporaneous news accounts of December 1992 and January 1993, without a primary itinerary.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448987.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.57,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.567
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Year and the Long Coda",
+   "stop": "Kuwait City: the honored guest and the plot",
+   "date": "1993-04-01",
+   "date_confidence": "The pool attests April 1993 with no day; defaulted to the first. The assassination plot is attested as the later conclusion of Kuwaiti and American investigators, per Wikipedia and FBI investigation reports; no detail of the device or the arrests is carried, because the pool supplies none.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1993,
+   "jd_ut": 2449078.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.28,
+    "text": "Aries 11°17′",
+    "longitude": 11.285
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Year and the Long Coda",
+   "stop": "College Station: the library dedicated",
+   "date": "1997-11-06",
+   "date_confidence": "Date attested. The coordinate corrects three atlas values to one: 30.6096, -96.3344 from the geography lens and 30.6086, -96.355 from the afterlife lens both miss the site, which is at 30.5966, -96.3534. The attendance figure is corrected too: four presidents in total, Bush with Clinton, Carter and Ford, Reagan absent and represented by Nancy Reagan, and the pool flags even this as needing a citation.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1997,
+   "jd_ut": 2450758.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 13.62,
+    "text": "Scorpio 13°37′",
+    "longitude": 223.618
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 19.57,
+    "text": "Capricornus 19°34′",
+    "longitude": 289.574
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 27.42,
+    "text": "Scorpio 27°25′",
+    "longitude": 237.423
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 0.64,
+    "text": "Capricornus 0°39′",
+    "longitude": 270.642
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 27.58,
+    "text": "Sagittarius 27°35′",
+    "longitude": 267.576
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 13.53,
+    "text": "Aquarius 13°32′",
+    "longitude": 313.528
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 14.54,
+    "text": "Aries 14°33′",
+    "longitude": 14.544
+   }
+  },
+  {
+   "segment": "The Last Year and the Long Coda",
+   "stop": "Langley: the George Bush Center for Intelligence",
+   "date": "1999-04-26",
+   "date_confidence": "Date and coordinate attested. The mechanism is corrected: the compound was designated by Congress in the Intelligence Authorization Act for Fiscal Year 1999, not on the recommendation of Director George Tenet, who presided at the ceremony. That Noriega was by then an American federal prisoner comes from manuel_noriega.journey.json, not from this pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1999,
+   "jd_ut": 2451294.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 5.34,
+    "text": "Taurus 5°21′",
+    "longitude": 35.344
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 13.63,
+    "text": "Virgo 13°38′",
+    "longitude": 163.631
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 9.78,
+    "text": "Aries 9°47′",
+    "longitude": 9.781
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 15.64,
+    "text": "Gemini 15°38′",
+    "longitude": 75.637
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 3.57,
+    "text": "Scorpio 3°34′",
+    "longitude": 213.566
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 17.14,
+    "text": "Aries 17°09′",
+    "longitude": 17.144
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 6.27,
+    "text": "Taurus 6°16′",
+    "longitude": 36.274
+   }
+  },
+  {
+   "segment": "The Last Year and the Long Coda",
+   "stop": "Walker's Point, Kennebunkport: the jumps",
+   "date": "2014-06-12",
+   "date_confidence": "The geography lens pin 43.345, -70.446 falls in the Atlantic about 1.1 km offshore and is corrected to 43.3433, -70.4594, which is also the Walker's Point pin of prescott_bush.journey.json. The afterlife lens places the ninetieth-birthday jump separately at 43.3812, -70.4767 in Kennebunkport. The 75th, 80th, 85th and 90th birthday jumps are attested; earlier ones took place at other sites.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2014,
+   "jd_ut": 2456820.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.98,
+    "text": "Gemini 20°59′",
+    "longitude": 80.983
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 5.09,
+    "text": "Sagittarius 5°06′",
+    "longitude": 245.095
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 2.44,
+    "text": "Cancer 2°26′",
+    "longitude": 92.439
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 16.37,
+    "text": "Taurus 16°22′",
+    "longitude": 46.365
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 12.11,
+    "text": "Libra 12°06′",
+    "longitude": 192.106
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 22.54,
+    "text": "Cancer 22°33′",
+    "longitude": 112.545
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 17.95,
+    "text": "Scorpio 17°57′",
+    "longitude": 227.954
+   }
+  },
+  {
+   "segment": "The Funeral Train",
+   "stop": "Houston: the death at home",
+   "date": "2018-11-30",
+   "date_confidence": "Attested. The coordinate is city-level; the pool notes that the private residence address was not given in most coverage. The photograph's date is corrected from the afterlife lens's 5 December to 2 December: by the fifth the casket was at the National Cathedral, so the entry as first dated was internally impossible.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458452.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.72,
+    "text": "Sagittarius 7°43′",
+    "longitude": 247.724
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Funeral Train",
+   "stop": "United States Capitol Rotunda: lying in state",
+   "date": "2018-12-03",
+   "date_confidence": "The pool gives 3 to 5 December for the lying in state and the twelfth-president figure from Architect of the Capitol records. The coordinate is the Capitol pin already used in this file for the House years, 1967 to 1971.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458455.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 10.77,
+    "text": "Sagittarius 10°46′",
+    "longitude": 250.765
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Funeral Train",
+   "stop": "Washington National Cathedral: the state funeral",
+   "date": "2018-12-05",
+   "date_confidence": "Date attested. Two atlas coordinates exist, 38.9295, -77.0706 from the geography lens and 38.9315, -77.0709 from the afterlife lens, both within about 100 m of the cathedral; the value used splits them onto the building. The eulogist list is corrected: the geography lens names three and omits Jon Meacham, who gave the principal eulogy, and its own correction says the afterlife lens has this right.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458457.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 12.79,
+    "text": "Sagittarius 12°48′",
+    "longitude": 252.794
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 15.49,
+    "text": "Scorpio 15°30′",
+    "longitude": 225.494
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 27.6,
+    "text": "Scorpio 27°36′",
+    "longitude": 237.598
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 1.32,
+    "text": "Scorpio 1°19′",
+    "longitude": 211.315
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 12.05,
+    "text": "Pisces 12°03′",
+    "longitude": 342.049
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 5.89,
+    "text": "Sagittarius 5°53′",
+    "longitude": 245.889
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 8.33,
+    "text": "Capricornus 8°20′",
+    "longitude": 278.334
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Funeral Train",
+   "stop": "St. Martin's Episcopal Church, Houston: the second service",
+   "date": "2018-12-06",
+   "date_confidence": "Date attested. Coordinate spread flagged: the geography lens gives 29.7565, -95.4602 and the afterlife lens 29.746, -95.4573, about 1.3 km apart; the geography value is used and the divergence is not adjudicated.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458458.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 13.81,
+    "text": "Sagittarius 13°49′",
+    "longitude": 253.809
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 28.5,
+    "text": "Scorpio 28°30′",
+    "longitude": 238.495
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 27.35,
+    "text": "Scorpio 27°21′",
+    "longitude": 237.345
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 1.92,
+    "text": "Scorpio 1°55′",
+    "longitude": 211.924
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 12.7,
+    "text": "Pisces 12°42′",
+    "longitude": 342.698
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 6.11,
+    "text": "Sagittarius 6°07′",
+    "longitude": 246.112
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 8.44,
+    "text": "Capricornus 8°27′",
+    "longitude": 278.444
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Funeral Train",
+   "stop": "Spring, Texas: Union Pacific 4141",
+   "date": "2018-12-06",
+   "date_confidence": "Route corrected: the geography lens has the train leaving Houston and pins it at 30.1795, -95.885, well west of any plausible route near Waller County. The afterlife lens has the departure at Spring, Texas, 30.0799, -95.4172, and is followed. The locomotive was built and unveiled in 2005 for this use.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458458.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 13.81,
+    "text": "Sagittarius 13°49′",
+    "longitude": 253.809
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Funeral Train",
+   "stop": "The library grounds, College Station: the burial",
+   "date": "2018-12-06",
+   "date_confidence": "Date attested. Coordinate corrected as at the 1997 dedication stop: the afterlife lens gives 30.6086, -96.355 and the geography lens 30.6096, -96.3344, both wrong; the plot lies with the library at 30.5966, -96.3534. Robin's reinterment from Putnam Cemetery in 2000 and Barbara's death on 17 April 2018 are attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458458.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 13.81,
+    "text": "Sagittarius 13°49′",
+    "longitude": 253.809
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 28.5,
+    "text": "Scorpio 28°30′",
+    "longitude": 238.495
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 27.35,
+    "text": "Scorpio 27°21′",
+    "longitude": 237.345
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 1.92,
+    "text": "Scorpio 1°55′",
+    "longitude": 211.924
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 12.7,
+    "text": "Pisces 12°42′",
+    "longitude": 342.698
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 6.11,
+    "text": "Sagittarius 6°07′",
+    "longitude": 246.112
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 8.44,
+    "text": "Capricornus 8°27′",
+    "longitude": 278.444
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 19,
+  "month": 7,
+  "year": 19
+ },
+ "parse_failures": []
+}

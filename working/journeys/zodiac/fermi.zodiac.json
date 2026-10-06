@@ -1,0 +1,2152 @@
+{
+ "slug": "fermi",
+ "traveler": "Enrico Fermi",
+ "title": "Via Panisperna to the Squash Court: Enrico Fermi and the Slow Neutron",
+ "years": "1901-1954",
+ "years_parsed": {
+  "first": 1901,
+  "last": 1954
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Via Gaeta and the Stalls of Campo de' Fiori",
+  "stop": "Via Gaeta 19, Rome: the birth",
+  "date": "1901-09-29",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1901,
+  "jd_ut": 2415656.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Libra",
+   "degree": 5.15,
+   "text": "Libra 5°09′",
+   "longitude": 185.149
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 15.81,
+   "text": "Aries 15°48′",
+   "longitude": 15.806
+  },
+  "mercury": {
+   "sign": "Libra",
+   "degree": 27.05,
+   "text": "Libra 27°03′",
+   "longitude": 207.053
+  },
+  "venus": {
+   "sign": "Scorpio",
+   "degree": 13.72,
+   "text": "Scorpio 13°43′",
+   "longitude": 223.723
+  },
+  "mars": {
+   "sign": "Scorpio",
+   "degree": 19.05,
+   "text": "Scorpio 19°03′",
+   "longitude": 229.053
+  },
+  "jupiter": {
+   "sign": "Capricornus",
+   "degree": 4.54,
+   "text": "Capricornus 4°32′",
+   "longitude": 274.536
+  },
+  "saturn": {
+   "sign": "Capricornus",
+   "degree": 9.87,
+   "text": "Capricornus 9°52′",
+   "longitude": 279.874
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1901-1954",
+  "first_year_parsed": 1901
+ },
+ "stops": [
+  {
+   "segment": "Via Gaeta and the Stalls of Campo de' Fiori",
+   "stop": "Via Gaeta 19, Rome: the birth",
+   "date": "1901-09-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415656.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 5.15,
+    "text": "Libra 5°09′",
+    "longitude": 185.149
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 15.81,
+    "text": "Aries 15°48′",
+    "longitude": 15.806
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.05,
+    "text": "Libra 27°03′",
+    "longitude": 207.053
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 13.72,
+    "text": "Scorpio 13°43′",
+    "longitude": 223.723
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 19.05,
+    "text": "Scorpio 19°03′",
+    "longitude": 229.053
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 4.54,
+    "text": "Capricornus 4°32′",
+    "longitude": 274.536
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.874
+   }
+  },
+  {
+   "segment": "Via Gaeta and the Stalls of Campo de' Fiori",
+   "stop": "Rome, the death of Giulio",
+   "date": "1915-01-01",
+   "date_confidence": "year attested; month and day not established in the sources reached, defaulted to 1 January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Via Gaeta and the Stalls of Campo de' Fiori",
+   "stop": "Campo de' Fiori, the secondhand treatises",
+   "date": "1916-01-01",
+   "date_confidence": "traditional; Segre places the episode somewhere between 1915 and 1918 from family memory, with no dated record, and 1916 is chosen here only to sit the stop in sequence",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420863.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "sequencing",
+    "between",
+    "editorial (the date)",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.25,
+    "text": "Capricornus 9°15′",
+    "longitude": 279.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Via Gaeta and the Stalls of Campo de' Fiori",
+   "stop": "Liceo Ginnasio Umberto I, Rome: the diploma",
+   "date": "1918-07-01",
+   "date_confidence": "year attested and the maturita falls in July; the day is not established, defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421775.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.35,
+    "text": "Cancer 8°21′",
+    "longitude": 98.346
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pisa, Gottingen, Leiden",
+   "stop": "Palazzo della Carovana, Pisa: the entrance essay",
+   "date": "1918-11-01",
+   "date_confidence": "the examination is sat in November 1918; en.wikipedia dates his entry to 1918, it.wikipedia to 1919, and the contradiction is recorded rather than resolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421898.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.76,
+    "text": "Scorpio 7°46′",
+    "longitude": 217.759
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pisa, Gottingen, Leiden",
+   "stop": "University of Pisa: the laurea at twenty",
+   "date": "1922-07-01",
+   "date_confidence": "July 1922 attested; the day is not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423236.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.38,
+    "text": "Cancer 8°23′",
+    "longitude": 98.378
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pisa, Gottingen, Leiden",
+   "stop": "Gottingen, the semester with Max Born",
+   "date": "1923-01-01",
+   "date_confidence": "Wikipedia gives 1923-1924 for the semester under Born; the research pool's chronology lens says 1923 and its geography lens says 1922-1923, which is impossible since he was at Pisa until July 1922; dated here to 1923 with the month defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423420.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.56,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.56
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pisa, Gottingen, Leiden",
+   "stop": "Leiden, the months with Paul Ehrenfest",
+   "date": "1924-09-01",
+   "date_confidence": "autumn 1924, roughly September to December; the arrival date is not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2424029.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.27,
+    "text": "Virgo 8°16′",
+    "longitude": 158.272
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pisa, Gottingen, Leiden",
+   "stop": "Arcetri, Florence: the statistics of the exclusion principle",
+   "date": "1926-01-01",
+   "date_confidence": "the Florence post runs January 1925 to late 1926 and the statistics paper is of early 1926; the month is defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Via Panisperna",
+   "stop": "Via Panisperna, Rome: the chair at twenty-four",
+   "date": "1926-11-01",
+   "date_confidence": "the appointment is of 1926; November is taken from the academic year and the exact date is not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424820.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.82,
+    "text": "Scorpio 7°49′",
+    "longitude": 217.82
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Via Panisperna",
+   "stop": "Como, the Volta congress",
+   "date": "1927-09-16",
+   "date_confidence": "the congress runs 11 to 27 September 1927 and Bohr reads his paper on 16 September; the coordinate is generic Como, since the venue was the Istituto Carducci and not, as many accounts repeat, the Villa Olmo",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425139.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) generic"
+   ],
+   "notes": [
+    "soft triggers (generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 22.14,
+    "text": "Virgo 22°08′",
+    "longitude": 172.139
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 24.37,
+    "text": "Taurus 24°22′",
+    "longitude": 54.374
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 3.3,
+    "text": "Libra 3°18′",
+    "longitude": 183.302
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 13.83,
+    "text": "Virgo 13°50′",
+    "longitude": 163.829
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 3.51,
+    "text": "Libra 3°31′",
+    "longitude": 183.509
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 29.6,
+    "text": "Pisces 29°36′",
+    "longitude": 359.596
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 2.31,
+    "text": "Sagittarius 2°18′",
+    "longitude": 242.307
+   }
+  },
+  {
+   "segment": "Via Panisperna",
+   "stop": "Rome, the marriage to Laura Capon",
+   "date": "1928-07-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425446.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.07,
+    "text": "Cancer 26°04′",
+    "longitude": 116.067
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 19.83,
+    "text": "Leo 19°50′",
+    "longitude": 139.834
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 6.27,
+    "text": "Cancer 6°16′",
+    "longitude": 96.275
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 0.87,
+    "text": "Leo 0°52′",
+    "longitude": 120.875
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 15.93,
+    "text": "Taurus 15°56′",
+    "longitude": 45.932
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 7.8,
+    "text": "Taurus 7°48′",
+    "longitude": 37.799
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 13.05,
+    "text": "Sagittarius 13°03′",
+    "longitude": 253.046
+   }
+  },
+  {
+   "segment": "Via Panisperna",
+   "stop": "Villa Farnesina, Rome: the Royal Academy of Italy",
+   "date": "1929-03-18",
+   "date_confidence": "the member list is approved 13 March 1929 and Fermi's appointment dated 18 March; the Academy itself is not formally inaugurated until 28 October 1929",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425688.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 26.93,
+    "text": "Pisces 26°56′",
+    "longitude": 356.927
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 22.71,
+    "text": "Gemini 22°43′",
+    "longitude": 82.709
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 2.74,
+    "text": "Pisces 2°44′",
+    "longitude": 332.741
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 5.34,
+    "text": "Taurus 5°20′",
+    "longitude": 35.337
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 2.72,
+    "text": "Cancer 2°43′",
+    "longitude": 92.715
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 10.34,
+    "text": "Taurus 10°20′",
+    "longitude": 40.34
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 29.95,
+    "text": "Sagittarius 29°57′",
+    "longitude": 269.947
+   }
+  },
+  {
+   "segment": "Via Panisperna",
+   "stop": "Rome, the party card",
+   "date": "1929-04-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425728.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 6.26,
+    "text": "Taurus 6°15′",
+    "longitude": 36.258
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 10.86,
+    "text": "Sagittarius 10°52′",
+    "longitude": 250.86
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 16.86,
+    "text": "Taurus 16°52′",
+    "longitude": 46.864
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 25.86,
+    "text": "Aries 25°52′",
+    "longitude": 25.861
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 21.45,
+    "text": "Cancer 21°27′",
+    "longitude": 111.45
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 19.23,
+    "text": "Taurus 19°14′",
+    "longitude": 49.227
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 0.11,
+    "text": "Capricornus 0°07′",
+    "longitude": 270.113
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Via Panisperna",
+   "stop": "Rome, the theory of beta decay",
+   "date": "1934-01-01",
+   "date_confidence": "a tentative paper appears in 1933 and the full paper in 1934; the name neutrino is coined in conversation around 1932, before either; the month is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427438.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.896
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Via Panisperna",
+   "stop": "Rome, the report of neutron-induced radioactivity",
+   "date": "1934-03-25",
+   "date_confidence": "attested; this is the report of neutron-induced radioactivity, not of slow neutrons, which come in October",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427521.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 3.67,
+    "text": "Aries 3°40′",
+    "longitude": 3.665
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 24.54,
+    "text": "Cancer 24°33′",
+    "longitude": 114.544
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 7.79,
+    "text": "Pisces 7°47′",
+    "longitude": 337.791
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 19.75,
+    "text": "Aquarius 19°45′",
+    "longitude": 319.749
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.22,
+    "text": "Aries 8°13′",
+    "longitude": 8.219
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 20.06,
+    "text": "Libra 20°03′",
+    "longitude": 200.056
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 23.64,
+    "text": "Aquarius 23°38′",
+    "longitude": 323.641
+   }
+  },
+  {
+   "segment": "Via Panisperna",
+   "stop": "Via Panisperna, the paraffin wedge",
+   "date": "1934-10-22",
+   "date_confidence": "attested to 22 October 1934; the research pool's chronology lens misdates this discovery to 25 March, and the October date is the correct one",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427732.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 27.9,
+    "text": "Libra 27°54′",
+    "longitude": 207.901
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 19.79,
+    "text": "Aries 19°47′",
+    "longitude": 19.786
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 18.83,
+    "text": "Scorpio 18°50′",
+    "longitude": 228.826
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 20.84,
+    "text": "Libra 20°50′",
+    "longitude": 200.838
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 2.23,
+    "text": "Virgo 2°14′",
+    "longitude": 152.228
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 2.28,
+    "text": "Scorpio 2°17′",
+    "longitude": 212.279
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 21.2,
+    "text": "Aquarius 21°12′",
+    "longitude": 321.198
+   }
+  },
+  {
+   "segment": "Stockholm and the Crossing",
+   "stop": "Stockholm, the Nobel ceremony",
+   "date": "1938-12-10",
+   "date_confidence": "attested; the coordinate is the canonical Konserthuset pin inherited from heisenberg.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429242.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 17.28,
+    "text": "Sagittarius 17°17′",
+    "longitude": 257.277
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 22.99,
+    "text": "Cancer 22°59′",
+    "longitude": 112.991
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 27.2,
+    "text": "Sagittarius 27°12′",
+    "longitude": 267.204
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 19.59,
+    "text": "Scorpio 19°35′",
+    "longitude": 229.588
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 28.76,
+    "text": "Libra 28°46′",
+    "longitude": 208.761
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 26.73,
+    "text": "Aquarius 26°44′",
+    "longitude": 326.729
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 10.88,
+    "text": "Aries 10°53′",
+    "longitude": 10.881
+   }
+  },
+  {
+   "segment": "Stockholm and the Crossing",
+   "stop": "Southampton, the embarkation",
+   "date": "1938-12-24",
+   "date_confidence": "late December 1938; the port is given by secondary biographies (Segre 1970, Schwartz 2017) and neither port nor ship was independently verified, so the stop is a reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429256.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 1.53,
+    "text": "Capricornus 1°32′",
+    "longitude": 271.525
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stockholm and the Crossing",
+   "stop": "New York, the landing",
+   "date": "1939-01-02",
+   "date_confidence": "attested; the coordinate is the canonical New York pin inherited from niels_bohr.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429265.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.7,
+    "text": "Capricornus 10°42′",
+    "longitude": 280.698
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 17.54,
+    "text": "Taurus 17°32′",
+    "longitude": 47.539
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 18.02,
+    "text": "Sagittarius 18°01′",
+    "longitude": 258.021
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 27.96,
+    "text": "Scorpio 27°58′",
+    "longitude": 237.965
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 13.11,
+    "text": "Scorpio 13°07′",
+    "longitude": 223.109
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 0.75,
+    "text": "Pisces 0°45′",
+    "longitude": 330.753
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 11.18,
+    "text": "Aries 11°11′",
+    "longitude": 11.177
+   }
+  },
+  {
+   "segment": "Pupin Hall",
+   "stop": "Pupin Hall, Columbia: the first fission in America",
+   "date": "1939-01-25",
+   "date_confidence": "attested to the night of 25 January 1939; the coordinate is corrected from the pool's 40.8075 / -73.9626 to the figures given in the Pupin Hall article",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429288.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 4.12,
+    "text": "Aquarius 4°07′",
+    "longitude": 304.125
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 22.56,
+    "text": "Pisces 22°34′",
+    "longitude": 352.563
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 18.02,
+    "text": "Capricornus 18°01′",
+    "longitude": 288.024
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 17.43,
+    "text": "Sagittarius 17°26′",
+    "longitude": 257.428
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 27.3,
+    "text": "Scorpio 27°18′",
+    "longitude": 237.3
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 5.6,
+    "text": "Pisces 5°36′",
+    "longitude": 335.602
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 12.39,
+    "text": "Aries 12°24′",
+    "longitude": 12.394
+   }
+  },
+  {
+   "segment": "Pupin Hall",
+   "stop": "George Washington University, the fifth Washington conference",
+   "date": "1939-01-26",
+   "date_confidence": "the conference opens 26 January 1939; the Wikipedia article on fission does not itself name Bohr as the announcer at that session, and the coordinate is the canonical pin inherited from niels_bohr.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429289.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 5.14,
+    "text": "Aquarius 5°09′",
+    "longitude": 305.142
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 4.74,
+    "text": "Aries 4°44′",
+    "longitude": 4.735
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 19.53,
+    "text": "Capricornus 19°32′",
+    "longitude": 289.534
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 18.4,
+    "text": "Sagittarius 18°24′",
+    "longitude": 258.405
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 27.91,
+    "text": "Scorpio 27°55′",
+    "longitude": 237.911
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 5.83,
+    "text": "Pisces 5°50′",
+    "longitude": 335.826
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 12.47,
+    "text": "Aries 12°28′",
+    "longitude": 12.466
+   }
+  },
+  {
+   "segment": "Pupin Hall",
+   "stop": "Washington, the warning to the Navy",
+   "date": "1939-03-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429340.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 26.51,
+    "text": "Pisces 26°30′",
+    "longitude": 356.505
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 22.26,
+    "text": "Aquarius 22°15′",
+    "longitude": 322.255
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 14.75,
+    "text": "Aries 14°45′",
+    "longitude": 14.753
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 14.36,
+    "text": "Aquarius 14°21′",
+    "longitude": 314.358
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 28.13,
+    "text": "Sagittarius 28°08′",
+    "longitude": 268.127
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 17.94,
+    "text": "Pisces 17°56′",
+    "longitude": 347.941
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 17.61,
+    "text": "Aries 17°37′",
+    "longitude": 17.615
+   }
+  },
+  {
+   "segment": "Pupin Hall",
+   "stop": "Columbia University, the graphite piles",
+   "date": "1941-01-01",
+   "date_confidence": "the Columbia exponential piles run from 1940 into 1942; the year is attested and the month defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2429995.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chicago Pile-1",
+   "stop": "Eckhart Hall, Chicago: the Metallurgical Laboratory",
+   "date": "1942-06-01",
+   "date_confidence": "the Met Lab is organised in early 1942 and Fermi's group moves west during the spring; the month is approximate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430511.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.88,
+    "text": "Gemini 9°53′",
+    "longitude": 69.883
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chicago Pile-1",
+   "stop": "Stagg Field, the pile begun under the west stands",
+   "date": "1942-11-16",
+   "date_confidence": "16 November 1942 per the Chicago Pile-1 and Metallurgical Laboratory articles, which agree; the Enrico Fermi article alone says 6 November, and the contradiction is recorded, not resolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430679.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 23.01,
+    "text": "Scorpio 23°00′",
+    "longitude": 233.007
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chicago Pile-1",
+   "stop": "Stagg Field, the pile goes critical",
+   "date": "1942-12-02",
+   "date_confidence": "attested; the coordinate is the canonical Stagg Field pin supplied by the interlock lens, which found no existing journey in the corpus pinning this site",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430695.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.18,
+    "text": "Sagittarius 9°11′",
+    "longitude": 249.184
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 19.89,
+    "text": "Virgo 19°53′",
+    "longitude": 169.888
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 9.7,
+    "text": "Sagittarius 9°42′",
+    "longitude": 249.702
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 13.0,
+    "text": "Sagittarius 13°00′",
+    "longitude": 253.0
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 20.49,
+    "text": "Scorpio 20°30′",
+    "longitude": 230.494
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.62,
+    "text": "Cancer 24°37′",
+    "longitude": 114.62
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 8.8,
+    "text": "Gemini 8°48′",
+    "longitude": 68.801
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Bomb Roads",
+   "stop": "X-10, Oak Ridge: the graphite reactor",
+   "date": "1943-11-04",
+   "date_confidence": "attested; the coordinate is the X-10 reactor itself, correcting the pool's generic Oak Ridge figures",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2431032.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) generic"
+   ],
+   "notes": [
+    "soft triggers (generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 10.7,
+    "text": "Scorpio 10°42′",
+    "longitude": 220.703
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 25.82,
+    "text": "Capricornus 25°49′",
+    "longitude": 295.821
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 6.67,
+    "text": "Scorpio 6°40′",
+    "longitude": 216.674
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 24.67,
+    "text": "Virgo 24°40′",
+    "longitude": 174.674
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 21.85,
+    "text": "Gemini 21°51′",
+    "longitude": 81.853
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 24.6,
+    "text": "Leo 24°36′",
+    "longitude": 144.602
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 25.9,
+    "text": "Gemini 25°54′",
+    "longitude": 85.902
+   }
+  },
+  {
+   "segment": "The Bomb Roads",
+   "stop": "United States, the naturalization",
+   "date": "1944-07-01",
+   "date_confidence": "July 1944 attested, day not established; the coordinate is the geographic centre of the United States, a deliberate placeholder, since the court where the oath was taken is not named in the sources reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431272.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.03,
+    "text": "Cancer 9°02′",
+    "longitude": 99.031
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bomb Roads",
+   "stop": "Los Alamos, F Division",
+   "date": "1944-09-01",
+   "date_confidence": "Wikipedia gives September 1944, the Atomic Heritage Foundation gives 16 July 1944; the contradiction is recorded, not resolved, and the coordinate is the canonical Los Alamos pin inherited from robert_oppenheimer.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431334.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.43,
+    "text": "Virgo 8°26′",
+    "longitude": 158.43
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 12.36,
+    "text": "Aquarius 12°22′",
+    "longitude": 312.362
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 19.59,
+    "text": "Virgo 19°35′",
+    "longitude": 169.587
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 26.46,
+    "text": "Virgo 26°28′",
+    "longitude": 176.46
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 1.93,
+    "text": "Libra 1°56′",
+    "longitude": 181.934
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 7.86,
+    "text": "Virgo 7°52′",
+    "longitude": 157.865
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 8.32,
+    "text": "Cancer 8°19′",
+    "longitude": 98.315
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Bomb Roads",
+   "stop": "B Reactor, Hanford: the first slug",
+   "date": "1944-09-13",
+   "date_confidence": "Wikipedia's Fermi article says only September 1944; the B Reactor article gives 13 September for first loading and 26 September for criticality; the Atomic Heritage Foundation says 27 September, which falls after criticality and so cannot be the first slug; whether the ceremonial slug was Fermi's own hand is unconfirmed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431346.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 20.08,
+    "text": "Virgo 20°05′",
+    "longitude": 170.08
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bomb Roads",
+   "stop": "Trinity, the strips of paper",
+   "date": "1945-07-16",
+   "date_confidence": "attested; the coordinate is Trinity ground zero in the Jornada del Muerto, correcting the pool's Alamogordo figures, which lie some sixty miles away",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431652.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 23.1,
+    "text": "Cancer 23°06′",
+    "longitude": 113.103
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 8.93,
+    "text": "Libra 8°56′",
+    "longitude": 188.925
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 18.75,
+    "text": "Leo 18°45′",
+    "longitude": 138.747
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 8.72,
+    "text": "Gemini 8°43′",
+    "longitude": 68.72
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 24.88,
+    "text": "Taurus 24°53′",
+    "longitude": 54.883
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 22.74,
+    "text": "Virgo 22°44′",
+    "longitude": 172.739
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 15.5,
+    "text": "Cancer 15°30′",
+    "longitude": 105.505
+   }
+  },
+  {
+   "segment": "The Bomb Roads",
+   "stop": "Los Alamos, the departure at year's end",
+   "date": "1945-12-31",
+   "date_confidence": "attested to the end of 1945",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431820.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.97,
+    "text": "Capricornus 8°58′",
+    "longitude": 278.965
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 29.74,
+    "text": "Scorpio 29°44′",
+    "longitude": 239.739
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 17.28,
+    "text": "Sagittarius 17°17′",
+    "longitude": 257.279
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 1.17,
+    "text": "Capricornus 1°10′",
+    "longitude": 271.173
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 28.58,
+    "text": "Cancer 28°35′",
+    "longitude": 118.577
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 24.7,
+    "text": "Libra 24°42′",
+    "longitude": 204.7
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 22.37,
+    "text": "Cancer 22°22′",
+    "longitude": 112.367
+   }
+  },
+  {
+   "segment": "Hyde Park",
+   "stop": "Institute for Nuclear Studies, Chicago: the Swift chair",
+   "date": "1945-07-01",
+   "date_confidence": "the appointment is dated 1 July 1945, though he is at Los Alamos until December and only takes up the work in 1946; the coordinate corrects the pool's figures by about 370 metres",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431637.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.8,
+    "text": "Cancer 8°48′",
+    "longitude": 98.801
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 15.68,
+    "text": "Pisces 15°41′",
+    "longitude": 345.681
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 25.3,
+    "text": "Cancer 25°18′",
+    "longitude": 115.297
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 23.26,
+    "text": "Taurus 23°16′",
+    "longitude": 53.259
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 14.24,
+    "text": "Taurus 14°15′",
+    "longitude": 44.245
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 20.65,
+    "text": "Virgo 20°39′",
+    "longitude": 170.65
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 13.56,
+    "text": "Cancer 13°33′",
+    "longitude": 103.555
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Hyde Park",
+   "stop": "Washington, the General Advisory Committee and the Super",
+   "date": "1949-10-30",
+   "date_confidence": "the GAC report is dated 30 October 1949 and Fermi sits on the committee from 1946 to 1950; the exact wording of the minority annex could not be re-verified this session, the two Wikipedia GAC pages returning 404",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433219.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year range, year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 6.24,
+    "text": "Scorpio 6°15′",
+    "longitude": 216.245
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 21.14,
+    "text": "Aquarius 21°08′",
+    "longitude": 321.136
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 22.25,
+    "text": "Libra 22°15′",
+    "longitude": 202.246
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 22.12,
+    "text": "Sagittarius 22°07′",
+    "longitude": 262.121
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.68,
+    "text": "Virgo 1°41′",
+    "longitude": 151.676
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 25.04,
+    "text": "Capricornus 25°03′",
+    "longitude": 295.042
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 16.34,
+    "text": "Virgo 16°20′",
+    "longitude": 166.338
+   }
+  },
+  {
+   "segment": "Hyde Park",
+   "stop": "Los Alamos, the question at lunch",
+   "date": "1950-01-01",
+   "date_confidence": "traditional; the conversation is placed in the summer of 1950 and survives only in the recollections of Teller, York and Konopinski, collected by Eric Jones in 1985, thirty-five years later; the month is defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyde Park",
+   "stop": "Villa Monastero, Varenna: the last lectures",
+   "date": "1954-07-01",
+   "date_confidence": "July 1954; the Italian Physical Society treats this as the school's founding session, but the conference centre at Villa Monastero was created in 1953, so the school was not founded that summer, and Wikipedia does not itself document Fermi's lectures there; contradiction recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434924.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.63,
+    "text": "Cancer 8°38′",
+    "longitude": 98.635
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyde Park",
+   "stop": "Chicago, the house on University Avenue",
+   "date": "1954-11-28",
+   "date_confidence": "the date of death is attested by two independent sources; that he died at home, and the street address 5327 South University Avenue, rest on the family memoir and were not verified this session",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2435074.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 5.22,
+    "text": "Sagittarius 5°13′",
+    "longitude": 245.221
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 2.31,
+    "text": "Capricornus 2°18′",
+    "longitude": 272.306
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 20.37,
+    "text": "Scorpio 20°22′",
+    "longitude": 230.371
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 15.95,
+    "text": "Scorpio 15°57′",
+    "longitude": 225.949
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 25.49,
+    "text": "Aquarius 25°29′",
+    "longitude": 325.487
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 29.69,
+    "text": "Cancer 29°41′",
+    "longitude": 119.687
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 14.92,
+    "text": "Scorpio 14°55′",
+    "longitude": 224.918
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Hyde Park",
+   "stop": "Oak Woods Cemetery, the burial",
+   "date": "1954-12-01",
+   "date_confidence": "December 1954; no day is given in the sources reached and the day is defaulted to 01; no section or plot number is recorded in Wikipedia's cemetery article",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2435077.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.26,
+    "text": "Sagittarius 8°16′",
+    "longitude": 248.26
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Name Diffused",
+   "stop": "Enewetak Atoll, element one hundred in the fallout",
+   "date": "1952-11-01",
+   "date_confidence": "the Ivy Mike test is 1 November 1952; the identification of fermium in the debris is made in December 1952 at Berkeley, so the stop is dated to the test that produced the material and the pool's conflation of the two dates is corrected",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434317.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.52,
+    "text": "Scorpio 8°31′",
+    "longitude": 218.518
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 25.89,
+    "text": "Aries 25°53′",
+    "longitude": 25.886
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 29.7,
+    "text": "Scorpio 29°42′",
+    "longitude": 239.704
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 11.96,
+    "text": "Sagittarius 11°58′",
+    "longitude": 251.964
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 14.36,
+    "text": "Capricornus 14°22′",
+    "longitude": 284.363
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 16.89,
+    "text": "Taurus 16°53′",
+    "longitude": 46.888
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 20.58,
+    "text": "Libra 20°35′",
+    "longitude": 200.578
+   }
+  },
+  {
+   "segment": "The Name Diffused",
+   "stop": "University of Chicago, the Institute takes his name",
+   "date": "1955-11-20",
+   "date_confidence": "attested to 20 November 1955; shortened to Enrico Fermi Institute in 1968",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435431.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 26.89,
+    "text": "Scorpio 26°53′",
+    "longitude": 236.887
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 26.54,
+    "text": "Capricornus 26°33′",
+    "longitude": 296.543
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 18.59,
+    "text": "Scorpio 18°35′",
+    "longitude": 228.586
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 17.36,
+    "text": "Sagittarius 17°22′",
+    "longitude": 257.36
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 24.14,
+    "text": "Libra 24°09′",
+    "longitude": 204.143
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 0.21,
+    "text": "Virgo 0°13′",
+    "longitude": 150.214
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 24.27,
+    "text": "Scorpio 24°16′",
+    "longitude": 234.269
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Name Diffused",
+   "stop": "The White House, East Room: the Fermi Award to Oppenheimer",
+   "date": "1963-12-02",
+   "date_confidence": "attested; the coordinate is the canonical White House pin inherited from robert_oppenheimer.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438365.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.09,
+    "text": "Sagittarius 9°05′",
+    "longitude": 249.088
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.29,
+    "text": "Gemini 23°18′",
+    "longitude": 83.293
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 23.77,
+    "text": "Sagittarius 23°46′",
+    "longitude": 263.771
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 2.96,
+    "text": "Capricornus 2°57′",
+    "longitude": 272.957
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 27.45,
+    "text": "Sagittarius 27°27′",
+    "longitude": 267.452
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 9.52,
+    "text": "Aries 9°31′",
+    "longitude": 9.522
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 17.79,
+    "text": "Aquarius 17°48′",
+    "longitude": 317.793
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Name Diffused",
+   "stop": "Stagg Field, the stands come down and the bronze goes up",
+   "date": "1967-12-02",
+   "date_confidence": "attested; the demolition is of August 1957 and the National Historic Landmark designation of 18 February 1965, which the pool miscounts as a third plaque",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439826.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.12,
+    "text": "Sagittarius 9°07′",
+    "longitude": 249.117
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 13.68,
+    "text": "Sagittarius 13°41′",
+    "longitude": 253.679
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 24.58,
+    "text": "Scorpio 24°35′",
+    "longitude": 234.577
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 23.93,
+    "text": "Libra 23°56′",
+    "longitude": 203.926
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 0.12,
+    "text": "Aquarius 0°07′",
+    "longitude": 300.118
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 5.19,
+    "text": "Virgo 5°11′",
+    "longitude": 155.189
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 5.57,
+    "text": "Aries 5°34′",
+    "longitude": 5.571
+   }
+  },
+  {
+   "segment": "The Name Diffused",
+   "stop": "Via Panisperna, Rome: the museum on the Viminale",
+   "date": "1989-01-01",
+   "date_confidence": "the plaque is undated in the sources reached; the stop is dated to the release of Gianni Amelio's film, and the month defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1989,
+   "jd_ut": 2447527.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "undated"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.557
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 24,
+  "month": 7,
+  "year": 13
+ },
+ "parse_failures": []
+}

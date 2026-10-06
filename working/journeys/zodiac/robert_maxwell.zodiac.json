@@ -1,0 +1,1787 @@
+{
+ "slug": "robert_maxwell",
+ "traveler": "Robert Maxwell (born Jan Ludvik Hyman Binyamin Hoch)",
+ "title": "The Salt Village to the Mount of Olives: Hoch, du Maurier, Maxwell, and the Hole in the Books",
+ "years": "1923-1991",
+ "years_parsed": {
+  "first": 1923,
+  "last": 1991
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Salt Village and the Road West",
+  "stop": "Solotvyno, the salt village",
+  "date": "1923-06-10",
+  "date_confidence": "attested to the day (Wikipedia, 'Robert Maxwell')",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1923,
+  "jd_ut": 2423580.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 18.11,
+   "text": "Gemini 18°06′",
+   "longitude": 78.107
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 27.57,
+   "text": "Aries 27°34′",
+   "longitude": 27.566
+  },
+  "mercury": {
+   "sign": "Gemini",
+   "degree": 2.3,
+   "text": "Gemini 2°18′",
+   "longitude": 62.304
+  },
+  "venus": {
+   "sign": "Taurus",
+   "degree": 23.37,
+   "text": "Taurus 23°22′",
+   "longitude": 53.372
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 6.64,
+   "text": "Cancer 6°38′",
+   "longitude": 96.635
+  },
+  "jupiter": {
+   "sign": "Scorpio",
+   "degree": 10.09,
+   "text": "Scorpio 10°05′",
+   "longitude": 220.088
+  },
+  "saturn": {
+   "sign": "Libra",
+   "degree": 13.49,
+   "text": "Libra 13°30′",
+   "longitude": 193.494
+  },
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "1923-1991",
+  "first_year_parsed": 1923
+ },
+ "stops": [
+  {
+   "segment": "The Salt Village and the Road West",
+   "stop": "Solotvyno, the salt village",
+   "date": "1923-06-10",
+   "date_confidence": "attested to the day (Wikipedia, 'Robert Maxwell')",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423580.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 18.11,
+    "text": "Gemini 18°06′",
+    "longitude": 78.107
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 27.57,
+    "text": "Aries 27°34′",
+    "longitude": 27.566
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 2.3,
+    "text": "Gemini 2°18′",
+    "longitude": 62.304
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 23.37,
+    "text": "Taurus 23°22′",
+    "longitude": 53.372
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 6.64,
+    "text": "Cancer 6°38′",
+    "longitude": 96.635
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 10.09,
+    "text": "Scorpio 10°05′",
+    "longitude": 220.088
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 13.49,
+    "text": "Libra 13°30′",
+    "longitude": 193.494
+   }
+  },
+  {
+   "segment": "The Salt Village and the Road West",
+   "stop": "Budapest, the boy sent away",
+   "date": "1939-01-01",
+   "date_confidence": "[R] reconstruction: the year is a default to January of an approximate date, and the journey to Budapest is not stated in the Wikipedia article this file otherwise follows. Later profiles carry it; no source reached here attests it. The Auschwitz deaths of his family in 1944 are attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429264.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "not given",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.678
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Salt Village and the Road West",
+   "stop": "Marseille, the army in exile",
+   "date": "1940-05-01",
+   "date_confidence": "attested to the month (Wikipedia, 'Robert Maxwell'); the day is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429750.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.47,
+    "text": "Taurus 10°28′",
+    "longitude": 40.472
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Salt Village and the Road West",
+   "stop": "Cholmondeley Park, the camp in Cheshire",
+   "date": "1940-10-01",
+   "date_confidence": "[R] for the camp: Cholmondeley Park was the Czechoslovak army camp in England in 1940, but no source reached places Maxwell there personally. The units and the aliases are [A] (Wikipedia, 'Robert Maxwell'). Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429903.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.66,
+    "text": "Libra 7°40′",
+    "longitude": 187.664
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cross and the New Name",
+   "stop": "Gold Beach, the crossing to Normandy",
+   "date": "1944-06-01",
+   "date_confidence": "[R]: the regiment's Normandy service is attested; the beach and the day of his own landing are not documented in any source reached. This pin marks the British sector, not a documented footprint. Month defaulted to the first.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431242.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.38,
+    "text": "Gemini 10°23′",
+    "longitude": 70.378
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cross and the New Name",
+   "stop": "The Maas front, the machine-gun nest",
+   "date": "1945-01-01",
+   "date_confidence": "[A] for the action, the month and Montgomery's presentation; [R] for the place. The town is undocumented in every source reached, and this pin marks the 21st Army Group line of January 1945 rather than a named site. An earlier draft of this research placed it at 51.6, 6.1, east of the Rhine, which the army did not reach until March 1945; that coordinate is rejected as anachronistic.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cross and the New Name",
+   "stop": "Paris, the marriage to Elisabeth Meynard",
+   "date": "1945-03-01",
+   "date_confidence": "[A] for the year and the marriage; [R] for the place and the month. The atlas canonical Paris pin is inherited here because the marriage to a Frenchwoman in 1945 is attested and no source reached names the town or the date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431515.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "no source (for the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.06,
+    "text": "Pisces 10°04′",
+    "longitude": 340.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cross and the New Name",
+   "stop": "Berlin, the press section",
+   "date": "1945-07-01",
+   "date_confidence": "attested to the period 1945-1947 (Wikipedia, 'Robert Maxwell'); month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431637.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.8,
+    "text": "Cancer 8°48′",
+    "longitude": 98.801
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cross and the New Name",
+   "stop": "London, the deed poll",
+   "date": "1948-06-30",
+   "date_confidence": "attested to the day for both the naturalization (19 June 1946) and the deed poll (30 June 1948); the atlas canonical London pin stands for an address no source reached specifies",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432732.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.11,
+    "text": "Cancer 8°07′",
+    "longitude": 98.11
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 12.12,
+    "text": "Aries 12°07′",
+    "longitude": 12.121
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 29.47,
+    "text": "Gemini 29°28′",
+    "longitude": 89.469
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 29.63,
+    "text": "Gemini 29°38′",
+    "longitude": 89.627
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 20.33,
+    "text": "Virgo 20°20′",
+    "longitude": 170.326
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 22.3,
+    "text": "Sagittarius 22°18′",
+    "longitude": 262.298
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 20.14,
+    "text": "Leo 20°09′",
+    "longitude": 140.143
+   }
+  },
+  {
+   "segment": "Pergamon and the House on the Hill",
+   "stop": "Fitzroy Square, Pergamon Press",
+   "date": "1951-01-01",
+   "date_confidence": "attested to the year (Wikipedia, 'Robert Maxwell'; Wikipedia, 'Pergamon Press'); month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433647.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.767
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pergamon and the House on the Hill",
+   "stop": "Oxford, the death of Karine",
+   "date": "1957-01-01",
+   "date_confidence": "attested to the year (Wikipedia, 'Robert Maxwell'); month, day and the Oxford location are defaults, not documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2435839.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.32,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.321
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pergamon and the House on the Hill",
+   "stop": "Headington Hill Hall, the best council house",
+   "date": "1959-01-01",
+   "date_confidence": "attested to the year for the tenancy and the Pergamon relocation; month and day defaulted. The remark quoted below is undated and has no primary transcript.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "undated",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pergamon and the House on the Hill",
+   "stop": "Maisons-Laffitte, the birth of Ghislaine",
+   "date": "1961-01-01",
+   "date_confidence": "attested to the year and the place (Wikipedia, 'Ghislaine Maxwell'); month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437300.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.35,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.35
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pergamon and the House on the Hill",
+   "stop": "Headington Hill Hall, the second grave",
+   "date": "1968-01-01",
+   "date_confidence": "attested to the year of death and to the 1961 crash (Wikipedia, 'Robert Maxwell'); month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2439856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.64,
+    "text": "Capricornus 9°38′",
+    "longitude": 279.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Member for Buckingham and the Inspectors",
+   "stop": "Buckingham, the seat won",
+   "date": "1964-10-15",
+   "date_confidence": "attested to the day (Wikipedia, 'Robert Maxwell')",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438683.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.67,
+    "text": "Libra 21°40′",
+    "longitude": 201.675
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 5.92,
+    "text": "Aquarius 5°55′",
+    "longitude": 305.916
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 21.13,
+    "text": "Libra 21°08′",
+    "longitude": 201.129
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 10.66,
+    "text": "Virgo 10°40′",
+    "longitude": 160.663
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 17.78,
+    "text": "Leo 17°47′",
+    "longitude": 137.784
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 24.62,
+    "text": "Taurus 24°37′",
+    "longitude": 54.619
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 28.51,
+    "text": "Aquarius 28°30′",
+    "longitude": 328.507
+   }
+  },
+  {
+   "segment": "The Member for Buckingham and the Inspectors",
+   "stop": "Palace of Westminster, the impatient member",
+   "date": "1968-10-23",
+   "date_confidence": "the interview date is attested by the citation carried on Wikiquote, though that citation is formally attached to a different bullet on the same page; the primary Times text was not read",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2440152.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 29.65,
+    "text": "Libra 29°39′",
+    "longitude": 209.655
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 14.76,
+    "text": "Scorpio 14°45′",
+    "longitude": 224.756
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 15.95,
+    "text": "Libra 15°57′",
+    "longitude": 195.949
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 2.18,
+    "text": "Sagittarius 2°11′",
+    "longitude": 242.184
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 19.43,
+    "text": "Virgo 19°26′",
+    "longitude": 169.434
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 25.63,
+    "text": "Virgo 25°38′",
+    "longitude": 175.635
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 21.35,
+    "text": "Aries 21°21′",
+    "longitude": 21.353
+   }
+  },
+  {
+   "segment": "The Member for Buckingham and the Inspectors",
+   "stop": "Bouverie Street, the paper lost to Murdoch",
+   "date": "1969-01-01",
+   "date_confidence": "attested to the year for the failed bid and to October 1969 for the loss of Pergamon; the Bouverie Street coordinate is the News of the World office, approximate, and no source reached places him there",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximately",
+    "to the year",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Member for Buckingham and the Inspectors",
+   "stop": "Buckingham, the seat lost",
+   "date": "1970-06-18",
+   "date_confidence": "attested to the year; the day is the 1970 general election polling day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440755.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 26.36,
+    "text": "Gemini 26°22′",
+    "longitude": 86.363
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Member for Buckingham and the Inspectors",
+   "stop": "Vaduz, the foundation in Liechtenstein",
+   "date": "1970-11-01",
+   "date_confidence": "attested to the year (Wikipedia, 'Robert Maxwell'); month and day are defaults, and Vaduz stands for the principality rather than a documented registered office",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440891.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.15,
+    "text": "Scorpio 8°09′",
+    "longitude": 218.154
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Member for Buckingham and the Inspectors",
+   "stop": "Whitehall, the inspectors' verdict",
+   "date": "1971-01-01",
+   "date_confidence": "attested to the year of publication; month and day defaulted, and the coordinate stands for the department rather than a documented room",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2440952.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Member for Buckingham and the Inspectors",
+   "stop": "Oxford, Pergamon taken back",
+   "date": "1974-01-01",
+   "date_confidence": "attested to the year for the reacquisition, the two lost elections and Elisabeth Maxwell's BA; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1974,
+   "jd_ut": 2442048.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.19,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.192
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Press Baron",
+   "stop": "London, the printing corporation taken",
+   "date": "1981-07-01",
+   "date_confidence": "attested to the year (Wikipedia, 'Robert Maxwell'); month and day defaulted, and the canonical London pin stands for a corporate address no source reached specifies",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444786.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.09,
+    "text": "Cancer 9°05′",
+    "longitude": 99.089
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Press Baron",
+   "stop": "Holborn Circus, the Mirror bought",
+   "date": "1984-07-13",
+   "date_confidence": "attested to the month (Wikipedia, 'Robert Maxwell'); the day is a default within July 1984",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445894.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 20.79,
+    "text": "Cancer 20°48′",
+    "longitude": 110.793
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Press Baron",
+   "stop": "London, the crook and the liar",
+   "date": "1984-07-20",
+   "date_confidence": "attested to the year and the occasion, a meeting of Maxwell's new employees at the 1984 takeover; the day is a default and the room is not named in any source reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445901.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 27.47,
+    "text": "Cancer 27°28′",
+    "longitude": 117.471
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Press Baron",
+   "stop": "Makkum, the Lady Ghislaine",
+   "date": "1986-01-01",
+   "date_confidence": "attested to the year and the yard (Amels of Makkum, Friesland, to a Jon Bannenberg design); month and day defaulted. An earlier draft of this research placed the naming ceremony at an unnamed Dutch yard near Amsterdam, about 120 km wrong; that placement is rejected.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1986,
+   "jd_ut": 2446431.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.28
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Press Baron",
+   "stop": "Manor Ground, Headington, the League Cup",
+   "date": "1986-04-20",
+   "date_confidence": "attested to the year for the League Cup and to 1985 for promotion; the day is the 1986 final date and is a reconstruction, not carried in the sources reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1986,
+   "jd_ut": 2446540.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.64,
+    "text": "Aries 29°38′",
+    "longitude": 29.637
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Press Baron",
+   "stop": "Holborn, the London Daily News",
+   "date": "1987-02-24",
+   "date_confidence": "attested to the month of launch (February 1987) and of closure (July 1987); the day is a default",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1987,
+   "jd_ut": 2446850.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.85,
+    "text": "Pisces 4°51′",
+    "longitude": 334.849
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Press Baron",
+   "stop": "866 Third Avenue, Macmillan bought",
+   "date": "1988-01-01",
+   "date_confidence": "attested to the year (Wikipedia, 'Robert Maxwell'); month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1988,
+   "jd_ut": 2447161.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.79,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.785
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Press Baron",
+   "stop": "220 East 42nd Street, the Daily News",
+   "date": "1991-03-01",
+   "date_confidence": "attested to the year (Wikipedia, 'Robert Maxwell'); month and day defaulted. An earlier draft of this research pinned the Daily News Building at -73.9738, two blocks west near Grand Central; that coordinate is rejected.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448316.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.9,
+    "text": "Pisces 9°54′",
+    "longitude": 339.905
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Eastern Courts and the Israeli Connection",
+   "stop": "Moscow, the flattering volumes",
+   "date": "1985-01-01",
+   "date_confidence": "[R]: the Soviet-bloc business dealings are general historical record; no specific Moscow visit date is confirmed in the sources reached. Year, month and day are all defaults within the decade.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1985,
+   "jd_ut": 2446066.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.528
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Eastern Courts and the Israeli Connection",
+   "stop": "Bucharest, the question to Ceausescu",
+   "date": "1986-01-01",
+   "date_confidence": "[R]: the Ceausescu courtship is general historical record and is not independently confirmed in the sources reached; the interview transcript was not located. Year, month and day are defaults within the decade.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1986,
+   "jd_ut": 2446431.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.28
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Eastern Courts and the Israeli Connection",
+   "stop": "Tel Aviv, the stake in Ma'ariv",
+   "date": "1989-01-01",
+   "date_confidence": "[R]: the Ma'ariv stake is reported elsewhere as bought in 1989 and sold to the Nimrodi family after his death, but the Wikipedia article on Maxwell does not mention Ma'ariv and the Ma'ariv article's ownership history does not mention Maxwell. Downgraded from [A] on that failure of attribution. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1989,
+   "jd_ut": 2447527.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.557
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Eastern Courts and the Israeli Connection",
+   "stop": "London, the foreign editor sacked",
+   "date": "1991-10-01",
+   "date_confidence": "attested to the period (days before his death, autumn 1991); the day is a default and the canonical London pin stands for an unrecorded location",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448530.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.32,
+    "text": "Libra 7°19′",
+    "longitude": 187.322
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Eastern Courts and the Israeli Connection",
+   "stop": "House of Commons, named under privilege",
+   "date": "1991-10-21",
+   "date_confidence": "attested to the day (Wikipedia, 'Robert Maxwell')",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448550.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 27.09,
+    "text": "Libra 27°06′",
+    "longitude": 207.094
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 26.43,
+    "text": "Pisces 26°26′",
+    "longitude": 356.429
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 8.57,
+    "text": "Scorpio 8°34′",
+    "longitude": 218.572
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 11.19,
+    "text": "Virgo 11°11′",
+    "longitude": 161.186
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 2.85,
+    "text": "Scorpio 2°51′",
+    "longitude": 212.854
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 7.59,
+    "text": "Virgo 7°35′",
+    "longitude": 157.585
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.24,
+    "text": "Aquarius 0°14′",
+    "longitude": 300.237
+   }
+  },
+  {
+   "segment": "The Voyage South",
+   "stop": "Amsterdam, Pergamon sold to Elsevier",
+   "date": "1991-03-01",
+   "date_confidence": "[A] for the sale and the price; [R] for the Amsterdam location, since no source reached confirms he went there in person. Month attested as March 1991; day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448316.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.9,
+    "text": "Pisces 9°54′",
+    "longitude": 339.905
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Voyage South",
+   "stop": "Gibraltar Harbour, the voyage south",
+   "date": "1991-10-28",
+   "date_confidence": "[R]: press accounts of the final cruise commonly place the yacht at or past Gibraltar in late October 1991, and no source reached itemises the ports. The day is a default within that week.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448557.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 4.07,
+    "text": "Scorpio 4°04′",
+    "longitude": 214.067
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Voyage South",
+   "stop": "Santa Cruz de Tenerife, the last islands",
+   "date": "1991-11-02",
+   "date_confidence": "[R]: Tenerife and Madeira are both commonly named in press accounts of the itinerary and neither is confirmed in the sources reached. The day is a default within the first days of November.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448562.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.06,
+    "text": "Scorpio 9°04′",
+    "longitude": 219.064
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Voyage South",
+   "stop": "Off Gran Canaria, the last contact at 4:25",
+   "date": "1991-11-05",
+   "date_confidence": "[A] for the 4:25 a.m. last contact and the date. The position is contested: this research produced two coordinates for the same event, 28.4/-15.6 off Gran Canaria and 28.3/-16.5 south of Tenerife, about 90 km apart. The Gran Canaria reading is taken because the body was landed at Las Palmas; the conflict is recorded, not resolved. The argument with Kevin Maxwell is [R], not in the cited article.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448565.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 12.07,
+    "text": "Scorpio 12°04′",
+    "longitude": 222.069
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Voyage South",
+   "stop": "Puerto de la Luz, the body brought ashore",
+   "date": "1991-11-05",
+   "date_confidence": "attested to the day (Wikipedia, 'Robert Maxwell')",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448565.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 12.07,
+    "text": "Scorpio 12°04′",
+    "longitude": 222.069
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 24.44,
+    "text": "Libra 24°26′",
+    "longitude": 204.436
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 0.79,
+    "text": "Sagittarius 0°47′",
+    "longitude": 240.787
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 25.58,
+    "text": "Virgo 25°35′",
+    "longitude": 175.576
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 13.13,
+    "text": "Scorpio 13°08′",
+    "longitude": 223.129
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 10.02,
+    "text": "Virgo 10°01′",
+    "longitude": 160.025
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.82,
+    "text": "Aquarius 0°49′",
+    "longitude": 300.819
+   }
+  },
+  {
+   "segment": "The Voyage South",
+   "stop": "Las Palmas, the inquest",
+   "date": "1991-12-01",
+   "date_confidence": "attested to the month (Wikipedia, 'Robert Maxwell'); day defaulted. The proceeding was a Spanish judicial inquiry; an earlier draft of this research called it a 'coroner's court', which is an anglicism with no Spanish equivalent and is rejected.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448591.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.28,
+    "text": "Sagittarius 8°17′",
+    "longitude": 248.283
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Hole",
+   "stop": "Mount of Olives, the state funeral",
+   "date": "1991-11-10",
+   "date_confidence": "attested to the month; the day is carried by the interlock lens and is a reconstruction. Two coordinates for the cemetery appear in this research, 35.2427 and 35.2436, about ninety metres apart; the first is taken and the discrepancy recorded. The atlas canonical Temple Mount pin (31.778, 35.2354) is deliberately NOT inherited: the Mount of Olives is adjacent to it, not identical with it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448570.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 17.09,
+    "text": "Scorpio 17°05′",
+    "longitude": 227.086
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Hole",
+   "stop": "Holborn, the hole in the pension funds",
+   "date": "1992-01-01",
+   "date_confidence": "attested to the period 1991-1992 (Wikipedia, 'Robert Maxwell'); month and day defaulted. The comparisons to Banco Ambrosiano and First American are [R], structural parallels drawn from other atlas files and not asserted by any source as connection.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448622.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Hole",
+   "stop": "London, the afterlives",
+   "date": "1994-11-01",
+   "date_confidence": "attested to the month for the memoir; the later items are attested to their years (1996, 1997, 2007, 2023) and are gathered under this pin rather than given separate ones",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1994,
+   "jd_ut": 2449657.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.34,
+    "text": "Scorpio 8°20′",
+    "longitude": 218.337
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Hole",
+   "stop": "Old Bailey, the sons acquitted",
+   "date": "1996-01-19",
+   "date_confidence": "attested to the period 1995-1996 for the trial and to 1992 for Kevin Maxwell's bankruptcy; the day is a reconstruction within the January 1996 verdict, and the Old Bailey coordinate is the standard Central Criminal Court pin",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450101.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 28.19,
+    "text": "Capricornus 28°11′",
+    "longitude": 298.186
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave and the Hole",
+   "stop": "Manhattan, the daughter in the dock",
+   "date": "2021-12-29",
+   "date_confidence": "attested to the day for the conviction; the arrest (July 2020) and sentence (28 June 2022) are attested to their dates. The courthouse coordinate is the Thurgood Marshall United States Courthouse and is a reconstruction, not carried in the sources reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2021,
+   "jd_ut": 2459577.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.49,
+    "text": "Capricornus 7°29′",
+    "longitude": 277.488
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 1.6,
+    "text": "Scorpio 1°36′",
+    "longitude": 211.602
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 23.81,
+    "text": "Capricornus 23°48′",
+    "longitude": 293.806
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 24.65,
+    "text": "Capricornus 24°39′",
+    "longitude": 294.647
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 10.98,
+    "text": "Sagittarius 10°59′",
+    "longitude": 250.98
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 29.93,
+    "text": "Aquarius 29°56′",
+    "longitude": 329.935
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 11.6,
+    "text": "Aquarius 11°36′",
+    "longitude": 311.595
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 7,
+  "month": 11,
+  "year": 27
+ },
+ "parse_failures": []
+}

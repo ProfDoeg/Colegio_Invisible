@@ -1,0 +1,1997 @@
+{
+ "slug": "john_a_roebling",
+ "traveler": "John Augustus Roebling (Johann August Röbling)",
+ "title": "Wire: from the Divi Blasii Font to the Fulton Ferry Slip",
+ "years": "1806-1869",
+ "years_parsed": {
+  "first": 1806,
+  "last": 1869
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Thuringian Apprenticeship",
+  "stop": "Mühlhausen, baptized at Divi Blasii",
+  "date": "1806-06-12",
+  "date_confidence": "12 June 1806 attested in both the German and the English biographical record. The baptism at Divi Blasii is reported by the National Park Service biography.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1806,
+  "jd_ut": 2380849.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 20.28,
+   "text": "Gemini 20°17′",
+   "longitude": 80.28
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 19.72,
+   "text": "Aries 19°43′",
+   "longitude": 19.718
+  },
+  "mercury": {
+   "sign": "Gemini",
+   "degree": 2.06,
+   "text": "Gemini 2°03′",
+   "longitude": 62.057
+  },
+  "venus": {
+   "sign": "Taurus",
+   "degree": 5.49,
+   "text": "Taurus 5°29′",
+   "longitude": 35.488
+  },
+  "mars": {
+   "sign": "Taurus",
+   "degree": 23.54,
+   "text": "Taurus 23°33′",
+   "longitude": 53.543
+  },
+  "jupiter": {
+   "sign": "Capricornus",
+   "degree": 5.21,
+   "text": "Capricornus 5°12′",
+   "longitude": 275.207
+  },
+  "saturn": {
+   "sign": "Libra",
+   "degree": 21.76,
+   "text": "Libra 21°46′",
+   "longitude": 201.763
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1806-1869",
+  "first_year_parsed": 1806
+ },
+ "stops": [
+  {
+   "segment": "The Thuringian Apprenticeship",
+   "stop": "Mühlhausen, baptized at Divi Blasii",
+   "date": "1806-06-12",
+   "date_confidence": "12 June 1806 attested in both the German and the English biographical record. The baptism at Divi Blasii is reported by the National Park Service biography.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1806,
+   "jd_ut": 2380849.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.28,
+    "text": "Gemini 20°17′",
+    "longitude": 80.28
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 19.72,
+    "text": "Aries 19°43′",
+    "longitude": 19.718
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 2.06,
+    "text": "Gemini 2°03′",
+    "longitude": 62.057
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 5.49,
+    "text": "Taurus 5°29′",
+    "longitude": 35.488
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 23.54,
+    "text": "Taurus 23°33′",
+    "longitude": 53.543
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 5.21,
+    "text": "Capricornus 5°12′",
+    "longitude": 275.207
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 21.76,
+    "text": "Libra 21°46′",
+    "longitude": 201.763
+   }
+  },
+  {
+   "segment": "The Thuringian Apprenticeship",
+   "stop": "Erfurt, three years with Unger",
+   "date": "1820-06-01",
+   "date_confidence": "June 1820 entry and 1823 departure per immigrantentrepreneurship.org, which quotes his own note that he 'passed my 1st Examination and returned to Mühlhausen in 1823'. An older account dating the start to 1821 is contradicted by that autobiographical line. Coordinates are the centroid of Erfurt: the institute building is not located here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1820,
+   "jd_ut": 2385952.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.35,
+    "text": "Gemini 10°21′",
+    "longitude": 70.352
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Thuringian Apprenticeship",
+   "stop": "Berlin, the Royal Building Academy",
+   "date": "1824-01-01",
+   "date_confidence": "1824 enrolment attested; month and day defaulted. A competing account has him finishing engineering studies at a 'Berlin-Charlottenburg Polytechnic' by 1826, which cannot be right: the Technische Hochschule Charlottenburg was founded in 1879. The pin marks Schinkel's Bauakademie building at the Werderscher Markt, finished in 1836, after his time.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387261.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.6,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.595
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Thuringian Apprenticeship",
+   "stop": "Berlin, the lectures of Hegel",
+   "date": "1824-10-01",
+   "date_confidence": "attendance at Hegel's lectures during the Berlin studies is attested in the English Wikipedia biography and in immigrantentrepreneurship.org; no term or date is given, and October 1824 is set only to place the stop inside the Berlin year. The pin is the University of Berlin lecture-hall coordinate inherited unchanged from hegel.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387535.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.75,
+    "text": "Libra 7°45′",
+    "longitude": 187.749
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Thuringian Apprenticeship",
+   "stop": "Eslohe, the military roads of the Sauerland",
+   "date": "1825-01-01",
+   "date_confidence": "Prussian service in the Arnsberg district from about 1825 for roughly four years, attested by immigrantentrepreneurship.org; month and day defaulted. Coordinates corrected to the town of Eslohe itself, 51°15'N 8°10'E; an earlier figure placed the pin some seven kilometres north in open country.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387627.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.367
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Thuringian Apprenticeship",
+   "stop": "Mühlhausen, the thesis never defended",
+   "date": "1829-01-01",
+   "date_confidence": "the 1829 return and the abandoned second state examination are attested; month and day defaulted. The frequently repeated claim that police surveillance personally drove him out of Prussia is tradition and is not carried here as fact.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389088.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Colony",
+   "stop": "Bremen, aboard the August Eduard",
+   "date": "1831-05-11",
+   "date_confidence": "11 May 1831 departure, the ship's name, the 75-thaler cabin fare and the eleven-week crossing all from immigrantentrepreneurship.org; English Wikipedia gives 22 May for his leaving Prussia, which is a different act. Bremen was a sovereign Free Hanseatic City and never Prussian; an earlier draft of this dossier called it 'Bremen, Prussia'. City-centre pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389948.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.54,
+    "text": "Taurus 19°32′",
+    "longitude": 49.537
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 5.29,
+    "text": "Taurus 5°17′",
+    "longitude": 35.288
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 7.99,
+    "text": "Gemini 8°00′",
+    "longitude": 67.992
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 23.02,
+    "text": "Gemini 23°01′",
+    "longitude": 83.022
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 4.65,
+    "text": "Cancer 4°39′",
+    "longitude": 94.651
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 20.87,
+    "text": "Aquarius 20°52′",
+    "longitude": 320.871
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 25.17,
+    "text": "Leo 25°10′",
+    "longitude": 145.165
+   }
+  },
+  {
+   "segment": "The Crossing and the Colony",
+   "stop": "Philadelphia, the landing on the Delaware",
+   "date": "1831-08-03",
+   "date_confidence": "3 August 1831 per immigrantentrepreneurship.org; the Rutgers Roebling Family Collection finding aid gives 6 August. The conflict is left standing. The pin is the Delaware River waterfront rather than Philadelphia City Hall, which sits about 1.5 km inland and had been used in the underlying dossier.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390032.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 9.87,
+    "text": "Leo 9°52′",
+    "longitude": 129.867
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 3.25,
+    "text": "Gemini 3°15′",
+    "longitude": 63.249
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 24.15,
+    "text": "Leo 24°09′",
+    "longitude": 144.151
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 25.53,
+    "text": "Virgo 25°32′",
+    "longitude": 175.531
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 27.16,
+    "text": "Leo 27°09′",
+    "longitude": 147.158
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 18.48,
+    "text": "Aquarius 18°29′",
+    "longitude": 318.478
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 2.01,
+    "text": "Virgo 2°01′",
+    "longitude": 152.009
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Crossing and the Colony",
+   "stop": "Butler County, fifteen hundred acres and a town called Germania",
+   "date": "1831-10-28",
+   "date_confidence": "the purchase of 1,582 acres from Mrs. Sarah Collins on 28 October 1831, and the Germania-to-Saxonburg renaming, per en.wikipedia.org/wiki/Saxonburg,_Pennsylvania, which also dates the founding to 1832. Coordinates corrected to the borough proper, 40°45'15\"N 79°48'56\"W; the dossier figure sat about 800 m northwest.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390118.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 3.85,
+    "text": "Scorpio 3°51′",
+    "longitude": 213.848
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Colony",
+   "stop": "Saxonburg, marriage to Johanna Herting",
+   "date": "1836-05-01",
+   "date_confidence": "May 1836 per the Rutgers Roebling Family Collection finding aid; day not established and defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391765.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not established"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.63,
+    "text": "Taurus 10°38′",
+    "longitude": 40.63
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Colony",
+   "stop": "Saxonburg, the birth of Washington Roebling",
+   "date": "1837-05-26",
+   "date_confidence": "26 May 1837 per the Rutgers Roebling Family Collection finding aid.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392155.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 4.5,
+    "text": "Gemini 4°30′",
+    "longitude": 64.496
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 21.24,
+    "text": "Aquarius 21°14′",
+    "longitude": 321.241
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 20.18,
+    "text": "Gemini 20°11′",
+    "longitude": 80.184
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 6.5,
+    "text": "Gemini 6°30′",
+    "longitude": 66.498
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 27.29,
+    "text": "Leo 27°17′",
+    "longitude": 147.288
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 11.92,
+    "text": "Leo 11°55′",
+    "longitude": 131.915
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 12.31,
+    "text": "Scorpio 12°19′",
+    "longitude": 222.312
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Crossing and the Colony",
+   "stop": "Saxonburg, the death of Carl Röbling",
+   "date": "1837-06-01",
+   "date_confidence": "1837 attested for Carl's death and for the return to engineering work; month and day are set only to order the stop between his son's birth in May and the naturalization in September.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392161.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.25,
+    "text": "Gemini 10°15′",
+    "longitude": 70.247
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing and the Colony",
+   "stop": "Butler County, the oath and the new name",
+   "date": "1837-09-30",
+   "date_confidence": "30 September 1837 per de.wikipedia.org/wiki/Johann_August_Röbling, which ties the naturalization to the anglicization of the name. The NPS page cited for this date in the underlying dossier carries no naturalization date at all. The court of record is not established; the pin is Saxonburg, not a courthouse.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392282.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not established) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.62,
+    "text": "Libra 6°37′",
+    "longitude": 186.619
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 8.48,
+    "text": "Libra 8°29′",
+    "longitude": 188.481
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 18.54,
+    "text": "Libra 18°32′",
+    "longitude": 198.541
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 11.67,
+    "text": "Scorpio 11°40′",
+    "longitude": 221.669
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 13.49,
+    "text": "Scorpio 13°29′",
+    "longitude": 223.487
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 7.11,
+    "text": "Virgo 7°06′",
+    "longitude": 157.108
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 14.88,
+    "text": "Scorpio 14°53′",
+    "longitude": 224.883
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    },
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Iron Wire",
+   "stop": "Sandy and Beaver Canal, back on the level",
+   "date": "1837-10-01",
+   "date_confidence": "1837 per the NPS biography; the month is set only to place the stop after the September naturalization. The coordinates are an approximate point along the canal route, not a worksite: the stretch he surveyed is not established.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392283.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "not established"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.6,
+    "text": "Libra 7°36′",
+    "longitude": 187.603
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Iron Wire",
+   "stop": "Pittsburgh, the hemp that keeps parting",
+   "date": "1839-01-01",
+   "date_confidence": "1839 to 1840 for the railway surveys under Charles L. Schlatter, per immigrantentrepreneurship.org; month and day defaulted, and the pin is Pittsburgh rather than any single survey line. The widely repeated story that he personally saw two men killed by a snapping hemp rope is tradition; no contemporary accident report has been found.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1839,
+   "jd_ut": 2392740.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.96
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Iron Wire",
+   "stop": "Philadelphia, the letter to Charles Ellet Jr.",
+   "date": "1840-01-28",
+   "date_confidence": "28 January 1840 per en.wikipedia.org/wiki/John_A._Roebling. The Fairmount competition and the patronage said to have decided it recur throughout the Roebling literature but were not confirmed against a primary source in this pass and are carried as tradition. The pin is the proposed Fairmount bridge site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393132.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 7.21,
+    "text": "Aquarius 7°12′",
+    "longitude": 307.205
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 22.77,
+    "text": "Scorpio 22°46′",
+    "longitude": 232.774
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 19.37,
+    "text": "Capricornus 19°22′",
+    "longitude": 289.365
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 24.39,
+    "text": "Sagittarius 24°23′",
+    "longitude": 264.388
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 29.54,
+    "text": "Aquarius 29°32′",
+    "longitude": 329.542
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 16.8,
+    "text": "Scorpio 16°48′",
+    "longitude": 226.805
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 18.57,
+    "text": "Sagittarius 18°34′",
+    "longitude": 258.572
+   }
+  },
+  {
+   "segment": "Iron Wire",
+   "stop": "Saxonburg, the ropewalk in the meadow",
+   "date": "1841-01-01",
+   "date_confidence": "1841 for the start of commercial wire rope production at Saxonburg; month and day defaulted. Coordinates are the borough pin: the ropewalk stood on his own farm, whose exact bounds are not mapped here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1841,
+   "jd_ut": 2393471.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.48,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.485
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Iron Wire",
+   "stop": "Saxonburg, Patent No. 2,720",
+   "date": "1842-07-16",
+   "date_confidence": "16 July 1842 confirmed directly at patents.google.com/patent/US2720A/en, issued to John A. Roebling of Saxonburg, Pennsylvania. The NPS biography independently dates the first test of the rope on Incline 3 of the Allegheny Portage Railroad to 1842. The sabotage story is reported and unconfirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1842,
+   "jd_ut": 2394032.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.99,
+    "text": "Cancer 23°00′",
+    "longitude": 112.993
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 6.78,
+    "text": "Scorpio 6°47′",
+    "longitude": 216.781
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 12.57,
+    "text": "Cancer 12°34′",
+    "longitude": 102.57
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 26.64,
+    "text": "Leo 26°38′",
+    "longitude": 146.636
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.07,
+    "text": "Cancer 17°04′",
+    "longitude": 107.066
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.06,
+    "text": "Capricornus 17°03′",
+    "longitude": 287.057
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.078
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Water Carried on Wire",
+   "stop": "Pittsburgh, a canal crosses the Allegheny",
+   "date": "1845-05-01",
+   "date_confidence": "completed May 1845; the low bid among 44 is attested by immigrantentrepreneurship.org. Coordinates set at the foot of 11th Street, the Pennsylvania Canal crossing, to separate this structure from the Sixth Street bridge; the dossier had stacked both on one point. Note that the Wikipedia page titled 'Allegheny Aqueduct' is a different 1824 stone structure in Berks County.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1845,
+   "jd_ut": 2395052.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.46,
+    "text": "Taurus 10°27′",
+    "longitude": 40.457
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Water Carried on Wire",
+   "stop": "Pittsburgh, the Smithfield Street crossing",
+   "date": "1846-02-01",
+   "date_confidence": "opened February 1846 per the NPS biography; day defaulted. Coordinates corrected to 40°26'5\"N 80°0'8\"W per en.wikipedia.org/wiki/Smithfield_Street_Bridge, about 300 m from the dossier figure. This crossing is the Monongahela, not the Allegheny, despite a parenthetical in the underlying chronology calling it a road bridge over the Allegheny.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395328.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.82,
+    "text": "Aquarius 11°49′",
+    "longitude": 311.818
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Water Carried on Wire",
+   "stop": "Minisink Ford, the Delaware Aqueduct",
+   "date": "1849-01-01",
+   "date_confidence": "begun 1847, opened 1849; month and day defaulted to 01 within the opening year. The companion Lackawaxen aqueduct, of which only abutments survive, stood about 41.477, -74.986, coordinates estimated from the confluence and not surveyed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396393.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "estimated"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.544
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Water Carried on Wire",
+   "stop": "Trenton, the works between the canal and the railroad",
+   "date": "1849-10-01",
+   "date_confidence": "operations running by October 1849 per the NPS biography; day defaulted. The land purchase is dated 1848 in some accounts and 1849 in others.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396666.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.7,
+    "text": "Libra 7°42′",
+    "longitude": 187.696
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Water Carried on Wire",
+   "stop": "High Falls, the Rondout crossing",
+   "date": "1850-07-01",
+   "date_confidence": "completed in the latter half of 1850 per immigrantentrepreneurship.org; month set inside that half-year, day defaulted. The dossier tagged this as an unverified lead: it is attested twice, and the coordinates are corrected from a point nearly 10 km south to High Falls itself, 41°49'37\"N 74°7'20\"W.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396939.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.76,
+    "text": "Cancer 8°45′",
+    "longitude": 98.755
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Water Carried on Wire",
+   "stop": "Cuddebackville, the Neversink",
+   "date": "1850-10-01",
+   "date_confidence": "completed in the latter half of 1850 per immigrantentrepreneurship.org; the month orders it after High Falls and is not itself attested. Coordinates sit about 2 km southwest of Cuddebackville proper and are approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2397031.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.46,
+    "text": "Libra 7°27′",
+    "longitude": 187.458
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gorge at Niagara",
+   "stop": "Niagara Falls, two decks over the gorge",
+   "date": "1851-01-01",
+   "date_confidence": "1851 for the start of the work; month and day defaulted. The 1854 cholera outbreak in the workmen's camp is family and biographical tradition: the standard account of the bridge does not mention any outbreak, and it could not be confirmed in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397123.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.049
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gorge at Niagara",
+   "stop": "Niagara Falls, the report to the directors",
+   "date": "1852-01-01",
+   "date_confidence": "1852 publication; month and day defaulted. Text read directly in the archive.org OCR of the report, identifier reportjohnaroeb01compgoog.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397488.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.8,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.801
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gorge at Niagara",
+   "stop": "Kentucky River, the bridge that is not built",
+   "date": "1853-01-01",
+   "date_confidence": "reported, not confirmed against a primary source in this pass. The crossing site is uncertain and the coordinates are approximate, taken near a later Kentucky River crossing. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2397854.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "uncertain"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.573
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gorge at Niagara",
+   "stop": "Niagara Falls, the locomotive on the upper deck",
+   "date": "1855-03-18",
+   "date_confidence": "18 March 1855 for the official opening by a fully laden passenger train, per en.wikipedia.org/wiki/Niagara_Falls_Suspension_Bridge, which also dates the 23-ton test locomotive 'London' to 8 March; immigrantentrepreneurship.org instead says the first train crossed on 16 March. The two accounts are left standing side by side. The lower deck had opened in 1854.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398660.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 26.86,
+    "text": "Pisces 26°52′",
+    "longitude": 356.864
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 24.12,
+    "text": "Pisces 24°07′",
+    "longitude": 354.122
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 7.21,
+    "text": "Pisces 7°12′",
+    "longitude": 337.207
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 19.42,
+    "text": "Aries 19°25′",
+    "longitude": 19.421
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 1.95,
+    "text": "Aries 1°57′",
+    "longitude": 1.954
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 20.49,
+    "text": "Aquarius 20°29′",
+    "longitude": 320.49
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 10.25,
+    "text": "Gemini 10°15′",
+    "longitude": 70.246
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Gorge at Niagara",
+   "stop": "Niagara Falls, inspecting his own bridge",
+   "date": "1860-08-01",
+   "date_confidence": "the report is dated 1 August 1860; text read directly in the archive.org OCR, identifier reportonconditio00roeb.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400623.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.9,
+    "text": "Leo 8°54′",
+    "longitude": 128.901
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 0.65,
+    "text": "Aquarius 0°39′",
+    "longitude": 300.645
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 24.03,
+    "text": "Leo 24°02′",
+    "longitude": 144.031
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 19.73,
+    "text": "Cancer 19°44′",
+    "longitude": 109.726
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 21.26,
+    "text": "Capricornus 21°16′",
+    "longitude": 291.26
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 7.04,
+    "text": "Leo 7°02′",
+    "longitude": 127.04
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 26.92,
+    "text": "Leo 26°55′",
+    "longitude": 146.919
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Ohio, the Allegheny, the Household",
+   "stop": "Cincinnati and Covington, the contract on the border",
+   "date": "1856-04-18",
+   "date_confidence": "contract signed 18 April 1856 per en.wikipedia.org/wiki/Roebling_Suspension_Bridge, which also carries the Panic of 1857 and Civil War delays.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399057.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 28.14,
+    "text": "Aries 28°08′",
+    "longitude": 28.141
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 2.03,
+    "text": "Libra 2°02′",
+    "longitude": 182.034
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 18.52,
+    "text": "Aries 18°31′",
+    "longitude": 18.519
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 3.33,
+    "text": "Aries 3°20′",
+    "longitude": 3.332
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 7.32,
+    "text": "Libra 7°19′",
+    "longitude": 187.32
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 25.59,
+    "text": "Pisces 25°35′",
+    "longitude": 355.59
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 25.79,
+    "text": "Gemini 25°47′",
+    "longitude": 85.789
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Ohio, the Allegheny, the Household",
+   "stop": "Pittsburgh, Sixth Street and a son in the office",
+   "date": "1858-04-01",
+   "date_confidence": "construction commenced spring 1858 and the bridge opened to traffic 2 May 1860, per immigrantentrepreneurship.org; the chronology's '1859 completion' is too early and 1857 starts appear in other accounts. Spans of 343 ft with 179 ft shore spans, dismantled 1892, per en.wikipedia.org/wiki/Roberto_Clemente_Bridge, whose coordinates are used here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399770.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.99,
+    "text": "Aries 10°59′",
+    "longitude": 10.991
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 9.72,
+    "text": "Scorpio 9°43′",
+    "longitude": 219.72
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 17.7,
+    "text": "Aries 17°42′",
+    "longitude": 17.699
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 18.86,
+    "text": "Aries 18°52′",
+    "longitude": 18.863
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 1.56,
+    "text": "Sagittarius 1°34′",
+    "longitude": 241.564
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 17.49,
+    "text": "Taurus 17°29′",
+    "longitude": 47.491
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 21.59,
+    "text": "Cancer 21°36′",
+    "longitude": 111.594
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Ohio, the Allegheny, the Household",
+   "stop": "New York, Bridging the East River",
+   "date": "1860-01-01",
+   "date_confidence": "reported. The letter's title and argument recur throughout the Brooklyn Bridge literature, but no digitized copy was reached in this pass and the Wikipedia article on the bridge does not surface it. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400410.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.86
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ohio, the Allegheny, the Household",
+   "stop": "Trenton, the death of Johanna",
+   "date": "1864-11-22",
+   "date_confidence": "22 November 1864 at Trenton per the Rutgers Roebling Family Collection finding aid, which states the place directly; the geography lens had treated Trenton as an assumption from the works' proximity, and that hedge can be dropped. The detail that he was away on business comes from immigrantentrepreneurship.org.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2402197.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 29.99,
+    "text": "Scorpio 30°00′",
+    "longitude": 239.994
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 7.55,
+    "text": "Virgo 7°33′",
+    "longitude": 157.553
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 6.61,
+    "text": "Sagittarius 6°36′",
+    "longitude": 246.608
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 2.29,
+    "text": "Capricornus 2°18′",
+    "longitude": 272.294
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 12.86,
+    "text": "Gemini 12°52′",
+    "longitude": 72.865
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 6.56,
+    "text": "Sagittarius 6°34′",
+    "longitude": 246.559
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 25.6,
+    "text": "Libra 25°36′",
+    "longitude": 205.595
+   }
+  },
+  {
+   "segment": "The Ohio, the Allegheny, the Household",
+   "stop": "Cincinnati and Covington, the longest span in the world",
+   "date": "1867-01-01",
+   "date_confidence": "opened to foot traffic 1 December 1866 and to general traffic 1 January 1867 per en.wikipedia.org/wiki/Roebling_Suspension_Bridge. The 1983 renaming rests on the dossier and on the bridge's public name; it was not independently confirmed in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2402967.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.166
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 15.47,
+    "text": "Scorpio 15°28′",
+    "longitude": 225.468
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 18.41,
+    "text": "Sagittarius 18°25′",
+    "longitude": 258.409
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 11.85,
+    "text": "Sagittarius 11°51′",
+    "longitude": 251.853
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 24.16,
+    "text": "Cancer 24°09′",
+    "longitude": 114.158
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 6.72,
+    "text": "Aquarius 6°43′",
+    "longitude": 306.722
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 20.96,
+    "text": "Scorpio 20°58′",
+    "longitude": 230.96
+   }
+  },
+  {
+   "segment": "The Ohio, the Allegheny, the Household",
+   "stop": "Trenton, the second marriage and the manuscript pile",
+   "date": "1867-02-01",
+   "date_confidence": "February 1867, to Lucia W. Cooper of Trenton, per immigrantentrepreneurship.org; day defaulted, and the earlier hedge that the location was unconfirmed can be dropped. The length of the philosophical manuscripts is reported variously as roughly one thousand and roughly two thousand pages; the discrepancy is unresolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2402998.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.72,
+    "text": "Aquarius 11°43′",
+    "longitude": 311.719
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The East River",
+   "stop": "Brooklyn, the New York Bridge Company",
+   "date": "1867-04-16",
+   "date_confidence": "the incorporating act was approved 16 April 1867. The month of his appointment as chief engineer is contradicted between sources: NPS material implies May 1867, en.wikipedia.org/wiki/Brooklyn_Bridge says September 1867. The contradiction is flagged, not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403072.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 25.54,
+    "text": "Aries 25°32′",
+    "longitude": 25.54
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The East River",
+   "stop": "Fulton Ferry, the foot in the pilings",
+   "date": "1869-06-28",
+   "date_confidence": "28 June 1869 attested; the toes were amputated afterward. Accounts differ slightly on the mechanism, between an arriving boat and the movement of the pilings themselves.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403876.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 6.29,
+    "text": "Cancer 6°17′",
+    "longitude": 96.285
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 22.08,
+    "text": "Aquarius 22°05′",
+    "longitude": 322.079
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 1.58,
+    "text": "Cancer 1°35′",
+    "longitude": 91.584
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 19.72,
+    "text": "Cancer 19°43′",
+    "longitude": 109.72
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 18.03,
+    "text": "Virgo 18°02′",
+    "longitude": 168.025
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 13.38,
+    "text": "Taurus 13°23′",
+    "longitude": 43.383
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 12.0,
+    "text": "Sagittarius 12°00′",
+    "longitude": 252.003
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The East River",
+   "stop": "Brooklyn Heights, the water cure",
+   "date": "1869-07-05",
+   "date_confidence": "July 1869 for the hydropathic treatment and the refusal of conventional care, per en.wikipedia.org/wiki/John_A._Roebling; the day is set only to order the stop between the injury and the death. His spiritualism, his reading of Swedenborg and Andrew Jackson Davis and his interest in mesmerism come from the dossier's own religion section and are reported rather than independently verified. Street-address coordinates are estimated along Hicks Street.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403883.5,
+   "precision": "month",
+   "precision_triggers": [
+    "convention",
+    "estimated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.96,
+    "text": "Cancer 12°58′",
+    "longitude": 102.958
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The East River",
+   "stop": "Hicks Street, tetanus",
+   "date": "1869-07-22",
+   "date_confidence": "22 July 1869, of tetanus, at his son's house on Hicks Street in Brooklyn Heights, per en.wikipedia.org/wiki/John_A._Roebling; the twenty-four day interval from 28 June is correct. The house number 137, which circulates widely, is not in the cited source, and the source does not name Emily Warren Roebling as present.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403900.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 29.17,
+    "text": "Cancer 29°10′",
+    "longitude": 119.175
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 10.72,
+    "text": "Capricornus 10°43′",
+    "longitude": 280.718
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 9.85,
+    "text": "Cancer 9°51′",
+    "longitude": 99.853
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 19.11,
+    "text": "Leo 19°06′",
+    "longitude": 139.106
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 1.69,
+    "text": "Libra 1°41′",
+    "longitude": 181.687
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 17.37,
+    "text": "Taurus 17°22′",
+    "longitude": 47.367
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 10.78,
+    "text": "Sagittarius 10°47′",
+    "longitude": 250.777
+   }
+  },
+  {
+   "segment": "The East River",
+   "stop": "Trenton, Riverview Cemetery",
+   "date": "1869-07-25",
+   "date_confidence": "July 1869 attested for the burial at Riverview Cemetery, Trenton; the exact day is not established and is set here after the 22 July death to order the segment. Coordinates 40.195, -74.754 per en.wikipedia.org/wiki/Riverview_Cemetery_(Trenton,_New_Jersey); a figure 3.4 km north in the underlying afterlife notes is wrong.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403903.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established",
+    "ordering",
+    "editorial (the date)"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.04,
+    "text": "Leo 2°02′",
+    "longitude": 122.04
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Works Outlive the Man",
+   "stop": "New York, Long and Short Span Railway Bridges",
+   "date": "1869-12-01",
+   "date_confidence": "1869 publication year confirmed at Open Library across three editions; the D. Van Nostrand and New York imprint was not verified in this pass, and the Lehigh University Digital Bridges digitization returned HTTP 429 on refetch. Month set to place the stop after his death in July; whether it appeared before or after he died is not established.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2404032.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.89,
+    "text": "Sagittarius 8°54′",
+    "longitude": 248.894
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Works Outlive the Man",
+   "stop": "Brooklyn, the bridge finished by his son",
+   "date": "1883-05-24",
+   "date_confidence": "construction began January 1870, six months after his death; the bridge opened 24 May 1883. The German Wikipedia claim that the Divi Blasii windows shaped the tower arches is tradition and is stated as such.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2408954.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 2.46,
+    "text": "Gemini 2°28′",
+    "longitude": 62.461
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 23.77,
+    "text": "Sagittarius 23°46′",
+    "longitude": 263.772
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 20.94,
+    "text": "Gemini 20°57′",
+    "longitude": 80.944
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 1.04,
+    "text": "Taurus 1°02′",
+    "longitude": 31.036
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 25.34,
+    "text": "Aries 25°20′",
+    "longitude": 25.339
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 3.79,
+    "text": "Cancer 3°47′",
+    "longitude": 93.788
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 29.8,
+    "text": "Taurus 29°48′",
+    "longitude": 59.802
+   }
+  },
+  {
+   "segment": "The Works Outlive the Man",
+   "stop": "Trenton, the seated bronze in Cadwalader Park",
+   "date": "1908-06-30",
+   "date_confidence": "en.wikipedia.org/wiki/Cadwalader_Park confirms a seated bronze of Roebling erected in 1908 and does not name the sculptor. The 30 June date, the crowd of 15,000, the 6,500 marching employees, the governor, the Senate delegation and the Mühlhausen copper wreath all come from a todayinsci.com page that now returns HTTP 404 and are unsourced as of this pass. Coordinates corrected to 40.237, -74.79.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418122.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 7.79,
+    "text": "Cancer 7°47′",
+    "longitude": 97.789
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Works Outlive the Man",
+   "stop": "Trenton, the pages nobody has printed",
+   "date": "1958-01-01",
+   "date_confidence": "the 1958 division of the estate of John A. Roebling II between Rensselaer Polytechnic Institute and Rutgers is described in the two finding aids; month and day defaulted. The pin is the Trenton desk where the manuscripts were written, not either repository, and no coordinate is asserted for Troy or New Brunswick. The page count is reported as roughly one thousand or roughly two thousand and has never been settled.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436204.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.073
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 16,
+  "month": 9,
+  "year": 19
+ },
+ "parse_failures": []
+}

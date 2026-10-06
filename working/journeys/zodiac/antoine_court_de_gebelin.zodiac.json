@@ -1,0 +1,1712 @@
+{
+ "slug": "antoine_court_de_gebelin",
+ "traveler": "Antoine Court de Gébelin",
+ "title": "The Primitive World: from the Refuge of Lausanne to the Egypt Found in a Deck of Cards",
+ "years": "c. 1725-1784",
+ "years_parsed": {
+  "first": 1725,
+  "last": 1784
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Refuge of Lausanne",
+  "stop": "Geneva, the rival birth and the name Corteiz",
+  "date": "1724-02-01",
+  "date_confidence": "reconstruction, and directly incompatible with the Nîmes stop below. Kept as a competing tradition rather than resolved. The Musée protestant notice, whose own title reads '1724 ou 1728', places the birth at Geneva in February 1724 and reports the precautionary registration name. Day defaults to 01.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1724,
+  "jd_ut": 2350768.5,
+  "precision": "month",
+  "precision_triggers": [
+   "defaulted",
+   "traditional",
+   "disputed",
+   "reconstructed (the date)",
+   "(soft) reconstruct"
+  ],
+  "sun": {
+   "sign": "Aquarius",
+   "degree": 11.42,
+   "text": "Aquarius 11°25′",
+   "longitude": 311.423
+  },
+  "sun_range": [
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 1725-1784",
+  "first_year_parsed": 1725
+ },
+ "stops": [
+  {
+   "segment": "The Refuge of Lausanne",
+   "stop": "Geneva, the rival birth and the name Corteiz",
+   "date": "1724-02-01",
+   "date_confidence": "reconstruction, and directly incompatible with the Nîmes stop below. Kept as a competing tradition rather than resolved. The Musée protestant notice, whose own title reads '1724 ou 1728', places the birth at Geneva in February 1724 and reports the precautionary registration name. Day defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1724,
+   "jd_ut": 2350768.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.42,
+    "text": "Aquarius 11°25′",
+    "longitude": 311.423
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Refuge of Lausanne",
+   "stop": "Nîmes, the disputed birth",
+   "date": "1725-01-01",
+   "date_confidence": "reconstruction, and directly incompatible with the Geneva stop above. Lumières.Lausanne and the BnF authority record both place the birth at Nîmes around 1725, and the American Academy's membership page gives his dates as 1725-1784. Competing traditions give 1719 and 1728. No birth register has been produced by any source reached. Month and day default to 01-01 as unknown.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1725,
+   "jd_ut": 2351103.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "traditional",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Refuge of Lausanne",
+   "stop": "Lausanne, the family settles in exile",
+   "date": "1729-01-01",
+   "date_confidence": "attested to the year by Lumières.Lausanne, which states that the Court family left France and settled at Lausanne in 1729. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1729,
+   "jd_ut": 2352564.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.68,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.68
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Refuge of Lausanne",
+   "stop": "Académie de Lausanne, the encyclopedic formation",
+   "date": "1738-01-01",
+   "date_confidence": "attested as to substance by Lumières.Lausanne and the Musée protestant notice, which describe an education at the Academy given jointly by his father and the astronomer-mathematician Jean-Philippe Loys de Cheseaux. No start date is given in either; 1738 is an ordering placeholder inside the schooling years.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1738,
+   "jd_ut": 2355851.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.49,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.491
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Refuge of Lausanne",
+   "stop": "Lausanne, secretary to Loys de Bochat",
+   "date": "1743-01-01",
+   "date_confidence": "attested to about 1743 by the Musée protestant notice, corroborated by Lumières.Lausanne, for the secretaryship to Charles Guillaume Loys de Bochat and the later increasing service to his own father down to 1760. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1743,
+   "jd_ut": 2357677.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.273
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seminary of the Desert",
+   "stop": "Académie de Lausanne, the thesis on prophecy",
+   "date": "1754-06-04",
+   "date_confidence": "attested to the day by Lumières.Lausanne, 'soutient une thèse de théologie le 4 juin 1754', corroborated by the Musée protestant notice. The title is commonly cited as De prophetiis; no copy of the thesis itself was reached in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1754,
+   "jd_ut": 2361849.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.18,
+    "text": "Gemini 13°11′",
+    "longitude": 73.176
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 28.82,
+    "text": "Scorpio 28°49′",
+    "longitude": 238.815
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 27.3,
+    "text": "Taurus 27°18′",
+    "longitude": 57.295
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 0.11,
+    "text": "Cancer 0°06′",
+    "longitude": 90.106
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 1.85,
+    "text": "Leo 1°51′",
+    "longitude": 121.854
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.11,
+    "text": "Leo 13°06′",
+    "longitude": 133.106
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 16.03,
+    "text": "Capricornus 16°02′",
+    "longitude": 286.035
+   }
+  },
+  {
+   "segment": "The Seminary of the Desert",
+   "stop": "Lausanne, ordained a minister",
+   "date": "1754-09-01",
+   "date_confidence": "attested to the month by Lumières.Lausanne, 'Consacré pasteur en septembre 1754, C. devient lecteur au séminaire de Lausanne'. Day defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1754,
+   "jd_ut": 2361938.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.38,
+    "text": "Virgo 8°23′",
+    "longitude": 158.384
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seminary of the Desert",
+   "stop": "Séminaire français de Lausanne, philosophy, morals and logic",
+   "date": "1754-12-01",
+   "date_confidence": "attested as to the post by the Musée protestant notice, which gives philosophy, morality, logic and controversy at the French seminary; Lumières.Lausanne gives the teaching as ending in 1763 but leaves the start blank. The winter of 1754-55 is the Musée protestant's dating; 01 December is an ordering placeholder within it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1754,
+   "jd_ut": 2362029.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.8,
+    "text": "Sagittarius 8°48′",
+    "longitude": 248.801
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seminary of the Desert",
+   "stop": "Lausanne, the father's history of the Camisard wars",
+   "date": "1760-01-01",
+   "date_confidence": "attested to the year by the Musée protestant notice on Antoine Court the elder, which records the 1760 publication of the Histoire des troubles des Cévennes and the son's assistance in preparing it for print. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2363886.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.143
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Seminary of the Desert",
+   "stop": "Lausanne, the death of Antoine Court",
+   "date": "1760-06-01",
+   "date_confidence": "attested to the year 1760 at Lausanne by the Musée protestant notice and Lumières.Lausanne. No month is given in either source reached; June is an ordering placeholder and should not be quoted as a date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2364038.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.83,
+    "text": "Gemini 10°50′",
+    "longitude": 70.832
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Toulouse Answered from a Foreign Country",
+   "stop": "Lausanne, Les Toulousaines",
+   "date": "1763-01-01",
+   "date_confidence": "attested to the year by the Musée protestant notice and Lumières.Lausanne. The two Toulouse executions the book answers are attested to the day: Rochette hanged 19 February 1762 at the Place du Salin with the three Grenier brothers beheaded beside him, Calas broken on the wheel 10 March 1762 at the Place Saint-Georges. Court is not recorded at either. The stop is placed where he wrote, not where they died.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1763,
+   "jd_ut": 2364982.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (not recorded, placed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.42,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.42
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Toulouse Answered from a Foreign Country",
+   "stop": "Lausanne, the departure",
+   "date": "1763-03-23",
+   "date_confidence": "attested to the day by fr.wikipedia, 'Antoine Court de Gébelin', for the departure from Lausanne on 23 March 1763; Lumières.Lausanne independently ties the departure to 'l'échec des Toulousaines en 1763'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1763,
+   "jd_ut": 2365063.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 2.12,
+    "text": "Aries 2°07′",
+    "longitude": 2.117
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 6.12,
+    "text": "Cancer 6°07′",
+    "longitude": 96.115
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 6.29,
+    "text": "Pisces 6°17′",
+    "longitude": 336.289
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 15.64,
+    "text": "Aquarius 15°38′",
+    "longitude": 315.638
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 26.52,
+    "text": "Aries 26°31′",
+    "longitude": 26.52
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 11.58,
+    "text": "Taurus 11°35′",
+    "longitude": 41.583
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 24.37,
+    "text": "Aries 24°22′",
+    "longitude": 24.366
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Toulouse Answered from a Foreign Country",
+   "stop": "Nîmes, the Languedoc circuit",
+   "date": "1763-06-01",
+   "date_confidence": "reconstruction. The Musée protestant notice gives the 1763 transition to France in general terms; no source reached itemizes the stages of a southern tour. Nîmes stands for the whole Cévenol and Languedoc circuit and the coordinate should be read as a region marker, not an address. Month is an ordering placeholder.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1763,
+   "jd_ut": 2365133.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.14,
+    "text": "Gemini 10°08′",
+    "longitude": 70.138
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, Agent of a Church That Does Not Exist",
+   "stop": "Paris, arrival in October",
+   "date": "1763-10-01",
+   "date_confidence": "attested to the month by fr.wikipedia, 'Antoine Court de Gébelin', and the Musée protestant notice, both giving October 1763 for the establishment in Paris. The first lodging is not identified in any source reached, so the coordinate marks central Paris. Day defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1763,
+   "jd_ut": 2365255.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.52,
+    "text": "Libra 7°31′",
+    "longitude": 187.523
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, Agent of a Church That Does Not Exist",
+   "stop": "Paris, the grandmother's name",
+   "date": "1765-01-01",
+   "date_confidence": "attested to about 1765 by the BnF authority record cb118979670, 'Autour de 1765, il ajoute à son patronyme Court le nom de sa grand-mère, Marie Gébelin'. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1765,
+   "jd_ut": 2365713.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.94,
+    "text": "Capricornus 10°57′",
+    "longitude": 280.944
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, Agent of a Church That Does Not Exist",
+   "stop": "Paris, the bank that never opens",
+   "date": "1765-06-01",
+   "date_confidence": "reconstruction. The scheme rests on the general biographical tradition of his Paris agency work as relayed by the Musée protestant notice; no prospectus, subscriber list or document of the bank itself was reached in this pass. Month is an ordering placeholder within 1765-1766.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1765,
+   "jd_ut": 2365864.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.63,
+    "text": "Gemini 10°38′",
+    "longitude": 70.633
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Monde primitif",
+   "stop": "Rue Poupée, the first volume printed chez l'auteur",
+   "date": "1773-01-01",
+   "date_confidence": "attested to the year by Lumières.Lausanne and the BnF authority record, both giving the run as 1773-1782 in nine quarto volumes. The rue Poupée imprint address is from a BnF/CCFr catalogue record cited in the dossier and not independently opened; the street ran between the rue de la Harpe and the rue Hautefeuille and was demolished in the 1850s, so the coordinate is approximate to its former line.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1773,
+   "jd_ut": 2368635.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "to the year",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.0,
+    "text": "Capricornus 11°00′",
+    "longitude": 281.003
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Monde primitif",
+   "stop": "Rue Poupée, the natural history of speech",
+   "date": "1776-01-01",
+   "date_confidence": "attested to the year by the BnF authority record cb118979670, which lists the Histoire naturelle de la parole among his works at 1776 and records a posthumous reprint in 1816 without publisher detail. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1776,
+   "jd_ut": 2369730.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.261
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Monde primitif",
+   "stop": "Paris, the dictionary of Latin roots",
+   "date": "1780-01-01",
+   "date_confidence": "reconstruction to the year, from the works list in the BnF authority record cb118979670 for the Dictionnaire étymologique et raisonné des racines latines; the title page itself was not opened in this pass. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371191.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.29
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Monde primitif",
+   "stop": "Paris, appointed royal censor",
+   "date": "1781-01-01",
+   "date_confidence": "attested to the year by Lumières.Lausanne, 'nommé censeur royal en 1781 par le garde des Sceaux', and by the Musée protestant notice and fr.wikipedia. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371557.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.06,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Le Monde primitif",
+   "stop": "Rue Poupée, the ninth volume",
+   "date": "1782-01-01",
+   "date_confidence": "attested to the year by Lumières.Lausanne and the BnF authority record, both closing the published run at 1782. Older bibliographies count ten or eleven volumes depending on how bound sets divide the installments; modern catalogues normalize the run to nine. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1782,
+   "jd_ut": 2371922.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nine Sisters",
+   "stop": "Rue de la Bûcherie, received into Freemasonry",
+   "date": "1776-01-01",
+   "date_confidence": "reconstruction, and the date is contested three ways. BnF cb118979670 gives 'initié à la franc-maçonnerie peu après 1776'; en.wikipedia gives initiation at Les Amis Réunis in 1771; fr.wikipedia gives reception at Les Amis Réunis as associate member in 1778. The lodge address on the rue de la Bûcherie is the traditional one for the Neuf Soeurs and is itself uncertain. 1776 is taken as the ordering placeholder.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1776,
+   "jd_ut": 2369730.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placeholder",
+    "disputed",
+    "uncertain",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.261
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nine Sisters",
+   "stop": "Rue de la Bûcherie, Voltaire conducted to his initiation",
+   "date": "1778-04-04",
+   "date_confidence": "attested to the day by en.wikipedia, 'Neuf Soeurs', 'Initiated on April 4, 1778, in Paris; his conductors were Benjamin Franklin and Antoine Court de Gebelin', corroborated by Lumières.Lausanne for the 1778 sponsorship, and matching the canonical scene in benjamin_franklin.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1778,
+   "jd_ut": 2370554.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 14.32,
+    "text": "Aries 14°19′",
+    "longitude": 14.316
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 10.1,
+    "text": "Cancer 10°06′",
+    "longitude": 100.097
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 6.69,
+    "text": "Aries 6°42′",
+    "longitude": 6.692
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 17.05,
+    "text": "Aries 17°03′",
+    "longitude": 17.05
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 29.78,
+    "text": "Aries 29°47′",
+    "longitude": 29.782
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 16.96,
+    "text": "Leo 16°57′",
+    "longitude": 136.958
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 13.96,
+    "text": "Scorpio 13°58′",
+    "longitude": 223.96
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Nine Sisters",
+   "stop": "Rue Poupée, the letter to Franklin",
+   "date": "1778-06-29",
+   "date_confidence": "reconstruction, downgraded deliberately. The letter is catalogued as Founders Online, Franklin Papers 01-26-02-0633, dated 29 June 1778; that page returns an empty body on every attempt made in this pass, the API endpoint returns nothing, and franklinpapers.org serves only a frameset. Content and signature line are carried as reported, not read.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1778,
+   "jd_ut": 2370640.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 7.23,
+    "text": "Cancer 7°14′",
+    "longitude": 97.226
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 5.69,
+    "text": "Virgo 5°41′",
+    "longitude": 155.688
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 15.66,
+    "text": "Gemini 15°40′",
+    "longitude": 75.663
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 2.5,
+    "text": "Leo 2°30′",
+    "longitude": 122.502
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 0.26,
+    "text": "Cancer 0°15′",
+    "longitude": 90.258
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 24.67,
+    "text": "Leo 24°40′",
+    "longitude": 144.67
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 8.74,
+    "text": "Scorpio 8°44′",
+    "longitude": 218.738
+   }
+  },
+  {
+   "segment": "The Nine Sisters",
+   "stop": "Le Ranelagh de Passy, the invited evening",
+   "date": "1778-06-29",
+   "date_confidence": "reconstruction. The venue is firm: fr.wikipedia, 'Jardin du Ranelagh', records the petit Ranelagh opened 25 July 1774 in the gardens of the château de la Muette at Passy, and gives the present garden's coordinates, used here. The lodge event itself rests on the unopened Franklin letter, and no attendance is recorded anywhere reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1778,
+   "jd_ut": 2370640.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 7.23,
+    "text": "Cancer 7°14′",
+    "longitude": 97.226
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 5.69,
+    "text": "Virgo 5°41′",
+    "longitude": 155.688
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 15.66,
+    "text": "Gemini 15°40′",
+    "longitude": 75.663
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 2.5,
+    "text": "Leo 2°30′",
+    "longitude": 122.502
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 0.26,
+    "text": "Cancer 0°15′",
+    "longitude": 90.258
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 24.67,
+    "text": "Leo 24°40′",
+    "longitude": 144.67
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 8.74,
+    "text": "Scorpio 8°44′",
+    "longitude": 218.738
+   }
+  },
+  {
+   "segment": "The Nine Sisters",
+   "stop": "Paris, secretary of the lodge",
+   "date": "1779-01-01",
+   "date_confidence": "attested to 1779 by fr.wikipedia, which places him as secretary of Les Neuf Soeurs under Jérôme de Lalande's presidency; the BnF record and the Musée protestant notice give the secretaryship without a year. The 1776 date sometimes attached to the office is not supported by any source reached. Coordinate is the canonical central Paris pin used across this corpus for the lodge. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1779,
+   "jd_ut": 2370826.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nine Sisters",
+   "stop": "Paris, the Société Apollonienne",
+   "date": "1780-12-01",
+   "date_confidence": "reconstruction as to the constitution date, which is synthesized from Neuf Soeurs scholarship not independently opened in this pass; fr.wikipedia and the Oratoire du Louvre notice both attest his presidency of the learned society that became the Musée de Paris. The meeting address is not established in any source reached, so the coordinate is the canonical central Paris pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371526.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.5,
+    "text": "Sagittarius 9°30′",
+    "longitude": 249.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nine Sisters",
+   "stop": "Paris, elected across the Atlantic",
+   "date": "1781-01-01",
+   "date_confidence": "attested as to year and class: amacad.org gives 'Election: 1781' and 'International Honorary Member', and nothing more. The day 22 August, and the acknowledgement letter of 24 January 1782, appear on no page reached and are treated here as unsourced. The American Philosophical Society election of 1783 is corroborated by en.wikipedia; as.amphilsoc.org returned 403. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371557.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.06,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nine Sisters",
+   "stop": "Paris, commissioner of archives among the Philalèthes",
+   "date": "1781-02-01",
+   "date_confidence": "reconstruction. The February 1781 appointment as commissioner of archives in the Philalèthes system under Savalette de Langes, and the later removal for absence attributed to illness, come from specialist Masonic scholarship (shs.cairn.info) that could not be re-opened in this pass. Day defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371588.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.6,
+    "text": "Aquarius 12°36′",
+    "longitude": 312.605
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Du Jeu des Tarots",
+   "stop": "Paris, the game at Madame la C. d'H.'s",
+   "date": "1780-01-01",
+   "date_confidence": "reconstruction. The scene is known only from Court's own text, which dates it as 'il y a quelques années' relative to the 1781 printing; the address is unidentified and the coordinate is the canonical central Paris pin, a placeholder for an unlocated house. Secondary accounts render the episode only as 'a group of women playing cards' and carry neither the recently-arrived lady nor the quarter of an hour.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371191.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.29
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Du Jeu des Tarots",
+   "stop": "Rue Poupée, the Egyptian book declared",
+   "date": "1781-01-01",
+   "date_confidence": "attested to the year: the essay 'Du Jeu des Tarots' appears in volume VIII of Le Monde primitif, Paris, 1781, at pp. 365 following, read directly in the Internet Archive scan of the first edition. en.wikipedia cites the essay at pp. 365-380; the dossier's 365-410 and 365-394 are not corroborated. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371557.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.06,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Du Jeu des Tarots",
+   "stop": "Paris, the Star read as Isis",
+   "date": "1781-01-01",
+   "date_confidence": "attested; the passage stands at p. 374-375 of the 1781 first edition, under trump N. XVII, which Court retitles La Canicule. Same volume and year as the stop above; the repeated date orders the reading of the essay and is not a separate event.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371557.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.06,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Du Jeu des Tarots",
+   "stop": "Paris, the High Priestess against the Popess",
+   "date": "1781-01-01",
+   "date_confidence": "attested; the passage stands at p. 370 of the 1781 first edition under the heading 'Grand-Prêtre & Grande-Prêtresse'. Same volume and year; the repeated date orders the reading of the essay.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371557.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.06,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Du Jeu des Tarots",
+   "stop": "Paris, Tar and Ro",
+   "date": "1781-01-01",
+   "date_confidence": "attested; the etymology stands at p. 380 of the 1781 first edition under the running head 'Noms Orientaux conservés dans ce Jeu', sub-heading 'I. Tarots'. Same volume and year; the repeated date orders the reading of the essay.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371557.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.06,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Du Jeu des Tarots",
+   "stop": "Rue Poupée, the second dissertation",
+   "date": "1781-06-01",
+   "date_confidence": "attested that a second, anonymous dissertation signed 'M. le C. de M***' is printed immediately after Court's essay in the same 1781 volume, and that Court announces it there in his own words. The identification of the author with the comte de Mellet is traditional attribution, not a signature: the text names only a general officer and provincial governor. Month is an ordering placeholder within the volume.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371708.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.76,
+    "text": "Gemini 10°46′",
+    "longitude": 70.76
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Magnetiser's Patient",
+   "stop": "Paris, the letter to his subscribers on animal magnetism",
+   "date": "1783-01-01",
+   "date_confidence": "reconstruction as to publication detail. The 1783 Lettre de l'auteur du Monde primitif à Messieurs ses souscripteurs sur le magnétisme animal is reported by multiple secondary biographical sources; the Wood Library-Museum cataloguing page returned 403 and no copy of the pamphlet was opened in this pass. The illness is described in the biographical tradition as calculi. Coordinate is the canonical central Paris pin, also used in mesmer.journey.json for the Société de l'Harmonie universelle. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1783,
+   "jd_ut": 2372287.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.567
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Magnetiser's Patient",
+   "stop": "Paris, the emptying lecture room",
+   "date": "1784-03-31",
+   "date_confidence": "attested to the day. The letter of 31 March 1784 is transcribed at French Wikisource, Lettres de Madame Roland de 1780 à 1793, letter 107, and the passage was read there directly. It is distinct from, and much better evidenced than, the later sexual allegation attached to Roland's name in the biographical tradition, which could not be located in any page reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372742.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.92,
+    "text": "Aries 10°55′",
+    "longitude": 10.918
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 5.62,
+    "text": "Leo 5°37′",
+    "longitude": 125.617
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 22.14,
+    "text": "Pisces 22°08′",
+    "longitude": 352.135
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 7.15,
+    "text": "Pisces 7°09′",
+    "longitude": 337.15
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 12.43,
+    "text": "Gemini 12°26′",
+    "longitude": 72.429
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 27.52,
+    "text": "Aquarius 27°31′",
+    "longitude": 327.524
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 22.92,
+    "text": "Capricornus 22°55′",
+    "longitude": 292.922
+   }
+  },
+  {
+   "segment": "The Magnetiser's Patient",
+   "stop": "Paris, death in May",
+   "date": "1784-05-01",
+   "date_confidence": "attested to the month and city, contradictory as to the day and left so. Lumières.Lausanne gives 10.05.1784 at Paris, at Mesmer's residence; the BnF authority record gives the night of 12-13 May 1784; fr.wikipedia gives 12 May, which is also the date carried in jean_baptiste_pitois_paul_christian.journey.json. All agree only on May 1784 in Paris. The day is set to 01 as an unknown, not as a claim.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372773.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.19,
+    "text": "Taurus 11°12′",
+    "longitude": 41.192
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Magnetiser's Patient",
+   "stop": "Paris, the incompatible causes of death",
+   "date": "1784-05-02",
+   "date_confidence": "contradiction retained, not resolved. Lumières.Lausanne and the biographical tradition give calculi, consistent with his own 1783 pamphlet. fr.wikipedia reports an autopsy finding a carcinoma of the upper lip complicated by proteinuria. A venereal rumour is attached to Madame Roland's name in the biographical tradition and was not located in any page reached. No post-mortem report was produced by any source. The day is an ordering placeholder immediately after the death stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372774.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placeholder",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 12.16,
+    "text": "Taurus 12°10′",
+    "longitude": 42.16
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Magnetiser's Patient",
+   "stop": "Franconville, the tomb of the comte d'Albon",
+   "date": "1784-07-10",
+   "date_confidence": "attested to the day by Lumières.Lausanne, 'Inhumé provisoirement à Paris, son corps est transféré le 10 juillet 1784 à Franconville dans le tombeau érigé par le comte d'Albon'. The coordinate is the Franconville town centre from fr.wikipedia; the exact site within the commune is not established, and the present state of the tomb could not be established either.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372843.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not established) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 18.24,
+    "text": "Cancer 18°14′",
+    "longitude": 108.237
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 22.89,
+    "text": "Aries 22°53′",
+    "longitude": 22.89
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 27.73,
+    "text": "Gemini 27°44′",
+    "longitude": 87.73
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 10.02,
+    "text": "Cancer 10°01′",
+    "longitude": 100.02
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.75,
+    "text": "Leo 14°45′",
+    "longitude": 134.749
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 7.52,
+    "text": "Pisces 7°31′",
+    "longitude": 337.52
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 20.62,
+    "text": "Capricornus 20°37′",
+    "longitude": 290.623
+   }
+  },
+  {
+   "segment": "The Magnetiser's Patient",
+   "stop": "Paris, the posthumous sequel to the Rights of Man",
+   "date": "1789-01-01",
+   "date_confidence": "attested to the year by the Musée protestant notice, which lists 'Devoirs du prince et du citoyen (posthume, 1789)' among his works. Whether the text is his, and in what state he left it, is not established by anything reached. Month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1789,
+   "jd_ut": 2374479.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.12,
+    "text": "Capricornus 11°07′",
+    "longitude": 281.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 41,
+  "dated": 41,
+  "unparsed": 0,
+  "day": 7,
+  "month": 5,
+  "year": 29
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1750 @@
+{
+ "slug": "leonardo_da_vinci",
+ "traveler": "Leonardo di ser Piero da Vinci",
+ "title": "The Notary's Bastard: Vinci to Amboise, and the Papers Melzi Carried Home",
+ "years": "1452-1519",
+ "years_parsed": {
+  "first": 1452,
+  "last": 1519
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Vinci, the Notary's Son",
+  "stop": "Anchiano, the birth entered in the family book",
+  "date": "1452-04-15",
+  "date_confidence": "attested to the day by Antonio da Vinci's own memorandum; the birthplace is not, and English Wikipedia states plainly that it remains uncertain where Leonardo was born, the Anchiano farmhouse being established only with relative certainty",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1452,
+  "jd_ut": 2251505.5,
+  "precision": "year",
+  "precision_triggers": [
+   "uncertain"
+  ],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 3.76,
+   "text": "Taurus 3°46′",
+   "longitude": 33.76
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1452-1519",
+  "first_year_parsed": 1452
+ },
+ "stops": [
+  {
+   "segment": "Vinci, the Notary's Son",
+   "stop": "Anchiano, the birth entered in the family book",
+   "date": "1452-04-15",
+   "date_confidence": "attested to the day by Antonio da Vinci's own memorandum; the birthplace is not, and English Wikipedia states plainly that it remains uncertain where Leonardo was born, the Anchiano farmhouse being established only with relative certainty",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1452,
+   "jd_ut": 2251505.5,
+   "precision": "year",
+   "precision_triggers": [
+    "uncertain"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.76,
+    "text": "Taurus 3°46′",
+    "longitude": 33.76
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vinci, the Notary's Son",
+   "stop": "Vinci, Santa Croce: baptism with ten godparents",
+   "date": "1452-04-16",
+   "date_confidence": "attested; the baptism the day after the birth, by the parish priest Piero di Bartolomeo Cecci, is fixed by the same memorandum",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1452,
+   "jd_ut": 2251506.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 4.73,
+    "text": "Taurus 4°44′",
+    "longitude": 34.729
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 16.94,
+    "text": "Pisces 16°56′",
+    "longitude": 346.941
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 9.87,
+    "text": "Aries 9°52′",
+    "longitude": 9.869
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 25.79,
+    "text": "Taurus 25°47′",
+    "longitude": 55.789
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 16.53,
+    "text": "Aquarius 16°32′",
+    "longitude": 316.527
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 1.64,
+    "text": "Pisces 1°38′",
+    "longitude": 331.637
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 13.76,
+    "text": "Libra 13°45′",
+    "longitude": 193.756
+   }
+  },
+  {
+   "segment": "Vinci, the Notary's Son",
+   "stop": "Vinci, the catasto return of the grandfather's house",
+   "date": "1457-01-01",
+   "date_confidence": "attested to the year by the Florentine catasto of 1457; the month and day are a default",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1457,
+   "jd_ut": 2253227.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.89,
+    "text": "Capricornus 19°54′",
+    "longitude": 289.894
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vinci, the Notary's Son",
+   "stop": "Florence, the family comes down from the hills",
+   "date": "1464-01-01",
+   "date_confidence": "inferred; Wikipedia gives only that the family moved in the mid-1460s, and the specific year 1464 is a conjecture tied to the death of the grandfather Antonio",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1464,
+   "jd_ut": 2255783.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.18,
+    "text": "Capricornus 19°11′",
+    "longitude": 289.182
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bottega",
+   "stop": "Florence, Verrocchio's shop: the studio boy and the guild",
+   "date": "1466-01-01",
+   "date_confidence": "traditional for the entry at about age fourteen, following Vasari; the 1472 guild matriculation is attested. The pin is approximate: the exact address of Verrocchio's bottega is not securely documented",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1466,
+   "jd_ut": 2256514.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.71,
+    "text": "Capricornus 19°42′",
+    "longitude": 289.706
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bottega",
+   "stop": "Vinci, the Arno valley drawn and dated",
+   "date": "1473-08-05",
+   "date_confidence": "attested to the day: Leonardo inscribed the sheet himself. The vantage point is not fixed by the inscription and the pin follows the traditional identification of the view with the valley below Vinci",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1473,
+   "jd_ut": 2259287.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not fixed, traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 20.95,
+    "text": "Leo 20°57′",
+    "longitude": 140.948
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 6.78,
+    "text": "Capricornus 6°47′",
+    "longitude": 276.776
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 4.69,
+    "text": "Leo 4°42′",
+    "longitude": 124.693
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 10.28,
+    "text": "Virgo 10°17′",
+    "longitude": 160.278
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 23.92,
+    "text": "Gemini 23°55′",
+    "longitude": 83.92
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 26.13,
+    "text": "Scorpio 26°08′",
+    "longitude": 236.126
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 5.83,
+    "text": "Cancer 5°50′",
+    "longitude": 95.832
+   }
+  },
+  {
+   "segment": "The Bottega",
+   "stop": "Florence, the angel in the Baptism of Christ",
+   "date": "1475-01-01",
+   "date_confidence": "the panel is dated c. 1475 on style; the Vasari anecdote attached to it is legendary and is flagged as such here, the geography and chronology lenses of the research pool disagreeing over whether to tag it attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1475,
+   "jd_ut": 2259801.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "legend",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.52,
+    "text": "Capricornus 19°31′",
+    "longitude": 289.517
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bottega",
+   "stop": "Florence, Palazzo del Podestà: the note in the drum",
+   "date": "1476-04-01",
+   "date_confidence": "attested to April 1476 by the judicial record; the day of the first denunciation is not carried in the reachable sources and is defaulted",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1476,
+   "jd_ut": 2260257.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 20.32,
+    "text": "Aries 20°19′",
+    "longitude": 20.325
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bottega",
+   "stop": "Florence, San Donato a Scopeto: the Adoration left in wash",
+   "date": "1481-01-01",
+   "date_confidence": "attested to 1481 by the commission, though the contract survives only through later scholars' citations of an archive now lost, which is why the research pool tags this stop as reconstruction",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1481,
+   "jd_ut": 2261993.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.07,
+    "text": "Capricornus 20°04′",
+    "longitude": 290.07
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Letter to Il Moro",
+   "stop": "Milan, the Corte Vecchia: an engineer offers himself",
+   "date": "1482-01-01",
+   "date_confidence": "attested to about 1482 by consensus; the draft letter in the Codex Atlanticus is undated, and the month of arrival is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1482,
+   "jd_ut": 2262358.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.82,
+    "text": "Capricornus 19°49′",
+    "longitude": 289.823
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Letter to Il Moro",
+   "stop": "Milan, San Francesco Grande: the Virgin of the Rocks and the quarrel",
+   "date": "1483-04-25",
+   "date_confidence": "attested to 25 April 1483 by the confraternity contract. The pin approximates the site of San Francesco Grande, demolished in 1806 and built over",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1483,
+   "jd_ut": 2262837.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 12.95,
+    "text": "Taurus 12°57′",
+    "longitude": 42.949
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Letter to Il Moro",
+   "stop": "Milan, the mirror hand and the first cadavers",
+   "date": "1489-01-01",
+   "date_confidence": "attested to about 1489 for the start of systematic anatomical work, on the dating of the Windsor sheets; no single day begins it",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1489,
+   "jd_ut": 2264915.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.13,
+    "text": "Capricornus 20°08′",
+    "longitude": 290.129
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Letter to Il Moro",
+   "stop": "Pavia, the cathedral tower and the antique rider",
+   "date": "1490-06-01",
+   "date_confidence": "attested to 1490 by the cathedral fabric payment records, which name both Leonardo and Francesco di Giorgio Martini; the month is not fixed",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1490,
+   "jd_ut": 2265431.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 18.72,
+    "text": "Gemini 18°43′",
+    "longitude": 78.72
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Horse and the Wall",
+   "stop": "Milan, Piazza del Castello: the clay colossus",
+   "date": "1493-11-01",
+   "date_confidence": "attested to the wedding festivities of Bianca Maria Sforza, November 1493, by Milanese chronicles; the day is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1493,
+   "jd_ut": 2266680.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 17.88,
+    "text": "Scorpio 17°53′",
+    "longitude": 227.879
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Horse and the Wall",
+   "stop": "Vigevano, the model town and the water",
+   "date": "1494-01-01",
+   "date_confidence": "range: the hydraulic folios and the Vigevano work are placed c. 1494-1499 and cannot be fixed to a year",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1494,
+   "jd_ut": 2266741.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "placed (the date)",
+    "(soft-year) year range",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.91,
+    "text": "Capricornus 19°55′",
+    "longitude": 289.911
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Horse and the Wall",
+   "stop": "Milan, Santa Maria delle Grazie: the wall that would not hold",
+   "date": "1495-01-01",
+   "date_confidence": "attested to 1495-1498 by documentary and stylistic dating; neither the start nor the completion is fixed to a day",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1495,
+   "jd_ut": 2267106.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.66,
+    "text": "Capricornus 19°40′",
+    "longitude": 289.664
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Horse and the Wall",
+   "stop": "Milan, Sala delle Asse: the painted bower",
+   "date": "1498-01-01",
+   "date_confidence": "attested to 1498 by the castle documentation; the months of work are not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1498,
+   "jd_ut": 2268202.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.94,
+    "text": "Capricornus 19°56′",
+    "longitude": 289.94
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Horse and the Wall",
+   "stop": "Milan, the French come in",
+   "date": "1499-12-01",
+   "date_confidence": "attested to 1499 for the fall of Ludovico and Leonardo's departure; the month of his leaving is inferred from his deposit of funds in Florence",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1499,
+   "jd_ut": 2268901.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 17.85,
+    "text": "Sagittarius 17°51′",
+    "longitude": 257.848
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Roads Out of Milan",
+   "stop": "Mantua, the Palazzo Ducale: a profile in chalk",
+   "date": "1500-02-01",
+   "date_confidence": "attested to February 1500 by Isabella d'Este's correspondence; the day is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1500,
+   "jd_ut": 2268963.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 20.9,
+    "text": "Aquarius 20°54′",
+    "longitude": 320.897
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Roads Out of Milan",
+   "stop": "Venice, the Palazzo Ducale: a plan to drown an army",
+   "date": "1500-03-01",
+   "date_confidence": "attested to March 1500 by the Venetian deliberations and Leonardo's own sketches; the day is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1500,
+   "jd_ut": 2268992.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 19.96,
+    "text": "Pisces 19°57′",
+    "longitude": 349.957
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Roads Out of Milan",
+   "stop": "Florence, Santissima Annunziata: two days of crowds",
+   "date": "1501-04-01",
+   "date_confidence": "attested to 1501 by Fra Pietro da Novellara's letter of April that year to Isabella d'Este; the exhibition days are given by Vasari without a date",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1501,
+   "jd_ut": 2269388.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 20.27,
+    "text": "Aries 20°16′",
+    "longitude": 20.273
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Roads Out of Milan",
+   "stop": "Urbino, the citadel of a duke driven out",
+   "date": "1502-07-30",
+   "date_confidence": "attested to 30 July 1502 by the dated Urbino notes in Codex L; the research pool's first pass wrongly gave June, the month of Borgia's seizure of the city",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1502,
+   "jd_ut": 2269873.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 15.16,
+    "text": "Leo 15°10′",
+    "longitude": 135.164
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 28.42,
+    "text": "Gemini 28°25′",
+    "longitude": 88.416
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 3.97,
+    "text": "Virgo 3°58′",
+    "longitude": 153.974
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 29.82,
+    "text": "Gemini 29°49′",
+    "longitude": 89.823
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.41,
+    "text": "Virgo 13°25′",
+    "longitude": 163.412
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 6.82,
+    "text": "Gemini 6°49′",
+    "longitude": 66.818
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 29.59,
+    "text": "Gemini 29°35′",
+    "longitude": 89.586
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Roads Out of Milan",
+   "stop": "Cesena, the passport of the engineer general",
+   "date": "1502-08-18",
+   "date_confidence": "attested to 18 August 1502, the date of Borgia's passport; Leonardo's Cesena notebook entries are dated 6 August 1502",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1502,
+   "jd_ut": 2269892.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 3.5,
+    "text": "Virgo 3°30′",
+    "longitude": 153.495
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 0.33,
+    "text": "Pisces 0°20′",
+    "longitude": 330.332
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 0.2,
+    "text": "Libra 0°12′",
+    "longitude": 180.195
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 17.91,
+    "text": "Cancer 17°54′",
+    "longitude": 107.907
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 25.58,
+    "text": "Virgo 25°35′",
+    "longitude": 175.58
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 9.21,
+    "text": "Gemini 9°13′",
+    "longitude": 69.21
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.37,
+    "text": "Cancer 1°22′",
+    "longitude": 91.374
+   }
+  },
+  {
+   "segment": "Roads Out of Milan",
+   "stop": "Imola, the town seen from directly above",
+   "date": "1502-11-01",
+   "date_confidence": "attested to Leonardo's winter in Borgia's headquarters at Imola, 1502; the month of the survey is inferred from his movements",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1502,
+   "jd_ut": 2269967.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 17.69,
+    "text": "Scorpio 17°42′",
+    "longitude": 227.693
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Florence, the Second Time",
+   "stop": "Florence, back on the guild roll: a silk merchant's wife sits",
+   "date": "1503-10-18",
+   "date_confidence": "the guild re-registration is attested to 18 October 1503; the start of the Giocondo portrait is placed around this date on Vasari's testimony alone, there being no contract",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1503,
+   "jd_ut": 2270318.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 3.37,
+    "text": "Scorpio 3°22′",
+    "longitude": 213.369
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Florence, the Second Time",
+   "stop": "Florence, the Salone dei Cinquecento: the Battle of Anghiari",
+   "date": "1503-10-01",
+   "date_confidence": "attested to October 1503 for the commission, with work continuing into 1506; the research pool's chronology lens gave 1504 and its geography lens 1503-1506, and the earlier date is the correct one",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1503,
+   "jd_ut": 2270301.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.41,
+    "text": "Libra 16°24′",
+    "longitude": 196.408
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Florence, the Second Time",
+   "stop": "Florence, Piazza della Signoria: where the giant should stand",
+   "date": "1504-01-25",
+   "date_confidence": "attested to January 1504 by the committee minutes published by Gaetano Milanesi; the sitting of the twenty-fifth is the one usually cited",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1504,
+   "jd_ut": 2270417.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 13.85,
+    "text": "Aquarius 13°51′",
+    "longitude": 313.852
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Florence, the Second Time",
+   "stop": "Florence, Palazzo del Podestà: the death of Ser Piero",
+   "date": "1504-07-09",
+   "date_confidence": "attested to the hour by Leonardo's own dated note, Richter item 1372",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1504,
+   "jd_ut": 2270583.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 25.54,
+    "text": "Cancer 25°33′",
+    "longitude": 115.545
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 15.44,
+    "text": "Gemini 15°27′",
+    "longitude": 75.443
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 21.66,
+    "text": "Leo 21°40′",
+    "longitude": 141.661
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 29.14,
+    "text": "Gemini 29°08′",
+    "longitude": 89.14
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.3,
+    "text": "Virgo 13°18′",
+    "longitude": 163.298
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 26.09,
+    "text": "Cancer 26°05′",
+    "longitude": 116.089
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 21.92,
+    "text": "Cancer 21°55′",
+    "longitude": 111.925
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Florence, the Second Time",
+   "stop": "Fiesole, Monte Ceceri: the great bird",
+   "date": "1505-01-01",
+   "date_confidence": "the Codex on the Flight of Birds is dated c. 1505 and its lines about the great bird are authentic; the manned test flight from this hill is a modern legend traced to Merezhkovsky's 1900 novel, which sets the crash in Milan, and has no contemporary documentation at all",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1505,
+   "jd_ut": 2270759.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "legend",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.25,
+    "text": "Capricornus 20°15′",
+    "longitude": 290.246
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Florence, the Second Time",
+   "stop": "Florence, Santa Maria Nuova: the cause of so sweet a death",
+   "date": "1507-01-01",
+   "date_confidence": "attested to 1507-1508 by the Windsor anatomical sheets; Leonardo gives no day for the old man's death",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1507,
+   "jd_ut": 2271489.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.75,
+    "text": "Capricornus 19°45′",
+    "longitude": 289.752
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The French Governor and the Pope's Garden",
+   "stop": "Milan, painter and engineer in ordinary to the king",
+   "date": "1506-01-01",
+   "date_confidence": "reconstruction: the title is attested in French royal correspondence of 1507 and the recall by Charles d'Amboise is documented, but the residence runs loosely from 1506 to 1513 and cannot be fixed to a date",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1506,
+   "jd_ut": 2271124.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.0,
+    "text": "Capricornus 20°00′",
+    "longitude": 289.999
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The French Governor and the Pope's Garden",
+   "stop": "Vaprio d'Adda, the Melzi villa above the river",
+   "date": "1507-01-01",
+   "date_confidence": "range, c. 1507-1513, with no year fixed. The coordinates are corrected: the research pool's two lenses gave 45.6167, 9.4667 and 45.6167, 9.5167 for this one village, and both were wrong",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1507,
+   "jd_ut": 2271489.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.75,
+    "text": "Capricornus 19°45′",
+    "longitude": 289.752
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The French Governor and the Pope's Garden",
+   "stop": "Milan, the second horse",
+   "date": "1512-01-01",
+   "date_confidence": "attested to 1512 by Wikipedia following the Trivulzio correspondence; the research pool's first pass gave 1511, off by a year",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1512,
+   "jd_ut": 2273315.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.53,
+    "text": "Capricornus 19°32′",
+    "longitude": 289.534
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The French Governor and the Pope's Garden",
+   "stop": "Rome, the Belvedere: rooms, a stipend, and no pictures",
+   "date": "1513-12-01",
+   "date_confidence": "attested to late 1513 for the arrival, with the Roman residence running to 1516; the day is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1513,
+   "jd_ut": 2274015.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.46,
+    "text": "Sagittarius 18°28′",
+    "longitude": 258.46
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The French Governor and the Pope's Garden",
+   "stop": "Bologna, the Palazzo Comunale: a king, a pope, and a lion nobody can place",
+   "date": "1515-12-11",
+   "date_confidence": "the December 1515 meeting of Francis I and Leo X at Bologna is attested and Leonardo was probably in the papal train; the mechanical lion is not securely placed anywhere, the pool's own lenses giving Bologna 1515 and France 1517 while the mainstream attribution is Lyon, July 1515, with Argentan 1517 as a rival hypothesis",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1515,
+   "jd_ut": 2274755.5,
+   "precision": "month",
+   "precision_triggers": [
+    "probably",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 28.16,
+    "text": "Sagittarius 28°09′",
+    "longitude": 268.155
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Clos Lucé",
+   "stop": "Amboise, Clos Lucé: over the Alps with three panels",
+   "date": "1516-01-01",
+   "date_confidence": "attested to 1516 by French court records and by the royal letter of 21 March 1516 arranging the move; the month of arrival is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1516,
+   "jd_ut": 2274776.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.56,
+    "text": "Capricornus 19°34′",
+    "longitude": 289.563
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Clos Lucé",
+   "stop": "Amboise, the château: five hundred metres and a passage",
+   "date": "1516-06-01",
+   "date_confidence": "the friendship and the king's frequent visits are attested by de Beatis and by Vasari; the month here is a placeholder. The pin is the corpus canonical value for the Chateau d'Amboise, about 700 m from the more accurate 47.41368, 0.98603, and is kept for continuity",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1516,
+   "jd_ut": 2274928.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 19.4,
+    "text": "Gemini 19°24′",
+    "longitude": 79.404
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Clos Lucé",
+   "stop": "Amboise, Clos Lucé: the cardinal's secretary counts the paintings",
+   "date": "1517-10-10",
+   "date_confidence": "attested to October 1517 by Antonio de Beatis's travel diary; the day within the month is given variously",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1517,
+   "jd_ut": 2275424.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 25.97,
+    "text": "Libra 25°58′",
+    "longitude": 205.972
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Clos Lucé",
+   "stop": "Amboise, Clos Lucé: the will",
+   "date": "1519-04-23",
+   "date_confidence": "attested to 23 April 1519, the notarised date",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2275984.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.3,
+    "text": "Taurus 11°18′",
+    "longitude": 41.299
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 22.33,
+    "text": "Aquarius 22°20′",
+    "longitude": 322.325
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 23.33,
+    "text": "Aries 23°20′",
+    "longitude": 23.329
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 20.63,
+    "text": "Taurus 20°38′",
+    "longitude": 50.63
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 23.61,
+    "text": "Cancer 23°37′",
+    "longitude": 113.608
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.94,
+    "text": "Libra 13°56′",
+    "longitude": 193.939
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 22.16,
+    "text": "Capricornus 22°09′",
+    "longitude": 292.156
+   }
+  },
+  {
+   "segment": "Clos Lucé",
+   "stop": "Amboise, Clos Lucé: the death, and where the king was",
+   "date": "1519-05-02",
+   "date_confidence": "attested to 2 May 1519 by French records. The deathbed scene is not: Vasari wrote thirty years later, never went to France, and interviewed no witness, and a royal ordinance signed by Francis I at Saint-Germain-en-Laye on 3 May 1519 is the standard documentary objection",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2275993.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.98,
+    "text": "Taurus 19°59′",
+    "longitude": 49.978
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 27.01,
+    "text": "Gemini 27°01′",
+    "longitude": 87.012
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 10.55,
+    "text": "Taurus 10°33′",
+    "longitude": 40.546
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 1.69,
+    "text": "Gemini 1°42′",
+    "longitude": 61.692
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 28.41,
+    "text": "Cancer 28°25′",
+    "longitude": 118.412
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.11,
+    "text": "Libra 13°06′",
+    "longitude": 193.108
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 22.09,
+    "text": "Capricornus 22°05′",
+    "longitude": 292.086
+   }
+  },
+  {
+   "segment": "Clos Lucé",
+   "stop": "Amboise, Saint-Florentin: the grave inside the walls",
+   "date": "1519-08-12",
+   "date_confidence": "the burial in Saint-Florentin per the will is attested; the funeral day is not fixed by any document read for this file, and 12 August 1519 is carried from the standard biographies",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276095.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 27.58,
+    "text": "Leo 27°35′",
+    "longitude": 147.582
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What Melzi Carried",
+   "stop": "Vaprio d'Adda, the papers come home",
+   "date": "1519-12-01",
+   "date_confidence": "attested that Melzi inherited and repatriated the manuscripts in 1519; the month of his return over the Alps is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276206.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.0,
+    "text": "Sagittarius 18°00′",
+    "longitude": 257.995
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What Melzi Carried",
+   "stop": "Milan, the Ambrosiana: the Codex Atlanticus comes to rest",
+   "date": "1637-01-01",
+   "date_confidence": "attested to 1637 for the donation to the Ambrosiana; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1637,
+   "jd_ut": 2318962.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.02,
+    "text": "Capricornus 11°01′",
+    "longitude": 281.024
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What Melzi Carried",
+   "stop": "Amboise, Chapelle Saint-Hubert: bones under a slab that names him",
+   "date": "1874-01-01",
+   "date_confidence": "the reinterment is attested to 1874; the excavation that produced the bones is dated 1863 by two lenses of the research pool while the chateau's own article implies about 1849, and the discrepancy is left open. No forensic test has ever confirmed the identification",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1874,
+   "jd_ut": 2405524.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.473
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 7,
+  "month": 8,
+  "year": 29
+ },
+ "parse_failures": []
+}

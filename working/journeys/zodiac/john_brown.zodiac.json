@@ -1,0 +1,2114 @@
+{
+ "slug": "john_brown",
+ "traveler": "John Brown",
+ "title": "The Tannery to the Engine House: Osawatomie Brown and the Blood of the Guilty Land",
+ "years": "1800-1859",
+ "years_parsed": {
+  "first": 1800,
+  "last": 1859
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Tanner's Son in the Western Reserve",
+  "stop": "Torrington, birth on the road that will take his name",
+  "date": "1800-05-09",
+  "date_confidence": "attested. The date is fixed by Brown's own 1857 autobiographical letter to Henry L. Stearns and by the Torrington Historical Society record of the site.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1800,
+  "jd_ut": 2378624.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 18.09,
+   "text": "Taurus 18°05′",
+   "longitude": 48.087
+  },
+  "moon": {
+   "sign": "Scorpio",
+   "degree": 17.63,
+   "text": "Scorpio 17°38′",
+   "longitude": 227.63
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 23.92,
+   "text": "Aries 23°55′",
+   "longitude": 23.923
+  },
+  "venus": {
+   "sign": "Aries",
+   "degree": 24.45,
+   "text": "Aries 24°27′",
+   "longitude": 24.45
+  },
+  "mars": {
+   "sign": "Pisces",
+   "degree": 6.48,
+   "text": "Pisces 6°29′",
+   "longitude": 336.48
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 0.76,
+   "text": "Cancer 0°46′",
+   "longitude": 90.763
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 4.46,
+   "text": "Leo 4°28′",
+   "longitude": 124.465
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1800-1859",
+  "first_year_parsed": 1800
+ },
+ "stops": [
+  {
+   "segment": "Tanner's Son in the Western Reserve",
+   "stop": "Torrington, birth on the road that will take his name",
+   "date": "1800-05-09",
+   "date_confidence": "attested. The date is fixed by Brown's own 1857 autobiographical letter to Henry L. Stearns and by the Torrington Historical Society record of the site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1800,
+   "jd_ut": 2378624.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 18.09,
+    "text": "Taurus 18°05′",
+    "longitude": 48.087
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 17.63,
+    "text": "Scorpio 17°38′",
+    "longitude": 227.63
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 23.92,
+    "text": "Aries 23°55′",
+    "longitude": 23.923
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 24.45,
+    "text": "Aries 24°27′",
+    "longitude": 24.45
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 6.48,
+    "text": "Pisces 6°29′",
+    "longitude": 336.48
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 0.76,
+    "text": "Cancer 0°46′",
+    "longitude": 90.763
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 4.46,
+    "text": "Leo 4°28′",
+    "longitude": 124.465
+   }
+  },
+  {
+   "segment": "Tanner's Son in the Western Reserve",
+   "stop": "Hudson, the Western Reserve and the mother's grave",
+   "date": "1805-01-01",
+   "date_confidence": "attested for both events: the family's migration to Hudson in 1805 and the death of Ruth Mills Brown in December 1808. The day and month of the move are not recorded, so the date defaults to 1 January to order the segment.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380322.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.22,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.22
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tanner's Son in the Western Reserve",
+   "stop": "Hudson, marriage to Dianthe Lusk",
+   "date": "1820-01-01",
+   "date_confidence": "attested to the year 1820; the sources in hand do not fix the day, which defaults to 1 January. The birth of John Brown Jr. on 25 July 1821 is attested exactly.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1820,
+   "jd_ut": 2385800.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.57,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.566
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tanner's Son in the Western Reserve",
+   "stop": "Hudson Lodge No. 68, raised a Master Mason",
+   "date": "1824-05-11",
+   "date_confidence": "attested for the Master Mason degree, 11 May 1824, on Hudson Lodge No. 68 records as given in the Grand Lodge of British Columbia and Yukon Masonic biography. The lodge record gives no dates for his Entered Apprentice and Fellow Craft degrees, so the common statement that he took all three degrees within 1824 is inference and is not asserted here. His withdrawal is tied to the Morgan affair of 1826 and is therefore later than this stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387392.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 20.21,
+    "text": "Taurus 20°12′",
+    "longitude": 50.206
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 23.58,
+    "text": "Libra 23°35′",
+    "longitude": 203.578
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 11.71,
+    "text": "Gemini 11°43′",
+    "longitude": 71.715
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 28.82,
+    "text": "Aries 28°49′",
+    "longitude": 28.819
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 24.66,
+    "text": "Virgo 24°39′",
+    "longitude": 174.656
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 8.88,
+    "text": "Cancer 8°53′",
+    "longitude": 98.876
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 26.26,
+    "text": "Taurus 26°16′",
+    "longitude": 56.259
+   }
+  },
+  {
+   "segment": "Tanner's Son in the Western Reserve",
+   "stop": "New Richmond, the tannery and the post office",
+   "date": "1825-01-01",
+   "date_confidence": "attested: the tannery was built in 1825 and worked to 1835, and the postmastership under John Quincy Adams is confirmed by the National Archives. The sheltering of freedom-seekers at the tannery is local tradition and is tagged [R]: no contemporary document names anyone hidden there, and the figure of roughly 2,500 people assisted, repeated on some site pages, is an unsourced round number and is not used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387627.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "approximation",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.367
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tanner's Son in the Western Reserve",
+   "stop": "New Richmond, Dianthe buried with the infant",
+   "date": "1832-01-01",
+   "date_confidence": "attested to the year 1832; the sources in hand do not agree on the day, which defaults to 1 January. That an infant son was born and died shortly before her own death is attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390183.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.654
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tanner's Son in the Western Reserve",
+   "stop": "New Richmond, marriage to Mary Ann Day",
+   "date": "1833-07-14",
+   "date_confidence": "attested as to date. The place is probably New Richmond, Pennsylvania, and is given as such by the sources in hand without full certainty.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1833,
+   "jd_ut": 2390743.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 21.25,
+    "text": "Cancer 21°15′",
+    "longitude": 111.252
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Panic, the Graves, and the Wool",
+   "stop": "Franklin Mills, the land company and the canal",
+   "date": "1836-01-01",
+   "date_confidence": "attested to the year for the move to Franklin Mills and the speculation; the day is not recorded and defaults to 1 January. The acreage of roughly 700 and the brief jailing over a seized property come from the National Archives Prologue study and are not further corroborated here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391644.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "to the year",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.683
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Panic, the Graves, and the Wool",
+   "stop": "Hudson, the vow at the Lovejoy meeting",
+   "date": "1837-11-01",
+   "date_confidence": "The killing of Elijah P. Lovejoy at Alton, Illinois, on 7 November 1837 is attested. Brown's vow at the Hudson memorial meeting is family tradition, tagged [R]: it rests on recollections set down decades later by his son and others in the family circle, with no contemporaneous transcript and no newspaper account. The month is used to order the segment.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392314.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "hard triggers (traditional, decade/century) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.4,
+    "text": "Scorpio 8°24′",
+    "longitude": 218.397
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Panic, the Graves, and the Wool",
+   "stop": "Ohio, the bankruptcy in federal court",
+   "date": "1842-09-28",
+   "date_confidence": "attested as to date of the federal bankruptcy declaration; the pin is set at Franklin Mills, where the failed ventures were centered, since the sources give only 'Ohio' for the court.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1842,
+   "jd_ut": 2394106.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 4.45,
+    "text": "Libra 4°27′",
+    "longitude": 184.445
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 9.06,
+    "text": "Cancer 9°03′",
+    "longitude": 99.055
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.71,
+    "text": "Libra 27°43′",
+    "longitude": 207.712
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 20.78,
+    "text": "Scorpio 20°47′",
+    "longitude": 230.779
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 4.4,
+    "text": "Virgo 4°24′",
+    "longitude": 154.402
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 13.39,
+    "text": "Capricornus 13°23′",
+    "longitude": 283.389
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 7.89,
+    "text": "Capricornus 7°54′",
+    "longitude": 277.892
+   }
+  },
+  {
+   "segment": "The Panic, the Graves, and the Wool",
+   "stop": "Akron, four children in one season",
+   "date": "1843-01-01",
+   "date_confidence": "attested to the year 1843 from Brown family genealogical and National Park Service records; the month is not fixed and defaults to 1 January. The sources give the location only as the Akron area of Ohio, so the pin is approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1843,
+   "jd_ut": 2394201.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "not fixed",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.99,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.99
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Panic, the Graves, and the Wool",
+   "stop": "Akron, the partnership with Simon Perkins",
+   "date": "1844-01-01",
+   "date_confidence": "attested by 1844 per National Archives Prologue: 'By 1844, he was raising sheep with a wealthy business partner in Akron.' Note that the partnership is sometimes dated 1846 by conflating it with the separate removal of the wool operation to Springfield, Massachusetts, in that year; the two events are kept apart here. Brown occupied the Diagonal Road house from 1844 to 1854.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394566.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.742
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Springfield, Gilead, and the Adirondack Grant",
+   "stop": "Springfield, the wool warehouse on Front Street",
+   "date": "1846-01-01",
+   "date_confidence": "attested to the year of the move to Springfield, 1846; the day is not recorded and defaults to 1 January. The operation ran there to about 1850.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395297.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Springfield, Gilead, and the Adirondack Grant",
+   "stop": "Springfield, Frederick Douglass at the table",
+   "date": "1847-01-01",
+   "date_confidence": "attested that Brown and Douglass met at Springfield during Brown's residence there, 1846-1850, and that Brown laid out an Allegheny mountain plan to him. Douglass's Life and Times describes the visit without giving a date; 1847 is the conventional dating and is used here to order the segment.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1847,
+   "jd_ut": 2395662.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.02,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.019
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Springfield, Gilead, and the Adirondack Grant",
+   "stop": "Peterboro, at Gerrit Smith's estate",
+   "date": "1848-01-01",
+   "date_confidence": "The Smith land grants to Black New Yorkers and Brown's arrangement to settle among the grantees are attested. The claim that Brown met Smith repeatedly at Peterboro across 1848-1858 is [R]: reasonable and generally accepted, but not documented meeting by meeting. The 1848 date orders the segment.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396027.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.772
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Springfield, Gilead, and the Adirondack Grant",
+   "stop": "North Elba, the farm beside Timbuctoo",
+   "date": "1849-01-01",
+   "date_confidence": "attested; the purchase is dated 1848 or 1849 in different accounts and the day is not recorded, so the date defaults to 1 January 1849. The National Park Service gives 244 acres at one dollar an acre. Note that the atlas has carried three different coordinates for this one location; 44.2520, -73.9714 is the John Brown Farm reference point and is used throughout this file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396393.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.544
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Springfield, Gilead, and the Adirondack Grant",
+   "stop": "London, the wool carried across the Atlantic",
+   "date": "1849-08-01",
+   "date_confidence": "attested that Brown crossed to England to sell warehoused American wool and that the venture failed; the sources in hand give the trip as 1849 or 1850 without a fixed sailing date, so August 1849 is used to order the segment. The loss figure of roughly $40,000 is the reckoning given in Summit County historical material for the wool enterprise as a whole, not for the voyage alone.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396605.5,
+   "precision": "month",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.57,
+    "text": "Leo 8°34′",
+    "longitude": 128.574
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Springfield, Gilead, and the Adirondack Grant",
+   "stop": "Springfield, the League of Gileadites",
+   "date": "1851-01-15",
+   "date_confidence": "attested as to date and place. The original manuscript of the 'Words of Advice' was first printed years afterward and survives through Brown's biographers rather than in a contemporary imprint, which the dossier flags and which is recorded here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397137.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 24.32,
+    "text": "Capricornus 24°19′",
+    "longitude": 294.316
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 17.33,
+    "text": "Gemini 17°20′",
+    "longitude": 77.332
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 8.52,
+    "text": "Aquarius 8°31′",
+    "longitude": 308.521
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 18.36,
+    "text": "Sagittarius 18°22′",
+    "longitude": 258.36
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 11.66,
+    "text": "Capricornus 11°39′",
+    "longitude": 281.657
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 22.2,
+    "text": "Libra 22°12′",
+    "longitude": 202.204
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 14.85,
+    "text": "Aries 14°51′",
+    "longitude": 14.849
+   }
+  },
+  {
+   "segment": "Bleeding Kansas",
+   "stop": "Lawrence, the Wakarusa standoff",
+   "date": "1855-12-01",
+   "date_confidence": "attested to the month. The sons' migration to Kansas Territory earlier in 1855 and Brown's arrival later that year with arms are attested; his part in the Wakarusa War comes from general Kansas Territory historiography rather than a document naming him at a particular hour.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398918.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.28,
+    "text": "Sagittarius 8°17′",
+    "longitude": 248.283
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bleeding Kansas",
+   "stop": "Pottawatomie Creek, the broadswords in the dark",
+   "date": "1856-05-24",
+   "date_confidence": "attested for the night of 24-25 May 1856 and for the five men killed. Brown's command of the party is not seriously disputed. Which of the men wielded the swords is disputed among sources and Brown never admitted striking a blow; the PBS American Experience account has him firing a final shot into the wounded James Doyle, and other accounts differ on that detail.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399093.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 2.97,
+    "text": "Gemini 2°58′",
+    "longitude": 62.967
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 21.43,
+    "text": "Capricornus 21°26′",
+    "longitude": 291.427
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 25.69,
+    "text": "Gemini 25°41′",
+    "longitude": 85.691
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 17.31,
+    "text": "Taurus 17°19′",
+    "longitude": 47.312
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 3.67,
+    "text": "Libra 3°40′",
+    "longitude": 183.667
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 2.82,
+    "text": "Aries 2°49′",
+    "longitude": 2.821
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 29.65,
+    "text": "Gemini 29°39′",
+    "longitude": 89.652
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Bleeding Kansas",
+   "stop": "Black Jack, Pate taken at the ravine",
+   "date": "1856-06-02",
+   "date_confidence": "attested. The outcome is firm: after roughly three hours Pate offered a conditional surrender, Brown refused conditions, and Pate and 28 men were taken prisoner. Troop numbers on Brown's side vary between accounts and are not settled; the dossier's own summary tagged this stop [R], which the coordinate and outcome checks upgrade to attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399102.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.59,
+    "text": "Gemini 11°36′",
+    "longitude": 71.595
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 28.61,
+    "text": "Taurus 28°36′",
+    "longitude": 58.607
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 3.19,
+    "text": "Cancer 3°11′",
+    "longitude": 93.188
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 28.32,
+    "text": "Taurus 28°19′",
+    "longitude": 58.317
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 5.21,
+    "text": "Libra 5°13′",
+    "longitude": 185.209
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 4.32,
+    "text": "Aries 4°19′",
+    "longitude": 4.315
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 0.77,
+    "text": "Cancer 0°46′",
+    "longitude": 90.765
+   }
+  },
+  {
+   "segment": "Bleeding Kansas",
+   "stop": "Osawatomie, the town burns and Frederick is shot",
+   "date": "1856-08-30",
+   "date_confidence": "attested as to date, the killing of Frederick Brown by the proslavery settler Martin White, and the burning of the town. The size of the attacking force is given variously in the sources.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399191.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 6.77,
+    "text": "Virgo 6°46′",
+    "longitude": 156.767
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 1.54,
+    "text": "Virgo 1°32′",
+    "longitude": 151.541
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 24.45,
+    "text": "Virgo 24°27′",
+    "longitude": 174.452
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 17.85,
+    "text": "Virgo 17°51′",
+    "longitude": 167.852
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 17.97,
+    "text": "Scorpio 17°58′",
+    "longitude": 227.97
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 7.57,
+    "text": "Aries 7°34′",
+    "longitude": 7.566
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 11.5,
+    "text": "Cancer 11°30′",
+    "longitude": 101.503
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Eastern Money and a Government With No Territory",
+   "stop": "Boston, brought in to be looked at",
+   "date": "1857-01-01",
+   "date_confidence": "attested to January 1857 for the Boston visit and Sanborn's introduction of Brown to George L. Stearns; the day is not recorded and defaults to 1 January. The label 'Secret Six' is retrospective and was not in use at this date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399315.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.6,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.603
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eastern Money and a Government With No Territory",
+   "stop": "Medford, dinner at the Stearns house",
+   "date": "1857-01-15",
+   "date_confidence": "attested to January 1857, days after the Boston meeting; the exact day is not recorded and 15 January is used to place the stop in sequence.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399329.5,
+   "precision": "month",
+   "precision_triggers": [
+    "sequencing",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 24.87,
+    "text": "Capricornus 24°52′",
+    "longitude": 294.87
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eastern Money and a Government With No Territory",
+   "stop": "St. Catharines, he calls her General Tubman",
+   "date": "1858-04-01",
+   "date_confidence": "attested to the month by the National Park Service. The coordinate is inherited unchanged from harriet_tubman.journey.json, which carries the same meeting.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399770.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.99,
+    "text": "Aries 10°59′",
+    "longitude": 10.991
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eastern Money and a Government With No Territory",
+   "stop": "Chatham, the provisional constitution",
+   "date": "1858-05-01",
+   "date_confidence": "attested at month precision only. Wikipedia dates the convention to 10 May 1858 and the research dossier to 8 May; most accounts have it sitting from the 8th to the 10th. The sources in hand disagree on the day, so the day is not asserted and the date defaults to the first of the month.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399800.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.32,
+    "text": "Taurus 10°19′",
+    "longitude": 40.317
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Missouri Raid and the Road to the Ferry",
+   "stop": "Vernon County, eleven taken out of Missouri",
+   "date": "1858-12-20",
+   "date_confidence": "attested for the night of 20-21 December 1858, the eleven people freed, and the killing of the slaveholder David Cruise by a member of Brown's force. The identification of the two farms as the Cruise and Larue properties and the finer sequence of the night come from the PBS American Experience account and are tagged [R] in the dossier.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2400033.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 27.88,
+    "text": "Sagittarius 27°53′",
+    "longitude": 267.878
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Missouri Raid and the Road to the Ferry",
+   "stop": "Grinnell, the town that feeds them",
+   "date": "1859-02-25",
+   "date_confidence": "attested as to date and place: Josiah Grinnell and local ministers housed and resupplied the party at Grinnell, Iowa, on the northward flight.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400100.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 5.9,
+    "text": "Pisces 5°54′",
+    "longitude": 335.903
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 10.39,
+    "text": "Sagittarius 10°23′",
+    "longitude": 250.387
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 26.02,
+    "text": "Aquarius 26°01′",
+    "longitude": 326.018
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 19.2,
+    "text": "Capricornus 19°12′",
+    "longitude": 289.203
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 17.89,
+    "text": "Aries 17°53′",
+    "longitude": 17.889
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 12.19,
+    "text": "Gemini 12°11′",
+    "longitude": 72.186
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 6.96,
+    "text": "Leo 6°58′",
+    "longitude": 126.958
+   }
+  },
+  {
+   "segment": "The Missouri Raid and the Road to the Ferry",
+   "stop": "Chicago, Pinkerton buys the tickets",
+   "date": "1859-03-09",
+   "date_confidence": "attested as to date and to Pinkerton's role in raising funds and arranging onward transport toward Detroit.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400112.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 17.93,
+    "text": "Pisces 17°56′",
+    "longitude": 347.927
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 7.51,
+    "text": "Taurus 7°31′",
+    "longitude": 37.512
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 17.96,
+    "text": "Pisces 17°58′",
+    "longitude": 347.96
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 1.75,
+    "text": "Aquarius 1°45′",
+    "longitude": 301.754
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 26.64,
+    "text": "Aries 26°38′",
+    "longitude": 26.639
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 13.16,
+    "text": "Gemini 13°10′",
+    "longitude": 73.163
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 6.26,
+    "text": "Leo 6°15′",
+    "longitude": 126.258
+   }
+  },
+  {
+   "segment": "The Missouri Raid and the Road to the Ferry",
+   "stop": "Detroit, thirteen onto the ferry",
+   "date": "1859-03-12",
+   "date_confidence": "attested as to date and place: more than a thousand miles and eighty-two days from the Missouri farms, the party crossed from Detroit into Canada. The count of thirteen aboard the ferry, including an infant born on the road, is the figure given in the PBS account.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400115.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 20.92,
+    "text": "Pisces 20°55′",
+    "longitude": 350.921
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 18.39,
+    "text": "Gemini 18°23′",
+    "longitude": 78.39
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 23.81,
+    "text": "Pisces 23°49′",
+    "longitude": 353.813
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 4.99,
+    "text": "Aquarius 4°59′",
+    "longitude": 304.991
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 28.81,
+    "text": "Aries 28°49′",
+    "longitude": 28.811
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 13.47,
+    "text": "Gemini 13°28′",
+    "longitude": 73.47
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 6.12,
+    "text": "Leo 6°07′",
+    "longitude": 126.115
+   }
+  },
+  {
+   "segment": "Harpers Ferry",
+   "stop": "Kennedy Farm, the man calling himself Isaac Smith",
+   "date": "1859-07-03",
+   "date_confidence": "attested as to date, alias, and use of the farm as a staging ground. The distance to Harpers Ferry is about five miles by the National Park Service figure, roughly four in a straight line; older accounts saying seven miles are not followed here. The company at the farm numbered twenty-one men besides Brown.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400228.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 10.5,
+    "text": "Cancer 10°30′",
+    "longitude": 100.495
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 14.11,
+    "text": "Leo 14°07′",
+    "longitude": 134.111
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 21.81,
+    "text": "Cancer 21°49′",
+    "longitude": 111.813
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 17.26,
+    "text": "Gemini 17°16′",
+    "longitude": 77.264
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 16.15,
+    "text": "Cancer 16°09′",
+    "longitude": 106.153
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 5.24,
+    "text": "Cancer 5°14′",
+    "longitude": 95.238
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 11.37,
+    "text": "Leo 11°22′",
+    "longitude": 131.37
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Harpers Ferry",
+   "stop": "Chambersburg, Douglass in the stone quarry",
+   "date": "1859-08-19",
+   "date_confidence": "[R] as to the day. The meeting is attested only through Douglass's own later recollection in Life and Times, which gives no date; August 1859 is agreed on and the 19th is conventional, used here to order the segment. The 'perfect steel-trap' warning and Shields Green's decision to stay come from the same recollection.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400275.5,
+   "precision": "month",
+   "precision_triggers": [
+    "convention",
+    "no month/day",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 25.45,
+    "text": "Leo 25°27′",
+    "longitude": 145.45
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harpers Ferry",
+   "stop": "Harpers Ferry, the bridges and the armory taken",
+   "date": "1859-10-16",
+   "date_confidence": "attested by the National Park Service: Brown led 18 men out of the Kennedy Farm at 8:00 pm on 16 October and held both bridges, the armory, the arsenal, and Hall's Island rifle works by 10:00 pm; three men stayed behind as rear guard. Lewis Washington and John Allstadt were seized shortly after midnight. Accounts saying a force of twenty-one seized the armory conflate the whole company with the party that entered the town.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400333.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 22.11,
+    "text": "Libra 22°07′",
+    "longitude": 202.108
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 10.71,
+    "text": "Gemini 10°43′",
+    "longitude": 70.711
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 25.52,
+    "text": "Libra 25°31′",
+    "longitude": 205.523
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 26.83,
+    "text": "Libra 26°50′",
+    "longitude": 206.827
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 23.21,
+    "text": "Virgo 23°12′",
+    "longitude": 173.208
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.06,
+    "text": "Cancer 24°04′",
+    "longitude": 114.062
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.76,
+    "text": "Leo 23°45′",
+    "longitude": 143.758
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Harpers Ferry",
+   "stop": "Harpers Ferry, the town wakes and closes",
+   "date": "1859-10-17",
+   "date_confidence": "attested. Heyward Shepherd, a free Black baggage master, was shot near the station in the early hours and died of the wound. The killing of Mayor Fontaine Beckham, the extrajudicial killing of the captured raider William Thompson, and the mortal wounding of Watson and Oliver Brown all fall on this day; these come from general Harpers Ferry historiography rather than one document.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400334.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 23.1,
+    "text": "Libra 23°06′",
+    "longitude": 203.101
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 24.31,
+    "text": "Gemini 24°19′",
+    "longitude": 84.312
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.18,
+    "text": "Libra 27°11′",
+    "longitude": 207.176
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 28.08,
+    "text": "Libra 28°05′",
+    "longitude": 208.078
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 23.84,
+    "text": "Virgo 23°50′",
+    "longitude": 173.839
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.15,
+    "text": "Cancer 24°09′",
+    "longitude": 114.146
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.84,
+    "text": "Leo 23°51′",
+    "longitude": 143.844
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Harpers Ferry",
+   "stop": "John Brown's Fort, the Marines at seven in the morning",
+   "date": "1859-10-18",
+   "date_confidence": "attested: United States Marines under Colonel Robert E. Lee, with Lieutenant J. E. B. Stuart as aide, stormed the engine house at 7:00 am on 18 October; Lieutenant Israel Green wounded and captured Brown; Jeremiah Anderson and Dauphin Thompson were killed in the assault. The coordinate is the fort's present position, within about 150 feet of the 1859 engine house site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400335.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.09,
+    "text": "Libra 24°06′",
+    "longitude": 204.095
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 8.07,
+    "text": "Cancer 8°04′",
+    "longitude": 98.071
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 28.82,
+    "text": "Libra 28°49′",
+    "longitude": 208.818
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 29.33,
+    "text": "Libra 29°20′",
+    "longitude": 209.329
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 24.47,
+    "text": "Virgo 24°28′",
+    "longitude": 174.469
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.23,
+    "text": "Cancer 24°14′",
+    "longitude": 114.227
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.93,
+    "text": "Leo 23°56′",
+    "longitude": 143.928
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Charles Town",
+   "stop": "Charles Town courthouse, indicted and tried",
+   "date": "1859-10-26",
+   "date_confidence": "attested per the trial chronology at famous-trials.com: preliminary examination before magistrates 25 October, grand jury indictment and jury selection 26 October, testimony from 27 October, verdict 31 October. The frequent statement that the trial began on 25 October conflates the magistrates' examination with the trial proper. Judge Richard Parker presided; Andrew Hunter and Charles B. Harding prosecuted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400343.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 2.06,
+    "text": "Scorpio 2°04′",
+    "longitude": 212.063
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 1.76,
+    "text": "Scorpio 1°45′",
+    "longitude": 211.755
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.6,
+    "text": "Scorpio 11°36′",
+    "longitude": 221.6
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 9.34,
+    "text": "Scorpio 9°20′",
+    "longitude": 219.34
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 29.51,
+    "text": "Virgo 29°31′",
+    "longitude": 179.511
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.77,
+    "text": "Cancer 24°46′",
+    "longitude": 114.771
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 24.56,
+    "text": "Leo 24°33′",
+    "longitude": 144.557
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Charles Town",
+   "stop": "Charles Town courthouse, the speech before sentence",
+   "date": "1859-11-02",
+   "date_confidence": "attested as to date and substance. Two transmission lines of the speech text exist and must not be blended: Drew, The John Brown Invasion (1860), p. 82, and the version printed by Sanborn and at famous-trials.com, which ends 'I submit; so let it be done!' The quote given here follows the famous-trials text.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400350.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.06,
+    "text": "Scorpio 9°04′",
+    "longitude": 219.064
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 1.69,
+    "text": "Aquarius 1°42′",
+    "longitude": 301.693
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 22.33,
+    "text": "Scorpio 22°20′",
+    "longitude": 232.334
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 18.1,
+    "text": "Scorpio 18°06′",
+    "longitude": 228.102
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 3.92,
+    "text": "Libra 3°55′",
+    "longitude": 183.919
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 25.09,
+    "text": "Cancer 25°05′",
+    "longitude": 115.088
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 25.03,
+    "text": "Leo 25°02′",
+    "longitude": 145.032
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Charles Town",
+   "stop": "Charles Town jail, the letter of the eighth of November",
+   "date": "1859-11-08",
+   "date_confidence": "attested. Sanborn prints the letter under the heading 'Charlestown, Jefferson County, Va., Nov. 8, 1859 / Dear Wife and Children, every one' and it is the first he wrote to the family after conviction, six days after sentencing. Citations dating this letter to late November are wrong and the error is common.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400356.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 15.08,
+    "text": "Scorpio 15°05′",
+    "longitude": 225.085
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 13.9,
+    "text": "Aries 13°54′",
+    "longitude": 13.9
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 1.24,
+    "text": "Sagittarius 1°14′",
+    "longitude": 241.236
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 25.61,
+    "text": "Scorpio 25°37′",
+    "longitude": 235.615
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 7.69,
+    "text": "Libra 7°42′",
+    "longitude": 187.693
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 25.24,
+    "text": "Cancer 25°14′",
+    "longitude": 115.235
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 25.38,
+    "text": "Leo 25°23′",
+    "longitude": 145.379
+   }
+  },
+  {
+   "segment": "Charles Town",
+   "stop": "Charles Town jail, the last visit",
+   "date": "1859-12-01",
+   "date_confidence": "attested that Mary Ann Day Brown's final visit took place on 1 December 1859, the day before the execution. The duration of the visit, the supper, and the details of the conversation come from contemporary press reports and family recollection and vary between accounts.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400379.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.31,
+    "text": "Sagittarius 8°19′",
+    "longitude": 248.313
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 21.3,
+    "text": "Aquarius 21°18′",
+    "longitude": 321.299
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 28.97,
+    "text": "Sagittarius 28°58′",
+    "longitude": 268.968
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 24.41,
+    "text": "Sagittarius 24°25′",
+    "longitude": 264.413
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 22.12,
+    "text": "Libra 22°07′",
+    "longitude": 202.122
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.7,
+    "text": "Cancer 24°42′",
+    "longitude": 114.699
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 26.14,
+    "text": "Leo 26°08′",
+    "longitude": 146.138
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Charles Town",
+   "stop": "Charles Town, the note and the gallows field",
+   "date": "1859-12-02",
+   "date_confidence": "attested. The final written note handed to a guard is authentic and is printed in Sanborn. Governor Wise ordered roughly 1,500 soldiers to the field and no civilian was permitted within hearing distance; Jackson observed with VMI cadets and Booth was present with the Richmond Grays. The gallows field stood off South Samuel Street; the coordinate is approximate to the block, not to the trap.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400380.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.33,
+    "text": "Sagittarius 9°20′",
+    "longitude": 249.327
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Body, the Building, and the Legend",
+   "stop": "North Elba, buried by the boulder",
+   "date": "1859-12-08",
+   "date_confidence": "attested: buried 8 December 1859 in front of the house, beside the boulder, six days after the execution, the journey north taking about five days. Sources differ on when New York State acquired the farm, 1895 or 1896; the John Brown Farm State Historic Site record gives 1896 and the biography article 1895, and the discrepancy is left open.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400386.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 15.42,
+    "text": "Sagittarius 15°25′",
+    "longitude": 255.42
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Body, the Building, and the Legend",
+   "stop": "Charles Town, the kiss that did not happen",
+   "date": "1885-01-01",
+   "date_confidence": "attested that the story originated in Edward H. House's New-York Daily Tribune account of 5 December 1859 and was established as fabricated by 1885, when the Charles Town jailer's testimony that no such encounter was possible came out during the scrutiny prompted by Hovenden's painting. The 1885 date is used to place the stop at the debunking rather than the invention; the day is not recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409542.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.809
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Body, the Building, and the Legend",
+   "stop": "North Elba, the raiders brought back",
+   "date": "1899-08-30",
+   "date_confidence": "attested. Watson Brown died 19 October 1859; his body was taken by Winchester Medical College, prepared as an anatomical specimen and displayed with a label, recovered by an army physician when Federal troops entered Winchester in March 1862, and reburied at North Elba in October 1882 after John Brown Jr. confirmed the identity. On 30 August 1899, the anniversary of Osawatomie, the remains of ten raiders were reburied here in one coffin; parks.ny.gov says only 'several' and one older summary says twelve, and ten is the best-supported figure.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414896.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 6.38,
+    "text": "Virgo 6°23′",
+    "longitude": 156.381
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 29.23,
+    "text": "Gemini 29°14′",
+    "longitude": 89.234
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 20.96,
+    "text": "Leo 20°58′",
+    "longitude": 140.959
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 1.68,
+    "text": "Virgo 1°41′",
+    "longitude": 151.683
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 15.29,
+    "text": "Libra 15°17′",
+    "longitude": 195.29
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 5.75,
+    "text": "Scorpio 5°45′",
+    "longitude": 215.753
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 17.1,
+    "text": "Sagittarius 17°06′",
+    "longitude": 257.098
+   }
+  },
+  {
+   "segment": "The Body, the Building, and the Legend",
+   "stop": "Harpers Ferry, the four addresses of the engine house",
+   "date": "1909-01-01",
+   "date_confidence": "attested, with one date conflict left open: the John Brown's Fort article carries both 1968 and 1969 for the removal from Storer College, while the Storer College article states the fort stood on campus from 1909 through 1968. 1968 is used here. The pin is the fort's present position in lower Harpers Ferry, about 150 feet from the 1859 site; the date defaults to the year of the Storer move, which is the longest of its residences.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Body, the Building, and the Legend",
+   "stop": "Harpers Ferry, the two tablets",
+   "date": "1931-01-01",
+   "date_confidence": "attested as to the 1931 dedication of the Heyward Shepherd Memorial by the United Daughters of the Confederacy and the Sons of Confederate Veterans, the attendance figures of roughly 300 white and 100 Black people, the Storer College president's advance warning, the NAACP counter-tablet drafted under W. E. B. Du Bois, its refusal by Storer as too militant, and its installation on the site in 2006. The day of the 1931 dedication is not recorded here and defaults to 1 January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "approximation",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 19,
+  "month": 7,
+  "year": 19
+ },
+ "parse_failures": []
+}

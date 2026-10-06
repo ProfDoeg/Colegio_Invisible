@@ -1,0 +1,1934 @@
+{
+ "slug": "gustave_flaubert",
+ "traveler": "Gustave Flaubert",
+ "title": "The Gueuloir and the Nile: Croisset, Egypt, and the Sentence Ground Down",
+ "years": "1821-1880",
+ "years_parsed": {
+  "first": 1821,
+  "last": 1880
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Hotel-Dieu and the College Royal",
+  "stop": "Hotel-Dieu de Rouen, the birth in the surgeon's apartment",
+  "date": "1821-12-12",
+  "date_confidence": "attested; coordinate corrected to 51 rue de Lecat (Musee Flaubert et d'histoire de la medecine), not the Rouen city-centre pin carried by two of the research lenses",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1821,
+  "jd_ut": 2386511.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Sagittarius",
+   "degree": 19.71,
+   "text": "Sagittarius 19°43′",
+   "longitude": 259.714
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 27.84,
+   "text": "Cancer 27°51′",
+   "longitude": 117.844
+  },
+  "mercury": {
+   "sign": "Scorpio",
+   "degree": 29.17,
+   "text": "Scorpio 29°10′",
+   "longitude": 239.173
+  },
+  "venus": {
+   "sign": "Aquarius",
+   "degree": 6.19,
+   "text": "Aquarius 6°11′",
+   "longitude": 306.188
+  },
+  "mars": {
+   "sign": "Virgo",
+   "degree": 5.03,
+   "text": "Virgo 5°02′",
+   "longitude": 155.026
+  },
+  "jupiter": {
+   "sign": "Aries",
+   "degree": 20.4,
+   "text": "Aries 20°24′",
+   "longitude": 20.396
+  },
+  "saturn": {
+   "sign": "Aries",
+   "degree": 19.78,
+   "text": "Aries 19°47′",
+   "longitude": 19.777
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1821-1880",
+  "first_year_parsed": 1821
+ },
+ "stops": [
+  {
+   "segment": "The Hotel-Dieu and the College Royal",
+   "stop": "Hotel-Dieu de Rouen, the birth in the surgeon's apartment",
+   "date": "1821-12-12",
+   "date_confidence": "attested; coordinate corrected to 51 rue de Lecat (Musee Flaubert et d'histoire de la medecine), not the Rouen city-centre pin carried by two of the research lenses",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1821,
+   "jd_ut": 2386511.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 19.71,
+    "text": "Sagittarius 19°43′",
+    "longitude": 259.714
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 27.84,
+    "text": "Cancer 27°51′",
+    "longitude": 117.844
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 29.17,
+    "text": "Scorpio 29°10′",
+    "longitude": 239.173
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 6.19,
+    "text": "Aquarius 6°11′",
+    "longitude": 306.188
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 5.03,
+    "text": "Virgo 5°02′",
+    "longitude": 155.026
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 20.4,
+    "text": "Aries 20°24′",
+    "longitude": 20.396
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 19.78,
+    "text": "Aries 19°47′",
+    "longitude": 19.777
+   }
+  },
+  {
+   "segment": "The Hotel-Dieu and the College Royal",
+   "stop": "College royal de Rouen, the boarder and the expulsion",
+   "date": "1832-01-01",
+   "date_confidence": "year attested (Wikipedia FR chronology); month and day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390183.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.654
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hotel-Dieu and the College Royal",
+   "stop": "Trouville-sur-Mer, Elisa Schlesinger on the sand",
+   "date": "1836-08-01",
+   "date_confidence": "year attested, August traditional; day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391857.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.71,
+    "text": "Leo 8°43′",
+    "longitude": 128.71
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journey South and the Abandoned Law",
+   "stop": "Bagneres-de-Luchon, the reward journey",
+   "date": "1840-08-01",
+   "date_confidence": "year attested; August traditional, day defaulted to 01. The research pool's single Pyrenees-Corsica midpoint (42.6, 1.0) was a meaningless coordinate and is split here into Luchon and Ajaccio",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393318.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.74,
+    "text": "Leo 8°45′",
+    "longitude": 128.742
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journey South and the Abandoned Law",
+   "stop": "Ajaccio, Corsica and the return by Marseille",
+   "date": "1840-09-01",
+   "date_confidence": "year attested; September inferred from the itinerary, day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393349.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.58,
+    "text": "Virgo 8°35′",
+    "longitude": 158.577
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journey South and the Abandoned Law",
+   "stop": "Sorbonne quarter, Paris, law without conviction",
+   "date": "1841-01-01",
+   "date_confidence": "year attested; month and day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1841,
+   "jd_ut": 2393471.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.48,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.485
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journey South and the Abandoned Law",
+   "stop": "The road near Pont-l'Eveque, the first seizure",
+   "date": "1844-01-01",
+   "date_confidence": "CONTRADICTION UNRESOLVED: Wikipedia FR dates the first seizure January 1844, Wikipedia EN gives 1846. The French date is used here; the English one is not thereby refuted. Day defaulted to 01, coordinate approximate for the Pont-l'Eveque road",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394566.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.742
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journey South and the Abandoned Law",
+   "stop": "Croisset, the house on the Seine",
+   "date": "1844-06-01",
+   "date_confidence": "month and year attested; day defaulted to 01. Coordinate is the Pavillon Flaubert at 18 quai Gustave-Flaubert, Canteleu; two of the three research lenses carried Croisset pins roughly two kilometres wrong",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394718.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.54,
+    "text": "Gemini 10°33′",
+    "longitude": 70.542
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Journey South and the Abandoned Law",
+   "stop": "Rouen, the surgeon dies and the sister after him",
+   "date": "1846-01-01",
+   "date_confidence": "year attested (Wikipedia FR chronology); month and day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395297.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Louise Colet and the Breton Roads",
+   "stop": "Atelier Pradier, Paris, the meeting with Louise Colet",
+   "date": "1846-06-01",
+   "date_confidence": "year attested (Wikipedia FR, 'Louise Colet': the meeting takes place in Pradier's studio in 1846); month and day inferred, defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395448.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.08,
+    "text": "Gemini 10°05′",
+    "longitude": 70.079
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Louise Colet and the Breton Roads",
+   "stop": "Mont Saint-Michel, the abbey on the tide",
+   "date": "1847-06-01",
+   "date_confidence": "the Brittany tour with Du Camp begins in May 1847 and runs three months; the Mont Saint-Michel leg is placed in June by itinerary, day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1847,
+   "jd_ut": 2395813.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.85,
+    "text": "Gemini 9°51′",
+    "longitude": 69.848
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Louise Colet and the Breton Roads",
+   "stop": "Mantes-la-Jolie, the halfway room",
+   "date": "1848-01-01",
+   "date_confidence": "reconstruction. No document in the reachable sources fixes a dated meeting at Mantes; the town is the standard biographical account of the couple's rendezvous point, and the date here is a placeholder inside the 1846-1854 span",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396027.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.772
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Louise Colet and the Breton Roads",
+   "stop": "Croisset, the Temptation read aloud for four days",
+   "date": "1849-09-01",
+   "date_confidence": "month and year attested (Wikipedia EN); day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396636.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.41,
+    "text": "Virgo 8°24′",
+    "longitude": 158.406
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nile",
+   "stop": "Croisset, the departure of 22 October",
+   "date": "1849-10-22",
+   "date_confidence": "attested (Wikipedia FR, 'Voyage en Egypte'). The research pool mismatched this date to Marseille; the Croisset departure is 22 October, the Marseille sailing 4 November",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396687.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 28.5,
+    "text": "Libra 28°30′",
+    "longitude": 208.497
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 3.57,
+    "text": "Capricornus 3°34′",
+    "longitude": 273.574
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 4.57,
+    "text": "Scorpio 4°34′",
+    "longitude": 214.566
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 27.14,
+    "text": "Virgo 27°08′",
+    "longitude": 177.141
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 3.97,
+    "text": "Cancer 3°58′",
+    "longitude": 93.972
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 14.89,
+    "text": "Virgo 14°54′",
+    "longitude": 164.894
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 2.65,
+    "text": "Aries 2°39′",
+    "longitude": 2.652
+   }
+  },
+  {
+   "segment": "The Nile",
+   "stop": "Vieux-Port, Marseille, aboard Le Nil",
+   "date": "1849-11-04",
+   "date_confidence": "attested (Wikipedia FR, 'Voyage en Egypte')",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396700.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 11.5,
+    "text": "Scorpio 11°30′",
+    "longitude": 221.495
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 26.95,
+    "text": "Gemini 26°57′",
+    "longitude": 86.946
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 24.43,
+    "text": "Libra 24°26′",
+    "longitude": 204.427
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 13.13,
+    "text": "Libra 13°08′",
+    "longitude": 193.129
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 5.91,
+    "text": "Cancer 5°55′",
+    "longitude": 95.911
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 17.17,
+    "text": "Virgo 17°10′",
+    "longitude": 167.166
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 1.89,
+    "text": "Aries 1°53′",
+    "longitude": 1.889
+   }
+  },
+  {
+   "segment": "The Nile",
+   "stop": "Alexandria, the landfall",
+   "date": "1849-11-15",
+   "date_confidence": "mid-November attested; the exact day is the standard biographical date and is not independently confirmed here. Coordinate inherited byte-identical from the atlas Alexandria pin used by ibn_battuta, abdelkader, and san_antonio_abad",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396711.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 22.56,
+    "text": "Scorpio 22°34′",
+    "longitude": 232.56
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 23.85,
+    "text": "Scorpio 23°51′",
+    "longitude": 233.855
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 4.57,
+    "text": "Scorpio 4°34′",
+    "longitude": 214.574
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 26.77,
+    "text": "Libra 26°46′",
+    "longitude": 206.766
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 5.82,
+    "text": "Cancer 5°49′",
+    "longitude": 95.821
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 18.88,
+    "text": "Virgo 18°53′",
+    "longitude": 168.876
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 1.42,
+    "text": "Aries 1°25′",
+    "longitude": 1.424
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Nile",
+   "stop": "Giza, the Sphinx and the business card",
+   "date": "1849-12-01",
+   "date_confidence": "month and year attested from the correspondence; day defaulted to 01. Coordinate inherited byte-identical from the atlas Giza pin used by gurdjieff",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396727.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.75,
+    "text": "Sagittarius 8°45′",
+    "longitude": 248.746
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nile",
+   "stop": "Cairo, the Ezbekieh nights",
+   "date": "1850-01-01",
+   "date_confidence": "month and year attested from the Bouilhet letters; day defaulted to 01. Coordinate inherited byte-identical from the atlas Cairo pin used by blavatsky",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396758.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.3,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.296
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nile",
+   "stop": "Esna, the night with Kuchuk Hanem",
+   "date": "1850-03-06",
+   "date_confidence": "attested to the day in the Voyage en Egypte notebooks",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396822.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 15.11,
+    "text": "Pisces 15°07′",
+    "longitude": 345.11
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 16.89,
+    "text": "Sagittarius 16°54′",
+    "longitude": 256.894
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 17.8,
+    "text": "Aquarius 17°48′",
+    "longitude": 317.805
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 15.84,
+    "text": "Pisces 15°50′",
+    "longitude": 345.836
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 26.35,
+    "text": "Gemini 26°21′",
+    "longitude": 86.345
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 18.57,
+    "text": "Virgo 18°34′",
+    "longitude": 168.571
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 7.59,
+    "text": "Aries 7°35′",
+    "longitude": 7.586
+   }
+  },
+  {
+   "segment": "The Nile",
+   "stop": "Karnak, the hypostyle hall",
+   "date": "1850-03-10",
+   "date_confidence": "March 1850 attested; the day is reconstructed from the upstream itinerary after the 6 March Esna stop",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396826.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 19.11,
+    "text": "Pisces 19°06′",
+    "longitude": 349.107
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nile",
+   "stop": "Philae, the island temple of Isis",
+   "date": "1850-03-18",
+   "date_confidence": "CORRECTION: the research pool dated Philae February 1850, which is internally impossible, since Philae lies far upriver of Esna and the Esna stop is dated 6 March. Placed here in mid-March by itinerary; the day is reconstructed. Coordinate is the temple on Agilkia, where it now stands",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396834.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 27.07,
+    "text": "Pisces 27°04′",
+    "longitude": 357.074
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nile",
+   "stop": "Abu Simbel, the colossi and the hired Nubian",
+   "date": "1850-03-25",
+   "date_confidence": "March 1850 attested for Du Camp's photograph; the day is reconstructed from the itinerary",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396841.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 4.02,
+    "text": "Aries 4°01′",
+    "longitude": 4.016
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Levant and the Long Way Home",
+   "stop": "Beirut, the harbour and the infection",
+   "date": "1850-07-01",
+   "date_confidence": "year attested, July from the French chronology; day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396939.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.76,
+    "text": "Cancer 8°45′",
+    "longitude": 98.755
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Levant and the Long Way Home",
+   "stop": "Jerusalem, the sanctuaries walked without belief",
+   "date": "1850-08-01",
+   "date_confidence": "month and year attested from the itinerary; day defaulted to 01. Coordinate inherited byte-identical from the atlas Temple Mount pin used by ibn_battuta",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396970.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.34,
+    "text": "Leo 8°21′",
+    "longitude": 128.343
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Levant and the Long Way Home",
+   "stop": "Damascus, the Umayyad Mosque",
+   "date": "1850-08-20",
+   "date_confidence": "reconstruction. Syria is on the itinerary but no reachable source puts Flaubert inside the Umayyad Mosque on a named day; date and day are inferred. Coordinate inherited byte-identical from the atlas Umayyad Mosque pin used by abdelkader",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396989.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 26.58,
+    "text": "Leo 26°35′",
+    "longitude": 146.582
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Levant and the Long Way Home",
+   "stop": "Rhodes, the Old Town",
+   "date": "1850-10-01",
+   "date_confidence": "Rhodes attested on the itinerary (Wikipedia FR); month inferred, day defaulted to 01. Coordinate corrected to the medieval town, the research pool's pin sitting 1.3 km southwest in the modern city",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2397031.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.46,
+    "text": "Libra 7°27′",
+    "longitude": 187.458
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Levant and the Long Way Home",
+   "stop": "Hagia Sophia, Constantinople, five weeks",
+   "date": "1850-11-01",
+   "date_confidence": "five weeks in Constantinople attested (Wikipedia); month placed by itinerary, day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2397062.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.24,
+    "text": "Scorpio 8°15′",
+    "longitude": 218.245
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifty-Six Months: Madame Bovary",
+   "stop": "Croisset, the first page of Madame Bovary",
+   "date": "1851-09-19",
+   "date_confidence": "attested to the day (Wikipedia FR chronology)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397384.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 25.45,
+    "text": "Virgo 25°27′",
+    "longitude": 175.449
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 0.79,
+    "text": "Cancer 0°47′",
+    "longitude": 90.79
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 2.13,
+    "text": "Libra 2°08′",
+    "longitude": 182.131
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 22.43,
+    "text": "Virgo 22°26′",
+    "longitude": 172.433
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 11.84,
+    "text": "Cancer 11°50′",
+    "longitude": 101.84
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 25.25,
+    "text": "Libra 25°15′",
+    "longitude": 205.253
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 3.38,
+    "text": "Taurus 3°23′",
+    "longitude": 33.377
+   }
+  },
+  {
+   "segment": "Fifty-Six Months: Madame Bovary",
+   "stop": "Paris, the end of Louise Colet",
+   "date": "1855-03-06",
+   "date_confidence": "attested to the day (Wikipedia FR chronology)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398648.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 14.9,
+    "text": "Pisces 14°54′",
+    "longitude": 344.898
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 8.2,
+    "text": "Libra 8°12′",
+    "longitude": 188.202
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 15.86,
+    "text": "Pisces 15°52′",
+    "longitude": 345.86
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 4.59,
+    "text": "Aries 4°36′",
+    "longitude": 4.592
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 22.62,
+    "text": "Pisces 22°37′",
+    "longitude": 352.619
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 17.85,
+    "text": "Aquarius 17°51′",
+    "longitude": 317.85
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 9.58,
+    "text": "Gemini 9°35′",
+    "longitude": 69.58
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Fifty-Six Months: Madame Bovary",
+   "stop": "Paris, the Revue de Paris serialization",
+   "date": "1856-10-01",
+   "date_confidence": "attested: 1 October to 15 December 1856",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399223.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.0,
+    "text": "Libra 8°00′",
+    "longitude": 187.997
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 27.87,
+    "text": "Libra 27°52′",
+    "longitude": 207.873
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 2.17,
+    "text": "Scorpio 2°10′",
+    "longitude": 212.168
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 27.48,
+    "text": "Libra 27°29′",
+    "longitude": 207.477
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 9.6,
+    "text": "Sagittarius 9°36′",
+    "longitude": 249.597
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 3.63,
+    "text": "Aries 3°38′",
+    "longitude": 3.628
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 13.76,
+    "text": "Cancer 13°46′",
+    "longitude": 103.763
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Fifty-Six Months: Madame Bovary",
+   "stop": "Palais de Justice, Paris, the acquittal",
+   "date": "1857-02-07",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399352.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 18.23,
+    "text": "Aquarius 18°14′",
+    "longitude": 318.233
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 24.03,
+    "text": "Cancer 24°02′",
+    "longitude": 114.027
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 4.4,
+    "text": "Aquarius 4°24′",
+    "longitude": 304.405
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 3.49,
+    "text": "Aries 3°29′",
+    "longitude": 3.489
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 18.16,
+    "text": "Pisces 18°10′",
+    "longitude": 348.16
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 7.63,
+    "text": "Aries 7°38′",
+    "longitude": 7.632
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 8.22,
+    "text": "Cancer 8°13′",
+    "longitude": 98.216
+   }
+  },
+  {
+   "segment": "Carthage Built From Texts",
+   "stop": "Croisset, Salammbo begun",
+   "date": "1857-09-01",
+   "date_confidence": "attested to the day (Wikipedia FR chronology)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399558.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.47,
+    "text": "Virgo 8°28′",
+    "longitude": 158.469
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 28.17,
+    "text": "Capricornus 28°10′",
+    "longitude": 298.174
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 5.02,
+    "text": "Libra 5°01′",
+    "longitude": 185.018
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 27.21,
+    "text": "Cancer 27°12′",
+    "longitude": 117.206
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 12.91,
+    "text": "Leo 12°54′",
+    "longitude": 132.908
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 15.97,
+    "text": "Taurus 15°58′",
+    "longitude": 45.974
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 24.4,
+    "text": "Cancer 24°24′",
+    "longitude": 114.396
+   }
+  },
+  {
+   "segment": "Carthage Built From Texts",
+   "stop": "Medina of Tunis, the landing",
+   "date": "1858-04-12",
+   "date_confidence": "attested: the research trip runs 12 April to 5 June 1858",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399781.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 21.8,
+    "text": "Aries 21°48′",
+    "longitude": 21.801
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 25.81,
+    "text": "Pisces 25°49′",
+    "longitude": 355.814
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 8.76,
+    "text": "Taurus 8°45′",
+    "longitude": 38.757
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 2.48,
+    "text": "Taurus 2°29′",
+    "longitude": 32.478
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 2.12,
+    "text": "Sagittarius 2°07′",
+    "longitude": 242.117
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 19.89,
+    "text": "Taurus 19°53′",
+    "longitude": 49.887
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 21.87,
+    "text": "Cancer 21°52′",
+    "longitude": 111.873
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Carthage Built From Texts",
+   "stop": "Byrsa Hill, Carthage, nothing standing",
+   "date": "1858-05-01",
+   "date_confidence": "within the attested April-June 1858 trip; month and day placed by inference",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399800.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.32,
+    "text": "Taurus 10°19′",
+    "longitude": 40.317
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Carthage Built From Texts",
+   "stop": "Paris, Salammbo published",
+   "date": "1862-01-01",
+   "date_confidence": "year attested; month and day defaulted to 01. The publication falls late in 1862, but no reachable source in this pass fixes the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401141.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "no source (for the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.38,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.384
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Emptying House",
+   "stop": "Croisset, L'Education sentimentale",
+   "date": "1864-09-01",
+   "date_confidence": "attested to the day for the start, 1 September 1864; the completion on 16 May 1869 is likewise attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2402115.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.77,
+    "text": "Virgo 8°46′",
+    "longitude": 158.766
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 5.98,
+    "text": "Virgo 5°59′",
+    "longitude": 155.976
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 5.61,
+    "text": "Libra 5°37′",
+    "longitude": 185.612
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 21.0,
+    "text": "Virgo 21°00′",
+    "longitude": 171.002
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 3.13,
+    "text": "Gemini 3°08′",
+    "longitude": 63.133
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 21.0,
+    "text": "Scorpio 21°00′",
+    "longitude": 231.002
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 16.03,
+    "text": "Libra 16°02′",
+    "longitude": 196.031
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Emptying House",
+   "stop": "Paris, L'Education sentimentale published to a cold room",
+   "date": "1869-11-01",
+   "date_confidence": "month and year attested; day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2404002.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.64,
+    "text": "Scorpio 8°38′",
+    "longitude": 218.639
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Emptying House",
+   "stop": "Croisset, the Prussians in the house",
+   "date": "1870-12-01",
+   "date_confidence": "year attested for the occupation of Croisset and the refuge at Rouen; month inferred from the campaign, day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404397.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.65,
+    "text": "Sagittarius 8°39′",
+    "longitude": 248.648
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Emptying House",
+   "stop": "Croisset, the mother dies",
+   "date": "1872-04-06",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404889.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 16.51,
+    "text": "Aries 16°31′",
+    "longitude": 16.512
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 20.8,
+    "text": "Pisces 20°48′",
+    "longitude": 350.797
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 5.59,
+    "text": "Taurus 5°35′",
+    "longitude": 35.588
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 19.94,
+    "text": "Pisces 19°56′",
+    "longitude": 349.939
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 26.58,
+    "text": "Aries 26°35′",
+    "longitude": 26.583
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 20.57,
+    "text": "Cancer 20°34′",
+    "longitude": 110.566
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 20.51,
+    "text": "Capricornus 20°31′",
+    "longitude": 290.512
+   }
+  },
+  {
+   "segment": "The Emptying House",
+   "stop": "Paris, the last Temptation of Saint Anthony",
+   "date": "1874-01-01",
+   "date_confidence": "year attested; month and day defaulted to 01. Essay 196 of the corpus dates a first publication of the Temptation to 1849, which is the year of the first manuscript version; the two dates are left standing side by side",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405524.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.473
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Emptying House",
+   "stop": "Paris, Trois Contes",
+   "date": "1877-04-24",
+   "date_confidence": "attested to the day (Wikipedia FR chronology)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406733.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.91,
+    "text": "Taurus 3°54′",
+    "longitude": 33.908
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 15.92,
+    "text": "Virgo 15°55′",
+    "longitude": 165.922
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 21.49,
+    "text": "Taurus 21°29′",
+    "longitude": 51.49
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 0.47,
+    "text": "Taurus 0°28′",
+    "longitude": 30.47
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 4.24,
+    "text": "Aquarius 4°14′",
+    "longitude": 304.235
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 3.67,
+    "text": "Capricornus 3°40′",
+    "longitude": 273.666
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 16.46,
+    "text": "Pisces 16°28′",
+    "longitude": 346.463
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Croisset, the Unfinished Book",
+   "stop": "Croisset, the sudden hemorrhage",
+   "date": "1880-05-08",
+   "date_confidence": "attested to the day. The frequently repeated detail that he died at his writing desk is not supported by any source consulted and is not asserted here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407843.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 17.75,
+    "text": "Taurus 17°45′",
+    "longitude": 47.748
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 3.73,
+    "text": "Taurus 3°44′",
+    "longitude": 33.726
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 24.01,
+    "text": "Aries 24°01′",
+    "longitude": 24.011
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 29.73,
+    "text": "Aries 29°44′",
+    "longitude": 29.726
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 15.27,
+    "text": "Cancer 15°16′",
+    "longitude": 105.268
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 8.13,
+    "text": "Aries 8°08′",
+    "longitude": 8.134
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 22.15,
+    "text": "Aries 22°09′",
+    "longitude": 22.149
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Croisset, the Unfinished Book",
+   "stop": "Cimetiere monumental de Rouen, the family vault",
+   "date": "1880-05-11",
+   "date_confidence": "attested to the day. Coordinate reconciled to the cemetery's own position given by Wikipedia FR; all three research lenses supplied different and wrong pins for it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407846.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 20.65,
+    "text": "Taurus 20°39′",
+    "longitude": 50.645
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 9.65,
+    "text": "Gemini 9°39′",
+    "longitude": 69.654
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 28.58,
+    "text": "Aries 28°35′",
+    "longitude": 28.578
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 3.4,
+    "text": "Taurus 3°24′",
+    "longitude": 33.397
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.03,
+    "text": "Cancer 17°02′",
+    "longitude": 107.03
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 8.77,
+    "text": "Aries 8°46′",
+    "longitude": 8.767
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 22.5,
+    "text": "Aries 22°30′",
+    "longitude": 22.502
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Mercury",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 16,
+  "month": 11,
+  "year": 16
+ },
+ "parse_failures": []
+}

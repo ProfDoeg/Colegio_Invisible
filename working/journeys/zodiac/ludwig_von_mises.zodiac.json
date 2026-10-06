@@ -1,0 +1,1866 @@
+{
+ "slug": "ludwig_von_mises",
+ "traveler": "Ludwig Heinrich Edler von Mises",
+ "title": "The Chamber Office and the Locked Archive: Mises from Lemberg to West End Avenue",
+ "years": "1881-1973",
+ "years_parsed": {
+  "first": 1881,
+  "last": 1973
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Lemberg, and the Name the Emperor Gave",
+  "stop": "Lemberg, born three months after the ennoblement",
+  "date": "1881-09-29",
+  "date_confidence": "Attested. Birth date and place are given by the University of Vienna Memorial Book (gedenkbuch.univie.ac.at) and by English Wikipedia; the ennoblement of Mayer Rachmiel Mises in 1881 is attested by mises.org, 'Ludwig von Mises and the Vienna of His Time'. The coordinate is the Lviv city point, not a house address: no source consulted names the street.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1881,
+  "jd_ut": 2408352.5,
+  "precision": "year",
+  "precision_triggers": [
+   "(soft-year) year named with preposition",
+   "(soft) no source"
+  ],
+  "sun": {
+   "sign": "Libra",
+   "degree": 5.98,
+   "text": "Libra 5°59′",
+   "longitude": 185.976
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1881-1973",
+  "first_year_parsed": 1881
+ },
+ "stops": [
+  {
+   "segment": "Lemberg, and the Name the Emperor Gave",
+   "stop": "Lemberg, born three months after the ennoblement",
+   "date": "1881-09-29",
+   "date_confidence": "Attested. Birth date and place are given by the University of Vienna Memorial Book (gedenkbuch.univie.ac.at) and by English Wikipedia; the ennoblement of Mayer Rachmiel Mises in 1881 is attested by mises.org, 'Ludwig von Mises and the Vienna of His Time'. The coordinate is the Lviv city point, not a house address: no source consulted names the street.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408352.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 5.98,
+    "text": "Libra 5°59′",
+    "longitude": 185.976
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lemberg, and the Name the Emperor Gave",
+   "stop": "Wollzeile, the family follows the railways west",
+   "date": "1889-01-01",
+   "date_confidence": "Year uncertain: mises.org, 'Ludwig von Mises and the Vienna of His Time', gives the relocation as 1889 or 1892 without deciding, and 1889 is used here only to order the segment. The addresses Elisabethgasse 3, Friedrichstrasse 4 and Wollzeile 24 are attested from the same source; the pin is Wollzeile 24 (48.2081, 16.3768, Nominatim), the address Mises himself later occupied, not necessarily the first the family took.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411003.5,
+   "precision": "year",
+   "precision_triggers": [
+    "uncertain",
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.84,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.838
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lemberg, and the Name the Emperor Gave",
+   "stop": "Akademisches Gymnasium, the eight years of Latin",
+   "date": "1892-09-01",
+   "date_confidence": "Entry in 1892 attested by mises.org, 'Who Was Ludwig von Mises?'; the month is conventional for a Gymnasium year and is not separately attested. Coordinate corrected to Beethovenplatz 1, 1010 Wien (48.2015, 16.3766, OpenStreetMap/Nominatim). The Kelsen friendship comes from English Wikipedia and the dossier, not from a school register consulted here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.99,
+    "text": "Virgo 8°59′",
+    "longitude": 158.988
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The University, Menger, and the Chamber",
+   "stop": "University of Vienna, the law faculty",
+   "date": "1900-10-01",
+   "date_confidence": "Enrolment in 1900 in law and government science attested by mises.org, 'Who Was Ludwig von Mises?'; October is the conventional start of the Austrian academic year and is not separately attested. The Galician landlord-and-peasant student study is attested by English Wikipedia and the dossier's education section.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415293.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.35,
+    "text": "Libra 7°21′",
+    "longitude": 187.353
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The University, Menger, and the Chamber",
+   "stop": "Halberstadt, the father does not come out of surgery",
+   "date": "1903-01-01",
+   "date_confidence": "Year and place attested by mises.org, 'Ludwig von Mises and the Vienna of His Time'; month and day are unattested and defaulted. The coordinate is the Halberstadt town point: no source consulted names the hospital, the surgeon, or the procedure. Arthur von Mises's exact age at death is not stated in the sources reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.41,
+    "text": "Capricornus 9°25′",
+    "longitude": 279.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The University, Menger, and the Chamber",
+   "stop": "University of Vienna, reading Menger's Grundsatze",
+   "date": "1903-06-01",
+   "date_confidence": "Circa 1903, and the whole of it rests on Mises's own retrospective account in Notes and Recollections; no contemporary document places the reading in a particular month or year. The month here is purely an ordering device, set after his father's death in the same year, and carries no evidential weight. The stop sits at the university pin because that is where he was enrolled, not because the reading is recorded as happening in the building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416266.5,
+   "precision": "year",
+   "precision_triggers": [
+    "circa",
+    "ordering",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.33,
+    "text": "Gemini 9°20′",
+    "longitude": 69.334
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The University, Menger, and the Chamber",
+   "stop": "University of Vienna, Bohm-Bawerk's seminar",
+   "date": "1904-10-01",
+   "date_confidence": "Attendance from 1904 attested in the dossier from Mises's Notes and Recollections; month defaulted to the start of the academic year. The presence of Schumpeter, Bauer and Hilferding in the same seminar is standard in the literature on the Austrian School and is carried here from the dossier rather than from a seminar register.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416754.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.38,
+    "text": "Libra 7°23′",
+    "longitude": 187.384
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The University, Menger, and the Chamber",
+   "stop": "University of Vienna, the doctorate in law",
+   "date": "1906-02-20",
+   "date_confidence": "Attested: mises.org, 'Who Was Ludwig von Mises?', gives February 1906; the dossier gives 20 February 1906 and the day is carried from the dossier without independent confirmation. Entry into the state financial administration in 1906 is a reconstruction from the same source's general statement, with no appointment document consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417261.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition, reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 0.47,
+    "text": "Pisces 0°28′",
+    "longitude": 330.467
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 19.71,
+    "text": "Capricornus 19°43′",
+    "longitude": 289.709
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 29.75,
+    "text": "Aquarius 29°45′",
+    "longitude": 329.754
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 1.84,
+    "text": "Pisces 1°50′",
+    "longitude": 331.835
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 11.24,
+    "text": "Aries 11°15′",
+    "longitude": 11.243
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 27.88,
+    "text": "Taurus 27°53′",
+    "longitude": 57.885
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 4.71,
+    "text": "Pisces 4°43′",
+    "longitude": 334.712
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The University, Menger, and the Chamber",
+   "stop": "The Chamber of Commerce, Vienna: the salaried post",
+   "date": "1909-01-01",
+   "date_confidence": "Attested by mises.org, 'Who Was Ludwig von Mises?' and the University of Vienna Memorial Book: he joined in 1909, served roughly twenty-five years, and eventually headed the finance department. Month and day unattested and defaulted. The coordinate is the dossier's pin for the Lower Austrian Chamber and was not independently re-geocoded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The University, Menger, and the Chamber",
+   "stop": "Vienna, The Theory of Money and Credit",
+   "date": "1912-01-01",
+   "date_confidence": "Publication in 1912 attested by econlib.org's Concise Encyclopedia of Economics biography. Month and day unattested and defaulted. The pin is the Chamber office, where he was employed while writing it; no source consulted states where the book was written.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The University, Menger, and the Chamber",
+   "stop": "University of Vienna, the lectureship that pays nothing",
+   "date": "1913-01-01",
+   "date_confidence": "Privatdozent from 1913 and the unpaid extraordinarius title from 1918 are both attested by the University of Vienna Memorial Book (gedenkbuch.univie.ac.at) and mises.org. Month and day for both are unattested; 1913 is used to order the segment and the 1918 title is folded into this stop rather than given its own. No source consulted states a reason for the absence of a paid chair.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419768.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 279.996
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Field Artillery, and the Empire Coming Apart",
+   "stop": "The Galician front, the Thirtieth Field Cannon Regiment",
+   "date": "1914-08-01",
+   "date_confidence": "Mobilization on 1 August 1914, service with Austro-Hungarian field artillery including the 30th Field Cannon Regiment, combat in Galicia and the Carpathians, later service in Russian Ukraine and Crimea, and the rank of captain are all carried from the dossier's First World War section, citing Hulsmann's biography and personnel records, none of which was fetched directly in this pass. The coordinate is a point on the Galician front, not a documented position.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420345.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.9,
+    "text": "Leo 7°54′",
+    "longitude": 127.897
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 4.34,
+    "text": "Sagittarius 4°20′",
+    "longitude": 244.339
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 19.89,
+    "text": "Cancer 19°54′",
+    "longitude": 109.894
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 18.95,
+    "text": "Virgo 18°57′",
+    "longitude": 168.953
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 21.5,
+    "text": "Virgo 21°30′",
+    "longitude": 171.502
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 18.58,
+    "text": "Aquarius 18°35′",
+    "longitude": 318.58
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 27.74,
+    "text": "Gemini 27°45′",
+    "longitude": 87.743
+   }
+  },
+  {
+   "segment": "Field Artillery, and the Empire Coming Apart",
+   "stop": "The Stubenring, memoranda for a ministry with months left",
+   "date": "1917-01-01",
+   "date_confidence": "Transfer from front duty to economic staff work and the subject matter of the memoranda are carried from the dossier, which cites records recovered from Moscow; not independently verified. Month and day unattested and defaulted. Coordinate corrected: the k.u.k. Kriegsministerium occupied the Regierungsgebaude, Stubenring 1, 1010 Wien, from 1913 (48.2098, 16.3830, Nominatim); the dossier's 48.2044, 16.3679 lands near Karlsplatz and is wrong.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Field Artillery, and the Empire Coming Apart",
+   "stop": "Vienna, the Settlements Office and the talk with Otto Bauer",
+   "date": "1919-01-01",
+   "date_confidence": "Reconstruction. The directorship of the Austrian restitution-and-settlements office in 1918-1920 comes from the dossier; the claim that a private conversation with Otto Bauer helped dissuade a Bolshevik seizure of power rests on Mises's own recollection alone and the dossier flags it as such. No independent documentation has been produced by anyone. Month and day defaulted; the coordinate is the dossier's and was not re-geocoded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Field Artillery, and the Empire Coming Apart",
+   "stop": "Vienna, the calculation article",
+   "date": "1920-01-01",
+   "date_confidence": "Attested: English Wikipedia's article on the economic calculation problem refers throughout to 'his 1920 article', Die Wirtschaftsrechnung im sozialistischen Gemeinwesen; Nation, Staat und Wirtschaft (1919) is standard bibliography. An earlier pass in this dossier recorded both as unconfirmed; that non-attestation is itself wrong and is corrected here. Month and day unattested and defaulted; the pin is his Chamber office.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Field Artillery, and the Empire Coming Apart",
+   "stop": "The Herrengasse, the crown printed into nothing",
+   "date": "1922-01-01",
+   "date_confidence": "Advisory work on the reorganization of the Austrian National Bank and on the resolution of the Austrian hyperinflation in 1922 is attested by the University of Vienna Memorial Book. Month and day unattested and defaulted. Coordinate corrected: in 1922 the bank still occupied the former Austro-Hungarian Bank premises on the Herrengasse (approx. 48.2107, 16.3653); the purpose-built Otto-Wagner-Platz building (48.2163, 16.3544) was in use only from the mid-1920s.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423055.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Private Seminar",
+   "stop": "Cafe Kunstler, the Friday circle",
+   "date": "1923-01-01",
+   "date_confidence": "The private seminar, its alternate-Friday schedule in Mises's Chamber office, its continuation at an Italian restaurant and then at the Cafe Kunstler, and the named regulars are all carried from the dossier's private-seminar section; the Memorial Book independently attests that his Vienna seminar drew Hayek. The date 1923 is an ordering device: the seminar ran across the 1920s and into 1934, and no start date is attested. The coordinate is the dossier's.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423420.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.56,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.56
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Private Seminar",
+   "stop": "New York, the first American tour",
+   "date": "1926-01-01",
+   "date_confidence": "The 1926 lecture and research tour funded by the Laura Spelman Rockefeller Memorial is carried from the dossier's travel section; month, day and itinerary are unattested and the date is defaulted. The coordinate is the generic New York City point, used because no venue is named in any source consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Private Seminar",
+   "stop": "Vienna, the Institute for Business Cycle Research",
+   "date": "1927-01-01",
+   "date_confidence": "Year corrected to 1927. English and German Wikipedia both give 1927 for the founding of the Osterreichisches Institut fur Konjunkturforschung by Mises with Hayek; econlib.org's biography says 1926, and the dossier carried both figures in different sections without reconciling them. The contradiction is recorded, not hidden. Month and day unattested and defaulted; the coordinate is the dossier's.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Private Seminar",
+   "stop": "Vienna, adviser to Chancellor Dollfuss",
+   "date": "1933-01-01",
+   "date_confidence": "Reconstruction. The service as economic adviser to Engelbert Dollfuss is asserted by the Austria in USA cultural forum biography (austriainusa.org) and repeated in the dossier; no appointment document, memorandum, or contemporary record of what he advised was reached in this pass. Month and day unattested and defaulted. The pin is his Chamber office, not a chancellery room.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427073.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, and the Emptied Apartment",
+   "stop": "Geneva, the first salaried chair of his life",
+   "date": "1934-10-25",
+   "date_confidence": "Attested: the departure from Vienna on 3 October 1934 and the first Geneva lecture on 25 October are given in the dossier's Geneva section; the appointment itself is confirmed by econlib.org. Coordinate corrected to the Geneva Graduate Institute campus by the lake (46.2211, 6.1437, per Wikipedia's 46 13 15.8 N, 6 08 37.3 E); the dossier's 46.2044, 6.1432 is the city centre, about 1.9 km away.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427735.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 0.89,
+    "text": "Scorpio 0°53′",
+    "longitude": 210.889
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 0.56,
+    "text": "Gemini 0°34′",
+    "longitude": 60.564
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 18.56,
+    "text": "Scorpio 18°34′",
+    "longitude": 228.56
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 24.6,
+    "text": "Libra 24°36′",
+    "longitude": 204.596
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 3.99,
+    "text": "Virgo 3°59′",
+    "longitude": 153.989
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 2.93,
+    "text": "Scorpio 2°56′",
+    "longitude": 212.934
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 21.18,
+    "text": "Aquarius 21°11′",
+    "longitude": 321.183
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Geneva, and the Emptied Apartment",
+   "stop": "Wollzeile, twenty-one boxes",
+   "date": "1938-03-01",
+   "date_confidence": "Attested that the Gestapo seized Mises's papers, library, correspondence, silver, paintings and coin collection from the Vienna apartment he had held since 1911 (FEE, Richard Ebeling, 'Mises's Lost Papers'; University of Graz Mises Private Archive project). Sources disagree on the day: English Wikipedia puts the raid on the day German forces entered Vienna, 12 March, while the dossier says days after, with twenty-one boxes removed in late March. Not reconciled. Coordinate corrected to Wollzeile 24 (48.2081, 16.3768).",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428958.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.76,
+    "text": "Pisces 9°46′",
+    "longitude": 339.758
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, and the Emptied Apartment",
+   "stop": "University of Vienna, struck from the roll",
+   "date": "1938-04-22",
+   "date_confidence": "The expulsion is attested by the University of Vienna Memorial Book, which the dossier reads as giving 22 April 1938 while other institutional pages give 8 April; the discrepancy is unresolved and 22 April is used here only to order the segment. The Memorial Book's own tagging of the entry is a reconstruction in the dossier's reading, not a quoted decree.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429010.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "ordering",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 1.22,
+    "text": "Taurus 1°13′",
+    "longitude": 31.216
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, and the Emptied Apartment",
+   "stop": "Geneva, the marriage to Margit Serenyi",
+   "date": "1938-07-06",
+   "date_confidence": "Reconstruction as to the exact day and place: mises.org attests the 1938 Geneva marriage, and the dossier gives 6 July 1938 at the Hotel de Ville with a courtship beginning at a Vienna dinner in 1925, drawing chiefly on Margit von Mises's own memoir. The coordinate is the Geneva Hotel de Ville and is the dossier's.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429085.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 13.27,
+    "text": "Cancer 13°16′",
+    "longitude": 103.273
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, and the Emptied Apartment",
+   "stop": "Paris, the Colloque Walter Lippmann",
+   "date": "1938-08-01",
+   "date_confidence": "The colloquium and Mises's participation alongside Hayek, Ropke, Rustow, Lippmann and Rougier are carried from the dossier's Geneva section; the day is unattested and defaulted. The coordinate is the generic Paris centroid, used as an explicit fallback: the actual venue of the colloquium was not established in this pass, and a precise Paris address fixed for some unrelated event would be false precision here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429111.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.09,
+    "text": "Leo 8°05′",
+    "longitude": 128.089
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, and the Emptied Apartment",
+   "stop": "Geneva, Nationalokonomie and the papers for leaving",
+   "date": "1940-05-31",
+   "date_confidence": "Attested with unusual precision for the documents: the lawyer Pierre-Em. Atteslander's April 1940 request, the Swiss identity certificates delivered 31 May 1940, the Portuguese consulate's request of 5 June and Lisbon's authorization of 6 June are all from Procesos de Mercado, 'The Secret Passage: How Amzalak and Salazar Helped Ludwig von Mises Escape the Nazis' (2025). Nationalokonomie's 1940 Geneva publication by Editions Union is attested by the dossier and Wikipedia. The coordinate is the Geneva city point.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429780.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.39,
+    "text": "Gemini 9°23′",
+    "longitude": 69.388
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 0.83,
+    "text": "Aries 0°50′",
+    "longitude": 0.832
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 20.3,
+    "text": "Gemini 20°18′",
+    "longitude": 80.304
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 12.75,
+    "text": "Cancer 12°45′",
+    "longitude": 102.751
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 8.63,
+    "text": "Cancer 8°38′",
+    "longitude": 98.626
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 3.39,
+    "text": "Taurus 3°23′",
+    "longitude": 33.391
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 8.6,
+    "text": "Taurus 8°36′",
+    "longitude": 38.596
+   }
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Southern France, the road out",
+   "date": "1940-07-04",
+   "date_confidence": "Departure from Geneva on 4 July 1940 is attested in the dossier from Margit von Mises's memoir, which is the only detailed witness to the journey; later accounts do not agree on the means of transport or the road. The coordinate is a point in southern France (Toulouse) standing for a route that no source reconstructs day by day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429814.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 11.86,
+    "text": "Cancer 11°52′",
+    "longitude": 101.859
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "The Spanish frontier, turned back and turned back again",
+   "date": "1940-07-10",
+   "date_confidence": "The repeated refusals at the Spanish frontier come from Margit von Mises's memoir alone, via the dossier; no day is attested and 10 July is an ordering device. Coordinate re-anchored: the dossier's 42.3667, 1.7833 sits in the high Pyrenees with no crossing used by 1940 refugees. Cerbere-Portbou (approx. 42.43, 3.16) is used as the Mediterranean-end crossing; the Atlantic-end alternative is Hendaye-Irun (approx. 43.35, -1.79). Which they actually used is not recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429820.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (not recorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.58,
+    "text": "Cancer 17°35′",
+    "longitude": 107.579
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Lisbon, the last open door in Europe",
+   "date": "1940-07-25",
+   "date_confidence": "Arrival in Lisbon and embarkation for America are attested in outline; the assistance of the Portuguese economist Moses Bensabat Amzalak and the Salazar government's documentation is from Procesos de Mercado (2025). No day of arrival or sailing is attested and 25 July is an ordering device between the 4 July departure and the 2 August landing. The coordinate is the Lisbon port point.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429835.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.89,
+    "text": "Leo 1°54′",
+    "longitude": 121.892
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "A New Jersey pier, Alfred Schutz waiting",
+   "date": "1940-08-02",
+   "date_confidence": "Reconstruction as to the detail. Arrival in the United States in August 1940 with Rockefeller Foundation support is attested (mises.org; austriainusa.org). The 2 August date, the New Jersey pier, and Alfred Schutz meeting the ship come from the dossier alone, and no atlas file or independent source corroborates the Schutz detail. The coordinate is the dossier's.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429843.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 9.54,
+    "text": "Leo 9°32′",
+    "longitude": 129.541
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Re-establishment in America",
+   "stop": "Harvard, Money as a Dynamic Factor",
+   "date": "1940-12-01",
+   "date_confidence": "The Harvard lecture on 'Money as a Dynamic Factor' in December 1940 and the American relationships formed around it (Hazlitt, Chamberlain, Eastman, Read, Fertig) are carried from the dossier's re-establishment section; the day is unattested and defaulted. The coordinate is the dossier's Harvard pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429964.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.66,
+    "text": "Sagittarius 8°40′",
+    "longitude": 248.663
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Re-establishment in America",
+   "stop": "The National Bureau of Economic Research, a year on the payroll",
+   "date": "1940-12-15",
+   "date_confidence": "Reconstruction. The guest-researcher position from 15 December 1940, the one-year term, and the Rockefeller-supported grant of 2,500 dollars come from the dossier's re-establishment section; no grant record or NBER document was reached in this pass. The Notes and Recollections sentence quoted here is attested as Mises's own, written in December 1940, via Margit von Mises's foreword to the Liberty Fund edition.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429978.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 22.88,
+    "text": "Sagittarius 22°53′",
+    "longitude": 262.885
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 25.02,
+    "text": "Gemini 25°01′",
+    "longitude": 85.018
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 8.01,
+    "text": "Sagittarius 8°01′",
+    "longitude": 248.012
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 22.79,
+    "text": "Scorpio 22°48′",
+    "longitude": 232.793
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 16.07,
+    "text": "Scorpio 16°04′",
+    "longitude": 226.07
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 6.26,
+    "text": "Taurus 6°15′",
+    "longitude": 36.255
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 8.16,
+    "text": "Taurus 8°10′",
+    "longitude": 38.165
+   }
+  },
+  {
+   "segment": "Re-establishment in America",
+   "stop": "777 West End Avenue, apartment 3E",
+   "date": "1941-10-01",
+   "date_confidence": "The move into apartment 3E at 777 West End Avenue in October 1941 after a year of temporary lodging, and the couple's retention of the rent-regulated flat for life, are from the dossier. The day is unattested and defaulted. Coordinate corrected: 777 West End Avenue geocodes to 40.7966, -73.9725 (Nominatim), consistent with the West 98th Street cross street; the dossier's 40.7897, -73.9770 is roughly 800 m south.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430268.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.43,
+    "text": "Libra 7°26′",
+    "longitude": 187.426
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Re-establishment in America",
+   "stop": "Mexico City, lectures at the national university",
+   "date": "1942-01-01",
+   "date_confidence": "The 1942 visiting professorship and lectures at the National Autonomous University of Mexico are attested in the dossier, which however misattributed the resulting book. Corrected: the Mexico lectures were published as Problemas economicos de Mexico; Economic Policy: Thoughts for Today and Tomorrow is the 1959 Buenos Aires material (mises.org, Economic Policy library page). Month and day unattested and defaulted; the UNAM coordinate is confirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430360.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.955
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Re-establishment in America",
+   "stop": "Trinity Place, the NYU seminar begins",
+   "date": "1945-02-01",
+   "date_confidence": "Attested: mises.org gives a visiting professorship at New York University from February 1945 to May 1969, and the dossier adds the Trinity Place commerce campus, the William Volker Fund salary, and the later Fertig consortium. Coordinate inherited byte-identical from murray_rothbard.journey.json, which pins the same room at 40.7079, -74.0138; it was not re-geocoded here. The day is unattested and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431487.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.79,
+    "text": "Aquarius 11°47′",
+    "longitude": 311.789
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Re-establishment in America",
+   "stop": "Irvington-on-Hudson, the Foundation for Economic Education",
+   "date": "1946-01-01",
+   "date_confidence": "Attested that Mises advised FEE from 1946 until his death, was placed on its payroll in its first year, and that FEE published his Planned Chaos (dossier, FEE section). United States citizenship in 1946 is attested by mises.org and econlib.org, with no courthouse or date detail found; it is folded into this stop rather than pinned to a generic city point. Month and day unattested and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431821.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.985
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mont Pelerin and Human Action",
+   "stop": "Mont Pelerin, the Hotel du Parc",
+   "date": "1947-04-10",
+   "date_confidence": "Attested: English Wikipedia's Mont Pelerin Society article gives the founding meeting at the Hotel du Parc, Mont Pelerin near Vevey, 10 April 1947, with thirty-nine participants. Coordinate corrected to Mont Pelerin, Chardonne, Vaud (46.4969, 6.8193, Wikipedia and Nominatim); the dossier's 46.4550, 6.8564 lands near Chexbres. The walkout is a separate matter, flagged in the campa: it is Milton Friedman's recollection, related by the Hoover Institution, of this or a later meeting, and is not a verified verbatim exchange.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432285.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 19.3,
+    "text": "Aries 19°18′",
+    "longitude": 19.299
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 10.03,
+    "text": "Sagittarius 10°02′",
+    "longitude": 250.032
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 22.03,
+    "text": "Pisces 22°02′",
+    "longitude": 352.031
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 11.96,
+    "text": "Pisces 11°58′",
+    "longitude": 341.959
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 28.49,
+    "text": "Pisces 28°29′",
+    "longitude": 358.488
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 26.53,
+    "text": "Scorpio 26°32′",
+    "longitude": 236.526
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 1.97,
+    "text": "Leo 1°58′",
+    "longitude": 121.971
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Mont Pelerin and Human Action",
+   "stop": "New Haven, Human Action",
+   "date": "1949-09-14",
+   "date_confidence": "The 1949 Yale University Press first edition is attested (Open Library record; English Wikipedia, 'Human Action'), and Eugene Davidson's role as editor is from the dossier. The day, 14 September, is carried from the dossier and could not be independently confirmed in sources reachable here; the year is not in doubt. The earlier dossier tag of [R] on this publication was wrong and is corrected to attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433173.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 20.85,
+    "text": "Virgo 20°51′",
+    "longitude": 170.849
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.63,
+    "text": "Gemini 2°38′",
+    "longitude": 62.634
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 16.71,
+    "text": "Libra 16°42′",
+    "longitude": 196.707
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 29.16,
+    "text": "Libra 29°10′",
+    "longitude": 209.164
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 4.27,
+    "text": "Leo 4°16′",
+    "longitude": 124.268
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 22.44,
+    "text": "Capricornus 22°27′",
+    "longitude": 292.445
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 11.1,
+    "text": "Virgo 11°06′",
+    "longitude": 161.103
+   }
+  },
+  {
+   "segment": "Mont Pelerin and Human Action",
+   "stop": "Trinity Place, Rothbard comes to the seminar",
+   "date": "1949-10-01",
+   "date_confidence": "Attendance and the 1949 trigger are attested in murray_rothbard.journey.json, which dates his first attendance 1949-09-01; since Human Action appeared in mid-September, October is used here purely to keep this file's segment in chronological order, and the discrepancy is deliberate and noted. The 1962 commendation of Man, Economy, and State and the anarchism split are likewise attested in Rothbard's file. Pin inherited byte-identical from that file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433190.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.49,
+    "text": "Libra 7°29′",
+    "longitude": 187.488
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Honors, and the Grave",
+   "stop": "Grove City College, the honorary doctorate",
+   "date": "1957-01-01",
+   "date_confidence": "The 1957 honorary LL.D. is confirmed by English Wikipedia; the route through his student Hans Sennholz and the later custody of some 20,000 pages of Mises papers are from the dossier and Wikipedia. The Freiburg honorary doctorate in political science (1964) and the NYU honorary doctorate (1963) are attested in the dossier's awards section and are folded into this stop rather than given pins of their own. Coordinate corrected to 41.1553, -80.0787 (Nominatim). Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2435839.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.32,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.321
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Honors, and the Grave",
+   "stop": "Buenos Aires, six lectures at the university",
+   "date": "1959-01-01",
+   "date_confidence": "Attested by mises.org's Economic Policy library page: the six lectures were delivered at the University of Buenos Aires in 1959, later written up in prose, and published by Regnery in 1979 with a Free Market Books edition in 1995. The dossier missed this journey entirely and attached the resulting book to the 1942 Mexico trip instead. Month, day and venue are unattested; the coordinate is the Buenos Aires city point, and the university building is not identified in the source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Honors, and the Grave",
+   "stop": "Chicago, Regnery repairs the botched edition",
+   "date": "1966-01-01",
+   "date_confidence": "Attested that Yale's 1963 revised edition of Human Action was defective and had to be reprinted (English Wikipedia, 'Human Action'), that Mises called it a scandalous botchery (dossier, Human Action section), and that Henry Regnery issued a corrected third edition in 1966. Month and day unattested and defaulted; the coordinate is the generic Chicago point, the Regnery office address not being established here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439126.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Honors, and the Grave",
+   "stop": "Trinity Place, the last seminar",
+   "date": "1969-05-01",
+   "date_confidence": "The end of the NYU visiting professorship in May 1969 is attested by mises.org and the dossier's NYU section; the day is unattested and defaulted. Pin inherited byte-identical from murray_rothbard.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440342.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.46,
+    "text": "Taurus 10°27′",
+    "longitude": 40.456
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Honors, and the Grave",
+   "stop": "777 West End Avenue, the death",
+   "date": "1973-10-10",
+   "date_confidence": "Death on 10 October 1973 in New York City at age 92 is attested by the University of Vienna Memorial Book, mises.org, and English Wikipedia. That he died in the West End Avenue apartment is inferred from the dossier's statement that the couple kept it for life and is not separately documented. No public source consulted gives a cause of death. Coordinate corrected to 40.7966, -73.9725.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1973,
+   "jd_ut": 2441965.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (inferred) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.55,
+    "text": "Libra 16°33′",
+    "longitude": 196.547
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 19.72,
+    "text": "Pisces 19°43′",
+    "longitude": 349.721
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 9.64,
+    "text": "Scorpio 9°39′",
+    "longitude": 219.642
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 0.75,
+    "text": "Sagittarius 0°45′",
+    "longitude": 240.749
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 6.32,
+    "text": "Taurus 6°19′",
+    "longitude": 36.323
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.44,
+    "text": "Aquarius 2°26′",
+    "longitude": 302.442
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 4.73,
+    "text": "Cancer 4°44′",
+    "longitude": 94.733
+   }
+  },
+  {
+   "segment": "The Late Honors, and the Grave",
+   "stop": "Ferncliff, Hartsdale",
+   "date": "1973-10-13",
+   "date_confidence": "Burial at Ferncliff Cemetery, Hartsdale, Westchester County is attested by English Wikipedia; the date of interment is unattested and 13 October is an ordering device. Coordinate corrected to 41.0275, -73.8322 (Wikipedia, 41 01 39 N 73 49 56 W); the dossier carried two different wrong pins for the same cemetery. The Hillsdale bequest, the Ebeling recovery in October 1996, and the Austrian restitution are attested by English Wikipedia, FEE (Ebeling's own account), and the University of Graz project page respectively.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1973,
+   "jd_ut": 2441968.5,
+   "precision": "month",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 19.51,
+    "text": "Libra 19°31′",
+    "longitude": 199.515
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 8,
+  "month": 6,
+  "year": 31
+ },
+ "parse_failures": []
+}

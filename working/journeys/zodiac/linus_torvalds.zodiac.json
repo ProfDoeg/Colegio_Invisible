@@ -1,0 +1,1890 @@
+{
+ "slug": "linus_torvalds",
+ "traveler": "Linus Benedict Torvalds",
+ "title": "The Terminal Emulator That Became an Operating System: Helsinki, the Newsgroup, and Thirty Years of Merging Patches",
+ "years": "1969-present",
+ "years_parsed": {
+  "first": 1969,
+  "last": 2026
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Statistician's Grandson",
+  "stop": "Helsinki, birth in the year of Unix",
+  "date": "1969-12-28",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1969,
+  "jd_ut": 2440583.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 6.09,
+   "text": "Capricornus 6°05′",
+   "longitude": 276.085
+  },
+  "moon": {
+   "sign": "Leo",
+   "degree": 22.45,
+   "text": "Leo 22°27′",
+   "longitude": 142.454
+  },
+  "mercury": {
+   "sign": "Capricornus",
+   "degree": 25.78,
+   "text": "Capricornus 25°47′",
+   "longitude": 295.782
+  },
+  "venus": {
+   "sign": "Sagittarius",
+   "degree": 29.43,
+   "text": "Sagittarius 29°26′",
+   "longitude": 269.431
+  },
+  "mars": {
+   "sign": "Pisces",
+   "degree": 9.25,
+   "text": "Pisces 9°15′",
+   "longitude": 339.246
+  },
+  "jupiter": {
+   "sign": "Scorpio",
+   "degree": 1.75,
+   "text": "Scorpio 1°45′",
+   "longitude": 211.746
+  },
+  "saturn": {
+   "sign": "Taurus",
+   "degree": 2.0,
+   "text": "Taurus 2°00′",
+   "longitude": 32.003
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1969-present",
+  "first_year_parsed": 1969
+ },
+ "stops": [
+  {
+   "segment": "The Statistician's Grandson",
+   "stop": "Helsinki, birth in the year of Unix",
+   "date": "1969-12-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440583.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.09,
+    "text": "Capricornus 6°05′",
+    "longitude": 276.085
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 22.45,
+    "text": "Leo 22°27′",
+    "longitude": 142.454
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 25.78,
+    "text": "Capricornus 25°47′",
+    "longitude": 295.782
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 29.43,
+    "text": "Sagittarius 29°26′",
+    "longitude": 269.431
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 9.25,
+    "text": "Pisces 9°15′",
+    "longitude": 339.246
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 1.75,
+    "text": "Scorpio 1°45′",
+    "longitude": 211.746
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 2.0,
+    "text": "Taurus 2°00′",
+    "longitude": 32.003
+   }
+  },
+  {
+   "segment": "The Statistician's Grandson",
+   "stop": "Helsinki, the grandfather's VIC-20",
+   "date": "1981-01-01",
+   "date_confidence": "year approximate; sources give his age as around eleven",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444605.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.498
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Statistician's Grandson",
+   "stop": "Helsinki, the university on Teollisuuskatu",
+   "date": "1988-01-01",
+   "date_confidence": "attested to the year; no month in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1988,
+   "jd_ut": 2447161.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.79,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.785
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Statistician's Grandson",
+   "stop": "Dragsvik, eleven months with the Nyland Brigade",
+   "date": "1989-06-01",
+   "date_confidence": "year attested; summer start reported, exact date not fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1989,
+   "jd_ut": 2447678.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.5,
+    "text": "Gemini 10°30′",
+    "longitude": 70.496
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Statistician's Grandson",
+   "stop": "Helsinki, ULTRIX on the MicroVAX",
+   "date": "1990-01-01",
+   "date_confidence": "attested to the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2447892.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.31
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The 386 and the Hobby",
+   "stop": "Helsinki, an 80386 bought on installments",
+   "date": "1991-01-05",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448261.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.14,
+    "text": "Capricornus 14°08′",
+    "longitude": 284.14
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 10.91,
+    "text": "Virgo 10°55′",
+    "longitude": 160.914
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 23.83,
+    "text": "Sagittarius 23°50′",
+    "longitude": 263.826
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 29.75,
+    "text": "Capricornus 29°45′",
+    "longitude": 299.751
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 27.78,
+    "text": "Taurus 27°47′",
+    "longitude": 57.784
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 11.58,
+    "text": "Leo 11°35′",
+    "longitude": 131.577
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 26.0,
+    "text": "Capricornus 26°00′",
+    "longitude": 296.0
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The 386 and the Hobby",
+   "stop": "Helsinki, the post to comp.os.minix",
+   "date": "1991-08-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448493.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 1.32,
+    "text": "Virgo 1°19′",
+    "longitude": 151.316
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 26.99,
+    "text": "Aquarius 26°59′",
+    "longitude": 326.991
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 25.72,
+    "text": "Leo 25°43′",
+    "longitude": 145.725
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 27.89,
+    "text": "Leo 27°53′",
+    "longitude": 147.887
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 25.34,
+    "text": "Virgo 25°20′",
+    "longitude": 175.341
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 26.04,
+    "text": "Leo 26°02′",
+    "longitude": 146.037
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 1.31,
+    "text": "Aquarius 1°19′",
+    "longitude": 301.313
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The 386 and the Hobby",
+   "stop": "Helsinki, the answer on portability",
+   "date": "1991-08-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448494.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 2.28,
+    "text": "Virgo 2°17′",
+    "longitude": 152.28
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 9.39,
+    "text": "Pisces 9°23′",
+    "longitude": 339.39
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 25.03,
+    "text": "Leo 25°02′",
+    "longitude": 145.028
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 27.28,
+    "text": "Leo 27°17′",
+    "longitude": 147.278
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 25.98,
+    "text": "Virgo 25°59′",
+    "longitude": 175.98
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 26.25,
+    "text": "Leo 26°15′",
+    "longitude": 146.255
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 1.25,
+    "text": "Aquarius 1°15′",
+    "longitude": 301.255
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The 386 and the Hobby",
+   "stop": "Otaniemi, the directory renamed on ftp.funet.fi",
+   "date": "1991-09-17",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448516.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 23.62,
+    "text": "Virgo 23°37′",
+    "longitude": 173.616
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 5.38,
+    "text": "Capricornus 5°23′",
+    "longitude": 275.384
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 9.71,
+    "text": "Virgo 9°42′",
+    "longitude": 159.706
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 21.24,
+    "text": "Leo 21°15′",
+    "longitude": 141.243
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 10.2,
+    "text": "Libra 10°12′",
+    "longitude": 190.2
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 0.97,
+    "text": "Virgo 0°58′",
+    "longitude": 150.974
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.28,
+    "text": "Aquarius 0°17′",
+    "longitude": 300.284
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The 386 and the Hobby",
+   "stop": "Helsinki, the release notes signed with an address",
+   "date": "1991-09-17",
+   "date_confidence": "dated here to the release of kernel 0.01, since the document itself carries no date; the kernel.org file timestamp of 23 June 1993 records an archive re-upload, not authorship. Some catalogues date it October 1991, which is the month of the 0.02 release",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 23.62,
+    "text": "Virgo 23°37′",
+    "longitude": 173.616
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The 386 and the Hobby",
+   "stop": "Helsinki, the announcement of 0.02",
+   "date": "1991-10-05",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448534.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 11.26,
+    "text": "Libra 11°16′",
+    "longitude": 191.259
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 3.69,
+    "text": "Virgo 3°41′",
+    "longitude": 153.686
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 12.27,
+    "text": "Libra 12°16′",
+    "longitude": 192.271
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 28.74,
+    "text": "Leo 28°45′",
+    "longitude": 148.742
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 22.09,
+    "text": "Libra 22°05′",
+    "longitude": 202.087
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 4.62,
+    "text": "Virgo 4°37′",
+    "longitude": 154.622
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.02,
+    "text": "Aquarius 0°01′",
+    "longitude": 300.021
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The 386 and the Hobby",
+   "stop": "Otaniemi, Wirzenius takes him to hear Stallman",
+   "date": "1991-11-01",
+   "date_confidence": "autumn 1991; no exact date in the sources consulted, and the month here is a placeholder within the attested season",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1991,
+   "jd_ut": 2448561.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.06,
+    "text": "Scorpio 8°04′",
+    "longitude": 218.064
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Version One, and the Penguin",
+   "stop": "Helsinki, the sequence set down for a stranger",
+   "date": "1992-05-05",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448747.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 14.76,
+    "text": "Taurus 14°45′",
+    "longitude": 44.757
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 13.57,
+    "text": "Gemini 13°34′",
+    "longitude": 73.571
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 20.46,
+    "text": "Aries 20°28′",
+    "longitude": 20.459
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 4.13,
+    "text": "Taurus 4°08′",
+    "longitude": 34.127
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 29.3,
+    "text": "Pisces 29°18′",
+    "longitude": 359.303
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 4.59,
+    "text": "Virgo 4°36′",
+    "longitude": 154.592
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 17.82,
+    "text": "Aquarius 17°49′",
+    "longitude": 317.823
+   }
+  },
+  {
+   "segment": "Version One, and the Penguin",
+   "stop": "Canberra, bitten by a little penguin",
+   "date": "1993-01-01",
+   "date_confidence": "year attested; no month in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1993,
+   "jd_ut": 2448988.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.587
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Version One, and the Penguin",
+   "stop": "Helsinki, the student who sent mail",
+   "date": "1993-01-01",
+   "date_confidence": "year attested for the meeting; the wedding is dated 1997 by secondary accounts and no consulted source names a venue",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1993,
+   "jd_ut": 2448988.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.587
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Version One, and the Penguin",
+   "stop": "Helsinki, version 1.0",
+   "date": "1994-03-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1994,
+   "jd_ut": 2449425.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.19,
+    "text": "Pisces 23°11′",
+    "longitude": 353.186
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 11.99,
+    "text": "Aries 12°00′",
+    "longitude": 11.993
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 26.13,
+    "text": "Aquarius 26°08′",
+    "longitude": 326.135
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 6.73,
+    "text": "Aries 6°44′",
+    "longitude": 6.729
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 5.15,
+    "text": "Pisces 5°09′",
+    "longitude": 335.148
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 14.26,
+    "text": "Scorpio 14°16′",
+    "longitude": 224.26
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 5.04,
+    "text": "Pisces 5°03′",
+    "longitude": 335.045
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Version One, and the Penguin",
+   "stop": "Helsinki, a penguin and a minor planet take the name",
+   "date": "1996-01-01",
+   "date_confidence": "1996 attested for both the Tux artwork and asteroid 9793; the Kalliope satellite's name is approved by the IAU in July 2003",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450083.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.844
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Version One, and the Penguin",
+   "stop": "Helsinki, the thesis that answers the newsgroup",
+   "date": "1997-01-01",
+   "date_confidence": "the geography lens dates the thesis 1996-1997 and the chronology lens dates the degree 1997; unresolved to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1997,
+   "jd_ut": 2450449.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.616
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Santa Clara, Transmeta and the secret chip",
+   "date": "1997-02-01",
+   "date_confidence": "attested to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1997,
+   "jd_ut": 2450480.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.17,
+    "text": "Aquarius 12°10′",
+    "longitude": 312.174
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Stockholm, the first honorary doctorate",
+   "date": "1999-01-01",
+   "date_confidence": "contradicted between lenses: the afterlife lens reads Wikipedia as giving 1999, the geography lens gives 2000 from press biographies. Not resolved here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1999,
+   "jd_ut": 2451179.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Helsinki, the university confers a doctorate",
+   "date": "2000-01-01",
+   "date_confidence": "year repeated across press biographies; not confirmed against a University of Helsinki primary announcement in this pass",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451544.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.874
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Santa Clara, the century's short list",
+   "date": "2000-01-01",
+   "date_confidence": "a cluster dated to its middle: the EFF Pioneer Award is 1998, the Ada Lovelace Medal and the Royal Swedish Academy seat 2000, the Takeda Award 2001",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451544.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.874
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "The South Bay, the mailing list as an office",
+   "date": "2000-08-25",
+   "date_confidence": "the household's presence in the Santa Clara and San Jose corridor 1997-2003 is reconstruction: no source names a street. The quotation is tradition, dated 25 August 2000 by repetition and not verified here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451781.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year range",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 2.11,
+    "text": "Virgo 2°07′",
+    "longitude": 152.111
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "New York, the accidental revolutionary in print",
+   "date": "2001-01-01",
+   "date_confidence": "year of publication attested; the roster of translated editions is unverified",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2001,
+   "jd_ut": 2451910.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.646
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Santa Clara, leaving the chip company",
+   "date": "2003-06-01",
+   "date_confidence": "attested to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2003,
+   "jd_ut": 2452791.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.13,
+    "text": "Gemini 10°08′",
+    "longitude": 70.128
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Beaverton, the consortium takes him on",
+   "date": "2003-07-01",
+   "date_confidence": "year attested; the month is a placeholder, since the sources give only that he joined in 2003 after leaving Transmeta in June",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2003,
+   "jd_ut": 2452821.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.79,
+    "text": "Cancer 8°47′",
+    "longitude": 98.789
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oregon, and the Tool Written in Four Days",
+   "stop": "Dunthorpe, the woods above the Willamette",
+   "date": "2004-06-01",
+   "date_confidence": "attested to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2004,
+   "jd_ut": 2453157.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.86,
+    "text": "Gemini 10°51′",
+    "longitude": 70.855
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oregon, and the Tool Written in Four Days",
+   "stop": "Dunthorpe, the licence revoked and the replacement begun",
+   "date": "2005-04-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2005,
+   "jd_ut": 2453463.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 13.35,
+    "text": "Aries 13°21′",
+    "longitude": 13.349
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 26.12,
+    "text": "Capricornus 26°07′",
+    "longitude": 296.121
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 5.52,
+    "text": "Aries 5°31′",
+    "longitude": 5.519
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 14.08,
+    "text": "Aries 14°05′",
+    "longitude": 14.081
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 9.6,
+    "text": "Aquarius 9°36′",
+    "longitude": 309.602
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 14.04,
+    "text": "Libra 14°02′",
+    "longitude": 194.039
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 20.41,
+    "text": "Cancer 20°24′",
+    "longitude": 110.408
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Oregon, and the Tool Written in Four Days",
+   "stop": "Dunthorpe, Git keeps its own source",
+   "date": "2005-04-07",
+   "date_confidence": "attested: development began 3 April, public announcement 6 April, self-hosting 7 April, first multi-branch merge 18 April, performance target met 29 April",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2005,
+   "jd_ut": 2453467.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 17.29,
+    "text": "Aries 17°17′",
+    "longitude": 17.288
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 23.28,
+    "text": "Pisces 23°17′",
+    "longitude": 353.278
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 3.02,
+    "text": "Aries 3°01′",
+    "longitude": 3.022
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 19.04,
+    "text": "Aries 19°03′",
+    "longitude": 19.043
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 12.5,
+    "text": "Aquarius 12°30′",
+    "longitude": 312.503
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.52,
+    "text": "Libra 13°31′",
+    "longitude": 193.524
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 20.51,
+    "text": "Cancer 20°31′",
+    "longitude": 110.511
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Oregon, and the Tool Written in Four Days",
+   "stop": "Dunthorpe, the tool handed to Junio Hamano",
+   "date": "2005-07-01",
+   "date_confidence": "year attested; the month is not fixed in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2005,
+   "jd_ut": 2453552.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.28,
+    "text": "Cancer 9°17′",
+    "longitude": 99.281
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oregon, and the Tool Written in Four Days",
+   "stop": "Portland, the Vollum Award at Reed College",
+   "date": "2005-09-01",
+   "date_confidence": "year attested; the month is a placeholder within it, since no ceremony date appears in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2005,
+   "jd_ut": 2453614.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.67,
+    "text": "Virgo 8°40′",
+    "longitude": 158.671
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oregon, and the Tool Written in Four Days",
+   "stop": "Portland, the Foundation formed around him",
+   "date": "2007-01-01",
+   "date_confidence": "year attested; no month in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2007,
+   "jd_ut": 2454101.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.18,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.18
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prizes and the Finger",
+   "stop": "Mountain View, Fellow of the Computer History Museum",
+   "date": "2008-01-01",
+   "date_confidence": "attested to the year by the chronology lens; the interlock lens found no atlas file stating it and flagged it as outside knowledge",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2008,
+   "jd_ut": 2454466.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.933
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prizes and the Finger",
+   "stop": "Dunthorpe, the second passport",
+   "date": "2010-01-01",
+   "date_confidence": "year attested for both the naturalization and the C&C Prize; no dates or venues in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2010,
+   "jd_ut": 2455197.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.46,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.457
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prizes and the Finger",
+   "stop": "Portland, Subsurface and the dive log",
+   "date": "2011-01-01",
+   "date_confidence": "year attested for the start; the handover to Dirk Hohndel is dated 2012",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2011,
+   "jd_ut": 2455562.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.21,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.21
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prizes and the Finger",
+   "stop": "Geneva, the first class of the Internet Hall of Fame",
+   "date": "2012-04-23",
+   "date_confidence": "contradicted between lenses: chronology gives 23 April 2012 at Global INET in Geneva and calls the class inaugural; geography could not confirm the ceremony city against a primary source and marked the coordinate a placeholder",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2012,
+   "jd_ut": 2456040.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (placeholder, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.25,
+    "text": "Taurus 3°15′",
+    "longitude": 33.253
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 21.61,
+    "text": "Taurus 21°36′",
+    "longitude": 51.606
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 6.31,
+    "text": "Aries 6°18′",
+    "longitude": 6.307
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 15.64,
+    "text": "Gemini 15°38′",
+    "longitude": 75.637
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 4.14,
+    "text": "Virgo 4°08′",
+    "longitude": 154.136
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 18.32,
+    "text": "Taurus 18°19′",
+    "longitude": 48.323
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 25.76,
+    "text": "Libra 25°46′",
+    "longitude": 205.761
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Prizes and the Finger",
+   "stop": "Helsinki, the Millennium Technology Prize",
+   "date": "2012-06-01",
+   "date_confidence": "prize year and the shared laureate are attested; the ceremony venue and day are unverified, a reported date of 13 June 2012 and a venue of Finlandia Hall being unconfirmed against any primary source, and the frequent claim that this was the prize's inaugural cycle is false, the first award having gone to Tim Berners-Lee in 2004",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2012,
+   "jd_ut": 2456079.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.92,
+    "text": "Gemini 10°55′",
+    "longitude": 70.919
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 22.31,
+    "text": "Libra 22°19′",
+    "longitude": 202.313
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 16.51,
+    "text": "Gemini 16°30′",
+    "longitude": 76.506
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 18.85,
+    "text": "Gemini 18°51′",
+    "longitude": 78.846
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 14.73,
+    "text": "Virgo 14°44′",
+    "longitude": 164.733
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 27.52,
+    "text": "Taurus 27°31′",
+    "longitude": 57.519
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 23.38,
+    "text": "Libra 23°23′",
+    "longitude": 203.379
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Prizes and the Finger",
+   "stop": "Otaniemi, the answer about graphics drivers",
+   "date": "2012-06-14",
+   "date_confidence": "date widely reported; the wording is tradition and could not be verified against a primary transcript or the video in this pass",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2012,
+   "jd_ut": 2456092.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.36,
+    "text": "Gemini 23°21′",
+    "longitude": 83.356
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Code and the Conduct",
+   "stop": "Vancouver, the interview he agreed to",
+   "date": "2016-02-01",
+   "date_confidence": "attested to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457419.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.55,
+    "text": "Aquarius 11°33′",
+    "longitude": 311.553
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Code and the Conduct",
+   "stop": "Las Vegas, an award on the show floor",
+   "date": "2018-01-01",
+   "date_confidence": "January 2018 at CES is sound; the exact day of 12 January is unverified. The IEEE Computer Pioneer Award of 2014 is dated 23 April in press roundups, with no ceremony city fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458119.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.52,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.516
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Code and the Conduct",
+   "stop": "Dunthorpe, a written rule aimed at him",
+   "date": "2018-09-01",
+   "date_confidence": "attested to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458362.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.53,
+    "text": "Virgo 8°32′",
+    "longitude": 158.532
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Code and the Conduct",
+   "stop": "New York, named among the Great Immigrants",
+   "date": "2019-01-01",
+   "date_confidence": "year attested; no ceremony or date in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2019,
+   "jd_ut": 2458484.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.269
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Code and the Conduct",
+   "stop": "Dunthorpe, the log that is the monument",
+   "date": "2020-01-01",
+   "date_confidence": "ongoing; dated to the decade, since the subject is living and no terminal date exists",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2020,
+   "jd_ut": 2458849.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.02,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.022
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 12,
+  "month": 8,
+  "year": 23
+ },
+ "parse_failures": []
+}

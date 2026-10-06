@@ -1,0 +1,1769 @@
+{
+ "slug": "curtis_yarvin",
+ "traveler": "Curtis Guy Yarvin (Mencius Moldbug)",
+ "title": "The Formalist: Unqualified Reservations, Urbit, and the Stack Rebuilt From Nothing",
+ "years": "1973-",
+ "years_parsed": {
+  "first": 1973,
+  "last": 2026
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "note": "no stop identified as the birth (no birth/born/nace in a stop name, no stop in the first year 1973)",
+  "years_field": "1973-",
+  "first_year_parsed": 1973
+ },
+ "stops": [
+  {
+   "segment": "The Diplomat's Son",
+   "stop": "Brooklyn, the grandparents on the father's side",
+   "date": "1970-01-01",
+   "date_confidence": "[R] reconstruction, and a family-background pin rather than a place Yarvin went. Wikipedia's biography confirms that his paternal grandparents were Jewish communists but does not place them in Brooklyn; Brooklyn, the unfinished philosophy doctorate, the attempted novel and the father's given name all come from Ava Kofman's New Yorker profile of 9 June 2025, which is paywalled and could not be read in this pass. The 1970 date is an ordering device only. The birth year 1973 is confirmed by Wikipedia; no reachable source gives a birthplace, a month or a day, so none is asserted here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440587.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "no source (for the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.16,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.162
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Diplomat's Son",
+   "stop": "Tarrytown, the other half of the inheritance",
+   "date": "1970-06-01",
+   "date_confidence": "[R] reconstruction, family-background pin. Wikipedia states only that his mother was from Westchester County, New York, and that her family was Protestant. Tarrytown specifically, the grandparents' residence there and the Nantucket cottage come from the New Yorker profile, unreadable in this pass. Tarrytown is inside Westchester so the claim is compatible, not confirmed. Nothing establishes that Yarvin himself was ever at either address; no scene is staged here. Date is an ordering device.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440738.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.11,
+    "text": "Gemini 10°06′",
+    "longitude": 70.106
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Diplomat's Son",
+   "stop": "Santo Domingo, a posting in the Caribbean",
+   "date": "1978-01-01",
+   "date_confidence": "[R]. The Dominican Republic posting appears in the New Yorker profile and in no source reachable in this pass; Wikipedia's biography names only Nicosia. The city is an inference: no source gives one, and Santo Domingo is the capital and the embassy city. The coordinate is the Mirador Sur district, a general city pin, and deliberately makes no claim about an embassy address. The 1978 date orders the segment and is not attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443509.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.22,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.221
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Diplomat's Son",
+   "stop": "Nicosia, the divided capital",
+   "date": "1980-01-01",
+   "date_confidence": "The posting itself is [A]: Wikipedia states the father was a United States diplomat posted in Nicosia. The years are not established anywhere reachable and 1980 is an ordering device. The pin is the city, not the embassy: the modern chancery in Engomi is not the building of the 1970s posting, and no source names the address. The detail about the ambassador killed in 1974 is [A] for Nicosia and is context for the post, not a claim that Yarvin's father was there that year.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444239.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "ordering",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.73,
+    "text": "Capricornus 9°44′",
+    "longitude": 279.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Three Grades Ahead",
+   "stop": "Johns Hopkins, Baltimore: the Study of Mathematically Precocious Youth",
+   "date": "1985-01-01",
+   "date_confidence": "The 1985 entry into SMPY is [A], stated in Wikipedia's biography, as are the three skipped grades and the homeschooling by his mother. The pin is an institutional stand-in and is flagged as such: the Homewood campus coordinate is correct for Johns Hopkins, but nothing establishes that Yarvin was ever physically on it, and no scene of him there is written. SMPY identified children by mailed testing across the country. Month and day defaulted; only the year is given by the source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1985,
+   "jd_ut": 2446066.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.528
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Three Grades Ahead",
+   "stop": "Wilde Lake High School, Columbia: graduation at fifteen",
+   "date": "1988-06-01",
+   "date_confidence": "[A] for the school, the town and the year 1988, per Wikipedia's biography, which also gives the approximate age of fifteen. Month defaulted to June for a high school graduation; no source gives a date. The coordinate has been corrected to 5460 Trumpeter Road, the school's actual site, rather than the Columbia Town Center point carried in the research pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1988,
+   "jd_ut": 2447313.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.73,
+    "text": "Gemini 10°44′",
+    "longitude": 70.728
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Three Grades Ahead",
+   "stop": "Cornell, Ithaca: a summer ahead of schedule",
+   "date": "1988-07-01",
+   "date_confidence": "[R]. The research pool carried this as attested to Wikipedia's biography; the article was fetched twice, rendered and raw, and does not contain it. The Cornell pre-college summer program therefore rests on profile journalism alone and is downgraded here. The year is an inference from the 1988 high school graduation and the 1992 Brown degree, and the month is a default. The coordinate sits on North Campus, about five hundred metres north of the university's own reference point.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1988,
+   "jd_ut": 2447343.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.38,
+    "text": "Cancer 9°23′",
+    "longitude": 99.384
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Three Grades Ahead",
+   "stop": "Van Wickle Gates, Providence: the Brown degree",
+   "date": "1992-05-01",
+   "date_confidence": "[A] for the university and the year: Wikipedia records a Brown BA in 1992. Month defaulted to May. The age of eighteen or nineteen follows from the 1973 birth year. The claim carried in the research pool that his parents met at Brown is not in any source reachable in this pass and has been dropped; it traces only to the New Yorker profile. What the degree was in is not stated by any source found.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448743.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.88,
+    "text": "Taurus 10°53′",
+    "longitude": 40.878
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berkeley, Redwood City, and the Wireless Web",
+   "stop": "Sather Gate, Berkeley: the doctorate abandoned",
+   "date": "1992-09-01",
+   "date_confidence": "The enrolment and the departure after roughly a year and a half are [A], stated in Wikipedia's biography, which gives no start year. September 1992 is a back-inference from the Brown degree and is flagged as such, not attested. The research pool's claim that Glenn Reynolds introduced him to Mises and Rothbard at Berkeley has been cut: it is supported by nothing reachable, and Reynolds is a University of Tennessee law professor with no Berkeley affiliation. Coordinate is Sather Gate, within forty metres.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448866.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.81,
+    "text": "Virgo 8°49′",
+    "longitude": 158.81
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berkeley, Redwood City, and the Wireless Web",
+   "stop": "Redwood City, Unwired Planet becomes Phone.com",
+   "date": "1996-01-01",
+   "date_confidence": "The corporate chronology is [A] from Wikipedia's Openwave article: founded 1996 as Libris, Inc., renamed Unwired Planet the same year, renamed Phone.com in 1999 when it listed on NASDAQ as PHCM, and Openwave Systems only from 2001 after the Software.com merger; headquarters in Redwood City throughout. Yarvin's employment there is [A] only through the patent assignment, since the current Wikipedia biography does not mention Openwave at all. The million-dollar windfall is [R], reported and undated; the research pool wrongly dated it to 1998 and it can only belong to the 1999 listing. Coordinate is a city pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450083.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.844
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berkeley, Redwood City, and the Wireless Web",
+   "stop": "Redwood City, the patent that is abandoned",
+   "date": "2001-01-05",
+   "date_confidence": "[A] and exact. Google Patents records application US09/755,482, publication US20030189593A1, 'Method and apparatus for dynamically updating a markup language based user interface,' priority 5 January 2001, published 9 October 2003, status abandoned, assignee Openwave Systems Inc. The later essay reframing the filing as an ancestor of React, and the self-deflating 'ninety-five percent overstated,' are [R]: they come from a 2025 Gray Mirror post reported in the dossier and not fetched in this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2001,
+   "jd_ut": 2451914.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.72,
+    "text": "Capricornus 14°43′",
+    "longitude": 284.723
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 9.46,
+    "text": "Taurus 9°27′",
+    "longitude": 39.457
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 20.82,
+    "text": "Capricornus 20°49′",
+    "longitude": 290.822
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 1.36,
+    "text": "Pisces 1°22′",
+    "longitude": 331.364
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 7.28,
+    "text": "Scorpio 7°17′",
+    "longitude": 217.277
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 2.0,
+    "text": "Gemini 2°00′",
+    "longitude": 62.004
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 24.12,
+    "text": "Taurus 24°07′",
+    "longitude": 54.118
+   }
+  },
+  {
+   "segment": "Berkeley, Redwood City, and the Wireless Web",
+   "stop": "Haight-Ashbury, the condominium and the long silence",
+   "date": "2002-01-01",
+   "date_confidence": "The 2002 start date for Urbit is [A] in the sense that it is Yarvin's own consistent retrospective dating, reflected in Wikipedia and the Urbit blog history; it is a self-report about an unpublished private project and cannot be corroborated from outside. The Haight-Ashbury condominium is [R]: it appears in profile journalism relayed by the dossier and in no source that could be re-fetched. The coordinate is Haight and Ashbury, correct as a neighbourhood pin, and asserts no address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2002,
+   "jd_ut": 2452275.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.398
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Unqualified Reservations",
+   "stop": "San Francisco, the swift boat and the red pill",
+   "date": "2004-09-01",
+   "date_confidence": "[R], and explicitly a self-report. The research pool tagged this attested; the Wikipedia biography fetched in this pass does not contain the Swift Boat episode at all. What exists is Yarvin's own later retelling of a change of mind. The 2004 date is the date of the Kerry campaign and of the Swift Boat Veterans for Truth advertisements, not the date of any statement by him. The San Francisco pin is his city of residence in that year and stands in for a place no source names. Month defaulted to September, when the controversy peaked.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2004,
+   "jd_ut": 2453249.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) no source",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.91,
+    "text": "Virgo 8°54′",
+    "longitude": 158.905
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Unqualified Reservations",
+   "stop": "San Francisco, A Formalist Manifesto",
+   "date": "2007-04-01",
+   "date_confidence": "[A] for the blog, the pseudonym, the opening essay and its argument; the essay text was fetched directly from unqualified-reservations.org and the launch is dated to 2007 by Wikipedia. Day defaulted; April is the posting month given by the archive. The San Francisco pin is his residence, not a place the writing happened in any documented room.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2007,
+   "jd_ut": 2454191.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.9,
+    "text": "Aries 10°54′",
+    "longitude": 10.898
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Unqualified Reservations",
+   "stop": "San Francisco, neocameralism",
+   "date": "2008-01-01",
+   "date_confidence": "[R] for the 2008 dating. The term and the doctrine are securely Yarvin's and are described in Wikipedia's biography, but no reachable source dates the coinage to a specific post; 2008 is the conventional year and month and day are defaults. The Nick Land material at the end of this stop is dated separately and firmly: Land's essay-cycle 'The Dark Enlightenment' is dated 2012 by Wikipedia and by Land's own file, and is cited here as a later reader's one-directional engagement with this argument, not as a scene on this journey. Land was in Shanghai; nothing is staged there.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2008,
+   "jd_ut": 2454466.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.933
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Unqualified Reservations",
+   "stop": "San Francisco, the meeting with Peter Thiel",
+   "date": "2009-01-01",
+   "date_confidence": "[R]. The 2009 date and the detail that the meeting took place at Thiel's San Francisco home rest entirely on the New Yorker profile, which is paywalled and was not readable; archive.ph is unfetchable from this environment. Wikipedia's Peter Thiel article does not mention Yarvin, Moldbug, Tlon or Urbit at all, and Wikipedia's Yarvin article gives no meeting date. Nothing contradicts 2009 and nothing reachable supports it. Month and day defaulted. The pin is the canonical San Francisco coordinate carried by peter_thiel.journey.json, inherited byte-identical; it does not assert a house. Thiel's Cato Unbound essay of 13 April 2009 is [A] and is dated on his own file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2009,
+   "jd_ut": 2454832.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.7,
+    "text": "Capricornus 10°42′",
+    "longitude": 280.705
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Unqualified Reservations",
+   "stop": "San Francisco, Urbit described in public",
+   "date": "2010-01-01",
+   "date_confidence": "[A] to the month: the essay 'Urbit: Functional Programming from Scratch' is dated January 2010 in the Urbit project's own blog history and in Wikipedia's account; day defaulted. Wikipedia's Urbit article independently dates the first code release to 2010. The pin is his city of residence, not a documented venue.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2010,
+   "jd_ut": 2455197.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.46,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.457
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlon: The Stack Rebuilt From Nothing",
+   "stop": "San Francisco, Tlon Corporation",
+   "date": "2013-01-01",
+   "date_confidence": "[A] for the 2013 founding and for Founders Fund among the early backers, per Wikipedia's biography. The Borges derivation of the name is [A]: Wikipedia's Urbit article states that Tlon was 'named after the short story Tlon, Uqbar, Orbis Tertius by Jorge Luis Borges.' Marc Andreessen's firm as an investor is [R], dossier-sourced; marc_andreessen.journey.json contains no mention of Urbit, Tlon or Yarvin on direct search, and the claim could not be confirmed. Month and day defaulted. Pin inherited byte-identical from the canonical San Francisco coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2013,
+   "jd_ut": 2456293.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.734
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlon: The Stack Rebuilt From Nothing",
+   "stop": "San Francisco, Geeks for Monarchy",
+   "date": "2013-11-22",
+   "date_confidence": "[A] and exact. TechCrunch published 'Geeks for Monarchy' on 22 November 2013; the article was fetched directly and names Curtis Yarvin as the author behind Mencius Moldbug and ties him to the Urbit and Tlon software project. The pin is his city; the article was written elsewhere and the unmasking happened on the internet, not at an address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2013,
+   "jd_ut": 2456618.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 29.85,
+    "text": "Scorpio 29°51′",
+    "longitude": 239.846
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 18.17,
+    "text": "Cancer 18°10′",
+    "longitude": 108.173
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.06,
+    "text": "Scorpio 11°04′",
+    "longitude": 221.059
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 14.9,
+    "text": "Capricornus 14°54′",
+    "longitude": 284.899
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 21.56,
+    "text": "Virgo 21°34′",
+    "longitude": 171.564
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 20.1,
+    "text": "Cancer 20°06′",
+    "longitude": 110.098
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 16.22,
+    "text": "Scorpio 16°13′",
+    "longitude": 226.221
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Tlon: The Stack Rebuilt From Nothing",
+   "stop": "400 McAllister Street, the suit against a co-founder",
+   "date": "2014-01-01",
+   "date_confidence": "[R]. The docket number CGC-14-543402, the court and the tort/fraud category come from a Trellis Law docket summary cited in the dossier and were not independently re-fetched; the merits are not reconstructable from any accessible record, and a 2015 dismissal appears in metadata only. The Thiel Fellowship award to John Burnham is [R], dossier-sourced, and is not named in peter_thiel.journey.json's own fellowship stop. Month and day defaulted to the year of filing. Coordinate is the San Francisco Superior Court civic centre courthouse.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2014,
+   "jd_ut": 2456658.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.49,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.487
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlon: The Stack Rebuilt From Nothing",
+   "stop": "San Francisco, the talk that is uninvited",
+   "date": "2015-01-01",
+   "date_confidence": "[R], and the pin is deliberate. The Strange Loop rescission is widely reported and was NOT independently verified in this pass: the Wikipedia biography contains no mention of Strange Loop, wired.com and theverge.com are unfetchable from this environment, a Register URL 404s and thestrangeloop.com/news returns 403. More important, Yarvin was disinvited and did not travel to St. Louis, so no St. Louis stop is written and none of the research pool's Powell Hall coordinate is used. The pin is his own city. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2015,
+   "jd_ut": 2457023.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.24,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.239
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlon: The Stack Rebuilt From Nothing",
+   "stop": "Boulder, LambdaConf keeps the talk",
+   "date": "2016-04-01",
+   "date_confidence": "The controversy and its outcome are [A] in outline: Wikipedia's biography records that LambdaConf's organizers retained his blindly-selected Urbit talk despite an open letter, that speakers and sponsors withdrew and that a counter-event formed. Boulder as the host city is [R], reported generally and not confirmed against a primary program archive. John De Goes's own essay on the controversy was fetched directly and confirms the speaker withdrawals, the replacement speakers and the higher attendance, but it names neither Yarvin nor the city. Month defaulted to the conference's usual spring date; day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457479.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.71,
+    "text": "Aries 11°42′",
+    "longitude": 11.707
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlon: The Stack Rebuilt From Nothing",
+   "stop": "San Francisco, the mission declared complete",
+   "date": "2016-04-01",
+   "date_confidence": "[A] for April 2016 per Wikipedia's biography; day defaulted. A contradiction is flagged and not resolved: graymirror.substack.com/about, fetched directly, gives Yarvin's own framing of Unqualified Reservations as running '2007-13,' which does not match the April 2016 valediction. Both datings are his. The likeliest reading is that the sustained run tapers in 2013 and the formal conclusion comes three years later, but no source states this and it is not asserted as fact. Pin is his city.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457479.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.71,
+    "text": "Aries 11°42′",
+    "longitude": 11.707
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlon: The Stack Rebuilt From Nothing",
+   "stop": "San Francisco, a solid-state interpreter",
+   "date": "2016-05-01",
+   "date_confidence": "[A] for the paper, its title and its four authors, per the technical publication record synthesized in the dossier; May 2016 is the recorded month and the day is defaulted. The description of Nock as a small frozen combinator calculus is [A] from the Urbit project's own documentation. Pin is his city of residence; the paper has no venue.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457509.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.07,
+    "text": "Taurus 11°04′",
+    "longitude": 41.066
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlon: The Stack Rebuilt From Nothing",
+   "stop": "San Francisco, two hundred and fifty-six galaxies",
+   "date": "2016-06-01",
+   "date_confidence": "[A] for the distribution figures, disclosed by the Urbit project in 2016 and recorded in the project's own materials: 95 to Tlon, 50 to a future foundation, 40 to employees and families with 24 of those to Yarvin personally, 34 to outside investors, 37 to other individuals. Month and day defaulted within the year. The address-space counts are [A] from Wikipedia's Urbit article. Yarvin's own use of the phrase 'digital feudalism' for the 2010 design is [A] from the same article, which also records Josh Lehman's 2022 rejection of the characterisation.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457540.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.95,
+    "text": "Gemini 10°57′",
+    "longitude": 70.95
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlon: The Stack Rebuilt From Nothing",
+   "stop": "San Francisco, bootstrapping from Ethereum",
+   "date": "2017-09-19",
+   "date_confidence": "[A] and exact for the post: urbit.org/blog/bootstrapping-urbit-from-ethereum is dated 19 September 2017, authored by ~sorreg-namtyv and ~ravmel-ropdyl. The post's own justification is the bootstrap and key-trust deadlock and the line that Urbit address space 'is a land registry, not a currency, transactions are low-frequency.' The research pool's scare-quoted 'weak' and 'boring' are not in the fetched text and are not used. The pool's 'no native cryptocurrency' is corrected: the post explicitly describes sparks (USP), an ERC-20 token representing star creation rights. When Azimuth actually reached mainnet is [R] and open: this post says the contracts are still pending, and 'A Founder's Farewell' of 13 January 2019 says only that the PKI is already live, so the deployment falls somewhere between those two dates and no source found narrows it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2017,
+   "jd_ut": 2458015.5,
+   "precision": "year",
+   "precision_triggers": [
+    "between",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 26.26,
+    "text": "Virgo 26°16′",
+    "longitude": 176.259
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlon: The Stack Rebuilt From Nothing",
+   "stop": "San Francisco, A Founder's Farewell",
+   "date": "2019-01-13",
+   "date_confidence": "[A] and exact. urbit.org/blog/a-founders-farewell, fetched directly, is dated 13 January 2019 and states that he has resigned as CTO, board member and voting shareholder of Tlon; that he has reassigned his personal galaxies to urbit.org, 'Urbit's embryonic foundation, still in Tlon's custody'; and that his family retains a few thousand stars in long timelock contracts and a nonvoting minority in Tlon, which he calls compensation and not authority. The post also dates the live global Urbit network to November 2013 and contains the Berkeley operating-systems and Manhattan real-estate passages. Pin is his city.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2019,
+   "jd_ut": 2458496.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.5,
+    "text": "Capricornus 22°30′",
+    "longitude": 292.499
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 7.94,
+    "text": "Aries 7°56′",
+    "longitude": 7.939
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 12.0,
+    "text": "Capricornus 12°00′",
+    "longitude": 281.996
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 5.78,
+    "text": "Sagittarius 5°47′",
+    "longitude": 245.78
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.02,
+    "text": "Aries 8°01′",
+    "longitude": 8.025
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.23,
+    "text": "Sagittarius 14°14′",
+    "longitude": 254.225
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 12.86,
+    "text": "Capricornus 12°52′",
+    "longitude": 282.862
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Gray Mirror",
+   "stop": "San Francisco, The Clear Pill",
+   "date": "2019-09-01",
+   "date_confidence": "[A] for the series, its five parts and its venue, The American Mind; the year 2019 is attested and the month is a default placing it after the January resignation. The quotation is verified verbatim from americanmind.org, but the part-title carried in the research pool was wrong: the correct source is 'The Clear Pill, Part 1 of 5: The Four-Stroke Regime,' not 'The Four-Point Plan,' whose URL 404s. Pin is his city.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2019,
+   "jd_ut": 2458727.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.3,
+    "text": "Virgo 8°18′",
+    "longitude": 158.298
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gray Mirror",
+   "stop": "San Francisco, Gray Mirror of the Nihilist Prince",
+   "date": "2020-06-01",
+   "date_confidence": "[A] for June 2020 and for the full title 'Gray Mirror Of The Nihilist Prince': graymirror.substack.com/about was fetched directly and gives the launch as June 2020. The research pool's May 2020 is wrong and is corrected here. Day defaulted. Pin is his city of residence.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2020,
+   "jd_ut": 2459001.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.98,
+    "text": "Gemini 10°59′",
+    "longitude": 70.982
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gray Mirror",
+   "stop": "San Francisco, Jennifer Kollmer",
+   "date": "2021-04-06",
+   "date_confidence": "[A] and exact. Her obituary at dignitymemorial.com and Yarvin's memorial post 'Jennifer Kollmer, 1971-2021' at graymirror.substack.com, 7 April 2021, were both fetched directly: born 1 March 1971 in Columbus, Ohio; died 6 April 2021 in San Francisco of hereditary arrhythmogenic right ventricular cardiomyopathy, diagnosed about nine years earlier, the same condition that killed her father at thirty-one; the post describes a forty-seven-year-old husband and two children aged ten and thirteen. Pin is the city named in both sources.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2021,
+   "jd_ut": 2459310.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 16.43,
+    "text": "Aries 16°26′",
+    "longitude": 16.427
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 6.03,
+    "text": "Aquarius 6°02′",
+    "longitude": 306.033
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 3.36,
+    "text": "Aries 3°21′",
+    "longitude": 3.357
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 19.16,
+    "text": "Aries 19°10′",
+    "longitude": 19.16
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 19.45,
+    "text": "Gemini 19°27′",
+    "longitude": 79.447
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 24.16,
+    "text": "Aquarius 24°10′",
+    "longitude": 324.164
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 11.77,
+    "text": "Aquarius 11°46′",
+    "longitude": 311.772
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    },
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Moon",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Gray Mirror",
+   "stop": "San Francisco, American Degradation",
+   "date": "2021-08-01",
+   "date_confidence": "[A] for the appearance and the episode title, from contemporaneous media coverage synthesized in the dossier and corroborated in general outline by Wikipedia's account of his rising media profile in this period. The month is a default within 2021 and is not attested. No reachable source records where the episode was filmed, so the pin is his own city of residence and asserts nothing about the studio.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2021,
+   "jd_ut": 2459427.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) span/window",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.99,
+    "text": "Leo 9°00′",
+    "longitude": 128.993
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gray Mirror",
+   "stop": "San Francisco, the engagement that ends",
+   "date": "2022-01-01",
+   "date_confidence": "[R] for the dating. Wikipedia's biography describes the engagement to Lydia Laurenson as brief, records that they had one child together, and gives him four children in total; it does not date the relationship. The 2021 start, the 2022 engagement reporting and the separation later that year trace to a 2022 Vanity Fair piece that was not fetched. Month and day defaulted. The quotation is verified directly from Laurenson's own Substack and is her statement, not his. Pin is his city; no source places the relationship anywhere in particular.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2022,
+   "jd_ut": 2459580.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.55,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.546
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gray Mirror",
+   "stop": "San Francisco, the Redditor atheist",
+   "date": "2023-03-01",
+   "date_confidence": "[A] for the words: both quotations were fetched and verified directly from the Max Raskin interview at maxraskin.com, published 2023. Month and day are defaults within that year. The interview's location is not recorded anywhere, so the pin is his own metropolitan area and stands for nothing more.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2023,
+   "jd_ut": 2460004.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.14,
+    "text": "Pisces 10°09′",
+    "longitude": 340.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gray Mirror",
+   "stop": "San Francisco, Unqualified Reservations: Volume I",
+   "date": "2023-06-01",
+   "date_confidence": "[A] for the contents and the new introduction: passage.press/products/ur1 was fetched directly and lists three essays, 'Formalist Manifesto,' 'An Open Letter to Open-Minded Progressives' described as over 250 pages, and 'How Dawkins Got Pwned,' with 'a new intro from Curtis Yarvin, author of UR, looking back on his writing as Mencius Moldbug,' and describes itself as 'Volume 1 of 3.' The 2023 publication year is [R]: the product page carries no date anywhere. Month and day defaulted. The pool's claim of 'new endnotes' is not supported by the page and is not used. Pin is his city; the publisher is elsewhere.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2023,
+   "jd_ut": 2460096.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.29,
+    "text": "Gemini 10°17′",
+    "longitude": 70.287
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wartime Years",
+   "stop": "San Francisco, wartime chief executive",
+   "date": "2024-04-01",
+   "date_confidence": "The return to Tlon in a 'wartime C.E.O.' role is [A]: both Wikipedia's Yarvin biography and its Urbit article record it, the Urbit article dating it to April 2024. Day defaulted. The research pool's August 2024 date is not supported by anything reachable and is not used. The Urbit Foundation running out of capital and the dismissal of executive director Josh Lehmann are [R] and come solely from a Compact insider retrospective that was not fetched; the resignation of several senior employees is [A] from Wikipedia. The name of the dismissed director is deliberately not given here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2024,
+   "jd_ut": 2460401.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.77,
+    "text": "Aries 11°46′",
+    "longitude": 11.768
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wartime Years",
+   "stop": "San Francisco, Gray Mirror: Fascicle I",
+   "date": "2024-09-01",
+   "date_confidence": "[A] for everything except the year. passage.press/products/gm-disturbance was fetched directly: 220 pages, paperback, perfect bound, 55lb cream paper, described as Yarvin's first original work exclusive to print with Passage Press, and one of four novella-length fascicles that 'compose the full book Gray Mirror.' The page carries no publication date, so 2024 is [R] and the month and day are defaults. Pin is his city.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2024,
+   "jd_ut": 2460554.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 9.06,
+    "text": "Virgo 9°04′",
+    "longitude": 159.063
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wartime Years",
+   "stop": "Washington, the inaugural gala",
+   "date": "2025-01-20",
+   "date_confidence": "The core is [A]: Wikipedia's biography confirms his attendance at a January 2025 inaugural gala in Washington, D.C., hosted by Passage Press, and confirms that Politico called him 'an informal guest of honor' with 'outsized influence over the Trumpian right.' Everything else is [R] and unconfirmed: the name 'Coronation Ball,' the Watergate as the venue, and the reported J. D. Vance greeting. politico.com is unfetchable from this environment. The coordinate is the Watergate Hotel, 2650 Virginia Avenue NW, and is therefore only as good as the unverified venue attribution. The date is the inauguration day itself; the gala's own date is not established.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460695.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 0.18,
+    "text": "Aquarius 0°11′",
+    "longitude": 300.182
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wartime Years",
+   "stop": "San Francisco, on the Department of Government Efficiency",
+   "date": "2025-02-25",
+   "date_confidence": "The founding of DOGE at the White House on 25 February 2025 is [A] and is dated on elon_musk.journey.json's own stop; that date is used here only to place Yarvin's commentary, which is not itself dated by any source. Yarvin's criticism of DOGE, including the chimpanzees-in-an-orchestra comparison, is [R], attributed to his own commentary in the dossier and not re-fetched, so the phrase is paraphrased here rather than quoted. No stop is written at the White House: Yarvin was not there and holds no government role. Pin is his own city.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460731.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 6.64,
+    "text": "Pisces 6°39′",
+    "longitude": 336.642
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 26.78,
+    "text": "Capricornus 26°47′",
+    "longitude": 296.784
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 19.38,
+    "text": "Pisces 19°23′",
+    "longitude": 349.383
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 10.37,
+    "text": "Aries 10°22′",
+    "longitude": 10.367
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.0,
+    "text": "Cancer 17°00′",
+    "longitude": 107.004
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 11.97,
+    "text": "Gemini 11°58′",
+    "longitude": 71.97
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 20.15,
+    "text": "Pisces 20°09′",
+    "longitude": 350.148
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Wartime Years",
+   "stop": "Berkeley, the Craftsman house",
+   "date": "2025-04-01",
+   "date_confidence": "[R] throughout. The Berkeley Craftsman house, the household including Andrew Cone, and the 2024 marriage to Kristine Militello all come from the New Yorker profile, which is paywalled and unreadable in this pass; none appears in Wikipedia's biography. The coordinate is a general Berkeley pin and no address is known or asserted; naming a living private individual on a single unverified source is flagged here as the weakest element in this stop. The Substack ranking is separately [A]: Wikipedia records that in June 2025 Gray Mirror stood third among the platform's history publications. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460766.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.53,
+    "text": "Aries 11°32′",
+    "longitude": 11.529
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wartime Years",
+   "stop": "San Francisco, Unqualified Reservations: Volume 2",
+   "date": "2025-05-01",
+   "date_confidence": "[A] for the physical description and contents: passage.press/products/ur2 was fetched directly and confirms 408 pages, casebound hardcover with UV grit coating and Smyth-sewn signatures, ISBN 978-1-959403-50-0, and the three essays 'A Gentle Introduction to Unqualified Reservations,' 'Patchwork: A Political System for the 21st Century' and 'Moldbug on Carlyle.' The 2025 publication year is [R]: the product page carries no date. Month and day are defaults chosen to order the segment. Pin is his city.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460796.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "ordering",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.89,
+    "text": "Taurus 10°54′",
+    "longitude": 40.894
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wartime Years",
+   "stop": "New Haven, the debate at Yale Law School",
+   "date": "2025-10-01",
+   "date_confidence": "[R], and weakly so. The debate with the economist Garett Jones on for-profit governance is sourced only to a dossier synthesis of 2025 reporting with no URL, and it is absent from Wikipedia's biography. It could not be independently confirmed in this pass. Month and day are defaults. The coordinate is the canonical New Haven pin already carried by peter_thiel.journey.json, inherited byte-identical rather than the Wall Street address given in the research pool, since the venue within the university is not the load-bearing claim here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460949.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.08,
+    "text": "Libra 8°05′",
+    "longitude": 188.078
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wartime Years",
+   "stop": "Budapest, the geopolitical summit",
+   "date": "2025-10-15",
+   "date_confidence": "[R]. The Budapest appearance and the European circuit that brought him into contact with Maurice Glasman, Renaud Camus and Eric Zemmour are recorded only in a Wikipedia-article summary and were not verified against a primary program or news source in this pass. Neither the exact date nor the venue is established; the month and day here are defaults ordering the segment, and the coordinate is central Budapest.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460963.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.9,
+    "text": "Libra 21°54′",
+    "longitude": 201.896
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wartime Years",
+   "stop": "Sao Paulo, the annual congress of the MBL",
+   "date": "2025-11-29",
+   "date_confidence": "[A] and exact. Metropoles, in Andreza Matais's column, was fetched directly and states that 'Yarvin veio ao Brasil como convidado do congresso anual do Movimento Brasil Livre (MBL),' Sao Paulo, 29 November 2025, and carries the remark about medieval kingdoms in its headline. The source calls the event the movement's annual congress, not a festival, and the wording is corrected here accordingly. The Mission Party announcement is [A] but from a different source, Wikipedia's biography. The latitude is negative: the research pool's geography lens carried +23.5505, which places the pin in the Red Sea, and it is corrected here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2461008.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.02,
+    "text": "Sagittarius 7°01′",
+    "longitude": 247.017
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 15.71,
+    "text": "Pisces 15°43′",
+    "longitude": 345.711
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 20.75,
+    "text": "Scorpio 20°45′",
+    "longitude": 230.752
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 27.69,
+    "text": "Scorpio 27°42′",
+    "longitude": 237.692
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 17.81,
+    "text": "Sagittarius 17°49′",
+    "longitude": 257.813
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.65,
+    "text": "Cancer 24°39′",
+    "longitude": 114.655
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 25.08,
+    "text": "Pisces 25°05′",
+    "longitude": 355.08
+   }
+  },
+  {
+   "segment": "The Wartime Years",
+   "stop": "San Francisco, the arrival party",
+   "date": "2026-02-01",
+   "date_confidence": "[A] for the fact of the first meeting, which is recorded in Wikipedia's Nick Land biography and carried on nick_land.journey.json's own stop 'San Francisco, the first meeting with Curtis Yarvin,' dated 2026-02-01. The pin is inherited byte-identical from that file. February 2026 is attested; the day is not, and the research pool's '13 February 2026' is in fact the publication date of the Vice article, not the date of the party. The Vice piece was fetched but served only headline and metadata, which name Grimes, Yarvin and Silicon Valley figures; no venue, no party date and no body text were retrievable.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461072.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.13,
+    "text": "Aquarius 12°08′",
+    "longitude": 312.135
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 29.91,
+    "text": "Cancer 29°55′",
+    "longitude": 119.908
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 19.49,
+    "text": "Aquarius 19°29′",
+    "longitude": 319.49
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 18.19,
+    "text": "Aquarius 18°12′",
+    "longitude": 318.194
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 6.72,
+    "text": "Aquarius 6°43′",
+    "longitude": 306.72
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 17.36,
+    "text": "Cancer 17°21′",
+    "longitude": 107.356
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 28.57,
+    "text": "Pisces 28°34′",
+    "longitude": 358.572
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 7,
+  "month": 8,
+  "year": 29
+ },
+ "parse_failures": []
+}

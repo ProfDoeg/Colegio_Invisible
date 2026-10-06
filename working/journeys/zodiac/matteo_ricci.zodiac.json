@@ -1,0 +1,2138 @@
+{
+ "slug": "matteo_ricci",
+ "traveler": "Matteo Ricci (Li Madou, Xitai)",
+ "title": "Macerata to Peking: the Master from the Great West and the Memory Palace of China",
+ "years": "1552-1610",
+ "years_parsed": {
+  "first": 1552,
+  "last": 1610
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Macerata and the Roman College",
+  "stop": "Macerata, the apothecary's son",
+  "date": "1552-10-06",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian (proleptic)",
+  "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+  "astronomical_year": 1552,
+  "jd_ut": 2288194.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Libra",
+   "degree": 12.57,
+   "text": "Libra 12°34′",
+   "longitude": 192.568
+  },
+  "moon": {
+   "sign": "Capricornus",
+   "degree": 22.67,
+   "text": "Capricornus 22°40′",
+   "longitude": 292.665
+  },
+  "mercury": {
+   "sign": "Scorpio",
+   "degree": 4.85,
+   "text": "Scorpio 4°51′",
+   "longitude": 214.851
+  },
+  "venus": {
+   "sign": "Libra",
+   "degree": 10.52,
+   "text": "Libra 10°31′",
+   "longitude": 190.517
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 26.66,
+   "text": "Cancer 26°39′",
+   "longitude": 116.658
+  },
+  "jupiter": {
+   "sign": "Leo",
+   "degree": 26.91,
+   "text": "Leo 26°54′",
+   "longitude": 146.905
+  },
+  "saturn": {
+   "sign": "Aquarius",
+   "degree": 27.88,
+   "text": "Aquarius 27°53′",
+   "longitude": 327.88
+  },
+  "alternate": {
+   "calendar": "julian",
+   "note": "the same civil date read in the other calendar",
+   "sun": {
+    "sign": "Libra",
+    "degree": 22.5,
+    "text": "Libra 22°30′",
+    "longitude": 202.499
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 29.42,
+    "text": "Taurus 29°25′",
+    "longitude": 59.416
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 16.69,
+    "text": "Scorpio 16°42′",
+    "longitude": 226.692
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 23.04,
+    "text": "Libra 23°02′",
+    "longitude": 203.039
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 1.89,
+    "text": "Leo 1°53′",
+    "longitude": 121.889
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 28.65,
+    "text": "Leo 28°39′",
+    "longitude": 148.651
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 27.53,
+    "text": "Aquarius 27°32′",
+    "longitude": 327.533
+   }
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1552-1610",
+  "first_year_parsed": 1552
+ },
+ "stops": [
+  {
+   "segment": "Macerata and the Roman College",
+   "stop": "Macerata, the apothecary's son",
+   "date": "1552-10-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1552,
+   "jd_ut": 2288194.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 12.57,
+    "text": "Libra 12°34′",
+    "longitude": 192.568
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 22.67,
+    "text": "Capricornus 22°40′",
+    "longitude": 292.665
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 4.85,
+    "text": "Scorpio 4°51′",
+    "longitude": 214.851
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 10.52,
+    "text": "Libra 10°31′",
+    "longitude": 190.517
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 26.66,
+    "text": "Cancer 26°39′",
+    "longitude": 116.658
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 26.91,
+    "text": "Leo 26°54′",
+    "longitude": 146.905
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 27.88,
+    "text": "Aquarius 27°53′",
+    "longitude": 327.88
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Libra",
+     "degree": 22.5,
+     "text": "Libra 22°30′",
+     "longitude": 202.499
+    },
+    "moon": {
+     "sign": "Taurus",
+     "degree": 29.42,
+     "text": "Taurus 29°25′",
+     "longitude": 59.416
+    },
+    "mercury": {
+     "sign": "Scorpio",
+     "degree": 16.69,
+     "text": "Scorpio 16°42′",
+     "longitude": 226.692
+    },
+    "venus": {
+     "sign": "Libra",
+     "degree": 23.04,
+     "text": "Libra 23°02′",
+     "longitude": 203.039
+    },
+    "mars": {
+     "sign": "Leo",
+     "degree": 1.89,
+     "text": "Leo 1°53′",
+     "longitude": 121.889
+    },
+    "jupiter": {
+     "sign": "Leo",
+     "degree": 28.65,
+     "text": "Leo 28°39′",
+     "longitude": 148.651
+    },
+    "saturn": {
+     "sign": "Aquarius",
+     "degree": 27.53,
+     "text": "Aquarius 27°32′",
+     "longitude": 327.533
+    }
+   }
+  },
+  {
+   "segment": "Macerata and the Roman College",
+   "stop": "Macerata, the Jesuit school on the Piaggia",
+   "date": "1561-01-10",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1561,
+   "jd_ut": 2291212.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.64,
+    "text": "Capricornus 19°38′",
+    "longitude": 289.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Macerata and the Roman College",
+   "stop": "Rome, the law student turns from La Sapienza",
+   "date": "1568-03-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1568,
+   "jd_ut": 2293819.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.49,
+    "text": "Pisces 10°30′",
+    "longitude": 340.495
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Macerata and the Roman College",
+   "stop": "Rome, admitted to the Society of Jesus at Sant'Andrea al Quirinale",
+   "date": "1571-08-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1571,
+   "jd_ut": 2295081.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.24,
+    "text": "Leo 21°14′",
+    "longitude": 141.241
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 14.73,
+    "text": "Aquarius 14°44′",
+    "longitude": 314.733
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 4.16,
+    "text": "Leo 4°09′",
+    "longitude": 124.157
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 18.93,
+    "text": "Cancer 18°56′",
+    "longitude": 108.932
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.74,
+    "text": "Cancer 17°45′",
+    "longitude": 107.743
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 21.59,
+    "text": "Pisces 21°36′",
+    "longitude": 351.594
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 28.53,
+    "text": "Libra 28°32′",
+    "longitude": 208.533
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Virgo",
+     "degree": 0.89,
+     "text": "Virgo 0°53′",
+     "longitude": 150.891
+    },
+    "moon": {
+     "sign": "Gemini",
+     "degree": 28.72,
+     "text": "Gemini 28°43′",
+     "longitude": 88.72
+    },
+    "mercury": {
+     "sign": "Leo",
+     "degree": 14.08,
+     "text": "Leo 14°05′",
+     "longitude": 134.079
+    },
+    "venus": {
+     "sign": "Leo",
+     "degree": 0.92,
+     "text": "Leo 0°55′",
+     "longitude": 120.924
+    },
+    "mars": {
+     "sign": "Cancer",
+     "degree": 24.16,
+     "text": "Cancer 24°09′",
+     "longitude": 114.157
+    },
+    "jupiter": {
+     "sign": "Pisces",
+     "degree": 20.51,
+     "text": "Pisces 20°31′",
+     "longitude": 350.511
+    },
+    "saturn": {
+     "sign": "Libra",
+     "degree": 29.28,
+     "text": "Libra 29°17′",
+     "longitude": 209.276
+    }
+   }
+  },
+  {
+   "segment": "Macerata and the Roman College",
+   "stop": "Rome, the Collegio Romano and the mathematics of Father Clavius",
+   "date": "1573-01-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1573,
+   "jd_ut": 2295600.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 24.82,
+    "text": "Capricornus 24°49′",
+    "longitude": 294.817
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Sea Road to the Indies",
+   "stop": "Rome, chosen for the Indies",
+   "date": "1577-05-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1577,
+   "jd_ut": 2297184.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 26.68,
+    "text": "Taurus 26°41′",
+    "longitude": 56.684
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 7.59,
+    "text": "Aquarius 7°36′",
+    "longitude": 307.592
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 5.88,
+    "text": "Taurus 5°53′",
+    "longitude": 35.879
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 11.99,
+    "text": "Cancer 12°00′",
+    "longitude": 101.993
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 28.02,
+    "text": "Gemini 28°01′",
+    "longitude": 88.024
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 4.03,
+    "text": "Virgo 4°02′",
+    "longitude": 154.03
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 11.76,
+    "text": "Capricornus 11°45′",
+    "longitude": 281.755
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Gemini",
+     "degree": 6.27,
+     "text": "Gemini 6°16′",
+     "longitude": 66.271
+    },
+    "moon": {
+     "sign": "Gemini",
+     "degree": 9.73,
+     "text": "Gemini 9°44′",
+     "longitude": 69.73
+    },
+    "mercury": {
+     "sign": "Taurus",
+     "degree": 24.04,
+     "text": "Taurus 24°02′",
+     "longitude": 54.036
+    },
+    "venus": {
+     "sign": "Cancer",
+     "degree": 21.32,
+     "text": "Cancer 21°19′",
+     "longitude": 111.315
+    },
+    "mars": {
+     "sign": "Cancer",
+     "degree": 4.45,
+     "text": "Cancer 4°27′",
+     "longitude": 94.454
+    },
+    "jupiter": {
+     "sign": "Virgo",
+     "degree": 4.69,
+     "text": "Virgo 4°42′",
+     "longitude": 154.692
+    },
+    "saturn": {
+     "sign": "Capricornus",
+     "degree": 11.29,
+     "text": "Capricornus 11°17′",
+     "longitude": 281.285
+    }
+   }
+  },
+  {
+   "segment": "The Long Sea Road to the Indies",
+   "stop": "Coimbra, waiting on the fleet",
+   "date": "1577-09-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1577,
+   "jd_ut": 2297290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.21,
+    "text": "Virgo 8°12′",
+    "longitude": 158.206
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Sea Road to the Indies",
+   "stop": "Lisbon, the Tagus, departure",
+   "date": "1578-03-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1578,
+   "jd_ut": 2297494.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 2.94,
+    "text": "Aries 2°56′",
+    "longitude": 2.936
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.53,
+    "text": "Gemini 2°32′",
+    "longitude": 62.529
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 21.11,
+    "text": "Pisces 21°07′",
+    "longitude": 351.115
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 17.8,
+    "text": "Pisces 17°48′",
+    "longitude": 347.804
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 21.64,
+    "text": "Capricornus 21°38′",
+    "longitude": 291.636
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.39,
+    "text": "Libra 9°24′",
+    "longitude": 189.393
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 22.38,
+    "text": "Capricornus 22°23′",
+    "longitude": 292.379
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Aries",
+     "degree": 12.78,
+     "text": "Aries 12°47′",
+     "longitude": 12.784
+    },
+    "moon": {
+     "sign": "Libra",
+     "degree": 19.49,
+     "text": "Libra 19°29′",
+     "longitude": 199.485
+    },
+    "mercury": {
+     "sign": "Pisces",
+     "degree": 19.18,
+     "text": "Pisces 19°11′",
+     "longitude": 349.18
+    },
+    "venus": {
+     "sign": "Aries",
+     "degree": 0.17,
+     "text": "Aries 0°10′",
+     "longitude": 0.171
+    },
+    "mars": {
+     "sign": "Capricornus",
+     "degree": 28.56,
+     "text": "Capricornus 28°33′",
+     "longitude": 298.558
+    },
+    "jupiter": {
+     "sign": "Libra",
+     "degree": 8.11,
+     "text": "Libra 8°07′",
+     "longitude": 188.11
+    },
+    "saturn": {
+     "sign": "Capricornus",
+     "degree": 22.93,
+     "text": "Capricornus 22°56′",
+     "longitude": 292.935
+    }
+   }
+  },
+  {
+   "segment": "The Long Sea Road to the Indies",
+   "stop": "Rounding the Cape, five months at sea",
+   "date": "1578-06-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1578,
+   "jd_ut": 2297577.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.24,
+    "text": "Gemini 23°14′",
+    "longitude": 83.236
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Sea Road to the Indies",
+   "stop": "Goa, landfall in the Estado da Índia",
+   "date": "1578-09-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1578,
+   "jd_ut": 2297667.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 19.66,
+    "text": "Virgo 19°39′",
+    "longitude": 169.655
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 5.49,
+    "text": "Libra 5°29′",
+    "longitude": 185.488
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 25.48,
+    "text": "Virgo 25°29′",
+    "longitude": 175.485
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 20.23,
+    "text": "Libra 20°14′",
+    "longitude": 200.232
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 16.7,
+    "text": "Aries 16°42′",
+    "longitude": 16.703
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 16.53,
+    "text": "Libra 16°32′",
+    "longitude": 196.529
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 17.12,
+    "text": "Capricornus 17°07′",
+    "longitude": 287.122
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Virgo",
+     "degree": 29.45,
+     "text": "Virgo 29°27′",
+     "longitude": 179.452
+    },
+    "moon": {
+     "sign": "Aquarius",
+     "degree": 24.96,
+     "text": "Aquarius 24°57′",
+     "longitude": 324.956
+    },
+    "mercury": {
+     "sign": "Libra",
+     "degree": 12.26,
+     "text": "Libra 12°15′",
+     "longitude": 192.258
+    },
+    "venus": {
+     "sign": "Scorpio",
+     "degree": 2.36,
+     "text": "Scorpio 2°22′",
+     "longitude": 212.364
+    },
+    "mars": {
+     "sign": "Aries",
+     "degree": 14.39,
+     "text": "Aries 14°23′",
+     "longitude": 14.39
+    },
+    "jupiter": {
+     "sign": "Libra",
+     "degree": 18.61,
+     "text": "Libra 18°37′",
+     "longitude": 198.61
+    },
+    "saturn": {
+     "sign": "Capricornus",
+     "degree": 17.06,
+     "text": "Capricornus 17°04′",
+     "longitude": 287.06
+    }
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Long Sea Road to the Indies",
+   "stop": "Cochin, ordained priest",
+   "date": "1580-07-25",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1580,
+   "jd_ut": 2298348.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.88,
+    "text": "Leo 1°53′",
+    "longitude": 121.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Macau and the Flower Tower of Zhaoqing",
+   "stop": "Macau, summoned to the edge of the Middle Kingdom",
+   "date": "1582-08-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1582,
+   "jd_ut": 2299091.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.88,
+    "text": "Leo 13°53′",
+    "longitude": 133.877
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 17.12,
+    "text": "Scorpio 17°07′",
+    "longitude": 227.121
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 10.65,
+    "text": "Virgo 10°39′",
+    "longitude": 160.651
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 28.58,
+    "text": "Gemini 28°35′",
+    "longitude": 88.583
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 7.78,
+    "text": "Gemini 7°47′",
+    "longitude": 67.784
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 17.64,
+    "text": "Aquarius 17°38′",
+    "longitude": 317.637
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 9.31,
+    "text": "Pisces 9°19′",
+    "longitude": 339.314
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Leo",
+     "degree": 23.5,
+     "text": "Leo 23°30′",
+     "longitude": 143.496
+    },
+    "moon": {
+     "sign": "Aries",
+     "degree": 2.37,
+     "text": "Aries 2°22′",
+     "longitude": 2.371
+    },
+    "mercury": {
+     "sign": "Virgo",
+     "degree": 20.29,
+     "text": "Virgo 20°18′",
+     "longitude": 170.293
+    },
+    "venus": {
+     "sign": "Cancer",
+     "degree": 9.06,
+     "text": "Cancer 9°03′",
+     "longitude": 99.057
+    },
+    "mars": {
+     "sign": "Gemini",
+     "degree": 14.19,
+     "text": "Gemini 14°12′",
+     "longitude": 74.192
+    },
+    "jupiter": {
+     "sign": "Aquarius",
+     "degree": 16.33,
+     "text": "Aquarius 16°20′",
+     "longitude": 316.332
+    },
+    "saturn": {
+     "sign": "Pisces",
+     "degree": 8.62,
+     "text": "Pisces 8°37′",
+     "longitude": 338.625
+    }
+   }
+  },
+  {
+   "segment": "Macau and the Flower Tower of Zhaoqing",
+   "stop": "Zhaoqing, granted a plot by the pagoda",
+   "date": "1583-09-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1583,
+   "jd_ut": 2299490.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 16.52,
+    "text": "Virgo 16°31′",
+    "longitude": 166.522
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 0.68,
+    "text": "Cancer 0°41′",
+    "longitude": 90.684
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 28.87,
+    "text": "Leo 28°52′",
+    "longitude": 148.866
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 0.75,
+    "text": "Scorpio 0°45′",
+    "longitude": 210.75
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 18.14,
+    "text": "Libra 18°08′",
+    "longitude": 198.136
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 24.45,
+    "text": "Pisces 24°27′",
+    "longitude": 354.451
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 20.26,
+    "text": "Pisces 20°15′",
+    "longitude": 350.257
+   }
+  },
+  {
+   "segment": "Macau and the Flower Tower of Zhaoqing",
+   "stop": "Zhaoqing, the map of ten thousand countries",
+   "date": "1584-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1584,
+   "jd_ut": 2299847.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.5,
+    "text": "Virgo 8°30′",
+    "longitude": 158.503
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Macau and the Flower Tower of Zhaoqing",
+   "stop": "Zhaoqing, the clock, the prism, and the mandarins",
+   "date": "1585-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1585,
+   "jd_ut": 2300120.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.16,
+    "text": "Gemini 10°10′",
+    "longitude": 70.162
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Macau and the Flower Tower of Zhaoqing",
+   "stop": "Zhaoqing, cast out by the new viceroy",
+   "date": "1589-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1589,
+   "jd_ut": 2301642.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.42,
+    "text": "Leo 8°25′",
+    "longitude": 128.418
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shaozhou: the Scholar's Robe",
+   "stop": "Shaozhou, a house on the Bei River",
+   "date": "1589-08-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1589,
+   "jd_ut": 2301667.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 2.48,
+    "text": "Virgo 2°29′",
+    "longitude": 152.484
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 5.53,
+    "text": "Pisces 5°32′",
+    "longitude": 335.526
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 13.8,
+    "text": "Virgo 13°48′",
+    "longitude": 163.801
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 11.23,
+    "text": "Virgo 11°14′",
+    "longitude": 161.229
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 26.55,
+    "text": "Scorpio 26°33′",
+    "longitude": 236.551
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 22.66,
+    "text": "Virgo 22°39′",
+    "longitude": 172.658
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 13.73,
+    "text": "Gemini 13°44′",
+    "longitude": 73.733
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Shaozhou: the Scholar's Robe",
+   "stop": "Shaozhou, the night of the robbers",
+   "date": "1592-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1592,
+   "jd_ut": 2302707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.08,
+    "text": "Cancer 9°05′",
+    "longitude": 99.077
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shaozhou: the Scholar's Robe",
+   "stop": "Shaozhou, Qu Taisu and the rudiments of Euclid",
+   "date": "1593-02-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1593,
+   "jd_ut": 2302922.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.23,
+    "text": "Aquarius 12°14′",
+    "longitude": 312.231
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shaozhou: the Scholar's Robe",
+   "stop": "Shaozhou, the robe of the literati",
+   "date": "1595-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1595,
+   "jd_ut": 2303711.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.7,
+    "text": "Aries 10°42′",
+    "longitude": 10.703
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shaozhou: the Scholar's Robe",
+   "stop": "North from Shaozhou, over the Meiling Pass",
+   "date": "1595-05-18",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1595,
+   "jd_ut": 2303758.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 26.35,
+    "text": "Taurus 26°21′",
+    "longitude": 56.345
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nanchang and Nanjing: the Memory Palace",
+   "stop": "Nanjing, turned back at the southern capital",
+   "date": "1595-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1595,
+   "jd_ut": 2303772.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.76,
+    "text": "Gemini 9°46′",
+    "longitude": 69.763
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nanchang and Nanjing: the Memory Palace",
+   "stop": "Nanchang, a house among the princes of the blood",
+   "date": "1595-06-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1595,
+   "jd_ut": 2303799.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 5.53,
+    "text": "Cancer 5°32′",
+    "longitude": 95.527
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 16.94,
+    "text": "Pisces 16°57′",
+    "longitude": 346.943
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 26.8,
+    "text": "Gemini 26°48′",
+    "longitude": 86.801
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 24.67,
+    "text": "Taurus 24°40′",
+    "longitude": 54.669
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 12.72,
+    "text": "Aries 12°43′",
+    "longitude": 12.724
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 2.7,
+    "text": "Aries 2°42′",
+    "longitude": 2.699
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 21.69,
+    "text": "Leo 21°41′",
+    "longitude": 141.689
+   }
+  },
+  {
+   "segment": "Nanchang and Nanjing: the Memory Palace",
+   "stop": "Nanchang, a treatise on friendship for the Prince of Jian'an",
+   "date": "1595-11-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1595,
+   "jd_ut": 2303925.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.07,
+    "text": "Scorpio 8°04′",
+    "longitude": 218.074
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nanchang and Nanjing: the Memory Palace",
+   "stop": "Nanchang, the memory palace for Governor Lu",
+   "date": "1596-08-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1596,
+   "jd_ut": 2304199.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.71,
+    "text": "Leo 8°43′",
+    "longitude": 128.713
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nanchang and Nanjing: the Memory Palace",
+   "stop": "Beijing, the shut gate",
+   "date": "1598-09-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1598,
+   "jd_ut": 2304966.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 13.96,
+    "text": "Virgo 13°58′",
+    "longitude": 163.96
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 25.29,
+    "text": "Scorpio 25°18′",
+    "longitude": 235.292
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 18.82,
+    "text": "Virgo 18°49′",
+    "longitude": 168.82
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 3.25,
+    "text": "Leo 3°15′",
+    "longitude": 123.25
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 11.37,
+    "text": "Libra 11°22′",
+    "longitude": 191.374
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 14.55,
+    "text": "Cancer 14°33′",
+    "longitude": 104.548
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 4.1,
+    "text": "Libra 4°06′",
+    "longitude": 184.103
+   }
+  },
+  {
+   "segment": "Nanchang and Nanjing: the Memory Palace",
+   "stop": "Nanjing, the debate with the monk Xuelang",
+   "date": "1599-05-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1599,
+   "jd_ut": 2305202.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.99,
+    "text": "Taurus 9°59′",
+    "longitude": 39.99
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road to the Dragon Throne",
+   "stop": "Nanjing, Xu Guangqi and the road north again",
+   "date": "1600-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1600,
+   "jd_ut": 2305447.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.99,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.988
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road to the Dragon Throne",
+   "stop": "Tianjin, detained by the eunuch Ma Tang",
+   "date": "1600-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1600,
+   "jd_ut": 2305691.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.63,
+    "text": "Virgo 8°38′",
+    "longitude": 158.629
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road to the Dragon Throne",
+   "stop": "Beijing, entry at last",
+   "date": "1601-01-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1601,
+   "jd_ut": 2305836.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 4.17,
+    "text": "Aquarius 4°10′",
+    "longitude": 304.174
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 9.78,
+    "text": "Libra 9°47′",
+    "longitude": 189.784
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 26.81,
+    "text": "Capricornus 26°48′",
+    "longitude": 296.808
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 2.12,
+    "text": "Pisces 2°07′",
+    "longitude": 332.117
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 8.02,
+    "text": "Aquarius 8°01′",
+    "longitude": 308.016
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 21.78,
+    "text": "Virgo 21°47′",
+    "longitude": 171.782
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 9.8,
+    "text": "Scorpio 9°48′",
+    "longitude": 219.796
+   }
+  },
+  {
+   "segment": "The Road to the Dragon Throne",
+   "stop": "Beijing, the clocks laid before the Dragon Throne",
+   "date": "1601-01-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1601,
+   "jd_ut": 2305839.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 7.22,
+    "text": "Aquarius 7°13′",
+    "longitude": 307.22
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 15.84,
+    "text": "Scorpio 15°50′",
+    "longitude": 225.84
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 23.93,
+    "text": "Capricornus 23°56′",
+    "longitude": 293.929
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 5.82,
+    "text": "Pisces 5°49′",
+    "longitude": 335.825
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 10.38,
+    "text": "Aquarius 10°23′",
+    "longitude": 310.384
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 21.6,
+    "text": "Virgo 21°36′",
+    "longitude": 171.603
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 9.91,
+    "text": "Scorpio 9°55′",
+    "longitude": 219.913
+   }
+  },
+  {
+   "segment": "The Road to the Dragon Throne",
+   "stop": "Beijing, a stipend, a house, a church",
+   "date": "1601-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1601,
+   "jd_ut": 2305933.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.49,
+    "text": "Taurus 10°29′",
+    "longitude": 40.489
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Beijing: the Sage from the West",
+   "stop": "Beijing, the Kunyu Wanguo Quantu for the emperor",
+   "date": "1602-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1602,
+   "jd_ut": 2306390.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.28,
+    "text": "Leo 8°17′",
+    "longitude": 128.282
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Beijing: the Sage from the West",
+   "stop": "Nanjing, Xu Guangqi is baptized Paul",
+   "date": "1603-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1603,
+   "jd_ut": 2306543.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.265
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Beijing: the Sage from the West",
+   "stop": "Beijing, the True Meaning of the Lord of Heaven",
+   "date": "1603-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1603,
+   "jd_ut": 2306755.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.05,
+    "text": "Leo 8°03′",
+    "longitude": 128.051
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Beijing: the Sage from the West",
+   "stop": "Beijing, the Elements of Euclid rendered into Chinese",
+   "date": "1607-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1607,
+   "jd_ut": 2308004.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.294
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Beijing: the Sage from the West",
+   "stop": "Beijing, Xiqin Quyi, eight songs for the emperor's eunuchs",
+   "date": "1608-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1608,
+   "jd_ut": 2308369.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.046
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years and the Grant of Earth",
+   "stop": "Beijing, the memoirs begun",
+   "date": "1609-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1609,
+   "jd_ut": 2308735.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.82,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.818
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years and the Grant of Earth",
+   "stop": "Beijing, the death of the Master from the West",
+   "date": "1610-05-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1610,
+   "jd_ut": 2309230.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.97,
+    "text": "Taurus 19°58′",
+    "longitude": 49.971
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 23.85,
+    "text": "Sagittarius 23°51′",
+    "longitude": 263.845
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 26.06,
+    "text": "Aries 26°04′",
+    "longitude": 26.06
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 19.74,
+    "text": "Taurus 19°44′",
+    "longitude": 49.736
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 0.28,
+    "text": "Pisces 0°17′",
+    "longitude": 330.283
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 23.17,
+    "text": "Gemini 23°10′",
+    "longitude": 83.167
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 23.12,
+    "text": "Aquarius 23°07′",
+    "longitude": 323.118
+   }
+  },
+  {
+   "segment": "The Last Years and the Grant of Earth",
+   "stop": "Beijing, the petition for a grave inside the Middle Kingdom",
+   "date": "1610-05-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1610,
+   "jd_ut": 2309234.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.82,
+    "text": "Taurus 23°49′",
+    "longitude": 53.82
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years and the Grant of Earth",
+   "stop": "Beijing, the ground beyond Fuchengmen granted",
+   "date": "1610-12-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1610,
+   "jd_ut": 2309434.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.75,
+    "text": "Sagittarius 8°45′",
+    "longitude": 248.75
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years and the Grant of Earth",
+   "stop": "Beijing, the funeral procession from Xuanwumen",
+   "date": "1611-04-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1611,
+   "jd_ut": 2309576.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 1.36,
+    "text": "Taurus 1°21′",
+    "longitude": 31.355
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 28.06,
+    "text": "Leo 28°03′",
+    "longitude": 148.056
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 5.92,
+    "text": "Aries 5°55′",
+    "longitude": 5.92
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 16.35,
+    "text": "Pisces 16°21′",
+    "longitude": 346.352
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 28.45,
+    "text": "Gemini 28°27′",
+    "longitude": 88.451
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 17.26,
+    "text": "Cancer 17°16′",
+    "longitude": 107.262
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 3.2,
+    "text": "Pisces 3°12′",
+    "longitude": 333.202
+   }
+  },
+  {
+   "segment": "The Last Years and the Grant of Earth",
+   "stop": "Beijing, laid in the earth at Zhalan",
+   "date": "1611-11-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1611,
+   "jd_ut": 2309769.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.19,
+    "text": "Scorpio 8°12′",
+    "longitude": 218.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 14,
+  "month": 9,
+  "year": 20
+ },
+ "parse_failures": []
+}

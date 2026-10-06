@@ -1,0 +1,1930 @@
+{
+ "slug": "tchaikovsky",
+ "traveler": "Pyotr Ilyich Tchaikovsky",
+ "title": "The Ironworks House to the Tikhvin Grave: Tchaikovsky, the Empire's Composer",
+ "years": "1840-1893",
+ "years_parsed": {
+  "first": 1840,
+  "last": 1893
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Ironworks House at Votkinsk",
+  "stop": "Votkinsk, the manager's house at the ironworks",
+  "date": "1840-05-07",
+  "date_confidence": "attested; 25 April 1840 by the Julian calendar then in use in Russia",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1840,
+  "jd_ut": 2393232.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 16.47,
+   "text": "Taurus 16°28′",
+   "longitude": 46.468
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 25.85,
+   "text": "Cancer 25°51′",
+   "longitude": 115.851
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 20.21,
+   "text": "Aries 20°12′",
+   "longitude": 20.205
+  },
+  "venus": {
+   "sign": "Aries",
+   "degree": 25.24,
+   "text": "Aries 25°14′",
+   "longitude": 25.237
+  },
+  "mars": {
+   "sign": "Taurus",
+   "degree": 15.89,
+   "text": "Taurus 15°53′",
+   "longitude": 45.891
+  },
+  "jupiter": {
+   "sign": "Scorpio",
+   "degree": 13.62,
+   "text": "Scorpio 13°37′",
+   "longitude": 223.615
+  },
+  "saturn": {
+   "sign": "Sagittarius",
+   "degree": 20.59,
+   "text": "Sagittarius 20°36′",
+   "longitude": 260.593
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1840-1893",
+  "first_year_parsed": 1840
+ },
+ "stops": [
+  {
+   "segment": "The Ironworks House at Votkinsk",
+   "stop": "Votkinsk, the manager's house at the ironworks",
+   "date": "1840-05-07",
+   "date_confidence": "attested; 25 April 1840 by the Julian calendar then in use in Russia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393232.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 16.47,
+    "text": "Taurus 16°28′",
+    "longitude": 46.468
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 25.85,
+    "text": "Cancer 25°51′",
+    "longitude": 115.851
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 20.21,
+    "text": "Aries 20°12′",
+    "longitude": 20.205
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 25.24,
+    "text": "Aries 25°14′",
+    "longitude": 25.237
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 15.89,
+    "text": "Taurus 15°53′",
+    "longitude": 45.891
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.62,
+    "text": "Scorpio 13°37′",
+    "longitude": 223.615
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 20.59,
+    "text": "Sagittarius 20°36′",
+    "longitude": 260.593
+   }
+  },
+  {
+   "segment": "The Ironworks House at Votkinsk",
+   "stop": "Votkinsk, the governess and the first piano",
+   "date": "1844-01-01",
+   "date_confidence": "Durbach engaged 1844 and the piano lessons with Maria Palchikova begin about 1845; neither is fixed to a month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394566.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.742
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ironworks House at Votkinsk",
+   "stop": "Saint Petersburg, the family arrives in the capital",
+   "date": "1848-11-01",
+   "date_confidence": "Tchaikovsky Research dates the departure from Votkinsk 26 Sept / 8 Oct 1848 and the arrival to November; Encyclopedia.com gives the move as 1850, a contradiction left open in the report",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396332.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.73,
+    "text": "Scorpio 8°44′",
+    "longitude": 218.73
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ironworks House at Votkinsk",
+   "stop": "Alapayevsk, the year back in the Urals",
+   "date": "1849-05-01",
+   "date_confidence": "attested to May 1849; the day is not given in the reachable chronology",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396513.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.49,
+    "text": "Taurus 10°29′",
+    "longitude": 40.489
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School on the Fontanka",
+   "stop": "Imperial School of Jurisprudence, the boarding years",
+   "date": "1850-09-01",
+   "date_confidence": "attested to September 1850; the day is not given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2397001.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.17,
+    "text": "Virgo 8°10′",
+    "longitude": 158.172
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School on the Fontanka",
+   "stop": "Saint Petersburg, cholera takes his mother",
+   "date": "1854-06-25",
+   "date_confidence": "attested to 25 June 1854 by Tchaikovsky Research; Wikipedia gives June 1854 without a day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1854,
+   "jd_ut": 2398394.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 3.07,
+    "text": "Cancer 3°04′",
+    "longitude": 93.067
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The School on the Fontanka",
+   "stop": "Saint Petersburg, titular counselor at the Ministry of Justice",
+   "date": "1859-06-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400205.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 18.55,
+    "text": "Gemini 18°33′",
+    "longitude": 78.553
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 14.42,
+    "text": "Libra 14°25′",
+    "longitude": 194.424
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 3.51,
+    "text": "Gemini 3°30′",
+    "longitude": 63.505
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 19.57,
+    "text": "Taurus 19°34′",
+    "longitude": 49.569
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 1.03,
+    "text": "Cancer 1°02′",
+    "longitude": 91.03
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 0.01,
+    "text": "Cancer 0°01′",
+    "longitude": 90.01
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 8.9,
+    "text": "Leo 8°54′",
+    "longitude": 128.897
+   }
+  },
+  {
+   "segment": "The School on the Fontanka",
+   "stop": "Paris, the end of the first circuit abroad",
+   "date": "1861-08-01",
+   "date_confidence": "the circuit is attested to 1861; no day dates survive in the reachable chronology and the August placement is inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400988.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.67,
+    "text": "Leo 8°40′",
+    "longitude": 128.67
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conservatory and the Move to Moscow",
+   "stop": "Saint Petersburg Conservatory, the Demidov house on the Moika",
+   "date": "1862-09-01",
+   "date_confidence": "attested to 1862; the September placement is the academic year, not a documented day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401384.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.27,
+    "text": "Virgo 8°16′",
+    "longitude": 158.266
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conservatory and the Move to Moscow",
+   "stop": "Kamenka, the sister's estate in the Ukrainian provinces",
+   "date": "1865-06-01",
+   "date_confidence": "the chronology dates the Kamenka habit only to 'from 1865'; the June placement is inferred from the pattern of summer visits",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402388.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.47,
+    "text": "Gemini 10°28′",
+    "longitude": 70.469
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conservatory and the Move to Moscow",
+   "stop": "Pavlovsk, Strauss conducts the Characteristic Dances",
+   "date": "1865-09-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402490.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 18.24,
+    "text": "Virgo 18°15′",
+    "longitude": 168.242
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.75,
+    "text": "Gemini 2°45′",
+    "longitude": 62.747
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 11.45,
+    "text": "Virgo 11°27′",
+    "longitude": 161.451
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 9.21,
+    "text": "Leo 9°13′",
+    "longitude": 129.214
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 7.5,
+    "text": "Libra 7°30′",
+    "longitude": 187.505
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 20.24,
+    "text": "Sagittarius 20°15′",
+    "longitude": 260.245
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 27.92,
+    "text": "Libra 27°55′",
+    "longitude": 207.921
+   }
+  },
+  {
+   "segment": "The Conservatory and the Move to Moscow",
+   "stop": "Moscow Conservatory, the harmony professor",
+   "date": "1866-01-01",
+   "date_confidence": "Nikolai Rubinstein's offer is autumn 1865 and the move January 1866; the Conservatory itself opens 1 September 1866 (O.S.), so the pool's '1865 professorship' is anachronistic",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1866,
+   "jd_ut": 2402602.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.414
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 6.68,
+    "text": "Cancer 6°41′",
+    "longitude": 96.676
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 23.44,
+    "text": "Sagittarius 23°26′",
+    "longitude": 263.437
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 26.94,
+    "text": "Sagittarius 26°56′",
+    "longitude": 266.94
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 25.58,
+    "text": "Sagittarius 25°35′",
+    "longitude": 265.58
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.533
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 10.22,
+    "text": "Scorpio 10°13′",
+    "longitude": 220.216
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Conservatory and the Move to Moscow",
+   "stop": "Boston, the First Piano Concerto",
+   "date": "1875-10-25",
+   "date_confidence": "attested; the pool's 1874 is the year of composition and of Nikolai Rubinstein's denunciation",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2406186.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 1.19,
+    "text": "Scorpio 1°11′",
+    "longitude": 211.187
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 13.08,
+    "text": "Virgo 13°05′",
+    "longitude": 163.079
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 12.49,
+    "text": "Scorpio 12°29′",
+    "longitude": 222.492
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 9.45,
+    "text": "Scorpio 9°27′",
+    "longitude": 219.445
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 0.68,
+    "text": "Aquarius 0°41′",
+    "longitude": 300.678
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 9.7,
+    "text": "Scorpio 9°42′",
+    "longitude": 219.7
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 19.06,
+    "text": "Aquarius 19°03′",
+    "longitude": 319.058
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Marriage and the Flight",
+   "stop": "Bayreuth, the first Ring at the Festspielhaus",
+   "date": "1876-08-01",
+   "date_confidence": "attested to August 1876; the day of his attendance is not fixed in the reachable chronology",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406467.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 9.03,
+    "text": "Leo 9°02′",
+    "longitude": 129.029
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage and the Flight",
+   "stop": "Moscow, the best friend who must not be met",
+   "date": "1877-01-01",
+   "date_confidence": "the correspondence and allowance are attested to 1877; the January placement is inferred, the first letters falling around the turn of the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406620.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.75,
+    "text": "Capricornus 10°45′",
+    "longitude": 280.75
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage and the Flight",
+   "stop": "Moscow, the marriage to Antonina Milyukova",
+   "date": "1877-07-01",
+   "date_confidence": "attested to July 1877; the pool does not give a day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406801.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.21,
+    "text": "Cancer 9°13′",
+    "longitude": 99.209
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage and the Flight",
+   "stop": "Vienna, the flight from the marriage",
+   "date": "1877-11-01",
+   "date_confidence": "attested to November 1877; no day given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406924.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.7,
+    "text": "Scorpio 8°42′",
+    "longitude": 218.699
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage and the Flight",
+   "stop": "Clarens, the Violin Concerto on the lake",
+   "date": "1878-03-01",
+   "date_confidence": "attested to March-April 1878; the pool's own entry misattributed the stay's output to The Maid of Orleans, begun here only in December 1878",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407044.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.31,
+    "text": "Pisces 10°19′",
+    "longitude": 340.312
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage and the Flight",
+   "stop": "Florence, rooms rented near her own",
+   "date": "1878-11-01",
+   "date_confidence": "the never-meeting Florence arrangement belongs to November-December 1878; the pool's February 1878 date is a different, earlier stay",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407289.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.46,
+    "text": "Scorpio 8°27′",
+    "longitude": 218.457
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage and the Flight",
+   "stop": "Maly Theatre, Moscow: Eugene Onegin",
+   "date": "1879-03-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407437.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 7.94,
+    "text": "Aries 7°57′",
+    "longitude": 7.945
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 14.82,
+    "text": "Gemini 14°49′",
+    "longitude": 74.819
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 26.71,
+    "text": "Aries 26°43′",
+    "longitude": 26.71
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 4.84,
+    "text": "Taurus 4°50′",
+    "longitude": 34.841
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 7.55,
+    "text": "Aquarius 7°33′",
+    "longitude": 307.549
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 0.84,
+    "text": "Pisces 0°50′",
+    "longitude": 330.839
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 5.71,
+    "text": "Aries 5°43′",
+    "longitude": 5.709
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Tsar's Composer",
+   "stop": "Paris, the death of Nikolai Rubinstein",
+   "date": "1881-03-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408162.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 2.52,
+    "text": "Aries 2°31′",
+    "longitude": 2.519
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 0.6,
+    "text": "Capricornus 0°36′",
+    "longitude": 270.605
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 13.0,
+    "text": "Pisces 13°00′",
+    "longitude": 342.997
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 14.45,
+    "text": "Taurus 14°27′",
+    "longitude": 44.454
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 21.17,
+    "text": "Aquarius 21°10′",
+    "longitude": 321.172
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 25.4,
+    "text": "Aries 25°24′",
+    "longitude": 25.4
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 28.06,
+    "text": "Aries 28°03′",
+    "longitude": 28.056
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Tsar's Composer",
+   "stop": "Moscow, the 1812 Overture in a tent",
+   "date": "1882-08-20",
+   "date_confidence": "attested; the pool's 1880 is the year of composition",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408677.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 26.84,
+    "text": "Leo 26°50′",
+    "longitude": 146.836
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 3.72,
+    "text": "Scorpio 3°43′",
+    "longitude": 213.725
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 1.88,
+    "text": "Virgo 1°53′",
+    "longitude": 151.885
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 9.85,
+    "text": "Libra 9°51′",
+    "longitude": 189.846
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 0.94,
+    "text": "Libra 0°57′",
+    "longitude": 180.943
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 25.98,
+    "text": "Gemini 25°59′",
+    "longitude": 85.977
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 25.68,
+    "text": "Taurus 25°41′",
+    "longitude": 55.683
+   }
+  },
+  {
+   "segment": "The Tsar's Composer",
+   "stop": "Saint Petersburg, the Order of St Vladimir",
+   "date": "1884-01-01",
+   "date_confidence": "attested to 1884; no month or day in the reachable sources, defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409176.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.037
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tsar's Composer",
+   "stop": "Maydanovo, the first house of his own",
+   "date": "1885-02-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409598.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 7.6,
+    "text": "Pisces 7°36′",
+    "longitude": 337.604
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 25.2,
+    "text": "Cancer 25°12′",
+    "longitude": 115.202
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 24.71,
+    "text": "Aquarius 24°43′",
+    "longitude": 324.715
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 20.44,
+    "text": "Aquarius 20°26′",
+    "longitude": 320.436
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 4.45,
+    "text": "Pisces 4°27′",
+    "longitude": 334.446
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 29.97,
+    "text": "Leo 29°58′",
+    "longitude": 149.974
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 17.29,
+    "text": "Gemini 17°17′",
+    "longitude": 77.288
+   }
+  },
+  {
+   "segment": "The Tsar's Composer",
+   "stop": "Moscow, the Manfred Symphony",
+   "date": "1886-03-23",
+   "date_confidence": "attested; the pool's 1885 is the year of composition, May to September",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409988.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 2.31,
+    "text": "Aries 2°19′",
+    "longitude": 2.309
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 9.53,
+    "text": "Scorpio 9°32′",
+    "longitude": 219.533
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 20.78,
+    "text": "Aries 20°47′",
+    "longitude": 20.777
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 24.73,
+    "text": "Aquarius 24°44′",
+    "longitude": 324.727
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 9.81,
+    "text": "Virgo 9°49′",
+    "longitude": 159.815
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 0.93,
+    "text": "Libra 0°56′",
+    "longitude": 180.929
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.78,
+    "text": "Cancer 1°47′",
+    "longitude": 91.778
+   }
+  },
+  {
+   "segment": "The Volga and the Caucasus",
+   "stop": "Tiflis, the month with Anatoly",
+   "date": "1886-04-01",
+   "date_confidence": "attested to April 1886; the diary entry quoted here is dated 1/13 April",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409997.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.21,
+    "text": "Aries 11°12′",
+    "longitude": 11.205
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Volga and the Caucasus",
+   "stop": "Bolshoi Theatre, Moscow: conducting Cherevichki",
+   "date": "1887-01-01",
+   "date_confidence": "attested to January 1887; the pool does not give a day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410272.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.314
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Volga and the Caucasus",
+   "stop": "Baku, the Caspian crossing",
+   "date": "1887-05-01",
+   "date_confidence": "the Volga and Caspian route is attested to 1887; the month is inferred from the itinerary and the Astrakhan leg is tagged as reconstruction in the pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410392.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "year named only",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.3,
+    "text": "Taurus 10°18′",
+    "longitude": 40.3
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Volga and the Caucasus",
+   "stop": "Aachen, at Kondratyev's bedside",
+   "date": "1887-07-15",
+   "date_confidence": "attested, 15 to 27 July 1887",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410467.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.16,
+    "text": "Cancer 22°10′",
+    "longitude": 112.161
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 11.08,
+    "text": "Taurus 11°05′",
+    "longitude": 41.079
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 12.22,
+    "text": "Leo 12°13′",
+    "longitude": 132.222
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 7.69,
+    "text": "Virgo 7°41′",
+    "longitude": 157.687
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 1.7,
+    "text": "Cancer 1°42′",
+    "longitude": 91.696
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 26.71,
+    "text": "Libra 26°42′",
+    "longitude": 206.706
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 25.62,
+    "text": "Cancer 25°37′",
+    "longitude": 115.617
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Conducting Tours",
+   "stop": "Leipzig Gewandhaus, the first European tour opens",
+   "date": "1888-01-05",
+   "date_confidence": "attested; he is 47 at this concert, not the 57 that circulates in the compiled sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410641.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.14,
+    "text": "Capricornus 14°09′",
+    "longitude": 284.144
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 24.73,
+    "text": "Virgo 24°44′",
+    "longitude": 174.729
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 5.88,
+    "text": "Capricornus 5°53′",
+    "longitude": 275.881
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 0.15,
+    "text": "Sagittarius 0°09′",
+    "longitude": 240.148
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 14.46,
+    "text": "Libra 14°28′",
+    "longitude": 194.459
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 28.33,
+    "text": "Scorpio 28°20′",
+    "longitude": 238.326
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 4.61,
+    "text": "Leo 4°37′",
+    "longitude": 124.615
+   }
+  },
+  {
+   "segment": "The Conducting Tours",
+   "stop": "London, St James's Hall in Piccadilly",
+   "date": "1888-03-22",
+   "date_confidence": "attested, 22 March 1888 (10 March O.S.), the Philharmonic Society's second concert; the pool's 20 March is two days out",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410718.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 1.83,
+    "text": "Aries 1°50′",
+    "longitude": 1.829
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 14.91,
+    "text": "Cancer 14°55′",
+    "longitude": 104.908
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 6.35,
+    "text": "Pisces 6°21′",
+    "longitude": 336.352
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 2.85,
+    "text": "Pisces 2°51′",
+    "longitude": 332.849
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 28.23,
+    "text": "Libra 28°14′",
+    "longitude": 208.231
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 6.42,
+    "text": "Sagittarius 6°25′",
+    "longitude": 246.424
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 29.72,
+    "text": "Cancer 29°43′",
+    "longitude": 119.72
+   }
+  },
+  {
+   "segment": "The Conducting Tours",
+   "stop": "Frolovskoye, the leased house and the felled trees",
+   "date": "1888-04-01",
+   "date_confidence": "attested to April 1888; no day given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410728.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.71,
+    "text": "Aries 11°43′",
+    "longitude": 11.714
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Conducting Tours",
+   "stop": "Saint Petersburg, the Fifth Symphony conducted",
+   "date": "1888-11-01",
+   "date_confidence": "the pool gives the year only; the standard date is 5/17 November 1888 and the day is not asserted here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410942.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.03,
+    "text": "Scorpio 9°02′",
+    "longitude": 219.033
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The American Journey",
+   "stop": "Mariinsky Theatre, The Sleeping Beauty",
+   "date": "1890-01-01",
+   "date_confidence": "attested to January 1890; the pool fixes no day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411368.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.591
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The American Journey",
+   "stop": "New York, the opening of the Music Hall",
+   "date": "1891-05-05",
+   "date_confidence": "attested to opening night, 5 May 1891; the American visit runs 26 April to 21 May",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411857.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 14.21,
+    "text": "Taurus 14°12′",
+    "longitude": 44.208
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 0.15,
+    "text": "Aries 0°09′",
+    "longitude": 0.15
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 21.94,
+    "text": "Taurus 21°56′",
+    "longitude": 51.941
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 8.97,
+    "text": "Aries 8°58′",
+    "longitude": 8.967
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 10.13,
+    "text": "Gemini 10°08′",
+    "longitude": 70.125
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 12.16,
+    "text": "Pisces 12°09′",
+    "longitude": 342.158
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 10.51,
+    "text": "Virgo 10°30′",
+    "longitude": 160.506
+   }
+  },
+  {
+   "segment": "The American Journey",
+   "stop": "Philadelphia, Academy of Music: the last American concert",
+   "date": "1891-05-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411870.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 26.76,
+    "text": "Taurus 26°45′",
+    "longitude": 56.756
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 20.87,
+    "text": "Virgo 20°52′",
+    "longitude": 170.867
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 15.05,
+    "text": "Taurus 15°03′",
+    "longitude": 45.047
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 24.46,
+    "text": "Aries 24°28′",
+    "longitude": 24.46
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 18.89,
+    "text": "Gemini 18°53′",
+    "longitude": 78.888
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 14.19,
+    "text": "Pisces 14°12′",
+    "longitude": 344.194
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 10.48,
+    "text": "Virgo 10°29′",
+    "longitude": 160.477
+   }
+  },
+  {
+   "segment": "The Pathetique and the Grave",
+   "stop": "Klin, the last house",
+   "date": "1892-05-01",
+   "date_confidence": "attested to May 1892; three different coordinates for this house circulate within about 1.4 km and the report prints all three",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412219.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.07,
+    "text": "Taurus 11°04′",
+    "longitude": 41.067
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pathetique and the Grave",
+   "stop": "Mariinsky Theatre, Iolanta and The Nutcracker",
+   "date": "1892-12-18",
+   "date_confidence": "attested to December 1892; the day given here follows the standard chronology and the pool fixes only the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412450.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 26.6,
+    "text": "Sagittarius 26°36′",
+    "longitude": 266.601
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pathetique and the Grave",
+   "stop": "Cambridge, the Senate House doctorate",
+   "date": "1893-06-01",
+   "date_confidence": "attested to June 1893; the pool fixes no day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412615.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.69,
+    "text": "Gemini 10°41′",
+    "longitude": 70.692
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pathetique and the Grave",
+   "stop": "Saint Petersburg, the Sixth Symphony conducted",
+   "date": "1893-10-28",
+   "date_confidence": "attested; 16 October 1893 by the Julian calendar",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412764.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 4.82,
+    "text": "Scorpio 4°49′",
+    "longitude": 214.819
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 11.85,
+    "text": "Gemini 11°51′",
+    "longitude": 71.854
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 26.33,
+    "text": "Scorpio 26°20′",
+    "longitude": 236.328
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 18.41,
+    "text": "Sagittarius 18°24′",
+    "longitude": 258.407
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 16.64,
+    "text": "Libra 16°38′",
+    "longitude": 196.641
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 29.09,
+    "text": "Taurus 29°05′",
+    "longitude": 59.091
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 18.24,
+    "text": "Libra 18°15′",
+    "longitude": 198.242
+   }
+  },
+  {
+   "segment": "The Pathetique and the Grave",
+   "stop": "Saint Petersburg, the glass of water at Leiner's",
+   "date": "1893-11-01",
+   "date_confidence": "attested to 1 November 1893 in the account that became official",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412768.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.82,
+    "text": "Scorpio 8°49′",
+    "longitude": 218.821
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 9.51,
+    "text": "Leo 9°30′",
+    "longitude": 129.506
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 1.34,
+    "text": "Sagittarius 1°20′",
+    "longitude": 241.337
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 23.01,
+    "text": "Sagittarius 23°01′",
+    "longitude": 263.012
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 19.26,
+    "text": "Libra 19°16′",
+    "longitude": 199.26
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 28.62,
+    "text": "Taurus 28°37′",
+    "longitude": 58.621
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 18.72,
+    "text": "Libra 18°43′",
+    "longitude": 198.715
+   }
+  },
+  {
+   "segment": "The Pathetique and the Grave",
+   "stop": "Saint Petersburg, Malaya Morskaya: the death",
+   "date": "1893-11-06",
+   "date_confidence": "attested; 25 October 1893 by the Julian calendar, a dual dating and not a contradiction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412773.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 13.83,
+    "text": "Scorpio 13°50′",
+    "longitude": 223.835
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pathetique and the Grave",
+   "stop": "Kazan Cathedral, sixty thousand for six thousand places",
+   "date": "1893-11-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412776.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 16.85,
+    "text": "Scorpio 16°51′",
+    "longitude": 226.849
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 21.95,
+    "text": "Scorpio 21°57′",
+    "longitude": 231.946
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 9.61,
+    "text": "Sagittarius 9°37′",
+    "longitude": 249.613
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 2.13,
+    "text": "Capricornus 2°08′",
+    "longitude": 272.128
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 24.51,
+    "text": "Libra 24°31′",
+    "longitude": 204.514
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 27.6,
+    "text": "Taurus 27°36′",
+    "longitude": 57.603
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 19.64,
+    "text": "Libra 19°38′",
+    "longitude": 199.64
+   }
+  },
+  {
+   "segment": "The Pathetique and the Grave",
+   "stop": "Tikhvin Cemetery, among the composers",
+   "date": "1893-11-09",
+   "date_confidence": "attested; the pool carries two coordinates for the plot, 30.3897 and 30.3886, about sixty metres apart",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412776.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 16.85,
+    "text": "Scorpio 16°51′",
+    "longitude": 226.849
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 21.95,
+    "text": "Scorpio 21°57′",
+    "longitude": 231.946
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 9.61,
+    "text": "Sagittarius 9°37′",
+    "longitude": 249.613
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 2.13,
+    "text": "Capricornus 2°08′",
+    "longitude": 272.128
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 24.51,
+    "text": "Libra 24°31′",
+    "longitude": 204.514
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 27.6,
+    "text": "Taurus 27°36′",
+    "longitude": 57.603
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 19.64,
+    "text": "Libra 19°38′",
+    "longitude": 199.64
+   }
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 19,
+  "month": 14,
+  "year": 11
+ },
+ "parse_failures": []
+}

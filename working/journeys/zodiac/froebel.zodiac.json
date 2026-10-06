@@ -1,0 +1,2430 @@
+{
+ "slug": "froebel",
+ "traveler": "Friedrich Fröbel",
+ "title": "The Gardener of Children: Oberweissbach to Marienthal",
+ "years": "1782-1852",
+ "years_parsed": {
+  "first": 1782,
+  "last": 1852
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Das Pfarrhaus im Walde: The Motherless Childhood (1782–1796)",
+  "stop": "Oberweissbach, the parsonage of the Thuringian Forest",
+  "date": "1782-04-21",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1782,
+  "jd_ut": 2372032.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 0.98,
+   "text": "Taurus 0°59′",
+   "longitude": 30.979
+  },
+  "moon": {
+   "sign": "Leo",
+   "degree": 2.49,
+   "text": "Leo 2°30′",
+   "longitude": 122.495
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 4.8,
+   "text": "Aries 4°48′",
+   "longitude": 4.803
+  },
+  "venus": {
+   "sign": "Pisces",
+   "degree": 24.34,
+   "text": "Pisces 24°20′",
+   "longitude": 354.338
+  },
+  "mars": {
+   "sign": "Gemini",
+   "degree": 10.7,
+   "text": "Gemini 10°42′",
+   "longitude": 70.703
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 28.96,
+   "text": "Sagittarius 28°57′",
+   "longitude": 268.958
+  },
+  "saturn": {
+   "sign": "Capricornus",
+   "degree": 0.98,
+   "text": "Capricornus 0°59′",
+   "longitude": 270.983
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1782-1852",
+  "first_year_parsed": 1782
+ },
+ "stops": [
+  {
+   "segment": "Das Pfarrhaus im Walde: The Motherless Childhood (1782–1796)",
+   "stop": "Oberweissbach, the parsonage of the Thuringian Forest",
+   "date": "1782-04-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1782,
+   "jd_ut": 2372032.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 0.98,
+    "text": "Taurus 0°59′",
+    "longitude": 30.979
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 2.49,
+    "text": "Leo 2°30′",
+    "longitude": 122.495
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 4.8,
+    "text": "Aries 4°48′",
+    "longitude": 4.803
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 24.34,
+    "text": "Pisces 24°20′",
+    "longitude": 354.338
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 10.7,
+    "text": "Gemini 10°42′",
+    "longitude": 70.703
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 28.96,
+    "text": "Sagittarius 28°57′",
+    "longitude": 268.958
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 0.98,
+    "text": "Capricornus 0°59′",
+    "longitude": 270.983
+   }
+  },
+  {
+   "segment": "Das Pfarrhaus im Walde: The Motherless Childhood (1782–1796)",
+   "stop": "Oberweissbach, the mother's death",
+   "date": "1783-02-07",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1783,
+   "jd_ut": 2372324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 18.19,
+    "text": "Aquarius 18°11′",
+    "longitude": 318.191
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Das Pfarrhaus im Walde: The Motherless Childhood (1782–1796)",
+   "stop": "Oberweissbach, the walled yard and the strip of sky",
+   "date": "1787-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373899.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.33,
+    "text": "Gemini 10°20′",
+    "longitude": 70.329
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Das Pfarrhaus im Walde: The Motherless Childhood (1782–1796)",
+   "stop": "Oberweissbach, the hazel buds open the temple",
+   "date": "1791-03-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375268.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.41,
+    "text": "Pisces 10°25′",
+    "longitude": 340.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Das Pfarrhaus im Walde: The Motherless Childhood (1782–1796)",
+   "stop": "Stadtilm, the uncle's rescue",
+   "date": "1792-11-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1792,
+   "jd_ut": 2375879.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.31,
+    "text": "Scorpio 9°19′",
+    "longitude": 219.309
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Wald und Pflanze: The Forest as First Teacher (1797–1804)",
+   "stop": "Neuhaus am Rennweg, apprentice to the forester",
+   "date": "1797-06-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377575.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.85,
+    "text": "Cancer 2°51′",
+    "longitude": 92.85
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.28,
+    "text": "Gemini 23°17′",
+    "longitude": 83.282
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.6,
+    "text": "Gemini 22°36′",
+    "longitude": 82.602
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 9.96,
+    "text": "Cancer 9°58′",
+    "longitude": 99.964
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.61,
+    "text": "Cancer 17°37′",
+    "longitude": 107.608
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 16.61,
+    "text": "Aries 16°36′",
+    "longitude": 16.606
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.8,
+    "text": "Cancer 1°48′",
+    "longitude": 91.801
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Wald und Pflanze: The Forest as First Teacher (1797–1804)",
+   "stop": "Jena, the university of the plant",
+   "date": "1799-10-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378418.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.65,
+    "text": "Libra 21°39′",
+    "longitude": 201.648
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Wald und Pflanze: The Forest as First Teacher (1797–1804)",
+   "stop": "Jena, the botanical garden: the plant unfolding",
+   "date": "1800-05-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1800,
+   "jd_ut": 2378630.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.87,
+    "text": "Taurus 23°52′",
+    "longitude": 53.872
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Wald und Pflanze: The Forest as First Teacher (1797–1804)",
+   "stop": "Jena, nine weeks in the university prison",
+   "date": "1801-02-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2378892.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.74,
+    "text": "Aquarius 11°44′",
+    "longitude": 311.739
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Wald und Pflanze: The Forest as First Teacher (1797–1804)",
+   "stop": "Oberweissbach, the father's death",
+   "date": "1802-03-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379285.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.74,
+    "text": "Pisces 9°45′",
+    "longitude": 339.743
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Wald und Pflanze: The Forest as First Teacher (1797–1804)",
+   "stop": "Bamberg, land-surveyor in the secularised bishopric",
+   "date": "1803-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1803,
+   "jd_ut": 2379681.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.32,
+    "text": "Aries 10°19′",
+    "longitude": 10.324
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Wald und Pflanze: The Forest as First Teacher (1797–1804)",
+   "stop": "Gross-Milchow, private secretary in Mecklenburg",
+   "date": "1804-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1804,
+   "jd_ut": 2380108.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.22,
+    "text": "Gemini 10°13′",
+    "longitude": 70.225
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Ruf: The Calling at Frankfurt and the Flame of Yverdon (1805–1810)",
+   "stop": "Frankfurt, Gruner's Musterschule: the calling strikes",
+   "date": "1805-07-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380503.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.63,
+    "text": "Cancer 8°38′",
+    "longitude": 98.634
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Ruf: The Calling at Frankfurt and the Flame of Yverdon (1805–1810)",
+   "stop": "Frankfurt, the first lesson: the fish in the water",
+   "date": "1805-08-10",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380543.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 16.85,
+    "text": "Leo 16°51′",
+    "longitude": 136.849
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Ruf: The Calling at Frankfurt and the Flame of Yverdon (1805–1810)",
+   "stop": "Yverdon, the first pilgrimage to Pestalozzi",
+   "date": "1805-09-05",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380569.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 11.94,
+    "text": "Virgo 11°56′",
+    "longitude": 161.938
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 25.47,
+    "text": "Capricornus 25°28′",
+    "longitude": 295.467
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 5.86,
+    "text": "Libra 5°51′",
+    "longitude": 185.857
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 8.91,
+    "text": "Libra 8°55′",
+    "longitude": 188.915
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 23.21,
+    "text": "Libra 23°13′",
+    "longitude": 203.211
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 29.12,
+    "text": "Scorpio 29°07′",
+    "longitude": 239.119
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 14.61,
+    "text": "Libra 14°37′",
+    "longitude": 194.614
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Der Ruf: The Calling at Frankfurt and the Flame of Yverdon (1805–1810)",
+   "stop": "Frankfurt, return with the ember",
+   "date": "1805-10-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380609.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.2,
+    "text": "Libra 21°12′",
+    "longitude": 201.198
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 15.28,
+    "text": "Cancer 15°17′",
+    "longitude": 105.282
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 6.34,
+    "text": "Libra 6°20′",
+    "longitude": 186.337
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 27.45,
+    "text": "Scorpio 27°27′",
+    "longitude": 237.452
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 20.58,
+    "text": "Scorpio 20°35′",
+    "longitude": 230.579
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 5.41,
+    "text": "Sagittarius 5°25′",
+    "longitude": 245.414
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 19.33,
+    "text": "Libra 19°20′",
+    "longitude": 199.327
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Der Ruf: The Calling at Frankfurt and the Flame of Yverdon (1805–1810)",
+   "stop": "Frankfurt, the Holzhausen Oede: tutor of three boys",
+   "date": "1806-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1806,
+   "jd_ut": 2380868.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.4,
+    "text": "Cancer 8°24′",
+    "longitude": 98.403
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Ruf: The Calling at Frankfurt and the Flame of Yverdon (1805–1810)",
+   "stop": "Yverdon, arrival with the three pupils",
+   "date": "1808-10-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1808,
+   "jd_ut": 2381691.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.63,
+    "text": "Libra 7°38′",
+    "longitude": 187.625
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Ruf: The Calling at Frankfurt and the Flame of Yverdon (1805–1810)",
+   "stop": "Yverdon, the master's flame: evenings on the lake shore",
+   "date": "1809-07-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1809,
+   "jd_ut": 2381964.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.67,
+    "text": "Cancer 8°40′",
+    "longitude": 98.666
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Ruf: The Calling at Frankfurt and the Flame of Yverdon (1805–1810)",
+   "stop": "Yverdon, farewell to Pestalozzi",
+   "date": "1810-10-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1810,
+   "jd_ut": 2382421.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.15,
+    "text": "Libra 7°09′",
+    "longitude": 187.148
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kristall und Schwert: The Crystal and the Sword (1811–1815)",
+   "stop": "Göttingen, languages, sciences, and the law of the sphere",
+   "date": "1811-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1811,
+   "jd_ut": 2382694.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.21,
+    "text": "Cancer 8°12′",
+    "longitude": 98.205
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kristall und Schwert: The Crystal and the Sword (1811–1815)",
+   "stop": "Berlin, crystallography under Weiss",
+   "date": "1812-10-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383166.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.5,
+    "text": "Libra 21°30′",
+    "longitude": 201.5
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 8.64,
+    "text": "Aquarius 8°38′",
+    "longitude": 308.641
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 11.92,
+    "text": "Libra 11°55′",
+    "longitude": 191.924
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 5.19,
+    "text": "Virgo 5°12′",
+    "longitude": 155.193
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 24.66,
+    "text": "Virgo 24°40′",
+    "longitude": 174.663
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 6.38,
+    "text": "Leo 6°23′",
+    "longitude": 126.381
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 2.33,
+    "text": "Capricornus 2°20′",
+    "longitude": 272.333
+   }
+  },
+  {
+   "segment": "Kristall und Schwert: The Crystal and the Sword (1811–1815)",
+   "stop": "Berlin, the call to arms: the teacher's reason for war",
+   "date": "1813-03-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383317.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 24.06,
+    "text": "Pisces 24°04′",
+    "longitude": 354.06
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kristall und Schwert: The Crystal and the Sword (1811–1815)",
+   "stop": "Dresden, Eastertide muster of the Lützowers",
+   "date": "1813-04-18",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383351.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 27.56,
+    "text": "Aries 27°34′",
+    "longitude": 27.564
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kristall und Schwert: The Crystal and the Sword (1811–1815)",
+   "stop": "Meissen, the Elbe evening: Langethal and Middendorff found",
+   "date": "1813-04-20",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383353.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.51,
+    "text": "Aries 29°31′",
+    "longitude": 29.515
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kristall und Schwert: The Crystal and the Sword (1811–1815)",
+   "stop": "Havelberg, the armistice camp: Bauer closes the circle",
+   "date": "1813-07-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383439.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.05,
+    "text": "Cancer 22°03′",
+    "longitude": 112.046
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kristall und Schwert: The Crystal and the Sword (1811–1815)",
+   "stop": "Berlin, the mineralogical museum: the godlike in the very small",
+   "date": "1814-08-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383821.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.06,
+    "text": "Leo 8°03′",
+    "longitude": 128.056
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Keilhau: The Institute on the Hillside (1816–1830)",
+   "stop": "Griesheim an der Ilm, the Universal German Educational Institute",
+   "date": "1816-11-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1816,
+   "jd_ut": 2384659.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 23.57,
+    "text": "Scorpio 23°34′",
+    "longitude": 233.573
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 6.24,
+    "text": "Libra 6°15′",
+    "longitude": 186.243
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 5.24,
+    "text": "Scorpio 5°15′",
+    "longitude": 215.242
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 21.18,
+    "text": "Sagittarius 21°11′",
+    "longitude": 261.184
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 10.93,
+    "text": "Scorpio 10°56′",
+    "longitude": 220.931
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 21.34,
+    "text": "Scorpio 21°20′",
+    "longitude": 231.341
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 17.59,
+    "text": "Aquarius 17°35′",
+    "longitude": 317.591
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Keilhau: The Institute on the Hillside (1816–1830)",
+   "stop": "Keilhau, the move to the hillside",
+   "date": "1817-06-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384870.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.47,
+    "text": "Gemini 23°28′",
+    "longitude": 83.471
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 24.54,
+    "text": "Gemini 24°32′",
+    "longitude": 84.536
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 19.53,
+    "text": "Gemini 19°32′",
+    "longitude": 79.525
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 22.38,
+    "text": "Taurus 22°23′",
+    "longitude": 52.382
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 16.14,
+    "text": "Aries 16°08′",
+    "longitude": 16.138
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 3.72,
+    "text": "Sagittarius 3°43′",
+    "longitude": 243.724
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 5.69,
+    "text": "Pisces 5°41′",
+    "longitude": 335.686
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Keilhau: The Institute on the Hillside (1816–1830)",
+   "stop": "Berlin, marriage to Wilhelmine Hoffmeister",
+   "date": "1818-09-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1818,
+   "jd_ut": 2385323.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 17.63,
+    "text": "Virgo 17°38′",
+    "longitude": 167.63
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 29.65,
+    "text": "Capricornus 29°39′",
+    "longitude": 299.647
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 8.98,
+    "text": "Libra 8°59′",
+    "longitude": 188.976
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 1.35,
+    "text": "Scorpio 1°21′",
+    "longitude": 211.35
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 9.0,
+    "text": "Libra 9°00′",
+    "longitude": 189.0
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 3.46,
+    "text": "Capricornus 3°27′",
+    "longitude": 273.457
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 14.27,
+    "text": "Pisces 14°16′",
+    "longitude": 344.272
+   }
+  },
+  {
+   "segment": "Keilhau: The Institute on the Hillside (1816–1830)",
+   "stop": "Keilhau, growth, suspicion, and the inspector's verdict",
+   "date": "1824-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387413.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.38,
+    "text": "Gemini 10°23′",
+    "longitude": 70.383
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Keilhau: The Institute on the Hillside (1816–1830)",
+   "stop": "Keilhau, 'Die Menschenerziehung': the book of the eternal law",
+   "date": "1826-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2388143.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.92,
+    "text": "Gemini 9°55′",
+    "longitude": 69.92
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Keilhau: The Institute on the Hillside (1816–1830)",
+   "stop": "Helba, the national plan that heaven deferred",
+   "date": "1829-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1829,
+   "jd_ut": 2389239.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.18,
+    "text": "Gemini 10°11′",
+    "longitude": 70.184
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Schweizer Jahre: The Swiss Exile (1831–1836)",
+   "stop": "Schloss Wartensee, the castle on Lake Sempach",
+   "date": "1831-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389969.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.72,
+    "text": "Gemini 9°43′",
+    "longitude": 69.721
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Schweizer Jahre: The Swiss Exile (1831–1836)",
+   "stop": "Willisau, the school in the teeth of the priests",
+   "date": "1833-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1833,
+   "jd_ut": 2390669.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.36,
+    "text": "Taurus 10°22′",
+    "longitude": 40.364
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Schweizer Jahre: The Swiss Exile (1831–1836)",
+   "stop": "Burgdorf, the orphanage: Pestalozzi's own ground",
+   "date": "1835-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391369.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.57,
+    "text": "Aries 10°34′",
+    "longitude": 10.569
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Schweizer Jahre: The Swiss Exile (1831–1836)",
+   "stop": "Burgdorf, New Year 1836: 'Renewal of Life'",
+   "date": "1836-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391644.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.683
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Schweizer Jahre: The Swiss Exile (1831–1836)",
+   "stop": "Burgdorf, departure: the sick wife, the homeward road",
+   "date": "1836-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391796.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.48,
+    "text": "Gemini 10°29′",
+    "longitude": 70.478
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Kindergarten: The Garden of Children (1837–1848)",
+   "stop": "Bad Blankenburg, the Haus über dem Keller: the first institution for small children",
+   "date": "1837-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1837,
+   "jd_ut": 2392130.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.39,
+    "text": "Taurus 10°24′",
+    "longitude": 40.395
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Kindergarten: The Garden of Children (1837–1848)",
+   "stop": "Bad Blankenburg, the Gifts, and the Sunday paper of the children",
+   "date": "1838-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1838,
+   "jd_ut": 2392556.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.66,
+    "text": "Cancer 8°40′",
+    "longitude": 98.659
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Kindergarten: The Garden of Children (1837–1848)",
+   "stop": "Dresden, carrying the Gifts to the cities",
+   "date": "1839-02-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1839,
+   "jd_ut": 2392771.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.51,
+    "text": "Aquarius 11°31′",
+    "longitude": 311.512
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Kindergarten: The Garden of Children (1837–1848)",
+   "stop": "Bad Blankenburg, the death of Wilhelmine",
+   "date": "1839-05-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1839,
+   "jd_ut": 2392872.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 21.53,
+    "text": "Taurus 21°32′",
+    "longitude": 51.529
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 17.28,
+    "text": "Taurus 17°17′",
+    "longitude": 47.282
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 1.46,
+    "text": "Taurus 1°28′",
+    "longitude": 31.462
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 25.98,
+    "text": "Gemini 25°59′",
+    "longitude": 85.975
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.33,
+    "text": "Virgo 13°20′",
+    "longitude": 163.327
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.66,
+    "text": "Libra 9°39′",
+    "longitude": 189.658
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 8.16,
+    "text": "Sagittarius 8°09′",
+    "longitude": 248.156
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Der Kindergarten: The Garden of Children (1837–1848)",
+   "stop": "The Steiger above Blankenburg, the NAME arrives",
+   "date": "1840-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393226.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.66,
+    "text": "Taurus 10°40′",
+    "longitude": 40.661
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Kindergarten: The Garden of Children (1837–1848)",
+   "stop": "Bad Blankenburg town hall, founding of the Universal German Kindergarten",
+   "date": "1840-06-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393284.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 6.29,
+    "text": "Cancer 6°18′",
+    "longitude": 96.292
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 13.79,
+    "text": "Gemini 13°47′",
+    "longitude": 73.787
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 24.6,
+    "text": "Cancer 24°36′",
+    "longitude": 114.603
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 28.81,
+    "text": "Gemini 28°49′",
+    "longitude": 88.809
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 22.49,
+    "text": "Gemini 22°29′",
+    "longitude": 82.492
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 9.03,
+    "text": "Scorpio 9°02′",
+    "longitude": 219.034
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 17.02,
+    "text": "Sagittarius 17°01′",
+    "longitude": 257.016
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Der Kindergarten: The Garden of Children (1837–1848)",
+   "stop": "Bad Blankenburg, the Mutter- und Koselieder",
+   "date": "1844-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394718.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.54,
+    "text": "Gemini 10°33′",
+    "longitude": 70.542
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Der Kindergarten: The Garden of Children (1837–1848)",
+   "stop": "Rudolstadt, the teachers' assembly of the springtime of peoples",
+   "date": "1848-08-17",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396256.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.16,
+    "text": "Leo 24°10′",
+    "longitude": 144.159
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Verbot und Abend: The Ban and the Evening at Marienthal (1849–1852)",
+   "stop": "Bad Liebenstein, 'the old fool' and the Baroness",
+   "date": "1849-05-20",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396532.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.83,
+    "text": "Taurus 28°50′",
+    "longitude": 58.829
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Verbot und Abend: The Ban and the Evening at Marienthal (1849–1852)",
+   "stop": "Hamburg, the winter mission to the free city",
+   "date": "1850-01-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396772.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 24.56,
+    "text": "Capricornus 24°34′",
+    "longitude": 294.564
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Verbot und Abend: The Ban and the Evening at Marienthal (1849–1852)",
+   "stop": "Marienthal, the duke's gift: the last garden",
+   "date": "1850-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396939.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.76,
+    "text": "Cancer 8°45′",
+    "longitude": 98.755
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Verbot und Abend: The Ban and the Evening at Marienthal (1849–1852)",
+   "stop": "Marienthal, marriage to Louise Levin",
+   "date": "1851-06-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397282.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 17.53,
+    "text": "Gemini 17°32′",
+    "longitude": 77.533
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 16.91,
+    "text": "Libra 16°55′",
+    "longitude": 196.909
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 26.32,
+    "text": "Taurus 26°19′",
+    "longitude": 56.318
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 17.76,
+    "text": "Taurus 17°46′",
+    "longitude": 47.758
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 3.42,
+    "text": "Taurus 3°25′",
+    "longitude": 33.419
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.1,
+    "text": "Libra 13°06′",
+    "longitude": 193.103
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 0.52,
+    "text": "Taurus 0°31′",
+    "longitude": 30.525
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Verbot und Abend: The Ban and the Evening at Marienthal (1849–1852)",
+   "stop": "Marienthal, the Prussian Kindergarten Ban",
+   "date": "1851-08-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397341.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.86,
+    "text": "Leo 13°52′",
+    "longitude": 133.859
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 18.11,
+    "text": "Sagittarius 18°07′",
+    "longitude": 258.114
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 4.46,
+    "text": "Virgo 4°28′",
+    "longitude": 154.459
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 29.24,
+    "text": "Cancer 29°14′",
+    "longitude": 119.24
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 15.01,
+    "text": "Gemini 15°00′",
+    "longitude": 75.007
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 17.63,
+    "text": "Libra 17°38′",
+    "longitude": 197.634
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 4.22,
+    "text": "Taurus 4°13′",
+    "longitude": 34.22
+   }
+  },
+  {
+   "segment": "Verbot und Abend: The Ban and the Evening at Marienthal (1849–1852)",
+   "stop": "Marienthal, the seventieth birthday festival",
+   "date": "1852-04-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397599.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 1.04,
+    "text": "Taurus 1°02′",
+    "longitude": 31.036
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 17.62,
+    "text": "Taurus 17°37′",
+    "longitude": 47.622
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 14.1,
+    "text": "Taurus 14°06′",
+    "longitude": 44.098
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 15.15,
+    "text": "Gemini 15°09′",
+    "longitude": 75.151
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 5.28,
+    "text": "Leo 5°17′",
+    "longitude": 125.279
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 20.51,
+    "text": "Scorpio 20°30′",
+    "longitude": 230.505
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 6.63,
+    "text": "Taurus 6°38′",
+    "longitude": 36.634
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Verbot und Abend: The Ban and the Evening at Marienthal (1849–1852)",
+   "stop": "Gotha, the teachers rise to greet him",
+   "date": "1852-06-03",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397642.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 12.52,
+    "text": "Gemini 12°31′",
+    "longitude": 72.52
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Verbot und Abend: The Ban and the Evening at Marienthal (1849–1852)",
+   "stop": "Marienthal, death of the gardener",
+   "date": "1852-06-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397660.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 29.71,
+    "text": "Gemini 29°43′",
+    "longitude": 89.713
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 9.81,
+    "text": "Leo 9°48′",
+    "longitude": 129.805
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 19.96,
+    "text": "Gemini 19°58′",
+    "longitude": 79.963
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 5.42,
+    "text": "Leo 5°25′",
+    "longitude": 125.419
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 5.03,
+    "text": "Virgo 5°02′",
+    "longitude": 155.033
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.88,
+    "text": "Scorpio 13°53′",
+    "longitude": 223.88
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 13.99,
+    "text": "Taurus 14°00′",
+    "longitude": 43.994
+   }
+  },
+  {
+   "segment": "Verbot und Abend: The Ban and the Evening at Marienthal (1849–1852)",
+   "stop": "Schweina, the grave under the sphere, cylinder and cube",
+   "date": "1852-06-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397663.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.57,
+    "text": "Cancer 2°34′",
+    "longitude": 92.574
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 21.16,
+    "text": "Virgo 21°09′",
+    "longitude": 171.155
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 26.32,
+    "text": "Gemini 26°19′",
+    "longitude": 86.318
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 6.21,
+    "text": "Leo 6°13′",
+    "longitude": 126.211
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 6.72,
+    "text": "Virgo 6°43′",
+    "longitude": 156.715
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.72,
+    "text": "Scorpio 13°43′",
+    "longitude": 223.72
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 14.3,
+    "text": "Taurus 14°18′",
+    "longitude": 44.297
+   }
+  }
+ ],
+ "counts": {
+  "stops": 55,
+  "dated": 55,
+  "unparsed": 0,
+  "day": 15,
+  "month": 0,
+  "year": 40
+ },
+ "parse_failures": []
+}

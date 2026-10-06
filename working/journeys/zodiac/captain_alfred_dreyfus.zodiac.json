@@ -1,0 +1,2306 @@
+{
+ "slug": "captain_alfred_dreyfus",
+ "traveler": "Captain Alfred Dreyfus",
+ "title": "The Bordereau and the Broken Sword: Mulhouse, the Ile du Diable, and the Same Courtyard Twice",
+ "years": "1859-1935",
+ "years_parsed": {
+  "first": 1859,
+  "last": 1935
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Province That Changed Countries",
+  "stop": "Mulhouse, birth on the Rue du Sauvage",
+  "date": "1859-10-09",
+  "date_confidence": "attested to the day",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1859,
+  "jd_ut": 2400326.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Libra",
+   "degree": 15.17,
+   "text": "Libra 15°10′",
+   "longitude": 195.173
+  },
+  "moon": {
+   "sign": "Pisces",
+   "degree": 11.18,
+   "text": "Pisces 11°11′",
+   "longitude": 341.176
+  },
+  "mercury": {
+   "sign": "Libra",
+   "degree": 13.63,
+   "text": "Libra 13°38′",
+   "longitude": 193.632
+  },
+  "venus": {
+   "sign": "Libra",
+   "degree": 18.08,
+   "text": "Libra 18°05′",
+   "longitude": 198.075
+  },
+  "mars": {
+   "sign": "Virgo",
+   "degree": 18.79,
+   "text": "Virgo 18°47′",
+   "longitude": 168.791
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 23.4,
+   "text": "Cancer 23°24′",
+   "longitude": 113.398
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 23.12,
+   "text": "Leo 23°07′",
+   "longitude": 143.123
+  },
+  "conjunctions": [
+   {
+    "sign": "Libra",
+    "bodies": [
+     "Sun",
+     "Mercury",
+     "Venus"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1859-1935",
+  "first_year_parsed": 1859
+ },
+ "stops": [
+  {
+   "segment": "The Province That Changed Countries",
+   "stop": "Mulhouse, birth on the Rue du Sauvage",
+   "date": "1859-10-09",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400326.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.17,
+    "text": "Libra 15°10′",
+    "longitude": 195.173
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 11.18,
+    "text": "Pisces 11°11′",
+    "longitude": 341.176
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 13.63,
+    "text": "Libra 13°38′",
+    "longitude": 193.632
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 18.08,
+    "text": "Libra 18°05′",
+    "longitude": 198.075
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 18.79,
+    "text": "Virgo 18°47′",
+    "longitude": 168.791
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 23.4,
+    "text": "Cancer 23°24′",
+    "longitude": 113.398
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.12,
+    "text": "Leo 23°07′",
+    "longitude": 143.123
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Province That Changed Countries",
+   "stop": "Basel, the family crosses the border",
+   "date": "1872-01-01",
+   "date_confidence": "year attested by way of the father's option for French nationality in 1872 (fr.wikipedia); month and day defaulted to 01. The research pool's first pass dated the displacement 1870, which fr.wikipedia contradicts",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404793.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.95,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.948
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Province That Changed Countries",
+   "stop": "Paris, the college Sainte-Barbe",
+   "date": "1873-01-01",
+   "date_confidence": "year attested (fr.wikipedia: the family moves to Paris in 1873 and Alfred enters the college Sainte-Barbe); month and day defaulted to 01. The pin is this compiler's geolocation of the school's rue Valette building on the Montagne Sainte-Genevieve, not a coordinate supplied by the research pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.72,
+    "text": "Capricornus 10°43′",
+    "longitude": 280.72
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gunner",
+   "stop": "Paris, the Ecole polytechnique",
+   "date": "1878-10-01",
+   "date_confidence": "year attested (fr.wikipedia: received at nineteen, 182nd of 235, in 1878); month set to the October start of the academic year, day defaulted. The research pool's chronology lens carried 1877, from en.wikipedia's phrasing 'after turning 18 in October 1877', against its own geography lens's 1878; 1878 followed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407258.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.67,
+    "text": "Libra 7°40′",
+    "longitude": 187.675
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gunner",
+   "stop": "Fontainebleau, the school of application",
+   "date": "1880-10-01",
+   "date_confidence": "the 1880-1882 period at the school is attested; month set to the autumn intake, day defaulted. fr.wikipedia places the sous-lieutenant's commission at the exit from Polytechnique in 1880, 128th of 235, correcting the research pool's first pass, which attached the commission to Fontainebleau",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407989.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.18,
+    "text": "Libra 8°11′",
+    "longitude": 188.182
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gunner",
+   "stop": "Le Mans, the 31st Artillery",
+   "date": "1882-10-01",
+   "date_confidence": "attested to the day: named lieutenant and posted to the 31e regiment d'artillerie at Le Mans on 1 October 1882 (fr.wikipedia). The research pool's geography lens dated the posting '1880 onward' and its chronology lens dated the lieutenancy 1885; both corrected",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408719.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.71,
+    "text": "Libra 7°42′",
+    "longitude": 187.706
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 29.71,
+    "text": "Taurus 29°42′",
+    "longitude": 59.708
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 3.33,
+    "text": "Scorpio 3°20′",
+    "longitude": 213.333
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 24.15,
+    "text": "Scorpio 24°09′",
+    "longitude": 234.149
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 28.54,
+    "text": "Libra 28°33′",
+    "longitude": 208.542
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 0.85,
+    "text": "Cancer 0°51′",
+    "longitude": 90.854
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 25.52,
+    "text": "Taurus 25°31′",
+    "longitude": 55.522
+   }
+  },
+  {
+   "segment": "The Gunner",
+   "stop": "Paris, the horse batteries of the First Cavalry Division",
+   "date": "1883-11-01",
+   "date_confidence": "fr.wikipedia dates the reassignment to the horse batteries of the 1st cavalry division to the end of 1883; month set to November inside that window, day defaulted. The research pool's first pass dated it 1885. The pin is the Ecole militaire, corrected to the en.wikipedia coordinate and used at every Ecole militaire stop in this file",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2409115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.24,
+    "text": "Scorpio 8°15′",
+    "longitude": 218.244
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gunner",
+   "stop": "Bourges, the arsenal",
+   "date": "1889-01-01",
+   "date_confidence": "year attested and uncontested across the sources consulted; month and day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411003.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.84,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.838
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Only Jew on the Staff",
+   "stop": "Paris, the marriage to Lucie Hadamard",
+   "date": "1890-04-18",
+   "date_confidence": "18 April 1890 per fr.wikipedia, followed here as internally consistent with the War College admission two days later; en.wikipedia gives 18 April 1891. Not adjudicated. No source consulted names the wedding venue, so the pin is a nominal central Paris coordinate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411475.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source",
+    "(soft) nominal"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (no source, nominal) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 27.92,
+    "text": "Aries 27°55′",
+    "longitude": 27.916
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 10.9,
+    "text": "Aries 10°54′",
+    "longitude": 10.895
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 7.6,
+    "text": "Taurus 7°36′",
+    "longitude": 37.595
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 12.56,
+    "text": "Taurus 12°34′",
+    "longitude": 42.563
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 13.03,
+    "text": "Sagittarius 13°02′",
+    "longitude": 253.027
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 9.46,
+    "text": "Aquarius 9°28′",
+    "longitude": 309.465
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 27.23,
+    "text": "Leo 27°14′",
+    "longitude": 147.232
+   }
+  },
+  {
+   "segment": "The Only Jew on the Staff",
+   "stop": "Paris, admitted to the Ecole superieure de guerre",
+   "date": "1890-04-20",
+   "date_confidence": "attested to the day (fr.wikipedia): admitted 20 April 1890, two days after the wedding. The research pool's first pass gave 1891 and said three days",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411477.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.87,
+    "text": "Aries 29°52′",
+    "longitude": 29.868
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.1,
+    "text": "Taurus 8°06′",
+    "longitude": 38.099
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 11.65,
+    "text": "Taurus 11°39′",
+    "longitude": 41.65
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 15.03,
+    "text": "Taurus 15°02′",
+    "longitude": 45.025
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 13.13,
+    "text": "Sagittarius 13°08′",
+    "longitude": 253.132
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 9.71,
+    "text": "Aquarius 9°42′",
+    "longitude": 309.707
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 27.2,
+    "text": "Leo 27°12′",
+    "longitude": 147.197
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Only Jew on the Staff",
+   "stop": "Paris, ninth of eighty-one",
+   "date": "1892-11-01",
+   "date_confidence": "graduation in November 1892, ranked 9th of 81 with the mention 'tres bien' (fr.wikipedia); day not specified, defaulted to 01. The research pool's first pass dated the graduation 1893, conflating it with the staff posting that followed on 1 January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412403.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.06,
+    "text": "Scorpio 9°04′",
+    "longitude": 219.064
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Only Jew on the Staff",
+   "stop": "Paris, the General Staff on the rue Saint-Dominique",
+   "date": "1893-01-01",
+   "date_confidence": "attested to the day: the traineeship is taken up 1 January 1893 (fr.wikipedia). The pin is the Hotel de Brienne, rue Saint-Dominique, following the research pool's geography lens; its quotes lens carried 48.8586 / 2.3018 for the Ministry of War, which falls near the Champ de Mars",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 19.32,
+    "text": "Gemini 19°19′",
+    "longitude": 79.316
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 18.16,
+    "text": "Sagittarius 18°09′",
+    "longitude": 258.156
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 11.37,
+    "text": "Sagittarius 11°22′",
+    "longitude": 251.371
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 2.63,
+    "text": "Aries 2°38′",
+    "longitude": 2.63
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 15.84,
+    "text": "Aries 15°50′",
+    "longitude": 15.838
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 12.56,
+    "text": "Libra 12°34′",
+    "longitude": 192.564
+   }
+  },
+  {
+   "segment": "The Bordereau",
+   "stop": "Paris, the note out of the wastebasket",
+   "date": "1894-09-01",
+   "date_confidence": "September 1894 for the recovery of the bordereau from the German embassy by the housekeeper Marie Bastian (en.wikipedia, 'Dreyfus affair'); day not specified, defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2413072.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.52,
+    "text": "Virgo 8°31′",
+    "longitude": 158.519
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bordereau",
+   "stop": "Paris, the arrest at the Ministry of War",
+   "date": "1894-10-15",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2413116.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.63,
+    "text": "Libra 21°38′",
+    "longitude": 201.632
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 24.33,
+    "text": "Aries 24°20′",
+    "longitude": 24.329
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 15.61,
+    "text": "Scorpio 15°37′",
+    "longitude": 225.612
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 9.93,
+    "text": "Libra 9°56′",
+    "longitude": 189.93
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 29.43,
+    "text": "Aries 29°26′",
+    "longitude": 29.434
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 6.13,
+    "text": "Cancer 6°08′",
+    "longitude": 96.127
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 27.36,
+    "text": "Libra 27°22′",
+    "longitude": 207.358
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Bordereau",
+   "stop": "Paris, the Cherche-Midi prison",
+   "date": "1894-10-16",
+   "date_confidence": "held at Cherche-Midi from 15 October 1894; the research pool's first pass ran the confinement to 17 January 1895, corrected by fr.wikipedia, which moves him to the prison de la Sante after the 5 January degradation. The pin follows the geography lens; the quotes lens carried 48.8447 / 2.3267",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2413117.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 22.62,
+    "text": "Libra 22°37′",
+    "longitude": 202.625
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 7.66,
+    "text": "Taurus 7°40′",
+    "longitude": 37.659
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 16.75,
+    "text": "Scorpio 16°45′",
+    "longitude": 226.755
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 11.18,
+    "text": "Libra 11°11′",
+    "longitude": 191.179
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 29.11,
+    "text": "Aries 29°06′",
+    "longitude": 29.105
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 6.16,
+    "text": "Cancer 6°09′",
+    "longitude": 96.157
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 27.48,
+    "text": "Libra 27°29′",
+    "longitude": 207.479
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Bordereau",
+   "stop": "Paris, the closed court-martial",
+   "date": "1894-12-22",
+   "date_confidence": "the court sits 19 to 22 December 1894; the date given is the verdict",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2413184.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 0.18,
+    "text": "Capricornus 0°11′",
+    "longitude": 270.181
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 1.37,
+    "text": "Scorpio 1°22′",
+    "longitude": 211.37
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 19.43,
+    "text": "Sagittarius 19°26′",
+    "longitude": 259.429
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 5.34,
+    "text": "Capricornus 5°20′",
+    "longitude": 275.336
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 26.69,
+    "text": "Aries 26°41′",
+    "longitude": 26.687
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 1.34,
+    "text": "Cancer 1°20′",
+    "longitude": 91.338
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 4.86,
+    "text": "Scorpio 4°52′",
+    "longitude": 214.863
+   }
+  },
+  {
+   "segment": "The Bordereau",
+   "stop": "Paris, the courtyard of the Ecole militaire",
+   "date": "1895-01-05",
+   "date_confidence": "attested to the day. The coordinate is corrected to the en.wikipedia position of the Ecole militaire; the research pool's three lenses carried three different pins for this one courtyard, 48.8534 / 2.305, 48.8556 / 2.307, and 48.8557 / 2.3055",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413198.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.45,
+    "text": "Capricornus 14°27′",
+    "longitude": 284.45
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 22.19,
+    "text": "Aries 22°12′",
+    "longitude": 22.192
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 11.36,
+    "text": "Capricornus 11°21′",
+    "longitude": 281.356
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 22.94,
+    "text": "Capricornus 22°56′",
+    "longitude": 292.938
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 1.83,
+    "text": "Taurus 1°50′",
+    "longitude": 31.834
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 29.48,
+    "text": "Gemini 29°29′",
+    "longitude": 89.476
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 5.93,
+    "text": "Scorpio 5°56′",
+    "longitude": 215.933
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Bordereau",
+   "stop": "Paris, the crowd outside the railings",
+   "date": "1895-01-05",
+   "date_confidence": "same day and place as the ceremony, separated here because the two are attested by different witnesses. Theodor Herzl's physical presence at the degradation rests on his own later account and is not confirmed by en.wikipedia, which records that he may have heard 'Death to the traitor' rather than 'Death to the Jews'",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413198.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.45,
+    "text": "Capricornus 14°27′",
+    "longitude": 284.45
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 22.19,
+    "text": "Aries 22°12′",
+    "longitude": 22.192
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 11.36,
+    "text": "Capricornus 11°21′",
+    "longitude": 281.356
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 22.94,
+    "text": "Capricornus 22°56′",
+    "longitude": 292.938
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 1.83,
+    "text": "Taurus 1°50′",
+    "longitude": 31.834
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 29.48,
+    "text": "Gemini 29°29′",
+    "longitude": 89.476
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 5.93,
+    "text": "Scorpio 5°56′",
+    "longitude": 215.933
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Bordereau",
+   "stop": "Paris, the prison de la Sante",
+   "date": "1895-01-05",
+   "date_confidence": "fr.wikipedia: moved to La Sante after the 5 January degradation and transferred from there on 17 January 1895, correcting the first pass, which kept him at Cherche-Midi. The pin is this compiler's geolocation of the prison at 42 rue de la Sante, not a coordinate supplied by the research pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413198.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.45,
+    "text": "Capricornus 14°27′",
+    "longitude": 284.45
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 22.19,
+    "text": "Aries 22°12′",
+    "longitude": 22.192
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 11.36,
+    "text": "Capricornus 11°21′",
+    "longitude": 281.356
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 22.94,
+    "text": "Capricornus 22°56′",
+    "longitude": 292.938
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 1.83,
+    "text": "Taurus 1°50′",
+    "longitude": 31.834
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 29.48,
+    "text": "Gemini 29°29′",
+    "longitude": 89.476
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 5.93,
+    "text": "Scorpio 5°56′",
+    "longitude": 215.933
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Rock",
+   "stop": "Saint-Martin-de-Re, the citadel",
+   "date": "1895-01-17",
+   "date_confidence": "held at the citadel from 17 January to 21 February 1895 (attested); the date given is the arrival",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413210.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 26.68,
+    "text": "Capricornus 26°41′",
+    "longitude": 296.677
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 14.78,
+    "text": "Libra 14°47′",
+    "longitude": 194.782
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 1.14,
+    "text": "Aquarius 1°08′",
+    "longitude": 301.138
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 8.01,
+    "text": "Aquarius 8°01′",
+    "longitude": 308.009
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 7.08,
+    "text": "Taurus 7°05′",
+    "longitude": 37.081
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 28.08,
+    "text": "Gemini 28°05′",
+    "longitude": 88.076
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 6.63,
+    "text": "Scorpio 6°38′",
+    "longitude": 216.631
+   }
+  },
+  {
+   "segment": "The Rock",
+   "stop": "La Pallice, the Ville de Saint-Nazaire",
+   "date": "1895-02-21",
+   "date_confidence": "the embarkation date is attested; the quay is not. No source consulted specifies the point of embarkation near La Rochelle, and this pin is inferred from the Ile de Re transfer. The research pool tags the location R",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413245.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 2.15,
+    "text": "Pisces 2°09′",
+    "longitude": 332.148
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rock",
+   "stop": "Ile du Diable, the stone hut",
+   "date": "1895-04-13",
+   "date_confidence": "transferred to the Ile du Diable on 13 April 1895 (attested). Coordinates corrected to the fr.wikipedia position; the research pool's geography lens placed the island 1.6 km southwest in open water, its afterlife lens 1.1 km south at the archipelago centroid",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413296.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.82,
+    "text": "Aries 22°49′",
+    "longitude": 22.821
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 6.95,
+    "text": "Sagittarius 6°57′",
+    "longitude": 246.945
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 2.03,
+    "text": "Aries 2°02′",
+    "longitude": 2.028
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 24.27,
+    "text": "Taurus 24°16′",
+    "longitude": 54.273
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 24.5,
+    "text": "Gemini 24°30′",
+    "longitude": 84.504
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 0.26,
+    "text": "Cancer 0°16′",
+    "longitude": 90.264
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 4.9,
+    "text": "Scorpio 4°54′",
+    "longitude": 214.902
+   }
+  },
+  {
+   "segment": "The Rock",
+   "stop": "Ile du Diable, the double buckle",
+   "date": "1896-09-01",
+   "date_confidence": "the double boucle is imposed in September 1896 after escape rumours (attested and confirmed by the pool's correction layer); day not specified, defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413803.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 9.02,
+    "text": "Virgo 9°01′",
+    "longitude": 159.019
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rock",
+   "stop": "Paris, what Picquart finds in the files",
+   "date": "1896-08-01",
+   "date_confidence": "August 1896 for Picquart's identification of Esterhazy's hand (attested); day not specified, defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413772.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 9.19,
+    "text": "Leo 9°11′",
+    "longitude": 129.189
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rock",
+   "stop": "Paris, J'Accuse across the front page of L'Aurore",
+   "date": "1898-01-13",
+   "date_confidence": "attested to the day; the paper sells roughly 300,000 copies",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414302.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.88,
+    "text": "Capricornus 22°53′",
+    "longitude": 292.88
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rock",
+   "stop": "Paris, Zola in the assize court",
+   "date": "1898-02-23",
+   "date_confidence": "the libel trial runs 7 to 23 February 1898; the date given is the conviction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414343.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.43,
+    "text": "Pisces 4°26′",
+    "longitude": 334.435
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 1.95,
+    "text": "Aries 1°57′",
+    "longitude": 1.953
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 17.65,
+    "text": "Aquarius 17°39′",
+    "longitude": 317.651
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 6.16,
+    "text": "Pisces 6°10′",
+    "longitude": 336.163
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 9.58,
+    "text": "Aquarius 9°35′",
+    "longitude": 309.575
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 8.93,
+    "text": "Libra 8°56′",
+    "longitude": 188.935
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 11.7,
+    "text": "Sagittarius 11°42′",
+    "longitude": 251.696
+   }
+  },
+  {
+   "segment": "The Rock",
+   "stop": "Ile du Diable, the ship that comes back",
+   "date": "1899-06-09",
+   "date_confidence": "he leaves the island on 9 June 1899 (attested), the Cour de cassation having quashed the 1894 verdict earlier that month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414814.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 17.92,
+    "text": "Gemini 17°55′",
+    "longitude": 77.915
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 26.31,
+    "text": "Gemini 26°18′",
+    "longitude": 86.305
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 10.83,
+    "text": "Gemini 10°50′",
+    "longitude": 70.825
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 21.47,
+    "text": "Taurus 21°28′",
+    "longitude": 51.475
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 26.04,
+    "text": "Leo 26°03′",
+    "longitude": 146.045
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 0.84,
+    "text": "Scorpio 0°50′",
+    "longitude": 210.838
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 20.55,
+    "text": "Sagittarius 20°33′",
+    "longitude": 260.554
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Rennes, and the Word Forgiven",
+   "stop": "Rennes, the hall of the lycee",
+   "date": "1899-08-07",
+   "date_confidence": "the second court-martial sits 7 August to 9 September 1899; the date given is the opening. Coordinates corrected to the lycee, today the lycee Emile-Zola; the research pool's first pass sat about 600 m north of the building",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414873.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 14.24,
+    "text": "Leo 14°14′",
+    "longitude": 134.241
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 19.76,
+    "text": "Leo 19°46′",
+    "longitude": 139.763
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 3.61,
+    "text": "Virgo 3°37′",
+    "longitude": 153.613
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 3.28,
+    "text": "Leo 3°17′",
+    "longitude": 123.277
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 0.64,
+    "text": "Libra 0°39′",
+    "longitude": 180.642
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 2.66,
+    "text": "Scorpio 2°39′",
+    "longitude": 212.657
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 17.21,
+    "text": "Sagittarius 17°13′",
+    "longitude": 257.213
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Rennes, and the Word Forgiven",
+   "stop": "Rennes, guilty with extenuating circumstances",
+   "date": "1899-09-09",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414906.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 16.08,
+    "text": "Virgo 16°05′",
+    "longitude": 166.077
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 29.31,
+    "text": "Libra 29°19′",
+    "longitude": 209.309
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 28.82,
+    "text": "Leo 28°49′",
+    "longitude": 148.821
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 14.1,
+    "text": "Virgo 14°06′",
+    "longitude": 164.095
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 21.84,
+    "text": "Libra 21°51′",
+    "longitude": 201.842
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 7.4,
+    "text": "Scorpio 7°24′",
+    "longitude": 217.402
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 17.31,
+    "text": "Sagittarius 17°19′",
+    "longitude": 257.314
+   }
+  },
+  {
+   "segment": "Rennes, and the Word Forgiven",
+   "stop": "Paris, the pardon signed at the Elysee",
+   "date": "1899-09-19",
+   "date_confidence": "the pardon is signed 19 September 1899; the research pool tags the Elysee location R. Dreyfus himself is at Rennes on this date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414916.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 25.82,
+    "text": "Virgo 25°49′",
+    "longitude": 175.824
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 18.46,
+    "text": "Pisces 18°28′",
+    "longitude": 348.461
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 15.53,
+    "text": "Virgo 15°32′",
+    "longitude": 165.528
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 26.54,
+    "text": "Virgo 26°32′",
+    "longitude": 176.538
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 28.5,
+    "text": "Libra 28°30′",
+    "longitude": 208.504
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 9.2,
+    "text": "Scorpio 9°12′",
+    "longitude": 219.199
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 17.69,
+    "text": "Sagittarius 17°41′",
+    "longitude": 257.686
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Rennes, and the Word Forgiven",
+   "stop": "Carpentras, the house of his sister",
+   "date": "1899-10-01",
+   "date_confidence": "en.wikipedia: 'Until July 1906, he lived in a state of house arrest with one of his sisters at Carpentras, and later at Cologny.' The research pool's first pass windowed Carpentras at 1899-1900, six years short. Month and day defaulted to the autumn after the pardon",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414928.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.59,
+    "text": "Libra 7°35′",
+    "longitude": 187.591
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rennes, and the Word Forgiven",
+   "stop": "Cologny, above the lake",
+   "date": "1902-01-01",
+   "date_confidence": "en.wikipedia places him at Cologny near Geneva after Carpentras and before July 1906, without a year; 1902 is a midpoint default and month and day are defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Uniform",
+   "stop": "Paris, the Cour de cassation annuls the verdict",
+   "date": "1906-07-12",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417403.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 18.74,
+    "text": "Cancer 18°44′",
+    "longitude": 108.737
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 2.52,
+    "text": "Aries 2°31′",
+    "longitude": 2.516
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 15.07,
+    "text": "Leo 15°04′",
+    "longitude": 135.068
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 25.26,
+    "text": "Leo 25°16′",
+    "longitude": 145.262
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 19.89,
+    "text": "Cancer 19°54′",
+    "longitude": 109.894
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 25.96,
+    "text": "Gemini 25°57′",
+    "longitude": 85.957
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 14.69,
+    "text": "Pisces 14°42′",
+    "longitude": 344.692
+   }
+  },
+  {
+   "segment": "The Second Uniform",
+   "stop": "Paris, the sword given back",
+   "date": "1906-07-20",
+   "date_confidence": "the act reinstating him as chef d'escadron is dated 13 July 1906; the Legion of Honour investiture at the Ecole militaire is dated 20 July 1906 by fr.wikipedia and 21 July 1906 by en.wikipedia. Not adjudicated, the earlier date used. The research pool's first pass placed the decoration 'the day after' the exoneration, which no source supports",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417411.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.37,
+    "text": "Cancer 26°22′",
+    "longitude": 116.368
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Uniform",
+   "stop": "Vincennes, a battery again",
+   "date": "1906-09-01",
+   "date_confidence": "1906 attested for the Vincennes command; month and day defaulted inside the year, after the July reinstatement",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417454.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.65,
+    "text": "Virgo 7°39′",
+    "longitude": 157.646
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Uniform",
+   "stop": "Saint-Denis, the last command",
+   "date": "1906-10-15",
+   "date_confidence": "attested to the day for taking command at Saint-Denis; the retirement follows in 1907",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417498.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 20.73,
+    "text": "Libra 20°44′",
+    "longitude": 200.733
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 11.71,
+    "text": "Virgo 11°43′",
+    "longitude": 161.711
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 4.68,
+    "text": "Scorpio 4°41′",
+    "longitude": 214.681
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 4.22,
+    "text": "Sagittarius 4°13′",
+    "longitude": 244.219
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 20.49,
+    "text": "Virgo 20°30′",
+    "longitude": 170.492
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 10.71,
+    "text": "Cancer 10°42′",
+    "longitude": 100.706
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 8.85,
+    "text": "Pisces 8°51′",
+    "longitude": 338.847
+   }
+  },
+  {
+   "segment": "The Second Uniform",
+   "stop": "Paris, two shots at the Pantheon",
+   "date": "1908-06-04",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418096.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 12.97,
+    "text": "Gemini 12°58′",
+    "longitude": 72.965
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 7.94,
+    "text": "Leo 7°57′",
+    "longitude": 127.944
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 6.4,
+    "text": "Cancer 6°24′",
+    "longitude": 96.4
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 19.81,
+    "text": "Cancer 19°49′",
+    "longitude": 109.813
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 8.06,
+    "text": "Cancer 8°03′",
+    "longitude": 98.057
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 9.5,
+    "text": "Leo 9°30′",
+    "longitude": 129.502
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 8.16,
+    "text": "Aries 8°10′",
+    "longitude": 8.162
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Second Uniform",
+   "stop": "Verdun, the reserve officer",
+   "date": "1917-01-01",
+   "date_confidence": "the research pool's geography lens dates the Verdun service to 1917; he re-entered service in 1914. Month and day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Uniform",
+   "stop": "Chemin des Dames, the last front",
+   "date": "1917-04-01",
+   "date_confidence": "the geography lens dates the Aisne service to 1917 and the Nivelle offensive on the Chemin des Dames opens 16 April 1917; month set to April, day defaulted. The November 1918 Officer of the Legion of Honour named in the campa is tagged R in the research pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421319.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.7,
+    "text": "Aries 10°42′",
+    "longitude": 10.703
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave, and a Statue With Nowhere to Stand",
+   "stop": "Paris, the death of a private citizen",
+   "date": "1935-07-12",
+   "date_confidence": "attested to the day. No source consulted gives the address of his last residence, so the pin is the nominal central Paris coordinate the research pool supplied for both the death and the funeral cortege",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427995.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source",
+    "(soft) nominal"
+   ],
+   "notes": [
+    "soft triggers (no source, nominal) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 18.73,
+    "text": "Cancer 18°44′",
+    "longitude": 108.731
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 24.26,
+    "text": "Scorpio 24°16′",
+    "longitude": 234.261
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 28.43,
+    "text": "Gemini 28°26′",
+    "longitude": 88.425
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 3.61,
+    "text": "Virgo 3°37′",
+    "longitude": 153.613
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 21.0,
+    "text": "Libra 21°00′",
+    "longitude": 201.003
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.35,
+    "text": "Scorpio 13°21′",
+    "longitude": 223.353
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 9.53,
+    "text": "Pisces 9°32′",
+    "longitude": 339.525
+   }
+  },
+  {
+   "segment": "The Grave, and a Statue With Nowhere to Stand",
+   "stop": "Paris, the cortege crosses the Place de la Concorde",
+   "date": "1935-07-14",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427997.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 20.64,
+    "text": "Cancer 20°38′",
+    "longitude": 110.638
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 21.22,
+    "text": "Sagittarius 21°13′",
+    "longitude": 261.217
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 0.06,
+    "text": "Cancer 0°04′",
+    "longitude": 90.062
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 5.29,
+    "text": "Virgo 5°18′",
+    "longitude": 155.295
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 21.95,
+    "text": "Libra 21°57′",
+    "longitude": 201.947
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.36,
+    "text": "Scorpio 13°22′",
+    "longitude": 223.361
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 9.46,
+    "text": "Pisces 9°27′",
+    "longitude": 339.456
+   }
+  },
+  {
+   "segment": "The Grave, and a Statue With Nowhere to Stand",
+   "stop": "Paris, the bronze with the broken sword",
+   "date": "1994-10-16",
+   "date_confidence": "the statue by Louis Mitelberg ('Tim') is cast in 1985, inaugurated in the Tuileries 9 June 1988, and moved on 16 October 1994 to the place Pierre-Lafue at rue Notre-Dame-des-Champs and boulevard Raspail, the date used here. The research pool's first pass read 1985 as a dedication. Pin follows the geography lens; the afterlife lens carried 48.8422 / 2.3288",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1994,
+   "jd_ut": 2449641.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 22.4,
+    "text": "Libra 22°24′",
+    "longitude": 202.401
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 13.0,
+    "text": "Pisces 13°00′",
+    "longitude": 342.998
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 3.49,
+    "text": "Scorpio 3°29′",
+    "longitude": 213.485
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 17.84,
+    "text": "Scorpio 17°50′",
+    "longitude": 227.838
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 6.23,
+    "text": "Leo 6°14′",
+    "longitude": 126.23
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 18.04,
+    "text": "Scorpio 18°02′",
+    "longitude": 228.036
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 5.88,
+    "text": "Pisces 5°53′",
+    "longitude": 335.883
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Grave, and a Statue With Nowhere to Stand",
+   "stop": "Medan, the museum in Zola's house",
+   "date": "2021-01-01",
+   "date_confidence": "2021 attested for the inauguration by President Macron; month and day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2021,
+   "jd_ut": 2459215.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.79,
+    "text": "Capricornus 10°48′",
+    "longitude": 280.793
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave, and a Statue With Nowhere to Stand",
+   "stop": "Paris, promoted general ninety years dead",
+   "date": "2025-11-17",
+   "date_confidence": "fr.wikipedia: the Assemblee nationale approved the promotion to general de brigade on 2 June 2025, the Senate voted unanimously on 6 November 2025, and the law was promulgated on 17 November 2025, the date used here. The research pool's first pass gave 18 November 2025, which matches no step in the process",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460996.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 24.89,
+    "text": "Scorpio 24°53′",
+    "longitude": 234.891
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 19.2,
+    "text": "Libra 19°12′",
+    "longitude": 199.204
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 2.67,
+    "text": "Sagittarius 2°40′",
+    "longitude": 242.673
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 12.62,
+    "text": "Scorpio 12°37′",
+    "longitude": 222.616
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 9.0,
+    "text": "Sagittarius 9°00′",
+    "longitude": 249.003
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 25.11,
+    "text": "Cancer 25°06′",
+    "longitude": 115.106
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 25.19,
+    "text": "Pisces 25°11′",
+    "longitude": 355.188
+   }
+  },
+  {
+   "segment": "The Grave, and a Statue With Nowhere to Stand",
+   "stop": "Ile de la Cite, the statue moved to the court that cleared him",
+   "date": "2026-07-12",
+   "date_confidence": "the research pool's afterlife lens dates the relocation to the Cour de cassation to 12 July 2026, its geography lens to June 2026. Not adjudicated; the July date is used and falls on the anniversary of the 1906 annulment. Pin follows the Palais de Justice coordinate used for the Cour de cassation elsewhere in this file",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461233.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 19.7,
+    "text": "Cancer 19°42′",
+    "longitude": 109.699
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 15.69,
+    "text": "Gemini 15°41′",
+    "longitude": 75.692
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 21.39,
+    "text": "Cancer 21°23′",
+    "longitude": 111.389
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 2.53,
+    "text": "Virgo 2°32′",
+    "longitude": 152.532
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 9.3,
+    "text": "Gemini 9°18′",
+    "longitude": 69.304
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 2.56,
+    "text": "Leo 2°33′",
+    "longitude": 122.555
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 14.47,
+    "text": "Aries 14°28′",
+    "longitude": 14.472
+   }
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 26,
+  "month": 5,
+  "year": 14
+ },
+ "parse_failures": []
+}

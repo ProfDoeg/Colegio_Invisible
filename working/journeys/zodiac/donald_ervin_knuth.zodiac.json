@@ -1,0 +1,1748 @@
+{
+ "slug": "donald_ervin_knuth",
+ "traveler": "Donald Ervin Knuth (Gao Dena)",
+ "title": "The Art of Computer Programming: Milwaukee to Stanford, and the Ten-Year Detour",
+ "years": "1938-",
+ "years_parsed": {
+  "first": 1938,
+  "last": 2026
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Milwaukee: The Bookkeeper's Son",
+  "stop": "Milwaukee, born to the man with the press",
+  "date": "1938-01-10",
+  "date_confidence": "attested to the day",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1938,
+  "jd_ut": 2428908.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 19.1,
+   "text": "Capricornus 19°06′",
+   "longitude": 289.099
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 24.22,
+   "text": "Aries 24°13′",
+   "longitude": 24.219
+  },
+  "mercury": {
+   "sign": "Sagittarius",
+   "degree": 29.34,
+   "text": "Sagittarius 29°21′",
+   "longitude": 269.342
+  },
+  "venus": {
+   "sign": "Capricornus",
+   "degree": 13.08,
+   "text": "Capricornus 13°05′",
+   "longitude": 283.075
+  },
+  "mars": {
+   "sign": "Pisces",
+   "degree": 14.55,
+   "text": "Pisces 14°33′",
+   "longitude": 344.55
+  },
+  "jupiter": {
+   "sign": "Aquarius",
+   "degree": 4.8,
+   "text": "Aquarius 4°48′",
+   "longitude": 304.799
+  },
+  "saturn": {
+   "sign": "Pisces",
+   "degree": 29.35,
+   "text": "Pisces 29°21′",
+   "longitude": 359.348
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1938-",
+  "first_year_parsed": 1938
+ },
+ "stops": [
+  {
+   "segment": "Milwaukee: The Bookkeeper's Son",
+   "stop": "Milwaukee, born to the man with the press",
+   "date": "1938-01-10",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428908.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.1,
+    "text": "Capricornus 19°06′",
+    "longitude": 289.099
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 24.22,
+    "text": "Aries 24°13′",
+    "longitude": 24.219
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 29.34,
+    "text": "Sagittarius 29°21′",
+    "longitude": 269.342
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 13.08,
+    "text": "Capricornus 13°05′",
+    "longitude": 283.075
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 14.55,
+    "text": "Pisces 14°33′",
+    "longitude": 344.55
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 4.8,
+    "text": "Aquarius 4°48′",
+    "longitude": 304.799
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 29.35,
+    "text": "Pisces 29°21′",
+    "longitude": 359.348
+   }
+  },
+  {
+   "segment": "Milwaukee: The Bookkeeper's Son",
+   "stop": "Milwaukee, the Ziegler's Giant Bar contest",
+   "date": "1952-01-01",
+   "date_confidence": "eighth-grade year attested; for a January 1938 birth that is the 1951-52 school year; month not recorded, defaulted to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434012.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.52,
+    "text": "Capricornus 9°31′",
+    "longitude": 279.519
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Milwaukee: The Bookkeeper's Son",
+   "stop": "Milwaukee Lutheran High School, the highest average on record",
+   "date": "1956-06-01",
+   "date_confidence": "graduation year attested; month conventional for a June commencement",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435625.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.47,
+    "text": "Gemini 10°28′",
+    "longitude": 70.474
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Case, and the Machine in the Basement",
+   "stop": "Case Institute of Technology, the physics scholarship",
+   "date": "1956-09-01",
+   "date_confidence": "term of entry attested; day conventional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435717.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.53,
+    "text": "Virgo 8°32′",
+    "longitude": 158.525
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Case, and the Machine in the Basement",
+   "stop": "Case Institute of Technology, the Potrzebie System",
+   "date": "1957-06-01",
+   "date_confidence": "year attested; month taken from the issue in which it appeared",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2435990.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.24,
+    "text": "Gemini 10°15′",
+    "longitude": 70.242
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Case, and the Machine in the Basement",
+   "stop": "Case Institute of Technology, the basketball formula",
+   "date": "1958-01-01",
+   "date_confidence": "year attested; the geography lens carried 1957 in error, corrected here to 1958; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436204.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.073
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Case, and the Machine in the Basement",
+   "stop": "Case Institute of Technology, two degrees on one day",
+   "date": "1960-06-01",
+   "date_confidence": "year attested; June commencement conventional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2437086.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.51,
+    "text": "Gemini 10°30′",
+    "longitude": 70.506
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pasadena: A Compiler, a Marriage, and a Book That Will Not Close",
+   "stop": "Burroughs Corporation, Pasadena, the ALGOL compiler",
+   "date": "1960-06-01",
+   "date_confidence": "year attested; month inferred from the summer before graduate entry; the Pasadena office coordinates are a reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2437086.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "to the year",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.51,
+    "text": "Gemini 10°30′",
+    "longitude": 70.506
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pasadena: A Compiler, a Marriage, and a Book That Will Not Close",
+   "stop": "Caltech, graduate study under Marshall Hall",
+   "date": "1960-09-01",
+   "date_confidence": "year attested; September term conventional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2437178.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.56,
+    "text": "Virgo 8°33′",
+    "longitude": 158.557
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pasadena: A Compiler, a Marriage, and a Book That Will Not Close",
+   "stop": "Pasadena, marriage to Nancy Jill Carter",
+   "date": "1961-06-24",
+   "date_confidence": "attested to the day in Knuth's own curriculum vitae; the ceremony venue is not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437474.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not established) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.25,
+    "text": "Cancer 2°15′",
+    "longitude": 92.254
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 2.81,
+    "text": "Scorpio 2°49′",
+    "longitude": 212.81
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 7.59,
+    "text": "Cancer 7°35′",
+    "longitude": 97.591
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 16.61,
+    "text": "Taurus 16°37′",
+    "longitude": 46.611
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 27.08,
+    "text": "Leo 27°05′",
+    "longitude": 147.077
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 5.82,
+    "text": "Aquarius 5°49′",
+    "longitude": 305.819
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 28.28,
+    "text": "Capricornus 28°17′",
+    "longitude": 298.284
+   }
+  },
+  {
+   "segment": "Pasadena: A Compiler, a Marriage, and a Book That Will Not Close",
+   "stop": "Addison-Wesley, Reading, the commission for one book",
+   "date": "1962-01-01",
+   "date_confidence": "January 1962 attested; whether Knuth was in Reading or corresponded by mail is not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437665.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.103
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pasadena: A Compiler, a Marriage, and a Book That Will Not Close",
+   "stop": "Caltech, the doctorate and the assistant professorship",
+   "date": "1963-06-01",
+   "date_confidence": "June 1963 attested for the degree; the faculty appointment follows in the same year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438181.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.81,
+    "text": "Gemini 9°49′",
+    "longitude": 69.811
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pasadena: A Compiler, a Marriage, and a Book That Will Not Close",
+   "stop": "Caltech, three thousand pages in longhand",
+   "date": "1965-06-01",
+   "date_confidence": "June 1965 attested; the chronology lens carried this loosely as 'by 1966' and is corrected here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438912.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.31,
+    "text": "Gemini 10°18′",
+    "longitude": 70.306
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Pasadena: A Compiler, a Marriage, and a Book That Will Not Close",
+   "stop": "Caltech, seven volumes and an associate professorship",
+   "date": "1966-01-01",
+   "date_confidence": "the restructuring falls in 1965-66; the promotion is dated 1966; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439126.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Princeton and the Move to Stanford",
+   "stop": "Addison-Wesley, Reading, Volume 1 set in hot metal",
+   "date": "1968-01-01",
+   "date_confidence": "publication year attested; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2439856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.64,
+    "text": "Capricornus 9°38′",
+    "longitude": 279.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Princeton and the Move to Stanford",
+   "stop": "Institute for Defense Analyses, Princeton, the classified year",
+   "date": "1968-09-01",
+   "date_confidence": "1968-1969 per Knuth's CV; the geography lens carried 1967-1969 in error; the coordinates are the atlas pin for the Institute for Advanced Study grounds, adjacent to which the Communications Research Division sat",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2440100.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.62,
+    "text": "Virgo 8°37′",
+    "longitude": 158.62
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Princeton and the Move to Stanford",
+   "stop": "Stanford, the chair in computer science",
+   "date": "1969-01-01",
+   "date_confidence": "contradiction not resolved: Knuth's CV and MacTutor date the appointment 1968, Wikipedia dates it 1969; dated here to arrival on campus after the Princeton year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Princeton and the Move to Stanford",
+   "stop": "Addison-Wesley, Reading, Volume 2",
+   "date": "1969-09-01",
+   "date_confidence": "publication year attested; month unrecorded, placed after the Stanford arrival",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440465.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.39,
+    "text": "Virgo 8°23′",
+    "longitude": 158.386
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Princeton and the Move to Stanford",
+   "stop": "Stanford, the first Grace Murray Hopper Award",
+   "date": "1971-01-01",
+   "date_confidence": "year attested; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2440952.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oslo, Sorting, and the Art",
+   "stop": "University of Oslo, Blindern, Surreal Numbers",
+   "date": "1972-09-01",
+   "date_confidence": "the sabbatical year 1972-73 is attested; the month of arrival is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441561.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.65,
+    "text": "Virgo 8°39′",
+    "longitude": 158.652
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oslo, Sorting, and the Art",
+   "stop": "Addison-Wesley, Reading, Volume 3",
+   "date": "1973-01-01",
+   "date_confidence": "publication year attested; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1973,
+   "jd_ut": 2441683.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.439
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oslo, Sorting, and the Art",
+   "stop": "San Diego, the Turing Award lecture",
+   "date": "1974-11-01",
+   "date_confidence": "award year attested; the San Diego conference venue and the November date are a reconstruction, not verified in this pass",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1974,
+   "jd_ut": 2442352.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.18,
+    "text": "Scorpio 8°11′",
+    "longitude": 218.185
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Detour",
+   "stop": "Stanford, the galley proofs of the second edition",
+   "date": "1977-03-30",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443232.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 9.19,
+    "text": "Aries 9°11′",
+    "longitude": 9.187
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 2.83,
+    "text": "Leo 2°50′",
+    "longitude": 122.828
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 22.8,
+    "text": "Aries 22°48′",
+    "longitude": 22.798
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 20.72,
+    "text": "Aries 20°43′",
+    "longitude": 20.717
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 7.72,
+    "text": "Pisces 7°43′",
+    "longitude": 337.722
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 29.12,
+    "text": "Taurus 29°07′",
+    "longitude": 59.125
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 10.19,
+    "text": "Leo 10°12′",
+    "longitude": 130.193
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Detour",
+   "stop": "Stanford, the memo of 13 May",
+   "date": "1977-05-13",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443276.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 22.13,
+    "text": "Taurus 22°08′",
+    "longitude": 52.132
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 25.63,
+    "text": "Pisces 25°38′",
+    "longitude": 355.632
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 4.75,
+    "text": "Taurus 4°45′",
+    "longitude": 34.753
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 12.5,
+    "text": "Aries 12°30′",
+    "longitude": 12.5
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 11.78,
+    "text": "Aries 11°47′",
+    "longitude": 11.783
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 8.49,
+    "text": "Gemini 8°29′",
+    "longitude": 68.486
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 10.95,
+    "text": "Leo 10°57′",
+    "longitude": 130.948
+   }
+  },
+  {
+   "segment": "The Detour",
+   "stop": "Stanford, Fletcher Jones Professor, and a name in Chinese",
+   "date": "1977-09-01",
+   "date_confidence": "both events dated to 1977; months unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443387.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.45,
+    "text": "Virgo 8°27′",
+    "longitude": 158.45
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Detour",
+   "stop": "Stanford Artificial Intelligence Laboratory, TeX78",
+   "date": "1978-01-01",
+   "date_confidence": "year attested; month unrecorded; the SAIL site coordinates are a reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443509.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.22,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.221
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Detour",
+   "stop": "Stanford, Guy Steele's summer",
+   "date": "1978-06-01",
+   "date_confidence": "the summer of 1978 is attested; the exact month is conventional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443660.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.17,
+    "text": "Gemini 10°10′",
+    "longitude": 70.17
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Detour",
+   "stop": "Washington, the National Medal of Science",
+   "date": "1979-11-01",
+   "date_confidence": "award year attested; the White House venue and the month are conventional for the period, not separately confirmed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1979,
+   "jd_ut": 2444178.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "to the year",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.97,
+    "text": "Scorpio 7°58′",
+    "longitude": 217.973
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Written to Be Read",
+   "stop": "Stanford, WEB",
+   "date": "1981-01-01",
+   "date_confidence": "year attested; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444605.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.498
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Written to Be Read",
+   "stop": "Stanford, TeX82 written again from nothing",
+   "date": "1982-09-01",
+   "date_confidence": "year attested; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1982,
+   "jd_ut": 2445213.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.25,
+    "text": "Virgo 8°15′",
+    "longitude": 158.247
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Written to Be Read",
+   "stop": "Addison-Wesley, Reading, The TeXbook",
+   "date": "1984-01-01",
+   "date_confidence": "publication year attested; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445700.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.76,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.756
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Written to Be Read",
+   "stop": "Stanford, the paper that names the practice",
+   "date": "1984-05-01",
+   "date_confidence": "the paper appears in volume 27, number 2 of the journal for 1984; the month is taken from that issue",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445821.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.82,
+    "text": "Taurus 10°49′",
+    "longitude": 40.816
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Written to Be Read",
+   "stop": "SRI International, Menlo Park, LaTeX",
+   "date": "1984-09-01",
+   "date_confidence": "version 2.06a is dated September 1984; development runs from the early 1980s and the first manual follows in 1986",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445944.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.75,
+    "text": "Virgo 8°45′",
+    "longitude": 158.747
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Written to Be Read",
+   "stop": "Stanford, the source published as a book",
+   "date": "1986-01-01",
+   "date_confidence": "publication year attested; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1986,
+   "jd_ut": 2446431.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.28
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "On the Bottom of Things",
+   "stop": "Stanford, Concrete Mathematics",
+   "date": "1989-01-01",
+   "date_confidence": "1989 per Knuth's CV; the chronology lens carried 1988 in error; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1989,
+   "jd_ut": 2447527.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.557
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "On the Bottom of Things",
+   "stop": "Stanford, the end of email",
+   "date": "1990-01-01",
+   "date_confidence": "attested to the day by Knuth himself",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2447892.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.31
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 26.55,
+    "text": "Aquarius 26°33′",
+    "longitude": 326.553
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 25.79,
+    "text": "Capricornus 25°48′",
+    "longitude": 295.794
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 6.29,
+    "text": "Aquarius 6°18′",
+    "longitude": 306.295
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 9.65,
+    "text": "Sagittarius 9°39′",
+    "longitude": 249.653
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 5.32,
+    "text": "Cancer 5°19′",
+    "longitude": 95.318
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 15.5,
+    "text": "Capricornus 15°30′",
+    "longitude": 285.502
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "On the Bottom of Things",
+   "stop": "Stanford, version 3.0 and a chair named for a book",
+   "date": "1990-03-15",
+   "date_confidence": "the release is dated to the day; the change of title is dated to the year only",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2447965.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 24.15,
+    "text": "Pisces 24°09′",
+    "longitude": 354.153
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "On the Bottom of Things",
+   "stop": "Stanford, emeritus at fifty-five",
+   "date": "1993-01-01",
+   "date_confidence": "retirement from teaching dated 1992, emeritus status 1993; months unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1993,
+   "jd_ut": 2448988.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.587
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "On the Bottom of Things",
+   "stop": "Kyoto, the Inamori Foundation's prize",
+   "date": "1996-11-01",
+   "date_confidence": "year attested by Knuth's CV, which also records his commemorative lecture in Kyoto; the November date follows the prize's usual calendar",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450388.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.85,
+    "text": "Scorpio 8°51′",
+    "longitude": 218.852
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "On the Bottom of Things",
+   "stop": "Stanford, the Bank of San Serriffe",
+   "date": "2008-01-01",
+   "date_confidence": "the change of instrument is dated to 2008; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2008,
+   "jd_ut": 2454466.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.933
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "On the Bottom of Things",
+   "stop": "Stanford, Volume 4A after thirty-eight years",
+   "date": "2011-01-01",
+   "date_confidence": "publication year attested; month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2011,
+   "jd_ut": 2455562.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.21,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.21
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "On the Bottom of Things",
+   "stop": "Oxford, the Wolfson Building",
+   "date": "2017-01-01",
+   "date_confidence": "the appointment is recorded as running until 2017; its start date and the frequency of his visits are not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2017,
+   "jd_ut": 2457754.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.76,
+    "text": "Capricornus 10°46′",
+    "longitude": 280.764
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "On the Bottom of Things",
+   "stop": "Stanford, Volume 4B and the satisfiability problem",
+   "date": "2022-09-01",
+   "date_confidence": "September 2022 attested; one lens carried October in error",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2022,
+   "jd_ut": 2459823.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.56,
+    "text": "Virgo 8°34′",
+    "longitude": 158.564
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "On the Bottom of Things",
+   "stop": "Stanford, the house built around an organ",
+   "date": "2023-01-01",
+   "date_confidence": "ongoing; the residence coordinates are an approximation of the Stanford neighborhood, not a verified address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2023,
+   "jd_ut": 2459945.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.3,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.299
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 5,
+  "month": 6,
+  "year": 33
+ },
+ "parse_failures": []
+}

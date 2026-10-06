@@ -1,0 +1,1856 @@
+{
+ "slug": "ian_fleming",
+ "traveler": "Ian Lancaster Fleming",
+ "title": "Room 39 to Goldeneye: the Naval Intelligence Officer Who Invented an Englishman",
+ "years": "1908-1964",
+ "years_parsed": {
+  "first": 1908,
+  "last": 1964
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Green Street and the Purbeck Coast",
+  "stop": "27 Green Street, Mayfair, the second son",
+  "date": "1908-05-28",
+  "date_confidence": "attested to the day",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1908,
+  "jd_ut": 2418089.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 6.26,
+   "text": "Gemini 6°15′",
+   "longitude": 66.258
+  },
+  "moon": {
+   "sign": "Taurus",
+   "degree": 10.36,
+   "text": "Taurus 10°22′",
+   "longitude": 40.365
+  },
+  "mercury": {
+   "sign": "Gemini",
+   "degree": 26.71,
+   "text": "Gemini 26°42′",
+   "longitude": 86.706
+  },
+  "venus": {
+   "sign": "Cancer",
+   "degree": 16.58,
+   "text": "Cancer 16°35′",
+   "longitude": 106.582
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 3.52,
+   "text": "Cancer 3°31′",
+   "longitude": 93.52
+  },
+  "jupiter": {
+   "sign": "Leo",
+   "degree": 8.41,
+   "text": "Leo 8°24′",
+   "longitude": 128.406
+  },
+  "saturn": {
+   "sign": "Aries",
+   "degree": 7.61,
+   "text": "Aries 7°36′",
+   "longitude": 7.606
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1908-1964",
+  "first_year_parsed": 1908
+ },
+ "stops": [
+  {
+   "segment": "Green Street and the Purbeck Coast",
+   "stop": "27 Green Street, Mayfair, the second son",
+   "date": "1908-05-28",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418089.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 6.26,
+    "text": "Gemini 6°15′",
+    "longitude": 66.258
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 10.36,
+    "text": "Taurus 10°22′",
+    "longitude": 40.365
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 26.71,
+    "text": "Gemini 26°42′",
+    "longitude": 86.706
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 16.58,
+    "text": "Cancer 16°35′",
+    "longitude": 106.582
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 3.52,
+    "text": "Cancer 3°31′",
+    "longitude": 93.52
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 8.41,
+    "text": "Leo 8°24′",
+    "longitude": 128.406
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 7.61,
+    "text": "Aries 7°36′",
+    "longitude": 7.606
+   }
+  },
+  {
+   "segment": "Green Street and the Purbeck Coast",
+   "stop": "Braziers Park, Ipsden, the nursery that becomes a library",
+   "date": "1909-01-01",
+   "date_confidence": "the family's residence 1906-1911 is attested; no month within it is recorded, so the stop defaults to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Green Street and the Purbeck Coast",
+   "stop": "Durnford School, Langton Matravers, the father killed",
+   "date": "1914-09-01",
+   "date_confidence": "the 1914 start is attested; the term date is conventional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420376.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.71,
+    "text": "Virgo 7°43′",
+    "longitude": 157.709
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Green Street and the Purbeck Coast",
+   "stop": "Eton College, the Victor Ludorum and the drift",
+   "date": "1921-09-01",
+   "date_confidence": "1921 entry attested; term date conventional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422933.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.01,
+    "text": "Virgo 8°00′",
+    "longitude": 158.006
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Green Street and the Purbeck Coast",
+   "stop": "Royal Military College, Sandhurst, the commission not taken",
+   "date": "1926-01-01",
+   "date_confidence": "entry 1926 and departure 1927 are attested; the month of entry is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Continental Repair",
+   "stop": "The Tennerhof, Kitzbuhel, taught to write",
+   "date": "1927-01-01",
+   "date_confidence": "1927-1928 attested; no month recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Continental Repair",
+   "stop": "Ludwig-Maximilians-Universitat, Munich, the German",
+   "date": "1928-01-01",
+   "date_confidence": "sources give the continental studies as roughly 1927-1931 and place Munich in 1928; no month recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "approximation",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Continental Repair",
+   "stop": "University of Geneva, the examination failed",
+   "date": "1929-01-01",
+   "date_confidence": "1929-1930 given by the biographies; no month recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fleet Street and the City",
+   "stop": "Reuters, London, the discipline of the wire",
+   "date": "1931-10-01",
+   "date_confidence": "October 1931 attested for the start; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426615.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.86,
+    "text": "Libra 6°51′",
+    "longitude": 186.856
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fleet Street and the City",
+   "stop": "House of the Unions, Moscow, the Metro-Vickers trial",
+   "date": "1933-04-01",
+   "date_confidence": "April 1933 attested; the day of his filing is not recorded here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427163.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.83,
+    "text": "Aries 10°50′",
+    "longitude": 10.825
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fleet Street and the City",
+   "stop": "Rowe and Pitman, Bishopsgate, the indifferent broker",
+   "date": "1935-01-01",
+   "date_confidence": "1935 attested for the move; no month recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fleet Street and the City",
+   "stop": "Kitzbuhel, the private country",
+   "date": "1935-01-01",
+   "date_confidence": "reconstruction: the biographies place recurring visits through the 1930s and date the meeting with Muriel Wright to this decade without a year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Room 39",
+   "stop": "The Admiralty, Room 39, personal assistant to the Director",
+   "date": "1939-08-01",
+   "date_confidence": "recruitment May 1939, commission July 1939, full-time August 1939 all attested; days not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429476.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.86,
+    "text": "Leo 7°51′",
+    "longitude": 127.858
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Room 39",
+   "stop": "The Admiralty, the Trout Memo and item twenty-eight",
+   "date": "1939-09-29",
+   "date_confidence": "the memorandum is dated to the day; the authorship is contested, the document being issued over Godfrey's name",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429535.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 4.95,
+    "text": "Libra 4°57′",
+    "longitude": 184.953
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 9.37,
+    "text": "Aries 9°22′",
+    "longitude": 9.367
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.03,
+    "text": "Libra 10°02′",
+    "longitude": 190.028
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 11.17,
+    "text": "Libra 11°10′",
+    "longitude": 191.166
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 1.88,
+    "text": "Aquarius 1°53′",
+    "longitude": 301.882
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 3.79,
+    "text": "Aries 3°48′",
+    "longitude": 3.793
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 29.2,
+    "text": "Aries 29°12′",
+    "longitude": 29.196
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    },
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Moon",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Room 39",
+   "stop": "The Admiralty, Operation Ruthless proposed",
+   "date": "1940-09-12",
+   "date_confidence": "the proposal is dated to the day in the printed text",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429884.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 19.07,
+    "text": "Virgo 19°04′",
+    "longitude": 169.075
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 27.46,
+    "text": "Capricornus 27°28′",
+    "longitude": 297.459
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 25.65,
+    "text": "Virgo 25°39′",
+    "longitude": 175.653
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 3.29,
+    "text": "Leo 3°18′",
+    "longitude": 123.294
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 14.87,
+    "text": "Virgo 14°52′",
+    "longitude": 164.874
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 15.72,
+    "text": "Taurus 15°43′",
+    "longitude": 45.718
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 14.26,
+    "text": "Taurus 14°15′",
+    "longitude": 44.258
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Operation Golden Eye",
+   "stop": "Tangier International Zone, the fallback office",
+   "date": "1941-01-01",
+   "date_confidence": "the year is attested; no month recorded, so the stop defaults to January and is placed before the Iberian tour on that basis alone",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2429995.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Operation Golden Eye",
+   "stop": "British Embassy, Madrid, Alan Hillgarth's shadow service",
+   "date": "1941-02-01",
+   "date_confidence": "February 1941 attested; no day recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430026.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.76,
+    "text": "Aquarius 11°46′",
+    "longitude": 311.759
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Operation Golden Eye",
+   "stop": "The Convent, Gibraltar, the Rock inspected",
+   "date": "1941-02-16",
+   "date_confidence": "the visit is dated 16-26 February 1941 in the planning files",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430041.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 26.95,
+    "text": "Aquarius 26°57′",
+    "longitude": 326.945
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 20.47,
+    "text": "Libra 20°28′",
+    "longitude": 200.47
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 13.27,
+    "text": "Pisces 13°16′",
+    "longitude": 343.271
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 11.37,
+    "text": "Aquarius 11°22′",
+    "longitude": 311.367
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 28.64,
+    "text": "Sagittarius 28°38′",
+    "longitude": 268.639
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 9.33,
+    "text": "Taurus 9°20′",
+    "longitude": 39.33
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 8.89,
+    "text": "Taurus 8°53′",
+    "longitude": 38.89
+   }
+  },
+  {
+   "segment": "Operation Golden Eye",
+   "stop": "Casino Estoril, the table he cannot document",
+   "date": "1941-05-01",
+   "date_confidence": "the pool dates this stopover to May 1941 while dating the Iberian tour to February; the contradiction is left standing and no day is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430115.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.24,
+    "text": "Taurus 10°14′",
+    "longitude": 40.237
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The American Blueprint",
+   "stop": "British Embassy, Washington, the memorandum for Donovan",
+   "date": "1941-05-25",
+   "date_confidence": "the May 1941 trip is attested; the 25 May date is the geography lens figure and is not corroborated to the day elsewhere",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430139.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.4,
+    "text": "Gemini 3°24′",
+    "longitude": 63.4
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The American Blueprint",
+   "stop": "Camp X, Whitby, the school he may not have attended",
+   "date": "1942-01-01",
+   "date_confidence": "reconstruction: the visit is claimed rather than documented, the claim is contested by David Stafford's work, and no month is given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430360.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.955
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "30 Assault Unit",
+   "stop": "The Admiralty, the pinch unit proposed",
+   "date": "1942-03-01",
+   "date_confidence": "March 1942 attested for the proposal; no day recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430419.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.79,
+    "text": "Pisces 9°47′",
+    "longitude": 339.788
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "30 Assault Unit",
+   "stop": "Off Dieppe, the raid watched from HMS Fernie",
+   "date": "1942-08-19",
+   "date_confidence": "the raid is dated to the day; whether 30 Commando was deployed there at all is disputed in the literature",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430590.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 25.39,
+    "text": "Leo 25°23′",
+    "longitude": 145.387
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "30 Assault Unit",
+   "stop": "Kingston Harbour, the island decided on",
+   "date": "1943-07-01",
+   "date_confidence": "July 1943 per Matthew Parker; the chronology lens gives 1942, and that discrepancy is not resolved here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430906.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.31,
+    "text": "Cancer 8°18′",
+    "longitude": 98.308
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "30 Assault Unit",
+   "stop": "Naples, the unit in Italy and a Fleming who is not one",
+   "date": "1944-01-01",
+   "date_confidence": "reconstruction: 1944 is given without a month for the unit's Naples operations, and Fleming's own visits to Mediterranean commands are undated",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431090.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.46,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.46
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "30 Assault Unit",
+   "stop": "London, barred from the field on the day of the landings",
+   "date": "1944-06-06",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431247.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 15.17,
+    "text": "Gemini 15°10′",
+    "longitude": 75.166
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 5.29,
+    "text": "Sagittarius 5°17′",
+    "longitude": 245.287
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 22.02,
+    "text": "Taurus 22°01′",
+    "longitude": 52.021
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 9.39,
+    "text": "Gemini 9°24′",
+    "longitude": 69.392
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 8.38,
+    "text": "Leo 8°23′",
+    "longitude": 128.379
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 21.12,
+    "text": "Leo 21°07′",
+    "longitude": 141.12
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 28.04,
+    "text": "Gemini 28°03′",
+    "longitude": 88.042
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "30 Assault Unit",
+   "stop": "Cherbourg, the paper taken before the fuses",
+   "date": "1944-06-15",
+   "date_confidence": "the sources give June to July 1944 for the Cherbourg operations; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431256.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.77,
+    "text": "Gemini 23°46′",
+    "longitude": 83.768
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "30 Assault Unit",
+   "stop": "Kandy, South East Asia Command",
+   "date": "1944-12-01",
+   "date_confidence": "December 1944 to January 1945 attested; no day recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431425.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.69,
+    "text": "Sagittarius 8°42′",
+    "longitude": 248.692
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "30 Assault Unit",
+   "stop": "Schloss Tambach, the German naval archive taken whole",
+   "date": "1945-04-11",
+   "date_confidence": "the seizure is dated to 11 April 1945; the geography lens gave only the bare year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431556.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 20.76,
+    "text": "Aries 20°45′",
+    "longitude": 20.756
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 28.97,
+    "text": "Pisces 28°58′",
+    "longitude": 358.974
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 25.14,
+    "text": "Aries 25°09′",
+    "longitude": 25.144
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 28.26,
+    "text": "Aries 28°16′",
+    "longitude": 28.265
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 13.11,
+    "text": "Pisces 13°07′",
+    "longitude": 343.111
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 19.19,
+    "text": "Virgo 19°11′",
+    "longitude": 169.189
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 4.92,
+    "text": "Cancer 4°55′",
+    "longitude": 94.921
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Goldeneye and the Thrilling Cities",
+   "stop": "London, demobilised into the Kemsley papers",
+   "date": "1945-05-01",
+   "date_confidence": "May 1945 attested for both the demobilisation and the Kemsley appointment; no day recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431576.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.27,
+    "text": "Taurus 10°16′",
+    "longitude": 40.269
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Goldeneye and the Thrilling Cities",
+   "stop": "Goldeneye, Oracabessa, the house on the cliff",
+   "date": "1946-01-01",
+   "date_confidence": "the 1946 purchase of fifteen acres is attested; the chronology lens gives 1945 for the building, and no month is recorded either way",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431821.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.985
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Goldeneye and the Thrilling Cities",
+   "stop": "Goldeneye, Casino Royale written in five weeks",
+   "date": "1952-01-15",
+   "date_confidence": "attested to the day; the writing runs 15 January to 16 February 1952",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434026.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 23.79,
+    "text": "Capricornus 23°47′",
+    "longitude": 293.788
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 24.03,
+    "text": "Leo 24°02′",
+    "longitude": 144.035
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 2.23,
+    "text": "Capricornus 2°14′",
+    "longitude": 272.228
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 14.66,
+    "text": "Sagittarius 14°40′",
+    "longitude": 254.658
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 27.6,
+    "text": "Libra 27°36′",
+    "longitude": 207.605
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 7.68,
+    "text": "Aries 7°41′",
+    "longitude": 7.682
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 15.01,
+    "text": "Libra 15°01′",
+    "longitude": 195.014
+   }
+  },
+  {
+   "segment": "Goldeneye and the Thrilling Cities",
+   "stop": "Jamaica, the marriage to Ann Charteris",
+   "date": "1952-03-24",
+   "date_confidence": "attested to the day; the pin is Goldeneye, the sources naming only Jamaica",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434095.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 3.31,
+    "text": "Aries 3°18′",
+    "longitude": 3.307
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 8.67,
+    "text": "Pisces 8°40′",
+    "longitude": 338.67
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 20.0,
+    "text": "Aries 20°00′",
+    "longitude": 19.996
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 9.13,
+    "text": "Pisces 9°08′",
+    "longitude": 339.126
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 18.42,
+    "text": "Scorpio 18°25′",
+    "longitude": 228.418
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 21.42,
+    "text": "Aries 21°25′",
+    "longitude": 21.421
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 12.41,
+    "text": "Libra 12°25′",
+    "longitude": 192.415
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Goldeneye and the Thrilling Cities",
+   "stop": "London, Casino Royale published",
+   "date": "1953-04-13",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434480.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.78,
+    "text": "Aries 22°47′",
+    "longitude": 22.778
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 11.05,
+    "text": "Aries 11°03′",
+    "longitude": 11.046
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 25.4,
+    "text": "Pisces 25°24′",
+    "longitude": 355.397
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 23.35,
+    "text": "Aries 23°21′",
+    "longitude": 23.346
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 17.12,
+    "text": "Taurus 17°07′",
+    "longitude": 47.118
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 23.93,
+    "text": "Taurus 23°56′",
+    "longitude": 53.934
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 24.2,
+    "text": "Libra 24°12′",
+    "longitude": 204.203
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Goldeneye and the Thrilling Cities",
+   "stop": "Saratoga Race Course, the American reportage",
+   "date": "1954-01-01",
+   "date_confidence": "reconstruction: 1954 is given for the Diamonds Are Forever research trip without a month, and the Saratoga meeting runs in August",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434743.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Goldeneye and the Thrilling Cities",
+   "stop": "Pera, Istanbul, the man who becomes Darko Kerim",
+   "date": "1955-06-01",
+   "date_confidence": "June 1955 attested for the Interpol conference; no day recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435259.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.75,
+    "text": "Gemini 9°45′",
+    "longitude": 69.747
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Goldeneye and the Thrilling Cities",
+   "stop": "Sirkeci Terminal, out on the Orient Express",
+   "date": "1955-06-15",
+   "date_confidence": "the departure falls within the June 1955 visit; no day is recorded in the sources reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435273.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.14,
+    "text": "Gemini 23°08′",
+    "longitude": 83.139
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Goldeneye and the Thrilling Cities",
+   "stop": "Ginza, Tokyo, twelve days for one book",
+   "date": "1959-01-01",
+   "date_confidence": "two visits are attested, of three days in 1959 and twelve days in 1962; neither is dated to a month in the sources reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sandwich, Canterbury, Sevenhampton",
+   "stop": "London, Kennedy's list and the first heart attack",
+   "date": "1961-04-01",
+   "date_confidence": "the Life list is dated 17 March 1961 and the heart attack to April 1961; no day is recorded for the attack",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437390.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.04,
+    "text": "Aries 11°02′",
+    "longitude": 11.04
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sandwich, Canterbury, Sevenhampton",
+   "stop": "London, the blunt instrument explained",
+   "date": "1962-01-01",
+   "date_confidence": "the interview is dated to 1962; no month is recorded in the sources reached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437665.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.103
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sandwich, Canterbury, Sevenhampton",
+   "stop": "Goldeneye, the last January",
+   "date": "1964-01-01",
+   "date_confidence": "January 1964 attested for the final Jamaican stay; no day recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438395.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.61,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.608
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sandwich, Canterbury, Sevenhampton",
+   "stop": "Royal St George's, Sandwich, the captain at lunch",
+   "date": "1964-08-11",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438618.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 18.36,
+    "text": "Leo 18°21′",
+    "longitude": 138.357
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 0.09,
+    "text": "Libra 0°05′",
+    "longitude": 180.086
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 14.92,
+    "text": "Virgo 14°55′",
+    "longitude": 164.916
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 4.12,
+    "text": "Cancer 4°07′",
+    "longitude": 94.118
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 7.48,
+    "text": "Cancer 7°29′",
+    "longitude": 97.478
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 24.19,
+    "text": "Taurus 24°11′",
+    "longitude": 54.189
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 2.58,
+    "text": "Pisces 2°35′",
+    "longitude": 332.581
+   }
+  },
+  {
+   "segment": "Sandwich, Canterbury, Sevenhampton",
+   "stop": "Kent and Canterbury Hospital, on his son's birthday",
+   "date": "1964-08-12",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438619.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 19.32,
+    "text": "Leo 19°19′",
+    "longitude": 139.316
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 13.28,
+    "text": "Libra 13°17′",
+    "longitude": 193.279
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 15.55,
+    "text": "Virgo 15°33′",
+    "longitude": 165.549
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 4.9,
+    "text": "Cancer 4°54′",
+    "longitude": 94.897
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 8.14,
+    "text": "Cancer 8°08′",
+    "longitude": 98.136
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 24.29,
+    "text": "Taurus 24°18′",
+    "longitude": 54.294
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 2.51,
+    "text": "Pisces 2°31′",
+    "longitude": 332.509
+   }
+  },
+  {
+   "segment": "Sandwich, Canterbury, Sevenhampton",
+   "stop": "St James's Church, Sevenhampton, the family plot",
+   "date": "1964-08-12",
+   "date_confidence": "the burial at Sevenhampton is attested; no source reached gives the date of the funeral, so the stop is pinned to the day of death",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438619.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 19.32,
+    "text": "Leo 19°19′",
+    "longitude": 139.316
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sandwich, Canterbury, Sevenhampton",
+   "stop": "Goldeneye, sold to Marley and then to Blackwell",
+   "date": "1977-01-01",
+   "date_confidence": "Marley's purchase is dated 1976 and the sale to Blackwell to the following year; no month is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443144.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.469
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 11,
+  "month": 14,
+  "year": 20
+ },
+ "parse_failures": []
+}

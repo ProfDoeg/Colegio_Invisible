@@ -1,0 +1,1769 @@
+{
+ "slug": "gottfried_wilhelm_leibniz",
+ "traveler": "Gottfried Wilhelm Leibniz",
+ "title": "One and Zero: the Court Librarian, the Calculus, and the Letter from Beijing",
+ "years": "1646-1716",
+ "years_parsed": {
+  "first": 1646,
+  "last": 1716
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Father's Library",
+  "stop": "Leipzig, the birth at the Nikolaikirche",
+  "date": "1646-07-01",
+  "date_confidence": "attested to the day; born 1 July 1646, baptized at the Nikolaikirche",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1646,
+  "jd_ut": 2322430.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Cancer",
+   "degree": 9.03,
+   "text": "Cancer 9°02′",
+   "longitude": 99.031
+  },
+  "moon": {
+   "sign": "Aquarius",
+   "degree": 10.88,
+   "text": "Aquarius 10°53′",
+   "longitude": 310.879
+  },
+  "mercury": {
+   "sign": "Gemini",
+   "degree": 18.45,
+   "text": "Gemini 18°27′",
+   "longitude": 78.451
+  },
+  "venus": {
+   "sign": "Taurus",
+   "degree": 23.6,
+   "text": "Taurus 23°36′",
+   "longitude": 53.604
+  },
+  "mars": {
+   "sign": "Taurus",
+   "degree": 20.35,
+   "text": "Taurus 20°21′",
+   "longitude": 50.35
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 15.53,
+   "text": "Cancer 15°32′",
+   "longitude": 105.529
+  },
+  "saturn": {
+   "sign": "Taurus",
+   "degree": 15.13,
+   "text": "Taurus 15°08′",
+   "longitude": 45.134
+  },
+  "conjunctions": [
+   {
+    "sign": "Taurus",
+    "bodies": [
+     "Venus",
+     "Mars",
+     "Saturn"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1646-1716",
+  "first_year_parsed": 1646
+ },
+ "stops": [
+  {
+   "segment": "The Father's Library",
+   "stop": "Leipzig, the birth at the Nikolaikirche",
+   "date": "1646-07-01",
+   "date_confidence": "attested to the day; born 1 July 1646, baptized at the Nikolaikirche",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1646,
+   "jd_ut": 2322430.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.03,
+    "text": "Cancer 9°02′",
+    "longitude": 99.031
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 10.88,
+    "text": "Aquarius 10°53′",
+    "longitude": 310.879
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 18.45,
+    "text": "Gemini 18°27′",
+    "longitude": 78.451
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 23.6,
+    "text": "Taurus 23°36′",
+    "longitude": 53.604
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 20.35,
+    "text": "Taurus 20°21′",
+    "longitude": 50.35
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 15.53,
+    "text": "Cancer 15°32′",
+    "longitude": 105.529
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 15.13,
+    "text": "Taurus 15°08′",
+    "longitude": 45.134
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Father's Library",
+   "stop": "University of Leipzig, matriculation at fourteen",
+   "date": "1661-01-01",
+   "date_confidence": "year attested; month and day unrecorded, defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1661,
+   "jd_ut": 2327728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.2,
+    "text": "Capricornus 11°12′",
+    "longitude": 281.2
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Father's Library",
+   "stop": "Jena, a summer with Erhard Weigel",
+   "date": "1663-07-01",
+   "date_confidence": "attested to the summer term of 1663; the day is a convention",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1663,
+   "jd_ut": 2328639.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.93,
+    "text": "Cancer 8°56′",
+    "longitude": 98.928
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Father's Library",
+   "stop": "Leipzig, De Arte Combinatoria and the doctorate refused",
+   "date": "1666-01-01",
+   "date_confidence": "year attested for both the habilitation and the refusal; the order within the year is not fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1666,
+   "jd_ut": 2329554.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.98,
+    "text": "Capricornus 10°59′",
+    "longitude": 280.982
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Father's Library",
+   "stop": "Altdorf, the doctorate and the chair declined",
+   "date": "1666-11-01",
+   "date_confidence": "sources differ and are not reconciled here: German Wikipedia gives November 1666, MacTutor February 1667, SEP simply 1667",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1666,
+   "jd_ut": 2329858.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.86,
+    "text": "Scorpio 8°52′",
+    "longitude": 218.859
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Service of Princes",
+   "stop": "Nuremberg, secretary to the alchemists",
+   "date": "1667-01-01",
+   "date_confidence": "year attested; month unrecorded, defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1667,
+   "jd_ut": 2329919.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.734
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Service of Princes",
+   "stop": "Frankfurt, the Römerberg, meeting Boineburg",
+   "date": "1667-11-01",
+   "date_confidence": "attested as by November 1667; the exact day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1667,
+   "jd_ut": 2330223.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.62,
+    "text": "Scorpio 8°37′",
+    "longitude": 218.616
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Service of Princes",
+   "stop": "Mainz, the legal code and the Egyptian plan",
+   "date": "1669-01-01",
+   "date_confidence": "the appointment runs 1669-1672; the research pool's chronology lens dated it 1667 and contradicted its own geography lens, which is followed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1669,
+   "jd_ut": 2330650.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.26,
+    "text": "Capricornus 11°16′",
+    "longitude": 281.259
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, and the Calculus",
+   "stop": "Paris, arrival on a mission nobody wants",
+   "date": "1672-10-01",
+   "date_confidence": "arrival attested to October 1672; the day is not recorded, and no Paris address survives for any of the four years",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1672,
+   "jd_ut": 2332019.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.55,
+    "text": "Libra 8°33′",
+    "longitude": 188.547
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, and the Calculus",
+   "stop": "London, Arundel House, the Stepped Reckoner",
+   "date": "1673-01-01",
+   "date_confidence": "visit attested to January-February 1673; venue corrected from Gresham College, which the Royal Society reoccupied only later in 1673, to Arundel House on the Strand",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1673,
+   "jd_ut": 2332111.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.29,
+    "text": "Capricornus 11°17′",
+    "longitude": 281.288
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, and the Calculus",
+   "stop": "Paris, in Christiaan Huygens's hands",
+   "date": "1673-06-01",
+   "date_confidence": "the tutelage runs across 1672-1676; this stop fixes it to mid-1673 as a convention",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1673,
+   "jd_ut": 2332262.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.86,
+    "text": "Gemini 10°52′",
+    "longitude": 70.859
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, and the Calculus",
+   "stop": "Paris, the Academy has no vacancy",
+   "date": "1675-01-01",
+   "date_confidence": "year attested; venue is the King's Library, where the Academy sat before the 1699 move to the Louvre",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1675,
+   "jd_ut": 2332841.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.79,
+    "text": "Capricornus 10°48′",
+    "longitude": 280.793
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, and the Calculus",
+   "stop": "Paris, the twenty-ninth of October",
+   "date": "1675-10-29",
+   "date_confidence": "attested to the day from the dated manuscript page",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1675,
+   "jd_ut": 2333142.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 5.67,
+    "text": "Scorpio 5°40′",
+    "longitude": 215.668
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 15.36,
+    "text": "Pisces 15°22′",
+    "longitude": 345.363
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 19.56,
+    "text": "Scorpio 19°34′",
+    "longitude": 229.559
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 29.93,
+    "text": "Libra 29°56′",
+    "longitude": 209.926
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 4.79,
+    "text": "Scorpio 4°47′",
+    "longitude": 214.786
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 19.01,
+    "text": "Sagittarius 19°01′",
+    "longitude": 259.015
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 8.87,
+    "text": "Taurus 8°52′",
+    "longitude": 38.875
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Paris, and the Calculus",
+   "stop": "London, the papers of John Collins",
+   "date": "1676-10-01",
+   "date_confidence": "attested to October 1676; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1676,
+   "jd_ut": 2333480.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.58,
+    "text": "Libra 8°35′",
+    "longitude": 188.577
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, and the Calculus",
+   "stop": "Delft, the lenses of Antoni van Leeuwenhoek",
+   "date": "1676-11-01",
+   "date_confidence": "attested to November 1676; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1676,
+   "jd_ut": 2333511.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.44,
+    "text": "Scorpio 9°26′",
+    "longitude": 219.437
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, and the Calculus",
+   "stop": "The Hague, four days on the Paviljoensgracht",
+   "date": "1676-11-18",
+   "date_confidence": "attested to 18-21 November 1676 by SEP; coordinates corrected to the Spinozahuis at Paviljoensgracht 72-74",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1676,
+   "jd_ut": 2333528.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 26.57,
+    "text": "Scorpio 26°34′",
+    "longitude": 236.568
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 0.65,
+    "text": "Taurus 0°39′",
+    "longitude": 30.648
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 8.14,
+    "text": "Sagittarius 8°08′",
+    "longitude": 248.139
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 9.85,
+    "text": "Libra 9°51′",
+    "longitude": 189.852
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 15.41,
+    "text": "Cancer 15°25′",
+    "longitude": 105.415
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 19.92,
+    "text": "Capricornus 19°55′",
+    "longitude": 289.924
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 22.17,
+    "text": "Taurus 22°10′",
+    "longitude": 52.174
+   }
+  },
+  {
+   "segment": "The House of Brunswick",
+   "stop": "Hanover, the Leineschloss",
+   "date": "1676-12-01",
+   "date_confidence": "arrival attested to December 1676; coordinates corrected to the Leineschloss proper",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1676,
+   "jd_ut": 2333541.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.75,
+    "text": "Sagittarius 9°45′",
+    "longitude": 249.746
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House of Brunswick",
+   "stop": "Herrenhausen, the walks with Electress Sophia",
+   "date": "1680-01-01",
+   "date_confidence": "the friendship runs from the 1680s to Sophia's death in 1714; this stop fixes a beginning by convention",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1680,
+   "jd_ut": 2334667.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.575
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House of Brunswick",
+   "stop": "Clausthal-Zellerfeld, windmills over the silver",
+   "date": "1680-06-01",
+   "date_confidence": "the Harz project runs 1680-1685; the day is a convention",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1680,
+   "jd_ut": 2334819.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.15,
+    "text": "Gemini 11°09′",
+    "longitude": 71.154
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House of Brunswick",
+   "stop": "Leipzig, Nova Methodus in the Acta Eruditorum",
+   "date": "1684-10-01",
+   "date_confidence": "year attested; the Acta issue is October 1684",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1684,
+   "jd_ut": 2336402.5,
+   "precision": "month",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.64,
+    "text": "Libra 8°38′",
+    "longitude": 188.639
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House of Brunswick",
+   "stop": "Clausthal-Zellerfeld, the pumps abandoned",
+   "date": "1685-01-01",
+   "date_confidence": "year attested; month unrecorded, defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1685,
+   "jd_ut": 2336494.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.38,
+    "text": "Capricornus 11°23′",
+    "longitude": 281.376
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House of Brunswick",
+   "stop": "Hanover, the Discourse and the letters to Arnauld",
+   "date": "1686-02-01",
+   "date_confidence": "composition attested to early 1686; the day is a convention",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1686,
+   "jd_ut": 2336890.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.66,
+    "text": "Aquarius 12°40′",
+    "longitude": 312.664
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Este Journey",
+   "stop": "Vienna, the Hofburg, first leg of the archive road",
+   "date": "1688-01-01",
+   "date_confidence": "the journey departs Hanover November 1687 and reaches Vienna by 1688; the day is a convention",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1688,
+   "jd_ut": 2337589.5,
+   "precision": "month",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.63,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.633
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Este Journey",
+   "stop": "Rome, the Collegio Romano and the librarianship declined",
+   "date": "1689-04-01",
+   "date_confidence": "the Rome stay is attested to 1689; the month is a convention",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1689,
+   "jd_ut": 2338045.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.91,
+    "text": "Aries 11°55′",
+    "longitude": 11.914
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Este Journey",
+   "stop": "Florence, the Medici archives",
+   "date": "1689-11-01",
+   "date_confidence": "the Florence stay falls in 1689; the month is a convention",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1689,
+   "jd_ut": 2338259.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.28,
+    "text": "Scorpio 9°17′",
+    "longitude": 219.284
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Este Journey",
+   "stop": "Modena, the proof in the Este archives",
+   "date": "1690-01-01",
+   "date_confidence": "year attested; month unrecorded, defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1690,
+   "jd_ut": 2338320.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.16,
+    "text": "Capricornus 11°09′",
+    "longitude": 281.158
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Este Journey",
+   "stop": "Venice, the Marciana and the road home",
+   "date": "1690-04-01",
+   "date_confidence": "the itinerary runs November 1687 to June 1690; the Venice month is a convention. The storm and rosary story is tradition, from the eulogy literature, not from a document",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1690,
+   "jd_ut": 2338410.5,
+   "precision": "month",
+   "precision_triggers": [
+    "traditional",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.68,
+    "text": "Aries 11°41′",
+    "longitude": 11.675
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Este Journey",
+   "stop": "Wolfenbüttel, the catalogue",
+   "date": "1691-01-01",
+   "date_confidence": "appointment attested to 1691, held to 1716; coordinates corrected to the Herzog August Bibliothek",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1691,
+   "jd_ut": 2338685.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.91,
+    "text": "Capricornus 10°55′",
+    "longitude": 280.91
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "One and Zero",
+   "stop": "Paris, the New System in the Journal des Sçavans",
+   "date": "1695-06-01",
+   "date_confidence": "published June-July 1695 in Paris; the research pool placed this at Hanover, which is where it was written, not published",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1695,
+   "jd_ut": 2340297.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.56,
+    "text": "Gemini 10°33′",
+    "longitude": 70.556
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "One and Zero",
+   "stop": "Berlin, the Academy founded",
+   "date": "1700-07-11",
+   "date_confidence": "attested to 11 July 1700; coordinates corrected to the Society's early seat in the Marstall on Dorotheenstraße",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1700,
+   "jd_ut": 2342163.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 18.52,
+    "text": "Cancer 18°31′",
+    "longitude": 108.519
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 6.95,
+    "text": "Taurus 6°57′",
+    "longitude": 36.951
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 20.4,
+    "text": "Cancer 20°24′",
+    "longitude": 110.396
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 2.82,
+    "text": "Virgo 2°49′",
+    "longitude": 152.824
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 12.63,
+    "text": "Scorpio 12°38′",
+    "longitude": 222.629
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 28.61,
+    "text": "Capricornus 28°36′",
+    "longitude": 298.605
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 14.0,
+    "text": "Pisces 14°00′",
+    "longitude": 343.998
+   }
+  },
+  {
+   "segment": "One and Zero",
+   "stop": "Beijing, Joachim Bouvet posts the hexagrams",
+   "date": "1701-11-04",
+   "date_confidence": "letter attested to 4 November 1701; location corrected from the Portuguese Nantang to the French mission inside the Imperial City, the site that becomes the Beitang",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1701,
+   "jd_ut": 2342644.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 11.38,
+    "text": "Scorpio 11°23′",
+    "longitude": 221.382
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 29.37,
+    "text": "Sagittarius 29°22′",
+    "longitude": 269.374
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 24.76,
+    "text": "Scorpio 24°46′",
+    "longitude": 234.761
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 15.39,
+    "text": "Sagittarius 15°24′",
+    "longitude": 255.393
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 3.25,
+    "text": "Libra 3°15′",
+    "longitude": 183.246
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 28.12,
+    "text": "Aquarius 28°07′",
+    "longitude": 328.122
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 20.26,
+    "text": "Pisces 20°16′",
+    "longitude": 350.262
+   }
+  },
+  {
+   "segment": "One and Zero",
+   "stop": "Hanover, Explication de l'Arithmétique Binaire",
+   "date": "1703-01-01",
+   "date_confidence": "the diagram reaches Hanover April 1703 and the essay is composed that year; the Académie's Mémoires volume for 1703 was not printed until 1705",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1703,
+   "jd_ut": 2343067.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.979
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quarrel Over the Calculus",
+   "stop": "London, Fatio's charge",
+   "date": "1699-01-01",
+   "date_confidence": "year attested; month unrecorded, defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1699,
+   "jd_ut": 2341607.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.97,
+    "text": "Capricornus 10°58′",
+    "longitude": 280.969
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quarrel Over the Calculus",
+   "stop": "Amsterdam, the Théodicée",
+   "date": "1710-01-01",
+   "date_confidence": "year attested; month unrecorded, defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1710,
+   "jd_ut": 2345624.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.285
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quarrel Over the Calculus",
+   "stop": "London, John Keill's reply",
+   "date": "1711-01-01",
+   "date_confidence": "corrected from the research pool's 1708 and 1710: MacTutor places the quoted phrase in Keill's 1711 reply to Leibniz's complaint, not in an earlier review. Newton's approval is asserted by the pool but not by MacTutor",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1711,
+   "jd_ut": 2345989.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.038
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quarrel Over the Calculus",
+   "stop": "London, Crane Court, the Commercium Epistolicum",
+   "date": "1712-01-01",
+   "date_confidence": "committee sits 1712, report circulated from early 1713; London Royal Society pin inherited byte-identical from newton.journey.json, which carries the same event",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1712,
+   "jd_ut": 2346354.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.79,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.79
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quarrel Over the Calculus",
+   "stop": "Basel, Johann Bernoulli takes up the pen",
+   "date": "1713-01-01",
+   "date_confidence": "year attested; month unrecorded, defaulted to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1713,
+   "jd_ut": 2346720.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.562
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Unmarked Grave",
+   "stop": "Vienna, Imperial Court Councillor",
+   "date": "1712-12-01",
+   "date_confidence": "the Vienna residence runs from late 1712 to September 1714; the day is a convention",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1712,
+   "jd_ut": 2346689.5,
+   "precision": "month",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.0,
+    "text": "Sagittarius 9°00′",
+    "longitude": 248.997
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Unmarked Grave",
+   "stop": "Vienna, the ninety paragraphs",
+   "date": "1714-01-01",
+   "date_confidence": "composition attested to 1714 at Vienna; the work is untitled by Leibniz and published posthumously",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1714,
+   "jd_ut": 2347085.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.315
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Unmarked Grave",
+   "stop": "Hanover, the Elector becomes a king",
+   "date": "1714-08-01",
+   "date_confidence": "Queen Anne dies 1 August 1714; the Hanoverian departure follows within weeks",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1714,
+   "jd_ut": 2347297.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.22,
+    "text": "Leo 8°13′",
+    "longitude": 128.215
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 16.5,
+    "text": "Aries 16°30′",
+    "longitude": 16.496
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 5.18,
+    "text": "Virgo 5°11′",
+    "longitude": 155.179
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 7.39,
+    "text": "Virgo 7°24′",
+    "longitude": 157.393
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 15.87,
+    "text": "Cancer 15°52′",
+    "longitude": 105.868
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 19.71,
+    "text": "Aries 19°42′",
+    "longitude": 19.708
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 10.13,
+    "text": "Virgo 10°08′",
+    "longitude": 160.132
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Unmarked Grave",
+   "stop": "Bad Pyrmont, the Tsar at the spa",
+   "date": "1716-06-01",
+   "date_confidence": "attested to June 1716 at the spa town; the meeting is not documented as taking place inside the Schloss, whose coordinates are used here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1716,
+   "jd_ut": 2347967.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.48,
+    "text": "Gemini 10°29′",
+    "longitude": 70.483
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Unmarked Grave",
+   "stop": "Hanover, the house on the Schmiedestraße",
+   "date": "1716-11-14",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1716,
+   "jd_ut": 2348133.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 21.82,
+    "text": "Scorpio 21°49′",
+    "longitude": 231.815
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 20.26,
+    "text": "Scorpio 20°16′",
+    "longitude": 230.263
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 25.86,
+    "text": "Scorpio 25°51′",
+    "longitude": 235.858
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 5.28,
+    "text": "Libra 5°17′",
+    "longitude": 185.278
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 4.69,
+    "text": "Libra 4°41′",
+    "longitude": 184.687
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 0.23,
+    "text": "Cancer 0°14′",
+    "longitude": 90.234
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 15.06,
+    "text": "Libra 15°04′",
+    "longitude": 195.064
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    },
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Unmarked Grave",
+   "stop": "Hanover, the Neustädter Kirche",
+   "date": "1716-11-15",
+   "date_confidence": "burial follows the death of 14 November 1716 by an interval the reachable sources do not fix; coordinates reconcile three conflicting values in the research pool to the German Wikipedia position for the church",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1716,
+   "jd_ut": 2348134.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 22.82,
+    "text": "Scorpio 22°49′",
+    "longitude": 232.825
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 2.25,
+    "text": "Sagittarius 2°15′",
+    "longitude": 242.246
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 24.52,
+    "text": "Scorpio 24°31′",
+    "longitude": 234.525
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 6.32,
+    "text": "Libra 6°19′",
+    "longitude": 186.324
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 5.3,
+    "text": "Libra 5°18′",
+    "longitude": 185.299
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 0.15,
+    "text": "Cancer 0°09′",
+    "longitude": 90.15
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 15.17,
+    "text": "Libra 15°10′",
+    "longitude": 195.17
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Unmarked Grave",
+   "stop": "Paris, Fontenelle speaks for the Academy",
+   "date": "1717-01-01",
+   "date_confidence": "year attested; the date of the Academy's public session for the éloge was not fixed in the sources reached, so the day defaults to 01-01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1717,
+   "jd_ut": 2348181.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.592
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 8,
+  "month": 14,
+  "year": 22
+ },
+ "parse_failures": []
+}

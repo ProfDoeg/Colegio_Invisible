@@ -1,0 +1,1911 @@
+{
+ "slug": "thomas_aquinas",
+ "traveler": "Thomas Aquinas (Tommaso d'Aquino)",
+ "title": "The Ox of Sicily: Roccasecca to Fossanova, and the Bones to Toulouse",
+ "years": "c. 1225-1274",
+ "years_parsed": {
+  "first": 1225,
+  "last": 1274
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Castle and the Mountain",
+  "stop": "Roccasecca, birth in the castle of the Conti di Aquino",
+  "date": "1225-01-01",
+  "date_confidence": "Year contested and not resolved here: New Advent gives 1225 or 1227, the Stanford Encyclopedia gives around 1225, critical scholarship c. 1224/25. No day or month survives; defaulted to 01-01. Coordinate is the town center of Roccasecca, not the castle's own point, which no source consulted fixes.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1225,
+  "jd_ut": 2168489.5,
+  "precision": "year",
+  "precision_triggers": [
+   "defaulted",
+   "c.",
+   "no month/day",
+   "disputed",
+   "(soft-year) year range",
+   "(soft) no source"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 18.2,
+   "text": "Capricornus 18°12′",
+   "longitude": 288.198
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 1225-1274",
+  "first_year_parsed": 1225
+ },
+ "stops": [
+  {
+   "segment": "The Castle and the Mountain",
+   "stop": "Roccasecca, birth in the castle of the Conti di Aquino",
+   "date": "1225-01-01",
+   "date_confidence": "Year contested and not resolved here: New Advent gives 1225 or 1227, the Stanford Encyclopedia gives around 1225, critical scholarship c. 1224/25. No day or month survives; defaulted to 01-01. Coordinate is the town center of Roccasecca, not the castle's own point, which no source consulted fixes.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1225,
+   "jd_ut": 2168489.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "no month/day",
+    "disputed",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.2,
+    "text": "Capricornus 18°12′",
+    "longitude": 288.198
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Castle and the Mountain",
+   "stop": "Monte Cassino, the child given to the abbey",
+   "date": "1230-01-01",
+   "date_confidence": "New Advent puts him at Monte Cassino from about age five; the Internet Encyclopedia of Philosophy dates the period c. 1229-1239, the Stanford Encyclopedia c. 1231-1239. Month and day unknown, defaulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1230,
+   "jd_ut": 2170315.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "unknown",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.98,
+    "text": "Capricornus 17°59′",
+    "longitude": 287.98
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Castle and the Mountain",
+   "stop": "Monte Cassino, the emperor's soldiers in the cloister",
+   "date": "1239-01-01",
+   "date_confidence": "R for the mechanism. The Wikipedia article on Montecassino attests only that Frederick II garrisoned troops in the abbey in 1239 during his war with the papacy, and does not mention Thomas at all; the standard biographical reconstruction that suspect monks were expelled and Thomas sent away in consequence is Torrell-line inference. Month unknown.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1239,
+   "jd_ut": 2173602.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "sequencing",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.79,
+    "text": "Capricornus 17°47′",
+    "longitude": 287.791
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naples, the Habit, and the Tower",
+   "stop": "Naples, the emperor's university",
+   "date": "1239-09-01",
+   "date_confidence": "The Internet Encyclopedia of Philosophy gives the autumn of 1239 for the start of the Naples studies; the Stanford chronology gives c. 1239. Month set to September for the autumn term. Coordinate approximates the Nido district near San Marco, which Wikipedia says is only hypothesized as the medieval site.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1239,
+   "jd_ut": 2173845.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "c."
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 14.82,
+    "text": "Virgo 14°49′",
+    "longitude": 164.823
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naples, the Habit, and the Tower",
+   "stop": "Naples, San Domenico Maggiore: the habit taken",
+   "date": "1244-04-01",
+   "date_confidence": "Sources disagree and this is not resolved: the Internet Encyclopedia of Philosophy gives April 1244, New Advent puts the entry anywhere between 1240 and August 1243. Day unknown. Coordinate is the canonical atlas pin for San Domenico Maggiore.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1244,
+   "jd_ut": 2175519.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown",
+    "disputed",
+    "between"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.54,
+    "text": "Aries 18°32′",
+    "longitude": 18.54
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naples, the Habit, and the Tower",
+   "stop": "Acquapendente, taken off the road by his brothers",
+   "date": "1244-05-01",
+   "date_confidence": "New Advent gives the interception near Aquapendente in 1244 with no month; month set for ordering only. Coordinate corrected to the Wikipedia point for the comune of Acquapendente, 42.74389 / 11.86444; the exact place on the road is not preserved in any source consulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1244,
+   "jd_ut": 2175549.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "no month/day",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 17.58,
+    "text": "Taurus 17°35′",
+    "longitude": 47.581
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naples, the Habit, and the Tower",
+   "stop": "Monte San Giovanni Campano, the year in the fortress",
+   "date": "1244-06-01",
+   "date_confidence": "The detention is attested across sources; its length is not agreed, New Advent saying nearly two years and the Stanford chronology giving 1244-1245. Month arbitrary, for ordering. The temptation episode is canonization-era testimony repeated as fact by the Italian Wikipedia article on the castle, and is tagged R here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1244,
+   "jd_ut": 2175580.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 17.24,
+    "text": "Gemini 17°15′",
+    "longitude": 77.245
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naples, the Habit, and the Tower",
+   "stop": "Roccasecca, the family gives way",
+   "date": "1245-06-01",
+   "date_confidence": "The Stanford chronology says his parents yielded and he went to Paris as a Dominican friar, dating the whole episode 1244-1245. The escape through a window and the winning-over of his sisters are New Advent's 1913 account and are tradition, not document. Month set for ordering.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1245,
+   "jd_ut": 2175945.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 17.01,
+    "text": "Gemini 17°01′",
+    "longitude": 77.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Under Albert: Paris and Cologne",
+   "stop": "Paris, the Couvent Saint-Jacques: first arrival",
+   "date": "1245-09-01",
+   "date_confidence": "The Stanford chronology gives three years in Paris, 1245-1248. Month unknown, set to the academic autumn. Coordinate corrected to the French Wikipedia point for the Dominican Couvent Saint-Jacques, 48.8472 / 2.3433, at present-day 158 rue Saint-Jacques, rather than the general university-quarter pin used elsewhere in this file.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1245,
+   "jd_ut": 2176037.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.36,
+    "text": "Virgo 15°21′",
+    "longitude": 165.358
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Under Albert: Paris and Cologne",
+   "stop": "Cologne, the new studium generale",
+   "date": "1248-06-01",
+   "date_confidence": "The Stanford chronology gives 1248 for the move to Cologne under Albert. Month unknown; the order's general chapter met in early summer. Coordinate is the atlas pin for the medieval Cologne studium quarter on the Marzellenstrasse, inherited rather than the city-center point, since a fetch of the Kolner Dominikanerkloster page returned 404.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1248,
+   "jd_ut": 2177041.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 17.28,
+    "text": "Gemini 17°17′",
+    "longitude": 77.276
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Under Albert: Paris and Cologne",
+   "stop": "Cologne, ordained priest",
+   "date": "1250-01-01",
+   "date_confidence": "R. Only one source consulted names a date and a hand, and it hedges: New Advent says probably in 1250 he was raised to the priesthood by Conrad of Hochstaden. Neither the Stanford nor the Internet Encyclopedia mentions an ordination date or an officiant at all. Read as probably 1250-51, officiant not securely recorded; month and day defaulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1250,
+   "jd_ut": 2177620.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "probably",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.13,
+    "text": "Capricornus 18°08′",
+    "longitude": 288.126
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Paris Regency",
+   "stop": "Paris, Saint-Jacques: bachelor of the Bible",
+   "date": "1252-09-01",
+   "date_confidence": "The Internet Encyclopedia of Philosophy places him back at Paris from 1252; New Advent gives 1251 or 1252. Month set to the autumn term, day defaulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1252,
+   "jd_ut": 2178594.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.66,
+    "text": "Virgo 15°39′",
+    "longitude": 165.657
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Paris Regency",
+   "stop": "Paris, Saint-Jacques: lecturing on the Sentences",
+   "date": "1254-01-01",
+   "date_confidence": "The Internet Encyclopedia of Philosophy places the Sentences lectures inside 1252-1256; no source consulted fixes the years of the individual books. Month and day defaulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1254,
+   "jd_ut": 2179081.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no source (for the date)",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.15,
+    "text": "Capricornus 18°09′",
+    "longitude": 288.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Paris Regency",
+   "stop": "Paris, the university: the war on the mendicants",
+   "date": "1256-01-01",
+   "date_confidence": "The Internet and Stanford Encyclopedias both place the mendicant controversy and Contra impugnantes in 1256; month and day unknown. Coordinate is the canonical atlas pin for the University of Paris, inherited from the Llull and Aristotle files, rather than the Saint-Jacques convent point used for the convent stops in this file.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1256,
+   "jd_ut": 2179811.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.66,
+    "text": "Capricornus 17°40′",
+    "longitude": 287.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The First Paris Regency",
+   "stop": "Paris, the university: received as master of theology",
+   "date": "1257-10-23",
+   "date_confidence": "Sources disagree and this is not resolved. The Internet Encyclopedia says he was teaching as Master of Theology in 1256 at thirty-two; the Stanford chronology dates the Dominican chair from 1256; New Advent gives the formal promotion as 23 October 1257. New Advent's precise date is used only to place the stop.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1257,
+   "jd_ut": 2180472.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.05,
+    "text": "Scorpio 7°03′",
+    "longitude": 217.047
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 14.66,
+    "text": "Aries 14°40′",
+    "longitude": 14.664
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 19.94,
+    "text": "Libra 19°56′",
+    "longitude": 199.941
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 6.21,
+    "text": "Scorpio 6°12′",
+    "longitude": 216.207
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.96,
+    "text": "Virgo 13°58′",
+    "longitude": 163.965
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 5.6,
+    "text": "Libra 5°36′",
+    "longitude": 185.602
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 18.65,
+    "text": "Aquarius 18°39′",
+    "longitude": 318.649
+   }
+  },
+  {
+   "segment": "The First Paris Regency",
+   "stop": "Paris, Saint-Jacques: the disputed questions",
+   "date": "1258-01-01",
+   "date_confidence": "The Stanford chronology gives the first regency as 1256-1259. The De veritate disputations are conventionally placed inside it; no source consulted fixes the years of individual questions. Month and day defaulted, for ordering only.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1258,
+   "jd_ut": 2180542.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention",
+    "disputed",
+    "ordering",
+    "placed (the date)",
+    "no source (for the date)",
+    "(soft-year) year range",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.18,
+    "text": "Capricornus 18°11′",
+    "longitude": 288.184
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Italian Decade: Orvieto, Rome, Viterbo",
+   "stop": "Naples, sent home to the Roman province",
+   "date": "1259-09-01",
+   "date_confidence": "The Stanford chronology says he was sent back to Italy in 1259; the Internet Encyclopedia places him teaching at Naples 1259-1261. Month set to the autumn term.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1259,
+   "jd_ut": 2181150.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 14.98,
+    "text": "Virgo 14°59′",
+    "longitude": 164.978
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Italian Decade: Orvieto, Rome, Viterbo",
+   "stop": "Orvieto, lector at the curia of Urban IV",
+   "date": "1261-09-01",
+   "date_confidence": "The Internet Encyclopedia places Orvieto 1261-1265; month unknown. Coordinate marks the Orvieto papal quarter and claims no building: the Palazzo Soliano used as a proxy in research is fourteenth-century, built from 1297 under Boniface VIII, and did not exist under Urban IV.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1261,
+   "jd_ut": 2181881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "decade/century",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.48,
+    "text": "Virgo 15°29′",
+    "longitude": 165.482
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Italian Decade: Orvieto, Rome, Viterbo",
+   "stop": "Orvieto, the office of Corpus Christi",
+   "date": "1264-08-11",
+   "date_confidence": "Urban IV extended the feast to the Latin church by the bull Transiturus de hoc mundo in 1264, attested. Thomas's authorship of the office has wide scholarly agreement, the BNF 1143 text being placed at or after his Orvieto residence; a papal commission to him personally comes from Tocco's hagiographic life and is tagged R. The August date is the bull's, used to place the stop.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1264,
+   "jd_ut": 2182956.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 25.34,
+    "text": "Leo 25°20′",
+    "longitude": 145.335
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Italian Decade: Orvieto, Rome, Viterbo",
+   "stop": "Anagni, the provincial chapter that sends him to Rome",
+   "date": "1265-09-01",
+   "date_confidence": "Corrected against the research pool: the documented Anagni connection is the 1265 provincial chapter that assigned him as regent master to Santa Sabina, per the Wikipedia articles 'Anagni' and 'Santa Sabina', not a residence in 1259-61, which no fetched source supports. Month unknown; provincial chapters met in autumn.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1265,
+   "jd_ut": 2183342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "assigned"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.51,
+    "text": "Virgo 15°31′",
+    "longitude": 165.513
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Italian Decade: Orvieto, Rome, Viterbo",
+   "stop": "Rome, Santa Sabina: the school and the manual for beginners",
+   "date": "1265-10-01",
+   "date_confidence": "The Internet Encyclopedia places the Rome period 1265-1268. Month set to the autumn term; day defaulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1265,
+   "jd_ut": 2183372.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.09,
+    "text": "Libra 15°06′",
+    "longitude": 195.094
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Italian Decade: Orvieto, Rome, Viterbo",
+   "stop": "Rome, Santa Sabina: the five ways",
+   "date": "1266-01-01",
+   "date_confidence": "The Prima Pars is conventionally dated to the Santa Sabina years, c. 1265-1268; no source consulted fixes Question 2 to a year or a month. Date given only to order the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1266,
+   "jd_ut": 2183464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "convention",
+    "ordering",
+    "no source (for the date)",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.24,
+    "text": "Capricornus 18°15′",
+    "longitude": 288.242
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Italian Decade: Orvieto, Rome, Viterbo",
+   "stop": "Rome, Santa Sabina: question ninety-two",
+   "date": "1267-01-01",
+   "date_confidence": "Question 92 falls in the Prima Pars, written c. 1266-1268 at Santa Sabina; no finer date is available. Citation corrected against the research pool: the 'defective and misbegotten' sentence stands in the reply to the first objection, not in the body of the article.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1267,
+   "jd_ut": 2183829.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.0,
+    "text": "Capricornus 18°00′",
+    "longitude": 287.995
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Italian Decade: Orvieto, Rome, Viterbo",
+   "stop": "Viterbo, Moerbeke's Greek and Reginald's hand",
+   "date": "1267-06-01",
+   "date_confidence": "The Internet Encyclopedia folds Viterbo into the 1265-1268 Italian period and New Advent lists Viterbo among his posts; month unknown. A coordinated papal translation project commissioned for Thomas is not proven and is not claimed here. Coordinate is the Italian Wikipedia point for the Palazzo dei Papi di Viterbo.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1267,
+   "jd_ut": 2183980.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.71,
+    "text": "Gemini 16°43′",
+    "longitude": 76.712
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Paris Regency",
+   "stop": "Paris, Saint-Jacques: the unrepeatable second term",
+   "date": "1268-11-01",
+   "date_confidence": "The Stanford chronology says he was asked in 1268 to return to Paris for an unusual second term as master; other chronologies give the arrival as late 1268 or early 1269. Month set to November; not resolved.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1268,
+   "jd_ut": 2184499.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 16.46,
+    "text": "Scorpio 16°27′",
+    "longitude": 226.456
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Paris Regency",
+   "stop": "Paris, the university: against the one intellect",
+   "date": "1270-01-01",
+   "date_confidence": "R for the year. The Internet and Stanford Encyclopedias place the polemic in the second regency and the standard critical catalogues date De unitate intellectus to 1270; no month is fixed. Coordinate is the canonical atlas University of Paris pin.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1270,
+   "jd_ut": 2184925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.27,
+    "text": "Capricornus 18°16′",
+    "longitude": 288.272
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Paris Regency",
+   "stop": "Paris, Saint-Jacques: on the eternity of the world",
+   "date": "1271-01-01",
+   "date_confidence": "Standard critical dating within the second Paris regency, 1268-1272, per the Internet Encyclopedia chronology of the period; no month or day is fixed by any source consulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1271,
+   "jd_ut": 2185290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.02,
+    "text": "Capricornus 18°01′",
+    "longitude": 288.024
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Second Paris Regency",
+   "stop": "Paris, Saint-Jacques: the heretic and the coiner",
+   "date": "1271-06-01",
+   "date_confidence": "The Secunda Secundae is written in the second Paris regency, c. 1271-1272; the individual questions are not separately dated in any source consulted. Month set to order the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1271,
+   "jd_ut": 2185441.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.74,
+    "text": "Gemini 16°45′",
+    "longitude": 76.743
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naples, the Last Year",
+   "stop": "Naples, San Domenico Maggiore: a school of his own choosing",
+   "date": "1272-09-01",
+   "date_confidence": "The Internet Encyclopedia says the Dominicans moved him back to Naples in 1272 and New Advent puts the Third Part there in 1272-73. The provincial chapter at Florence authorizing him to found a studium generale wherever he chose is tagged R; only the year is firm. Month set to the autumn term.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1272,
+   "jd_ut": 2185899.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.81,
+    "text": "Virgo 15°49′",
+    "longitude": 165.812
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naples, the Last Year",
+   "stop": "Naples, the Lenten sermons in the vernacular",
+   "date": "1273-03-01",
+   "date_confidence": "New Advent situates the final Naples teaching in 1272-73, and the vernacular Lenten cycle is conventionally dated to Lent 1273. Only listeners' reportationes survive, not his own text; day defaulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1273,
+   "jd_ut": 2186080.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 18.0,
+    "text": "Pisces 18°00′",
+    "longitude": 348.001
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naples, the Last Year",
+   "stop": "Naples, the chapel of Saint Nicholas: bene scripsisti",
+   "date": "1273-07-01",
+   "date_confidence": "R, and deliberately kept separate from 6 December. New Advent and the Wikipedia article both place the crucifix locution in 1273 at Naples, after Thomas finished the treatise on the Eucharist, in the chapel of Saint Nicholas, with no day given. The two episodes are frequently merged and are not the same event. Month set only to order the stop before December.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1273,
+   "jd_ut": 2186202.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 15.83,
+    "text": "Cancer 15°50′",
+    "longitude": 105.832
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Naples, the Last Year",
+   "stop": "Naples, San Domenico Maggiore: the sixth of December",
+   "date": "1273-12-06",
+   "date_confidence": "Attested: New Advent says on 6 December 1273 he laid aside his pen and would write no more, and the Stanford chronology quotes the straw remark under the same date. Both state plainly that the nature of the experience, mystical or medical, is unresolved. The straw wording is a widely circulated paraphrase out of the Tocco and Reginald tradition and is tagged R.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1273,
+   "jd_ut": 2186360.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 21.79,
+    "text": "Sagittarius 21°48′",
+    "longitude": 261.795
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 26.58,
+    "text": "Libra 26°35′",
+    "longitude": 206.578
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 3.78,
+    "text": "Capricornus 3°47′",
+    "longitude": 273.78
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 7.13,
+    "text": "Scorpio 7°08′",
+    "longitude": 217.13
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 11.06,
+    "text": "Aquarius 11°03′",
+    "longitude": 311.056
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 28.25,
+    "text": "Capricornus 28°15′",
+    "longitude": 298.245
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 0.26,
+    "text": "Libra 0°16′",
+    "longitude": 180.261
+   }
+  },
+  {
+   "segment": "The Road That Ended in Lazio",
+   "stop": "Naples, setting out for the council",
+   "date": "1274-01-15",
+   "date_confidence": "The Internet Encyclopedia says he died on the road to the council. The departure itself is undated in the sources consulted; January 1274 is inferred from a council opening in May and a death on 7 March, and the day is set only to order the stop.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1274,
+   "jd_ut": 2186400.5,
+   "precision": "month",
+   "precision_triggers": [
+    "inferred",
+    "undated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 2.53,
+    "text": "Aquarius 2°32′",
+    "longitude": 302.534
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road That Ended in Lazio",
+   "stop": "Terracina, the fall on the Appian Way",
+   "date": "1274-02-01",
+   "date_confidence": "Corrected against the research pool: New Advent has him fall near Terracina and then be conducted to Maenza, in sequence, not as a rival tradition, so Terracina and Maenza are not competing accounts. No day is given; month set for ordering. Coordinate corrected to the Wikipedia point for Terracina.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1274,
+   "jd_ut": 2186417.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "sequencing",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 19.73,
+    "text": "Aquarius 19°44′",
+    "longitude": 319.73
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road That Ended in Lazio",
+   "stop": "Maenza, the room that belonged to his niece",
+   "date": "1274-02-10",
+   "date_confidence": "Corrected against the research pool: the Italian Wikipedia article on Maenza says he lodged in the room of his niece Francesca d'Aquino, not a sister, and that the Castello Baronale belonged to the Conti di Ceccano; Torrell likewise makes Maenza the residence of his niece. Day set only to order the stop. The herring story is local tradition, tagged R.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1274,
+   "jd_ut": 2186426.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 28.78,
+    "text": "Aquarius 28°47′",
+    "longitude": 328.784
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Road That Ended in Lazio",
+   "stop": "Fossanova, death in a Cistercian house",
+   "date": "1274-03-07",
+   "date_confidence": "Attested by the Stanford Encyclopedia, the Internet Encyclopedia, and New Advent alike: died at the Cistercian abbey of Fossanova on 7 March 1274. Coordinate is the Wikipedia point for Fossanova Abbey, 41.4381 / 13.1958, correcting a pool entry that placed it eight kilometres east.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1274,
+   "jd_ut": 2186451.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.71,
+    "text": "Pisces 23°43′",
+    "longitude": 353.711
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 15.56,
+    "text": "Aquarius 15°33′",
+    "longitude": 315.557
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 9.48,
+    "text": "Aries 9°29′",
+    "longitude": 9.484
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 15.71,
+    "text": "Aquarius 15°42′",
+    "longitude": 315.705
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 20.15,
+    "text": "Aries 20°09′",
+    "longitude": 20.154
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 19.31,
+    "text": "Aquarius 19°19′",
+    "longitude": 319.311
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 27.88,
+    "text": "Virgo 27°53′",
+    "longitude": 177.876
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Bones and the Doctor",
+   "stop": "Fossanova, the monks keep the body",
+   "date": "1274-03-08",
+   "date_confidence": "Burial at Fossanova is attested by New Advent and the Stanford Encyclopedia; the day is set the morning after the death only to order the stop. The boiling of the body to strip the bones is New Advent's account alone and is tagged R.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1274,
+   "jd_ut": 2186452.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 24.7,
+    "text": "Pisces 24°42′",
+    "longitude": 354.7
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bones and the Doctor",
+   "stop": "Paris, the condemnation of two hundred and nineteen articles",
+   "date": "1277-03-07",
+   "date_confidence": "Partly R. The 219 propositions and Tempier's censure are attested by the Wikipedia article 'Condemnations of 1277'; the coincidence with the third anniversary of the death, and Kilwardby's Oxford list of thirty theses on 18 March, come from the standard literature and were not re-verified against primary documents here. Thomas is three years dead and was not present; the stop marks an act upon his work, not a journey of his own.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1277,
+   "jd_ut": 2187547.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.98,
+    "text": "Pisces 23°59′",
+    "longitude": 353.981
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 3.19,
+    "text": "Aries 3°11′",
+    "longitude": 3.186
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 26.21,
+    "text": "Aquarius 26°13′",
+    "longitude": 326.215
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 7.63,
+    "text": "Aquarius 7°38′",
+    "longitude": 307.631
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 2.1,
+    "text": "Capricornus 2°06′",
+    "longitude": 272.096
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 13.4,
+    "text": "Taurus 13°24′",
+    "longitude": 43.403
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 6.44,
+    "text": "Scorpio 6°27′",
+    "longitude": 216.442
+   }
+  },
+  {
+   "segment": "The Bones and the Doctor",
+   "stop": "Avignon, canonized by John XXII",
+   "date": "1323-07-18",
+   "date_confidence": "Attested by New Advent and the Stanford Encyclopedia alike. Thomas had been dead forty-nine years and was of course not present; the stop marks the proceedings about him, after inquiries at Naples in 1319 and at Fossanova in 1321. Coordinate marks the papal site at Avignon; the standing Palais des Papes did not exist in 1323, John XXII living as a guest of the Dominican house there.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1323,
+   "jd_ut": 2204481.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.0,
+    "text": "Leo 2°00′",
+    "longitude": 121.995
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bones and the Doctor",
+   "stop": "Toulouse, the Jacobins receive the bones",
+   "date": "1369-01-28",
+   "date_confidence": "Attested by New Advent and the English Wikipedia article alike: 28 January 1369, Urban V's decree dated 1368 and the arrival the following year. The English Wikipedia coordinate for the Church of the Jacobins is 43.6039 / 1.4400; the French Wikipedia convent article's 43.6039 / 1.4403 is used here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1369,
+   "jd_ut": 2221112.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 16.65,
+    "text": "Aquarius 16°39′",
+    "longitude": 316.648
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 4.2,
+    "text": "Libra 4°12′",
+    "longitude": 184.196
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 4.11,
+    "text": "Pisces 4°07′",
+    "longitude": 334.111
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 0.56,
+    "text": "Pisces 0°34′",
+    "longitude": 330.564
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 12.47,
+    "text": "Scorpio 12°28′",
+    "longitude": 222.469
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 14.61,
+    "text": "Aquarius 14°36′",
+    "longitude": 314.607
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 17.69,
+    "text": "Sagittarius 17°42′",
+    "longitude": 257.693
+   }
+  },
+  {
+   "segment": "The Bones and the Doctor",
+   "stop": "Rome, declared Doctor of the Universal Church",
+   "date": "1567-04-15",
+   "date_confidence": "Attested: the English Wikipedia article gives 15 April 1567 and the bull Mirabilis Deus. The 1570 Piana edition often cited alongside it was not independently confirmed for this file. Coordinate is a general Rome point; Thomas is nearly three centuries dead and the stop marks an act upon his work.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1567,
+   "jd_ut": 2293508.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (decade/century) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.93,
+    "text": "Taurus 3°56′",
+    "longitude": 33.927
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 16.02,
+    "text": "Cancer 16°01′",
+    "longitude": 106.024
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 11.11,
+    "text": "Taurus 11°06′",
+    "longitude": 41.105
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 14.82,
+    "text": "Taurus 14°49′",
+    "longitude": 44.825
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 28.89,
+    "text": "Pisces 28°53′",
+    "longitude": 358.887
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 4.43,
+    "text": "Scorpio 4°26′",
+    "longitude": 214.435
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 7.26,
+    "text": "Virgo 7°15′",
+    "longitude": 157.257
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Bones and the Doctor",
+   "stop": "Toulouse, Saint-Sernin: the relics after the Revolution",
+   "date": "1878-07-24",
+   "date_confidence": "Attested in New Advent: the shrine raised at the Jacobins in 1628 was destroyed in the Revolution, the relics moved to Saint-Sernin, and a gold-and-silver sarcophagus blessed by Cardinal Desprez on 24 July 1878. Coordinate corrected to the Wikipedia point for the Basilica of Saint-Sernin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1878,
+   "jd_ut": 2407189.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 0.92,
+    "text": "Leo 0°55′",
+    "longitude": 120.918
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 17.61,
+    "text": "Taurus 17°37′",
+    "longitude": 47.614
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 20.26,
+    "text": "Leo 20°15′",
+    "longitude": 140.255
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 27.3,
+    "text": "Gemini 27°18′",
+    "longitude": 87.301
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 19.46,
+    "text": "Leo 19°27′",
+    "longitude": 139.458
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.57,
+    "text": "Aquarius 2°34′",
+    "longitude": 302.573
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 2.48,
+    "text": "Aries 2°29′",
+    "longitude": 2.479
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Bones and the Doctor",
+   "stop": "Rome, Aeterni Patris and the Leonine Commission",
+   "date": "1879-08-04",
+   "date_confidence": "Attested: the encyclical Aeterni Patris is dated 4 August 1879 in the Vatican text. The encyclical itself does not name the Leonine edition; the Leonine Commission's founding under Leo XIII in 1879 is separately documented and is stated here as a separate fact.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1879,
+   "jd_ut": 2407565.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 11.21,
+    "text": "Leo 11°12′",
+    "longitude": 131.207
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 2.16,
+    "text": "Pisces 2°10′",
+    "longitude": 332.159
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 6.71,
+    "text": "Virgo 6°42′",
+    "longitude": 156.708
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 25.14,
+    "text": "Virgo 25°08′",
+    "longitude": 175.141
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 6.68,
+    "text": "Taurus 6°41′",
+    "longitude": 36.679
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 11.23,
+    "text": "Pisces 11°14′",
+    "longitude": 341.235
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 15.41,
+    "text": "Aries 15°25′",
+    "longitude": 15.411
+   }
+  },
+  {
+   "segment": "The Bones and the Doctor",
+   "stop": "Toulouse, the Jacobins again: seven hundred years",
+   "date": "1974-01-28",
+   "date_confidence": "Attested: the relics were returned from Saint-Sernin to the Church of the Jacobins in 1974 for the seventh centenary of his death and placed under an altar designed by Yves Boiret. The day is set to his 28 January feast to order the stop; no source consulted gives the exact date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1974,
+   "jd_ut": 2442075.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "no source (for the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 7.69,
+    "text": "Aquarius 7°41′",
+    "longitude": 307.688
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 8,
+  "month": 2,
+  "year": 34
+ },
+ "parse_failures": []
+}

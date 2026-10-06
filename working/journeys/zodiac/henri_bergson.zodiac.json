@@ -1,0 +1,1841 @@
+{
+ "slug": "henri_bergson",
+ "traveler": "Henri-Louis Bergson",
+ "title": "The Duration That Cannot Be Counted: Bergson from the Rue Lamartine to the Commissariat of Passy",
+ "years": "1859-1941",
+ "years_parsed": {
+  "first": 1859,
+  "last": 1941
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Rue Lamartine and the Conservatory",
+  "stop": "Paris, rue Lamartine, the birth",
+  "date": "1859-10-18",
+  "date_confidence": "attested; 18 October 1859 is given by Wikipedia, the Stanford Encyclopedia of Philosophy and the Collège de France biography alike. The coordinate is the rue Lamartine in the 9th arrondissement, the street the sources name; the house number is not given anywhere reachable.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1859,
+  "jd_ut": 2400335.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "notes": [
+   "hard triggers (not given) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+  ],
+  "sun": {
+   "sign": "Libra",
+   "degree": 24.09,
+   "text": "Libra 24°06′",
+   "longitude": 204.095
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 8.07,
+   "text": "Cancer 8°04′",
+   "longitude": 98.071
+  },
+  "mercury": {
+   "sign": "Libra",
+   "degree": 28.82,
+   "text": "Libra 28°49′",
+   "longitude": 208.818
+  },
+  "venus": {
+   "sign": "Libra",
+   "degree": 29.33,
+   "text": "Libra 29°20′",
+   "longitude": 209.329
+  },
+  "mars": {
+   "sign": "Virgo",
+   "degree": 24.47,
+   "text": "Virgo 24°28′",
+   "longitude": 174.469
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 24.23,
+   "text": "Cancer 24°14′",
+   "longitude": 114.227
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 23.93,
+   "text": "Leo 23°56′",
+   "longitude": 143.928
+  },
+  "conjunctions": [
+   {
+    "sign": "Libra",
+    "bodies": [
+     "Sun",
+     "Mercury",
+     "Venus"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1859-1941",
+  "first_year_parsed": 1859
+ },
+ "stops": [
+  {
+   "segment": "The Rue Lamartine and the Conservatory",
+   "stop": "Paris, rue Lamartine, the birth",
+   "date": "1859-10-18",
+   "date_confidence": "attested; 18 October 1859 is given by Wikipedia, the Stanford Encyclopedia of Philosophy and the Collège de France biography alike. The coordinate is the rue Lamartine in the 9th arrondissement, the street the sources name; the house number is not given anywhere reachable.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400335.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not given) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.09,
+    "text": "Libra 24°06′",
+    "longitude": 204.095
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 8.07,
+    "text": "Cancer 8°04′",
+    "longitude": 98.071
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 28.82,
+    "text": "Libra 28°49′",
+    "longitude": 208.818
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 29.33,
+    "text": "Libra 29°20′",
+    "longitude": 209.329
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 24.47,
+    "text": "Virgo 24°28′",
+    "longitude": 174.469
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.23,
+    "text": "Cancer 24°14′",
+    "longitude": 114.227
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.93,
+    "text": "Leo 23°56′",
+    "longitude": 143.928
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Rue Lamartine and the Conservatory",
+   "stop": "Geneva, the Conservatory and the boy's first schooling",
+   "date": "1863-01-01",
+   "date_confidence": "the 1863 move is attested via Wikipedia's articles on Henri and on Michał Bergson; month and day are unknown and default to 01. Coordinate corrected to the Conservatoire de Musique de Genève, 5 place Neuve, per Nominatim (46.2008666, 6.1425027); an earlier working value in the research pool was some 330 metres off.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401506.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.137
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rue Lamartine and the Conservatory",
+   "stop": "Lycée Fontanes, Paris, the scholarship and the family that leaves",
+   "date": "1868-01-01",
+   "date_confidence": "the 1868 enrolment and the stay through 1878 are attested by Wikipedia and the Internet Encyclopedia of Philosophy; month and day unknown, defaulted to 01. Coordinate inherited byte-identical from jean_paul_sartre.journey.json, which already pins the Lycée Condorcet at 48.879, 2.328; Nominatim gives 48.8748, 2.3276 for the modern building, and the research pool reported 48.8776, 2.3283. The three do not agree and the corpus value is kept so the pins coincide.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403332.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.92,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.919
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rue Lamartine and the Conservatory",
+   "stop": "Paris, the mathematics prize in the Concours général",
+   "date": "1877-01-01",
+   "date_confidence": "the 1877 mathematics prize and the 1878 printing of his solution in the Nouvelles annales de mathématiques are attested by the Stanford Encyclopedia of Philosophy and by the journal issue itself (NAM 1878, ser. 2 vol. 17, p. 268). Month and day unknown, defaulted to 01. The teacher's remark about a mere philosopher is tradition, not document. Coordinate is the Sorbonne quarter, the Concours général's Paris venue; the actual hall is not named in any reachable source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406620.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.75,
+    "text": "Capricornus 10°45′",
+    "longitude": 280.75
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rue d'Ulm and the Provincial Lycées",
+   "stop": "École normale supérieure, rue d'Ulm, the promotion of 1878",
+   "date": "1878-10-01",
+   "date_confidence": "the 1878 entry is attested (SEP, Collège de France). October is the school year's opening and is an ordering convention, not a documented date. CONTRADICTION KEPT OPEN: SEP writes that he was accepted alongside Jean Jaurès and Émile Durkheim, but Wikipedia's Durkheim article says Durkheim entered in 1879 on his third attempt; the compression is SEP's. Naturalization as a French citizen is attested but no source reachable gives its year.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407258.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "disputed",
+    "no source (for the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.67,
+    "text": "Libra 7°40′",
+    "longitude": 187.675
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rue d'Ulm and the Provincial Lycées",
+   "stop": "Angers, the first post",
+   "date": "1881-10-01",
+   "date_confidence": "attested as to 1881 and Angers (SEP, Wikipedia, Collège de France biography). October is the school year's opening, used to order the segment; no month is recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408354.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.94,
+    "text": "Libra 7°57′",
+    "longitude": 187.944
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rue d'Ulm and the Provincial Lycées",
+   "stop": "Clermont-Ferrand, Lucretius and the hypnotized subject",
+   "date": "1883-10-01",
+   "date_confidence": "the Clermont-Ferrand years, 1883 to 1888, are attested (Wikipedia, SEP), as is the 1886 article 'De la simulation inconsciente dans l'état d'hypnotisme'. October 1883 orders the segment; no month is recorded. The five-year span here absorbs the 1886 article, which has no separate stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2409084.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.47,
+    "text": "Libra 7°28′",
+    "longitude": 187.467
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Theses and the Return to Paris",
+   "stop": "Collège Rollin, Paris, the return to the city",
+   "date": "1888-01-01",
+   "date_confidence": "CORRECTED FROM THE POOL: English Wikipedia says he settled in Paris in 1888, and SEP dates the submission of the two theses to 1888, so the Rollin post begins a year earlier than the pool's chronology had it. Month and day unknown, defaulted to 01. Coordinate corrected to the Collège Rollin, today's Lycée Jacques-Decour, 12 avenue Trudaine, Paris 9e, per Nominatim (48.88196, 2.3433379); the pool's earlier value fell 750 metres away in the 18th.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410637.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.066
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Theses and the Return to Paris",
+   "stop": "The Sorbonne, the defense of the two theses",
+   "date": "1889-01-01",
+   "date_confidence": "the 1889 defense of both theses is attested (IEP, SEP). The exact day of the soutenance is not given in any reachable source and defaults to 01-01. Coordinate is the Sorbonne, where Paris doctorates in letters were defended.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411003.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.84,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.838
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Theses and the Return to Paris",
+   "stop": "Lycée Henri-IV, eight years behind the Panthéon",
+   "date": "1890-01-01",
+   "date_confidence": "the appointment shortly after 1889 and the eight-year stay are attested by English Wikipedia ('where he remained for eight years'); the exact start is not dated in any reachable source and 1890-01-01 orders the segment. Coordinate corrected to Nominatim's Lycée Henri IV, rue Clovis, Paris 5e (48.8461796, 2.3486258); the pool's value sat 160 metres away on the wrong side of the block.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411368.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.591
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Theses and the Return to Paris",
+   "stop": "Paris, the marriage witnessed by Proust",
+   "date": "1892-01-07",
+   "date_confidence": "CONTRADICTION KEPT OPEN: English-language sources including Wikipedia give the wedding as 1891; the French chronology built on the civil register gives 7 January 1892, and the later date is used here as primary without the earlier being dismissed. Proust as witness is attested by Wikipedia. The coordinate is a central-Paris registry pin; the actual mairie is not named in any reachable source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412104.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.21,
+    "text": "Capricornus 16°13′",
+    "longitude": 286.212
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 15.55,
+    "text": "Aries 15°33′",
+    "longitude": 15.545
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 28.49,
+    "text": "Sagittarius 28°29′",
+    "longitude": 268.486
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 13.2,
+    "text": "Aquarius 13°12′",
+    "longitude": 313.201
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 18.8,
+    "text": "Scorpio 18°48′",
+    "longitude": 228.8
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 14.55,
+    "text": "Pisces 14°33′",
+    "longitude": 344.555
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 0.28,
+    "text": "Libra 0°17′",
+    "longitude": 180.275
+   }
+  },
+  {
+   "segment": "The Two Theses and the Return to Paris",
+   "stop": "Paris, the sixteenth arrondissement, the birth of Jeanne",
+   "date": "1893-03-16",
+   "date_confidence": "16 March 1893 in the 16th arrondissement is given by French Wikipedia and independently by the Musée Bourdelle students' directory (16/03/1893); some English summaries give 1896 and that discrepancy is not resolved here. The address in 1893 is unknown: the coordinate is the family's later house at 47 boulevard de Beauséjour, in the right arrondissement, and is therefore approximate as to the birth itself.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412538.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "unknown",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 25.66,
+    "text": "Pisces 25°40′",
+    "longitude": 355.659
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Theses and the Return to Paris",
+   "stop": "Paris, Matter and Memory and the cone",
+   "date": "1896-01-01",
+   "date_confidence": "1896 publication is attested (IEP, Collège de France). Month and day unknown, defaulted to 01. The stop is anchored at the Lycée Henri-IV, where Bergson was teaching when the book appeared, rather than at the publisher's address; the pool's publisher coordinate was not Félix Alcan's house in any case (Alcan was at 108 boulevard Saint-Germain, roughly 48.8524, 2.3406).",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413559.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Collège de France and the Boom",
+   "stop": "Collège de France, the chair that was not the one he wanted",
+   "date": "1900-01-01",
+   "date_confidence": "1900 entry to the Collège de France in the chair of Greek and Latin philosophy, succeeding Charles Lévêque after losing the modern philosophy chair to Gabriel Tarde, is attested (Wikipedia, Collège de France). Month unknown, defaulted to 01. The 1898 maître de conférences and professorship at the ENS, also attested, are folded into this stop rather than given one of their own. Coordinate inherited as the canonical corpus pin for the Collège de France, as reported by the interlock lens from georges_sorel.journey.json and victoria_ocampo.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Collège de France and the Boom",
+   "stop": "Paris, Laughter and the mechanical in the living",
+   "date": "1900-06-01",
+   "date_confidence": "1900 publication of Le Rire, gathering essays first printed in the Revue de Paris, is attested (Wikipedia, IEP). Month unknown; June orders it after the Collège de France appointment in the same year. The stop sits at his new lecture pin rather than at a publisher's address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415171.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.03,
+    "text": "Gemini 10°02′",
+    "longitude": 70.029
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Collège de France and the Boom",
+   "stop": "Institut de France, the Académie des sciences morales et politiques",
+   "date": "1901-01-01",
+   "date_confidence": "election in 1901 is attested (Wikipedia, IEP). Month and day unknown, defaulted to 01. Coordinate is the Institut de France on the quai Conti, accurate to within about 80 metres.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415385.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.907
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Collège de France and the Boom",
+   "stop": "Collège de France, Tarde's chair and the method of intuition",
+   "date": "1904-01-01",
+   "date_confidence": "succession to Gabriel Tarde in the chair of modern philosophy in 1904 is attested (Wikipedia, Collège de France); month unknown, defaulted to 01. The 1903 publication of 'Introduction à la métaphysique' in the Revue de métaphysique et de morale is attested by SEP and folded into this stop rather than given its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416480.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.17,
+    "text": "Capricornus 9°10′",
+    "longitude": 279.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Collège de France and the Boom",
+   "stop": "Collège de France, Creative Evolution",
+   "date": "1907-01-01",
+   "date_confidence": "1907 publication of L'Évolution créatrice, and the term élan vital with it, are attested (Wikipedia, IEP). Month and day unknown, defaulted to 01. Anchored at his lecture pin, where the material was taught, rather than at the publisher's address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417576.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.44,
+    "text": "Capricornus 9°27′",
+    "longitude": 279.442
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Collège de France and the Boom",
+   "stop": "Collège de France, the crowd and the snobinettes",
+   "date": "1909-01-01",
+   "date_confidence": "the phenomenon runs roughly 1907 to 1914 and is attested by Emily Herring's research on Bergson's public and by contemporary press caricature of his audience; 1909 is a midpoint chosen to order the segment, not a documented year. Sorel's attendance is attested by English and French Wikipedia but undated; NOTE, georges_sorel.journey.json places his attendance at the Collège de France in 1893, when Bergson was still at the Lycée Henri-IV and had not yet entered the Collège. Ocampo's attendance is dated 1906 in her own file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering",
+    "approximation",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The English Season and the American Crowd",
+   "stop": "Oxford, The Perception of Change",
+   "date": "1911-05-01",
+   "date_confidence": "the Oxford lectures and the honorary doctorate of science are attested (Wikipedia, Collège de France, SEP). The lectures were delivered in May 1911 according to the standard bibliography; the day is not given and defaults to 01. Coordinate is the Sheldonian Theatre and the central university buildings.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419157.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.52,
+    "text": "Taurus 9°31′",
+    "longitude": 39.518
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The English Season and the American Crowd",
+   "stop": "Birmingham, the Huxley Lecture",
+   "date": "1911-06-01",
+   "date_confidence": "the Huxley Lecture at Birmingham on 'Life and Consciousness' in 1911 is attested by Wikipedia and general Bergson bibliography; no month is given in any reachable source, and June is used only to order it after the Oxford lectures of the same English season. Coordinate is the University of Birmingham Great Hall at Edgbaston.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419188.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.4,
+    "text": "Gemini 9°24′",
+    "longitude": 69.398
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The English Season and the American Crowd",
+   "stop": "London, four lectures on the nature of the soul",
+   "date": "1911-10-01",
+   "date_confidence": "the four University of London lectures on 'The Nature of the Soul' in 1911 are attested (Wikipedia, Collège de France); no month is recorded and October orders them after Oxford. CORRECTED COORDINATE: the pool pinned Bloomsbury and Senate House, which the university did not occupy until 1937. In 1911 the University of London was housed at the Imperial Institute building in South Kensington, and this coordinate is that site; the specific lecture hall is not named in any reachable source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419310.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.7,
+    "text": "Libra 6°42′",
+    "longitude": 186.701
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The English Season and the American Crowd",
+   "stop": "Columbia University, New York, the crowd on Morningside Heights",
+   "date": "1913-02-01",
+   "date_confidence": "the February 1913 visit at Columbia's invitation, the lectures, and the Columbia librarians' bibliography with an introduction by John Dewey are attested (SEP, Columbia records via the dossier). The day is not given and defaults to 01. The claim that the crowd produced the first traffic jam in New York's history is [R]: 1914-1918-online asserts it flatly and without evidence, English Wikipedia does not mention it at all, and no source establishes the superlative.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419799.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.55,
+    "text": "Aquarius 11°33′",
+    "longitude": 311.552
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The English Season and the American Crowd",
+   "stop": "London, the Society for Psychical Research",
+   "date": "1913-05-01",
+   "date_confidence": "the presidency, taken in May 1913, is attested by Wikipedia; the presidential address 'Fantômes de vivants et recherche psychique' is [R], resting on SPR records as relayed through the psi-encyclopedia and the dossier rather than on a page independently fetched. The day defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419888.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.02,
+    "text": "Taurus 10°01′",
+    "longitude": 40.019
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The English Season and the American Crowd",
+   "stop": "Edinburgh, the Gifford Lectures that were never finished",
+   "date": "1914-05-01",
+   "date_confidence": "attested that Bergson gave Giffords at Edinburgh on 'The Problem of Personality' and that the war stopped the planned continuation (Wikipedia, SEP). The Gifford archives date the series to 1913-14 and give no month and no lecture count: the figure of eleven lectures and the date May 1914 rest on the research dossier alone and are [R]. Coordinate corrected to Old College, roughly 55.9479, -3.1866.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420253.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.78,
+    "text": "Taurus 9°47′",
+    "longitude": 39.784
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War: the Academy, the Index, the Missions",
+   "stop": "Institut de France, elected to the Académie française",
+   "date": "1914-02-12",
+   "date_confidence": "attested to the day by the Académie française's own records: elected 12 February 1914 to the seat of Émile Ollivier.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420175.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 22.45,
+    "text": "Aquarius 22°27′",
+    "longitude": 322.45
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 9.86,
+    "text": "Virgo 9°52′",
+    "longitude": 159.862
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 5.67,
+    "text": "Pisces 5°40′",
+    "longitude": 335.669
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 22.49,
+    "text": "Aquarius 22°30′",
+    "longitude": 322.492
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 5.67,
+    "text": "Cancer 5°40′",
+    "longitude": 95.668
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 4.98,
+    "text": "Aquarius 4°59′",
+    "longitude": 304.984
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 11.27,
+    "text": "Gemini 11°16′",
+    "longitude": 71.268
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The War: the Academy, the Index, the Missions",
+   "stop": "Paris, the books placed on the Index",
+   "date": "1914-06-01",
+   "date_confidence": "the placing of Bergson's major works on the Index Librorum Prohibitorum on 1 June 1914 is attested (SEP, cross-checked against the dossier's citation of Bruno Neveu, 'Bergson et l'Index'). The stop sits at Bergson's own canonical Paris pin, inherited byte-identical from the corpus, rather than at the Vatican: the decree was issued in Rome by a body he never appeared before, and a stop belongs to whoever was there.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420284.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.66,
+    "text": "Gemini 9°40′",
+    "longitude": 69.661
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 2.16,
+    "text": "Virgo 2°09′",
+    "longitude": 152.155
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 25.97,
+    "text": "Gemini 25°58′",
+    "longitude": 85.969
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 6.98,
+    "text": "Cancer 6°59′",
+    "longitude": 96.984
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 15.75,
+    "text": "Leo 15°45′",
+    "longitude": 135.747
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.09,
+    "text": "Aquarius 22°05′",
+    "longitude": 322.088
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 20.12,
+    "text": "Gemini 20°07′",
+    "longitude": 80.123
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The War: the Academy, the Index, the Missions",
+   "stop": "Institut de France, the meaning of the war",
+   "date": "1914-12-01",
+   "date_confidence": "the presidential address 'La signification de la guerre' to the Académie des sciences morales et politiques in December 1914 is attested by English Wikipedia; the day is not given and defaults to 01. The article 'La force qui s'use et celle qui ne s'use pas', published in the Bulletin des Armées de la République on 4 November 1914, is attested to the day and is folded into this stop rather than given its own. NOTE: the research pool had a separate August 1914 address at the same body, which no reachable source supports and which appears to conflate these two utterances.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420467.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.96,
+    "text": "Sagittarius 7°58′",
+    "longitude": 247.962
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War: the Academy, the Index, the Missions",
+   "stop": "Madrid, the Ateneo and the king",
+   "date": "1916-01-01",
+   "date_confidence": "the 1916 Spanish mission, the appearance at the Ateneo de Madrid and the meeting with Alfonso XIII rest on a contemporaneous memoir cited in the research dossier and on a Cambridge Core chapter about the Casa de Velázquez; no month is given and defaults to 01. Tagged as attested but on a single documentary line, not on multiple independent sources.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420863.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.25,
+    "text": "Capricornus 9°15′",
+    "longitude": 279.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War: the Academy, the Index, the Missions",
+   "stop": "The White House, Washington, the philosopher sent to Wilson",
+   "date": "1917-01-01",
+   "date_confidence": "CORRECTED FROM THE POOL: 1914-1918-online states that in January 1917 the French government sent Bergson to the United States as a special envoy to meet Wilson, i.e. before American entry, which was the point of the trip. The pool had framed him as travelling with the Viviani mission, which in fact visited in April and May 1917, after entry, when Bergson was already in the country. English Wikipedia says nothing about a Wilson meeting; the meeting rests on 1914-1918-online and on Geert Somsen's 2020 article. Day unknown, defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War: the Academy, the Index, the Missions",
+   "stop": "Institut de France, received under the dome",
+   "date": "1918-01-24",
+   "date_confidence": "attested to the day by the Académie française: received 24 January 1918, with René Doumic delivering the response.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421617.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 3.21,
+    "text": "Aquarius 3°12′",
+    "longitude": 303.207
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 27.19,
+    "text": "Gemini 27°11′",
+    "longitude": 87.186
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 8.63,
+    "text": "Capricornus 8°38′",
+    "longitude": 278.626
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 28.24,
+    "text": "Aquarius 28°14′",
+    "longitude": 328.239
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 2.35,
+    "text": "Libra 2°21′",
+    "longitude": 182.352
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 1.49,
+    "text": "Gemini 1°30′",
+    "longitude": 61.494
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 11.86,
+    "text": "Leo 11°52′",
+    "longitude": 131.863
+   }
+  },
+  {
+   "segment": "The War: the Academy, the Index, the Missions",
+   "stop": "Washington, the second American stay",
+   "date": "1918-05-01",
+   "date_confidence": "1914-1918-online confirms a protracted second stay from May to September 1918. CORRECTED FROM THE POOL: this stay was not attached to the Viviani mission, which was a discrete visit in April and May 1917; the Viviani preface Bergson wrote belongs to the earlier trip. Day unknown, defaults to 01. Coordinate is the French embassy quarter of Washington and is approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421714.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "unknown",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.81,
+    "text": "Taurus 9°49′",
+    "longitude": 39.815
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Relativity, Geneva, and the Prize Collected in Absence",
+   "stop": "Cambridge, the doctorate and the end of the lecturing",
+   "date": "1920-06-01",
+   "date_confidence": "the Cambridge honorary doctorate in June 1920, and the Collège de France relieving him of teaching duties around the same period, are attested by English Wikipedia; the day is not given and defaults to 01. Coordinate is the Senate House at Cambridge, where honorary degrees are conferred; no source names the venue and the pin is inferred.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422476.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "not given",
+    "(soft-year) span/window",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.19,
+    "text": "Gemini 10°11′",
+    "longitude": 70.188
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Relativity, Geneva, and the Prize Collected in Absence",
+   "stop": "The Sorbonne, the session with Einstein",
+   "date": "1922-04-06",
+   "date_confidence": "the Société française de philosophie session on relativity during Einstein's Paris visit, with Langevin, Hadamard, Cartan and Painlevé present, is attested; SEP discusses the dispute in general terms. The exact date of 6 April 1922 comes from the Société's session records via the research dossier and Jimena Canales's book, and was not independently re-verified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423150.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.42,
+    "text": "Aries 15°25′",
+    "longitude": 15.421
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 25.19,
+    "text": "Cancer 25°12′",
+    "longitude": 115.194
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 27.55,
+    "text": "Pisces 27°33′",
+    "longitude": 357.551
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 29.2,
+    "text": "Aries 29°12′",
+    "longitude": 29.2
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 19.73,
+    "text": "Sagittarius 19°44′",
+    "longitude": 259.732
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.74,
+    "text": "Libra 13°44′",
+    "longitude": 193.74
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 3.5,
+    "text": "Libra 3°30′",
+    "longitude": 183.501
+   }
+  },
+  {
+   "segment": "Relativity, Geneva, and the Prize Collected in Absence",
+   "stop": "Paris, Duration and Simultaneity",
+   "date": "1922-06-01",
+   "date_confidence": "1922 publication is attested (Wikipedia); no month is recorded, and June is used to order the book after the April session it answers. Coordinate is Félix Alcan's house at 108 boulevard Saint-Germain; the research pool carried a publisher coordinate that was not Alcan's address at all and it is corrected here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423206.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.72,
+    "text": "Gemini 9°43′",
+    "longitude": 69.724
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Relativity, Geneva, and the Prize Collected in Absence",
+   "stop": "Palais Wilson, Geneva, the first chair of intellectual cooperation",
+   "date": "1922-08-01",
+   "date_confidence": "CORRECTED FROM THE POOL: Wikipedia's ICIC article gives formal establishment in August 1922, a first session on 1 August 1922, Bergson as inaugural chair presiding 1922 to 1925, and the Palais Wilson as the seat between 1922 and 1937. The 1920-1925 span carried in some summaries is simply wrong, since the committee did not exist in 1920, and is not preserved here as a live discrepancy. Coordinate corrected to Nominatim's Palais Wilson, 51 quai Wilson (46.2148896, 6.1510578).",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423267.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "disputed",
+    "between",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.96,
+    "text": "Leo 7°58′",
+    "longitude": 127.961
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Relativity, Geneva, and the Prize Collected in Absence",
+   "stop": "Paris, the hands that will not close",
+   "date": "1925-01-01",
+   "date_confidence": "severe rheumatoid arthritis from the mid-1920s onward, with repeated unsuccessful treatments including clinics and thermal spas, is attested by Marcel-Francis Kahn's medical-historical study. No individual clinic or spa is named in any reachable source and no year is fixed for the onset: 1925 orders the segment. The coordinate is his own house in the 16th arrondissement, not any spa, because the spas cannot be located.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Relativity, Geneva, and the Prize Collected in Absence",
+   "stop": "Paris, the Nobel Prize collected in absence",
+   "date": "1928-01-01",
+   "date_confidence": "Bergson is the designated laureate for 1927, but the 1927 literature prize was reserved and actually conferred in 1928, which is why IEP writes that he received it in 1928; both years are right about different things. The ceremony date is not verified here and the date defaults to 1928-01-01. nobelprize.org returned HTTP 403 to every fetch attempt, so the citation text rests on Wikipedia's quotation of the Nobel Foundation. The stop sits at Bergson's own house and not in Stockholm, because illness kept him from travelling and he was never there.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Boulevard de Beauséjour",
+   "stop": "47 boulevard de Beauséjour, The Two Sources",
+   "date": "1932-01-01",
+   "date_confidence": "1932 publication of Les Deux Sources de la morale et de la religion is attested (Wikipedia, IEP), as is La Pensée et le mouvant in 1934, which is folded into this stop. Months unknown, defaulted to 01. Anchored at his house rather than at a publisher's address; the coordinate is Nominatim's 47 boulevard de Beauséjour (48.8569653, 2.2680222), which corrects a value in the research pool that sat 230 metres off.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Boulevard de Beauséjour",
+   "stop": "47 boulevard de Beauséjour, the testament",
+   "date": "1937-02-07",
+   "date_confidence": "attested to the day: the will is dated 7 February 1937 and English Wikipedia quotes it directly. The quotation used here is the Jewish Telegraphic Agency's contemporary translation, printed 26 September 1941; the awkward English is the JTA translator's and is quoted as printed rather than smoothed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428571.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 17.81,
+    "text": "Aquarius 17°49′",
+    "longitude": 317.814
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 26.11,
+    "text": "Sagittarius 26°07′",
+    "longitude": 266.109
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 22.14,
+    "text": "Capricornus 22°08′",
+    "longitude": 292.137
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 4.63,
+    "text": "Aries 4°38′",
+    "longitude": 4.631
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 16.36,
+    "text": "Scorpio 16°22′",
+    "longitude": 226.36
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 15.09,
+    "text": "Capricornus 15°06′",
+    "longitude": 285.092
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 20.47,
+    "text": "Pisces 20°28′",
+    "longitude": 350.468
+   }
+  },
+  {
+   "segment": "Boulevard de Beauséjour",
+   "stop": "Passy, the commissariat of the sixteenth arrondissement",
+   "date": "1940-10-01",
+   "date_confidence": "the refusal of exemption is attested by a contemporary JTA report of 9 December 1940. The visit to the local commissariat, and the exact wording said to have been entered on the form, are [R]: transmitted tradition, never produced from the original document. Vichy's Statut des Juifs is dated 3 October 1940 and the exemption clause for exceptional scientific merit belongs to the statute of 18 October, so the registration falls in the autumn; the day is unknown and defaults to 01. The coordinate is the Passy quarter of the 16th arrondissement and is approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429903.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "unknown"
+   ],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.66,
+    "text": "Libra 7°40′",
+    "longitude": 187.664
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Boulevard de Beauséjour",
+   "stop": "47 boulevard de Beauséjour, the night of the third",
+   "date": "1941-01-03",
+   "date_confidence": "CONTRADICTION KEPT OPEN. 3 January is given by English Wikipedia, French Wikipedia, SEP, and the Académie française's own biographical index page; 4 January is given by IEP, by Paul Valéry's memorial address of 9 January 1941 on the Académie's own site, and by 1914-1918-online. The Académie is internally inconsistent and cannot settle it, so the death falls in the night of 3-4 January 1941 and the file takes the 3rd only as its sortable value. Cause: pulmonary congestion per Valéry, bronchitis per Wikipedia, pneumonia per IEP.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2429997.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 12.24,
+    "text": "Capricornus 12°14′",
+    "longitude": 282.241
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 14.14,
+    "text": "Pisces 14°09′",
+    "longitude": 344.143
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 7.25,
+    "text": "Capricornus 7°15′",
+    "longitude": 277.248
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 16.42,
+    "text": "Sagittarius 16°25′",
+    "longitude": 256.417
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 28.78,
+    "text": "Scorpio 28°47′",
+    "longitude": 238.777
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 5.82,
+    "text": "Taurus 5°49′",
+    "longitude": 35.816
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 7.62,
+    "text": "Taurus 7°37′",
+    "longitude": 37.622
+   }
+  },
+  {
+   "segment": "Boulevard de Beauséjour",
+   "stop": "Garches, the grave west of Paris",
+   "date": "1941-01-06",
+   "date_confidence": "burial at the cemetery of Garches is attested (Wikipedia, SEP, French Wikipedia); the day of the funeral is not given in any reachable source and 6 January orders it between the death and Valéry's address of 9 January. Coordinate corrected to Nominatim's Cimetière de Garches (48.8480054, 2.1938773); a value carried in the research pool fell 1.1 km outside the cemetery.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430000.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.3,
+    "text": "Capricornus 15°18′",
+    "longitude": 285.299
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 8,
+  "month": 6,
+  "year": 29
+ },
+ "parse_failures": []
+}

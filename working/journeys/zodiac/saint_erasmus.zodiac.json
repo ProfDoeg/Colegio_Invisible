@@ -1,0 +1,1760 @@
+{
+ "slug": "saint_erasmus",
+ "traveler": "Saint Erasmus of Formia (Erasmo, Sant'Ermu, St Elmo)",
+ "title": "The Windlass and the Fire: Erasmus of Formia, from a Contested See to a Light on the Masthead",
+ "years": "birth unrecorded, traditionally c. 250 - c. 303; cult continuous to the present",
+ "years_parsed": {
+  "first": 250,
+  "last": 2026
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Antioch, and the Contested See",
+  "stop": "Antioch, the birth no register holds",
+  "date": "0250-01-01",
+  "date_confidence": "unrecorded. No source gives a birth year, and the two traditions do not agree on a birthplace: en.wikipedia 'Erasmus of Formia' and CatholicSaints.info offer Mount Lebanon, the Antioch strand and it.wikipedia offer Antioch. 250 is arithmetic run backwards from a traditional death of 303, entered as a placeholder to keep the file sortable, not as a datum.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 250,
+  "jd_ut": 1812370.5,
+  "precision": "year",
+  "precision_triggers": [
+   "traditional",
+   "placeholder",
+   "unrecorded",
+   "no source (for the date)",
+   "(soft) no source"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 10.91,
+   "text": "Capricornus 10°55′",
+   "longitude": 280.91
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "birth unrecorded, traditionally c. 250 - c. 303; cult continuous to the present",
+  "first_year_parsed": 250
+ },
+ "stops": [
+  {
+   "segment": "Antioch, and the Contested See",
+   "stop": "Antioch, the birth no register holds",
+   "date": "0250-01-01",
+   "date_confidence": "unrecorded. No source gives a birth year, and the two traditions do not agree on a birthplace: en.wikipedia 'Erasmus of Formia' and CatholicSaints.info offer Mount Lebanon, the Antioch strand and it.wikipedia offer Antioch. 250 is arithmetic run backwards from a traditional death of 303, entered as a placeholder to keep the file sortable, not as a datum.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 250,
+   "jd_ut": 1812370.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placeholder",
+    "unrecorded",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.91,
+    "text": "Capricornus 10°55′",
+    "longitude": 280.91
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Antioch, and the Contested See",
+   "stop": "Formia, the see the Latin West gives him",
+   "date": "0290-01-01",
+   "date_confidence": "traditional. No source from his own century names him at all. The earliest hard anchor in the entire dossier is a letter of Gregory the Great, roughly three hundred years later, saying where the body is kept.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 290,
+   "jd_ut": 1826980.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "decade/century",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.2,
+    "text": "Capricornus 11°12′",
+    "longitude": 281.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Antioch, and the Contested See",
+   "stop": "Antioch, the see the Italian tradition gives him",
+   "date": "0290-01-01",
+   "date_confidence": "contradiction, flagged and not resolved. it.wikipedia calls him outright vescovo di Antiochia. en.wikipedia makes Formia his see and treats an Erasmus of Antioch as a separate Syrian bishop whom the Acts of Saint Elmo have folded into him. Both pins stand in this file, six hundred miles apart, on the same date. Neither is preferred.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 290,
+   "jd_ut": 1826980.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.2,
+    "text": "Capricornus 11°12′",
+    "longitude": 281.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Antioch, and the Contested See",
+   "stop": "Nicomedia, the edict published",
+   "date": "0303-02-24",
+   "date_confidence": "attested. en.wikipedia 'Diocletianic Persecution' dates the razing of the Nicomedia church to 23 February 303, the feast of the Terminalia, and the publication of the Edict against the Christians to the following day. Pin inherited byte-identical from saint_acacius.journey.json and saint_blaise.journey.json. The link to Erasmus is thematic and not documentary: no record places him at Nicomedia.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831782.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 5.33,
+    "text": "Pisces 5°20′",
+    "longitude": 335.326
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 19.82,
+    "text": "Scorpio 19°49′",
+    "longitude": 229.816
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 23.68,
+    "text": "Aquarius 23°41′",
+    "longitude": 323.68
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 20.03,
+    "text": "Aries 20°02′",
+    "longitude": 20.029
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 26.66,
+    "text": "Capricornus 26°40′",
+    "longitude": 296.66
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 21.07,
+    "text": "Pisces 21°04′",
+    "longitude": 351.07
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 28.96,
+    "text": "Virgo 28°58′",
+    "longitude": 178.963
+   }
+  },
+  {
+   "segment": "The Cave on the Mountain",
+   "stop": "Mount Lebanon, seven years and a raven",
+   "date": "0296-01-01",
+   "date_confidence": "legend, and the place is contested. it.wikipedia says only that he took refuge seven years in a cave, unnamed and unlocated; the Anglophone summary names Mount Lebanon and adds the raven. No source names a peak, a valley or a spring. The pin is set in the Qadisha and Cedars of God tract, the range's famous hermitage country, explicitly as an illustration and not as an attested site.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 296,
+   "jd_ut": 1829171.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "disputed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.731
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cave on the Mountain",
+   "stop": "Mount Lebanon, the angel sends him down",
+   "date": "0303-01-01",
+   "date_confidence": "legend. en.wikipedia reports the angelic vision as part of the traditional Acts; no independent attestation exists, and the placeholder coordinate is the same illustrative Qadisha pin as the preceding stop.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placeholder",
+    "legend"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cave on the Mountain",
+   "stop": "Antioch, the soldiers find him",
+   "date": "0303-01-01",
+   "date_confidence": "legend, with a historical strain flagged. Diocletian's court sits ordinarily at Nicomedia and used Antioch only intermittently, chiefly during the Persian campaigns of the mid-290s. No administrative record puts the emperor in Syria in 303.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Torments",
+   "stop": "Antioch, the refusal before the emperor",
+   "date": "0303-01-01",
+   "date_confidence": "legend as event, attested as text. The quotation is verbatim from Caxton's Golden Legend as printed by Wynkyn de Worde in 1527; what it attests is what the sixteenth century was reading, not what was said in Syria.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Torments",
+   "stop": "Antioch, the leaden mallets",
+   "date": "0303-01-01",
+   "date_confidence": "legend as event, attested as text. The Caxton wording is the narrator's, describing the first torment ordered.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Torments",
+   "stop": "Antioch, the burning coat",
+   "date": "0303-01-01",
+   "date_confidence": "legend as event, attested as text. The speech is placed by the source immediately before he is clad in the heated metal coat.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Torments",
+   "stop": "Antioch, the teeth drawn with pincers",
+   "date": "0303-01-01",
+   "date_confidence": "legend as event, attested as text. The iron cards of the same passage are wool-combers' carding rakes, the fixed emblem of Blaise of Sebastea and used on him in a parallel Passio of the same generation.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Torments",
+   "stop": "Antioch, the bed of roses on the fire",
+   "date": "0303-01-01",
+   "date_confidence": "legend as event, attested as text. The source places the speech during the roasting.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lycia",
+   "stop": "Antioch, the angel opens the prison",
+   "date": "0303-01-01",
+   "date_confidence": "legend. en.wikipedia and CatholicSaints.info both carry the angelic release; no independent attestation.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lycia",
+   "stop": "Myra, the dead son raised",
+   "date": "0303-01-01",
+   "date_confidence": "legend, on a placeholder coordinate. en.wikipedia names only the province, Lycia, and no town. Myra is pinned as the province's best-known city and nothing more; it becomes the Lycian capital only in 325, twenty-two years after these events. The research pool's 36.2508, 29.9744 is neither Myra (36.2592, 29.9853) nor Demre town centre (36.2440, 29.9853); corrected here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "legend",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lycia",
+   "stop": "Lycia, the word reaches Maximian",
+   "date": "0303-01-01",
+   "date_confidence": "legend, on the same Myra placeholder. The involvement of Maximian is one of the internal strains the historians cite: the western Augustus has no jurisdiction in Lycia, and the two tetrarchic courts are not documented passing provincial preachers between them.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "legend"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lycia",
+   "stop": "A hillside in Lycia, the barrel of spikes",
+   "date": "0303-01-01",
+   "date_confidence": "legend, on the same Myra placeholder. No hillside and no town are named in any source. No Roman legal or narrative source reachable here attests a spiked barrel as a penalty; that absence is recorded as a gap rather than argued.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831728.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "legend"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.04,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Deaths",
+   "stop": "Salona in Illyricum, the windlass",
+   "date": "0303-06-02",
+   "date_confidence": "legend, on a placeholder coordinate, and one half of an unresolved contradiction. en.wikipedia names only the province. Salona, capital of Roman Dalmatia and the ground of many other martyrdoms, is pinned as a stand-in. The rival account, at Formia, is pinned separately on the same date; neither source yields and neither is preferred here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831880.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "legend",
+    "disputed",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.09,
+    "text": "Gemini 10°06′",
+    "longitude": 70.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Deaths",
+   "stop": "Formia, the archangel brings him home",
+   "date": "0303-06-02",
+   "date_confidence": "legend, and the other half of the contradiction. it.wikipedia and the local Gaeta and Formia cult have the archangel Michael bring him to Formia, where he dies seven days later, with no disembowelment mentioned at all. The two accounts cannot both be literally true; both are carried, six hundred miles apart on one date, flagged rather than reconciled.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831880.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.09,
+    "text": "Gemini 10°06′",
+    "longitude": 70.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Two Deaths",
+   "stop": "Formia, the seventh day",
+   "date": "0303-06-02",
+   "date_confidence": "legend for the death, attested for the feast. 2 June is the day the church keeps and is attested in the Hieronymian Martyrology by roughly 600; whether it marks a death, a burial, or a free slot in a later calendar, nothing consulted can say.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 303,
+   "jd_ut": 1831880.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.09,
+    "text": "Gemini 10°06′",
+    "longitude": 70.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Formia and Gaeta: the Relics Move Twice",
+   "stop": "Formia, the Passio written and misattributed",
+   "date": "0550-01-01",
+   "date_confidence": "attested as to the century. it.wikipedia: 'La Passio che narra la vita di sant'Erasmo risale al VI secolo.' Author unknown, place of composition unknown. 550 is a mid-century placeholder. The research pool misdescribed the Gelasius problem; the fault is a misattribution to the wrong Gelasius, corrected here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 550,
+   "jd_ut": 1921945.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "placeholder",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 13.06,
+    "text": "Capricornus 13°04′",
+    "longitude": 283.063
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Formia and Gaeta: the Relics Move Twice",
+   "stop": "Formia, Gregory names the church that holds him",
+   "date": "0590-01-01",
+   "date_confidence": "attested, and the earliest hard anchor in the dossier. Pope Gregory the Great (590 to 604) reports the body kept at a church in Formia. The pool called the building 'Formia Cathedral'; the see of Formiae was extinguished and its rights carried to Gaeta, so no such building survives. The coordinate is an approximate centroid of the Castellone district; no excavated plan was located.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 590,
+   "jd_ut": 1936555.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 13.35,
+    "text": "Capricornus 13°21′",
+    "longitude": 283.351
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Formia and Gaeta: the Relics Move Twice",
+   "stop": "Rome, the feast enters the Martyrology",
+   "date": "0600-01-01",
+   "date_confidence": "attested as to the fact, approximate as to the date. it.wikipedia reports the 2 June feast in the Hieronymian Martyrology, one of the oldest surviving Western martyrologies. 600 is a placeholder for the martyrology's working period. Rome pin inherited byte-identical from catorce_santos_ayudantes.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 600,
+   "jd_ut": 1940207.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "placeholder",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 12.91,
+    "text": "Capricornus 12°55′",
+    "longitude": 282.914
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Formia and Gaeta: the Relics Move Twice",
+   "stop": "Formia, the Saracens burn the town",
+   "date": "0842-01-01",
+   "date_confidence": "attested. Both the English and Italian articles date the destruction of old Formiae by Saracen raiders to 842; the transfer of the cult is dated only as after it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 842,
+   "jd_ut": 2028598.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.17,
+    "text": "Capricornus 15°10′",
+    "longitude": 285.169
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Formia and Gaeta: the Relics Move Twice",
+   "stop": "Gaeta, carried from the burning see",
+   "date": "0842-06-01",
+   "date_confidence": "attested for the year, undated within it. Pin inherited byte-identical from catorce_santos_ayudantes.journey.json, which already narrates this transfer from the company's side. en.wikipedia 'Gaeta Cathedral' names the church and the bishop, both of which the research pool omitted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 842,
+   "jd_ut": 2028749.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.6,
+    "text": "Gemini 13°36′",
+    "longitude": 73.601
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Formia and Gaeta: the Relics Move Twice",
+   "stop": "Gaeta, Bishop Bono finds them again",
+   "date": "0917-01-01",
+   "date_confidence": "attested by it.wikipedia, which also settles the order: 'furono ritrovate nel 917 dal vescovo Bono. Sant'Erasmo fu quindi proclamato patrono della citta.' The research pool dated the patronage to 850, before the rediscovery; corrected.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 917,
+   "jd_ut": 2055992.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.97,
+    "text": "Capricornus 15°58′",
+    "longitude": 285.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Formia and Gaeta: the Relics Move Twice",
+   "stop": "Gaeta, Paschal II consecrates the cathedral",
+   "date": "1106-01-22",
+   "date_confidence": "attested. en.wikipedia 'Gaeta Cathedral' gives 22 January 1106 and coordinates 41.208944, 13.586806. The research pool carried 1108 at 41.2072, 13.5711, about 1.3 km west of the building, and called the year vague across sources while its own chronology lens said 1106; both errors corrected.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1106,
+   "jd_ut": 2125045.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 8.4,
+    "text": "Aquarius 8°24′",
+    "longitude": 308.396
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 16.07,
+    "text": "Leo 16°04′",
+    "longitude": 136.074
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 26.45,
+    "text": "Aquarius 26°27′",
+    "longitude": 326.447
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 25.31,
+    "text": "Sagittarius 25°19′",
+    "longitude": 265.31
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 23.72,
+    "text": "Sagittarius 23°43′",
+    "longitude": 263.723
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 16.07,
+    "text": "Sagittarius 16°04′",
+    "longitude": 256.073
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 4.45,
+    "text": "Capricornus 4°27′",
+    "longitude": 274.446
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Elmo: the Name Shortens and Goes to Sea",
+   "stop": "Naples, the church on the Vomero",
+   "date": "0950-01-01",
+   "date_confidence": "attested as to the tenth-century church and the contraction, approximate as to the year. en.wikipedia 'Castel Sant'Elmo' dates the church to the tenth century without a year; 950 is a placeholder.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 950,
+   "jd_ut": 2068045.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "placeholder",
+    "to the year",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.95,
+    "text": "Capricornus 15°57′",
+    "longitude": 285.951
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Elmo: the Name Shortens and Goes to Sea",
+   "stop": "The central Mediterranean, the fire takes his name",
+   "date": "1300-01-01",
+   "date_confidence": "attested as a naming tradition, undatable as an event. The coordinate is a nominal central-Mediterranean point: the phenomenon has no location, and the naming was never universal even within Christian seafaring.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1300,
+   "jd_ut": 2195882.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "not given",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.98,
+    "text": "Capricornus 17°59′",
+    "longitude": 287.982
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Elmo: the Name Shortens and Goes to Sea",
+   "stop": "Naples, castrum Sancti Erasmi",
+   "date": "1348-01-01",
+   "date_confidence": "attested. Coordinate matches en.wikipedia 'Castel Sant'Elmo' exactly. The research pool credited Charles of Anjou with converting the site into a fortress; en.wiki documents only a structure there from 1275 under Charles I, with the fortress commissioned by Robert of Anjou from 1329 and built by Tino da Camaino until his death in 1343, called a castrum by 1336. The 1348 attestation of the name is correct.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1348,
+   "jd_ut": 2213414.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.33,
+    "text": "Capricornus 18°20′",
+    "longitude": 288.333
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Elmo: the Name Shortens and Goes to Sea",
+   "stop": "Puerto San Julian, the lights on the mastheads",
+   "date": "1520-04-01",
+   "date_confidence": "placeholder, heavily hedged. en.wikipedia gives only 'Antonio Pigafetta's journal of his 1519 to 1522 voyage with Ferdinand Magellan', with no year within the voyage and no position. The research pool pinned -52.6, -68.5, the Atlantic mouth of the Strait of Magellan, in April 1520, which is internally impossible: the fleet did not enter the strait until 21 October 1520. Moved here to the Patagonian wintering anchorage.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276328.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "hard triggers (placeholder) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 20.66,
+    "text": "Aries 20°40′",
+    "longitude": 20.664
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Elmo: the Name Shortens and Goes to Sea",
+   "stop": "Valletta, the fort called Sant'Ermu",
+   "date": "1552-01-01",
+   "date_confidence": "attested for the construction date and the dedication.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1552,
+   "jd_ut": 2287925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.83,
+    "text": "Capricornus 19°50′",
+    "longitude": 289.827
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Elmo: the Name Shortens and Goes to Sea",
+   "stop": "Lisbon, the fire enters the epic",
+   "date": "1572-01-01",
+   "date_confidence": "attested as literary attestation, and a correction of 75 years. en.wikipedia says the phenomenon 'is also described in The Lusiads (1572), the epic account of the voyages of discovery of Vasco da Gama'. The research pool logged this as a sighting recorded on da Gama's 1497 voyage; it is Camoes's poem, published in 1572, and nothing of the kind.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1572,
+   "jd_ut": 2295230.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.97,
+    "text": "Capricornus 19°58′",
+    "longitude": 289.974
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Elmo: the Name Shortens and Goes to Sea",
+   "stop": "The Rio de la Plata, the Beagle",
+   "date": "1832-01-01",
+   "date_confidence": "attested as an observation, placeholder as a position. en.wikipedia records Darwin observing St Elmo's fire aboard HMS Beagle and gives no location; the pin is set in the Rio de la Plata, where the Beagle worked in these years, and is a guess.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1832,
+   "jd_ut": 2390195.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 21.88,
+    "text": "Capricornus 21°53′",
+    "longitude": 291.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Company of Fourteen",
+   "stop": "Regensburg, the fresco gathers them",
+   "date": "1350-01-01",
+   "date_confidence": "attested for the Regensburg fresco and glass, dated 1320 to 1360 in catorce_santos_ayudantes.journey.json, from which this pin is inherited byte-identical. 1350 is the mid-point.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1350,
+   "jd_ut": 2214145.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.86,
+    "text": "Capricornus 18°51′",
+    "longitude": 288.856
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Company of Fourteen",
+   "stop": "Nuremberg, the order closes at fourteen",
+   "date": "1400-01-01",
+   "date_confidence": "attested. Pin and date inherited byte-identical from catorce_santos_ayudantes.journey.json, which records the company fixed by about 1400 and kept jointly at Regensburg, Bamberg, Wurzburg and Nuremberg.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1400,
+   "jd_ut": 2232407.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.71,
+    "text": "Capricornus 18°43′",
+    "longitude": 288.713
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Company of Fourteen",
+   "stop": "Franconia, the belly and the beasts",
+   "date": "1400-01-01",
+   "date_confidence": "attested for the patronage, inferred for its cause. en.wikipedia lists colic, abdominal pain, intestinal ailments, labour pains and cattle pests. The sources themselves read the patronage as arising from the disembowelment legend; there is no healing episode anywhere in the life to support it. Pin shared with the Nuremberg stop for want of a single site.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1400,
+   "jd_ut": 2232407.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "legend"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.71,
+    "text": "Capricornus 18°43′",
+    "longitude": 288.713
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Company of Fourteen",
+   "stop": "Vierzehnheiligen, the shepherd sees the fourteen children",
+   "date": "1446-06-28",
+   "date_confidence": "attested as tradition, dated 1445 to 1446 by en.wikipedia and by catorce_santos_ayudantes.journey.json, from which this pin and date are inherited byte-identical. The first altar is consecrated in 1448.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1446,
+   "jd_ut": 2249387.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 14.11,
+    "text": "Cancer 14°07′",
+    "longitude": 104.108
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Company of Fourteen",
+   "stop": "Rome, Nicholas V attaches indulgences",
+   "date": "1450-01-01",
+   "date_confidence": "attested. Pin and date inherited byte-identical from catorce_santos_ayudantes.journey.json.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1450,
+   "jd_ut": 2250670.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.59,
+    "text": "Capricornus 19°35′",
+    "longitude": 289.588
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Windlass, the Skull, the Calendar",
+   "stop": "London, the legend goes into English print",
+   "date": "1527-01-01",
+   "date_confidence": "attested. Wynken de Worde's 1527 English edition of the Golden Legend is the printing from which every verbatim quotation in this file is taken. The coordinate is nominal for the City of London.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1527,
+   "jd_ut": 2278794.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.9,
+    "text": "Capricornus 19°54′",
+    "longitude": 289.898
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Windlass, the Skull, the Calendar",
+   "stop": "Vatican, Poussin over the altar",
+   "date": "1629-01-01",
+   "date_confidence": "attested. Poussin's Martyrdom of Saint Erasmus was painted 1628 to 1629 for an altar in the north transept of St Peter's; a mosaic copy now hangs there and the canvas is in the Vatican Pinacoteca.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1629,
+   "jd_ut": 2316050.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 21.16,
+    "text": "Capricornus 21°09′",
+    "longitude": 291.156
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Windlass, the Skull, the Calendar",
+   "stop": "Munich, the skull purported",
+   "date": "1700-01-01",
+   "date_confidence": "hedged in the source and hedged here; no date exists. en.wikipedia says the skull 'is purported to be in St. Peter's Church, Munich', and the Peterskirche article says only that relics of Munditia and of Erasmus of Formia are venerated there, without calling any of them a skull. The research pool tagged this attested; downgraded to reconstruction. 1700 is a bare placeholder to keep the stop in sequence.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1700,
+   "jd_ut": 2341982.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "sequencing",
+    "no month/day",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.91,
+    "text": "Capricornus 20°55′",
+    "longitude": 290.913
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Windlass, the Skull, the Calendar",
+   "stop": "Bassiano, the towns that keep him",
+   "date": "1900-01-01",
+   "date_confidence": "attested for the patronages, undated as a stop. The research pool put Bassiano at 41.5017, 13.1108, roughly 8 km wrong; corrected to approximately 41.550, 13.033. The pool also omitted Roccagorga from en.wikipedia's patronage list. Santeramo in Colle sits at approximately 40.800, 16.767. 1900 is a nominal date for a continuing modern cult.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1900,
+   "jd_ut": 2415032.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "undated",
+    "approximation",
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.39,
+    "text": "Capricornus 22°23′",
+    "longitude": 292.385
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Windlass, the Skull, the Calendar",
+   "stop": "Buenos Aires, the barrio on the third hill",
+   "date": "1900-01-01",
+   "date_confidence": "nominal, and entered as such. Pin and date inherited byte-identical from catorce_santos_ayudantes.journey.json, which shares the San Cristobal pin with emin_arslan.journey.json. No relic, legend or local story of Erasmus attaches to it; the stop records the reach of the company, not of the man.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1900,
+   "jd_ut": 2415032.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.39,
+    "text": "Capricornus 22°23′",
+    "longitude": 292.385
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Windlass, the Skull, the Calendar",
+   "stop": "Rome, four names come off the calendar",
+   "date": "1969-01-01",
+   "date_confidence": "attested. Pin and date inherited byte-identical from catorce_santos_ayudantes.journey.json. No document consulted explains why Erasmus was spared a revision that removed four of his own company on grounds of unverifiable historicity.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) no source",
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 2,
+  "month": 0,
+  "year": 42
+ },
+ "parse_failures": []
+}

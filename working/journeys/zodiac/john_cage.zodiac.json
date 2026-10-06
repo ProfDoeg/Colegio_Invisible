@@ -1,0 +1,1795 @@
+{
+ "slug": "john_cage",
+ "traveler": "John Milton Cage Jr.",
+ "title": "The Anechoic Chamber and the Ramapo Mountains: Cage, the Prepared Piano, and the Room That Is Never Empty",
+ "years": "1912-1992",
+ "years_parsed": {
+  "first": 1912,
+  "last": 1992
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Only Child of an Inventor",
+  "stop": "Good Samaritan Hospital, Los Angeles: the birth",
+  "date": "1912-09-05",
+  "date_confidence": "attested. The coordinate is the current hospital site at 616 South Witmer Street; the 1912 building footprint may differ slightly.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1912,
+  "jd_ut": 2419650.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Virgo",
+   "degree": 12.05,
+   "text": "Virgo 12°03′",
+   "longitude": 162.053
+  },
+  "moon": {
+   "sign": "Gemini",
+   "degree": 17.7,
+   "text": "Gemini 17°42′",
+   "longitude": 77.697
+  },
+  "mercury": {
+   "sign": "Leo",
+   "degree": 24.7,
+   "text": "Leo 24°42′",
+   "longitude": 144.701
+  },
+  "venus": {
+   "sign": "Virgo",
+   "degree": 28.74,
+   "text": "Virgo 28°44′",
+   "longitude": 178.735
+  },
+  "mars": {
+   "sign": "Libra",
+   "degree": 1.49,
+   "text": "Libra 1°29′",
+   "longitude": 181.486
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 7.18,
+   "text": "Sagittarius 7°11′",
+   "longitude": 247.18
+  },
+  "saturn": {
+   "sign": "Gemini",
+   "degree": 4.01,
+   "text": "Gemini 4°01′",
+   "longitude": 64.009
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1912-1992",
+  "first_year_parsed": 1912
+ },
+ "stops": [
+  {
+   "segment": "The Only Child of an Inventor",
+   "stop": "Good Samaritan Hospital, Los Angeles: the birth",
+   "date": "1912-09-05",
+   "date_confidence": "attested. The coordinate is the current hospital site at 616 South Witmer Street; the 1912 building footprint may differ slightly.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419650.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.05,
+    "text": "Virgo 12°03′",
+    "longitude": 162.053
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 17.7,
+    "text": "Gemini 17°42′",
+    "longitude": 77.697
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 24.7,
+    "text": "Leo 24°42′",
+    "longitude": 144.701
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 28.74,
+    "text": "Virgo 28°44′",
+    "longitude": 178.735
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 1.49,
+    "text": "Libra 1°29′",
+    "longitude": 181.486
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 7.18,
+    "text": "Sagittarius 7°11′",
+    "longitude": 247.18
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 4.01,
+    "text": "Gemini 4°01′",
+    "longitude": 64.009
+   }
+  },
+  {
+   "segment": "The Only Child of an Inventor",
+   "stop": "Hollywood Bowl, Los Angeles: the speech for a day of quiet",
+   "date": "1928-01-01",
+   "date_confidence": "The year is attested; the month and day of the oratorical contest are not fixed by the sources reached, and the date defaults to January by this file's convention. The later reading of the speech as a prophecy of 4'33\" is retrospective interpretation and is tagged R.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "convention",
+    "to the year",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Only Child of an Inventor",
+   "stop": "Los Angeles High School: the valedictorian",
+   "date": "1928-06-01",
+   "date_confidence": "The year is attested; June is inferred from the ordinary graduation calendar. The coordinate corrects the research pool's 34.0538, -118.3229 to the school's Olympic Boulevard campus, occupied since 1917.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425398.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.25,
+    "text": "Gemini 10°15′",
+    "longitude": 70.251
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Only Child of an Inventor",
+   "stop": "Pomona College, Claremont: the shelf everyone is sent to",
+   "date": "1928-09-01",
+   "date_confidence": "Enrollment in 1928 and departure in 1930 are attested; September is inferred from the academic calendar. The coordinate corrects the pool's 34.0967, -117.7198, which sits about six hundred metres southwest of the campus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425490.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.3,
+    "text": "Virgo 8°18′",
+    "longitude": 158.304
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eighteen Months Abroad",
+   "stop": "Paris: the lessons with Lazare Levy",
+   "date": "1930-06-01",
+   "date_confidence": "Cage is in Europe from 1930 into 1931; the month of his arrival in Paris is not fixed by the sources reached. The pin is the canonical Paris coordinate inherited from the corpus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426128.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.79,
+    "text": "Gemini 9°47′",
+    "longitude": 69.788
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eighteen Months Abroad",
+   "stop": "Seville: the corner where everything arrives at once",
+   "date": "1930-10-01",
+   "date_confidence": "R. The episode is known only from Cage's own retelling, decades later; the sources reached carry no letter, notebook, or contemporary record of it, and the date is set to order the segment.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426250.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.09,
+    "text": "Libra 7°06′",
+    "longitude": 187.094
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eighteen Months Abroad",
+   "stop": "Palma de Mallorca: the mathematical scores, thrown out",
+   "date": "1931-01-01",
+   "date_confidence": "The Mallorca composing is placed in the 1930-1931 European stay; the month is not fixed by the sources reached and defaults to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "placed (the date)",
+    "(soft-year) year range",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Promise to Schoenberg",
+   "stop": "Santa Monica: lecturing on what he read last week",
+   "date": "1931-06-01",
+   "date_confidence": "The return from Europe is dated 1931 and the Santa Monica period runs to about 1933; the month is not fixed by the sources reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426493.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.56,
+    "text": "Gemini 9°33′",
+    "longitude": 69.556
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Promise to Schoenberg",
+   "stop": "The New School, New York: Cowell, Weiss, and the YWCA walls",
+   "date": "1933-09-01",
+   "date_confidence": "1933 is attested for the New York study with Henry Cowell and Adolph Weiss; the month is inferred. The coordinate is the New School's Manhattan campus, a known Cowell teaching base in the period, not a confirmed lesson venue. The Brooklyn wall-washing work is tagged R.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427316.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.1,
+    "text": "Virgo 8°06′",
+    "longitude": 158.101
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Promise to Schoenberg",
+   "stop": "University of Southern California, Los Angeles: the promise and the wall",
+   "date": "1935-01-01",
+   "date_confidence": "The research pool's '1934/1935' compresses two institutions. Schoenberg does not reach Los Angeles until autumn 1934; the defensible sequence is private lessons from 1934, classwork at USC in 1935-36, then UCLA from 1936. The stop is dated 1935 at the USC campus and the exchange about the wall survives only in Cage's own retelling, tagged R.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Promise to Schoenberg",
+   "stop": "Yuma County Courthouse, Yuma: the marriage to Xenia Kashevaroff",
+   "date": "1935-06-07",
+   "date_confidence": "The date is attested; the courthouse coordinate is tagged R in the research pool, the exact venue not confirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427960.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 15.33,
+    "text": "Gemini 15°20′",
+    "longitude": 75.333
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 20.88,
+    "text": "Leo 20°53′",
+    "longitude": 140.882
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 3.9,
+    "text": "Cancer 3°54′",
+    "longitude": 93.901
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 29.14,
+    "text": "Cancer 29°08′",
+    "longitude": 119.138
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 8.4,
+    "text": "Libra 8°24′",
+    "longitude": 188.404
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 15.09,
+    "text": "Scorpio 15°05′",
+    "longitude": 225.088
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 9.71,
+    "text": "Pisces 9°43′",
+    "longitude": 339.712
+   }
+  },
+  {
+   "segment": "The Promise to Schoenberg",
+   "stop": "UCLA, Los Angeles: the man at the instrument while others move",
+   "date": "1936-09-01",
+   "date_confidence": "The UCLA accompanying work is dated 1936-1938; September is inferred from the academic calendar.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428412.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.37,
+    "text": "Virgo 8°22′",
+    "longitude": 158.367
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Brake Drums and the Prepared Piano",
+   "stop": "Mills College, Oakland: north on Cowell's advice",
+   "date": "1938-06-01",
+   "date_confidence": "1938 is attested; the month is inferred. The pin is inherited from the corpus entry for the Mills College campus; the geography pass proposed 37.7783, -122.1811 for the same campus, and the discrepancy is recorded in the report rather than resolved here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429050.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.85,
+    "text": "Gemini 9°51′",
+    "longitude": 69.852
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Brake Drums and the Prepared Piano",
+   "stop": "Cornish School, Seattle: the accompanist and the dance student",
+   "date": "1938-09-01",
+   "date_confidence": "Cage is at Cornish from 1938 to 1941; the sources disagree on whether he and Merce Cunningham first met in 1938 or 1939. The pin is inherited byte for byte from merce_cunningham.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429142.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.9,
+    "text": "Virgo 7°54′",
+    "longitude": 157.899
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Brake Drums and the Prepared Piano",
+   "stop": "Cornish School, Seattle: the bolts between the strings",
+   "date": "1940-01-01",
+   "date_confidence": "1940 is attested for the invention and for Bacchanale; the sources reached do not fix the month, so the date defaults to January. Pin inherited from merce_cunningham.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429629.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.43,
+    "text": "Capricornus 9°26′",
+    "longitude": 279.431
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Brake Drums and the Prepared Piano",
+   "stop": "Chicago School of Design: the year at the New Bauhaus",
+   "date": "1941-09-01",
+   "date_confidence": "The Chicago period is dated 1941-1942; September is inferred from the academic calendar.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2430238.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.16,
+    "text": "Virgo 8°10′",
+    "longitude": 158.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Instruction from the East",
+   "stop": "New York: the house of Peggy Guggenheim and Max Ernst",
+   "date": "1942-06-01",
+   "date_confidence": "The 1942 arrival is attested; the month is not. The coordinate is an approximate placeholder for Guggenheim's East Side house, the exact address not confirmed by the sources reached, and the collapse of the gallery concert is tagged R.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430511.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.88,
+    "text": "Gemini 9°53′",
+    "longitude": 69.883
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Instruction from the East",
+   "stop": "New York: the first solo concert, Cage at the piano",
+   "date": "1944-04-01",
+   "date_confidence": "April 1944 is attested. The pin is the canonical New York coordinate inherited from merce_cunningham.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431181.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.16,
+    "text": "Aries 11°09′",
+    "longitude": 11.156
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Instruction from the East",
+   "stop": "326 Monroe Street, New York: the divorce and the exchange with Gita Sarabhai",
+   "date": "1946-01-01",
+   "date_confidence": "The Monroe Street tenancy is tagged R and runs from about 1946 to 1954. The divorce from Xenia Kashevaroff is dated 1945 and Sarabhai's lessons 1946; the stop takes 1946 to order the segment. Sarabhai's teaching is confirmed only against standard biography, not refetched.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431821.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.985
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Instruction from the East",
+   "stop": "Black Mountain College: the summer of the Baron Medusa",
+   "date": "1948-07-01",
+   "date_confidence": "Summer 1948 is attested; July is given to order the segment. The pin is inherited byte for byte from merce_cunningham.journey.json and buckminster_fuller.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432733.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.06,
+    "text": "Cancer 9°04′",
+    "longitude": 99.063
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Instruction from the East",
+   "stop": "Carnegie Hall, New York: Sonatas and Interludes",
+   "date": "1949-01-01",
+   "date_confidence": "The Ajemian recital is dated 1949 and the composition of the cycle to 1946-1948; the sources reached do not fix the month of the recital, and the date defaults to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432917.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Instruction from the East",
+   "stop": "Paris: the Guggenheim year and Pierre Boulez",
+   "date": "1949-06-01",
+   "date_confidence": "The fellowship and the European travel are dated 1949; the month in Paris is not fixed by the sources reached. The pin is the canonical Paris coordinate inherited from the corpus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433068.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.18,
+    "text": "Gemini 10°11′",
+    "longitude": 70.179
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chance Operations",
+   "stop": "Carnegie Hall, New York: leaving before the Rachmaninoff",
+   "date": "1950-01-01",
+   "date_confidence": "January 1950 is attested for the meeting with Morton Feldman; the day is not fixed by the sources reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433282.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.014
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chance Operations",
+   "stop": "Columbia University, New York: the Suzuki lectures",
+   "date": "1950-09-01",
+   "date_confidence": "R throughout. The research pool places Cage at D. T. Suzuki's Columbia lectures around 1950, and no fetched primary source confirms either his attendance or the dates; Cage's own accounts of how long he attended are inconsistent. The pin is the Columbia coordinate used elsewhere in the corpus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433525.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.99,
+    "text": "Virgo 8°00′",
+    "longitude": 157.994
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chance Operations",
+   "stop": "New York: the I Ching and Music of Changes",
+   "date": "1951-01-01",
+   "date_confidence": "1951 is attested both for Wolff's gift of the I Ching and for the composition of Music of Changes; the months are not fixed. Canonical New York pin inherited from the corpus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433647.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.767
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chance Operations",
+   "stop": "Harvard University, Cambridge: the anechoic chamber",
+   "date": "1951-06-01",
+   "date_confidence": "The visit is dated 1951 and rests on Cage's own repeated testimony; the month is not fixed. The engineer's identification of the two sounds as nervous system and circulation is disputed on physiological grounds, tinnitus being the usual alternative, and is tagged R.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433798.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.72,
+    "text": "Gemini 9°43′",
+    "longitude": 69.715
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chance Operations",
+   "stop": "Black Mountain College: the untitled event",
+   "date": "1952-08-01",
+   "date_confidence": "Summer 1952 is attested; August is given to order the segment. No score survives, the surviving accounts of the running order contradict each other, and the label 'first Happening' is a later attribution by others and is tagged R.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434225.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.68,
+    "text": "Leo 8°41′",
+    "longitude": 128.68
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chance Operations",
+   "stop": "Maverick Concert Hall, near Woodstock: four minutes thirty-three seconds",
+   "date": "1952-08-29",
+   "date_confidence": "The date is attested. The coordinate corrects the research pool to the figure given for Maverick Concert Hall, which stands off Maverick Road in Hurley, Ulster County, though it is customarily addressed as Woodstock; two other pins for this venue circulate in the pool and the three-way discrepancy is recorded in the report.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434253.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 5.59,
+    "text": "Virgo 5°36′",
+    "longitude": 155.592
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stony Point, the Mushrooms, and the School",
+   "stop": "Black Mountain College: the company is formed",
+   "date": "1953-08-01",
+   "date_confidence": "Summer 1953 is attested; August is given to order the segment. Pin inherited byte for byte from merce_cunningham.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434590.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.45,
+    "text": "Leo 8°27′",
+    "longitude": 128.449
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stony Point, the Mushrooms, and the School",
+   "stop": "Gate Hill Cooperative, Stony Point: the cabin and the mushrooms",
+   "date": "1954-07-01",
+   "date_confidence": "The move is placed in the summer of 1954 and the tenancy runs into the 1960s; the coordinate for the cooperative is tagged R in the research pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434924.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.63,
+    "text": "Cancer 8°38′",
+    "longitude": 98.635
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stony Point, the Mushrooms, and the School",
+   "stop": "The New School, New York: the composition class",
+   "date": "1956-09-01",
+   "date_confidence": "The class runs from 1956 to 1961; September 1956 is given to order the segment.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435717.5,
+   "precision": "month",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.53,
+    "text": "Virgo 8°32′",
+    "longitude": 158.525
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stony Point, the Mushrooms, and the School",
+   "stop": "Milan: the mushrooms on television",
+   "date": "1959-01-01",
+   "date_confidence": "1959 is attested for the appearances on Lascia o raddoppia?; the sources reached name Italy without naming the studio city, and Milan is used as a representative coordinate, tagged R. The month is not fixed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stony Point, the Mushrooms, and the School",
+   "stop": "Wesleyan University, Middletown: Silence",
+   "date": "1961-10-01",
+   "date_confidence": "The Wesleyan fellowship dates from 1960 and Silence is published in October 1961; the stop takes the publication date and carries both facts.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437573.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.58,
+    "text": "Libra 7°35′",
+    "longitude": 187.581
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stony Point, the Mushrooms, and the School",
+   "stop": "Pocket Theatre, Third Avenue, New York: eight hundred and forty times",
+   "date": "1963-09-09",
+   "date_confidence": "Attested. Pin inherited byte for byte from erik_satie.journey.json and merce_cunningham.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438281.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.61,
+    "text": "Virgo 15°37′",
+    "longitude": 165.61
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 25.98,
+    "text": "Taurus 25°59′",
+    "longitude": 55.976
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 4.93,
+    "text": "Libra 4°56′",
+    "longitude": 184.929
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 18.32,
+    "text": "Virgo 18°19′",
+    "longitude": 168.325
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 27.76,
+    "text": "Libra 27°45′",
+    "longitude": 207.756
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 17.96,
+    "text": "Aries 17°58′",
+    "longitude": 17.959
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 17.79,
+    "text": "Aquarius 17°47′",
+    "longitude": 317.785
+   }
+  },
+  {
+   "segment": "The Tour and the Machines",
+   "stop": "Paris: the world tour crosses Europe",
+   "date": "1964-06-01",
+   "date_confidence": "The tour runs six months in 1964; June is given for the European leg. The pin is the canonical Paris coordinate inherited from the corpus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438547.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.54,
+    "text": "Gemini 10°32′",
+    "longitude": 70.537
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tour and the Machines",
+   "stop": "Tokyo: the second meeting with Toru Takemitsu",
+   "date": "1964-11-01",
+   "date_confidence": "The Japanese leg of the 1964 tour is attested; the month is not fixed by the sources reached. Pin inherited from merce_cunningham.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438700.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.61,
+    "text": "Scorpio 8°37′",
+    "longitude": 218.609
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tour and the Machines",
+   "stop": "University of Illinois, Urbana: HPSCHD",
+   "date": "1969-01-01",
+   "date_confidence": "1969 is attested for the premiere; the sources reached do not fix the month, and the date defaults to January. Pin inherited byte for byte from merce_cunningham.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tour and the Machines",
+   "stop": "107 Bank Street, New York: the apartment in the West Village",
+   "date": "1971-01-01",
+   "date_confidence": "The Bank Street years run from about 1971, when the company takes studios at Westbeth. The domestic arrangement is tagged R here as it is in merce_cunningham.journey.json, from which the pin is inherited byte for byte.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2440952.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Work and the Ramapo Mountains",
+   "stop": "101 West 18th Street, New York: the last loft",
+   "date": "1979-01-01",
+   "date_confidence": "R. The standard date for the move is 1979 and Cage lives here until his death, but no fetched source pins the year; the research pool carried an incorrect 'late 1960s' dating that inverted the sequence with the Bank Street years, and the correction is set out in the report. The macrobiotic diet belongs to this late period, not to 1965 as the pool first had it; the attribution to Yoko Ono's recommendation is standard biography and is tagged R.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1979,
+   "jd_ut": 2443874.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.974
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Work and the Ramapo Mountains",
+   "stop": "Cologne: Roaratorio, an Irish circus on Finnegans Wake",
+   "date": "1979-01-01",
+   "date_confidence": "1979 is attested for the work and the commission is given as West German radio in Cologne; the sources reached do not fix a premiere date more precisely, and the date defaults to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1979,
+   "jd_ut": 2443874.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.974
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Work and the Ramapo Mountains",
+   "stop": "Frankfurt: Europeras 1 and 2",
+   "date": "1987-01-01",
+   "date_confidence": "1987 is attested for the Frankfurt premiere; the sources reached do not fix the month, and the date defaults to January by this file's convention.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1987,
+   "jd_ut": 2446796.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.033
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Work and the Ramapo Mountains",
+   "stop": "Kyoto: the prize and the extended autobiography",
+   "date": "1989-11-11",
+   "date_confidence": "The prize year and the lecture date of 11 November 1989 are attested by the Kyoto Prize laureate page. The coordinate corrects the research pool, which carried two different and equally wrong points, to the Kyoto International Conference Center at Takaragaike, Sakyo-ku.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1989,
+   "jd_ut": 2447841.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 18.58,
+    "text": "Scorpio 18°35′",
+    "longitude": 228.579
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 16.64,
+    "text": "Aries 16°38′",
+    "longitude": 16.636
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 18.71,
+    "text": "Scorpio 18°43′",
+    "longitude": 228.714
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 5.61,
+    "text": "Capricornus 5°37′",
+    "longitude": 275.61
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 4.55,
+    "text": "Scorpio 4°33′",
+    "longitude": 214.555
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 10.69,
+    "text": "Cancer 10°41′",
+    "longitude": 100.691
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.058
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Late Work and the Ramapo Mountains",
+   "stop": "St. Vincent's Hospital, New York: the tea",
+   "date": "1992-08-12",
+   "date_confidence": "Attested. Pin inherited byte for byte from merce_cunningham.journey.json, which carries the same event; the geography pass proposed 40.7367, -74.0021 for the hospital and the discrepancy is recorded in the report rather than resolved here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448846.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 19.54,
+    "text": "Leo 19°32′",
+    "longitude": 139.54
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Work and the Ramapo Mountains",
+   "stop": "Ramapo Mountains, near Stony Point: the ashes",
+   "date": "1992-09-01",
+   "date_confidence": "The scattering is attested; the month is not fixed. The pin is inherited byte for byte from merce_cunningham.journey.json. The geography pass proposed 41.23, -74.05 and the afterlife pass 41.2151, -73.9885 for the same event, and the three-way discrepancy is recorded in the report rather than resolved here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448866.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.81,
+    "text": "Virgo 8°49′",
+    "longitude": 158.81
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Work and the Ramapo Mountains",
+   "stop": "St. Burchardi Church, Halberstadt: the chord that lasts a year",
+   "date": "2001-09-05",
+   "date_confidence": "Posthumous, and flagged as such: the performance begins on 5 September 2001, the eighty-ninth anniversary of Cage's birth, and is scheduled to end in 2640. The 639-year span was fixed by the John Cage Organ Foundation Halberstadt, not by Cage, who wrote only the instruction as slow as possible; that attribution is tagged R. The coordinate corrects two conflicting points in the research pool to the figure given for the Burchardikloster.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2001,
+   "jd_ut": 2452157.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (span/window, year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.51,
+    "text": "Virgo 12°31′",
+    "longitude": 162.513
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 5.53,
+    "text": "Aries 5°32′",
+    "longitude": 5.532
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 5.73,
+    "text": "Libra 5°44′",
+    "longitude": 185.729
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 10.55,
+    "text": "Leo 10°33′",
+    "longitude": 130.551
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 28.08,
+    "text": "Sagittarius 28°05′",
+    "longitude": 268.083
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 10.65,
+    "text": "Cancer 10°39′",
+    "longitude": 100.646
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 14.3,
+    "text": "Gemini 14°18′",
+    "longitude": 74.297
+   }
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 5,
+  "month": 5,
+  "year": 35
+ },
+ "parse_failures": []
+}

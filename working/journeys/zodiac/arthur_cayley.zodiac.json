@@ -1,0 +1,1990 @@
+{
+ "slug": "arthur_cayley",
+ "traveler": "Arthur Cayley",
+ "title": "The Conveyancer's Chambers: Arthur Cayley, Matrices, and the Sadleirian Chair",
+ "years": "1821-1895",
+ "years_parsed": {
+  "first": 1821,
+  "last": 1895
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Merchant's Son",
+  "stop": "Richmond, Surrey: the birth",
+  "date": "1821-08-16",
+  "date_confidence": "attested, 16 August 1821, MacTutor and Britannica agreeing. No source consulted names the house, so the coordinate marks the town and not a building.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1821,
+  "jd_ut": 2386393.5,
+  "precision": "day",
+  "precision_triggers": [
+   "(soft) no source"
+  ],
+  "notes": [
+   "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+  ],
+  "sun": {
+   "sign": "Leo",
+   "degree": 22.74,
+   "text": "Leo 22°45′",
+   "longitude": 142.742
+  },
+  "moon": {
+   "sign": "Pisces",
+   "degree": 25.11,
+   "text": "Pisces 25°06′",
+   "longitude": 355.107
+  },
+  "mercury": {
+   "sign": "Leo",
+   "degree": 5.32,
+   "text": "Leo 5°19′",
+   "longitude": 125.316
+  },
+  "venus": {
+   "sign": "Virgo",
+   "degree": 15.76,
+   "text": "Virgo 15°46′",
+   "longitude": 165.76
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 2.91,
+   "text": "Cancer 2°54′",
+   "longitude": 92.907
+  },
+  "jupiter": {
+   "sign": "Taurus",
+   "degree": 0.32,
+   "text": "Taurus 0°19′",
+   "longitude": 30.317
+  },
+  "saturn": {
+   "sign": "Aries",
+   "degree": 26.48,
+   "text": "Aries 26°29′",
+   "longitude": 26.483
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1821-1895",
+  "first_year_parsed": 1821
+ },
+ "stops": [
+  {
+   "segment": "The Merchant's Son",
+   "stop": "Richmond, Surrey: the birth",
+   "date": "1821-08-16",
+   "date_confidence": "attested, 16 August 1821, MacTutor and Britannica agreeing. No source consulted names the house, so the coordinate marks the town and not a building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1821,
+   "jd_ut": 2386393.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 22.74,
+    "text": "Leo 22°45′",
+    "longitude": 142.742
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 25.11,
+    "text": "Pisces 25°06′",
+    "longitude": 355.107
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 5.32,
+    "text": "Leo 5°19′",
+    "longitude": 125.316
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 15.76,
+    "text": "Virgo 15°46′",
+    "longitude": 165.76
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 2.91,
+    "text": "Cancer 2°54′",
+    "longitude": 92.907
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 0.32,
+    "text": "Taurus 0°19′",
+    "longitude": 30.317
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 26.48,
+    "text": "Aries 26°29′",
+    "longitude": 26.483
+   }
+  },
+  {
+   "segment": "The Merchant's Son",
+   "stop": "St Petersburg: the counting house",
+   "date": "1822-01-01",
+   "date_confidence": "the childhood residence 1821-1828 is attested in MacTutor; the date here is an ordering placeholder within it. No address survives in anything consulted, so the coordinate marks the city centre only.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386531.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.09,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.09
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Merchant's Son",
+   "stop": "29 York Terrace, Regent's Park: the family comes home",
+   "date": "1828-01-01",
+   "date_confidence": "contradiction printed, not resolved. MacTutor gives the permanent return as 1828; Wikipedia, the 1911 Britannica ('left business in 1829'), Salmon (1883) and Macfarlane give 1829. The file takes the earlier date and leaves the later standing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1828,
+   "jd_ut": 2388722.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.624
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Merchant's Son",
+   "stop": "Blackheath: the private school",
+   "date": "1830-01-01",
+   "date_confidence": "the Blackheath schooling is attested but undated in the sources consulted; 1830 is an ordering placeholder between the family's return and the 1835 entry to King's College School. The first research pass conflated this school with the family's residence, which was at Regent's Park.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389453.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.149
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Merchant's Son",
+   "stop": "King's College School, the Strand: admitted early",
+   "date": "1835-01-01",
+   "date_confidence": "the year 1835 and the age of fourteen are attested in MacTutor. The term is not given, so the date defaults to January. A chemistry prize asserted in the first research pass, sourced there to the Wikipedia article on Cayley, is not in that article and has been dropped.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391279.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.931
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Trinity and the Senior Wranglership",
+   "stop": "Trinity College, Cambridge: matriculation at seventeen",
+   "date": "1838-10-01",
+   "date_confidence": "the year and the age are attested in MacTutor; October is the Michaelmas term convention, not a documented day. The coordinate is the canonical Trinity pin already in use in the corpus, inherited unchanged.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1838,
+   "jd_ut": 2392648.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.36,
+    "text": "Libra 7°22′",
+    "longitude": 187.365
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Trinity and the Senior Wranglership",
+   "stop": "Cambridge Senate House: Senior Wrangler",
+   "date": "1842-01-01",
+   "date_confidence": "the year is attested in MacTutor. The Tripos was examined and the order posted in January; the day is not given in the sources consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1842,
+   "jd_ut": 2393836.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.24,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.237
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Trinity and the Senior Wranglership",
+   "stop": "Aberfeldy: the reading party",
+   "date": "1842-07-01",
+   "date_confidence": "summer 1842 is attested in MacTutor; July is a placeholder inside that season, not a documented month. Galton's recollection of Cayley's physique is a later memoir, not a contemporary record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1842,
+   "jd_ut": 2394017.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.69,
+    "text": "Cancer 8°41′",
+    "longitude": 98.691
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Trinity and the Senior Wranglership",
+   "stop": "Trinity College: the fellowship and the twenty-eight papers",
+   "date": "1842-10-01",
+   "date_confidence": "the fellowship election in 1842 and the roughly four further years at Cambridge are attested in MacTutor; October is a convention, not a documented day. The count of about 28 papers in the Cambridge Mathematical Journal is MacTutor's figure.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1842,
+   "jd_ut": 2394109.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.4,
+    "text": "Libra 7°24′",
+    "longitude": 187.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Alps, the Cathedral, and the Inn",
+   "stop": "Chamonix and the Swiss Alps: the continental journey",
+   "date": "1844-06-01",
+   "date_confidence": "reconstruction. The 1844 journey with Venables through Switzerland and Italy comes to this file through the research pool, which attributes it to MacTutor and Crilly but could not re-fetch it independently. No source names any town or route, so Chamonix is the compiler's placeholder for the standard British Alpine gateway of the period and is not an attested stop; the Italian leg is described here rather than given a pin of its own, for the same reason.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1844,
+   "jd_ut": 2394718.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft-year) span/window",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.54,
+    "text": "Gemini 10°33′",
+    "longitude": 70.542
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Alps, the Cathedral, and the Inn",
+   "stop": "Lincoln Cathedral: the letter to George Boole",
+   "date": "1845-01-01",
+   "date_confidence": "reconstruction. A surviving letter to Boole expresses the wish to visit him at Lincoln and see the cathedral; no source consulted confirms the visit ever happened. The stop records an intention, not an attested arrival, and the date is an ordering placeholder in the correspondence, which began in 1844.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1845,
+   "jd_ut": 2394932.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.51,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.514
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Alps, the Cathedral, and the Inn",
+   "stop": "Lincoln's Inn: admitted",
+   "date": "1846-04-20",
+   "date_confidence": "attested, 20 April 1846, Britannica and the Wilberforce Chambers article agreeing. The coordinate corrects the research pool's 51.5155, -0.1116, which sat about 250 m south-west of the Inn.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395406.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.53,
+    "text": "Aries 29°32′",
+    "longitude": 29.527
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 14.77,
+    "text": "Aquarius 14°46′",
+    "longitude": 314.773
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 28.51,
+    "text": "Aries 28°31′",
+    "longitude": 28.509
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 15.74,
+    "text": "Pisces 15°45′",
+    "longitude": 345.745
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 16.28,
+    "text": "Gemini 16°17′",
+    "longitude": 76.278
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 17.74,
+    "text": "Taurus 17°44′",
+    "longitude": 47.74
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 28.55,
+    "text": "Aquarius 28°33′",
+    "longitude": 328.547
+   }
+  },
+  {
+   "segment": "The Alps, the Cathedral, and the Inn",
+   "stop": "2 Stone Buildings, Lincoln's Inn: the pupil of Christie",
+   "date": "1846-06-01",
+   "date_confidence": "the pupillage under Jonathan Henry Christie at 2 Stone Buildings is attested in the Wilberforce Chambers article; the month is a placeholder after the April admission. The coordinate places Stone Buildings at the Robert Taylor range of 1775-1780 in the north-east corner of the Inn, correcting the pool's 51.5158, -0.1122. The anecdote quoted below reaches print through a memoir of the profession, not a contemporary record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395448.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.08,
+    "text": "Gemini 10°05′",
+    "longitude": 70.079
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Alps, the Cathedral, and the Inn",
+   "stop": "Trinity College Dublin: Hamilton on quaternions",
+   "date": "1848-06-01",
+   "date_confidence": "attested as June 1848 in the Wilberforce Chambers article; the venue is confirmed by Wikipedia's article on Hamilton, which records that the Lectures on Quaternions were delivered from 1848 onward in the halls of Trinity College, Dublin. The day is not given. The first research pass tagged this a reconstruction for want of a date; the hedge is withdrawn. George Salmon's presence, asserted in that first pass, could not be confirmed and no one but Hamilton and Cayley is staged here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396179.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.57,
+    "text": "Gemini 10°34′",
+    "longitude": 70.574
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Alps, the Cathedral, and the Inn",
+   "stop": "Lincoln's Inn: called to the Bar",
+   "date": "1849-05-03",
+   "date_confidence": "attested, 3 May 1849, in MacTutor and confirmed by the Wilberforce Chambers article, which also confirms the figure of between two and three hundred papers published in the period 1849 to 1863.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396515.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "notes": [
+    "soft triggers (year range, span/window) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 12.43,
+    "text": "Taurus 12°26′",
+    "longitude": 42.427
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 23.73,
+    "text": "Virgo 23°44′",
+    "longitude": 173.726
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 11.44,
+    "text": "Taurus 11°27′",
+    "longitude": 41.444
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 27.37,
+    "text": "Taurus 27°22′",
+    "longitude": 57.372
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 18.47,
+    "text": "Pisces 18°28′",
+    "longitude": 348.471
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.44,
+    "text": "Leo 13°27′",
+    "longitude": 133.442
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 3.3,
+    "text": "Aries 3°18′",
+    "longitude": 3.297
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Memoirs Written at the Bar",
+   "stop": "Somerset House: elected Fellow of the Royal Society",
+   "date": "1852-06-03",
+   "date_confidence": "attested, 3 June 1852, in the Royal Society's Making Science catalogue record. The research pool's verifier did not pull the primary election record itself. The coordinate corrects the pool's 51.5109, -0.1246, which fell about 470 m west near Charing Cross; the Society occupied the east wing of Somerset House from 1780.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397642.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 12.52,
+    "text": "Gemini 12°31′",
+    "longitude": 72.52
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 22.34,
+    "text": "Sagittarius 22°21′",
+    "longitude": 262.343
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 19.13,
+    "text": "Taurus 19°08′",
+    "longitude": 49.13
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 25.69,
+    "text": "Cancer 25°42′",
+    "longitude": 115.695
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 25.28,
+    "text": "Leo 25°17′",
+    "longitude": 145.28
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 15.33,
+    "text": "Scorpio 15°20′",
+    "longitude": 225.332
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 12.01,
+    "text": "Taurus 12°01′",
+    "longitude": 42.012
+   }
+  },
+  {
+   "segment": "The Memoirs Written at the Bar",
+   "stop": "2 Stone Buildings: theta to the n equals one",
+   "date": "1854-01-01",
+   "date_confidence": "the year is attested in MacTutor; no month is given, so the date defaults to January. The pin is his chambers, where he was working, not a publication venue.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1854,
+   "jd_ut": 2398219.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.33,
+    "text": "Capricornus 10°20′",
+    "longitude": 280.326
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Memoirs Written at the Bar",
+   "stop": "Marischal College, Aberdeen: the chair not got",
+   "date": "1856-01-01",
+   "date_confidence": "reconstruction as a physical stop. MacTutor records the unsuccessful candidacy for the chair of natural philosophy in 1856, but no source consulted says whether Cayley travelled to Aberdeen or applied by correspondence. The month is not given.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2398949.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.831
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Memoirs Written at the Bar",
+   "stop": "2 Stone Buildings: A Memoir on the Theory of Matrices",
+   "date": "1858-01-01",
+   "date_confidence": "the year is attested in MacTutor and Britannica; the Philosophical Transactions issue is 1858 and no day applies. The 1855 sketch of matrix multiplication, written in French for a German periodical, is folded into this stop rather than pinned separately, since both were written in the same chambers.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399680.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.36,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.355
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Memoirs Written at the Bar",
+   "stop": "2 Stone Buildings: the Sixth Memoir upon Quantics",
+   "date": "1859-01-01",
+   "date_confidence": "the year is attested; no month applies to the memoir. Klein's reinterpretation dates from 1871, within Cayley's lifetime, and is stated here as the later reading it was, not as anything Cayley intended.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400045.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.108
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sadleirian Chair",
+   "stop": "Cambridge: elected the first Sadleirian Professor",
+   "date": "1863-01-01",
+   "date_confidence": "the year is attested in Britannica and MacTutor; the month of election is not given in the sources consulted, so the date defaults to January. The aphorism quoted below is quoted only as the thing Cayley denied; it is not his.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401506.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.137
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sadleirian Chair",
+   "stop": "Lewisham: the marriage to Susan Moline",
+   "date": "1863-09-08",
+   "date_confidence": "attested, 8 September 1863, in MacTutor and the Mill Road Cemetery project. The parish church is not named in anything consulted. The coordinate corrects the pool's 51.4452, -0.0208, which fell about 2.1 km south-west in the Rushey Green area.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401756.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 14.82,
+    "text": "Virgo 14°49′",
+    "longitude": 164.822
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 17.12,
+    "text": "Cancer 17°07′",
+    "longitude": 107.116
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.1,
+    "text": "Libra 10°06′",
+    "longitude": 190.105
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 13.07,
+    "text": "Libra 13°04′",
+    "longitude": 193.07
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 23.02,
+    "text": "Virgo 23°01′",
+    "longitude": 173.022
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 26.58,
+    "text": "Libra 26°35′",
+    "longitude": 206.58
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 5.72,
+    "text": "Libra 5°43′",
+    "longitude": 185.716
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Sadleirian Chair",
+   "stop": "Cambridge: the inaugural lecture",
+   "date": "1863-11-08",
+   "date_confidence": "contradiction printed, not resolved. MacTutor gives 8 November 1863, and this file follows it because MacTutor was the source actually fetched. Tony Crilly's specialist study of the unpublished lecture text gives 3 November 1863; that article (Springer, doi 10.1007/s00283-023-10278-2) is behind a login wall and could not be read. The lecture room within Cambridge is not specified anywhere consulted, so the coordinate is a town-centre placeholder.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401817.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (placeholder, not given, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 15.11,
+    "text": "Scorpio 15°07′",
+    "longitude": 225.115
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 3.99,
+    "text": "Libra 3°59′",
+    "longitude": 183.987
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 1.26,
+    "text": "Scorpio 1°16′",
+    "longitude": 211.261
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 3.41,
+    "text": "Libra 3°25′",
+    "longitude": 183.415
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 3.21,
+    "text": "Scorpio 3°12′",
+    "longitude": 213.206
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 9.37,
+    "text": "Scorpio 9°22′",
+    "longitude": 219.368
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 13.03,
+    "text": "Libra 13°02′",
+    "longitude": 193.029
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    },
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Sadleirian Chair",
+   "stop": "Garden House, Little St Mary's Lane: the house at the bottom of the lane",
+   "date": "1864-01-01",
+   "date_confidence": "the 1864 purchase is reported by the Mill Road Cemetery project, which the research pool did not independently re-fetch in its verification pass. No month is given.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2401871.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.889
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sadleirian Chair",
+   "stop": "University College London: president of the London Mathematical Society",
+   "date": "1868-01-01",
+   "date_confidence": "the presidency 1868-1870 is reported in the research pool and is consistent with the standard LMS presidents list; the pool did not re-fetch it in verification. The Society was founded in 1865 and met initially at University College London, but the venue during his own presidency is not itemized anywhere consulted, so the coordinate is the Society's historic meeting home rather than a documented room.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403332.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.92,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.919
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Burlington House, Girton, Newnham",
+   "stop": "Burlington House: president of the Royal Astronomical Society",
+   "date": "1872-01-01",
+   "date_confidence": "the presidency 1872-1874 is on the RAS past-presidents list, which the research pool cited but did not re-fetch in verification. The honorary Trinity fellowship of 1872 is attested in Britannica; the ordinary fellowship of 1875 is carried from Britannica as a reconstruction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404793.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.95,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.948
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Burlington House, Girton, Newnham",
+   "stop": "Girton College: teaching in the earliest days",
+   "date": "1873-10-01",
+   "date_confidence": "Wikipedia attests that in the early days of Girton College Cayley gave direct help in teaching, but does not date it. October 1873 is the college's move from Benslow House, Hitchin, to the Girton site; any teaching in the very earliest days may therefore have happened at Hitchin, in Hertfordshire, and not here. The coordinate corrects the pool's 52.2222, 0.0847, about 715 m south. Charlotte Angas Scott was at Girton, not at Newnham, as the first research pass had it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405432.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.88,
+    "text": "Libra 7°53′",
+    "longitude": 187.882
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Burlington House, Girton, Newnham",
+   "stop": "Trinity College: the portrait fund",
+   "date": "1874-01-01",
+   "date_confidence": "the 1874 Dickinson portrait and the 1884 Longmaid portrait, both in Trinity's collection, are attested in Wikipedia. The first research pass credited MacTutor, which mentions neither, and called Maxwell's contribution a poem; Wikipedia calls it an address praising Cayley's principal works. The verse itself is real and is reprinted by Macfarlane and by Forsyth, and is quoted here as verse without asserting the occasion's genre.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405524.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.473
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Burlington House, Girton, Newnham",
+   "stop": "Newnham College: chairman of the council",
+   "date": "1875-01-01",
+   "date_confidence": "Wikipedia attests that for some years Cayley was chairman of the council of Newnham College, and gives no dates at either end; 1875 is an ordering placeholder only. The coordinate corrects the pool's 52.1958, 0.1080, about 410 m off. Charlotte Angas Scott does not belong to this stop and has been moved to Girton.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2405889.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.225
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Burlington House, Girton, Newnham",
+   "stop": "Cambridge University Press: An Elementary Treatise on Elliptic Functions",
+   "date": "1876-01-01",
+   "date_confidence": "the year is attested in MacTutor and Britannica; no month applies. The lineage from Gauss stated in the campa is disciplinary, not personal: no source claims any contact or correspondence between Cayley and Gauss, and none was found.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.978
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Burlington House, Girton, Newnham",
+   "stop": "Garden House: On the Colourings of Maps",
+   "date": "1879-01-01",
+   "date_confidence": "the 1879 paper and its venue are attested in Wikipedia's article on the four colour theorem, which also records that Cayley credited the conjecture to De Morgan. MacTutor does not mention the four-colour problem at all, so the first research pass's attribution to it was wrong and has been replaced. No month applies. The pin is his house, where he was working, not the publication venue.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407350.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.25,
+    "text": "Capricornus 10°15′",
+    "longitude": 280.255
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Baltimore and Southport",
+   "stop": "Johns Hopkins University, Baltimore: the American lectures",
+   "date": "1882-01-01",
+   "date_confidence": "January to May 1882 and the subject, Abelian and theta functions, are attested in MacTutor; Britannica attests the invitation. The first research pass credited the Wilberforce Chambers article, which says nothing about Johns Hopkins. The coordinate is approximate: Wikipedia gives no address or coordinates for the original downtown Baltimore campus, which the university left for Homewood in 1902. The lecture hall is not named anywhere consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408446.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.532
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Baltimore and Southport",
+   "stop": "Burlington House: the Copley Medal",
+   "date": "1882-01-01",
+   "date_confidence": "Britannica and the Royal Society catalogue give 1882; some secondary sources print 1881, and that disagreement is left standing rather than argued. No month is given, so the date defaults to January, which places this stop alongside the Baltimore lectures of the same year rather than after them.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408446.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.532
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Baltimore and Southport",
+   "stop": "Southport: the presidential address",
+   "date": "1883-01-01",
+   "date_confidence": "the year and the Southport meeting are attested in Britannica and Wikipedia; the month of the address is not given in the sources consulted, so the date defaults to January and should not be read as the date of delivery. No hall within Southport is named anywhere consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2408811.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.284
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Baltimore and Southport",
+   "stop": "University College London: the first De Morgan Medal",
+   "date": "1884-01-01",
+   "date_confidence": "the year is attested in MacTutor, Britannica and the LMS timeline; no ceremony venue is specified anywhere consulted, so the coordinate is the Society's historic meeting home at University College London rather than a documented room.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409176.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.037
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Garden House",
+   "stop": "Cambridge University Press: the Collected Papers begun",
+   "date": "1889-01-01",
+   "date_confidence": "attested in Britannica and Wikipedia: publication began in 1889, ran to thirteen quarto volumes and about 967 papers, and Forsyth completed the edition after Cayley's death. The archive.org copy of volume 1 carries the stated date 1889.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411003.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.84,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.838
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Garden House",
+   "stop": "Garden House: a theorem on trees",
+   "date": "1889-01-01",
+   "date_confidence": "the paper is attested; its bibliographic details (Quarterly Journal of Pure and Applied Mathematics 23, 376-378) come from the research pool and were not independently re-fetched. Borchardt's earlier 1860 enumeration by a different method is carried from the same pool. No month applies. The pin is the house he was working in.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411003.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.84,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.838
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Garden House",
+   "stop": "Garden House: coordinates versus quaternions",
+   "date": "1894-01-01",
+   "date_confidence": "the 1894 exchange in the Proceedings of the Royal Society of Edinburgh is attested and the quotation was verified twice by raw fetch against Macfarlane's reprint. The 1890 contribution of Chapter VI to the new edition of Tait's Elementary Treatise on Quaternions is carried from the research pool and was not independently re-fetched; it is folded into this stop rather than pinned separately.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412829.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.62
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Garden House",
+   "stop": "Garden House: death",
+   "date": "1895-01-26",
+   "date_confidence": "attested, 26 January 1895, at about six in the evening, in MacTutor, Britannica and the Mill Road Cemetery project, the last of which supplies the 8 January attack and the 21 January collapse. No modern diagnosis exists; the century's phrase 'internal malady' is descriptive, not clinical. The obituary quoted below is tagged as reconstruction: the original newspaper issue could not be traced and the page carrying it was 403-blocked to raw fetch.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413219.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (decade/century) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 5.83,
+    "text": "Aquarius 5°50′",
+    "longitude": 305.833
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 6.98,
+    "text": "Aquarius 6°59′",
+    "longitude": 306.981
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 16.62,
+    "text": "Aquarius 16°37′",
+    "longitude": 316.618
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 19.29,
+    "text": "Aquarius 19°18′",
+    "longitude": 319.294
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 11.39,
+    "text": "Taurus 11°23′",
+    "longitude": 41.39
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 27.24,
+    "text": "Gemini 27°14′",
+    "longitude": 87.239
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.01,
+    "text": "Scorpio 7°00′",
+    "longitude": 217.008
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Garden House",
+   "stop": "Trinity College Chapel: the funeral",
+   "date": "1895-02-02",
+   "date_confidence": "contradiction printed, not resolved. The research pool's geography lens dates the chapel service 'c.30 January-1 February 1895'; its afterlife lens dates it 2 February 1895, which is also the burial date. This file takes 2 February and leaves the earlier window standing. The coordinate is Trinity Chapel inside Great Court and corrects both lenses, which gave 52.2093, 0.1163 and 52.2043, 0.1149, some 350 m apart from each other. The memorial brass is attested but undated.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413226.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) span/window"
+   ],
+   "notes": [
+    "hard triggers (c., undated, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (span/window) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.94,
+    "text": "Aquarius 12°56′",
+    "longitude": 312.941
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 1.0,
+    "text": "Taurus 1°00′",
+    "longitude": 31.005
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 28.42,
+    "text": "Aquarius 28°25′",
+    "longitude": 328.424
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 28.06,
+    "text": "Aquarius 28°03′",
+    "longitude": 328.057
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 14.91,
+    "text": "Taurus 14°55′",
+    "longitude": 44.915
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 26.75,
+    "text": "Gemini 26°45′",
+    "longitude": 86.746
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.21,
+    "text": "Scorpio 7°12′",
+    "longitude": 217.207
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Garden House",
+   "stop": "Mill Road Cemetery: the burial",
+   "date": "1895-02-02",
+   "date_confidence": "attested, 2 February 1895, in MacTutor, Britannica and the Mill Road Cemetery project, which also records the plot as east of the east path in the south of the parish of St Mary the Great and preserves the inscription. The coordinate corrects two disagreeing pool figures, 52.2007, 0.1421 and 52.1963, 0.1467, both too far east; Wikipedia gives 52.200520, 0.136552.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413226.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.94,
+    "text": "Aquarius 12°56′",
+    "longitude": 312.941
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Name Afterward",
+   "stop": "Cambridge University Press: Forsyth completes the thirteen volumes",
+   "date": "1897-01-01",
+   "date_confidence": "the completion of the edition in 1897 by Andrew Russell Forsyth, Cayley's successor in the Sadleirian chair, is attested in Wikipedia and Britannica. No month applies. The contents of Forsyth's biographical notice were read directly in the archive.org text of volume VIII.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Name Afterward",
+   "stop": "Cayley crater, the Moon: the name goes off the earth",
+   "date": "1935-01-01",
+   "date_confidence": "attested in Wikipedia's article on the crater: formally named by the International Astronomical Union in 1935, with the name already circulating in nineteenth-century lunar nomenclature via William Radcliffe Birt and John Lee. No month applies. The coordinates are selenographic, not terrestrial: 4 deg 00' N, 15 deg 06' E on the Moon.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Name Afterward",
+   "stop": "Descartes Highlands: the Cayley Formation sampled",
+   "date": "1971-06-03",
+   "date_confidence": "attested in Wikipedia's article on Apollo 16: the site was selected on 3 June 1971 to test a volcanic-origin hypothesis for the Descartes and Cayley formations, and the returned samples disproved it, with House Rock delivering the final blow. Coordinates are selenographic, from the recorded landing site 8.97301 S, 15.50019 E. The first research pass called this 'four centuries removed' from Cayley; it is less than one.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2441105.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (decade/century) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.79,
+    "text": "Gemini 11°47′",
+    "longitude": 71.791
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 3.24,
+    "text": "Libra 3°14′",
+    "longitude": 183.238
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 22.4,
+    "text": "Taurus 22°24′",
+    "longitude": 52.399
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 18.73,
+    "text": "Taurus 18°44′",
+    "longitude": 48.735
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 13.8,
+    "text": "Aquarius 13°48′",
+    "longitude": 313.796
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 0.2,
+    "text": "Sagittarius 0°12′",
+    "longitude": 240.196
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 28.02,
+    "text": "Taurus 28°01′",
+    "longitude": 58.015
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Name Afterward",
+   "stop": "Mill Road Cemetery: the missing headstone",
+   "date": "1985-01-01",
+   "date_confidence": "the Mill Road Cemetery project reports that the headstone disappeared sometime in the 1980s and that a broken stump remains, and records a photograph surfacing in 2021 showing the stone still lying fallen at the site. Wikipedia independently notes that the headstone is no longer standing. The decade is all the record supports, so 1985 is a midpoint placeholder and not a date of loss.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1985,
+   "jd_ut": 2446066.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.528
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 9,
+  "month": 3,
+  "year": 33
+ },
+ "parse_failures": []
+}

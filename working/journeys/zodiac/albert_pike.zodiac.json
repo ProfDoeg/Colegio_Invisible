@@ -1,0 +1,2126 @@
+{
+ "slug": "albert_pike",
+ "traveler": "Albert Pike",
+ "title": "Six Hundred and Fifty Miles on Foot: the Poet, the Brigadier, and the Sovereign Grand Commander",
+ "years": "1809-1891",
+ "years_parsed": {
+  "first": 1809,
+  "last": 1891
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Cobbler's Son and the Roads Out of Massachusetts",
+  "stop": "Boston, the cobbler's second son",
+  "date": "1809-12-29",
+  "date_confidence": "attested; the Encyclopedia of Arkansas gives 29 December 1809 at Boston",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1809,
+  "jd_ut": 2382145.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 6.94,
+   "text": "Capricornus 6°57′",
+   "longitude": 276.943
+  },
+  "moon": {
+   "sign": "Virgo",
+   "degree": 25.63,
+   "text": "Virgo 25°38′",
+   "longitude": 175.629
+  },
+  "mercury": {
+   "sign": "Capricornus",
+   "degree": 5.97,
+   "text": "Capricornus 5°58′",
+   "longitude": 275.974
+  },
+  "venus": {
+   "sign": "Sagittarius",
+   "degree": 18.5,
+   "text": "Sagittarius 18°30′",
+   "longitude": 258.501
+  },
+  "mars": {
+   "sign": "Aquarius",
+   "degree": 19.26,
+   "text": "Aquarius 19°15′",
+   "longitude": 319.257
+  },
+  "jupiter": {
+   "sign": "Aries",
+   "degree": 15.71,
+   "text": "Aries 15°42′",
+   "longitude": 15.707
+  },
+  "saturn": {
+   "sign": "Sagittarius",
+   "degree": 9.6,
+   "text": "Sagittarius 9°36′",
+   "longitude": 249.599
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1809-1891",
+  "first_year_parsed": 1809
+ },
+ "stops": [
+  {
+   "segment": "The Cobbler's Son and the Roads Out of Massachusetts",
+   "stop": "Boston, the cobbler's second son",
+   "date": "1809-12-29",
+   "date_confidence": "attested; the Encyclopedia of Arkansas gives 29 December 1809 at Boston",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1809,
+   "jd_ut": 2382145.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.94,
+    "text": "Capricornus 6°57′",
+    "longitude": 276.943
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 25.63,
+    "text": "Virgo 25°38′",
+    "longitude": 175.629
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 5.97,
+    "text": "Capricornus 5°58′",
+    "longitude": 275.974
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 18.5,
+    "text": "Sagittarius 18°30′",
+    "longitude": 258.501
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 19.26,
+    "text": "Aquarius 19°15′",
+    "longitude": 319.257
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 15.71,
+    "text": "Aries 15°42′",
+    "longitude": 15.707
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 9.6,
+    "text": "Sagittarius 9°36′",
+    "longitude": 249.599
+   }
+  },
+  {
+   "segment": "The Cobbler's Son and the Roads Out of Massachusetts",
+   "stop": "Newburyport, the schools of the north shore",
+   "date": "1820-01-01",
+   "date_confidence": "decade attested, year arbitrary for ordering; the sources name the towns and no dates. Byfield, a village of Newbury about eight kilometres southwest at roughly 42.7534, -70.9314, is grouped with Newburyport in the Encyclopedia of Arkansas and is not given its own pin here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1820,
+   "jd_ut": 2385800.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "not given",
+    "decade/century",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.57,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.566
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cobbler's Son and the Roads Out of Massachusetts",
+   "stop": "Cambridge, the examination he passes and cannot pay for",
+   "date": "1825-01-01",
+   "date_confidence": "traditional; age sixteen is attested, the calendar year is inferred from a birth date of December 1809",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387627.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.367
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifteen Hundred Miles, Six Hundred and Fifty on Foot",
+   "stop": "Independence, setting out with the traders",
+   "date": "1831-03-01",
+   "date_confidence": "month and year attested by the TSHA Handbook of Texas; day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389877.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.71,
+    "text": "Pisces 9°43′",
+    "longitude": 339.709
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifteen Hundred Miles, Six Hundred and Fifty on Foot",
+   "stop": "Taos, walking in after the horse breaks away",
+   "date": "1831-08-01",
+   "date_confidence": "year attested; month inferred from a March departure and a journey the TSHA describes as running about five hundred miles on foot",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390030.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.95,
+    "text": "Leo 7°57′",
+    "longitude": 127.952
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifteen Hundred Miles, Six Hundred and Fifty on Foot",
+   "stop": "Santa Fe, a city of mud",
+   "date": "1831-11-01",
+   "date_confidence": "year attested, month inferred; the dismissive judgment on the town comes from his own later prose",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390122.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.85,
+    "text": "Scorpio 7°51′",
+    "longitude": 217.85
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifteen Hundred Miles, Six Hundred and Fifty on Foot",
+   "stop": "The Caprock, trapping the Llano Estacado",
+   "date": "1832-03-01",
+   "date_confidence": "the expedition is attested by the TSHA; the coordinate is a representative point on the Caprock Escarpment and no documented camp or crossing site is known. Month set for ordering",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390243.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.47,
+    "text": "Pisces 10°28′",
+    "longitude": 340.469
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifteen Hundred Miles, Six Hundred and Fifty on Foot",
+   "stop": "Belle Point, walking into Fort Smith",
+   "date": "1832-12-01",
+   "date_confidence": "year attested by the TSHA; month set for ordering. Coordinate corrected to Belle Point at the Poteau and Arkansas confluence",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390518.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.87,
+    "text": "Sagittarius 8°52′",
+    "longitude": 248.873
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Advocate, the Bar, and the Duel",
+   "stop": "Little Rock, the Casca letters",
+   "date": "1833-01-01",
+   "date_confidence": "year attested; day and month defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1833,
+   "jd_ut": 2390549.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.43,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.426
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Advocate, the Bar, and the Duel",
+   "stop": "Little Rock, the Old State House and the first reports",
+   "date": "1836-01-01",
+   "date_confidence": "the reportership from 1836 is attested by the Encyclopedia of Arkansas; the year of his admission to the bar is disputed between 1836 and 1837 and is not resolved here. Coordinate corrected to the Old State House at 300 West Markham, where the court sat",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391644.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "between",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.683
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Advocate, the Bar, and the Duel",
+   "stop": "Buena Vista, the Little Rock Guards on the plateau",
+   "date": "1847-02-23",
+   "date_confidence": "attested; the battle is 22 to 23 February 1847. Pike was commissioned captain in June 1846 in an Arkansas MOUNTED INFANTRY regiment and discharged June 1847; the TSHA's looser wording, volunteer cavalry, is not adopted here. Coordinate corrected to La Angostura per the Battle of Buena Vista article",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1847,
+   "jd_ut": 2395715.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 3.8,
+    "text": "Pisces 3°48′",
+    "longitude": 333.803
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 13.85,
+    "text": "Gemini 13°51′",
+    "longitude": 73.847
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 9.27,
+    "text": "Pisces 9°16′",
+    "longitude": 339.266
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 20.26,
+    "text": "Pisces 20°16′",
+    "longitude": 350.264
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 8.82,
+    "text": "Capricornus 8°49′",
+    "longitude": 278.817
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 7.43,
+    "text": "Gemini 7°26′",
+    "longitude": 67.428
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 3.27,
+    "text": "Pisces 3°16′",
+    "longitude": 333.273
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Advocate, the Bar, and the Duel",
+   "stop": "The sandbar below Fort Smith, the duel with Roane",
+   "date": "1847-07-29",
+   "date_confidence": "attested; the Encyclopedia of Arkansas gives 29 July 1847",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1847,
+   "jd_ut": 2395871.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 5.21,
+    "text": "Leo 5°13′",
+    "longitude": 125.21
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 19.89,
+    "text": "Aquarius 19°54′",
+    "longitude": 319.892
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 21.42,
+    "text": "Leo 21°25′",
+    "longitude": 141.416
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 20.82,
+    "text": "Virgo 20°49′",
+    "longitude": 170.825
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 26.21,
+    "text": "Aries 26°13′",
+    "longitude": 26.209
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 7.28,
+    "text": "Cancer 7°17′",
+    "longitude": 97.281
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 11.81,
+    "text": "Pisces 11°48′",
+    "longitude": 341.808
+   }
+  },
+  {
+   "segment": "The Advocate, the Bar, and the Duel",
+   "stop": "Washington, admitted before the Supreme Court",
+   "date": "1849-01-01",
+   "date_confidence": "year attested by the Encyclopedia of Arkansas; day and month defaulted. The coordinate is the Old Supreme Court Chamber in the Capitol, the Court's documented seat in 1849, not a Pike-specific address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396393.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.544
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Degrees: Charleston, New Orleans, and the Supreme Council",
+   "stop": "Little Rock, raised a Master Mason",
+   "date": "1850-01-01",
+   "date_confidence": "the 1850 raising is treated as established by the Encyclopedia of Arkansas; the lodge, traditionally given as Western Star Lodge No. 2, is a traditional attribution the dossier itself declines to call documented. Day and month defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1850,
+   "jd_ut": 2396758.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.3,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.296
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Degrees: Charleston, New Orleans, and the Supreme Council",
+   "stop": "Charleston, Mackey communicates the degrees",
+   "date": "1853-03-20",
+   "date_confidence": "date and city well attested; the exact building is not identified and the coordinate is the canonical Charleston pin used elsewhere for the Supreme Council's seat",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2397932.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 29.33,
+    "text": "Pisces 29°20′",
+    "longitude": 359.331
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 22.14,
+    "text": "Cancer 22°08′",
+    "longitude": 112.136
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 17.18,
+    "text": "Aries 17°11′",
+    "longitude": 17.182
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 15.12,
+    "text": "Pisces 15°07′",
+    "longitude": 345.124
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 17.97,
+    "text": "Pisces 17°58′",
+    "longitude": 347.967
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 23.73,
+    "text": "Sagittarius 23°44′",
+    "longitude": 263.729
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 14.86,
+    "text": "Taurus 14°52′",
+    "longitude": 44.864
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Degrees: Charleston, New Orleans, and the Supreme Council",
+   "stop": "New Orleans, a charter for a railroad never built",
+   "date": "1855-01-01",
+   "date_confidence": "the New Orleans residence runs 1853 to 1857 per the Encyclopedia of Arkansas; 1855 is set midway for ordering",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398584.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.078
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Degrees: Charleston, New Orleans, and the Supreme Council",
+   "stop": "Philadelphia, walking out of the Know-Nothing convention",
+   "date": "1856-02-01",
+   "date_confidence": "year attested by the Encyclopedia of Arkansas; month set for ordering. The convention city is given as Philadelphia in the dossier chronology",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2398980.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.38,
+    "text": "Aquarius 11°23′",
+    "longitude": 311.384
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Degrees: Charleston, New Orleans, and the Supreme Council",
+   "stop": "Charleston, elected Sovereign Grand Commander",
+   "date": "1859-01-02",
+   "date_confidence": "date attested. The research pool's geography lens placed this election at Little Rock, which contradicts its own chronology lens and is rejected here: the Supreme Council's see was Charleston and no session at Little Rock is documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400046.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.13,
+    "text": "Capricornus 11°08′",
+    "longitude": 281.127
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 16.92,
+    "text": "Sagittarius 16°55′",
+    "longitude": 256.919
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 5.15,
+    "text": "Capricornus 5°09′",
+    "longitude": 275.153
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 14.39,
+    "text": "Sagittarius 14°23′",
+    "longitude": 254.386
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 7.49,
+    "text": "Pisces 7°30′",
+    "longitude": 337.494
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 13.49,
+    "text": "Gemini 13°29′",
+    "longitude": 73.49
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 11.08,
+    "text": "Leo 11°05′",
+    "longitude": 131.083
+   }
+  },
+  {
+   "segment": "The Commissioner to the Nations",
+   "stop": "North Fork Town, the Creek treaty",
+   "date": "1861-07-10",
+   "date_confidence": "date attested by the University of Nebraska Confederate Indian Treaties portal, which confirms the treaty was consummated after Pike reached Fort Smith but gives no signing site; North Fork Town is the conventional location and is not independently confirmed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400966.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (convention) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.66,
+    "text": "Cancer 17°40′",
+    "longitude": 107.661
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 11.14,
+    "text": "Leo 11°08′",
+    "longitude": 131.141
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 6.11,
+    "text": "Leo 6°06′",
+    "longitude": 126.107
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 3.76,
+    "text": "Leo 3°45′",
+    "longitude": 123.757
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 3.25,
+    "text": "Leo 3°15′",
+    "longitude": 123.246
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 26.8,
+    "text": "Leo 26°48′",
+    "longitude": 146.798
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 6.28,
+    "text": "Virgo 6°17′",
+    "longitude": 156.279
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Commissioner to the Nations",
+   "stop": "The Leased District, the Comanche treaties",
+   "date": "1861-08-12",
+   "date_confidence": "the date of the two Comanche treaties is confirmed by the University of Nebraska portal, which names no place. The Antelope Hills attribution carried in the research pool is rejected: it is unsupported and its coordinate was seventy kilometres from the actual hills. The pin here is the Wichita Agency in the Leased District, the conventional placement, approximate and undocumented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400999.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 19.22,
+    "text": "Leo 19°13′",
+    "longitude": 139.215
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Commissioner to the Nations",
+   "stop": "Tahlequah, John Ross signs",
+   "date": "1861-10-07",
+   "date_confidence": "attested; 7 October 1861",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2401055.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.71,
+    "text": "Libra 13°42′",
+    "longitude": 193.706
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 22.02,
+    "text": "Scorpio 22°01′",
+    "longitude": 232.024
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 4.68,
+    "text": "Scorpio 4°41′",
+    "longitude": 214.675
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 21.74,
+    "text": "Scorpio 21°44′",
+    "longitude": 231.742
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 30.0,
+    "text": "Virgo 30°00′",
+    "longitude": 179.995
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 15.49,
+    "text": "Virgo 15°29′",
+    "longitude": 165.487
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 16.83,
+    "text": "Virgo 16°50′",
+    "longitude": 166.83
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    },
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Mars",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Commissioner to the Nations",
+   "stop": "Fort Davis, building on the Arkansas",
+   "date": "1861-11-22",
+   "date_confidence": "the commission is disputed: the Encyclopedia of Arkansas puts the brigadier generalcy in August 1861, the TSHA and Wikipedia on 22 November 1861. Neither is adopted over the other; the November date is used only to order the segment. The research pool placed Fort Davis in the Cherokee Nation, which is wrong: it stood on the south bank of the Arkansas about four kilometres northeast of present Muskogee, in Creek country, and the coordinate is corrected accordingly and remains approximate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2401101.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (approximately, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 29.72,
+    "text": "Scorpio 29°43′",
+    "longitude": 239.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Commissioner to the Nations",
+   "stop": "Foster's Farm, the scalps at Pea Ridge",
+   "date": "1862-03-07",
+   "date_confidence": "attested; Pike reached the field late on 6 March and the fighting described is on the 7th. The research pool's brigade composition is corrected: the American Battlefield Trust names the 1st Cherokee Mounted Rifles under Drew, the 2nd under Stand Watie, and Captain Otis G. Welch's Texas cavalry squadron of about a hundred men. No Choctaw, Chickasaw, or Creek regiment was engaged",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401206.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 16.2,
+    "text": "Pisces 16°12′",
+    "longitude": 346.2
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 27.54,
+    "text": "Taurus 27°32′",
+    "longitude": 57.537
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 0.98,
+    "text": "Pisces 0°59′",
+    "longitude": 330.977
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 2.18,
+    "text": "Pisces 2°11′",
+    "longitude": 332.176
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 10.6,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.599
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 23.3,
+    "text": "Virgo 23°18′",
+    "longitude": 173.305
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 19.65,
+    "text": "Virgo 19°39′",
+    "longitude": 169.646
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Commissioner to the Nations",
+   "stop": "Warren, Texas, the arrest",
+   "date": "1862-11-03",
+   "date_confidence": "date attested by the TSHA; the coordinate is Warren in Tyler County, Texas, and the identification of that Warren with the arrest site is not independently confirmed. Pike's resignation, tendered 12 July 1862 over General Hindman's orders sending Indian Territory troops outside the Territory, is accepted the same November",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401447.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 10.34,
+    "text": "Scorpio 10°20′",
+    "longitude": 220.339
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 29.74,
+    "text": "Pisces 29°44′",
+    "longitude": 359.739
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.4,
+    "text": "Libra 27°24′",
+    "longitude": 207.401
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 1.0,
+    "text": "Scorpio 1°00′",
+    "longitude": 211.003
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 6.89,
+    "text": "Aries 6°53′",
+    "longitude": 6.889
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 14.77,
+    "text": "Libra 14°46′",
+    "longitude": 194.768
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 1.29,
+    "text": "Libra 1°17′",
+    "longitude": 181.285
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Mercury",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Commissioner to the Nations",
+   "stop": "Greasy Cove, the retreat into the mountains",
+   "date": "1862-12-01",
+   "date_confidence": "the withdrawal to southern Arkansas is attested by the Encyclopedia of Arkansas and placed at Greasy Cove, Montgomery County; the coordinate is approximate for that vicinity. The afterlife lens of the research pool put Greasy Cove forty-five kilometres away in Pike or Howard County, and that placement is rejected in favor of Montgomery County. Month set for ordering",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401475.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.59,
+    "text": "Sagittarius 8°35′",
+    "longitude": 248.589
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pardon and the Memphis Editorial",
+   "stop": "Washington, the pardon from Andrew Johnson",
+   "date": "1865-08-30",
+   "date_confidence": "the sources conflict and are not reconciled here. The Encyclopedia of Arkansas and the TSHA both give presidential amnesty on 30 August 1865; Wikipedia, following Walter Lee Brown's biography, has Pike applying to Johnson on 24 June 1865 and pardoned on 23 April 1866. The 1865 date is used only for ordering",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402478.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 6.6,
+    "text": "Virgo 6°36′",
+    "longitude": 156.596
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 12.38,
+    "text": "Sagittarius 12°23′",
+    "longitude": 252.381
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 21.77,
+    "text": "Virgo 21°46′",
+    "longitude": 171.773
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 25.4,
+    "text": "Cancer 25°24′",
+    "longitude": 115.4
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 29.72,
+    "text": "Virgo 29°43′",
+    "longitude": 179.722
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 19.52,
+    "text": "Sagittarius 19°31′",
+    "longitude": 259.516
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 26.76,
+    "text": "Libra 26°46′",
+    "longitude": 206.761
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Pardon and the Memphis Editorial",
+   "stop": "Memphis, the Daily Appeal and the Southern Brotherhood",
+   "date": "1868-04-16",
+   "date_confidence": "the editorial of 16 April 1868 is attested. The claim that Pike held Klan office is tagged as tradition, not fact: it traces to Walter L. Fleming's 1905 republication of John C. Lester's 1884 reminiscences, to Susan Lawrence Davis (1924) and Stanley Horn (1939), and no contemporaneous membership record, appointment, or the Klan's own 1868 Prescript names him",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403438.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) editorial"
+   ],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (editorial) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 26.28,
+    "text": "Aries 26°17′",
+    "longitude": 26.28
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 7.75,
+    "text": "Aquarius 7°45′",
+    "longitude": 307.755
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 1.09,
+    "text": "Aries 1°05′",
+    "longitude": 1.088
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 10.41,
+    "text": "Gemini 10°24′",
+    "longitude": 70.408
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 3.06,
+    "text": "Aries 3°03′",
+    "longitude": 3.056
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 29.19,
+    "text": "Pisces 29°11′",
+    "longitude": 359.191
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 4.7,
+    "text": "Sagittarius 4°42′",
+    "longitude": 244.702
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Washington, the Supreme Council on Third Street",
+   "date": "1870-01-01",
+   "date_confidence": "the permanent move to Washington in 1870 is attested; day and month defaulted. The coordinate is an approximate placement near the pre-1915 Supreme Council premises on Third Street NW cited in Scottish Rite institutional histories, not a verified street address. The present House of the Temple on 16th Street was not built until after Pike's death",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404063.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.443
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Washington, Morals and Dogma comes off the press",
+   "date": "1871-01-01",
+   "date_confidence": "year attested; day and month defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404428.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Washington, the preface that gives the book away",
+   "date": "1871-02-01",
+   "date_confidence": "same publication year as the volume; the month is set only to place this stop after the book's appearance in the segment",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404459.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.75,
+    "text": "Aquarius 11°45′",
+    "longitude": 311.749
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Washington, the Blue Degrees and the Sphinx",
+   "date": "1871-03-01",
+   "date_confidence": "the passage stands in Chapter XXX, Knight Kadosh, of the 1871 volume; the month here orders the stop within the segment and is not an event date. The research pool suggested this bracketed passage might be compiled rather than Pike's own; in this chapter Pike's typography is consistent, borrowed Levi material sits in quotation marks and his own interpolations in square brackets, and three other bracketed insertions in the same pages follow the rule. It is his voice",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404487.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.01,
+    "text": "Pisces 10°01′",
+    "longitude": 340.009
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Washington, the nineteenth degree and the word Lucifer",
+   "date": "1871-04-01",
+   "date_confidence": "the passage stands in the nineteenth degree lecture of the 1871 volume; the month orders the stop and is not an event date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404518.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.84,
+    "text": "Aries 10°51′",
+    "longitude": 10.844
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Washington, the contradiction he does not resolve",
+   "date": "1871-05-01",
+   "date_confidence": "both passages stand in the 1871 volume, the first in Chapter X, Illustrious Elect of the Fifteen, in the discussion of religious persecution; the month orders the stop and is not an event date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404548.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.18,
+    "text": "Taurus 10°11′",
+    "longitude": 40.175
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Washington, toleration written by a Confederate",
+   "date": "1871-06-01",
+   "date_confidence": "the passage stands in the 1871 volume; the month orders the stop and is not an event date. The reading of the closing clause as a reference to the Union's prosecution of the war is an inference from the wording and from Pike's own service, not an authorial statement",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404579.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.04,
+    "text": "Gemini 10°02′",
+    "longitude": 70.038
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Washington, Sanskrit at seventy",
+   "date": "1880-01-01",
+   "date_confidence": "the late-life Sanskrit study is attested by the Encyclopedia of Arkansas without a start date; 1880 is set for ordering. The posthumous publication details, a limited 1930 edition edited by Marshall W. Wood, come from the research dossier and were not confirmed against a library catalogue record",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407715.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.007
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Washington, the rituals given to Thornton Jackson",
+   "date": "1887-01-01",
+   "date_confidence": "reconstruction; the transmission is dated to Pike's late years by the research dossier citing Arturo de Hoyos, 'On the Origins of the Prince Hall Scottish Rite Rituals,' Heredom 5 (1996). The specific year is set for ordering and is not attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410272.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.314
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Washington, death at the Supreme Council",
+   "date": "1891-04-02",
+   "date_confidence": "attested; 2 April 1891, aged 81. The afterlife lens of the research pool pinned this death at 38.9072, -77.0369, which is the 16th Street corridor near a building that did not exist in 1891; the Third Street premises are used here instead",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411824.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.98,
+    "text": "Aries 11°59′",
+    "longitude": 11.983
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 8.56,
+    "text": "Capricornus 8°33′",
+    "longitude": 278.558
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 21.39,
+    "text": "Aries 21°23′",
+    "longitude": 21.386
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 0.16,
+    "text": "Pisces 0°10′",
+    "longitude": 330.165
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 17.4,
+    "text": "Taurus 17°24′",
+    "longitude": 47.405
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 5.72,
+    "text": "Pisces 5°43′",
+    "longitude": 335.722
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 11.82,
+    "text": "Virgo 11°49′",
+    "longitude": 161.824
+   }
+  },
+  {
+   "segment": "The Book: Washington, 1870 to 1891",
+   "stop": "Oak Hill Cemetery, buried against his instructions",
+   "date": "1891-04-06",
+   "date_confidence": "the burial at Oak Hill in 1891 is attested; the exact day of interment is not recorded in the reachable sources and the sixth is a placeholder for ordering. The cremation request and the acacia detail are dossier-sourced and were not independently confirmed; Oak Hill's own reference material does not mention Pike",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411828.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "not recorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.92,
+    "text": "Aries 15°55′",
+    "longitude": 15.921
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hoax, the Forgery, and the Bronze",
+   "stop": "Charleston, the letter with no catalogue number",
+   "date": "1871-08-15",
+   "date_confidence": "reconstruction of a fabrication. The Pike to Mazzini letter of 15 August 1871 has no catalogue number, no manuscript image, and no chain of custody at the British Museum or Library where it was long said to sit; its three-war script postdates the events it claims to foretell and it appears in no authenticated Pike or Mazzini collection. It is pinned at Charleston because that is where the legend locates Pike, not because anything happened there",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404654.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (legend, reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.7,
+    "text": "Leo 21°42′",
+    "longitude": 141.697
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 6.69,
+    "text": "Leo 6°41′",
+    "longitude": 126.689
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 18.09,
+    "text": "Virgo 18°05′",
+    "longitude": 168.085
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 3.38,
+    "text": "Libra 3°23′",
+    "longitude": 183.384
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 1.45,
+    "text": "Scorpio 1°27′",
+    "longitude": 211.45
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 18.35,
+    "text": "Cancer 18°21′",
+    "longitude": 108.354
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 3.45,
+    "text": "Capricornus 3°27′",
+    "longitude": 273.447
+   }
+  },
+  {
+   "segment": "The Hoax, the Forgery, and the Bronze",
+   "stop": "Paris, Leo Taxil confesses",
+   "date": "1897-04-19",
+   "date_confidence": "attested; the confession of 19 April 1897 is confirmed. The dossier names the venue as the Societe de Geographie; that hall is not confirmed by an independent source and the coordinate is the canonical Paris pin",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2414033.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.19,
+    "text": "Aries 29°11′",
+    "longitude": 29.19
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 23.96,
+    "text": "Scorpio 23°57′",
+    "longitude": 233.955
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 16.16,
+    "text": "Taurus 16°09′",
+    "longitude": 46.157
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 14.24,
+    "text": "Taurus 14°15′",
+    "longitude": 44.245
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 13.88,
+    "text": "Cancer 13°53′",
+    "longitude": 103.883
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 0.27,
+    "text": "Virgo 0°16′",
+    "longitude": 150.266
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 29.54,
+    "text": "Scorpio 29°32′",
+    "longitude": 239.538
+   }
+  },
+  {
+   "segment": "The Hoax, the Forgery, and the Bronze",
+   "stop": "Judiciary Square, the monument in civilian bronze",
+   "date": "1901-10-23",
+   "date_confidence": "attested; authorized by Congress 9 April 1898 and dedicated 23 October 1901. Coordinate is 3rd and D Streets NW",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415680.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 28.89,
+    "text": "Libra 28°54′",
+    "longitude": 208.893
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 26.14,
+    "text": "Aquarius 26°09′",
+    "longitude": 326.145
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 20.26,
+    "text": "Scorpio 20°15′",
+    "longitude": 230.257
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 11.9,
+    "text": "Sagittarius 11°54′",
+    "longitude": 251.9
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 6.09,
+    "text": "Sagittarius 6°05′",
+    "longitude": 246.091
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 7.39,
+    "text": "Capricornus 7°23′",
+    "longitude": 277.389
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 10.89,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.894
+   }
+  },
+  {
+   "segment": "The Hoax, the Forgery, and the Bronze",
+   "stop": "House of the Temple, the crypt",
+   "date": "1944-12-29",
+   "date_confidence": "attested; the remains were moved from Oak Hill on 29 December 1944. Coordinate is the canonical House of the Temple pin used in prince_hall.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431453.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.17,
+    "text": "Capricornus 7°10′",
+    "longitude": 277.174
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 29.59,
+    "text": "Gemini 29°36′",
+    "longitude": 89.595
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 24.35,
+    "text": "Sagittarius 24°21′",
+    "longitude": 264.353
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 21.01,
+    "text": "Aquarius 21°01′",
+    "longitude": 321.012
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 24.22,
+    "text": "Sagittarius 24°13′",
+    "longitude": 264.222
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 27.17,
+    "text": "Virgo 27°10′",
+    "longitude": 177.165
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 7.21,
+    "text": "Cancer 7°12′",
+    "longitude": 97.206
+   }
+  },
+  {
+   "segment": "The Hoax, the Forgery, and the Bronze",
+   "stop": "Washington, the annotated edition",
+   "date": "2011-08-01",
+   "date_confidence": "attested to August 2011; day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2011,
+   "jd_ut": 2455774.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.43,
+    "text": "Leo 8°26′",
+    "longitude": 128.434
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hoax, the Forgery, and the Bronze",
+   "stop": "Judiciary Square, pulled down and burned",
+   "date": "2020-06-19",
+   "date_confidence": "attested; toppled and burned on the evening of 19 June 2020, wreckage removed by the National Park Service the following day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2020,
+   "jd_ut": 2459019.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 28.19,
+    "text": "Gemini 28°12′",
+    "longitude": 88.194
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 1.55,
+    "text": "Gemini 1°33′",
+    "longitude": 61.551
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 14.75,
+    "text": "Cancer 14°45′",
+    "longitude": 104.751
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 6.12,
+    "text": "Gemini 6°07′",
+    "longitude": 66.124
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 24.36,
+    "text": "Pisces 24°22′",
+    "longitude": 354.359
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 25.32,
+    "text": "Capricornus 25°19′",
+    "longitude": 295.323
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.84,
+    "text": "Aquarius 0°51′",
+    "longitude": 300.843
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Hoax, the Forgery, and the Bronze",
+   "stop": "Judiciary Square, set back up",
+   "date": "2025-10-27",
+   "date_confidence": "the sources conflict on the day and neither could be checked against the National Park Service release, whose cited URL returns HTTP 404. Wikipedia gives 27 October 2025; the research pool's chronology gave 25 October. Read as late October 2025",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460975.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 3.83,
+    "text": "Scorpio 3°50′",
+    "longitude": 213.828
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 3.56,
+    "text": "Capricornus 3°33′",
+    "longitude": 273.556
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 27.37,
+    "text": "Scorpio 27°22′",
+    "longitude": 237.371
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 16.32,
+    "text": "Libra 16°19′",
+    "longitude": 196.325
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 23.92,
+    "text": "Scorpio 23°55′",
+    "longitude": 233.921
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.75,
+    "text": "Cancer 24°45′",
+    "longitude": 114.754
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 25.96,
+    "text": "Pisces 25°57′",
+    "longitude": 355.956
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 18,
+  "month": 7,
+  "year": 20
+ },
+ "parse_failures": []
+}

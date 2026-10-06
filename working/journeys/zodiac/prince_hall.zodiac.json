@@ -1,0 +1,2114 @@
+{
+ "slug": "prince_hall",
+ "traveler": "Prince Hall",
+ "title": "At the Sign of the Golden Fleece: Prince Hall, African Lodge, and the Warrant Carried Across the Atlantic",
+ "years": "c. 1735-1807",
+ "years_parsed": {
+  "first": 1735,
+  "last": 1807
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Birth Nobody Can Fix",
+  "stop": "Massachusetts, the country he names as his own",
+  "date": "1735-01-01",
+  "date_confidence": "Birth year unresolved, four candidates. Death notices giving his age as 72 point to 1735, and the Massachusetts Historical Society renders his dates 1735-1807. A letter of Rev. Jeremy Belknap, 1795, gives a range, 1737 or 1738; the Prince Hall Grand Lodge of Massachusetts adopted 1738 from it. A deposition of 31 August 1807 records his age as 'about 70 years', pointing to c. 1737. Grimshaw says 1748. The field carries 1735 and settles nothing. The coordinate is the centroid of Massachusetts, not of New England; Hall's own word is the wider one. This stop precedes the Bridgetown stop because 1735 is the earliest of the four candidate years, not because the atlas prefers it.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1735,
+  "jd_ut": 2354755.5,
+  "precision": "year",
+  "precision_triggers": [
+   "c.",
+   "disputed",
+   "(soft-year) year range"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 10.21,
+   "text": "Capricornus 10°13′",
+   "longitude": 280.214
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 1735-1807",
+  "first_year_parsed": 1735
+ },
+ "stops": [
+  {
+   "segment": "The Birth Nobody Can Fix",
+   "stop": "Massachusetts, the country he names as his own",
+   "date": "1735-01-01",
+   "date_confidence": "Birth year unresolved, four candidates. Death notices giving his age as 72 point to 1735, and the Massachusetts Historical Society renders his dates 1735-1807. A letter of Rev. Jeremy Belknap, 1795, gives a range, 1737 or 1738; the Prince Hall Grand Lodge of Massachusetts adopted 1738 from it. A deposition of 31 August 1807 records his age as 'about 70 years', pointing to c. 1737. Grimshaw says 1748. The field carries 1735 and settles nothing. The coordinate is the centroid of Massachusetts, not of New England; Hall's own word is the wider one. This stop precedes the Bridgetown stop because 1735 is the earliest of the four candidate years, not because the atlas prefers it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1735,
+   "jd_ut": 2354755.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.21,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.214
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Birth Nobody Can Fix",
+   "stop": "Bridgetown, the birth Grimshaw asserts",
+   "date": "1748-01-01",
+   "date_confidence": "Contested tradition, [R]. William H. Grimshaw, Official History of Freemasonry Among the Colored People (1903), gives Bridgetown and about 1748. No primary document supports either. Later Masonic scholars, including Peter P. Hinks, treat Grimshaw as embellishing and in places fabricating. Month and day are given nowhere and default to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1748,
+   "jd_ut": 2359503.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) no source"
+   ],
+   "notes": [
+    "hard triggers (traditional, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.055
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Birth Nobody Can Fix",
+   "stop": "Boston, the tanner's shop",
+   "date": "1749-01-01",
+   "date_confidence": "Reconstruction, [R]. Charles H. Wesley theorized enslavement from about age eleven to a Boston tanner named William Hall. The year here is arithmetic, Wesley's 'about eleven' laid against a late-1730s birth, not evidence. No Boston tax record, deed, or business directory reachable in this pass locates the tannery; the coordinate is central Boston, not the shop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1749,
+   "jd_ut": 2359869.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.83,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.827
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Birth Nobody Can Fix",
+   "stop": "Boston, the household the records will not confirm",
+   "date": "1756-01-01",
+   "date_confidence": "Disputed, [R]. PBS's Africans in America and other secondary accounts give Hall a wife named Delia and a son, Primus, born 1756. David L. Gray found no records supporting the account, and the paternity of Primus Hall, who is independently documented, remains contested. The year is the year the claim asserts.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1756,
+   "jd_ut": 2362425.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Birth Nobody Can Fix",
+   "stop": "Boston, joining a Congregational church",
+   "date": "1762-01-01",
+   "date_confidence": "Year attested in the biographical literature, [A]. Which congregation is not established; the coordinate is Boston's meetinghouse district, not an identified church. Gap stated rather than filled.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1762,
+   "jd_ut": 2364617.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.67,
+    "text": "Capricornus 10°40′",
+    "longitude": 280.668
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Free Man in a Slave Town",
+   "stop": "Boston, the death of Sarah Ritchie",
+   "date": "1769-01-01",
+   "date_confidence": "Year attested, [A]. Nothing else about Sarah Ritchie, also recorded as Ritchery, survives in reachable sources: no age, no burial place, no words. Month and day unknown, defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1769,
+   "jd_ut": 2367174.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.97,
+    "text": "Capricornus 10°58′",
+    "longitude": 280.974
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Free Man in a Slave Town",
+   "stop": "Boston, no longer reckoned a slave",
+   "date": "1770-04-09",
+   "date_confidence": "Certificate attested and dated, [A]; its corroboration is not. David L. Gray notes that no official Massachusetts record of a formal manumission has been located. The document's own text is the whole of the evidence, and it is quoted from Wesley's transcription rather than from the original.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1770,
+   "jd_ut": 2367637.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 19.16,
+    "text": "Aries 19°10′",
+    "longitude": 19.163
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 4.57,
+    "text": "Libra 4°34′",
+    "longitude": 184.571
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 26.41,
+    "text": "Pisces 26°24′",
+    "longitude": 356.405
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 22.57,
+    "text": "Aries 22°34′",
+    "longitude": 22.566
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 29.19,
+    "text": "Aquarius 29°11′",
+    "longitude": 329.186
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 24.38,
+    "text": "Sagittarius 24°23′",
+    "longitude": 264.378
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 25.6,
+    "text": "Cancer 25°36′",
+    "longitude": 115.603
+   }
+  },
+  {
+   "segment": "A Free Man in a Slave Town",
+   "stop": "Gloucester, the marriage to Flora Gibbs",
+   "date": "1770-01-01",
+   "date_confidence": "Year attested from Gloucester vital records, [A]; month and day are not recorded and default to 01. Because of that, whether the marriage precedes or follows the 9 April certificate is not established, and the stop order here is not an argument for either sequence.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1770,
+   "jd_ut": 2367539.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "sequencing",
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lodge That Would Not Have Him",
+   "stop": "St. John's Lodge, the petition refused",
+   "date": "1775-01-01",
+   "date_confidence": "Event attested, [A]; date approximate. Sources place the refusal shortly before the March 1775 initiation without giving a day, so the field defaults to 01 January of that year. The lodge's meeting place in 1775 is not fixed by the sources used here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1775,
+   "jd_ut": 2369365.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "not fixed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.51,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.508
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lodge That Would Not Have Him",
+   "stop": "Boston, initiated by Lodge No. 441",
+   "date": "1775-03-06",
+   "date_confidence": "Date attested, [A]. The attribution to Sergeant John Batt comes through Wesley, [R]. The building used by this itinerant military lodge is not recorded anywhere reachable; the coordinate is central Boston, and the gap is handled as the corpus already handles Franklin's unfixed 1731 lodge room.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1775,
+   "jd_ut": 2369429.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not recorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 15.3,
+    "text": "Pisces 15°18′",
+    "longitude": 345.296
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.39,
+    "text": "Taurus 8°23′",
+    "longitude": 38.388
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 3.37,
+    "text": "Aries 3°22′",
+    "longitude": 3.371
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 29.18,
+    "text": "Pisces 29°11′",
+    "longitude": 359.184
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.21,
+    "text": "Virgo 1°13′",
+    "longitude": 151.209
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 12.45,
+    "text": "Taurus 12°27′",
+    "longitude": 42.448
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 7.13,
+    "text": "Libra 7°08′",
+    "longitude": 187.127
+   }
+  },
+  {
+   "segment": "The Lodge That Would Not Have Him",
+   "stop": "Charlestown, six men of the same name",
+   "date": "1775-06-17",
+   "date_confidence": "Battle attested, [A]; Hall's presence is not, [R]. At least six men named Prince Hall served from Massachusetts per Massachusetts Soldiers and Sailors of the Revolutionary War (1896-1908), and no reachable source separates them. His biographers write that service is believed but not certain. Pinned as an unproven tradition.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1775,
+   "jd_ut": 2369532.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year range",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 25.52,
+    "text": "Gemini 25°31′",
+    "longitude": 85.521
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lodge That Would Not Have Him",
+   "stop": "Cambridge, the army on the other side of the river",
+   "date": "1775-07-01",
+   "date_confidence": "Attested, [A], and inherited byte-identical from george_washington.journey.json, which places Washington's siege headquarters at the Vassall house from July 1775 to April 1776. The juxtaposition with African Lodge is the atlas's own; no source connects the two men.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1775,
+   "jd_ut": 2369546.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) no source",
+    "text affirms the month, not the day"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.87,
+    "text": "Cancer 8°52′",
+    "longitude": 98.87
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lodge That Would Not Have Him",
+   "stop": "Boston, African Lodge No. 1",
+   "date": "1776-07-03",
+   "date_confidence": "Date attested, [A]. Note the naming order, which Wikipedia's 'Prince Hall' article reverses: the lodge is No. 1 first, on the 1775 permit, is chartered No. 459 in 1784, and reverts to No. 1 after declaring independence from the English register in 1827. Wikipedia's 'Prince Hall Freemasonry' article states the sequence correctly.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1776,
+   "jd_ut": 2369914.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 11.5,
+    "text": "Cancer 11°30′",
+    "longitude": 101.499
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lodge That Would Not Have Him",
+   "stop": "The Massachusetts General Court, the petition against slavery",
+   "date": "1777-01-01",
+   "date_confidence": "Petition attested to 1777, [A], Massachusetts Archives; month and day not established here and default to 01. Hall is one signatory among several and the drafting hand is not identified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1777,
+   "jd_ut": 2370096.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.03,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.033
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lodge That Would Not Have Him",
+   "stop": "Water Street, five drumheads for the artillery",
+   "date": "1777-04-01",
+   "date_confidence": "Month attested, [A], from Massachusetts state supply records; the day is not given and defaults to 01. The coordinate is Water Street, where the shop at the sign of the Golden Fleece stood, per the sources that place African Lodge's 1787 constitution there.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1777,
+   "jd_ut": 2370186.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.6,
+    "text": "Aries 11°36′",
+    "longitude": 11.603
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Warrant from London",
+   "stop": "The Goose and Gridiron, the Grand Lodge constituted",
+   "date": "1717-06-24",
+   "date_confidence": "Attested, [A], and inherited byte-identical from hiram_abiff.journey.json. The stop runs before Hall's lifetime by design: it is the institutional origin of the warrant he petitions for in 1784. Its bearing on Prince Hall Freemasonry specifically is inference, [R], drawn from the shared ritual and charter machinery.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1717,
+   "jd_ut": 2348355.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.21,
+    "text": "Cancer 2°13′",
+    "longitude": 92.211
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Warrant from London",
+   "stop": "Philadelphia, Franklin prints the Constitutions",
+   "date": "1734-01-01",
+   "date_confidence": "Attested, [A], and inherited byte-identical from benjamin_franklin.journey.json; that file also notes that no reachable source fixes the meeting place of Franklin's own 1731 initiation, a gap this journey reproduces for Hall's 1775 initiation. Month and day of the imprint default to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1734,
+   "jd_ut": 2354390.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.46,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.462
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Warrant from London",
+   "stop": "London, the Duke of Cumberland signs the warrant",
+   "date": "1784-09-29",
+   "date_confidence": "Date and issuing body attested, [A]. The warrant was issued in London by the Premier Grand Lodge of England under Grand Master H.R.H. the Duke of Cumberland; the research pool wrongly tagged this event to Boston, collapsing a three-year Atlantic transit into one pin. The coordinate is the Grand Lodge's Great Queen Street seat, not a documented signing room.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372924.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.45,
+    "text": "Libra 6°27′",
+    "longitude": 186.454
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 6.66,
+    "text": "Aries 6°40′",
+    "longitude": 6.659
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.02,
+    "text": "Libra 27°01′",
+    "longitude": 207.016
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 20.25,
+    "text": "Libra 20°15′",
+    "longitude": 200.246
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 6.39,
+    "text": "Libra 6°23′",
+    "longitude": 186.389
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 28.94,
+    "text": "Aquarius 28°56′",
+    "longitude": 328.94
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 17.2,
+    "text": "Capricornus 17°12′",
+    "longitude": 287.204
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Warrant from London",
+   "stop": "Boston, Captain Scott brings the warrant ashore",
+   "date": "1787-04-29",
+   "date_confidence": "Attested, [A], in the Masonic historical literature: the warrant was carried to Boston by Captain James Scott and delivered to Hall personally on 29 April 1787. The delivery point is given as Hall himself rather than an address; the coordinate is the Water Street shop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373866.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 8.55,
+    "text": "Taurus 8°33′",
+    "longitude": 38.55
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 0.99,
+    "text": "Libra 0°59′",
+    "longitude": 180.987
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 18.65,
+    "text": "Aries 18°39′",
+    "longitude": 18.652
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 26.44,
+    "text": "Pisces 26°26′",
+    "longitude": 356.437
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 25.21,
+    "text": "Pisces 25°13′",
+    "longitude": 355.21
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 27.73,
+    "text": "Taurus 27°44′",
+    "longitude": 57.733
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 27.38,
+    "text": "Aquarius 27°23′",
+    "longitude": 327.384
+   }
+  },
+  {
+   "segment": "The Warrant from London",
+   "stop": "The Golden Fleece, African Lodge No. 459 constituted",
+   "date": "1787-05-06",
+   "date_confidence": "Date and place attested, [A]: constituted 6 May 1787 at the Golden Fleece on Water Street. The research pool described the Golden Fleece as a waterfront tavern at 42.3608, -71.0535 and separately listed 'Hall's leather shop' at 42.3601, -71.0589; the two entries describe one premises. Corrected to a single Water Street coordinate, approximate to the street rather than the doorway.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373873.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (approximately) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 15.33,
+    "text": "Taurus 15°20′",
+    "longitude": 45.328
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 25.5,
+    "text": "Sagittarius 25°30′",
+    "longitude": 265.5
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 20.87,
+    "text": "Aries 20°52′",
+    "longitude": 20.872
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 4.46,
+    "text": "Aries 4°27′",
+    "longitude": 4.456
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 0.58,
+    "text": "Aries 0°35′",
+    "longitude": 0.582
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 29.34,
+    "text": "Taurus 29°21′",
+    "longitude": 59.342
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 27.79,
+    "text": "Aquarius 27°48′",
+    "longitude": 327.792
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Petitions to the General Court",
+   "stop": "The General Court, seventy-three names and a plan to return",
+   "date": "1787-01-01",
+   "date_confidence": "Year attested, [A], per PBS, 'Africans in America / The Boston Plan': a committee of twelve of the African Lodge headed by Hall, petition signed by seventy-three African Blacks. The research pool dated this January 1773 and tagged it attested; that is a Wikipedia error, doubly defective because it also names a Massachusetts Senate that did not exist until the 1780 constitution. Month and day default to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373748.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.6,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.597
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Petitions to the General Court",
+   "stop": "The General Court, taxation without representation",
+   "date": "1787-01-01",
+   "date_confidence": "Attested to 1787, [A]. The research pool merged this school petition with the 1788 kidnapping petition under a single date; they are separate documents from separate years and are split here. Month and day not established, defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373748.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.6,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.597
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Petitions to the General Court",
+   "stop": "Boston, the school in his own house",
+   "date": "1788-01-01",
+   "date_confidence": "Reconstruction, [R], resting on Wesley at one remove. The school is well attested in the biographical tradition; its start date is not, and the house's address has not survived in any deed, tax list, or directory reachable here. The coordinate is central Boston and the year is indicative.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1788,
+   "jd_ut": 2374113.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.35,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.349
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Petitions to the General Court",
+   "stop": "The General Court, the kidnapping petition",
+   "date": "1788-02-27",
+   "date_confidence": "Date, text, and authorship attested, [A]. Printed in The American Museum vol. 3 (Carey, 1788) and preserved in manuscript at the Massachusetts Historical Society, item 670, in Hall's phonetic spelling. Citation flag: the pool gave pp. 410-411; the passage sits at scan pp. 414-415 of Internet Archive item americanmuseumor03care, so the printed folio should be checked before republication.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1788,
+   "jd_ut": 2374170.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 8.13,
+    "text": "Pisces 8°08′",
+    "longitude": 338.133
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Petitions to the General Court",
+   "stop": "The General Court, the seamen who stay at home",
+   "date": "1788-02-27",
+   "date_confidence": "Same document as the preceding stop, [A]. The research pool's version of this passage silently dropped the clause 'and some of them we have heard from'; the ellipsis and the clause are restored here from the printed American Museum text. The manuscript at MHS carries the same sentence in Hall's own spelling.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1788,
+   "jd_ut": 2374170.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 8.13,
+    "text": "Pisces 8°08′",
+    "longitude": 338.133
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 17.27,
+    "text": "Scorpio 17°16′",
+    "longitude": 227.268
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 20.68,
+    "text": "Pisces 20°41′",
+    "longitude": 350.684
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 9.18,
+    "text": "Aries 9°11′",
+    "longitude": 9.175
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 9.01,
+    "text": "Cancer 9°01′",
+    "longitude": 99.009
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 16.94,
+    "text": "Gemini 16°56′",
+    "longitude": 76.94
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 2.07,
+    "text": "Pisces 2°04′",
+    "longitude": 332.065
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Charges",
+   "stop": "Boston, named Provincial Grand Master",
+   "date": "1791-01-01",
+   "date_confidence": "Year attested, [A]; month and day are not recorded and default to 01. The coordinate is the Water Street lodge room, which is where African Lodge is meeting in this period, not a separately documented installation site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375209.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "to the year",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.63,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.626
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Charges",
+   "stop": "Charlestown, the Charge at Brother William Smith's hall",
+   "date": "1792-06-25",
+   "date_confidence": "Date and place attested from the pamphlet's own title page, [A], confirmed in catalog records at the American Antiquarian Society, University of Michigan, NYPL, and the Oxford Text Archive. The research pool placed this charge in Boston; Charlestown was a separate municipality until its annexation in 1874. Coordinate approximate to Charlestown, since Brother William Smith's hall is not located.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1792,
+   "jd_ut": 2375750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 4.0,
+    "text": "Cancer 4°00′",
+    "longitude": 94.001
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Charges",
+   "stop": "Charlestown, Aethiopia stretching forth her hands",
+   "date": "1792-06-25",
+   "date_confidence": "Text attested, [A], from the 1792 pamphlet. The line as it circulates, 'Ethiopia shall stretch forth her hands', is not the pamphlet's reading: Hall writes Aethiopia and ends the clause 'unto me'. It is his own rendering, not KJV Psalm 68:31, and is frequently confused with the different 1797 line that uses the singular hand.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1792,
+   "jd_ut": 2375750.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 4.0,
+    "text": "Cancer 4°00′",
+    "longitude": 94.001
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 3.99,
+    "text": "Virgo 3°59′",
+    "longitude": 153.99
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 16.86,
+    "text": "Gemini 16°52′",
+    "longitude": 76.863
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 22.31,
+    "text": "Gemini 22°19′",
+    "longitude": 82.315
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 2.66,
+    "text": "Libra 2°40′",
+    "longitude": 182.661
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 21.64,
+    "text": "Libra 21°39′",
+    "longitude": 201.643
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 0.19,
+    "text": "Taurus 0°11′",
+    "longitude": 30.19
+   }
+  },
+  {
+   "segment": "The Charges",
+   "stop": "Philadelphia, a lodge under Hall's warrant",
+   "date": "1797-03-22",
+   "date_confidence": "Date attested, [A]. The meeting hall is not identified in any surviving account, so the coordinate is the corpus's canonical Philadelphia pin, inherited byte-identical from benjamin_franklin.journey.json in preference to the research pool's 39.9496, -75.1503.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377481.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 1.88,
+    "text": "Aries 1°53′",
+    "longitude": 1.88
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 18.96,
+    "text": "Capricornus 18°57′",
+    "longitude": 288.957
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 6.61,
+    "text": "Pisces 6°36′",
+    "longitude": 336.608
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 14.2,
+    "text": "Pisces 14°12′",
+    "longitude": 344.197
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 15.08,
+    "text": "Taurus 15°05′",
+    "longitude": 45.08
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 27.4,
+    "text": "Pisces 27°24′",
+    "longitude": 357.4
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 21.89,
+    "text": "Gemini 21°54′",
+    "longitude": 81.893
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Charges",
+   "stop": "Menotomy, five years since the last charge",
+   "date": "1797-06-24",
+   "date_confidence": "Date and place attested from the pamphlet's own title page, [A]: 'A Charge, delivered to the African Lodge, June 24, 1797, at Menotomy.' The research pool placed this charge in Boston, about ten kilometres southeast. Menotomy is present-day Arlington; the coordinate is the town, not an identified hall.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377575.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.85,
+    "text": "Cancer 2°51′",
+    "longitude": 92.85
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.28,
+    "text": "Gemini 23°17′",
+    "longitude": 83.282
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.6,
+    "text": "Gemini 22°36′",
+    "longitude": 82.602
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 9.96,
+    "text": "Cancer 9°58′",
+    "longitude": 99.964
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.61,
+    "text": "Cancer 17°37′",
+    "longitude": 107.608
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 16.61,
+    "text": "Aries 16°36′",
+    "longitude": 16.606
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.8,
+    "text": "Cancer 1°48′",
+    "longitude": 91.801
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Charges",
+   "stop": "Menotomy, patience and the streets of Boston",
+   "date": "1797-06-24",
+   "date_confidence": "Text attested, [A], from the 1797 pamphlet scan. The version in wide circulation, including on Wikipedia, converts this passage to the first person ('we could not bear up under the daily insults we meet with'); the pamphlet is in the second person throughout. The pamphlet reading is quoted here and the modernized text is flagged, not used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377575.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.85,
+    "text": "Cancer 2°51′",
+    "longitude": 92.85
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.28,
+    "text": "Gemini 23°17′",
+    "longitude": 83.282
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.6,
+    "text": "Gemini 22°36′",
+    "longitude": 82.602
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 9.96,
+    "text": "Cancer 9°58′",
+    "longitude": 99.964
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.61,
+    "text": "Cancer 17°37′",
+    "longitude": 107.608
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 16.61,
+    "text": "Aries 16°36′",
+    "longitude": 16.606
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.8,
+    "text": "Cancer 1°48′",
+    "longitude": 91.801
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Charges",
+   "stop": "Menotomy, the dark day in the French West Indies",
+   "date": "1797-06-24",
+   "date_confidence": "Text attested, [A], from the 1797 pamphlet; the reference is to the 1791 uprising in Saint-Domingue, six years before the charge. Independently confirmed in the excerpt cited by Wikipedia and in the anthology transcription.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377575.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.85,
+    "text": "Cancer 2°51′",
+    "longitude": 92.85
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.28,
+    "text": "Gemini 23°17′",
+    "longitude": 83.282
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.6,
+    "text": "Gemini 22°36′",
+    "longitude": 82.602
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 9.96,
+    "text": "Cancer 9°58′",
+    "longitude": 99.964
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.61,
+    "text": "Cancer 17°37′",
+    "longitude": 107.608
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 16.61,
+    "text": "Aries 16°36′",
+    "longitude": 16.606
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.8,
+    "text": "Cancer 1°48′",
+    "longitude": 91.801
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Charges",
+   "stop": "Menotomy, the mob and the men who will not answer it",
+   "date": "1797-06-24",
+   "date_confidence": "Text attested, [A], from the 1797 pamphlet as transcribed in the Open Anthology of Earlier American Literature and confirmed against the Internet Archive scan. Part of the same passage as the patience lines; the pamphlet gives no incident, date, or place for the attacks it describes, so the reference is general rather than to a documented riot.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377575.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.85,
+    "text": "Cancer 2°51′",
+    "longitude": 92.85
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.28,
+    "text": "Gemini 23°17′",
+    "longitude": 83.282
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.6,
+    "text": "Gemini 22°36′",
+    "longitude": 82.602
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 9.96,
+    "text": "Cancer 9°58′",
+    "longitude": 99.964
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.61,
+    "text": "Cancer 17°37′",
+    "longitude": 107.608
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 16.61,
+    "text": "Aries 16°36′",
+    "longitude": 16.606
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.8,
+    "text": "Cancer 1°48′",
+    "longitude": 91.801
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Charges",
+   "stop": "Providence, Hiram Lodge",
+   "date": "1797-06-25",
+   "date_confidence": "Date attested, [A]; the building is not recorded, so the coordinate is central Providence. The lodge is later known as Hiram Lodge No. 3. The day after the Menotomy charge is a tight itinerary and the sources do not describe the journey.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377576.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not recorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 3.8,
+    "text": "Cancer 3°48′",
+    "longitude": 93.803
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 8.2,
+    "text": "Cancer 8°12′",
+    "longitude": 98.196
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.31,
+    "text": "Gemini 22°19′",
+    "longitude": 82.312
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 11.19,
+    "text": "Cancer 11°12′",
+    "longitude": 101.193
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 18.25,
+    "text": "Cancer 18°15′",
+    "longitude": 108.254
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 16.74,
+    "text": "Aries 16°44′",
+    "longitude": 16.738
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.93,
+    "text": "Cancer 1°56′",
+    "longitude": 91.931
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Boston, the Kirby Street room",
+   "date": "1800-01-01",
+   "date_confidence": "Tradition, [R]. The Prince Hall Grand Lodge of Massachusetts holds that African Lodge later met in a room on Kirby Street; neither the date of the move nor the exact site is established in surviving lodge minutes. The year and the coordinate are both indicative and are flagged as such.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1800,
+   "jd_ut": 2378496.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.438
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Charleston, the Southern Jurisdiction constitutes itself",
+   "date": "1801-01-01",
+   "date_confidence": "Attested, [A], and inherited byte-identical from hiram_abiff.journey.json. The connection to Prince Hall is temporal overlap only, [R]: no institutional contact between the Supreme Council at Charleston and African Lodge is attested, and the later non-recognition is inference from the segregated history of the two systems.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2378861.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.19,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.19
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Boston, the death of Prince Hall",
+   "date": "1807-12-04",
+   "date_confidence": "Date attested, [A], from the death record and the biographical literature. His age at death is not: a deposition of 31 August 1807 says about 70 years, death notices say 72, and the four competing birth years give four answers. The house he died in is not identified; the coordinate is central Boston.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1807,
+   "jd_ut": 2381389.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 10.97,
+    "text": "Sagittarius 10°58′",
+    "longitude": 250.971
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 7.49,
+    "text": "Aquarius 7°29′",
+    "longitude": 307.488
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 12.94,
+    "text": "Sagittarius 12°56′",
+    "longitude": 252.942
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 26.38,
+    "text": "Libra 26°23′",
+    "longitude": 206.375
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 12.51,
+    "text": "Capricornus 12°31′",
+    "longitude": 282.51
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 8.87,
+    "text": "Aquarius 8°52′",
+    "longitude": 308.872
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 16.25,
+    "text": "Scorpio 16°15′",
+    "longitude": 226.252
+   }
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Copp's Hill Burying Ground, the burial",
+   "date": "1807-12-07",
+   "date_confidence": "Burial at Copp's Hill attested, [A]; the 7 December date is inference from contemporary newspaper reports that Hall died on the 4th and was buried three days later, [R]. The 1835 stone reads 'Died Dec. 7', which on this reading records the funeral rather than the death. Stated as the likely explanation, not as proof. Coordinate from the burying ground's own record, 42.367322, -71.055844.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1807,
+   "jd_ut": 2381392.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 14.02,
+    "text": "Sagittarius 14°01′",
+    "longitude": 254.018
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Boston, an estate of forty-seven dollars and twenty-two cents",
+   "date": "1808-01-01",
+   "date_confidence": "Inventory attested, [A], Suffolk County probate: $47.22, no real property, Sylvia Ward Hall as executrix. The exact date of the probate is not given in reachable sources and defaults to 01 January 1808. Whether Sylvia, also recorded as Zilpha, is a later wife or the same person under a variant name is contested and left contested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1808,
+   "jd_ut": 2381417.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.48,
+    "text": "Capricornus 9°29′",
+    "longitude": 279.477
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Boston, the African Grand Lodge",
+   "date": "1808-06-24",
+   "date_confidence": "Date attested, [A], from the African Grand Lodge founding minutes as cited in Wesley. The meeting place is not separately documented; the coordinate is the Water Street room African Lodge had been using. The 1827 declaration of independence and the reversion to No. 1 are attested separately.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1808,
+   "jd_ut": 2381592.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.22,
+    "text": "Cancer 2°13′",
+    "longitude": 92.223
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 1.74,
+    "text": "Cancer 1°45′",
+    "longitude": 91.743
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 26.62,
+    "text": "Cancer 26°37′",
+    "longitude": 116.618
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 21.21,
+    "text": "Gemini 21°13′",
+    "longitude": 81.211
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 16.49,
+    "text": "Gemini 16°29′",
+    "longitude": 76.488
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 17.91,
+    "text": "Pisces 17°54′",
+    "longitude": 347.908
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 15.9,
+    "text": "Scorpio 15°54′",
+    "longitude": 225.903
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Long Afterward",
+   "stop": "Copp's Hill, the monument of 1835",
+   "date": "1835-06-24",
+   "date_confidence": "Date and inscription attested verbatim, [A]. The stone's 'Died Dec. 7, 1807' conflicts with the death record's 4 December; see the burial stop for the newspaper evidence that the stone carries the funeral date. Coordinate as for the burial; the research pool's afterlife lens gave 42.3656, -71.0552, some 200 m south, and is not followed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391453.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 1.72,
+    "text": "Cancer 1°43′",
+    "longitude": 91.723
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 7.48,
+    "text": "Gemini 7°29′",
+    "longitude": 67.481
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 26.28,
+    "text": "Cancer 26°17′",
+    "longitude": 116.281
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 4.51,
+    "text": "Gemini 4°31′",
+    "longitude": 64.511
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 27.65,
+    "text": "Leo 27°39′",
+    "longitude": 147.651
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 25.73,
+    "text": "Gemini 25°44′",
+    "longitude": 85.728
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 16.51,
+    "text": "Libra 16°31′",
+    "longitude": 196.509
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Long Afterward",
+   "stop": "Washington, the House of the Temple",
+   "date": "1871-01-01",
+   "date_confidence": "Pike's Morals and Dogma and the reading lineage running on to Rene Guenon and Theodor Reuss are attested per hiram_abiff.journey.json, [A], and the coordinate is inherited byte-identical from that file. The bearing on Prince Hall Freemasonry, including Pike's rite's non-recognition, is inference, [R], not stated in the corpus file. Month and day default to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404428.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Afterward",
+   "stop": "Cambridge Common, the Clausen monument",
+   "date": "2010-05-01",
+   "date_confidence": "Unveiled May 2010, [A], per Wikipedia, 'Prince Hall Monument'; the day within the month is not given and defaults to 01. Coordinate from the monument's own listing, 42 degrees 22 minutes 34.9 seconds north by 71 degrees 07 minutes 16.5 seconds west. The research pool dated the dedication 1998 in one lens and called it unconfirmed in another, and its coordinate was in fact the corpus's canonical Cambridge pin, borrowed by accident.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2010,
+   "jd_ut": 2455317.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.53,
+    "text": "Taurus 10°32′",
+    "longitude": 40.534
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Afterward",
+   "stop": "Boston, forty-seven Grand Lodges of fifty-one",
+   "date": "2026-01-01",
+   "date_confidence": "Current as of this survey, [A], per Wikipedia, 'Prince Hall Freemasonry': 47 of 51 mainstream U.S. Grand Lodges recognize Prince Hall Grand Lodges as regular, with Mississippi, Louisiana, South Carolina and West Virginia outstanding. The date field carries the survey year; the figure changes as jurisdictions vote.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461041.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.58,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.576
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Afterward",
+   "stop": "Christ Church, the bust at Graeme Hall",
+   "date": "2026-01-01",
+   "date_confidence": "Existence attested, [A]; the year of erection is not, and no reachable source gives one, so the date field carries the survey year rather than the casting. Location corrected: the bust stands at the Prince Hall Masonic Centre, Graeme Hall, Christ Church, not at the research pool's 13.1939, -59.5432, which falls some fourteen kilometres inland in the uplands.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461041.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.58,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.576
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 16,
+  "month": 4,
+  "year": 25
+ },
+ "parse_failures": []
+}

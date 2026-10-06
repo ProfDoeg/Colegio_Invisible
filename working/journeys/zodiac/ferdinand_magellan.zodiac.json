@@ -1,0 +1,2079 @@
+{
+ "slug": "ferdinand_magellan",
+ "traveler": "Fernão de Magalhães (Ferdinand Magellan, Hernando de Magallanes)",
+ "title": "The Passage and the Shallow Water: Magellan from the Malabar Coast to Mactan",
+ "years": "c. 1480-1521",
+ "years_parsed": {
+  "first": 1480,
+  "last": 1521
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Kingdom That Made Him",
+  "stop": "Porto, the birth without a document",
+  "date": "1480-01-01",
+  "date_confidence": "unattested. No register names the day, the month, or the town. Four candidates compete: Sabrosa, Porto, Vila Nova de Gaia, Ponte da Barca. Modern Portuguese scholarship (Torre do Tombo materials, the Encyclopaedia of Portuguese Expansion, José Manuel Garcia) leans to Porto, reported here at second hand and not checked against the archive. Date defaulted to 1480-01-01 from the conventional c. 1480.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1480,
+  "jd_ut": 2261627.5,
+  "precision": "year",
+  "precision_triggers": [
+   "defaulted",
+   "c.",
+   "convention"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 19.3,
+   "text": "Capricornus 19°18′",
+   "longitude": 289.299
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 1480-1521",
+  "first_year_parsed": 1480
+ },
+ "stops": [
+  {
+   "segment": "The Kingdom That Made Him",
+   "stop": "Porto, the birth without a document",
+   "date": "1480-01-01",
+   "date_confidence": "unattested. No register names the day, the month, or the town. Four candidates compete: Sabrosa, Porto, Vila Nova de Gaia, Ponte da Barca. Modern Portuguese scholarship (Torre do Tombo materials, the Encyclopaedia of Portuguese Expansion, José Manuel Garcia) leans to Porto, reported here at second hand and not checked against the archive. Date defaulted to 1480-01-01 from the conventional c. 1480.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1480,
+   "jd_ut": 2261627.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.3,
+    "text": "Capricornus 19°18′",
+    "longitude": 289.299
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Kingdom That Made Him",
+   "stop": "Sabrosa, the house of Pereira",
+   "date": "1480-01-02",
+   "date_confidence": "the claim is a documented forgery, not an attested birth. Wikipedia, 'Sabrosa': the Sabrosa birthplace documents were manufactured in the eighteenth century by António Luís Álvares Pereira Coelho da Silva Castelo-Branco e Magalhães (1751-1802) to present himself as Magellan's heir. Date is an ordering device only, one day after the Porto stop. Coordinates 41.2844, -7.5950 per the Sabrosa article; a variant 41.2667, -7.5667 in circulation is about two kilometres off and is not used here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1480,
+   "jd_ut": 2261628.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.32,
+    "text": "Capricornus 20°19′",
+    "longitude": 290.317
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Kingdom That Made Him",
+   "stop": "Lisbon, the household of Queen Leonor",
+   "date": "1492-01-01",
+   "date_confidence": "traditional. The placement of the boy in Queen Leonor's household from about age twelve, and his passage into crown service in 1495 under Manuel I, come from the standard biographical tradition; the 1492 date is reported by the Encyclopaedia of Portuguese Expansion at second hand and was not independently confirmed. No document from these years survives. Court coordinates are Lisbon generally; no specific palace is identified in the sources checked.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1492,
+   "jd_ut": 2266010.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "no source (for the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.39,
+    "text": "Capricornus 19°23′",
+    "longitude": 289.387
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Kingdom That Made Him",
+   "stop": "Restelo, the armada of Dom Francisco de Almeida",
+   "date": "1505-03-01",
+   "date_confidence": "attested for the sailing (Wikipedia, 'Ferdinand Magellan'). Coordinates are the Belém waterfront generally: the Tower postdates 1505 and stands here as a landmark proxy, not as the structure he sailed from.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1505,
+   "jd_ut": 2270818.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 19.75,
+    "text": "Pisces 19°45′",
+    "longitude": 349.746
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eight Years in the East",
+   "stop": "Cannanore, the wound at the fort",
+   "date": "1506-03-01",
+   "date_confidence": "attested that he fought and was wounded at Cannanore in 1506 (Wikipedia, 'Ferdinand Magellan'; Wikipedia, 'Kannur Fort'). The month is an approximation within the 1506 siege season; the detail descends through the Portuguese chroniclers, Gaspar Correia among them, not through any log in his own hand.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1506,
+   "jd_ut": 2271183.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 19.51,
+    "text": "Pisces 19°30′",
+    "longitude": 349.505
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eight Years in the East",
+   "stop": "Fort Kochi, the garrison years",
+   "date": "1507-01-01",
+   "date_confidence": "inferred for the date, attested for the service. Magellan's Malabar posting across roughly 1505-1512 is attested (Wikipedia, 'Ferdinand Magellan'; Wikipedia, 'Fort Emmanuel'); the 1507 pin is a mid-span placeholder for years with no dated events attached to him. Research notes also place him at Quilon/Kollam in these years, which could not be confirmed against a landmark source.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1507,
+   "jd_ut": 2271489.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "placeholder",
+    "approximation",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.75,
+    "text": "Capricornus 19°45′",
+    "longitude": 289.752
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eight Years in the East",
+   "stop": "Diu, the fleet that broke the coalition",
+   "date": "1509-02-03",
+   "date_confidence": "the battle is attested; Magellan's personal presence is not. The Battle of Diu, 3 February 1509, is beyond dispute. That Magellan was in the fleet rests on chronicle tradition and on every subsequent biographer, and no document from the day names him. Recorded here as a stop the record cannot close.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1509,
+   "jd_ut": 2272253.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 23.74,
+    "text": "Aquarius 23°44′",
+    "longitude": 323.737
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eight Years in the East",
+   "stop": "Malacca, the ambush and Francisco Serrão",
+   "date": "1509-09-01",
+   "date_confidence": "attested for the expedition and its collapse (Wikipedia, 'Ferdinand Magellan'); month is approximate within 1509. The account that Magellan personally went back for Serrão is biographical tradition rather than document, and is given here as such.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1509,
+   "jd_ut": 2272463.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 17.41,
+    "text": "Virgo 17°25′",
+    "longitude": 167.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eight Years in the East",
+   "stop": "Old Goa, the council of Albuquerque",
+   "date": "1510-10-01",
+   "date_confidence": "reported, not independently verified. The October 1510 council and Magellan's presence in it derive from the Encyclopaedia of Portuguese Expansion as reported within a research dossier; the specific council date could not be confirmed against a fetched source. The November recapture of Goa itself is standard and attested (Wikipedia, 'Old Goa').",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1510,
+   "jd_ut": 2272858.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.71,
+    "text": "Libra 16°43′",
+    "longitude": 196.709
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Eight Years in the East",
+   "stop": "Malacca, the conquest and the man called Enrique",
+   "date": "1511-08-10",
+   "date_confidence": "attested that Magellan took part in Albuquerque's 1511 conquest and that he acquired the enslaved man later called Enrique in Malacca or its region that year (Wikipedia, 'Ferdinand Magellan'; Wikipedia, 'A Famosa'). The precise day of the acquisition is unrecorded; the date given is the fall of the city.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1511,
+   "jd_ut": 2273171.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 25.59,
+    "text": "Leo 25°35′",
+    "longitude": 145.587
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King Who Would Not Have Him",
+   "stop": "Lisbon, the return with Enrique",
+   "date": "1512-06-01",
+   "date_confidence": "attested for the 1512 return from Asia with Enrique (Wikipedia, 'Ferdinand Magellan'); month defaulted within the year, no day recorded.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1512,
+   "jd_ut": 2273467.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 19.37,
+    "text": "Gemini 19°22′",
+    "longitude": 79.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King Who Would Not Have Him",
+   "stop": "Azemmour, the leg and the horse",
+   "date": "1513-08-01",
+   "date_confidence": "contradiction between sources, not resolved. Wikipedia, 'Ferdinand Magellan' has him sustain a leg wound in August 1513 that left a permanent limp. Wikipedia, 'Azemmour' says only that he lost his horse in skirmishes outside the city. Both are carried; neither is silently adopted. The city fell on 1 September 1513.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1513,
+   "jd_ut": 2273893.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 17.41,
+    "text": "Leo 17°25′",
+    "longitude": 137.414
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 15.11,
+    "text": "Leo 15°07′",
+    "longitude": 135.109
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 4.68,
+    "text": "Leo 4°41′",
+    "longitude": 124.682
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 25.67,
+    "text": "Leo 25°40′",
+    "longitude": 145.674
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 16.34,
+    "text": "Leo 16°20′",
+    "longitude": 136.341
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 9.77,
+    "text": "Taurus 9°46′",
+    "longitude": 39.771
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.94,
+    "text": "Scorpio 7°57′",
+    "longitude": 217.942
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The King Who Would Not Have Him",
+   "stop": "Lisbon, no further offers",
+   "date": "1514-05-15",
+   "date_confidence": "attested with a correction. Wikipedia, 'Ferdinand Magellan' gives 15 May 1514 as the date from which Magellan received no further offers of employment from the crown. Research notes had inverted this into the receipt of a last offer, which also contradicted the 1515 crewman's berth he is recorded as refusing. The end-of-offers reading is the one used here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1514,
+   "jd_ut": 2274180.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 2.66,
+    "text": "Gemini 2°40′",
+    "longitude": 62.661
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King Who Would Not Have Him",
+   "stop": "Lisbon, the renunciation",
+   "date": "1517-01-01",
+   "date_confidence": "attested for 1517 as the year of the final quarrel with Manuel I, the renunciation of Portuguese nationality, and the departure for Castile (Wikipedia, 'Ferdinand Magellan'). No month or day is recorded; defaulted to January. The content of the final audience is traditional.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1517,
+   "jd_ut": 2275142.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.33,
+    "text": "Capricornus 20°20′",
+    "longitude": 290.334
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Seville, the Gate of the Indies",
+   "stop": "Seville, the Casa de la Contratación",
+   "date": "1517-10-20",
+   "date_confidence": "attested for the October 1517 arrival in Seville (Wikipedia, 'Ferdinand Magellan'); day defaulted within the month. The specific housing of the Casa de la Contratación inside the Real Alcázar in this exact period was not re-verified against a fetched source, and the network of Barbosa, Aranda, Fonseca and Haro is reported here from a research dossier rather than from primary record.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1517,
+   "jd_ut": 2275434.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 5.98,
+    "text": "Scorpio 5°59′",
+    "longitude": 215.981
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Seville, the Gate of the Indies",
+   "stop": "Seville, the marriage to Beatriz Barbosa",
+   "date": "1517-12-01",
+   "date_confidence": "traditional. Wikipedia places the marriage in 1517; History.com places it within a year of the October arrival. No month or day located, defaulted to December. Coordinates are the atlas's standing Seville pin (37.3891, -5.9945), inherited for cartographic consistency; no church or house is identified in the sources.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1517,
+   "jd_ut": 2275476.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.49,
+    "text": "Sagittarius 18°29′",
+    "longitude": 258.489
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Seville, the Gate of the Indies",
+   "stop": "Valladolid, the capitulaciones",
+   "date": "1518-03-22",
+   "date_confidence": "attested for the Capitulaciones de Valladolid, 22 March 1518, and for the Order of Santiago commandership (Wikipedia, 'Ferdinand Magellan'; Wikipedia, 'Magellan expedition'). Corrected against research notes: the contract title is capitán general, not admiral. Coordinates are standard Valladolid city geography, not a verified building.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1518,
+   "jd_ut": 2275587.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.36,
+    "text": "Aries 10°22′",
+    "longitude": 10.36
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 9.32,
+    "text": "Leo 9°19′",
+    "longitude": 129.324
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 10.6,
+    "text": "Aries 10°36′",
+    "longitude": 10.6
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 26.06,
+    "text": "Taurus 26°04′",
+    "longitude": 56.063
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 26.02,
+    "text": "Aquarius 26°01′",
+    "longitude": 326.022
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 14.07,
+    "text": "Virgo 14°04′",
+    "longitude": 164.067
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.472
+   }
+  },
+  {
+   "segment": "Seville, the Gate of the Indies",
+   "stop": "Seville, the fleet goes down the river",
+   "date": "1519-08-10",
+   "date_confidence": "attested. 10 August 1519 is the departure from Seville down the Guadalquivir, not from Sanlúcar; research notes had welded the Seville date to the Sanlúcar place. Crew of roughly 270 confirmed (History.com; Wikipedia, 'Magellan expedition'). Coordinates are the Torre del Oro, the traditional river mooring, offered as a landmark proxy rather than a documented berth.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276093.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 25.65,
+    "text": "Leo 25°39′",
+    "longitude": 145.651
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Seville, the Gate of the Indies",
+   "stop": "Seville, the will",
+   "date": "1519-08-24",
+   "date_confidence": "attested for the will of 24 August 1519 and its provisions (Wikipedia, 'Ferdinand Magellan'). The quoted burial clause is given here from Ambeth Ocampo's newspaper translation; the original Spanish archival text was not located or fetched, so the exact wording is secondhand.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276107.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 9.21,
+    "text": "Virgo 9°12′",
+    "longitude": 159.208
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 25.92,
+    "text": "Leo 25°55′",
+    "longitude": 145.915
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 9.25,
+    "text": "Virgo 9°15′",
+    "longitude": 159.253
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 19.18,
+    "text": "Libra 19°11′",
+    "longitude": 199.181
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 7.17,
+    "text": "Libra 7°10′",
+    "longitude": 187.168
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 21.07,
+    "text": "Libra 21°04′",
+    "longitude": 201.07
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 15.79,
+    "text": "Capricornus 15°48′",
+    "longitude": 285.792
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Seville, the Gate of the Indies",
+   "stop": "Sanlúcar de Barrameda, standing out to sea",
+   "date": "1519-09-20",
+   "date_confidence": "attested (Wikipedia, 'Sanlúcar de Barrameda'; Wikipedia, 'Magellan expedition'). Coordinates inherited byte-identical from the atlas's existing Sanlúcar pin on pedro_de_mendoza.journey.json, whose own file names Magellan at this port. The sailing orders described are standard fleet practice of the voyage as reported; the secrecy of the route is traditional characterization.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276134.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 5.64,
+    "text": "Libra 5°39′",
+    "longitude": 185.642
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Atlantic and the Coast of Giants",
+   "stop": "Tenerife, the last water under a Christian crown",
+   "date": "1519-09-26",
+   "date_confidence": "reported, not independently verified. The Canaries call is given in the research dossier and is standard in accounts of the voyage, but was not confirmed against a fetched source; the day is an estimate from the 20 September departure. The atlas holds a Canaries pin at La Gomera (28.0916, -17.1115) on columbus.journey.json; it is a different island and is not inherited here. The Cartagena quarrel over the course change is traditional.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276140.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "estimated"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 11.57,
+    "text": "Libra 11°34′",
+    "longitude": 191.572
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Atlantic and the Coast of Giants",
+   "stop": "Cabo de Santo Agostinho, the first American landfall",
+   "date": "1519-11-29",
+   "date_confidence": "attested for a late November 1519 landfall near Cabo de Santo Agostinho (Wikipedia, 'Ferdinand Magellan'); the exact day is not fixed in the source and 29 November is the conventional figure.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276204.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 15.96,
+    "text": "Sagittarius 15°58′",
+    "longitude": 255.959
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Atlantic and the Coast of Giants",
+   "stop": "Guanabara Bay, a fortnight ashore",
+   "date": "1519-12-13",
+   "date_confidence": "attested for the December 1519 stay at Guanabara Bay and for the execution of Antonio Salamón on 20 December 1519 (Wikipedia, 'Ferdinand Magellan'; Wikipedia, 'Magellan expedition'). Research notes had dated the garroting to January 1520, which is impossible: the fleet left the bay on 27 December 1519. Corrected here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276218.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 0.22,
+    "text": "Capricornus 0°13′",
+    "longitude": 270.224
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 17.16,
+    "text": "Virgo 17°10′",
+    "longitude": 167.161
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 19.56,
+    "text": "Sagittarius 19°34′",
+    "longitude": 259.564
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 27.46,
+    "text": "Capricornus 27°28′",
+    "longitude": 297.462
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 25.64,
+    "text": "Sagittarius 25°39′",
+    "longitude": 265.642
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 14.18,
+    "text": "Scorpio 14°11′",
+    "longitude": 224.175
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 21.72,
+    "text": "Capricornus 21°43′",
+    "longitude": 291.724
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Atlantic and the Coast of Giants",
+   "stop": "Río de la Plata, the false strait",
+   "date": "1520-01-11",
+   "date_confidence": "attested for the sighting on 11 January 1520 and exploration running into February (Wikipedia, 'Magellan expedition'). Research notes had dated the whole episode to February; corrected. Coordinates are an approximate estuary entrance, not a specific landmark. The Solís detail is standard background and was not re-verified.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276247.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (approximately) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 29.77,
+    "text": "Capricornus 29°46′",
+    "longitude": 299.768
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 6.91,
+    "text": "Libra 6°55′",
+    "longitude": 186.909
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 6.93,
+    "text": "Aquarius 6°56′",
+    "longitude": 306.93
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 14.27,
+    "text": "Capricornus 14°16′",
+    "longitude": 284.268
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 17.82,
+    "text": "Capricornus 17°49′",
+    "longitude": 287.817
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 18.8,
+    "text": "Scorpio 18°48′",
+    "longitude": 228.799
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 25.13,
+    "text": "Capricornus 25°08′",
+    "longitude": 295.127
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Atlantic and the Coast of Giants",
+   "stop": "Puerto San Julián, the winter camp",
+   "date": "1520-03-31",
+   "date_confidence": "attested for the wintering, 31 March to 21 August 1520 (Wikipedia, 'Puerto San Julián'). Coordinates inherited byte-identical from the atlas's existing Puerto San Julián pin on saint_erasmus.journey.json (-49.3, -67.72); geographic sources give -49.3, -67.7167. The Patagoni naming and the seizure of two men are from Pigafetta by way of the standard accounts.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276327.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 19.69,
+    "text": "Aries 19°41′",
+    "longitude": 19.686
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 15.44,
+    "text": "Virgo 15°27′",
+    "longitude": 165.442
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 27.81,
+    "text": "Pisces 27°49′",
+    "longitude": 357.815
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 4.3,
+    "text": "Pisces 4°18′",
+    "longitude": 334.297
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 20.3,
+    "text": "Pisces 20°18′",
+    "longitude": 350.297
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 20.53,
+    "text": "Scorpio 20°32′",
+    "longitude": 230.533
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 2.73,
+    "text": "Aquarius 2°44′",
+    "longitude": 302.729
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Atlantic and the Coast of Giants",
+   "stop": "Puerto San Julián, the mutiny at Easter",
+   "date": "1520-04-02",
+   "date_confidence": "attested for the Easter mutiny of Cartagena, Quesada and Mendoza, the killing of Mendoza by Gonzalo Gómez de Espinosa, the execution of Quesada and the later marooning of Cartagena (Wikipedia, 'Puerto San Julián'; Wikipedia, 'Ferdinand Magellan'). Contemporary testimony is partisan on both sides and the legality of the proceedings was contested by Magellan's opponents; that dispute is not adjudicated here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276329.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 21.64,
+    "text": "Aries 21°38′",
+    "longitude": 21.64
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Atlantic and the Coast of Giants",
+   "stop": "Puerto San Julián, the lights on the mastheads",
+   "date": "1520-04-15",
+   "date_confidence": "placeholder, heavily hedged, and inherited as such. Pigafetta records the corpo santo but gives neither date nor position within the 1519-1522 voyage. The atlas already pins the sighting to Puerto San Julián on saint_erasmus.journey.json at -49.3, -67.72, that file having moved it off an internally impossible original pin at the Strait's Atlantic mouth. The same pin and the same reasoning are used here; the day is arbitrary within the wintering.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "arbitrary",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 4.29,
+    "text": "Taurus 4°17′",
+    "longitude": 34.289
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Atlantic and the Coast of Giants",
+   "stop": "Santa Cruz river, the loss of the Santiago",
+   "date": "1520-05-22",
+   "date_confidence": "attested that the Santiago was wrecked in a storm in May 1520 while surveying south of San Julián, with the crew surviving (Wikipedia, 'Ferdinand Magellan'). The exact day is not fixed. Coordinates are an approximation from general Patagonian coastal geography: an attempted fetch of a page confirming the exact wreck site returned a 404, and the pin is not a verified landmark.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276379.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximately",
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.89,
+    "text": "Gemini 9°53′",
+    "longitude": 69.885
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Strait and the Peaceful Sea",
+   "stop": "Cabo Vírgenes, the opening",
+   "date": "1520-10-21",
+   "date_confidence": "attested for 21 October 1520 as the date the fleet reached the Atlantic entrance (Wikipedia, 'Ferdinand Magellan'; History.com). Cabo Vírgenes as the specific eastern entrance point is standard geography and was not confirmed by a landmark-level fetch. The reconnaissance detail is from the standard accounts.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276531.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.26,
+    "text": "Scorpio 7°16′",
+    "longitude": 217.259
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 24.16,
+    "text": "Aquarius 24°09′",
+    "longitude": 324.156
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 24.09,
+    "text": "Libra 24°05′",
+    "longitude": 204.088
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 9.12,
+    "text": "Scorpio 9°07′",
+    "longitude": 219.123
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 4.36,
+    "text": "Leo 4°22′",
+    "longitude": 124.361
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 27.32,
+    "text": "Scorpio 27°19′",
+    "longitude": 237.322
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 27.72,
+    "text": "Capricornus 27°43′",
+    "longitude": 297.715
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Strait and the Peaceful Sea",
+   "stop": "The strait, the naming of All Saints",
+   "date": "1520-11-01",
+   "date_confidence": "attested that Magellan named the passage Estrecho de Todos los Santos on All Saints' Day, 1 November 1520, and that Charles V afterwards attached Magellan's own name to it (Wikipedia, 'Strait of Magellan'). Corrected against research notes, which had read 1 November as the entry date: the entry was 21 October and the crossing ran thirty-eight days to 28 November. The First Narrows were passed in late October.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276542.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 18.33,
+    "text": "Scorpio 18°20′",
+    "longitude": 228.332
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 3.75,
+    "text": "Leo 3°45′",
+    "longitude": 123.746
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 29.15,
+    "text": "Libra 29°09′",
+    "longitude": 209.145
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 22.94,
+    "text": "Scorpio 22°56′",
+    "longitude": 232.935
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 8.6,
+    "text": "Leo 8°36′",
+    "longitude": 128.597
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 29.74,
+    "text": "Scorpio 29°44′",
+    "longitude": 239.74
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 28.33,
+    "text": "Capricornus 28°20′",
+    "longitude": 298.333
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Strait and the Peaceful Sea",
+   "stop": "The strait, the desertion of the San Antonio",
+   "date": "1520-11-20",
+   "date_confidence": "attested that the San Antonio deserted during the strait passage in November 1520 and reached Seville on 6 May 1521 with an account hostile to Magellan (Wikipedia, 'Ferdinand Magellan'; Wikipedia, 'Strait of Magellan'). The precise day of the separation is given as about 20 November in the standard accounts. Same interior-channel pin as the preceding stop.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276561.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.58,
+    "text": "Sagittarius 7°35′",
+    "longitude": 247.576
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 1.92,
+    "text": "Aries 1°55′",
+    "longitude": 1.917
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 26.41,
+    "text": "Scorpio 26°25′",
+    "longitude": 236.41
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 16.8,
+    "text": "Sagittarius 16°48′",
+    "longitude": 256.8
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 13.88,
+    "text": "Leo 13°53′",
+    "longitude": 133.88
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 4.0,
+    "text": "Sagittarius 4°00′",
+    "longitude": 244.0
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 29.78,
+    "text": "Capricornus 29°47′",
+    "longitude": 299.785
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Strait and the Peaceful Sea",
+   "stop": "Cabo Deseado, out into the peaceful sea",
+   "date": "1520-11-28",
+   "date_confidence": "attested for the 28 November 1520 exit into the Pacific (Wikipedia, 'Ferdinand Magellan'; Wikipedia, 'Strait of Magellan'). Coordinates corrected: research notes gave -52.9309, -74.6963, roughly 24 km south of Cabo Pilar in open water. Cabo Pilar, the northwestern point of Desolación Island, lies at approximately 52°43'S 74°42'W, used here, and should be checked against a gazetteer before publication. Balboa had seen the Pacific from the Panamanian side in 1513; Indigenous navigators had crossed it for millennia.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "approximation",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (decade/century) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 15.71,
+    "text": "Sagittarius 15°43′",
+    "longitude": 255.712
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Strait and the Peaceful Sea",
+   "stop": "Umatac Bay, Guam, after ninety-eight days",
+   "date": "1521-03-06",
+   "date_confidence": "attested for the 6 March 1521 landfall on Guam, for roughly thirty deaths from starvation and scurvy in the crossing, and for the burning of houses and killing of islanders over stolen property (Wikipedia, 'Ferdinand Magellan'). The Umatac Bay landing site is called traditionally cited rather than certain by Wikipedia, 'Humåtak'. The details of the diet are Pigafetta's.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276667.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 24.83,
+    "text": "Pisces 24°50′",
+    "longitude": 354.833
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 16.5,
+    "text": "Aquarius 16°30′",
+    "longitude": 316.499
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 29.4,
+    "text": "Aquarius 29°24′",
+    "longitude": 329.399
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 28.32,
+    "text": "Aries 28°19′",
+    "longitude": 28.316
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 26.6,
+    "text": "Cancer 26°36′",
+    "longitude": 116.605
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 22.61,
+    "text": "Sagittarius 22°37′",
+    "longitude": 262.614
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 11.5,
+    "text": "Aquarius 11°30′",
+    "longitude": 311.501
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Islands of Saint Lazarus",
+   "stop": "Homonhon, the watering place",
+   "date": "1521-03-17",
+   "date_confidence": "attested for the sighting of Samar on 16 March 1521 and the anchorage at Homonhon from 17 to 24 March, the island then uninhabited, with fishermen from Suluan making contact (Wikipedia, 'Homonhon Island'; Wikipedia, 'Ferdinand Magellan'). The tents for the sick and the trade goods are Pigafetta's detail.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276678.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 5.71,
+    "text": "Aries 5°43′",
+    "longitude": 5.708
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 24.14,
+    "text": "Cancer 24°08′",
+    "longitude": 114.138
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 15.88,
+    "text": "Pisces 15°53′",
+    "longitude": 345.879
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 11.49,
+    "text": "Taurus 11°29′",
+    "longitude": 41.487
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 28.32,
+    "text": "Cancer 28°19′",
+    "longitude": 118.325
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 23.29,
+    "text": "Sagittarius 23°17′",
+    "longitude": 263.288
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 12.52,
+    "text": "Aquarius 12°31′",
+    "longitude": 312.518
+   }
+  },
+  {
+   "segment": "The Islands of Saint Lazarus",
+   "stop": "Limasawa, the first Mass",
+   "date": "1521-03-31",
+   "date_confidence": "attested for the meeting with Rajah Kolambu and Rajah Siaui on 28 March and the Easter Sunday Mass by Father Pedro de Valderrama on 31 March 1521, with a cross planted on the island's high point (Wikipedia, 'Limasawa'). The identification of Pigafetta's Mazaua with Limasawa rather than a site near Butuan is the mainstream position and was the subject of long Philippine historical controversy, not re-litigated here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276692.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 19.45,
+    "text": "Aries 19°27′",
+    "longitude": 19.45
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 15.54,
+    "text": "Capricornus 15°33′",
+    "longitude": 285.542
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 11.14,
+    "text": "Aries 11°08′",
+    "longitude": 11.137
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 27.99,
+    "text": "Taurus 27°59′",
+    "longitude": 57.988
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 2.01,
+    "text": "Leo 2°00′",
+    "longitude": 122.005
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 23.62,
+    "text": "Sagittarius 23°37′",
+    "longitude": 263.619
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 13.62,
+    "text": "Aquarius 13°37′",
+    "longitude": 313.622
+   }
+  },
+  {
+   "segment": "The Islands of Saint Lazarus",
+   "stop": "Cebu, the port and Rajah Humabon",
+   "date": "1521-04-07",
+   "date_confidence": "attested for the arrival at Cebu and the meeting with Rajah Humabon on 7 April 1521 (Wikipedia, 'Magellan expedition'; Wikipedia, \"Magellan's Cross\"). The tribute refusal and the armour demonstration are Pigafetta's account. Coordinates are the exact Magellan's Cross site, 10°17'37\"N 123°54'07\"E, used as the Cebu harbour-side pin.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276699.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 26.28,
+    "text": "Aries 26°17′",
+    "longitude": 26.28
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 22.49,
+    "text": "Aries 22°30′",
+    "longitude": 22.495
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 25.53,
+    "text": "Aries 25°32′",
+    "longitude": 25.526
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 6.11,
+    "text": "Gemini 6°06′",
+    "longitude": 66.108
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 4.34,
+    "text": "Leo 4°21′",
+    "longitude": 124.343
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 23.55,
+    "text": "Sagittarius 23°33′",
+    "longitude": 263.555
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 14.08,
+    "text": "Aquarius 14°05′",
+    "longitude": 314.082
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Islands of Saint Lazarus",
+   "stop": "Cebu, the baptism and the Santo Niño",
+   "date": "1521-04-14",
+   "date_confidence": "attested for 14 April 1521 as the date of the baptism of Humabon and his consort as Carlos and Juana and of the gift of the image later venerated as the Santo Niño de Cebú (Wikipedia, 'Santo Niño de Cebú'; Wikipedia, 'Magellan expedition'). Research notes had collapsed this into the 7 April arrival and again into the 21 April cross-planting; both are corrected. The 1565 rediscovery is attested; the 44-year custody gap is real and undocumented, and continuity is devotional tradition, not record.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276706.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.08,
+    "text": "Taurus 3°05′",
+    "longitude": 33.084
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Islands of Saint Lazarus",
+   "stop": "Cebu, the cross on the shore",
+   "date": "1521-04-21",
+   "date_confidence": "attested for the planting of the cross on 21 April 1521 (Wikipedia, \"Magellan's Cross\"), for the tindalo casing of 1835 and the coral-stone pavilion of 1834, for the National Cultural Treasure declaration of 14 April 2021, and for the 2025 earthquake closure. Pigafetta's report that Magellan pressed converts to destroy their own religious objects is his own; the relic's physical continuity with 1521 is tradition rather than documented provenance.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276713.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.86,
+    "text": "Taurus 9°52′",
+    "longitude": 39.865
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Islands of Saint Lazarus",
+   "stop": "Mactan, the shallow water",
+   "date": "1521-04-27",
+   "date_confidence": "attested. Wikipedia, 'Battle of Mactan', citing Pigafetta: about sixty men, of whom forty-nine engaged and eleven stayed with the boats; the coral shallows holding the boats off; Magellan first struck by a poisoned arrow through his unarmoured legs, then speared in the arm and brought down by a kampilan. Research notes had omitted the poisoned arrow, which is Pigafetta's own detail and not a later accretion. Archival analysis cited in the research dossier holds that Magellan's royal instructions counselled avoiding unnecessary local conflict; that text was not fetched.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276719.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 15.66,
+    "text": "Taurus 15°40′",
+    "longitude": 45.658
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 12.18,
+    "text": "Capricornus 12°11′",
+    "longitude": 282.176
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 5.08,
+    "text": "Gemini 5°05′",
+    "longitude": 65.077
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 28.68,
+    "text": "Gemini 28°41′",
+    "longitude": 88.68
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 12.39,
+    "text": "Leo 12°23′",
+    "longitude": 132.387
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 22.55,
+    "text": "Sagittarius 22°33′",
+    "longitude": 262.554
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 15.01,
+    "text": "Aquarius 15°01′",
+    "longitude": 315.013
+   }
+  },
+  {
+   "segment": "What Came Back Without Him",
+   "stop": "Mactan, the body not given back",
+   "date": "1521-04-28",
+   "date_confidence": "attested that Lapulapu's side kept the bodies and refused Humabon's offer of merchandise in ransom, and that no account records what was done with them (Wikipedia, 'Battle of Mactan'). No grave has ever been identified. The 1866 Spanish-era obelisk, the 1969 national shrine declaration and the 1981 Lapulapu bronze are attested (Wikipedia, 'Mactan Shrine'). Coordinates are the Mactan Shrine complex.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276720.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 16.62,
+    "text": "Taurus 16°37′",
+    "longitude": 46.623
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 24.55,
+    "text": "Capricornus 24°33′",
+    "longitude": 294.545
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 6.62,
+    "text": "Gemini 6°37′",
+    "longitude": 66.619
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 29.78,
+    "text": "Gemini 29°47′",
+    "longitude": 89.778
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 12.83,
+    "text": "Leo 12°50′",
+    "longitude": 132.833
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 22.47,
+    "text": "Sagittarius 22°28′",
+    "longitude": 262.474
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 15.04,
+    "text": "Aquarius 15°03′",
+    "longitude": 315.044
+   }
+  },
+  {
+   "segment": "What Came Back Without Him",
+   "stop": "Cebu, the banquet",
+   "date": "1521-05-01",
+   "date_confidence": "attested for the killing of the expedition's surviving leaders, Duarte Barbosa and João Serrão among them, at Humabon's feast on 1 May 1521. Enrique's role is disputed in the sources and is not resolved here: Pigafetta has him survive the banquet, while Giovanni Battista Ramusio claimed he warned the chief that the Spaniards meant to seize the king. Research notes wrongly attributed that variant to Maximilianus Transylvanus; corrected. The banquet site itself is not independently located and the coordinates are the Cebu pin used above.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276723.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.51,
+    "text": "Taurus 19°31′",
+    "longitude": 49.512
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 3.44,
+    "text": "Pisces 3°26′",
+    "longitude": 333.435
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 10.89,
+    "text": "Gemini 10°53′",
+    "longitude": 70.887
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 3.05,
+    "text": "Cancer 3°03′",
+    "longitude": 93.054
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.19,
+    "text": "Leo 14°11′",
+    "longitude": 134.191
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 22.22,
+    "text": "Sagittarius 22°13′",
+    "longitude": 262.221
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 15.13,
+    "text": "Aquarius 15°08′",
+    "longitude": 315.126
+   }
+  },
+  {
+   "segment": "What Came Back Without Him",
+   "stop": "Tidore, the cloves he never saw",
+   "date": "1521-11-08",
+   "date_confidence": "posthumous: Magellan had been dead six and a half months and never reached this place. The stop is the fleet's, sailing under his commission, and is included as the geographic terminus of the enterprise he contracted for. The 8 November 1521 arrival at Tidore comes from the research dossier; the fetched Wikipedia article on Tidore confirms the island's sixteenth-century Spanish alliance but does not itself carry the date. The Moluccas arrival and the judgement that only Victoria was seaworthy for the return are attested (Wikipedia, 'Ferdinand Magellan').",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276914.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 25.16,
+    "text": "Scorpio 25°10′",
+    "longitude": 235.161
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What Came Back Without Him",
+   "stop": "Sanlúcar de Barrameda, the Victoria comes in",
+   "date": "1522-09-06",
+   "date_confidence": "posthumous, and not Magellan's own stop: the return belongs to Juan Sebastián Elcano and the surviving crew. Attested for the landfall at Sanlúcar on 6 September 1522 with eighteen European survivors (Wikipedia, 'Sanlúcar de Barrameda'; Wikipedia, 'Juan Sebastián Elcano'). Three Moluccans were also aboard, twenty-one in all reaching Seville. Coordinates inherited byte-identical from the atlas's existing Sanlúcar pin.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1522,
+   "jd_ut": 2277216.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 22.15,
+    "text": "Virgo 22°09′",
+    "longitude": 172.153
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 22.28,
+    "text": "Pisces 22°17′",
+    "longitude": 352.284
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 4.24,
+    "text": "Libra 4°14′",
+    "longitude": 184.239
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 19.55,
+    "text": "Libra 19°33′",
+    "longitude": 199.545
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 26.38,
+    "text": "Cancer 26°23′",
+    "longitude": 116.38
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.12,
+    "text": "Capricornus 17°07′",
+    "longitude": 287.122
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 21.78,
+    "text": "Aquarius 21°47′",
+    "longitude": 321.781
+   }
+  },
+  {
+   "segment": "What Came Back Without Him",
+   "stop": "Seville, the barefoot procession",
+   "date": "1522-09-08",
+   "date_confidence": "posthumous, and not Magellan's own stop. Attested that Victoria entered Seville on 8 September 1522 (Wikipedia, 'Juan Sebastián Elcano'). The penitential procession of the survivors is from the research dossier's general account and was not independently verified. Elcano's arms and the motto Primus circumdedisti me are standard and attested in the Elcano article. Coordinates are the Torre del Oro as a landmark proxy for the 1522 mooring, not a confirmed berth.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1522,
+   "jd_ut": 2277218.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 24.11,
+    "text": "Virgo 24°07′",
+    "longitude": 174.112
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 18.47,
+    "text": "Aries 18°28′",
+    "longitude": 18.466
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 2.48,
+    "text": "Libra 2°29′",
+    "longitude": 182.484
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 21.99,
+    "text": "Libra 22°00′",
+    "longitude": 201.992
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 27.59,
+    "text": "Cancer 27°35′",
+    "longitude": 117.591
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.14,
+    "text": "Capricornus 17°08′",
+    "longitude": 287.141
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 21.66,
+    "text": "Aquarius 21°40′",
+    "longitude": 321.665
+   }
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 18,
+  "month": 5,
+  "year": 21
+ },
+ "parse_failures": []
+}

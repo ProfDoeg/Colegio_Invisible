@@ -1,0 +1,1834 @@
+{
+ "slug": "el_inca_garcilaso_de_la_vega",
+ "traveler": "El Inca Garcilaso de la Vega (Gómez Suárez de Figueroa)",
+ "title": "The Knotted Cord and the Printed Page: Cusco, the Alpujarras, and the Mosque at Córdoba",
+ "years": "1539-1616",
+ "years_parsed": {
+  "first": 1539,
+  "last": 1616
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Cusco, the House of Two Conquests",
+  "stop": "Cusco, the birth in the house on Calle Garcilaso",
+  "date": "1539-04-12",
+  "date_confidence": "attested; the day is given by es.wikipedia and the RAH biographical dictionary",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1539,
+  "jd_ut": 2283278.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 0.8,
+   "text": "Taurus 0°48′",
+   "longitude": 30.797
+  },
+  "moon": {
+   "sign": "Aquarius",
+   "degree": 5.04,
+   "text": "Aquarius 5°03′",
+   "longitude": 305.044
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 8.24,
+   "text": "Aries 8°14′",
+   "longitude": 8.24
+  },
+  "venus": {
+   "sign": "Pisces",
+   "degree": 22.95,
+   "text": "Pisces 22°57′",
+   "longitude": 352.949
+  },
+  "mars": {
+   "sign": "Aries",
+   "degree": 24.41,
+   "text": "Aries 24°25′",
+   "longitude": 24.415
+  },
+  "jupiter": {
+   "sign": "Gemini",
+   "degree": 22.98,
+   "text": "Gemini 22°59′",
+   "longitude": 82.979
+  },
+  "saturn": {
+   "sign": "Virgo",
+   "degree": 26.71,
+   "text": "Virgo 26°43′",
+   "longitude": 176.71
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1539-1616",
+  "first_year_parsed": 1539
+ },
+ "stops": [
+  {
+   "segment": "Cusco, the House of Two Conquests",
+   "stop": "Cusco, the birth in the house on Calle Garcilaso",
+   "date": "1539-04-12",
+   "date_confidence": "attested; the day is given by es.wikipedia and the RAH biographical dictionary",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1539,
+   "jd_ut": 2283278.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 0.8,
+    "text": "Taurus 0°48′",
+    "longitude": 30.797
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 5.04,
+    "text": "Aquarius 5°03′",
+    "longitude": 305.044
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 8.24,
+    "text": "Aries 8°14′",
+    "longitude": 8.24
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 22.95,
+    "text": "Pisces 22°57′",
+    "longitude": 352.949
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 24.41,
+    "text": "Aries 24°25′",
+    "longitude": 24.415
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 22.98,
+    "text": "Gemini 22°59′",
+    "longitude": 82.979
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 26.71,
+    "text": "Virgo 26°43′",
+    "longitude": 176.71
+   }
+  },
+  {
+   "segment": "Cusco, the House of Two Conquests",
+   "stop": "Cusco, baptism on the plaza of Awkaypata",
+   "date": "1539-01-01",
+   "date_confidence": "year only, defaulted to January; no baptismal register is cited in any reachable source, and the church is identified by inference",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1539,
+   "jd_ut": 2283177.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.99,
+    "text": "Capricornus 19°59′",
+    "longitude": 289.986
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cusco, the House of Two Conquests",
+   "stop": "Cusco, the schoolroom of the conquistadors' sons",
+   "date": "1548-01-01",
+   "date_confidence": "year approximate; the sources give the schooling as a period of the later 1540s, not a dated event",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1548,
+   "jd_ut": 2286464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.8,
+    "text": "Capricornus 19°48′",
+    "longitude": 289.798
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cusco, the House of Two Conquests",
+   "stop": "Charcas, a season among southern kin",
+   "date": "1550-01-01",
+   "date_confidence": "traditional; the episode is undated and rests on biographical reconstruction rather than any document",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1550,
+   "jd_ut": 2287195.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.32,
+    "text": "Capricornus 20°19′",
+    "longitude": 290.322
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cusco, the House of Two Conquests",
+   "stop": "Cusco, the question put to his uncle",
+   "date": "1552-01-01",
+   "date_confidence": "inferred; Garcilaso sets the scene in his boyhood without a year, and the date here brackets his adolescence in Cusco",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1552,
+   "jd_ut": 2287925.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.83,
+    "text": "Capricornus 19°50′",
+    "longitude": 289.827
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cusco, the House of Two Conquests",
+   "stop": "Cusco, the rebellion of Francisco Hernández Girón",
+   "date": "1553-01-01",
+   "date_confidence": "attested to 1553-1554; the month of his own part in it is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1553,
+   "jd_ut": 2288291.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.6,
+    "text": "Capricornus 20°36′",
+    "longitude": 290.598
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cusco, the House of Two Conquests",
+   "stop": "Cusco, secretary to the corregidor",
+   "date": "1554-01-01",
+   "date_confidence": "attested to the year of his father's appointment; no dated act names the son as secretary",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1554,
+   "jd_ut": 2288656.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.35,
+    "text": "Capricornus 20°21′",
+    "longitude": 290.351
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cusco, the House of Two Conquests",
+   "stop": "Cusco, the father's death and the four thousand pesos",
+   "date": "1559-01-01",
+   "date_confidence": "year attested; the day is not given in the reachable sources",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1559,
+   "jd_ut": 2290482.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.13,
+    "text": "Capricornus 20°08′",
+    "longitude": 290.133
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Lima, the last Peruvian city",
+   "date": "1560-01-01",
+   "date_confidence": "attested to the turn of 1559-1560; the stay is undated",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1560,
+   "jd_ut": 2290847.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.89,
+    "text": "Capricornus 19°53′",
+    "longitude": 289.886
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Callao, aboard for Panama",
+   "date": "1560-01-20",
+   "date_confidence": "attested; es.wikipedia dates the departure to 20 January 1560, en.wikipedia gives only the year",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1560,
+   "jd_ut": 2290866.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 9.2,
+    "text": "Aquarius 9°12′",
+    "longitude": 309.2
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Isla Gorgona, the wreck not quite taken",
+   "date": "1560-01-01",
+   "date_confidence": "year only, defaulted to January; the leg is placed by the ordinary route of the 1560 fleets rather than by his own testimony",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1560,
+   "jd_ut": 2290847.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.89,
+    "text": "Capricornus 19°53′",
+    "longitude": 289.886
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Panamá Viejo, the isthmus on foot",
+   "date": "1560-01-01",
+   "date_confidence": "year only, defaulted to January; reconstructed from the standard Peru-Spain route rather than from a document naming him",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1560,
+   "jd_ut": 2290847.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.89,
+    "text": "Capricornus 19°53′",
+    "longitude": 289.886
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Nombre de Dios, the fever port",
+   "date": "1560-01-01",
+   "date_confidence": "year only, defaulted to January; reconstructed from the fleet route, not from his own account",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1560,
+   "jd_ut": 2290847.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.89,
+    "text": "Capricornus 19°53′",
+    "longitude": 289.886
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Cartagena de Indias, the convoy assembles",
+   "date": "1560-01-01",
+   "date_confidence": "year only, defaulted to January; the stop is attested for the voyage but undated",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1560,
+   "jd_ut": 2290847.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "undated",
+    "year only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.89,
+    "text": "Capricornus 19°53′",
+    "longitude": 289.886
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Lisbon, the Tagus landfall",
+   "date": "1560-01-01",
+   "date_confidence": "year only, defaulted to January; the landfall port itself is contested, Lisbon in one account and Sanlúcar de Barrameda in another",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1560,
+   "jd_ut": 2290847.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.89,
+    "text": "Capricornus 19°53′",
+    "longitude": 289.886
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Petitioner",
+   "stop": "Seville, the gate of the Indies",
+   "date": "1561-01-01",
+   "date_confidence": "attested to 1560-1561; the length of the stay is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1561,
+   "jd_ut": 2291213.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.66,
+    "text": "Capricornus 20°39′",
+    "longitude": 290.657
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Petitioner",
+   "stop": "Montilla, the house of Alonso de Vargas",
+   "date": "1561-01-01",
+   "date_confidence": "attested to 1561 as the start of a residence lasting, on and off, until 1591",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1561,
+   "jd_ut": 2291213.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.66,
+    "text": "Capricornus 20°39′",
+    "longitude": 290.657
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Petitioner",
+   "stop": "Madrid, before the Council of the Indies",
+   "date": "1562-01-01",
+   "date_confidence": "attested to the period 1561-1563; the individual hearings are not separately dated in reachable sources",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1562,
+   "jd_ut": 2291578.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.41,
+    "text": "Capricornus 20°25′",
+    "longitude": 290.41
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Petitioner",
+   "stop": "Montilla, the taking of the name",
+   "date": "1563-01-01",
+   "date_confidence": "traditional; the change is placed around 1563 without a documented act",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1563,
+   "jd_ut": 2291943.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.16,
+    "text": "Capricornus 20°10′",
+    "longitude": 290.162
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Alpujarras",
+   "stop": "Granada, the muster under Don Juan de Austria",
+   "date": "1569-01-01",
+   "date_confidence": "es.wikipedia dates the campaign to 1569, en.wikipedia dates his entry into service to 1570; the year of entry is contested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1569,
+   "jd_ut": 2294135.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.72,
+    "text": "Capricornus 20°43′",
+    "longitude": 290.716
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Alpujarras",
+   "stop": "Órgiva, the valleys of the rebellion",
+   "date": "1569-01-01",
+   "date_confidence": "inferred; his presence in these particular valleys follows from the campaign's geography and no muster roll names him there",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1569,
+   "jd_ut": 2294135.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.72,
+    "text": "Capricornus 20°43′",
+    "longitude": 290.716
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Alpujarras",
+   "stop": "Galera, the town razed",
+   "date": "1570-02-10",
+   "date_confidence": "the siege is attested to 10 February 1570; Garcilaso's personal presence at it is not documented",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1570,
+   "jd_ut": 2294540.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 0.98,
+    "text": "Pisces 0°59′",
+    "longitude": 330.984
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 27.01,
+    "text": "Aries 27°00′",
+    "longitude": 27.006
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 24.55,
+    "text": "Aquarius 24°33′",
+    "longitude": 324.553
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 7.51,
+    "text": "Aquarius 7°30′",
+    "longitude": 307.506
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 5.88,
+    "text": "Virgo 5°53′",
+    "longitude": 155.877
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.85,
+    "text": "Aquarius 2°51′",
+    "longitude": 302.851
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 21.29,
+    "text": "Libra 21°17′",
+    "longitude": 201.289
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Montilla, the Long Apprenticeship",
+   "stop": "Montilla, the death of Alonso de Vargas",
+   "date": "1570-01-01",
+   "date_confidence": "attested to 1570; es.wikipedia gives a 1570-1571 window in which he learned of this death and his mother's",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1570,
+   "jd_ut": 2294500.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.47,
+    "text": "Capricornus 20°28′",
+    "longitude": 290.468
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Montilla, the Long Apprenticeship",
+   "stop": "Cusco, the death of Isabel Chimpu Ocllo",
+   "date": "1571-01-01",
+   "date_confidence": "year attested by es.wikipedia's article on Chimpu Ocllo; the day is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1571,
+   "jd_ut": 2294865.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.22,
+    "text": "Capricornus 20°13′",
+    "longitude": 290.221
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Montilla, the Long Apprenticeship",
+   "stop": "Montilla, the Dialoghi finished",
+   "date": "1586-01-01",
+   "date_confidence": "attested to 1586 as the completion of the manuscript; the printing follows four years later",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1586,
+   "jd_ut": 2300344.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.59,
+    "text": "Capricornus 20°35′",
+    "longitude": 290.586
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Montilla, the Long Apprenticeship",
+   "stop": "Montilla, a son by Beatriz de Vega",
+   "date": "1590-01-01",
+   "date_confidence": "the birth year is given as 1590 in en.wikipedia and is not independently confirmed; an earlier son, of uncertain name and fate, is placed around 1570",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1590,
+   "jd_ut": 2301805.5,
+   "precision": "year",
+   "precision_triggers": [
+    "uncertain",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.62,
+    "text": "Capricornus 20°37′",
+    "longitude": 290.615
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Montilla, the Long Apprenticeship",
+   "stop": "Madrid, the first book printed",
+   "date": "1590-01-01",
+   "date_confidence": "attested to 1590; the month of the imprint is not given in the reachable sources",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1590,
+   "jd_ut": 2301805.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.62,
+    "text": "Capricornus 20°37′",
+    "longitude": 290.615
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, and the Papers That Come Back",
+   "stop": "Córdoba, the permanent move",
+   "date": "1591-01-01",
+   "date_confidence": "attested to 1591; the month is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1591,
+   "jd_ut": 2302170.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.37,
+    "text": "Capricornus 20°22′",
+    "longitude": 290.368
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, and the Papers That Come Back",
+   "stop": "Córdoba, Gonzalo Silvestre at his table",
+   "date": "1595-01-01",
+   "date_confidence": "inferred; the interviews are attested by the prologue of La Florida but run across years without dates",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1595,
+   "jd_ut": 2303631.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.4,
+    "text": "Capricornus 20°24′",
+    "longitude": 290.397
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, and the Papers That Come Back",
+   "stop": "Santa Cruz, a son lost with Mendaña",
+   "date": "1595-01-01",
+   "date_confidence": "the voyage and Mendaña's death at Santa Cruz in October 1595 are attested; the paternity of the man named is not",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1595,
+   "jd_ut": 2303631.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.4,
+    "text": "Capricornus 20°24′",
+    "longitude": 290.397
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, and the Papers That Come Back",
+   "stop": "Córdoba, the Genealogía de Garci Pérez de Vargas",
+   "date": "1596-01-01",
+   "date_confidence": "attested to 1596; the work stayed in manuscript until the twentieth century",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1596,
+   "jd_ut": 2303996.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.15,
+    "text": "Capricornus 20°09′",
+    "longitude": 290.15
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, and the Papers That Come Back",
+   "stop": "Córdoba, the papers of Blas Valera arrive",
+   "date": "1600-01-01",
+   "date_confidence": "traditional; the delivery is dated to about 1600, three years after Valera's death at Málaga",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1600,
+   "jd_ut": 2305457.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.18,
+    "text": "Capricornus 20°11′",
+    "longitude": 290.179
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, and the Papers That Come Back",
+   "stop": "Lisbon, La Florida del Inca printed",
+   "date": "1605-01-01",
+   "date_confidence": "attested by the title page imprint; the month is not given",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1605,
+   "jd_ut": 2307284.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.98,
+    "text": "Capricornus 20°59′",
+    "longitude": 290.98
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba, and the Papers That Come Back",
+   "stop": "Lisbon, the Comentarios Reales printed",
+   "date": "1609-01-01",
+   "date_confidence": "attested by the title page imprint; the month is not given",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1609,
+   "jd_ut": 2308745.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 21.01,
+    "text": "Capricornus 21°01′",
+    "longitude": 291.009
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chapel of the Souls",
+   "stop": "Córdoba, the chapel of Las Ánimas bought",
+   "date": "1612-01-01",
+   "date_confidence": "attested to 1612; the month is not recorded",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1612,
+   "jd_ut": 2309840.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.27,
+    "text": "Capricornus 20°16′",
+    "longitude": 290.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chapel of the Souls",
+   "stop": "Córdoba, the second part finished",
+   "date": "1613-01-01",
+   "date_confidence": "es.wikipedia dates the completion to about 1613; one summary gives 1612, which appears to be a conflation with the chapel purchase",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1613,
+   "jd_ut": 2310206.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 21.04,
+    "text": "Capricornus 21°02′",
+    "longitude": 291.039
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chapel of the Souls",
+   "stop": "Córdoba, the death",
+   "date": "1616-04-22",
+   "date_confidence": "the tomb inscription reads 'Fallecio a 22 de abril de 1616'; 23 April is the conventionally cited day and en.wikipedia gives it, es.wikipedia gives a 22-24 April range",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1616,
+   "jd_ut": 2311413.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.82,
+    "text": "Taurus 11°49′",
+    "longitude": 41.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chapel of the Souls",
+   "stop": "Mezquita-Catedral, the burial under the arches",
+   "date": "1616-04-23",
+   "date_confidence": "the burial day is not recorded in any reachable source; placed immediately after the death the epitaph dates to 22 April 1616",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian and the date is after 1582-10-15 but within the life span: read as Julian as declared; Gregorian alternative given",
+   "astronomical_year": 1616,
+   "jd_ut": 2311414.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 12.78,
+    "text": "Taurus 12°47′",
+    "longitude": 42.782
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chapel of the Souls",
+   "stop": "Córdoba, the Historia General del Perú printed",
+   "date": "1617-01-01",
+   "date_confidence": "attested by the title page imprint, a year after the author's death",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1617,
+   "jd_ut": 2311657.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.88,
+    "text": "Capricornus 10°53′",
+    "longitude": 280.877
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What the Book Did After Him",
+   "stop": "London, the Royal Commentaries in English",
+   "date": "1688-01-01",
+   "date_confidence": "catalogues disagree: the Paul Rycaut entry gives 1688, one Wikipedia article gives 1685; the same article carries a demonstrably wrong date elsewhere",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1688,
+   "jd_ut": 2337589.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.63,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.633
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What the Book Did After Him",
+   "stop": "Lima, the book forbidden",
+   "date": "1782-01-01",
+   "date_confidence": "attested to 1782, following the Túpac Amaru II rebellion of 1780-81; one extraction gave 1758 for the rising, which is wrong",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1782,
+   "jd_ut": 2371922.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What the Book Did After Him",
+   "stop": "Lima, the university takes his name",
+   "date": "1964-12-21",
+   "date_confidence": "es.wikipedia gives 21 December 1964; en.wikipedia gives 1965",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1964,
+   "jd_ut": 2438750.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 29.17,
+    "text": "Sagittarius 29°10′",
+    "longitude": 269.171
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 25.93,
+    "text": "Cancer 25°56′",
+    "longitude": 115.929
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 24.09,
+    "text": "Sagittarius 24°05′",
+    "longitude": 264.086
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 2.14,
+    "text": "Sagittarius 2°08′",
+    "longitude": 242.14
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 20.32,
+    "text": "Virgo 20°19′",
+    "longitude": 170.32
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 16.8,
+    "text": "Taurus 16°48′",
+    "longitude": 46.797
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 0.27,
+    "text": "Pisces 0°16′",
+    "longitude": 330.266
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "What the Book Did After Him",
+   "stop": "Rome, the statue by the Villa Borghese",
+   "date": "1967-01-01",
+   "date_confidence": "year attested; the month of the unveiling is not given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1967,
+   "jd_ut": 2439491.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What the Book Did After Him",
+   "stop": "Buenos Aires, the companion statue",
+   "date": "1973-01-01",
+   "date_confidence": "year attested; the month is not given",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1973,
+   "jd_ut": 2441683.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.439
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What the Book Did After Him",
+   "stop": "Cusco Cathedral, the ashes returned",
+   "date": "1978-11-25",
+   "date_confidence": "attested to 25 November 1978",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1978,
+   "jd_ut": 2443837.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 2.36,
+    "text": "Sagittarius 2°22′",
+    "longitude": 242.364
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 25.79,
+    "text": "Virgo 25°47′",
+    "longitude": 175.791
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 21.57,
+    "text": "Sagittarius 21°34′",
+    "longitude": 261.569
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 7.6,
+    "text": "Scorpio 7°36′",
+    "longitude": 217.595
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 16.74,
+    "text": "Sagittarius 16°44′",
+    "longitude": 256.739
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 9.06,
+    "text": "Leo 9°04′",
+    "longitude": 129.064
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 13.26,
+    "text": "Virgo 13°16′",
+    "longitude": 163.259
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 4,
+  "month": 1,
+  "year": 40
+ },
+ "parse_failures": []
+}

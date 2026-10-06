@@ -1,0 +1,1836 @@
+{
+ "slug": "blavatsky",
+ "traveler": "Helena Petrovna Blavatsky",
+ "title": "Yekaterinoslav to London: The Wanderings of the Sphinx of the Nineteenth Century",
+ "years": "1831-1891",
+ "years_parsed": {
+  "first": 1831,
+  "last": 1891
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Child of Visions",
+  "stop": "Yekaterinoslav, the Fadeyev house, on the night of the cholera",
+  "date": "1831-08-12",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1831,
+  "jd_ut": 2390041.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Leo",
+   "degree": 18.5,
+   "text": "Leo 18°30′",
+   "longitude": 138.497
+  },
+  "moon": {
+   "sign": "Libra",
+   "degree": 9.54,
+   "text": "Libra 9°33′",
+   "longitude": 189.544
+  },
+  "mercury": {
+   "sign": "Virgo",
+   "degree": 9.26,
+   "text": "Virgo 9°16′",
+   "longitude": 159.262
+  },
+  "venus": {
+   "sign": "Libra",
+   "degree": 3.55,
+   "text": "Libra 3°33′",
+   "longitude": 183.547
+  },
+  "mars": {
+   "sign": "Virgo",
+   "degree": 2.85,
+   "text": "Virgo 2°51′",
+   "longitude": 152.848
+  },
+  "jupiter": {
+   "sign": "Aquarius",
+   "degree": 17.31,
+   "text": "Aquarius 17°19′",
+   "longitude": 317.309
+  },
+  "saturn": {
+   "sign": "Virgo",
+   "degree": 3.11,
+   "text": "Virgo 3°07′",
+   "longitude": 153.11
+  },
+  "conjunctions": [
+   {
+    "sign": "Virgo",
+    "bodies": [
+     "Mercury",
+     "Mars",
+     "Saturn"
+    ]
+   }
+  ],
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1831-1891",
+  "first_year_parsed": 1831
+ },
+ "stops": [
+  {
+   "segment": "The Child of Visions",
+   "stop": "Yekaterinoslav, the Fadeyev house, on the night of the cholera",
+   "date": "1831-08-12",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390041.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 18.5,
+    "text": "Leo 18°30′",
+    "longitude": 138.497
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 9.54,
+    "text": "Libra 9°33′",
+    "longitude": 189.544
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 9.26,
+    "text": "Virgo 9°16′",
+    "longitude": 159.262
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 3.55,
+    "text": "Libra 3°33′",
+    "longitude": 183.547
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 2.85,
+    "text": "Virgo 2°51′",
+    "longitude": 152.848
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 17.31,
+    "text": "Aquarius 17°19′",
+    "longitude": 317.309
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 3.11,
+    "text": "Virgo 3°07′",
+    "longitude": 153.11
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Mercury",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Child of Visions",
+   "stop": "Saratov, the subterranean corridors and the invisible playmates",
+   "date": "1841-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1841,
+   "jd_ut": 2393622.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.28,
+    "text": "Gemini 10°17′",
+    "longitude": 70.279
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Child of Visions",
+   "stop": "Tiflis, the betrothal to the vice-governor",
+   "date": "1848-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396209.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.22,
+    "text": "Cancer 9°13′",
+    "longitude": 99.216
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Child of Visions",
+   "stop": "Djelal-Oghlu, the marriage fled",
+   "date": "1849-07-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396580.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 14.71,
+    "text": "Cancer 14°42′",
+    "longitude": 104.705
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 0.63,
+    "text": "Aquarius 0°38′",
+    "longitude": 300.633
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 4.89,
+    "text": "Cancer 4°54′",
+    "longitude": 94.894
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 0.05,
+    "text": "Gemini 0°03′",
+    "longitude": 60.047
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 6.47,
+    "text": "Taurus 6°28′",
+    "longitude": 36.466
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 22.66,
+    "text": "Leo 22°40′",
+    "longitude": 142.664
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 7.76,
+    "text": "Aries 7°45′",
+    "longitude": 7.757
+   }
+  },
+  {
+   "segment": "The Master in Hyde Park",
+   "stop": "Constantinople, the first freedom",
+   "date": "1849-09-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396636.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.41,
+    "text": "Virgo 8°24′",
+    "longitude": 158.406
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Master in Hyde Park",
+   "stop": "London, Hyde Park: the Master Morya in the flesh",
+   "date": "1851-08-12",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397346.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 18.66,
+    "text": "Leo 18°39′",
+    "longitude": 138.656
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Master in Hyde Park",
+   "stop": "New Orleans and the voodoo of the bayous",
+   "date": "1851-12-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397457.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.25,
+    "text": "Sagittarius 8°15′",
+    "longitude": 248.253
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Master in Hyde Park",
+   "stop": "The Andes and the ruins of Peru",
+   "date": "1852-04-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397579.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.44,
+    "text": "Aries 11°26′",
+    "longitude": 11.438
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Veiled Years Beyond the Himalaya",
+   "stop": "Darjeeling, the border barred",
+   "date": "1854-09-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1854,
+   "jd_ut": 2398462.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.2,
+    "text": "Virgo 8°12′",
+    "longitude": 158.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Veiled Years Beyond the Himalaya",
+   "stop": "Kashmir, into Tibet with the Tartar shaman",
+   "date": "1856-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399101.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.64,
+    "text": "Gemini 10°38′",
+    "longitude": 70.637
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Veiled Years Beyond the Himalaya",
+   "stop": "Mentana, five wounds for Garibaldi",
+   "date": "1867-11-03",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403273.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 10.13,
+    "text": "Scorpio 10°08′",
+    "longitude": 220.127
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Veiled Years Beyond the Himalaya",
+   "stop": "Shigatse, the ashram of the Masters near Tashilhunpo",
+   "date": "1868-10-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403606.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.09,
+    "text": "Libra 8°05′",
+    "longitude": 188.089
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Veiled Years Beyond the Himalaya",
+   "stop": "Shigatse, the Master's letter to the family at Odessa",
+   "date": "1870-11-11",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404377.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 18.44,
+    "text": "Scorpio 18°26′",
+    "longitude": 228.436
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Spiritualist Storms",
+   "stop": "Off Spetsai, the wreck of the Eumonia",
+   "date": "1871-07-04",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 11.54,
+    "text": "Cancer 11°33′",
+    "longitude": 101.545
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Spiritualist Storms",
+   "stop": "Cairo, the Société Spirite founders in scandal",
+   "date": "1871-11-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404732.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.15,
+    "text": "Scorpio 8°09′",
+    "longitude": 218.153
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The American Founding",
+   "stop": "New York, landing penniless at the Master's order",
+   "date": "1873-07-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405346.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 14.9,
+    "text": "Cancer 14°54′",
+    "longitude": 104.897
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 1.96,
+    "text": "Sagittarius 1°58′",
+    "longitude": 241.96
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 9.64,
+    "text": "Leo 9°38′",
+    "longitude": 129.64
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 29.53,
+    "text": "Taurus 29°32′",
+    "longitude": 59.526
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 3.25,
+    "text": "Scorpio 3°15′",
+    "longitude": 213.252
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 29.81,
+    "text": "Leo 29°48′",
+    "longitude": 149.807
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.16,
+    "text": "Aquarius 0°10′",
+    "longitude": 300.161
+   }
+  },
+  {
+   "segment": "The American Founding",
+   "stop": "Chittenden, Vermont: the meeting with Olcott at the Eddy farm",
+   "date": "1874-10-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405810.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 20.49,
+    "text": "Libra 20°29′",
+    "longitude": 200.487
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 28.76,
+    "text": "Scorpio 28°46′",
+    "longitude": 238.759
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 12.67,
+    "text": "Scorpio 12°40′",
+    "longitude": 222.665
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 6.12,
+    "text": "Sagittarius 6°07′",
+    "longitude": 246.116
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 17.45,
+    "text": "Virgo 17°27′",
+    "longitude": 167.448
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.92,
+    "text": "Libra 13°55′",
+    "longitude": 193.917
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 7.33,
+    "text": "Aquarius 7°20′",
+    "longitude": 307.33
+   }
+  },
+  {
+   "segment": "The American Founding",
+   "stop": "New York, the founding of the Theosophical Society",
+   "date": "1875-09-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2406139.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 14.92,
+    "text": "Virgo 14°55′",
+    "longitude": 164.917
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 15.99,
+    "text": "Sagittarius 15°59′",
+    "longitude": 255.987
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 29.15,
+    "text": "Virgo 29°09′",
+    "longitude": 179.154
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 10.8,
+    "text": "Virgo 10°48′",
+    "longitude": 160.801
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 3.16,
+    "text": "Capricornus 3°10′",
+    "longitude": 273.163
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 0.1,
+    "text": "Scorpio 0°06′",
+    "longitude": 210.1
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 20.7,
+    "text": "Aquarius 20°42′",
+    "longitude": 320.696
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The American Founding",
+   "stop": "The Lamasery: Isis Unveiled written under dictation",
+   "date": "1877-09-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406891.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 5.95,
+    "text": "Libra 5°57′",
+    "longitude": 185.945
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 20.03,
+    "text": "Gemini 20°02′",
+    "longitude": 80.032
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 1.74,
+    "text": "Libra 1°44′",
+    "longitude": 181.738
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 13.29,
+    "text": "Scorpio 13°17′",
+    "longitude": 223.288
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 8.72,
+    "text": "Pisces 8°43′",
+    "longitude": 338.723
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 26.18,
+    "text": "Sagittarius 26°11′",
+    "longitude": 266.181
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 15.11,
+    "text": "Pisces 15°07′",
+    "longitude": 345.11
+   }
+  },
+  {
+   "segment": "The Indian Headquarters",
+   "stop": "Bombay, the Founders arrive in the land of the Masters",
+   "date": "1879-02-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407396.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 26.99,
+    "text": "Aquarius 26°59′",
+    "longitude": 326.988
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 25.22,
+    "text": "Sagittarius 25°13′",
+    "longitude": 265.224
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 14.49,
+    "text": "Aquarius 14°29′",
+    "longitude": 314.491
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 14.21,
+    "text": "Pisces 14°12′",
+    "longitude": 344.205
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 7.78,
+    "text": "Capricornus 7°47′",
+    "longitude": 277.785
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 21.41,
+    "text": "Aquarius 21°25′",
+    "longitude": 321.413
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 0.75,
+    "text": "Aries 0°45′",
+    "longitude": 0.755
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Indian Headquarters",
+   "stop": "Allahabad and the meeting of Sinnett and Hume",
+   "date": "1879-12-04",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407687.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 11.51,
+    "text": "Sagittarius 11°30′",
+    "longitude": 251.505
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Indian Headquarters",
+   "stop": "Kandy, Ceylon: taking the Buddhist pansil",
+   "date": "1880-05-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407860.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 4.12,
+    "text": "Gemini 4°07′",
+    "longitude": 64.117
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 14.42,
+    "text": "Sagittarius 14°25′",
+    "longitude": 254.416
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 24.03,
+    "text": "Taurus 24°02′",
+    "longitude": 54.026
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 20.53,
+    "text": "Taurus 20°32′",
+    "longitude": 50.53
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 25.32,
+    "text": "Cancer 25°19′",
+    "longitude": 115.316
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 11.57,
+    "text": "Aries 11°34′",
+    "longitude": 11.569
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 24.07,
+    "text": "Aries 24°04′",
+    "longitude": 24.071
+   }
+  },
+  {
+   "segment": "The Indian Headquarters",
+   "stop": "Simla, the phenomena of the brooch and the cup",
+   "date": "1880-10-03",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407991.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 10.15,
+    "text": "Libra 10°09′",
+    "longitude": 190.152
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Indian Headquarters",
+   "stop": "Sikkim, the Master seen in the mountains",
+   "date": "1882-10-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408719.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.71,
+    "text": "Libra 7°42′",
+    "longitude": 187.706
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Indian Headquarters",
+   "stop": "Adyar, the headquarters and the Shrine",
+   "date": "1882-12-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408798.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 27.04,
+    "text": "Sagittarius 27°02′",
+    "longitude": 267.036
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 14.18,
+    "text": "Aries 14°11′",
+    "longitude": 14.175
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 28.04,
+    "text": "Sagittarius 28°03′",
+    "longitude": 268.045
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 8.24,
+    "text": "Sagittarius 8°14′",
+    "longitude": 248.241
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 24.85,
+    "text": "Sagittarius 24°51′",
+    "longitude": 264.85
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 26.26,
+    "text": "Gemini 26°16′",
+    "longitude": 86.261
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 20.02,
+    "text": "Taurus 20°01′",
+    "longitude": 50.022
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Coulomb Trial and the Verdict of the Age",
+   "stop": "Paris, the Master's hand across Europe",
+   "date": "1884-03-28",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409263.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 7.74,
+    "text": "Aries 7°44′",
+    "longitude": 7.736
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Coulomb Trial and the Verdict of the Age",
+   "stop": "Adyar, the trapdoors behind the Shrine",
+   "date": "1884-05-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409311.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 24.53,
+    "text": "Taurus 24°32′",
+    "longitude": 54.534
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 17.43,
+    "text": "Capricornus 17°26′",
+    "longitude": 287.427
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 28.99,
+    "text": "Taurus 28°59′",
+    "longitude": 58.986
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 9.37,
+    "text": "Cancer 9°22′",
+    "longitude": 99.372
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 19.9,
+    "text": "Leo 19°54′",
+    "longitude": 139.898
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 28.92,
+    "text": "Cancer 28°55′",
+    "longitude": 118.916
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 10.96,
+    "text": "Gemini 10°57′",
+    "longitude": 70.957
+   }
+  },
+  {
+   "segment": "The Coulomb Trial and the Verdict of the Age",
+   "stop": "Adyar, Hodgson comes to judge",
+   "date": "1884-12-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409532.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 0.62,
+    "text": "Capricornus 0°37′",
+    "longitude": 270.616
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 19.35,
+    "text": "Aquarius 19°21′",
+    "longitude": 319.347
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 20.02,
+    "text": "Capricornus 20°01′",
+    "longitude": 290.023
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 28.38,
+    "text": "Scorpio 28°23′",
+    "longitude": 238.376
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 12.63,
+    "text": "Capricornus 12°38′",
+    "longitude": 282.631
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 5.82,
+    "text": "Virgo 5°49′",
+    "longitude": 155.817
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 19.87,
+    "text": "Gemini 19°52′",
+    "longitude": 79.871
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Coulomb Trial and the Verdict of the Age",
+   "stop": "London, the SPR verdict: 'one of the most accomplished impostors'",
+   "date": "1885-12-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409876.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.01,
+    "text": "Sagittarius 9°01′",
+    "longitude": 249.013
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Secret Doctrine and the Last Disciples",
+   "stop": "Würzburg, the Secret Doctrine begun",
+   "date": "1885-12-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409876.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.01,
+    "text": "Sagittarius 9°01′",
+    "longitude": 249.013
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Secret Doctrine and the Last Disciples",
+   "stop": "Ostend, the coma and the choice to live",
+   "date": "1887-03-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410345.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 24.12,
+    "text": "Pisces 24°07′",
+    "longitude": 354.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Secret Doctrine and the Last Disciples",
+   "stop": "London, Lansdowne Road: The Secret Doctrine published",
+   "date": "1888-10-20",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410930.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 27.05,
+    "text": "Libra 27°03′",
+    "longitude": 207.052
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 28.36,
+    "text": "Aries 28°22′",
+    "longitude": 28.359
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 17.8,
+    "text": "Scorpio 17°48′",
+    "longitude": 227.797
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 23.54,
+    "text": "Scorpio 23°32′",
+    "longitude": 233.541
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 27.45,
+    "text": "Sagittarius 27°27′",
+    "longitude": 267.45
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 6.6,
+    "text": "Sagittarius 6°36′",
+    "longitude": 246.597
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 18.85,
+    "text": "Leo 18°51′",
+    "longitude": 138.855
+   }
+  },
+  {
+   "segment": "The Secret Doctrine and the Last Disciples",
+   "stop": "London, the Esoteric Section and the inner school",
+   "date": "1888-11-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410942.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.03,
+    "text": "Scorpio 9°02′",
+    "longitude": 219.033
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Secret Doctrine and the Last Disciples",
+   "stop": "London, Annie Besant crosses over",
+   "date": "1889-05-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411132.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.51,
+    "text": "Taurus 19°31′",
+    "longitude": 49.51
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 9.65,
+    "text": "Virgo 9°39′",
+    "longitude": 159.653
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 5.6,
+    "text": "Gemini 5°36′",
+    "longitude": 65.604
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 5.74,
+    "text": "Taurus 5°45′",
+    "longitude": 35.742
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 0.08,
+    "text": "Gemini 0°05′",
+    "longitude": 60.083
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.0,
+    "text": "Capricornus 8°00′",
+    "longitude": 278.005
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 14.09,
+    "text": "Leo 14°05′",
+    "longitude": 134.09
+   }
+  },
+  {
+   "segment": "The Secret Doctrine and the Last Disciples",
+   "stop": "Fontainebleau: the Voice of the Silence",
+   "date": "1889-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411184.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.31,
+    "text": "Cancer 9°18′",
+    "longitude": 99.305
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Keep the Link Unbroken",
+   "stop": "London, Avenue Road: 'Keep the link unbroken'",
+   "date": "1891-05-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411860.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 17.11,
+    "text": "Taurus 17°07′",
+    "longitude": 47.11
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 13.65,
+    "text": "Taurus 13°39′",
+    "longitude": 43.655
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 20.4,
+    "text": "Taurus 20°24′",
+    "longitude": 50.404
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 12.54,
+    "text": "Aries 12°32′",
+    "longitude": 12.535
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 12.16,
+    "text": "Gemini 12°09′",
+    "longitude": 72.156
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 12.66,
+    "text": "Pisces 12°39′",
+    "longitude": 342.657
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 10.47,
+    "text": "Virgo 10°28′",
+    "longitude": 160.473
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Keep the Link Unbroken",
+   "stop": "Oxford, Max Müller and the East that answers back",
+   "date": "1893-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412584.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.83,
+    "text": "Taurus 10°50′",
+    "longitude": 40.832
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Keep the Link Unbroken",
+   "stop": "Berlin, Steiner turns the stream to the West",
+   "date": "1902-10-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2416041.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.67,
+    "text": "Libra 24°40′",
+    "longitude": 204.672
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 18.07,
+    "text": "Taurus 18°04′",
+    "longitude": 48.073
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 26.47,
+    "text": "Libra 26°28′",
+    "longitude": 206.465
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 14.36,
+    "text": "Libra 14°22′",
+    "longitude": 194.359
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 27.11,
+    "text": "Leo 27°07′",
+    "longitude": 147.112
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 7.74,
+    "text": "Aquarius 7°44′",
+    "longitude": 307.741
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 21.51,
+    "text": "Capricornus 21°30′",
+    "longitude": 291.506
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Keep the Link Unbroken",
+   "stop": "Adyar, the ashes return; the link held",
+   "date": "1925-05-08",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424278.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 16.89,
+    "text": "Taurus 16°54′",
+    "longitude": 46.893
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Keep the Link Unbroken",
+   "stop": "The esoteric descent, Savitri Devi and Miguel Serrano",
+   "date": "1945-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431607.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.15,
+    "text": "Gemini 10°09′",
+    "longitude": 70.147
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 40,
+  "dated": 40,
+  "unparsed": 0,
+  "day": 15,
+  "month": 4,
+  "year": 21
+ },
+ "parse_failures": []
+}

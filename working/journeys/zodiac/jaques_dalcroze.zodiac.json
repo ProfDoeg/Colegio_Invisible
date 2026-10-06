@@ -1,0 +1,1560 @@
+{
+ "slug": "jaques_dalcroze",
+ "traveler": "Émile Jaques-Dalcroze",
+ "title": "The Rhythm and the Silence: Vienna to Geneva by way of Hellerau",
+ "years": "1865-1950",
+ "years_parsed": {
+  "first": 1865,
+  "last": 1950
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Vienna and the Return to Geneva",
+  "stop": "Vienna, birth in the clockmaker's household",
+  "date": "1865-07-06",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1865,
+  "jd_ut": 2402423.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Cancer",
+   "degree": 13.88,
+   "text": "Cancer 13°53′",
+   "longitude": 103.88
+  },
+  "moon": {
+   "sign": "Sagittarius",
+   "degree": 8.91,
+   "text": "Sagittarius 8°55′",
+   "longitude": 248.911
+  },
+  "mercury": {
+   "sign": "Cancer",
+   "degree": 18.86,
+   "text": "Cancer 18°51′",
+   "longitude": 108.856
+  },
+  "venus": {
+   "sign": "Taurus",
+   "degree": 28.78,
+   "text": "Taurus 28°47′",
+   "longitude": 58.783
+  },
+  "mars": {
+   "sign": "Leo",
+   "degree": 25.29,
+   "text": "Leo 25°17′",
+   "longitude": 145.291
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 21.66,
+   "text": "Sagittarius 21°40′",
+   "longitude": 261.661
+  },
+  "saturn": {
+   "sign": "Libra",
+   "degree": 23.67,
+   "text": "Libra 23°40′",
+   "longitude": 203.667
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1865-1950",
+  "first_year_parsed": 1865
+ },
+ "stops": [
+  {
+   "segment": "Vienna and the Return to Geneva",
+   "stop": "Vienna, birth in the clockmaker's household",
+   "date": "1865-07-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402423.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 13.88,
+    "text": "Cancer 13°53′",
+    "longitude": 103.88
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 8.91,
+    "text": "Sagittarius 8°55′",
+    "longitude": 248.911
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 18.86,
+    "text": "Cancer 18°51′",
+    "longitude": 108.856
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 28.78,
+    "text": "Taurus 28°47′",
+    "longitude": 58.783
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 25.29,
+    "text": "Leo 25°17′",
+    "longitude": 145.291
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 21.66,
+    "text": "Sagittarius 21°40′",
+    "longitude": 261.661
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 23.67,
+    "text": "Libra 23°40′",
+    "longitude": 203.667
+   }
+  },
+  {
+   "segment": "Vienna and the Return to Geneva",
+   "stop": "Geneva, the Conservatoire de Musique",
+   "date": "1877-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406620.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.75,
+    "text": "Capricornus 10°45′",
+    "longitude": 280.75
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vienna and the Return to Geneva",
+   "stop": "Geneva, the Belles-Lettres and La Soubrette",
+   "date": "1881-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408232.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.6,
+    "text": "Gemini 10°36′",
+    "longitude": 70.596
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, Algiers, Vienna: the Making of a Musician",
+   "stop": "Paris: the Comédie-Française, Delibes, Fauré",
+   "date": "1884-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409328.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.86,
+    "text": "Gemini 10°52′",
+    "longitude": 70.859
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, Algiers, Vienna: the Making of a Musician",
+   "stop": "Algiers, assistant conductor at the Théâtre des Nouveautés",
+   "date": "1886-03-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409966.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.37,
+    "text": "Pisces 10°22′",
+    "longitude": 340.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, Algiers, Vienna: the Making of a Musician",
+   "stop": "Algiers, the theatre fails; a new name is taken",
+   "date": "1886-11-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2410211.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.52,
+    "text": "Scorpio 8°31′",
+    "longitude": 218.517
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, Algiers, Vienna: the Making of a Musician",
+   "stop": "Vienna: Bruckner, Fuchs, Graedener",
+   "date": "1887-09-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410515.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.22,
+    "text": "Virgo 8°13′",
+    "longitude": 158.222
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, Algiers, Vienna: the Making of a Musician",
+   "stop": "Paris, Mathis Lussy and the science of musical rhythm",
+   "date": "1889-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411123.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.8,
+    "text": "Taurus 10°48′",
+    "longitude": 40.801
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Method is Born",
+   "stop": "Geneva, appointed Professor of Harmony",
+   "date": "1892-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412372.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.28,
+    "text": "Libra 8°17′",
+    "longitude": 188.275
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Method is Born",
+   "stop": "Geneva: the desks removed, the jersey and bare feet",
+   "date": "1895-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Method is Born",
+   "stop": "Geneva, Poème alpestre at the National Exhibition",
+   "date": "1896-07-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413741.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.6,
+    "text": "Cancer 9°36′",
+    "longitude": 99.6
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Method is Born",
+   "stop": "Geneva, marriage to Nina Faliero",
+   "date": "1899-12-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2415014.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.04,
+    "text": "Capricornus 4°02′",
+    "longitude": 274.039
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 13.28,
+    "text": "Libra 13°17′",
+    "longitude": 193.28
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 11.96,
+    "text": "Sagittarius 11°58′",
+    "longitude": 251.959
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 28.92,
+    "text": "Capricornus 28°55′",
+    "longitude": 298.919
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 9.26,
+    "text": "Capricornus 9°15′",
+    "longitude": 279.255
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 29.96,
+    "text": "Scorpio 29°58′",
+    "longitude": 239.961
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 26.98,
+    "text": "Sagittarius 26°59′",
+    "longitude": 266.983
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Geneva, the Method is Born",
+   "stop": "Lausanne: the Festival Vaudois, canton's centenary",
+   "date": "1903-08-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416327.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.57,
+    "text": "Leo 7°34′",
+    "longitude": 127.57
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Method is Born",
+   "stop": "Paris, Le Bonhomme Jadis and the letter from Appia",
+   "date": "1906-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417331.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.72,
+    "text": "Taurus 9°43′",
+    "longitude": 39.721
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Method is Born",
+   "stop": "Brussels, Les Jumeaux de Bergame at the Monnaie",
+   "date": "1908-03-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418001.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.04,
+    "text": "Pisces 10°02′",
+    "longitude": 340.035
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Method is Born",
+   "stop": "Geneva: a son, Gabriel, is born",
+   "date": "1909-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418397.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.64,
+    "text": "Aries 10°39′",
+    "longitude": 10.642
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Method is Born",
+   "stop": "Geneva, the Conservatoire calls it 'monkeyshines'",
+   "date": "1910-03-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418731.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.55,
+    "text": "Pisces 9°33′",
+    "longitude": 339.549
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hellerau, the Garden-City Temple",
+   "stop": "Hellerau, the Bildungsanstalt opens its doors",
+   "date": "1911-09-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419294.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 21.04,
+    "text": "Virgo 21°02′",
+    "longitude": 171.038
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 11.25,
+    "text": "Gemini 11°15′",
+    "longitude": 71.25
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 11.29,
+    "text": "Virgo 11°17′",
+    "longitude": 161.286
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 21.81,
+    "text": "Virgo 21°49′",
+    "longitude": 171.811
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 3.93,
+    "text": "Gemini 3°56′",
+    "longitude": 63.934
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 11.87,
+    "text": "Scorpio 11°52′",
+    "longitude": 221.865
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 20.07,
+    "text": "Taurus 20°04′",
+    "longitude": 50.071
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Hellerau, the Garden-City Temple",
+   "stop": "Hellerau: Suzanne Perrottet, the Geneva assistant",
+   "date": "1912-05-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419523.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.25,
+    "text": "Taurus 10°15′",
+    "longitude": 40.253
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hellerau, the Garden-City Temple",
+   "stop": "Hellerau: the Festspielhaus, dance as the handmaid of music",
+   "date": "1912-06-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419581.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 5.91,
+    "text": "Cancer 5°55′",
+    "longitude": 95.915
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 18.46,
+    "text": "Sagittarius 18°28′",
+    "longitude": 258.458
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 18.09,
+    "text": "Cancer 18°05′",
+    "longitude": 108.089
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 3.69,
+    "text": "Cancer 3°41′",
+    "longitude": 93.686
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 18.32,
+    "text": "Leo 18°19′",
+    "longitude": 138.32
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 7.37,
+    "text": "Sagittarius 7°22′",
+    "longitude": 247.368
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 29.01,
+    "text": "Taurus 29°00′",
+    "longitude": 59.008
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Hellerau, the Garden-City Temple",
+   "stop": "Hellerau, the pupil who wants the body itself to be the music",
+   "date": "1913-01-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419782.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 24.26,
+    "text": "Capricornus 24°16′",
+    "longitude": 294.264
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hellerau, the Garden-City Temple",
+   "stop": "Hellerau: the full Orfeo, and Jeanne Allemand takes her diploma",
+   "date": "1913-06-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419933.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.28,
+    "text": "Gemini 23°17′",
+    "longitude": 83.282
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 6.33,
+    "text": "Scorpio 6°20′",
+    "longitude": 216.335
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 8.15,
+    "text": "Cancer 8°09′",
+    "longitude": 98.151
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 9.29,
+    "text": "Taurus 9°17′",
+    "longitude": 39.289
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 28.51,
+    "text": "Aries 28°31′",
+    "longitude": 28.51
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 15.41,
+    "text": "Capricornus 15°25′",
+    "longitude": 285.413
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 9.7,
+    "text": "Gemini 9°42′",
+    "longitude": 69.698
+   }
+  },
+  {
+   "segment": "Hellerau, the Garden-City Temple",
+   "stop": "Chamonix / Hellerau, the death of Wolf Dohrn",
+   "date": "1914-02-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420167.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 14.35,
+    "text": "Aquarius 14°21′",
+    "longitude": 314.349
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 20.59,
+    "text": "Taurus 20°35′",
+    "longitude": 50.586
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 21.41,
+    "text": "Aquarius 21°25′",
+    "longitude": 321.414
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 12.46,
+    "text": "Aquarius 12°27′",
+    "longitude": 312.457
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 6.18,
+    "text": "Cancer 6°11′",
+    "longitude": 96.183
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 3.12,
+    "text": "Aquarius 3°07′",
+    "longitude": 303.123
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 11.33,
+    "text": "Gemini 11°20′",
+    "longitude": 71.326
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Break: Reims and the Silence of Hellerau",
+   "stop": "Geneva, a pageant for the Confederation's centenary",
+   "date": "1914-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420223.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.43,
+    "text": "Aries 10°26′",
+    "longitude": 10.433
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Break: Reims and the Silence of Hellerau",
+   "stop": "Geneva: La Fête de Juin, a city becomes a chorus",
+   "date": "1914-06-08",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420291.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.36,
+    "text": "Gemini 16°22′",
+    "longitude": 76.362
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Break: Reims and the Silence of Hellerau",
+   "stop": "Geneva, the war breaks over the summer's triumph",
+   "date": "1914-08-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420347.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 9.81,
+    "text": "Leo 9°49′",
+    "longitude": 129.811
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 2.16,
+    "text": "Capricornus 2°09′",
+    "longitude": 272.157
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 21.03,
+    "text": "Cancer 21°02′",
+    "longitude": 111.033
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 21.23,
+    "text": "Virgo 21°14′",
+    "longitude": 171.232
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 22.74,
+    "text": "Virgo 22°44′",
+    "longitude": 172.742
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 18.33,
+    "text": "Aquarius 18°20′",
+    "longitude": 318.326
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 27.96,
+    "text": "Gemini 27°58′",
+    "longitude": 87.961
+   }
+  },
+  {
+   "segment": "The Break: Reims and the Silence of Hellerau",
+   "stop": "Geneva, news of the burning of Reims",
+   "date": "1914-09-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420400.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 1.08,
+    "text": "Libra 1°05′",
+    "longitude": 181.079
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 11.61,
+    "text": "Sagittarius 11°37′",
+    "longitude": 251.613
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 19.66,
+    "text": "Libra 19°39′",
+    "longitude": 199.655
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 17.25,
+    "text": "Scorpio 17°15′",
+    "longitude": 227.245
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 27.01,
+    "text": "Libra 27°00′",
+    "longitude": 207.005
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 12.75,
+    "text": "Aquarius 12°45′",
+    "longitude": 312.749
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 2.03,
+    "text": "Cancer 2°02′",
+    "longitude": 92.028
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Break: Reims and the Silence of Hellerau",
+   "stop": "Geneva: barred from Germany, Hellerau falls silent",
+   "date": "1914-12-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420467.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.96,
+    "text": "Sagittarius 7°58′",
+    "longitude": 247.962
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Institut Jaques-Dalcroze",
+   "stop": "Geneva, the Institut opens at the Terrassière",
+   "date": "1915-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420771.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.73,
+    "text": "Libra 6°44′",
+    "longitude": 186.732
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Institut Jaques-Dalcroze",
+   "stop": "Geneva: Les Premiers Souvenirs, the Institut's own pageant",
+   "date": "1918-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421714.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.81,
+    "text": "Taurus 9°49′",
+    "longitude": 39.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Institut Jaques-Dalcroze",
+   "stop": "Geneva, La Fête de la Jeunesse et de la Joie",
+   "date": "1923-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423571.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.49,
+    "text": "Gemini 9°30′",
+    "longitude": 69.493
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Institut Jaques-Dalcroze",
+   "stop": "Geneva and Paris: honorary citizen, a Paris branch",
+   "date": "1925-11-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424475.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 28.18,
+    "text": "Scorpio 28°11′",
+    "longitude": 238.176
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 0.72,
+    "text": "Aquarius 0°43′",
+    "longitude": 300.719
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 20.02,
+    "text": "Sagittarius 20°01′",
+    "longitude": 260.016
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 15.24,
+    "text": "Capricornus 15°14′",
+    "longitude": 285.236
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 4.95,
+    "text": "Scorpio 4°57′",
+    "longitude": 214.953
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 20.25,
+    "text": "Capricornus 20°15′",
+    "longitude": 290.253
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 18.35,
+    "text": "Scorpio 18°21′",
+    "longitude": 228.346
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Geneva, the Institut Jaques-Dalcroze",
+   "stop": "Geneva, the First International Congress on Rhythm",
+   "date": "1926-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424728.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.99,
+    "text": "Leo 8°00′",
+    "longitude": 127.993
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Geneva, the Institut Jaques-Dalcroze",
+   "stop": "Geneva, Officer of the Légion d'honneur",
+   "date": "1929-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425732.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.14,
+    "text": "Taurus 10°09′",
+    "longitude": 40.144
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years and the Silence",
+   "stop": "Geneva: a second war, a neutral shore",
+   "date": "1940-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429781.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.35,
+    "text": "Gemini 10°21′",
+    "longitude": 70.347
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years and the Silence",
+   "stop": "Geneva, the laurels of old age",
+   "date": "1947-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432337.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.68,
+    "text": "Gemini 9°41′",
+    "longitude": 69.684
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years and the Silence",
+   "stop": "Geneva: death, and burial at the Cimetière des Rois",
+   "date": "1950-07-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433463.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.6,
+    "text": "Cancer 8°36′",
+    "longitude": 98.602
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 37,
+  "dated": 37,
+  "unparsed": 0,
+  "day": 9,
+  "month": 8,
+  "year": 20
+ },
+ "parse_failures": []
+}

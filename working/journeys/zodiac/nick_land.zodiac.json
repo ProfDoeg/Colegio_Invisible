@@ -1,0 +1,2590 @@
+{
+ "slug": "nick_land",
+ "traveler": "Nick Land",
+ "title": "The Thirst for Annihilation: Essex, Warwick, the Cybernetic Culture Research Unit, and the Shanghai Years",
+ "years": "1962-present",
+ "years_parsed": {
+  "first": 1962,
+  "last": 2026
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "A Birth Without a Town",
+  "stop": "England, the year 1962",
+  "date": "1962-01-01",
+  "date_confidence": "year attested by the Library of Congress name authority file, 'Land, Nick, 1962-'; month and day unknown and defaulted. Place unattested: no located source gives a country, town or day, and the coordinate is a placeholder England centroid, not a finding.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1962,
+  "jd_ut": 2437665.5,
+  "precision": "year",
+  "precision_triggers": [
+   "defaulted",
+   "unknown",
+   "placeholder",
+   "to the year"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 10.1,
+   "text": "Capricornus 10°06′",
+   "longitude": 280.103
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "1962-present",
+  "first_year_parsed": 1962
+ },
+ "stops": [
+  {
+   "segment": "The Inherited Coordinates",
+   "stop": "Königsberg, the silent decade",
+   "date": "1771-01-01",
+   "date_confidence": "traditional: the silent decade is conventionally dated 1770-1781. The pin marks a span, not an event, and is inherited from kant.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1771,
+   "jd_ut": 2367904.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "convention",
+    "decade/century",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.48,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.479
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Inherited Coordinates",
+   "stop": "Königsberg, the Critique of Pure Reason",
+   "date": "1781-01-01",
+   "date_confidence": "attested to 1781; month and day not recorded and defaulted. Coordinate inherited byte-identical from kant.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371557.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.06,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Inherited Coordinates",
+   "stop": "Tübingen, three students share a chamber",
+   "date": "1790-10-18",
+   "date_confidence": "attested to 18 October 1790; inherited from kant.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1790,
+   "jd_ut": 2375134.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.81,
+    "text": "Libra 24°49′",
+    "longitude": 204.81
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 29.63,
+    "text": "Aquarius 29°38′",
+    "longitude": 329.628
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 0.9,
+    "text": "Scorpio 0°54′",
+    "longitude": 210.901
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 6.17,
+    "text": "Libra 6°10′",
+    "longitude": 186.17
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 28.75,
+    "text": "Scorpio 28°45′",
+    "longitude": 238.746
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 21.06,
+    "text": "Virgo 21°04′",
+    "longitude": 171.062
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 0.73,
+    "text": "Aries 0°44′",
+    "longitude": 0.731
+   }
+  },
+  {
+   "segment": "The Inherited Coordinates",
+   "stop": "Collège de France, Paris, the chair that grants no degree",
+   "date": "1959-01-01",
+   "date_confidence": "attested for each election: Lévi-Strauss 1959, Foucault 12 April 1970, Barthes 7 January 1977. The stop is dated to the earliest of the three; no month is recorded for it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Inherited Coordinates",
+   "stop": "Johns Hopkins, Baltimore, the crossing",
+   "date": "1966-10-18",
+   "date_confidence": "attested to 18 October 1966; recorded identically in two existing corpus journeys.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439416.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.17,
+    "text": "Libra 24°10′",
+    "longitude": 204.17
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 15.59,
+    "text": "Sagittarius 15°35′",
+    "longitude": 255.585
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 16.75,
+    "text": "Scorpio 16°45′",
+    "longitude": 226.746
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 18.56,
+    "text": "Libra 18°34′",
+    "longitude": 198.56
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 3.15,
+    "text": "Virgo 3°09′",
+    "longitude": 153.145
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 2.63,
+    "text": "Leo 2°38′",
+    "longitude": 122.632
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.09,
+    "text": "Pisces 24°05′",
+    "longitude": 354.086
+   }
+  },
+  {
+   "segment": "Vincennes and the Desiring-Machines",
+   "stop": "Paris, the coordinate the corpus keeps returning to",
+   "date": "1968-01-01",
+   "date_confidence": "not an event: a shared default coordinate used across four corpus journeys for undated or unplaced Parisian stops, dated here to the year the Vincennes sequence opens.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2439856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "undated",
+    "sequencing",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.64,
+    "text": "Capricornus 9°38′",
+    "longitude": 279.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vincennes and the Desiring-Machines",
+   "stop": "Vincennes, the philosophy department of Paris VIII",
+   "date": "1968-12-01",
+   "date_confidence": "attested to December 1968; day not recorded and defaulted. Inherited from michel_foucault.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2440191.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.87,
+    "text": "Sagittarius 8°52′",
+    "longitude": 248.872
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vincennes and the Desiring-Machines",
+   "stop": "Cour-Cheverny, the clinic at La Borde",
+   "date": "1970-01-01",
+   "date_confidence": "attested that Guattari's clinic is the milieu of the collaboration from 1970; month and day not recorded and defaulted. Inherited from gilles_deleuze.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440587.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.16,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.162
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vincennes and the Desiring-Machines",
+   "stop": "Paris, rue Bernard-Palissy: Anti-Oedipus",
+   "date": "1972-03-01",
+   "date_confidence": "attested to March 1972; day not recorded and defaulted. Coordinate inherited from gilles_deleuze.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441377.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.52,
+    "text": "Pisces 10°31′",
+    "longitude": 340.515
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vincennes and the Desiring-Machines",
+   "stop": "Cerisy-la-Salle, Nietzsche aujourd'hui",
+   "date": "1972-07-01",
+   "date_confidence": "attested to July 1972; day not recorded and defaulted. Inherited from gilles_deleuze.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441499.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.26,
+    "text": "Cancer 9°15′",
+    "longitude": 99.255
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vincennes and the Desiring-Machines",
+   "stop": "Paris, rue Bernard-Palissy: A Thousand Plateaus",
+   "date": "1980-01-01",
+   "date_confidence": "attested to 1980; month and day not recorded and defaulted. Coordinate inherited from gilles_deleuze.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444239.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.73,
+    "text": "Capricornus 9°44′",
+    "longitude": 279.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vincennes and the Desiring-Machines",
+   "stop": "Pitié-Salpêtrière, Paris, two deaths at one address",
+   "date": "1984-06-25",
+   "date_confidence": "attested: Foucault 25 June 1984, Barthes 26 March 1980. The stop is dated to the later of the two and holds both.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445876.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 3.63,
+    "text": "Cancer 3°38′",
+    "longitude": 93.631
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 13.05,
+    "text": "Taurus 13°03′",
+    "longitude": 43.051
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 5.98,
+    "text": "Cancer 5°59′",
+    "longitude": 95.981
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 6.12,
+    "text": "Cancer 6°07′",
+    "longitude": 96.121
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 11.85,
+    "text": "Scorpio 11°51′",
+    "longitude": 221.851
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.64,
+    "text": "Capricornus 8°39′",
+    "longitude": 278.645
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 10.08,
+    "text": "Scorpio 10°05′",
+    "longitude": 220.083
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "A Birth Without a Town",
+   "stop": "England, the year 1962",
+   "date": "1962-01-01",
+   "date_confidence": "year attested by the Library of Congress name authority file, 'Land, Nick, 1962-'; month and day unknown and defaulted. Place unattested: no located source gives a country, town or day, and the coordinate is a placeholder England centroid, not a finding.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437665.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "placeholder",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.103
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Birth Without a Town",
+   "stop": "Wivenhoe Park, Colchester: the Essex doctorate",
+   "date": "1987-01-01",
+   "date_confidence": "attested to 1987; month and day not recorded and defaulted. Coordinate corrected to the University of Essex infobox value, 51.87633 N / 0.94487 E, replacing two conflicting and incorrect figures carried in the research pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1987,
+   "jd_ut": 2446796.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.033
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Birth Without a Town",
+   "stop": "University of Warwick, the lectureship",
+   "date": "1987-01-01",
+   "date_confidence": "attested to 1987; month and day not recorded and defaulted. Coordinate taken from the University of Warwick infobox and relabelled to the main campus: the research pool's 'Gibbet Hill' label was wrong, since Gibbet Hill houses Life Sciences and the pre-clinical medical school, not Philosophy.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1987,
+   "jd_ut": 2446796.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.033
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "Manchester, a co-founder's doctorate",
+   "date": "1989-01-01",
+   "date_confidence": "attested to 1989; month and day not recorded and defaulted. This is Sadie Plant's stop and not Land's, included as context for the unit's second origin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1989,
+   "jd_ut": 2447527.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.557
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "London, Routledge: The Thirst for Annihilation",
+   "date": "1992-01-01",
+   "date_confidence": "attested to 1992; month and day not recorded and defaulted. The pin is the publisher's city of record and not a place Land is shown to have travelled to; the imprint is London and New York.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448622.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "Warwick, Machinic Desire",
+   "date": "1993-01-01",
+   "date_confidence": "reconstruction: no located source dates the essay. Wikipedia's 'Accelerationism' references it among undated CCRU-era texts. 1993 is a placement inside the Warwick period, not an attestation.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1993,
+   "jd_ut": 2448988.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "reconstructed (the date)",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.587
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "Warwick, Meltdown",
+   "date": "1995-01-01",
+   "date_confidence": "attested to 1995 by the Fanged Noumena table of contents, correcting the widely repeated 1994; month and day not recorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1995,
+   "jd_ut": 2449718.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.09,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "Warwick, No Future",
+   "date": "1995-01-01",
+   "date_confidence": "attested to 1995 by the Fanged Noumena List of Sources, which calls it a previously unpublished conference paper of that year; month and day not recorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1995,
+   "jd_ut": 2449718.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.09,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "Paris, avenue Niel: a window in the same year",
+   "date": "1995-11-04",
+   "date_confidence": "attested to 4 November 1995; inherited from gilles_deleuze.journey.json. Its relation to the CCRU's founding is chronological coincidence only, flagged and not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1995,
+   "jd_ut": 2450025.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 11.1,
+    "text": "Scorpio 11°06′",
+    "longitude": 221.097
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 2.53,
+    "text": "Aries 2°32′",
+    "longitude": 2.528
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 29.41,
+    "text": "Libra 29°25′",
+    "longitude": 209.412
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 0.72,
+    "text": "Sagittarius 0°43′",
+    "longitude": 240.722
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 10.21,
+    "text": "Sagittarius 10°12′",
+    "longitude": 250.207
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 16.59,
+    "text": "Sagittarius 16°35′",
+    "longitude": 256.591
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 17.94,
+    "text": "Pisces 17°57′",
+    "longitude": 347.943
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "Warwick, the unit is founded",
+   "date": "1995-12-01",
+   "date_confidence": "Wikipedia gives 'late 1995' for the formal establishment; December is the compiler's placement inside that phrase and not an attested month. The same article records Sadie Plant running a cyberfeminist research group at Warwick from 1993-94, and the two accounts are not reconciled by any located source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1995,
+   "jd_ut": 2450052.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.31,
+    "text": "Sagittarius 8°19′",
+    "longitude": 248.313
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "Warwick Arts Centre, Virtual Futures 96",
+   "date": "1996-01-01",
+   "date_confidence": "attested to 1996; the month of the session is not recorded in the located sources and is defaulted. Coordinate corrected to the Warwick Arts Centre infobox value, 52.3798 N / 1.5617 W, replacing a pool figure some 150 metres off.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450083.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.844
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "Warwick, Sadie Plant leaves",
+   "date": "1997-01-01",
+   "date_confidence": "attested to 1997; month and day not recorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1997,
+   "jd_ut": 2450449.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.62,
+    "text": "Capricornus 10°37′",
+    "longitude": 280.616
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "Warwick, hyperstition: the fiction that makes itself real",
+   "date": "1997-06-01",
+   "date_confidence": "interpretive as to date. Hyperstition is a coinage of the Cybernetic Culture Research Unit circle in the late 1990s and is not attested to a single dated text in any source consulted; the term is most visible later, in the Hyperstition weblog of the mid-2000s. The date here is an ordering device inside the unit's Warwick years. The reading against Austin and Searle is this atlas's own: Land is nowhere on record deriving hyperstition from speech act theory, and the relation is one of apparatus, not of influence. Coordinate inherited from this file's own Warwick pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1997,
+   "jd_ut": 2450600.5,
+   "precision": "year",
+   "precision_triggers": [
+    "interpretive",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.56,
+    "text": "Gemini 10°34′",
+    "longitude": 70.56
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cybernetic Culture Research Unit",
+   "stop": "Warwick, CyberGothic and the resignation",
+   "date": "1998-01-01",
+   "date_confidence": "attested to 1998 for both the essay and the resignation; months not recorded and defaulted. No located source dates one relative to the other.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1998,
+   "jd_ut": 2450814.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.369
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leamington Spa and the Disappearance",
+   "stop": "Warwick town, a toponym the corpus already holds",
+   "date": "1998-01-01",
+   "date_confidence": "not an event: a note distinguishing two sites that share a name, dated to the year Land leaves the university. The coordinate is inherited byte-identical from tolkien.journey.json, the St Mary Immaculate stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1998,
+   "jd_ut": 2450814.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.369
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leamington Spa and the Disappearance",
+   "stop": "Warwick, Flatline Constructs",
+   "date": "1999-01-01",
+   "date_confidence": "attested to 1999; month and day not recorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1999,
+   "jd_ut": 2451179.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leamington Spa and the Disappearance",
+   "stop": "Leamington Spa, a flat and no year",
+   "date": "1999-01-01",
+   "date_confidence": "reconstruction: no source gives a year for the move. Wikipedia says only that the CCRU continued to operate from a flat in Leamington Spa up until Land's breakdown in the early 2000s. The range runs from the 1998 resignation to that breakdown, and 1999 is a placement inside it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1999,
+   "jd_ut": 2451179.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Leamington Spa and the Disappearance",
+   "stop": "A place no source names, the breakdown",
+   "date": "2001-01-01",
+   "date_confidence": "reconstruction: Wikipedia says only 'in the early 2000s'. No located source gives 2001 or any specific year, and none names a location; the date is a placement inside the stated range and the coordinate repeats the last known address for want of any other.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2001,
+   "jd_ut": 2451910.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.646
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shanghai, Urbanatomy, Urbanomic",
+   "stop": "Shanghai, an arrival with no date",
+   "date": "2010-01-01",
+   "date_confidence": "contested. Wikipedia's residency marker is 2017 and the Guardian confirms residence in May of that year, but Land publishes two Shanghai guidebooks in 2010. The date here follows the earlier evidence; the arrival itself is undated in every located source, and the contradiction is not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2010,
+   "jd_ut": 2455197.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.46,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.457
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shanghai, Urbanatomy, Urbanomic",
+   "stop": "Expo Axis, Pudong: the World Expo guide",
+   "date": "2010-05-01",
+   "date_confidence": "attested to 2010; the stop is dated to the Expo's opening on 1 May 2010 and not to any recorded action by Land. Coordinate corrected to the Expo Axis infobox value, 31.185733 N / 121.487986 E; the pool's figure was the Expo site centroid under an Expo Axis label.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2010,
+   "jd_ut": 2455317.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.53,
+    "text": "Taurus 10°32′",
+    "longitude": 40.534
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shanghai, Urbanatomy, Urbanomic",
+   "stop": "Falmouth, Urbanomic: Fanged Noumena",
+   "date": "2011-01-01",
+   "date_confidence": "attested to 2011; month and day not recorded and defaulted. The pin is the press's address of record and not a place Land is shown to have visited.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2011,
+   "jd_ut": 2455562.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.21,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.21
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shanghai, Urbanatomy, Urbanomic",
+   "stop": "Shanghai, The Dark Enlightenment",
+   "date": "2012-01-01",
+   "date_confidence": "2012 is the commonly cited year and was not confirmed to day-level precision in this pass. Located sources place the essay-cycle after Yarvin's 2007-2008 writings and no closer; month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2012,
+   "jd_ut": 2455927.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.962
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shanghai, Urbanatomy, Urbanomic",
+   "stop": "Shanghai, Urbanatomy: Calendric Dominion",
+   "date": "2013-01-01",
+   "date_confidence": "attested to 2013; month and day not recorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2013,
+   "jd_ut": 2456293.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.734
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shanghai, Urbanatomy, Urbanomic",
+   "stop": "Shanghai, Xenosystems",
+   "date": "2013-02-22",
+   "date_confidence": "attested by the Internet Archive: the earliest Wayback Machine capture of xenosystems.net is dated 22 February 2013, with nothing archived before roughly late 2012. That is the first archived day, not necessarily the first day of the blog.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2013,
+   "jd_ut": 2456345.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 3.53,
+    "text": "Pisces 3°32′",
+    "longitude": 333.533
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 18.64,
+    "text": "Cancer 18°39′",
+    "longitude": 108.644
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 19.71,
+    "text": "Pisces 19°43′",
+    "longitude": 349.713
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 24.9,
+    "text": "Aquarius 24°54′",
+    "longitude": 324.903
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 15.7,
+    "text": "Pisces 15°42′",
+    "longitude": 345.701
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 7.14,
+    "text": "Gemini 7°09′",
+    "longitude": 67.144
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 11.65,
+    "text": "Scorpio 11°39′",
+    "longitude": 221.654
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Shanghai, Urbanatomy, Urbanomic",
+   "stop": "Shanghai, Templexity",
+   "date": "2014-01-01",
+   "date_confidence": "attested to 2014; month and day not recorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2014,
+   "jd_ut": 2456658.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.49,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.487
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shanghai, Urbanatomy, Urbanomic",
+   "stop": "Urumqi, Xinjiang Horizons",
+   "date": "2014-01-01",
+   "date_confidence": "reconstruction: the 2014 publication is attested, personal travel to Xinjiang is not. The coordinate stands for the book rather than for the man, and Urbanatomy titles were sometimes multi-author or compiled. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2014,
+   "jd_ut": 2456658.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.49,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.487
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dark Enlightenment Years",
+   "stop": "Shanghai, A Quick-and-Dirty Introduction to Accelerationism",
+   "date": "2017-01-01",
+   "date_confidence": "attested to 2017; month and day not recorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2017,
+   "jd_ut": 2457754.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.76,
+    "text": "Capricornus 10°46′",
+    "longitude": 280.764
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dark Enlightenment Years",
+   "stop": "Shanghai, the New Centre ends its relationship",
+   "date": "2017-03-01",
+   "date_confidence": "attested to March 2017; day not recorded and defaulted. The Centre is US-registered and the teaching was remote, so the coordinate is Land's own confirmed residence and not the Centre's base. No source places the tweets anywhere.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2017,
+   "jd_ut": 2457813.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.6,
+    "text": "Pisces 10°36′",
+    "longitude": 340.602
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dark Enlightenment Years",
+   "stop": "Shanghai, Vox and the killers",
+   "date": "2019-11-18",
+   "date_confidence": "attested to 18 November 2019, correcting a widely repeated 2017 date. The piece is a reported feature that quotes Land, not a profile interview.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2019,
+   "jd_ut": 2458805.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 25.35,
+    "text": "Scorpio 25°21′",
+    "longitude": 235.35
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 1.17,
+    "text": "Leo 1°10′",
+    "longitude": 121.17
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 12.35,
+    "text": "Scorpio 12°21′",
+    "longitude": 222.345
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 20.07,
+    "text": "Sagittarius 20°04′",
+    "longitude": 260.073
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 29.14,
+    "text": "Libra 29°09′",
+    "longitude": 209.145
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 26.79,
+    "text": "Sagittarius 26°47′",
+    "longitude": 266.787
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 16.81,
+    "text": "Capricornus 16°49′",
+    "longitude": 286.814
+   }
+  },
+  {
+   "segment": "Xenocosmography",
+   "stop": "Shanghai, Capitalism is Artificial Intelligence",
+   "date": "2017-01-01",
+   "date_confidence": "attested to 2017: Land states the identity outright in the long-form interview 'What is accelerating?' (on AI, Capitalism, Accelerationism, Neoreaction and Horror), conducted by Friedrich von Uxkull in China, almost certainly Shanghai. 'Almost certainly Shanghai' is an inference from two independent facts, not a directly stated filming location, and no located source names the city of filming outright. First, the Vimeo upload (vimeo.com/236996816) sits on von Uxkull's own account, and its own description, the uploader and interviewer's wording rather than a later blogger's guess, reads 'A rare long-form interview ... in China (likely Shanghai)'. Second, Andy Beckett's 'Accelerationism: how a fringe philosophy predicted the future we live in' (The Guardian, 11 May 2017), based partly on an interview with Land, reports that he had moved from Taiwan to Shanghai and still lived there, which independently places him in that city at the time of filming. Two independent facts converging on one city is not the same as a source stating it, and the distinction is kept. The filming date is likewise unfixed. The Vimeo upload is dated 5 October 2017, but a page on onscenes.weebly.com titled 'What is accelerating - Nick Land interview', carrying the post date 7 September 2017 and the text 'Watch the interview below', embeds what was then a YouTube copy, now dead. The interview was therefore already circulating publicly no later than 7 September 2017, which makes the 5 October 2017 Vimeo date a mirror or repost date rather than a filming date. The true filming date is earlier and remains unidentified, so the date defaults to 01-01 of the attested year. Several secondary listings, including that OnScenes page and a WordPress mirror, give the interview's year as '1997' in their own titles: that is a recurring transcription error, not a real alternate date, since Land's Shanghai residence exists only from the 2000s onward (confirmed by the Guardian piece) and the content itself is post-Bitcoin, Crypto-Current era hyperstition talk. A separate March 2017 lead, a page thanking von Uxkull for an embedded video, was checked and ruled out: the embedded YouTube ID does not match this interview, and it is not cited here. The copy located for this file is the re-upload 'Nick Land Interview 2017' on the YouTube channel Accelerate Baby, video AGxgGQpyBYM, uploaded 22 December 2020. No written transcript of the passage was found, so the quotation is cleaned from the auto-caption track: the words are his, the punctuation is editorial, one article dropped by the captioner is restored in brackets, and minor transcription artifacts may remain. The campa's reading of assemblies of large language model agents is this atlas's own extension and not Land's: 2017 predates that framing, and he says nothing here about language models. What is his, and dated, is the identity of capital and artificial intelligence, stated in this 2017 interview and first argued in the 1990s texts collected in Fanged Noumena. Land is living, so this is a relation between contemporaries and not a forward reference. The Shanghai coordinate is inherited byte-identical from this file's own pin, and now carries the inference set out above rather than standing as a bare placeholder.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2017,
+   "jd_ut": 2457754.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "year named only",
+    "(soft) editorial"
+   ],
+   "notes": [
+    "hard triggers (placeholder, probably) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.76,
+    "text": "Capricornus 10°46′",
+    "longitude": 280.764
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Xenocosmography",
+   "stop": "Shanghai, the blog goes off the internet",
+   "date": "2022-01-01",
+   "date_confidence": "attested to 2022 for the removal, the hiatus and the return; no month is recorded for any of the three, all are defaulted to January, and all three are gathered into one stop because no source separates them in time.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2022,
+   "jd_ut": 2459580.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "year named only",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.55,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.546
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Xenocosmography",
+   "stop": "Shanghai, the citywide lockdown",
+   "date": "2022-04-05",
+   "date_confidence": "attested: Shanghai's lockdown ran from 28 March 2022 partial and 5 April 2022 citywide to midnight on 1 June 2022. Wikipedia dates Land's experience only to 'the COVID-19 pandemic'; accounts giving 2020 are wrong, since Shanghai had no citywide lockdown that year. No district is named.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2022,
+   "jd_ut": 2459674.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.2,
+    "text": "Aries 15°12′",
+    "longitude": 15.204
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 28.46,
+    "text": "Taurus 28°28′",
+    "longitude": 58.458
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 17.39,
+    "text": "Aries 17°23′",
+    "longitude": 17.391
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 29.33,
+    "text": "Aquarius 29°20′",
+    "longitude": 329.335
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 22.35,
+    "text": "Aquarius 22°21′",
+    "longitude": 322.353
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 22.2,
+    "text": "Pisces 22°12′",
+    "longitude": 352.203
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 22.4,
+    "text": "Aquarius 22°24′",
+    "longitude": 322.401
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Xenocosmography",
+   "stop": "Shanghai, Xenocosmography",
+   "date": "2023-10-01",
+   "date_confidence": "attested to October 2023; day not recorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2023,
+   "jd_ut": 2460218.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.57,
+    "text": "Libra 7°34′",
+    "longitude": 187.571
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Xenocosmography",
+   "stop": "San Francisco, the first meeting with Curtis Yarvin",
+   "date": "2026-02-01",
+   "date_confidence": "attested to February 2026; day not recorded and defaulted. The venue within San Francisco is unnamed in every located source, and the general city coordinate stands in for it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461072.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.13,
+    "text": "Aquarius 12°08′",
+    "longitude": 312.135
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Xenocosmography",
+   "stop": "Shanghai, a journey with no tomb",
+   "date": "2026-08-01",
+   "date_confidence": "not an event: the state of the record on the day this journey was compiled. The subject is living and the far end of the itinerary is open.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461253.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.79,
+    "text": "Leo 8°48′",
+    "longitude": 128.794
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decimal Labyrinth",
+   "stop": "Warwick, the ten zones and their currents",
+   "date": "1997-09-01",
+   "date_confidence": "the numogram material is undated in the unit's own papers, which are collected only in 2015 as Ccru, Writings 1997-2003; no located source dates the diagram to a month or a year. The date is an ordering device inside the unit's Warwick life. Coordinate inherited byte-identical from this file's own Warwick pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1997,
+   "jd_ut": 2450692.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.61,
+    "text": "Virgo 8°36′",
+    "longitude": 158.608
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decimal Labyrinth",
+   "stop": "Warwick, Pandemonium and the count of forty-five",
+   "date": "1997-10-01",
+   "date_confidence": "undated in the source, as with the rest of the Pandemonium material; dated here only to order the segment. The internal contradiction described in the campa is quoted from the text and is not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1997,
+   "jd_ut": 2450722.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "disputed",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.86,
+    "text": "Libra 7°52′",
+    "longitude": 187.861
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decimal Labyrinth",
+   "stop": "Warwick, the book nobody wrote",
+   "date": "1997-11-01",
+   "date_confidence": "interpretive, and dated only to order the segment. Lovecraft dies in 1937, twenty-five years before Land is born; this is Land's own apparatus applied backward to an object he did not treat in any located text, the same move licensed for Austin and Searle and recorded in EXCEPTIONS.md. Coordinate inherited from this file's own Warwick pin. Land is nowhere on record making this argument about the Necronomicon in these words.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1997,
+   "jd_ut": 2450753.5,
+   "precision": "year",
+   "precision_triggers": [
+    "interpretive",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.61,
+    "text": "Scorpio 8°37′",
+    "longitude": 218.61
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decimal Labyrinth",
+   "stop": "Warwick, the Cthulhu Club and its correspondence",
+   "date": "1998-03-01",
+   "date_confidence": "the letters carry internal dates of March and May 1949 and are fiction; the stop is dated inside Land's own Warwick years, since he is born in 1962 and the 1949 dates belong to the narrative, not to him. Which hands wrote which of these papers is nowhere attested, Land's among them.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1998,
+   "jd_ut": 2450873.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.21,
+    "text": "Pisces 10°12′",
+    "longitude": 340.208
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decimal Labyrinth",
+   "stop": "Warwick, the Ghost Lemurs and Captain Mission",
+   "date": "1998-06-01",
+   "date_confidence": "the Lemurian Time War material is undated in the volume that collects it and the date orders the segment only. Burroughs is a real author and Ghost Lemurs of Madagascar a real text of 1987; Captain Mission, the Vysparov library and the transcript are the unit's fiction, and the two registers are kept apart here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1998,
+   "jd_ut": 2450965.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.33,
+    "text": "Gemini 10°20′",
+    "longitude": 70.328
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Decimal Labyrinth",
+   "stop": "Vauxhall, London: Beaconsfield and the twinning",
+   "date": "1998-10-01",
+   "date_confidence": "the unit's own chronology dates the Switch and Orphan Drift collaboration at Beaconsfield to Autumn 1998; no day or month is given and October is a placement inside that phrase. Syzygy is described in a separate passage with no venue named, and no located source states that Syzygy is the Beaconsfield show. Land's individual presence in the building is not attested anywhere; the pin is the gallery's street address in Vauxhall, approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1998,
+   "jd_ut": 2451087.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximately",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.62,
+    "text": "Libra 7°37′",
+    "longitude": 187.623
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyperstition in Practice",
+   "stop": "Warwick, Catacomic: four features",
+   "date": "1995-06-01",
+   "date_confidence": "the coinage is attested to the fanzine Catacomic, 1995; no month or day is recorded and June is a placement. The four features are quoted through Delphi Carstens, who is quoting a Ccru text he does not page. The 2009 definition discussed in the campa is dated by the interview itself.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1995,
+   "jd_ut": 2449869.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.06,
+    "text": "Gemini 10°04′",
+    "longitude": 70.065
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyperstition in Practice",
+   "stop": "Warwick, sixty, the number of Anu",
+   "date": "1998-05-01",
+   "date_confidence": "undated in the source and placed here to order the segment. The contradiction with secondary commentary is stated in the campa and left standing: the primary text is the authority for what it says, and the commentary is named where it departs from it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1998,
+   "jd_ut": 2450934.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "disputed",
+    "ordering",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.44,
+    "text": "Taurus 10°26′",
+    "longitude": 40.44
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyperstition in Practice",
+   "stop": "Shanghai, the intelligence explosion",
+   "date": "2018-08-15",
+   "date_confidence": "attested to 15 August 2018, the publication date of the Other Life interview with Justin Murphy, transcribed on Vast Abrupt. The conversation is remote and no source places either speaker in a room; the pin is Land's residence of record and asserts nothing about where the call was taken.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458345.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 22.15,
+    "text": "Leo 22°09′",
+    "longitude": 142.147
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 11.25,
+    "text": "Libra 11°15′",
+    "longitude": 191.247
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 12.54,
+    "text": "Leo 12°32′",
+    "longitude": 132.538
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 8.03,
+    "text": "Libra 8°02′",
+    "longitude": 188.031
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 29.61,
+    "text": "Capricornus 29°36′",
+    "longitude": 299.607
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 15.14,
+    "text": "Scorpio 15°09′",
+    "longitude": 225.144
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 3.03,
+    "text": "Capricornus 3°02′",
+    "longitude": 273.026
+   }
+  },
+  {
+   "segment": "Hyperstition in Practice",
+   "stop": "Shanghai, a critique of trusted third parties",
+   "date": "2018-10-31",
+   "date_confidence": "version 1.0 of Crypto-Current is released on 31 October 2018, serialised on Land's Urban Future 2.1 blog. No Urbanomic or MIT Press edition of the book was located; the pairing of those imprints belongs to Fanged Noumena and is a confusion carried by several listings. The quoted sentence is from the 2018 interview, not from the book.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458422.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.52,
+    "text": "Scorpio 7°31′",
+    "longitude": 217.519
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 28.42,
+    "text": "Cancer 28°25′",
+    "longitude": 118.421
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 29.78,
+    "text": "Scorpio 29°47′",
+    "longitude": 239.776
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 0.47,
+    "text": "Scorpio 0°28′",
+    "longitude": 210.475
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 20.59,
+    "text": "Aquarius 20°35′",
+    "longitude": 320.587
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 28.15,
+    "text": "Scorpio 28°09′",
+    "longitude": 238.149
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 4.93,
+    "text": "Capricornus 4°56′",
+    "longitude": 274.934
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Hyperstition in Practice",
+   "stop": "Shanghai, the numogram spoken aloud",
+   "date": "2025-07-01",
+   "date_confidence": "the episode 'Nick Land Explains the Numogram' is dated 1 July 2025 on The Dangerous Maybe, hosted by Mikey Downs with Nance. No transcript was located; the contents are taken from show notes and listings, so the description is a paraphrase and not a quotation. The pin is his residence of record, not an attested location for the call.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460857.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.44,
+    "text": "Cancer 9°27′",
+    "longitude": 99.442
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 19.13,
+    "text": "Virgo 19°08′",
+    "longitude": 169.128
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 5.11,
+    "text": "Leo 5°07′",
+    "longitude": 125.11
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 26.01,
+    "text": "Taurus 26°01′",
+    "longitude": 56.011
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 7.77,
+    "text": "Virgo 7°46′",
+    "longitude": 157.775
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 4.82,
+    "text": "Cancer 4°49′",
+    "longitude": 94.821
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 1.73,
+    "text": "Aries 1°44′",
+    "longitude": 1.731
+   }
+  },
+  {
+   "segment": "Hyperstition in Practice",
+   "stop": "Shanghai, hermetic antiquity produced backwards",
+   "date": "2025-07-01",
+   "date_confidence": "attested to the same episode as the stop above, 'Nick Land Explains the Numogram', The Dangerous Maybe, YouTube video URWFdmLRt0U, 1 July 2025; the argument opens with the exposition of Masonic arithmetic at 00:38:27-00:41:20 and runs sustained from 00:45:39 to 00:53:19. A cleaned auto-caption transcript of the full episode was read, so the wording is his and the punctuation is editorial. The captioner mangles the load-bearing terms repeatedly: 'Western her medicine' and 'herdicism' for Western hermeticism, 'retrop projection' for retroprojection, 'Hermes Trismagustus' and 'Hermes tramistas' for Hermes Trismegistus, and it alternates 'hermetic intellection' with 'hermetic intelligence' inside one passage. Corrections are made only where the caption is plainly garbled. One term is left exactly as spoken and is not emended: Land says 'Vedic numerals' for what are conventionally called Hindu-Arabic or place-value numerals, and that is his own usage rather than a caption error. The central claim is his argument and not a consensus finding, and is marked as such here: that hermetic intellection has no conceptual existence at all before the Renaissance. Where the historians are with him he says so, noting that the writings of Hermes Trismegistus are generally dated to the Alexandrian centuries of the early Christian era rather than to deep antiquity, a redating that goes back to Isaac Casaubon in 1614 and is not in dispute. Giordano Bruno's file is cited here as an interlock only, because a stop belongs to whoever was actually there. Land is living and the recording is remote; the Shanghai pin is inherited byte-identical from this file's other podcast stops and asserts nothing about where he sat.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460857.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "decade/century",
+    "(soft-year) year named with preposition",
+    "(soft) editorial"
+   ],
+   "notes": [
+    "hard triggers (convention) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.44,
+    "text": "Cancer 9°27′",
+    "longitude": 99.442
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyperstition in Practice",
+   "stop": "Shanghai, Frances Yates and the whole cast",
+   "date": "2025-10-07",
+   "date_confidence": "attested to 7 October 2025, the publication date of 'Nick Land Responds to Tucker Carlson' on The Dangerous Maybe, YouTube video 0twXWWdt9NU; two independent listings give that date, so it is not a default placement. The Yates passage runs 00:31:19 to 00:34:11 there. The quotation in this stop, however, is taken from the earlier episode, 'Nick Land Explains the Numogram', YouTube video URWFdmLRt0U, 1 July 2025, at 00:17:50-00:18:31, where he names most of the same cast three months before and without prompting: that July passage is an independent naming of the tradition, not a rehearsal of the October one, and it is dated in the quote_source rather than given a stop of its own. Both are read from cleaned auto-caption transcripts, so the wording is his and the punctuation is editorial. Seven caption artifacts are corrected across the two: 'Fino' is Marsilio Ficino, 'John D' is John Dee, 'the Rossian' is the Rosicrucians, 'the Otto' is the O.T.O., the Ordo Templi Orientis, 'Francis Yates' and the later garbling 'Francis Shains' are both Frances Yates, and 'Jordon Bruno' is Giordano Bruno. The identification of the AOE, the Ccru's own Architectonic Order of the Eschaton, with those real bodies is Land's own, spoken by him in 2025; this atlas is not reading a lineage into him. The Yates volumes and their years are verified independently of the audio: Giordano Bruno and the Hermetic Tradition (1964), The Rosicrucian Enlightenment (1972), The Occult Philosophy in the Elizabethan Age (1979). One qualification is left standing rather than resolved: Land calls those three a trilogy, and Yates published other books in the same line, The Art of Memory (1966) among them, so 'trilogy' is his framing of her work and not a bibliographical fact. Bruno, Pico and Dee are cited to their own files as interlocks only, because a stop belongs to whoever was actually there. Land is living and both recordings are remote; the Shanghai pin is inherited byte-identical and asserts nothing about where he sat.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460955.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "(soft-year) year named with preposition",
+    "(soft) editorial"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.99,
+    "text": "Libra 13°59′",
+    "longitude": 193.987
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyperstition in Practice",
+   "stop": "Shanghai, one road, not two",
+   "date": "2025-10-07",
+   "date_confidence": "attested to 7 October 2025, the publication date of 'Nick Land Responds to Tucker Carlson' on The Dangerous Maybe, YouTube video 0twXWWdt9NU; two independent listings give that date, so it is not a default placement. The quoted lines close a sustained argument running 00:31:19-00:34:11 and fall at approximately 00:33:38-00:34:06. Read from the cleaned auto-caption track, so the wording is his and the punctuation is editorial. This file's own stop 'Shanghai, Frances Yates and the whole cast', same date and the same passage, carries the fuller argument, the Yates trilogy and the named cast of Templars, Masons, Ficino, Pico, Dee, the Golden Dawn, Crowley, the O.T.O.; this stop isolates the capitalism identity claim on its own, as its closing move.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460955.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.99,
+    "text": "Libra 13°59′",
+    "longitude": 193.987
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyperstition in Practice",
+   "stop": "Shanghai, the numogram held up on television",
+   "date": "2025-10-07",
+   "date_confidence": "attested to 7 October 2025, the publication date of 'Nick Land Responds to Tucker Carlson' on The Dangerous Maybe, YouTube video 0twXWWdt9NU; two independent listings give that date, so it is not a default placement. The occasion is dated separately: the episode of The Tucker Carlson Show with Conrad Flynn, which the hosts here title as being about the occult, Kabbalah, the Antichrist's newest manifestation and how to avoid the mark of the beast, premieres on Carlson's own channel on 3 October 2025, and this response follows it four days later. Five passages are used: 00:02:37-00:03:09 for the setup and the running time of about two hours, 00:05:50-00:06:03 for the numogram held up on screen, 00:06:24-00:06:40 for the lemurian robot-body claim and a host's own doubt of it, 00:07:27-00:08:02 for the quoted denial, and 00:08:32-00:09:14 for the Chronzon numbers. All come from the cleaned auto-caption track, so the wording is his and the punctuation is editorial; the captioner renders Chronzon variously as 'Chronison', 'Chiron', 'Tronzone' and 'Trironzone', gives 313 as '3 I3' and 209 as '20 209'. The caption does not separate speakers reliably, so the setup lines are attributed to the hosts collectively, Michael Downs with Nance, and not to either by name. One boundary is drawn hard and not blurred: neither Curtis Yarvin nor any named technology billionaire appears anywhere in this transcript. The wider Dark Enlightenment context that makes Land worth a Carlson segment is supplied by this file's own stops and is not a claim made in this audio, and none is imported here. Land is living and the recording is remote; the Shanghai pin is inherited byte-identical and asserts nothing about where he sat.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460955.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.99,
+    "text": "Libra 13°59′",
+    "longitude": 193.987
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyperstition in Practice",
+   "stop": "Shanghai, Christ dressed up as a computer",
+   "date": "2026-03-26",
+   "date_confidence": "the episode date is not stated in any located source. A Substack recap dated 26 March 2026 reports the exchange, and Greer's own account of a two-and-a-half-hour call belongs to roughly the same month; the date follows the recap. Land's reply is quoted through that recap and not from audio, so it is reported at one remove.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461125.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 5.36,
+    "text": "Aries 5°21′",
+    "longitude": 5.356
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 63,
+  "dated": 63,
+  "unparsed": 0,
+  "day": 10,
+  "month": 9,
+  "year": 44
+ },
+ "parse_failures": []
+}

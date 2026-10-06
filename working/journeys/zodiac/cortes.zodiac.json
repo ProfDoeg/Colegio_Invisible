@@ -1,0 +1,2084 @@
+{
+ "slug": "cortes",
+ "traveler": "Hernán Cortés",
+ "title": "Medellín to Mexico: the Conquest of New Spain and the Wandering Bones",
+ "years": "1485-1547 (bones to 1947)",
+ "years_parsed": {
+  "first": 1485,
+  "last": 1947
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Extremadura and the Abandoned Law",
+  "stop": "Medellín, the house by the castle of the Counts",
+  "date": "1485-12-01",
+  "date_confidence": "traditional",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1485,
+  "jd_ut": 2263788.5,
+  "precision": "year",
+  "precision_triggers": [
+   "traditional"
+  ],
+  "sun": {
+   "sign": "Sagittarius",
+   "degree": 18.25,
+   "text": "Sagittarius 18°15′",
+   "longitude": 258.254
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1485-1547 (bones to 1947)",
+  "first_year_parsed": 1485
+ },
+ "stops": [
+  {
+   "segment": "Extremadura and the Abandoned Law",
+   "stop": "Medellín, the house by the castle of the Counts",
+   "date": "1485-12-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1485,
+   "jd_ut": 2263788.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.25,
+    "text": "Sagittarius 18°15′",
+    "longitude": 258.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Extremadura and the Abandoned Law",
+   "stop": "Salamanca, the law studies abandoned",
+   "date": "1501-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1501,
+   "jd_ut": 2269449.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 19.05,
+    "text": "Gemini 19°03′",
+    "longitude": 79.046
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Islands, Hispaniola and Cuba",
+   "stop": "Santo Domingo, the notary lands",
+   "date": "1504-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1504,
+   "jd_ut": 2270484.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 20.54,
+    "text": "Aries 20°32′",
+    "longitude": 20.54
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Islands, Hispaniola and Cuba",
+   "stop": "Azua, encomienda and the notary's table",
+   "date": "1509-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1509,
+   "jd_ut": 2272220.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.28,
+    "text": "Capricornus 20°17′",
+    "longitude": 290.275
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Islands, Hispaniola and Cuba",
+   "stop": "Maisí, Cuba: the conquest with Velázquez",
+   "date": "1511-03-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1511,
+   "jd_ut": 2273009.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 19.29,
+    "text": "Pisces 19°18′",
+    "longitude": 349.294
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Islands, Hispaniola and Cuba",
+   "stop": "Santiago de Cuba: alcalde, and Catalina Suárez",
+   "date": "1514-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1514,
+   "jd_ut": 2274046.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.06,
+    "text": "Capricornus 20°03′",
+    "longitude": 290.057
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fleet of 1519: Cozumel to the Burnt Ships",
+   "stop": "Cozumel, the idols cast down",
+   "date": "1519-02-18",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2275920.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 8.38,
+    "text": "Pisces 8°23′",
+    "longitude": 338.377
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 14.96,
+    "text": "Libra 14°58′",
+    "longitude": 194.961
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 26.15,
+    "text": "Pisces 26°09′",
+    "longitude": 356.151
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 1.31,
+    "text": "Pisces 1°19′",
+    "longitude": 331.31
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 25.63,
+    "text": "Gemini 25°38′",
+    "longitude": 85.633
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 21.08,
+    "text": "Libra 21°05′",
+    "longitude": 201.076
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 19.07,
+    "text": "Capricornus 19°04′",
+    "longitude": 289.067
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fleet of 1519: Cozumel to the Burnt Ships",
+   "stop": "Cozumel, Jerónimo de Aguilar restored",
+   "date": "1519-03-04",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2275934.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 22.34,
+    "text": "Pisces 22°20′",
+    "longitude": 352.337
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 1.13,
+    "text": "Taurus 1°08′",
+    "longitude": 31.125
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 22.71,
+    "text": "Pisces 22°43′",
+    "longitude": 352.711
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 18.75,
+    "text": "Pisces 18°45′",
+    "longitude": 348.754
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 0.38,
+    "text": "Cancer 0°23′",
+    "longitude": 90.377
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 19.89,
+    "text": "Libra 19°54′",
+    "longitude": 199.894
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 20.22,
+    "text": "Capricornus 20°13′",
+    "longitude": 290.223
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fleet of 1519: Cozumel to the Burnt Ships",
+   "stop": "Centla, Tabasco: the battle, Doña Marina given",
+   "date": "1519-03-15",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2275945.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 3.23,
+    "text": "Aries 3°14′",
+    "longitude": 3.228
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 17.42,
+    "text": "Virgo 17°25′",
+    "longitude": 167.416
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 15.1,
+    "text": "Pisces 15°06′",
+    "longitude": 345.097
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 2.43,
+    "text": "Aries 2°26′",
+    "longitude": 2.427
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 4.8,
+    "text": "Cancer 4°48′",
+    "longitude": 94.801
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 18.68,
+    "text": "Libra 18°41′",
+    "longitude": 198.675
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 20.96,
+    "text": "Capricornus 20°58′",
+    "longitude": 290.964
+   }
+  },
+  {
+   "segment": "The Fleet of 1519: Cozumel to the Burnt Ships",
+   "stop": "San Juan de Ulúa: the landing, the Totonac embassies",
+   "date": "1519-04-21",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2275982.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.37,
+    "text": "Taurus 9°22′",
+    "longitude": 39.365
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 24.01,
+    "text": "Capricornus 24°00′",
+    "longitude": 294.006
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 19.85,
+    "text": "Aries 19°51′",
+    "longitude": 19.853
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 18.17,
+    "text": "Taurus 18°10′",
+    "longitude": 48.169
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 22.56,
+    "text": "Cancer 22°34′",
+    "longitude": 112.559
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 14.15,
+    "text": "Libra 14°09′",
+    "longitude": 194.147
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 22.15,
+    "text": "Capricornus 22°09′",
+    "longitude": 292.154
+   }
+  },
+  {
+   "segment": "The Fleet of 1519: Cozumel to the Burnt Ships",
+   "stop": "Villa Rica de la Vera Cruz, the town founded",
+   "date": "1519-04-22",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2275983.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.33,
+    "text": "Taurus 10°20′",
+    "longitude": 40.332
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 8.1,
+    "text": "Aquarius 8°06′",
+    "longitude": 308.099
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 21.58,
+    "text": "Aries 21°35′",
+    "longitude": 21.575
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 19.4,
+    "text": "Taurus 19°24′",
+    "longitude": 49.4
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 23.08,
+    "text": "Cancer 23°05′",
+    "longitude": 113.083
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 14.04,
+    "text": "Libra 14°03′",
+    "longitude": 194.042
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 22.16,
+    "text": "Capricornus 22°09′",
+    "longitude": 292.156
+   }
+  },
+  {
+   "segment": "The Fleet of 1519: Cozumel to the Burnt Ships",
+   "stop": "Cempoala, the fat cacique and the Totonac alliance",
+   "date": "1519-06-03",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276025.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.62,
+    "text": "Gemini 20°37′",
+    "longitude": 80.62
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fleet of 1519: Cozumel to the Burnt Ships",
+   "stop": "Villa Rica, the ships given to the través",
+   "date": "1519-07-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276053.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.31,
+    "text": "Cancer 17°19′",
+    "longitude": 107.313
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlaxcala to the Lake-City",
+   "stop": "Tlaxcala, the hard alliance",
+   "date": "1519-09-23",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276137.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.6,
+    "text": "Libra 8°36′",
+    "longitude": 188.605
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 28.52,
+    "text": "Virgo 28°31′",
+    "longitude": 178.516
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 28.54,
+    "text": "Libra 28°32′",
+    "longitude": 208.541
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 23.56,
+    "text": "Scorpio 23°34′",
+    "longitude": 233.561
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 27.26,
+    "text": "Libra 27°16′",
+    "longitude": 207.262
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 27.12,
+    "text": "Libra 27°07′",
+    "longitude": 207.117
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 15.65,
+    "text": "Capricornus 15°39′",
+    "longitude": 285.652
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Tlaxcala to the Lake-City",
+   "stop": "Cholula, the massacre",
+   "date": "1519-10-18",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276162.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 3.49,
+    "text": "Scorpio 3°29′",
+    "longitude": 213.489
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 1.37,
+    "text": "Virgo 1°22′",
+    "longitude": 151.366
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 24.95,
+    "text": "Scorpio 24°57′",
+    "longitude": 234.954
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 20.51,
+    "text": "Sagittarius 20°30′",
+    "longitude": 260.508
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 14.65,
+    "text": "Scorpio 14°39′",
+    "longitude": 224.648
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 2.55,
+    "text": "Scorpio 2°33′",
+    "longitude": 212.548
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 16.65,
+    "text": "Capricornus 16°39′",
+    "longitude": 286.649
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Tlaxcala to the Lake-City",
+   "stop": "Paso de Cortés, between the volcanoes",
+   "date": "1519-10-31",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276175.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 16.56,
+    "text": "Scorpio 16°34′",
+    "longitude": 226.559
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tlaxcala to the Lake-City",
+   "stop": "Tenochtitlan, the causeway meeting with Moctezuma",
+   "date": "1519-11-08",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276183.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 24.64,
+    "text": "Scorpio 24°38′",
+    "longitude": 234.641
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 11.14,
+    "text": "Gemini 11°08′",
+    "longitude": 71.135
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 9.43,
+    "text": "Scorpio 9°26′",
+    "longitude": 219.433
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.442
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 29.7,
+    "text": "Scorpio 29°42′",
+    "longitude": 239.701
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 7.12,
+    "text": "Scorpio 7°07′",
+    "longitude": 217.124
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 18.18,
+    "text": "Capricornus 18°11′",
+    "longitude": 288.177
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Tlaxcala to the Lake-City",
+   "stop": "The palace of Axayácatl, the seizure of Moctezuma",
+   "date": "1519-11-14",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1519,
+   "jd_ut": 2276189.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 0.72,
+    "text": "Sagittarius 0°43′",
+    "longitude": 240.718
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 27.47,
+    "text": "Leo 27°28′",
+    "longitude": 147.474
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 10.92,
+    "text": "Scorpio 10°55′",
+    "longitude": 220.916
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 15.3,
+    "text": "Capricornus 15°18′",
+    "longitude": 285.298
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 4.07,
+    "text": "Sagittarius 4°04′",
+    "longitude": 244.075
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 8.4,
+    "text": "Scorpio 8°24′",
+    "longitude": 218.402
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 18.71,
+    "text": "Capricornus 18°43′",
+    "longitude": 288.71
+   }
+  },
+  {
+   "segment": "The Breaking: Narváez, the Death of Moctezuma, and the Noche Triste",
+   "stop": "Tenochtitlan, the massacre at the Toxcatl festival",
+   "date": "1520-05-20",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276377.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.97,
+    "text": "Gemini 7°58′",
+    "longitude": 67.973
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 17.94,
+    "text": "Cancer 17°56′",
+    "longitude": 107.936
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 1.33,
+    "text": "Cancer 1°20′",
+    "longitude": 91.334
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 0.96,
+    "text": "Taurus 0°57′",
+    "longitude": 30.958
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 28.32,
+    "text": "Aries 28°19′",
+    "longitude": 28.318
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 14.64,
+    "text": "Scorpio 14°38′",
+    "longitude": 224.642
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 3.44,
+    "text": "Aquarius 3°26′",
+    "longitude": 303.441
+   }
+  },
+  {
+   "segment": "The Breaking: Narváez, the Death of Moctezuma, and the Noche Triste",
+   "stop": "Cempoala, Narváez defeated",
+   "date": "1520-05-27",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276384.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 14.66,
+    "text": "Gemini 14°40′",
+    "longitude": 74.663
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 14.11,
+    "text": "Libra 14°07′",
+    "longitude": 194.111
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 8.67,
+    "text": "Cancer 8°40′",
+    "longitude": 98.668
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 9.16,
+    "text": "Taurus 9°10′",
+    "longitude": 39.161
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 3.48,
+    "text": "Taurus 3°29′",
+    "longitude": 33.478
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.93,
+    "text": "Scorpio 13°56′",
+    "longitude": 223.932
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 3.23,
+    "text": "Aquarius 3°14′",
+    "longitude": 303.226
+   }
+  },
+  {
+   "segment": "The Breaking: Narváez, the Death of Moctezuma, and the Noche Triste",
+   "stop": "Tenochtitlan, the death of Moctezuma",
+   "date": "1520-06-29",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276417.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 16.13,
+    "text": "Cancer 16°08′",
+    "longitude": 106.129
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 23.65,
+    "text": "Sagittarius 23°39′",
+    "longitude": 263.646
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 4.57,
+    "text": "Cancer 4°34′",
+    "longitude": 94.567
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 18.37,
+    "text": "Gemini 18°22′",
+    "longitude": 78.368
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 27.09,
+    "text": "Taurus 27°06′",
+    "longitude": 57.092
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 12.25,
+    "text": "Scorpio 12°15′",
+    "longitude": 222.252
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 1.39,
+    "text": "Aquarius 1°24′",
+    "longitude": 301.395
+   }
+  },
+  {
+   "segment": "The Breaking: Narváez, the Death of Moctezuma, and the Noche Triste",
+   "stop": "The Noche Triste, flight down the Tacuba causeway",
+   "date": "1520-06-30",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276418.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.08,
+    "text": "Cancer 17°05′",
+    "longitude": 107.082
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 6.86,
+    "text": "Capricornus 6°52′",
+    "longitude": 276.86
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 4.35,
+    "text": "Cancer 4°21′",
+    "longitude": 94.349
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 19.57,
+    "text": "Gemini 19°34′",
+    "longitude": 79.568
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 27.79,
+    "text": "Taurus 27°47′",
+    "longitude": 57.788
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 12.25,
+    "text": "Scorpio 12°15′",
+    "longitude": 222.251
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 1.32,
+    "text": "Aquarius 1°19′",
+    "longitude": 301.324
+   }
+  },
+  {
+   "segment": "The Breaking: Narváez, the Death of Moctezuma, and the Noche Triste",
+   "stop": "Popotla, the tree where he wept",
+   "date": "1520-06-30",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276418.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.08,
+    "text": "Cancer 17°05′",
+    "longitude": 107.082
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Breaking: Narváez, the Death of Moctezuma, and the Noche Triste",
+   "stop": "Otumba, the battle turned by the standard",
+   "date": "1520-07-07",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276425.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 23.76,
+    "text": "Cancer 23°46′",
+    "longitude": 113.762
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 15.22,
+    "text": "Aries 15°13′",
+    "longitude": 15.218
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 5.34,
+    "text": "Cancer 5°20′",
+    "longitude": 95.337
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 27.99,
+    "text": "Gemini 28°00′",
+    "longitude": 87.994
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 2.62,
+    "text": "Gemini 2°37′",
+    "longitude": 62.62
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 12.33,
+    "text": "Scorpio 12°20′",
+    "longitude": 222.326
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.82,
+    "text": "Aquarius 0°49′",
+    "longitude": 300.819
+   }
+  },
+  {
+   "segment": "The Siege and the Fall of Tenochtitlan",
+   "stop": "Tlaxcala: the regroup, and the sickness that does what the sword could not",
+   "date": "1520-09-15",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276495.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 1.46,
+    "text": "Libra 1°28′",
+    "longitude": 181.462
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Siege and the Fall of Tenochtitlan",
+   "stop": "Texcoco, the thirteen brigantines built",
+   "date": "1520-12-31",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1520,
+   "jd_ut": 2276602.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.34,
+    "text": "Capricornus 19°21′",
+    "longitude": 289.345
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 9.63,
+    "text": "Libra 9°38′",
+    "longitude": 189.631
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 2.18,
+    "text": "Aquarius 2°11′",
+    "longitude": 302.183
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 8.21,
+    "text": "Aquarius 8°13′",
+    "longitude": 308.213
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 11.74,
+    "text": "Leo 11°44′",
+    "longitude": 131.741
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 12.9,
+    "text": "Sagittarius 12°54′",
+    "longitude": 252.899
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 4.09,
+    "text": "Aquarius 4°06′",
+    "longitude": 304.094
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Siege and the Fall of Tenochtitlan",
+   "stop": "Tenochtitlan: the siege begins, the aqueduct cut",
+   "date": "1521-05-26",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276748.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.48,
+    "text": "Gemini 13°29′",
+    "longitude": 73.477
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 4.09,
+    "text": "Aquarius 4°05′",
+    "longitude": 304.089
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.48,
+    "text": "Gemini 22°29′",
+    "longitude": 82.481
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 28.79,
+    "text": "Cancer 28°48′",
+    "longitude": 118.795
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 26.56,
+    "text": "Leo 26°33′",
+    "longitude": 146.556
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 19.44,
+    "text": "Sagittarius 19°27′",
+    "longitude": 259.443
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 15.24,
+    "text": "Aquarius 15°15′",
+    "longitude": 315.242
+   }
+  },
+  {
+   "segment": "The Siege and the Fall of Tenochtitlan",
+   "stop": "Tlatelolco, the last stand and the taking of Cuauhtémoc",
+   "date": "1521-08-13",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276827.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 29.05,
+    "text": "Leo 29°03′",
+    "longitude": 149.047
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 28.25,
+    "text": "Sagittarius 28°15′",
+    "longitude": 268.248
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 18.49,
+    "text": "Virgo 18°29′",
+    "longitude": 168.486
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 15.12,
+    "text": "Leo 15°07′",
+    "longitude": 135.121
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 13.53,
+    "text": "Libra 13°32′",
+    "longitude": 193.53
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.0,
+    "text": "Sagittarius 14°00′",
+    "longitude": 253.997
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 10.66,
+    "text": "Aquarius 10°40′",
+    "longitude": 310.665
+   }
+  },
+  {
+   "segment": "Governor of New Spain, Rebuilding and the Death March to Honduras",
+   "stop": "Coyoacán: the burned feet, the gold never found",
+   "date": "1521-09-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1521,
+   "jd_ut": 2276846.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 17.5,
+    "text": "Virgo 17°30′",
+    "longitude": 167.502
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Governor of New Spain, Rebuilding and the Death March to Honduras",
+   "stop": "Mexico City, the new capital rises on the ruins",
+   "date": "1523-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1523,
+   "jd_ut": 2277333.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.87,
+    "text": "Capricornus 19°52′",
+    "longitude": 289.869
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Governor of New Spain, Rebuilding and the Death March to Honduras",
+   "stop": "Coatzacoalco, departure for Las Hibueras",
+   "date": "1524-10-12",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1524,
+   "jd_ut": 2277983.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 28.27,
+    "text": "Libra 28°16′",
+    "longitude": 208.273
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 22.06,
+    "text": "Aries 22°03′",
+    "longitude": 22.057
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.87,
+    "text": "Scorpio 11°52′",
+    "longitude": 221.874
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 3.17,
+    "text": "Scorpio 3°10′",
+    "longitude": 213.174
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.89,
+    "text": "Virgo 1°53′",
+    "longitude": 151.885
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 0.85,
+    "text": "Aries 0°51′",
+    "longitude": 0.849
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 15.71,
+    "text": "Pisces 15°43′",
+    "longitude": 345.711
+   }
+  },
+  {
+   "segment": "Governor of New Spain, Rebuilding and the Death March to Honduras",
+   "stop": "Izancanac, Cuauhtémoc hanged",
+   "date": "1525-02-28",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1525,
+   "jd_ut": 2278122.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 18.9,
+    "text": "Pisces 18°54′",
+    "longitude": 348.902
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 20.75,
+    "text": "Taurus 20°45′",
+    "longitude": 50.751
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 6.56,
+    "text": "Aries 6°33′",
+    "longitude": 6.558
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 9.97,
+    "text": "Aquarius 9°58′",
+    "longitude": 309.971
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 23.24,
+    "text": "Libra 23°14′",
+    "longitude": 203.239
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 13.99,
+    "text": "Aries 13°59′",
+    "longitude": 13.988
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 23.89,
+    "text": "Pisces 23°53′",
+    "longitude": 353.891
+   }
+  },
+  {
+   "segment": "Governor of New Spain, Rebuilding and the Death March to Honduras",
+   "stop": "Trujillo, Honduras: the death-march's end",
+   "date": "1525-05-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1525,
+   "jd_ut": 2278184.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.54,
+    "text": "Taurus 19°33′",
+    "longitude": 49.544
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Marquisate, and the Sea that Bears His Name",
+   "stop": "Toledo, audience with Charles V",
+   "date": "1528-07-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1528,
+   "jd_ut": 2279341.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 18.1,
+    "text": "Cancer 18°06′",
+    "longitude": 108.1
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Marquisate, and the Sea that Bears His Name",
+   "stop": "Béjar, marriage to Juana de Zúñiga",
+   "date": "1529-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1529,
+   "jd_ut": 2279525.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 20.42,
+    "text": "Capricornus 20°25′",
+    "longitude": 290.422
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Marquisate, and the Sea that Bears His Name",
+   "stop": "The Marquesado del Valle de Oaxaca granted",
+   "date": "1529-07-06",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1529,
+   "jd_ut": 2279711.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.64,
+    "text": "Cancer 22°38′",
+    "longitude": 112.641
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 27.01,
+    "text": "Cancer 27°01′",
+    "longitude": 117.014
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 1.24,
+    "text": "Leo 1°15′",
+    "longitude": 121.245
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 25.69,
+    "text": "Leo 25°41′",
+    "longitude": 145.689
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 9.96,
+    "text": "Aquarius 9°57′",
+    "longitude": 309.957
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 26.91,
+    "text": "Leo 26°55′",
+    "longitude": 146.915
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 26.11,
+    "text": "Taurus 26°07′",
+    "longitude": 56.112
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Spain, the Marquisate, and the Sea that Bears His Name",
+   "stop": "Cuernavaca: the Palacio de Cortés, the marquisate's seat",
+   "date": "1530-07-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1530,
+   "jd_ut": 2280071.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.64,
+    "text": "Cancer 17°38′",
+    "longitude": 107.639
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spain, the Marquisate, and the Sea that Bears His Name",
+   "stop": "Bahía de Santa Cruz, the sea that bears his name",
+   "date": "1535-05-03",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1535,
+   "jd_ut": 2281838.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 21.07,
+    "text": "Taurus 21°04′",
+    "longitude": 51.066
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 29.62,
+    "text": "Taurus 29°37′",
+    "longitude": 59.625
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 7.02,
+    "text": "Gemini 7°01′",
+    "longitude": 67.022
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 4.26,
+    "text": "Gemini 4°16′",
+    "longitude": 64.261
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.72,
+    "text": "Aries 8°43′",
+    "longitude": 8.716
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 4.31,
+    "text": "Pisces 4°19′",
+    "longitude": 334.311
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 3.86,
+    "text": "Leo 3°52′",
+    "longitude": 123.861
+   }
+  },
+  {
+   "segment": "The Cold Last Years and the Wandering Bones",
+   "stop": "Off Algiers: the storm, the lost emeralds",
+   "date": "1541-10-25",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1541,
+   "jd_ut": 2284205.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 11.18,
+    "text": "Scorpio 11°11′",
+    "longitude": 221.185
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 22.3,
+    "text": "Capricornus 22°18′",
+    "longitude": 292.296
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 29.6,
+    "text": "Libra 29°36′",
+    "longitude": 209.599
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 4.16,
+    "text": "Sagittarius 4°09′",
+    "longitude": 244.155
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 17.83,
+    "text": "Virgo 17°50′",
+    "longitude": 167.835
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 23.31,
+    "text": "Virgo 23°19′",
+    "longitude": 173.313
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 1.07,
+    "text": "Scorpio 1°04′",
+    "longitude": 211.066
+   }
+  },
+  {
+   "segment": "The Cold Last Years and the Wandering Bones",
+   "stop": "Valladolid, the carriage of the King",
+   "date": "1543-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1543,
+   "jd_ut": 2284789.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 18.9,
+    "text": "Gemini 18°54′",
+    "longitude": 78.903
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cold Last Years and the Wandering Bones",
+   "stop": "Castilleja de la Cuesta, the death",
+   "date": "1547-12-02",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1547,
+   "jd_ut": 2286434.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 19.22,
+    "text": "Sagittarius 19°13′",
+    "longitude": 259.219
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 24.42,
+    "text": "Leo 24°25′",
+    "longitude": 144.423
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 22.27,
+    "text": "Sagittarius 22°16′",
+    "longitude": 262.275
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 14.37,
+    "text": "Sagittarius 14°22′",
+    "longitude": 254.371
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 22.25,
+    "text": "Scorpio 22°15′",
+    "longitude": 232.245
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 5.85,
+    "text": "Pisces 5°51′",
+    "longitude": 335.847
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 6.05,
+    "text": "Capricornus 6°03′",
+    "longitude": 276.052
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Cold Last Years and the Wandering Bones",
+   "stop": "Mexico City, Hospital de Jesús: the wandering bones",
+   "date": "1947-07-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1947,
+   "jd_ut": 2432375.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 15.97,
+    "text": "Cancer 15°58′",
+    "longitude": 105.967
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 17.26,
+    "text": "Pisces 17°16′",
+    "longitude": 347.261
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 25.02,
+    "text": "Cancer 25°01′",
+    "longitude": 115.018
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 0.55,
+    "text": "Cancer 0°33′",
+    "longitude": 90.549
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 5.56,
+    "text": "Gemini 5°33′",
+    "longitude": 65.556
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 17.8,
+    "text": "Scorpio 17°48′",
+    "longitude": 227.802
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 8.94,
+    "text": "Leo 8°56′",
+    "longitude": 128.94
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 42,
+  "dated": 42,
+  "unparsed": 0,
+  "day": 24,
+  "month": 2,
+  "year": 16
+ },
+ "parse_failures": []
+}

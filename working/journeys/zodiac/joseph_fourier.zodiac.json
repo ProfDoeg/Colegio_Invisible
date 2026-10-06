@@ -1,0 +1,1945 @@
+{
+ "slug": "joseph_fourier",
+ "traveler": "Jean-Baptiste Joseph Fourier",
+ "title": "The Sum of Sines: the Tailor's Orphan, the Institut d'Egypte, and the Theory of Heat",
+ "years": "1768-1830",
+ "years_parsed": {
+  "first": 1768,
+  "last": 1830
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Tailor's Orphan at Auxerre",
+  "stop": "Auxerre, birth in the tailor's house",
+  "date": "1768-03-21",
+  "date_confidence": "Birth date attested (MacTutor; Wikipedia EN/FR). The exact house is not identified in any source reached; town-centre coordinates serve as the anchor. The parents' deaths are dated only as 'before he was ten'.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1768,
+  "jd_ut": 2366888.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Aries",
+   "degree": 0.92,
+   "text": "Aries 0°55′",
+   "longitude": 0.917
+  },
+  "moon": {
+   "sign": "Taurus",
+   "degree": 4.14,
+   "text": "Taurus 4°08′",
+   "longitude": 34.141
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 16.07,
+   "text": "Aries 16°04′",
+   "longitude": 16.068
+  },
+  "venus": {
+   "sign": "Aquarius",
+   "degree": 23.98,
+   "text": "Aquarius 23°59′",
+   "longitude": 323.984
+  },
+  "mars": {
+   "sign": "Capricornus",
+   "degree": 27.02,
+   "text": "Capricornus 27°01′",
+   "longitude": 297.023
+  },
+  "jupiter": {
+   "sign": "Libra",
+   "degree": 20.1,
+   "text": "Libra 20°06′",
+   "longitude": 200.1
+  },
+  "saturn": {
+   "sign": "Gemini",
+   "degree": 27.66,
+   "text": "Gemini 27°40′",
+   "longitude": 87.659
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1768-1830",
+  "first_year_parsed": 1768
+ },
+ "stops": [
+  {
+   "segment": "The Tailor's Orphan at Auxerre",
+   "stop": "Auxerre, birth in the tailor's house",
+   "date": "1768-03-21",
+   "date_confidence": "Birth date attested (MacTutor; Wikipedia EN/FR). The exact house is not identified in any source reached; town-centre coordinates serve as the anchor. The parents' deaths are dated only as 'before he was ten'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1768,
+   "jd_ut": 2366888.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 0.92,
+    "text": "Aries 0°55′",
+    "longitude": 0.917
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 4.14,
+    "text": "Taurus 4°08′",
+    "longitude": 34.141
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 16.07,
+    "text": "Aries 16°04′",
+    "longitude": 16.068
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 23.98,
+    "text": "Aquarius 23°59′",
+    "longitude": 323.984
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 27.02,
+    "text": "Capricornus 27°01′",
+    "longitude": 297.023
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 20.1,
+    "text": "Libra 20°06′",
+    "longitude": 200.1
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 27.66,
+    "text": "Gemini 27°40′",
+    "longitude": 87.659
+   }
+  },
+  {
+   "segment": "The Tailor's Orphan at Auxerre",
+   "stop": "Auxerre, the Benedictine military school",
+   "date": "1780-01-01",
+   "date_confidence": "Year traditional (FR Wikipedia and MacTutor agree on about 1780; no month attested, defaulted to January). The 1783 Bossut prize inside this stop is attested by MacTutor. Coordinates approximate the historic Benedictine quarter; the 1780s campus footprint is unconfirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371191.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.29
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tailor's Orphan at Auxerre",
+   "stop": "Saint-Benoit-sur-Loire, the novice who never takes vows",
+   "date": "1787-01-01",
+   "date_confidence": "Year attested (MacTutor; FR Wikipedia); month unknown, defaulted to January. Coordinates corrected: the research pool carried 47.7908 / 2.2911, about 2.5 km off in open country; EN Wikipedia gives 47.8103 / 2.3067 for the commune and abbey.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373748.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.6,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.597
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tailor's Orphan at Auxerre",
+   "stop": "Paris, the paper on algebraic equations",
+   "date": "1789-01-01",
+   "date_confidence": "Year attested (MacTutor); month and day not established, defaulted to January. Central Paris coordinates used: the Academy sat at the Louvre, but no source reached places the reading in a named room.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1789,
+   "jd_ut": 2374479.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.12,
+    "text": "Capricornus 11°07′",
+    "longitude": 281.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tailor's Orphan at Auxerre",
+   "stop": "Auxerre, teaching where he was taught",
+   "date": "1790-01-01",
+   "date_confidence": "Year attested (MacTutor); month unknown, defaulted to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1790,
+   "jd_ut": 2374844.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.874
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Terror, the Committee, and the Two Arrests",
+   "stop": "Auxerre, a seat on the Revolutionary Committee",
+   "date": "1793-01-01",
+   "date_confidence": "Year attested (MacTutor, quoting Fourier's own letter); month unknown, defaulted to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2375940.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.15,
+    "text": "Capricornus 11°09′",
+    "longitude": 281.15
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Terror, the Committee, and the Two Arrests",
+   "stop": "Auxerre, arrest under the Terror",
+   "date": "1794-07-04",
+   "date_confidence": "MacTutor gives only July 1794; the day 4 July comes from the encyclopedia tradition (Wikipedia EN/FR). Contradiction of precision rather than substance, left open. The prison building at Auxerre is not named in any source reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1794,
+   "jd_ut": 2376489.5,
+   "precision": "month",
+   "precision_triggers": [
+    "traditional",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.12,
+    "text": "Cancer 12°07′",
+    "longitude": 102.12
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Terror, the Committee, and the Two Arrests",
+   "stop": "Paris, the Ecole normale de l'an III",
+   "date": "1795-01-20",
+   "date_confidence": "Opening date attested (Wikipedia FR: 20 January 1795; the school closes 19 May 1795). MacTutor confirms Fourier's nomination and attendance and names Lagrange, Laplace, and Monge as teachers.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1795,
+   "jd_ut": 2376689.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 0.01,
+    "text": "Aquarius 0°01′",
+    "longitude": 300.011
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 17.36,
+    "text": "Capricornus 17°22′",
+    "longitude": 287.365
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 20.02,
+    "text": "Capricornus 20°01′",
+    "longitude": 290.022
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 4.3,
+    "text": "Capricornus 4°18′",
+    "longitude": 274.3
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 13.59,
+    "text": "Pisces 13°35′",
+    "longitude": 343.59
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 18.68,
+    "text": "Capricornus 18°41′",
+    "longitude": 288.676
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 22.84,
+    "text": "Taurus 22°50′",
+    "longitude": 52.839
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Terror, the Committee, and the Two Arrests",
+   "stop": "Paris, the second arrest",
+   "date": "1795-06-07",
+   "date_confidence": "Date from Wikipedia FR. MacTutor states plainly that sources disagree about the cause of his release; the disagreement is preserved rather than resolved. Place of detention not named in any source reached; central Paris coordinates used as placeholder.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1795,
+   "jd_ut": 2376827.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.13,
+    "text": "Gemini 16°08′",
+    "longitude": 76.131
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Terror, the Committee, and the Two Arrests",
+   "stop": "Paris, the school at the Palais Bourbon",
+   "date": "1795-09-01",
+   "date_confidence": "Year attested (MacTutor); month not established and set to September to preserve sequence after the June arrest. Coordinates are the school's seat 1794-1804 near the Palais Bourbon; the move to the Montagne Sainte-Geneviève is dated 1804 by Wikipedia FR, correcting the 1805 given in the research pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1795,
+   "jd_ut": 2376913.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "sequencing",
+    "to the year",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.46,
+    "text": "Virgo 8°28′",
+    "longitude": 158.464
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Terror, the Committee, and the Two Arrests",
+   "stop": "Paris, Lagrange's chair",
+   "date": "1797-01-01",
+   "date_confidence": "Year attested (MacTutor; Wikipedia); the exact date within 1797 is not established and is defaulted to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377401.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.18,
+    "text": "Capricornus 11°11′",
+    "longitude": 281.18
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fleet, the Delta, and the Institut",
+   "stop": "Toulon, embarkation for a destination not announced",
+   "date": "1798-05-19",
+   "date_confidence": "Attested (Wikipedia FR). Coordinates inherited byte-identical from pierre_francois_bouchard.journey.json, which records the same embarkation at 43.1242 / 5.928.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377904.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.19,
+    "text": "Taurus 28°11′",
+    "longitude": 58.186
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 7.4,
+    "text": "Cancer 7°24′",
+    "longitude": 97.402
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 10.31,
+    "text": "Gemini 10°18′",
+    "longitude": 70.308
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 12.46,
+    "text": "Aries 12°27′",
+    "longitude": 12.456
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 17.48,
+    "text": "Aquarius 17°29′",
+    "longitude": 317.48
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 9.03,
+    "text": "Taurus 9°02′",
+    "longitude": 39.028
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 9.73,
+    "text": "Cancer 9°44′",
+    "longitude": 99.735
+   }
+  },
+  {
+   "segment": "The Fleet, the Delta, and the Institut",
+   "stop": "Valletta, the Knights give up the island",
+   "date": "1798-06-10",
+   "date_confidence": "The fleet's occupation of Malta on 10 June 1798 is attested (MacTutor; Wikipedia EN). Fourier's presence ashore is inferred from his passage with the convoy and is not attested for him by name.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377926.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (inferred) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 19.26,
+    "text": "Gemini 19°16′",
+    "longitude": 79.261
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 27.37,
+    "text": "Aries 27°22′",
+    "longitude": 27.369
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 2.14,
+    "text": "Gemini 2°08′",
+    "longitude": 62.135
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 4.16,
+    "text": "Taurus 4°10′",
+    "longitude": 34.165
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 29.13,
+    "text": "Aquarius 29°08′",
+    "longitude": 329.128
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 13.97,
+    "text": "Taurus 13°58′",
+    "longitude": 43.969
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 12.3,
+    "text": "Cancer 12°18′",
+    "longitude": 102.301
+   }
+  },
+  {
+   "segment": "The Fleet, the Delta, and the Institut",
+   "stop": "Marabout, the landing west of Alexandria",
+   "date": "1798-07-01",
+   "date_confidence": "Landing near Marabout 1 July 1798, city taken 2 July (Wikipedia EN, 'French campaign in Egypt and Syria'). The research pool's claim that Alexandria fell on 1 July conflated the two, and its preserved '28 June' infobox contradiction no longer exists in the article; both hedges dropped.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377947.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.29,
+    "text": "Cancer 9°18′",
+    "longitude": 99.292
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fleet, the Delta, and the Institut",
+   "stop": "Imbaba, the Pyramids and the road to Cairo",
+   "date": "1798-07-21",
+   "date_confidence": "Battle date attested (Wikipedia EN). Fourier's presence at the battle itself is not separately attested; his attachment to the travelling savant corps is the basis for the stop. French entry into Cairo 22-24 July, folded into this stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377967.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 28.37,
+    "text": "Cancer 28°22′",
+    "longitude": 118.368
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 7.51,
+    "text": "Scorpio 7°30′",
+    "longitude": 217.506
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 28.91,
+    "text": "Cancer 28°55′",
+    "longitude": 118.909
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 19.47,
+    "text": "Gemini 19°28′",
+    "longitude": 79.469
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 13.16,
+    "text": "Pisces 13°10′",
+    "longitude": 343.162
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 21.7,
+    "text": "Taurus 21°42′",
+    "longitude": 51.704
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 17.56,
+    "text": "Cancer 17°34′",
+    "longitude": 107.565
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fleet, the Delta, and the Institut",
+   "stop": "Aboukir Bay, the fleet burned",
+   "date": "1798-08-01",
+   "date_confidence": "Date attested (MacTutor). Coordinates supplied by the writer for Aboukir Bay: the research pool carried no lat/lng for this event.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377978.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.88,
+    "text": "Leo 8°53′",
+    "longitude": 128.885
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 25.54,
+    "text": "Pisces 25°32′",
+    "longitude": 355.538
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 20.86,
+    "text": "Leo 20°52′",
+    "longitude": 140.863
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 2.22,
+    "text": "Cancer 2°13′",
+    "longitude": 92.217
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 13.99,
+    "text": "Pisces 14°00′",
+    "longitude": 343.992
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 23.28,
+    "text": "Taurus 23°17′",
+    "longitude": 53.28
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 18.96,
+    "text": "Cancer 18°58′",
+    "longitude": 108.961
+   }
+  },
+  {
+   "segment": "The Fleet, the Delta, and the Institut",
+   "stop": "Cairo, the founding of the Institut d'Egypte",
+   "date": "1798-08-22",
+   "date_confidence": "Foundation 22 August 1798 at the palace of Hassan Kashif, first session 23 August, attested by Wikipedia FR, 'Institut d'Egypte'. Correction carried out: Costaz was secretaire-adjoint, assistant secretary, not a co-equal named alongside Fourier as the research pool had it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2377999.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 29.06,
+    "text": "Leo 29°04′",
+    "longitude": 149.061
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 9.8,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.796
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 24.21,
+    "text": "Virgo 24°12′",
+    "longitude": 174.206
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 27.04,
+    "text": "Cancer 27°02′",
+    "longitude": 117.042
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 11.29,
+    "text": "Pisces 11°17′",
+    "longitude": 341.287
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 25.47,
+    "text": "Taurus 25°28′",
+    "longitude": 55.474
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 21.47,
+    "text": "Cancer 21°28′",
+    "longitude": 111.465
+   }
+  },
+  {
+   "segment": "Upper Egypt and the Description",
+   "stop": "Cairo, charge of the memoirs",
+   "date": "1798-11-01",
+   "date_confidence": "November 1798 given by the research pool from Wikipedia EN, 'Description de l'Egypte'; MacTutor dates the collating charge across 1798-1801 without a starting month. Fontanes's remark is reported by Arago, who does not date it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1798,
+   "jd_ut": 2378070.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.85,
+    "text": "Scorpio 8°51′",
+    "longitude": 218.853
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Upper Egypt and the Description",
+   "stop": "Aswan, the first cataract",
+   "date": "1799-01-01",
+   "date_confidence": "Year only; month unknown, defaulted to January. Wikipedia FR attests Fourier's Upper Egypt exploration with Louis Costaz in general terms; this specific site is a reconstructed stop on that documented itinerary, not attested for him by name. The same reservation covers Philae (24.0247, 32.8841), named in the campa.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378131.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year only",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.68,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.685
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Upper Egypt and the Description",
+   "stop": "Dendera, the ceiling of the zodiac",
+   "date": "1799-01-01",
+   "date_confidence": "Year only; month unknown, defaulted to January. Reconstructed from the Description's documented Upper Egypt itinerary; Fourier's individual presence at Dendera is not separately attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378131.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year only",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.68,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.685
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Upper Egypt and the Description",
+   "stop": "Rosetta, the stone comes out of the wall",
+   "date": "1799-07-19",
+   "date_confidence": "Date and coordinates inherited byte-identical from pierre_francois_bouchard.journey.json. That Fourier examined the stone personally is stated by no source reached and is recorded as a gap; he is placed here only as the officer of the institution that received the find.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1799,
+   "jd_ut": 2378330.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.23,
+    "text": "Cancer 26°14′",
+    "longitude": 116.228
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Upper Egypt and the Description",
+   "stop": "Cairo, the oration for Kleber",
+   "date": "1800-06-14",
+   "date_confidence": "Kleber was assassinated at Cairo on 14 June 1800; the date used here is the assassination, since the date of Fourier's funeral oration is not established in the sources reached. The oration text is printed by Arago.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1800,
+   "jd_ut": 2378660.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 22.62,
+    "text": "Gemini 22°37′",
+    "longitude": 82.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Upper Egypt and the Description",
+   "stop": "Cairo, the garrison capitulates",
+   "date": "1801-06-01",
+   "date_confidence": "The Cairo garrison capitulated under Belliard in June 1801 and was evacuated under terms (Wikipedia EN). Exact day not fixed in the sources reached, defaulted to the first. Fourier is placed here for the corps and not by name; one strand of the tradition instead attaches him to the Alexandria capitulation two months later.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2379012.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed",
+    "traditional",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.96,
+    "text": "Gemini 9°58′",
+    "longitude": 69.961
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Upper Egypt and the Description",
+   "stop": "Alexandria, the last capitulation",
+   "date": "1801-09-02",
+   "date_confidence": "Menou's capitulation at Alexandria is attested for 2 September 1801. Correction carried out: the research pool placed Fourier among the evacuated here and tied his return to Menou; MacTutor never mentions Menou, and the Cairo savants had sailed in June. His presence at this surrender is not attested. Coordinates inherited byte-identical from pierre_francois_bouchard.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2379105.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 9.0,
+    "text": "Virgo 9°00′",
+    "longitude": 158.997
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 0.2,
+    "text": "Cancer 0°12′",
+    "longitude": 90.195
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 24.1,
+    "text": "Leo 24°06′",
+    "longitude": 144.102
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 25.34,
+    "text": "Cancer 25°20′",
+    "longitude": 115.339
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 25.62,
+    "text": "Virgo 25°37′",
+    "longitude": 175.625
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 20.77,
+    "text": "Leo 20°46′",
+    "longitude": 140.77
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 29.07,
+    "text": "Leo 29°04′",
+    "longitude": 149.072
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Prefect of the Isere",
+   "stop": "Toulon, the uncertain return",
+   "date": "1802-01-01",
+   "date_confidence": "The year is contradicted between sources: MacTutor and Wikipedia EN say 1801, Wikipedia FR says 1802. Left standing; the later date is used for ordering only. The port of landing is named by nobody reached; Toulon, the port of departure, is used as a placeholder pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379226.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "disputed",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.943
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prefect of the Isere",
+   "stop": "Grenoble, appointed prefect of the Isere",
+   "date": "1802-02-12",
+   "date_confidence": "Attested to the day by Wikipedia FR: 'Le 12 fevrier 1802, Napoleon le nomme prefet de l'Isere.' MacTutor and Wikipedia EN loosely date the appointment to 1801, and the research pool carried both; the documented date is used and the older tradition noted. Term ends 1815, not 1814 as the pool had it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379268.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 22.63,
+    "text": "Aquarius 22°38′",
+    "longitude": 322.63
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prefect of the Isere",
+   "stop": "Grenoble, the boy Champollion at the prefect's house",
+   "date": "1802-03-01",
+   "date_confidence": "Champollion reached Grenoble 27 March 1801 and was born 23 December 1790, so he was ten and not eleven at any such meeting; the research pool's 'eleven-year-old' is corrected. Sources date the visit c. 1801 or c. 1802; March 1802 is used for ordering. Wikipedia EN flags the anecdote's truth as uncertain.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379285.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c."
+   ],
+   "notes": [
+    "hard triggers (uncertain) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.74,
+    "text": "Pisces 9°45′",
+    "longitude": 339.743
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prefect of the Isere",
+   "stop": "Bourgoin, the marshes drained",
+   "date": "1803-01-01",
+   "date_confidence": "No single date: the works run the length of the prefecture, 1802-1815. MacTutor gives 'draining the swamps of Bourgoin' verbatim. The road is contradicted: MacTutor sends it to Turin, Wikipedia FR to Briancon by the col du Lautaret. The pool's 'Mont Cenis' detail was unsourced and is struck.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1803,
+   "jd_ut": 2379591.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.7,
+    "text": "Capricornus 9°42′",
+    "longitude": 279.695
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prefect of the Isere",
+   "stop": "Grenoble, heat in solid bodies",
+   "date": "1804-01-01",
+   "date_confidence": "MacTutor: 'His work on the topic began around 1804.' The research pool's geography lens gave 1802-1807 and is corrected to 1804-1807. Month unknown, defaulted to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1804,
+   "jd_ut": 2379956.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.45,
+    "text": "Capricornus 9°27′",
+    "longitude": 279.448
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Prefect of the Isere",
+   "stop": "Paris, the memoir read at the Institute",
+   "date": "1807-12-21",
+   "date_confidence": "Reading date attested to the day (MacTutor). The Lagrange and Laplace objection is dated 1808 by MacTutor and is folded into this stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1807,
+   "jd_ut": 2381406.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 28.27,
+    "text": "Sagittarius 28°16′",
+    "longitude": 268.265
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 13.38,
+    "text": "Virgo 13°23′",
+    "longitude": 163.376
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 6.56,
+    "text": "Sagittarius 6°34′",
+    "longitude": 246.561
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 11.52,
+    "text": "Scorpio 11°31′",
+    "longitude": 221.517
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 25.73,
+    "text": "Capricornus 25°44′",
+    "longitude": 295.733
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 12.13,
+    "text": "Aquarius 12°08′",
+    "longitude": 312.127
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 18.07,
+    "text": "Scorpio 18°04′",
+    "longitude": 228.07
+   }
+  },
+  {
+   "segment": "Prefect of the Isere",
+   "stop": "Grenoble, the Hotel de Lesdiguieres and the Imperial Faculty",
+   "date": "1810-01-01",
+   "date_confidence": "Year attested by Wikipedia FR ('Il cree en 1810 la Faculte (universite) Imperiale de Grenoble, dont il devient le recteur'); month unknown, defaulted to January. Correction carried out: the research pool called it an 'Imperial Academy of Grenoble', which is not the institution's name.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1810,
+   "jd_ut": 2382148.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.002
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hundred Days",
+   "stop": "Golfe-Juan, the Emperor comes ashore",
+   "date": "1815-03-01",
+   "date_confidence": "Date and coordinates inherited byte-identical from napoleon.journey.json, which records the Elba landing and the march north through the mountains toward Grenoble. That file does not record Fourier's response to the approach; the gap is filled here from Fourier's own sources.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384033.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.59,
+    "text": "Pisces 9°35′",
+    "longitude": 339.59
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hundred Days",
+   "stop": "Grenoble, the prefect leaves before the Emperor arrives",
+   "date": "1815-03-01",
+   "date_confidence": "Month attested (Wikipedia FR: March 1815); day not established and defaulted to the first, which places this stop alongside the Golfe-Juan landing rather than after it. MacTutor confirms the attempted opposition and the flight.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384033.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not established"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.59,
+    "text": "Pisces 9°35′",
+    "longitude": 339.59
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hundred Days",
+   "stop": "Lyon, prefect of the Rhone",
+   "date": "1815-04-01",
+   "date_confidence": "Year attested (Wikipedia FR); the date of appointment is given by no source reached and is set to April for ordering between the March flight and the 17 May removal. That removal date is itself attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384064.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.42,
+    "text": "Aries 10°25′",
+    "longitude": 10.416
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hundred Days",
+   "stop": "Paris, dismissed and pensioned on paper",
+   "date": "1815-05-17",
+   "date_confidence": "Removal from the prefecture attested to the day (Wikipedia FR). The pension of 6000 francs granted 10 June 1815 and never received is attested by MacTutor and folded into this stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384110.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 25.19,
+    "text": "Taurus 25°12′",
+    "longitude": 55.194
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 6.86,
+    "text": "Virgo 6°51′",
+    "longitude": 156.858
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 19.21,
+    "text": "Taurus 19°12′",
+    "longitude": 49.207
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 28.99,
+    "text": "Gemini 28°59′",
+    "longitude": 88.986
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 2.85,
+    "text": "Pisces 2°51′",
+    "longitude": 332.85
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 0.41,
+    "text": "Libra 0°24′",
+    "longitude": 180.405
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 11.95,
+    "text": "Aquarius 11°57′",
+    "longitude": 311.953
+   }
+  },
+  {
+   "segment": "The Hundred Days",
+   "stop": "Paris, the Bureau of Statistics of the Seine",
+   "date": "1815-06-01",
+   "date_confidence": "Year attested (Wikipedia EN); month not established, set to June to preserve sequence after the 17 May dismissal. Exact address of the bureau not established in the sources reached; central Paris coordinates used as placeholder.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384125.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "placeholder",
+    "sequencing",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.59,
+    "text": "Gemini 9°36′",
+    "longitude": 69.594
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Analytical Theory",
+   "stop": "Paris, elected to the Academie des sciences",
+   "date": "1817-01-01",
+   "date_confidence": "Year attested (MacTutor; Wikipedia FR); month and day not established, defaulted to January. Wikipedia FR records that an earlier admission had been blocked on political grounds.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384705.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.308
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Analytical Theory",
+   "stop": "Paris, permanent secretary and the Theorie analytique",
+   "date": "1822-01-01",
+   "date_confidence": "Both the election to the permanent secretaryship on Delambre's death and the publication by Firmin Didot fall in 1822 (MacTutor; Wikipedia EN); neither is dated to the month in the sources reached, so both are set to January and combined in one stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386531.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.09,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.09
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Analytical Theory",
+   "stop": "Paris, the memoir on the temperature of the globe",
+   "date": "1824-01-01",
+   "date_confidence": "Year attested (Wikipedia EN, 'Greenhouse effect'); month not established, defaulted to January. Pouillet's strengthening of the argument is dated 1827 and 1838; Ekholm's coinage of the term to 1901.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387261.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.6,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.595
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Analytical Theory",
+   "stop": "Paris, the fall on the stairs",
+   "date": "1830-05-04",
+   "date_confidence": "Date attested (Arago, verbatim; Wikipedia EN). Coordinates are those of his residence in the old rue d'Enfer, an approximate match to a street later absorbed into Boulevard Saint-Michel and rue Henri-Barbusse.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389576.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (approximately) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 13.0,
+    "text": "Taurus 13°00′",
+    "longitude": 43.004
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 29.45,
+    "text": "Virgo 29°27′",
+    "longitude": 179.45
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 26.19,
+    "text": "Taurus 26°11′",
+    "longitude": 56.19
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 27.69,
+    "text": "Pisces 27°42′",
+    "longitude": 357.694
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 14.5,
+    "text": "Aquarius 14°30′",
+    "longitude": 314.496
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.86,
+    "text": "Capricornus 17°51′",
+    "longitude": 287.857
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 11.76,
+    "text": "Leo 11°45′",
+    "longitude": 131.755
+   }
+  },
+  {
+   "segment": "The Analytical Theory",
+   "stop": "Paris, death at 19 rue d'Enfer",
+   "date": "1830-05-16",
+   "date_confidence": "Date and address attested (Wikipedia FR). Coordinates approximate: rue d'Enfer no longer exists under that name, having been absorbed into Boulevard Saint-Michel and rue Henri-Barbusse.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389588.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 24.59,
+    "text": "Taurus 24°35′",
+    "longitude": 54.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Egyptian Tomb and the Series",
+   "stop": "Pere Lachaise, the Egyptian tomb",
+   "date": "1830-05-01",
+   "date_confidence": "Burial in Division 18 under a monument with Egyptian motifs is attested (Wikipedia EN for the motifs, FR for the division); the burial day is not given, so the month is used. Coordinate discrepancy inside the research pool, flagged not averaged: the afterlife lens gives 48.8614 / 2.3931, the geography lens 48.8606 / 2.3928. The tomb inscription was not recovered.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389573.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.1,
+    "text": "Taurus 10°06′",
+    "longitude": 40.098
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Egyptian Tomb and the Series",
+   "stop": "Auxerre, the statue melted down",
+   "date": "1849-01-01",
+   "date_confidence": "Erection in 1849 and destruction in a wartime metal drive are given by Wikipedia FR, which does not specify the year of the melting; the erection year is used and the month defaulted to January. Whether the 2012 subscription produced a new statue is not established by any source reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396393.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.544
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Egyptian Tomb and the Series",
+   "stop": "Paris, the name on the Eiffel Tower",
+   "date": "1889-01-01",
+   "date_confidence": "The 72 names were added at the tower's completion in 1889; no month applies, defaulted to January. Coordinates inherited byte-identical from the interlock lens and rene_hauy.journey.json (48.8583, 2.2945); the afterlife lens of the research pool gives 48.8584, and the divergence is recorded rather than resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411003.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.84,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.838
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Egyptian Tomb and the Series",
+   "stop": "Grenoble, the university that took his name",
+   "date": "2015-01-01",
+   "date_confidence": "The merger into Universite Grenoble Alpes is dated 2015 by Wikipedia FR; the month is not relevant and is defaulted to January. The lunar crater Fourier was adopted by the IAU in 1935, and the Fermi anecdote is drawn from fermi.journey.json, where it is a mathematical inheritance and not a shared place.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2015,
+   "jd_ut": 2457023.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.24,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.239
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 11,
+  "month": 6,
+  "year": 28
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1320 @@
+{
+ "slug": "johann_jahn",
+ "traveler": "Friedrich Ludwig Jahn",
+ "title": "Turnvater: Lanz to Freyburg, the Body Made a Fatherland",
+ "years": "1778-1852",
+ "years_parsed": {
+  "first": 1778,
+  "last": 1852
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Das Kind der Prignitz: The Pastor's Son (1778–1794)",
+  "stop": "Lanz, the parsonage in the Prignitz",
+  "date": "1778-08-11",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1778,
+  "jd_ut": 2370683.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Leo",
+   "degree": 18.31,
+   "text": "Leo 18°19′",
+   "longitude": 138.315
+  },
+  "moon": {
+   "sign": "Pisces",
+   "degree": 20.11,
+   "text": "Pisces 20°06′",
+   "longitude": 350.107
+  },
+  "mercury": {
+   "sign": "Virgo",
+   "degree": 4.73,
+   "text": "Virgo 4°44′",
+   "longitude": 154.733
+  },
+  "venus": {
+   "sign": "Virgo",
+   "degree": 24.11,
+   "text": "Virgo 24°07′",
+   "longitude": 174.11
+  },
+  "mars": {
+   "sign": "Cancer",
+   "degree": 28.53,
+   "text": "Cancer 28°32′",
+   "longitude": 118.529
+  },
+  "jupiter": {
+   "sign": "Virgo",
+   "degree": 3.21,
+   "text": "Virgo 3°12′",
+   "longitude": 153.206
+  },
+  "saturn": {
+   "sign": "Scorpio",
+   "degree": 9.3,
+   "text": "Scorpio 9°18′",
+   "longitude": 219.301
+  },
+  "conjunctions": [
+   {
+    "sign": "Virgo",
+    "bodies": [
+     "Mercury",
+     "Venus",
+     "Jupiter"
+    ]
+   }
+  ],
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "1778-1852",
+  "first_year_parsed": 1778
+ },
+ "stops": [
+  {
+   "segment": "Das Kind der Prignitz: The Pastor's Son (1778–1794)",
+   "stop": "Lanz, the parsonage in the Prignitz",
+   "date": "1778-08-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1778,
+   "jd_ut": 2370683.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 18.31,
+    "text": "Leo 18°19′",
+    "longitude": 138.315
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 20.11,
+    "text": "Pisces 20°06′",
+    "longitude": 350.107
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 4.73,
+    "text": "Virgo 4°44′",
+    "longitude": 154.733
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 24.11,
+    "text": "Virgo 24°07′",
+    "longitude": 174.11
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 28.53,
+    "text": "Cancer 28°32′",
+    "longitude": 118.529
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 3.21,
+    "text": "Virgo 3°12′",
+    "longitude": 153.206
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 9.3,
+    "text": "Scorpio 9°18′",
+    "longitude": 219.301
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Das Kind der Prignitz: The Pastor's Son (1778–1794)",
+   "stop": "Salzwedel, the Gymnasium of the Altmark",
+   "date": "1791-04-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1791,
+   "jd_ut": 2375299.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.22,
+    "text": "Aries 11°13′",
+    "longitude": 11.218
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Das Kind der Prignitz: The Pastor's Son (1778–1794)",
+   "stop": "Berlin, the Graues Kloster and the first flight",
+   "date": "1794-04-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1794,
+   "jd_ut": 2376395.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.49,
+    "text": "Aries 11°29′",
+    "longitude": 11.487
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Wanderjahre: The Roving Student (1796–1809)",
+   "stop": "Halle, matriculation in theology",
+   "date": "1796-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1796,
+   "jd_ut": 2377309.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.52,
+    "text": "Libra 8°31′",
+    "longitude": 188.517
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Wanderjahre: The Roving Student (1796–1809)",
+   "stop": "Greifswald, the meeting with Arndt",
+   "date": "1802-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379346.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.88,
+    "text": "Taurus 9°53′",
+    "longitude": 39.879
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Wanderjahre: The Roving Student (1796–1809)",
+   "stop": "Neubrandenburg, tutor in Mecklenburg",
+   "date": "1803-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1803,
+   "jd_ut": 2379742.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.5,
+    "text": "Gemini 9°30′",
+    "longitude": 69.498
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Wanderjahre: The Roving Student (1796–1809)",
+   "stop": "Göttingen, the last lecture-halls",
+   "date": "1805-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380412.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.83,
+    "text": "Aries 10°50′",
+    "longitude": 10.832
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Wanderjahre: The Roving Student (1796–1809)",
+   "stop": "Jena, the field of the great shame",
+   "date": "1806-10-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1806,
+   "jd_ut": 2380973.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 19.97,
+    "text": "Libra 19°58′",
+    "longitude": 199.965
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 16.42,
+    "text": "Scorpio 16°25′",
+    "longitude": 226.42
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 17.07,
+    "text": "Libra 17°04′",
+    "longitude": 197.068
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 1.28,
+    "text": "Libra 1°17′",
+    "longitude": 181.279
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.35,
+    "text": "Leo 14°21′",
+    "longitude": 134.354
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 2.07,
+    "text": "Capricornus 2°04′",
+    "longitude": 272.073
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 29.81,
+    "text": "Libra 29°48′",
+    "longitude": 209.808
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Die Wanderjahre: The Roving Student (1796–1809)",
+   "stop": "Schnepfenthal, at the feet of GutsMuths",
+   "date": "1807-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1807,
+   "jd_ut": 2381172.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.68,
+    "text": "Taurus 9°41′",
+    "longitude": 39.676
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Volkstum: The Word and the Plan (1809–1810)",
+   "stop": "Berlin, the Plamann School and the Grey Cloister",
+   "date": "1809-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1809,
+   "jd_ut": 2382026.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.09,
+    "text": "Virgo 8°05′",
+    "longitude": 158.091
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Volkstum: The Word and the Plan (1809–1810)",
+   "stop": "Lübeck, Deutsches Volkstum goes to press",
+   "date": "1810-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1810,
+   "jd_ut": 2382148.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.002
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Hasenheide: The First Turnplatz (1811–1816)",
+   "stop": "Berlin, Hasenheide: the founding of the Turnplatz",
+   "date": "1811-06-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1811,
+   "jd_ut": 2382682.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 26.76,
+    "text": "Gemini 26°46′",
+    "longitude": 86.763
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 3.71,
+    "text": "Gemini 3°43′",
+    "longitude": 63.714
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 6.58,
+    "text": "Gemini 6°35′",
+    "longitude": 66.577
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 26.67,
+    "text": "Taurus 26°40′",
+    "longitude": 56.671
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 25.43,
+    "text": "Scorpio 25°26′",
+    "longitude": 235.426
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 17.02,
+    "text": "Gemini 17°01′",
+    "longitude": 77.016
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 22.78,
+    "text": "Sagittarius 22°47′",
+    "longitude": 262.782
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Die Hasenheide: The First Turnplatz (1811–1816)",
+   "stop": "Berlin, the Berliner Turnverein and the Turnfahrten",
+   "date": "1811-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1811,
+   "jd_ut": 2382725.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.79,
+    "text": "Leo 7°48′",
+    "longitude": 127.793
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lützows wilde Jagd: The War of Liberation (1813–1815)",
+   "stop": "Breslau, the muster of the Free Corps",
+   "date": "1813-02-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383275.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.83,
+    "text": "Aquarius 11°50′",
+    "longitude": 311.828
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lützows wilde Jagd: The War of Liberation (1813–1815)",
+   "stop": "Gadebusch, the wood where Körner falls",
+   "date": "1813-08-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383481.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 2.32,
+    "text": "Virgo 2°19′",
+    "longitude": 152.318
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 1.71,
+    "text": "Virgo 1°43′",
+    "longitude": 151.712
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 5.41,
+    "text": "Virgo 5°25′",
+    "longitude": 155.414
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 27.34,
+    "text": "Virgo 27°20′",
+    "longitude": 177.34
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 2.45,
+    "text": "Aquarius 2°27′",
+    "longitude": 302.45
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 22.76,
+    "text": "Leo 22°45′",
+    "longitude": 142.757
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 12.78,
+    "text": "Capricornus 12°47′",
+    "longitude": 282.779
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Lützows wilde Jagd: The War of Liberation (1813–1815)",
+   "stop": "The Göhrde, the charge and the maiden-soldier",
+   "date": "1813-09-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383502.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 22.71,
+    "text": "Virgo 22°43′",
+    "longitude": 172.71
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 5.03,
+    "text": "Gemini 5°02′",
+    "longitude": 65.025
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 5.34,
+    "text": "Virgo 5°21′",
+    "longitude": 155.343
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 22.94,
+    "text": "Libra 22°56′",
+    "longitude": 202.936
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 3.97,
+    "text": "Aquarius 3°58′",
+    "longitude": 303.973
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 27.23,
+    "text": "Leo 27°14′",
+    "longitude": 147.23
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 12.4,
+    "text": "Capricornus 12°24′",
+    "longitude": 282.395
+   }
+  },
+  {
+   "segment": "Lützows wilde Jagd: The War of Liberation (1813–1815)",
+   "stop": "Leipzig, the Battle of the Nations",
+   "date": "1813-10-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383534.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.24,
+    "text": "Libra 24°14′",
+    "longitude": 204.24
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 11.32,
+    "text": "Leo 11°19′",
+    "longitude": 131.319
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 29.78,
+    "text": "Libra 29°47′",
+    "longitude": 209.779
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 1.62,
+    "text": "Sagittarius 1°37′",
+    "longitude": 241.62
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 15.5,
+    "text": "Aquarius 15°30′",
+    "longitude": 315.499
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 3.37,
+    "text": "Virgo 3°22′",
+    "longitude": 153.373
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 13.18,
+    "text": "Capricornus 13°11′",
+    "longitude": 283.18
+   }
+  },
+  {
+   "segment": "Turnkunst und Burschenschaft: Master and Kindler (1815–1817)",
+   "stop": "Jena, the birth of the Urburschenschaft",
+   "date": "1815-06-12",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2384136.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.11,
+    "text": "Gemini 20°07′",
+    "longitude": 80.113
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 19.14,
+    "text": "Leo 19°08′",
+    "longitude": 139.139
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 11.35,
+    "text": "Cancer 11°21′",
+    "longitude": 101.35
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 29.41,
+    "text": "Cancer 29°25′",
+    "longitude": 119.41
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 20.41,
+    "text": "Pisces 20°24′",
+    "longitude": 350.406
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 0.53,
+    "text": "Libra 0°32′",
+    "longitude": 180.534
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 11.66,
+    "text": "Aquarius 11°40′",
+    "longitude": 311.66
+   }
+  },
+  {
+   "segment": "Turnkunst und Burschenschaft: Master and Kindler (1815–1817)",
+   "stop": "Berlin, Die Deutsche Turnkunst printed",
+   "date": "1816-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1816,
+   "jd_ut": 2384339.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.54,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.536
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Turnkunst und Burschenschaft: Master and Kindler (1815–1817)",
+   "stop": "Eisenach, the Wartburg: the students' fire",
+   "date": "1817-10-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384995.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.27,
+    "text": "Libra 24°16′",
+    "longitude": 204.271
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 2.81,
+    "text": "Aquarius 2°49′",
+    "longitude": 302.812
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.14,
+    "text": "Libra 10°08′",
+    "longitude": 190.14
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 19.86,
+    "text": "Virgo 19°52′",
+    "longitude": 169.86
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 24.91,
+    "text": "Gemini 24°55′",
+    "longitude": 84.909
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 9.66,
+    "text": "Sagittarius 9°40′",
+    "longitude": 249.665
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 29.19,
+    "text": "Aquarius 29°12′",
+    "longitude": 329.193
+   }
+  },
+  {
+   "segment": "Die Turnsperre: The Ban and the Fortress (1819–1825)",
+   "stop": "Berlin, the Turnplatz closed, the man taken",
+   "date": "1819-07-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385628.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 19.71,
+    "text": "Cancer 19°43′",
+    "longitude": 109.709
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 3.6,
+    "text": "Aries 3°36′",
+    "longitude": 3.601
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 2.37,
+    "text": "Leo 2°22′",
+    "longitude": 122.368
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 26.15,
+    "text": "Gemini 26°09′",
+    "longitude": 86.147
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 24.03,
+    "text": "Taurus 24°02′",
+    "longitude": 54.033
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 15.3,
+    "text": "Aquarius 15°18′",
+    "longitude": 315.301
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 0.47,
+    "text": "Aries 0°28′",
+    "longitude": 0.47
+   }
+  },
+  {
+   "segment": "Die Turnsperre: The Ban and the Fortress (1819–1825)",
+   "stop": "Küstrin, the fortress on the Oder",
+   "date": "1819-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385647.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.86,
+    "text": "Leo 7°51′",
+    "longitude": 127.856
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Die Turnsperre: The Ban and the Fortress (1819–1825)",
+   "stop": "Kolberg, the fortress by the Baltic",
+   "date": "1820-05-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1820,
+   "jd_ut": 2385942.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.76,
+    "text": "Gemini 0°46′",
+    "longitude": 60.762
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 21.91,
+    "text": "Virgo 21°55′",
+    "longitude": 171.914
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 7.81,
+    "text": "Taurus 7°49′",
+    "longitude": 37.808
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 16.1,
+    "text": "Cancer 16°06′",
+    "longitude": 106.099
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 15.3,
+    "text": "Leo 15°18′",
+    "longitude": 135.3
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 19.35,
+    "text": "Pisces 19°21′",
+    "longitude": 349.351
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 10.05,
+    "text": "Aries 10°03′",
+    "longitude": 10.05
+   }
+  },
+  {
+   "segment": "Freyburg an der Unstrut: The Watched Old Age (1825–1852)",
+   "stop": "Freyburg an der Unstrut, release under watch",
+   "date": "1825-03-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387700.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 24.15,
+    "text": "Pisces 24°09′",
+    "longitude": 354.15
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 2.98,
+    "text": "Aquarius 2°59′",
+    "longitude": 302.976
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 12.86,
+    "text": "Pisces 12°52′",
+    "longitude": 342.865
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 10.24,
+    "text": "Taurus 10°15′",
+    "longitude": 40.245
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 12.03,
+    "text": "Aries 12°02′",
+    "longitude": 12.033
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 3.9,
+    "text": "Leo 3°54′",
+    "longitude": 123.9
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 2.48,
+    "text": "Gemini 2°29′",
+    "longitude": 62.485
+   }
+  },
+  {
+   "segment": "Freyburg an der Unstrut: The Watched Old Age (1825–1852)",
+   "stop": "Kölleda, banished again",
+   "date": "1828-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1828,
+   "jd_ut": 2388966.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.48,
+    "text": "Virgo 8°29′",
+    "longitude": 158.483
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Freyburg an der Unstrut: The Watched Old Age (1825–1852)",
+   "stop": "Freyburg, the pardon and the Iron Cross",
+   "date": "1840-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393105.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.71,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.713
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Freyburg an der Unstrut: The Watched Old Age (1825–1852)",
+   "stop": "Frankfurt, the Paulskirche: the deputy of 1848",
+   "date": "1848-05-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396165.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 27.14,
+    "text": "Taurus 27°08′",
+    "longitude": 57.138
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 24.06,
+    "text": "Scorpio 24°04′",
+    "longitude": 234.06
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 25.35,
+    "text": "Taurus 25°21′",
+    "longitude": 55.351
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 9.32,
+    "text": "Taurus 9°19′",
+    "longitude": 39.32
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.83,
+    "text": "Cancer 17°50′",
+    "longitude": 107.83
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 17.83,
+    "text": "Cancer 17°50′",
+    "longitude": 107.83
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 23.24,
+    "text": "Pisces 23°14′",
+    "longitude": 353.236
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Freyburg an der Unstrut: The Watched Old Age (1825–1852)",
+   "stop": "Freyburg an der Unstrut, the Turnvater's grave",
+   "date": "1852-10-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397776.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.81,
+    "text": "Libra 21°48′",
+    "longitude": 201.807
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 16.02,
+    "text": "Scorpio 16°01′",
+    "longitude": 226.021
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 19.45,
+    "text": "Libra 19°27′",
+    "longitude": 199.448
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 6.22,
+    "text": "Virgo 6°13′",
+    "longitude": 156.222
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 18.79,
+    "text": "Scorpio 18°47′",
+    "longitude": 228.789
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 24.86,
+    "text": "Scorpio 24°51′",
+    "longitude": 234.856
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 16.23,
+    "text": "Taurus 16°14′",
+    "longitude": 46.229
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 28,
+  "dated": 28,
+  "unparsed": 0,
+  "day": 13,
+  "month": 8,
+  "year": 7
+ },
+ "parse_failures": []
+}

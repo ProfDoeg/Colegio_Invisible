@@ -1,0 +1,1739 @@
+{
+ "slug": "rene_guenon",
+ "traveler": "René Guénon (Sheikh Abd al-Wahid Yahya)",
+ "title": "The Island and the Nile: Guénon from the Loire to the Cairo Necropolis",
+ "years": "1886-1951",
+ "years_parsed": {
+  "first": 1886,
+  "last": 1951
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Loire and the Sickly Child",
+  "stop": "Blois, birth on the Loire",
+  "date": "1886-11-15",
+  "date_confidence": "attested; both Wikipedias give 15 November 1886. The street and the house are not named in any source consulted, so the pin is the town.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1886,
+  "jd_ut": 2410225.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Scorpio",
+   "degree": 22.59,
+   "text": "Scorpio 22°35′",
+   "longitude": 232.585
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 1.96,
+   "text": "Cancer 1°58′",
+   "longitude": 91.959
+  },
+  "mercury": {
+   "sign": "Sagittarius",
+   "degree": 15.02,
+   "text": "Sagittarius 15°01′",
+   "longitude": 255.019
+  },
+  "venus": {
+   "sign": "Scorpio",
+   "degree": 18.12,
+   "text": "Scorpio 18°07′",
+   "longitude": 228.115
+  },
+  "mars": {
+   "sign": "Sagittarius",
+   "degree": 29.63,
+   "text": "Sagittarius 29°38′",
+   "longitude": 269.626
+  },
+  "jupiter": {
+   "sign": "Libra",
+   "degree": 24.07,
+   "text": "Libra 24°04′",
+   "longitude": 204.069
+  },
+  "saturn": {
+   "sign": "Cancer",
+   "degree": 22.43,
+   "text": "Cancer 22°26′",
+   "longitude": 112.43
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1886-1951",
+  "first_year_parsed": 1886
+ },
+ "stops": [
+  {
+   "segment": "The Loire and the Sickly Child",
+   "stop": "Blois, birth on the Loire",
+   "date": "1886-11-15",
+   "date_confidence": "attested; both Wikipedias give 15 November 1886. The street and the house are not named in any source consulted, so the pin is the town.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2410225.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 22.59,
+    "text": "Scorpio 22°35′",
+    "longitude": 232.585
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 1.96,
+    "text": "Cancer 1°58′",
+    "longitude": 91.959
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 15.02,
+    "text": "Sagittarius 15°01′",
+    "longitude": 255.019
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 18.12,
+    "text": "Scorpio 18°07′",
+    "longitude": 228.115
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 29.63,
+    "text": "Sagittarius 29°38′",
+    "longitude": 269.626
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 24.07,
+    "text": "Libra 24°04′",
+    "longitude": 204.069
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 22.43,
+    "text": "Cancer 22°26′",
+    "longitude": 112.43
+   }
+  },
+  {
+   "segment": "The Loire and the Sickly Child",
+   "stop": "Montlivault, the aunt who raises him",
+   "date": "1892-01-01",
+   "date_confidence": "reconstruction for the year; French Wikipedia attests the aunt and the decades of visits but dates neither the start nor any single stay. The visits stop around 1928.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412098.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.096
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Loire and the Sickly Child",
+   "stop": "Blois, the schoolyard on the avenue de Châteaudun",
+   "date": "1902-01-01",
+   "date_confidence": "attested for 1902-1903 (baccalauréat) and 1903-1904 (mathématiques élémentaires) by French Wikipedia; the calendar year 1902 is chosen as the anchor.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Occultist Apprenticeship",
+   "stop": "Paris, the Collège Rollin on the avenue Trudaine",
+   "date": "1904-10-01",
+   "date_confidence": "attested 1904-1906 by French Wikipedia's education infobox. The incoming research pool dated the arrival to 1905; that was wrong, and its own geography lens contradicted it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416754.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.38,
+    "text": "Libra 7°23′",
+    "longitude": 187.384
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Occultist Apprenticeship",
+   "stop": "Paris, the room on the rue Saint-Louis-en-l'Île",
+   "date": "1905-01-01",
+   "date_confidence": "attested from 1905 by French Wikipedia; the building number is not given for this first lodging. The military discharge for poor health is undated in both Wikipedias, and the sources place it either here or in the Sorbonne years.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416846.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.937
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Occultist Apprenticeship",
+   "stop": "Paris, the circle of Papus",
+   "date": "1905-06-01",
+   "date_confidence": "reconstruction: the coordinate is a placeholder with no source behind it. The affiliation with Papus's milieu from 1905 and the expulsion from the Martinist Order in 1909 are both attested; the meeting place is not named anywhere consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2416997.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.83,
+    "text": "Gemini 9°50′",
+    "longitude": 69.829
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Occultist Apprenticeship",
+   "stop": "Paris, 17 rue des Canettes",
+   "date": "1908-03-06",
+   "date_confidence": "attested by French Wikipedia for the first session of the Ordre du Temple Rénové on 6 March 1908 and for the automatic-writing seances at 17 rue des Canettes the same year.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418006.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 15.05,
+    "text": "Pisces 15°03′",
+    "longitude": 345.046
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 28.37,
+    "text": "Aries 28°22′",
+    "longitude": 28.374
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 3.56,
+    "text": "Pisces 3°34′",
+    "longitude": 333.561
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 24.93,
+    "text": "Aries 24°56′",
+    "longitude": 24.933
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 8.16,
+    "text": "Taurus 8°09′",
+    "longitude": 38.158
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 4.53,
+    "text": "Leo 4°32′",
+    "longitude": 124.526
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 28.22,
+    "text": "Pisces 28°13′",
+    "longitude": 358.216
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Paris and the Occultist Apprenticeship",
+   "stop": "Paris, the Second Spiritualist and Masonic Congress",
+   "date": "1908-06-01",
+   "date_confidence": "attested by French Wikipedia for the year and the attendance; the month follows the congress's own June dating and the venue is not specified, so the pin is the canonical Paris coordinate carried by the corpus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418093.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.09,
+    "text": "Gemini 10°06′",
+    "longitude": 70.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Occultist Apprenticeship",
+   "stop": "Paris, the Église gnostique and the name Tau Palingenius",
+   "date": "1909-01-01",
+   "date_confidence": "reconstruction: the coordinate is an admitted placeholder, no rite-hall address appears in any source consulted. The affiliation and the pen-name are attested by both Wikipedias.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Occultist Apprenticeship",
+   "stop": "Paris, La Gnose from the island",
+   "date": "1909-11-01",
+   "date_confidence": "attested by French Wikipedia for the run, November 1909 to February 1912. That the review was edited from his own Île Saint-Louis address is an inference from his residence, not from a masthead.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418611.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.94,
+    "text": "Scorpio 7°56′",
+    "longitude": 217.941
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Occultist Apprenticeship",
+   "stop": "Paris, Ivan Aguéli and the Al Akbariyya",
+   "date": "1910-01-01",
+   "date_confidence": "reconstruction, and a live contradiction. French Wikipedia and most scholarship put this initiation in Paris circa 1910-1912; English Wikipedia puts the same Aguéli-mediated initiation in Cairo in 1930, which is impossible because Aguéli died in 1917. The French account is followed. No meeting address is recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "circa",
+    "disputed",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Occultist Apprenticeship",
+   "stop": "Paris, the Renewed Temple dissolved",
+   "date": "1911-01-01",
+   "date_confidence": "attested by French Wikipedia for the dissolution in 1911 and for the closure of La Gnose in February 1912; the coordinate reuses the rue des Canettes pin of the order's own sessions.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419037.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.47,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.472
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage, the Lodge, and the War",
+   "stop": "Montlivault, the marriage to Berthe Loury",
+   "date": "1912-07-01",
+   "date_confidence": "attested by French Wikipedia for the religious ceremony at Montlivault in July 1912; English Wikipedia corroborates the year. The day is not given. The incoming research pool misfiled this wedding to Paris.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419584.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.77,
+    "text": "Cancer 8°46′",
+    "longitude": 98.775
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage, the Lodge, and the War",
+   "stop": "Paris, the Loge Thébah on the rue Puteaux",
+   "date": "1912-01-01",
+   "date_confidence": "reconstruction. French Wikipedia gives the admission as 1910-1912 and calls the affiliation brief; the pool's geography lens said circa 1908-1909 and its chronology said 1912. The Grande Loge de France took the rue Puteaux premises in 1911, so the hall fits the later dating and not the earlier.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "circa",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage, the Lodge, and the War",
+   "stop": "Paris, writing as Le Sphinx",
+   "date": "1913-01-01",
+   "date_confidence": "attested by French Wikipedia for the collaboration and the pseudonym from 1913; the coordinate is his own address, since no editorial address is recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419768.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 279.996
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage, the Lodge, and the War",
+   "stop": "Paris, the Sorbonne at last",
+   "date": "1914-01-01",
+   "date_confidence": "attested by French Wikipedia for the baccalauréat ès arts at the Université de Paris, 1914-1917. The incoming pool gave 1912-1917, which is too early at the front end.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420133.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.75,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.749
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage, the Lodge, and the War",
+   "stop": "Sétif, the year of teaching in Algeria",
+   "date": "1917-10-01",
+   "date_confidence": "attested by both Wikipedias for a one-year post, 1917-1918; the month is the ordinary start of the French school year and is inferred.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421502.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.24,
+    "text": "Libra 7°14′",
+    "longitude": 187.239
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Marriage, the Lodge, and the War",
+   "stop": "Paris, back on the island",
+   "date": "1918-09-01",
+   "date_confidence": "attested by French Wikipedia for the return in 1918; the month is not recorded and is inferred from the end of the school year in Sétif.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421837.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "not recorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.74,
+    "text": "Virgo 7°44′",
+    "longitude": 157.741
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Books",
+   "stop": "Paris, the rue Jacob and the first book",
+   "date": "1921-01-01",
+   "date_confidence": "attested by both Wikipedias for the publication year; the exact month is not recorded. The Marcel Rivière imprint on the rue Jacob is given by English Wikipedia.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422690.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.055
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Books",
+   "stop": "Paris, the Sorbonne refuses the thesis",
+   "date": "1923-01-01",
+   "date_confidence": "attested by English Wikipedia's Traditionalist School article that a thesis grounded in Hindu metaphysics was rejected and that he left the university in 1923. The article does not name the rejecting faculty; the Sorbonne pin follows where he studied, and is to that extent inference.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423420.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.56,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.56
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Books",
+   "stop": "Paris, Orient et Occident",
+   "date": "1924-01-01",
+   "date_confidence": "attested 1924 by English Wikipedia's article on the book, which states it was originally published in 1924 in French. The incoming research pool dated it 1925, clustering it wrongly with two other events.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423785.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.31,
+    "text": "Capricornus 9°19′",
+    "longitude": 279.313
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Books",
+   "stop": "Paris, Le Voile d'Isis",
+   "date": "1925-01-01",
+   "date_confidence": "attested by English Wikipedia for the start of the collaboration in 1925. The coordinate is a placeholder: the editorial address of the review is not given in any source consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "not given",
+    "(soft-year) year named with preposition",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Books",
+   "stop": "Paris, the Sorbonne lecture of 17 December",
+   "date": "1925-12-17",
+   "date_confidence": "attested to the day by English Wikipedia for the lecture; L'Homme et son devenir selon le Vêdânta is attested to the year 1925 by both Wikipedias.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424501.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 24.55,
+    "text": "Sagittarius 24°33′",
+    "longitude": 264.555
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Books",
+   "stop": "Paris, La Crise du monde moderne",
+   "date": "1927-01-01",
+   "date_confidence": "attested for the publication year 1927. The 'période charnière', the growing conviction that a Western restoration is impossible, is French Wikipedia's interpretive framing of the later 1920s and not a dated event; it is carried here as reconstruction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "interpretive",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Books",
+   "stop": "Paris, the deaths of 1928",
+   "date": "1928-01-01",
+   "date_confidence": "contradiction, not resolved. English Wikipedia dates the death of his wife Berthe Loury to 1928 and says it affected him deeply; French Wikipedia attaches a 1928 death to his aunt, Madame Duru. These are two different women and the sources are not reconciled here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Paris Books",
+   "stop": "Paris, Autorité spirituelle et pouvoir temporel",
+   "date": "1929-01-01",
+   "date_confidence": "attested by English Wikipedia for the publication year 1929.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Marseille, the embarkation for Egypt",
+   "date": "1930-09-01",
+   "date_confidence": "reconstruction. Both Wikipedias attest the departure for Egypt in September 1930; neither names a port, a ship, or a day. Marseille is the customary embarkation for Mediterranean steamers of the period and is inference, not record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426220.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.84,
+    "text": "Virgo 7°50′",
+    "longitude": 157.836
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing",
+   "stop": "Alexandria, the landfall",
+   "date": "1930-09-15",
+   "date_confidence": "reconstruction. The arrival in Egypt in September 1930 is attested; the port and the day are not. Alexandria is the standard landfall for the Marseille route and is used as the probable point of entry.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426234.5,
+   "precision": "month",
+   "precision_triggers": [
+    "probably",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 21.43,
+    "text": "Virgo 21°26′",
+    "longitude": 171.431
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, Abd al-Wahid Yahya",
+   "stop": "Cairo, the quarter of Khan el-Khalili",
+   "date": "1930-10-01",
+   "date_confidence": "attested by English Wikipedia for a seven-year residence in the medieval quarters from 1930; the month of settling is inferred from the September arrival.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426250.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.09,
+    "text": "Libra 7°06′",
+    "longitude": 187.094
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, Abd al-Wahid Yahya",
+   "stop": "Cairo, the courts of al-Azhar",
+   "date": "1931-01-01",
+   "date_confidence": "attested by English Wikipedia in general terms for the 1930s; no course, teacher, or year is specified, so the anchor year is chosen and the attendance is undated in the source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, Abd al-Wahid Yahya",
+   "stop": "Cairo, the mosque of Sayyidna al-Hussein",
+   "date": "1932-01-01",
+   "date_confidence": "attested by English Wikipedia for the meeting with Sheikh Mohammad Ibrahim at this mosque; the source gives no year, and the anchor date is inference from the 1934 marriage that follows from the friendship.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, Abd al-Wahid Yahya",
+   "stop": "Cairo, the Hamidiyya Shadhiliyya zawiya",
+   "date": "1933-01-01",
+   "date_confidence": "reconstruction throughout: the coordinate is approximate, the year is an anchor, and the association with the Hamidiyya branch of Sheikh Salama Hassan al-Radi is inference from English Wikipedia rather than a stated attendance.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427073.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, Abd al-Wahid Yahya",
+   "stop": "Cairo, the marriage to Fatima Ibrahim",
+   "date": "1934-01-01",
+   "date_confidence": "the marriage in 1934 and the four children are attested by English Wikipedia; the site of the ceremony is not given in any source consulted, and the old-city pin near Sayyidna al-Hussein is a placeholder.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427438.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.896
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cairo, Abd al-Wahid Yahya",
+   "stop": "Mecca, the qibla he never travels to",
+   "date": "1935-01-01",
+   "date_confidence": "not a visit and not attested as one. Guénon is nowhere recorded performing the hajj. This pin is the canonical Kaaba coordinate carried by the corpus, inherited unchanged, and marks the direction of his prayer for twenty-one years rather than a journey.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Villa Fatima",
+   "stop": "Cairo, the house in Dokki",
+   "date": "1937-01-01",
+   "date_confidence": "attested by English Wikipedia for the acquisition in 1937 and the name Villa Fatima; the street address is not given. English Wikipedia's added phrase 'at the foot of the pyramids' is false and is dropped: Dokki is an inner-city district on the west bank, some ten kilometres from Giza.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Villa Fatima",
+   "stop": "Cairo, Schuon arrives from Mulhouse",
+   "date": "1938-01-01",
+   "date_confidence": "attested by English Wikipedia's article on Frithjof Schuon for a first in-person meeting in Egypt in 1938 after seven years of correspondence; the article does not state that the meeting took place at Villa Fatima, so the location is inference.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428899.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.926
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Villa Fatima",
+   "stop": "Cairo, Schuon on the way to India",
+   "date": "1939-01-01",
+   "date_confidence": "attested by English Wikipedia's Schuon article for a long Cairo stopover in 1939 en route to India with two disciples; the month is not given and the meeting place is again inferred to be Villa Fatima.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429264.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.678
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Villa Fatima",
+   "stop": "Vatican City, Maritain asks for the Index",
+   "date": "1946-01-01",
+   "date_confidence": "reconstruction of the year within an attested window. English Wikipedia says the request came after the Second World War, when Jacques Maritain was French Ambassador to the Vatican; Maritain held that post from 1945 to 1948. The incoming research pool dated it 1940, which the same source contradicts.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431821.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.985
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Villa Fatima",
+   "stop": "Cairo, Egyptian citizenship",
+   "date": "1949-01-01",
+   "date_confidence": "English Wikipedia gives 1949; French Wikipedia gives a range of 1948-1951. Both are retained and neither is preferred on evidence. The office where the naturalization was processed is not identified, and the pin is central Cairo as a placeholder.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432917.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "between",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Villa Fatima",
+   "stop": "Cairo, death at Villa Fatima",
+   "date": "1951-01-07",
+   "date_confidence": "attested to the day by both Wikipedias. The single word 'Allah' is quoted from Chacornac through English Wikipedia; the surrounding clause is Wikipedia's own narration and is not quoted here as Chacornac's.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433653.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.88,
+    "text": "Capricornus 15°53′",
+    "longitude": 285.883
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 4.08,
+    "text": "Capricornus 4°05′",
+    "longitude": 274.076
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 4.43,
+    "text": "Capricornus 4°26′",
+    "longitude": 274.435
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 28.91,
+    "text": "Capricornus 28°55′",
+    "longitude": 298.912
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 17.75,
+    "text": "Aquarius 17°45′",
+    "longitude": 317.755
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 5.89,
+    "text": "Pisces 5°53′",
+    "longitude": 335.888
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 2.45,
+    "text": "Libra 2°27′",
+    "longitude": 182.447
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Villa Fatima",
+   "stop": "Cairo, the grave in the necropolis",
+   "date": "1951-01-08",
+   "date_confidence": "reconstruction, and an open gap. Neither Wikipedia names any cemetery. Secondary web accounts point to the al-Darrasa sector on the edge of the old walls, and the pin follows that reading at roughly 30.050, 31.266; the incoming research pool carried two mutually exclusive coordinates four kilometres apart. The burial day is inferred from Muslim practice.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433654.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "approximation",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.9,
+    "text": "Capricornus 16°54′",
+    "longitude": 286.902
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Posthumous Map",
+   "stop": "Paris, the shelves that outlive him",
+   "date": "1951-06-01",
+   "date_confidence": "the counts are attested by French Wikipedia; the anchor date is an arbitrary point in the year of his death. The Gide remark is dated 1951 by Wikiquote, which cites a personal web page, and is the weakest citation in this file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433798.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.72,
+    "text": "Gemini 9°43′",
+    "longitude": 69.715
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Posthumous Map",
+   "stop": "Buenos Aires, the southern readership",
+   "date": "1960-01-01",
+   "date_confidence": "reconstruction. Borges's residence in Buenos Aires is attested in borges.journey.json; that file does not mention Guénon, and the reception claim is outside-corpus knowledge. The anchor year is arbitrary.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2436934.5,
+   "precision": "year",
+   "precision_triggers": [
+    "arbitrary",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.58,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.578
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Posthumous Map",
+   "stop": "Madrid, the complete Spanish edition",
+   "date": "2023-04-01",
+   "date_confidence": "attested by Spanish Wikipedia for April 2023, twenty-three volumes plus an introductory volume, edited by Javier Alvarado Planas of the UNED. Madrid is the university's seat and stands here for the edition rather than for a printing house address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2023,
+   "jd_ut": 2460035.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.02,
+    "text": "Aries 11°01′",
+    "longitude": 11.02
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 3,
+  "month": 6,
+  "year": 35
+ },
+ "parse_failures": []
+}

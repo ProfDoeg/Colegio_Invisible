@@ -1,0 +1,1888 @@
+{
+ "slug": "w_b_yeats",
+ "traveler": "William Butler Yeats",
+ "title": "The Tower and the Gyre: Yeats from the Pollexfen Water to Drumcliff",
+ "years": "1865-1939",
+ "years_parsed": {
+  "first": 1865,
+  "last": 1939
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Pollexfen Water",
+  "stop": "Sandymount, Georgeville: the birth of a painter's son",
+  "date": "1865-06-13",
+  "date_confidence": "attested to the day (Wikipedia, W. B. Yeats). The house is Georgeville on Sandymount Avenue, rented by his father; a research claim that it belonged to his maternal grandparents is wrong, since the Pollexfens lived at Merville in Sligo.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1865,
+  "jd_ut": 2402400.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 21.94,
+   "text": "Gemini 21°57′",
+   "longitude": 81.944
+  },
+  "moon": {
+   "sign": "Aquarius",
+   "degree": 6.5,
+   "text": "Aquarius 6°30′",
+   "longitude": 306.503
+  },
+  "mercury": {
+   "sign": "Gemini",
+   "degree": 2.36,
+   "text": "Gemini 2°22′",
+   "longitude": 62.365
+  },
+  "venus": {
+   "sign": "Taurus",
+   "degree": 12.9,
+   "text": "Taurus 12°54′",
+   "longitude": 42.904
+  },
+  "mars": {
+   "sign": "Leo",
+   "degree": 11.46,
+   "text": "Leo 11°28′",
+   "longitude": 131.462
+  },
+  "jupiter": {
+   "sign": "Sagittarius",
+   "degree": 24.48,
+   "text": "Sagittarius 24°29′",
+   "longitude": 264.475
+  },
+  "saturn": {
+   "sign": "Libra",
+   "degree": 23.75,
+   "text": "Libra 23°45′",
+   "longitude": 203.746
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1865-1939",
+  "first_year_parsed": 1865
+ },
+ "stops": [
+  {
+   "segment": "The Pollexfen Water",
+   "stop": "Sandymount, Georgeville: the birth of a painter's son",
+   "date": "1865-06-13",
+   "date_confidence": "attested to the day (Wikipedia, W. B. Yeats). The house is Georgeville on Sandymount Avenue, rented by his father; a research claim that it belonged to his maternal grandparents is wrong, since the Pollexfens lived at Merville in Sligo.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402400.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 21.94,
+    "text": "Gemini 21°57′",
+    "longitude": 81.944
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 6.5,
+    "text": "Aquarius 6°30′",
+    "longitude": 306.503
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 2.36,
+    "text": "Gemini 2°22′",
+    "longitude": 62.365
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 12.9,
+    "text": "Taurus 12°54′",
+    "longitude": 42.904
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 11.46,
+    "text": "Leo 11°28′",
+    "longitude": 131.462
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 24.48,
+    "text": "Sagittarius 24°29′",
+    "longitude": 264.475
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 23.75,
+    "text": "Libra 23°45′",
+    "longitude": 203.746
+   }
+  },
+  {
+   "segment": "The Pollexfen Water",
+   "stop": "Merville, Sligo: the summers in the merchant house",
+   "date": "1868-01-01",
+   "date_confidence": "the Sligo summers run roughly 1868 to 1880 in the biographical accounts; no single arrival date is documented, and month and day are defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403332.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximation",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.92,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.919
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pollexfen Water",
+   "stop": "Rosses Point: the pilots and the drowned",
+   "date": "1872-01-01",
+   "date_confidence": "traditional; the boyhood visits are dated to the 1870s in general terms only, and the year here is the middle of that span rather than a documented date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404793.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.95,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.948
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Pollexfen Water",
+   "stop": "Benbulbin: the mountain that does not move",
+   "date": "1874-01-01",
+   "date_confidence": "the mountain belongs to the whole childhood and to the last poem; the year is a placeholder inside the Sligo summers and is not a documented date. Coordinate corrected to the summit at 54 deg 22 min N, 8 deg 28 min W; a research figure of 54.381, -8.4402 sits over two kilometres off the mountain.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405524.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.473
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Painter's Son",
+   "stop": "Bedford Park, Chiswick: the artists' suburb",
+   "date": "1879-01-01",
+   "date_confidence": "the family lived at 8 Woodstock Road in Bedford Park 1879 to 1881 and at 3 Blenheim Road from 1888; month and day defaulted. Coordinate corrected to the Bedford Park estate, 51.5001, -0.2617; a research figure of 51.4949, -0.2777 falls outside it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407350.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.25,
+    "text": "Capricornus 10°15′",
+    "longitude": 280.255
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Painter's Son",
+   "stop": "Erasmus Smith High School, Harcourt Street: the return to Dublin",
+   "date": "1881-10-01",
+   "date_confidence": "the family returned to Dublin at the end of 1880 and Yeats entered the Erasmus Smith High School in October 1881; a research claim dating the return itself to 1881 is off by a few months",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408354.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.94,
+    "text": "Libra 7°57′",
+    "longitude": 187.944
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Painter's Son",
+   "stop": "Metropolitan School of Art, Kildare Street: painting and George Russell",
+   "date": "1884-01-01",
+   "date_confidence": "year attested (Wikipedia, W. B. Yeats); month and day not recorded and defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409176.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.037
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Painter's Son",
+   "stop": "York Street, Dublin: the Hermetic Society founded",
+   "date": "1885-06-01",
+   "date_confidence": "the founding is dated to June 1885 by Foster and by Yeats's Autobiographies; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409693.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.63,
+    "text": "Gemini 10°38′",
+    "longitude": 70.628
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Orders of London",
+   "stop": "Holland Park, 17 Lansdowne Road: Blavatsky's household",
+   "date": "1888-01-01",
+   "date_confidence": "reconstruction. The house is attested as Blavatsky's from 1887 and as the address The Secret Doctrine was published from in October 1888; Yeats's introduction, his membership of the Esoteric Section and the account of his expulsion after demanding experimental tests are standard biography that could not be confirmed in the encyclopedia sources reachable here. Coordinate inherited unchanged from blavatsky.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410637.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.066
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Orders of London",
+   "stop": "Lough Gill: the lake isle written in a London street",
+   "date": "1888-01-01",
+   "date_confidence": "the composition is dated 1888 and the poem was published in 1890; no adult visit to the islet is documented, and month and day are defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410637.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.066
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Orders of London",
+   "stop": "Bedford Park, 3 Blenheim Road: Maud Gonne at the door",
+   "date": "1889-01-30",
+   "date_confidence": "the year is attested (Wikipedia, Maud Gonne); the day, 30 January 1889, is Foster's and is the standard biographical date. The call was at the Yeats family house at 3 Blenheim Road; a research entry inventing a separate Woodstock Road studio pin is set aside.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411032.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 10.36,
+    "text": "Aquarius 10°22′",
+    "longitude": 310.36
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Orders of London",
+   "stop": "Isis-Urania Temple, Mark Masons' Hall: Demon Est Deus Inversus",
+   "date": "1890-03-07",
+   "date_confidence": "the year is attested (Wikipedia, W. B. Yeats); the day, 7 March 1890, comes from R. A. Gilbert's Golden Dawn Companion. The temple's meeting hall is given as Mark Masons' Hall at Great Queen Street in one source and at 33 Golden Square, Soho, in another; the pin follows Great Queen Street and the contradiction is left standing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411433.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 16.41,
+    "text": "Pisces 16°25′",
+    "longitude": 346.411
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Orders of London",
+   "stop": "Woburn Buildings, Bloomsbury: the Monday evenings",
+   "date": "1895-01-01",
+   "date_confidence": "the tenancy ran 1895 to 1919 (Wikipedia, Woburn Walk); a research entry giving 1896 to 1919 is corrected here. The address is 18 Woburn Buildings before renumbering and 5 Woburn Walk after, one door under two names. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Orders of London",
+   "stop": "Kelmscott Press, 14 Upper Mall: the most beautiful book of the age",
+   "date": "1896-06-01",
+   "date_confidence": "the Kelmscott Chaucer was finished at the press in June 1896; coordinate inherited unchanged from edward_burne_jones.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413711.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.95,
+    "text": "Gemini 10°57′",
+    "longitude": 70.955
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Orders of London",
+   "stop": "Isis-Urania, London: whether the Order is to remain a magical order",
+   "date": "1901-01-01",
+   "date_confidence": "the revolt against Mathers is 1900, triggered by his initiating Aleister Crowley at the Paris temple on 16 January 1900; the pamphlet Is the Order of R. R. & A. C. to Remain a Magical Order? was privately printed by Yeats in 1901. A research entry merging both into 1900 and adding a resignation is wrong: he stayed on, and remained in the successor order Stella Matutina until 1921. Month and day of the pamphlet unrecorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415385.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.907
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Coole, the Theatre, and the Gold Wall",
+   "stop": "Coole Park, Gort: the copper beech",
+   "date": "1896-08-01",
+   "date_confidence": "the introduction by Edward Martyn and the first visit are dated 1896; the month is the summer of that year in the accounts and the day is not recorded. Coordinate corrected to the demesne centre at 53.0965, -8.835; a research figure of 53.0847, -8.8264 sits over a kilometre off and does not reproduce the attested three miles between Coole and Ballylee.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413772.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 9.19,
+    "text": "Leo 9°11′",
+    "longitude": 129.189
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Coole, the Theatre, and the Gold Wall",
+   "stop": "Paris: Maud Gonne marries Major MacBride",
+   "date": "1903-01-01",
+   "date_confidence": "year attested (Wikipedia, W. B. Yeats); the marriage is dated to February 1903 in the standard accounts, but the pool carries the year alone, so month and day are defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.41,
+    "text": "Capricornus 9°25′",
+    "longitude": 279.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Coole, the Theatre, and the Gold Wall",
+   "stop": "Abbey Theatre, Lower Abbey Street: three one-act plays",
+   "date": "1904-12-27",
+   "date_confidence": "attested to the day (Wikipedia, Abbey Theatre). The opening bill was three one-act plays: Yeats's On Baile's Strand and Cathleen Ni Houlihan and Lady Gregory's Spreading the News; a research entry naming only two of the three is completed here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416841.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.84,
+    "text": "Capricornus 4°50′",
+    "longitude": 274.84
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 29.99,
+    "text": "Leo 29°59′",
+    "longitude": 149.988
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 15.11,
+    "text": "Capricornus 15°06′",
+    "longitude": 285.107
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 16.33,
+    "text": "Aquarius 16°20′",
+    "longitude": 316.327
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 20.72,
+    "text": "Libra 20°43′",
+    "longitude": 200.717
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 20.43,
+    "text": "Aries 20°26′",
+    "longitude": 20.429
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 17.93,
+    "text": "Aquarius 17°56′",
+    "longitude": 317.931
+   }
+  },
+  {
+   "segment": "Coole, the Theatre, and the Gold Wall",
+   "stop": "Basilica of San Vitale, Ravenna: the gold mosaic of a wall",
+   "date": "1907-04-01",
+   "date_confidence": "the Italian journey with Lady Gregory and Robert Gregory is dated to spring 1907 in Foster and in Yeats's letters of that year; the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417666.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.13,
+    "text": "Aries 10°08′",
+    "longitude": 10.133
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stone Cottage and the Rising",
+   "stop": "London, Woburn Buildings: Ezra Pound presents himself",
+   "date": "1909-01-01",
+   "date_confidence": "year attested (Wikipedia, W. B. Yeats); month and day not recorded and defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stone Cottage and the Rising",
+   "stop": "Stone Cottage, Coleman's Hatch: the Noh in the winter forest",
+   "date": "1913-11-01",
+   "date_confidence": "the winters at Stone Cottage run 1913 to 1916; November is given as the start of the first winter rather than as a documented date, and the day is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2420072.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.97,
+    "text": "Scorpio 7°58′",
+    "longitude": 217.971
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stone Cottage and the Rising",
+   "stop": "Dublin: Easter, 1916",
+   "date": "1916-01-01",
+   "date_confidence": "year attested (Wikipedia, W. B. Yeats); the poem is dated 25 September 1916 in the standard editions, but the pool carries the year alone, so month and day are defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420863.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.25,
+    "text": "Capricornus 9°15′",
+    "longitude": 279.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Stone Cottage and the Rising",
+   "stop": "Ballylee, Co. Galway: a ruined tower for thirty-five pounds",
+   "date": "1917-01-01",
+   "date_confidence": "the source says he purchased it in 1916 or 1917 for thirty-five pounds; the price is firm and the year is not, so 1917 here stands for a disputed date rather than a settled one. Coordinate corrected to 53.1032, -8.7748; research figures of 53.1024, -8.8721 and 53.1244, -8.7847 place the pin six and two kilometres away respectively.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instructors and the Tower",
+   "stop": "Harrow Road Register Office, London: the marriage",
+   "date": "1917-10-20",
+   "date_confidence": "attested to the day (Wikipedia, W. B. Yeats)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421521.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 26.03,
+    "text": "Libra 26°02′",
+    "longitude": 206.03
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 11.27,
+    "text": "Sagittarius 11°16′",
+    "longitude": 251.272
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 16.07,
+    "text": "Libra 16°04′",
+    "longitude": 196.074
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 9.31,
+    "text": "Sagittarius 9°18′",
+    "longitude": 249.306
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 22.48,
+    "text": "Leo 22°29′",
+    "longitude": 142.479
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 10.91,
+    "text": "Gemini 10°55′",
+    "longitude": 70.912
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 13.41,
+    "text": "Leo 13°24′",
+    "longitude": 133.405
+   }
+  },
+  {
+   "segment": "The Instructors and the Tower",
+   "stop": "Ashdown Forest Hotel, Forest Row: the automatic script begins",
+   "date": "1917-10-24",
+   "date_confidence": "the Wikipedia summary gives only the year; the first session is dated to 24 October 1917, four days after the wedding, in widely cited secondary accounts and in Foster",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421525.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 0.01,
+    "text": "Scorpio 0°01′",
+    "longitude": 210.012
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instructors and the Tower",
+   "stop": "4 Broad Street, Oxford: the gyres and the falcon",
+   "date": "1919-01-01",
+   "date_confidence": "the Oxford rooms are dated 1919 to 1922; month and day defaulted. The Second Coming was written in January 1919 and published in Michael Robartes and the Dancer (1920).",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Instructors and the Tower",
+   "stop": "Thoor Ballylee: the tower roofed and occupied",
+   "date": "1921-01-01",
+   "date_confidence": "disputed. Wikipedia's Thoor Ballylee article dates the restoration under the architect William A. Scott to 1921 to 1923 and the family's summer occupation to 1921 to 1929; Foster and most Yeats scholarship put the main work in 1917 to 1919, and Scott died in 1921. A research entry giving 1918 for the work and 1919 for the occupancy contradicts its own cited source. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422690.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.055
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Senator",
+   "stop": "82 Merrion Square, Dublin: gunfire in the square",
+   "date": "1922-01-01",
+   "date_confidence": "the family occupied the house 1922 to 1928; month and day defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423055.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Senator",
+   "stop": "Leinster House, Kildare Street: appointed senator",
+   "date": "1922-12-11",
+   "date_confidence": "attested to the day (Wikipedia, W. B. Yeats); reappointed 1925, term ending 1928. Coordinate corrected to the Kildare Street entrance at 53.3405, -6.2545; a research figure of 53.3403, -6.2513 lands on the Merrion Square side of the block.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423399.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.17,
+    "text": "Sagittarius 18°10′",
+    "longitude": 258.174
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 9.17,
+    "text": "Virgo 9°10′",
+    "longitude": 159.168
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 20.52,
+    "text": "Sagittarius 20°31′",
+    "longitude": 260.517
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 24.97,
+    "text": "Scorpio 24°58′",
+    "longitude": 234.968
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 29.6,
+    "text": "Aquarius 29°36′",
+    "longitude": 329.597
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 9.41,
+    "text": "Scorpio 9°25′",
+    "longitude": 219.413
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 18.1,
+    "text": "Libra 18°06′",
+    "longitude": 198.104
+   }
+  },
+  {
+   "segment": "The Senator",
+   "stop": "Stockholm, the Swedish Academy: the spirit of a whole nation",
+   "date": "1923-12-10",
+   "date_confidence": "the prize was announced on 14 November 1923 and conferred at Stockholm on 10 December 1923; a research entry dating the Stockholm event to November conflates announcement with ceremony",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423763.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 16.91,
+    "text": "Sagittarius 16°55′",
+    "longitude": 256.911
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 13.82,
+    "text": "Capricornus 13°49′",
+    "longitude": 283.818
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 30.0,
+    "text": "Sagittarius 30°00′",
+    "longitude": 269.995
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.679
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 3.8,
+    "text": "Scorpio 3°48′",
+    "longitude": 213.798
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 3.36,
+    "text": "Sagittarius 3°22′",
+    "longitude": 243.363
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 29.17,
+    "text": "Libra 29°10′",
+    "longitude": 209.169
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Senator",
+   "stop": "Leinster House, Dublin: the coinage committee",
+   "date": "1924-01-01",
+   "date_confidence": "year attested (Wikipedia, W. B. Yeats); month and day not recorded and defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423785.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.31,
+    "text": "Capricornus 9°19′",
+    "longitude": 279.313
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Senator",
+   "stop": "Leinster House, Dublin: the divorce debate",
+   "date": "1925-06-11",
+   "date_confidence": "the speech is dated 11 June 1925; the Oireachtas official record at oireachtas.ie returned HTTP 403 and could not be checked directly, so the wording follows Foster, A Life II, p. 294 and Garratt (1989)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424312.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 19.56,
+    "text": "Gemini 19°33′",
+    "longitude": 79.556
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 16.51,
+    "text": "Aquarius 16°31′",
+    "longitude": 316.513
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 8.59,
+    "text": "Gemini 8°36′",
+    "longitude": 68.594
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 2.36,
+    "text": "Cancer 2°21′",
+    "longitude": 92.355
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 20.3,
+    "text": "Cancer 20°18′",
+    "longitude": 110.301
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 21.09,
+    "text": "Capricornus 21°05′",
+    "longitude": 291.086
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 8.41,
+    "text": "Scorpio 8°24′",
+    "longitude": 218.406
+   }
+  },
+  {
+   "segment": "Byzantium",
+   "stop": "London: A Vision privately printed",
+   "date": "1925-01-01",
+   "date_confidence": "the title page is dated 1925 and the actual publication by T. Werner Laurie is January 1926; composition ran between Dublin, Oxford and Ballylee, and the pin is placed at Dublin rather than at the London imprint",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Byzantium",
+   "stop": "Cappella Palatina, Palermo: the second gold wall",
+   "date": "1925-01-01",
+   "date_confidence": "year attested (Foster, A Life II); month and day not recorded and defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Byzantium",
+   "stop": "Thoor Ballylee: Sailing to Byzantium written",
+   "date": "1926-01-01",
+   "date_confidence": "the composition is dated 1926 and the poem first appeared in the Cuala Press collection October Blast in 1927, then in The Tower in 1928; a research entry calling October Blast a periodical is corrected here. Month and day defaulted; the place is given only as Ireland in the pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Byzantium",
+   "stop": "Byzantium: the city he does not go to",
+   "date": "1928-01-01",
+   "date_confidence": "reconstruction. Yeats never visited the city; the pin marks a destination that exists only in the poems and in A Vision, and the date is that of The Tower rather than of any journey. Coordinate inherited unchanged from constantino_el_grande.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Byzantium",
+   "stop": "Dublin: The Tower published, the Senate and the tower left",
+   "date": "1928-01-01",
+   "date_confidence": "year attested for all three events (Wikipedia, W. B. Yeats; Wikipedia, Thoor Ballylee): The Tower published, retirement from the Senate on grounds of ill health, and the last stay at Ballylee, with the family leaving for good in 1929. Months and days not recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Riviera and the Return",
+   "stop": "Rapallo, Liguria: the winters above the harbour",
+   "date": "1928-01-01",
+   "date_confidence": "attested as a run of winters from 1928 to 1934 (Foster, A Life II); month and day are not recorded and are defaulted to 01",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Riviera and the Return",
+   "stop": "London: the Steinach operation",
+   "date": "1934-04-06",
+   "date_confidence": "attested to the day (Wikipedia, W. B. Yeats); performed by Norman Haire in London",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427533.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 15.51,
+    "text": "Aries 15°31′",
+    "longitude": 15.513
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 1.91,
+    "text": "Capricornus 1°55′",
+    "longitude": 271.909
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 18.04,
+    "text": "Pisces 18°02′",
+    "longitude": 348.041
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 29.66,
+    "text": "Aquarius 29°40′",
+    "longitude": 329.663
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 17.42,
+    "text": "Aries 17°25′",
+    "longitude": 17.415
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 18.56,
+    "text": "Libra 18°34′",
+    "longitude": 198.564
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 24.79,
+    "text": "Aquarius 24°48′",
+    "longitude": 324.792
+   }
+  },
+  {
+   "segment": "The Riviera and the Return",
+   "stop": "Mallorca: the Upanishads with Shri Purohit Swami",
+   "date": "1935-01-01",
+   "date_confidence": "year attested (Wikipedia, W. B. Yeats); month and day not recorded. The pool names the island only, so the pin is placed at Palma, its capital, and the exact residence is unverified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "to the year",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Riviera and the Return",
+   "stop": "Hotel Ideal Sejour, Roquebrune-Cap-Martin: the death",
+   "date": "1939-01-28",
+   "date_confidence": "the date is attested to the day; the place is disputed. Wikipedia's Yeats article puts the Hotel Ideal Sejour in Roquebrune-Cap-Martin, while Wikipedia's Roquebrune-Cap-Martin article puts it in neighbouring Menton, and the two research lenses give coordinates a kilometre apart. This pin follows the afterlife figure; the Menton claim is not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429291.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 7.17,
+    "text": "Aquarius 7°10′",
+    "longitude": 307.175
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 29.74,
+    "text": "Aries 29°44′",
+    "longitude": 29.74
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 22.59,
+    "text": "Capricornus 22°35′",
+    "longitude": 292.586
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 20.38,
+    "text": "Sagittarius 20°23′",
+    "longitude": 260.381
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 29.13,
+    "text": "Scorpio 29°08′",
+    "longitude": 239.134
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 6.28,
+    "text": "Pisces 6°17′",
+    "longitude": 336.278
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 12.61,
+    "text": "Aries 12°37′",
+    "longitude": 12.614
+   }
+  },
+  {
+   "segment": "The Riviera and the Return",
+   "stop": "Roquebrune cemetery: the grave taken for a year",
+   "date": "1939-01-30",
+   "date_confidence": "the burial two days after death is attested; the coordinate is the Roquebrune commune centre, since a research figure of 43.7649, 7.4989 lies nearly three kilometres east, toward Menton",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429293.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 9.21,
+    "text": "Aquarius 9°12′",
+    "longitude": 309.206
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 26.1,
+    "text": "Taurus 26°06′",
+    "longitude": 56.1
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 25.68,
+    "text": "Capricornus 25°41′",
+    "longitude": 295.683
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 22.39,
+    "text": "Sagittarius 22°23′",
+    "longitude": 262.386
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 0.35,
+    "text": "Sagittarius 0°21′",
+    "longitude": 240.354
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 6.73,
+    "text": "Pisces 6°44′",
+    "longitude": 336.732
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 12.77,
+    "text": "Aries 12°46′",
+    "longitude": 12.767
+   }
+  },
+  {
+   "segment": "The Riviera and the Return",
+   "stop": "Roquebrune: the ossuary and the assembled skeleton",
+   "date": "1946-01-01",
+   "date_confidence": "reconstruction, and two stages that a research entry compressed into one. The remains went to the communal ossuary when the concession lapsed in 1946; the reassembly of a skeleton by a French doctor belongs to 1948, when the Irish request arrived and the authorities said they could no longer locate the actual remains. The account rests on a 2015 find in French diplomatic papers plus press reporting, and is disputed by the Yeats family.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431821.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.985
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Riviera and the Return",
+   "stop": "Drumcliff, St Columba's: Horseman, pass by",
+   "date": "1948-09-17",
+   "date_confidence": "the repatriation is attested to September 1948; the day, 17 September, comes from Foster and the press accounts. Coordinate follows the afterlife figure of 54.3308, -8.4936; a research figure of 54.3403, -8.4986 sits over a kilometre north of the churchyard.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432811.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 24.01,
+    "text": "Virgo 24°01′",
+    "longitude": 174.01
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Riviera and the Return",
+   "stop": "Thoor Ballylee: the tower opened on the hundredth birthday",
+   "date": "1965-06-20",
+   "date_confidence": "attested to the day (Wikipedia, Thoor Ballylee): the Kiltartan Society was founded by Mary Hanley in 1961 and Padraic Colum opened the restored tower on 20 June 1965",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438931.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 28.47,
+    "text": "Gemini 28°28′",
+    "longitude": 88.47
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 3.26,
+    "text": "Pisces 3°16′",
+    "longitude": 333.264
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 8.29,
+    "text": "Cancer 8°17′",
+    "longitude": 98.291
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 16.7,
+    "text": "Cancer 16°42′",
+    "longitude": 106.702
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 25.64,
+    "text": "Virgo 25°38′",
+    "longitude": 175.637
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 13.47,
+    "text": "Gemini 13°28′",
+    "longitude": 73.465
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 17.05,
+    "text": "Pisces 17°03′",
+    "longitude": 347.049
+   }
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 10,
+  "month": 6,
+  "year": 29
+ },
+ "parse_failures": []
+}

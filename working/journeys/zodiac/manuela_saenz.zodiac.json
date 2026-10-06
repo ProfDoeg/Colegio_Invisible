@@ -1,0 +1,2025 @@
+{
+ "slug": "manuela_saenz",
+ "traveler": "Manuela Sáenz de Vergara y Aizpuru",
+ "title": "The Crown from the Balcony: the Coronela, the Night of September, and the Long Exile at Paita",
+ "years": "1797-1856",
+ "years_parsed": {
+  "first": 1797,
+  "last": 1856
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Convent and the Merchant's Daughter",
+  "stop": "Quito, the illegitimate daughter of the merchant Sáenz",
+  "date": "1797-12-27",
+  "date_confidence": "attested; EN and ES Wikipedia agree on 27 December 1797 and on both parents. The pin is the canonical Quito anchor inherited byte-identical from bolivar.journey.json, not a birth address: no deed or parish record consulted fixes one.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1797,
+  "jd_ut": 2377761.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 5.84,
+   "text": "Capricornus 5°50′",
+   "longitude": 275.835
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 11.98,
+   "text": "Aries 11°59′",
+   "longitude": 11.977
+  },
+  "mercury": {
+   "sign": "Capricornus",
+   "degree": 18.18,
+   "text": "Capricornus 18°11′",
+   "longitude": 288.177
+  },
+  "venus": {
+   "sign": "Aquarius",
+   "degree": 22.85,
+   "text": "Aquarius 22°51′",
+   "longitude": 322.851
+  },
+  "mars": {
+   "sign": "Scorpio",
+   "degree": 16.84,
+   "text": "Scorpio 16°50′",
+   "longitude": 226.84
+  },
+  "jupiter": {
+   "sign": "Aries",
+   "degree": 10.74,
+   "text": "Aries 10°45′",
+   "longitude": 10.743
+  },
+  "saturn": {
+   "sign": "Cancer",
+   "degree": 9.0,
+   "text": "Cancer 9°00′",
+   "longitude": 98.999
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1797-1856",
+  "first_year_parsed": 1797
+ },
+ "stops": [
+  {
+   "segment": "The Convent and the Merchant's Daughter",
+   "stop": "Quito, the illegitimate daughter of the merchant Sáenz",
+   "date": "1797-12-27",
+   "date_confidence": "attested; EN and ES Wikipedia agree on 27 December 1797 and on both parents. The pin is the canonical Quito anchor inherited byte-identical from bolivar.journey.json, not a birth address: no deed or parish record consulted fixes one.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1797,
+   "jd_ut": 2377761.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.84,
+    "text": "Capricornus 5°50′",
+    "longitude": 275.835
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 11.98,
+    "text": "Aries 11°59′",
+    "longitude": 11.977
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 18.18,
+    "text": "Capricornus 18°11′",
+    "longitude": 288.177
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 22.85,
+    "text": "Aquarius 22°51′",
+    "longitude": 322.851
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 16.84,
+    "text": "Scorpio 16°50′",
+    "longitude": 226.84
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 10.74,
+    "text": "Aries 10°45′",
+    "longitude": 10.743
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 9.0,
+    "text": "Cancer 9°00′",
+    "longitude": 98.999
+   }
+  },
+  {
+   "segment": "The Convent and the Merchant's Daughter",
+   "stop": "Quito, the Monasterio de Santa Catalina de Siena",
+   "date": "1806-01-01",
+   "date_confidence": "traditional; the Dominican convent of Santa Catalina is attested by EN and ES Wikipedia, but no source consulted gives a year of entry. The pool's earlier Conceptas stage, its 1805 date and its curriculum list appear in neither encyclopedic source and are not carried. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1806,
+   "jd_ut": 2380687.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.972
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Convent and the Merchant's Daughter",
+   "stop": "Quito, the officer and the leaving",
+   "date": "1814-01-01",
+   "date_confidence": "traditional; the sources place the departure around age seventeen, about 1814, and disagree flatly on whether she fled or was expelled. The officer is named Fausto D'Elhuyar in one account only. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1814,
+   "jd_ut": 2383609.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.031
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Convent and the Merchant's Daughter",
+   "stop": "Quito, the marriage to the Englishman Thorne",
+   "date": "1817-01-01",
+   "date_confidence": "attested for the year 1817; ES Wikipedia gives only the year. The place is contested: some biographers put the wedding in Lima, and no encyclopedic source consulted names a city or a church. The pool's precise 27 July 1817 date at Quito's Catedral Metropolitana is uncorroborated and not carried. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384705.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only",
+    "to the year"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.308
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lima, the Conspiracy and the Order of the Sun",
+   "stop": "Callao, the arrival in the viceroyalty",
+   "date": "1819-01-01",
+   "date_confidence": "reconstruction; the pool dates the crossing to 1819 on Murray (2008), which reaches this file at second hand. Month and day defaulted. The pin is the canonical Callao anchor inherited byte-identical from san_martin.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385435.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.813
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lima, the Conspiracy and the Order of the Sun",
+   "stop": "Lima, the merchant's wife among the conspirators",
+   "date": "1819-06-01",
+   "date_confidence": "attested as to her part in the conspiracy against Viceroy José de la Serna (EN Wikipedia); no source consulted dates her entry into it. Month editorially placed after the arrival at Callao, day defaulted. The pin is the canonical Lima anchor inherited byte-identical from bolivar.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385586.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no source (for the date)",
+    "editorial (the date)",
+    "(soft) placed",
+    "(soft) no source",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.63,
+    "text": "Gemini 9°38′",
+    "longitude": 69.625
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lima, the Conspiracy and the Order of the Sun",
+   "stop": "Lima, the Numancia regiment turned",
+   "date": "1820-01-01",
+   "date_confidence": "attested that she took part in efforts to induce colonial troops, the Numancia regiment named specifically, to defect to the patriot cause (EN Wikipedia). The pool places this in 1820 without a month or a day; both defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1820,
+   "jd_ut": 2385800.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.57,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.566
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lima, the Conspiracy and the Order of the Sun",
+   "stop": "Lima, caballeresa del Sol",
+   "date": "1822-01-01",
+   "date_confidence": "attested as to the honor, contested as to the year: the pool's chronology said 1821 while citing a source that says 1822, and the Orden El Sol del Perú was created only by San Martín's decree of 8 October 1821. ES Wikipedia and Encyclopedia.com both date the investiture to 1822. No source gives a day; month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386531.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "year named only",
+    "disputed",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.09,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.09
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Quito, the Crown from the Balcony",
+   "stop": "Quito, the return over the Cataguango inheritance",
+   "date": "1822-04-01",
+   "date_confidence": "attested that she returns to Quito in 1822 over the hacienda Cataguango inherited from her mother's family (Encyclopedia.com, which dates María Joaquina Aizpuru's death to April 1822). This contradicts flatly the ES Wikipedia account in which the mother died of puerperal fever shortly after the birth. Both stand in the sources; neither is resolved here. Day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386621.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.72,
+    "text": "Aries 10°43′",
+    "longitude": 10.716
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Quito, the Crown from the Balcony",
+   "stop": "Pichincha, the volcano above the city",
+   "date": "1822-05-24",
+   "date_confidence": "attested for the battle, 24 May 1822. Her presence in Quito on the day is traditional (Rumazo González); any part in the fighting is tradition and not documented. The pool's chronology dated a combined Pichincha, Junín and Ayacucho presence to 1823, impossible for Pichincha, and pinned it at a null point in the central Peruvian montaña; that item is discarded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386674.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 2.22,
+    "text": "Gemini 2°13′",
+    "longitude": 62.219
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Quito, the Crown from the Balcony",
+   "stop": "Quito, the crown thrown from the balcony",
+   "date": "1822-06-16",
+   "date_confidence": "attested; Encyclopedia.com dates Bolívar's entry into Quito and the meeting to 16 June 1822, and bolivar.journey.json carries the same date and the pin inherited here byte-identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386697.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 24.23,
+    "text": "Gemini 24°14′",
+    "longitude": 84.226
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.04,
+    "text": "Taurus 8°02′",
+    "longitude": 38.036
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 19.0,
+    "text": "Cancer 19°00′",
+    "longitude": 108.997
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 10.43,
+    "text": "Taurus 10°26′",
+    "longitude": 40.431
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.82,
+    "text": "Virgo 13°49′",
+    "longitude": 163.818
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 23.12,
+    "text": "Taurus 23°07′",
+    "longitude": 53.122
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 6.34,
+    "text": "Taurus 6°20′",
+    "longitude": 36.341
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Quito, the Crown from the Balcony",
+   "stop": "Quito, the victory ball",
+   "date": "1822-06-16",
+   "date_confidence": "attested that they met and danced on the night of 16 June 1822. The venue is contested: Encyclopedia.com places the ball at the governor's palace, while the pool's geography lens named the Casa de los Larrea and conceded in the same breath that the house is traditionally identified and not documented. No house is named here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386697.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional, disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 24.23,
+    "text": "Gemini 24°14′",
+    "longitude": 84.226
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.04,
+    "text": "Taurus 8°02′",
+    "longitude": 38.036
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 19.0,
+    "text": "Cancer 19°00′",
+    "longitude": 108.997
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 10.43,
+    "text": "Taurus 10°26′",
+    "longitude": 40.431
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.82,
+    "text": "Virgo 13°49′",
+    "longitude": 163.818
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 23.12,
+    "text": "Taurus 23°07′",
+    "longitude": 53.122
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 6.34,
+    "text": "Taurus 6°20′",
+    "longitude": 36.341
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Quito, the Crown from the Balcony",
+   "stop": "Quito, leaving the Englishman",
+   "date": "1822-07-01",
+   "date_confidence": "attested for the year 1822 (EN Wikipedia): she leaves Thorne and remains with Bolívar. No source consulted gives a month or a day. The month is an editorial placement after the June meeting, not a source date; day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386712.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "no source (for the date)",
+    "editorial (the date)",
+    "(soft) no source",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.53,
+    "text": "Cancer 8°32′",
+    "longitude": 98.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Quito, the Crown from the Balcony",
+   "stop": "Guayaquil, the quay of the two liberators",
+   "date": "1822-07-26",
+   "date_confidence": "attested for the Bolívar and San Martín interview of 26 and 27 July 1822 (bolivar.journey.json, san_martin.journey.json), whose pin is inherited here byte-identical. Manuela's own presence at Guayaquil on that date is inferred proximity only: neither file states it and no source consulted places her there. Reconstruction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1822,
+   "jd_ut": 2386737.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.38,
+    "text": "Leo 2°23′",
+    "longitude": 122.381
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Archive and the Sierra",
+   "stop": "Lima, the keeper of the Liberator's papers",
+   "date": "1823-09-01",
+   "date_confidence": "attested: Bolívar lands at Callao and enters Lima on 1 September 1823, and bolivar.journey.json states in the same stop that Manuela follows him south. Her work as archivist of his correspondence comes through the pool's citation of Murray (2008), at second hand.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1823,
+   "jd_ut": 2387139.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.72,
+    "text": "Virgo 7°43′",
+    "longitude": 157.717
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 13.97,
+    "text": "Cancer 13°58′",
+    "longitude": 103.965
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 24.86,
+    "text": "Virgo 24°52′",
+    "longitude": 174.864
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 18.6,
+    "text": "Libra 18°36′",
+    "longitude": 198.601
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 26.72,
+    "text": "Cancer 26°43′",
+    "longitude": 116.724
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 5.96,
+    "text": "Cancer 5°58′",
+    "longitude": 95.959
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 23.8,
+    "text": "Taurus 23°48′",
+    "longitude": 53.797
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Archive and the Sierra",
+   "stop": "Trujillo, the headquarters before the sierra",
+   "date": "1824-01-01",
+   "date_confidence": "reconstruction; the pool places her at the Trujillo campaign headquarters in 1824 on Murray and Rumazo González, both at second hand. No month or day is given and both are defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387261.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.6,
+    "text": "Capricornus 9°36′",
+    "longitude": 279.595
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Archive and the Sierra",
+   "stop": "Pampa de Junín, the battle without a shot",
+   "date": "1824-08-06",
+   "date_confidence": "attested for the battle, 6 August 1824. Her presence on the field is asserted in patriotic biography and absent from the contemporary military dispatches, a contrast the pool draws from Murray: reconstruction. This pin is not inherited; no existing journey file in the atlas carries the Pampa de Junín.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387479.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.4,
+    "text": "Leo 13°24′",
+    "longitude": 133.404
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 1.36,
+    "text": "Capricornus 1°22′",
+    "longitude": 271.365
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 24.73,
+    "text": "Leo 24°44′",
+    "longitude": 144.728
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 15.44,
+    "text": "Leo 15°27′",
+    "longitude": 135.443
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 28.94,
+    "text": "Libra 28°56′",
+    "longitude": 208.937
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 27.43,
+    "text": "Cancer 27°26′",
+    "longitude": 117.434
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 6.07,
+    "text": "Gemini 6°04′",
+    "longitude": 66.074
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Archive and the Sierra",
+   "stop": "Lima, the colonel's commission",
+   "date": "1824-12-01",
+   "date_confidence": "attested that she is made Colonel of the Colombian army; ES Wikipedia dates it to December 1824, adopted here, and the day is defaulted. The pool's geography lens gives 1825 instead and inserts a prior honorary Sub-Lieutenancy of Hussars that neither Wikipedia mentions and which is carried only as reconstruction. The disagreement is recorded, not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387596.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.81,
+    "text": "Sagittarius 8°49′",
+    "longitude": 248.813
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Archive and the Sierra",
+   "stop": "Pampa de Quinua, the end of Spain in America",
+   "date": "1824-12-09",
+   "date_confidence": "attested for the battle, 9 December 1824, on the Pampa de Quinua; the pin is inherited byte-identical from sucre.journey.json. The pool's two coordinates for this event, the city of Huamanga and a point some 68 km south of the field, are both discarded. Her presence and the field hospitals credited to her by admiring biographers are undocumented: reconstruction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387604.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 16.94,
+    "text": "Sagittarius 16°56′",
+    "longitude": 256.94
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 19.97,
+    "text": "Cancer 19°58′",
+    "longitude": 109.969
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 26.6,
+    "text": "Sagittarius 26°36′",
+    "longitude": 266.604
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 20.16,
+    "text": "Capricornus 20°10′",
+    "longitude": 290.164
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 27.22,
+    "text": "Capricornus 27°13′",
+    "longitude": 297.223
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 13.43,
+    "text": "Leo 13°26′",
+    "longitude": 133.432
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 3.32,
+    "text": "Gemini 3°19′",
+    "longitude": 63.318
+   }
+  },
+  {
+   "segment": "The Archive and the Sierra",
+   "stop": "Lima, the letter from Cullco",
+   "date": "1825-12-15",
+   "date_confidence": "attested: juana_azurduy.journey.json dates the letter to 15 December 1825, written from the recovered hacienda of Cullco in Upper Peru, sourced to ideasfem.wordpress.com and EN Wikipedia. Manuela's own location on the day it was written is not documented; the pin is the canonical Lima anchor, not a recorded place of receipt.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387975.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 22.8,
+    "text": "Sagittarius 22°48′",
+    "longitude": 262.797
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 27.05,
+    "text": "Aquarius 27°03′",
+    "longitude": 327.055
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 13.11,
+    "text": "Capricornus 13°07′",
+    "longitude": 283.11
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 2.27,
+    "text": "Sagittarius 2°16′",
+    "longitude": 242.275
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 12.95,
+    "text": "Libra 12°57′",
+    "longitude": 192.954
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 14.06,
+    "text": "Virgo 14°04′",
+    "longitude": 164.061
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 18.13,
+    "text": "Gemini 18°08′",
+    "longitude": 78.127
+   }
+  },
+  {
+   "segment": "The Archive and the Sierra",
+   "stop": "Palacio de la Magdalena, Lima",
+   "date": "1826-02-01",
+   "date_confidence": "reconstruction; the pool places her at Bolívar's residence at La Magdalena during 1826 on Murray, at second hand. EN Wikipedia's two stated periods, the first months of the year and again February to September, do not obviously reconcile and are not adjudicated. Day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2388023.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.67,
+    "text": "Aquarius 11°40′",
+    "longitude": 311.67
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lima Turns",
+   "stop": "Lima, the mutiny of the Third Division",
+   "date": "1827-01-25",
+   "date_confidence": "reconstruction; the pool dates the Third Division mutiny to 25 January 1827. Murray has her confronting the mutineers in Bolívar's absence, while EN Wikipedia instead has her imprisoned in a convent for political activity on his behalf. Both accounts are carried as reconstruction and are not reconciled.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1827,
+   "jd_ut": 2388381.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (disputed, reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 4.32,
+    "text": "Aquarius 4°19′",
+    "longitude": 304.315
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 1.46,
+    "text": "Capricornus 1°28′",
+    "longitude": 271.463
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 16.72,
+    "text": "Capricornus 16°43′",
+    "longitude": 286.725
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 26.74,
+    "text": "Sagittarius 26°45′",
+    "longitude": 266.743
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 20.73,
+    "text": "Pisces 20°44′",
+    "longitude": 350.734
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 14.41,
+    "text": "Libra 14°25′",
+    "longitude": 194.413
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 0.36,
+    "text": "Cancer 0°21′",
+    "longitude": 90.358
+   }
+  },
+  {
+   "segment": "Lima Turns",
+   "stop": "Lima, the convent as a prison",
+   "date": "1827-02-01",
+   "date_confidence": "attested that she is held by the Peruvian authorities in February 1827 and imprisoned in a Lima convent; which convent is not agreed in the sources consulted, and no day is given. Day defaulted. Release in March and expulsion from Peru in April are attested by EN Wikipedia.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1827,
+   "jd_ut": 2388388.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.42,
+    "text": "Aquarius 11°25′",
+    "longitude": 311.424
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lima Turns",
+   "stop": "Guayaquil, the road north",
+   "date": "1827-05-01",
+   "date_confidence": "reconstruction; the pool records Guayaquil as a customary waypoint on the route between Lima and Bogotá rather than as a documented stage of her journey. No source consulted dates her passage. The month is an editorial placement after the April expulsion; day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1827,
+   "jd_ut": 2388477.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no source (for the date)",
+    "editorial (the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) editorial",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.83,
+    "text": "Taurus 9°50′",
+    "longitude": 39.832
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Lima Turns",
+   "stop": "Quito, passing through her own city",
+   "date": "1827-06-01",
+   "date_confidence": "reconstruction; the pool records a stage in Quito on the overland road north, noted by biographers without detail. No source consulted dates it. The month is an editorial placement between the Guayaquil passage and the arrival at Bogotá; day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1827,
+   "jd_ut": 2388508.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no source (for the date)",
+    "editorial (the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) editorial",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.69,
+    "text": "Gemini 9°41′",
+    "longitude": 69.689
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bogotá, the Night of September",
+   "stop": "Bogotá, arrival in the capital of Gran Colombia",
+   "date": "1827-12-01",
+   "date_confidence": "reconstruction; the pool places her arrival in Bogotá in 1827 on Murray, at second hand, with no month or day. Month is an editorial placement at the end of the journey north; day defaulted. The pin is the canonical Bogotá anchor inherited byte-identical from bolivar.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1827,
+   "jd_ut": 2388691.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "editorial (the date)",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) editorial",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.07,
+    "text": "Sagittarius 8°04′",
+    "longitude": 248.075
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bogotá, the Night of September",
+   "stop": "Bogotá, Santander shot in effigy",
+   "date": "1828-08-10",
+   "date_confidence": "reconstruction; the party of 10 August 1828 at which Sáenz staged a mock execution of Santander in effigy is the probable original of the pool's separate 'August 1828 masked-ball plot against Bolívar', an episode the ES Wikipedia article on the Conspiración Septembrina does not contain. Carried here as the effigy scandal and not as a foiled assassination attempt.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1828,
+   "jd_ut": 2388944.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 17.27,
+    "text": "Leo 17°16′",
+    "longitude": 137.273
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bogotá, the Night of September",
+   "stop": "Palacio de San Carlos, the window",
+   "date": "1828-09-25",
+   "date_confidence": "attested; EN and ES Wikipedia, Murray and Rumazo González agree on the night of 25 September 1828, and bolivar.journey.json carries the same date and the pin inherited here byte-identical. The pool's generic Bogotá coordinate, some 12 km north of the palace, is discarded. The sources have Bolívar jumping on her urging; the pool's wording, that she pushed him out, overstates them.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1828,
+   "jd_ut": 2388990.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) generic"
+   ],
+   "notes": [
+    "soft triggers (generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 1.88,
+    "text": "Libra 1°53′",
+    "longitude": 181.881
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 20.9,
+    "text": "Aries 20°54′",
+    "longitude": 20.901
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 15.82,
+    "text": "Libra 15°49′",
+    "longitude": 195.819
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 16.27,
+    "text": "Leo 16°16′",
+    "longitude": 136.273
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 18.19,
+    "text": "Capricornus 18°12′",
+    "longitude": 288.192
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.83,
+    "text": "Scorpio 13°50′",
+    "longitude": 223.83
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 2.08,
+    "text": "Leo 2°05′",
+    "longitude": 122.077
+   }
+  },
+  {
+   "segment": "Bogotá, the Night of September",
+   "stop": "Bogotá, the name he gives her",
+   "date": "1828-09-26",
+   "date_confidence": "the date is the morning after the attempt. Reconstruction on the wording: the epithet 'Libertadora del Libertador' is ubiquitous in popular and scholarly accounts and could not be verified in this session as a direct quotation from any primary or archival source. bolivar.journey.json carries it in the form used here, sourced to O'Leary's Memorias and to Sáenz's own accounts.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1828,
+   "jd_ut": 2388991.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 2.86,
+    "text": "Libra 2°52′",
+    "longitude": 182.863
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bogotá, the Night of September",
+   "stop": "Bogotá, the resignation and the road out",
+   "date": "1830-05-08",
+   "date_confidence": "attested for 8 May 1830, the definitive resignation and Bolívar's departure from Bogotá, carried independently in bolivar.journey.json. The pool dated the final resignation to January 1830, which is in fact the date of the 20 January address to the Congreso Admirable at which he offered to step down; the congress accepted in late April. Both dates recorded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389580.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 16.87,
+    "text": "Taurus 16°52′",
+    "longitude": 46.873
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 16.88,
+    "text": "Scorpio 16°53′",
+    "longitude": 226.878
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 3.69,
+    "text": "Gemini 3°41′",
+    "longitude": 63.688
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 1.2,
+    "text": "Aries 1°12′",
+    "longitude": 1.198
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 17.06,
+    "text": "Aquarius 17°04′",
+    "longitude": 317.063
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.85,
+    "text": "Capricornus 17°51′",
+    "longitude": 287.854
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 11.92,
+    "text": "Leo 11°55′",
+    "longitude": 131.917
+   }
+  },
+  {
+   "segment": "Bogotá, the Night of September",
+   "stop": "Bogotá, the letter to the newspaper",
+   "date": "1830-06-23",
+   "date_confidence": "attested for 23 June 1830 (Encyclopedia.com). The text of the letter was not reachable in this research pool and is therefore not quoted here: a stated gap.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389626.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 0.97,
+    "text": "Cancer 0°58′",
+    "longitude": 90.968
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 1.61,
+    "text": "Leo 1°37′",
+    "longitude": 121.612
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 20.61,
+    "text": "Gemini 20°37′",
+    "longitude": 80.612
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 18.52,
+    "text": "Taurus 18°31′",
+    "longitude": 48.523
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 14.4,
+    "text": "Pisces 14°24′",
+    "longitude": 344.402
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 14.55,
+    "text": "Capricornus 14°33′",
+    "longitude": 284.55
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 15.43,
+    "text": "Leo 15°26′",
+    "longitude": 135.429
+   }
+  },
+  {
+   "segment": "Bogotá, the Night of September",
+   "stop": "Santa Marta, the death of the Liberator",
+   "date": "1830-12-17",
+   "date_confidence": "attested: 17 December 1830 at the Quinta de San Pedro Alejandrino, of tuberculosis (EN Wikipedia); bolivar.journey.json carries the same date and the pin inherited here byte-identical. The pool asserted a source conflict between 10 and 17 December; that conflict is spurious and is not carried, 10 December being the day he dictated his will and issued his last proclamation. The quotation is undated in its source and is placed here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "between",
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (undated, placed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 24.62,
+    "text": "Sagittarius 24°37′",
+    "longitude": 264.616
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bogotá, the Night of September",
+   "stop": "Bogotá, expelled by decree",
+   "date": "1834-01-01",
+   "date_confidence": "attested that she is expelled from New Granada as a hostile political figure under the government of Francisco de Paula Santander; Encyclopedia.com dates the expulsion to 1834 while EN Wikipedia's chronology implies 1835. Flagged, not resolved. Month and day defaulted. Note that the government which moved against her immediately after Bolívar's death was Urdaneta's: Santander was in European exile until October 1832.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1834,
+   "jd_ut": 2390914.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.18,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.178
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bogotá, the Night of September",
+   "stop": "Cartagena de Indias, the ship out",
+   "date": "1834-06-01",
+   "date_confidence": "reconstruction; the pool records the Cartagena passage as her route out of Colombian territory without a date. Month is an editorial placement after the expulsion decree; day defaulted. The pin is the canonical Cartagena anchor inherited byte-identical from bolivar.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1834,
+   "jd_ut": 2391065.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "editorial (the date)",
+    "reconstructed (the date)",
+    "(soft) editorial",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.98,
+    "text": "Gemini 9°59′",
+    "longitude": 69.984
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bogotá, the Night of September",
+   "stop": "Kingston, the exiles' town",
+   "date": "1834-08-01",
+   "date_confidence": "attested for the Jamaican exile (Murray, via the pool, at second hand), dated 1834 to 1835 with no month. Month is an editorial placement after the Cartagena passage; day defaulted. The pin is the canonical Kingston anchor inherited byte-identical from bolivar.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1834,
+   "jd_ut": 2391126.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "editorial (the date)",
+    "(soft-year) year range",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.22,
+    "text": "Leo 8°13′",
+    "longitude": 128.215
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paita",
+   "stop": "Guayaquil, the passport revoked",
+   "date": "1835-01-01",
+   "date_confidence": "attested that President Vicente Rocafuerte revoked her passport and barred her entry to Ecuador in 1835 (EN Wikipedia; Murray via the pool). No month or day is given in the sources consulted and both are defaulted. The quotation is dated 1835 by its source and is not tied to a specific document about her.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391279.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.931
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paita",
+   "stop": "Paita, the port at the edge",
+   "date": "1835-06-01",
+   "date_confidence": "attested that she settles at Paita in 1835 and remains there for the rest of her life (EN Wikipedia; Murray via the pool). No month or day is given; the month is an editorial placement after the Guayaquil refusal, day defaulted. The epithet quoted is traditional, not a documented utterance of Bolívar's.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391430.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "no month/day",
+    "editorial (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.75,
+    "text": "Gemini 9°45′",
+    "longitude": 69.752
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paita",
+   "stop": "Pativilca, the murder of James Thorne",
+   "date": "1847-01-01",
+   "date_confidence": "attested that Thorne was murdered at his hacienda in Pativilca in 1847; no month or day is given in the sources consulted and both are defaulted. Correction carried: the 8,000 pesos she could not recover was her dowry, not a share of his estate, per ES Wikipedia. The pin is the canonical Pativilca anchor inherited byte-identical from bolivar.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1847,
+   "jd_ut": 2395662.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.02,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.019
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paita",
+   "stop": "Paita, Garibaldi at the door",
+   "date": "1851-01-01",
+   "date_confidence": "attested that Garibaldi visited her at Paita, dated 1851 by the Spanish Wikipedia article 'Paita' and consistent with his arrival at Lima late in 1851 and his departure for Canton on 10 January 1852. The pool's two dates, 1850 and April 1846, are both impossible: in 1846 he was fighting in the Uruguayan Civil War. Month and day defaulted. The pool's claim that their conversations shaped his republican convictions is unsourced and is not carried.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397123.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.049
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paita",
+   "stop": "Paita, the diphtheria",
+   "date": "1856-11-23",
+   "date_confidence": "attested for 23 November 1856; EN Wikipedia gives her age as 58 and ES Wikipedia as nearly 59, and both agree on the date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399276.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 0.95,
+    "text": "Sagittarius 0°57′",
+    "longitude": 240.946
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 9.85,
+    "text": "Libra 9°51′",
+    "longitude": 189.847
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 21.35,
+    "text": "Scorpio 21°21′",
+    "longitude": 231.354
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 2.92,
+    "text": "Capricornus 2°55′",
+    "longitude": 272.917
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 18.88,
+    "text": "Capricornus 18°53′",
+    "longitude": 288.877
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 29.26,
+    "text": "Pisces 29°15′",
+    "longitude": 359.258
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 13.67,
+    "text": "Cancer 13°40′",
+    "longitude": 103.666
+   }
+  },
+  {
+   "segment": "Paita",
+   "stop": "Paita, the common grave and the fire",
+   "date": "1856-11-24",
+   "date_confidence": "attested that her body was buried in a communal mass grave and her belongings burned as a sanitary measure (EN Wikipedia). Correction carried: the pool stated that her body was burned, conflating the two. The date is the day after her death; no source consulted gives a burial date. The extent of the documentary loss is reconstruction, since substantial Sáenz-Bolívar correspondence survives and was published.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399277.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 1.96,
+    "text": "Sagittarius 1°57′",
+    "longitude": 241.958
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Return",
+   "stop": "Quito, the museum on Calle Junín",
+   "date": "1992-01-01",
+   "date_confidence": "attested that Carlos Álvarez Saá founded the Museo Manuela Sáenz in Quito's centro histórico in 1992 (ES Wikipedia); no month or day is given and both are defaulted. Reconstruction on two counts: his Manuela: sus diarios perdidos y otros papeles appeared in 1995 and the authenticity of those diaries is contested by historians, and no consulted source presents the Calle Junín building as her birth house.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1992,
+   "jd_ut": 2448622.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "disputed",
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.815
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Return",
+   "stop": "Panteón Nacional, Caracas: the soil from Paita",
+   "date": "2010-07-05",
+   "date_confidence": "attested for the state ceremony of 5 July 2010, at which symbolic remains consisting of soil taken from her presumed burial site at Paita were interred at the Panteón Nacional near Bolívar. The pin is the canonical Panteón anchor inherited byte-identical from miranda.journey.json; the pool's generic Caracas coordinate, some 3.5 km off, is discarded.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2010,
+   "jd_ut": 2455382.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably",
+    "assigned",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.9,
+    "text": "Cancer 12°54′",
+    "longitude": 102.897
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Long Return",
+   "stop": "Caracas, the Rosa Roja de Paita",
+   "date": "2013-01-01",
+   "date_confidence": "attested that a fourteen-metre sculpture titled 'Rosa Roja de Paita' was unveiled beside Bolívar's mausoleum in Caracas in 2013 (ES Wikipedia); no month or day is given and both are defaulted. The Ecuadorian posthumous generalship is dated 25 May 2007 by EN Wikipedia and 22 May 2007 by ES Wikipedia, a contradiction not resolved here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2013,
+   "jd_ut": 2456293.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.734
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 12,
+  "month": 3,
+  "year": 29
+ },
+ "parse_failures": []
+}

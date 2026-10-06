@@ -1,0 +1,1506 @@
+{
+ "slug": "claude_des_armoises",
+ "traveler": "Claude des Armoises (Jeanne des Armoises, la fausse Pucelle)",
+ "title": "The Grange-aux-Hormes to the Remission of King René: the Woman Who Came Back as the Maid",
+ "years": "fl. 1436-1457",
+ "years_parsed": {
+  "first": 1436,
+  "last": 1457
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Rome, Before the Name",
+  "stop": "Rome, penance for a blow struck at her mother",
+  "date": "1434-01-01",
+  "date_confidence": "reconstructed. Her Paris confession of 1440 gives no year; the only firm limit is that the episode precedes her appearance near Metz in May 1436. The year 1435, common in popular retellings, is unsupported by any source consulted, and one summary places the whole Roman episode before 1434.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1434,
+  "jd_ut": 2244826.5,
+  "precision": "month",
+  "precision_triggers": [
+   "no month/day",
+   "reconstructed (the date)",
+   "(soft-year) year named with preposition",
+   "(soft) reconstruct"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 19.47,
+   "text": "Capricornus 19°28′",
+   "longitude": 289.471
+  },
+  "sun_range": [
+   "Capricornus",
+   "Aquarius"
+  ],
+  "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "fl. 1436-1457",
+  "first_year_parsed": 1436
+ },
+ "stops": [
+  {
+   "segment": "Rome, Before the Name",
+   "stop": "Rome, penance for a blow struck at her mother",
+   "date": "1434-01-01",
+   "date_confidence": "reconstructed. Her Paris confession of 1440 gives no year; the only firm limit is that the episode precedes her appearance near Metz in May 1436. The year 1435, common in popular retellings, is unsupported by any source consulted, and one summary places the whole Roman episode before 1434.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1434,
+   "jd_ut": 2244826.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.47,
+    "text": "Capricornus 19°28′",
+    "longitude": 289.471
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome, Before the Name",
+   "stop": "Rome, in the companies of Eugenius IV",
+   "date": "1435-01-01",
+   "date_confidence": "inferred from the same confession, which supplies no year. Sequence only: after the penance, before Metz in May 1436.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1435,
+   "jd_ut": 2245191.5,
+   "precision": "month",
+   "precision_triggers": [
+    "inferred",
+    "sequencing",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.22,
+    "text": "Capricornus 19°13′",
+    "longitude": 289.224
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grange-aux-Hormes",
+   "stop": "Grange-aux-Hormes, near Metz: the woman who calls herself Claude",
+   "date": "1436-05-20",
+   "date_confidence": "attested to the day by the Metz chronicle",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245696.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.31,
+    "text": "Gemini 7°18′",
+    "longitude": 67.308
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 21.23,
+    "text": "Cancer 21°14′",
+    "longitude": 111.229
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 9.74,
+    "text": "Gemini 9°45′",
+    "longitude": 69.743
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 5.75,
+    "text": "Cancer 5°45′",
+    "longitude": 95.751
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 10.98,
+    "text": "Cancer 10°59′",
+    "longitude": 100.979
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 11.69,
+    "text": "Libra 11°42′",
+    "longitude": 191.692
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.47,
+    "text": "Pisces 24°28′",
+    "longitude": 354.466
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Grange-aux-Hormes",
+   "stop": "Metz, recognized by tokens",
+   "date": "1436-05-21",
+   "date_confidence": "attested; the chronicle places the Messin recognitions on the day after the Grange",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245697.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.26,
+    "text": "Gemini 8°16′",
+    "longitude": 68.264
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 4.61,
+    "text": "Leo 4°36′",
+    "longitude": 124.607
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 9.19,
+    "text": "Gemini 9°11′",
+    "longitude": 69.189
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 6.95,
+    "text": "Cancer 6°57′",
+    "longitude": 96.954
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 11.61,
+    "text": "Cancer 11°36′",
+    "longitude": 101.607
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 11.66,
+    "text": "Libra 11°40′",
+    "longitude": 191.663
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.53,
+    "text": "Pisces 24°32′",
+    "longitude": 354.527
+   }
+  },
+  {
+   "segment": "The Grange-aux-Hormes",
+   "stop": "Metz, the brothers du Lys accept her",
+   "date": "1436-05-22",
+   "date_confidence": "inferred. The chronicle sets the brothers' visit within days of her appearance but gives no date.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245698.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.22,
+    "text": "Gemini 9°13′",
+    "longitude": 69.22
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grange-aux-Hormes",
+   "stop": "Marieulles, three weeks with a noble house",
+   "date": "1436-06-01",
+   "date_confidence": "summer 1436. No source gives a month or a day; the interval of about three weeks is what the local accounts preserve.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245708.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 18.77,
+    "text": "Gemini 18°46′",
+    "longitude": 78.768
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "North to Arlon and Cologne",
+   "stop": "Liesse-Notre-Dame, the Black Madonna",
+   "date": "1436-07-01",
+   "date_confidence": "1436; no month attested. The visit is reported as a waypoint on the road north to Arlon.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245738.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 17.37,
+    "text": "Cancer 17°22′",
+    "longitude": 107.367
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "North to Arlon and Cologne",
+   "stop": "Arlon, at the house of Elizabeth of Görlitz",
+   "date": "1436-07-20",
+   "date_confidence": "contradiction flagged and not resolved. A registration at Cologne on 6 August 1436 requires her to have reached Arlon before that date, while other summaries place her arrival at Arlon in October 1436.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245757.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 5.53,
+    "text": "Leo 5°32′",
+    "longitude": 125.526
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 22.19,
+    "text": "Libra 22°11′",
+    "longitude": 202.19
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 13.32,
+    "text": "Leo 13°19′",
+    "longitude": 133.324
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 17.42,
+    "text": "Virgo 17°25′",
+    "longitude": 167.419
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 19.37,
+    "text": "Leo 19°22′",
+    "longitude": 139.372
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 15.11,
+    "text": "Libra 15°07′",
+    "longitude": 195.115
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 25.34,
+    "text": "Pisces 25°21′",
+    "longitude": 355.342
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "North to Arlon and Cologne",
+   "stop": "Cologne, entered on the register as the Pucelle de France",
+   "date": "1436-08-06",
+   "date_confidence": "attested to the day in the Cologne record as relayed by montjoye.net",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245774.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.86,
+    "text": "Leo 21°52′",
+    "longitude": 141.861
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 29.82,
+    "text": "Taurus 29°49′",
+    "longitude": 59.821
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 12.76,
+    "text": "Virgo 12°46′",
+    "longitude": 162.764
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 6.37,
+    "text": "Libra 6°22′",
+    "longitude": 186.365
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 0.16,
+    "text": "Virgo 0°10′",
+    "longitude": 150.161
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 17.63,
+    "text": "Libra 17°38′",
+    "longitude": 197.632
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.53,
+    "text": "Pisces 24°32′",
+    "longitude": 354.533
+   }
+  },
+  {
+   "segment": "North to Arlon and Cologne",
+   "stop": "Cologne, the inquisitor Kalteysen",
+   "date": "1436-09-01",
+   "date_confidence": "the year is unsettled: one reconstruction places the process in 1436, another in 1437-38. No month is given by any source consulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245800.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 17.08,
+    "text": "Virgo 17°05′",
+    "longitude": 167.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "North to Arlon and Cologne",
+   "stop": "Cologne, excommunicate for contumacy",
+   "date": "1436-09-15",
+   "date_confidence": "inferred. The summons, the failure to appear, the sentence and the departure are all undated in the Formicarius.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245814.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "undated"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 0.81,
+    "text": "Libra 0°49′",
+    "longitude": 180.814
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Orléans Hears",
+   "stop": "Orléans, letters arrive from Jehanne la Pucelle",
+   "date": "1436-08-09",
+   "date_confidence": "attested to the day: jeudi, veille Saint-Lorens, in the town register",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245777.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.75,
+    "text": "Leo 24°45′",
+    "longitude": 144.755
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 7.73,
+    "text": "Cancer 7°44′",
+    "longitude": 97.732
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 17.24,
+    "text": "Virgo 17°14′",
+    "longitude": 167.238
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 9.63,
+    "text": "Libra 9°38′",
+    "longitude": 189.63
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 2.07,
+    "text": "Virgo 2°04′",
+    "longitude": 152.072
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 18.13,
+    "text": "Libra 18°08′",
+    "longitude": 198.127
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.35,
+    "text": "Pisces 24°21′",
+    "longitude": 354.352
+   }
+  },
+  {
+   "segment": "Orléans Hears",
+   "stop": "Orléans, her brother asks the town for money",
+   "date": "1436-08-21",
+   "date_confidence": "attested to the day: mardi 21 August 1436 in the town register",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245789.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 6.37,
+    "text": "Virgo 6°22′",
+    "longitude": 156.373
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 28.29,
+    "text": "Sagittarius 28°17′",
+    "longitude": 268.286
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 2.82,
+    "text": "Libra 2°49′",
+    "longitude": 182.824
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 22.38,
+    "text": "Libra 22°23′",
+    "longitude": 202.376
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 9.74,
+    "text": "Virgo 9°44′",
+    "longitude": 159.742
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 20.24,
+    "text": "Libra 20°14′",
+    "longitude": 200.241
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 23.54,
+    "text": "Pisces 23°32′",
+    "longitude": 353.54
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Orléans Hears",
+   "stop": "Arlon, inspected by the herald of Orléans",
+   "date": "1436-10-18",
+   "date_confidence": "attested; the town pays for a mission of six weeks, so the herald's arrival at Arlon is not fixed to this date",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245847.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 3.62,
+    "text": "Scorpio 3°37′",
+    "longitude": 213.616
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Madame des Armoises",
+   "stop": "Arlon, the marriage to Robert des Armoises",
+   "date": "1436-10-03",
+   "date_confidence": "contradiction flagged. One source gives 3 October 1436 for the wedding at Arlon; several others give 6 or 7 November 1436, but that is the date of the Haraucourt sale contract and not of the wedding. The Metz chronicle records the marriage with no month at all.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245832.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 18.63,
+    "text": "Libra 18°38′",
+    "longitude": 198.631
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Madame des Armoises",
+   "stop": "Metz country, the Haraucourt sale contract",
+   "date": "1436-11-07",
+   "date_confidence": "6 or 7 November 1436; sources differ by one day. The place of sealing is not stated in the printed text.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1436,
+   "jd_ut": 2245867.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not given) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 23.77,
+    "text": "Scorpio 23°46′",
+    "longitude": 233.771
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 28.65,
+    "text": "Libra 28°39′",
+    "longitude": 208.651
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 22.81,
+    "text": "Scorpio 22°49′",
+    "longitude": 232.815
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 0.71,
+    "text": "Sagittarius 0°43′",
+    "longitude": 240.712
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 0.95,
+    "text": "Scorpio 0°57′",
+    "longitude": 210.949
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 6.66,
+    "text": "Scorpio 6°40′",
+    "longitude": 216.663
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 18.98,
+    "text": "Pisces 18°59′",
+    "longitude": 348.975
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Madame des Armoises",
+   "stop": "Metz, the married years",
+   "date": "1437-01-01",
+   "date_confidence": "1436-37. No document fixes when the household settled or where exactly in the Messin country it stood.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1437,
+   "jd_ut": 2245922.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.75,
+    "text": "Capricornus 19°45′",
+    "longitude": 289.748
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Madame des Armoises",
+   "stop": "Château de Jaulny, the two sons",
+   "date": "1437-06-01",
+   "date_confidence": "the two sons are attested by her own confession of 1440, which gives neither dates nor a place. Jaulny as their birthplace is château tradition only and is not corroborated by any document consulted.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1437,
+   "jd_ut": 2246073.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 18.54,
+    "text": "Gemini 18°32′",
+    "longitude": 78.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Company, and Orléans Again",
+   "stop": "Le Mans, the company that was hers",
+   "date": "1439-01-01",
+   "date_confidence": "reconstruction. The events are undated in the remission, which places them about two years before June 1441; the identification of this Jehanne with the woman of Metz is called only 'not impossible' in the literature.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1439,
+   "jd_ut": 2246652.5,
+   "precision": "month",
+   "precision_triggers": [
+    "undated",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.25,
+    "text": "Capricornus 19°15′",
+    "longitude": 289.253
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Company, and Orléans Again",
+   "stop": "Orléans, wine on her arrival",
+   "date": "1439-07-18",
+   "date_confidence": "attested to the day in the town accounts",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1439,
+   "jd_ut": 2246850.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 2.92,
+    "text": "Leo 2°55′",
+    "longitude": 122.916
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 16.02,
+    "text": "Libra 16°01′",
+    "longitude": 196.018
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 22.7,
+    "text": "Leo 22°42′",
+    "longitude": 142.697
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 29.13,
+    "text": "Leo 29°08′",
+    "longitude": 149.133
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 20.85,
+    "text": "Taurus 20°51′",
+    "longitude": 50.854
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 20.34,
+    "text": "Capricornus 20°20′",
+    "longitude": 290.34
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 5.08,
+    "text": "Taurus 5°05′",
+    "longitude": 35.079
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Company, and Orléans Again",
+   "stop": "Orléans, the supper she leaves early",
+   "date": "1439-07-29",
+   "date_confidence": "the food and wine entries of 29 and 30 July are attested; the anecdote attached to them is not documented and rests on a single modern secondary account with no primary citation.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1439,
+   "jd_ut": 2246861.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.46,
+    "text": "Leo 13°28′",
+    "longitude": 133.464
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 22.03,
+    "text": "Pisces 22°02′",
+    "longitude": 352.032
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 16.97,
+    "text": "Leo 16°58′",
+    "longitude": 136.966
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 12.47,
+    "text": "Virgo 12°28′",
+    "longitude": 162.471
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 27.94,
+    "text": "Taurus 27°56′",
+    "longitude": 57.941
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 19.07,
+    "text": "Capricornus 19°04′",
+    "longitude": 289.066
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 5.41,
+    "text": "Taurus 5°24′",
+    "longitude": 35.408
+   }
+  },
+  {
+   "segment": "The Company, and Orléans Again",
+   "stop": "Orléans, two hundred and ten livres",
+   "date": "1439-08-01",
+   "date_confidence": "attested to the day: the sum was voted after deliberation of the town council and paid on 1 August 1439, at the farewell dinner. Some accounts wrongly give 29 July.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1439,
+   "jd_ut": 2246864.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 16.35,
+    "text": "Leo 16°21′",
+    "longitude": 136.348
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 4.42,
+    "text": "Taurus 4°25′",
+    "longitude": 34.417
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 14.46,
+    "text": "Leo 14°27′",
+    "longitude": 134.456
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 16.1,
+    "text": "Virgo 16°06′",
+    "longitude": 166.101
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 29.82,
+    "text": "Taurus 29°49′",
+    "longitude": 59.822
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 18.75,
+    "text": "Capricornus 18°45′",
+    "longitude": 288.755
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 5.46,
+    "text": "Taurus 5°28′",
+    "longitude": 35.461
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Company, and Orléans Again",
+   "stop": "Orléans, the last propine",
+   "date": "1439-09-04",
+   "date_confidence": "attested to the day in the town accounts",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1439,
+   "jd_ut": 2246898.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 19.31,
+    "text": "Virgo 19°18′",
+    "longitude": 169.307
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 28.69,
+    "text": "Cancer 28°41′",
+    "longitude": 118.69
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 12.7,
+    "text": "Virgo 12°42′",
+    "longitude": 162.703
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 26.9,
+    "text": "Libra 26°54′",
+    "longitude": 206.899
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 19.17,
+    "text": "Gemini 19°10′",
+    "longitude": 79.173
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 16.9,
+    "text": "Capricornus 16°54′",
+    "longitude": 286.902
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 4.96,
+    "text": "Taurus 4°58′",
+    "longitude": 34.962
+   }
+  },
+  {
+   "segment": "The Company, and Orléans Again",
+   "stop": "Tours, her letters carried to the king",
+   "date": "1439-09-27",
+   "date_confidence": "attested to the day in the accounts of Tours",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1439,
+   "jd_ut": 2246921.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 11.95,
+    "text": "Libra 11°57′",
+    "longitude": 191.951
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 4.98,
+    "text": "Gemini 4°59′",
+    "longitude": 64.982
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 22.56,
+    "text": "Libra 22°33′",
+    "longitude": 202.557
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 24.0,
+    "text": "Scorpio 24°00′",
+    "longitude": 234.0
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 29.29,
+    "text": "Gemini 29°17′",
+    "longitude": 89.287
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.7,
+    "text": "Capricornus 17°42′",
+    "longitude": 287.702
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 3.61,
+    "text": "Taurus 3°36′",
+    "longitude": 33.606
+   }
+  },
+  {
+   "segment": "The Unmasking",
+   "stop": "Orléans, the secret between two people",
+   "date": "1440-10-01",
+   "date_confidence": "place not established and pinned here provisionally. Pierre Sala gives no location; one reconstruction proposes Bourges or Orléans in the autumn of 1440. Sala collected the story from Guillaume Gouffier in 1480 and wrote it out about 1516, some eighty years after the events, and it is treated as legendary elaboration rather than record.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247291.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "legend",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.67,
+    "text": "Libra 16°40′",
+    "longitude": 196.672
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Unmasking",
+   "stop": "Paris, the marble table of the Palais",
+   "date": "1440-10-01",
+   "date_confidence": "autumn 1440. One source gives August 1440; another dates the amende honorable to September or October and explicitly denies August. No day is recorded anywhere.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247291.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 16.67,
+    "text": "Libra 16°40′",
+    "longitude": 196.672
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Unmasking",
+   "stop": "Paris, and then she went away",
+   "date": "1440-11-01",
+   "date_confidence": "inferred. The Journal closes its entry with this sentence and attaches no date to it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1440,
+   "jd_ut": 2247322.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 17.74,
+    "text": "Scorpio 17°44′",
+    "longitude": 227.736
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sermaize, Saumur, and the Silence",
+   "stop": "Sermaize, at table with the Voulton kin",
+   "date": "1449-01-01",
+   "date_confidence": "1449 by the deposition of Jehan le Montigueue, aged 70, taken in 1476; the curé of the same parish testified in the same inquest that she came twenty-four years earlier, which yields about 1452. The contradiction stands in the testimony itself.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1449,
+   "jd_ut": 2250305.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.84,
+    "text": "Capricornus 19°50′",
+    "longitude": 289.836
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sermaize, Saumur, and the Silence",
+   "stop": "Sermaize, the game against the curé",
+   "date": "1452-01-01",
+   "date_confidence": "about 1452. Simon Fauchard, curé of Sermaize, aged 53, testified in 1476 that she came twenty-four years before, and one summary states explicitly that he affirmed the year as 1452 and not 1449.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1452,
+   "jd_ut": 2251400.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.09,
+    "text": "Capricornus 19°06′",
+    "longitude": 289.094
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sermaize, Saumur, and the Silence",
+   "stop": "Saumur, three months in the prison of King René",
+   "date": "1456-11-01",
+   "date_confidence": "inferred. The remission of February 1457 says she had been held about three months, which places the arrest in the late autumn of 1456; no arrest record survives.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1456,
+   "jd_ut": 2253166.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 17.85,
+    "text": "Scorpio 17°51′",
+    "longitude": 227.855
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sermaize, Saumur, and the Silence",
+   "stop": "Saumur, the remission of King René",
+   "date": "1457-02-01",
+   "date_confidence": "February 1457; the day is not given in the sources consulted",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1457,
+   "jd_ut": 2253258.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 21.34,
+    "text": "Aquarius 21°20′",
+    "longitude": 321.335
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sermaize, Saumur, and the Silence",
+   "stop": "Anjou, the record closes",
+   "date": "1457-03-01",
+   "date_confidence": "reconstruction. The remission of February 1457 is the last document naming her; nothing establishes where she went, how long she lived, or where she died.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1457,
+   "jd_ut": 2253286.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 19.39,
+    "text": "Pisces 19°23′",
+    "longitude": 349.385
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tomb at Pulligny",
+   "stop": "Pulligny-sur-Madon, the tomb that claims her",
+   "date": "1450-01-01",
+   "date_confidence": "the stop is dated to Robert des Armoises's burial in 1450. Her own burial here is not attested. The plaque quoted was affixed in 1690 by the des Armoises family, two hundred and forty years later, and vanished about 1900; its wording is ambiguous as to whether the 1449 death date belongs to her or to Robert, and a death in 1449 is flatly contradicted by the Sermaize and Saumur records of 1452 and 1457.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1450,
+   "jd_ut": 2250670.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.59,
+    "text": "Capricornus 19°35′",
+    "longitude": 289.588
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 33,
+  "dated": 33,
+  "unparsed": 0,
+  "day": 12,
+  "month": 5,
+  "year": 16
+ },
+ "parse_failures": []
+}

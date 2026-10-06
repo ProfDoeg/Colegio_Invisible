@@ -1,0 +1,1597 @@
+{
+ "slug": "hesiod",
+ "traveler": "Hesiod of Ascra (Hesiodos)",
+ "title": "Ascra Under Helicon: the Shepherd Given a Voice and the Bones Carried to Orchomenus",
+ "years": "fl. c. 700 BC (conventional range c. 750-650 BC)",
+ "years_parsed": {
+  "first": -700,
+  "last": -650
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Aulis to Chalcis, the Only Voyage",
+  "stop": "Aulis, the one embarkation",
+  "date": "-0700-01-01",
+  "date_confidence": "The event is attested in Hesiod's own voice at Works and Days 646-662 but carries no date. The conventional c. 700 BCE is a modern estimate resting on the disputed identification of Amphidamas; it is used here as a pin, not as a finding.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": -699,
+  "jd_ut": 1465748.5,
+  "precision": "year",
+  "precision_triggers": [
+   "c.",
+   "convention",
+   "no month/day",
+   "disputed",
+   "estimated",
+   "modern",
+   "(soft-year) year range"
+  ],
+  "notes": [
+   "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 4.43,
+   "text": "Capricornus 4°26′",
+   "longitude": 274.425
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "fl. c. 700 BC (conventional range c. 750-650 BC)",
+  "first_year_parsed": -700
+ },
+ "stops": [
+  {
+   "segment": "The Crossing from Cyme",
+   "stop": "Cyme in Aeolis, the father takes ship",
+   "date": "-0750-01-01",
+   "date_confidence": "No date survives. Works and Days 633-640 gives the migration no year and sets it before the poem's present; the year here only opens the sequence. Hesiod's floruit is conventionally c. 700 BCE with a scholarly range of c. 750-650 BCE (Britannica), while Herodotus 2.53 places him four hundred years before his own time, which points to the mid-ninth century instead. The two estimates are left standing against each other.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -749,
+   "jd_ut": 1447485.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "sequencing",
+    "convention",
+    "no month/day",
+    "estimated",
+    "floruit",
+    "decade/century",
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.57,
+    "text": "Capricornus 3°34′",
+    "longitude": 273.566
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing from Cyme",
+   "stop": "Ascra, the hamlet good at no time",
+   "date": "-0745-01-01",
+   "date_confidence": "Undated. The settlement precedes the poem's present by an unstated interval; the year orders the segment only. Coordinates follow the Wikipedia site entry for Ascra (38.327032, 23.074249). Flagged: those coordinates sit roughly 22 km east of Wikipedia's own coordinates for Mount Helicon (38.35278, 22.82250), an inconsistency in the reference sources that this file records rather than resolves.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -744,
+   "jd_ut": 1449311.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering",
+    "approximation"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.35,
+    "text": "Capricornus 3°21′",
+    "longitude": 273.348
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Crossing from Cyme",
+   "stop": "Ascra, the oxen and the hired hands",
+   "date": "-0730-01-01",
+   "date_confidence": "Undated; the year orders the segment. Works and Days describes a working household in detail but supplies no year, no acreage, and no statement of what Hesiod himself owned. Direct textual fact about the world the poem depicts, not evidence of the poet's own station.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -729,
+   "jd_ut": 1454790.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "no month/day",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.71,
+    "text": "Capricornus 3°42′",
+    "longitude": 273.707
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Muses on Helicon",
+   "stop": "Mount Helicon, the lambs and the goddesses",
+   "date": "-0728-01-01",
+   "date_confidence": "Undated and not verifiable as biography. Theogony 22-34 is a first-person commissioning scene and is treated here as tradition rather than event; the research pool tagged the same episode both ways and the defensible tag is tradition. The text gives no age for him. Coordinates are Wikipedia's for Mount Helicon (38.35278, 22.82250); the exact pasture has no landmark.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -727,
+   "jd_ut": 1455521.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.23,
+    "text": "Capricornus 4°14′",
+    "longitude": 274.228
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Muses on Helicon",
+   "stop": "Mount Helicon, the staff of flowering laurel",
+   "date": "-0728-06-01",
+   "date_confidence": "Undated; same scene as the preceding stop, separated only to hold the textual problem. The Greek of Theogony 30 reads skeptron daphnes erithaleos ozon, and daphne is laurel. Flagged: the Evelyn-White translation used for the quotes in this file renders the same line as a shoot of sturdy olive, so the laurel reading rests on the Greek and on Pausanias 9.30.3, not on Evelyn-White.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -727,
+   "jd_ut": 1455672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 1.64,
+    "text": "Gemini 1°38′",
+    "longitude": 61.639
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Muses on Helicon",
+   "stop": "The Valley of the Muses, the sanctuary below the peak",
+   "date": "-0727-01-01",
+   "date_confidence": "Coordinates approximate: the exact ancient Mouseion within the Valley of the Muses near Thespiae could not be pinned to a landmark-level source in this pass. Flagged: Thespian administration of the sanctuary is standard scholarship but was not confirmed from the cited Wikipedia article on Thespiae, which describes instead a quinquennial festival of Eros, the Erotidia, held in the Helicon grove with contests in music and athletics.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -726,
+   "jd_ut": 1455886.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.98,
+    "text": "Capricornus 3°59′",
+    "longitude": 273.981
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Muses on Helicon",
+   "stop": "Ascra, the name that sends forth the voice",
+   "date": "-0726-01-01",
+   "date_confidence": "Interpretive, not biographical. The self-naming at Theogony 22 is attested in the text. The etymology is Gregory Nagy's published reading and could not be verified against a primary Nagy text in this pass; it is recorded as an attributed scholarly claim. The date only orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -725,
+   "jd_ut": 1456251.5,
+   "precision": "year",
+   "precision_triggers": [
+    "interpretive",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.73,
+    "text": "Capricornus 3°44′",
+    "longitude": 273.735
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quarrel with Perses",
+   "stop": "Ascra, the estate divided",
+   "date": "-0720-01-01",
+   "date_confidence": "Undated. Works and Days 27-41 gives no year, no sum, and no names for the judges, and no independent record survives. Tradition rather than established event: the historicity of Perses and of the dispute is unresolved, with three live scholarly readings, real grievance, stylized memory, or pure didactic frame.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -719,
+   "jd_ut": 1458443.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "no month/day",
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.28,
+    "text": "Capricornus 4°17′",
+    "longitude": 274.284
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quarrel with Perses",
+   "stop": "Ascra, the lords who swallow bribes",
+   "date": "-0719-01-01",
+   "date_confidence": "Undated; the year orders the segment. The quoted words are verbatim in the Evelyn-White text, which prints the block as lines 212-224; the sentence itself falls at roughly 220-224. No local ruler of Ascra or Thespiae is named anywhere in the poem or in any other source.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -718,
+   "jd_ut": 1458808.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering",
+    "approximation",
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.04,
+    "text": "Capricornus 4°02′",
+    "longitude": 274.038
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quarrel with Perses",
+   "stop": "Ascra, Perses addressed by name",
+   "date": "-0718-01-01",
+   "date_confidence": "Undated; the year orders the segment. The address is verbatim in the text. Whether the addressee is a living brother is the same unresolved question flagged at the inheritance stop.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -717,
+   "jd_ut": 1459173.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "disputed",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.79,
+    "text": "Capricornus 3°47′",
+    "longitude": 273.791
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quarrel with Perses",
+   "stop": "Ascra, the race of iron",
+   "date": "-0717-01-01",
+   "date_confidence": "Undated. The Myth of the Ages is a mythic and rhetorical frame, not a datable description of conditions; it does, however, place the poem's own voice in a self-described era of broken kinship and broken oath. The year orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -716,
+   "jd_ut": 1459538.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.54,
+    "text": "Capricornus 3°33′",
+    "longitude": 273.545
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quarrel with Perses",
+   "stop": "Ascra, the year laid out by stars",
+   "date": "-0716-01-01",
+   "date_confidence": "Undated; the year orders the segment. Flagged: the authenticity of the closing Days section has been questioned since antiquity and by modern criticism as a later addition, and this file does not decide it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -715,
+   "jd_ut": 1459904.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.31,
+    "text": "Capricornus 4°19′",
+    "longitude": 274.312
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Poems Made Under the Mountain",
+   "stop": "Ascra, the Theogony begun",
+   "date": "-0715-01-01",
+   "date_confidence": "Undated. Composition is understood as oral and performative development rather than a single act of publication; the year orders the segment. The Theogony is generally taken as the earlier of the two core poems, and its surviving text runs 1,022 lines, with the ending and some passages suspected of later interpolation.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -714,
+   "jd_ut": 1460269.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.07,
+    "text": "Capricornus 4°04′",
+    "longitude": 274.066
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Poems Made Under the Mountain",
+   "stop": "Ascra, Chaos and the birth of the abstractions",
+   "date": "-0714-01-01",
+   "date_confidence": "Poem content, not chronology. The date orders the segment only; the material has no location in the world and no year.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -713,
+   "jd_ut": 1460634.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.82,
+    "text": "Capricornus 3°49′",
+    "longitude": 273.819
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Poems Made Under the Mountain",
+   "stop": "Ascra, Cronus and the stone in swaddling-clothes",
+   "date": "-0713-01-01",
+   "date_confidence": "Poem content, not chronology; the date orders the segment. The succession sequence is textually secure in the Theogony.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -712,
+   "jd_ut": 1460999.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.57,
+    "text": "Capricornus 3°34′",
+    "longitude": 273.573
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Poems Made Under the Mountain",
+   "stop": "Ascra, Zeus, the Titans, and Typhoeus",
+   "date": "-0712-01-01",
+   "date_confidence": "Poem content, not chronology; the date orders the segment. Flagged as a modern interpretive frame rather than a biographical fact: scholars have compared this succession sequence to the Hittite-Hurrian Kumarbi cycle and to Enuma Elish, while recent work cautions against assuming direct literary borrowing and favours diffuse transmission over generations.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -711,
+   "jd_ut": 1461365.5,
+   "precision": "year",
+   "precision_triggers": [
+    "interpretive",
+    "sequencing",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.34,
+    "text": "Capricornus 4°20′",
+    "longitude": 274.34
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Poems Made Under the Mountain",
+   "stop": "Ascra, Prometheus and the woman made of earth",
+   "date": "-0711-01-01",
+   "date_confidence": "Poem content, not chronology; the date orders the segment. The marriage maxims are textual fact about the poem and say nothing about Hesiod's own household: no wife and no child of his is documented anywhere in the tradition.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -710,
+   "jd_ut": 1461730.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.09,
+    "text": "Capricornus 4°06′",
+    "longitude": 274.094
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aulis to Chalcis, the Only Voyage",
+   "stop": "Aulis, the one embarkation",
+   "date": "-0700-01-01",
+   "date_confidence": "The event is attested in Hesiod's own voice at Works and Days 646-662 but carries no date. The conventional c. 700 BCE is a modern estimate resting on the disputed identification of Amphidamas; it is used here as a pin, not as a finding.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -699,
+   "jd_ut": 1465748.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "convention",
+    "no month/day",
+    "disputed",
+    "estimated",
+    "modern",
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.43,
+    "text": "Capricornus 4°26′",
+    "longitude": 274.425
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aulis to Chalcis, the Only Voyage",
+   "stop": "Chalcis, the funeral games of Amphidamas",
+   "date": "-0700-06-01",
+   "date_confidence": "Attested in the poet's own voice, undated. Amphidamas cannot be securely identified or dated. Flagged contradiction: the contest has been proposed at c. 730-705 BCE and connected to the Lelantine War between Chalcis and Eretria, while the war itself is conventionally placed c. 710-650 BCE, which widens rather than closes the circularity of the argument.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -699,
+   "jd_ut": 1465899.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "undated",
+    "convention",
+    "disputed",
+    "placed (the date)",
+    "(soft-year) year range",
+    "(soft) placed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 1.85,
+    "text": "Gemini 1°51′",
+    "longitude": 61.854
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Aulis to Chalcis, the Only Voyage",
+   "stop": "The Valley of the Muses, the tripod dedicated",
+   "date": "-0699-01-01",
+   "date_confidence": "The dedication is attested in Hesiod's own voice at Works and Days 656-659 and is undated. Coordinates approximate, as at the earlier sanctuary stop. What Pausanias was shown in the second century CE cannot be an authenticated eighth or seventh century object.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -698,
+   "jd_ut": 1466113.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "undated",
+    "decade/century",
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.18,
+    "text": "Capricornus 4°11′",
+    "longitude": 274.179
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracle and the Roads West",
+   "stop": "Delphi, the god names Nemea",
+   "date": "-0698-01-01",
+   "date_confidence": "Tradition, undated. The oracle narrative survives in the Contest of Homer and Hesiod and in later lives; Thucydides 3.96, the earliest external notice, mentions an oracle that he should suffer death in Nemea but supplies no Delphic scene and no misunderstanding. Coordinates inherit the atlas pin for Delphi.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -697,
+   "jd_ut": 1466478.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.93,
+    "text": "Capricornus 3°56′",
+    "longitude": 273.932
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracle and the Roads West",
+   "stop": "Delphi, barred from the singing contest",
+   "date": "-0697-01-01",
+   "date_confidence": "Tradition, undated, and unconfirmed at first hand. The claim rests on Pausanias 10.7.3 as characterized in secondary classical reference material; direct retrieval of that passage failed in this pass against Perseus, sacred-texts, and topostext.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -696,
+   "jd_ut": 1466843.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.69,
+    "text": "Capricornus 3°41′",
+    "longitude": 273.686
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracle and the Roads West",
+   "stop": "Nemea in the Argolid, the place avoided",
+   "date": "-0696-01-01",
+   "date_confidence": "Tradition, undated, and negative: no source places Hesiod inside this valley. The stop marks the sanctuary the oracle was taken to mean. Wikipedia's article on Nemea does not mention Hesiod; the connection comes entirely through the oracle-pun tradition.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -695,
+   "jd_ut": 1467209.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "(soft) no source"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.45,
+    "text": "Capricornus 4°27′",
+    "longitude": 274.453
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracle and the Roads West",
+   "stop": "Acarnania, where they claimed to have taught him divination",
+   "date": "-0695-01-01",
+   "date_confidence": "Tradition, undated, and geographically unsupported: no itinerary or contemporaneous evidence places Hesiod in Acarnania, and no Acarnanian town is named in the surviving version. Coordinates mark the general region only. Reported via Pausanias as summarized in the research pool; the primary text was not fetched in this pass.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -694,
+   "jd_ut": 1467574.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.21,
+    "text": "Capricornus 4°12′",
+    "longitude": 274.207
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oenoe in Locris",
+   "stop": "Oenoe in western Locris, the long lodging",
+   "date": "-0690-01-01",
+   "date_confidence": "Tradition, undated. The Oenoe stay appears in the Contest of Homer and Hesiod and in Tzetzes's Life. Coordinates are provisional: the exact site of Oenoe in Ozolian Locris could not be located to landmark precision in this pass.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -689,
+   "jd_ut": 1469400.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.99,
+    "text": "Capricornus 3°59′",
+    "longitude": 273.988
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oenoe in Locris",
+   "stop": "The host's house, the accusation",
+   "date": "-0689-01-01",
+   "date_confidence": "Tradition, undated, and internally contradictory. Plutarch's version explicitly exculpates him; other versions make him the seducer; the Contest names the seducer as a travelling companion called Demodes and says the girl afterwards hanged herself. One late strand makes her the mother of Stesichorus, which the conventional chronology will not carry. Thucydides, the earliest notice, mentions no sexual charge at all.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -688,
+   "jd_ut": 1469765.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "convention",
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.74,
+    "text": "Capricornus 3°45′",
+    "longitude": 273.742
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oenoe in Locris",
+   "stop": "The sanctuary of Nemean Zeus, the oracle keeps its word",
+   "date": "-0688-01-01",
+   "date_confidence": "The murder tradition at a named sanctuary of Nemean Zeus in Locris is attested by Thucydides 3.96, whose narrated events belong to Demosthenes' Aetolian campaign of 426 BCE. Culprit, motive, and circumstances are all later accretion and are tagged as tradition. The sanctuary's precise site is not settled by any landmark-precision source found here; coordinates are approximate for the Locris-Aetolia border zone.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -687,
+   "jd_ut": 1470131.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.51,
+    "text": "Capricornus 4°31′",
+    "longitude": 274.51
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Oenoe in Locris",
+   "stop": "The mouth of the Daphnus, the rock called Troilus",
+   "date": "-0688-02-01",
+   "date_confidence": "Tradition, undated, and geographically inconsistent. A river Daphnus is elsewhere attested as an East Locrian, Opuntian toponym, while Plutarch's narrative otherwise places these events in the west near Molycreia and Rhium. The contradiction is recorded, not resolved; coordinates follow Plutarch's own narrative placement.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -687,
+   "jd_ut": 1470162.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 5.72,
+    "text": "Aquarius 5°43′",
+    "longitude": 305.725
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sea Brings Him Back",
+   "stop": "Rhium, the dolphins come in",
+   "date": "-0688-03-01",
+   "date_confidence": "Tradition, undated. A recognizable Greek legendary motif, attached also to Arion; no physical or contemporary evidence supports it. Coordinates from Wikipedia, 'Rhium'.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -687,
+   "jd_ut": 1470190.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "legend"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 3.46,
+    "text": "Pisces 3°28′",
+    "longitude": 333.461
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sea Brings Him Back",
+   "stop": "Molycreia, the body on the shore",
+   "date": "-0688-04-01",
+   "date_confidence": "Tradition, undated. Flagged: the Wikipedia article on Molycreia does not itself mention Hesiod; the connection is drawn from Plutarch and from the Pausanias tradition reported in the research pool, not confirmed against that article.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -687,
+   "jd_ut": 1470221.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 3.64,
+    "text": "Aries 3°38′",
+    "longitude": 3.639
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sea Brings Him Back",
+   "stop": "The Locrian coast, milk poured out with honey",
+   "date": "-0688-05-01",
+   "date_confidence": "Tradition, undated, and Hellenistic in origin: a funerary epigram by Alcaeus of Messene, Greek Anthology 7.55, cited in the research pool's bibliography but not verified against the epigram's own text in this pass. Poetic commemoration, not an independent report of the death.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -687,
+   "jd_ut": 1470251.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 2.42,
+    "text": "Taurus 2°25′",
+    "longitude": 32.422
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sea Brings Him Back",
+   "stop": "Naupactian territory, the first grave",
+   "date": "-0687-01-01",
+   "date_confidence": "Tradition, undated. Flagged: the Wikipedia article on Naupactus contains no mention of Hesiod, his tomb, or a sanctuary of Nemean Zeus; the association rests on the Pausanias tradition reported in the research pool and was not verified against Pausanias's own text in this pass. Thucydides says he was buried at the precinct where he was killed, which is a different placement again.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -686,
+   "jd_ut": 1470496.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.26,
+    "text": "Capricornus 4°16′",
+    "longitude": 274.263
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bones and the Name",
+   "stop": "Ascra, one tower left standing",
+   "date": "-0650-01-01",
+   "date_confidence": "Flagged as disputed. Wikipedia dates Ascra's destruction by Thespiae to 700-650 BCE, which sits awkwardly inside Hesiod's own conventional lifetime and is a bare assertion in that source; the single-tower observation is Pausanias's, in the second century CE. Wikipedia's stated distance of seven and a half miles contradicts its own coordinates, which give about 7.6 km, matching Strabo's forty stadia.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -649,
+   "jd_ut": 1484010.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "disputed",
+    "decade/century",
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.27,
+    "text": "Capricornus 4°16′",
+    "longitude": 274.27
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bones and the Name",
+   "stop": "The rock cleft in Naupactian territory, the crow",
+   "date": "-0620-01-01",
+   "date_confidence": "Tradition, undated. The date orders the segment only and carries no authority. The relic-recovery narrative comes through Pausanias 9.38 and Aristotle's lost Constitution of the Orchomenians, which survives only in quotation; no excavation has tested it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -619,
+   "jd_ut": 1494968.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.99,
+    "text": "Capricornus 4°59′",
+    "longitude": 274.989
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bones and the Name",
+   "stop": "Orchomenus, laid by the tomb of Minyas",
+   "date": "-0615-01-01",
+   "date_confidence": "Tradition, undated. Flagged: no source dates the Chersias epigram to a year; it is attributed to the seventh century BCE and Pausanias says the poem no longer survived in his own day. The date here orders the segment only. This burial conflicts irreconcilably with the Locrian death-and-burial tradition, and antiquity never resolved the conflict.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -614,
+   "jd_ut": 1496794.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "ordering",
+    "decade/century",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.77,
+    "text": "Capricornus 4°46′",
+    "longitude": 274.771
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bones and the Name",
+   "stop": "Boeotia, the women in the catalogue",
+   "date": "-0600-01-01",
+   "date_confidence": "Undated and disputed. The Catalogue of Women circulated as Hesiodic but is now generally regarded as later and composite; its date and authorship relative to the core poems remain debated. The year orders the segment only. Strabo's citation is verbatim from Geography 1.2.35, trans. H. L. Jones.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -599,
+   "jd_ut": 1502273.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "disputed",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.13,
+    "text": "Capricornus 5°08′",
+    "longitude": 275.13
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bones and the Name",
+   "stop": "Boeotia, the Shield and the poems that gather to a name",
+   "date": "-0575-01-01",
+   "date_confidence": "Undated and disputed. The Shield of Heracles is generally dated from the end of the seventh to the middle of the sixth century BCE, so the year here is a placement within that range rather than a finding. Aristophanes of Byzantium suspected the Shield spurious and athetized the Precepts of Chiron (Quintilian 1.1.15); Athenaeus gave the Aegimius to Cercops of Miletus; Plutarch reported the Marriage of Ceyx as interpolated.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -574,
+   "jd_ut": 1511404.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "disputed",
+    "decade/century"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.05,
+    "text": "Capricornus 5°03′",
+    "longitude": 275.053
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 37,
+  "dated": 37,
+  "unparsed": 0,
+  "day": 0,
+  "month": 0,
+  "year": 37
+ },
+ "parse_failures": []
+}

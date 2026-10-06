@@ -1,0 +1,1917 @@
+{
+ "slug": "thomas_edison",
+ "traveler": "Thomas Alva Edison",
+ "title": "The Invention Factory: Milan to Menlo Park, the Currents, and the Grave Behind Glenmont",
+ "years": "1847-1931",
+ "years_parsed": {
+  "first": 1847,
+  "last": 1931
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Boy on the Grand Trunk Line",
+  "stop": "Milan, Ohio, the house above the Huron",
+  "date": "1847-02-11",
+  "date_confidence": "attested. The chronology and geography lenses give coordinates about 190 m apart (41.3006 and 41.2989, same longitude); the geography value is used because that lens is anchored on the birthplace house specifically. Nothing in the pool identifies which value is the building.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1847,
+  "jd_ut": 2395703.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Aquarius",
+   "degree": 21.7,
+   "text": "Aquarius 21°42′",
+   "longitude": 321.7
+  },
+  "moon": {
+   "sign": "Sagittarius",
+   "degree": 20.91,
+   "text": "Sagittarius 20°54′",
+   "longitude": 260.907
+  },
+  "mercury": {
+   "sign": "Aquarius",
+   "degree": 17.4,
+   "text": "Aquarius 17°24′",
+   "longitude": 317.395
+  },
+  "venus": {
+   "sign": "Pisces",
+   "degree": 5.29,
+   "text": "Pisces 5°18′",
+   "longitude": 335.292
+  },
+  "mars": {
+   "sign": "Capricornus",
+   "degree": 0.33,
+   "text": "Capricornus 0°20′",
+   "longitude": 270.333
+  },
+  "jupiter": {
+   "sign": "Gemini",
+   "degree": 6.77,
+   "text": "Gemini 6°46′",
+   "longitude": 66.775
+  },
+  "saturn": {
+   "sign": "Pisces",
+   "degree": 1.82,
+   "text": "Pisces 1°49′",
+   "longitude": 331.817
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1847-1931",
+  "first_year_parsed": 1847
+ },
+ "stops": [
+  {
+   "segment": "The Boy on the Grand Trunk Line",
+   "stop": "Milan, Ohio, the house above the Huron",
+   "date": "1847-02-11",
+   "date_confidence": "attested. The chronology and geography lenses give coordinates about 190 m apart (41.3006 and 41.2989, same longitude); the geography value is used because that lens is anchored on the birthplace house specifically. Nothing in the pool identifies which value is the building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1847,
+   "jd_ut": 2395703.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 21.7,
+    "text": "Aquarius 21°42′",
+    "longitude": 321.7
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 20.91,
+    "text": "Sagittarius 20°54′",
+    "longitude": 260.907
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 17.4,
+    "text": "Aquarius 17°24′",
+    "longitude": 317.395
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 5.29,
+    "text": "Pisces 5°18′",
+    "longitude": 335.292
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 0.33,
+    "text": "Capricornus 0°20′",
+    "longitude": 270.333
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 6.77,
+    "text": "Gemini 6°46′",
+    "longitude": 66.775
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 1.82,
+    "text": "Pisces 1°49′",
+    "longitude": 331.817
+   }
+  },
+  {
+   "segment": "The Boy on the Grand Trunk Line",
+   "stop": "Port Huron, the family carried north",
+   "date": "1854-01-01",
+   "date_confidence": "attested to the year; no month in any source reached, defaulted to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1854,
+   "jd_ut": 2398219.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.33,
+    "text": "Capricornus 10°20′",
+    "longitude": 280.326
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Boy on the Grand Trunk Line",
+   "stop": "Detroit, the laboratory in the baggage car",
+   "date": "1860-01-01",
+   "date_confidence": "attested for the period 1859-1863; the pool gives no single date, defaulted to the start of 1860, when he is about thirteen.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400410.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.86
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Boy on the Grand Trunk Line",
+   "stop": "Mount Clemens, the child on the track",
+   "date": "1862-01-01",
+   "date_confidence": "reconstruction. The story comes from Edison and the biographers date it differently: geography gives 1862, chronology gives 1863. Geography tagged it attested, which the verification pass overruled; its own source line concedes the date is disputed. No contemporary record fixes any part of it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401141.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.38,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.384
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tramp Operator",
+   "stop": "Stratford, Ontario, the signal six",
+   "date": "1863-01-01",
+   "date_confidence": "reconstruction. Geography dates the posting 1862-1863 and tagged it attested; the verification pass demoted it. The hourly signal, the rigged sender, and the near collision all descend from Edison's own retelling decades later, with no contemporary documentation. Biographers repeat it as he told it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401506.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.137
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tramp Operator",
+   "stop": "Louisville, the acid through the floor",
+   "date": "1866-01-01",
+   "date_confidence": "attested for the period 1866-1867; the pool gives no month, defaulted to January 1866.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1866,
+   "jd_ut": 2402602.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.414
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tramp Operator",
+   "stop": "Boston, the shop on Court Street",
+   "date": "1868-01-01",
+   "date_confidence": "attested for the period 1868-1869; the arrival month is not in the pool, defaulted to January. The patent grant date of 1 June 1869 is attested exactly and is given in the campa.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403332.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.92,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.919
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Broad Street and the Ward Street Shops",
+   "stop": "New York, the transmitter that failed at 42 Broad Street",
+   "date": "1869-01-01",
+   "date_confidence": "attested to the year; no month in the pool, defaulted to January. The founding of the firm with Franklin Leonard Pope is separately attested to October 1869 and is given in the campa.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403698.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.69,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.691
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Broad Street and the Ward Street Shops",
+   "stop": "Newark, the Ward Street shops",
+   "date": "1871-01-01",
+   "date_confidence": "attested for the period 1870-1875; the pool gives no month for the opening, defaulted to January 1871. The marriage date of 25 December 1871 is attested exactly and is given in the campa.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404428.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Broad Street and the Ward Street Shops",
+   "stop": "London, the Central Telegraph Office",
+   "date": "1873-01-01",
+   "date_confidence": "attested to the year; no month in the pool, defaulted to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.72,
+    "text": "Capricornus 10°43′",
+    "longitude": 280.72
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Broad Street and the Ward Street Shops",
+   "stop": "Newark, the quadruplex sold",
+   "date": "1874-01-01",
+   "date_confidence": "attested to the year; no month in the pool, defaulted to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405524.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.473
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Menlo Park: the Invention Factory",
+   "stop": "Menlo Park, the laboratory in the fields",
+   "date": "1876-01-01",
+   "date_confidence": "attested to the year; no month in the pool, defaulted to January. Coordinate corrected: the chronology lens gave 40.5576, -74.3396 and the geography lens 40.5701, -74.4149, about 6.4 km apart. The documented site, marked by the Edison Memorial Tower at 37 Christie St, is 40.5631, -74.3394, used here and at every later Menlo Park stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1876,
+   "jd_ut": 2406254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.98,
+    "text": "Capricornus 9°59′",
+    "longitude": 279.978
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Menlo Park: the Invention Factory",
+   "stop": "Menlo Park, the tinfoil phonograph",
+   "date": "1877-11-01",
+   "date_confidence": "attested to November 1877; no day in the pool, defaulted to the first.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406924.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.7,
+    "text": "Scorpio 8°42′",
+    "longitude": 218.699
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Menlo Park: the Invention Factory",
+   "stop": "New York, the office of the Scientific American",
+   "date": "1877-12-07",
+   "date_confidence": "attested to the day by the journal itself. The coordinate is a placeholder: the corpus's canonical New York pin is used because the office address for December 1877 is not in the pool with a coordinate. Geography wrongly placed this demonstration at the Menlo Park laboratory; the journal's own text puts it in its New York office.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406960.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (placeholder) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 15.05,
+    "text": "Sagittarius 15°03′",
+    "longitude": 255.045
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.959
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 27.77,
+    "text": "Sagittarius 27°46′",
+    "longitude": 267.766
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 2.25,
+    "text": "Aquarius 2°15′",
+    "longitude": 302.247
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 28.18,
+    "text": "Pisces 28°11′",
+    "longitude": 358.181
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.49,
+    "text": "Capricornus 8°29′",
+    "longitude": 278.49
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 13.62,
+    "text": "Pisces 13°37′",
+    "longitude": 343.617
+   }
+  },
+  {
+   "segment": "Menlo Park: the Invention Factory",
+   "stop": "Washington, the phonograph before President Hayes",
+   "date": "1878-04-18",
+   "date_confidence": "attested to the day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407092.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 27.82,
+    "text": "Aries 27°49′",
+    "longitude": 27.823
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 8.29,
+    "text": "Scorpio 8°17′",
+    "longitude": 218.292
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 17.26,
+    "text": "Taurus 17°16′",
+    "longitude": 47.261
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 12.57,
+    "text": "Pisces 12°34′",
+    "longitude": 342.568
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 18.49,
+    "text": "Gemini 18°30′",
+    "longitude": 78.494
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 5.12,
+    "text": "Aquarius 5°07′",
+    "longitude": 305.119
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 26.96,
+    "text": "Pisces 26°57′",
+    "longitude": 356.958
+   }
+  },
+  {
+   "segment": "Menlo Park: the Invention Factory",
+   "stop": "New York, Drexel, Morgan and Company at 23 Wall Street",
+   "date": "1878-11-01",
+   "date_confidence": "the year is attested; the pool gives no month. November is the conventional incorporation date of the Edison Electric Light Company and is carried here as reconstruction, not as an attested date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407289.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "no month/day",
+    "to the year",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.46,
+    "text": "Scorpio 8°27′",
+    "longitude": 218.457
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Menlo Park: the Invention Factory",
+   "stop": "Menlo Park, the carbonized filament",
+   "date": "1879-10-21",
+   "date_confidence": "the date is the canonical one and is carried, but geography tags the whole breakthrough as reconstruction: Israel (1998) treats the single clean date as a commemorative construction popularized decades later for Light's Golden Jubilee, and the laboratory notebooks show incremental tests through the autumn of 1879. The patent filing of 4 November 1879 and the grant of 27 January 1880 are attested exactly.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407643.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 27.23,
+    "text": "Libra 27°14′",
+    "longitude": 207.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wires Laid",
+   "stop": "New York, 65 Fifth Avenue",
+   "date": "1881-01-01",
+   "date_confidence": "attested to the year; no month in the pool, defaulted to January. The Edison Illuminating Company's charter date of 17 December 1880 is attested exactly and is given in the campa.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408081.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.78,
+    "text": "Capricornus 10°47′",
+    "longitude": 280.779
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wires Laid",
+   "stop": "London, the Holborn Viaduct station",
+   "date": "1882-01-01",
+   "date_confidence": "attested to January 1882; no day in the pool, defaulted to the first.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408446.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.532
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wires Laid",
+   "stop": "New York, the banker's house on Madison Avenue",
+   "date": "1882-06-01",
+   "date_confidence": "the year is attested; the month is not in the pool and June is carried as reconstruction. The two lenses give coordinates about 300 m apart (geography 40.7488, -73.9822; afterlife 40.7484, -73.9857); the geography value is used and the disagreement is not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408597.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "disputed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.36,
+    "text": "Gemini 10°22′",
+    "longitude": 70.365
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wires Laid",
+   "stop": "New York, Pearl Street Station",
+   "date": "1882-09-04",
+   "date_confidence": "attested to the day. Customer figures corrected: the chronology lens gave 946 customers at opening, which matches no documented figure; geography independently gave roughly 85, which is close to the documented 82. Coordinate corrected from both lenses to the documented 40.7078, -74.0047.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408692.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 11.33,
+    "text": "Virgo 11°20′",
+    "longitude": 161.332
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War of the Currents",
+   "stop": "New York, the Goerck Street works and the Serb with Batchelor's letter",
+   "date": "1884-06-01",
+   "date_confidence": "attested to June 1884 for the landing; no day for the hiring, defaulted to the first. The resignation is attested to December 1884.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409328.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.86,
+    "text": "Gemini 10°52′",
+    "longitude": 70.859
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War of the Currents",
+   "stop": "Schenectady, the works moved to the canal",
+   "date": "1886-12-01",
+   "date_confidence": "the year is attested; no month in the pool, December carried as reconstruction so that the move sits after the Akron marriage of February 1886. The quotation carried here is dated November 1886.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2410241.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.77,
+    "text": "Sagittarius 8°46′",
+    "longitude": 248.767
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War of the Currents",
+   "stop": "West Orange, the animals and the chair",
+   "date": "1888-12-05",
+   "date_confidence": "attested to the day. Year corrected: the chronology lens dated the Brown campaign 1887, but every documented event in it falls in 1888, the Post letter on 5 June, the Columbia College dog on 30 July, a second on 3 August, the horse and calf at West Orange on 5 December.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410976.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 13.35,
+    "text": "Sagittarius 13°21′",
+    "longitude": 253.349
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 5.67,
+    "text": "Capricornus 5°40′",
+    "longitude": 275.669
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 0.41,
+    "text": "Sagittarius 0°25′",
+    "longitude": 240.409
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 19.96,
+    "text": "Capricornus 19°57′",
+    "longitude": 289.958
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 2.27,
+    "text": "Aquarius 2°16′",
+    "longitude": 302.267
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 16.52,
+    "text": "Sagittarius 16°31′",
+    "longitude": 256.522
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 20.42,
+    "text": "Leo 20°25′",
+    "longitude": 140.419
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The War of the Currents",
+   "stop": "New York, the name struck off the company",
+   "date": "1892-04-01",
+   "date_confidence": "the year is attested; the pool gives no month, April carried as reconstruction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412189.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.74,
+    "text": "Aries 11°45′",
+    "longitude": 11.744
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War of the Currents",
+   "stop": "Chicago, the White City lit by the other current",
+   "date": "1893-05-01",
+   "date_confidence": "attested for the fair, which opened 1 May 1893. Whether Edison himself walked the grounds is not established by anything in the research pool and is not asserted. Coordinate inherited byte-identical from nikola_tesla.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412584.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not established) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.83,
+    "text": "Taurus 10°50′",
+    "longitude": 40.832
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 11.1,
+    "text": "Scorpio 11°06′",
+    "longitude": 221.103
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 14.14,
+    "text": "Aries 14°08′",
+    "longitude": 14.14
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 10.46,
+    "text": "Taurus 10°28′",
+    "longitude": 40.465
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 21.58,
+    "text": "Gemini 21°35′",
+    "longitude": 81.585
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 8.62,
+    "text": "Taurus 8°37′",
+    "longitude": 38.622
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 7.32,
+    "text": "Libra 7°19′",
+    "longitude": 187.318
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Glenmont and the Second Laboratory",
+   "stop": "Menlo Park, the death of Mary Stilwell",
+   "date": "1884-08-09",
+   "date_confidence": "attested to the day. Place corrected: the chronology lens hedged the place as 'Menlo Park or New York' and then attached Newark's coordinate, which matches neither; the verification pass places the death at the Menlo Park house.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409397.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 16.76,
+    "text": "Leo 16°46′",
+    "longitude": 136.759
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 11.39,
+    "text": "Pisces 11°23′",
+    "longitude": 341.386
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 10.04,
+    "text": "Virgo 10°02′",
+    "longitude": 160.038
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 12.51,
+    "text": "Cancer 12°31′",
+    "longitude": 102.51
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 7.46,
+    "text": "Libra 7°28′",
+    "longitude": 187.465
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 15.83,
+    "text": "Leo 15°50′",
+    "longitude": 135.828
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 21.3,
+    "text": "Gemini 21°18′",
+    "longitude": 81.295
+   }
+  },
+  {
+   "segment": "Glenmont and the Second Laboratory",
+   "stop": "Fort Myers, the land on the Caloosahatchee",
+   "date": "1885-01-01",
+   "date_confidence": "the estate's own history dates the first visit and the purchase to 1885 and the completed house to 1886; the geography lens dated the purchase 1886, which the verification pass corrected. No month is documented, defaulted to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409542.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.809
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Glenmont and the Second Laboratory",
+   "stop": "West Orange, Glenmont bought before the marriage",
+   "date": "1886-01-01",
+   "date_confidence": "attested to the year; no month in the pool, January carried so that the purchase precedes the February wedding. Coordinate corrected: chronology gave 40.7987, -74.2391, about 1.4 km north in generic West Orange, and the afterlife lens gave 40.7855, -74.2313, about 790 m east; the documented Glenmont is 40.7861, -74.2406.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409907.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.561
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Glenmont and the Second Laboratory",
+   "stop": "Akron, Oak Place and Mina Miller",
+   "date": "1886-02-24",
+   "date_confidence": "attested to the day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409961.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 5.35,
+    "text": "Pisces 5°21′",
+    "longitude": 335.351
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 15.0,
+    "text": "Scorpio 15°00′",
+    "longitude": 225.003
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 4.8,
+    "text": "Pisces 4°48′",
+    "longitude": 334.797
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 27.0,
+    "text": "Aquarius 27°00′",
+    "longitude": 327.002
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 19.84,
+    "text": "Virgo 19°50′",
+    "longitude": 169.839
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 4.16,
+    "text": "Libra 4°10′",
+    "longitude": 184.163
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.46,
+    "text": "Cancer 1°27′",
+    "longitude": 91.457
+   }
+  },
+  {
+   "segment": "Glenmont and the Second Laboratory",
+   "stop": "West Orange, the laboratory ten times larger",
+   "date": "1887-11-01",
+   "date_confidence": "attested to November 1887; no day in the pool, defaulted to the first. Coordinate corrected from the geography lens's 40.7889, -74.2379, about 700 m off, to the documented 40.7836, -74.2336.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410576.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.27,
+    "text": "Scorpio 8°16′",
+    "longitude": 218.275
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Glenmont and the Second Laboratory",
+   "stop": "Paris, the Exposition Universelle on the Champ de Mars",
+   "date": "1889-08-01",
+   "date_confidence": "attested to August 1889; no day in the pool, defaulted to the first. The interlock lens suggested collapsing this to the corpus's canonical Paris pin, 48.8566, 2.3522, but that was tagged as reconstruction and is not done: his attested location is the Champ de Mars.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411215.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.89,
+    "text": "Leo 8°54′",
+    "longitude": 128.894
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Glenmont and the Second Laboratory",
+   "stop": "West Orange, the Black Maria",
+   "date": "1893-01-01",
+   "date_confidence": "attested to the year; no month in the pool, defaulted to January. Coordinate corrected from the geography lens's 40.7895, -74.2385, about 700 m off, to the documented 40.7842, -74.2336.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chemist at Fifty",
+   "stop": "West Orange, the fluoroscope and Clarence Dally",
+   "date": "1896-01-01",
+   "date_confidence": "attested to the year; no month in the pool, defaulted to January. Dates disentangled: the chronology lens conflated the abandonment of the work, about 1903, with Dally's injury. Dally's arms were amputated and he died on 2 October 1904.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413559.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chemist at Fifty",
+   "stop": "New Village, Stewartsville, the cement works",
+   "date": "1899-01-01",
+   "date_confidence": "attested to the year; no month in the pool, defaulted to January. Coordinate corrected: the chronology lens attached West Orange to this company; the works were at New Village, Stewartsville, Warren County.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414655.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.402
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chemist at Fifty",
+   "stop": "West Orange, ten thousand cells",
+   "date": "1901-01-01",
+   "date_confidence": "the research is attested from 1899 and the patents and the founding of the Edison Storage Battery Company to 1901; no month in the pool, defaulted to January 1901.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415385.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.907
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chemist at Fifty",
+   "stop": "West Orange, the fire",
+   "date": "1914-12-01",
+   "date_confidence": "attested to December 1914; the pool gives no day, defaulted to the first, and the commonly cited ninth of December is not asserted here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420467.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.96,
+    "text": "Sagittarius 7°58′",
+    "longitude": 247.962
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chemist at Fifty",
+   "stop": "Washington, the Naval Consulting Board",
+   "date": "1915-01-01",
+   "date_confidence": "attested to the year; no month in the pool, defaulted to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Chemist at Fifty",
+   "stop": "Fort Myers, the goldenrod laboratory",
+   "date": "1928-01-01",
+   "date_confidence": "the geography lens dates the Botanic Research laboratory 1928 and the chronology lens dates the rubber project 1927; both are carried and the discrepancy is not resolved. No month in either, defaulted to January. The Congressional Gold Medal is attested to 1928.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Jubilee and the Grave",
+   "stop": "Dearborn, Light's Golden Jubilee",
+   "date": "1929-10-21",
+   "date_confidence": "attested to the day. Coordinate corrected: the chronology lens gave 42.3223, -83.1763, about 5 km off into northeast Dearborn; Greenfield Village is at 42.3036, -83.2342. The geography lens's 42.308, -83.2352 agrees with the corrected value to within 200 m.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425905.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 27.12,
+    "text": "Libra 27°07′",
+    "longitude": 207.116
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 29.47,
+    "text": "Taurus 29°28′",
+    "longitude": 59.471
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 9.3,
+    "text": "Libra 9°18′",
+    "longitude": 189.296
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 0.98,
+    "text": "Libra 0°59′",
+    "longitude": 180.979
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 9.91,
+    "text": "Scorpio 9°55′",
+    "longitude": 219.912
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 16.14,
+    "text": "Gemini 16°08′",
+    "longitude": 76.138
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 25.94,
+    "text": "Sagittarius 25°57′",
+    "longitude": 265.944
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Jubilee and the Grave",
+   "stop": "West Orange, Glenmont, the last morning",
+   "date": "1931-10-18",
+   "date_confidence": "attested to the day. The hour is contradicted between sources: the National Park Service gives 3:21 a.m. and the afterlife lens carried 3:24 a.m. Both are printed in the campa and neither is preferred.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426632.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 23.65,
+    "text": "Libra 23°39′",
+    "longitude": 203.653
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 19.06,
+    "text": "Capricornus 19°03′",
+    "longitude": 289.058
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 23.17,
+    "text": "Libra 23°10′",
+    "longitude": 203.172
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 4.19,
+    "text": "Scorpio 4°11′",
+    "longitude": 214.188
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 21.09,
+    "text": "Scorpio 21°05′",
+    "longitude": 231.09
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 18.49,
+    "text": "Leo 18°29′",
+    "longitude": 138.487
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 17.0,
+    "text": "Capricornus 17°00′",
+    "longitude": 287.0
+   }
+  },
+  {
+   "segment": "The Jubilee and the Grave",
+   "stop": "Orange, Rosedale Cemetery",
+   "date": "1931-10-21",
+   "date_confidence": "attested to the year for the burial; 21 October is the date given for the national dimming of lights on the night of the funeral, and is used for the stop. The extent of the dimming is disputed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426635.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 26.63,
+    "text": "Libra 26°38′",
+    "longitude": 206.634
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Jubilee and the Grave",
+   "stop": "Edison, New Jersey, the tower on the empty ground",
+   "date": "1938-02-11",
+   "date_confidence": "attested to the day, his ninety-first birthday. Coordinate corrected: the afterlife lens gave 40.5292, -74.3399, about 3.8 km too far south; the documented tower stands at 40.5631, -74.3394, the same pin used for the Menlo Park laboratory stops.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428940.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 21.62,
+    "text": "Aquarius 21°37′",
+    "longitude": 321.617
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 0.95,
+    "text": "Cancer 0°57′",
+    "longitude": 90.948
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 3.66,
+    "text": "Aquarius 3°40′",
+    "longitude": 303.665
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 23.27,
+    "text": "Aquarius 23°16′",
+    "longitude": 323.275
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.52,
+    "text": "Aries 8°31′",
+    "longitude": 8.521
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 12.37,
+    "text": "Aquarius 12°22′",
+    "longitude": 312.37
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 2.15,
+    "text": "Aries 2°09′",
+    "longitude": 2.154
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Jubilee and the Grave",
+   "stop": "West Orange, Glenmont, the lawn behind the house",
+   "date": "1963-01-01",
+   "date_confidence": "attested to the year; no month in the pool, defaulted to January. The laboratory's reopening after restoration is attested to 10 October 2009. The statue in the National Statuary Hall Collection is attested to 2016; the afterlife lens added a May installation that neither source supports, and the month is dropped.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438030.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.855
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 10,
+  "month": 6,
+  "year": 28
+ },
+ "parse_failures": []
+}

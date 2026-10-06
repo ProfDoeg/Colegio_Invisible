@@ -1,0 +1,2534 @@
+{
+ "slug": "jacques_lacan",
+ "traveler": "Jacques Marie Émile Lacan",
+ "title": "The Amphitheatre and the Knot: Lacan, the Return to Freud, and Four Institutions",
+ "years": "1901-1981",
+ "years_parsed": {
+  "first": 1901,
+  "last": 1981
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Boulevard Beaumarchais to the rue de l'Odéon",
+  "stop": "95 boulevard Beaumarchais, Paris: the birth",
+  "date": "1901-04-13",
+  "date_confidence": "attested to the day. The coordinate is the Nominatim geocode of number 95; a value of 48.8625/2.365 circulates and lands about 350 m off the boulevard, near the rue Oberkampf. The arrondissement is disputed, French Wikipedia giving the 3rd and OpenStreetMap the 11th, and is not adjudicated here",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1901,
+  "jd_ut": 2415487.5,
+  "precision": "year",
+  "precision_triggers": [
+   "disputed"
+  ],
+  "sun": {
+   "sign": "Aries",
+   "degree": 22.38,
+   "text": "Aries 22°23′",
+   "longitude": 22.377
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1901-1981",
+  "first_year_parsed": 1901
+ },
+ "stops": [
+  {
+   "segment": "Boulevard Beaumarchais to the rue de l'Odéon",
+   "stop": "95 boulevard Beaumarchais, Paris: the birth",
+   "date": "1901-04-13",
+   "date_confidence": "attested to the day. The coordinate is the Nominatim geocode of number 95; a value of 48.8625/2.365 circulates and lands about 350 m off the boulevard, near the rue Oberkampf. The arrondissement is disputed, French Wikipedia giving the 3rd and OpenStreetMap the 11th, and is not adjudicated here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415487.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.38,
+    "text": "Aries 22°23′",
+    "longitude": 22.377
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Boulevard Beaumarchais to the rue de l'Odéon",
+   "stop": "Collège Stanislas, rue Notre-Dame-des-Champs: the Catholic schooling",
+   "date": "1907-10-01",
+   "date_confidence": "the range 1907 to 1918 is attested by English Wikipedia; the month and day of entry are not recorded and are set to the start of a French school year. The coordinate is French Wikipedia's for the college, 48 deg 50 min 43 sec N, 2 deg 19 min 39 sec E; a value 230 m off circulates",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417849.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.67,
+    "text": "Libra 6°40′",
+    "longitude": 186.67
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Boulevard Beaumarchais to the rue de l'Odéon",
+   "stop": "Faculté de Médecine, rue de l'École-de-Médecine: the enrolment",
+   "date": "1919-01-01",
+   "date_confidence": "attested for the year of entry; month and day defaulted. French Wikipedia gives the enrolment as running 1919 to 1932, and the internship and doctorate dates agree; summaries that close it in 1926 are unsupported. The coordinate falls within about 110 m of 12 rue de l'École-de-Médecine",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Boulevard Beaumarchais to the rue de l'Odéon",
+   "stop": "Rue de l'Odéon: the reading of Ulysses",
+   "date": "1921-12-07",
+   "date_confidence": "reconstruction. The verified pool holds only that Lacan's documented avant-garde contact begins with Adrienne Monnier's circle in 1921 and names the Ulysses reading; the séance de lecture of 7 December 1921 is the event so identified, but no source consulted places Lacan in that room on that day. The pin is the corpus value for the rue de l'Odéon, inherited from the Joyce file, and stands for Monnier's shop at number 7 across the street. Claims that he was in Surrealist and Dadaist circles by 1920 are impossible: Breton's first manifesto is 1924",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2423030.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft-year) year named with preposition",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 14.36,
+    "text": "Sagittarius 14°21′",
+    "longitude": 254.356
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sainte-Anne and the Case of Aimée",
+   "stop": "Hôpital Sainte-Anne, 1 rue Cabanis: the internship under Henri Claude",
+   "date": "1927-01-01",
+   "date_confidence": "attested for the internship period 1927 to 1931; month and day defaulted. The pin is the corpus value carried by the Artaud file. Two other Sainte-Anne pins circulate in the corpus, 48.8283/2.3391 in the Foucault and Breton files, and French Wikipedia gives the hospital as 48.8287/2.3385; the disagreement is recorded and not resolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sainte-Anne and the Case of Aimée",
+   "stop": "Infirmerie spéciale of the Préfecture de Police, Île de la Cité: Clérambault",
+   "date": "1928-01-01",
+   "date_confidence": "attested for 1928-1929; month and day defaulted. The coordinate comes from the research pool without an independent geocode and is not corrected here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425246.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.34,
+    "text": "Capricornus 9°21′",
+    "longitude": 279.342
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sainte-Anne and the Case of Aimée",
+   "stop": "Paris, near the rue Saint-Georges: Marguerite Pantaine strikes",
+   "date": "1931-04-18",
+   "date_confidence": "attested to the day for the attack. The theatre is named differently across accounts and no source consulted fixes the address; the pin is approximate and the arrondissement itself is soft",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426449.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "hard triggers (approximately) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 27.01,
+    "text": "Aries 27°01′",
+    "longitude": 27.012
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 26.54,
+    "text": "Aries 26°32′",
+    "longitude": 26.541
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 13.25,
+    "text": "Taurus 13°15′",
+    "longitude": 43.25
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 20.37,
+    "text": "Pisces 20°22′",
+    "longitude": 350.373
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 5.5,
+    "text": "Leo 5°30′",
+    "longitude": 125.501
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 13.13,
+    "text": "Cancer 13°08′",
+    "longitude": 103.13
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 22.86,
+    "text": "Capricornus 22°51′",
+    "longitude": 292.855
+   }
+  },
+  {
+   "segment": "Sainte-Anne and the Case of Aimée",
+   "stop": "Paris: the analysis with Rudolph Loewenstein",
+   "date": "1932-01-01",
+   "date_confidence": "attested for the period 1932 to 1938; month and day defaulted. No consulting-room address is identified in any source consulted, and the pin is the Paris centroid standing for an unlocated site",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Sainte-Anne and the Case of Aimée",
+   "stop": "Faculté de Médecine: the thesis on paranoid psychosis",
+   "date": "1932-11-01",
+   "date_confidence": "attested for November 1932; the day of the defence is not recorded and is defaulted. The surrealist reception of the thesis is reconstruction: the pool places Lacan's connections with Breton, Dalí and Crevel in the early 1930s but no source consulted dates their reading of the thesis itself",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2427012.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "no source (for the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.37,
+    "text": "Scorpio 8°22′",
+    "longitude": 218.366
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mirror and the Occupation",
+   "stop": "École Pratique des Hautes Études: Kojève reads Hegel aloud",
+   "date": "1933-01-01",
+   "date_confidence": "attested for attendance beginning 1933 and for the seminar running to 1939; month and day defaulted. The chronology and geography lenses agree on 1933 as the start",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427073.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mirror and the Occupation",
+   "stop": "Mairie du 17e arrondissement, rue des Batignolles: marriage to Marie-Louise Blondin",
+   "date": "1934-01-29",
+   "date_confidence": "attested to the day by French Wikipedia. The three births are attested to the month: Caroline January 1937, Thibaut August 1939, Sibylle November 1940. The date of the candidate membership within 1934 is not fixed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427466.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 8.41,
+    "text": "Aquarius 8°24′",
+    "longitude": 308.408
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mirror and the Occupation",
+   "stop": "Marienbad: the mirror stage, cut off",
+   "date": "1936-08-01",
+   "date_confidence": "attested for August 1936 at the fourteenth IPA congress; the day of the paper is not recorded and is defaulted. That Ernest Jones cut the lecture short rests on Lacan's own later account",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428381.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.55,
+    "text": "Leo 8°33′",
+    "longitude": 128.552
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mirror and the Occupation",
+   "stop": "Hôpital Sainte-Anne: the verdict on Antonin Artaud",
+   "date": "1938-04-01",
+   "date_confidence": "the date and pin are inherited exactly from the Artaud file, where the examination is dated 1938-04-01. Full membership of the SPP is attested to 1938 without a month; the two are placed in the same stop and the coincidence of season is not itself attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428989.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year named only",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.62,
+    "text": "Aries 10°37′",
+    "longitude": 10.617
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mirror and the Occupation",
+   "stop": "Paris: the society dissolves, the doctor is mobilized",
+   "date": "1940-01-01",
+   "date_confidence": "attested for 1940; month and day defaulted. No source consulted supplies a coordinate for the Val-de-Grâce service and the pin is the Paris centroid",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429629.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.43,
+    "text": "Capricornus 9°26′",
+    "longitude": 279.431
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mirror and the Occupation",
+   "stop": "5 rue de Lille: the apartment, and a daughter under another name",
+   "date": "1941-01-01",
+   "date_confidence": "Judith's birth is attested to 1941 without a month. The move to 5 rue de Lille is tagged reconstruction in the pool and given variously as 1941 and 1942; the two are left standing. The coordinate is the Nominatim house-number geocode; values of 48.8592/2.3288 and 48.8595/2.3268 circulate and are street centroids",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2429995.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year named only",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mirror and the Occupation",
+   "stop": "England: five weeks among the military psychiatrists",
+   "date": "1945-01-01",
+   "date_confidence": "attested for 1945 and for a five-week duration; month and day are not recorded and are defaulted. The pin is central London standing for an itinerary of unnamed units; which hospitals he actually entered is reconstructed from secondary literature, not attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mirror and the Occupation",
+   "stop": "Zurich: the mirror stage, delivered whole",
+   "date": "1949-01-01",
+   "date_confidence": "attested for 1949 at the Zurich IPA congress; month and day are not recorded and are defaulted. No venue is named in the sources consulted and the pin is the Zurich city centre",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432917.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rome Discourse",
+   "stop": "La Prévôté, Guitrancourt: the country house",
+   "date": "1951-01-01",
+   "date_confidence": "the 1951 purchase is attested by Spanish Wikipedia; the French article on Guitrancourt dates his regular presence there from 1955 and the two are left standing side by side. Month and day defaulted. The coordinate is French Wikipedia's for the commune; values of 49.0667/1.7333 and 49.0333/1.7333 circulate and are 4 to 7 km off",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433647.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.77,
+    "text": "Capricornus 9°46′",
+    "longitude": 279.767
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rome Discourse",
+   "stop": "Paris: marriage to Sylvia Bataille",
+   "date": "1953-01-01",
+   "date_confidence": "attested for the year 1953; no month, day or ceremony venue is recorded in the sources consulted, and the pin is the Paris centroid standing for an unidentified mairie",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434378.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.291
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rome Discourse",
+   "stop": "Paris: elected in January, gone by June",
+   "date": "1953-06-01",
+   "date_confidence": "attested for the January election and the June resignation; the day of the resignation is not fixed and is defaulted. The pin is the Paris centroid: no address is given for the SFP's founding in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434529.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.21,
+    "text": "Gemini 10°13′",
+    "longitude": 70.21
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rome Discourse",
+   "stop": "Istituto di Psicologia, Rome: the Function and Field of Speech",
+   "date": "1953-09-26",
+   "date_confidence": "tagged reconstruction in the pool: the date and venue are universally given in Lacan scholarship but the pool cites no primary attestation. The structuralist turn itself is dated by the Stanford Encyclopedia to the end of the 1940s and across the 1950s, not to a single 1953 moment",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434646.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 2.61,
+    "text": "Libra 2°37′",
+    "longitude": 182.609
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rome Discourse",
+   "stop": "Hôpital Sainte-Anne, amphithéâtre Magnan: the seminar opens",
+   "date": "1953-11-01",
+   "date_confidence": "attested for the year 1953 and for the Sainte-Anne period 1953-1963; the month is set to November, when the first seminar of the public series is conventionally placed, and the day is defaulted. The pin is the Artaud file's Sainte-Anne value, which disagrees with two others in circulation",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434682.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention",
+    "to the year",
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.28,
+    "text": "Scorpio 8°17′",
+    "longitude": 218.275
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rome Discourse",
+   "stop": "Hôpital Sainte-Anne, amphithéâtre Magnan: Seminar V, the formations of the unconscious",
+   "date": "1957-11-01",
+   "date_confidence": "attested for the academic year 1957-58, the seminar Les formations de l'inconscient; month defaulted to November on the convention already used for the 1953 stop opening the seminar in this same amphitheatre, day not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2436143.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.31,
+    "text": "Scorpio 8°18′",
+    "longitude": 218.306
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rome Discourse",
+   "stop": "Abbaye de Royaumont: Subversion of the Subject and the Dialectic of Desire",
+   "date": "1960-09-19",
+   "date_confidence": "the colloquium is commonly dated 19-23 September 1960 in Lacan scholarship, organized by the philosopher Jean Wahl. This session's live sources confirm only the year: the English Wikipedia entry on the Graph of Desire states it was 'first proposed in a 1960 colloquium,' and French Wikipedia's Lacan chronology places a Royaumont colloquium in this same biographical period. The specific day range comes from the standard secondary bibliography and was not independently re-fetched this session; web search access was exhausted and several direct source fetches (nosubject.com, lacaninireland.com, lacan.com's chronology pages) failed or 404'd",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2437196.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 26.06,
+    "text": "Virgo 26°03′",
+    "longitude": 176.057
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Excommunication",
+   "stop": "Tokyo: the first Japanese journey",
+   "date": "1963-04-01",
+   "date_confidence": "attested for April 1963 in the standard chronology of the travels; the day is not recorded and is defaulted. Sites visited beyond Tokyo are reconstructed. Lituraterre belongs to the second Japanese journey of 1971 and is regularly and wrongly attached to this one",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438120.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.56,
+    "text": "Aries 10°34′",
+    "longitude": 10.562
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Excommunication",
+   "stop": "Stockholm: the condition",
+   "date": "1963-08-01",
+   "date_confidence": "the 23rd IPA congress ran 28 July to 1 August 1963 and English Wikipedia dates the condition imposed on the SFP to August 1963; the geography lens gave July, which is preferred against. The day is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438242.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.05,
+    "text": "Leo 8°03′",
+    "longitude": 128.05
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Excommunication",
+   "stop": "Paris: the society complies",
+   "date": "1963-11-01",
+   "date_confidence": "attested for November 1963; the day of the vote is not fixed and is defaulted. That he broke off the seminar in that month is attested; the exact session is not identified in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438334.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.85,
+    "text": "Scorpio 7°51′",
+    "longitude": 217.851
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Excommunication",
+   "stop": "École Normale Supérieure, salle Dussane: the seminar reopens",
+   "date": "1964-01-15",
+   "date_confidence": "attested to the day for the reopening of the seminar at the rue d'Ulm. The pin is the corpus value for 45 rue d'Ulm, inherited from the Foucault file; a value of 48.842/2.3459 circulates in the research pool. Which philosophers sat in which year is attested only loosely",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438409.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 23.88,
+    "text": "Capricornus 23°53′",
+    "longitude": 293.876
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Excommunication",
+   "stop": "Paris: the founding act of the École Freudienne",
+   "date": "1964-06-21",
+   "date_confidence": "attested to the day for the Acte de fondation. No address is given for the school's founding in the sources consulted and the pin is the Paris centroid",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438567.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 29.65,
+    "text": "Gemini 29°39′",
+    "longitude": 89.655
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 15.63,
+    "text": "Scorpio 15°38′",
+    "longitude": 225.631
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 21.98,
+    "text": "Gemini 21°59′",
+    "longitude": 81.982
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 27.98,
+    "text": "Gemini 27°59′",
+    "longitude": 87.977
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 2.51,
+    "text": "Gemini 2°30′",
+    "longitude": 62.508
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 15.99,
+    "text": "Taurus 15°59′",
+    "longitude": 45.989
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 4.91,
+    "text": "Pisces 4°55′",
+    "longitude": 334.909
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Écrits",
+   "stop": "La Prévôté, Guitrancourt: the student who will edit everything",
+   "date": "1964-07-01",
+   "date_confidence": "the pool's 1963 date is corrected to 1964: English Wikipedia's article on Jacques-Alain Miller places his first stay at La Prévôté, to read the seminar transcriptions, after the summer of 1964. The month is inferred from that summer and the day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438577.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.19,
+    "text": "Cancer 9°11′",
+    "longitude": 99.191
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Écrits",
+   "stop": "Éditions du Seuil, rue Jacob: Écrits",
+   "date": "1966-01-01",
+   "date_confidence": "attested for 1966; month and day defaulted. The two-volume reissue is 1970 and 1971 in the Points edition, not 1969 as circulates, and not 1969-1971",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439126.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Écrits",
+   "stop": "École Normale Supérieure, rue d'Ulm: Foucault sits in for Las Meninas",
+   "date": "1966-05-18",
+   "date_confidence": "[A] attested to the day: the session of 18 May 1966 of Seminar XIII, L'objet de la psychanalyse, built on Foucault's Las Meninas chapter, with Foucault himself in the room. [A] the seminar sits at the rue d'Ulm from January 1964 to 1968, so the venue is the École Normale Supérieure and not Sainte-Anne, which some summaries give; contradiction left standing rather than resolved by silence. The pin is the corpus value for 45 rue d'Ulm, shared byte-identical with michel_foucault.journey.json; the research pool proposed 48.8413 / 2.3454",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439263.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 26.63,
+    "text": "Taurus 26°38′",
+    "longitude": 56.625
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 28.01,
+    "text": "Aries 28°01′",
+    "longitude": 28.01
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 15.82,
+    "text": "Taurus 15°49′",
+    "longitude": 45.822
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 14.33,
+    "text": "Aries 14°20′",
+    "longitude": 14.329
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 22.17,
+    "text": "Taurus 22°10′",
+    "longitude": 52.166
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 2.46,
+    "text": "Cancer 2°28′",
+    "longitude": 92.46
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 27.21,
+    "text": "Pisces 27°13′",
+    "longitude": 357.21
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Écrits",
+   "stop": "Johns Hopkins University, Baltimore: the structuralist controversy",
+   "date": "1966-10-18",
+   "date_confidence": "attested to the day-range: the colloquium runs 18 to 21 October 1966. The pin is inherited byte-identical from the Barthes and Deleuze files",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439416.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.17,
+    "text": "Libra 24°10′",
+    "longitude": 204.17
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 15.59,
+    "text": "Sagittarius 15°35′",
+    "longitude": 255.585
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 16.75,
+    "text": "Scorpio 16°45′",
+    "longitude": 226.746
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 18.56,
+    "text": "Libra 18°34′",
+    "longitude": 198.56
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 3.15,
+    "text": "Virgo 3°09′",
+    "longitude": 153.145
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 2.63,
+    "text": "Leo 2°38′",
+    "longitude": 122.632
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.09,
+    "text": "Pisces 24°05′",
+    "longitude": 354.086
+   }
+  },
+  {
+   "segment": "Écrits",
+   "stop": "Johns Hopkins University, Baltimore: the first meeting with Derrida",
+   "date": "1966-10-18",
+   "date_confidence": "[A] that Lacan and Derrida met in person for the first time at this colloquium is attested (journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis', following Élisabeth Roudinesco). [R] the day of the encounter inside the run of 18-21 October is not recorded and defaults to the colloquium's opening, the value the preceding stop carries. The pin is shared byte-identical with jacques_derrida.journey.json, which carries the same minutes from the other side. [R] two incompatible accounts are left standing rather than merged: Roudinesco's, where the exchange runs on the Cartesian subject and the signifier, and the account at booksandtales.com, where René Girard performs the introduction and the private talk is about death and posthumous reception. [R] the remark reported to Girard is carried by that second source alone.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439416.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 24.17,
+    "text": "Libra 24°10′",
+    "longitude": 204.17
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Écrits",
+   "stop": "Paris: the Pass",
+   "date": "1967-01-01",
+   "date_confidence": "attested for 1967; month and day defaulted. No address is recorded and the pin is the Paris centroid standing for the École Freudienne",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439491.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Écrits",
+   "stop": "Paris: the dinner at Jean Piel's",
+   "date": "1967-01-01",
+   "date_confidence": "[A] a second meeting with Derrida at a dinner in Jean Piel's Paris home in 1967, at which Lacan took Derrida's hand warmly and Derrida told an anecdote about his son Pierre, is attested (journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis', following Roudinesco). [R] no month or day is recorded and both default to 01; Piel's address is given by no source consulted and the pin is this file's Paris centroid rather than a street. The pin and date are shared byte-identical with jacques_derrida.journey.json. [A] Roudinesco's judgement that relations were never cordial after this year is attested; [R] the suspicion of Derrida conspiring against him is reported by the same source and rests on no document quoted there.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439491.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Écrits",
+   "stop": "Institut français, Naples: the anecdote with no name on it",
+   "date": "1967-12-01",
+   "date_confidence": "[R] that Lacan reused Derrida's private anecdote about his son in a lecture at the French Institute in Naples in December 1967, without attribution, is reported by journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis' and by no participant; no transcript reachable in this research confirms it, and the whole stop stands or falls with that single report. [R] the day is not recorded and defaults to 01. [R] the pin is the Naples city coordinate: the address of the Institut français de Naples is not given by the source and is not reconstructed here. The reading of the borrowing as appropriation belongs to the historiography, not to either man.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439825.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "not given",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.1,
+    "text": "Sagittarius 8°06′",
+    "longitude": 248.104
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Écrits",
+   "stop": "Faculté de Droit, place du Panthéon: the seminar moves again",
+   "date": "1969-01-01",
+   "date_confidence": "attested for 1969 and for the run to 1980; month and day defaulted. French summaries that insert a separate Sorbonne period are describing this same law faculty, then part of the Sorbonne, and not a further move",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Écrits",
+   "stop": "Collège de France, salle 6: the question after Qu'est-ce qu'un auteur?",
+   "date": "1969-02-22",
+   "date_confidence": "[A] attested to the day and the hour: the Société française de philosophie opens at 4.45 pm on 22 February 1969 in salle 6 of the Collège de France, Jean Wahl presiding, with Lacan present alongside Jean Ullmo, Maurice de Gandillac, Lucien Goldmann and Jean d'Ormesson; lecture and discussion printed in the Bulletin de la Société française de philosophie 63:3, juillet-septembre 1969, pp. 73-104. [A] the venue is not the Sorbonne, where the same society heard Derrida in 1968. The pin is the corpus value for the Collège de France, shared byte-identical with michel_foucault.journey.json; the research pool proposed 48.8489 / 2.3455. [R] Lacan's return to the talk in Séminaire XVI is reported by secondary summary only, with no session date confirmed",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440274.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 3.2,
+    "text": "Pisces 3°12′",
+    "longitude": 333.204
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.84,
+    "text": "Taurus 8°51′",
+    "longitude": 38.843
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 6.53,
+    "text": "Aquarius 6°32′",
+    "longitude": 306.526
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 16.94,
+    "text": "Aries 16°57′",
+    "longitude": 16.942
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 28.49,
+    "text": "Scorpio 28°30′",
+    "longitude": 238.493
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 4.43,
+    "text": "Libra 4°26′",
+    "longitude": 184.427
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 21.93,
+    "text": "Aries 21°56′",
+    "longitude": 21.931
+   }
+  },
+  {
+   "segment": "Écrits",
+   "stop": "École Normale Supérieure, rue d'Ulm: the seminar put out",
+   "date": "1969-03-01",
+   "date_confidence": "[A] that in March 1969, when Lacan was expelled from holding his seminar at the École Normale Supérieure, Jacques Derrida intervened on his behalf together with Louis Althusser, is attested (journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis'). [R] the day is not recorded and defaults to 01. The pin is the corpus value for 45 rue d'Ulm, carried elsewhere in this file and shared byte-identical with michel_foucault.journey.json and jacques_derrida.journey.json. [R] no source consulted describes the form the intervention took, nor whether Lacan ever knew of it. The move to the law faculty is dated in this file to 1969-01-01, which precedes this stop: the two dates come from different sources and the contradiction is left standing rather than smoothed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440281.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "disputed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.24,
+    "text": "Pisces 10°15′",
+    "longitude": 340.242
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Écrits",
+   "stop": "Centre universitaire de Vincennes: the students and the master",
+   "date": "1969-12-03",
+   "date_confidence": "attested to the day for the intervention, published in Seminar XVII. The pin is the corpus value for the Vincennes campus, inherited from the Deleuze and Foucault files; the research pool proposed 48.8467/2.4372, which reverse-geocodes to the town centre of Vincennes rather than the campus inside the Bois. The campus was demolished in August 1980 and nothing of it stands",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440558.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 10.65,
+    "text": "Sagittarius 10°39′",
+    "longitude": 250.654
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 20.03,
+    "text": "Virgo 20°02′",
+    "longitude": 170.026
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 19.89,
+    "text": "Sagittarius 19°53′",
+    "longitude": 259.89
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 27.98,
+    "text": "Scorpio 27°59′",
+    "longitude": 237.983
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 20.63,
+    "text": "Aquarius 20°38′",
+    "longitude": 320.625
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 27.59,
+    "text": "Libra 27°35′",
+    "longitude": 207.588
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 2.86,
+    "text": "Taurus 2°52′",
+    "longitude": 32.859
+   }
+  },
+  {
+   "segment": "Joyce and the Americans",
+   "stop": "5 rue de Lille: the urgent convocation of Guattari",
+   "date": "1971-10-01",
+   "date_confidence": "[A] attested to the day from Félix Guattari's own journal, quoted in Daniel W. Smith, 'Inside Out: Guattari's Anti-Oedipus Papers', Radical Philosophy (2006): on 1 October 1971 Lacan issued an urgent convocation summoning Guattari and demanded to know what he and Deleuze had been working on for two years, having heard rumours of the forthcoming book; he asked to see the manuscript and Guattari declined, saying Deleuze preferred to show only finished work. [R] the source says only 'Lacan's office' and gives no address; the pin is this file's 5 rue de Lille value, where he lived and received from 1941, and the identification is reconstruction, not attestation.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2441225.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition, reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.17,
+    "text": "Libra 7°10′",
+    "longitude": 187.167
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 18.21,
+    "text": "Aquarius 18°12′",
+    "longitude": 318.206
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 1.12,
+    "text": "Libra 1°07′",
+    "longitude": 181.125
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 16.38,
+    "text": "Libra 16°23′",
+    "longitude": 196.377
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 14.81,
+    "text": "Aquarius 14°49′",
+    "longitude": 314.811
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 2.88,
+    "text": "Sagittarius 2°53′",
+    "longitude": 242.878
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 6.35,
+    "text": "Gemini 6°21′",
+    "longitude": 66.354
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Joyce and the Americans",
+   "stop": "5 rue de Lille: the dinner at which schizoanalysis is explained",
+   "date": "1971-10-06",
+   "date_confidence": "[A] attested to the day from Guattari's journal, quoted in Daniel W. Smith, Radical Philosophy (2006) and in 'Guattari and Lacan on The Anti-Oedipus': a private dinner on the rue de Lille on 6 October 1971, at which Guattari explained the emerging theory of schizoanalysis and Lacan said afterwards that he was pleased and reassured. [A] the remarks about analysts, and the observation of Lacan leaving stooped and limping, come from the same journal. [R] the sources place the dinner on the rue de Lille without a number; the pin is this file's 5 rue de Lille value. [R] Deleuze is not present: this is a stop on Lacan's own journey and Deleuze's book is the subject, not the guest.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2441230.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 12.09,
+    "text": "Libra 12°05′",
+    "longitude": 192.089
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 3.36,
+    "text": "Taurus 3°22′",
+    "longitude": 33.36
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.09,
+    "text": "Libra 10°06′",
+    "longitude": 190.095
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 22.6,
+    "text": "Libra 22°36′",
+    "longitude": 202.605
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 16.27,
+    "text": "Aquarius 16°16′",
+    "longitude": 316.271
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 3.74,
+    "text": "Sagittarius 3°44′",
+    "longitude": 243.741
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 6.22,
+    "text": "Gemini 6°13′",
+    "longitude": 66.225
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Joyce and the Americans",
+   "stop": "Università degli Studi di Milano: the psychoanalytic discourse",
+   "date": "1972-05-01",
+   "date_confidence": "attested for May 1972; the day is not recorded and is defaulted. Anti-Oedipus is attested to 1972 without a month, and the coincidence of season with the Milan lecture is not itself attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441438.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "no month/day",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.72,
+    "text": "Taurus 10°43′",
+    "longitude": 40.722
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Joyce and the Americans",
+   "stop": "Lyon: the conference, and dinner at Deleuze's house",
+   "date": "1972-06-01",
+   "date_confidence": "[A] that after the 1972 publication of L'Anti-Oedipe Lacan attended a conference at Lyon and afterwards came to Deleuze's home for dinner is reported from François Dosse, Gilles Deleuze et Félix Guattari: biographie croisée, via critical-theory.com; [R] Dosse's text was not read directly in this research and no independent confirmation was found. [R] the month is not given by any source and is set to place the meeting after the March publication and before the July Cerisy decade; the day defaults to 01. [R] contradiction left standing: the source calls Lyon the city where Deleuze was teaching, but Deleuze had left Lyon for Vincennes in 1969, so either the account compresses the years or the conference alone is what brought them both there. The pin is the corpus Lyon value, shared byte-identical with gilles_deleuze.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441469.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "disputed",
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.6,
+    "text": "Gemini 10°36′",
+    "longitude": 70.601
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Joyce and the Americans",
+   "stop": "5 rue de Lille: the offer made to Deleuze",
+   "date": "1972-10-01",
+   "date_confidence": "[A] that some months after the publication of L'Anti-Oedipe Lacan summoned Deleuze to his office and told him he could use someone like him is attested in Daniel W. Smith, 'Inside Out: Guattari's Anti-Oedipus Papers', Radical Philosophy (2006). [R] no month or day is recorded; the date is set several months after the March publication and after the Lyon dinner, and the day defaults to 01. [R] the source says 'his office' and gives no address; the pin is this file's 5 rue de Lille value and the identification is reconstruction. [R] the report that he discouraged his own students from discussing the book comes through a search summary of Dosse and sits against Smith's own conclusion that he was anything but antagonistic; both are carried and neither is preferred. The pin is shared byte-identical with gilles_deleuze.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441591.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.91,
+    "text": "Libra 7°55′",
+    "longitude": 187.912
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Joyce and the Americans",
+   "stop": "Éditions du Seuil: the seminar becomes a book",
+   "date": "1973-01-01",
+   "date_confidence": "attested for 1973 as the start of Miller's formal transcription and editing; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1973,
+   "jd_ut": 2441683.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.439
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Joyce and the Americans",
+   "stop": "The Sorbonne: Joyce le symptôme",
+   "date": "1975-06-16",
+   "date_confidence": "attested to the day in the standard bibliography for the opening lecture of the 5th International James Joyce Symposium. The Seminar XXIII date of 1975-76 is attested for the year of delivery",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442579.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 24.25,
+    "text": "Gemini 24°15′",
+    "longitude": 84.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Joyce and the Americans",
+   "stop": "Yale University, New Haven: the Kanzer Seminar",
+   "date": "1975-11-24",
+   "date_confidence": "attested to the day in the standard chronology of the 1975 United States trip, as recorded on lacan.com/itinerary.htm; the trip itself is attested by English Wikipedia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442740.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 1.08,
+    "text": "Sagittarius 1°05′",
+    "longitude": 241.078
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 1.81,
+    "text": "Leo 1°48′",
+    "longitude": 121.807
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 28.31,
+    "text": "Scorpio 28°19′",
+    "longitude": 238.313
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 15.34,
+    "text": "Libra 15°21′",
+    "longitude": 195.345
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 0.42,
+    "text": "Cancer 0°25′",
+    "longitude": 90.423
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 15.2,
+    "text": "Aries 15°12′",
+    "longitude": 15.203
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 2.99,
+    "text": "Leo 2°59′",
+    "longitude": 122.987
+   }
+  },
+  {
+   "segment": "Joyce and the Americans",
+   "stop": "Columbia University, New York: the questions on Television",
+   "date": "1975-12-01",
+   "date_confidence": "attested to the day. A widely circulated sentence about the impossibility of telling the whole truth is NOT a Lacan quotation: it appears unquoted in the chronicler's own summary prose on lacan.com/itinerary.htm, while the adjacent quotations on the same entry are set in quotation marks",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442747.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.16,
+    "text": "Sagittarius 8°10′",
+    "longitude": 248.164
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 11.1,
+    "text": "Scorpio 11°06′",
+    "longitude": 221.096
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 9.35,
+    "text": "Sagittarius 9°21′",
+    "longitude": 249.349
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 23.15,
+    "text": "Libra 23°09′",
+    "longitude": 203.15
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 28.38,
+    "text": "Gemini 28°23′",
+    "longitude": 88.382
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 14.89,
+    "text": "Aries 14°53′",
+    "longitude": 14.889
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 2.82,
+    "text": "Leo 2°49′",
+    "longitude": 122.822
+   }
+  },
+  {
+   "segment": "Joyce and the Americans",
+   "stop": "Massachusetts Institute of Technology, Cambridge: the last stop",
+   "date": "1975-12-02",
+   "date_confidence": "attested to the day in the standard chronology of the 1975 trip. The characterization of the MIT audience is reconstruction and is not attested in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442748.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.18,
+    "text": "Sagittarius 9°11′",
+    "longitude": 249.177
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 25.5,
+    "text": "Scorpio 25°30′",
+    "longitude": 235.499
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 10.92,
+    "text": "Sagittarius 10°55′",
+    "longitude": 250.919
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 24.28,
+    "text": "Libra 24°17′",
+    "longitude": 204.28
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 28.05,
+    "text": "Gemini 28°03′",
+    "longitude": 88.048
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 14.86,
+    "text": "Aries 14°51′",
+    "longitude": 14.858
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 2.79,
+    "text": "Leo 2°47′",
+    "longitude": 122.792
+   }
+  },
+  {
+   "segment": "The Dissolution",
+   "stop": "Paris: the school is dissolved",
+   "date": "1980-01-05",
+   "date_confidence": "attested for January 1980; French sources date the opening of the dissolution to 5 January 1980. No address is recorded and the pin is the Paris centroid",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444243.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 13.8,
+    "text": "Capricornus 13°48′",
+    "longitude": 283.804
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 14.0,
+    "text": "Leo 14°00′",
+    "longitude": 134.001
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 4.13,
+    "text": "Capricornus 4°08′",
+    "longitude": 274.13
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 16.34,
+    "text": "Aquarius 16°20′",
+    "longitude": 316.34
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 14.57,
+    "text": "Virgo 14°34′",
+    "longitude": 164.571
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 10.07,
+    "text": "Virgo 10°04′",
+    "longitude": 160.072
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 27.16,
+    "text": "Virgo 27°10′",
+    "longitude": 177.163
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Mars",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Dissolution",
+   "stop": "Paris: la Cause freudienne",
+   "date": "1980-02-21",
+   "date_confidence": "attested to the day by French Wikipedia. The pool dated this founding to 1981, conflating it with the École de la Cause freudienne constituted the following year; the correction is applied and the two bodies are kept apart",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444290.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 1.52,
+    "text": "Pisces 1°31′",
+    "longitude": 331.523
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 5.63,
+    "text": "Taurus 5°38′",
+    "longitude": 35.635
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 19.45,
+    "text": "Pisces 19°27′",
+    "longitude": 349.445
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 13.01,
+    "text": "Aries 13°01′",
+    "longitude": 13.01
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 7.43,
+    "text": "Virgo 7°26′",
+    "longitude": 157.43
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 5.74,
+    "text": "Virgo 5°45′",
+    "longitude": 155.744
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 25.47,
+    "text": "Virgo 25°28′",
+    "longitude": 175.471
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Mars",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Dissolution",
+   "stop": "Caracas: the first meeting of the Freudian Field",
+   "date": "1980-07-12",
+   "date_confidence": "attested to the day for the founding of the Institut du Champ freudien at Caracas and for the address itself, which is the last public one of his life. The Caracas Discourse is quoted across the secondary literature without a single agreed printed text",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444432.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 19.81,
+    "text": "Cancer 19°48′",
+    "longitude": 109.807
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 16.35,
+    "text": "Cancer 16°21′",
+    "longitude": 106.348
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 19.46,
+    "text": "Cancer 19°27′",
+    "longitude": 109.456
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 16.56,
+    "text": "Gemini 16°34′",
+    "longitude": 76.559
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 0.71,
+    "text": "Libra 0°42′",
+    "longitude": 180.707
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 7.86,
+    "text": "Virgo 7°52′",
+    "longitude": 157.863
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 22.4,
+    "text": "Virgo 22°24′",
+    "longitude": 172.404
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Dissolution",
+   "stop": "Paris, 6th arrondissement: the death",
+   "date": "1981-09-09",
+   "date_confidence": "attested to the day. French Wikipedia specifies the 6th arrondissement without naming a clinic or an address; accounts differ on whether he died at home or in hospital and the difference is not resolved. A generic Paris centroid of 48.8566/2.3522 circulates for this event and contradicts the arrondissement",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444856.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) generic"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 16.24,
+    "text": "Virgo 16°14′",
+    "longitude": 166.237
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 13.31,
+    "text": "Capricornus 13°19′",
+    "longitude": 283.31
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 8.91,
+    "text": "Libra 8°55′",
+    "longitude": 188.912
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 25.38,
+    "text": "Libra 25°23′",
+    "longitude": 205.379
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 4.38,
+    "text": "Leo 4°23′",
+    "longitude": 124.381
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.22,
+    "text": "Libra 13°13′",
+    "longitude": 193.217
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 9.7,
+    "text": "Libra 9°42′",
+    "longitude": 189.698
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Dissolution",
+   "stop": "Cimetière de Guitrancourt: the village grave",
+   "date": "1981-09-12",
+   "date_confidence": "the month of the burial is attested; the day is not, and is set after the 9 September death rather than taken from any source. Burial in the communal cemetery is confirmed by the French article on Guitrancourt. Two wrong coordinates for the village circulate, 49.0667/1.7333 and 49.0333/1.7333",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444859.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 19.15,
+    "text": "Virgo 19°09′",
+    "longitude": 169.154
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 21.8,
+    "text": "Aquarius 21°48′",
+    "longitude": 321.802
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 13.02,
+    "text": "Libra 13°01′",
+    "longitude": 193.023
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 28.9,
+    "text": "Libra 28°54′",
+    "longitude": 208.896
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 6.27,
+    "text": "Leo 6°16′",
+    "longitude": 126.267
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.83,
+    "text": "Libra 13°50′",
+    "longitude": 193.831
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 10.05,
+    "text": "Libra 10°03′",
+    "longitude": 190.048
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Dissolution",
+   "stop": "Éditions du Seuil: the complete English Écrits",
+   "date": "2006-01-01",
+   "date_confidence": "attested for 2006 as the year of the complete Fink translation; month and day defaulted. The partial Sheridan translation is 1977. Le Monde's list of the hundred books of the century is attested without a date in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2006,
+   "jd_ut": 2453736.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "year named only",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.43,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.428
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 57,
+  "dated": 57,
+  "unparsed": 0,
+  "day": 16,
+  "month": 8,
+  "year": 33
+ },
+ "parse_failures": []
+}

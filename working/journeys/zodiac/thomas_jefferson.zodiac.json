@@ -1,0 +1,2059 @@
+{
+ "slug": "thomas_jefferson",
+ "traveler": "Thomas Jefferson",
+ "title": "Shadwell to the Fiftieth Fourth: the Declaration, the Ministry in Paris, and the Mountain",
+ "years": "1743-1826",
+ "years_parsed": {
+  "first": 1743,
+  "last": 1826
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Shadwell, Tuckahoe, Williamsburg",
+  "stop": "Shadwell, the birth on the Rivanna",
+  "date": "1743-04-13",
+  "date_confidence": "attested (New Style; the family Bible records 2 April Old Style). Coordinate corrected: the research pool carried three different pins for Shadwell, and this is the Wikipedia value for Shadwell, Albemarle County. See report.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1743,
+  "jd_ut": 2357779.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Aries",
+   "degree": 22.63,
+   "text": "Aries 22°38′",
+   "longitude": 22.627
+  },
+  "moon": {
+   "sign": "Sagittarius",
+   "degree": 7.26,
+   "text": "Sagittarius 7°16′",
+   "longitude": 247.259
+  },
+  "mercury": {
+   "sign": "Pisces",
+   "degree": 26.24,
+   "text": "Pisces 26°14′",
+   "longitude": 356.24
+  },
+  "venus": {
+   "sign": "Taurus",
+   "degree": 13.47,
+   "text": "Taurus 13°28′",
+   "longitude": 43.468
+  },
+  "mars": {
+   "sign": "Leo",
+   "degree": 18.65,
+   "text": "Leo 18°39′",
+   "longitude": 138.654
+  },
+  "jupiter": {
+   "sign": "Virgo",
+   "degree": 4.74,
+   "text": "Virgo 4°45′",
+   "longitude": 154.744
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 29.08,
+   "text": "Leo 29°05′",
+   "longitude": 149.08
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1743-1826",
+  "first_year_parsed": 1743
+ },
+ "stops": [
+  {
+   "segment": "Shadwell, Tuckahoe, Williamsburg",
+   "stop": "Shadwell, the birth on the Rivanna",
+   "date": "1743-04-13",
+   "date_confidence": "attested (New Style; the family Bible records 2 April Old Style). Coordinate corrected: the research pool carried three different pins for Shadwell, and this is the Wikipedia value for Shadwell, Albemarle County. See report.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1743,
+   "jd_ut": 2357779.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.63,
+    "text": "Aries 22°38′",
+    "longitude": 22.627
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 7.26,
+    "text": "Sagittarius 7°16′",
+    "longitude": 247.259
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 26.24,
+    "text": "Pisces 26°14′",
+    "longitude": 356.24
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 13.47,
+    "text": "Taurus 13°28′",
+    "longitude": 43.468
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 18.65,
+    "text": "Leo 18°39′",
+    "longitude": 138.654
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 4.74,
+    "text": "Virgo 4°45′",
+    "longitude": 154.744
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 29.08,
+    "text": "Leo 29°05′",
+    "longitude": 149.08
+   }
+  },
+  {
+   "segment": "Shadwell, Tuckahoe, Williamsburg",
+   "stop": "Tuckahoe, the years among the Randolphs",
+   "date": "1745-01-01",
+   "date_confidence": "residence attested 1745-1752; month and day defaulted to 01. Coordinate corrected from the pool value, which fell about 6.7 km north of the house.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1745,
+   "jd_ut": 2358408.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.8,
+    "text": "Capricornus 10°48′",
+    "longitude": 280.797
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shadwell, Tuckahoe, Williamsburg",
+   "stop": "Shadwell, the death of Peter Jefferson",
+   "date": "1757-01-01",
+   "date_confidence": "year attested; month and day defaulted to 01, since the verified pool gives 1757 without a date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1757,
+   "jd_ut": 2362791.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.89,
+    "text": "Capricornus 10°53′",
+    "longitude": 280.886
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shadwell, Tuckahoe, Williamsburg",
+   "stop": "The College of William and Mary, the teacher named Small",
+   "date": "1760-01-01",
+   "date_confidence": "year attested (enters 1760, leaves 1762); month and day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2363886.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.143
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Shadwell, Tuckahoe, Williamsburg",
+   "stop": "The George Wythe house, the reading of the law",
+   "date": "1762-01-01",
+   "date_confidence": "begins 1762, admitted to the bar 1767; month and day defaulted to 01. Coordinate corrected about 350 m west of the pool value, which put the pin on the wrong block of the historic district.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1762,
+   "jd_ut": 2364617.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.67,
+    "text": "Capricornus 10°40′",
+    "longitude": 280.668
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mountain and the Declaration",
+   "stop": "Monticello, the mountaintop leveled",
+   "date": "1768-01-01",
+   "date_confidence": "year attested; month and day defaulted to 01. The pool filed this event under Shadwell with a Monticello-ridge coordinate; the place is Monticello, about 3 km southwest of Shadwell.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1768,
+   "jd_ut": 2366808.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.202
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mountain and the Declaration",
+   "stop": "The Capitol at Williamsburg, the seat for Albemarle",
+   "date": "1769-05-11",
+   "date_confidence": "attested day. Coordinate corrected about 375 m east of the pool value.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1769,
+   "jd_ut": 2367304.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 20.5,
+    "text": "Taurus 20°30′",
+    "longitude": 50.496
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 28.75,
+    "text": "Cancer 28°45′",
+    "longitude": 118.753
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 10.28,
+    "text": "Taurus 10°17′",
+    "longitude": 40.283
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 21.58,
+    "text": "Gemini 21°35′",
+    "longitude": 81.583
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 12.58,
+    "text": "Cancer 12°35′",
+    "longitude": 102.576
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 17.88,
+    "text": "Scorpio 17°53′",
+    "longitude": 227.877
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 14.38,
+    "text": "Cancer 14°23′",
+    "longitude": 104.375
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Mountain and the Declaration",
+   "stop": "The Forest, the marriage to Martha Wayles Skelton",
+   "date": "1772-01-01",
+   "date_confidence": "attested day (Memorandum Books, 1 January 1772). Coordinate approximate: the house no longer stands.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1772,
+   "jd_ut": 2368269.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (approximately) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.231
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 22.02,
+    "text": "Scorpio 22°01′",
+    "longitude": 232.019
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 27.95,
+    "text": "Capricornus 27°57′",
+    "longitude": 297.95
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 27.17,
+    "text": "Capricornus 27°10′",
+    "longitude": 297.173
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 0.21,
+    "text": "Capricornus 0°12′",
+    "longitude": 270.207
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.91,
+    "text": "Aquarius 2°55′",
+    "longitude": 302.913
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 29.5,
+    "text": "Leo 29°30′",
+    "longitude": 149.498
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Mountain and the Declaration",
+   "stop": "Independence Hall, the Second Continental Congress",
+   "date": "1775-06-01",
+   "date_confidence": "attested year; month set to his arrival in Philadelphia, day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1775,
+   "jd_ut": 2369516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.23,
+    "text": "Gemini 10°14′",
+    "longitude": 70.233
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Mountain and the Declaration",
+   "stop": "The Graff house, the drafting",
+   "date": "1776-06-11",
+   "date_confidence": "attested: the committee of five is named 11 June 1776 and the draft is written over the following weeks.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1776,
+   "jd_ut": 2369892.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 20.52,
+    "text": "Gemini 20°31′",
+    "longitude": 80.518
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 14.51,
+    "text": "Aries 14°30′",
+    "longitude": 14.508
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 14.91,
+    "text": "Cancer 14°55′",
+    "longitude": 104.909
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 3.88,
+    "text": "Gemini 3°53′",
+    "longitude": 63.884
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 4.81,
+    "text": "Gemini 4°48′",
+    "longitude": 64.807
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 0.45,
+    "text": "Cancer 0°27′",
+    "longitude": 90.453
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 14.61,
+    "text": "Libra 14°36′",
+    "longitude": 194.605
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Mountain and the Declaration",
+   "stop": "Independence Hall, the adoption",
+   "date": "1776-07-04",
+   "date_confidence": "attested day of adoption; the engrossed copy is signed later.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1776,
+   "jd_ut": 2369915.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.45,
+    "text": "Cancer 12°27′",
+    "longitude": 102.453
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 13.81,
+    "text": "Aquarius 13°49′",
+    "longitude": 313.809
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 24.6,
+    "text": "Cancer 24°36′",
+    "longitude": 114.599
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 1.99,
+    "text": "Cancer 1°59′",
+    "longitude": 91.988
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 20.75,
+    "text": "Gemini 20°45′",
+    "longitude": 80.754
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 5.68,
+    "text": "Cancer 5°41′",
+    "longitude": 95.675
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 14.83,
+    "text": "Libra 14°50′",
+    "longitude": 194.827
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The War in Virginia",
+   "stop": "Williamsburg, the bill for religious freedom",
+   "date": "1777-01-01",
+   "date_confidence": "drafting year corrected to 1777 (the pool dated it 1779, which is the year of introduction); enacted 16 January 1786. Month and day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1777,
+   "jd_ut": 2370096.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.03,
+    "text": "Capricornus 11°02′",
+    "longitude": 281.033
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War in Virginia",
+   "stop": "The Governor's Palace, the war governor",
+   "date": "1779-06-01",
+   "date_confidence": "attested month of election; day defaulted to 01. Coordinate corrected about 660 m west of the pool value, which fell off Palace Green.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1779,
+   "jd_ut": 2370977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.27,
+    "text": "Gemini 10°16′",
+    "longitude": 70.265
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War in Virginia",
+   "stop": "Richmond, the flight before Arnold",
+   "date": "1781-01-05",
+   "date_confidence": "attested: Arnold enters Richmond 5 January 1781.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371561.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.14,
+    "text": "Capricornus 15°08′",
+    "longitude": 285.14
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.89,
+    "text": "Taurus 8°53′",
+    "longitude": 38.887
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 22.12,
+    "text": "Sagittarius 22°07′",
+    "longitude": 262.118
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 9.1,
+    "text": "Sagittarius 9°06′",
+    "longitude": 249.102
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 13.42,
+    "text": "Scorpio 13°25′",
+    "longitude": 223.418
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 21.17,
+    "text": "Scorpio 21°10′",
+    "longitude": 231.169
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 14.72,
+    "text": "Sagittarius 14°43′",
+    "longitude": 254.717
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The War in Virginia",
+   "stop": "Monticello, Tarleton's dragoons",
+   "date": "1781-06-04",
+   "date_confidence": "attested day of the raid; the pool's chronology lens gave only the year.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371711.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.63,
+    "text": "Gemini 13°38′",
+    "longitude": 73.63
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War in Virginia",
+   "stop": "Poplar Forest, the refuge and the Notes",
+   "date": "1781-07-01",
+   "date_confidence": "attested that he retreats there after the June raid and stays several weeks; day defaulted to 01. Coordinate corrected about 6 km southeast of the pool value.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371738.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.39,
+    "text": "Cancer 9°24′",
+    "longitude": 99.395
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War in Virginia",
+   "stop": "Monticello, the death of Martha",
+   "date": "1782-09-06",
+   "date_confidence": "attested day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1782,
+   "jd_ut": 2372170.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 13.46,
+    "text": "Virgo 13°27′",
+    "longitude": 163.457
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 23.24,
+    "text": "Leo 23°14′",
+    "longitude": 143.237
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 14.01,
+    "text": "Virgo 14°01′",
+    "longitude": 164.012
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 13.86,
+    "text": "Leo 13°52′",
+    "longitude": 133.864
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 9.21,
+    "text": "Virgo 9°13′",
+    "longitude": 159.214
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 19.86,
+    "text": "Sagittarius 19°51′",
+    "longitude": 259.856
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 24.53,
+    "text": "Sagittarius 24°32′",
+    "longitude": 264.528
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Atlantic Crossing",
+   "stop": "Annapolis, the Confederation Congress",
+   "date": "1783-11-01",
+   "date_confidence": "attested: elected June 1783, serving November 1783 to May 1784 while Congress sat at Annapolis. The pool's 'Annapolis/Philadelphia' is corrected: Congress had left Philadelphia in June 1783.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1783,
+   "jd_ut": 2372591.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.49,
+    "text": "Scorpio 8°29′",
+    "longitude": 218.489
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Atlantic Crossing",
+   "stop": "Boston Harbor, the Ceres",
+   "date": "1784-07-05",
+   "date_confidence": "attested day (Memorandum Books).",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372838.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 13.47,
+    "text": "Cancer 13°28′",
+    "longitude": 103.47
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 11.5,
+    "text": "Aquarius 11°30′",
+    "longitude": 311.496
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.73,
+    "text": "Gemini 22°44′",
+    "longitude": 82.729
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 3.89,
+    "text": "Cancer 3°53′",
+    "longitude": 93.888
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 11.63,
+    "text": "Leo 11°38′",
+    "longitude": 131.628
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 7.7,
+    "text": "Pisces 7°42′",
+    "longitude": 337.701
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 20.99,
+    "text": "Capricornus 20°59′",
+    "longitude": 290.99
+   }
+  },
+  {
+   "segment": "The Atlantic Crossing",
+   "stop": "Le Havre, the crossing from England",
+   "date": "1784-07-31",
+   "date_confidence": "corrected: the pool dated the landfall 1784-08 and called it the end of the Atlantic crossing. The Ceres put in at West Cowes on 26 July; Jefferson crossed the Channel and landed at Le Havre on 31 July, reaching Paris 6 August.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372864.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.29,
+    "text": "Leo 8°18′",
+    "longitude": 128.295
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 19.77,
+    "text": "Capricornus 19°46′",
+    "longitude": 289.771
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 5.34,
+    "text": "Leo 5°20′",
+    "longitude": 125.336
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 5.86,
+    "text": "Leo 5°51′",
+    "longitude": 125.857
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 27.92,
+    "text": "Leo 27°55′",
+    "longitude": 147.923
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 5.95,
+    "text": "Pisces 5°57′",
+    "longitude": 335.955
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 19.11,
+    "text": "Capricornus 19°07′",
+    "longitude": 289.112
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Atlantic Crossing",
+   "stop": "The Hotel de Langeac, Franklin's successor",
+   "date": "1785-05-01",
+   "date_confidence": "attested year of appointment as Minister to France; the Langeac lease runs 1785-1789. Month and day approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1785,
+   "jd_ut": 2373138.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "to the year",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.96,
+    "text": "Taurus 10°57′",
+    "longitude": 40.958
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Minister in Europe",
+   "stop": "Grosvenor Square, London: presented to the king",
+   "date": "1786-03-01",
+   "date_confidence": "attested month; day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1786,
+   "jd_ut": 2373442.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.63,
+    "text": "Pisces 10°38′",
+    "longitude": 340.625
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Minister in Europe",
+   "stop": "Nimes, the Maison Carree",
+   "date": "1787-03-01",
+   "date_confidence": "attested month of the southern tour; day defaulted to 01. The pool's causal claim is corrected: the Virginia Capitol design was made in 1785-1786 from engravings, before he saw the building.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373807.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.38,
+    "text": "Pisces 10°23′",
+    "longitude": 340.382
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Minister in Europe",
+   "stop": "Turin, the rice of Piedmont",
+   "date": "1787-04-15",
+   "date_confidence": "attested month; day approximate. The Milanese smuggling story is [R], a tradition repeated in the biographies and absent from his own journal.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373852.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 24.92,
+    "text": "Aries 24°55′",
+    "longitude": 24.921
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Minister in Europe",
+   "stop": "Paris, the arrival of Sally Hemings",
+   "date": "1787-07-01",
+   "date_confidence": "[R]. Year attested; month and day approximate. The claim that a sexual relationship begins in this period is the position of historians reading the Monticello documentary and DNA findings, not a documented event.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1787,
+   "jd_ut": 2373929.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "to the year",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.97,
+    "text": "Cancer 8°58′",
+    "longitude": 98.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Minister in Europe",
+   "stop": "Amsterdam, the Dutch loans",
+   "date": "1788-03-01",
+   "date_confidence": "attested month; day defaulted to 01. The Rhine return through Frankfurt and Strasbourg is April 1788.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1788,
+   "jd_ut": 2374173.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 11.14,
+    "text": "Pisces 11°08′",
+    "longitude": 341.141
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Minister in Europe",
+   "stop": "Versailles, Lafayette's declaration",
+   "date": "1789-07-11",
+   "date_confidence": "attested day. Coordinate inherited unchanged from the Versailles pin used in marques_de_lafayette.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1789,
+   "jd_ut": 2374670.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 18.99,
+    "text": "Cancer 19°00′",
+    "longitude": 108.992
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 29.84,
+    "text": "Aquarius 29°51′",
+    "longitude": 329.844
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 25.71,
+    "text": "Cancer 25°42′",
+    "longitude": 115.708
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 0.17,
+    "text": "Leo 0°10′",
+    "longitude": 120.173
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 5.75,
+    "text": "Gemini 5°45′",
+    "longitude": 65.753
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 5.91,
+    "text": "Leo 5°55′",
+    "longitude": 125.914
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 23.13,
+    "text": "Pisces 23°08′",
+    "longitude": 353.13
+   }
+  },
+  {
+   "segment": "The New Government",
+   "stop": "Federal Hall, New York: the first Secretary of State",
+   "date": "1790-03-21",
+   "date_confidence": "corrected: nominated and confirmed September 1789, accepted 14 February 1790, assumed office at New York in March 1790. Sources give 21 or 22 March; the pool carried 22.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1790,
+   "jd_ut": 2374923.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 0.59,
+    "text": "Aries 0°35′",
+    "longitude": 0.588
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 27.19,
+    "text": "Taurus 27°12′",
+    "longitude": 57.193
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 2.97,
+    "text": "Pisces 2°58′",
+    "longitude": 332.968
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 26.77,
+    "text": "Pisces 26°46′",
+    "longitude": 356.768
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 12.48,
+    "text": "Leo 12°29′",
+    "longitude": 132.484
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 22.41,
+    "text": "Leo 22°24′",
+    "longitude": 142.407
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 26.5,
+    "text": "Pisces 26°30′",
+    "longitude": 356.5
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The New Government",
+   "stop": "Philadelphia, the quarrel with Hamilton",
+   "date": "1790-12-01",
+   "date_confidence": "attested that the capital moves to Philadelphia in 1790; month set to the removal, day defaulted to 01. Coordinate corrected to the President's House site at Sixth and Market; note that Jefferson kept his own lodgings and offices on Market Street rather than working there.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1790,
+   "jd_ut": 2375178.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.07,
+    "text": "Sagittarius 9°04′",
+    "longitude": 249.068
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The New Government",
+   "stop": "Philadelphia, the resignation",
+   "date": "1793-12-31",
+   "date_confidence": "attested day. The Germantown interlude is corrected to November 1793; the pool dated it September, which is when officials scattered rather than when the cabinet reconvened.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1793,
+   "jd_ut": 2376304.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.88,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.883
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Presidency",
+   "stop": "Washington, the first inauguration in the new city",
+   "date": "1801-03-04",
+   "date_confidence": "attested day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1801,
+   "jd_ut": 2378923.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 12.99,
+    "text": "Pisces 12°59′",
+    "longitude": 342.991
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 23.73,
+    "text": "Libra 23°44′",
+    "longitude": 203.726
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 27.27,
+    "text": "Pisces 27°16′",
+    "longitude": 357.272
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 28.65,
+    "text": "Aries 28°39′",
+    "longitude": 28.647
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 7.08,
+    "text": "Gemini 7°05′",
+    "longitude": 67.076
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.87,
+    "text": "Cancer 24°52′",
+    "longitude": 114.868
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 18.96,
+    "text": "Leo 18°58′",
+    "longitude": 138.96
+   }
+  },
+  {
+   "segment": "The Presidency",
+   "stop": "The President's House, the letter to Danbury",
+   "date": "1802-01-01",
+   "date_confidence": "attested day. Coordinate inherited unchanged from the President's House pin used in humboldt.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1802,
+   "jd_ut": 2379226.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.943
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Presidency",
+   "stop": "Washington, Louisiana and the Corps of Discovery",
+   "date": "1803-04-30",
+   "date_confidence": "corrected: the pool dated the expedition's commission to 1804. Congress funded it in January and February 1803 and Lewis received his instructions in June 1803; the Corps left Camp Dubois 14 May 1804. The purchase treaty is signed 30 April 1803 and ratified in October.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1803,
+   "jd_ut": 2379710.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 8.68,
+    "text": "Taurus 8°41′",
+    "longitude": 38.675
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 23.18,
+    "text": "Leo 23°11′",
+    "longitude": 143.181
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 4.44,
+    "text": "Taurus 4°26′",
+    "longitude": 34.44
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 27.35,
+    "text": "Pisces 27°21′",
+    "longitude": 357.352
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 23.8,
+    "text": "Cancer 23°48′",
+    "longitude": 113.803
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 26.77,
+    "text": "Virgo 26°46′",
+    "longitude": 176.769
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 14.16,
+    "text": "Virgo 14°09′",
+    "longitude": 164.155
+   }
+  },
+  {
+   "segment": "The Presidency",
+   "stop": "The President's House, Humboldt at the table",
+   "date": "1804-06-01",
+   "date_confidence": "attested day. Coordinate inherited unchanged from humboldt.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1804,
+   "jd_ut": 2380108.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.22,
+    "text": "Gemini 10°13′",
+    "longitude": 70.225
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Presidency",
+   "stop": "Poplar Forest, the octagon",
+   "date": "1806-01-01",
+   "date_confidence": "attested year of design and start of building; work continues to 1826. Month and day defaulted to 01. Coordinate corrected about 6 km southeast of the pool value.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1806,
+   "jd_ut": 2380687.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.972
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Presidency",
+   "stop": "Washington, the Embargo",
+   "date": "1807-01-01",
+   "date_confidence": "year attested in the verified pool; month and day defaulted to 01. The Embargo Act is in fact signed in December 1807, a date the pool does not carry.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1807,
+   "jd_ut": 2381052.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.725
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Monticello Again",
+   "stop": "Monticello, the retirement",
+   "date": "1809-03-04",
+   "date_confidence": "attested day of Madison's inauguration; Jefferson rides home some days later.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1809,
+   "jd_ut": 2381845.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 13.05,
+    "text": "Pisces 13°03′",
+    "longitude": 343.051
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 6.89,
+    "text": "Libra 6°54′",
+    "longitude": 186.894
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 15.54,
+    "text": "Pisces 15°33′",
+    "longitude": 345.543
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 28.9,
+    "text": "Aries 28°54′",
+    "longitude": 28.896
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 27.19,
+    "text": "Libra 27°11′",
+    "longitude": 207.189
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 26.8,
+    "text": "Pisces 26°48′",
+    "longitude": 356.803
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 3.53,
+    "text": "Sagittarius 3°32′",
+    "longitude": 243.528
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Monticello Again",
+   "stop": "Monticello, the library sold to Congress",
+   "date": "1815-01-01",
+   "date_confidence": "attested month of the congressional acquisition; day defaulted to 01. Volume count corrected: he offered some 6,707 and 6,487 were received.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1815,
+   "jd_ut": 2383974.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.78,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.784
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Monticello Again",
+   "stop": "Monticello, the gospels cut with a razor",
+   "date": "1819-01-01",
+   "date_confidence": "attested period 1819-1820; month and day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1819,
+   "jd_ut": 2385435.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.813
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Monticello Again",
+   "stop": "The Rotunda, the Academical Village",
+   "date": "1825-01-01",
+   "date_confidence": "first classes attested in 1825; month and day defaulted to 01. The university is chartered in 1819 and building runs to 1826.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1825,
+   "jd_ut": 2387627.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.367
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fourth of July, and the Ground After",
+   "stop": "Monticello, the fiftieth Fourth of July",
+   "date": "1826-07-04",
+   "date_confidence": "attested day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2388176.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 11.42,
+    "text": "Cancer 11°25′",
+    "longitude": 101.423
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 26.26,
+    "text": "Gemini 26°16′",
+    "longitude": 86.264
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 22.17,
+    "text": "Cancer 22°10′",
+    "longitude": 112.171
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 11.09,
+    "text": "Leo 11°05′",
+    "longitude": 131.088
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 7.45,
+    "text": "Scorpio 7°27′",
+    "longitude": 217.451
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 9.9,
+    "text": "Virgo 9°54′",
+    "longitude": 159.898
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 27.7,
+    "text": "Gemini 27°42′",
+    "longitude": 87.704
+   }
+  },
+  {
+   "segment": "The Fourth of July, and the Ground After",
+   "stop": "The Monticello graveyard, the obelisk he designed",
+   "date": "1826-07-05",
+   "date_confidence": "attested day of burial. Coordinate from the geography lens; the afterlife lens gave a different pin for the same graveyard (38.0083, -78.4531), a contradiction left unresolved. See report.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2388177.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.38,
+    "text": "Cancer 12°23′",
+    "longitude": 102.376
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fourth of July, and the Ground After",
+   "stop": "Columbia, Missouri: the chipped stone",
+   "date": "1885-06-04",
+   "date_confidence": "attested day of the campus dedication; the original stone is presented in July 1883 and the replacement obelisk raised at Monticello in 1883. The pool's claim that descendants and Congress jointly funded the replacement is corrected: Congress appropriated 10,000 dollars in 1882.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409696.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.5,
+    "text": "Gemini 13°30′",
+    "longitude": 73.5
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fourth of July, and the Ground After",
+   "stop": "West Potomac Park, the memorial",
+   "date": "1943-04-13",
+   "date_confidence": "attested day, his two hundredth birthday.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430827.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.21,
+    "text": "Aries 22°13′",
+    "longitude": 22.211
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 26.23,
+    "text": "Cancer 26°14′",
+    "longitude": 116.235
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 1.65,
+    "text": "Taurus 1°39′",
+    "longitude": 31.653
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 26.63,
+    "text": "Taurus 26°38′",
+    "longitude": 56.628
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 26.65,
+    "text": "Aquarius 26°39′",
+    "longitude": 326.654
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 16.76,
+    "text": "Cancer 16°45′",
+    "longitude": 106.756
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 9.11,
+    "text": "Gemini 9°07′",
+    "longitude": 69.111
+   }
+  },
+  {
+   "segment": "The Fourth of July, and the Ground After",
+   "stop": "Monticello, the room beside his bedroom",
+   "date": "2017-01-01",
+   "date_confidence": "attested year of the identification and restoration; month and day defaulted to 01. The DNA study is 1998 and the foundation's report is 2000, hardened into a definitive statement by 2018.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2017,
+   "jd_ut": 2457754.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.76,
+    "text": "Capricornus 10°46′",
+    "longitude": 280.764
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 16,
+  "month": 5,
+  "year": 24
+ },
+ "parse_failures": []
+}

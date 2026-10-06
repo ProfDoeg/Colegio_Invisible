@@ -1,0 +1,2024 @@
+{
+ "slug": "miguel_de_cervantes",
+ "traveler": "Miguel de Cervantes Saavedra",
+ "title": "The Maimed Hand: Lepanto, the Bagnos of Algiers, and the Book Begotten in a Prison",
+ "years": "1547-1616",
+ "years_parsed": {
+  "first": 1547,
+  "last": 1616
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Surgeon's Son on the Roads of Castile",
+  "stop": "Alcala de Henares, the baptism at Santa Maria la Mayor",
+  "date": "1547-10-09",
+  "date_confidence": "attested: the baptismal entry of 9 October 1547 survives in the register of Santa Maria la Mayor. The birth date does not. The traditional 29 September is a back-formation from the name Miguel and the feast of Saint Michael, not a record of anything. The church itself was destroyed in 1936 in the Civil War; the tower, the Capilla del Oidor, and a 1905 reconstruction of the font are what stand.",
+  "calendar_applied": "gregorian (proleptic)",
+  "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+  "astronomical_year": 1547,
+  "jd_ut": 2286370.5,
+  "precision": "year",
+  "precision_triggers": [
+   "traditional",
+   "(soft-year) year named with preposition",
+   "(soft) reconstruct"
+  ],
+  "sun": {
+   "sign": "Libra",
+   "degree": 14.76,
+   "text": "Libra 14°46′",
+   "longitude": 194.759
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1547-1616",
+  "first_year_parsed": 1547
+ },
+ "stops": [
+  {
+   "segment": "The Surgeon's Son on the Roads of Castile",
+   "stop": "Alcala de Henares, the baptism at Santa Maria la Mayor",
+   "date": "1547-10-09",
+   "date_confidence": "attested: the baptismal entry of 9 October 1547 survives in the register of Santa Maria la Mayor. The birth date does not. The traditional 29 September is a back-formation from the name Miguel and the feast of Saint Michael, not a record of anything. The church itself was destroyed in 1936 in the Civil War; the tower, the Capilla del Oidor, and a 1905 reconstruction of the font are what stand.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1547,
+   "jd_ut": 2286370.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 14.76,
+    "text": "Libra 14°46′",
+    "longitude": 194.759
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surgeon's Son on the Roads of Castile",
+   "stop": "Valladolid, the father in the debtors' prison",
+   "date": "1553-10-01",
+   "date_confidence": "attested as an event, contested as to date. en.wikipedia dates the imprisonment October 1553 to April 1554; es.wikipedia dates the family's move to Valladolid to c. 1551 with the jailing following. The dossier's two lenses carried 1551 and 1553 against each other. The conflict is recorded, not settled.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1553,
+   "jd_ut": 2288554.5,
+   "precision": "month",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.38,
+    "text": "Libra 7°23′",
+    "longitude": 187.384
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surgeon's Son on the Roads of Castile",
+   "stop": "Cordoba, the inheritance and the creditors",
+   "date": "1556-01-01",
+   "date_confidence": "reconstruction. es.wikipedia gives 1556 for the father's move to Cordoba, to claim an inheritance and to put distance between himself and his Valladolid creditors. Month unknown, defaulted to January. The dossier's earlier range beginning 1553 is wrong at the front end.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1556,
+   "jd_ut": 2289376.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.665
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surgeon's Son on the Roads of Castile",
+   "stop": "Seville, the years with no record",
+   "date": "1564-01-01",
+   "date_confidence": "reconstruction, not independently fetched this pass. The family is placed in Seville c. 1564-1566 by the standard biographies. Nothing documents Miguel here personally. Month unknown, defaulted to January.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1564,
+   "jd_ut": 2292298.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "unknown",
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.723
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surgeon's Son on the Roads of Castile",
+   "stop": "Madrid, the school of Juan Lopez de Hoyos",
+   "date": "1567-01-01",
+   "date_confidence": "attested for the 1569 printing, reconstructed for the years of study. The exact location of the estudio within Madrid is unknown, so the canonical Madrid pin is used. Month of the enrolment unknown, defaulted to January.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1567,
+   "jd_ut": 2293394.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.0
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surgeon's Son on the Roads of Castile",
+   "stop": "Madrid, the warrant for the right hand",
+   "date": "1569-09-15",
+   "date_confidence": "the document is attested and dated 15 September 1569; the identification is not certain. Most biographers take this fugitive Miguel de Cervantes to be the writer and read his sudden appearance in Italy that same year as flight. The name is not unique and no source settles it.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1569,
+   "jd_ut": 2294382.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 21.78,
+    "text": "Virgo 21°47′",
+    "longitude": 171.785
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 6.56,
+    "text": "Cancer 6°33′",
+    "longitude": 96.555
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 6.88,
+    "text": "Virgo 6°53′",
+    "longitude": 156.877
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 8.51,
+    "text": "Leo 8°31′",
+    "longitude": 128.511
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 23.98,
+    "text": "Cancer 23°59′",
+    "longitude": 113.983
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 3.15,
+    "text": "Capricornus 3°09′",
+    "longitude": 273.146
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 9.83,
+    "text": "Libra 9°50′",
+    "longitude": 189.827
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Libra",
+     "degree": 1.59,
+     "text": "Libra 1°36′",
+     "longitude": 181.594
+    },
+    "moon": {
+     "sign": "Scorpio",
+     "degree": 28.95,
+     "text": "Scorpio 28°57′",
+     "longitude": 238.948
+    },
+    "mercury": {
+     "sign": "Virgo",
+     "degree": 14.46,
+     "text": "Virgo 14°28′",
+     "longitude": 164.459
+    },
+    "venus": {
+     "sign": "Leo",
+     "degree": 16.23,
+     "text": "Leo 16°14′",
+     "longitude": 136.231
+    },
+    "mars": {
+     "sign": "Cancer",
+     "degree": 29.96,
+     "text": "Cancer 29°58′",
+     "longitude": 119.961
+    },
+    "jupiter": {
+     "sign": "Capricornus",
+     "degree": 3.8,
+     "text": "Capricornus 3°48′",
+     "longitude": 273.801
+    },
+    "saturn": {
+     "sign": "Libra",
+     "degree": 11.02,
+     "text": "Libra 11°01′",
+     "longitude": 191.024
+    }
+   }
+  },
+  {
+   "segment": "Italy, and the Greatest Occasion",
+   "stop": "Rome, the household of Giulio Acquaviva",
+   "date": "1569-12-01",
+   "date_confidence": "attested for the service, reconstructed for the month. Cervantes Project and en.wikipedia both place him in Acquaviva's household in Rome in 1569, before the prelate's elevation to cardinal in 1570.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1569,
+   "jd_ut": 2294459.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.7,
+    "text": "Sagittarius 8°42′",
+    "longitude": 248.7
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Italy, and the Greatest Occasion",
+   "stop": "Naples, enlistment in the company of Diego de Urbina",
+   "date": "1570-01-01",
+   "date_confidence": "attested that he enlisted in 1570; the unit is contradicted between sources and the contradiction is stated in the campa rather than resolved. Month unknown, defaulted to January.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1570,
+   "jd_ut": 2294490.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.277
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Italy, and the Greatest Occasion",
+   "stop": "Gulf of Patras, the seventh of October",
+   "date": "1571-10-07",
+   "date_confidence": "attested. The wounds, the galley Marquesa, and the refusal to stay below are given consistently in the biographical record and confirmed in substance by Cervantes himself in the 1613 preface to the Novelas ejemplares.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1571,
+   "jd_ut": 2295134.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 12.96,
+    "text": "Libra 12°58′",
+    "longitude": 192.961
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 20.28,
+    "text": "Capricornus 20°17′",
+    "longitude": 290.278
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 28.74,
+    "text": "Libra 28°45′",
+    "longitude": 208.743
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 23.63,
+    "text": "Virgo 23°38′",
+    "longitude": 173.633
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 20.76,
+    "text": "Leo 20°46′",
+    "longitude": 140.758
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 15.13,
+    "text": "Pisces 15°08′",
+    "longitude": 345.135
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 3.58,
+    "text": "Scorpio 3°35′",
+    "longitude": 213.581
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Libra",
+     "degree": 22.89,
+     "text": "Libra 22°54′",
+     "longitude": 202.893
+    },
+    "moon": {
+     "sign": "Gemini",
+     "degree": 8.32,
+     "text": "Gemini 8°19′",
+     "longitude": 68.317
+    },
+    "mercury": {
+     "sign": "Scorpio",
+     "degree": 13.15,
+     "text": "Scorpio 13°09′",
+     "longitude": 223.152
+    },
+    "venus": {
+     "sign": "Libra",
+     "degree": 6.09,
+     "text": "Libra 6°05′",
+     "longitude": 186.089
+    },
+    "mars": {
+     "sign": "Leo",
+     "degree": 26.69,
+     "text": "Leo 26°41′",
+     "longitude": 146.686
+    },
+    "jupiter": {
+     "sign": "Pisces",
+     "degree": 14.24,
+     "text": "Pisces 14°14′",
+     "longitude": 344.237
+    },
+    "saturn": {
+     "sign": "Scorpio",
+     "degree": 4.75,
+     "text": "Scorpio 4°45′",
+     "longitude": 214.747
+    }
+   }
+  },
+  {
+   "segment": "Italy, and the Greatest Occasion",
+   "stop": "Messina, six months in the hospital",
+   "date": "1571-11-01",
+   "date_confidence": "attested for the hospitalization and the pay increase; the month of admission is inferred from the fleet's return to Messina after the battle.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1571,
+   "jd_ut": 2295159.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.89,
+    "text": "Scorpio 7°54′",
+    "longitude": 217.893
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Italy, and the Greatest Occasion",
+   "stop": "Navarino, the war that does not end at Lepanto",
+   "date": "1572-10-01",
+   "date_confidence": "reconstruction. The post-Lepanto Greek operations at Corfu, Navarino, and Modon are named in the standard biographies and in the dossier chronology, none of it independently fetched this pass. Month approximate, set to order the segment.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1572,
+   "jd_ut": 2295494.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.78,
+    "text": "Libra 7°47′",
+    "longitude": 187.777
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Italy, and the Greatest Occasion",
+   "stop": "La Goleta, the taking of Tunis",
+   "date": "1573-10-01",
+   "date_confidence": "reconstruction as to his personal presence, attested as to the expedition. The dossier's range 1573-1574 was wrong: the 1574 events at La Goleta are the Ottoman recapture, which he was not part of. es.wikipedia places him in 1574-1575 in Sicily, Sardinia, Genoa, Lombardy, and Naples.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1573,
+   "jd_ut": 2295859.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.54,
+    "text": "Libra 7°32′",
+    "longitude": 187.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Algiers: Five Years and Four Attempts",
+   "stop": "Off Palamos, the galley El Sol",
+   "date": "1575-09-26",
+   "date_confidence": "attested. en.wikipedia gives the capture as approaching Barcelona on 26 September 1575. The precise position off the Catalan coast is approximate; Palamos is the conventional landfall named in the biographies.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1575,
+   "jd_ut": 2296584.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (approximately, convention) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 2.13,
+    "text": "Libra 2°08′",
+    "longitude": 182.133
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 14.2,
+    "text": "Aquarius 14°12′",
+    "longitude": 314.201
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 16.33,
+    "text": "Virgo 16°20′",
+    "longitude": 166.332
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 18.02,
+    "text": "Scorpio 18°01′",
+    "longitude": 228.02
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 9.2,
+    "text": "Virgo 9°12′",
+    "longitude": 159.198
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 6.78,
+    "text": "Leo 6°47′",
+    "longitude": 126.783
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 14.29,
+    "text": "Sagittarius 14°17′",
+    "longitude": 254.286
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Libra",
+     "degree": 12.0,
+     "text": "Libra 12°00′",
+     "longitude": 192.001
+    },
+    "moon": {
+     "sign": "Gemini",
+     "degree": 28.49,
+     "text": "Gemini 28°29′",
+     "longitude": 88.491
+    },
+    "mercury": {
+     "sign": "Virgo",
+     "degree": 25.13,
+     "text": "Virgo 25°08′",
+     "longitude": 175.13
+    },
+    "venus": {
+     "sign": "Scorpio",
+     "degree": 28.63,
+     "text": "Scorpio 28°38′",
+     "longitude": 238.628
+    },
+    "mars": {
+     "sign": "Virgo",
+     "degree": 15.52,
+     "text": "Virgo 15°31′",
+     "longitude": 165.521
+    },
+    "jupiter": {
+     "sign": "Leo",
+     "degree": 8.36,
+     "text": "Leo 8°22′",
+     "longitude": 128.362
+    },
+    "saturn": {
+     "sign": "Sagittarius",
+     "degree": 14.95,
+     "text": "Sagittarius 14°57′",
+     "longitude": 254.95
+    }
+   }
+  },
+  {
+   "segment": "Algiers: Five Years and Four Attempts",
+   "stop": "Algiers, the letters that set the price",
+   "date": "1575-10-01",
+   "date_confidence": "attested for the captivity and the ransom economy; the assignment to Dali Mami and the month of arrival are reconstruction from the standard biographies and the 1580 depositions.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1575,
+   "jd_ut": 2296589.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.06,
+    "text": "Libra 7°04′",
+    "longitude": 187.06
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Algiers: Five Years and Four Attempts",
+   "stop": "Near Oran, the guide who abandons them",
+   "date": "1576-01-01",
+   "date_confidence": "reconstruction. The first escape attempt is known only from the depositions gathered for the Informacion de Argel in 1580, which were not read in the original or in a scholarly edition this pass. Month unknown, defaulted to January.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1576,
+   "jd_ut": 2296681.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.81,
+    "text": "Capricornus 9°49′",
+    "longitude": 279.811
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Algiers: Five Years and Four Attempts",
+   "stop": "Coastal cave east of Algiers, El Dorador",
+   "date": "1577-09-01",
+   "date_confidence": "reconstruction. The cave's precise place on the coast is not fixed in any record and the coordinates are approximate. Month set to order the segment. Source is the 1580 depositions as relayed by the standard biographies.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1577,
+   "jd_ut": 2297290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "not fixed",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.21,
+    "text": "Virgo 8°12′",
+    "longitude": 158.206
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Algiers: Five Years and Four Attempts",
+   "stop": "Algiers, Hasan Pasha's bagno",
+   "date": "1577-10-01",
+   "date_confidence": "reconstruction as to the location within Algiers, which is approximated, and as to the months. The third attempt of 1578, a letter carried overland to Oran whose messenger was impaled, is folded into this stop and rests on the same depositions.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1577,
+   "jd_ut": 2297320.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.57,
+    "text": "Libra 7°34′",
+    "longitude": 187.569
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Algiers: Five Years and Four Attempts",
+   "stop": "Algiers, the sixty men of Onofre Exarque",
+   "date": "1579-09-01",
+   "date_confidence": "reconstruction. Fourth attempt, 1579, from the 1580 depositions as relayed in the standard biographies; not independently fetched this pass. Month approximate.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1579,
+   "jd_ut": 2298020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.74,
+    "text": "Virgo 7°44′",
+    "longitude": 157.736
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Algiers: Five Years and Four Attempts",
+   "stop": "Algiers, five hundred gold escudos",
+   "date": "1580-09-19",
+   "date_confidence": "attested. The ransom of 500 gold escudos, completed 19 September 1580 by Fray Juan Gil, is confirmed in es.wikipedia and the standard chronologies. The detail that Hasan Pasha's galleys were already loading for Constantinople is traditional.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1580,
+   "jd_ut": 2298404.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 26.03,
+    "text": "Virgo 26°02′",
+    "longitude": 176.032
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 24.35,
+    "text": "Virgo 24°21′",
+    "longitude": 174.348
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 22.05,
+    "text": "Libra 22°03′",
+    "longitude": 202.05
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 22.4,
+    "text": "Libra 22°24′",
+    "longitude": 202.398
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 9.61,
+    "text": "Gemini 9°36′",
+    "longitude": 69.607
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 8.26,
+    "text": "Sagittarius 8°15′",
+    "longitude": 248.258
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 10.73,
+    "text": "Aquarius 10°44′",
+    "longitude": 310.733
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Libra",
+     "degree": 5.87,
+     "text": "Libra 5°52′",
+     "longitude": 185.865
+    },
+    "moon": {
+     "sign": "Aquarius",
+     "degree": 9.27,
+     "text": "Aquarius 9°16′",
+     "longitude": 309.269
+    },
+    "mercury": {
+     "sign": "Libra",
+     "degree": 26.98,
+     "text": "Libra 26°59′",
+     "longitude": 206.981
+    },
+    "venus": {
+     "sign": "Libra",
+     "degree": 19.66,
+     "text": "Libra 19°40′",
+     "longitude": 199.663
+    },
+    "mars": {
+     "sign": "Gemini",
+     "degree": 12.81,
+     "text": "Gemini 12°49′",
+     "longitude": 72.815
+    },
+    "jupiter": {
+     "sign": "Sagittarius",
+     "degree": 9.69,
+     "text": "Sagittarius 9°42′",
+     "longitude": 249.695
+    },
+    "saturn": {
+     "sign": "Aquarius",
+     "degree": 10.4,
+     "text": "Aquarius 10°24′",
+     "longitude": 310.398
+    }
+   }
+  },
+  {
+   "segment": "Algiers: Five Years and Four Attempts",
+   "stop": "Denia, the landing",
+   "date": "1580-10-24",
+   "date_confidence": "attested. es.wikipedia gives 24 October 1580 for the arrival at Denia, then Valencia, then Madrid by November or December. The dossier's 27 October is three days out and was corrected. Coordinates are the canonical Denia pin already in use in the corpus.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1580,
+   "jd_ut": 2298439.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 0.7,
+    "text": "Scorpio 0°42′",
+    "longitude": 210.696
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 7.61,
+    "text": "Capricornus 7°37′",
+    "longitude": 277.613
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 12.61,
+    "text": "Libra 12°37′",
+    "longitude": 192.61
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 7.24,
+    "text": "Libra 7°14′",
+    "longitude": 187.238
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 15.92,
+    "text": "Gemini 15°55′",
+    "longitude": 75.925
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.08,
+    "text": "Sagittarius 14°05′",
+    "longitude": 254.078
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 10.27,
+    "text": "Aquarius 10°16′",
+    "longitude": 310.27
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Scorpio",
+     "degree": 10.72,
+     "text": "Scorpio 10°43′",
+     "longitude": 220.724
+    },
+    "moon": {
+     "sign": "Taurus",
+     "degree": 26.49,
+     "text": "Taurus 26°29′",
+     "longitude": 56.491
+    },
+    "mercury": {
+     "sign": "Libra",
+     "degree": 23.94,
+     "text": "Libra 23°57′",
+     "longitude": 203.944
+    },
+    "venus": {
+     "sign": "Libra",
+     "degree": 7.26,
+     "text": "Libra 7°15′",
+     "longitude": 187.256
+    },
+    "mars": {
+     "sign": "Gemini",
+     "degree": 14.75,
+     "text": "Gemini 14°45′",
+     "longitude": 74.745
+    },
+    "jupiter": {
+     "sign": "Sagittarius",
+     "degree": 16.08,
+     "text": "Sagittarius 16°05′",
+     "longitude": 256.081
+    },
+    "saturn": {
+     "sign": "Aquarius",
+     "degree": 10.52,
+     "text": "Aquarius 10°31′",
+     "longitude": 310.516
+    }
+   }
+  },
+  {
+   "segment": "The Petitioner",
+   "stop": "Madrid, the Informacion de Argel",
+   "date": "1580-12-01",
+   "date_confidence": "attested that he returned to Madrid late in 1580 and that the depositions were filed; the month is approximate. Cervantes Project has him returned to his family in Madrid.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1580,
+   "jd_ut": 2298477.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.04,
+    "text": "Sagittarius 9°02′",
+    "longitude": 249.036
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Petitioner",
+   "stop": "Lisbon, the court of the new crown",
+   "date": "1581-08-01",
+   "date_confidence": "reconstruction. His presence at Lisbon in 1581, where Philip II's court was administering the newly acquired Portuguese crown, is standard in the biographies and was not independently fetched this pass. Month approximate.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1581,
+   "jd_ut": 2298720.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.35,
+    "text": "Leo 8°21′",
+    "longitude": 128.354
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Petitioner",
+   "stop": "Madrid, Isabel at Santos Justo y Pastor",
+   "date": "1584-04-09",
+   "date_confidence": "attested. The baptismal entry of 9 April 1584 at Santos Justo y Pastor was located by Emilio Maganto Pavon and supersedes the older guesswork. The dossier's 'November 1584' and its 'Ana Franca de Rojas' are both wrong: the birth is March 1584, the mother is Ana de Villafranca y Rojas. The item is raised from reconstruction to attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1584,
+   "jd_ut": 2299702.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 19.2,
+    "text": "Aries 19°12′",
+    "longitude": 19.201
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 25.57,
+    "text": "Pisces 25°34′",
+    "longitude": 355.566
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 29.82,
+    "text": "Pisces 29°49′",
+    "longitude": 359.824
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 6.02,
+    "text": "Pisces 6°01′",
+    "longitude": 336.02
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 27.2,
+    "text": "Pisces 27°12′",
+    "longitude": 357.195
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 13.42,
+    "text": "Aries 13°25′",
+    "longitude": 13.422
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 29.07,
+    "text": "Pisces 29°04′",
+    "longitude": 359.07
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Petitioner",
+   "stop": "Esquivias, the marriage to Catalina",
+   "date": "1584-12-12",
+   "date_confidence": "attested for the marriage at Esquivias in December 1584; the day is the conventional date given in the biographies. The itemized dowry is reconstruction from the standard biographies, not independently fetched this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1584,
+   "jd_ut": 2299949.5,
+   "precision": "month",
+   "precision_triggers": [
+    "convention",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 20.26,
+    "text": "Sagittarius 20°15′",
+    "longitude": 260.256
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Petitioner",
+   "stop": "Alcala de Henares, La Galatea",
+   "date": "1585-01-01",
+   "date_confidence": "attested for the publication in 1585 at Alcala de Henares; the month is not carried in the dossier and defaults to January. The death of his father Rodrigo in the same year is attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1585,
+   "jd_ut": 2299969.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.64,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.642
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Wheat",
+   "stop": "Seville, commissioner of provisions",
+   "date": "1587-01-01",
+   "date_confidence": "attested for the appointment in 1587 and the Andalusian provisioning work under Antonio de Guevara; the details of the circuit are reconstruction from the standard administrative record as relayed in the dossier. Month defaults to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1587,
+   "jd_ut": 2300699.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.147
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Wheat",
+   "stop": "Ecija, the granaries and the excommunications",
+   "date": "1588-01-01",
+   "date_confidence": "reconstruction. The excommunications for seizing church grain are standard in the biographical literature and were not independently confirmed this pass. Ecija is one town of a circuit; the date is set to order the segment.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1588,
+   "jd_ut": 2301064.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.899
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Wheat",
+   "stop": "Castro del Rio, the first prison",
+   "date": "1592-09-01",
+   "date_confidence": "attested that he was briefly jailed at Castro del Rio in 1592 by order of the corregidor of Ecija; the month is approximate. The file holds an accusation and no conviction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1592,
+   "jd_ut": 2302769.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.57,
+    "text": "Virgo 8°34′",
+    "longitude": 158.566
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Wheat",
+   "stop": "Granada, the arrears of the kingdom",
+   "date": "1594-01-01",
+   "date_confidence": "reconstruction. The 1594 commission to collect tax arrears in the kingdom of Granada and the deposit with the banker Simon Freire de Lima are drawn from general biographical consensus and were not confirmed against a fetched documentary source. Month defaults to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1594,
+   "jd_ut": 2303256.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.45,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.453
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Wheat",
+   "stop": "Seville, the royal jail",
+   "date": "1597-09-01",
+   "date_confidence": "attested by the Cervantes Project that he was jailed in Seville in 1597; the order of Judge Gaspar de Vallejo and the connection to Freire's failure are widely reported but were not confirmed against a fetched archival source this pass. Month approximate. No conviction for embezzlement is documented.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1597,
+   "jd_ut": 2304595.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.36,
+    "text": "Virgo 8°22′",
+    "longitude": 158.363
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Valladolid, and the Book",
+   "stop": "Valladolid, the house on the Calle del Rastro",
+   "date": "1603-01-01",
+   "date_confidence": "attested as to the address, which is documented by the 1605 homicide proceeding; the year of arrival is approximate and the month defaults to January. The dossier's coordinates and its street name 'Rastro de los Carneros' were both wrong and were replaced with the documented values from es.wikipedia.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1603,
+   "jd_ut": 2306543.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.265
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Valladolid, and the Book",
+   "stop": "Madrid, Juan de la Cuesta sets the first line",
+   "date": "1605-01-01",
+   "date_confidence": "attested for the publication in Madrid in January 1605 by Juan de la Cuesta for the bookseller Francisco de Robles, and for the immediate reprints and piracies.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1605,
+   "jd_ut": 2307274.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.79,
+    "text": "Capricornus 10°47′",
+    "longitude": 280.789
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Valladolid, and the Book",
+   "stop": "Valladolid, the night Gaspar de Ezpeleta is cut down",
+   "date": "1605-06-27",
+   "date_confidence": "attested. The wounding on the night of 27 June 1605 and the subsequent proceeding are documented. Ezpeleta was carried into an adjoining dwelling in the same building, not into the Cervantes lodging, and died two days later; the dossier had him dying inside their rooms on the 27th and that is corrected here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1605,
+   "jd_ut": 2307451.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 5.13,
+    "text": "Cancer 5°08′",
+    "longitude": 95.13
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 12.48,
+    "text": "Scorpio 12°29′",
+    "longitude": 222.479
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 24.33,
+    "text": "Cancer 24°20′",
+    "longitude": 114.325
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 28.58,
+    "text": "Gemini 28°35′",
+    "longitude": 88.576
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 1.8,
+    "text": "Cancer 1°48′",
+    "longitude": 91.797
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 24.51,
+    "text": "Capricornus 24°31′",
+    "longitude": 294.513
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 21.89,
+    "text": "Sagittarius 21°53′",
+    "longitude": 261.886
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Barrio de las Letras",
+   "stop": "Madrid, the court comes back",
+   "date": "1606-01-01",
+   "date_confidence": "attested that the household returned to Madrid with the court in 1606-1607; Cervantes Project gives 1607 for the settling. The street list is reconstruction from the standard biographies. The Franciscan Third Order affiliation of 1613 is reported widely and was not independently confirmed this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1606,
+   "jd_ut": 2307639.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.541
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Barrio de las Letras",
+   "stop": "Madrid, the twelve novellas and the face nobody painted",
+   "date": "1613-01-01",
+   "date_confidence": "attested for the publication of the Novelas ejemplares in 1613 and for the self-portrait in its preface. The absence of any authenticated lifetime likeness is a negative finding, reported as art-historical consensus and not disprovable from any source reached this pass.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1613,
+   "jd_ut": 2310196.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.85,
+    "text": "Capricornus 10°51′",
+    "longitude": 280.848
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Barrio de las Letras",
+   "stop": "Madrid, the false Quixote out of Tarragona",
+   "date": "1614-10-01",
+   "date_confidence": "attested that the unauthorized continuation was published at Tarragona in 1614 under the name Alonso Fernandez de Avellaneda, whose identity remains unresolved. The month of Cervantes's learning of it is approximate. The stop is placed in Madrid, where he was, and not at Tarragona, where he never went.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1614,
+   "jd_ut": 2310834.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "disputed",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.61,
+    "text": "Libra 7°36′",
+    "longitude": 187.607
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Barrio de las Letras",
+   "stop": "Madrid, the second part, and eight plays never staged",
+   "date": "1615-11-01",
+   "date_confidence": "attested for all three books: Viaje del Parnaso 1614, Ocho comedias y ocho entremeses nuevos 1615, and the authentic Segunda parte 1615. The stop is dated to the Segunda parte and gathers the other two, since they belong to the same two years of work.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1615,
+   "jd_ut": 2311230.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.22,
+    "text": "Scorpio 8°13′",
+    "longitude": 218.225
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Barrio de las Letras",
+   "stop": "Madrid, the foot in the stirrup",
+   "date": "1616-04-22",
+   "date_confidence": "attested. Death on 22 April 1616. Hidropesia, dropsy, is a description of fluid retention and not a diagnosis; retrospective guesses at diabetes, liver, cardiac, or renal disease cannot be proven and are not asserted here. Extreme unction on the eighteenth, the Persiles dedication dated the nineteenth.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1616,
+   "jd_ut": 2311403.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 2.12,
+    "text": "Taurus 2°07′",
+    "longitude": 32.123
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 11.56,
+    "text": "Cancer 11°34′",
+    "longitude": 101.562
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 18.09,
+    "text": "Aries 18°05′",
+    "longitude": 18.091
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 22.89,
+    "text": "Pisces 22°53′",
+    "longitude": 352.891
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 10.98,
+    "text": "Aries 10°59′",
+    "longitude": 10.978
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 28.51,
+    "text": "Sagittarius 28°31′",
+    "longitude": 268.515
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 0.26,
+    "text": "Taurus 0°16′",
+    "longitude": 30.265
+   }
+  },
+  {
+   "segment": "The Grave That Was Lost and Found Mixed",
+   "stop": "Madrid, buried in the Franciscan habit at the Trinitarias",
+   "date": "1616-04-23",
+   "date_confidence": "attested. Burial on 23 April 1616 at the Convento de las Trinitarias Descalzas. Coordinates are the documented ones from es.wikipedia; the dossier's afterlife lens carried a point some 290 m off on four separate items and it is corrected throughout. The burial date was for centuries printed as the death date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1616,
+   "jd_ut": 2311404.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.09,
+    "text": "Taurus 3°06′",
+    "longitude": 33.095
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave That Was Lost and Found Mixed",
+   "stop": "Madrid, the widow prints Persiles",
+   "date": "1617-01-01",
+   "date_confidence": "attested for the posthumous publication of Los trabajos de Persiles y Sigismunda in January 1617, arranged by Catalina de Salazar. Her burial at the same convent is attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1617,
+   "jd_ut": 2311657.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.88,
+    "text": "Capricornus 10°53′",
+    "longitude": 280.877
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave That Was Lost and Found Mixed",
+   "stop": "Madrid, the crypt rebuilt",
+   "date": "1673-01-01",
+   "date_confidence": "attested that the convent church was rebuilt in the later seventeenth century and that the burials in the old crypt were disturbed, moved, and commingled. 1673 is the year conventionally given for the works; the month is not recorded and defaults to January.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1673,
+   "jd_ut": 2332111.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention",
+    "not recorded",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.29,
+    "text": "Capricornus 11°17′",
+    "longitude": 281.288
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave That Was Lost and Found Mixed",
+   "stop": "Madrid, the board marked M.C.",
+   "date": "2015-01-01",
+   "date_confidence": "attested. The search ran 2011 to 2015 under the historian Fernando de Prado with the forensic anthropologist Francisco Etxeberria; the crypt and the coffin fragment marked M.C. were located in January 2015. TIME reported DNA testing as pending.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2015,
+   "jd_ut": 2457023.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.24,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.239
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Grave That Was Lost and Found Mixed",
+   "stop": "Madrid, fifteen people reinterred as one",
+   "date": "2015-06-01",
+   "date_confidence": "attested for the June 2015 reinterment. The identification is contested: English Wikipedia reported the remains as confirmed as Cervantes's, partly by reference to the Lepanto wounds, which is a stronger claim than the excavators themselves made. TIME's contemporaneous reporting treated the identification as historical and circumstantial.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2015,
+   "jd_ut": 2457174.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.22,
+    "text": "Gemini 10°13′",
+    "longitude": 70.224
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 8,
+  "month": 7,
+  "year": 28
+ },
+ "parse_failures": []
+}

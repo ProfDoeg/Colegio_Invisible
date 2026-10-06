@@ -1,0 +1,1293 @@
+{
+ "slug": "buckminster_fuller",
+ "traveler": "R. Buckminster Fuller",
+ "title": "Milton to Los Angeles: The Comprehensive Anticipatory Design Science of a Single Individual",
+ "years": "1895-1983",
+ "years_parsed": {
+  "first": 1895,
+  "last": 1983
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Transcendentalist Cradle",
+  "stop": "Milton, Massachusetts, the birth house",
+  "date": "1895-07-12",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1895,
+  "jd_ut": 2413386.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Cancer",
+   "degree": 19.36,
+   "text": "Cancer 19°22′",
+   "longitude": 109.364
+  },
+  "moon": {
+   "sign": "Pisces",
+   "degree": 14.75,
+   "text": "Pisces 14°45′",
+   "longitude": 344.75
+  },
+  "mercury": {
+   "sign": "Cancer",
+   "degree": 5.21,
+   "text": "Cancer 5°12′",
+   "longitude": 95.205
+  },
+  "venus": {
+   "sign": "Virgo",
+   "degree": 4.87,
+   "text": "Virgo 4°52′",
+   "longitude": 154.872
+  },
+  "mars": {
+   "sign": "Leo",
+   "degree": 19.33,
+   "text": "Leo 19°20′",
+   "longitude": 139.33
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 18.26,
+   "text": "Cancer 18°16′",
+   "longitude": 108.263
+  },
+  "saturn": {
+   "sign": "Scorpio",
+   "degree": 0.7,
+   "text": "Scorpio 0°42′",
+   "longitude": 210.696
+  },
+  "conjunctions": [
+   {
+    "sign": "Cancer",
+    "bodies": [
+     "Sun",
+     "Mercury",
+     "Jupiter"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1895-1983",
+  "first_year_parsed": 1895
+ },
+ "stops": [
+  {
+   "segment": "The Transcendentalist Cradle",
+   "stop": "Milton, Massachusetts, the birth house",
+   "date": "1895-07-12",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413386.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 19.36,
+    "text": "Cancer 19°22′",
+    "longitude": 109.364
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 14.75,
+    "text": "Pisces 14°45′",
+    "longitude": 344.75
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 5.21,
+    "text": "Cancer 5°12′",
+    "longitude": 95.205
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 4.87,
+    "text": "Virgo 4°52′",
+    "longitude": 154.872
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 19.33,
+    "text": "Leo 19°20′",
+    "longitude": 139.33
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 18.26,
+    "text": "Cancer 18°16′",
+    "longitude": 108.263
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 0.7,
+    "text": "Scorpio 0°42′",
+    "longitude": 210.696
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Transcendentalist Cradle",
+   "stop": "Bear Island, Penobscot Bay, Maine, the summer place",
+   "date": "1904-08-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416693.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.3,
+    "text": "Leo 8°18′",
+    "longitude": 128.296
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Transcendentalist Cradle",
+   "stop": "Milton Academy, the Froebel table",
+   "date": "1904-09-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416724.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.11,
+    "text": "Virgo 8°07′",
+    "longitude": 158.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Expulsions and the War",
+   "stop": "Harvard University, Cambridge, Adams House, twice cast out",
+   "date": "1913-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2420011.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.94,
+    "text": "Virgo 7°57′",
+    "longitude": 157.943
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Expulsions and the War",
+   "stop": "Sherbrooke, Quebec, the cotton mill",
+   "date": "1914-03-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420192.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.58,
+    "text": "Pisces 9°35′",
+    "longitude": 339.579
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Expulsions and the War",
+   "stop": "USS Inca / Bay Shore Naval Air Station, Long Island, the crash-boat commander",
+   "date": "1917-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421380.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.92,
+    "text": "Gemini 9°55′",
+    "longitude": 69.924
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Expulsions and the War",
+   "stop": "Rock Hall, Lawrence, Long Island, the wedding to Anne Hewlett",
+   "date": "1917-07-12",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421421.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 19.06,
+    "text": "Cancer 19°04′",
+    "longitude": 109.063
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 25.34,
+    "text": "Aries 25°20′",
+    "longitude": 25.341
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 18.24,
+    "text": "Cancer 18°14′",
+    "longitude": 108.237
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 9.61,
+    "text": "Leo 9°36′",
+    "longitude": 129.608
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 19.01,
+    "text": "Gemini 19°01′",
+    "longitude": 79.009
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 2.46,
+    "text": "Gemini 2°27′",
+    "longitude": 62.457
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 2.27,
+    "text": "Leo 2°16′",
+    "longitude": 122.268
+   }
+  },
+  {
+   "segment": "The Ruin and the Water's Edge",
+   "stop": "New York City, the death of Alexandra",
+   "date": "1922-11-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423372.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 20.84,
+    "text": "Scorpio 20°50′",
+    "longitude": 230.841
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 12.59,
+    "text": "Virgo 12°36′",
+    "longitude": 162.592
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 7.86,
+    "text": "Scorpio 7°51′",
+    "longitude": 217.858
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 8.07,
+    "text": "Sagittarius 8°04′",
+    "longitude": 248.073
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 10.02,
+    "text": "Aquarius 10°01′",
+    "longitude": 310.018
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 3.89,
+    "text": "Scorpio 3°53′",
+    "longitude": 213.891
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 15.53,
+    "text": "Libra 15°32′",
+    "longitude": 195.534
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Ruin and the Water's Edge",
+   "stop": "Manhattan, the Dymaxion Chronofile begins its daily record",
+   "date": "1927-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ruin and the Water's Edge",
+   "stop": "Stockade Building System, the collapse of the enterprise",
+   "date": "1927-03-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424940.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.43,
+    "text": "Pisces 9°26′",
+    "longitude": 339.425
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ruin and the Water's Edge",
+   "stop": "The shore of Lake Michigan, Chicago, the night on the edge",
+   "date": "1927-11-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425185.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.58,
+    "text": "Scorpio 7°35′",
+    "longitude": 217.577
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ruin and the Water's Edge",
+   "stop": "Chicago, the year of silence and the vow",
+   "date": "1927-12-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425215.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.81,
+    "text": "Sagittarius 7°48′",
+    "longitude": 247.805
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dymaxion Works",
+   "stop": "Greenwich Village, New York, Romany Marie's café and the 4D house",
+   "date": "1929-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dymaxion Works",
+   "stop": "Philadelphia, Shelter magazine and 'Nine Chains to the Moon'",
+   "date": "1932-11-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2427012.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.37,
+    "text": "Scorpio 8°22′",
+    "longitude": 218.366
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Dymaxion Works",
+   "stop": "Bridgeport, Connecticut, Tongue Point, the Dymaxion car",
+   "date": "1933-03-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427135.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 12.98,
+    "text": "Pisces 12°59′",
+    "longitude": 342.98
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 8.27,
+    "text": "Gemini 8°16′",
+    "longitude": 68.265
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 0.73,
+    "text": "Aries 0°44′",
+    "longitude": 0.732
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 0.66,
+    "text": "Pisces 0°40′",
+    "longitude": 330.665
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 9.94,
+    "text": "Virgo 9°56′",
+    "longitude": 159.94
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 18.94,
+    "text": "Virgo 18°56′",
+    "longitude": 168.935
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 11.0,
+    "text": "Aquarius 11°00′",
+    "longitude": 310.998
+   }
+  },
+  {
+   "segment": "The Dymaxion Works",
+   "stop": "Chicago, the Century of Progress crash",
+   "date": "1933-10-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427372.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 3.13,
+    "text": "Scorpio 3°08′",
+    "longitude": 213.126
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 16.82,
+    "text": "Aquarius 16°49′",
+    "longitude": 316.824
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 26.86,
+    "text": "Scorpio 26°52′",
+    "longitude": 236.861
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 18.1,
+    "text": "Sagittarius 18°06′",
+    "longitude": 258.101
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 12.64,
+    "text": "Sagittarius 12°39′",
+    "longitude": 252.643
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.95,
+    "text": "Libra 9°57′",
+    "longitude": 189.951
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 9.56,
+    "text": "Aquarius 9°34′",
+    "longitude": 309.565
+   }
+  },
+  {
+   "segment": "The Whole Earth Unfolded",
+   "stop": "New York, the Dymaxion Map in Life magazine",
+   "date": "1943-03-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430784.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.54,
+    "text": "Pisces 9°33′",
+    "longitude": 339.545
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Whole Earth Unfolded",
+   "stop": "Wichita, Kansas, the Dymaxion Dwelling Machine",
+   "date": "1946-03-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431880.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.82,
+    "text": "Pisces 9°49′",
+    "longitude": 339.818
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Whole Earth Unfolded",
+   "stop": "Black Mountain College, North Carolina, the supine dome and the disciples",
+   "date": "1948-07-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432733.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.06,
+    "text": "Cancer 9°04′",
+    "longitude": 99.063
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Whole Earth Unfolded",
+   "stop": "Raleigh, North Carolina, Geodesics Inc. and the tensegrity",
+   "date": "1949-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433160.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.23,
+    "text": "Virgo 8°14′",
+    "longitude": 158.228
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sphere from Struts",
+   "stop": "Dearborn, Michigan, the Ford Rotunda dome",
+   "date": "1953-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434498.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.33,
+    "text": "Taurus 10°20′",
+    "longitude": 40.331
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sphere from Struts",
+   "stop": "Kabul, Afghanistan, the airlifted domes of the trade fairs",
+   "date": "1956-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435686.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.71,
+    "text": "Leo 8°43′",
+    "longitude": 128.712
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sphere from Struts",
+   "stop": "Carbondale, Illinois, the dome home and Southern Illinois University",
+   "date": "1960-04-19",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2437043.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 28.95,
+    "text": "Aries 28°57′",
+    "longitude": 28.947
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 4.93,
+    "text": "Aquarius 4°56′",
+    "longitude": 304.932
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 4.0,
+    "text": "Aries 4°00′",
+    "longitude": 3.998
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 11.78,
+    "text": "Aries 11°47′",
+    "longitude": 11.778
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 12.89,
+    "text": "Pisces 12°54′",
+    "longitude": 342.894
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 3.61,
+    "text": "Capricornus 3°37′",
+    "longitude": 273.613
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 18.36,
+    "text": "Capricornus 18°22′",
+    "longitude": 288.362
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Sphere from Struts",
+   "stop": "Montreal, Île Sainte-Hélène, the Biosphère at Expo 67",
+   "date": "1967-04-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439607.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 6.07,
+    "text": "Taurus 6°04′",
+    "longitude": 36.068
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 10.65,
+    "text": "Sagittarius 10°39′",
+    "longitude": 250.651
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 20.56,
+    "text": "Aries 20°33′",
+    "longitude": 20.556
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 14.78,
+    "text": "Gemini 14°47′",
+    "longitude": 74.784
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 20.52,
+    "text": "Libra 20°31′",
+    "longitude": 200.521
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 26.47,
+    "text": "Cancer 26°28′",
+    "longitude": 116.467
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 6.49,
+    "text": "Aries 6°30′",
+    "longitude": 6.494
+   }
+  },
+  {
+   "segment": "Spaceship Earth",
+   "stop": "Carbondale / New York, Operating Manual for Spaceship Earth",
+   "date": "1969-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spaceship Earth",
+   "stop": "New York, the World Game on the Dymaxion Map",
+   "date": "1969-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440373.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.34,
+    "text": "Gemini 10°20′",
+    "longitude": 70.338
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spaceship Earth",
+   "stop": "New Delhi, the Nehru Memorial Lecture",
+   "date": "1969-11-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440538.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 20.44,
+    "text": "Scorpio 20°26′",
+    "longitude": 230.44
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 1.74,
+    "text": "Capricornus 1°44′",
+    "longitude": 271.737
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 18.49,
+    "text": "Scorpio 18°29′",
+    "longitude": 228.485
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 2.89,
+    "text": "Scorpio 2°54′",
+    "longitude": 212.892
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 5.93,
+    "text": "Aquarius 5°56′",
+    "longitude": 305.928
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 23.67,
+    "text": "Libra 23°40′",
+    "longitude": 203.672
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 4.18,
+    "text": "Taurus 4°11′",
+    "longitude": 34.179
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Spaceship Earth",
+   "stop": "Philadelphia, 'I Seem to Be a Verb' and the ceaseless circling",
+   "date": "1970-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440587.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.16,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.162
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spaceship Earth",
+   "stop": "Philadelphia, 'Everything I Know,' the forty-two-hour testament",
+   "date": "1975-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442413.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.944
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Spaceship Earth",
+   "stop": "Washington, D.C., the Presidential Medal of Freedom",
+   "date": "1983-02-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1983,
+   "jd_ut": 2445388.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 3.81,
+    "text": "Pisces 3°49′",
+    "longitude": 333.812
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 3.28,
+    "text": "Cancer 3°17′",
+    "longitude": 93.281
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 11.38,
+    "text": "Aquarius 11°23′",
+    "longitude": 311.378
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 0.14,
+    "text": "Aries 0°09′",
+    "longitude": 0.143
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 28.46,
+    "text": "Pisces 28°27′",
+    "longitude": 358.455
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 9.21,
+    "text": "Sagittarius 9°12′",
+    "longitude": 249.207
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 4.48,
+    "text": "Scorpio 4°29′",
+    "longitude": 214.482
+   }
+  },
+  {
+   "segment": "Spaceship Earth",
+   "stop": "Los Angeles, Good Samaritan Hospital, the two deaths",
+   "date": "1983-07-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1983,
+   "jd_ut": 2445516.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.63,
+    "text": "Cancer 8°38′",
+    "longitude": 98.629
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 31,
+  "dated": 31,
+  "unparsed": 0,
+  "day": 9,
+  "month": 12,
+  "year": 10
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1351 @@
+{
+ "slug": "pedro_subercaseaux",
+ "traveler": "Pedro Subercaseaux Errázuriz (Fray Pedro, Dom Pedro OSB)",
+ "title": "The Painter of the Glories: Rome to Las Condes, a Journey Through Other Journeys' Stops",
+ "years": "1880-1956",
+ "years_parsed": {
+  "first": 1880,
+  "last": 1956
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Roma, 1880, el hijo del pintor",
+  "stop": "Rome, birth in his father's household",
+  "date": "1880-12-10",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1880,
+  "jd_ut": 2408059.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Sagittarius",
+   "degree": 18.37,
+   "text": "Sagittarius 18°22′",
+   "longitude": 258.371
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 3.34,
+   "text": "Aries 3°20′",
+   "longitude": 3.336
+  },
+  "mercury": {
+   "sign": "Scorpio",
+   "degree": 27.43,
+   "text": "Scorpio 27°26′",
+   "longitude": 237.431
+  },
+  "venus": {
+   "sign": "Capricornus",
+   "degree": 25.47,
+   "text": "Capricornus 25°28′",
+   "longitude": 295.471
+  },
+  "mars": {
+   "sign": "Sagittarius",
+   "degree": 4.28,
+   "text": "Sagittarius 4°17′",
+   "longitude": 244.277
+  },
+  "jupiter": {
+   "sign": "Aries",
+   "degree": 9.8,
+   "text": "Aries 9°48′",
+   "longitude": 9.798
+  },
+  "saturn": {
+   "sign": "Aries",
+   "degree": 21.99,
+   "text": "Aries 22°00′",
+   "longitude": 21.992
+  },
+  "conjunctions": [
+   {
+    "sign": "Aries",
+    "bodies": [
+     "Moon",
+     "Jupiter",
+     "Saturn"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1880-1956",
+  "first_year_parsed": 1880
+ },
+ "stops": [
+  {
+   "segment": "Roma, 1880, el hijo del pintor",
+   "stop": "Rome, birth in his father's household",
+   "date": "1880-12-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2408059.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.37,
+    "text": "Sagittarius 18°22′",
+    "longitude": 258.371
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 3.34,
+    "text": "Aries 3°20′",
+    "longitude": 3.336
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 27.43,
+    "text": "Scorpio 27°26′",
+    "longitude": 237.431
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 25.47,
+    "text": "Capricornus 25°28′",
+    "longitude": 295.471
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 4.28,
+    "text": "Sagittarius 4°17′",
+    "longitude": 244.277
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 9.8,
+    "text": "Aries 9°48′",
+    "longitude": 9.798
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 21.99,
+    "text": "Aries 22°00′",
+    "longitude": 21.992
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Moon",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Roma, 1880, el hijo del pintor",
+   "stop": "Santiago, El Llano Subercaseaux, a happy house tried by grief",
+   "date": "1885-03-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409601.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.62,
+    "text": "Pisces 10°37′",
+    "longitude": 340.615
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Roma, 1880, el hijo del pintor",
+   "stop": "Douai, France, the English Benedictines' school",
+   "date": "1891-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411976.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.25,
+    "text": "Virgo 8°15′",
+    "longitude": 158.253
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Las Academias, Berlín, Roma, París",
+   "stop": "Berlin, the Royal Academy of Fine Arts",
+   "date": "1896-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413559.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Las Academias, Berlín, Roma, París",
+   "stop": "Rome, the studio of Lorenzo Vallés",
+   "date": "1898-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414533.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.55,
+    "text": "Virgo 8°33′",
+    "longitude": 158.551
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Las Academias, Berlín, Roma, París",
+   "stop": "Paris, the Académie Julian",
+   "date": "1900-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Las Academias, Berlín, Roma, París",
+   "stop": "Santiago, return with his father",
+   "date": "1902-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Santiago, El Diario Ilustrado y la primera fama",
+   "stop": "Santiago, El Diario Ilustrado, the pseudonym P.S.",
+   "date": "1903-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.41,
+    "text": "Capricornus 9°25′",
+    "longitude": 279.412
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Santiago, El Diario Ilustrado y la primera fama",
+   "stop": "Quinta Normal, first medal of the Salón Oficial",
+   "date": "1904-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416480.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.17,
+    "text": "Capricornus 9°10′",
+    "longitude": 279.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Santiago, El Diario Ilustrado y la primera fama",
+   "stop": "Santiago, Von Pilsener is born in the pages of Zig-Zag",
+   "date": "1906-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417362.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.6,
+    "text": "Gemini 9°36′",
+    "longitude": 69.597
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Santiago, El Diario Ilustrado y la primera fama",
+   "stop": "Santiago, marriage to Elvira Lyon Otaegui",
+   "date": "1907-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417727.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.37,
+    "text": "Gemini 9°22′",
+    "longitude": 69.366
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Pintor de las Glorias: la década del Centenario",
+   "stop": "Chacabuco, la Batalla de Chacabuco, the crossing made canvas",
+   "date": "1908-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Pintor de las Glorias: la década del Centenario",
+   "stop": "Maipú, El Abrazo de Maipú",
+   "date": "1908-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418093.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.09,
+    "text": "Gemini 10°06′",
+    "longitude": 70.092
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Pintor de las Glorias: la década del Centenario",
+   "stop": "Buenos Aires, El Cabildo Abierto del 22 de Mayo de 1810",
+   "date": "1909-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Pintor de las Glorias: la década del Centenario",
+   "stop": "Buenos Aires, second place, the Centennial Competition",
+   "date": "1910-05-25",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418816.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 2.91,
+    "text": "Gemini 2°55′",
+    "longitude": 62.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Pintor de las Glorias: la década del Centenario",
+   "stop": "Vatican City, the portrait of Pope Pius X",
+   "date": "1911-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419188.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.4,
+    "text": "Gemini 9°24′",
+    "longitude": 69.398
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Pintor de las Glorias: la década del Centenario",
+   "stop": "Santiago, El Descubrimiento de Chile, the Salón de Honor",
+   "date": "1913-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2420011.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.94,
+    "text": "Virgo 7°57′",
+    "longitude": 157.943
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Viraje: de Asís a la despedida",
+   "stop": "Assisi, the life of the Poverello",
+   "date": "1914-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420133.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.75,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.749
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Viraje: de Asís a la despedida",
+   "stop": "Santiago, the war years, the vocation ripens",
+   "date": "1918-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421594.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.78,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.778
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Viraje: de Asís a la despedida",
+   "stop": "Rome, the audience with Benedict XV",
+   "date": "1920-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422476.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.19,
+    "text": "Gemini 10°11′",
+    "longitude": 70.188
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "El Viraje: de Asís a la despedida",
+   "stop": "Loyola, the parting without tears",
+   "date": "1920-08-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422551.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.85,
+    "text": "Leo 21°51′",
+    "longitude": 141.847
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 3.34,
+    "text": "Virgo 3°21′",
+    "longitude": 153.343
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 3.15,
+    "text": "Leo 3°09′",
+    "longitude": 123.151
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 3.48,
+    "text": "Virgo 3°29′",
+    "longitude": 153.482
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 17.36,
+    "text": "Scorpio 17°22′",
+    "longitude": 227.364
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 27.32,
+    "text": "Leo 27°19′",
+    "longitude": 147.319
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 12.15,
+    "text": "Virgo 12°09′",
+    "longitude": 162.151
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    },
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "El Viraje: de Asís a la despedida",
+   "stop": "Loyola, Elvira enters the Damas Catequistas",
+   "date": "1920-08-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422551.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.85,
+    "text": "Leo 21°51′",
+    "longitude": 141.847
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 3.34,
+    "text": "Virgo 3°21′",
+    "longitude": 153.343
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 3.15,
+    "text": "Leo 3°09′",
+    "longitude": 123.151
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 3.48,
+    "text": "Virgo 3°29′",
+    "longitude": 153.482
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 17.36,
+    "text": "Scorpio 17°22′",
+    "longitude": 227.364
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 27.32,
+    "text": "Leo 27°19′",
+    "longitude": 147.319
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 12.15,
+    "text": "Virgo 12°09′",
+    "longitude": 162.151
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    },
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Quarr, Dom Pedro",
+   "stop": "Quarr Abbey, Isle of Wight, a choir postulant",
+   "date": "1920-10-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422598.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.51,
+    "text": "Libra 7°31′",
+    "longitude": 187.508
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Quarr, Dom Pedro",
+   "stop": "Quarr, the watercolors of Saint Francis, published in Boston",
+   "date": "1925-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Quarr, Dom Pedro",
+   "stop": "Solesmes Abbey, France, ordained priest",
+   "date": "1927-06-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425059.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 5.32,
+    "text": "Cancer 5°19′",
+    "longitude": 95.32
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 19.04,
+    "text": "Gemini 19°02′",
+    "longitude": 79.041
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 29.52,
+    "text": "Cancer 29°31′",
+    "longitude": 119.52
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 20.66,
+    "text": "Leo 20°40′",
+    "longitude": 140.665
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 13.11,
+    "text": "Leo 13°07′",
+    "longitude": 133.114
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 2.59,
+    "text": "Aries 2°35′",
+    "longitude": 2.586
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 2.11,
+    "text": "Sagittarius 2°06′",
+    "longitude": 242.105
+   }
+  },
+  {
+   "segment": "Quarr, Dom Pedro",
+   "stop": "Seville, a medal follows the monk",
+   "date": "1929-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425732.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.14,
+    "text": "Taurus 10°09′",
+    "longitude": 40.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Quarr, Dom Pedro",
+   "stop": "Quarr, the watercolors of Saint Benedict, a children's prayer book",
+   "date": "1930-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2425977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.867
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Las Condes, la Chile de Fray Pedro",
+   "stop": "Valparaíso, the founders of Solesmes disembark",
+   "date": "1938-10-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429199.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 3.91,
+    "text": "Scorpio 3°55′",
+    "longitude": 213.913
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 27.67,
+    "text": "Sagittarius 27°40′",
+    "longitude": 267.669
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 15.02,
+    "text": "Scorpio 15°01′",
+    "longitude": 225.019
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 4.79,
+    "text": "Sagittarius 4°47′",
+    "longitude": 244.79
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 1.72,
+    "text": "Libra 1°43′",
+    "longitude": 181.725
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.67,
+    "text": "Aquarius 22°40′",
+    "longitude": 322.666
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 12.73,
+    "text": "Aries 12°44′",
+    "longitude": 12.725
+   }
+  },
+  {
+   "segment": "Las Condes, la Chile de Fray Pedro",
+   "stop": "Lo Fontecilla, the provisional cloister",
+   "date": "1938-11-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429217.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 21.97,
+    "text": "Scorpio 21°58′",
+    "longitude": 231.969
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Las Condes, la Chile de Fray Pedro",
+   "stop": "Talca, the Jura de la Independencia, painted by the monk",
+   "date": "1945-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Las Condes, la Chile de Fray Pedro",
+   "stop": "Santiago, a halo added to the portrait of Pius X",
+   "date": "1954-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434743.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.044
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Las Condes, la Chile de Fray Pedro",
+   "stop": "Las Condes, death and the monastery ground",
+   "date": "1956-01-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435475.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.59,
+    "text": "Capricornus 11°35′",
+    "longitude": 281.588
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 17.79,
+    "text": "Virgo 17°47′",
+    "longitude": 167.787
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 27.95,
+    "text": "Capricornus 27°57′",
+    "longitude": 297.947
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 12.03,
+    "text": "Aquarius 12°02′",
+    "longitude": 312.034
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 22.75,
+    "text": "Scorpio 22°45′",
+    "longitude": 232.747
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 1.05,
+    "text": "Virgo 1°03′",
+    "longitude": 151.051
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 29.18,
+    "text": "Scorpio 29°11′",
+    "longitude": 239.184
+   }
+  }
+ ],
+ "counts": {
+  "stops": 32,
+  "dated": 32,
+  "unparsed": 0,
+  "day": 6,
+  "month": 5,
+  "year": 21
+ },
+ "parse_failures": []
+}

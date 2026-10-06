@@ -1,0 +1,1842 @@
+{
+ "slug": "mark_twain",
+ "traveler": "Samuel Langhorne Clemens (Mark Twain)",
+ "title": "Two Fathoms: the Pilot, the Comet, and the Book He Called His Best",
+ "years": "1835-1910",
+ "years_parsed": {
+  "first": 1835,
+  "last": 1910
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The River Town",
+  "stop": "Florida, Missouri: the comet's fortnight",
+  "date": "1835-11-30",
+  "date_confidence": "attested to the day; the pool's coordinate was wrong twice over and is corrected here from Wikipedia, 'Florida, Missouri'",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1835,
+  "jd_ut": 2391612.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Sagittarius",
+   "degree": 7.12,
+   "text": "Sagittarius 7°07′",
+   "longitude": 247.12
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 10.11,
+   "text": "Aries 10°06′",
+   "longitude": 10.105
+  },
+  "mercury": {
+   "sign": "Scorpio",
+   "degree": 18.19,
+   "text": "Scorpio 18°12′",
+   "longitude": 228.194
+  },
+  "venus": {
+   "sign": "Sagittarius",
+   "degree": 21.16,
+   "text": "Sagittarius 21°09′",
+   "longitude": 261.156
+  },
+  "mars": {
+   "sign": "Sagittarius",
+   "degree": 12.64,
+   "text": "Sagittarius 12°38′",
+   "longitude": 252.637
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 14.7,
+   "text": "Cancer 14°42′",
+   "longitude": 104.703
+  },
+  "saturn": {
+   "sign": "Scorpio",
+   "degree": 0.85,
+   "text": "Scorpio 0°51′",
+   "longitude": 210.85
+  },
+  "conjunctions": [
+   {
+    "sign": "Sagittarius",
+    "bodies": [
+     "Sun",
+     "Venus",
+     "Mars"
+    ]
+   }
+  ],
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "1835-1910",
+  "first_year_parsed": 1835
+ },
+ "stops": [
+  {
+   "segment": "The River Town",
+   "stop": "Florida, Missouri: the comet's fortnight",
+   "date": "1835-11-30",
+   "date_confidence": "attested to the day; the pool's coordinate was wrong twice over and is corrected here from Wikipedia, 'Florida, Missouri'",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391612.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.12,
+    "text": "Sagittarius 7°07′",
+    "longitude": 247.12
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 10.11,
+    "text": "Aries 10°06′",
+    "longitude": 10.105
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 18.19,
+    "text": "Scorpio 18°12′",
+    "longitude": 228.194
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 21.16,
+    "text": "Sagittarius 21°09′",
+    "longitude": 261.156
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 12.64,
+    "text": "Sagittarius 12°38′",
+    "longitude": 252.637
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 14.7,
+    "text": "Cancer 14°42′",
+    "longitude": 104.703
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 0.85,
+    "text": "Scorpio 0°51′",
+    "longitude": 210.85
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The River Town",
+   "stop": "Hannibal: the family comes to the river",
+   "date": "1839-01-01",
+   "date_confidence": "year attested, month and day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1839,
+   "jd_ut": 2392740.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.96
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The River Town",
+   "stop": "McDowell's Cave: the hill with a hole in it",
+   "date": "1845-01-01",
+   "date_confidence": "traditional; the pool dates the boyhood visits only as c. 1845-1852",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1845,
+   "jd_ut": 2394932.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.51,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.514
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The River Town",
+   "stop": "Hannibal: the father dies and the boy is bound to the case",
+   "date": "1847-01-01",
+   "date_confidence": "year attested, month unrecorded in the reachable sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1847,
+   "jd_ut": 2395662.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.02,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.019
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Type Case and the Pilot House",
+   "stop": "New York: the journeyman printer",
+   "date": "1853-01-01",
+   "date_confidence": "year attested, month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2397854.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.57,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.573
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Type Case and the Pilot House",
+   "stop": "Keokuk: Orion's shop, and a scheme for the Amazon",
+   "date": "1855-06-01",
+   "date_confidence": "June 1855 to about October 1856; the pool's range of 1855-1857 contradicted its own Cincinnati entry and is shortened here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398735.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.91,
+    "text": "Gemini 9°55′",
+    "longitude": 69.911
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Type Case and the Pilot House",
+   "stop": "New Orleans: the cub pilot under Bixby",
+   "date": "1857-01-01",
+   "date_confidence": "year attested; the date of the licence itself is absent from this pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1857,
+   "jd_ut": 2399315.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.6,
+    "text": "Capricornus 10°36′",
+    "longitude": 280.603
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Type Case and the Pilot House",
+   "stop": "Memphis: Henry, eight days after the boilers",
+   "date": "1858-06-21",
+   "date_confidence": "attested to the day; the pool carried the explosion date, 13 June, as the death date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1858,
+   "jd_ut": 2399851.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 29.28,
+    "text": "Gemini 29°17′",
+    "longitude": 89.284
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 0.03,
+    "text": "Scorpio 0°02′",
+    "longitude": 210.026
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 10.57,
+    "text": "Gemini 10°34′",
+    "longitude": 70.574
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 27.92,
+    "text": "Cancer 27°55′",
+    "longitude": 117.924
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 16.02,
+    "text": "Scorpio 16°01′",
+    "longitude": 226.016
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 6.09,
+    "text": "Gemini 6°05′",
+    "longitude": 66.089
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 27.75,
+    "text": "Cancer 27°45′",
+    "longitude": 117.755
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Type Case and the Pilot House",
+   "stop": "Marion County: two weeks of the Confederate army",
+   "date": "1861-06-01",
+   "date_confidence": "year attested, month approximate; no lens supplies a coordinate for the company's ground, so the county seat stands in",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400927.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.44,
+    "text": "Gemini 10°26′",
+    "longitude": 70.437
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Territory and the Name",
+   "stop": "Virginia City: two fathoms, water enough to pass",
+   "date": "1863-02-03",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401539.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 13.72,
+    "text": "Aquarius 13°43′",
+    "longitude": 313.718
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 3.27,
+    "text": "Leo 3°16′",
+    "longitude": 123.272
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 27.32,
+    "text": "Aquarius 27°19′",
+    "longitude": 327.325
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 26.63,
+    "text": "Aquarius 26°38′",
+    "longitude": 326.627
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 10.04,
+    "text": "Taurus 10°02′",
+    "longitude": 40.039
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 27.21,
+    "text": "Libra 27°12′",
+    "longitude": 207.205
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 5.27,
+    "text": "Libra 5°16′",
+    "longitude": 185.271
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Territory and the Name",
+   "stop": "San Francisco: the Morning Call",
+   "date": "1864-01-01",
+   "date_confidence": "year attested, month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2401871.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.889
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Territory and the Name",
+   "stop": "Angels Camp: the frog full of shot",
+   "date": "1865-01-01",
+   "date_confidence": "year attested, month unrecorded; the publication date, 18 November 1865, is attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1865,
+   "jd_ut": 2402237.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.66,
+    "text": "Capricornus 10°40′",
+    "longitude": 280.661
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Territory and the Name",
+   "stop": "Kilauea: the crater by torchlight",
+   "date": "1866-06-01",
+   "date_confidence": "year attested, month approximate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1866,
+   "jd_ut": 2402753.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.24,
+    "text": "Gemini 10°14′",
+    "longitude": 70.238
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quaker City",
+   "stop": "Tangier: the first sight of Africa",
+   "date": "1867-06-01",
+   "date_confidence": "month attested, day unrecorded; the ship sailed from New York on 8 June 1867",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403118.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.01,
+    "text": "Gemini 10°00′",
+    "longitude": 70.006
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quaker City",
+   "stop": "Paris: the Exposition Universelle",
+   "date": "1867-07-01",
+   "date_confidence": "month attested, day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403148.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.65,
+    "text": "Cancer 8°39′",
+    "longitude": 98.653
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quaker City",
+   "stop": "Rome: the Old Masters and the guides",
+   "date": "1867-07-01",
+   "date_confidence": "month attested, day unrecorded; Naples and Pompeii follow in August",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403148.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.65,
+    "text": "Cancer 8°39′",
+    "longitude": 98.653
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quaker City",
+   "stop": "Constantinople: the bazaars, after the Parthenon by night",
+   "date": "1867-08-01",
+   "date_confidence": "month attested, day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403179.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.24,
+    "text": "Leo 8°14′",
+    "longitude": 128.239
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quaker City",
+   "stop": "Damascus: the Street called Straight",
+   "date": "1867-09-01",
+   "date_confidence": "month attested, day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403210.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.06,
+    "text": "Virgo 8°04′",
+    "longitude": 158.064
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quaker City",
+   "stop": "Jerusalem: the least reverent pilgrim on the road",
+   "date": "1867-09-01",
+   "date_confidence": "month attested, day unrecorded; the pin is the atlas's canonical Temple Mount coordinate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403210.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.06,
+    "text": "Virgo 8°04′",
+    "longitude": 158.064
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Quaker City",
+   "stop": "Giza: the face that gets past his guard",
+   "date": "1867-09-01",
+   "date_confidence": "month attested, day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403210.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.06,
+    "text": "Virgo 8°04′",
+    "longitude": 158.064
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nook Farm and Quarry Farm",
+   "stop": "Buffalo: a third share of the Express",
+   "date": "1869-08-01",
+   "date_confidence": "1869 attested for the purchase of the share; month approximate",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403910.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.73,
+    "text": "Leo 8°44′",
+    "longitude": 128.734
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nook Farm and Quarry Farm",
+   "stop": "Elmira: the wedding in the Langdon house",
+   "date": "1870-02-02",
+   "date_confidence": "attested to the day; the geography lens placed this wedding in Buffalo and is wrong",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404095.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 13.01,
+    "text": "Aquarius 13°01′",
+    "longitude": 313.009
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 28.57,
+    "text": "Aquarius 28°34′",
+    "longitude": 328.568
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 15.51,
+    "text": "Aquarius 15°30′",
+    "longitude": 315.507
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 12.95,
+    "text": "Pisces 12°57′",
+    "longitude": 342.946
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 21.44,
+    "text": "Aquarius 21°26′",
+    "longitude": 321.438
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 12.43,
+    "text": "Taurus 12°26′",
+    "longitude": 42.43
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 25.14,
+    "text": "Sagittarius 25°09′",
+    "longitude": 265.142
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Nook Farm and Quarry Farm",
+   "stop": "Buffalo: the boy who does not last",
+   "date": "1870-11-01",
+   "date_confidence": "year attested for Langdon Clemens's birth; month and day unrecorded in this pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404367.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.4,
+    "text": "Scorpio 8°24′",
+    "longitude": 218.396
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nook Farm and Quarry Farm",
+   "stop": "Hartford: the house on Farmington Avenue",
+   "date": "1874-01-01",
+   "date_confidence": "occupancy year attested; the pool wrongly dated the Hartford move to 1873, against renting from 1871 and buying land in 1873",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405524.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.473
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nook Farm and Quarry Farm",
+   "stop": "Quarry Farm: the octagonal study in the field",
+   "date": "1874-06-01",
+   "date_confidence": "the study is attested as built by the Cranes in 1874; the pool's coordinate was 2.5 km south of the farm and is corrected",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405675.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.3,
+    "text": "Gemini 10°18′",
+    "longitude": 70.301
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nook Farm and Quarry Farm",
+   "stop": "Heidelberg: the tramp abroad",
+   "date": "1878-01-01",
+   "date_confidence": "year attested, month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2406985.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.502
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nook Farm and Quarry Farm",
+   "stop": "Quarry Farm: Jean, the last of the four",
+   "date": "1880-07-26",
+   "date_confidence": "attested to the day; the chronology lens gave the birthplace as Hartford and is wrong",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407922.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 3.32,
+    "text": "Leo 3°19′",
+    "longitude": 123.323
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 28.0,
+    "text": "Pisces 28°00′",
+    "longitude": 358.001
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 19.61,
+    "text": "Leo 19°37′",
+    "longitude": 139.611
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 6.64,
+    "text": "Leo 6°39′",
+    "longitude": 126.644
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 3.11,
+    "text": "Virgo 3°06′",
+    "longitude": 153.107
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 19.39,
+    "text": "Aries 19°23′",
+    "longitude": 19.387
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 28.47,
+    "text": "Aries 28°28′",
+    "longitude": 28.475
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Nook Farm and Quarry Farm",
+   "stop": "Hartford: the twelve years of reading begin",
+   "date": "1883-01-01",
+   "date_confidence": "reconstruction, back-counted from Twain's own claim of twelve years of preparation before the 1895 serialization; no document dates the start",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2408811.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.28,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.284
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Nook Farm and Quarry Farm",
+   "stop": "Hartford: Huckleberry Finn",
+   "date": "1884-01-01",
+   "date_confidence": "year attested; the first edition appeared in Britain in December 1884 and in America in February 1885",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409176.5,
+   "precision": "month",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.037
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Machine, the Debt, and the Maid",
+   "stop": "Hartford: the compositor, and the house shut up",
+   "date": "1891-06-01",
+   "date_confidence": "month attested for the departure; the Paige investment runs from 1880 to 1894",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411884.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.2,
+    "text": "Gemini 10°12′",
+    "longitude": 70.197
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Machine, the Debt, and the Maid",
+   "stop": "Florence: the two years of writing",
+   "date": "1892-01-01",
+   "date_confidence": "year attested for the Florence residence; the pool dates the villa years 1892-93 without months",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412098.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.1,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.096
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Machine, the Debt, and the Maid",
+   "stop": "New York: Webster and Company fails",
+   "date": "1894-04-01",
+   "date_confidence": "month attested, day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412919.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.27,
+    "text": "Aries 11°16′",
+    "longitude": 11.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Machine, the Debt, and the Maid",
+   "stop": "New York: Harper's prints it without a name",
+   "date": "1895-04-01",
+   "date_confidence": "month attested for the start of serialization; the credited book edition follows in May 1896",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413284.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.03,
+    "text": "Aries 11°02′",
+    "longitude": 11.028
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Round the World on a Lecture Ticket",
+   "stop": "Sydney: the Australian leg opens",
+   "date": "1895-09-01",
+   "date_confidence": "mid-September attested, day unrecorded; the pool wrongly claimed the world tour itself opened here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413437.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.28,
+    "text": "Virgo 8°17′",
+    "longitude": 158.285
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Round the World on a Lecture Ticket",
+   "stop": "Benares: older than tradition",
+   "date": "1896-02-01",
+   "date_confidence": "month attested, day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413590.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.68,
+    "text": "Aquarius 11°41′",
+    "longitude": 311.68
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Round the World on a Lecture Ticket",
+   "stop": "London: the cable about Susy, and the cable about himself",
+   "date": "1897-06-01",
+   "date_confidence": "the 1897 London report is attested to the year; Susy Clemens died in August 1896, month traditional in this pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2414076.5,
+   "precision": "month",
+   "precision_triggers": [
+    "traditional",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.72,
+    "text": "Gemini 10°43′",
+    "longitude": 70.723
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Comet Returns",
+   "stop": "New York: vice-president of the Anti-Imperialist League",
+   "date": "1901-01-01",
+   "date_confidence": "year attested, month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415385.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.907
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Comet Returns",
+   "stop": "Villa di Quarto, Florence: Olivia",
+   "date": "1904-06-05",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416636.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.89,
+    "text": "Gemini 13°53′",
+    "longitude": 73.89
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 0.37,
+    "text": "Pisces 0°22′",
+    "longitude": 330.367
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 20.88,
+    "text": "Taurus 20°53′",
+    "longitude": 50.876
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 4.79,
+    "text": "Gemini 4°47′",
+    "longitude": 64.79
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 12.49,
+    "text": "Gemini 12°30′",
+    "longitude": 72.495
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 21.96,
+    "text": "Aries 21°57′",
+    "longitude": 21.955
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 20.86,
+    "text": "Aquarius 20°52′",
+    "longitude": 320.86
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Comet Returns",
+   "stop": "Oxford: the scarlet gown",
+   "date": "1907-01-01",
+   "date_confidence": "year attested, month unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1907,
+   "jd_ut": 2417576.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.44,
+    "text": "Capricornus 9°27′",
+    "longitude": 279.442
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Comet Returns",
+   "stop": "Stormfield, Redding: the last house",
+   "date": "1908-06-18",
+   "date_confidence": "attested to the day; all three lenses gave wrong coordinates and the corrected value from Wikipedia, 'Stormfield', is used",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2418110.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 26.34,
+    "text": "Gemini 26°21′",
+    "longitude": 86.344
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 13.11,
+    "text": "Aquarius 13°06′",
+    "longitude": 313.106
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 17.15,
+    "text": "Cancer 17°09′",
+    "longitude": 107.148
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 21.63,
+    "text": "Cancer 21°38′",
+    "longitude": 111.634
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 17.09,
+    "text": "Cancer 17°05′",
+    "longitude": 107.087
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 11.92,
+    "text": "Leo 11°55′",
+    "longitude": 131.919
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 9.08,
+    "text": "Aries 9°05′",
+    "longitude": 9.081
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Comet Returns",
+   "stop": "Stormfield: Jean, on Christmas Eve",
+   "date": "1909-12-24",
+   "date_confidence": "attested to the day; the pool's flat 'heart attack' overstates a medical finding that refused to choose",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418664.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 1.57,
+    "text": "Capricornus 1°34′",
+    "longitude": 271.565
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 23.38,
+    "text": "Taurus 23°23′",
+    "longitude": 53.38
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 13.19,
+    "text": "Capricornus 13°12′",
+    "longitude": 283.195
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 16.87,
+    "text": "Aquarius 16°52′",
+    "longitude": 316.872
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 13.76,
+    "text": "Aries 13°46′",
+    "longitude": 13.76
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 12.51,
+    "text": "Libra 12°31′",
+    "longitude": 192.51
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 16.31,
+    "text": "Aries 16°18′",
+    "longitude": 16.306
+   }
+  },
+  {
+   "segment": "The Comet Returns",
+   "stop": "Stormfield: he goes out with it",
+   "date": "1910-04-21",
+   "date_confidence": "attested to the day; Halley's perihelion fell on 20 April 1910",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418782.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 0.02,
+    "text": "Taurus 0°01′",
+    "longitude": 30.023
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 21.11,
+    "text": "Virgo 21°07′",
+    "longitude": 171.111
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 15.7,
+    "text": "Taurus 15°42′",
+    "longitude": 45.705
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 13.84,
+    "text": "Pisces 13°50′",
+    "longitude": 343.836
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 23.26,
+    "text": "Gemini 23°16′",
+    "longitude": 83.261
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 7.11,
+    "text": "Libra 7°07′",
+    "longitude": 187.109
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 26.68,
+    "text": "Aries 26°41′",
+    "longitude": 26.68
+   }
+  },
+  {
+   "segment": "After",
+   "stop": "Woodlawn Cemetery, Elmira: twelve feet of stone",
+   "date": "1910-04-24",
+   "date_confidence": "attested to the day; two of the three lenses gave coordinates outside the cemetery and are corrected",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418785.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 2.95,
+    "text": "Taurus 2°57′",
+    "longitude": 32.947
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 26.9,
+    "text": "Libra 26°54′",
+    "longitude": 206.896
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 20.83,
+    "text": "Taurus 20°50′",
+    "longitude": 50.829
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 16.74,
+    "text": "Pisces 16°44′",
+    "longitude": 346.736
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 25.12,
+    "text": "Gemini 25°07′",
+    "longitude": 85.12
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 6.79,
+    "text": "Libra 6°47′",
+    "longitude": 186.786
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 27.06,
+    "text": "Aries 27°04′",
+    "longitude": 27.061
+   }
+  },
+  {
+   "segment": "After",
+   "stop": "Hartford: the house comes off the demolition list",
+   "date": "1974-01-01",
+   "date_confidence": "opening year attested; rescue 1929, landmark 1962, restoration begun 1955",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1974,
+   "jd_ut": 2442048.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.19,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.192
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After",
+   "stop": "Berkeley: the hundred years run out",
+   "date": "2010-11-01",
+   "date_confidence": "month attested, day unrecorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2010,
+   "jd_ut": 2455501.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.46,
+    "text": "Scorpio 8°28′",
+    "longitude": 218.458
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 10,
+  "month": 15,
+  "year": 20
+ },
+ "parse_failures": []
+}

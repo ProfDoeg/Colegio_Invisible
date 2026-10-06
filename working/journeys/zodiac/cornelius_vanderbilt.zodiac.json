@@ -1,0 +1,2002 @@
+{
+ "slug": "cornelius_vanderbilt",
+ "traveler": "Cornelius Vanderbilt (the Commodore)",
+ "title": "The Ferryman's Boy: Staten Island, the Isthmus, and the Iron Road to Forty-second Street",
+ "years": "1794-1877",
+ "years_parsed": {
+  "first": 1794,
+  "last": 1877
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Boy on the Water",
+  "stop": "Port Richmond, the birth on the north shore",
+  "date": "1794-05-27",
+  "date_confidence": "attested for the date; the house is reconstruction. No primary deed fixes the birthplace. New York Public Library researcher Andrew Wilson overlaid an 1884 map on a modern one and pinned the Harrison homestead to present-day 203-209 Port Richmond Avenue, which is the coordinate used here rather than the vaguer Staten Island pin found in the dossier.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1794,
+  "jd_ut": 2376451.5,
+  "precision": "year",
+  "precision_triggers": [
+   "(soft-year) year range",
+   "(soft) reconstruct"
+  ],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 5.83,
+   "text": "Gemini 5°50′",
+   "longitude": 65.834
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1794-1877",
+  "first_year_parsed": 1794
+ },
+ "stops": [
+  {
+   "segment": "The Boy on the Water",
+   "stop": "Port Richmond, the birth on the north shore",
+   "date": "1794-05-27",
+   "date_confidence": "attested for the date; the house is reconstruction. No primary deed fixes the birthplace. New York Public Library researcher Andrew Wilson overlaid an 1884 map on a modern one and pinned the Harrison homestead to present-day 203-209 Port Richmond Avenue, which is the coordinate used here rather than the vaguer Staten Island pin found in the dossier.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1794,
+   "jd_ut": 2376451.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 5.83,
+    "text": "Gemini 5°50′",
+    "longitude": 65.834
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Boy on the Water",
+   "stop": "New Dorp, the Moravian baptism",
+   "date": "1794-12-16",
+   "date_confidence": "attested; the dossier tagged this as unverified report, wrongly. The NYPL Staten Island research blog gives the date, the officiant, the house, and the sponsors by name, so it is documented rather than merely traditional.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1794,
+   "jd_ut": 2376654.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 24.35,
+    "text": "Sagittarius 24°21′",
+    "longitude": 264.349
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Boy on the Water",
+   "stop": "Whitehall Slip, the periauger",
+   "date": "1810-01-01",
+   "date_confidence": "year only, and the Manhattan landing is representative rather than documented: the slips used by periauger traffic shifted through the 1810s and 1820s, and Whitehall is the standard terminus for the period. Ownership of the first boat is disputed, see campa.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1810,
+   "jd_ut": 2382148.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only",
+    "disputed",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.002
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Boy on the Water",
+   "stop": "The Narrows, provisioning the harbor forts",
+   "date": "1812-06-01",
+   "date_confidence": "reconstruction for the place. Sources describe harbor-wide wartime carrying and government contracts without naming a fort or a date; Fort Wadsworth is used here as the principal Staten Island defense point of the war and should be read as representative.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1812,
+   "jd_ut": 2383030.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.29,
+    "text": "Gemini 10°17′",
+    "longitude": 70.288
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bellona: The Monopoly Broken",
+   "stop": "Staten Island, marriage to Sophia Johnson",
+   "date": "1813-12-19",
+   "date_confidence": "attested for the date; the exact place of the ceremony is given only as the New York area in the sources consulted, so the family pin on Staten Island is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1813,
+   "jd_ut": 2383596.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 26.78,
+    "text": "Sagittarius 26°47′",
+    "longitude": 266.782
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 15.59,
+    "text": "Scorpio 15°36′",
+    "longitude": 225.593
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 14.75,
+    "text": "Sagittarius 14°45′",
+    "longitude": 254.748
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 13.59,
+    "text": "Aquarius 13°36′",
+    "longitude": 313.594
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 22.08,
+    "text": "Pisces 22°05′",
+    "longitude": 352.083
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 10.0,
+    "text": "Virgo 10°00′",
+    "longitude": 159.995
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 18.55,
+    "text": "Capricornus 18°33′",
+    "longitude": 288.552
+   }
+  },
+  {
+   "segment": "Bellona: The Monopoly Broken",
+   "stop": "New Brunswick, captain of the Bellona",
+   "date": "1817-11-24",
+   "date_confidence": "attested; Wikipedia gives 24 November 1817 for his entering Thomas Gibbons's service.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2385032.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 1.41,
+    "text": "Sagittarius 1°25′",
+    "longitude": 241.414
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.44,
+    "text": "Gemini 2°26′",
+    "longitude": 62.44
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 27.67,
+    "text": "Scorpio 27°40′",
+    "longitude": 237.675
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 5.39,
+    "text": "Scorpio 5°23′",
+    "longitude": 215.386
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 21.93,
+    "text": "Gemini 21°56′",
+    "longitude": 81.93
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 17.38,
+    "text": "Sagittarius 17°23′",
+    "longitude": 257.385
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 29.37,
+    "text": "Aquarius 29°22′",
+    "longitude": 329.371
+   }
+  },
+  {
+   "segment": "Bellona: The Monopoly Broken",
+   "stop": "New York Harbor, the monopoly struck down",
+   "date": "1824-03-02",
+   "date_confidence": "attested for the decision. Vanderbilt was not a party to Gibbons v. Ogden and was not present at the Court; the stop is placed on the water he was actually working, not in Washington, per the rule that a stop belongs to whoever was there.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1824,
+   "jd_ut": 2387322.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 11.41,
+    "text": "Pisces 11°25′",
+    "longitude": 341.411
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Bellona: The Monopoly Broken",
+   "stop": "New Brunswick, Bellona Hall and the end of wages",
+   "date": "1826-01-01",
+   "date_confidence": "year level. Gibbons died in 1826 and John Quincy Adams is recorded staying overnight at Bellona Hall that year; the departure from the Gibbons organization is dated 1829, and both are compressed into one stop here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2387992.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.119
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fare Wars and the Move to Manhattan",
+   "stop": "Albany, the Hudson pays him to leave",
+   "date": "1834-01-01",
+   "date_confidence": "attested for the practice and the year of the Hudson settlement; the Albany landing stands for the northern end of a route he worked over several seasons rather than a single dated visit.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1834,
+   "jd_ut": 2390914.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.18,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.178
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fare Wars and the Move to Manhattan",
+   "stop": "Tompkinsville, the ferry he used to row",
+   "date": "1838-01-01",
+   "date_confidence": "attested for the year via the official Staten Island Ferry history. The dossier placed this at Port Richmond; that is wrong. The Richmond Turnpike Company's ferry, chartered by Daniel Tompkins in 1817 and running the steamboat Nautilus, operated from Tompkinsville on the East Shore, and the coordinate is corrected accordingly.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1838,
+   "jd_ut": 2392375.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.21,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.208
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fare Wars and the Move to Manhattan",
+   "stop": "10 Washington Place, the merchant's house",
+   "date": "1846-01-01",
+   "date_confidence": "attested: lot purchased 1845, house completed 1846. Coordinate corrected from the dossier, which pinned Washington Square Park; the house stood on the block between Broadway and Mercer. Daytonian in Manhattan reports as settled fact that he had Sophia confined in an asylum over the move; T. J. Stiles calls the punitive version of that story false or badly distorted. Left unresolved here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395297.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fare Wars and the Move to Manhattan",
+   "stop": "Stonington, the first railroad",
+   "date": "1847-01-01",
+   "date_confidence": "attested for the presidency of the New York, Providence and Boston Railroad; the harbor pin stands for the Stonington line's terminus rather than a documented personal visit.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1847,
+   "jd_ut": 2395662.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.02,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.019
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nicaragua Transit",
+   "stop": "Wall Street, the canal that was never dug",
+   "date": "1849-08-26",
+   "date_confidence": "sources split on the day: 26 August 1849 in some, 27 August in others, including Encyclopedia.com on the American Atlantic and Pacific Ship Canal Company. The concession went to that canal company; the Accessory Transit Company was the 1851 operating spin-off and is kept distinct. The stop is placed in New York, where the company was organized and where Vanderbilt was; the negotiation itself was Ephraim George Squier's, in Nicaragua.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396630.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (placed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 2.6,
+    "text": "Virgo 2°36′",
+    "longitude": 152.603
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 5.84,
+    "text": "Sagittarius 5°50′",
+    "longitude": 245.837
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 11.55,
+    "text": "Virgo 11°33′",
+    "longitude": 161.552
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 20.0,
+    "text": "Cancer 20°00′",
+    "longitude": 110.001
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 9.0,
+    "text": "Gemini 9°00′",
+    "longitude": 69.002
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 3.11,
+    "text": "Virgo 3°07′",
+    "longitude": 153.114
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 6.78,
+    "text": "Aries 6°47′",
+    "longitude": 6.778
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Nicaragua Transit",
+   "stop": "Greytown, the Atlantic mouth of the transit",
+   "date": "1851-01-01",
+   "date_confidence": "route attested across postal-history and maritime sources; Vanderbilt's own presence at Greytown is not documented in anything consulted, so this is a stop on his line rather than a confirmed personal landing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397123.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.049
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Nicaragua Transit",
+   "stop": "La Virgen and San Juan del Sur, the crossing",
+   "date": "1851-06-01",
+   "date_confidence": "route attested, personal presence not. Coordinate corrected: the dossier's Virgin Bay pin was in fact the inland town of Rivas. La Virgen, the transit port on the western shore of Lake Nicaragua, sits near 11.37, -85.77; the Pacific terminus at San Juan del Sur, some twelve miles further, is at 11.2529, -85.8703.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397274.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.88,
+    "text": "Gemini 9°53′",
+    "longitude": 69.879
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The North Star",
+   "stop": "New York, the North Star sails",
+   "date": "1853-05-21",
+   "date_confidence": "attested to the day: due out 19 May 1853, actually sailed 21 May, grounding briefly at Corlaers Hook, returning to New York 24 September.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2397994.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 29.82,
+    "text": "Taurus 29°49′",
+    "longitude": 59.822
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 2.07,
+    "text": "Scorpio 2°04′",
+    "longitude": 212.068
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 7.11,
+    "text": "Taurus 7°06′",
+    "longitude": 37.106
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 1.71,
+    "text": "Gemini 1°42′",
+    "longitude": 61.706
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 5.49,
+    "text": "Taurus 5°29′",
+    "longitude": 35.491
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 22.08,
+    "text": "Sagittarius 22°05′",
+    "longitude": 262.079
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 22.43,
+    "text": "Taurus 22°26′",
+    "longitude": 52.429
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The North Star",
+   "stop": "Southampton, the yacht nobody can place",
+   "date": "1853-06-01",
+   "date_confidence": "attested as the first major port of call; the month is from the voyage itinerary rather than a dated log entry.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2398005.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.37,
+    "text": "Gemini 10°22′",
+    "longitude": 70.374
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The North Star",
+   "stop": "Kronstadt, the tsar's officers take her lines",
+   "date": "1853-07-01",
+   "date_confidence": "attested for the Russian call; Kronstadt, the naval anchorage serving Saint Petersburg, is used as the landmark coordinate because no source consulted specifies the berth.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2398035.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) no source",
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.02,
+    "text": "Cancer 9°01′",
+    "longitude": 99.018
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The North Star",
+   "stop": "Constantinople, the Bosphorus before the war",
+   "date": "1853-08-01",
+   "date_confidence": "attested as a port of call, named in the full title of Choules's account and in Stiles; the month is inferred from the itinerary order.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2398066.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.61,
+    "text": "Leo 8°36′",
+    "longitude": 128.606
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The North Star",
+   "stop": "Saratoga Lake, the chip he did not order",
+   "date": "1853-08-24",
+   "date_confidence": "legend, disproven, and placed here to mark the alibi rather than a visit. The date is nominal, within the season the story claims. Vanderbilt was at sea or abroad from 21 May to 24 September 1853. Coordinate corrected: Wikipedia places Moon's Lake House on the bluff at 43.0559, -73.7295, some three kilometers from the dossier's pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2398089.5,
+   "precision": "year",
+   "precision_triggers": [
+    "nominal (the date)",
+    "(soft) placed",
+    "(soft) nominal"
+   ],
+   "notes": [
+    "hard triggers (legend, placed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 0.7,
+    "text": "Virgo 0°42′",
+    "longitude": 150.703
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The North Star",
+   "stop": "Funchal, the last port before home",
+   "date": "1853-09-10",
+   "date_confidence": "attested as a call via the full title of Choules's 1854 book as catalogued by the Library of Congress; the date is inferred from the 24 September return. Note that most printings of the title name Italy explicitly, while the Library of Congress record (item 03011730) omits it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2398106.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 17.17,
+    "text": "Virgo 17°10′",
+    "longitude": 167.175
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Transit War, the Atlantic, and a Ship for the Union",
+   "stop": "Wall Street, the letter he may never have written",
+   "date": "1853-09-24",
+   "date_confidence": "attested for the coup: Charles Morgan and Cornelius K. Garrison restructured the Accessory Transit Company in his absence, per Stiles. The letter is not attested. Wikiquote files it under Misattributed; its earliest appearance is the New York Times obituary of 5 January 1877, no original is locatable, and every modern printing descends from that obituary. Wording here follows the canonical printed text.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1853,
+   "jd_ut": 2398120.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 0.85,
+    "text": "Libra 0°51′",
+    "longitude": 180.849
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 15.24,
+    "text": "Gemini 15°14′",
+    "longitude": 75.235
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 25.96,
+    "text": "Virgo 25°58′",
+    "longitude": 175.959
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 5.6,
+    "text": "Scorpio 5°36′",
+    "longitude": 215.6
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 0.82,
+    "text": "Leo 0°49′",
+    "longitude": 120.823
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 17.41,
+    "text": "Sagittarius 17°24′",
+    "longitude": 257.405
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 1.78,
+    "text": "Gemini 1°47′",
+    "longitude": 61.78
+   }
+  },
+  {
+   "segment": "Transit War, the Atlantic, and a Ship for the Union",
+   "stop": "Le Havre, the European line",
+   "date": "1855-01-01",
+   "date_confidence": "attested for the 1855 start via TheShipsList and GG Archives, which also give the end of transatlantic sailings as 1860, not 'around the start of the Civil War' as the dossier had it. The flagship pairing named in those sources is North Star and Admiral; Ariel, which the dossier listed, does not appear among the European line's ships.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398584.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.078
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Transit War, the Atlantic, and a Ship for the Union",
+   "stop": "Nicaragua, the river taken back from Walker",
+   "date": "1856-12-01",
+   "date_confidence": "attested for the campaign and the seizure of the steamers; Vanderbilt directed it from New York and his personal presence in Nicaragua is not documented. The stop sits on his own transit line, where his boats and his agents were.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399284.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.05,
+    "text": "Sagittarius 9°03′",
+    "longitude": 249.051
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Transit War, the Atlantic, and a Ship for the Union",
+   "stop": "Brooklyn Navy Yard, the ship given away",
+   "date": "1862-03-24",
+   "date_confidence": "attested for the date of transfer to the Navy; the location is reconstruction. No source consulted names the receiving yard, and Brooklyn is used as the standard New York naval receiving point of the period.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1862,
+   "jd_ut": 2401223.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) span/window",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 3.12,
+    "text": "Aries 3°07′",
+    "longitude": 3.117
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Transit War, the Atlantic, and a Ship for the Union",
+   "stop": "New York, the thanks of Congress",
+   "date": "1864-01-28",
+   "date_confidence": "attested: joint resolution approved 28 January 1864, 13 Stat. 401. The resolution passed in Washington and Vanderbilt was in New York; the stop is placed where he was.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2401898.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (placed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 7.38,
+    "text": "Aquarius 7°23′",
+    "longitude": 307.382
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 21.82,
+    "text": "Virgo 21°49′",
+    "longitude": 171.816
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 0.99,
+    "text": "Aquarius 1°00′",
+    "longitude": 300.995
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 25.79,
+    "text": "Sagittarius 25°48′",
+    "longitude": 265.793
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 29.97,
+    "text": "Sagittarius 29°58′",
+    "longitude": 269.971
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 24.54,
+    "text": "Scorpio 24°32′",
+    "longitude": 234.539
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 18.1,
+    "text": "Libra 18°06′",
+    "longitude": 198.104
+   }
+  },
+  {
+   "segment": "Iron",
+   "stop": "Wall Street, the Harlem corner",
+   "date": "1863-01-01",
+   "date_confidence": "Wikipedia dates the corner episodes to 1863; older railroad histories cited in the dossier describe corners in both 1863 and 1864 and the two are frequently conflated. Not resolved here. The quote is from his testimony of 18 January 1867, four years later, and is given for the mentality rather than the moment.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401506.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.137
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 25.35,
+    "text": "Taurus 25°21′",
+    "longitude": 55.349
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 15.52,
+    "text": "Capricornus 15°31′",
+    "longitude": 285.523
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 15.2,
+    "text": "Capricornus 15°12′",
+    "longitude": 285.201
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 22.83,
+    "text": "Aries 22°50′",
+    "longitude": 22.83
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 24.77,
+    "text": "Libra 24°46′",
+    "longitude": 204.774
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 5.42,
+    "text": "Libra 5°25′",
+    "longitude": 185.422
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Iron",
+   "stop": "New York, word from Nice",
+   "date": "1863-12-31",
+   "date_confidence": "attested for the death, place and date. The cause is corrected: Find a Grave memorial 130329385 and genealogieonline record a lung disease contracted in Civil War service, not the malaria the dossier reported. A different George Washington Vanderbilt, born 1832, died in infancy in 1836; the son who died at Nice was born 10 April 1839. The stop is in New York because that is where his father was.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1863,
+   "jd_ut": 2401870.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.87,
+    "text": "Capricornus 8°52′",
+    "longitude": 278.87
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 13.01,
+    "text": "Virgo 13°01′",
+    "longitude": 163.014
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 25.0,
+    "text": "Capricornus 25°00′",
+    "longitude": 294.999
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 23.32,
+    "text": "Scorpio 23°19′",
+    "longitude": 233.325
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 9.89,
+    "text": "Sagittarius 9°53′",
+    "longitude": 249.889
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 20.21,
+    "text": "Scorpio 20°13′",
+    "longitude": 230.209
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 17.44,
+    "text": "Libra 17°27′",
+    "longitude": 197.442
+   }
+  },
+  {
+   "segment": "Iron",
+   "stop": "Wall Street, the last ships sold",
+   "date": "1864-06-01",
+   "date_confidence": "attested for the year: control of the Hudson River Railroad acquired and the last vessels sold in 1864. The month is nominal.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2402023.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "nominal (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.7,
+    "text": "Gemini 10°42′",
+    "longitude": 70.701
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Iron",
+   "stop": "East Albany, the bridge closed against the Central",
+   "date": "1867-01-01",
+   "date_confidence": "attested for the embargo and the January 1867 testimony that followed it. Vanderbilt directed the stoppage from New York; the stoppage itself happened at the river crossing at East Albany, which is where the pin sits.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2402967.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.166
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Iron",
+   "stop": "New York, surety for Jefferson Davis",
+   "date": "1867-05-13",
+   "date_confidence": "attested: bond of $100,000 posted and accepted 13 May 1867, Vanderbilt among roughly twenty sureties. He did not travel to Richmond. Encyclopedia Virginia and the NYPL Digital Collections record that he sent his son-in-law Horace F. Clark to act for him while Greeley and Gerrit Smith appeared in person, so the stop is placed in New York.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403099.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (placed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 21.75,
+    "text": "Taurus 21°45′",
+    "longitude": 51.749
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 17.52,
+    "text": "Virgo 17°31′",
+    "longitude": 167.517
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 2.23,
+    "text": "Taurus 2°14′",
+    "longitude": 32.225
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 16.76,
+    "text": "Aries 16°46′",
+    "longitude": 16.762
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 8.17,
+    "text": "Leo 8°10′",
+    "longitude": 128.173
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 4.63,
+    "text": "Pisces 4°38′",
+    "longitude": 334.627
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 20.62,
+    "text": "Scorpio 20°37′",
+    "longitude": 230.617
+   }
+  },
+  {
+   "segment": "Iron",
+   "stop": "Wall Street, the Erie War",
+   "date": "1868-03-01",
+   "date_confidence": "attested for the year and the mechanism; the month is nominal, the episode running through the spring of 1868.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403392.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.74,
+    "text": "Pisces 10°44′",
+    "longitude": 340.738
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Iron",
+   "stop": "10 Washington Place, Sophia's death",
+   "date": "1868-08-17",
+   "date_confidence": "attested. The asylum story attached to this marriage is reported as fact by Daytonian in Manhattan and rejected in its punitive form by T. J. Stiles; the contradiction is recorded, not settled.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403561.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.32,
+    "text": "Leo 24°19′",
+    "longitude": 144.318
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Iron",
+   "stop": "Tecumseh House, London, Ontario",
+   "date": "1869-08-21",
+   "date_confidence": "attested for date, venue and officiant: 21 August 1869 at the Tecumseh House, the Rev. Dr. William Briggs officiating, per Wikipedia, WikiTree Crawford-4851 and the London Room digital collections. The dossier's claim that Braxton and Thomas Bragg attended as witnesses is corroborated by no independent source reached and is downgraded to reconstruction here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1869,
+   "jd_ut": 2403930.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 27.94,
+    "text": "Leo 27°56′",
+    "longitude": 147.937
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 14.78,
+    "text": "Aquarius 14°47′",
+    "longitude": 314.784
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 6.57,
+    "text": "Virgo 6°34′",
+    "longitude": 156.568
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 25.68,
+    "text": "Virgo 25°41′",
+    "longitude": 175.683
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 20.2,
+    "text": "Libra 20°12′",
+    "longitude": 200.198
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 20.52,
+    "text": "Taurus 20°31′",
+    "longitude": 50.525
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 10.38,
+    "text": "Sagittarius 10°23′",
+    "longitude": 250.378
+   }
+  },
+  {
+   "segment": "Iron",
+   "stop": "Grand Central Depot, Forty-second Street",
+   "date": "1871-10-01",
+   "date_confidence": "attested for the depot: built September 1869 to October 1871 to John B. Snook's design. The consolidation is dated 1 November 1869 by the company's own annual reports and 1870 by Wikipedia; the contradiction is left standing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404701.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.37,
+    "text": "Libra 7°22′",
+    "longitude": 187.374
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 4.23,
+    "text": "Taurus 4°14′",
+    "longitude": 34.235
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 19.84,
+    "text": "Virgo 19°51′",
+    "longitude": 169.843
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 0.16,
+    "text": "Libra 0°09′",
+    "longitude": 180.157
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 2.62,
+    "text": "Sagittarius 2°37′",
+    "longitude": 242.62
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 26.56,
+    "text": "Cancer 26°34′",
+    "longitude": 116.562
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 3.47,
+    "text": "Capricornus 3°28′",
+    "longitude": 273.469
+   }
+  },
+  {
+   "segment": "Gifts, the Will, and the Last Room",
+   "stop": "44 Broad Street, the lady brokers",
+   "date": "1870-02-05",
+   "date_confidence": "attested for the financing and the opening of Woodhull, Claflin and Co. on 5 February 1870; his own physical presence at the office is not documented in any source consulted, and is tagged as reconstruction.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404098.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 16.05,
+    "text": "Aquarius 16°03′",
+    "longitude": 316.051
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 5.05,
+    "text": "Aries 5°03′",
+    "longitude": 5.051
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 11.9,
+    "text": "Aquarius 11°54′",
+    "longitude": 311.897
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 12.86,
+    "text": "Pisces 12°51′",
+    "longitude": 342.857
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 23.81,
+    "text": "Aquarius 23°49′",
+    "longitude": 323.811
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 12.71,
+    "text": "Taurus 12°43′",
+    "longitude": 42.713
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 25.41,
+    "text": "Sagittarius 25°25′",
+    "longitude": 265.412
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Gifts, the Will, and the Last Room",
+   "stop": "Church of the Strangers, Mercer Street",
+   "date": "1870-10-02",
+   "date_confidence": "attested: Deems founded the congregation in 1868, Vanderbilt bought the former Mercer Street Presbyterian church for him in 1870, and it opened as the Church of the Strangers on 2 October 1870. The price is disputed: vanderbilt.edu says $50,000, Daytonian in Manhattan says $100,000. Not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1870,
+   "jd_ut": 2404337.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.6,
+    "text": "Libra 8°36′",
+    "longitude": 188.597
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.005
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 13.37,
+    "text": "Libra 13°22′",
+    "longitude": 193.365
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 21.71,
+    "text": "Virgo 21°42′",
+    "longitude": 171.707
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.26,
+    "text": "Leo 14°16′",
+    "longitude": 134.261
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 26.26,
+    "text": "Gemini 26°16′",
+    "longitude": 86.262
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 22.76,
+    "text": "Sagittarius 22°45′",
+    "longitude": 262.758
+   }
+  },
+  {
+   "segment": "Gifts, the Will, and the Last Room",
+   "stop": "New York, the million for Nashville",
+   "date": "1873-03-01",
+   "date_confidence": "attested for March 1873 and the approximate million dollars, given as two separate gifts of $500,000 to Bishop McTyeire; Vanderbilt University's own history credits the founding gift to Cornelius and to his wife Frank Armstrong Crawford Vanderbilt. The quote is from his letter to McTyeire of December 1875, after the university opened, not from the 1873 gift, and the university's own short form of it drops two phrases.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405218.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.53,
+    "text": "Pisces 10°32′",
+    "longitude": 340.525
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gifts, the Will, and the Last Room",
+   "stop": "10 Washington Place, the will",
+   "date": "1875-01-09",
+   "date_confidence": "attested: will dated 9 January 1875, its dispositive clauses reproduced from the probate and litigation record in American Heritage, 'The Commodore Left Two Sons' (April 1966).",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2405897.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.38,
+    "text": "Capricornus 18°23′",
+    "longitude": 288.38
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 3.86,
+    "text": "Aquarius 3°51′",
+    "longitude": 303.858
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 14.36,
+    "text": "Capricornus 14°22′",
+    "longitude": 284.36
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 11.43,
+    "text": "Sagittarius 11°26′",
+    "longitude": 251.426
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 10.52,
+    "text": "Scorpio 10°31′",
+    "longitude": 220.52
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 29.49,
+    "text": "Libra 29°30′",
+    "longitude": 209.493
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 13.16,
+    "text": "Aquarius 13°10′",
+    "longitude": 313.159
+   }
+  },
+  {
+   "segment": "Gifts, the Will, and the Last Room",
+   "stop": "10 Washington Place, the eight-month decline",
+   "date": "1877-01-04",
+   "date_confidence": "attested for date and place. Cause of death is contested: contemporary reporting said exhaustion from chronic disorders, while American Heritage, working from the autopsy and the will-contest medical testimony, identifies peritonitis as the immediate condition. Edward J. Renehan Jr., using Dr. Jared Linsly's diary, later argued for syphilis with neurological effects; Stiles rejects the stronger form of that claim. Left open.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406623.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 13.81,
+    "text": "Capricornus 13°48′",
+    "longitude": 283.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gifts, the Will, and the Last Room",
+   "stop": "Mercer Street, the funeral and the last crossing",
+   "date": "1877-01-07",
+   "date_confidence": "attested via contemporary newspaper coverage and the Daytonian history of the church; the route to the Battery is as reported in the press accounts.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406626.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.87,
+    "text": "Capricornus 16°52′",
+    "longitude": 286.866
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 21.77,
+    "text": "Libra 21°46′",
+    "longitude": 201.77
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 5.04,
+    "text": "Aquarius 5°02′",
+    "longitude": 305.039
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 17.56,
+    "text": "Sagittarius 17°34′",
+    "longitude": 257.565
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 25.0,
+    "text": "Scorpio 25°00′",
+    "longitude": 235.005
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 20.32,
+    "text": "Sagittarius 20°19′",
+    "longitude": 260.323
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 4.32,
+    "text": "Pisces 4°19′",
+    "longitude": 334.324
+   }
+  },
+  {
+   "segment": "Gifts, the Will, and the Last Room",
+   "stop": "Moravian Cemetery, New Dorp, the plain grave",
+   "date": "1877-01-07",
+   "date_confidence": "attested. The grand Vanderbilt mausoleum did not exist in 1877 and was not built until 1885-86, a distinction the dossier does not make explicit.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1877,
+   "jd_ut": 2406626.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.87,
+    "text": "Capricornus 16°52′",
+    "longitude": 286.866
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Afterward",
+   "stop": "The hillside above New Dorp, the mausoleum",
+   "date": "1886-01-01",
+   "date_confidence": "attested: Hunt commissioned 1884, construction 1885-86 per Wikipedia and NYC Landmarks Preservation Commission Designation List 487 (LP-1208), reinterment 1888. Coordinate corrected from the dossier, whose pin fell about 1.5 km away in residential New Dorp; Wikipedia gives 40 deg 34' 48'' N, 74 deg 7' 00'' W. The model is the Romanesque abbey church of Saint-Gilles-du-Gard near Arles, not a church in Arles itself.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409907.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.561
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Afterward",
+   "stop": "Grand Central Terminal, the statue moved",
+   "date": "1929-01-01",
+   "date_confidence": "attested for the 1869 bronze and its 1929 relocation. Sculptor corrected: the work is Ernst Plassmann's, long misattributed to Albert De Groot until David M. Kahn corrected the record in The Connoisseur, June 1980. The dossier left the relocation year open between 1913 and 1929; Wikipedia's 'Grand Central Terminal art' and 'Ernst Plassmann' both give 1929.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "month",
+   "precision_triggers": [
+    "between",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Afterward",
+   "stop": "Vanderbilt University, the medal comes back",
+   "date": "2022-10-01",
+   "date_confidence": "attested for the 2022 donation via the Vanderbilt University Libraries exhibition 'Gifts of Gold for the Commodore'; the month is nominal, the exhibition giving autumn 2022. He never visited Nashville in his life.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2022,
+   "jd_ut": 2459853.5,
+   "precision": "year",
+   "precision_triggers": [
+    "nominal (the date)",
+    "(soft) nominal"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.81,
+    "text": "Libra 7°49′",
+    "longitude": 187.809
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 15,
+  "month": 7,
+  "year": 23
+ },
+ "parse_failures": []
+}

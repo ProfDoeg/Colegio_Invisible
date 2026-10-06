@@ -1,0 +1,1878 @@
+{
+ "slug": "julio_cortazar",
+ "traveler": "Julio Florencio Cortázar Descotte",
+ "title": "The Hopscotch Board: Ixelles to Banfield, the Pampas Chairs, and Thirty-Three Years of Paris",
+ "years": "1914-1984",
+ "years_parsed": {
+  "first": 1914,
+  "last": 1984
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The War Itinerary",
+  "stop": "Avenue Louis Lepoutre 116, Ixelles, the birth in an occupied commune",
+  "date": "1914-08-26",
+  "date_confidence": "attested to the day; the coordinate is the geocoded street address and corrects a value circulating in the atlas material that falls some eight hundred metres south of the street",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1914,
+  "jd_ut": 2420370.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Virgo",
+   "degree": 1.91,
+   "text": "Virgo 1°55′",
+   "longitude": 151.911
+  },
+  "moon": {
+   "sign": "Scorpio",
+   "degree": 2.58,
+   "text": "Scorpio 2°35′",
+   "longitude": 212.579
+  },
+  "mercury": {
+   "sign": "Leo",
+   "degree": 27.13,
+   "text": "Leo 27°08′",
+   "longitude": 147.129
+  },
+  "venus": {
+   "sign": "Libra",
+   "degree": 16.81,
+   "text": "Libra 16°49′",
+   "longitude": 196.811
+  },
+  "mars": {
+   "sign": "Libra",
+   "degree": 7.28,
+   "text": "Libra 7°17′",
+   "longitude": 187.277
+  },
+  "jupiter": {
+   "sign": "Aquarius",
+   "degree": 15.38,
+   "text": "Aquarius 15°23′",
+   "longitude": 315.383
+  },
+  "saturn": {
+   "sign": "Cancer",
+   "degree": 0.18,
+   "text": "Cancer 0°11′",
+   "longitude": 90.183
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1914-1984",
+  "first_year_parsed": 1914
+ },
+ "stops": [
+  {
+   "segment": "The War Itinerary",
+   "stop": "Avenue Louis Lepoutre 116, Ixelles, the birth in an occupied commune",
+   "date": "1914-08-26",
+   "date_confidence": "attested to the day; the coordinate is the geocoded street address and corrects a value circulating in the atlas material that falls some eight hundred metres south of the street",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420370.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 1.91,
+    "text": "Virgo 1°55′",
+    "longitude": 151.911
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 2.58,
+    "text": "Scorpio 2°35′",
+    "longitude": 212.579
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 27.13,
+    "text": "Leo 27°08′",
+    "longitude": 147.129
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 16.81,
+    "text": "Libra 16°49′",
+    "longitude": 196.811
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 7.28,
+    "text": "Libra 7°17′",
+    "longitude": 187.277
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 15.38,
+    "text": "Aquarius 15°23′",
+    "longitude": 315.383
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 0.18,
+    "text": "Cancer 0°11′",
+    "longitude": 90.183
+   }
+  },
+  {
+   "segment": "The War Itinerary",
+   "stop": "Zurich, the first move inland",
+   "date": "1915-01-01",
+   "date_confidence": "approximate; the sources give a span of roughly 1914 to 1916, name the city and nothing finer, and supply no month and no address",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "no month/day",
+    "approximation",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War Itinerary",
+   "stop": "Geneva, the second Swiss address",
+   "date": "1916-01-01",
+   "date_confidence": "approximate; the sources give roughly 1916 to 1918 and name the city only, with no residence, school, or incident attached",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420863.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "approximation",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.25,
+    "text": "Capricornus 9°15′",
+    "longitude": 279.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War Itinerary",
+   "stop": "Barcelona, the last European address",
+   "date": "1918-01-01",
+   "date_confidence": "approximate; the sources give roughly a year and a half in Barcelona immediately before the Atlantic crossing, and the year of that crossing is itself contested between 1918 and the end of 1919",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421594.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "disputed",
+    "between"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.78,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.778
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War Itinerary",
+   "stop": "Port of Buenos Aires, the crossing home",
+   "date": "1919-01-01",
+   "date_confidence": "contradicted and not resolved: several Spanish-language sketches give the return as 1918 with the boy aged four, while the English Wikipedia has the family settled outside Buenos Aires by the end of 1919. No ship's manifest has been consulted. The later year is used here because the Banfield residence itself is dated from 1919",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Banfield and the Normal School",
+   "stop": "Rodríguez Peña 585, Banfield, the house the father leaves",
+   "date": "1920-01-01",
+   "date_confidence": "the settlement in Banfield follows immediately on the crossing and the residence runs to roughly 1932; the father's departure is placed at the boy's sixth year without a document. The coordinate is the geocoded street address and corrects a value in the atlas material lying about 1.3 kilometres to the southeast",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Banfield and the Normal School",
+   "stop": "Escuela Normal Mariano Acosta, the two titles",
+   "date": "1932-01-01",
+   "date_confidence": "attested for the maestro normal title in 1932 and the profesor normal en letras in 1935; the year of entry is not attested and the commute is placed at about age fourteen. The coordinate is the geocoded address at General Urquiza 269 and corrects an atlas value some 550 metres off",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Banfield and the Normal School",
+   "stop": "Viamonte 430, the single year at Filosofía y Letras",
+   "date": "1935-01-01",
+   "date_confidence": "attested for the enrolment year; the coordinate is the faculty's own address in that decade, inferred from its institutional history rather than from a Cortázar source",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Banfield and the Normal School",
+   "stop": "Buenos Aires, Presencia under a false name",
+   "date": "1938-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428899.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.926
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Provincial Chairs and the Translator's Trade",
+   "stop": "Bolívar, the pampas chairs",
+   "date": "1937-01-01",
+   "date_confidence": "contradicted and left standing: the geography sources give Bolívar for roughly 1937 to 1939, while the chronology sources open the provincial teaching at 1939. Terms of appointment are not attested in either",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428534.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "approximation",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.17,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.173
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Provincial Chairs and the Translator's Trade",
+   "stop": "Chivilcoy, five years at the normal school",
+   "date": "1939-01-01",
+   "date_confidence": "attested for the Chivilcoy years running to the 1944 move to Mendoza; the month of appointment is not given in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429264.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.678
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Provincial Chairs and the Translator's Trade",
+   "stop": "Universidad Nacional de Cuyo, the chair in Mendoza",
+   "date": "1944-01-01",
+   "date_confidence": "attested for the year of appointment; no month is given in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431090.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.46,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.46
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Provincial Chairs and the Translator's Trade",
+   "stop": "Mendoza, the resignation",
+   "date": "1946-06-01",
+   "date_confidence": "attested for the resignation in 1946 under Peronist pressure on the university; the month is not firmly given, and the brief jailing at an anti-Peronist demonstration appears in some accounts only and is carried as tradition",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431972.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.92,
+    "text": "Gemini 9°55′",
+    "longitude": 69.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Provincial Chairs and the Translator's Trade",
+   "stop": "Buenos Aires, Borges prints Casa tomada",
+   "date": "1946-12-01",
+   "date_confidence": "attested to the issue: number 11 of Los Anales de Buenos Aires, December 1946, per the Ahira magazine archive; the day is not applicable",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2432155.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.2,
+    "text": "Sagittarius 8°12′",
+    "longitude": 248.2
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Provincial Chairs and the Translator's Trade",
+   "stop": "Buenos Aires, the sworn translator",
+   "date": "1948-01-01",
+   "date_confidence": "reconstruction: the 1948 sworn-translator examination is repeated across Spanish-language biographical sketches but was not independently corroborated in this research; the register entry itself has not been consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1948,
+   "jd_ut": 2432551.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.49,
+    "text": "Capricornus 9°29′",
+    "longitude": 279.49
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Provincial Chairs and the Translator's Trade",
+   "stop": "Port of Buenos Aires, the departure for France",
+   "date": "1951-10-01",
+   "date_confidence": "attested for the year of the scholarship and the sailing; the month is not given in the sources consulted, and November 1951 is the date usually cited for the arrival in Paris",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433920.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.01,
+    "text": "Libra 7°01′",
+    "longitude": 187.012
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Poe Years",
+   "stop": "Paris, the arrival",
+   "date": "1951-11-01",
+   "date_confidence": "attested for the year; November is the month generally given and is not independently confirmed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1951,
+   "jd_ut": 2433951.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.76,
+    "text": "Scorpio 7°46′",
+    "longitude": 217.76
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Poe Years",
+   "stop": "Place de Fontenoy, the UNESCO desk",
+   "date": "1952-01-01",
+   "date_confidence": "attested for the start of the UNESCO work in 1952; the Fontenoy headquarters opens only in 1958, so this pin marks the institution and not the room he first worked in",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434012.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.52,
+    "text": "Capricornus 9°31′",
+    "longitude": 279.519
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Poe Years",
+   "stop": "Paris, marriage to Aurora Bernárdez",
+   "date": "1953-08-22",
+   "date_confidence": "the year is attested; the day of 22 August comes from a single secondary account and the arrondissement of the mairie is not named in any source consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434611.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 28.6,
+    "text": "Leo 28°36′",
+    "longitude": 148.604
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Poe Years",
+   "stop": "Jardin des Plantes, the axolotls",
+   "date": "1956-01-01",
+   "date_confidence": "the story Axolotl is published in Final del juego in 1956 and is set at the Jardin des Plantes aquarium; the visits themselves are undated and the coordinate is the garden's, not a Cortázar source's",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435473.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.55,
+    "text": "Capricornus 9°33′",
+    "longitude": 279.549
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris and the Poe Years",
+   "stop": "New Delhi, the change of planet",
+   "date": "1956-01-01",
+   "date_confidence": "attested for the year of the first Indian journey; the site of the stay within the city is not named in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435473.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.55,
+    "text": "Capricornus 9°33′",
+    "longitude": 279.549
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rayuela",
+   "stop": "Buenos Aires, El perseguidor and the first novel",
+   "date": "1959-01-01",
+   "date_confidence": "attested for Las armas secretas in 1959 and Los premios in 1960",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rayuela",
+   "stop": "Casa de las Américas, Havana",
+   "date": "1963-01-01",
+   "date_confidence": "attested for the 1963 first journey to Cuba; no month is given in the sources consulted. The coordinate is the geocoded address at Calle 3ra and G in Vedado and corrects a value in the atlas material lying nearly three kilometres south",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438030.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.855
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rayuela",
+   "stop": "Buenos Aires, Rayuela",
+   "date": "1963-01-01",
+   "date_confidence": "attested for the year of publication; no month is given in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438030.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.855
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rayuela",
+   "stop": "Jantar Mantar, Jaipur, the stone observatory",
+   "date": "1968-01-01",
+   "date_confidence": "attested for the second Indian journey and the visit to the Jaipur observatories; no month is given in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2439856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.64,
+    "text": "Capricornus 9°38′",
+    "longitude": 279.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rayuela",
+   "stop": "Paris, the separation and 62/Modelo para armar",
+   "date": "1968-01-01",
+   "date_confidence": "contradicted and not resolved: Spanish sources date the divorce to 1967, English ones place the separation around 1968",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2439856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.64,
+    "text": "Capricornus 9°38′",
+    "longitude": 279.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rayuela",
+   "stop": "Saignon, the house in the Luberon",
+   "date": "1968-06-01",
+   "date_confidence": "contradicted and left standing: one account has Cortázar and Bernárdez buying and moving into the Saignon house at the end of June 1968, at the very close of the marriage, while French sources run the Saignon period from roughly 1964 to 1978. The coordinate is the commune's own and corrects an atlas value about ten kilometres east of it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2440008.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "approximation",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.57,
+    "text": "Gemini 10°34′",
+    "longitude": 70.569
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Southern Cause",
+   "stop": "Havana, the Padilla affair",
+   "date": "1971-01-01",
+   "date_confidence": "attested for the 1971 Padilla affair; Cortázar's position is documented in the biographical literature rather than tied to a dated document consulted here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2440952.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Southern Cause",
+   "stop": "Paris, Libro de Manuel and the Médicis money",
+   "date": "1973-01-01",
+   "date_confidence": "attested for the 1973 publication and for the Prix Médicis étranger in 1974",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1973,
+   "jd_ut": 2441683.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.439
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Southern Cause",
+   "stop": "Rome, the Russell Tribunal",
+   "date": "1974-01-01",
+   "date_confidence": "attested for the inaugural Rome session of the second Russell Tribunal in 1974; no month is given in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1974,
+   "jd_ut": 2442048.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.19,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.192
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Southern Cause",
+   "stop": "Buenos Aires, legajo 3178",
+   "date": "1975-08-29",
+   "date_confidence": "attested to the day by the DIPPBA file number 3178; compilations that date the file to 1976 and attribute it to the military junta are wrong on both counts",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442653.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 5.05,
+    "text": "Virgo 5°03′",
+    "longitude": 155.05
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Companion",
+   "stop": "Montreal, meeting Carol Dunlop",
+   "date": "1977-01-01",
+   "date_confidence": "attested for the 1977 meeting in Canada at an international writers' gathering, correcting a 1979 date circulating in the timelines; the venue within Montreal is not named in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443144.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.469
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Companion",
+   "stop": "Managua, the revolution he lives to see",
+   "date": "1980-01-01",
+   "date_confidence": "attested for repeated journeys across roughly 1976 to 1983; no single date is consolidated in any one source, and the Rubén Darío order is dated 1983",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444239.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.73,
+    "text": "Capricornus 9°44′",
+    "longitude": 279.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Companion",
+   "stop": "Paris, French citizenship without renunciation",
+   "date": "1981-07-24",
+   "date_confidence": "attested to the day; the decree is among the first signed under François Mitterrand's new government",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444809.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.03,
+    "text": "Leo 1°02′",
+    "longitude": 121.027
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 25.71,
+    "text": "Aries 25°42′",
+    "longitude": 25.706
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 13.66,
+    "text": "Cancer 13°39′",
+    "longitude": 103.656
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 29.31,
+    "text": "Leo 29°19′",
+    "longitude": 149.31
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 3.79,
+    "text": "Cancer 3°48′",
+    "longitude": 93.793
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 4.85,
+    "text": "Libra 4°51′",
+    "longitude": 184.85
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 5.06,
+    "text": "Libra 5°04′",
+    "longitude": 185.065
+   }
+  },
+  {
+   "segment": "The Last Companion",
+   "stop": "Paris, the hemorrhage",
+   "date": "1981-08-01",
+   "date_confidence": "attested to the month; the hospital is not named in the accessible sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444817.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.67,
+    "text": "Leo 8°40′",
+    "longitude": 128.673
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cosmopista",
+   "stop": "Porte d'Italie, the entrance to the cosmopista",
+   "date": "1982-05-01",
+   "date_confidence": "attested for May 1982; the day of departure is not given in the sources consulted, and the journey is given as thirty-three days in the Spanish accounts and thirty-two in the French",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1982,
+   "jd_ut": 2445090.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.32,
+    "text": "Taurus 10°19′",
+    "longitude": 40.315
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cosmopista",
+   "stop": "Vieux-Port, Marseille, the end of the expedition",
+   "date": "1982-06-01",
+   "date_confidence": "attested for June 1982; the exact day is not given in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1982,
+   "jd_ut": 2445121.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.2,
+    "text": "Gemini 10°12′",
+    "longitude": 70.201
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Cosmopista",
+   "stop": "Paris, the death of Carol Dunlop",
+   "date": "1982-11-02",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1982,
+   "jd_ut": 2445275.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 9.25,
+    "text": "Scorpio 9°15′",
+    "longitude": 219.246
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 15.36,
+    "text": "Taurus 15°22′",
+    "longitude": 45.361
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 28.29,
+    "text": "Libra 28°17′",
+    "longitude": 208.291
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 8.72,
+    "text": "Scorpio 8°43′",
+    "longitude": 218.724
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 0.78,
+    "text": "Capricornus 0°47′",
+    "longitude": 270.776
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 18.26,
+    "text": "Scorpio 18°15′",
+    "longitude": 228.258
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 27.01,
+    "text": "Libra 27°01′",
+    "longitude": 207.014
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Return and the Grave",
+   "stop": "Buenos Aires, the last return",
+   "date": "1983-12-01",
+   "date_confidence": "attested to the year; December and the absence of an official reception come from press accounts and compiled timelines rather than from a document consulted here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1983,
+   "jd_ut": 2445669.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.22,
+    "text": "Sagittarius 8°13′",
+    "longitude": 248.223
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Return and the Grave",
+   "stop": "Hôpital Saint-Lazare, Paris, death in the tenth arrondissement",
+   "date": "1984-02-12",
+   "date_confidence": "attested to the day; the place of death is corrected here from the rue Martel apartment to the Hôpital Saint-Lazare, from which the body was carried the few streets home afterward. The coordinate is the canonical Paris pin the atlas uses across this file, not the hospital's own",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445742.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 22.46,
+    "text": "Aquarius 22°28′",
+    "longitude": 322.465
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 14.44,
+    "text": "Gemini 14°26′",
+    "longitude": 74.436
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 4.36,
+    "text": "Aquarius 4°22′",
+    "longitude": 304.365
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 21.15,
+    "text": "Capricornus 21°09′",
+    "longitude": 291.146
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 15.08,
+    "text": "Scorpio 15°05′",
+    "longitude": 225.076
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 4.69,
+    "text": "Capricornus 4°42′",
+    "longitude": 274.693
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 16.36,
+    "text": "Scorpio 16°22′",
+    "longitude": 226.359
+   }
+  },
+  {
+   "segment": "The Last Return and the Grave",
+   "stop": "Cimetière du Montparnasse, division 3",
+   "date": "1984-02-14",
+   "date_confidence": "attested to the day for the burial and to the division for the plot; two coordinates for the grave circulate in the atlas material, and the value used here is the cemetery's own published one",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445744.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 24.49,
+    "text": "Aquarius 24°29′",
+    "longitude": 324.487
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 12.2,
+    "text": "Cancer 12°12′",
+    "longitude": 102.2
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 7.41,
+    "text": "Aquarius 7°25′",
+    "longitude": 307.415
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 23.61,
+    "text": "Capricornus 23°36′",
+    "longitude": 293.607
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 15.91,
+    "text": "Scorpio 15°54′",
+    "longitude": 225.907
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 5.07,
+    "text": "Capricornus 5°04′",
+    "longitude": 275.066
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 16.4,
+    "text": "Scorpio 16°24′",
+    "longitude": 226.399
+   }
+  },
+  {
+   "segment": "The Last Return and the Grave",
+   "stop": "Madrid, the four thousand books",
+   "date": "1993-04-01",
+   "date_confidence": "contradicted and left standing: the physical transfer of the library from the rue Martel apartment to Madrid is dated to autumn 1992, while the donation itself and the tribute ceremony are dated 1993. The coordinate is the foundation's own address and comes from outside the research pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1993,
+   "jd_ut": 2449078.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.28,
+    "text": "Aries 11°17′",
+    "longitude": 11.285
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Return and the Grave",
+   "stop": "Biblioteca Nacional, the centenary monument",
+   "date": "2014-08-26",
+   "date_confidence": "attested to the day for the unveiling and for the opening of the centenary exhibitions at the Museo Nacional de Bellas Artes the same date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2014,
+   "jd_ut": 2456895.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 2.7,
+    "text": "Virgo 2°42′",
+    "longitude": 152.704
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 7.15,
+    "text": "Virgo 7°09′",
+    "longitude": 157.151
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 18.47,
+    "text": "Virgo 18°28′",
+    "longitude": 168.474
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 16.79,
+    "text": "Leo 16°48′",
+    "longitude": 136.793
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 17.79,
+    "text": "Scorpio 17°48′",
+    "longitude": 227.795
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 8.87,
+    "text": "Leo 8°52′",
+    "longitude": 128.872
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 17.83,
+    "text": "Scorpio 17°50′",
+    "longitude": 227.828
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Return and the Grave",
+   "stop": "Cimetière du Montparnasse, Aurora's ashes",
+   "date": "2014-11-14",
+   "date_confidence": "attested to the day for the cremation at Père Lachaise; the placing of the ashes in the Montparnasse grave follows it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2014,
+   "jd_ut": 2456975.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 21.53,
+    "text": "Scorpio 21°32′",
+    "longitude": 231.534
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 14.62,
+    "text": "Leo 14°37′",
+    "longitude": 134.615
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 7.68,
+    "text": "Scorpio 7°41′",
+    "longitude": 217.684
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 26.51,
+    "text": "Scorpio 26°30′",
+    "longitude": 236.508
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 13.89,
+    "text": "Capricornus 13°53′",
+    "longitude": 283.887
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 21.61,
+    "text": "Leo 21°36′",
+    "longitude": 141.605
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 25.54,
+    "text": "Scorpio 25°32′",
+    "longitude": 235.541
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Return and the Grave",
+   "stop": "Montevideo, the typescript in the banana box",
+   "date": "2023-10-12",
+   "date_confidence": "attested to the auction; the sale is reported on 12 October 2023 and the exact day of the hammer varies slightly between reports",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2023,
+   "jd_ut": 2460229.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 18.42,
+    "text": "Libra 18°25′",
+    "longitude": 198.416
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 17.82,
+    "text": "Virgo 17°49′",
+    "longitude": 167.818
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 12.39,
+    "text": "Libra 12°23′",
+    "longitude": 192.388
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 2.57,
+    "text": "Virgo 2°34′",
+    "longitude": 152.571
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 29.89,
+    "text": "Libra 29°53′",
+    "longitude": 209.889
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 13.31,
+    "text": "Taurus 13°18′",
+    "longitude": 43.306
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 0.93,
+    "text": "Pisces 0°56′",
+    "longitude": 330.929
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 8,
+  "month": 4,
+  "year": 33
+ },
+ "parse_failures": []
+}

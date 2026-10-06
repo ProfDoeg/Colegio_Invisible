@@ -1,0 +1,1764 @@
+{
+ "slug": "erik_satie",
+ "traveler": "Erik Satie (Eric Alfred Leslie Satie)",
+ "title": "The Velvet Gentleman: Honfleur, the Butte, and the Room in Arcueil Nobody Entered",
+ "years": "1866-1925",
+ "years_parsed": {
+  "first": 1866,
+  "last": 1925
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Honfleur, the House by the Harbor",
+  "stop": "Honfleur, birth on the boulevard Charles V",
+  "date": "1866-05-17",
+  "date_confidence": "attested to the day",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1866,
+  "jd_ut": 2402738.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 25.84,
+   "text": "Taurus 25°50′",
+   "longitude": 55.836
+  },
+  "moon": {
+   "sign": "Gemini",
+   "degree": 29.36,
+   "text": "Gemini 29°22′",
+   "longitude": 89.362
+  },
+  "mercury": {
+   "sign": "Taurus",
+   "degree": 0.56,
+   "text": "Taurus 0°33′",
+   "longitude": 30.558
+  },
+  "venus": {
+   "sign": "Gemini",
+   "degree": 16.13,
+   "text": "Gemini 16°08′",
+   "longitude": 76.13
+  },
+  "mars": {
+   "sign": "Aries",
+   "degree": 9.91,
+   "text": "Aries 9°54′",
+   "longitude": 9.908
+  },
+  "jupiter": {
+   "sign": "Aquarius",
+   "degree": 2.36,
+   "text": "Aquarius 2°22′",
+   "longitude": 302.361
+  },
+  "saturn": {
+   "sign": "Scorpio",
+   "degree": 7.67,
+   "text": "Scorpio 7°40′",
+   "longitude": 217.675
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1866-1925",
+  "first_year_parsed": 1866
+ },
+ "stops": [
+  {
+   "segment": "Honfleur, the House by the Harbor",
+   "stop": "Honfleur, birth on the boulevard Charles V",
+   "date": "1866-05-17",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1866,
+   "jd_ut": 2402738.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 25.84,
+    "text": "Taurus 25°50′",
+    "longitude": 55.836
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 29.36,
+    "text": "Gemini 29°22′",
+    "longitude": 89.362
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 0.56,
+    "text": "Taurus 0°33′",
+    "longitude": 30.558
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 16.13,
+    "text": "Gemini 16°08′",
+    "longitude": 76.13
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 9.91,
+    "text": "Aries 9°54′",
+    "longitude": 9.908
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.36,
+    "text": "Aquarius 2°22′",
+    "longitude": 302.361
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.67,
+    "text": "Scorpio 7°40′",
+    "longitude": 217.675
+   }
+  },
+  {
+   "segment": "Honfleur, the House by the Harbor",
+   "stop": "Honfleur, the swimming lesson at the Vieux Bassin",
+   "date": "1868-01-01",
+   "date_confidence": "reconstruction: family anecdote, undated in every telling, placed c. 1868-1870; month and day defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403332.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "undated",
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.92,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.919
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Honfleur, the House by the Harbor",
+   "stop": "Paris, the family moves after the war",
+   "date": "1871-01-01",
+   "date_confidence": "attested as following the Franco-Prussian War, which ends May 1871; the pool's geography lens wrongly gave 1870 and the war's outbreak; month and day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404428.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Honfleur, the House by the Harbor",
+   "stop": "Honfleur, the second baptism",
+   "date": "1872-01-01",
+   "date_confidence": "attested to the year; day and parish unrecorded in any reachable source",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404793.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.95,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.948
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Honfleur, the House by the Harbor",
+   "stop": "Honfleur, lessons with the organist Vinot",
+   "date": "1874-01-01",
+   "date_confidence": "attested to the year; Vinot's church is not named in any reachable source, so the pin follows the grandparents' house",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405524.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.473
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Honfleur, the House by the Harbor",
+   "stop": "Paris, sent back to the father",
+   "date": "1878-01-01",
+   "date_confidence": "attested to the year; the pool's geography lens wrongly compressed this with the father's remarriage, which en.wikipedia dates to January 1879",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2406985.5,
+   "precision": "month",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.502
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Honfleur, the House by the Harbor",
+   "stop": "Paris, the preparatory piano class at the Conservatoire",
+   "date": "1879-11-01",
+   "date_confidence": "attested to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407654.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.21,
+    "text": "Scorpio 8°13′",
+    "longitude": 218.214
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Honfleur, the House by the Harbor",
+   "stop": "Paris, the laziest student and the expulsion",
+   "date": "1881-01-01",
+   "date_confidence": "attested to the year for the remark; the pool's quote lens misdated it to 1880. Expulsion follows in 1882",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408081.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.78,
+    "text": "Capricornus 10°47′",
+    "longitude": 280.779
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arras and the First Signature",
+   "stop": "Honfleur, the Allegro signed Erik",
+   "date": "1884-01-01",
+   "date_confidence": "attested to the year; the pool's chronology lens wrongly placed the composition in Paris, en.wikipedia gives Honfleur",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409176.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.04,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.037
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arras and the First Signature",
+   "stop": "Paris, readmitted to the intermediate class",
+   "date": "1885-01-01",
+   "date_confidence": "attested to the year; month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1885,
+   "jd_ut": 2409542.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.81,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.809
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arras and the First Signature",
+   "stop": "Arras, the 33rd Infantry Regiment",
+   "date": "1886-11-01",
+   "date_confidence": "enlistment attested to November 1886; the deliberate bronchitis is reconstruction, called standard biographical tradition by the pool's own geography lens",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2410211.5,
+   "precision": "month",
+   "precision_triggers": [
+    "traditional",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.52,
+    "text": "Scorpio 8°31′",
+    "longitude": 218.517
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Montmartre, the Butte",
+   "stop": "Montmartre, the room on the lower slope",
+   "date": "1887-01-01",
+   "date_confidence": "attested to the year; month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410272.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.314
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Montmartre, the Butte",
+   "stop": "Montmartre, second pianist at the Chat Noir",
+   "date": "1887-06-01",
+   "date_confidence": "attested to the period 1887-1888; month unrecorded, set mid-year to hold travel order",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410423.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.16,
+    "text": "Gemini 10°10′",
+    "longitude": 70.165
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Montmartre, the Butte",
+   "stop": "Montmartre, the Gymnopedies and the Gnossiennes",
+   "date": "1888-01-01",
+   "date_confidence": "Gymnopédies attested to 1888, Gnossiennes to 1889; months unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410637.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.066
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Montmartre, the Butte",
+   "stop": "Montmartre, meeting Debussy at the Auberge du Clou",
+   "date": "1891-01-01",
+   "date_confidence": "contested: the pool's chronology lens gives 1890, its geography lens 1891, and en.wikipedia names the venue with no year. 1891 followed as conventional; month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411733.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "convention",
+    "unrecorded",
+    "no month/day",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.343
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rose+Croix and the Church of One",
+   "stop": "Paris, the Salon de la Rose+Croix at the Galerie Durand-Ruel",
+   "date": "1892-03-01",
+   "date_confidence": "the first Salon opens March 1892, attested; Satie's appointment as the order's composer is dated 1890 by the pool's chronology lens and 1891 by fr.wikipedia, unresolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412158.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.92,
+    "text": "Pisces 10°55′",
+    "longitude": 340.918
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rose+Croix and the Church of One",
+   "stop": "Montmartre, five months with Suzanne Valadon",
+   "date": "1893-01-01",
+   "date_confidence": "attested to 1893, a liaison of five months; the pool's geography lens wrongly gave 1893-1896. Month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "year named only",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rose+Croix and the Church of One",
+   "stop": "Montmartre, the Metropolitan Church of Art of Jesus the Conductor",
+   "date": "1893-06-01",
+   "date_confidence": "attested to the year; month unrecorded, set mid-year to hold travel order",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412615.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.69,
+    "text": "Gemini 10°41′",
+    "longitude": 70.692
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rose+Croix and the Church of One",
+   "stop": "Montmartre, the 840 repetitions of Vexations",
+   "date": "1893-09-01",
+   "date_confidence": "reconstruction: the manuscript is undated and carries no year; scholars assign c. 1893-1894 on musical and biographical grounds. Month set to hold travel order",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "undated",
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.75,
+    "text": "Virgo 8°45′",
+    "longitude": 158.753
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rose+Croix and the Church of One",
+   "stop": "Paris, seven velvet suits",
+   "date": "1895-01-01",
+   "date_confidence": "attested to the year; month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1895,
+   "jd_ut": 2413194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.37,
+    "text": "Capricornus 10°22′",
+    "longitude": 280.373
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rose+Croix and the Church of One",
+   "stop": "Montmartre, the last room on the rue Cortot",
+   "date": "1896-01-01",
+   "date_confidence": "attested to the period 1896-1898; month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413559.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcueil, the House of Four Chimneys",
+   "stop": "Arcueil, the single room at 22 rue Cauchy",
+   "date": "1898-01-01",
+   "date_confidence": "attested to the year; month unrecorded and defaulted. The pool's geography lens placed the pin about 490 m north of the street; OpenStreetMap value used",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1898,
+   "jd_ut": 2414290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.65
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcueil, the House of Four Chimneys",
+   "stop": "Between Arcueil and Paris, the daily walk",
+   "date": "1899-01-01",
+   "date_confidence": "reconstruction: the daily walk recurs across the biographical tradition (Orledge, Volta) but the route and the stops are undocumented. Dated to the first full Arcueil year as a route marker, not a location",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414655.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.402
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcueil, the House of Four Chimneys",
+   "stop": "Paris, the cabaret songs",
+   "date": "1900-01-01",
+   "date_confidence": "representative midpoint of an attested period, c. 1898-1908; no single year applies",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1900,
+   "jd_ut": 2415020.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.155
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcueil, the House of Four Chimneys",
+   "stop": "Paris, the premiere of Pelleas et Melisande",
+   "date": "1902-01-01",
+   "date_confidence": "attested to the year; the pool gives no day, so the date is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcueil, the House of Four Chimneys",
+   "stop": "Paris, enrolling at the Schola Cantorum",
+   "date": "1905-10-01",
+   "date_confidence": "attested to the month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417119.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.15,
+    "text": "Libra 7°09′",
+    "longitude": 187.146
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcueil, the House of Four Chimneys",
+   "stop": "Paris, the counterpoint diploma",
+   "date": "1908-01-01",
+   "date_confidence": "diploma attested to 1908; the pool's geography lens calls 1908 the end of his studies while the chronology lens and en.wikipedia have him attending until 1912. Both dates stand, unreconciled in the sources",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcueil, the House of Four Chimneys",
+   "stop": "Paris, Ravel plays the second Sarabande",
+   "date": "1911-01-01",
+   "date_confidence": "attested to January 1911; the Salle Gaveau as venue is reconstruction, unverified in the sources the pool cites, and its coordinates are corrected from the lens value",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419037.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) reconstruct",
+    "text affirms the month, not the day"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.47,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.472
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcueil, the House of Four Chimneys",
+   "stop": "Arcueil, the flabby preludes for a dog",
+   "date": "1912-01-01",
+   "date_confidence": "attested to the year; month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parade",
+   "stop": "Paris, Sports et divertissements",
+   "date": "1914-01-01",
+   "date_confidence": "attested to the year; month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420133.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.75,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.749
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parade",
+   "stop": "Paris, meeting Jean Cocteau",
+   "date": "1915-01-01",
+   "date_confidence": "attested to the year; the meeting place is unrecorded, so the pin is the Paris centroid",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parade",
+   "stop": "Paris, composing Parade",
+   "date": "1916-10-01",
+   "date_confidence": "the composition period 1916-1917 is attested; the Polignac commission for Socrate is attested to October 1916, which fixes this stop's month",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2421137.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.48,
+    "text": "Libra 7°29′",
+    "longitude": 187.477
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parade",
+   "stop": "Paris, Parade at the Theatre du Chatelet",
+   "date": "1917-05-18",
+   "date_confidence": "attested to the day, though the exact date comes from general Parade records rather than from the Satie chronology the pool fetched, which gives only the year",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421366.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 26.48,
+    "text": "Taurus 26°29′",
+    "longitude": 56.479
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parade",
+   "stop": "Paris, the postcard to Jean Poueigh",
+   "date": "1917-05-30",
+   "date_confidence": "reconstruction: the postcard follows Poueigh's hostile review, which fr.wikipedia places in May 1917. 30 May is the conventional date and no reachable source assigns a day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421378.5,
+   "precision": "month",
+   "precision_triggers": [
+    "convention",
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 8.01,
+    "text": "Gemini 8°00′",
+    "longitude": 68.008
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Parade",
+   "stop": "Paris, the libel trial",
+   "date": "1917-11-01",
+   "date_confidence": "attested to 1917; the month is unrecorded and defaulted, and the courtroom is inferred as the Paris courts of the period rather than documented",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421533.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "unrecorded",
+    "year named only",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.0,
+    "text": "Scorpio 8°00′",
+    "longitude": 218.002
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Socrate and the Young Men",
+   "stop": "Arcueil, finishing Socrate",
+   "date": "1918-01-01",
+   "date_confidence": "attested to the year; month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421594.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.78,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.778
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Socrate and the Young Men",
+   "stop": "Paris, the festival at the Salle Erard",
+   "date": "1920-01-01",
+   "date_confidence": "the 1920 festival is attested; the Salle Érard as venue is reconstruction, from concert-history references the pool did not re-fetch. Month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Socrate and the Young Men",
+   "stop": "Arcueil, the Ecole d'Arcueil",
+   "date": "1923-01-01",
+   "date_confidence": "attested to the year; month unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423420.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.56,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.56
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Socrate and the Young Men",
+   "stop": "Paris, Mercure and Relache",
+   "date": "1924-12-04",
+   "date_confidence": "the year is attested; the 4 December date and the Théâtre des Champs-Élysées as hall come from Orledge via the pool and were not independently re-fetched",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2424123.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 11.59,
+    "text": "Sagittarius 11°35′",
+    "longitude": 251.587
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sealed Room",
+   "stop": "Paris, admitted to the Hopital Saint-Joseph",
+   "date": "1925-02-01",
+   "date_confidence": "attested to February 1925; the day is unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424182.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.64,
+    "text": "Aquarius 11°38′",
+    "longitude": 311.641
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sealed Room",
+   "stop": "Paris, death at the Hopital Saint-Joseph",
+   "date": "1925-07-01",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424332.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.64,
+    "text": "Cancer 8°38′",
+    "longitude": 98.641
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 28.01,
+    "text": "Libra 28°01′",
+    "longitude": 208.01
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 21.08,
+    "text": "Cancer 21°05′",
+    "longitude": 111.075
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 26.83,
+    "text": "Cancer 26°50′",
+    "longitude": 116.834
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 2.92,
+    "text": "Leo 2°55′",
+    "longitude": 122.919
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 18.88,
+    "text": "Capricornus 18°53′",
+    "longitude": 288.882
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.75,
+    "text": "Scorpio 7°45′",
+    "longitude": 217.751
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Sealed Room",
+   "stop": "Arcueil, the room opened",
+   "date": "1925-07-02",
+   "date_confidence": "reconstruction: a much-retold anecdote whose details vary between accounts, tagged [A] by two of the pool's lenses and [R] by a third. July 1925, exact day unrecorded and defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424333.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.59,
+    "text": "Cancer 9°36′",
+    "longitude": 99.594
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sealed Room",
+   "stop": "Arcueil, buried in the cemetery of the suburb",
+   "date": "1925-07-06",
+   "date_confidence": "attested to July 1925; the day is unrecorded and defaulted within the month. Three different coordinate pairs appear across the pool's lenses (48.8065/2.3312, 48.8025/2.3339, OpenStreetMap 48.8040/2.3402); the OpenStreetMap pair is used",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424337.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unrecorded"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 13.41,
+    "text": "Cancer 13°24′",
+    "longitude": 103.407
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "What the Room Sent On",
+   "stop": "New York, Cage plays Vexations through",
+   "date": "1963-09-09",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438281.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.61,
+    "text": "Virgo 15°37′",
+    "longitude": 165.61
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 25.98,
+    "text": "Taurus 25°59′",
+    "longitude": 55.976
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 4.93,
+    "text": "Libra 4°56′",
+    "longitude": 184.929
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 18.32,
+    "text": "Virgo 18°19′",
+    "longitude": 168.325
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 27.76,
+    "text": "Libra 27°45′",
+    "longitude": 207.756
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 17.96,
+    "text": "Aries 17°58′",
+    "longitude": 17.959
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 17.79,
+    "text": "Aquarius 17°47′",
+    "longitude": 317.785
+   }
+  },
+  {
+   "segment": "What the Room Sent On",
+   "stop": "Honfleur, the house opens as Les Maisons Satie",
+   "date": "1998-06-21",
+   "date_confidence": "attested to the day",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1998,
+   "jd_ut": 2450985.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 29.45,
+    "text": "Gemini 29°27′",
+    "longitude": 89.45
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 17.04,
+    "text": "Taurus 17°02′",
+    "longitude": 47.035
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 11.97,
+    "text": "Cancer 11°58′",
+    "longitude": 101.967
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 25.84,
+    "text": "Taurus 25°51′",
+    "longitude": 55.845
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 19.5,
+    "text": "Gemini 19°30′",
+    "longitude": 79.501
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 27.04,
+    "text": "Pisces 27°03′",
+    "longitude": 357.042
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 0.77,
+    "text": "Taurus 0°46′",
+    "longitude": 30.767
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 4,
+  "month": 11,
+  "year": 30
+ },
+ "parse_failures": []
+}

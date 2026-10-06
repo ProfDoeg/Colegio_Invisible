@@ -1,0 +1,1882 @@
+{
+ "slug": "katherine_johnson",
+ "traveler": "Katherine Johnson (Creola Katherine Coleman Goble Johnson)",
+ "title": "The Counting Child and the Burnout Point: West Virginia, Langley, and the Arithmetic of Return",
+ "years": "1918-2020",
+ "years_parsed": {
+  "first": 1918,
+  "last": 2020
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Counting Child",
+  "stop": "White Sulphur Springs, the youngest of four",
+  "date": "1918-08-26",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1918,
+  "jd_ut": 2421831.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Virgo",
+   "degree": 1.94,
+   "text": "Virgo 1°57′",
+   "longitude": 151.942
+  },
+  "moon": {
+   "sign": "Aries",
+   "degree": 24.77,
+   "text": "Aries 24°46′",
+   "longitude": 24.773
+  },
+  "mercury": {
+   "sign": "Virgo",
+   "degree": 14.77,
+   "text": "Virgo 14°46′",
+   "longitude": 164.768
+  },
+  "venus": {
+   "sign": "Leo",
+   "degree": 8.87,
+   "text": "Leo 8°52′",
+   "longitude": 128.872
+  },
+  "mars": {
+   "sign": "Scorpio",
+   "degree": 5.57,
+   "text": "Scorpio 5°34′",
+   "longitude": 215.565
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 8.91,
+   "text": "Cancer 8°55′",
+   "longitude": 98.911
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 20.03,
+   "text": "Leo 20°02′",
+   "longitude": 140.029
+  },
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1918-2020",
+  "first_year_parsed": 1918
+ },
+ "stops": [
+  {
+   "segment": "The Counting Child",
+   "stop": "Caswell County, the mother is born",
+   "date": "1887-01-01",
+   "date_confidence": "reconstruction. MacTutor's genealogical reconstruction of the family background is the only source for Joylette Roberta Lowe's 1887 birth in Caswell County; no birth record was independently located. The pin is a county centroid, not a landmark, and month and day default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410272.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.314
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Counting Child",
+   "stop": "Danville, the marriage on the Dan River",
+   "date": "1909-09-29",
+   "date_confidence": "reconstruction. The date and place come from MacTutor's genealogical reconstruction alone; no marriage record was independently located. The coordinate falls within about a kilometre of Danville city center.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418578.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 5.21,
+    "text": "Libra 5°13′",
+    "longitude": 185.211
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Counting Child",
+   "stop": "White Sulphur Springs, the youngest of four",
+   "date": "1918-08-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421831.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 1.94,
+    "text": "Virgo 1°57′",
+    "longitude": 151.942
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 24.77,
+    "text": "Aries 24°46′",
+    "longitude": 24.773
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 14.77,
+    "text": "Virgo 14°46′",
+    "longitude": 164.768
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 8.87,
+    "text": "Leo 8°52′",
+    "longitude": 128.872
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 5.57,
+    "text": "Scorpio 5°34′",
+    "longitude": 215.565
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 8.91,
+    "text": "Cancer 8°55′",
+    "longitude": 98.911
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 20.03,
+    "text": "Leo 20°02′",
+    "longitude": 140.029
+   }
+  },
+  {
+   "segment": "The Counting Child",
+   "stop": "Institute, the high school on a college campus",
+   "date": "1928-09-01",
+   "date_confidence": "attested as to the fact and the approximate year; the month of entry is not given in the sources, and 09-01 orders the stop to the academic year.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425490.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.3,
+    "text": "Virgo 8°18′",
+    "longitude": 158.304
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Counting Child",
+   "stop": "Institute, the college that ran out of courses",
+   "date": "1932-09-01",
+   "date_confidence": "attested for the enrollment year; the month is not specified and 09-01 orders the stop. The Evans quotation below is [R]: MacTutor prints it as Johnson's own recollection without naming the underlying interview.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426951.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.34,
+    "text": "Virgo 8°20′",
+    "longitude": 158.335
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Counting Child",
+   "stop": "Institute, summa cum laude at eighteen",
+   "date": "1937-05-01",
+   "date_confidence": "attested as to year and honors; the graduation month is not specified in the sources and 05-01 orders the stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428654.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.21,
+    "text": "Taurus 10°12′",
+    "longitude": 40.206
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Schoolroom and the Test Case",
+   "stop": "Marion, mathematics, French, and music",
+   "date": "1937-09-01",
+   "date_confidence": "the post is attested; its dates are contradicted inside the sources. MacTutor's narrative places her first teaching post from 1937, while its own career timeline gives 1939-1943 for Marion, which collides with the 1939 West Virginia University admission. Not resolved here. 09-01 orders the stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428777.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.13,
+    "text": "Virgo 8°08′",
+    "longitude": 158.133
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Schoolroom and the Test Case",
+   "stop": "Morgantown, three students admitted under a court order",
+   "date": "1939-09-01",
+   "date_confidence": "attested as to year and fact; the month is not specified and 09-01 orders the stop to the academic year. Her marriage to James Francis Goble is dated 1939 by MacTutor with no place given beyond West Virginia, so it gets no pin of its own and is carried here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429507.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.66,
+    "text": "Virgo 7°40′",
+    "longitude": 157.665
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Schoolroom and the Test Case",
+   "stop": "Morgantown, the term that ends in a pregnancy",
+   "date": "1940-06-01",
+   "date_confidence": "attested as to fact and year; the month of withdrawal is not recorded and 06-01 orders the stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429781.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.35,
+    "text": "Gemini 10°21′",
+    "longitude": 70.347
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "West Area Computing",
+   "stop": "Newport News, the move made for a job",
+   "date": "1953-01-01",
+   "date_confidence": "attested as to year; no month is recorded, and 01-01 orders the stop ahead of the June hire.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434378.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.291
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "West Area Computing",
+   "stop": "Langley Field, reporting to the West Area computers",
+   "date": "1953-06-01",
+   "date_confidence": "attested to the month.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434529.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.21,
+    "text": "Gemini 10°13′",
+    "longitude": 70.21
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "West Area Computing",
+   "stop": "Langley Field, the loan that was never returned",
+   "date": "1953-07-01",
+   "date_confidence": "the two-week loan and the branch are attested; the exact date is not, and 07-01 orders the stop roughly two weeks after the June hire.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434559.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.86,
+    "text": "Cancer 8°52′",
+    "longitude": 98.865
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 29.91,
+    "text": "Aquarius 29°55′",
+    "longitude": 329.913
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 4.08,
+    "text": "Leo 4°05′",
+    "longitude": 124.076
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 23.42,
+    "text": "Taurus 23°25′",
+    "longitude": 53.423
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 11.19,
+    "text": "Cancer 11°11′",
+    "longitude": 101.189
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 12.08,
+    "text": "Gemini 12°05′",
+    "longitude": 72.083
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 20.73,
+    "text": "Libra 20°44′",
+    "longitude": 200.732
+   }
+  },
+  {
+   "segment": "West Area Computing",
+   "stop": "Newport News, the death of James Goble",
+   "date": "1956-12-01",
+   "date_confidence": "attested to the month; MacTutor gives the place only as Virginia, and the pin is set at the family home in Newport News. The day defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1956,
+   "jd_ut": 2435808.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.78,
+    "text": "Sagittarius 8°47′",
+    "longitude": 248.782
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "West Area Computing",
+   "stop": "Langley Field, Sputnik and the six hundred pages",
+   "date": "1957-10-04",
+   "date_confidence": "the Sputnik launch date is attested. Johnson's contribution to the compendium is attested without a date of its own, and the stop is dated to the launch that occasioned the work.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2436115.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 10.5,
+    "text": "Libra 10°30′",
+    "longitude": 190.503
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "West Area Computing",
+   "stop": "Langley Field, the letterhead changes",
+   "date": "1958-10-01",
+   "date_confidence": "attested to the day for the establishment of NASA and the redesignation of the laboratory.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436477.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.31,
+    "text": "Libra 7°19′",
+    "longitude": 187.312
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 10.82,
+    "text": "Taurus 10°49′",
+    "longitude": 40.82
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 3.73,
+    "text": "Libra 3°44′",
+    "longitude": 183.734
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 26.65,
+    "text": "Virgo 26°39′",
+    "longitude": 176.647
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 1.88,
+    "text": "Gemini 1°53′",
+    "longitude": 61.884
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 4.59,
+    "text": "Scorpio 4°36′",
+    "longitude": 214.594
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 20.28,
+    "text": "Sagittarius 20°17′",
+    "longitude": 260.279
+   }
+  },
+  {
+   "segment": "West Area Computing",
+   "stop": "Newport News, the choir at Carver Memorial",
+   "date": "1959-01-01",
+   "date_confidence": "the marriage year is attested. The meeting through church and family networks is attested without a date, and 01-01 orders the stop. The pin is the Newport News congregation's neighborhood near 36.99, -76.42; Nominatim returns no record for the church itself and the street address is unconfirmed. One research lens placed this point in Hampton, about nine kilometres away, which is corrected here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "to the year",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Numbers Under the Flights",
+   "stop": "Langley Research Center, the first report with a woman's name on it",
+   "date": "1960-09-01",
+   "date_confidence": "attested to the month of publication of NASA TN D-233; the day is not specified and defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2437178.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.56,
+    "text": "Virgo 8°33′",
+    "longitude": 158.557
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Numbers Under the Flights",
+   "stop": "Langley Research Center, the trajectory for Freedom 7",
+   "date": "1961-05-05",
+   "date_confidence": "attested. The stop is dated to the flight; the calculations precede it by weeks. The pin is Langley, where the work was done, not Cape Canaveral, where the rocket stood; Johnson was not present at the launch.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437424.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 14.27,
+    "text": "Taurus 14°16′",
+    "longitude": 44.272
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 9.07,
+    "text": "Capricornus 9°04′",
+    "longitude": 279.069
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 17.9,
+    "text": "Taurus 17°54′",
+    "longitude": 47.896
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 12.91,
+    "text": "Aries 12°55′",
+    "longitude": 12.912
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 29.46,
+    "text": "Cancer 29°28′",
+    "longitude": 119.46
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 6.46,
+    "text": "Aquarius 6°28′",
+    "longitude": 306.464
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 29.81,
+    "text": "Capricornus 29°48′",
+    "longitude": 299.808
+   }
+  },
+  {
+   "segment": "The Numbers Under the Flights",
+   "stop": "Langley Research Center, the desk machine against the IBM",
+   "date": "1962-02-20",
+   "date_confidence": "the flight date is attested. NASA's own 2015 account states plainly that Glenn requested she personally recheck the electronic computer's figures before the flight. The vivid 'get the girl' phrasing circulates only in post-2016 retellings, and one investigation is reported to have found no contemporaneous 1962 document fixing the exact wording. The Glenn line below is [R]: NASA prints it as Johnson's memory of him speaking, not as a record of his speech.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437715.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 0.88,
+    "text": "Pisces 0°53′",
+    "longitude": 330.885
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 5.7,
+    "text": "Virgo 5°42′",
+    "longitude": 155.7
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 7.5,
+    "text": "Aquarius 7°30′",
+    "longitude": 307.505
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 6.59,
+    "text": "Pisces 6°35′",
+    "longitude": 336.585
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 14.06,
+    "text": "Aquarius 14°04′",
+    "longitude": 314.062
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.19,
+    "text": "Aquarius 22°11′",
+    "longitude": 322.187
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 5.49,
+    "text": "Aquarius 5°30′",
+    "longitude": 305.493
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Mercury",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Numbers Under the Flights",
+   "stop": "Langley Research Center, Echo I and its rocket casing",
+   "date": "1962-06-01",
+   "date_confidence": "attested to the month of publication of NASA TN D-1366; the day is not specified and defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1962,
+   "jd_ut": 2437816.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.04,
+    "text": "Gemini 10°03′",
+    "longitude": 70.042
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Numbers Under the Flights",
+   "stop": "Langley Research Center, coming down through the upper air",
+   "date": "1964-07-01",
+   "date_confidence": "attested to the month of publication of NASA TN D-2379; the day is not specified and defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1964,
+   "jd_ut": 2438577.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.19,
+    "text": "Cancer 9°11′",
+    "longitude": 99.191
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Toward the Moon",
+   "stop": "Langley Research Center, the geometry of the solar system",
+   "date": "1965-01-01",
+   "date_confidence": "attested to the year of publication of NASA TN D-2890; month and day are not given and default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1965,
+   "jd_ut": 2438761.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.38,
+    "text": "Capricornus 10°23′",
+    "longitude": 280.38
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Toward the Moon",
+   "stop": "Langley Research Center, a fix from a single sighting",
+   "date": "1967-12-01",
+   "date_confidence": "attested to December 1967 from the NTRS catalogue record for NASA TN D-4246 (authors W. T. Blackshear, H. A. Hamer, K. G. Johnson). One research lens dated this to October 1967; the catalogue record is December and the October date is an error. The associated Lunar Orbiter and Apollo group achievement awards are reported in the research pool without an individual citation and are carried here as [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439825.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.1,
+    "text": "Sagittarius 8°06′",
+    "longitude": 248.104
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Toward the Moon",
+   "stop": "Langley Research Center, the timing of the rendezvous",
+   "date": "1969-01-01",
+   "date_confidence": "attested as to the work and the mission; no date attaches to the calculations themselves, and 01-01 of the landing year orders the stop ahead of 20 July.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Toward the Moon",
+   "stop": "Pocono Mountains, a small television screen",
+   "date": "1969-07-20",
+   "date_confidence": "attested that she was at a meeting in the Pocono Mountains and watched the landing on a small television with a few others. The frequently repeated detail that this was an Alpha Kappa Alpha sorority gathering is not supported by the sources checked here and is dropped. The coordinate is regional; no hall or resort was identified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440422.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 27.11,
+    "text": "Cancer 27°07′",
+    "longitude": 117.112
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 27.22,
+    "text": "Virgo 27°13′",
+    "longitude": 177.223
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 24.06,
+    "text": "Cancer 24°03′",
+    "longitude": 114.055
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 14.12,
+    "text": "Gemini 14°07′",
+    "longitude": 74.118
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 2.62,
+    "text": "Sagittarius 2°37′",
+    "longitude": 242.618
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 0.62,
+    "text": "Libra 0°37′",
+    "longitude": 180.618
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 7.96,
+    "text": "Taurus 7°57′",
+    "longitude": 37.956
+   }
+  },
+  {
+   "segment": "Toward the Moon",
+   "stop": "Langley Research Center, the charts that were already written",
+   "date": "1970-04-01",
+   "date_confidence": "attested that backup navigation material she contributed to formed part of the resources drawn on in the Apollo 13 return; no date attaches to her own work on it, and 04-01 orders the stop to the accident. The popular claim that she personally saved the mission is a later compression and is [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440677.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.86,
+    "text": "Aries 10°52′",
+    "longitude": 10.862
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Toward the Moon",
+   "stop": "Langley Research Center, one measurement and no ground",
+   "date": "1970-10-01",
+   "date_confidence": "attested to the month of publication of NASA TN D-5963; the day is not specified and defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440860.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.41,
+    "text": "Libra 7°24′",
+    "longitude": 187.405
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Toward the Moon",
+   "stop": "Langley Research Center, Moon to Earth by hand",
+   "date": "1971-07-01",
+   "date_confidence": "attested to July 1971 for NASA TN D-6343 and September 1971 for NASA TN D-6461, both with Hamer; this stop carries both and is dated to the earlier. A fourth paper in the series, TN D-6752 on simplified interplanetary guidance, follows in May 1972 and is noted here rather than given a stop of its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2441133.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.53,
+    "text": "Cancer 8°32′",
+    "longitude": 98.532
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Beam in Orbit",
+   "stop": "Langley Research Center, errors in a decoupled system",
+   "date": "1978-07-01",
+   "date_confidence": "attested to the month of publication of NASA TP-1184; the day is not specified and defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443690.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.83,
+    "text": "Cancer 8°50′",
+    "longitude": 98.827
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Beam in Orbit",
+   "stop": "Langley Research Center, a long flexible beam",
+   "date": "1980-12-01",
+   "date_confidence": "attested to the month of publication of NASA TP-1740; the day is not specified and defaults to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444574.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.96,
+    "text": "Sagittarius 8°58′",
+    "longitude": 248.961
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Beam in Orbit",
+   "stop": "Langley Research Center, thirty-three years",
+   "date": "1986-08-01",
+   "date_confidence": "the retirement year is attested. The month is given as August in one research lens and is not confirmed elsewhere; it is carried as [R] and orders the stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1986,
+   "jd_ut": 2446643.5,
+   "precision": "month",
+   "precision_triggers": [
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.47,
+    "text": "Leo 8°28′",
+    "longitude": 128.474
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Rediscovery",
+   "stop": "Farmingdale, an honorary Doctor of Laws",
+   "date": "1998-06-04",
+   "date_confidence": "attested to the day by MacTutor. The coordinate is the Farmingdale State College campus; one research lens gave a point about 3.5 kilometres southwest, corrected here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1998,
+   "jd_ut": 2450968.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.2,
+    "text": "Gemini 13°12′",
+    "longitude": 73.202
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 4.3,
+    "text": "Libra 4°18′",
+    "longitude": 184.3
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 5.56,
+    "text": "Gemini 5°34′",
+    "longitude": 65.559
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 5.86,
+    "text": "Taurus 5°52′",
+    "longitude": 35.862
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 7.67,
+    "text": "Gemini 7°40′",
+    "longitude": 67.671
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 25.22,
+    "text": "Pisces 25°13′",
+    "longitude": 355.223
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 29.16,
+    "text": "Aries 29°10′",
+    "longitude": 29.161
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Late Rediscovery",
+   "stop": "Norfolk, an honorary Doctor of Science",
+   "date": "2010-01-01",
+   "date_confidence": "attested to the year from NASA's list of her honorary degrees; month and day are not given and default to 01-01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2010,
+   "jd_ut": 2455197.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.46,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.457
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Rediscovery",
+   "stop": "The White House, the Presidential Medal of Freedom",
+   "date": "2015-11-24",
+   "date_confidence": "attested to the day; the East Room venue is confirmed by the Obama White House ceremony record. The coordinate is the canonical White House pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2015,
+   "jd_ut": 2457350.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 1.38,
+    "text": "Sagittarius 1°23′",
+    "longitude": 241.377
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 4.66,
+    "text": "Taurus 4°40′",
+    "longitude": 34.659
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 5.01,
+    "text": "Sagittarius 5°00′",
+    "longitude": 245.008
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 17.08,
+    "text": "Libra 17°05′",
+    "longitude": 197.08
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 6.64,
+    "text": "Libra 6°38′",
+    "longitude": 186.636
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 20.15,
+    "text": "Virgo 20°09′",
+    "longitude": 170.152
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 6.87,
+    "text": "Sagittarius 6°52′",
+    "longitude": 246.865
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Late Rediscovery",
+   "stop": "Morgantown, the university's own doctorate",
+   "date": "2016-01-01",
+   "date_confidence": "attested to the year from NASA's list of honorary degrees; month and day are not given and default to 01-01, which also orders the stop ahead of the May building announcement.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457388.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.99,
+    "text": "Capricornus 10°00′",
+    "longitude": 279.992
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Rediscovery",
+   "stop": "Langley Research Center, a building takes her name",
+   "date": "2016-05-05",
+   "date_confidence": "attested to the day for the naming announcement and dedication. In the same week she received the Silver Snoopy Award from astronaut Leland Melvin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457513.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 14.94,
+    "text": "Taurus 14°57′",
+    "longitude": 44.945
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 19.18,
+    "text": "Aries 19°11′",
+    "longitude": 19.177
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 22.01,
+    "text": "Taurus 22°01′",
+    "longitude": 52.013
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 6.14,
+    "text": "Taurus 6°09′",
+    "longitude": 36.144
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 6.96,
+    "text": "Sagittarius 6°58′",
+    "longitude": 246.96
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 13.25,
+    "text": "Virgo 13°15′",
+    "longitude": 163.25
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 15.26,
+    "text": "Sagittarius 15°16′",
+    "longitude": 255.26
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Late Rediscovery",
+   "stop": "Hollywood, the standing ovation at the Dolby",
+   "date": "2017-02-26",
+   "date_confidence": "attested. The venue and date of the 89th Academy Awards are confirmed; the on-stage appearance is documented in NASA's biography and in contemporaneous coverage of the broadcast.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2017,
+   "jd_ut": 2457810.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 7.59,
+    "text": "Pisces 7°35′",
+    "longitude": 337.588
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 29.77,
+    "text": "Aquarius 29°46′",
+    "longitude": 329.774
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 0.08,
+    "text": "Pisces 0°05′",
+    "longitude": 330.084
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 12.37,
+    "text": "Aries 12°22′",
+    "longitude": 12.373
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 21.26,
+    "text": "Aries 21°16′",
+    "longitude": 21.259
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 22.51,
+    "text": "Libra 22°30′",
+    "longitude": 202.508
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 26.65,
+    "text": "Sagittarius 26°39′",
+    "longitude": 266.654
+   }
+  },
+  {
+   "segment": "The Late Rediscovery",
+   "stop": "Langley Research Center, the ribbon at the door",
+   "date": "2017-09-22",
+   "date_confidence": "attested to the day.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2017,
+   "jd_ut": 2458018.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 29.19,
+    "text": "Virgo 29°11′",
+    "longitude": 179.191
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 20.62,
+    "text": "Libra 20°37′",
+    "longitude": 200.624
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 15.57,
+    "text": "Virgo 15°34′",
+    "longitude": 165.572
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 2.39,
+    "text": "Virgo 2°23′",
+    "longitude": 152.389
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 10.54,
+    "text": "Virgo 10°32′",
+    "longitude": 160.538
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 26.09,
+    "text": "Libra 26°05′",
+    "longitude": 206.09
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 21.89,
+    "text": "Sagittarius 21°54′",
+    "longitude": 261.893
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Late Rediscovery",
+   "stop": "Institute, the bronze beside the Cole Complex",
+   "date": "2018-08-01",
+   "date_confidence": "attested to August 2018 for the unveiling and the associated STEM scholarship; the day is not given and defaults to 01. The coordinate is the West Virginia State University campus at Institute; one research lens gave a point about 6.5 kilometres west, corrected here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2018,
+   "jd_ut": 2458331.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.73,
+    "text": "Leo 8°44′",
+    "longitude": 128.73
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Rediscovery",
+   "stop": "Manassas, Katherine G. Johnson Hall",
+   "date": "2019-01-01",
+   "date_confidence": "attested to the year from NASA's list of honors; month and day are not given and default to 01-01. The coordinate is George Mason University's Science and Technology Campus at 10900 University Boulevard; one research lens gave a point about 6 kilometres east, corrected here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2019,
+   "jd_ut": 2458484.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.269
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Rediscovery",
+   "stop": "Fairmont, the facility that checks other people's arithmetic",
+   "date": "2019-02-23",
+   "date_confidence": "NASA announced the renaming on 23 February 2019 under federal legislation. Some sources date the change to 2018 with a commemoration in 2019, and the two are not reconciled here. The coordinate is the facility's own, 39 25 48 N 80 11 52 W; the research lenses supplied three different points for this one building, all of them wrong, and they are corrected here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2019,
+   "jd_ut": 2458537.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year named only",
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.08,
+    "text": "Pisces 4°05′",
+    "longitude": 334.081
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Hundred and First Year",
+   "stop": "Newport News, the twenty-fourth of February",
+   "date": "2020-02-24",
+   "date_confidence": "attested to the day. NASA states she died at home; several obituaries place the death at a retirement facility, and the sources do not resolve the difference. No medical cause of death was made public, and no burial site is named on any institutional page that covers the death in detail.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2020,
+   "jd_ut": 2458903.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.84,
+    "text": "Pisces 4°51′",
+    "longitude": 334.843
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 8.72,
+    "text": "Pisces 8°43′",
+    "longitude": 338.722
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 9.07,
+    "text": "Pisces 9°04′",
+    "longitude": 339.075
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 18.7,
+    "text": "Aries 18°42′",
+    "longitude": 18.699
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 5.18,
+    "text": "Capricornus 5°11′",
+    "longitude": 275.182
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 18.4,
+    "text": "Capricornus 18°24′",
+    "longitude": 288.403
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 27.61,
+    "text": "Capricornus 27°37′",
+    "longitude": 297.613
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    },
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Mars",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "After the Hundred and First Year",
+   "stop": "Morgantown, the papers come to the university",
+   "date": "2021-01-01",
+   "date_confidence": "[R]. The donation of the Katherine G. Johnson Papers (A&M 4536) to the West Virginia and Regional History Center by her daughters Joylette Hylick and Katherine Moore is reported in the research pool but could not be re-verified against the WVU finding aid, which returned HTTP 403 this session. The date is given only as 2021-2022, and 2021-01-01 orders the stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2021,
+   "jd_ut": 2459215.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.79,
+    "text": "Capricornus 10°48′",
+    "longitude": 280.793
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Hundred and First Year",
+   "stop": "Washington, the Congressional Gold Medal",
+   "date": "2024-09-18",
+   "date_confidence": "[R] as to the ceremony. The authorization is solid: Public Law 116-68, 8 November 2019, granting Congressional Gold Medals to Johnson, Dorothy Vaughan, Mary Jackson, Christine Darden, and collectively to the women computers of NACA and NASA. The 18 September 2024 presentation date and the Capitol venue rest on the research pool's citation and could not be re-verified this session; the U.S. Mint page returned HTTP 403.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2024,
+   "jd_ut": 2460571.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 25.58,
+    "text": "Virgo 25°35′",
+    "longitude": 175.582
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 24.05,
+    "text": "Pisces 24°03′",
+    "longitude": 354.051
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 14.59,
+    "text": "Virgo 14°36′",
+    "longitude": 164.594
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 23.78,
+    "text": "Libra 23°47′",
+    "longitude": 203.783
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 7.73,
+    "text": "Cancer 7°44′",
+    "longitude": 97.731
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 20.58,
+    "text": "Gemini 20°35′",
+    "longitude": 80.584
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 15.21,
+    "text": "Pisces 15°13′",
+    "longitude": 345.212
+   }
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 13,
+  "month": 12,
+  "year": 19
+ },
+ "parse_failures": []
+}

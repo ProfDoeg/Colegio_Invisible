@@ -1,0 +1,2129 @@
+{
+ "slug": "carlos_gardel",
+ "traveler": "Carlos Gardel (Charles Romuald Gardes)",
+ "title": "Two Birth Certificates and One Voice: Toulouse, the Abasto, and Medellin",
+ "years": "1890-1935",
+ "years_parsed": {
+  "first": 1890,
+  "last": 1935
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Two Birth Certificates",
+  "stop": "Toulouse, the register at La Grave",
+  "date": "1890-12-11",
+  "date_confidence": "Attested by the French civil register of Toulouse and carried by both the English and Spanish Wikipedia articles as the consensus birth record. Coordinates are those of the Hopital de La Grave per Wikipedia (French), 'Hopital de La Grave' (43 36 03 N, 1 26 03 E). The register itself was not fetched in this pass; it reaches this file through the two encyclopaedia articles and through the genealogists Ruffie and Galopa as they cite it.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1890,
+  "jd_ut": 2411712.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Sagittarius",
+   "degree": 18.95,
+   "text": "Sagittarius 18°57′",
+   "longitude": 258.954
+  },
+  "moon": {
+   "sign": "Sagittarius",
+   "degree": 4.27,
+   "text": "Sagittarius 4°16′",
+   "longitude": 244.271
+  },
+  "mercury": {
+   "sign": "Capricornus",
+   "degree": 1.97,
+   "text": "Capricornus 1°58′",
+   "longitude": 271.974
+  },
+  "venus": {
+   "sign": "Sagittarius",
+   "degree": 8.13,
+   "text": "Sagittarius 8°08′",
+   "longitude": 248.127
+  },
+  "mars": {
+   "sign": "Aquarius",
+   "degree": 25.47,
+   "text": "Aquarius 25°28′",
+   "longitude": 325.468
+  },
+  "jupiter": {
+   "sign": "Aquarius",
+   "degree": 10.24,
+   "text": "Aquarius 10°14′",
+   "longitude": 310.241
+  },
+  "saturn": {
+   "sign": "Virgo",
+   "degree": 17.05,
+   "text": "Virgo 17°03′",
+   "longitude": 167.052
+  },
+  "conjunctions": [
+   {
+    "sign": "Sagittarius",
+    "bodies": [
+     "Sun",
+     "Moon",
+     "Venus"
+    ]
+   }
+  ],
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "1890-1935",
+  "first_year_parsed": 1890
+ },
+ "stops": [
+  {
+   "segment": "Two Birth Certificates",
+   "stop": "Valle Eden, the birth Uruguay claims",
+   "date": "1887-12-11",
+   "date_confidence": "Contested and rejected by the scholarly consensus. The date, place and parentage come from Gardel's own 1920 declaration at the Uruguayan consulate in Buenos Aires and from Uruguayan tradition (Wikipedia (Spanish), 'Carlos Gardel', hipotesis uruguayista); no contemporary document from 1887 corroborates any part of it, and the Toulouse civil register of December 1890 contradicts it. Coordinates are those of Valle Eden per Wikipedia (Spanish), 'Valle Eden' (31 49 24 S, 56 10 38 O); the claimed birth site is the nearby estancia Santa Blanca. This stop records the claim, not a fact.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1887,
+   "jd_ut": 2410616.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.68,
+    "text": "Sagittarius 18°41′",
+    "longitude": 258.677
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Birth Certificates",
+   "stop": "Toulouse, the register at La Grave",
+   "date": "1890-12-11",
+   "date_confidence": "Attested by the French civil register of Toulouse and carried by both the English and Spanish Wikipedia articles as the consensus birth record. Coordinates are those of the Hopital de La Grave per Wikipedia (French), 'Hopital de La Grave' (43 36 03 N, 1 26 03 E). The register itself was not fetched in this pass; it reaches this file through the two encyclopaedia articles and through the genealogists Ruffie and Galopa as they cite it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411712.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.95,
+    "text": "Sagittarius 18°57′",
+    "longitude": 258.954
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 4.27,
+    "text": "Sagittarius 4°16′",
+    "longitude": 244.271
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 1.97,
+    "text": "Capricornus 1°58′",
+    "longitude": 271.974
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 8.13,
+    "text": "Sagittarius 8°08′",
+    "longitude": 248.127
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 25.47,
+    "text": "Aquarius 25°28′",
+    "longitude": 325.468
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 10.24,
+    "text": "Aquarius 10°14′",
+    "longitude": 310.241
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 17.05,
+    "text": "Virgo 17°03′",
+    "longitude": 167.052
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Two Birth Certificates",
+   "stop": "Toulouse, the recognition that was never made official",
+   "date": "1890-12-22",
+   "date_confidence": "Attested to the day by Wikipedia (English), 'Carlos Gardel'. The place at which the statement was signed is not given by that source; the pin is the Toulouse city centre coordinate rather than a located address. The quote carried on this stop was spoken in Buenos Aires years afterward and is placed here for its subject; it reaches the file only through Wikipedia's citation of Collier (1986), p. 7, the book itself not having been fetched.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411723.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "hard triggers (not given, placed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 0.15,
+    "text": "Capricornus 0°09′",
+    "longitude": 270.151
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 9.88,
+    "text": "Taurus 9°53′",
+    "longitude": 39.884
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 18.36,
+    "text": "Capricornus 18°21′",
+    "longitude": 288.356
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 4.55,
+    "text": "Sagittarius 4°33′",
+    "longitude": 244.547
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 3.7,
+    "text": "Pisces 3°42′",
+    "longitude": 333.696
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 12.43,
+    "text": "Aquarius 12°26′",
+    "longitude": 312.43
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 17.28,
+    "text": "Virgo 17°17′",
+    "longitude": 167.28
+   }
+  },
+  {
+   "segment": "Two Birth Certificates",
+   "stop": "Bordeaux, the steamer Don Pedro",
+   "date": "1893-01-01",
+   "date_confidence": "The year and the ship are attested by Wikipedia (English), 'Carlos Gardel'; no month or day of departure is given by any source consulted, so both default to 01. The departure month is bounded only by the March 1893 arrival in Buenos Aires.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Birth Certificates",
+   "stop": "Buenos Aires, the boy comes off the boat",
+   "date": "1893-03-11",
+   "date_confidence": "Contradiction between sources, not resolved here. Wikipedia (English), 'Carlos Gardel' gives 11 March 1893; Wikipedia (French), 'Carlos Gardel' states that Argentine documents attest the arrival of Berthe Gardes and her son Charles on 9 March 1893. The month and year are secure, the day is not. Coordinates are those of the Darsena Norte rather than a specific berth.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412533.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 20.68,
+    "text": "Pisces 20°41′",
+    "longitude": 350.678
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 23.76,
+    "text": "Sagittarius 23°46′",
+    "longitude": 263.76
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 8.27,
+    "text": "Aries 8°16′",
+    "longitude": 8.268
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 7.28,
+    "text": "Pisces 7°17′",
+    "longitude": 337.28
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 18.31,
+    "text": "Taurus 18°18′",
+    "longitude": 48.308
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 26.76,
+    "text": "Aries 26°46′",
+    "longitude": 26.762
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 11.02,
+    "text": "Libra 11°01′",
+    "longitude": 191.023
+   }
+  },
+  {
+   "segment": "The Laundress's Son in San Nicolas",
+   "stop": "Calle Uruguay 162, the two-person household",
+   "date": "1893-04-01",
+   "date_confidence": "The address and the years of residence (1893 to about 1904) are attested by Wikipedia (English), 'Carlos Gardel'; the month here is an ordering device only. Coordinates are corrected: the research pool carried a positive latitude, which places the point in the North Atlantic. Calle Uruguay 162 in San Nicolas sits near 34 36 S, 58 22 W.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412554.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.51,
+    "text": "Aries 11°30′",
+    "longitude": 11.505
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Laundress's Son in San Nicolas",
+   "stop": "Almagro, the Salesians of Colegio Pio IX",
+   "date": "1901-01-01",
+   "date_confidence": "The schooling is attested by Wikipedia (Spanish), 'Carlos Gardel' for 1901; month and day default to 01. The coordinate is approximate and unverified: the Spanish Wikipedia article titled 'Colegio Pio IX' describes the Montevideo school, not the Buenos Aires one, and cannot be used as a cite for this pin. The Buenos Aires Colegio Salesiano Pio IX adjoins the Basilica de Maria Auxiliadora y San Carlos in Almagro; this coordinate is that neighbourhood, pending a Buenos Aires source. Note also that the whole schooling episode falls inside the disputed years: the uruguayista account places him in Montevideo instead.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415385.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.907
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Laundress's Son in San Nicolas",
+   "stop": "Teatro Opera, the claque and the wings",
+   "date": "1902-01-01",
+   "date_confidence": "Biographical tradition rather than document. Wikipedia (Spanish), 'Carlos Gardel' places the claque work under a figure known as Patasanta around 1900 and the stagehand job at the Teatro Opera in 1902, and does not source either as an attested fact. Coordinates from Wikipedia (English), 'Teatro Opera' for Avenida Corrientes 860. The quote is Gardel's own recollection given in 1933, thirty-one years after the events it describes.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Laundress's Son in San Nicolas",
+   "stop": "Abasto, singing at the O'Rondeman",
+   "date": "1906-01-01",
+   "date_confidence": "Traditional. Wikipedia (Spanish), 'Carlos Gardel' locates the cafe at Aguero and Humahuaca and places Gardel's singing there in the second half of the 1900s without a firm year; the date given here is an ordering device inside that span. Coordinates are corrected: the pool carried a positive latitude and a longitude some 450 metres west of the corner.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1906,
+   "jd_ut": 2417211.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "ordering",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.69,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.689
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gardel and Razzano",
+   "stop": "Guardia Vieja, the meeting with Razzano",
+   "date": "1911-01-01",
+   "date_confidence": "Reconstruction resting on a single retrospective testimony. Wikipedia (Spanish), 'Carlos Gardel' notes that the year 1911 is placed there by Razzano himself in his memoirs, not by any document, and that the memoirs put the encounter in a friend's house on Guardia Vieja a few metres from the Abasto market. The block of Guardia Vieja between Jean Jaures and Anchorena was renamed Pasaje Carlos Gardel long after the fact; identifying it as the exact spot is local tradition. Month and day default to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419037.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.47,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.472
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gardel and Razzano",
+   "stop": "Casa Tagini, the first records",
+   "date": "1912-01-01",
+   "date_confidence": "Attested to the year by Wikipedia (Spanish), 'Carlos Gardel': the Columbia contract through Casa Tagini falls in 1912 and the discs are issued in 1913. Month and day default to 01. The coordinate is corrected for hemisphere and is approximate; no street address for the Casa Tagini premises is given by the source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419402.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.22,
+    "text": "Capricornus 9°13′",
+    "longitude": 279.224
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gardel and Razzano",
+   "stop": "Armenonville, the first paid engagement",
+   "date": "1914-01-01",
+   "date_confidence": "The date is disputed inside one source family and is left unresolved. Wikipedia (Spanish), 'Carlos Gardel' gives 14 June 1914 for the duo debut; Wikipedia (Spanish), 'Armenonville' states the pair performed there at a New Year party on 1 January 1914. The figure of 70 pesos a night, carried by the research pool, is uncited in either article and is not asserted here. Coordinates corrected: the Armenonville stood on Avenida Alvear in Recoleta, roughly where the Automovil Club Argentino now is, not in Palermo.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420133.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.75,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.749
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gardel and Razzano",
+   "stop": "Montevideo, the Teatro Royal",
+   "date": "1915-06-18",
+   "date_confidence": "Attested to the day by Wikipedia (Spanish), 'Carlos Gardel'. Coordinates corrected for hemisphere: the pool's positive latitude placed the theatre in the mid-Atlantic.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420666.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) placed"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 25.68,
+    "text": "Gemini 25°41′",
+    "longitude": 85.684
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 24.23,
+    "text": "Leo 24°14′",
+    "longitude": 144.231
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 8.86,
+    "text": "Cancer 8°51′",
+    "longitude": 98.857
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 2.41,
+    "text": "Gemini 2°24′",
+    "longitude": 62.406
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 16.88,
+    "text": "Taurus 16°53′",
+    "longitude": 46.883
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 26.94,
+    "text": "Pisces 26°56′",
+    "longitude": 356.938
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 4.61,
+    "text": "Cancer 4°37′",
+    "longitude": 94.609
+   }
+  },
+  {
+   "segment": "Gardel and Razzano",
+   "stop": "Teatro San Martin, Juan Moreira on the stage",
+   "date": "1915-11-12",
+   "date_confidence": "Attested to the day by Wikipedia (Spanish), 'Carlos Gardel'. Coordinates corrected for hemisphere; the theatre stood at Corrientes 1530. The same year's tour of Brazil, which the pool assigns to two different companies in two different entries (Compania Dramatica Rioplatense in one, Elias Alippi's company in the other) and for which no venue is named by any source, is left out of this file rather than staged at a theatre nobody places him in.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420813.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 18.52,
+    "text": "Scorpio 18°31′",
+    "longitude": 228.523
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 23.29,
+    "text": "Capricornus 23°17′",
+    "longitude": 293.289
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 0.55,
+    "text": "Scorpio 0°33′",
+    "longitude": 210.549
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 4.07,
+    "text": "Sagittarius 4°04′",
+    "longitude": 244.066
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 17.45,
+    "text": "Leo 17°27′",
+    "longitude": 137.446
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 18.6,
+    "text": "Pisces 18°36′",
+    "longitude": 348.602
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 16.46,
+    "text": "Cancer 16°27′",
+    "longitude": 106.456
+   }
+  },
+  {
+   "segment": "Gardel and Razzano",
+   "stop": "Buenos Aires, shot in the street",
+   "date": "1915-12-10",
+   "date_confidence": "Attested to the day by Wikipedia (Spanish), 'Carlos Gardel', which gives no street, no assailant, no cause and no account of the recovery. The pin is the canonical Buenos Aires coordinate because the location of the altercation is a gap in the record, not because it is known.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420841.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 16.85,
+    "text": "Sagittarius 16°51′",
+    "longitude": 256.852
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 2.42,
+    "text": "Aquarius 2°25′",
+    "longitude": 302.419
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 13.52,
+    "text": "Sagittarius 13°31′",
+    "longitude": 253.517
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 9.03,
+    "text": "Capricornus 9°02′",
+    "longitude": 279.027
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 27.02,
+    "text": "Leo 27°01′",
+    "longitude": 147.023
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 19.66,
+    "text": "Pisces 19°40′",
+    "longitude": 349.663
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 15.13,
+    "text": "Cancer 15°08′",
+    "longitude": 105.132
+   }
+  },
+  {
+   "segment": "Mi Noche Triste",
+   "stop": "Buenos Aires, the tango learns to be sung",
+   "date": "1917-01-01",
+   "date_confidence": "The year, the composers and the figure of roughly ten thousand copies are attested by Wikipedia (English), 'Carlos Gardel', and the ten-thousand figure is independently corroborated inside this corpus by max_glucksmann.journey.json. Wikipedia (Spanish), 'Mi noche triste' specifies Jose Ricardo on guitar and the Disco Gardel-Razzano imprint, later Odeon: Gardel-Razzano is the billing, the sung voice is Gardel's alone. Month and day default to 01. The coordinate is a microcentro approximation, not a located address for Glucksmann's premises.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mi Noche Triste",
+   "stop": "Buenos Aires, Villoldo's song on a Gardel record",
+   "date": "1917-01-01",
+   "date_confidence": "Attested to the year only, through angel_villoldo.journey.json citing Wikipedia (English), 'Angel Villoldo'; month and day default to 01, and the recording location is presumed Buenos Aires rather than stated. The relation is one-directional and musical: no meeting, letter or photograph connects the two men. Pin is the canonical Buenos Aires coordinate, inherited unchanged.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421229.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year only",
+    "to the year",
+    "probably"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.03,
+    "text": "Capricornus 10°02′",
+    "longitude": 280.025
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Mi Noche Triste",
+   "stop": "Buenos Aires, a silent film for a singer",
+   "date": "1917-09-28",
+   "date_confidence": "The premiere date is attested by Wikipedia (Spanish), 'Carlos Gardel'. The director is Francisco Defilippis Novoa per Wikipedia (Spanish), 'Flor de durazno'; the research pool's parenthetical naming a Julio or Jose as director is wrong and is dropped, as is its claim that Razzano was involved, which that article does not support. The cinema at which it premiered is not named by the sources consulted, so the pin is the canonical Buenos Aires coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421499.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 4.29,
+    "text": "Libra 4°17′",
+    "longitude": 184.291
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 23.99,
+    "text": "Aquarius 23°59′",
+    "longitude": 323.988
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 19.49,
+    "text": "Virgo 19°30′",
+    "longitude": 169.493
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 13.59,
+    "text": "Scorpio 13°36′",
+    "longitude": 223.593
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 9.54,
+    "text": "Leo 9°32′",
+    "longitude": 129.539
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 11.52,
+    "text": "Gemini 11°31′",
+    "longitude": 71.524
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 11.63,
+    "text": "Leo 11°38′",
+    "longitude": 131.628
+   }
+  },
+  {
+   "segment": "The Papers",
+   "stop": "Buenos Aires, Isabel del Valle",
+   "date": "1920-01-01",
+   "date_confidence": "Reconstruction. Wikipedia (English), 'Carlos Gardel' gives the meeting at the Esmeralda theatre, her age of fourteen and a relationship of more than a decade; the account rests on later testimony rather than on contemporary document, and no month or day is given, so both default to 01. The Esmeralda theatre is not located by any source consulted, so the pin is the canonical Buenos Aires coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Papers",
+   "stop": "Buenos Aires, the word sworn at the Uruguayan consulate",
+   "date": "1920-06-01",
+   "date_confidence": "The act is attested only in bare form: Wikipedia (Spanish), 'Carlos Gardel' says that in 1920 he applied to the Uruguayan consulate in Buenos Aires for a certificate of nationality and an identity card. It gives no month, no folio and no witnesses; the witness names Juan Lagisquet and Jose Razzano, which the research pool carried, appear in no source fetched here and are dropped. The month above is an ordering device. The consulate address is not attested, so the pin is the canonical Buenos Aires coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422476.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.19,
+    "text": "Gemini 10°11′",
+    "longitude": 70.188
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Papers",
+   "stop": "Buenos Aires, the first legitimate identity card",
+   "date": "1920-10-04",
+   "date_confidence": "Attested to the day by Wikipedia (Spanish), 'Carlos Gardel', which dates 4 October 1920 to his first legitimate identity document, an Argentine cedula obtained on the strength of the Uruguayan certification. The research pool conflated the two documents by describing this one as listing him as Uruguayan; they are separate papers issued by separate states and are separated here. Pin is the canonical Buenos Aires coordinate, no office address being attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422601.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 10.46,
+    "text": "Libra 10°28′",
+    "longitude": 190.462
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 26.76,
+    "text": "Gemini 26°46′",
+    "longitude": 86.758
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.95,
+    "text": "Libra 27°57′",
+    "longitude": 207.95
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 5.15,
+    "text": "Scorpio 5°09′",
+    "longitude": 215.154
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 19.59,
+    "text": "Sagittarius 19°36′",
+    "longitude": 259.595
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 7.95,
+    "text": "Virgo 7°57′",
+    "longitude": 157.955
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 18.34,
+    "text": "Virgo 18°21′",
+    "longitude": 168.343
+   }
+  },
+  {
+   "segment": "The Papers",
+   "stop": "Buenos Aires, the oath of Argentine citizenship",
+   "date": "1923-05-01",
+   "date_confidence": "Both dates are attested by Wikipedia (English), 'Carlos Gardel': the application on 7 March 1923 and the oath on 1 May 1923. That article also carries the historians' reading that the timing was driven partly by a wish to avoid French conscription obligations ahead of a planned tour of France; the motive is an interpretation, not a documented statement of Gardel's. Pin is the canonical Buenos Aires coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423540.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.61,
+    "text": "Taurus 9°37′",
+    "longitude": 39.611
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 11.09,
+    "text": "Scorpio 11°05′",
+    "longitude": 221.091
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 29.72,
+    "text": "Taurus 29°43′",
+    "longitude": 59.717
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 5.3,
+    "text": "Aries 5°18′",
+    "longitude": 5.301
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 10.09,
+    "text": "Gemini 10°05′",
+    "longitude": 70.09
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 14.58,
+    "text": "Scorpio 14°35′",
+    "longitude": 224.584
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 15.16,
+    "text": "Libra 15°10′",
+    "longitude": 195.159
+   }
+  },
+  {
+   "segment": "Madrid, Barcelona, and the End of the Duo",
+   "stop": "Madrid, the Teatro Apolo",
+   "date": "1923-12-10",
+   "date_confidence": "Attested to the day by Wikipedia (Spanish), 'Carlos Gardel'. The run of some forty performances is given by the same source. The theatre on the Calle de Alcala was demolished in 1929; the coordinate is its site.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423763.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 16.91,
+    "text": "Sagittarius 16°55′",
+    "longitude": 256.911
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 13.82,
+    "text": "Capricornus 13°49′",
+    "longitude": 283.818
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 30.0,
+    "text": "Sagittarius 30°00′",
+    "longitude": 269.995
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.679
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 3.8,
+    "text": "Scorpio 3°48′",
+    "longitude": 213.798
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 3.36,
+    "text": "Sagittarius 3°22′",
+    "longitude": 243.363
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 29.17,
+    "text": "Libra 29°10′",
+    "longitude": 209.169
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Madrid, Barcelona, and the End of the Duo",
+   "stop": "Toulouse, meeting the Gardes family",
+   "date": "1924-01-01",
+   "date_confidence": "Attested by both Wikipedia (Spanish) and Wikipedia (English), 'Carlos Gardel', which place the visit during the Spanish tour of 1923 to 1924 without a month or a day; both default to 01 and the year is chosen as the later of the two. Pin is the Toulouse city coordinate, no address for the relatives being given.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423785.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.31,
+    "text": "Capricornus 9°19′",
+    "longitude": 279.313
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Madrid, Barcelona, and the End of the Duo",
+   "stop": "Buenos Aires, the duo comes apart",
+   "date": "1925-09-01",
+   "date_confidence": "Attested to the month by Wikipedia (Spanish), 'Carlos Gardel', which gives the cause as a laryngeal injury ending Razzano's singing voice and his move to managing Gardel; the day is not given and defaults to 01. Pin is the canonical Buenos Aires coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424394.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.04,
+    "text": "Virgo 8°02′",
+    "longitude": 158.038
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Madrid, Barcelona, and the End of the Duo",
+   "stop": "Barcelona, the solo debut at the Teatro Goya",
+   "date": "1925-11-10",
+   "date_confidence": "Attested to the day by Wikipedia (Spanish), 'Carlos Gardel'. Coordinates corrected: Wikipedia (Catalan), 'Teatre Goya (Barcelona)' gives the address as Carrer de Joaquin Costa 68-72 in El Raval, Ciutat Vella, some 2.4 km from the Gracia coordinate the research pool carried. The theatre opened on 30 September 1916, which is consistent with a 1925 run.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424464.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 17.09,
+    "text": "Scorpio 17°05′",
+    "longitude": 227.09
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 1.94,
+    "text": "Virgo 1°57′",
+    "longitude": 151.943
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 5.99,
+    "text": "Sagittarius 5°59′",
+    "longitude": 245.987
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 3.39,
+    "text": "Capricornus 3°23′",
+    "longitude": 273.387
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 27.63,
+    "text": "Libra 27°38′",
+    "longitude": 207.631
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 18.31,
+    "text": "Capricornus 18°19′",
+    "longitude": 288.315
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 17.03,
+    "text": "Scorpio 17°02′",
+    "longitude": 227.034
+   }
+  },
+  {
+   "segment": "Madrid, Barcelona, and the End of the Duo",
+   "stop": "Barcelona, singing into a microphone",
+   "date": "1926-01-01",
+   "date_confidence": "Reconstruction as to the studio. Wikipedia (Spanish), 'Carlos Gardel' attests that Gardel began electrical recording in Barcelona in 1926; the identification of the Casa Odeon studio and its coordinate are inferred rather than stated by that source, and month and day default to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424516.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.84,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.837
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Madrid, Barcelona, and the End of the Duo",
+   "stop": "Abasto, the house at Jean Jaures 735",
+   "date": "1927-01-01",
+   "date_confidence": "The purchase year is attested by Wikipedia (Spanish), 'Carlos Gardel'; month and day default to 01. Coordinates from Wikipedia (Spanish), 'Museo Casa Carlos Gardel' (34 36 06 S, 58 24 28 O), correcting both the hemisphere error and a longitude some 850 metres off in the research pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, 1928",
+   "stop": "Theatre Femina, the gala before the debut",
+   "date": "1928-09-30",
+   "date_confidence": "Attested to the day by Wikipedia (Spanish), 'Carlos Gardel', which describes the appearance as a charity gala preceding the official Paris debut. The coordinate is that of the Theatre Femina on the Champs-Elysees.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425519.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.59,
+    "text": "Libra 6°35′",
+    "longitude": 186.587
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 12.94,
+    "text": "Aries 12°57′",
+    "longitude": 12.942
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 2.31,
+    "text": "Scorpio 2°19′",
+    "longitude": 212.313
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 0.87,
+    "text": "Scorpio 0°52′",
+    "longitude": 210.873
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 28.66,
+    "text": "Gemini 28°39′",
+    "longitude": 88.657
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 9.11,
+    "text": "Taurus 9°07′",
+    "longitude": 39.111
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 13.93,
+    "text": "Sagittarius 13°56′",
+    "longitude": 253.928
+   }
+  },
+  {
+   "segment": "Paris, 1928",
+   "stop": "Montmartre, the cabaret Florida",
+   "date": "1928-10-02",
+   "date_confidence": "The date and venue are attested by Wikipedia (Spanish), 'Carlos Gardel'. The figure of seventy thousand records sold in three months is carried by Wikipedia (English), 'Carlos Gardel' as a report rather than an audited number, and is given here as the count that circulates.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425521.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.55,
+    "text": "Libra 8°33′",
+    "longitude": 188.554
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 12.25,
+    "text": "Taurus 12°15′",
+    "longitude": 42.245
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 4.18,
+    "text": "Scorpio 4°11′",
+    "longitude": 214.183
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 3.33,
+    "text": "Scorpio 3°20′",
+    "longitude": 213.334
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 29.51,
+    "text": "Gemini 29°31′",
+    "longitude": 89.51
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 8.92,
+    "text": "Taurus 8°55′",
+    "longitude": 38.916
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 14.06,
+    "text": "Sagittarius 14°04′",
+    "longitude": 254.064
+   }
+  },
+  {
+   "segment": "Paris, 1928",
+   "stop": "Paris, the letter to Razzano from the Rue Fontaine",
+   "date": "1928-11-01",
+   "date_confidence": "The letter carries no date; c.1928 is the estimate given by Wikipedia (Spanish), 'Carlos Gardel', which quotes the text at note 44 under the internal reference CartaGardelRazzano and gives no archival repository for the original. The month above is an ordering device only. The text was read verbatim on that page; the original document was not seen. Pin is the canonical Paris coordinate, the letter having been written somewhere in the city.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425551.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "no month/day",
+    "estimated",
+    "ordering",
+    "between"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.34,
+    "text": "Scorpio 8°20′",
+    "longitude": 218.336
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, 1928",
+   "stop": "Palais Garnier, the Bal des Petits Lits Blancs",
+   "date": "1929-01-01",
+   "date_confidence": "Attested to the year by Wikipedia (Spanish), 'Carlos Gardel'; no month or day is given and both default to 01. A separate claim in the research pool that Gardel gave concerts at the Opera Garnier across 1928 and 1929 came from the dossier alone and could not be verified against a fetched source; only the charity gala is carried here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Paris, 1928",
+   "stop": "Buenos Aires, home after fifteen months",
+   "date": "1929-06-16",
+   "date_confidence": "Attested to the day by Wikipedia (Spanish), 'Carlos Gardel'. Pin is the canonical Buenos Aires coordinate; no dock or reception venue is named by the source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425778.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 24.36,
+    "text": "Gemini 24°22′",
+    "longitude": 84.364
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 15.7,
+    "text": "Libra 15°42′",
+    "longitude": 195.697
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 14.89,
+    "text": "Gemini 14°54′",
+    "longitude": 74.894
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 9.46,
+    "text": "Taurus 9°28′",
+    "longitude": 39.459
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 19.13,
+    "text": "Leo 19°08′",
+    "longitude": 139.132
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 0.92,
+    "text": "Gemini 0°55′",
+    "longitude": 60.923
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 27.28,
+    "text": "Sagittarius 27°17′",
+    "longitude": 267.276
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Paris, 1928",
+   "stop": "Avenida Santa Fe, the voice goes on the air",
+   "date": "1929-10-01",
+   "date_confidence": "Attested to the day by max_glucksmann.journey.json, which places Gardel's radio debut on Radio Splendid, broadcasting from inside the Grand Splendid theatre on Avenida Santa Fe, on 1 October 1929. Pin inherited unchanged from that file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425885.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.33,
+    "text": "Libra 7°20′",
+    "longitude": 187.332
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 12.47,
+    "text": "Virgo 12°28′",
+    "longitude": 162.473
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 21.71,
+    "text": "Libra 21°43′",
+    "longitude": 201.712
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 6.46,
+    "text": "Virgo 6°28′",
+    "longitude": 156.465
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 26.28,
+    "text": "Libra 26°17′",
+    "longitude": 206.28
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 16.51,
+    "text": "Gemini 16°30′",
+    "longitude": 76.506
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 24.63,
+    "text": "Sagittarius 24°38′",
+    "longitude": 264.63
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Camera and the Microphone",
+   "stop": "Buenos Aires, fifteen shorts for Eduardo Morera",
+   "date": "1930-10-23",
+   "date_confidence": "Attested to the day by Wikipedia (Spanish), 'Carlos Gardel', which also gives 3 May 1931 for the premiere of the shorts at the Cine Astral. No studio address is named for the filming, so the pin is the canonical Buenos Aires coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426272.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 28.87,
+    "text": "Libra 28°52′",
+    "longitude": 208.866
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 13.19,
+    "text": "Scorpio 13°11′",
+    "longitude": 223.191
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 18.87,
+    "text": "Libra 18°52′",
+    "longitude": 198.867
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 5.47,
+    "text": "Sagittarius 5°28′",
+    "longitude": 245.47
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 1.13,
+    "text": "Leo 1°08′",
+    "longitude": 121.127
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 20.14,
+    "text": "Cancer 20°08′",
+    "longitude": 110.137
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 6.56,
+    "text": "Capricornus 6°34′",
+    "longitude": 276.563
+   }
+  },
+  {
+   "segment": "The Camera and the Microphone",
+   "stop": "Nice, the Riviera months and a written contradiction",
+   "date": "1931-01-01",
+   "date_confidence": "Reconstruction as to the venue and approximate as to the pin. Wikipedia (Spanish), 'Carlos Gardel' has him leaving for France in January 1931 and reaching Paris to film for Paramount only at the end of April, the intervening months spent on the Riviera; it mentions Nice appearances but does not name the Casino de la Jetee-Promenade as the venue, and no page for that pier could be reached to check the coordinate, which reads as somewhat too far east. The same article frames the dismissal of guitarist Jose Aguilar as provoked by a homophobic remark against Gardel. The 1931 witnessed declaration is attested by Wikipedia (English), 'Carlos Gardel' citing Eliseo Alvarez (1995), without a stated place of signature.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximately",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Camera and the Microphone",
+   "stop": "Joinville-le-Pont, the Paramount factory on the Marne",
+   "date": "1931-04-01",
+   "date_confidence": "Wikipedia (Spanish), 'Carlos Gardel' places his arrival in Paris to film for Paramount at Joinville at the end of April 1931; the day defaults to 01. Coordinates from Wikipedia (French), 'Studios de Joinville', 20 avenue du General-Gallieni (48 49 10 N, 2 28 16 E), correcting a pin some 1.3 km off in the research pool. The four Joinville features belong to 1931 and 1932; the research pool's range of 1931 to 1934 is wrong, the later films being American.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426432.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.32,
+    "text": "Aries 10°19′",
+    "longitude": 10.317
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Camera and the Microphone",
+   "stop": "Joinville-le-Pont, Le Pera and Mi Buenos Aires querido",
+   "date": "1932-01-01",
+   "date_confidence": "The Le Pera collaboration is attested by Wikipedia (English), 'Carlos Gardel'; Melodia de arrabal, which carries Mi Buenos Aires querido, is a Joinville production of 1932. Month and day default to 01. The research pool folded the Joinville and New York studio periods into a single 1934 entry placed at 'New York and Paris'; they are separated here, Mi Buenos Aires querido belonging to Joinville and Por una cabeza to the later American films.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2426707.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.37,
+    "text": "Capricornus 9°22′",
+    "longitude": 279.372
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Camera and the Microphone",
+   "stop": "Buenos Aires, telling the press again where he is from",
+   "date": "1933-10-25",
+   "date_confidence": "The quote is dated to 25 October 1933 and attributed to El Telegrafo of Paysandu, Uruguay, by Wikipedia (English), 'Carlos Gardel', citing Collier (1986), p. 72; Collier was not fetched. No source consulted places Gardel physically in Paysandu on that day, so he is not staged there: the pin is his own canonical Buenos Aires base. A similar statement attributed to La Tribuna Popular of Buenos Aires in the same year could not be confirmed, and whether the two press citations record one utterance or two is unresolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427370.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 1.13,
+    "text": "Scorpio 1°08′",
+    "longitude": 211.131
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Camera and the Microphone",
+   "stop": "Astoria, Queens, the four American pictures",
+   "date": "1934-01-01",
+   "date_confidence": "Attested by Wikipedia (English), 'Kaufman Astoria Studios': all the films starring Gardel made in the United States were shot at Astoria Studios. Coordinates from that article (40 45 24 N, 73 55 29 W), correcting a pin some 1.9 km off in the research pool. The four features run across 1934 and 1935; month and day default to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427438.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.896
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medellin and the Long Way Home",
+   "stop": "Medellin, the sentence about the heart and the soul",
+   "date": "1935-06-01",
+   "date_confidence": "The quote is attested verbatim in Wikipedia (English), 'Carlos Gardel', reported from the June 1935 issue of Caretas magazine of Antioquia, Colombia, and carries no footnote there; the Alvarez (1995) citation that the research pool attached to it belongs to the next sentence in that article and is not a source for this line. The month is attested, the day is not and defaults to 01. Pin is the canonical Medellin coordinate; Antioquia is the department and Medellin its capital, and Gardel died there on 24 June 1935, which is almost certainly the occasion of the interview.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427954.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.59,
+    "text": "Gemini 9°35′",
+    "longitude": 69.588
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medellin and the Long Way Home",
+   "stop": "Olaya Herrera, two aircraft on one field",
+   "date": "1935-06-24",
+   "date_confidence": "Attested to the day by Wikipedia (English), 'Carlos Gardel' and Wikipedia (English), 'Olaya Herrera Airport', the latter giving Gardel and sixteen others dead. Wikipedia (Spanish), 'Accidente aereo de Medellin' gives a total of seventeen dead, names the second aircraft as SCADTA's Ford 5-AT-D C-31 Manizales with seven aboard under pilot Hans Ulrich Thoms, gives Gardel's pilot as Ernesto Samper Mendoza, and lists the guitarist Jose Maria Aguilar Porras among the dead of the F-31.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427977.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 1.57,
+    "text": "Cancer 1°34′",
+    "longitude": 91.569
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 6.85,
+    "text": "Aries 6°51′",
+    "longitude": 6.845
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 28.15,
+    "text": "Gemini 28°09′",
+    "longitude": 88.15
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 16.83,
+    "text": "Leo 16°50′",
+    "longitude": 136.834
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 13.48,
+    "text": "Libra 13°29′",
+    "longitude": 193.476
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.82,
+    "text": "Scorpio 13°49′",
+    "longitude": 223.816
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 9.87,
+    "text": "Pisces 9°52′",
+    "longitude": 339.871
+   }
+  },
+  {
+   "segment": "Medellin and the Long Way Home",
+   "stop": "Montevideo, two days lying in state",
+   "date": "1935-11-01",
+   "date_confidence": "Reconstruction as to the route and month. Wikipedia (English), 'Carlos Gardel' gives the transport of the body through New York and Rio de Janeiro and the two days lying in state at Montevideo before burial, with the year only; the month here is an ordering device and nothing more. The article tags the repatriation account loosely, and no source consulted gives a date of arrival in any of the three cities.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2428107.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only",
+    "ordering",
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.64,
+    "text": "Scorpio 7°38′",
+    "longitude": 217.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medellin and the Long Way Home",
+   "stop": "La Chacarita, the bronze with a cigarette in its hand",
+   "date": "1935-12-01",
+   "date_confidence": "The burial at La Chacarita is attested by both the English and Spanish Wikipedia articles on Gardel, which give the year only; the month above is an ordering device. The statue and the cigarette tradition are attested by the Buenos Aires city tourism board's page on the Cementerio de la Chacarita, which does not name the sculptor or the date of erection: that is an open gap. The handwritten will produced by Armando Defino after the death is attested by Wikipedia (English), 'Carlos Gardel'.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2428137.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "year only",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 7.86,
+    "text": "Sagittarius 7°52′",
+    "longitude": 247.865
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medellin and the Long Way Home",
+   "stop": "Abasto, the house opens with the papers inside it",
+   "date": "2003-03-04",
+   "date_confidence": "Attested to the day by Wikipedia (Spanish), 'Museo Casa Carlos Gardel', which also gives the 1997 declaration as a National Historical Monument, the donation to the city by Eduardo Eurnekian in 2000, and the display of authenticated copies of the Toulouse birth certificate and the handwritten will. A separate claim that UNESCO registered Gardel's recorded voice in its Memory of the World programme in 2003 appears in Wikipedia (Spanish), 'Carlos Gardel' but could not be verified against UNESCO itself, so no clustering of the two events is asserted here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2003,
+   "jd_ut": 2452702.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 13.0,
+    "text": "Pisces 13°00′",
+    "longitude": 343.005
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 23.13,
+    "text": "Pisces 23°08′",
+    "longitude": 353.131
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 28.21,
+    "text": "Aquarius 28°13′",
+    "longitude": 328.212
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 1.75,
+    "text": "Aquarius 1°45′",
+    "longitude": 301.75
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 29.45,
+    "text": "Sagittarius 29°27′",
+    "longitude": 269.45
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 9.56,
+    "text": "Leo 9°34′",
+    "longitude": 129.563
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 22.02,
+    "text": "Gemini 22°01′",
+    "longitude": 82.018
+   }
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 18,
+  "month": 3,
+  "year": 24
+ },
+ "parse_failures": []
+}

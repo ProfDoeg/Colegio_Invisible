@@ -1,0 +1,1384 @@
+{
+ "slug": "ada_falcon",
+ "traveler": "Ada Falcón (Aída Elsa Ada Falcone)",
+ "title": "The Curtain and the Sierras: la joyita argentina, the Canaro Years, and Sixty Years of Silence",
+ "years": "1905-2002",
+ "years_parsed": {
+  "first": 1905,
+  "last": 2002
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "La Joyita Argentina",
+  "stop": "Ituzaingó, the birth on the flat land",
+  "date": "1905-08-17",
+  "date_confidence": "attested to the day by es.wikipedia. The coordinate is modern Ituzaingó and not the estancia, which is named Los Paraísos in one lens of the research pool and is not geolocated in any source reached here. The paternity is reported by es.wikipedia and is disputed in the literature; it is recorded, not adjudicated.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1905,
+  "jd_ut": 2417074.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "notes": [
+   "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+  ],
+  "sun": {
+   "sign": "Leo",
+   "degree": 23.41,
+   "text": "Leo 23°25′",
+   "longitude": 143.41
+  },
+  "moon": {
+   "sign": "Pisces",
+   "degree": 14.61,
+   "text": "Pisces 14°37′",
+   "longitude": 344.612
+  },
+  "mercury": {
+   "sign": "Virgo",
+   "degree": 14.04,
+   "text": "Virgo 14°02′",
+   "longitude": 164.041
+  },
+  "venus": {
+   "sign": "Cancer",
+   "degree": 11.86,
+   "text": "Cancer 11°52′",
+   "longitude": 101.862
+  },
+  "mars": {
+   "sign": "Scorpio",
+   "degree": 27.35,
+   "text": "Scorpio 27°21′",
+   "longitude": 237.349
+  },
+  "jupiter": {
+   "sign": "Gemini",
+   "degree": 4.01,
+   "text": "Gemini 4°00′",
+   "longitude": 64.008
+  },
+  "saturn": {
+   "sign": "Aquarius",
+   "degree": 29.85,
+   "text": "Aquarius 29°51′",
+   "longitude": 329.845
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1905-2002",
+  "first_year_parsed": 1905
+ },
+ "stops": [
+  {
+   "segment": "La Joyita Argentina",
+   "stop": "Ituzaingó, the birth on the flat land",
+   "date": "1905-08-17",
+   "date_confidence": "attested to the day by es.wikipedia. The coordinate is modern Ituzaingó and not the estancia, which is named Los Paraísos in one lens of the research pool and is not geolocated in any source reached here. The paternity is reported by es.wikipedia and is disputed in the literature; it is recorded, not adjudicated.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1905,
+   "jd_ut": 2417074.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 23.41,
+    "text": "Leo 23°25′",
+    "longitude": 143.41
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 14.61,
+    "text": "Pisces 14°37′",
+    "longitude": 344.612
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 14.04,
+    "text": "Virgo 14°02′",
+    "longitude": 164.041
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 11.86,
+    "text": "Cancer 11°52′",
+    "longitude": 101.862
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 27.35,
+    "text": "Scorpio 27°21′",
+    "longitude": 237.349
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 4.01,
+    "text": "Gemini 4°00′",
+    "longitude": 64.008
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 29.85,
+    "text": "Aquarius 29°51′",
+    "longitude": 329.845
+   }
+  },
+  {
+   "segment": "La Joyita Argentina",
+   "stop": "Buenos Aires, the letter taken off the name",
+   "date": "1909-01-01",
+   "date_confidence": "es.wikipedia states that at the age of four she told her mother she wished to sing, and that her mother shortened Falcone to Falcón. The year 1909 is arithmetic from her age and is not in the source; month and day default to 01. The pin is the corpus's generic Buenos Aires coordinate, no family address being attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.97,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.966
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Joyita Argentina",
+   "stop": "Sociedad de San Vicente de Paúl, the debut of la joyita argentina",
+   "date": "1910-01-01",
+   "date_confidence": "es.wikipedia states she debuted as la joyita argentina at an event of the Sociedad de San Vicente de Paul and gives no year, no venue, and no programme. The date here orders the segment only. One lens of the research pool credited this to a todotango biography; that attribution is wrong, the URL used resolving to an unrelated singer, and the claim rests on es.wikipedia alone. The generic Buenos Aires pin replaces an unanchored placeholder coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no month/day",
+    "ordering",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Joyita Argentina",
+   "stop": "Teatro Apolo, the tonadillas on Corrientes",
+   "date": "1918-01-01",
+   "date_confidence": "es.wikipedia places the Apolo tonadillas immediately before the 1919 film and gives no year; the figure 1916 that circulates comes from back-computing en.wikipedia's statement that she started in the theatre at eleven. The two encyclopedias are not reconciled here. The coordinate is the Apolo's site at Corrientes 1372, correcting a pin about 350 metres to the northeast.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421594.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.78,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.778
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "La Joyita Argentina",
+   "stop": "Buenos Aires, El festín de los caranchos",
+   "date": "1919-01-01",
+   "date_confidence": "es.wikipedia gives 1919 and en.wikipedia gives 1918; the disagreement is flagged and not resolved. Month and day default to 01. No shooting location is named in either source, so the generic Buenos Aires pin is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421959.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.53,
+    "text": "Capricornus 9°32′",
+    "longitude": 279.531
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Third Woman to Make a Record",
+   "stop": "RCA Victor, the first sides with Fresedo",
+   "date": "1925-07-15",
+   "date_confidence": "attested to the day by es.wikipedia, which states she began work with the RCA Victor recording room on 15 July 1925 accompanied by Osvaldo Fresedo's orchestra, and calls her the third Argentine woman to record a disc, not specifically the third to record tango. The studio address is not named in any source reached, so the generic Buenos Aires pin is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424346.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) generic"
+   ],
+   "notes": [
+    "soft triggers (generic) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 21.99,
+    "text": "Cancer 21°59′",
+    "longitude": 111.989
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 16.83,
+    "text": "Taurus 16°50′",
+    "longitude": 46.834
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 15.28,
+    "text": "Leo 15°17′",
+    "longitude": 135.285
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 13.92,
+    "text": "Leo 13°55′",
+    "longitude": 133.92
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 11.75,
+    "text": "Leo 11°45′",
+    "longitude": 131.748
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 17.09,
+    "text": "Capricornus 17°06′",
+    "longitude": 287.094
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.66,
+    "text": "Scorpio 7°40′",
+    "longitude": 217.663
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Third Woman to Make a Record",
+   "stop": "Odeón, fourteen sides with Delfino and Parada",
+   "date": "1929-01-01",
+   "date_confidence": "es.wikipedia attests the fourteen pieces, the label Odeón, Enrique Delfino at the piano and Manuel Parada on guitar, and the mezzo-soprano register, but gives no date within 1929; month and day default to 01. The studio address is not named. The sequence relative to the Canaro contract of 24 July is inferred from the sources' own ordering.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425612.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "sequencing",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.114
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Third Woman to Make a Record",
+   "stop": "Buenos Aires, La morocha and the Canaro contract",
+   "date": "1929-07-24",
+   "date_confidence": "attested to the day by es.wikipedia, which states the working relationship with Francisco Canaro began on 24 July 1929 with the recording of the tango La morocha, and gives roughly 180 pieces recorded together. The label for this session is not named by the source; the Odeón attribution that circulates is an inference and is not carried here. The authorship of La morocha is attested separately by es.wikipedia's article on the song.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425816.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 0.61,
+    "text": "Leo 0°37′",
+    "longitude": 120.61
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Third Woman to Make a Record",
+   "stop": "Mendoza, the vals for a murdered governor",
+   "date": "1929-11-10",
+   "date_confidence": "es.wikipedia attests the romance with Carlos Washington Lencinas, its end with his assassination in November 1929, and the vals Sueño con él composed in his memory; es.wikipedia's article on Lencinas fixes the killing to 10 November 1929 in Mendoza. One lens of the research pool tagged this romance as unverified tradition; that tag was wrong and is corrected here. Whether she was ever physically in Mendoza is not stated by any source reached.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425925.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (traditional, not given) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 17.12,
+    "text": "Scorpio 17°07′",
+    "longitude": 227.121
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 21.65,
+    "text": "Aquarius 21°39′",
+    "longitude": 321.645
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 6.77,
+    "text": "Scorpio 6°46′",
+    "longitude": 216.771
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 25.82,
+    "text": "Libra 25°49′",
+    "longitude": 205.82
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 23.9,
+    "text": "Scorpio 23°54′",
+    "longitude": 233.903
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 14.51,
+    "text": "Gemini 14°31′",
+    "longitude": 74.509
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 27.73,
+    "text": "Sagittarius 27°44′",
+    "longitude": 267.726
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Fifteen Discs a Month",
+   "stop": "Buenos Aires, the radio circuit",
+   "date": "1930-01-01",
+   "date_confidence": "es.wikipedia lists the stations Radio Cultura, Stentor, Splendid, Argentina, Prieto, Belgrano and El Mundo and says she debuted on them, not that she performed regularly on each; the fifteen discs a month and the 1930s framing are its own. The two hundred songs and the 1930-1942 peak come from en.wikipedia. The stations are collapsed into one stop because four of them carried an identical placeholder coordinate in the research pool, which was positively wrong for Radio Belgrano.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2425977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.867
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifteen Discs a Month",
+   "stop": "Palermo Chico, the house of three floors",
+   "date": "1931-01-01",
+   "date_confidence": "es.wikipedia and en.wikipedia both attest the three-storey house in Palermo Chico, the furs and jewellery and the two automobiles, and its sale in 1942; no purchase date is given anywhere, so this date orders the segment only. The coordinate is the corpus's existing Palermo Chico pin, which differs from the one in the research pool by about a kilometre. The Discépolo line is a two-layer attribution, his words inside her own 1995 recollection.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifteen Discs a Month",
+   "stop": "Buenos Aires, the vals about her eyes",
+   "date": "1933-01-01",
+   "date_confidence": "es.wikipedia attests that Canaro composed the vals Yo no sé qué me han hecho tus ojos inspired by her eyes and dates it 1933; month and day default to 01. The quote is her own recollection given to Clarín in 1995 and printed in the 5 January 2002 obituary, sixty-two years after the vals; it is verbatim and is not contemporary with this stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427073.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifteen Discs a Month",
+   "stop": "Buenos Aires, Ídolos de la radio",
+   "date": "1934-01-01",
+   "date_confidence": "es.wikipedia attests the film, the director Eduardo Morera, and the cast including Ignacio Corsini, Olinda Bozán, Dorita Davis and Tita Merello; no release date within 1934 is given, and month and day default to 01. No shooting location is named, so the generic Buenos Aires pin is used rather than a second invented studio coordinate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427438.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.896
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifteen Discs a Month",
+   "stop": "Buenos Aires, the decision to stop being seen",
+   "date": "1935-01-01",
+   "date_confidence": "es.wikipedia dates to 1935 her decision to make no further public appearances, describing her as then in her greatest period of splendour; month and day default to 01. No cause is given by the source and none is supplied here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fifteen Discs a Month",
+   "stop": "Radio El Mundo, the small room called sala Falcón",
+   "date": "1936-01-01",
+   "date_confidence": "es.wikipedia states that Radio El Mundo put at her disposal the sala F, of smaller dimensions, which people called la sala Falcón; it gives no date. es.wikipedia's article on Radio El Mundo dates the station's first broadcast to 29 November 1935, so the assignment cannot precede December 1935 and is dated here to 1936. The coordinate is the station's Maipú 555 building, correcting a pin about 300 metres to the northwest. The room is la sala F, not an officially named Sala Falcón.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428168.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.4,
+    "text": "Capricornus 9°24′",
+    "longitude": 279.401
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Behind the Curtain",
+   "stop": "Buenos Aires, the pistol at the rehearsal",
+   "date": "1938-01-01",
+   "date_confidence": "reconstruction. The story of Canaro's wife bursting into a rehearsal with a pistol circulates widely in secondary press accounts and no contemporary account of it was located in this research; the venue is unknown and the generic Buenos Aires pin is a placeholder. Only the September 1938 end of the partnership is documented. The stop is kept because the legend is part of the record of what was said about her, and it is marked as legend.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428899.5,
+   "precision": "month",
+   "precision_triggers": [
+    "unknown",
+    "placeholder",
+    "legend",
+    "reconstructed (the date)",
+    "(soft) reconstruct",
+    "(soft) generic"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.926
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Behind the Curtain",
+   "stop": "Buenos Aires, the end of the Canaro years",
+   "date": "1938-09-28",
+   "date_confidence": "attested to the day by es.wikipedia. No statement by either party about the cause was located in this research. The count of roughly 180 recordings is es.wikipedia's.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429169.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 4.21,
+    "text": "Libra 4°13′",
+    "longitude": 184.209
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Behind the Curtain",
+   "stop": "Radio El Mundo, singing to a cloth",
+   "date": "1940-01-01",
+   "date_confidence": "es.wikipedia gives 'hacia 1940', toward 1940, for her singing from behind a curtain hidden from her own musicians; month and day default to 01. One lens of the research pool dated this to 1939, which contradicts the source and is corrected here. The station is not named by the source for this detail; Radio El Mundo is inferred from the sala F arrangement and the pin is used accordingly.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429629.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.43,
+    "text": "Capricornus 9°26′",
+    "longitude": 279.431
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Behind the Curtain",
+   "stop": "Nueva Pompeya, the basilica on Avenida Sáenz",
+   "date": "1941-01-01",
+   "date_confidence": "es.wikipedia attests the devotion, naming the church of Pompeya specifically and stating that her active religious life there gave rise to the rumours; it gives no dates and no frequency, so this date orders the segment only. What the source does not support, and what is not claimed here, is that contemporaries read the devotion as a sign of what was coming. The coordinate is the basilica on Avenida Sáenz, correcting a pin about 1.2 kilometres to the west.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2429995.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Behind the Curtain",
+   "stop": "Buenos Aires, the last two sides",
+   "date": "1942-01-01",
+   "date_confidence": "es.wikipedia attests the two final recordings, the tango Corazón encadenado and the vals Viviré con tu recuerdo, both by Canaro and Ivo Pelay, and dates them to 1942 without month or day; the defaults are 01. The claim circulating elsewhere that Ignacio Corsini duetted on Corazón encadenado was not confirmed in any source reached and is not carried here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430360.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.955
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Behind the Curtain",
+   "stop": "Palermo Chico, the house sold and the rest given away",
+   "date": "1942-06-01",
+   "date_confidence": "es.wikipedia and en.wikipedia attest the sale of the house and two automobiles and the distribution of her possessions to friends in 1942; no month is given and June is chosen only to place the sale after the last recordings and before the move to Córdoba. The coordinate is the corpus's Palermo Chico pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430511.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.88,
+    "text": "Gemini 9°53′",
+    "longitude": 69.883
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sierras of Córdoba",
+   "stop": "Salsipuedes, the modest house in the hills",
+   "date": "1942-07-01",
+   "date_confidence": "es.wikipedia attests the move to Salsipuedes with her mother in 1942; no month is given and July orders the segment only. The coordinate is the Salsipuedes centroid from its own es.wikipedia article, correcting a pin about 2.5 kilometres to the southwest that the research pool carried for the same building. The etymology of the town's name is common report and is not sourced here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430541.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.54,
+    "text": "Cancer 8°32′",
+    "longitude": 98.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sierras of Córdoba",
+   "stop": "Salsipuedes, the tercera franciscana",
+   "date": "1950-01-01",
+   "date_confidence": "es.wikipedia attests her status as a tercera franciscana, a lay tertiary of the Franciscan third order, and explicitly distinguishes this from being a professed nun; en.wikipedia calls her a 'tertiary nun', which blurs the same distinction. No date of entry into the third order is given anywhere, so this date orders the segment only.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sierras of Córdoba",
+   "stop": "Salsipuedes, the sister who is not spoken to",
+   "date": "1960-01-01",
+   "date_confidence": "reconstruction as to date. es.wikipedia states that after the withdrawal she had no further contact with her sister Adhelma; no year, no cause and no quarrel is recorded, and this date only places the fact inside the long retreat. What Adhelma is later accused of belongs to 1989 and is her sister's accusation, not a finding.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2436934.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.58,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.578
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sierras of Córdoba",
+   "stop": "Salsipuedes, the death of Cornelia Boesio",
+   "date": "1981-01-01",
+   "date_confidence": "es.wikipedia dates the mother's death to 1981 and says she was over ninety; no month or day is given and the defaults are 01. The quote is one contiguous sentence from the March 1982 interview printed in Clarín on 5 January 2002 and is verbatim; it postdates this stop by roughly a year.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444605.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.498
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sierras of Córdoba",
+   "stop": "Córdoba province, the retreat house with no address",
+   "date": "1981-06-01",
+   "date_confidence": "es.wikipedia says only that after her mother's death she lodged, in her character as a Franciscan tertiary, in a casa de retiro. No town, no congregation, and no month are given. The coordinate is deliberately her last attested address at Salsipuedes rather than an invented one; the research pool pinned this to Cosquín, which no source supports, and conflated it with the later Camillian home at Molinari, which is a different institution of a different order.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444756.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.43,
+    "text": "Gemini 10°26′",
+    "longitude": 70.433
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sierras of Córdoba",
+   "stop": "Córdoba province, the sentence with the vision in it",
+   "date": "1982-03-01",
+   "date_confidence": "the quote is verbatim from an interview of March 1982, printed in Sibila Camps's Clarín obituary of 5 January 2002 and reproduced in es.wikipedia's first reference; no day within March is given. The place of the interview is not stated and the pin is her last attested area of residence. This is the passage the secondary literature routinely truncates: two separate lenses of the research pool quoted it with the vision clause silently removed, and one of them then concluded on that basis that the vision was unattested tradition.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1982,
+   "jd_ut": 2445029.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day"
+   ],
+   "notes": [
+    "hard triggers (traditional, not given) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.09,
+    "text": "Pisces 10°05′",
+    "longitude": 340.088
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Returns",
+   "stop": "Buenos Aires, the return over the royalties",
+   "date": "1989-01-01",
+   "date_confidence": "es.wikipedia attests the 1989 return, the accusation against Odeón for refusing to reissue her records, and the accusation that her sister Adhelma had toured provincial towns passing as her and signing autographs in her name; no month or day is given and the defaults are 01. The phrase 'for thirty years' comes from her own quoted words, not from the encyclopedia's summary. No case, no proof, and no counter-statement by Adhelma was located in this research.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1989,
+   "jd_ut": 2447527.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.557
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Returns",
+   "stop": "Molinari, the hogar San Camilo on Route 38",
+   "date": "1990-01-01",
+   "date_confidence": "es.wikipedia says only 'durante sus últimas décadas', during her last decades, for the Molinari residence; the 1990s dating that circulates is unsourced and this date orders the segment only. es.wikipedia's article on Molinari places the locality 4 kilometres north of the centre of Cosquín, not 5, names the congregation as Las Hijas de San Camilo, and puts their hogar de ancianos San Camilo on Ruta Nacional 38; the coordinate is that article's figure for Molinari. Wolf's remark about her reading is from the 2004 Página/12 interview and is quoted below at the filming stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2447892.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.31
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Returns",
+   "stop": "Molinari, the camera she lets in",
+   "date": "2001-01-01",
+   "date_confidence": "en.wikipedia states she had not allowed her picture to be taken for nearly sixty years and permitted the filmmakers to interview her shortly before her death; no filming date is given by any source and 2002 is impossible, since she died on 4 January of that year, so the interview is dated here to 2001 at the latest. The 'No recuerdo' answer is verbatim from Sandra Chaher's Página/12 interview with Sergio Wolf, published January 2004. Wolf's own remark about senile dementia is from the same piece.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2001,
+   "jd_ut": 2451910.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.646
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ground at Chacarita",
+   "stop": "Molinari, the death at ninety-six",
+   "date": "2002-01-04",
+   "date_confidence": "attested to the day by es.wikipedia and corroborated by en.wikipedia: natural causes at ninety-six after a long arteriosclerosis, in the San Camilo home at Molinari. The epithet la emperatriz del tango is attested for her but its attribution specifically to the 2002 obituaries is not sourced. The tag-line quoted is given by Clarín as an anonymous characterisation by the graphic press; a near-identical phrase is separately attributed to Sergio Wolf in Página/12, and the discrepancy is left open.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2002,
+   "jd_ut": 2452278.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 13.46,
+    "text": "Capricornus 13°27′",
+    "longitude": 283.456
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ground at Chacarita",
+   "stop": "Cementerio de la Chacarita, the pantheon of SADAIC",
+   "date": "2002-01-05",
+   "date_confidence": "es.wikipedia attests the transfer of her remains to Buenos Aires and the interment in the SADAIC pantheon at Chacarita near Canaro's plot; en.wikipedia corroborates a mausoleum for famous artists without naming SADAIC. Canaro's own presence in the pantheon is independently attested by es.wikipedia's article on him. No source gives the date of the transfer, and this date is placed the day after her death purely to order the segment. The coordinate is the cemetery figure from its own es.wikipedia article, reconciling three different pins the research pool carried for one cemetery.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2002,
+   "jd_ut": 2452279.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "placed (the date)",
+    "no source (for the date)",
+    "(soft) placed",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 14.48,
+    "text": "Capricornus 14°29′",
+    "longitude": 284.476
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ground at Chacarita",
+   "stop": "Salsipuedes, the house opens as La Joyita",
+   "date": "2013-01-01",
+   "date_confidence": "es.wikipedia's articles on Falcón and on Salsipuedes both attest the 2013 conversion of her house into a private museum named Casona & Museo La Joyita; no month or day is given and the defaults are 01. The street address and the current operating status could not be confirmed, local press coverage returning 403 and 404 errors during this research. The coordinate is the Salsipuedes centroid.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2013,
+   "jd_ut": 2456293.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.734
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 33,
+  "dated": 33,
+  "unparsed": 0,
+  "day": 3,
+  "month": 2,
+  "year": 28
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1780 @@
+{
+ "slug": "charles_koch",
+ "traveler": "Charles de Ganahl Koch",
+ "title": "The Engineer of Wichita: Cracking Units, Cato, and a Company That Never Went Public",
+ "years": "1935-",
+ "years_parsed": {
+  "first": 1935,
+  "last": 2026
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Austere House on the Arkansas River",
+  "stop": "Wichita, born into the second fortune",
+  "date": "1935-11-01",
+  "date_confidence": "attested. Day and month from the Wikipedia article on Charles Koch; the year is fixed independently by Forbes, which gives his age as 90 in August 2026. No hospital or street address was established in any reachable source.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1935,
+  "jd_ut": 2428107.5,
+  "precision": "month",
+  "precision_triggers": [
+   "text affirms the month, not the day"
+  ],
+  "sun": {
+   "sign": "Scorpio",
+   "degree": 7.64,
+   "text": "Scorpio 7°38′",
+   "longitude": 217.638
+  },
+  "sun_range": [
+   "Scorpio",
+   "Sagittarius"
+  ],
+  "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1935-",
+  "first_year_parsed": 1935
+ },
+ "stops": [
+  {
+   "segment": "The Austere House on the Arkansas River",
+   "stop": "Wichita, born into the second fortune",
+   "date": "1935-11-01",
+   "date_confidence": "attested. Day and month from the Wikipedia article on Charles Koch; the year is fixed independently by Forbes, which gives his age as 90 in August 2026. No hospital or street address was established in any reachable source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2428107.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.64,
+    "text": "Scorpio 7°38′",
+    "longitude": 217.638
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Austere House on the Arkansas River",
+   "stop": "Wichita, the dandelions and the manure",
+   "date": "1941-01-01",
+   "date_confidence": "traditional. The chores are attested in the Wikipedia article and repeated across the biographical literature, but the starting age of about six is the family's own telling and the year here is an ordering device, not a dated event.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1941,
+   "jd_ut": 2429995.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.203
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Austere House on the Arkansas River",
+   "stop": "Culver, the military academy on Lake Maxinkuckee",
+   "date": "1950-01-01",
+   "date_confidence": "reconstruction. Koch's attendance at Culver and the expulsion story rest on the dossier's family-history citation alone; the independently fetched Culver Academies page confirms the school and its location and does not mention him. The year orders the segment and is not attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge, and the Training of an Engineer",
+   "stop": "MIT, the general engineering degree",
+   "date": "1957-06-01",
+   "date_confidence": "attested as to the degree and year (Wikipedia, 'Charles Koch'; Forbes lists MIT bachelor's and master's degrees). Month is a convention for commencement. Coordinate is the corpus canonical MIT pin, inherited byte-identical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1957,
+   "jd_ut": 2435990.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.24,
+    "text": "Gemini 10°15′",
+    "longitude": 70.242
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge, and the Training of an Engineer",
+   "stop": "MIT, two master's degrees and a disagreement about the date",
+   "date": "1959-06-01",
+   "date_confidence": "attested as to both degrees; contested as to the second date. Wikipedia gives the chemical-engineering master's as 1959, the research dossier as 1960, and notes that published profiles disagree. 1959 is used here; 1960 is the recorded variant and is not resolved.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436720.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.78,
+    "text": "Gemini 9°47′",
+    "longitude": 69.779
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge, and the Training of an Engineer",
+   "stop": "Cambridge, the consulting job at Acorn Park",
+   "date": "1960-01-01",
+   "date_confidence": "reconstruction. The Arthur D. Little page lists Koch among notable former employees but gives no dates, so the 1960 to 1961 tenure rests on the dossier alone. Place corrected: the pool said Boston, but ADL left Boston in 1917 for Cambridge and later Acorn Park.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2436934.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.58,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.578
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Cambridge, and the Training of an Engineer",
+   "stop": "Larkspur, the Freedom School in the pines",
+   "date": "1961-01-01",
+   "date_confidence": "reconstruction. Robert LeFevre's school at Larkspur is confirmed for 1956 to 1973 by the fetched Wikipedia article on LeFevre, which does not mention Koch. His attendance and later trusteeship are widely reported elsewhere and rest here on the dossier alone.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437300.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.35,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.35
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Wichita, the Company and the Father's Name",
+   "stop": "Wichita, the return at twenty-five",
+   "date": "1961-06-01",
+   "date_confidence": "attested as to the return and his age (dossier from Schulman's Sons of Wichita and the company's own history); month is an ordering convention. Headquarters coordinate corrected to the 4111 E 37th St N area at 37.7545, -97.2870.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437451.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.27,
+    "text": "Gemini 10°16′",
+    "longitude": 70.274
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Wichita, the Company and the Father's Name",
+   "stop": "Wichita, the presidency, in a year nobody agrees on",
+   "date": "1967-01-01",
+   "date_confidence": "contested, and left open. The dossier chronology gives 1966; Wikipedia gives 1967; Forbes says only that he has been chairman since 1967. No fetched source supports 1966. The pool's attested tag on this item is unearned and is demoted here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439491.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Wichita, the Company and the Father's Name",
+   "stop": "Wichita, chairman at thirty-two",
+   "date": "1967-11-17",
+   "date_confidence": "attested. Fred Koch's death of a heart attack while duck hunting near Ogden, Utah, on 17 November 1967 is confirmed at the Wikipedia article on Fred C. Koch. No source says whether Charles was on the trip, so the stop is staged at Wichita and not in Utah; the exact hunting site is undocumented.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439811.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "hard triggers (no source (for the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 23.95,
+    "text": "Scorpio 23°57′",
+    "longitude": 233.951
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 21.74,
+    "text": "Taurus 21°44′",
+    "longitude": 51.738
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 4.67,
+    "text": "Scorpio 4°40′",
+    "longitude": 214.666
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 7.55,
+    "text": "Libra 7°33′",
+    "longitude": 187.547
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 18.63,
+    "text": "Capricornus 18°38′",
+    "longitude": 288.625
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 3.92,
+    "text": "Virgo 3°55′",
+    "longitude": 153.917
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 5.96,
+    "text": "Aries 5°58′",
+    "longitude": 5.963
+   }
+  },
+  {
+   "segment": "Wichita, the Company and the Father's Name",
+   "stop": "Wichita, the company takes the dead man's name",
+   "date": "1968-01-01",
+   "date_confidence": "attested as to the year and the honorific motive; the predecessor entity is disputed and is deliberately not named in the campa. The dossier says Rock Island Oil and Refining; the Wikipedia article on Koch, Inc. says Wood River Oil and Refining. Both belong to Fred's assemblage.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2439856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "to the year",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.64,
+    "text": "Capricornus 9°38′",
+    "longitude": 279.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Wichita, the Company and the Father's Name",
+   "stop": "Rosemount, the fifty percent at Pine Bend",
+   "date": "1969-01-01",
+   "date_confidence": "attested. The 35 percent plus Marshall's 15 percent reaching 50 and blocking Union Oil is confirmed at the Wikipedia article on Koch, Inc. Coordinate corrected to the refinery's own coordinate, spanning Rosemount and Inver Grove Heights. Charles Koch's personal presence at the plant is not documented.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440222.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.409
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Money Into Doctrine: The Institutions",
+   "stop": "Menlo Park, the Institute for Humane Studies",
+   "date": "1970-01-01",
+   "date_confidence": "the institution's 1961 founding by F. A. Harper is attested, as is Koch's later role as chairman emeritus and his $12.4 million of giving from 2008 to 2012. The date here is an ordering device only: no source dates the beginning of his involvement. Coordinate inherited from the corpus pin for IHS at Menlo Park.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440587.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "no source (for the date)",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.16,
+    "text": "Capricornus 10°10′",
+    "longitude": 280.162
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Money Into Doctrine: The Institutions",
+   "stop": "San Francisco, the founding of Cato",
+   "date": "1977-01-01",
+   "date_confidence": "attested: founded January 1977 in San Francisco by Ed Crane, Murray Rothbard and Charles Koch, named at Rothbard's suggestion after Cato's Letters. The dossier's claim of a 1974 predecessor called the Charles Koch Foundation, renamed in 1977, is supported by no reachable source and is dropped. Coordinate inherited byte-identical from murray_rothbard.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443144.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.469
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Money Into Doctrine: The Institutions",
+   "stop": "Wichita, the essay against welfare for the rich",
+   "date": "1978-01-01",
+   "date_confidence": "attested as to the essay and the year. The primary text at libertarianism.org returned HTTP 429 on every attempt this session; the quotation is carried through Mother Jones, March 2015, which quotes the sentence in full and links back to the primary.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443509.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.22,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.221
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Money Into Doctrine: The Institutions",
+   "stop": "Wichita, the brother on the ballot",
+   "date": "1980-11-04",
+   "date_confidence": "attested as to David Koch's candidacy, his roughly $2.1 million of self-financing, and the ticket's approximately 921,000 votes. Charles's own location on election day is undocumented; the stop is staged at Wichita, where the decision to fund the run was made.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444547.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 11.74,
+    "text": "Scorpio 11°44′",
+    "longitude": 221.735
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Money Into Doctrine: The Institutions",
+   "stop": "Washington, Cato moves east and Rothbard is put out",
+   "date": "1981-01-01",
+   "date_confidence": "attested: the relocation from San Francisco to a historic house on Capitol Hill in 1981, and Rothbard's removal by the Crane-controlled board with Koch backing in the same year. The exact Capitol Hill address is not given in the source and the coordinate is approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1981,
+   "jd_ut": 2444605.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "not given",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.5,
+    "text": "Capricornus 10°30′",
+    "longitude": 280.498
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Money Into Doctrine: The Institutions",
+   "stop": "Fairfax, the hundred million at George Mason",
+   "date": "1990-01-01",
+   "date_confidence": "attested via one academic study of the tax filings, which found more than $100 million in twenty-one grants from 1988 to 2016, about 57 percent of his university giving in the period. The date here orders the segment across that span. The honorary doctorate from George Mason is attested and undated.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1990,
+   "jd_ut": 2447892.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering",
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°19′",
+    "longitude": 280.31
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Money Into Doctrine: The Institutions",
+   "stop": "Arlington, two floors of one building on Washington Boulevard",
+   "date": "1999-01-01",
+   "date_confidence": "attested as to the institutions and the shared address at 3434 Washington Boulevard; coordinate corrected from the pool by about 900 metres using OpenStreetMap. Koch's own visits to the building are not documented in any source reviewed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1999,
+   "jd_ut": 2451179.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Brothers' War",
+   "stop": "Wichita, the boardroom challenge",
+   "date": "1980-01-01",
+   "date_confidence": "attested. The failed takeover attempt and Bill Koch's removal from employment are recounted in the Tenth Circuit record in Koch v. Koch Industries, Inc., 203 F.3d 1202 (2000), independently fetched.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1980,
+   "jd_ut": 2444239.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.73,
+    "text": "Capricornus 9°44′",
+    "longitude": 279.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Brothers' War",
+   "stop": "Wichita, the buyout of the dissidents",
+   "date": "1983-06-01",
+   "date_confidence": "attested in the Tenth Circuit opinion: roughly 47.8 percent of the company bought from William Koch, Frederick Koch and the Simmons family at about $200 per share, a group total of approximately $1.1 billion.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1983,
+   "jd_ut": 2445486.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.97,
+    "text": "Gemini 9°58′",
+    "longitude": 69.97
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Brothers' War",
+   "stop": "Wichita, the suit over what was not said",
+   "date": "1985-01-01",
+   "date_confidence": "attested in the Tenth Circuit opinion. The coordinate is the general Wichita pin for the federal district court, not a surveyed courthouse location.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1985,
+   "jd_ut": 2446066.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.528
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Brothers' War",
+   "stop": "Wichita, eleven weeks and no damages",
+   "date": "1998-06-01",
+   "date_confidence": "attested as to the verdict and its reasoning; the month is an ordering convention. Note that the two Pine Bend trial answers the research pool attributed to Charles Koch are David Koch's testimony in this record, and are therefore narrated here rather than carried as quotations of Charles.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1998,
+   "jd_ut": 2450965.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.33,
+    "text": "Gemini 10°20′",
+    "longitude": 70.328
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ledger of Spills and Measurements",
+   "stop": "Lively, the butane in the low ground",
+   "date": "1996-08-24",
+   "date_confidence": "attested as to the rupture, the two deaths, and the 1999 verdict. The victims' ages given in the research pool could not be confirmed by any reachable source and are omitted here; the cited UPI archive returned 403. Coordinate corrected: Lively is in Kaufman County, not Rusk, and the pool's pin was about 150 km wrong.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1996,
+   "jd_ut": 2450319.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 1.11,
+    "text": "Virgo 1°07′",
+    "longitude": 151.114
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 25.0,
+    "text": "Sagittarius 25°00′",
+    "longitude": 265.002
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 28.28,
+    "text": "Virgo 28°17′",
+    "longitude": 178.28
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 15.4,
+    "text": "Cancer 15°24′",
+    "longitude": 105.404
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 19.29,
+    "text": "Cancer 19°17′",
+    "longitude": 109.287
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.0,
+    "text": "Capricornus 8°00′",
+    "longitude": 278.0
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 5.98,
+    "text": "Aries 5°59′",
+    "longitude": 5.977
+   }
+  },
+  {
+   "segment": "The Ledger of Spills and Measurements",
+   "stop": "Wichita, twenty-four thousand five hundred eighty-seven false claims",
+   "date": "1999-12-01",
+   "date_confidence": "reconstruction as to the figures, which come from the False Claims Act opinion at 57 F. Supp. 2d 1122 as cited in the dossier and not independently refetched. The quotation is attested to Charles Koch by CBS News. Court coordinate is the general Wichita pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1999,
+   "jd_ut": 2451513.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.34,
+    "text": "Sagittarius 8°21′",
+    "longitude": 248.343
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ledger of Spills and Measurements",
+   "stop": "Houston, thirty million dollars and no defendant",
+   "date": "2000-01-13",
+   "date_confidence": "attested. The settlement, the amount, and its status as the largest civil environmental fine then imposed under federal law are confirmed on the EPA enforcement case page, independently fetched. Coordinate is the Houston federal courthouse area.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451556.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.1,
+    "text": "Capricornus 22°06′",
+    "longitude": 292.105
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 2.82,
+    "text": "Aries 2°49′",
+    "longitude": 2.824
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 20.2,
+    "text": "Capricornus 20°12′",
+    "longitude": 290.205
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 15.55,
+    "text": "Sagittarius 15°33′",
+    "longitude": 255.547
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 6.88,
+    "text": "Pisces 6°53′",
+    "longitude": 336.879
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 26.09,
+    "text": "Aries 26°05′",
+    "longitude": 26.086
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 9.95,
+    "text": "Taurus 9°57′",
+    "longitude": 39.952
+   }
+  },
+  {
+   "segment": "The Ledger of Spills and Measurements",
+   "stop": "Corpus Christi, ninety-seven counts and one plea",
+   "date": "2000-09-28",
+   "date_confidence": "reconstruction. Both Department of Justice releases cited by the dossier are the only sources for the indictment and the plea, and the April 2001 release returned HTTP 403 on direct fetch this session. Refinery coordinate is approximate. Charles Koch is not a named defendant.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451815.5,
+   "precision": "month",
+   "precision_triggers": [
+    "approximately",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 5.18,
+    "text": "Libra 5°11′",
+    "longitude": 185.182
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Houses and the Undated Honors",
+   "stop": "Indian Wells, the house at The Vintage Club",
+   "date": "1999-01-01",
+   "date_confidence": "attested that Indian Wells is a residence (Wikipedia, 'Charles Koch'); the $10 million 1999 purchase and the second house come from the dossier. Coordinate is the Vintage Club area and no exact property is confirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1999,
+   "jd_ut": 2451179.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Houses and the Undated Honors",
+   "stop": "Aspen, the third address",
+   "date": "2000-01-01",
+   "date_confidence": "attested that Aspen is a long-term residence (Wikipedia, 'Charles Koch'); no acquisition date is given anywhere reachable, so the year here orders the segment. General-area coordinate; no property identified.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2000,
+   "jd_ut": 2451544.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.874
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Houses and the Undated Honors",
+   "stop": "Topeka, the honorary doctorate at Washburn",
+   "date": "2005-01-01",
+   "date_confidence": "the degree is attested in the Wikipedia article on Charles Koch and is undated there and in every other reachable source. The year here is an ordering device only and should not be read as the conferral date. Coordinate corrected to the Washburn campus, about 1.9 km from the pool's value.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2005,
+   "jd_ut": 2453371.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.68,
+    "text": "Capricornus 10°41′",
+    "longitude": 280.675
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Houses and the Undated Honors",
+   "stop": "Manhattan, distinguished citizen of Kansas State",
+   "date": "2007-01-01",
+   "date_confidence": "the award is attested in the Wikipedia article on Charles Koch and is undated in every reachable source; the year orders the segment only. Coordinate corrected to the university campus, about 3 km from the pool's value, which fell in downtown Manhattan.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2007,
+   "jd_ut": 2454101.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.18,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.18
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Houses and the Undated Honors",
+   "stop": "Wellesley, the business school gives him a hood",
+   "date": "2010-01-01",
+   "date_confidence": "the honorary doctorate from Babson College is attested in the Wikipedia article on Charles Koch and undated in every reachable source; the year is an ordering device only.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2010,
+   "jd_ut": 2455197.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.46,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.457
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Network, the Purchases, and the Arena",
+   "stop": "Wichita, the first of the donor seminars",
+   "date": "2003-01-01",
+   "date_confidence": "attested that he began hosting these meetings in 2003, and that they were annual at the outset rather than semiannual. The research pool's figure of about seventeen donors is in no reachable source; Mayer's roughly fifteen is attributed to her by name. The venue of the first gathering is undocumented and the stop is staged at Wichita.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2003,
+   "jd_ut": 2452640.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.151
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Network, the Purchases, and the Arena",
+   "stop": "Wichita State University, his name on the arena",
+   "date": "2003-01-01",
+   "date_confidence": "attested, with the two dates deliberately split: the $6 million endowment is dated 2002 by the Wikipedia article on Charles Koch, and the renaming to 2003 by the article on the arena itself, which also describes the $25 million renovation of 2002 to 2003. Coordinate from the arena's own article.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2003,
+   "jd_ut": 2452640.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.151
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Network, the Purchases, and the Arena",
+   "stop": "Atlanta, the paper towels",
+   "date": "2005-12-23",
+   "date_confidence": "attested as to terms and completion date; the SEC transaction release cited by the dossier returned 403 and the figures are carried from the Wikipedia article on Georgia-Pacific. Charles Koch's personal presence at the Atlanta tower is not documented in any source reviewed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2005,
+   "jd_ut": 2453727.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 1.26,
+    "text": "Capricornus 1°15′",
+    "longitude": 271.257
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 22.33,
+    "text": "Virgo 22°20′",
+    "longitude": 172.333
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 12.65,
+    "text": "Sagittarius 12°39′",
+    "longitude": 252.646
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 1.44,
+    "text": "Aquarius 1°26′",
+    "longitude": 301.441
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 9.24,
+    "text": "Taurus 9°15′",
+    "longitude": 39.243
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 11.79,
+    "text": "Scorpio 11°48′",
+    "longitude": 221.793
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 10.38,
+    "text": "Leo 10°23′",
+    "longitude": 130.379
+   }
+  },
+  {
+   "segment": "The Network, the Purchases, and the Arena",
+   "stop": "Wichita, suing his own think tank",
+   "date": "2012-03-01",
+   "date_confidence": "attested: Niskanen died October 2011, the Kochs filed suit in Kansas in March 2012, and it settled in June 2012. The pool's span of 2011 to 2012 is tightened here. The specific Kansas division is unidentified, so the general Wichita coordinate stands as a placeholder.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2012,
+   "jd_ut": 2455987.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.82,
+    "text": "Pisces 10°49′",
+    "longitude": 340.815
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Refashioning",
+   "stop": "Wichita, agreeing with a democratic socialist",
+   "date": "2016-02-18",
+   "date_confidence": "the Washington Post op-ed of 18 February 2016 is a dossier citation, not refetched. The quotation carried here is from the earlier Wall Street Journal piece of 2 April 2014, reached through a full reprint and corroborated by AEI; the pool's source line for it, a quotation aggregator and a date of circa 2012, was wrong.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2016,
+   "jd_ut": 2457436.5,
+   "precision": "year",
+   "precision_triggers": [
+    "circa"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 28.77,
+    "text": "Aquarius 28°46′",
+    "longitude": 328.766
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Refashioning",
+   "stop": "Wichita, the network takes a gentler name",
+   "date": "2019-05-20",
+   "date_confidence": "attested: the January 2019 statement of intent and the 20 May 2019 rebrand of the Seminar Network as Stand Together are both confirmed at the Wikipedia article on Stand Together.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2019,
+   "jd_ut": 2458623.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.73,
+    "text": "Taurus 28°44′",
+    "longitude": 58.729
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 12.67,
+    "text": "Sagittarius 12°40′",
+    "longitude": 252.667
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 26.85,
+    "text": "Taurus 26°51′",
+    "longitude": 56.849
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 5.6,
+    "text": "Taurus 5°36′",
+    "longitude": 35.596
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 2.5,
+    "text": "Cancer 2°30′",
+    "longitude": 92.5
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 22.07,
+    "text": "Sagittarius 22°04′",
+    "longitude": 262.071
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 20.26,
+    "text": "Capricornus 20°16′",
+    "longitude": 290.263
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Late Refashioning",
+   "stop": "Wichita, the last of the four brothers inside",
+   "date": "2019-08-23",
+   "date_confidence": "attested as to David Koch's death on 23 August 2019 at Southampton, New York, his 2018 retirement for reasons of health, and Julia Koch's inheritance of his 42 percent. Southampton is David's place of death and not a stop of Charles's; the loss is staged at Wichita. The quotation is from the Forbes succession profile of 10 October 2023.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2019,
+   "jd_ut": 2458718.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 29.61,
+    "text": "Leo 29°37′",
+    "longitude": 149.61
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 22.32,
+    "text": "Taurus 22°19′",
+    "longitude": 52.316
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 17.63,
+    "text": "Leo 17°38′",
+    "longitude": 137.629
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 2.02,
+    "text": "Virgo 2°01′",
+    "longitude": 152.023
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 3.04,
+    "text": "Virgo 3°03′",
+    "longitude": 153.044
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.69,
+    "text": "Sagittarius 14°42′",
+    "longitude": 254.694
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 14.52,
+    "text": "Capricornus 14°31′",
+    "longitude": 284.519
+   }
+  },
+  {
+   "segment": "The Late Refashioning",
+   "stop": "Wichita, the sentence in the book",
+   "date": "2020-11-13",
+   "date_confidence": "attested. Written by Charles Koch in Believe in People, November 2020, and first reported by the Wall Street Journal on 13 November 2020. wsj.com is unreachable by the research tools, so the wording is confirmed against Business Insider and the Daily Mail of the same date and Salon of 24 November. It is written, not spoken.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2020,
+   "jd_ut": 2459166.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 21.08,
+    "text": "Scorpio 21°05′",
+    "longitude": 231.076
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 19.73,
+    "text": "Libra 19°44′",
+    "longitude": 199.731
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 2.34,
+    "text": "Scorpio 2°20′",
+    "longitude": 212.337
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 19.46,
+    "text": "Libra 19°28′",
+    "longitude": 199.461
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 15.19,
+    "text": "Aries 15°12′",
+    "longitude": 15.195
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 22.86,
+    "text": "Capricornus 22°52′",
+    "longitude": 292.861
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 26.99,
+    "text": "Capricornus 26°59′",
+    "longitude": 296.989
+   }
+  },
+  {
+   "segment": "The Late Refashioning",
+   "stop": "Wichita, five point three billion that does not vote",
+   "date": "2022-01-01",
+   "date_confidence": "attested by Forbes, refetched 2026-08-23, for the amount, the 2020 to 2022 window, the character of the recipients, and the retention of voting power. The pool's further claims of $4.3 billion to Believe in People and of a record 501(c)(4) donation are in no reachable source and are omitted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2022,
+   "jd_ut": 2459580.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.55,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.546
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Refashioning",
+   "stop": "Wichita, naming a successor and not retiring",
+   "date": "2023-03-02",
+   "date_confidence": "attested for the 2 March 2023 leadership announcement, from the company's own release, independently fetched. The October 2023 succession plan for the voting shares is from the Forbes profile of 10 October 2023, not refetched, and is a reconstruction; the quotations are carried against that named article.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2023,
+   "jd_ut": 2460005.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 11.15,
+    "text": "Pisces 11°09′",
+    "longitude": 341.148
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 10.61,
+    "text": "Cancer 10°36′",
+    "longitude": 100.607
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 28.41,
+    "text": "Aquarius 28°25′",
+    "longitude": 328.409
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 11.88,
+    "text": "Aries 11°53′",
+    "longitude": 11.878
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 19.5,
+    "text": "Gemini 19°30′",
+    "longitude": 79.501
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 12.06,
+    "text": "Aries 12°04′",
+    "longitude": 12.065
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 29.33,
+    "text": "Aquarius 29°20′",
+    "longitude": 329.326
+   }
+  },
+  {
+   "segment": "The Late Refashioning",
+   "stop": "Washington, the prize from his own institute",
+   "date": "2025-01-01",
+   "date_confidence": "attested as to recipient and year only, from the Wikipedia articles on the Cato Institute and on the Milton Friedman Prize. Neither gives a ceremony date, a venue, or the protest interruption the research pool reported, and cato.org returns 403 to the research tools; the pool's date of 1 May 2025 and the protest are therefore not stated. Coordinate is Cato's headquarters at 1000 Massachusetts Avenue NW.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2025,
+   "jd_ut": 2460676.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "year only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.82,
+    "text": "Capricornus 10°49′",
+    "longitude": 280.823
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Late Refashioning",
+   "stop": "Wichita, ninety years old and still chairman",
+   "date": "2026-08-23",
+   "date_confidence": "attested. Forbes, refetched 2026-08-23, gives the net worth as $73.8 billion and the age as 90. The May 2026 book with Chase Koch is a dossier chronology item and is not independently confirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 2026,
+   "jd_ut": 2461275.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 29.91,
+    "text": "Leo 29°54′",
+    "longitude": 149.907
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 8,
+  "month": 6,
+  "year": 30
+ },
+ "parse_failures": []
+}

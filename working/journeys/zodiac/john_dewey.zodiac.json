@@ -1,0 +1,2149 @@
+{
+ "slug": "john_dewey",
+ "traveler": "John Dewey",
+ "title": "The Second John: Burlington, the Laboratory School, and the Chair in Coyoacan",
+ "years": "1859-1952",
+ "years_parsed": {
+  "first": 1859,
+  "last": 1952
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Burlington: the Second John",
+  "stop": "Burlington, birth at 186 South Willard Street",
+  "date": "1859-10-20",
+  "date_confidence": "attested; the chronology's entry 1859.10.20 gives the day. The pin is the geocode of 186 South Willard Street, correcting a dossier coordinate that fell some 570 m southwest of the address.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1859,
+  "jd_ut": 2400337.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Libra",
+   "degree": 26.08,
+   "text": "Libra 26°05′",
+   "longitude": 206.084
+  },
+  "moon": {
+   "sign": "Leo",
+   "degree": 6.04,
+   "text": "Leo 6°02′",
+   "longitude": 126.035
+  },
+  "mercury": {
+   "sign": "Scorpio",
+   "degree": 2.07,
+   "text": "Scorpio 2°04′",
+   "longitude": 212.072
+  },
+  "venus": {
+   "sign": "Scorpio",
+   "degree": 1.83,
+   "text": "Scorpio 1°50′",
+   "longitude": 211.831
+  },
+  "mars": {
+   "sign": "Virgo",
+   "degree": 25.73,
+   "text": "Virgo 25°44′",
+   "longitude": 175.73
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 24.38,
+   "text": "Cancer 24°23′",
+   "longitude": 114.381
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 24.09,
+   "text": "Leo 24°06′",
+   "longitude": 144.094
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1859-1952",
+  "first_year_parsed": 1859
+ },
+ "stops": [
+  {
+   "segment": "Burlington: the Second John",
+   "stop": "Burlington, birth at 186 South Willard Street",
+   "date": "1859-10-20",
+   "date_confidence": "attested; the chronology's entry 1859.10.20 gives the day. The pin is the geocode of 186 South Willard Street, correcting a dossier coordinate that fell some 570 m southwest of the address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400337.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 26.08,
+    "text": "Libra 26°05′",
+    "longitude": 206.084
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 6.04,
+    "text": "Leo 6°02′",
+    "longitude": 126.035
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 2.07,
+    "text": "Scorpio 2°04′",
+    "longitude": 212.072
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 1.83,
+    "text": "Scorpio 1°50′",
+    "longitude": 211.831
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 25.73,
+    "text": "Virgo 25°44′",
+    "longitude": 175.73
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 24.38,
+    "text": "Cancer 24°23′",
+    "longitude": 114.381
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 24.09,
+    "text": "Leo 24°06′",
+    "longitude": 144.094
+   }
+  },
+  {
+   "segment": "Burlington: the Second John",
+   "stop": "Cumberland, the last winter of the war",
+   "date": "1864-01-01",
+   "date_confidence": "attested to the year only; the chronology's 1864 entry records the move and quotes Jane Dewey's phrase, with no month. The pin marks the county seat, since no house-level site was found; a dossier coordinate placing the family 28 km south, in Charlotte and Prince Edward county territory, is not followed here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1864,
+   "jd_ut": 2401871.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year only",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.889
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Burlington: the Second John",
+   "stop": "Burlington, District School No. 3",
+   "date": "1867-09-01",
+   "date_confidence": "attested to the month; chronology entry 1867.09 for the school and 1867-1876 for the George Street residence. Day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403210.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.06,
+    "text": "Virgo 8°04′",
+    "longitude": 158.064
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Burlington: the Second John",
+   "stop": "University of Vermont, the limits of political economy",
+   "date": "1879-06-25",
+   "date_confidence": "attested; chronology entries 1875.09 for matriculation and 1879.06.25 for the degree and oration, the latter citing the Burlington Free Press Times of 26 June 1879.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407525.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 3.03,
+    "text": "Cancer 3°02′",
+    "longitude": 93.028
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 4.3,
+    "text": "Virgo 4°18′",
+    "longitude": 154.3
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 10.27,
+    "text": "Cancer 10°16′",
+    "longitude": 100.267
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 17.24,
+    "text": "Leo 17°15′",
+    "longitude": 137.243
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 11.17,
+    "text": "Aries 11°10′",
+    "longitude": 11.171
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 12.8,
+    "text": "Pisces 12°48′",
+    "longitude": 342.796
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 14.54,
+    "text": "Aries 14°32′",
+    "longitude": 14.539
+   }
+  },
+  {
+   "segment": "Burlington: the Second John",
+   "stop": "Oil City, the assistant principal",
+   "date": "1879-09-01",
+   "date_confidence": "attested for the period 1879 to June 1881; the chronology gives no arrival date. The month here is set to the school year following the June commencement, to hold the travel order, and is an inference, not a documented date. Roberta Lowitz's 1904 birth in this town is attested at chronology entry 1946.12.11.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407593.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.16,
+    "text": "Virgo 8°10′",
+    "longitude": 158.159
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Burlington: the Second John",
+   "stop": "Charlotte, Lake View Seminary",
+   "date": "1881-01-01",
+   "date_confidence": "attested for the academic year 1881-1882; the chronology gives no month, defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408081.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.78,
+    "text": "Capricornus 10°47′",
+    "longitude": 280.779
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Baltimore: the Psychology of Kant",
+   "stop": "Johns Hopkins, the rooms on Saratoga Street",
+   "date": "1882-01-01",
+   "date_confidence": "attested for the period 1882-1884; month and day defaulted to 01. The pin marks the old downtown campus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408446.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.53,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.532
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Baltimore: the Psychology of Kant",
+   "stop": "Johns Hopkins, the dissertation that does not survive",
+   "date": "1884-06-05",
+   "date_confidence": "attested; chronology entry 1884.06.05, citing Johns Hopkins University Circulars 3, no. 31 (June 1884): 119. That no text of the dissertation survives is stated in the chronology's own note and confirmed by the absence of any printed version.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409332.5,
+   "precision": "month",
+   "precision_triggers": [
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 14.69,
+    "text": "Gemini 14°41′",
+    "longitude": 74.688
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Michigan Years",
+   "stop": "Ann Arbor, instructor in philosophy",
+   "date": "1884-07-19",
+   "date_confidence": "attested; chronology entry 1884.07.19, citing the Proceedings of the Board of Regents, June 1884, 482. The church membership and its 1898 closure are chronology entry 1884.11.02, citing the Membership Roll 1847-1906 of the First Congregational Church of Ann Arbor.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409376.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.67,
+    "text": "Cancer 26°40′",
+    "longitude": 116.669
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Michigan Years",
+   "stop": "Fenton, the marriage at the Riggs house",
+   "date": "1886-07-28",
+   "date_confidence": "attested; chronology entry 1886.07.28, citing the Ann Arbor Courier of 4 August 1886 and the Fenton Independent of 31 July 1886, and entry 1887.07.19 for the son's birth. A widely repeated claim that this son died in childhood is false and is not carried here: he died in New York in 1967.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2410115.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 4.8,
+    "text": "Leo 4°48′",
+    "longitude": 124.804
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 20.38,
+    "text": "Gemini 20°23′",
+    "longitude": 80.379
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 29.58,
+    "text": "Leo 29°35′",
+    "longitude": 149.582
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 2.63,
+    "text": "Cancer 2°38′",
+    "longitude": 92.63
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 14.55,
+    "text": "Libra 14°33′",
+    "longitude": 194.553
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 1.8,
+    "text": "Libra 1°48′",
+    "longitude": 181.802
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 15.06,
+    "text": "Cancer 15°04′",
+    "longitude": 105.064
+   }
+  },
+  {
+   "segment": "The Michigan Years",
+   "stop": "Minneapolis, the chair of mental and moral philosophy",
+   "date": "1888-02-01",
+   "date_confidence": "attested; chronology entries 1888.02 and 1888-1889, with the daughter's birth at 1889.03.05. Day of the appointment not given, defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410668.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.62,
+    "text": "Aquarius 11°37′",
+    "longitude": 311.621
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Michigan Years",
+   "stop": "Ann Arbor, the chair and the grave",
+   "date": "1889-04-19",
+   "date_confidence": "attested; chronology entry 1889.04.19, citing the Proceedings of the Board of Regents, April 1889, 298, and entry 1891.04.10 for the father's death, citing the Washtenaw County death certificate and the University of Michigan Daily of 22 April 1891.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1889,
+   "jd_ut": 2411111.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.13,
+    "text": "Aries 29°08′",
+    "longitude": 29.128
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 11.43,
+    "text": "Sagittarius 11°26′",
+    "longitude": 251.431
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 22.15,
+    "text": "Aries 22°09′",
+    "longitude": 22.15
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 17.41,
+    "text": "Taurus 17°25′",
+    "longitude": 47.411
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 15.14,
+    "text": "Taurus 15°09′",
+    "longitude": 45.142
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.3,
+    "text": "Capricornus 8°18′",
+    "longitude": 278.3
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 13.53,
+    "text": "Leo 13°32′",
+    "longitude": 133.531
+   }
+  },
+  {
+   "segment": "The Michigan Years",
+   "stop": "Plymouth, the summer school of applied ethics",
+   "date": "1891-07-01",
+   "date_confidence": "reported rather than documented. William James's atlas file names Dewey on the faculty of Felix Adler's 1891 summer school on the Massachusetts shore, and Adler's file corroborates the roster while flagging the participation of both men as reported. Month defaulted; the pin marks Plymouth, no venue-level site established. The 1938 Adler lecture is a dossier claim, not found in the Adler file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411914.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.84,
+    "text": "Cancer 8°51′",
+    "longitude": 98.845
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chicago: the Laboratory",
+   "stop": "Hull House, the ward on Halsted Street",
+   "date": "1892-01-21",
+   "date_confidence": "attested, but the tenure is muddled in the secondary literature. The chronology lists him with the Hull-House board of trustees at 1889, records attendance at board meetings on 1897.07.27 and 1897.10.12, and has him resigning from the board on 1903.04.14 for a year on the advisory council. A commonly repeated 1897 election to a Hull-House Association does not appear in the chronology at all; that phrase occurs nowhere in it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1892,
+   "jd_ut": 2412118.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 0.47,
+    "text": "Aquarius 0°28′",
+    "longitude": 300.472
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 17.97,
+    "text": "Libra 17°58′",
+    "longitude": 197.974
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 6.27,
+    "text": "Capricornus 6°16′",
+    "longitude": 276.273
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 0.54,
+    "text": "Pisces 0°32′",
+    "longitude": 330.536
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 27.6,
+    "text": "Scorpio 27°36′",
+    "longitude": 237.598
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 17.23,
+    "text": "Pisces 17°14′",
+    "longitude": 347.234
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 0.17,
+    "text": "Libra 0°10′",
+    "longitude": 180.166
+   }
+  },
+  {
+   "segment": "Chicago: the Laboratory",
+   "stop": "University of Chicago, the combined department",
+   "date": "1894-03-19",
+   "date_confidence": "attested; chronology entry 1894.03.19 for the acceptance. No Chicago salary figure appears in the chronology: the often quoted five thousand dollars belongs to the Columbia offer of 1904.05.02 and is not repeated here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412906.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 28.4,
+    "text": "Pisces 28°24′",
+    "longitude": 358.401
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 24.67,
+    "text": "Leo 24°40′",
+    "longitude": 144.673
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 19.54,
+    "text": "Pisces 19°32′",
+    "longitude": 349.536
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 21.77,
+    "text": "Aquarius 21°46′",
+    "longitude": 321.77
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 23.33,
+    "text": "Capricornus 23°20′",
+    "longitude": 293.334
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 27.31,
+    "text": "Taurus 27°19′",
+    "longitude": 57.309
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 23.7,
+    "text": "Libra 23°42′",
+    "longitude": 203.698
+   }
+  },
+  {
+   "segment": "Chicago: the Laboratory",
+   "stop": "Hyde Park, the University Elementary School opens",
+   "date": "1896-01-01",
+   "date_confidence": "attested to the month, January 1896; day defaulted to 01. Chronology entry 1896 and Ida B. DePencier, The History of the Laboratory Schools (1967). The 1899 book and the American Psychological Association presidency are attested for that year.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413559.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.125
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chicago: the Laboratory",
+   "stop": "Chicago, the creed and the circuit",
+   "date": "1897-01-01",
+   "date_confidence": "attested to the year for My Pedagogic Creed and to 1896 for the reflex arc paper, Psychological Review 3 (1896); the chronology dates the latter to July 1896. Days defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1897,
+   "jd_ut": 2413925.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.9,
+    "text": "Capricornus 10°54′",
+    "longitude": 280.897
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Chicago: the Laboratory",
+   "stop": "Chicago, the resignation",
+   "date": "1904-04-05",
+   "date_confidence": "attested; chronology entry 1904.04.05, citing the University of Chicago University Record, May 1904, 35, and Dewey correspondence of 5, 6, and 11 April 1904. The reading of who forced what remains contested and is not settled here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416575.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 14.79,
+    "text": "Aries 14°47′",
+    "longitude": 14.791
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 12.92,
+    "text": "Sagittarius 12°55′",
+    "longitude": 252.921
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 24.46,
+    "text": "Aries 24°27′",
+    "longitude": 24.456
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 20.03,
+    "text": "Pisces 20°02′",
+    "longitude": 350.029
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 28.7,
+    "text": "Aries 28°42′",
+    "longitude": 28.695
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 8.37,
+    "text": "Aries 8°22′",
+    "longitude": 8.369
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 18.38,
+    "text": "Aquarius 18°23′",
+    "longitude": 318.381
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Chicago: the Laboratory",
+   "stop": "Ballinasloe, the son who does not come home",
+   "date": "1904-09-10",
+   "date_confidence": "attested that Gordon Chipman Dewey, born Chicago 29 May 1896, was hospitalised at Ballinasloe and died in Ireland on 10 or 11 September 1904, with a memorial service in the Hull-House Theatre on 1 October. The chronology does not state where his father was at the time; the pin marks the hospital town, not a documented location for Dewey himself.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416733.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 16.85,
+    "text": "Virgo 16°51′",
+    "longitude": 166.846
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 18.79,
+    "text": "Virgo 18°47′",
+    "longitude": 168.79
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 28.61,
+    "text": "Virgo 28°37′",
+    "longitude": 178.61
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 4.24,
+    "text": "Libra 4°15′",
+    "longitude": 184.244
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 16.51,
+    "text": "Leo 16°31′",
+    "longitude": 136.508
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 29.47,
+    "text": "Aries 29°28′",
+    "longitude": 29.47
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 15.42,
+    "text": "Aquarius 15°25′",
+    "longitude": 315.421
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Morningside Heights",
+   "stop": "Columbia University, five thousand a year",
+   "date": "1904-05-02",
+   "date_confidence": "attested; chronology entries 1904.05.02 and 1904.05.09, citing the Journal of Philosophy, Psychology and Scientific Methods 1 (12 May 1904): 280. Canonical Columbia pin inherited from henri_bergson.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416602.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.16,
+    "text": "Taurus 11°10′",
+    "longitude": 41.161
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 7.57,
+    "text": "Sagittarius 7°34′",
+    "longitude": 247.57
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 26.4,
+    "text": "Taurus 26°24′",
+    "longitude": 56.397
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 23.13,
+    "text": "Aries 23°08′",
+    "longitude": 23.127
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 18.47,
+    "text": "Taurus 18°28′",
+    "longitude": 48.466
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 14.75,
+    "text": "Aries 14°45′",
+    "longitude": 14.746
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 20.16,
+    "text": "Aquarius 20°10′",
+    "longitude": 320.16
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Morningside Heights",
+   "stop": "Columbia University, the bibliography for Bergson",
+   "date": "1913-02-01",
+   "date_confidence": "attested through the interlock: henri_bergson.journey.json records that Columbia's 1913 welcome gift to Bergson was a bibliography of his writings introduced by Dewey, and Dewey's own dossier states the same and places a meeting in New York that February. Day defaulted to 01. The lecture series grouping James, Russell, and Bergson is a dossier claim, not verified against a syllabus.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1913,
+   "jd_ut": 2419799.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.55,
+    "text": "Aquarius 11°33′",
+    "longitude": 311.552
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Morningside Heights",
+   "stop": "New York, Democracy and Education",
+   "date": "1916-01-01",
+   "date_confidence": "attested to the year; no day in the sources, defaulted to 01. Quotation verified against the Project Gutenberg text of the first edition, ebook 852.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420863.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.25,
+    "text": "Capricornus 9°15′",
+    "longitude": 279.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Years and Two Months in the East",
+   "stop": "San Francisco, the Shinyo Maru",
+   "date": "1919-01-23",
+   "date_confidence": "attested; chronology entry 1919.01.23, citing Dewey correspondence of 21 and 22 January 1919.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421981.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 1.94,
+    "text": "Aquarius 1°57′",
+    "longitude": 301.943
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 19.14,
+    "text": "Libra 19°08′",
+    "longitude": 199.138
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 12.35,
+    "text": "Capricornus 12°21′",
+    "longitude": 282.349
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 16.29,
+    "text": "Aquarius 16°18′",
+    "longitude": 316.293
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 26.46,
+    "text": "Aquarius 26°27′",
+    "longitude": 326.457
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 8.12,
+    "text": "Cancer 8°07′",
+    "longitude": 98.121
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 26.71,
+    "text": "Leo 26°42′",
+    "longitude": 146.707
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Two Years and Two Months in the East",
+   "stop": "Yokohama, the harbour",
+   "date": "1919-02-09",
+   "date_confidence": "attested; chronology entry 1919.02.09, citing Letters from China and Japan and Lewis Feuer, John Dewey's Sojourn in Japan.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421998.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 19.2,
+    "text": "Aquarius 19°12′",
+    "longitude": 319.199
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 4.91,
+    "text": "Gemini 4°55′",
+    "longitude": 64.914
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 8.32,
+    "text": "Aquarius 8°19′",
+    "longitude": 308.318
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 7.55,
+    "text": "Pisces 7°33′",
+    "longitude": 337.549
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 9.85,
+    "text": "Pisces 9°51′",
+    "longitude": 339.852
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 6.54,
+    "text": "Cancer 6°32′",
+    "longitude": 96.537
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 25.41,
+    "text": "Leo 25°25′",
+    "longitude": 145.414
+   }
+  },
+  {
+   "segment": "Two Years and Two Months in the East",
+   "stop": "Tokyo, the Imperial Hotel",
+   "date": "1919-02-10",
+   "date_confidence": "attested; chronology entries 1919.02.10 and 1919.02.11 for the hotel, the interview, and the move to Nitobe's house; 1919.04.22 and 1919.04.26 for Kyoto; 1919.04.27-28 for Kobe and the Kumano Maru.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2421999.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 20.21,
+    "text": "Aquarius 20°13′",
+    "longitude": 320.211
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 18.72,
+    "text": "Gemini 18°43′",
+    "longitude": 78.725
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 9.96,
+    "text": "Aquarius 9°58′",
+    "longitude": 309.959
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 8.8,
+    "text": "Pisces 8°48′",
+    "longitude": 338.796
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 10.64,
+    "text": "Pisces 10°38′",
+    "longitude": 340.637
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 6.47,
+    "text": "Cancer 6°28′",
+    "longitude": 96.469
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 25.33,
+    "text": "Leo 25°20′",
+    "longitude": 145.333
+   }
+  },
+  {
+   "segment": "Two Years and Two Months in the East",
+   "stop": "Shanghai, four days before the fourth of May",
+   "date": "1919-04-30",
+   "date_confidence": "attested; chronology entry 1919.04.30, citing Millard's Review 8 (3 May 1919): 365, and entries 1919.05.03-04 for the lecture. The pin marks the old West Gate district: the Kiangsu Educational Association building could not be fixed to a modern address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422078.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 8.61,
+    "text": "Taurus 8°37′",
+    "longitude": 38.609
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 5.33,
+    "text": "Taurus 5°20′",
+    "longitude": 35.325
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 13.23,
+    "text": "Aries 13°14′",
+    "longitude": 13.234
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 15.08,
+    "text": "Gemini 15°05′",
+    "longitude": 75.079
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 10.93,
+    "text": "Taurus 10°56′",
+    "longitude": 40.933
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 10.74,
+    "text": "Cancer 10°44′",
+    "longitude": 100.74
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 21.5,
+    "text": "Leo 21°30′",
+    "longitude": 141.505
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Two Years and Two Months in the East",
+   "stop": "Hangzhou, dinner with Sun Yat-sen",
+   "date": "1919-05-09",
+   "date_confidence": "the dinner is attested at chronology entry 1919.05.09, citing Zhenhuan Zou, The Dewey Fever, 46, but the entry gives no location. Hangchow is an inference from the surrounding 1919.05.05-09 window; against it, the chronology puts him in Shanghai on 11 May, records a second dinner with Sun Yat-sen on 12 May, and Sun was resident in Shanghai through 1919. The pin is therefore contested and should be read as the Hangchow window, not a documented address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422087.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 17.33,
+    "text": "Taurus 17°20′",
+    "longitude": 47.33
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Two Years and Two Months in the East",
+   "stop": "Peking, 135 Morrison Street",
+   "date": "1919-05-30",
+   "date_confidence": "attested; chronology entries 1919.05.30, 1919.09.04, 1921.06 for the residence and the farewell address, 1919.07.28 for the Tientsin conference, 1919.11.02 and 1919.11.09 for the week in Mukden, and 1919.05.14 and 1920.04.04-06 for the Nanking lectures.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422108.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.54,
+    "text": "Gemini 7°33′",
+    "longitude": 67.544
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 13.86,
+    "text": "Gemini 13°52′",
+    "longitude": 73.861
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 23.15,
+    "text": "Taurus 23°09′",
+    "longitude": 53.149
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 19.58,
+    "text": "Cancer 19°35′",
+    "longitude": 109.581
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 2.55,
+    "text": "Gemini 2°33′",
+    "longitude": 62.547
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 16.09,
+    "text": "Cancer 16°05′",
+    "longitude": 106.09
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.6,
+    "text": "Leo 22°36′",
+    "longitude": 142.598
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Two Years and Two Months in the East",
+   "stop": "New York, home after two years and two months",
+   "date": "1921-09-28",
+   "date_confidence": "attested; chronology entry 1921.09.28, citing Dewey correspondence of 12 October 1921. The Chinese honorifics are attested; the Maoist denunciation after 1949 and the post-Mao revival are carried from the dossier and a general encyclopaedia account and were not independently traced to a specific campaign document.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422960.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 4.32,
+    "text": "Libra 4°19′",
+    "longitude": 184.322
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 15.83,
+    "text": "Leo 15°50′",
+    "longitude": 135.83
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 27.88,
+    "text": "Libra 27°53′",
+    "longitude": 207.883
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 2.22,
+    "text": "Virgo 2°13′",
+    "longitude": 152.217
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 5.35,
+    "text": "Virgo 5°21′",
+    "longitude": 155.353
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 0.4,
+    "text": "Libra 0°24′",
+    "longitude": 180.4
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 28.92,
+    "text": "Virgo 28°55′",
+    "longitude": 178.915
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    },
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Surveys: Turkey, Mexico, Russia",
+   "stop": "Constantinople, the survey of a one-year-old republic",
+   "date": "1924-06-01",
+   "date_confidence": "attested; chronology entries 1924.06 and 1924.08.01-02 for Constantinople and Bursa, 1924.07 and 1924.08.22 for Angora and the teachers' congress. Days defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423937.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.22,
+    "text": "Gemini 10°13′",
+    "longitude": 70.219
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surveys: Turkey, Mexico, Russia",
+   "stop": "Mexico City, the summer school and the heart attack",
+   "date": "1926-07-05",
+   "date_confidence": "attested; chronology entry 1926.07.05-08.21 for the summer school, 1926.08 for Cuernavaca and Alice's heart attack, 1926.08.23 for Lake Chapala. The pin marks the old downtown campus of the National University.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424701.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 12.22,
+    "text": "Cancer 12°13′",
+    "longitude": 102.223
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 13.52,
+    "text": "Taurus 13°31′",
+    "longitude": 43.518
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 7.81,
+    "text": "Leo 7°48′",
+    "longitude": 127.805
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 7.19,
+    "text": "Gemini 7°11′",
+    "longitude": 67.185
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 13.37,
+    "text": "Aries 13°22′",
+    "longitude": 13.367
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 26.77,
+    "text": "Aquarius 26°46′",
+    "longitude": 326.77
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 19.7,
+    "text": "Scorpio 19°42′",
+    "longitude": 229.7
+   }
+  },
+  {
+   "segment": "The Surveys: Turkey, Mexico, Russia",
+   "stop": "New York, the death of Alice Chipman Dewey",
+   "date": "1927-07-14",
+   "date_confidence": "contested. The chronology gives 14 July 1927 and arteriosclerosis, citing Notable American Women, 466, and Dewey correspondence of that day; other reference works give 13 July and a cerebral thrombosis. Neither the day nor the cause is settled here. The chronology gives only New York, with no address, so the pin is the city.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425075.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 20.57,
+    "text": "Cancer 20°34′",
+    "longitude": 110.574
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 10.44,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.436
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 0.09,
+    "text": "Leo 0°05′",
+    "longitude": 120.087
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 5.51,
+    "text": "Virgo 5°30′",
+    "longitude": 155.508
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 22.97,
+    "text": "Leo 22°58′",
+    "longitude": 142.971
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 3.54,
+    "text": "Aries 3°32′",
+    "longitude": 3.536
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 1.37,
+    "text": "Sagittarius 1°22′",
+    "longitude": 241.372
+   }
+  },
+  {
+   "segment": "The Surveys: Turkey, Mexico, Russia",
+   "stop": "Hubbards, the summers on the Nova Scotia shore",
+   "date": "1927-07-23",
+   "date_confidence": "attested as a recurring pattern; chronology entries 1927.07.23, 1929.09, 1930.06.10-07.21, 1937.07.15-09.14, 1938.07.28, 1946.07.10, 1948.07.15 among many. The 1946 fall is attested verbatim at 1946.09.21 but the chronology does not locate it; the next entry has him back in New York after returning from Cape Breton, several hundred kilometres from this pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425084.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 29.16,
+    "text": "Cancer 29°10′",
+    "longitude": 119.162
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 17.38,
+    "text": "Taurus 17°23′",
+    "longitude": 47.377
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 24.33,
+    "text": "Cancer 24°20′",
+    "longitude": 114.325
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 12.73,
+    "text": "Virgo 12°44′",
+    "longitude": 162.728
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 28.56,
+    "text": "Leo 28°33′",
+    "longitude": 148.558
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 3.72,
+    "text": "Aries 3°43′",
+    "longitude": 3.718
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 1.12,
+    "text": "Sagittarius 1°07′",
+    "longitude": 241.115
+   }
+  },
+  {
+   "segment": "The Surveys: Turkey, Mexico, Russia",
+   "stop": "Moscow, the schools of the new state",
+   "date": "1928-07-13",
+   "date_confidence": "attested; chronology entries 1928.06.28 to 1928.07.09 for Berlin and Leningrad and the Hermitage, 1928.07.13, 1928.07.18, 1928.07.21 for Moscow. His later renunciation of Soviet policy is documented in his own writings and in the 1937 commission work; it is not stated in these entries.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425440.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 20.34,
+    "text": "Cancer 20°21′",
+    "longitude": 110.344
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gifford Lectures and the Southern Hemisphere",
+   "stop": "Edinburgh, the Roxburghe Hotel and the Gifford Lectures",
+   "date": "1929-04-15",
+   "date_confidence": "attested; chronology entries 1929.04.15, 1929.04.17-05.17, 1929.05.15 for the lodging, the lectures, and the excursion. The retirement in 1930 is attested to the year only.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425716.5,
+   "precision": "year",
+   "precision_triggers": [
+    "year only",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 24.55,
+    "text": "Aries 24°33′",
+    "longitude": 24.552
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gifford Lectures and the Southern Hemisphere",
+   "stop": "New York, Art as Experience and A Common Faith",
+   "date": "1934-01-01",
+   "date_confidence": "attested to the year for both books; no day in the sources, defaulted to 01. The Barnes friendship from a 1917 Columbia seminar and the Foundation's self-description as a school rather than a museum are attested; the Foundation's 2012 move to Philadelphia postdates Dewey and is kept out of the stop, see the report.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427438.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.896
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Gifford Lectures and the Southern Hemisphere",
+   "stop": "Cape Town, Table Mountain and the Fellowship",
+   "date": "1934-06-14",
+   "date_confidence": "attested; chronology entries 1934.05.26 for the sailing from Gibraltar aboard the Rex, 1934.06.14 for the arrival and Table Mountain, 1934.06.16-21 for Durban, 1934.07.01 for the return by train, 1934.07.02-13 for the conference. Latitude here is negative: a dossier coordinate with the sign dropped plotted this stop in northern Iraq.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427602.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 22.26,
+    "text": "Gemini 22°15′",
+    "longitude": 82.255
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 13.31,
+    "text": "Cancer 13°19′",
+    "longitude": 103.313
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 16.68,
+    "text": "Cancer 16°41′",
+    "longitude": 106.678
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 13.27,
+    "text": "Taurus 13°16′",
+    "longitude": 43.272
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 8.01,
+    "text": "Gemini 8°01′",
+    "longitude": 68.008
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 13.2,
+    "text": "Libra 13°12′",
+    "longitude": 193.196
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 27.83,
+    "text": "Aquarius 27°50′",
+    "longitude": 327.834
+   }
+  },
+  {
+   "segment": "The Gifford Lectures and the Southern Hemisphere",
+   "stop": "Johannesburg, the honorary degree and the flight north",
+   "date": "1934-07-15",
+   "date_confidence": "attested; chronology entries 1934.07.15-27, 1934.07.24 for the degree, which the chronology credits to Johannesburg University rather than by the Witwatersrand name, 1934.07.28 and 1934.07.31 for Victoria Falls and Zimbabwe, 1934.08.02, 1934.08.03, 1934.08.04, 1934.08.06. Latitudes for both this stop and the Falls are negative; the dossier had dropped both signs. That he published little afterward on segregated schooling is an absence noted by later scholarship, not a chronology entry.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1934,
+   "jd_ut": 2427633.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 21.82,
+    "text": "Cancer 21°49′",
+    "longitude": 111.822
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 27.47,
+    "text": "Leo 27°28′",
+    "longitude": 147.467
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 16.37,
+    "text": "Cancer 16°22′",
+    "longitude": 106.37
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 19.57,
+    "text": "Gemini 19°34′",
+    "longitude": 79.572
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 29.38,
+    "text": "Gemini 29°23′",
+    "longitude": 89.383
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 14.89,
+    "text": "Libra 14°54′",
+    "longitude": 194.893
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 26.82,
+    "text": "Aquarius 26°49′",
+    "longitude": 326.815
+   }
+  },
+  {
+   "segment": "Coyoacan and the Fifth Avenue Apartment",
+   "stop": "Coyoacan, the first session in the blue house",
+   "date": "1937-04-10",
+   "date_confidence": "attested; chronology entries 1937.03.19 for the agreement to serve and 1937.04.10-17 for the hearings, which the chronology locates only as Mexico City. The published transcript gives the venue as Avenida Londres 127, Coyoacan. Canonical Casa Azul pin inherited from leon_trotsky.journey.json. The house was the Kahlo family's, lent to Trotsky and Natalia Sedova from January 1937; the frequent description of it as Rivera's home is wrong for these years, since Rivera moved in only in 1941.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428633.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 19.71,
+    "text": "Aries 19°43′",
+    "longitude": 19.713
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Coyoacan and the Fifth Avenue Apartment",
+   "stop": "Coyoacan, the thirteenth session",
+   "date": "1937-04-17",
+   "date_confidence": "attested; the transcript records thirteen sessions held 10 to 17 April 1937. On Carleton Beals: he put his question at the afternoon session of 16 April and sent his resignation the next morning, and the transcript files it under the twelfth session, so the common phrase that he resigned after the eleventh is loose. The December 1937 finding of not guilty is carried from the dossier and the commission's published report, not from the chronology entry.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1937,
+   "jd_ut": 2428640.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 26.57,
+    "text": "Aries 26°34′",
+    "longitude": 26.57
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 15.72,
+    "text": "Cancer 15°43′",
+    "longitude": 105.717
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 16.03,
+    "text": "Taurus 16°02′",
+    "longitude": 46.03
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 28.26,
+    "text": "Aries 28°16′",
+    "longitude": 28.259
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 5.46,
+    "text": "Sagittarius 5°27′",
+    "longitude": 245.456
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 26.13,
+    "text": "Capricornus 26°08′",
+    "longitude": 296.128
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 28.76,
+    "text": "Pisces 28°45′",
+    "longitude": 358.756
+   }
+  },
+  {
+   "segment": "Coyoacan and the Fifth Avenue Apartment",
+   "stop": "New York, Experience and Education",
+   "date": "1938-01-01",
+   "date_confidence": "attested to the year for both books; day defaulted to 01. The first annual Felix Adler lecture in 1938 is a dossier claim; it was not found in felix_adler.journey.json or in the chronology excerpt consulted, and is flagged rather than dropped.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428899.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.926
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Coyoacan and the Fifth Avenue Apartment",
+   "stop": "1158 Fifth Avenue, the second marriage",
+   "date": "1946-12-11",
+   "date_confidence": "attested; chronology entry 1946.12.11, citing the New York Times of 11 and 12 December 1946: the apartment, the hour, the officiant, and Roberta's 1904 birth at Oil City. The pin is the geocode of 1158 Fifth Avenue at East 97th Street, correcting a dossier coordinate 1.6 km south at East 86th.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2432165.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 18.35,
+    "text": "Sagittarius 18°21′",
+    "longitude": 258.352
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 20.25,
+    "text": "Cancer 20°15′",
+    "longitude": 110.252
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 27.68,
+    "text": "Scorpio 27°41′",
+    "longitude": 237.685
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 17.26,
+    "text": "Scorpio 17°15′",
+    "longitude": 227.256
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 25.15,
+    "text": "Sagittarius 25°09′",
+    "longitude": 265.152
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 16.39,
+    "text": "Scorpio 16°23′",
+    "longitude": 226.39
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 8.49,
+    "text": "Leo 8°29′",
+    "longitude": 128.491
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Coyoacan and the Fifth Avenue Apartment",
+   "stop": "1158 Fifth Avenue, the last morning",
+   "date": "1952-06-01",
+   "date_confidence": "attested; chronology entry 1952.06.01, citing Dewey correspondence of that date, control no. 09541. The chronology gives the cause and the day but not the address; that he died at home in New York is stated by the standard reference accounts.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434164.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.44,
+    "text": "Gemini 10°27′",
+    "longitude": 70.442
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Coyoacan and the Fifth Avenue Apartment",
+   "stop": "Middle Village, the Fresh Pond Crematory",
+   "date": "1952-06-02",
+   "date_confidence": "attested; chronology entry 1952.06.02. The pin is the geocode of 61-40 Mount Olivet Crescent, correcting a dossier coordinate roughly 2 km east. Where the ashes were kept between 1952 and 1972 is not stated by any source reached here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434165.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given",
+    "between",
+    "approximation",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 11.4,
+    "text": "Gemini 11°24′",
+    "longitude": 71.4
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Coyoacan and the Fifth Avenue Apartment",
+   "stop": "Ira Allen Chapel, the ashes come back to Burlington",
+   "date": "1972-10-26",
+   "date_confidence": "attested, and this corrects a dossier tag that treated the interment as unconfirmed tradition. Chronology entry 1972.10.26 records the programme commemorating the interment of the ashes of John and Roberta Dewey at the University of Vermont, citing Dykhuizen, 322. The 1939 Founder's Day address in this chapel is chronology entry 1939.05.01; the stamp's first-day ceremonies at Burlington are entry 1968.10.21.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441616.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 2.68,
+    "text": "Scorpio 2°41′",
+    "longitude": 212.675
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 22,
+  "month": 8,
+  "year": 15
+ },
+ "parse_failures": []
+}

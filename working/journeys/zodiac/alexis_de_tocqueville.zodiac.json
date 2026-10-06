@@ -1,0 +1,2086 @@
+{
+ "slug": "alexis_de_tocqueville",
+ "traveler": "Alexis-Charles-Henri Clérel de Tocqueville",
+ "title": "The Pretext of Prisons: Tocqueville in America and the Old Regime at Home",
+ "years": "1805-1859",
+ "years_parsed": {
+  "first": 1805,
+  "last": 1859
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The House the Terror Left Standing",
+  "stop": "Paris, birth into a house the guillotine had emptied",
+  "date": "1805-07-29",
+  "date_confidence": "attested (en.wikipedia, fr.wikipedia)",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1805,
+  "jd_ut": 2380531.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Leo",
+   "degree": 5.35,
+   "text": "Leo 5°21′",
+   "longitude": 125.353
+  },
+  "moon": {
+   "sign": "Virgo",
+   "degree": 12.52,
+   "text": "Virgo 12°31′",
+   "longitude": 162.519
+  },
+  "mercury": {
+   "sign": "Leo",
+   "degree": 20.26,
+   "text": "Leo 20°16′",
+   "longitude": 140.262
+  },
+  "venus": {
+   "sign": "Leo",
+   "degree": 22.39,
+   "text": "Leo 22°23′",
+   "longitude": 142.391
+  },
+  "mars": {
+   "sign": "Virgo",
+   "degree": 29.02,
+   "text": "Virgo 29°01′",
+   "longitude": 179.024
+  },
+  "jupiter": {
+   "sign": "Scorpio",
+   "degree": 26.53,
+   "text": "Scorpio 26°32′",
+   "longitude": 236.529
+  },
+  "saturn": {
+   "sign": "Libra",
+   "degree": 11.11,
+   "text": "Libra 11°06′",
+   "longitude": 191.106
+  },
+  "conjunctions": [
+   {
+    "sign": "Leo",
+    "bodies": [
+     "Sun",
+     "Mercury",
+     "Venus"
+    ]
+   }
+  ],
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1805-1859",
+  "first_year_parsed": 1805
+ },
+ "stops": [
+  {
+   "segment": "The House the Terror Left Standing",
+   "stop": "Paris, birth into a house the guillotine had emptied",
+   "date": "1805-07-29",
+   "date_confidence": "attested (en.wikipedia, fr.wikipedia)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1805,
+   "jd_ut": 2380531.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 5.35,
+    "text": "Leo 5°21′",
+    "longitude": 125.353
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 12.52,
+    "text": "Virgo 12°31′",
+    "longitude": 162.519
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 20.26,
+    "text": "Leo 20°16′",
+    "longitude": 140.262
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 22.39,
+    "text": "Leo 22°23′",
+    "longitude": 142.391
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 29.02,
+    "text": "Virgo 29°01′",
+    "longitude": 179.024
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 26.53,
+    "text": "Scorpio 26°32′",
+    "longitude": 236.529
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 11.11,
+    "text": "Libra 11°06′",
+    "longitude": 191.106
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The House the Terror Left Standing",
+   "stop": "Metz, the prefect's son at the Collège Royal",
+   "date": "1817-01-01",
+   "date_confidence": "year attested (fr.wikipedia); month of the family's move not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1817,
+   "jd_ut": 2384705.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.308
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House the Terror Left Standing",
+   "stop": "Paris, the law degree taken without love",
+   "date": "1826-01-01",
+   "date_confidence": "year attested (fr.wikipedia); month not established, defaulted to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1826,
+   "jd_ut": 2387992.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.119
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House the Terror Left Standing",
+   "stop": "Versailles, the apprentice magistrate and Gustave de Beaumont",
+   "date": "1827-01-01",
+   "date_confidence": "year attested (fr.wikipedia); month of appointment not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1827,
+   "jd_ut": 2388357.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.872
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House the Terror Left Standing",
+   "stop": "Versailles, the oath to a king he does not believe in",
+   "date": "1830-08-01",
+   "date_confidence": "attested that he swore the oath in 1830 (fr.wikipedia); the day is not established, defaulted to August",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389665.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.18,
+    "text": "Leo 8°11′",
+    "longitude": 128.183
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "A Mission on Prisons",
+   "stop": "Le Havre, the packet Havre puts to sea",
+   "date": "1831-04-02",
+   "date_confidence": "attested (fr.wikipedia: embarquement, 2 avril 1831)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389909.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.52,
+    "text": "Aries 11°31′",
+    "longitude": 11.524
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 3.03,
+    "text": "Sagittarius 3°02′",
+    "longitude": 243.031
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 6.99,
+    "text": "Aries 6°59′",
+    "longitude": 6.991
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 5.9,
+    "text": "Taurus 5°54′",
+    "longitude": 35.903
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 10.4,
+    "text": "Gemini 10°24′",
+    "longitude": 70.402
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 15.39,
+    "text": "Aquarius 15°23′",
+    "longitude": 315.391
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 25.56,
+    "text": "Leo 25°33′",
+    "longitude": 145.557
+   }
+  },
+  {
+   "segment": "A Mission on Prisons",
+   "stop": "Newport, the first sight of the United States",
+   "date": "1831-05-09",
+   "date_confidence": "attested in aggregated secondary chronologies of the crossing; not confirmed against a ship's log in this research",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389946.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 17.61,
+    "text": "Taurus 17°36′",
+    "longitude": 47.606
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 5.71,
+    "text": "Aries 5°43′",
+    "longitude": 5.71
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 7.17,
+    "text": "Gemini 7°10′",
+    "longitude": 67.168
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 20.64,
+    "text": "Gemini 20°38′",
+    "longitude": 80.641
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 3.41,
+    "text": "Cancer 3°24′",
+    "longitude": 93.406
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 20.68,
+    "text": "Aquarius 20°41′",
+    "longitude": 320.676
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 25.12,
+    "text": "Leo 25°07′",
+    "longitude": 145.121
+   }
+  },
+  {
+   "segment": "A Mission on Prisons",
+   "stop": "New York, coming ashore at the Battery",
+   "date": "1831-05-11",
+   "date_confidence": "attested (standard biographical accounts deriving from Pierson)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389948.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.54,
+    "text": "Taurus 19°32′",
+    "longitude": 49.537
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 5.29,
+    "text": "Taurus 5°17′",
+    "longitude": 35.288
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 7.99,
+    "text": "Gemini 8°00′",
+    "longitude": 67.992
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 23.02,
+    "text": "Gemini 23°01′",
+    "longitude": 83.022
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 4.65,
+    "text": "Cancer 4°39′",
+    "longitude": 94.651
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 20.87,
+    "text": "Aquarius 20°52′",
+    "longitude": 320.871
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 25.17,
+    "text": "Leo 25°10′",
+    "longitude": 145.165
+   }
+  },
+  {
+   "segment": "A Mission on Prisons",
+   "stop": "Ossining, the silent system at Sing Sing",
+   "date": "1831-05-29",
+   "date_confidence": "attested in aggregated chronology of the penitentiary tour; primary confirmation not retrieved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389966.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 6.85,
+    "text": "Gemini 6°51′",
+    "longitude": 66.846
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 2.39,
+    "text": "Capricornus 2°23′",
+    "longitude": 272.385
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 3.09,
+    "text": "Gemini 3°05′",
+    "longitude": 63.091
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 14.23,
+    "text": "Cancer 14°14′",
+    "longitude": 104.23
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 15.86,
+    "text": "Cancer 15°51′",
+    "longitude": 105.857
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.11,
+    "text": "Aquarius 22°07′",
+    "longitude": 322.114
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 25.87,
+    "text": "Leo 25°52′",
+    "longitude": 145.87
+   }
+  },
+  {
+   "segment": "A Mission on Prisons",
+   "stop": "Auburn, the system that carries the town's name",
+   "date": "1831-07-01",
+   "date_confidence": "attested as a stop on the penitentiary tour; month approximate, day not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389999.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "not established"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.36,
+    "text": "Cancer 8°22′",
+    "longitude": 98.365
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Edge of the Map",
+   "stop": "Detroit, buying horses for the woods",
+   "date": "1831-07-01",
+   "date_confidence": "attested as early to mid July 1831; the day is not established. Buffalo, their embarkation onto the lake steamers, is attested for the same weeks and is folded into this stop",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2389999.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.36,
+    "text": "Cancer 8°22′",
+    "longitude": 98.365
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Edge of the Map",
+   "stop": "Saginaw, the far end of the wilderness ride",
+   "date": "1831-07-20",
+   "date_confidence": "attested from Tocqueville's own essay Quinze jours dans le désert; the exact days are not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390018.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 26.48,
+    "text": "Cancer 26°29′",
+    "longitude": 116.484
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Edge of the Map",
+   "stop": "Niagara Falls, the cataract and the staircases",
+   "date": "1831-08-19",
+   "date_confidence": "attested in aggregated chronology of the journey (19 August 1831)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390048.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 25.23,
+    "text": "Leo 25°14′",
+    "longitude": 145.227
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 4.27,
+    "text": "Capricornus 4°16′",
+    "longitude": 274.268
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 19.57,
+    "text": "Virgo 19°34′",
+    "longitude": 169.566
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 9.18,
+    "text": "Libra 9°11′",
+    "longitude": 189.18
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 7.29,
+    "text": "Virgo 7°17′",
+    "longitude": 157.29
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 16.4,
+    "text": "Aquarius 16°24′",
+    "longitude": 316.402
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 3.98,
+    "text": "Virgo 3°59′",
+    "longitude": 153.983
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Mercury",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Edge of the Map",
+   "stop": "Montreal, the wreck of France on the other shore",
+   "date": "1831-08-23",
+   "date_confidence": "attested in aggregated chronology (23 August 1831); the Canadian leg runs roughly 20 August to 2 September, not July as one gathering source had it",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390052.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 29.08,
+    "text": "Leo 29°05′",
+    "longitude": 149.082
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Edge of the Map",
+   "stop": "Quebec, the old regime still standing",
+   "date": "1831-08-25",
+   "date_confidence": "attested as late August 1831 (en.wikipedia: a side trip to Montreal and Quebec City); the day is not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390054.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 1.01,
+    "text": "Virgo 1°01′",
+    "longitude": 151.012
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Republic in Session",
+   "stop": "Boston, the township and the doctrine",
+   "date": "1831-09-09",
+   "date_confidence": "attested in aggregated chronology of the journey (arrival 9 September 1831)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390069.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 15.54,
+    "text": "Virgo 15°33′",
+    "longitude": 165.543
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 17.52,
+    "text": "Libra 17°31′",
+    "longitude": 197.525
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 10.53,
+    "text": "Libra 10°32′",
+    "longitude": 190.533
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 20.95,
+    "text": "Libra 20°57′",
+    "longitude": 200.952
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 20.71,
+    "text": "Virgo 20°42′",
+    "longitude": 170.707
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 14.03,
+    "text": "Aquarius 14°02′",
+    "longitude": 314.026
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 6.63,
+    "text": "Virgo 6°38′",
+    "longitude": 156.634
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mars",
+      "Saturn"
+     ]
+    },
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Republic in Session",
+   "stop": "Philadelphia, the solitary cells of Cherry Hill",
+   "date": "1831-10-12",
+   "date_confidence": "attested in aggregated chronology (interviews at Cherry Hill, 12 October 1831)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390102.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 17.93,
+    "text": "Libra 17°56′",
+    "longitude": 197.927
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 26.25,
+    "text": "Sagittarius 26°15′",
+    "longitude": 266.253
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 29.91,
+    "text": "Virgo 29°54′",
+    "longitude": 179.908
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 12.37,
+    "text": "Libra 12°22′",
+    "longitude": 192.372
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 12.14,
+    "text": "Libra 12°09′",
+    "longitude": 192.144
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 12.56,
+    "text": "Aquarius 12°34′",
+    "longitude": 312.561
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 10.56,
+    "text": "Virgo 10°34′",
+    "longitude": 160.563
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Republic in Session",
+   "stop": "Baltimore, an hour with the last signer",
+   "date": "1831-10-20",
+   "date_confidence": "attested in secondary accounts of the journey; the day is not established. Carroll was 94, not 95 as some accounts give",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390110.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 25.87,
+    "text": "Libra 25°52′",
+    "longitude": 205.87
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Republic in Session",
+   "stop": "Pittsburgh, boarding the Fourth of July",
+   "date": "1831-11-20",
+   "date_confidence": "attested as the second half of November 1831; the day is not established. One gathering source placed the whole descent in December, which cannot be reconciled with four days at Cincinnati in early December",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390141.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 26.97,
+    "text": "Scorpio 26°58′",
+    "longitude": 236.967
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Down the Rivers, into the Winter",
+   "stop": "Wheeling, the Fourth of July on the Burlington Bar",
+   "date": "1831-11-25",
+   "date_confidence": "attested as late November 1831; the day is not established. The gathering pass dated the wreck to December, corrected against the Cincinnati stay",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390146.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 2.02,
+    "text": "Sagittarius 2°01′",
+    "longitude": 242.024
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Down the Rivers, into the Winter",
+   "stop": "Cincinnati, the two banks of one river",
+   "date": "1831-12-01",
+   "date_confidence": "attested: four days at Cincinnati in December 1831. The gathering pass had this stop as a reconstruction; it is attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390152.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.1,
+    "text": "Sagittarius 8°06′",
+    "longitude": 248.105
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Down the Rivers, into the Winter",
+   "stop": "Memphis, the Choctaw cross the frozen river",
+   "date": "1831-12-15",
+   "date_confidence": "attested that they were stranded eight days at Memphis in December 1831; the day of the Choctaw crossing is not fixed in the sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390166.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 22.33,
+    "text": "Sagittarius 22°20′",
+    "longitude": 262.332
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Down the Rivers, into the Winter",
+   "stop": "The Mississippi south of Memphis, a big man in Cherokee dress",
+   "date": "1831-12-27",
+   "date_confidence": "attested: Houston boarded a New Orleans steamboat with a Cherokee delegation two days after Christmas 1831 and the conversation is in Tocqueville's notebooks. The traditional version placing the meeting in a Memphis hotel is not supported",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1831,
+   "jd_ut": 2390178.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 4.56,
+    "text": "Capricornus 4°33′",
+    "longitude": 274.557
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Down the Rivers, into the Winter",
+   "stop": "New Orleans, three days at the far end",
+   "date": "1832-01-01",
+   "date_confidence": "attested: arrival and a three-day stay around 1 January 1832",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390183.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.654
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 16.54,
+    "text": "Sagittarius 16°32′",
+    "longitude": 256.536
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 26.82,
+    "text": "Capricornus 26°49′",
+    "longitude": 296.82
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 23.3,
+    "text": "Scorpio 23°18′",
+    "longitude": 233.302
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 7.13,
+    "text": "Sagittarius 7°08′",
+    "longitude": 247.128
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 22.5,
+    "text": "Aquarius 22°30′",
+    "longitude": 322.5
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 15.18,
+    "text": "Virgo 15°11′",
+    "longitude": 165.177
+   }
+  },
+  {
+   "segment": "The Return Leg",
+   "stop": "Washington, a glass of Madeira with President Jackson",
+   "date": "1832-01-19",
+   "date_confidence": "attested: received on the afternoon of 19 January 1832 (Journal of the Early Republic, Tocqueville and the American Presidency). The gathering pass invented a second, earlier Washington visit in October 1831; there was one visit",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390201.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 27.99,
+    "text": "Capricornus 28°00′",
+    "longitude": 297.995
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 16.47,
+    "text": "Leo 16°28′",
+    "longitude": 136.465
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 11.38,
+    "text": "Capricornus 11°23′",
+    "longitude": 281.379
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 13.51,
+    "text": "Sagittarius 13°31′",
+    "longitude": 253.51
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 19.85,
+    "text": "Sagittarius 19°51′",
+    "longitude": 259.85
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 26.41,
+    "text": "Aquarius 26°25′",
+    "longitude": 326.415
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 14.7,
+    "text": "Virgo 14°42′",
+    "longitude": 164.702
+   }
+  },
+  {
+   "segment": "The Return Leg",
+   "stop": "Philadelphia, the last overland stage",
+   "date": "1832-02-03",
+   "date_confidence": "date attested; direction disputed. The source reads that before dawn on 3 February 1832 they took a stagecoach to Philadelphia, then to New York, which is read here as departure from Washington and arrival at Philadelphia. The gathering pass read it as departure from Philadelphia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390216.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 13.24,
+    "text": "Aquarius 13°14′",
+    "longitude": 313.236
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 25.17,
+    "text": "Aquarius 25°10′",
+    "longitude": 325.167
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 17.81,
+    "text": "Capricornus 17°48′",
+    "longitude": 287.807
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 0.98,
+    "text": "Capricornus 0°59′",
+    "longitude": 270.982
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 0.59,
+    "text": "Capricornus 0°35′",
+    "longitude": 270.59
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 29.89,
+    "text": "Aquarius 29°54′",
+    "longitude": 329.892
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 13.91,
+    "text": "Virgo 13°55′",
+    "longitude": 163.912
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Jupiter"
+     ]
+    },
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Return Leg",
+   "stop": "New York, the Havre stands out to sea",
+   "date": "1832-02-20",
+   "date_confidence": "attested (fr.wikipedia: rembarquement de New York le 20 février 1832)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1832,
+   "jd_ut": 2390233.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 0.42,
+    "text": "Pisces 0°25′",
+    "longitude": 330.42
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 19.89,
+    "text": "Libra 19°53′",
+    "longitude": 199.886
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 9.42,
+    "text": "Aquarius 9°25′",
+    "longitude": 309.424
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 21.18,
+    "text": "Capricornus 21°11′",
+    "longitude": 291.184
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 12.9,
+    "text": "Capricornus 12°54′",
+    "longitude": 282.901
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 3.96,
+    "text": "Pisces 3°58′",
+    "longitude": 333.96
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 12.71,
+    "text": "Virgo 12°43′",
+    "longitude": 162.709
+   }
+  },
+  {
+   "segment": "The Book",
+   "stop": "Paris, the report the government paid for",
+   "date": "1833-01-01",
+   "date_confidence": "year attested (en.wikipedia, Gustave de Beaumont); month not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1833,
+   "jd_ut": 2390549.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.43,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.426
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book",
+   "stop": "Versailles, Mary Mottley",
+   "date": "1833-01-01",
+   "date_confidence": "attested as 1833 (en.wikipedia: met at Versailles in 1833, married in 1836); month not established. One gathering source dated the meeting to 1835, which does not fit the 1836 marriage",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1833,
+   "jd_ut": 2390549.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.43,
+    "text": "Capricornus 10°26′",
+    "longitude": 280.426
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book",
+   "stop": "Paris, De la démocratie en Amérique, volume one",
+   "date": "1835-01-01",
+   "date_confidence": "year attested (en.wikipedia, Democracy in America); month not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391279.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.931
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book",
+   "stop": "Dublin, an aristocracy with no duties",
+   "date": "1835-07-01",
+   "date_confidence": "year attested (en.wikipedia); months not established, defaulted to July",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1835,
+   "jd_ut": 2391460.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.4,
+    "text": "Cancer 8°24′",
+    "longitude": 98.397
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book",
+   "stop": "Paris, the marriage his family opposed",
+   "date": "1836-01-01",
+   "date_confidence": "year attested (en.wikipedia, fr.wikipedia); the month and the place of the ceremony are not established in sources consulted, and are a stated gap",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1836,
+   "jd_ut": 2391644.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.68,
+    "text": "Capricornus 9°41′",
+    "longitude": 279.683
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book",
+   "stop": "Valognes, the Manche sends him to the Chamber",
+   "date": "1839-01-01",
+   "date_confidence": "year attested (en.wikipedia, fr.wikipedia); the polling day is not established, defaulted to January",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1839,
+   "jd_ut": 2392740.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.96,
+    "text": "Capricornus 9°58′",
+    "longitude": 279.96
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book",
+   "stop": "Paris, the second volume and the softer despotism",
+   "date": "1840-01-01",
+   "date_confidence": "year attested (en.wikipedia, Democracy in America); month not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1840,
+   "jd_ut": 2393105.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.71,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.713
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book",
+   "stop": "Algiers, the Académie and the war of conquest",
+   "date": "1841-01-01",
+   "date_confidence": "both the Académie election and the first Algerian visit are attested for 1841; months not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1841,
+   "jd_ut": 2393471.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.48,
+    "text": "Capricornus 10°29′",
+    "longitude": 280.485
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book",
+   "stop": "Algiers, the second crossing and the Travail sur l'Algérie",
+   "date": "1846-01-01",
+   "date_confidence": "second visit attested as 1846, the Travail sur l'Algérie as 1847; months not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1846,
+   "jd_ut": 2395297.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.27,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Revolution He Wrote Down",
+   "stop": "Paris, the twenty-fourth of February",
+   "date": "1848-02-24",
+   "date_confidence": "attested, from his own account in the Souvenirs",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396081.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.56,
+    "text": "Pisces 4°34′",
+    "longitude": 334.565
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 28.02,
+    "text": "Libra 28°01′",
+    "longitude": 208.015
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 22.44,
+    "text": "Pisces 22°27′",
+    "longitude": 352.442
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 27.07,
+    "text": "Capricornus 27°04′",
+    "longitude": 297.07
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 29.54,
+    "text": "Taurus 29°33′",
+    "longitude": 59.542
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 10.73,
+    "text": "Cancer 10°44′",
+    "longitude": 100.725
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 14.09,
+    "text": "Pisces 14°05′",
+    "longitude": 344.086
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Revolution He Wrote Down",
+   "stop": "Paris, the Constituent Assembly and the June Days",
+   "date": "1848-04-23",
+   "date_confidence": "attested: elected 23 April 1848 by the Manche. The gathering pass gave 25 April, corrected against the French text",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1848,
+   "jd_ut": 2396140.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 2.95,
+    "text": "Taurus 2°57′",
+    "longitude": 32.952
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 21.13,
+    "text": "Sagittarius 21°08′",
+    "longitude": 261.134
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 8.93,
+    "text": "Aries 8°56′",
+    "longitude": 8.93
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 8.8,
+    "text": "Aries 8°48′",
+    "longitude": 8.797
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 2.94,
+    "text": "Cancer 2°56′",
+    "longitude": 92.94
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 13.92,
+    "text": "Cancer 13°55′",
+    "longitude": 103.916
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 21.0,
+    "text": "Pisces 21°00′",
+    "longitude": 351.0
+   }
+  },
+  {
+   "segment": "The Revolution He Wrote Down",
+   "stop": "Paris, the Ministry of Foreign Affairs",
+   "date": "1849-06-01",
+   "date_confidence": "attested as June 1849; the day of taking office is not established in sources consulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396544.5,
+   "precision": "month",
+   "precision_triggers": [
+    "not established"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.34,
+    "text": "Gemini 10°21′",
+    "longitude": 70.342
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Revolution He Wrote Down",
+   "stop": "Saint-Lô, president of the council of the Manche",
+   "date": "1849-08-06",
+   "date_confidence": "attested: elected 6 August 1849 on the second ballot, 24 votes of 44. The gathering pass gave 27 August, corrected against the French record",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1849,
+   "jd_ut": 2396610.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.36,
+    "text": "Leo 13°22′",
+    "longitude": 133.363
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 4.57,
+    "text": "Pisces 4°34′",
+    "longitude": 334.572
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 2.07,
+    "text": "Leo 2°04′",
+    "longitude": 122.074
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 28.39,
+    "text": "Gemini 28°23′",
+    "longitude": 88.39
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 26.71,
+    "text": "Taurus 26°42′",
+    "longitude": 56.705
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 28.79,
+    "text": "Leo 28°48′",
+    "longitude": 148.793
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 7.65,
+    "text": "Aries 7°39′",
+    "longitude": 7.649
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Revolution He Wrote Down",
+   "stop": "Vincennes, arrested by the thing he described",
+   "date": "1851-12-02",
+   "date_confidence": "attested: the coup of 2 December 1851 and his brief detention; the exact hours of the detention are not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1851,
+   "jd_ut": 2397458.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not established) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.27,
+    "text": "Sagittarius 9°16′",
+    "longitude": 249.268
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 23.98,
+    "text": "Pisces 23°59′",
+    "longitude": 353.976
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 22.45,
+    "text": "Sagittarius 22°27′",
+    "longitude": 262.453
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 25.0,
+    "text": "Sagittarius 25°00′",
+    "longitude": 264.998
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 12.78,
+    "text": "Leo 12°47′",
+    "longitude": 132.776
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 11.07,
+    "text": "Scorpio 11°04′",
+    "longitude": 221.072
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 28.16,
+    "text": "Aries 28°10′",
+    "longitude": 28.162
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Tocqueville, Manche",
+   "stop": "Tocqueville, the château and the archives",
+   "date": "1852-01-01",
+   "date_confidence": "year attested; month not established. Coordinates are those of the village and château, 49.67 N 1.34 W; one lens of the research pool placed the château at 49.6167 / -1.4, about seven kilometres off in open country",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1852,
+   "jd_ut": 2397488.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.8,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.801
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tocqueville, Manche",
+   "stop": "Paris, L'Ancien Régime et la Révolution",
+   "date": "1856-01-01",
+   "date_confidence": "year attested (en.wikipedia); month not established",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2398949.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.831
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tocqueville, Manche",
+   "stop": "Cannes, the lungs give out at fifty-three",
+   "date": "1859-04-16",
+   "date_confidence": "attested (en.wikipedia, fr.wikipedia)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400150.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 25.48,
+    "text": "Aries 25°29′",
+    "longitude": 25.478
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 7.92,
+    "text": "Libra 7°55′",
+    "longitude": 187.917
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 5.65,
+    "text": "Taurus 5°39′",
+    "longitude": 35.651
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 14.51,
+    "text": "Pisces 14°31′",
+    "longitude": 344.509
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 23.67,
+    "text": "Taurus 23°40′",
+    "longitude": 53.666
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 18.57,
+    "text": "Gemini 18°34′",
+    "longitude": 78.569
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 5.58,
+    "text": "Leo 5°35′",
+    "longitude": 125.582
+   }
+  },
+  {
+   "segment": "Tocqueville, Manche",
+   "stop": "Tocqueville, the grave in the village cemetery",
+   "date": "1859-04-20",
+   "date_confidence": "burial in the village cemetery of Tocqueville is attested; the day is not established in sources consulted and is reconstructed here as shortly after the death. The tomb inscription could not be confirmed and is a stated gap",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1859,
+   "jd_ut": 2400154.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not established",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 29.38,
+    "text": "Aries 29°23′",
+    "longitude": 29.384
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 17,
+  "month": 6,
+  "year": 22
+ },
+ "parse_failures": []
+}

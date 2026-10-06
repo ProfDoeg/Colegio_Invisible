@@ -1,0 +1,1416 @@
+{
+ "slug": "maimonides",
+ "traveler": "Maimonides (Moshe ben Maimon / Musa ibn Maymun, the Rambam)",
+ "title": "Córdoba to Fustat: the Judge's Son, the Physician of Two Sultans, and the Guide",
+ "years": "1138-1204",
+ "years_parsed": {
+  "first": 1138,
+  "last": 1204
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Córdoba: The House of the Dayyan and the Almohad Storm",
+  "stop": "Córdoba, birth on the eve of Passover",
+  "date": "1138-03-28",
+  "date_confidence": "traditional",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1138,
+  "jd_ut": 2136798.5,
+  "precision": "year",
+  "precision_triggers": [
+   "traditional"
+  ],
+  "sun": {
+   "sign": "Aries",
+   "degree": 13.33,
+   "text": "Aries 13°20′",
+   "longitude": 13.334
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1138-1204",
+  "first_year_parsed": 1138
+ },
+ "stops": [
+  {
+   "segment": "Córdoba: The House of the Dayyan and the Almohad Storm",
+   "stop": "Córdoba, birth on the eve of Passover",
+   "date": "1138-03-28",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1138,
+   "jd_ut": 2136798.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 13.33,
+    "text": "Aries 13°20′",
+    "longitude": 13.334
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba: The House of the Dayyan and the Almohad Storm",
+   "stop": "Córdoba, the dayyan's house and the double curriculum",
+   "date": "1145-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1145,
+   "jd_ut": 2139269.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.61,
+    "text": "Capricornus 17°37′",
+    "longitude": 287.615
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba: The House of the Dayyan and the Almohad Storm",
+   "stop": "Córdoba, the Almohads take the city",
+   "date": "1148-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1148,
+   "jd_ut": 2140516.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.48,
+    "text": "Gemini 16°29′",
+    "longitude": 76.485
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba: The House of the Dayyan and the Almohad Storm",
+   "stop": "The wandering, hidden years in Iberia",
+   "date": "1149-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1149,
+   "jd_ut": 2140730.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.64,
+    "text": "Capricornus 17°39′",
+    "longitude": 287.644
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Córdoba: The House of the Dayyan and the Almohad Storm",
+   "stop": "Almería, the embarkation for the Maghreb",
+   "date": "1159-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1159,
+   "jd_ut": 2144382.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.21,
+    "text": "Capricornus 17°12′",
+    "longitude": 287.207
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fez: The Double Life Under the Almohad Crescent",
+   "stop": "Fez, arrival among the Almohads",
+   "date": "1160-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1160,
+   "jd_ut": 2144747.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.96,
+    "text": "Capricornus 16°58′",
+    "longitude": 286.96
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fez: The Double Life Under the Almohad Crescent",
+   "stop": "Fez, the Epistle on Sanctification of the Name",
+   "date": "1163-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1163,
+   "jd_ut": 2145843.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.24,
+    "text": "Capricornus 17°14′",
+    "longitude": 287.237
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fez: The Double Life Under the Almohad Crescent",
+   "stop": "Fez, the martyrdom of the teacher ibn Susan",
+   "date": "1165-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1165,
+   "jd_ut": 2146574.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.76,
+    "text": "Capricornus 17°46′",
+    "longitude": 287.76
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Fez: The Double Life Under the Almohad Crescent",
+   "stop": "Fez, the flight by night",
+   "date": "1165-04-25",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1165,
+   "jd_ut": 2146688.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.95,
+    "text": "Taurus 10°57′",
+    "longitude": 40.948
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 4.34,
+    "text": "Libra 4°20′",
+    "longitude": 184.339
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 16.36,
+    "text": "Taurus 16°21′",
+    "longitude": 46.356
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 25.22,
+    "text": "Pisces 25°13′",
+    "longitude": 355.216
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 4.07,
+    "text": "Gemini 4°04′",
+    "longitude": 64.072
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 12.38,
+    "text": "Sagittarius 12°23′",
+    "longitude": 252.379
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 11.21,
+    "text": "Capricornus 11°12′",
+    "longitude": 281.205
+   }
+  },
+  {
+   "segment": "The Sea Deliverance and the Holy Land",
+   "stop": "At sea, the storm and the vow",
+   "date": "1165-05-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1165,
+   "jd_ut": 2146694.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 16.72,
+    "text": "Taurus 16°43′",
+    "longitude": 46.722
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Sea Deliverance and the Holy Land",
+   "stop": "Acre, the deliverance",
+   "date": "1165-05-23",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1165,
+   "jd_ut": 2146716.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 7.79,
+    "text": "Gemini 7°48′",
+    "longitude": 67.793
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 12.32,
+    "text": "Libra 12°19′",
+    "longitude": 192.323
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 1.85,
+    "text": "Cancer 1°51′",
+    "longitude": 91.845
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 25.41,
+    "text": "Aries 25°24′",
+    "longitude": 25.408
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 22.66,
+    "text": "Gemini 22°40′",
+    "longitude": 82.659
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 9.18,
+    "text": "Sagittarius 9°11′",
+    "longitude": 249.177
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.138
+   }
+  },
+  {
+   "segment": "The Sea Deliverance and the Holy Land",
+   "stop": "Jerusalem, prayer on the Temple Mount",
+   "date": "1165-10-21",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1165,
+   "jd_ut": 2146867.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 4.35,
+    "text": "Scorpio 4°21′",
+    "longitude": 214.349
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 0.52,
+    "text": "Taurus 0°31′",
+    "longitude": 30.522
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 17.77,
+    "text": "Libra 17°46′",
+    "longitude": 197.77
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 27.51,
+    "text": "Libra 27°31′",
+    "longitude": 207.512
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 29.29,
+    "text": "Virgo 29°17′",
+    "longitude": 179.29
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.21,
+    "text": "Sagittarius 14°13′",
+    "longitude": 254.213
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 6.59,
+    "text": "Capricornus 6°35′",
+    "longitude": 276.587
+   }
+  },
+  {
+   "segment": "The Sea Deliverance and the Holy Land",
+   "stop": "Hebron, the Cave of Machpelah",
+   "date": "1165-10-24",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1165,
+   "jd_ut": 2146870.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.37,
+    "text": "Scorpio 7°22′",
+    "longitude": 217.369
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 12.71,
+    "text": "Gemini 12°43′",
+    "longitude": 72.712
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 18.82,
+    "text": "Libra 18°49′",
+    "longitude": 198.821
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 1.28,
+    "text": "Scorpio 1°17′",
+    "longitude": 211.282
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 1.2,
+    "text": "Libra 1°12′",
+    "longitude": 181.196
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.82,
+    "text": "Sagittarius 14°49′",
+    "longitude": 254.821
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 6.81,
+    "text": "Capricornus 6°49′",
+    "longitude": 276.815
+   }
+  },
+  {
+   "segment": "Egypt: Alexandria to Fustat, the Ransom of Bilbays",
+   "stop": "Alexandria, landfall in Egypt",
+   "date": "1166-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1166,
+   "jd_ut": 2146939.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.51,
+    "text": "Capricornus 17°31′",
+    "longitude": 287.513
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt: Alexandria to Fustat, the Ransom of Bilbays",
+   "stop": "Fustat, the death of Maimon the father",
+   "date": "1166-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1166,
+   "jd_ut": 2147090.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.15,
+    "text": "Gemini 16°09′",
+    "longitude": 76.15
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt: Alexandria to Fustat, the Ransom of Bilbays",
+   "stop": "Fustat, the Commentary on the Mishnah completed",
+   "date": "1168-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1168,
+   "jd_ut": 2147669.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.02,
+    "text": "Capricornus 17°01′",
+    "longitude": 287.018
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt: Alexandria to Fustat, the Ransom of Bilbays",
+   "stop": "Fustat and Bilbays, the ransom of the captives",
+   "date": "1168-11-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1168,
+   "jd_ut": 2147974.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 15.72,
+    "text": "Scorpio 15°43′",
+    "longitude": 225.715
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt: Alexandria to Fustat, the Ransom of Bilbays",
+   "stop": "Fustat, appointed Nagid of Egyptian Jewry",
+   "date": "1171-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1171,
+   "jd_ut": 2148765.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.29,
+    "text": "Capricornus 17°18′",
+    "longitude": 287.295
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt: Alexandria to Fustat, the Ransom of Bilbays",
+   "stop": "Fustat, the tidings of David's death",
+   "date": "1177-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1177,
+   "jd_ut": 2150957.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.85,
+    "text": "Capricornus 17°51′",
+    "longitude": 287.848
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Code: Fourteen Books for the Whole of the Law",
+   "stop": "Fustat, the labor on the Mishneh Torah begins",
+   "date": "1170-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1170,
+   "jd_ut": 2148400.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.54,
+    "text": "Capricornus 17°33′",
+    "longitude": 287.542
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Code: Fourteen Books for the Whole of the Law",
+   "stop": "Fustat, the Epistle to Yemen",
+   "date": "1172-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1172,
+   "jd_ut": 2149130.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.05,
+    "text": "Capricornus 17°03′",
+    "longitude": 287.048
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Code: Fourteen Books for the Whole of the Law",
+   "stop": "Fustat, the Mishneh Torah completed",
+   "date": "1180-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1180,
+   "jd_ut": 2152052.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.11,
+    "text": "Capricornus 17°06′",
+    "longitude": 287.106
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Code: Fourteen Books for the Whole of the Law",
+   "stop": "Fustat, the code contested",
+   "date": "1185-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1185,
+   "jd_ut": 2153879.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.91,
+    "text": "Capricornus 17°54′",
+    "longitude": 287.906
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Physician of Two Sultans",
+   "stop": "Fustat, physician to al-Qadi al-Fadil",
+   "date": "1174-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1174,
+   "jd_ut": 2149861.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.57,
+    "text": "Capricornus 17°34′",
+    "longitude": 287.571
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Physician of Two Sultans",
+   "stop": "Cairo, physician to Saladin",
+   "date": "1185-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1185,
+   "jd_ut": 2153879.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.91,
+    "text": "Capricornus 17°54′",
+    "longitude": 287.906
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Physician of Two Sultans",
+   "stop": "Fustat, the birth of Abraham",
+   "date": "1186-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1186,
+   "jd_ut": 2154244.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.66,
+    "text": "Capricornus 17°40′",
+    "longitude": 287.659
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Physician of Two Sultans",
+   "stop": "Jerusalem falls to Saladin, the circle closed",
+   "date": "1187-10-02",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1187,
+   "jd_ut": 2154883.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.0,
+    "text": "Libra 15°00′",
+    "longitude": 195.001
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 19.01,
+    "text": "Virgo 19°00′",
+    "longitude": 169.006
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 2.26,
+    "text": "Libra 2°16′",
+    "longitude": 182.265
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 1.6,
+    "text": "Virgo 1°36′",
+    "longitude": 151.597
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 4.46,
+    "text": "Cancer 4°28′",
+    "longitude": 94.463
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 27.83,
+    "text": "Libra 27°50′",
+    "longitude": 207.83
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 18.57,
+    "text": "Libra 18°34′",
+    "longitude": 198.565
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Physician of Two Sultans",
+   "stop": "Cairo, the Regimen of Health for al-Afdal",
+   "date": "1198-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1198,
+   "jd_ut": 2158627.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.75,
+    "text": "Capricornus 17°45′",
+    "longitude": 287.746
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Physician of Two Sultans",
+   "stop": "Fustat, the letter on the impossible day",
+   "date": "1199-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1199,
+   "jd_ut": 2158992.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.5,
+    "text": "Capricornus 17°30′",
+    "longitude": 287.499
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guide, the Grave, and the Pilgrim Road to Tiberias",
+   "stop": "Fustat, the Guide for the Perplexed begun",
+   "date": "1185-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1185,
+   "jd_ut": 2153879.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.91,
+    "text": "Capricornus 17°54′",
+    "longitude": 287.906
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guide, the Grave, and the Pilgrim Road to Tiberias",
+   "stop": "Fustat, the Guide completed",
+   "date": "1190-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1190,
+   "jd_ut": 2155705.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.69,
+    "text": "Capricornus 17°41′",
+    "longitude": 287.688
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guide, the Grave, and the Pilgrim Road to Tiberias",
+   "stop": "Fustat, answering the doubters of resurrection",
+   "date": "1191-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1191,
+   "jd_ut": 2156070.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.44,
+    "text": "Capricornus 17°26′",
+    "longitude": 287.441
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guide, the Grave, and the Pilgrim Road to Tiberias",
+   "stop": "Fustat, death",
+   "date": "1204-12-12",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1204,
+   "jd_ut": 2161164.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 27.66,
+    "text": "Sagittarius 27°40′",
+    "longitude": 267.664
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 11.57,
+    "text": "Leo 11°34′",
+    "longitude": 131.569
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 24.87,
+    "text": "Sagittarius 24°52′",
+    "longitude": 264.868
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 10.29,
+    "text": "Aquarius 10°18′",
+    "longitude": 310.295
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 2.82,
+    "text": "Leo 2°49′",
+    "longitude": 122.816
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 4.92,
+    "text": "Aries 4°55′",
+    "longitude": 4.92
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 4.73,
+    "text": "Taurus 4°44′",
+    "longitude": 34.732
+   }
+  },
+  {
+   "segment": "The Guide, the Grave, and the Pilgrim Road to Tiberias",
+   "stop": "The road to Tiberias, the body's last journey",
+   "date": "1204-12-26",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1204,
+   "jd_ut": 2161178.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.94,
+    "text": "Capricornus 11°56′",
+    "longitude": 281.94
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Guide, the Grave, and the Pilgrim Road to Tiberias",
+   "stop": "Tiberias, the tomb and the pilgrimage of the Twentieth of Tevet",
+   "date": "1205-01-12",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1205,
+   "jd_ut": 2161195.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 29.24,
+    "text": "Capricornus 29°14′",
+    "longitude": 299.237
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 35,
+  "dated": 35,
+  "unparsed": 0,
+  "day": 6,
+  "month": 3,
+  "year": 26
+ },
+ "parse_failures": []
+}

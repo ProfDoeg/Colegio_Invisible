@@ -1,0 +1,1813 @@
+{
+ "slug": "pytheas_de_massalia",
+ "traveler": "Pytheas de Massalia",
+ "title": "On the Ocean: the Massaliot, the Six Days North of Britain, and the Name That Was Taken",
+ "years": "fl. c. 330-320 BC",
+ "years_parsed": {
+  "first": -330,
+  "last": -320
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Massalia, the Colony at the Mouth of the Rhone",
+  "stop": "Massalia, the gnomon at the summer solstice",
+  "date": "-0330-06-21",
+  "date_confidence": "reconstructed: the measurement is attested only by its later reuse in Hipparchus and Eratosthenes and is never dated by any source; placed here before the voyage",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": -329,
+  "jd_ut": 1601061.5,
+  "precision": "year",
+  "precision_triggers": [
+   "placed (the date)",
+   "reconstructed (the date)",
+   "(soft) placed",
+   "(soft) reconstruct"
+  ],
+  "notes": [
+   "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+  ],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 23.28,
+   "text": "Gemini 23°17′",
+   "longitude": 83.28
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "fl. c. 330-320 BC",
+  "first_year_parsed": -330
+ },
+ "stops": [
+  {
+   "segment": "Massalia, the Colony at the Mouth of the Rhone",
+   "stop": "Massalia, the harbour of the Lacydon: a Greek born on a Gaulish shore",
+   "date": "-0350-01-01",
+   "date_confidence": "reconstructed: no ancient source gives a birth year, a father's name, or a death date; c. 350 BCE is inferred backward from the conventional date of the voyage",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -349,
+   "jd_ut": 1593585.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "inferred",
+    "convention",
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.39,
+    "text": "Capricornus 6°23′",
+    "longitude": 276.391
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Massalia, the Colony at the Mouth of the Rhone",
+   "stop": "Massalia, the gnomon at the summer solstice",
+   "date": "-0330-06-21",
+   "date_confidence": "reconstructed: the measurement is attested only by its later reuse in Hipparchus and Eratosthenes and is never dated by any source; placed here before the voyage",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -329,
+   "jd_ut": 1601061.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placed (the date)",
+    "reconstructed (the date)",
+    "(soft) placed",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.28,
+    "text": "Gemini 23°17′",
+    "longitude": 83.28
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Massalia, the Colony at the Mouth of the Rhone",
+   "stop": "Massalia, the setting out",
+   "date": "-0325-04-01",
+   "date_confidence": "reconstructed: the voyage is dated only by cross-reference to Timaeus and Dicaearchus, who were near-contemporaries; no ancient source gives a year",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602807.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 6.61,
+    "text": "Aries 6°37′",
+    "longitude": 6.614
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Out of the Middle Sea and Up the Coast of Gaul",
+   "stop": "The Pillars of Hercules: the passage nobody witnessed",
+   "date": "-0325-05-01",
+   "date_confidence": "disputed: no surviving fragment states how Pytheas left the Mediterranean; Carthage controlled this strait, and an overland alternative is argued in the modern literature",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602837.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 5.44,
+    "text": "Taurus 5°26′",
+    "longitude": 35.44
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Out of the Middle Sea and Up the Coast of Gaul",
+   "stop": "Gadir, the temple of Melqart on the islet of Sancti Petri",
+   "date": "-0325-05-10",
+   "date_confidence": "reconstructed: no ancient source places Pytheas here, and the stop is inferred from standard periplus convention. The coordinate is corrected from a figure in circulation that falls twenty-two kilometres north, inside the Bay of Cadiz",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602846.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "convention",
+    "no source (for the date)",
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 14.03,
+    "text": "Taurus 14°02′",
+    "longitude": 44.032
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Out of the Middle Sea and Up the Coast of Gaul",
+   "stop": "Burdigala on the Garonne: the road that avoids the sea",
+   "date": "-0325-05-20",
+   "date_confidence": "reconstructed: an alternative to the Gibraltar passage rather than a stop on the same route; associated with H. J. Mette's 1952 fragment edition and discussed in the modern literature",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602856.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.56,
+    "text": "Taurus 23°34′",
+    "longitude": 53.56
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Out of the Middle Sea and Up the Coast of Gaul",
+   "stop": "Corbilo on the Loire: the emporium quoted against him",
+   "date": "-0325-06-01",
+   "date_confidence": "reconstructed: the site is archaeologically unlocated, the Loire having shifted its channels, and no fragment places Pytheas here. The common gloss calling Corbilo a great tin emporium appears in no ancient source",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602868.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) no source",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 4.98,
+    "text": "Gemini 4°59′",
+    "longitude": 64.983
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Out of the Middle Sea and Up the Coast of Gaul",
+   "stop": "Pointe du Raz: the Ostimii at the end of Gaul",
+   "date": "-0325-06-15",
+   "date_confidence": "attested claim, reconstructed placement: Strabo 1.4.5 quotes Pytheas on the Ostimii and the promontory Cabaeum; the identification with this headland is modern. Note that Pointe du Raz is in the Finistere department of Brittany and is not Cape Finisterre in Galicia",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602882.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 18.31,
+    "text": "Gemini 18°19′",
+    "longitude": 78.313
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Out of the Middle Sea and Up the Coast of Gaul",
+   "stop": "Ushant, the island three days out",
+   "date": "-0325-06-20",
+   "date_confidence": "reconstructed: Uxisame is named in the fragment, the identification with Ushant is modern",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602887.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.08,
+    "text": "Gemini 23°05′",
+    "longitude": 83.08
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Britain: the Tin, the Circuit, the Tide",
+   "stop": "Belerion, the tin-diggers of the western tip",
+   "date": "-0325-07-01",
+   "date_confidence": "attested in Diodorus 5.21-22, but Diodorus names no source at that point; the chain running the passage back through Timaeus to Pytheas is modern inference",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602898.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) no source",
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'",
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 3.59,
+    "text": "Cancer 3°35′",
+    "longitude": 93.585
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Britain: the Tin, the Circuit, the Tide",
+   "stop": "St Michael's Mount: the island called Ictis",
+   "date": "-0325-07-05",
+   "date_confidence": "attested that Ictis existed, reconstructed as to which island it was; St Michael's Mount is one of two leading candidates and the identification has never been settled",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602902.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'",
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 7.41,
+    "text": "Cancer 7°25′",
+    "longitude": 97.413
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 4.43,
+    "text": "Leo 4°26′",
+    "longitude": 124.426
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 4.66,
+    "text": "Leo 4°39′",
+    "longitude": 124.658
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 23.21,
+    "text": "Leo 23°13′",
+    "longitude": 143.213
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 10.1,
+    "text": "Virgo 10°06′",
+    "longitude": 160.101
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 29.2,
+    "text": "Taurus 29°12′",
+    "longitude": 59.195
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 7.81,
+    "text": "Gemini 7°49′",
+    "longitude": 67.812
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Britain: the Tin, the Circuit, the Tide",
+   "stop": "North Foreland: the promontory called Kantion",
+   "date": "-0325-07-20",
+   "date_confidence": "attested: Kantion is named at Diodorus 5.21.3 and Strabo 1.4.3 attacks Pytheas's distance for it. Pliny NH 4.102, frequently cited here in secondary summaries, does not name Cantium at all",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602917.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 21.82,
+    "text": "Cancer 21°49′",
+    "longitude": 111.818
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 2.95,
+    "text": "Pisces 2°57′",
+    "longitude": 332.95
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 14.15,
+    "text": "Leo 14°09′",
+    "longitude": 134.151
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 6.7,
+    "text": "Virgo 6°42′",
+    "longitude": 156.697
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 19.58,
+    "text": "Virgo 19°35′",
+    "longitude": 169.585
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 2.09,
+    "text": "Gemini 2°05′",
+    "longitude": 62.091
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 9.53,
+    "text": "Gemini 9°32′",
+    "longitude": 69.529
+   }
+  },
+  {
+   "segment": "Britain: the Tin, the Circuit, the Tide",
+   "stop": "The Pentland Firth: a tide of a hundred and twenty feet",
+   "date": "-0325-08-01",
+   "date_confidence": "attested figure, reconstructed placement: Pliny NH 2.99 locates the observation north of Britain without naming a strait. Note the correction, Pliny says north of Britain, not in Britain",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602929.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 3.41,
+    "text": "Leo 3°25′",
+    "longitude": 123.41
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Britain: the Tin, the Circuit, the Tide",
+   "stop": "Dunnet Head, the northern cape called Orcas",
+   "date": "-0325-08-10",
+   "date_confidence": "attested that Pytheas gave a coastal circuit and that Diodorus names a northern promontory Orca; the circumnavigation rests on Strabo 2.4.1 reporting his claim to have travelled all of Britain that was accessible, which Strabo prints in order to deny it. Coordinate corrected eastward-drifting figures back onto the headland",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602938.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 12.15,
+    "text": "Leo 12°09′",
+    "longitude": 132.151
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 5.99,
+    "text": "Sagittarius 5°59′",
+    "longitude": 245.99
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 1.13,
+    "text": "Leo 1°08′",
+    "longitude": 121.131
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 20.58,
+    "text": "Virgo 20°35′",
+    "longitude": 170.582
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 3.49,
+    "text": "Libra 3°29′",
+    "longitude": 183.491
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 5.58,
+    "text": "Gemini 5°35′",
+    "longitude": 65.576
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 11.58,
+    "text": "Gemini 11°35′",
+    "longitude": 71.577
+   }
+  },
+  {
+   "segment": "Britain: the Tin, the Circuit, the Tide",
+   "stop": "Ring of Brodgar, Orkney: the islands nobody attributed to him",
+   "date": "-0325-08-15",
+   "date_confidence": "reconstructed and demoted: Pliny NH 4.103 lists forty Orcades but does not credit Pytheas, and Ptolemy, Mela and Tacitus name the group independently. The attribution of the island count to Pytheas, common in popular accounts, is unsupported",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602943.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 17.03,
+    "text": "Leo 17°02′",
+    "longitude": 137.027
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Thule, and the Sea That Is Neither",
+   "stop": "Unst, Shetland: the nearest Thule",
+   "date": "-0325-08-25",
+   "date_confidence": "reconstructed: one of several modern candidates for Thule. The coordinate is corrected to Skaw on the north-east tip of Unst, the northernmost settlement in the United Kingdom, rather than the island centroid used in some drafts",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602953.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 26.82,
+    "text": "Leo 26°49′",
+    "longitude": 146.82
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Thule, and the Sea That Is Neither",
+   "stop": "Ultima Thule: six days' sail north of Britain",
+   "date": "-0325-09-01",
+   "date_confidence": "disputed: the place is not identified and probably never will be. Candidates include Norway, Iceland, Shetland, the Faroes and Orkney. The coordinate is the atlas's canonical Thule pin, a Reykjavik proxy inherited byte-identical from columbus.journey.json and leif_erikson.journey.json, and it stands for an unlocated place",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602960.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "probably"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 3.71,
+    "text": "Virgo 3°43′",
+    "longitude": 153.709
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Thule, and the Sea That Is Neither",
+   "stop": "Trondheimsfjord: the second Thule",
+   "date": "-0325-09-01",
+   "date_confidence": "reconstructed: Norway is a leading modern candidate. The internal strain is recorded rather than repaired, since solstice-daylight arguments point at roughly 64 to 66 degrees north while Trondheim sits at 63.43. The frequent attribution of a Norway preference to Cunliffe could not be verified in any reachable source",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602960.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximation",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 3.71,
+    "text": "Virgo 3°43′",
+    "longitude": 153.709
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Thule, and the Sea That Is Neither",
+   "stop": "The Arctic Circle on the Helgeland coast: where the barbarians show him the sun's bed",
+   "date": "-0325-09-10",
+   "date_confidence": "attested fragment, symbolic placement: the coordinate marks the Arctic Circle where it crosses the Norwegian coast and is not a located site. Geminus's own floruit is disputed, c. 70 BCE on one reading of the Egyptian-calendar passage and as late as 50 CE on others",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602969.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "floruit",
+    "assigned"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.61,
+    "text": "Virgo 12°37′",
+    "longitude": 162.611
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Thule, and the Sea That Is Neither",
+   "stop": "Beyond Thule: the sea-lung",
+   "date": "-0325-09-20",
+   "date_confidence": "attested fragment, symbolic placement: the coordinate marks the Greenland Sea pack-ice margin and is not a located site. Pliny 4.104 puts the frozen sea one day's sail beyond Thule, while Strabo 1.4.2 says only that Thule is near it; the two are not reconciled here",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -324,
+   "jd_ut": 1602979.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "assigned"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 22.56,
+    "text": "Virgo 22°33′",
+    "longitude": 172.558
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Amber Coast and the Return",
+   "stop": "Skagen, the tip of Jutland: where the estuary may begin",
+   "date": "-0324-05-01",
+   "date_confidence": "reconstructed: the localisation of Pytheas's northern estuary is entirely modern inference, and Jutland, per Humboldt, is one proposal among several. The ancient text fixes no position",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -323,
+   "jd_ut": 1603202.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 5.21,
+    "text": "Taurus 5°13′",
+    "longitude": 35.209
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Amber Coast and the Return",
+   "stop": "The Sambia peninsula: amber burned for fuel",
+   "date": "-0324-06-01",
+   "date_confidence": "attested fragment, reconstructed localisation: Pliny NH 37.35 gives the text verbatim, but the Sambian placement is modern inference and the ancient source fixes no location. The people are the Guiones or Gutones, not the Ostimii, who belong to the Breton fragment at the other end of the route",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -323,
+   "jd_ut": 1603233.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft) reconstruct",
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'",
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 4.75,
+    "text": "Gemini 4°45′",
+    "longitude": 64.753
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Amber Coast and the Return",
+   "stop": "Massalia, the return and the writing of On the Ocean",
+   "date": "-0322-01-01",
+   "date_confidence": "reconstructed: the return is undated. The title is given as Peri tou Okeanou, On the Ocean, at Geminus VI 9; Periplus and Periodos Ges also circulate in the citation tradition",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -321,
+   "jd_ut": 1603812.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "undated",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.59,
+    "text": "Capricornus 6°35′",
+    "longitude": 276.589
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Survives in the Mouths of Its Enemies",
+   "stop": "Athens, Timaeus in exile repeats him",
+   "date": "-0300-01-01",
+   "date_confidence": "attested that Timaeus used Pytheas on the amber island; reconstructed that he is the channel for the Cornish tin and the circuit figure. Timaeus was exiled from Sicily by Agathocles c. 315-312 BCE and wrote his Histories over some fifty years in Athens, not in Sicily",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -299,
+   "jd_ut": 1611848.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.25,
+    "text": "Capricornus 7°15′",
+    "longitude": 277.253
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Survives in the Mouths of Its Enemies",
+   "stop": "Alexandria, Eratosthenes uses the figures anyway",
+   "date": "-0240-01-01",
+   "date_confidence": "attested via Strabo 1.4.2-4 and 2.5.8, reporting Eratosthenes's use of Pytheas's data; Eratosthenes's own text does not survive",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -239,
+   "jd_ut": 1633763.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.68,
+    "text": "Capricornus 7°41′",
+    "longitude": 277.678
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Survives in the Mouths of Its Enemies",
+   "stop": "Rhodes, Hipparchus fixes the parallels",
+   "date": "-0140-01-01",
+   "date_confidence": "attested via the later geographic tradition; Strabo preserves the substance of Hipparchus's use of Pytheas. Hipparchus was of Nicaea and observed at Rhodes",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -139,
+   "jd_ut": 1670288.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.39,
+    "text": "Capricornus 8°23′",
+    "longitude": 278.389
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Survives in the Mouths of Its Enemies",
+   "stop": "Rome, Polybius asks who paid",
+   "date": "-0140-01-01",
+   "date_confidence": "attested: preserved at Strabo 2.4.1, quoting Polybius. Polybius's own text of the passage does not survive independently",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -139,
+   "jd_ut": 1670288.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.39,
+    "text": "Capricornus 8°23′",
+    "longitude": 278.389
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Survives in the Mouths of Its Enemies",
+   "stop": "Rhodes, Geminus copies out the sentence without laughing",
+   "date": "-0070-01-01",
+   "date_confidence": "reconstructed date and place: Geminus's floruit is disputed, c. 70 BCE on one reading and as late as 50 CE on others, and 'of Rhodes' is an inference from references to Rhodian mountains rather than an attested epithet",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -69,
+   "jd_ut": 1695855.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "disputed",
+    "floruit",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.38,
+    "text": "Capricornus 8°23′",
+    "longitude": 278.379
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Survives in the Mouths of Its Enemies",
+   "stop": "Agyrium, Diodorus carries the tin and the amber into a universal history",
+   "date": "-0030-01-01",
+   "date_confidence": "attested that Diodorus 5.21-22 carries the material; reconstructed that Pytheas is its ultimate source, since Diodorus names no authority at that point and never mentions Timaeus there",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -29,
+   "jd_ut": 1710465.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) reconstruct",
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'",
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.66,
+    "text": "Capricornus 8°40′",
+    "longitude": 278.664
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Survives in the Mouths of Its Enemies",
+   "stop": "Amaseia, Strabo names him an arch-falsifier",
+   "date": "0010-01-01",
+   "date_confidence": "attested: the charge is verbatim at Strabo 1.4.3. Note that Strabo probably never saw the original book and worked from intermediaries, and that the common claim that he preserves the most fragments is contested against Pliny",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 10,
+   "jd_ut": 1724710.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "probably"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.2,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Book Survives in the Mouths of Its Enemies",
+   "stop": "Rome, Pliny the Elder copies him down",
+   "date": "0077-01-01",
+   "date_confidence": "attested: Pliny cites Pytheas across books 2, 4 and 37 and does not resolve the contradictions between Pytheas and Timaeus that he himself records",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 77,
+   "jd_ut": 1749182.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.928
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ultima Thule: the Name Outlives the Report",
+   "stop": "Rome, Virgil sets Thule at the edge of the world",
+   "date": "-0029-01-01",
+   "date_confidence": "attested: Virgil, Georgics 1.30",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -28,
+   "jd_ut": 1710830.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 8.42,
+    "text": "Capricornus 8°25′",
+    "longitude": 278.417
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ultima Thule: the Name Outlives the Report",
+   "stop": "Constantinople, Procopius puts thirteen tribes on Thule",
+   "date": "0550-01-01",
+   "date_confidence": "attested: Procopius, De Bello Gothico. The identification of his Thule with Scandinavia is the standard modern reading",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 550,
+   "jd_ut": 1921945.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 13.06,
+    "text": "Capricornus 13°04′",
+    "longitude": 283.063
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ultima Thule: the Name Outlives the Report",
+   "stop": "Seville, Isidore fixes Thule in the Etymologies",
+   "date": "0620-01-01",
+   "date_confidence": "attested: Isidore of Seville, Etymologiae 14.6.4. The composition date is conventional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 620,
+   "jd_ut": 1947512.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 13.06,
+    "text": "Capricornus 13°03′",
+    "longitude": 283.058
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Ultima Thule: the Name Outlives the Report",
+   "stop": "Iceland, the monks Dicuil questioned",
+   "date": "0825-01-01",
+   "date_confidence": "attested: Dicuil, De mensura orbis terrae, reporting clerics who claimed to have been there. The identification of their island with Iceland is standard but is not stated by Dicuil. Coordinate inherited from the atlas's canonical Thule pin",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 825,
+   "jd_ut": 2022389.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not given"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.3,
+    "text": "Capricornus 15°18′",
+    "longitude": 285.3
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyperborea: the Name Is Taken",
+   "stop": "Munich, the Thule Society takes the name",
+   "date": "1918-08-18",
+   "date_confidence": "attested that the Thule-Gesellschaft was dedicated under that name in Munich on 18 August 1918 under Sebottendorff. Reconstructed as to venue: the Hotel Vier Jahreszeiten is documented as headquarters and meeting rooms rather than as an attested founding site. Coordinate inherited from maria_orsic.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1918,
+   "jd_ut": 2421823.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "soft triggers (reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 24.23,
+    "text": "Leo 24°14′",
+    "longitude": 144.234
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 29.29,
+    "text": "Sagittarius 29°18′",
+    "longitude": 269.293
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 16.8,
+    "text": "Virgo 16°48′",
+    "longitude": 166.797
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 29.14,
+    "text": "Cancer 29°08′",
+    "longitude": 119.137
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 0.51,
+    "text": "Scorpio 0°30′",
+    "longitude": 210.508
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 7.45,
+    "text": "Cancer 7°27′",
+    "longitude": 97.447
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 19.01,
+    "text": "Leo 19°01′",
+    "longitude": 139.011
+   }
+  },
+  {
+   "segment": "Hyperborea: the Name Is Taken",
+   "stop": "Munich, the Vril Gesellschaft takes the word",
+   "date": "1919-06-01",
+   "date_confidence": "traditional: the earliest hard trace of the society is a recollection written down in 1947. Coordinate inherited byte-identical from bulwer_lytton.journey.json",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1919,
+   "jd_ut": 2422110.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.46,
+    "text": "Gemini 9°28′",
+    "longitude": 69.461
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hyperborea: the Name Is Taken",
+   "stop": "Iceland, the Ahnenerbe goes looking for Thule",
+   "date": "1938-01-01",
+   "date_confidence": "attested and corrected: the Ahnenerbe was founded by Himmler on 1 July 1935 and sent no expeditions that year. Three expeditions went to Iceland in 1938, explicitly seeking Thule as birthplace of the Aryan race. Accounts dating expeditions to 1935 are wrong on both halves",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1938,
+   "jd_ut": 2428899.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.93,
+    "text": "Capricornus 9°56′",
+    "longitude": 279.926
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 1.34,
+    "text": "Capricornus 1°20′",
+    "longitude": 271.337
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 5.47,
+    "text": "Capricornus 5°28′",
+    "longitude": 275.466
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 1.75,
+    "text": "Capricornus 1°45′",
+    "longitude": 271.753
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 7.75,
+    "text": "Pisces 7°45′",
+    "longitude": 337.745
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 2.72,
+    "text": "Aquarius 2°43′",
+    "longitude": 302.724
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 28.81,
+    "text": "Pisces 28°48′",
+    "longitude": 358.806
+   },
+   "conjunctions": [
+    {
+     "sign": "Capricornus",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Return of the Massaliot",
+   "stop": "Marseille, the Palais de la Bourse: the city puts him on the wall",
+   "date": "1860-01-01",
+   "date_confidence": "attested that Auguste Ottin (1811-1890) sculpted the Pytheas figure on the facade of the Palais de la Bourse, paired with the Massaliot explorer Euthymenes; the exact year within the building programme is not fixed here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1860,
+   "jd_ut": 2400410.5,
+   "precision": "year",
+   "precision_triggers": [
+    "not fixed",
+    "editorial (the date)",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.86
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return of the Massaliot",
+   "stop": "Oxford, the fragments reassembled",
+   "date": "2001-01-01",
+   "date_confidence": "attested: Barry Cunliffe, The Extraordinary Voyage of Pytheas the Greek, Walker and Co, New York, 2001; Penguin issued the UK edition in 2002. Cunliffe's specific Thule identification could not be verified in any reachable source and is not asserted here",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 2001,
+   "jd_ut": 2451910.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.65,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.646
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return of the Massaliot",
+   "stop": "Laurel, Maryland: Ultima Thule is given back its name",
+   "date": "2019-11-12",
+   "date_confidence": "attested and corrected: NASA chose the nickname Ultima Thule on 13 March 2018 after a public campaign, the New Horizons flyby was 1 January 2019, and the IAU announced the permanent name Arrokoth in November 2019, with the ceremony at NASA Headquarters on 12 November and the permission of Pamunkey elders of the Powhatan nation. The coordinate is the Applied Physics Laboratory, the mission's operations centre, standing in for a body in the Kuiper Belt that has no terrestrial position",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 2019,
+   "jd_ut": 2458799.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 19.31,
+    "text": "Scorpio 19°18′",
+    "longitude": 229.308
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 12.77,
+    "text": "Taurus 12°46′",
+    "longitude": 42.768
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 18.46,
+    "text": "Scorpio 18°27′",
+    "longitude": 228.457
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 12.63,
+    "text": "Sagittarius 12°38′",
+    "longitude": 252.626
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 25.21,
+    "text": "Libra 25°12′",
+    "longitude": 205.208
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 25.54,
+    "text": "Sagittarius 25°32′",
+    "longitude": 265.536
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 16.31,
+    "text": "Capricornus 16°18′",
+    "longitude": 286.307
+   }
+  }
+ ],
+ "counts": {
+  "stops": 41,
+  "dated": 41,
+  "unparsed": 0,
+  "day": 6,
+  "month": 2,
+  "year": 33
+ },
+ "parse_failures": []
+}

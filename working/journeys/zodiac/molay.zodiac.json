@@ -1,0 +1,1449 @@
+{
+ "slug": "molay",
+ "traveler": "Jacques de Molay",
+ "title": "The Last Grand Master: Molay to the Fire on the Île aux Juifs",
+ "years": "1243-1314",
+ "years_parsed": {
+  "first": 1243,
+  "last": 1314
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Poor Knight of Molay",
+  "stop": "Molay, the village in the County of Burgundy",
+  "date": "1243-01-01",
+  "date_confidence": "traditional",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 1243,
+  "jd_ut": 2175063.5,
+  "precision": "year",
+  "precision_triggers": [
+   "traditional"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 17.82,
+   "text": "Capricornus 17°49′",
+   "longitude": 287.82
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1243-1314",
+  "first_year_parsed": 1243
+ },
+ "stops": [
+  {
+   "segment": "The Poor Knight of Molay",
+   "stop": "Molay, the village in the County of Burgundy",
+   "date": "1243-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1243,
+   "jd_ut": 2175063.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.82,
+    "text": "Capricornus 17°49′",
+    "longitude": 287.82
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Poor Knight of Molay",
+   "stop": "Beaune, the reception in the chapel of the Temple",
+   "date": "1265-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1265,
+   "jd_ut": 2183099.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.49,
+    "text": "Capricornus 18°29′",
+    "longitude": 288.49
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Outremer, the Templar in the last of the Holy Land",
+   "stop": "Acre, the Templar quarter in the last capital of the Kingdom",
+   "date": "1270-06-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1270,
+   "jd_ut": 2185076.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.97,
+    "text": "Gemini 16°58′",
+    "longitude": 76.974
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Outremer, the Templar in the last of the Holy Land",
+   "stop": "Château Pèlerin (Atlit), the great sea-castle of the Temple",
+   "date": "1283-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1283,
+   "jd_ut": 2189673.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.11,
+    "text": "Capricornus 18°07′",
+    "longitude": 288.112
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Outremer, the Templar in the last of the Holy Land",
+   "stop": "Acre, the walls breached, the Gate of Saint Anthony",
+   "date": "1291-05-18",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1291,
+   "jd_ut": 2192732.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.53,
+    "text": "Gemini 3°32′",
+    "longitude": 63.531
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 7.52,
+    "text": "Capricornus 7°31′",
+    "longitude": 277.517
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 18.07,
+    "text": "Gemini 18°04′",
+    "longitude": 78.074
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 8.77,
+    "text": "Gemini 8°46′",
+    "longitude": 68.77
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 18.72,
+    "text": "Gemini 18°43′",
+    "longitude": 78.717
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 25.19,
+    "text": "Cancer 25°12′",
+    "longitude": 115.192
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 19.81,
+    "text": "Aries 19°49′",
+    "longitude": 19.814
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Outremer, the Templar in the last of the Holy Land",
+   "stop": "Acre, the last stand of the Temple by the sea, the flight to the ships",
+   "date": "1291-05-28",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1291,
+   "jd_ut": 2192742.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.09,
+    "text": "Gemini 13°05′",
+    "longitude": 73.085
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 22.91,
+    "text": "Taurus 22°54′",
+    "longitude": 52.906
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 14.06,
+    "text": "Gemini 14°03′",
+    "longitude": 74.058
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 2.71,
+    "text": "Gemini 2°43′",
+    "longitude": 62.71
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 25.32,
+    "text": "Gemini 25°19′",
+    "longitude": 85.324
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 26.99,
+    "text": "Cancer 26°59′",
+    "longitude": 116.986
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 20.8,
+    "text": "Aries 20°48′",
+    "longitude": 20.805
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Outremer, the Templar in the last of the Holy Land",
+   "stop": "Sidon, the sea-castle abandoned, the coast given up",
+   "date": "1291-07-14",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1291,
+   "jd_ut": 2192789.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 27.91,
+    "text": "Cancer 27°55′",
+    "longitude": 117.914
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 8.52,
+    "text": "Aquarius 8°31′",
+    "longitude": 308.515
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 23.23,
+    "text": "Cancer 23°14′",
+    "longitude": 113.228
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 13.44,
+    "text": "Gemini 13°27′",
+    "longitude": 73.445
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 25.83,
+    "text": "Cancer 25°50′",
+    "longitude": 115.835
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 6.66,
+    "text": "Leo 6°39′",
+    "longitude": 126.656
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 23.78,
+    "text": "Aries 23°47′",
+    "longitude": 23.78
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Order in Exile, Cyprus and the White Mantle Grand Master",
+   "stop": "Limassol, the Temple's headquarters in exile",
+   "date": "1291-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1291,
+   "jd_ut": 2192807.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 15.18,
+    "text": "Leo 15°11′",
+    "longitude": 135.179
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Order in Exile, Cyprus and the White Mantle Grand Master",
+   "stop": "Limassol, elected Grand Master of the Temple",
+   "date": "1292-04-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1292,
+   "jd_ut": 2193051.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.91,
+    "text": "Aries 18°55′",
+    "longitude": 18.909
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Order in Exile, Cyprus and the White Mantle Grand Master",
+   "stop": "Nicosia, the Temple against the King of Cyprus",
+   "date": "1296-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1296,
+   "jd_ut": 2194695.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 15.58,
+    "text": "Libra 15°35′",
+    "longitude": 195.578
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vain Reconquest, Ruad and the Coast Not Regained",
+   "stop": "Famagusta, the fleet sails to raid the Syrian coast",
+   "date": "1300-07-20",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1300,
+   "jd_ut": 2196083.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 4.45,
+    "text": "Leo 4°27′",
+    "longitude": 124.447
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 12.55,
+    "text": "Virgo 12°33′",
+    "longitude": 162.547
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 1.67,
+    "text": "Virgo 1°40′",
+    "longitude": 151.666
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 8.55,
+    "text": "Virgo 8°33′",
+    "longitude": 158.554
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 16.29,
+    "text": "Gemini 16°17′",
+    "longitude": 76.291
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 21.99,
+    "text": "Taurus 22°00′",
+    "longitude": 51.995
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 17.68,
+    "text": "Leo 17°41′",
+    "longitude": 137.681
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Vain Reconquest, Ruad and the Coast Not Regained",
+   "stop": "Tortosa, the raid on the mainland, the Mongol who never comes",
+   "date": "1300-11-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1300,
+   "jd_ut": 2196187.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 16.69,
+    "text": "Scorpio 16°42′",
+    "longitude": 226.694
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vain Reconquest, Ruad and the Coast Not Regained",
+   "stop": "Ruad, the island bridgehead off Tortosa",
+   "date": "1301-11-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1301,
+   "jd_ut": 2196552.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 16.45,
+    "text": "Scorpio 16°27′",
+    "longitude": 226.449
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Vain Reconquest, Ruad and the Coast Not Regained",
+   "stop": "Ruad, starved out, the last bridgehead lost",
+   "date": "1302-09-26",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1302,
+   "jd_ut": 2196881.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 10.16,
+    "text": "Libra 10°10′",
+    "longitude": 190.162
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 28.26,
+    "text": "Scorpio 28°15′",
+    "longitude": 238.258
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 1.67,
+    "text": "Scorpio 1°40′",
+    "longitude": 211.675
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 24.21,
+    "text": "Leo 24°13′",
+    "longitude": 144.213
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 12.46,
+    "text": "Leo 12°28′",
+    "longitude": 132.464
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 29.52,
+    "text": "Cancer 29°31′",
+    "longitude": 119.523
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 19.03,
+    "text": "Virgo 19°02′",
+    "longitude": 169.027
+   }
+  },
+  {
+   "segment": "The Diplomacy of the West, the Grand Master among the Kings",
+   "stop": "Rome, the court of Pope Boniface VIII",
+   "date": "1294-12-24",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1294,
+   "jd_ut": 2194048.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.048
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Diplomacy of the West, the Grand Master among the Kings",
+   "stop": "Naples, the court of Charles II, ships for the crusade",
+   "date": "1295-02-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1295,
+   "jd_ut": 2194087.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 19.63,
+    "text": "Aquarius 19°38′",
+    "longitude": 319.633
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Diplomacy of the West, the Grand Master among the Kings",
+   "stop": "London, the plea to Edward I of England",
+   "date": "1295-04-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1295,
+   "jd_ut": 2194146.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.2,
+    "text": "Aries 18°12′",
+    "longitude": 18.2
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Diplomacy of the West, the Grand Master among the Kings",
+   "stop": "Barcelona, the court of Aragon, licences to arm the East",
+   "date": "1295-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1295,
+   "jd_ut": 2194207.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.93,
+    "text": "Gemini 16°56′",
+    "longitude": 76.933
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Diplomacy of the West, the Grand Master among the Kings",
+   "stop": "Marseille, landing in France, summoned to the Pope",
+   "date": "1307-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1307,
+   "jd_ut": 2198439.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.29,
+    "text": "Capricornus 18°17′",
+    "longitude": 288.287
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Diplomacy of the West, the Grand Master among the Kings",
+   "stop": "Poitiers, before Clement V, and the refused merger",
+   "date": "1307-05-24",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1307,
+   "jd_ut": 2198582.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.39,
+    "text": "Gemini 9°24′",
+    "longitude": 69.393
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 22.72,
+    "text": "Aquarius 22°43′",
+    "longitude": 322.72
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 27.73,
+    "text": "Taurus 27°44′",
+    "longitude": 57.735
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 28.08,
+    "text": "Taurus 28°05′",
+    "longitude": 58.075
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 29.13,
+    "text": "Sagittarius 29°08′",
+    "longitude": 269.133
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 28.69,
+    "text": "Scorpio 28°42′",
+    "longitude": 238.695
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 8.49,
+    "text": "Scorpio 8°30′",
+    "longitude": 218.494
+   }
+  },
+  {
+   "segment": "The Temple of Paris, the Fortress and the Dawn Raid",
+   "stop": "Paris, the Enclos du Temple, banker to the crown",
+   "date": "1307-06-24",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1307,
+   "jd_ut": 2198613.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.95,
+    "text": "Cancer 8°57′",
+    "longitude": 98.95
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 16.09,
+    "text": "Aries 16°05′",
+    "longitude": 16.086
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 0.04,
+    "text": "Leo 0°02′",
+    "longitude": 120.042
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 28.87,
+    "text": "Taurus 28°52′",
+    "longitude": 58.868
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 20.66,
+    "text": "Sagittarius 20°40′",
+    "longitude": 260.664
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 25.65,
+    "text": "Scorpio 25°39′",
+    "longitude": 235.646
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.29,
+    "text": "Scorpio 7°18′",
+    "longitude": 217.294
+   }
+  },
+  {
+   "segment": "The Temple of Paris, the Fortress and the Dawn Raid",
+   "stop": "Paris, the funeral of Catherine of Courtenay, the eve",
+   "date": "1307-10-12",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1307,
+   "jd_ut": 2198723.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 25.88,
+    "text": "Libra 25°53′",
+    "longitude": 205.884
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 24.09,
+    "text": "Aries 24°06′",
+    "longitude": 24.092
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 9.51,
+    "text": "Scorpio 9°31′",
+    "longitude": 219.512
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 21.19,
+    "text": "Virgo 21°11′",
+    "longitude": 171.185
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 26.62,
+    "text": "Capricornus 26°37′",
+    "longitude": 296.62
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 5.15,
+    "text": "Sagittarius 5°09′",
+    "longitude": 245.152
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 14.04,
+    "text": "Scorpio 14°02′",
+    "longitude": 224.038
+   }
+  },
+  {
+   "segment": "The Temple of Paris, the Fortress and the Dawn Raid",
+   "stop": "Paris, Friday, 13 October 1307, the Temple taken",
+   "date": "1307-10-13",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1307,
+   "jd_ut": 2198724.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 26.88,
+    "text": "Libra 26°53′",
+    "longitude": 206.885
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 9.04,
+    "text": "Taurus 9°02′",
+    "longitude": 39.037
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.01,
+    "text": "Scorpio 11°01′",
+    "longitude": 221.015
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 22.4,
+    "text": "Virgo 22°24′",
+    "longitude": 172.4
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 27.28,
+    "text": "Capricornus 27°17′",
+    "longitude": 297.279
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 5.35,
+    "text": "Sagittarius 5°21′",
+    "longitude": 245.352
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 14.15,
+    "text": "Scorpio 14°09′",
+    "longitude": 224.153
+   }
+  },
+  {
+   "segment": "The Trial, Torture, Confession, and Retraction",
+   "stop": "Paris, the interrogation and the wrung confession",
+   "date": "1307-10-24",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1307,
+   "jd_ut": 2198735.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.92,
+    "text": "Scorpio 7°55′",
+    "longitude": 217.924
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 0.73,
+    "text": "Libra 0°44′",
+    "longitude": 180.728
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 26.94,
+    "text": "Scorpio 26°57′",
+    "longitude": 236.944
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 5.85,
+    "text": "Libra 5°51′",
+    "longitude": 185.847
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 4.65,
+    "text": "Aquarius 4°39′",
+    "longitude": 304.649
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 7.62,
+    "text": "Sagittarius 7°37′",
+    "longitude": 247.62
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 15.44,
+    "text": "Scorpio 15°26′",
+    "longitude": 225.437
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Trial, Torture, Confession, and Retraction",
+   "stop": "Chinon, questioned before the cardinals, the absolution",
+   "date": "1308-08-20",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1308,
+   "jd_ut": 2199036.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 4.4,
+    "text": "Virgo 4°24′",
+    "longitude": 154.4
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 8.24,
+    "text": "Libra 8°15′",
+    "longitude": 188.245
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 23.21,
+    "text": "Leo 23°13′",
+    "longitude": 143.211
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 15.55,
+    "text": "Libra 15°33′",
+    "longitude": 195.554
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 27.35,
+    "text": "Leo 27°21′",
+    "longitude": 147.355
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 27.39,
+    "text": "Sagittarius 27°23′",
+    "longitude": 267.391
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 19.74,
+    "text": "Scorpio 19°45′",
+    "longitude": 229.744
+   }
+  },
+  {
+   "segment": "The Trial, Torture, Confession, and Retraction",
+   "stop": "Paris, before the Papal Commission, the retraction",
+   "date": "1309-11-26",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1309,
+   "jd_ut": 2199499.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 11.87,
+    "text": "Sagittarius 11°52′",
+    "longitude": 251.87
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 24.3,
+    "text": "Virgo 24°18′",
+    "longitude": 174.297
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 27.86,
+    "text": "Scorpio 27°52′",
+    "longitude": 237.863
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 24.97,
+    "text": "Sagittarius 24°58′",
+    "longitude": 264.967
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 24.85,
+    "text": "Pisces 24°51′",
+    "longitude": 354.85
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 8.41,
+    "text": "Aquarius 8°25′",
+    "longitude": 308.41
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 9.47,
+    "text": "Sagittarius 9°28′",
+    "longitude": 249.474
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Trial, Torture, Confession, and Retraction",
+   "stop": "Vienne, the Order suppressed, Vox in excelso",
+   "date": "1312-03-22",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1312,
+   "jd_ut": 2200346.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 9.28,
+    "text": "Aries 9°17′",
+    "longitude": 9.277
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 14.34,
+    "text": "Virgo 14°21′",
+    "longitude": 164.343
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 17.73,
+    "text": "Aries 17°44′",
+    "longitude": 17.731
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 13.82,
+    "text": "Pisces 13°49′",
+    "longitude": 343.821
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 19.86,
+    "text": "Gemini 19°52′",
+    "longitude": 79.859
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 0.56,
+    "text": "Taurus 0°34′",
+    "longitude": 30.565
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.287
+   }
+  },
+  {
+   "segment": "The Trial, Torture, Confession, and Retraction",
+   "stop": "Paris, the years in the dungeon",
+   "date": "1313-01-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1313,
+   "jd_ut": 2200631.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.84,
+    "text": "Capricornus 18°50′",
+    "longitude": 288.84
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fire and the Curse, the Île aux Juifs",
+   "stop": "Paris, the scaffold before Notre-Dame, the last recantation",
+   "date": "1314-03-18",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1314,
+   "jd_ut": 2201072.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 4.87,
+    "text": "Aries 4°52′",
+    "longitude": 4.87
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 17.87,
+    "text": "Aries 17°52′",
+    "longitude": 17.866
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 14.74,
+    "text": "Aries 14°45′",
+    "longitude": 14.742
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 1.74,
+    "text": "Pisces 1°44′",
+    "longitude": 331.74
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 5.21,
+    "text": "Cancer 5°12′",
+    "longitude": 95.207
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 26.81,
+    "text": "Gemini 26°49′",
+    "longitude": 86.809
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 1.69,
+    "text": "Aquarius 1°41′",
+    "longitude": 301.687
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fire and the Curse, the Île aux Juifs",
+   "stop": "Île aux Juifs, the fire, and the summons from the flames",
+   "date": "1314-03-18",
+   "date_confidence": "attested",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1314,
+   "jd_ut": 2201072.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 4.87,
+    "text": "Aries 4°52′",
+    "longitude": 4.87
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 17.87,
+    "text": "Aries 17°52′",
+    "longitude": 17.866
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 14.74,
+    "text": "Aries 14°45′",
+    "longitude": 14.742
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 1.74,
+    "text": "Pisces 1°44′",
+    "longitude": 331.74
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 5.21,
+    "text": "Cancer 5°12′",
+    "longitude": 95.207
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 26.81,
+    "text": "Gemini 26°49′",
+    "longitude": 86.809
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 1.69,
+    "text": "Aquarius 1°41′",
+    "longitude": 301.687
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 30,
+  "dated": 30,
+  "unparsed": 0,
+  "day": 15,
+  "month": 5,
+  "year": 10
+ },
+ "parse_failures": []
+}

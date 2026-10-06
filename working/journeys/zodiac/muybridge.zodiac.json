@@ -1,0 +1,1153 @@
+{
+ "slug": "muybridge",
+ "traveler": "Eadweard Muybridge",
+ "title": "The Man Who Stopped Time: Kingston to Kingston",
+ "years": "1830–1904 (gregorian)",
+ "years_parsed": {
+  "first": 1830,
+  "last": 1904
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Boy of the Grain-Wharf: Kingston and the Crossing",
+  "stop": "Kingston upon Thames: the birth of Edward Muggeridge",
+  "date": "1830-04-09",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1830,
+  "jd_ut": 2389551.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Aries",
+   "degree": 18.64,
+   "text": "Aries 18°39′",
+   "longitude": 18.644
+  },
+  "moon": {
+   "sign": "Libra",
+   "degree": 26.08,
+   "text": "Libra 26°05′",
+   "longitude": 206.082
+  },
+  "mercury": {
+   "sign": "Aries",
+   "degree": 5.07,
+   "text": "Aries 5°04′",
+   "longitude": 5.07
+  },
+  "venus": {
+   "sign": "Pisces",
+   "degree": 11.1,
+   "text": "Pisces 11°06′",
+   "longitude": 341.101
+  },
+  "mars": {
+   "sign": "Capricornus",
+   "degree": 28.15,
+   "text": "Capricornus 28°09′",
+   "longitude": 298.153
+  },
+  "jupiter": {
+   "sign": "Capricornus",
+   "degree": 16.76,
+   "text": "Capricornus 16°46′",
+   "longitude": 286.759
+  },
+  "saturn": {
+   "sign": "Leo",
+   "degree": 11.38,
+   "text": "Leo 11°23′",
+   "longitude": 131.376
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1830–1904 (gregorian)",
+  "first_year_parsed": 1830
+ },
+ "stops": [
+  {
+   "segment": "The Boy of the Grain-Wharf: Kingston and the Crossing",
+   "stop": "Kingston upon Thames: the birth of Edward Muggeridge",
+   "date": "1830-04-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1830,
+   "jd_ut": 2389551.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.64,
+    "text": "Aries 18°39′",
+    "longitude": 18.644
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 26.08,
+    "text": "Libra 26°05′",
+    "longitude": 206.082
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 5.07,
+    "text": "Aries 5°04′",
+    "longitude": 5.07
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 11.1,
+    "text": "Pisces 11°06′",
+    "longitude": 341.101
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 28.15,
+    "text": "Capricornus 28°09′",
+    "longitude": 298.153
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 16.76,
+    "text": "Capricornus 16°46′",
+    "longitude": 286.759
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 11.38,
+    "text": "Leo 11°23′",
+    "longitude": 131.376
+   }
+  },
+  {
+   "segment": "The Boy of the Grain-Wharf: Kingston and the Crossing",
+   "stop": "New Orleans: the book agent lands in America",
+   "date": "1855-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1855,
+   "jd_ut": 2398584.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.078
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Boy of the Grain-Wharf: Kingston and the Crossing",
+   "stop": "San Francisco: Muygridge, bookseller of Montgomery Street",
+   "date": "1856-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1856,
+   "jd_ut": 2399040.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.47,
+    "text": "Aries 11°28′",
+    "longitude": 11.469
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Blow to the Head: the Stagecoach and the Remaking",
+   "stop": "North of Fort Worth, Texas: the runaway stagecoach",
+   "date": "1860-07-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400613.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 29.34,
+    "text": "Cancer 29°20′",
+    "longitude": 119.341
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 15.99,
+    "text": "Virgo 15°59′",
+    "longitude": 165.985
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 23.79,
+    "text": "Leo 23°47′",
+    "longitude": 143.789
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 24.69,
+    "text": "Cancer 24°42′",
+    "longitude": 114.694
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 23.78,
+    "text": "Capricornus 23°47′",
+    "longitude": 293.782
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 4.83,
+    "text": "Leo 4°50′",
+    "longitude": 124.831
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 25.71,
+    "text": "Leo 25°43′",
+    "longitude": 145.71
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Mercury",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Blow to the Head: the Stagecoach and the Remaking",
+   "stop": "Fort Smith, Arkansas: waking with nine days lost",
+   "date": "1860-07-31",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1860,
+   "jd_ut": 2400622.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 7.94,
+    "text": "Leo 7°57′",
+    "longitude": 127.944
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Blow to the Head: the Stagecoach and the Remaking",
+   "stop": "London: Sir William Gull and the years of shadow",
+   "date": "1861-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1861,
+   "jd_ut": 2400776.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.63,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.632
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Helios: the Flying Studio and the Great Views",
+   "stop": "San Francisco: the return of Helios, sun-drawer",
+   "date": "1867-02-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403010.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 23.87,
+    "text": "Aquarius 23°52′",
+    "longitude": 323.87
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 6.11,
+    "text": "Gemini 6°06′",
+    "longitude": 66.106
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 24.9,
+    "text": "Aquarius 24°54′",
+    "longitude": 324.899
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 7.39,
+    "text": "Capricornus 7°24′",
+    "longitude": 277.393
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 11.35,
+    "text": "Cancer 11°21′",
+    "longitude": 101.353
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 16.84,
+    "text": "Aquarius 16°50′",
+    "longitude": 316.836
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 23.7,
+    "text": "Scorpio 23°42′",
+    "longitude": 233.699
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Helios: the Flying Studio and the Great Views",
+   "stop": "Yosemite Valley: the first great views, 1867",
+   "date": "1867-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403179.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.24,
+    "text": "Leo 8°14′",
+    "longitude": 128.239
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Helios: the Flying Studio and the Great Views",
+   "stop": "Sitka, Alaska: photographing the new Territory",
+   "date": "1868-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1868,
+   "jd_ut": 2403545.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.97,
+    "text": "Leo 8°58′",
+    "longitude": 128.965
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Helios: the Flying Studio and the Great Views",
+   "stop": "Point Reyes: the lighthouses of the Pacific coast",
+   "date": "1871-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404548.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.18,
+    "text": "Taurus 10°11′",
+    "longitude": 40.175
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Helios: the Flying Studio and the Great Views",
+   "stop": "Yosemite Valley: the mammoth plates of 1872",
+   "date": "1872-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2404945.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.76,
+    "text": "Gemini 10°46′",
+    "longitude": 70.764
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wager: Stanford's Question and the First Trials",
+   "stop": "Sacramento: Stanford's question and the first trials, 1873",
+   "date": "1873-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405249.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.35,
+    "text": "Aries 11°21′",
+    "longitude": 11.352
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wager: Stanford's Question and the First Trials",
+   "stop": "Lava Beds, Modoc War: the camera at the front",
+   "date": "1873-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1873,
+   "jd_ut": 2405279.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.68,
+    "text": "Taurus 10°41′",
+    "longitude": 40.676
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bullet: Larkyns, Calistoga, and the Napa Jury",
+   "stop": "San Francisco: the discovery in the photographer's house",
+   "date": "1874-10-14",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405810.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 20.49,
+    "text": "Libra 20°29′",
+    "longitude": 200.487
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Bullet: Larkyns, Calistoga, and the Napa Jury",
+   "stop": "Yellow Jacket Mine, near Calistoga: the killing of Harry Larkyns",
+   "date": "1874-10-17",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1874,
+   "jd_ut": 2405813.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 23.46,
+    "text": "Libra 23°28′",
+    "longitude": 203.464
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 5.15,
+    "text": "Capricornus 5°09′",
+    "longitude": 275.146
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 16.49,
+    "text": "Scorpio 16°30′",
+    "longitude": 226.492
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 8.63,
+    "text": "Sagittarius 8°38′",
+    "longitude": 248.633
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 19.32,
+    "text": "Virgo 19°19′",
+    "longitude": 169.322
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 14.57,
+    "text": "Libra 14°34′",
+    "longitude": 194.565
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 7.35,
+    "text": "Aquarius 7°21′",
+    "longitude": 307.348
+   }
+  },
+  {
+   "segment": "The Bullet: Larkyns, Calistoga, and the Napa Jury",
+   "stop": "Napa Courthouse: acquitted by justifiable homicide, February 1875",
+   "date": "1875-02-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2405925.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 16.85,
+    "text": "Aquarius 16°51′",
+    "longitude": 316.847
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 12.68,
+    "text": "Aquarius 12°41′",
+    "longitude": 312.681
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 1.94,
+    "text": "Pisces 1°56′",
+    "longitude": 331.938
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 0.74,
+    "text": "Capricornus 0°44′",
+    "longitude": 270.741
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 26.55,
+    "text": "Scorpio 26°33′",
+    "longitude": 236.548
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 1.47,
+    "text": "Scorpio 1°28′",
+    "longitude": 211.465
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 16.45,
+    "text": "Aquarius 16°27′",
+    "longitude": 316.454
+   },
+   "conjunctions": [
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Tropics of Exile: Panama and the Coffee Coast",
+   "stop": "Panama City: the Pacific Mail exile begins",
+   "date": "1875-03-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2405948.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.04,
+    "text": "Pisces 10°02′",
+    "longitude": 340.039
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Tropics of Exile: Panama and the Coffee Coast",
+   "stop": "Antigua, Guatemala: the coffee plantations and the volcanoes",
+   "date": "1875-07-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1875,
+   "jd_ut": 2406070.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.72,
+    "text": "Cancer 8°43′",
+    "longitude": 98.717
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Wager Settled: Palo Alto and the Horse in the Air",
+   "stop": "Palo Alto Stock Farm: the bank of cameras, 15 June 1878",
+   "date": "1878-06-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1878,
+   "jd_ut": 2407150.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 23.72,
+    "text": "Gemini 23°43′",
+    "longitude": 83.718
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 23.79,
+    "text": "Sagittarius 23°47′",
+    "longitude": 263.79
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 3.71,
+    "text": "Gemini 3°43′",
+    "longitude": 63.715
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 12.18,
+    "text": "Taurus 12°11′",
+    "longitude": 42.178
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 24.95,
+    "text": "Cancer 24°57′",
+    "longitude": 114.953
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 6.66,
+    "text": "Aquarius 6°40′",
+    "longitude": 306.662
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 1.85,
+    "text": "Aries 1°51′",
+    "longitude": 1.848
+   }
+  },
+  {
+   "segment": "The Ghost of Cinema: the Wheel of Life and the Atlas of Bodies",
+   "stop": "San Francisco: the zoopraxiscope whirls the frozen frames to life",
+   "date": "1880-05-04",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1880,
+   "jd_ut": 2407839.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 13.88,
+    "text": "Taurus 13°53′",
+    "longitude": 43.88
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 13.65,
+    "text": "Pisces 13°39′",
+    "longitude": 343.649
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 18.43,
+    "text": "Aries 18°26′",
+    "longitude": 18.426
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 24.83,
+    "text": "Aries 24°50′",
+    "longitude": 24.831
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 12.93,
+    "text": "Cancer 12°56′",
+    "longitude": 102.928
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 7.27,
+    "text": "Aries 7°16′",
+    "longitude": 7.275
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 21.67,
+    "text": "Aries 21°40′",
+    "longitude": 21.671
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Ghost of Cinema: the Wheel of Life and the Atlas of Bodies",
+   "stop": "Paris: Marey's soirée and the meeting of the motion-hunters",
+   "date": "1881-09-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1881,
+   "jd_ut": 2408349.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 3.03,
+    "text": "Libra 3°02′",
+    "longitude": 183.029
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 2.23,
+    "text": "Scorpio 2°14′",
+    "longitude": 212.225
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 21.58,
+    "text": "Libra 21°35′",
+    "longitude": 201.577
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 28.05,
+    "text": "Leo 28°03′",
+    "longitude": 148.046
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 0.82,
+    "text": "Cancer 0°49′",
+    "longitude": 90.821
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 26.1,
+    "text": "Taurus 26°06′",
+    "longitude": 56.1
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 11.29,
+    "text": "Taurus 11°17′",
+    "longitude": 41.285
+   }
+  },
+  {
+   "segment": "The Ghost of Cinema: the Wheel of Life and the Atlas of Bodies",
+   "stop": "Royal Institution, London: the sun-picture lecture, 1882",
+   "date": "1882-03-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1882,
+   "jd_ut": 2408517.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 22.34,
+    "text": "Pisces 22°20′",
+    "longitude": 352.34
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 23.63,
+    "text": "Sagittarius 23°38′",
+    "longitude": 263.634
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 26.46,
+    "text": "Aquarius 26°27′",
+    "longitude": 326.457
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 27.28,
+    "text": "Pisces 27°17′",
+    "longitude": 357.28
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 4.41,
+    "text": "Cancer 4°24′",
+    "longitude": 94.407
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 22.07,
+    "text": "Taurus 22°04′",
+    "longitude": 52.072
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 8.96,
+    "text": "Taurus 8°58′",
+    "longitude": 38.961
+   }
+  },
+  {
+   "segment": "The Ghost of Cinema: the Wheel of Life and the Atlas of Bodies",
+   "stop": "University of Pennsylvania: the great atlas of Animal Locomotion",
+   "date": "1884-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1884,
+   "jd_ut": 2409328.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.86,
+    "text": "Gemini 10°52′",
+    "longitude": 70.859
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ghost of Cinema: the Wheel of Life and the Atlas of Bodies",
+   "stop": "Chicago, Midway Plaisance: the first movie theatre, 1893",
+   "date": "1893-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412584.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.83,
+    "text": "Taurus 10°50′",
+    "longitude": 40.832
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return to Kingston: the Lakes in the Garden",
+   "stop": "Kingston upon Thames: the last years and the Great Lakes in the garden",
+   "date": "1894-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1894,
+   "jd_ut": 2412980.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.46,
+    "text": "Gemini 10°28′",
+    "longitude": 70.46
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Return to Kingston: the Lakes in the Garden",
+   "stop": "Kingston upon Thames: death, and the ashes at Woking",
+   "date": "1904-05-08",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416608.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 16.97,
+    "text": "Taurus 16°58′",
+    "longitude": 46.97
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 22.48,
+    "text": "Aquarius 22°29′",
+    "longitude": 322.478
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 25.15,
+    "text": "Taurus 25°09′",
+    "longitude": 55.154
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 0.48,
+    "text": "Taurus 0°29′",
+    "longitude": 30.479
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 22.78,
+    "text": "Taurus 22°47′",
+    "longitude": 52.776
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 16.1,
+    "text": "Aries 16°06′",
+    "longitude": 16.105
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 20.42,
+    "text": "Aquarius 20°25′",
+    "longitude": 320.417
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 26,
+  "dated": 26,
+  "unparsed": 0,
+  "day": 10,
+  "month": 10,
+  "year": 6
+ },
+ "parse_failures": []
+}

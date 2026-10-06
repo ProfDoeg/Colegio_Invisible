@@ -1,0 +1,2350 @@
+{
+ "slug": "mussolini",
+ "traveler": "Benito Mussolini",
+ "title": "Predappio to Piazzale Loreto: the Duce, the Empire, and the Reckoning",
+ "years": "1883-1945",
+ "years_parsed": {
+  "first": 1883,
+  "last": 1945
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Blacksmith's Son of Predappio",
+  "stop": "Dovia di Predappio, the house by the forge",
+  "date": "1883-07-29",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1883,
+  "jd_ut": 2409020.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Leo",
+   "degree": 5.5,
+   "text": "Leo 5°30′",
+   "longitude": 125.498
+  },
+  "moon": {
+   "sign": "Gemini",
+   "degree": 1.54,
+   "text": "Gemini 1°32′",
+   "longitude": 61.538
+  },
+  "mercury": {
+   "sign": "Leo",
+   "degree": 4.39,
+   "text": "Leo 4°24′",
+   "longitude": 124.393
+  },
+  "venus": {
+   "sign": "Cancer",
+   "degree": 20.88,
+   "text": "Cancer 20°53′",
+   "longitude": 110.885
+  },
+  "mars": {
+   "sign": "Gemini",
+   "degree": 12.76,
+   "text": "Gemini 12°45′",
+   "longitude": 72.756
+  },
+  "jupiter": {
+   "sign": "Cancer",
+   "degree": 18.42,
+   "text": "Cancer 18°25′",
+   "longitude": 108.416
+  },
+  "saturn": {
+   "sign": "Gemini",
+   "degree": 7.4,
+   "text": "Gemini 7°24′",
+   "longitude": 67.404
+  },
+  "conjunctions": [
+   {
+    "sign": "Gemini",
+    "bodies": [
+     "Moon",
+     "Mars",
+     "Saturn"
+    ]
+   }
+  ],
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1883-1945",
+  "first_year_parsed": 1883
+ },
+ "stops": [
+  {
+   "segment": "The Blacksmith's Son of Predappio",
+   "stop": "Dovia di Predappio, the house by the forge",
+   "date": "1883-07-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1883,
+   "jd_ut": 2409020.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 5.5,
+    "text": "Leo 5°30′",
+    "longitude": 125.498
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 1.54,
+    "text": "Gemini 1°32′",
+    "longitude": 61.538
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 4.39,
+    "text": "Leo 4°24′",
+    "longitude": 124.393
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 20.88,
+    "text": "Cancer 20°53′",
+    "longitude": 110.885
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 12.76,
+    "text": "Gemini 12°45′",
+    "longitude": 72.756
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 18.42,
+    "text": "Cancer 18°25′",
+    "longitude": 108.416
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 7.4,
+    "text": "Gemini 7°24′",
+    "longitude": 67.404
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Blacksmith's Son of Predappio",
+   "stop": "Predappio, the forge and the socialist hall",
+   "date": "1890-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411519.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.43,
+    "text": "Gemini 10°26′",
+    "longitude": 70.428
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Blacksmith's Son of Predappio",
+   "stop": "Faenza, the Collegio Salesiano",
+   "date": "1893-01-15",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412478.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 25.13,
+    "text": "Capricornus 25°08′",
+    "longitude": 295.135
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Blacksmith's Son of Predappio",
+   "stop": "Forlimpopoli, the Regia Scuola Normale",
+   "date": "1901-07-08",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1901,
+   "jd_ut": 2415573.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 15.12,
+    "text": "Cancer 15°07′",
+    "longitude": 105.121
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Exile and the Agitator",
+   "stop": "Gualtieri, the first schoolroom",
+   "date": "1902-02-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415781.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.22,
+    "text": "Aquarius 11°13′",
+    "longitude": 311.217
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Exile and the Agitator",
+   "stop": "Lausanne, arrival and arrest",
+   "date": "1902-07-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415954.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 0.15,
+    "text": "Leo 0°09′",
+    "longitude": 120.155
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 8.27,
+    "text": "Pisces 8°16′",
+    "longitude": 338.27
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 11.99,
+    "text": "Cancer 12°00′",
+    "longitude": 101.994
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 27.88,
+    "text": "Gemini 27°53′",
+    "longitude": 87.88
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 2.19,
+    "text": "Cancer 2°12′",
+    "longitude": 92.192
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 13.92,
+    "text": "Aquarius 13°55′",
+    "longitude": 313.92
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 23.94,
+    "text": "Capricornus 23°56′",
+    "longitude": 293.939
+   }
+  },
+  {
+   "segment": "The Exile and the Agitator",
+   "stop": "Lausanne, L'Avvenire del Lavoratore and Pareto's lectures",
+   "date": "1904-03-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416540.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.01,
+    "text": "Pisces 10°00′",
+    "longitude": 340.005
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Exile and the Agitator",
+   "stop": "Trento, editor for Cesare Battisti",
+   "date": "1909-02-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418338.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.52,
+    "text": "Aquarius 11°31′",
+    "longitude": 311.523
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Exile and the Agitator",
+   "stop": "Trento, expelled from Austria-Hungary",
+   "date": "1909-09-25",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1909,
+   "jd_ut": 2418574.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 1.29,
+    "text": "Libra 1°17′",
+    "longitude": 181.285
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Exile and the Agitator",
+   "stop": "Forlì, La Lotta di Classe and Rachele Guidi",
+   "date": "1910-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Exile and the Agitator",
+   "stop": "Milan, editor of Avanti!",
+   "date": "1912-12-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1912,
+   "jd_ut": 2419737.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.45,
+    "text": "Sagittarius 8°27′",
+    "longitude": 248.454
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Break and the Trenches",
+   "stop": "Milan, the break over neutrality",
+   "date": "1914-10-20",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420425.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 25.76,
+    "text": "Libra 25°46′",
+    "longitude": 205.758
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 6.15,
+    "text": "Scorpio 6°09′",
+    "longitude": 216.149
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 19.95,
+    "text": "Scorpio 19°57′",
+    "longitude": 229.949
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 6.61,
+    "text": "Sagittarius 6°37′",
+    "longitude": 246.615
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 14.12,
+    "text": "Scorpio 14°07′",
+    "longitude": 224.118
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 12.6,
+    "text": "Aquarius 12°36′",
+    "longitude": 312.597
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 2.4,
+    "text": "Cancer 2°24′",
+    "longitude": 92.399
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Break and the Trenches",
+   "stop": "Milan, Il Popolo d'Italia founded, expulsion from the party",
+   "date": "1914-11-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420460.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 0.87,
+    "text": "Sagittarius 0°52′",
+    "longitude": 240.874
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 24.26,
+    "text": "Aquarius 24°16′",
+    "longitude": 324.26
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 11.15,
+    "text": "Scorpio 11°09′",
+    "longitude": 221.149
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 6.87,
+    "text": "Sagittarius 6°52′",
+    "longitude": 246.87
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 9.1,
+    "text": "Sagittarius 9°06′",
+    "longitude": 249.097
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 15.69,
+    "text": "Aquarius 15°41′",
+    "longitude": 315.69
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 1.05,
+    "text": "Cancer 1°03′",
+    "longitude": 91.046
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Break and the Trenches",
+   "stop": "The Isonzo front, private of the Bersaglieri",
+   "date": "1915-09-01",
+   "date_confidence": "inferred",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420741.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.48,
+    "text": "Virgo 7°29′",
+    "longitude": 157.475
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Break and the Trenches",
+   "stop": "The Carso, wounded",
+   "date": "1917-02-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1917,
+   "jd_ut": 2421282.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 3.82,
+    "text": "Pisces 3°49′",
+    "longitude": 333.822
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 21.33,
+    "text": "Pisces 21°20′",
+    "longitude": 351.327
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 9.75,
+    "text": "Aquarius 9°45′",
+    "longitude": 309.753
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 18.11,
+    "text": "Aquarius 18°06′",
+    "longitude": 318.107
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 5.08,
+    "text": "Pisces 5°05′",
+    "longitude": 335.084
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 1.74,
+    "text": "Taurus 1°44′",
+    "longitude": 31.741
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 24.64,
+    "text": "Cancer 24°38′",
+    "longitude": 114.64
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fasci and the Black Squads",
+   "stop": "Milan, Piazza San Sepolcro, the founding of the Fasci",
+   "date": "1919-03-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422040.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 1.32,
+    "text": "Aries 1°19′",
+    "longitude": 1.32
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 10.67,
+    "text": "Sagittarius 10°40′",
+    "longitude": 250.674
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 19.62,
+    "text": "Aries 19°37′",
+    "longitude": 19.622
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 29.45,
+    "text": "Aries 29°27′",
+    "longitude": 29.446
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 12.46,
+    "text": "Aries 12°28′",
+    "longitude": 12.464
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 6.43,
+    "text": "Cancer 6°26′",
+    "longitude": 96.434
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.36,
+    "text": "Leo 22°21′",
+    "longitude": 142.355
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fasci and the Black Squads",
+   "stop": "Milan, watching Fiume fall",
+   "date": "1920-12-26",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422684.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.94,
+    "text": "Capricornus 3°56′",
+    "longitude": 273.939
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fasci and the Black Squads",
+   "stop": "Ferrara and the Po valley, the squadre",
+   "date": "1921-02-20",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422740.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 0.83,
+    "text": "Pisces 0°50′",
+    "longitude": 330.831
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Fasci and the Black Squads",
+   "stop": "Milan, elected to the Chamber",
+   "date": "1921-05-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422824.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 23.62,
+    "text": "Taurus 23°37′",
+    "longitude": 53.621
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 28.32,
+    "text": "Leo 28°19′",
+    "longitude": 148.32
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 29.1,
+    "text": "Taurus 29°06′",
+    "longitude": 59.103
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 23.9,
+    "text": "Aries 23°54′",
+    "longitude": 23.897
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 6.22,
+    "text": "Gemini 6°13′",
+    "longitude": 66.22
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 9.01,
+    "text": "Virgo 9°00′",
+    "longitude": 159.005
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 18.12,
+    "text": "Virgo 18°07′",
+    "longitude": 168.121
+   }
+  },
+  {
+   "segment": "The Fasci and the Black Squads",
+   "stop": "Rome, the Third Congress, the National Fascist Party founded",
+   "date": "1921-11-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2423002.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 16.06,
+    "text": "Scorpio 16°03′",
+    "longitude": 226.055
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 0.57,
+    "text": "Pisces 0°34′",
+    "longitude": 330.568
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 0.42,
+    "text": "Scorpio 0°25′",
+    "longitude": 210.42
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 23.91,
+    "text": "Libra 23°55′",
+    "longitude": 203.913
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 1.43,
+    "text": "Libra 1°26′",
+    "longitude": 181.425
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.13,
+    "text": "Libra 9°08′",
+    "longitude": 189.129
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 3.79,
+    "text": "Libra 3°47′",
+    "longitude": 183.791
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fasci and the Black Squads",
+   "stop": "Naples, the congress and the cry of 'a Roma!'",
+   "date": "1922-10-24",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423351.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 29.8,
+    "text": "Libra 29°48′",
+    "longitude": 209.801
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 16.53,
+    "text": "Sagittarius 16°32′",
+    "longitude": 256.53
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 14.68,
+    "text": "Libra 14°41′",
+    "longitude": 194.676
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 7.35,
+    "text": "Sagittarius 7°21′",
+    "longitude": 247.347
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 25.32,
+    "text": "Capricornus 25°19′",
+    "longitude": 295.322
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 29.34,
+    "text": "Libra 29°20′",
+    "longitude": 209.342
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 13.13,
+    "text": "Libra 13°08′",
+    "longitude": 193.131
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Fasci and the Black Squads",
+   "stop": "Rome, the March and the appointment as prime minister",
+   "date": "1922-10-30",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423357.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 5.79,
+    "text": "Scorpio 5°47′",
+    "longitude": 215.789
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 2.92,
+    "text": "Pisces 2°55′",
+    "longitude": 332.917
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 17.33,
+    "text": "Libra 17°20′",
+    "longitude": 197.328
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 9.21,
+    "text": "Sagittarius 9°13′",
+    "longitude": 249.213
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 29.45,
+    "text": "Capricornus 29°27′",
+    "longitude": 299.451
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 0.65,
+    "text": "Scorpio 0°39′",
+    "longitude": 210.65
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 13.84,
+    "text": "Libra 13°50′",
+    "longitude": 193.841
+   }
+  },
+  {
+   "segment": "The Dictatorship Built",
+   "stop": "Rome, the Acerbo Law",
+   "date": "1923-07-21",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423621.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 27.22,
+    "text": "Cancer 27°13′",
+    "longitude": 117.22
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 26.37,
+    "text": "Libra 26°22′",
+    "longitude": 206.373
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 25.58,
+    "text": "Cancer 25°35′",
+    "longitude": 115.58
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 13.21,
+    "text": "Cancer 13°13′",
+    "longitude": 103.213
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 3.17,
+    "text": "Leo 3°10′",
+    "longitude": 123.171
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 9.28,
+    "text": "Scorpio 9°17′",
+    "longitude": 219.278
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 14.4,
+    "text": "Libra 14°24′",
+    "longitude": 194.398
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Dictatorship Built",
+   "stop": "Rome, Lungotevere Arnaldo da Brescia, the Matteotti kidnapping",
+   "date": "1924-06-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423946.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 18.83,
+    "text": "Gemini 18°50′",
+    "longitude": 78.831
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 11.94,
+    "text": "Virgo 11°56′",
+    "longitude": 161.935
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 25.83,
+    "text": "Taurus 25°50′",
+    "longitude": 55.828
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 17.58,
+    "text": "Cancer 17°35′",
+    "longitude": 107.578
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 24.31,
+    "text": "Aquarius 24°19′",
+    "longitude": 324.311
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 14.5,
+    "text": "Sagittarius 14°30′",
+    "longitude": 254.502
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 25.98,
+    "text": "Libra 25°59′",
+    "longitude": 205.982
+   }
+  },
+  {
+   "segment": "The Dictatorship Built",
+   "stop": "Rome, the Chamber, the Aventine Secession",
+   "date": "1924-06-26",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423962.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 4.1,
+    "text": "Cancer 4°06′",
+    "longitude": 94.104
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 25.75,
+    "text": "Aries 25°45′",
+    "longitude": 25.75
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.61,
+    "text": "Gemini 22°37′",
+    "longitude": 82.613
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 12.69,
+    "text": "Cancer 12°41′",
+    "longitude": 102.69
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 0.39,
+    "text": "Pisces 0°23′",
+    "longitude": 330.389
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 12.57,
+    "text": "Sagittarius 12°34′",
+    "longitude": 252.572
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 25.69,
+    "text": "Libra 25°42′",
+    "longitude": 205.694
+   }
+  },
+  {
+   "segment": "The Dictatorship Built",
+   "stop": "Rome, the Chamber, the speech that begins the dictatorship",
+   "date": "1925-01-03",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424153.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 12.12,
+    "text": "Capricornus 12°07′",
+    "longitude": 282.123
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 24.04,
+    "text": "Aries 24°02′",
+    "longitude": 24.036
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 28.02,
+    "text": "Sagittarius 28°01′",
+    "longitude": 268.021
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 15.14,
+    "text": "Sagittarius 15°08′",
+    "longitude": 255.139
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 8.85,
+    "text": "Aries 8°51′",
+    "longitude": 8.851
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 3.63,
+    "text": "Capricornus 3°38′",
+    "longitude": 273.631
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 12.26,
+    "text": "Scorpio 12°16′",
+    "longitude": 222.262
+   }
+  },
+  {
+   "segment": "The Dictatorship Built",
+   "stop": "Rome, the Lateran Palace, the Pacts signed",
+   "date": "1929-02-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425653.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 21.8,
+    "text": "Aquarius 21°48′",
+    "longitude": 321.803
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 6.62,
+    "text": "Pisces 6°37′",
+    "longitude": 336.621
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 13.47,
+    "text": "Aquarius 13°28′",
+    "longitude": 313.473
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 8.55,
+    "text": "Aries 8°33′",
+    "longitude": 8.55
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 22.22,
+    "text": "Gemini 22°13′",
+    "longitude": 82.218
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 4.18,
+    "text": "Taurus 4°11′",
+    "longitude": 34.178
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 27.78,
+    "text": "Sagittarius 27°47′",
+    "longitude": 267.781
+   }
+  },
+  {
+   "segment": "The Dictatorship Built",
+   "stop": "Littoria, the battle of the marshes and the wheat",
+   "date": "1932-12-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1932,
+   "jd_ut": 2427059.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 25.88,
+    "text": "Sagittarius 25°53′",
+    "longitude": 265.879
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 21.37,
+    "text": "Leo 21°22′",
+    "longitude": 141.37
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 5.28,
+    "text": "Sagittarius 5°17′",
+    "longitude": 245.277
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 25.89,
+    "text": "Scorpio 25°53′",
+    "longitude": 235.888
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 14.15,
+    "text": "Virgo 14°09′",
+    "longitude": 164.155
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 22.49,
+    "text": "Virgo 22°29′",
+    "longitude": 172.49
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 2.29,
+    "text": "Aquarius 2°17′",
+    "longitude": 302.287
+   }
+  },
+  {
+   "segment": "Empire and Axis",
+   "stop": "Rome, Palazzo Venezia, war declared on Ethiopia",
+   "date": "1935-10-02",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2428077.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.87,
+    "text": "Libra 7°52′",
+    "longitude": 187.871
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 25.49,
+    "text": "Scorpio 25°29′",
+    "longitude": 235.488
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 1.88,
+    "text": "Scorpio 1°53′",
+    "longitude": 211.877
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 6.69,
+    "text": "Virgo 6°41′",
+    "longitude": 156.686
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 10.63,
+    "text": "Sagittarius 10°38′",
+    "longitude": 250.633
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 22.12,
+    "text": "Scorpio 22°07′",
+    "longitude": 232.118
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 4.26,
+    "text": "Pisces 4°15′",
+    "longitude": 334.257
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Moon",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Empire and Axis",
+   "stop": "Rome, Palazzo Venezia, the empire proclaimed",
+   "date": "1936-05-09",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428297.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 18.19,
+    "text": "Taurus 18°11′",
+    "longitude": 48.188
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 14.91,
+    "text": "Sagittarius 14°55′",
+    "longitude": 254.914
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 9.31,
+    "text": "Gemini 9°19′",
+    "longitude": 69.312
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 4.36,
+    "text": "Taurus 4°22′",
+    "longitude": 34.361
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 26.89,
+    "text": "Taurus 26°54′",
+    "longitude": 56.895
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 23.21,
+    "text": "Sagittarius 23°13′",
+    "longitude": 263.212
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 19.75,
+    "text": "Pisces 19°45′",
+    "longitude": 349.752
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Empire and Axis",
+   "stop": "Milan, Piazza del Duomo, the Axis speech",
+   "date": "1936-11-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428473.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.4,
+    "text": "Scorpio 8°24′",
+    "longitude": 218.396
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Empire and Axis",
+   "stop": "Rome, the Manifesto della razza and the racial laws",
+   "date": "1938-07-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429093.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 20.9,
+    "text": "Cancer 20°54′",
+    "longitude": 110.901
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 5.92,
+    "text": "Aquarius 5°55′",
+    "longitude": 305.92
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 11.9,
+    "text": "Leo 11°54′",
+    "longitude": 131.9
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 29.72,
+    "text": "Leo 29°43′",
+    "longitude": 149.724
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 24.22,
+    "text": "Cancer 24°13′",
+    "longitude": 114.223
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 1.61,
+    "text": "Pisces 1°37′",
+    "longitude": 331.615
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 17.45,
+    "text": "Aries 17°27′",
+    "longitude": 17.454
+   }
+  },
+  {
+   "segment": "Empire and Axis",
+   "stop": "Munich, the four-power conference",
+   "date": "1938-09-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429170.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 5.19,
+    "text": "Libra 5°11′",
+    "longitude": 185.191
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 7.7,
+    "text": "Sagittarius 7°42′",
+    "longitude": 247.697
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 26.06,
+    "text": "Virgo 26°03′",
+    "longitude": 176.057
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 19.93,
+    "text": "Scorpio 19°56′",
+    "longitude": 229.927
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.41,
+    "text": "Virgo 13°24′",
+    "longitude": 163.406
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 23.22,
+    "text": "Aquarius 23°13′",
+    "longitude": 323.221
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 14.95,
+    "text": "Aries 14°57′",
+    "longitude": 14.953
+   }
+  },
+  {
+   "segment": "Empire and Axis",
+   "stop": "Rome, awaiting the Pact of Steel",
+   "date": "1939-05-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1939,
+   "jd_ut": 2429405.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 0.02,
+    "text": "Gemini 0°01′",
+    "longitude": 60.021
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 6.92,
+    "text": "Cancer 6°55′",
+    "longitude": 96.918
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 12.29,
+    "text": "Taurus 12°17′",
+    "longitude": 42.291
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 1.7,
+    "text": "Taurus 1°42′",
+    "longitude": 31.702
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 29.03,
+    "text": "Capricornus 29°02′",
+    "longitude": 299.03
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 2.1,
+    "text": "Aries 2°06′",
+    "longitude": 2.096
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 25.6,
+    "text": "Aries 25°36′",
+    "longitude": 25.605
+   }
+  },
+  {
+   "segment": "War and Collapse",
+   "stop": "Rome, Palazzo Venezia, the declaration of war",
+   "date": "1940-06-10",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429790.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 18.96,
+    "text": "Gemini 18°58′",
+    "longitude": 78.959
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 8.65,
+    "text": "Leo 8°39′",
+    "longitude": 128.647
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 8.94,
+    "text": "Cancer 8°57′",
+    "longitude": 98.943
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 12.88,
+    "text": "Cancer 12°53′",
+    "longitude": 102.879
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 15.04,
+    "text": "Cancer 15°03′",
+    "longitude": 105.042
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 5.5,
+    "text": "Taurus 5°30′",
+    "longitude": 35.498
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 9.72,
+    "text": "Taurus 9°43′",
+    "longitude": 39.722
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "War and Collapse",
+   "stop": "Rome, the Grand Council, the Grandi motion",
+   "date": "1943-07-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430930.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.2,
+    "text": "Leo 1°12′",
+    "longitude": 121.2
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 10.96,
+    "text": "Taurus 10°57′",
+    "longitude": 40.956
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 8.9,
+    "text": "Leo 8°54′",
+    "longitude": 128.9
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 12.94,
+    "text": "Virgo 12°56′",
+    "longitude": 162.936
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 11.52,
+    "text": "Taurus 11°31′",
+    "longitude": 41.516
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 5.26,
+    "text": "Leo 5°16′",
+    "longitude": 125.26
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 21.71,
+    "text": "Gemini 21°43′",
+    "longitude": 81.715
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "War and Collapse",
+   "stop": "Rome, Villa Savoia, the arrest",
+   "date": "1943-07-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430930.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.2,
+    "text": "Leo 1°12′",
+    "longitude": 121.2
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 10.96,
+    "text": "Taurus 10°57′",
+    "longitude": 40.956
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 8.9,
+    "text": "Leo 8°54′",
+    "longitude": 128.9
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 12.94,
+    "text": "Virgo 12°56′",
+    "longitude": 162.936
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 11.52,
+    "text": "Taurus 11°31′",
+    "longitude": 41.516
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 5.26,
+    "text": "Leo 5°16′",
+    "longitude": 125.26
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 21.71,
+    "text": "Gemini 21°43′",
+    "longitude": 81.715
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Gran Sasso and the Republic of Salò",
+   "stop": "Campo Imperatore, the Gran Sasso rescue",
+   "date": "1943-09-12",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430979.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 18.37,
+    "text": "Virgo 18°22′",
+    "longitude": 168.368
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 18.32,
+    "text": "Aquarius 18°19′",
+    "longitude": 318.319
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 9.48,
+    "text": "Libra 9°29′",
+    "longitude": 189.479
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 8.93,
+    "text": "Virgo 8°56′",
+    "longitude": 158.928
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 9.83,
+    "text": "Gemini 9°50′",
+    "longitude": 69.826
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 15.82,
+    "text": "Leo 15°49′",
+    "longitude": 135.821
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 25.8,
+    "text": "Gemini 25°48′",
+    "longitude": 85.795
+   }
+  },
+  {
+   "segment": "Gran Sasso and the Republic of Salò",
+   "stop": "Rastenburg, East Prussia, meeting Hitler at the Wolfsschanze",
+   "date": "1943-09-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430981.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 20.32,
+    "text": "Virgo 20°19′",
+    "longitude": 170.315
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 18.2,
+    "text": "Pisces 18°12′",
+    "longitude": 348.196
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 9.19,
+    "text": "Libra 9°11′",
+    "longitude": 189.189
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 7.87,
+    "text": "Virgo 7°52′",
+    "longitude": 157.87
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 10.75,
+    "text": "Gemini 10°45′",
+    "longitude": 70.748
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 16.22,
+    "text": "Leo 16°13′",
+    "longitude": 136.223
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 25.89,
+    "text": "Gemini 25°53′",
+    "longitude": 85.89
+   }
+  },
+  {
+   "segment": "Gran Sasso and the Republic of Salò",
+   "stop": "Gargnano, Palazzo Feltrinelli, the Republic proclaimed",
+   "date": "1943-09-23",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430990.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 29.1,
+    "text": "Virgo 29°06′",
+    "longitude": 179.102
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 17.91,
+    "text": "Cancer 17°54′",
+    "longitude": 107.908
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 2.63,
+    "text": "Libra 2°38′",
+    "longitude": 182.626
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 4.73,
+    "text": "Virgo 4°44′",
+    "longitude": 154.727
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 14.57,
+    "text": "Gemini 14°34′",
+    "longitude": 74.566
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 17.98,
+    "text": "Leo 17°59′",
+    "longitude": 137.981
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 26.23,
+    "text": "Gemini 26°14′",
+    "longitude": 86.234
+   }
+  },
+  {
+   "segment": "Gran Sasso and the Republic of Salò",
+   "stop": "Verona, Castelvecchio, the trial and Ciano's execution",
+   "date": "1944-01-11",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431100.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 19.65,
+    "text": "Capricornus 19°39′",
+    "longitude": 289.653
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 26.02,
+    "text": "Cancer 26°01′",
+    "longitude": 116.023
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 14.69,
+    "text": "Capricornus 14°42′",
+    "longitude": 284.693
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 9.32,
+    "text": "Sagittarius 9°19′",
+    "longitude": 249.324
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 4.83,
+    "text": "Gemini 4°50′",
+    "longitude": 64.828
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 25.78,
+    "text": "Leo 25°47′",
+    "longitude": 145.784
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 20.97,
+    "text": "Gemini 20°58′",
+    "longitude": 80.969
+   }
+  },
+  {
+   "segment": "Dongo and Giulino",
+   "stop": "Dongo, the capture",
+   "date": "1945-04-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431572.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 6.38,
+    "text": "Taurus 6°23′",
+    "longitude": 36.383
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 1.56,
+    "text": "Scorpio 1°34′",
+    "longitude": 211.56
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 16.87,
+    "text": "Aries 16°52′",
+    "longitude": 16.868
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 19.19,
+    "text": "Aries 19°11′",
+    "longitude": 19.189
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 25.5,
+    "text": "Pisces 25°30′",
+    "longitude": 355.501
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 17.99,
+    "text": "Virgo 17°59′",
+    "longitude": 167.987
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 6.12,
+    "text": "Cancer 6°07′",
+    "longitude": 96.125
+   }
+  },
+  {
+   "segment": "Dongo and Giulino",
+   "stop": "Giulino di Mezzegra, Villa Belmonte, the execution",
+   "date": "1945-04-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431573.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 7.35,
+    "text": "Taurus 7°21′",
+    "longitude": 37.355
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 13.5,
+    "text": "Scorpio 13°30′",
+    "longitude": 223.501
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 16.9,
+    "text": "Aries 16°54′",
+    "longitude": 16.897
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 18.81,
+    "text": "Aries 18°49′",
+    "longitude": 18.814
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 26.27,
+    "text": "Pisces 26°16′",
+    "longitude": 356.273
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 17.93,
+    "text": "Virgo 17°56′",
+    "longitude": 167.935
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 6.21,
+    "text": "Cancer 6°13′",
+    "longitude": 96.212
+   }
+  },
+  {
+   "segment": "Dongo and Giulino",
+   "stop": "Milan, Piazzale Loreto, the bodies displayed",
+   "date": "1945-04-29",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431574.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 8.33,
+    "text": "Taurus 8°20′",
+    "longitude": 38.327
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 25.51,
+    "text": "Scorpio 25°31′",
+    "longitude": 235.513
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 17.01,
+    "text": "Aries 17°00′",
+    "longitude": 17.007
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 18.48,
+    "text": "Aries 18°29′",
+    "longitude": 18.477
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 27.04,
+    "text": "Pisces 27°03′",
+    "longitude": 357.044
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 17.89,
+    "text": "Virgo 17°53′",
+    "longitude": 167.886
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 6.3,
+    "text": "Cancer 6°18′",
+    "longitude": 96.3
+   }
+  }
+ ],
+ "counts": {
+  "stops": 44,
+  "dated": 44,
+  "unparsed": 0,
+  "day": 31,
+  "month": 2,
+  "year": 11
+ },
+ "parse_failures": []
+}

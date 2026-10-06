@@ -1,0 +1,1807 @@
+{
+ "slug": "herodotus",
+ "traveler": "Herodotus of Halicarnassus",
+ "title": "From Halicarnassus to Thurii: the Inquiry, and the Limit at Elephantine",
+ "years": "c. 484 BCE - c. 425 BCE",
+ "years_parsed": {
+  "first": -484,
+  "last": -425
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "Halicarnassus, the Carian Port That Answers to the King",
+  "stop": "Halicarnassus, birth in a city that pays the King",
+  "date": "-0484-01-01",
+  "date_confidence": "The Halicarnassian origin is attested in the work's own first line, verified verbatim in the Macaulay translation from Project Gutenberg ebook 2707: 'This is the Showing forth of the Inquiry of Herodotus of Halicarnassos.' The date is not attested at all. 484 is a modern back-calculation from later testimonia running through Pamphila and Aulus Gellius, and the proposals in circulation range across 490 to 480. Month and day are ordering devices. A rival ancient reading of that same opening line gives 'of Thurii' instead; it is handled at its own stop below and is not silently merged here.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": -483,
+  "jd_ut": 1544642.5,
+  "precision": "year",
+  "precision_triggers": [
+   "ordering",
+   "(soft-year) year range"
+  ],
+  "notes": [
+   "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 5.95,
+   "text": "Capricornus 5°57′",
+   "longitude": 275.95
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "c. 484 BCE - c. 425 BCE",
+  "first_year_parsed": -484
+ },
+ "stops": [
+  {
+   "segment": "Halicarnassus, the Carian Port That Answers to the King",
+   "stop": "Halicarnassus, birth in a city that pays the King",
+   "date": "-0484-01-01",
+   "date_confidence": "The Halicarnassian origin is attested in the work's own first line, verified verbatim in the Macaulay translation from Project Gutenberg ebook 2707: 'This is the Showing forth of the Inquiry of Herodotus of Halicarnassos.' The date is not attested at all. 484 is a modern back-calculation from later testimonia running through Pamphila and Aulus Gellius, and the proposals in circulation range across 490 to 480. Month and day are ordering devices. A rival ancient reading of that same opening line gives 'of Thurii' instead; it is handled at its own stop below and is not silently merged here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -483,
+   "jd_ut": 1544642.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.95,
+    "text": "Capricornus 5°57′",
+    "longitude": 275.95
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Halicarnassus, the Carian Port That Answers to the King",
+   "stop": "Halicarnassus, the ships sail for Xerxes",
+   "date": "-0480-08-01",
+   "date_confidence": "Attested in the text itself. Halicarnassus's contribution to the King's fleet is at Histories 7.99 and Artemisia's conduct at Salamis at 8.87 to 8.93. The date is the campaign date and is secure; Herodotus's own age in that year depends entirely on the unattested birth date and cannot be fixed. The stop belongs to the city's own history rather than to any movement of the traveller.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -479,
+   "jd_ut": 1546315.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.99,
+    "text": "Leo 2°00′",
+    "longitude": 121.992
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Halicarnassus, the Carian Port That Answers to the King",
+   "stop": "Halicarnassus, the house of Lyxes",
+   "date": "-0478-01-01",
+   "date_confidence": "Reconstruction from one late source. The Suda, entry eta 536, confirmed verbatim at Suda On Line: 'Son of Lyxes and Dryo; of Halicarnassus... he had a brother [called] Theodoros.' The Suda is tenth-century, roughly fourteen centuries after the events. The working notes for this file gave the entry number as eta.1274, which is wrong; eta 536 is the Herodotus entry. The variant maternal name 'Rhoio' is not a manuscript variant of eta 536 at all: it comes from a different Suda entry, pi 248 on Panyassis, which names 'Rhoea, Herodotus's mother.' Both readings are recorded here and neither is preferred. The date is an ordering device only.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -477,
+   "jd_ut": 1546833.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.48,
+    "text": "Capricornus 5°29′",
+    "longitude": 275.485
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Halicarnassus, the Carian Port That Answers to the King",
+   "stop": "Halicarnassus, Panyassis in the house",
+   "date": "-0470-01-01",
+   "date_confidence": "Reconstruction. The kinship rests on the Suda tradition, which makes Panyassis either uncle or cousin to Herodotus and does not settle which. Panyassis's authorship of a Heracleia and an Ionica is attested in the ancient catalogues; the ranking among the canonical epic poets is a later critical judgement, not a fifth-century one. No fifth-century source connects the two men. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -469,
+   "jd_ut": 1549755.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "ordering",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.54,
+    "text": "Capricornus 5°32′",
+    "longitude": 275.541
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Halicarnassus, the Carian Port That Answers to the King",
+   "stop": "Samos, the island and the dialect",
+   "date": "-0465-01-01",
+   "date_confidence": "Reconstruction resting on a single tenth-century source. Suda eta 536, verbatim: 'He resettled in Samos because of Lygdamis... In Samos he practised the Ionian dialect.' The subject there is Herodotus alone; the fleeing family that appears in modern summaries is an embellishment with no basis in the entry. No fifth-century source confirms exile, residence, or return. Fifth-century inscriptions from Halicarnassus itself are cut in Ionic, which undercuts the entry's own premise that the dialect had to be learned abroad. The coordinates are the Heraion of Samos at 37.67194, 26.88556 per Wikipedia; the working notes gave 37.6892, 26.8825, about 1.9 km north in the plain, and that pin has been dropped. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -464,
+   "jd_ut": 1551581.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.32,
+    "text": "Capricornus 5°19′",
+    "longitude": 275.323
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Halicarnassus, the Carian Port That Answers to the King",
+   "stop": "Samos, the tunnel driven through the mountain",
+   "date": "-0464-01-01",
+   "date_confidence": "The passage is attested and was confirmed verbatim: Histories 3.60 gives the three greatest works of any Greek land, the tunnel through a mountain one hundred and fifty fathoms high, the harbour mole, and the temple of Hera. The text contains no first-person formula for the tunnel, so personal inspection is probable rather than stated. Coordinates are the Tunnel of Eupalinos at 37.694, 26.930 per Wikipedia; the working notes gave 26.9758, about 4 km too far east, into the hills beyond Pythagoreio, and that longitude has been dropped. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -463,
+   "jd_ut": 1551947.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.09,
+    "text": "Capricornus 6°05′",
+    "longitude": 276.091
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Halicarnassus, the Carian Port That Answers to the King",
+   "stop": "Halicarnassus, Panyassis killed and the tyrant put down",
+   "date": "-0454-01-01",
+   "date_confidence": "Two late claims, both from the Suda, neither confirmed by any fifth-century source. The killing is stated flatly at Suda pi 248: 'He was killed by Lygdamis, third tyrant of Halicarnassus.' The Suda gives no motive; the political opposition supplied in modern summaries is a gloss. The return, the part in the overthrow, and the second departure out of unpopularity come from eta 536 and rest on it alone. The whole episode follows the conventional biographical shape of an anti-tyrannical intellectual's life, which is a reason for caution and not a reason for rejection. Date is an ordering device; nothing dates any of it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -453,
+   "jd_ut": 1555599.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "ordering",
+    "decade/century"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.65,
+    "text": "Capricornus 5°39′",
+    "longitude": 275.654
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Roads: Lydia, the Straits, and the Phoenician Shore",
+   "stop": "Sardis, the burnt temple and the Lydian kings",
+   "date": "-0450-01-01",
+   "date_confidence": "Reconstruction as to the visit; the topographical detail is close enough that scholarship treats intimate knowledge of western Anatolia as probable personal experience, but no itinerary statement covers Sardis. The chapter reference in the working notes was off by one: 5.101 gives the burning of the city, the reed houses, the agora and the Pactolus, while the temple appears at 5.102, 'Sardis was then destroyed by fire, and in it also the temple of the native goddess Hybebe.' The Solon and Croesus interview is at 1.29 to 1.33 and is a set piece, not a report. Coordinates match Wikipedia's Sardis to within about 360 m. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557060.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.68,
+    "text": "Capricornus 5°41′",
+    "longitude": 275.683
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Roads: Lydia, the Straits, and the Phoenician Shore",
+   "stop": "The Bosporus at Chalcedon, the sea measured in sailing days",
+   "date": "-0448-01-01",
+   "date_confidence": "The measurements at Histories 4.85 to 4.86 are attested; the confident language attributed to them in the working notes is not. The text does not say 'exactly ascertained': 4.86 reads 'These measurements I have made as follows: a ship completes on an average in a long day a distance of seventy thousand fathoms,' an arithmetic estimate from sailing time, not a survey. The Macaulay text prints a dash after that colon, silently dropped in the quote field here. The Hieron does not appear in the passage at all; 4.85 puts Darius's bridge of boats in the territory of Chalcedon and puts Darius himself at the Kyanean rocks to look at the Pontus. The working notes' pin at 41.1913, 29.0898 sits between the two and matches neither, and has been dropped for Chalcedon, modern Kadikoy. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -447,
+   "jd_ut": 1557791.5,
+   "precision": "year",
+   "precision_triggers": [
+    "estimated",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.2,
+    "text": "Capricornus 6°12′",
+    "longitude": 276.204
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Roads: Lydia, the Straits, and the Phoenician Shore",
+   "stop": "Abydos, the strait that was whipped",
+   "date": "-0447-01-01",
+   "date_confidence": "Reconstruction as to any visit. Histories 7.33 to 7.37 narrates the double pontoon bridge and the flogging of the Hellespont in vivid detail, and the events belong to 480, decades before any research journey of his. There is no first-person claim for the site. The date here places him at the crossing during the research years as an ordering device; the text does not assert that he was ever there.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -446,
+   "jd_ut": 1558156.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.96,
+    "text": "Capricornus 5°57′",
+    "longitude": 275.958
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Roads: Lydia, the Straits, and the Phoenician Shore",
+   "stop": "Sestos, where the narrative stops running",
+   "date": "-0446-01-01",
+   "date_confidence": "The ending is attested: Histories 9.114 to 9.122. The working notes said the work closes on the impaling of Artayctes; it does not. Artayctes is nailed to boards at 9.120 and the final chapter is 9.122, Cyrus's maxim that soft lands breed soft men. Coordinates are Wikipedia's Sestos at 40.23278, 26.4225; the working notes' 40.2064, 26.3903 sits about 3.4 km southwest and has been dropped. Whether Herodotus visited the Chersonese is nowhere stated; the date is an ordering device.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -445,
+   "jd_ut": 1558521.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.71,
+    "text": "Capricornus 5°43′",
+    "longitude": 275.711
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Roads: Lydia, the Straits, and the Phoenician Shore",
+   "stop": "Tyre, the temple of the god the Greeks call Heracles",
+   "date": "-0445-01-01",
+   "date_confidence": "Attested and among the most widely accepted of his claimed destinations. Histories 2.44 presents the visit as autopsy: he says he sailed to Tyre for the purpose of the inquiry and describes the temple's two pillars, one gold and one of a stone that shone at night. The figure of some two thousand three hundred years is local priestly tradition reported as such, not verified chronology, and scholarship treats it that way. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -444,
+   "jd_ut": 1558886.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.46,
+    "text": "Capricornus 5°28′",
+    "longitude": 275.464
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Roads: Lydia, the Straits, and the Phoenician Shore",
+   "stop": "Babylon, the walls and the tower of Bel",
+   "date": "-0444-01-01",
+   "date_confidence": "Reconstruction, and the most contested travel question in the whole of Herodotean scholarship. Histories 1.178 to 1.183 describes the walls, the gates, the tiered tower of Bel and the golden statue; genuine information sits beside errors of a kind a visitor should not make, and whether he ever reached the city is disputed rather than settled. This file takes no side. Coordinates are inherited byte for byte from the canonical Babylon pin already used at cyrus.journey.json, ctesias.journey.json and nabucodonosor_ii.journey.json. Date is an ordering device.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -443,
+   "jd_ut": 1559252.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.23,
+    "text": "Capricornus 6°14′",
+    "longitude": 276.233
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt, from the Delta to the First Cataract",
+   "stop": "Naucratis, the Greek town in the Delta",
+   "date": "-0450-03-01",
+   "date_confidence": "The description at Histories 2.178 to 2.179 is attested, including Amasis's grant and the cities that jointly founded the Hellenion. There is no first-person visit claim for Naucratis itself; as the standard port of entry for Greeks into Egypt a stop here is inferred rather than stated. The customs material quoted is from 2.35 and was fetched directly from the Rawlinson text. The Egyptian journey as a whole is accepted by most scholars and is conventionally placed in the 450s or 440s, but that dating has no ancient anchor and the year here is an estimate used to order the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557119.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "convention",
+    "estimated",
+    "ordering",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.72,
+    "text": "Pisces 4°43′",
+    "longitude": 334.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt, from the Delta to the First Cataract",
+   "stop": "The Canopic mouth, the boats built like courses of brick",
+   "date": "-0450-03-15",
+   "date_confidence": "The description of the Nile cargo boat, the baris, is Herodotus's own at Histories 2.96 and is attested. The pin is not: Herodotus names no town here. The coordinates are Thonis-Heracleion, the drowned port at the Canopic mouth, given by Wikipedia as 31.31278, 30.12889; the working notes' 31.3, 30.1667 sits about 3.7 km southeast and has been dropped. The pin is an editorial placement at the river mouth every Greek entering Egypt used, chosen because the hull known as Ship 17, excavated there by Franck Goddio's IEASM team between 2009 and 2011, was found to match this construction. That finding was reported in March 2019, in the Guardian of 17 March; the January 2019 date in the working notes is unsupported and no journal or month is named in the underlying citation.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557133.5,
+   "precision": "month",
+   "precision_triggers": [
+    "between",
+    "editorial (the date)",
+    "(soft-year) year range",
+    "(soft) editorial"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 18.44,
+    "text": "Pisces 18°26′",
+    "longitude": 348.436
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt, from the Delta to the First Cataract",
+   "stop": "Sais, the lake and the rites he will not describe",
+   "date": "-0450-04-01",
+   "date_confidence": "Attested at Histories 2.170 as first-person knowledge withheld: he describes the precinct and the nocturnal rites on the lake and states that he knows the full account and will not divulge it. The declared discretion is read by standard scholarship as evidence of presence and of admission to informants, not as a rhetorical pose, though it cannot be tested either way. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557150.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 4.95,
+    "text": "Aries 4°57′",
+    "longitude": 4.947
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt, from the Delta to the First Cataract",
+   "stop": "Buto, the island he watched and it did not move",
+   "date": "-0450-04-15",
+   "date_confidence": "Attested at Histories 2.155 to 2.156, and among the clearest autopsy-style statements in Book 2: he describes the temple and oracle of Leto at Buto and the island of Chemmis, and states plainly that he never saw the island float or move at all. The negative testimony is the strong part of the evidence here, since a fabricator has no reason to report a marvel failing to occur. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557164.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 18.44,
+    "text": "Aries 18°26′",
+    "longitude": 18.438
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt, from the Delta to the First Cataract",
+   "stop": "Heliopolis, the same question asked twice",
+   "date": "-0450-05-01",
+   "date_confidence": "Attested by a direct first-person statement of itinerary and purpose at Histories 2.3, confirmed verbatim: 'I visited Thebes too and Heliopolis for this very purpose, because I desired to know if the people of those places would tell me the same tale.' This is the strongest travel claim in Book 2 after the Elephantine limit at 2.29. The year is an estimate; no ancient source dates the Egyptian journey.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557180.5,
+   "precision": "year",
+   "precision_triggers": [
+    "estimated",
+    "no source (for the date)",
+    "(soft) no source"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 3.77,
+    "text": "Taurus 3°46′",
+    "longitude": 33.765
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt, from the Delta to the First Cataract",
+   "stop": "Memphis, the priests of Ptah",
+   "date": "-0450-05-15",
+   "date_confidence": "Attested at Histories 2.3, the same sentence as Heliopolis and Thebes: he reports conversing with the priests of the god he calls Hephaestus, that is Ptah, at Memphis. The Delta-as-alluvium argument is at 2.10 to 2.12 and is his own reasoning, not priestly report. The written king-list is at 2.100 and following. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557194.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 17.12,
+    "text": "Taurus 17°07′",
+    "longitude": 47.12
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt, from the Delta to the First Cataract",
+   "stop": "Giza, the pyramids and the labour figures",
+   "date": "-0450-06-01",
+   "date_confidence": "Attested as text at Histories 2.124 to 2.127, and the level of description implies direct observation of the monuments; the content is another matter. The royal chronology and the attributions conflict badly with Egyptian evidence, and the labour arithmetic is priestly report rather than record. The distinction kept here is between what he saw, which the dimensions suggest he did, and what he was told, which is most of the rest. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557211.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.3,
+    "text": "Gemini 3°18′",
+    "longitude": 63.304
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt, from the Delta to the First Cataract",
+   "stop": "Hawara, the Labyrinth and the rooms he was not shown",
+   "date": "-0450-06-15",
+   "date_confidence": "Attested first-person autopsy at Histories 2.148, with the limit of that autopsy stated in the same passage: the upper chambers he was walked through, the lower ones he was only told about. The working notes render the quotation with an ellipsis bridging the two halves; only the first half is used in the quote field here, and the second is given in the campa as reported. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557225.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 16.63,
+    "text": "Gemini 16°38′",
+    "longitude": 76.634
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt, from the Delta to the First Cataract",
+   "stop": "Thebes, the wooden colossi and the generations",
+   "date": "-0450-07-01",
+   "date_confidence": "The visit is attested in the itinerary sentence at Histories 2.3. The colossi episode is at 2.143, where Herodotus names Hecataeus of Miletus, the earlier Ionian prose writer, and reports the priests counting the statues against Hecataeus's claimed sixteenth-generation descent from a god. Herodotus's engagement with Hecataeus is attested across 2.143, 5.36 and 6.137 and is one of the few cases where he names a predecessor in order to correct him. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557241.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 1.91,
+    "text": "Cancer 1°54′",
+    "longitude": 91.906
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Egypt, from the Delta to the First Cataract",
+   "stop": "Elephantine, the limit of his own eyes",
+   "date": "-0450-07-15",
+   "date_confidence": "Attested, and the clearest textual marker anywhere in the work for the boundary of his personal travel: Histories 2.29, confirmed verbatim, 'By my own travel and sight as far as the city of Elephantine, and beyond that by question and hearsay.' Everything south of this line in Book 2 is explicitly secondhand by his own declaration. The date remains an estimate; the limit does not.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -449,
+   "jd_ut": 1557255.5,
+   "precision": "year",
+   "precision_triggers": [
+    "estimated"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 15.33,
+    "text": "Cancer 15°20′",
+    "longitude": 105.328
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Edges: Libya and the Scythian Cold",
+   "stop": "Cyrene, the colony and the silphium",
+   "date": "-0449-01-01",
+   "date_confidence": "Reconstruction as to any visit. Histories 4.145 to 4.205 gives the colonisation traditions, the king-list, the Libyan tribal customs and the silphium in a density of detail that makes a visit to Cyrenaica plausible; no itinerary statement confirms it, and scholarship is clear that he did not cross the Sahara or reach the remoter peoples he describes. Two mutually incompatible foundation stories, the Theran and the Cyrenaean, are set down side by side in the text without adjudication, and are left that way here. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -448,
+   "jd_ut": 1557425.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.44,
+    "text": "Capricornus 5°26′",
+    "longitude": 275.436
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Edges: Libya and the Scythian Cold",
+   "stop": "West of the Triton, among the Maxyans",
+   "date": "-0449-02-01",
+   "date_confidence": "The passage is attested and verified verbatim at Histories 4.191 from Macaulay via Project Gutenberg 2707; the placement in the working notes was wrong twice over. The text sets this country west of the river Triton, next after the Auseans, among the Maxyans, not west of the Nasamones, who are an eastern people of the Syrtis described separately at 4.172-190. And the working coordinates of 27 N, 15 E point into the deep central Sahara, whereas Lake Tritonis is conventionally the Chott el-Djerid, which sends the description northwest toward the Tunisian Tell. The pin here is that rough correction and fixes no site: the text names none. Herodotus reports the beings as Libyan speech, with the attribution in the sentence, not as anything he saw.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -448,
+   "jd_ut": 1557456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 6.69,
+    "text": "Aquarius 6°42′",
+    "longitude": 306.694
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Edges: Libya and the Scythian Cold",
+   "stop": "Olbia, the king who worshipped in secret",
+   "date": "-0448-06-01",
+   "date_confidence": "Reconstruction as to the visit, attested as text. The Scythian ethnography of Book 4 centres on the Greek trading zone around Olbia at the Bug and Dnieper estuary, and the Scyles episode is at 4.78 to 4.80. Scholarship judges a visit to this Greek emporion probable; a journey deep into Scythia proper is not demonstrable and is not claimed here. Archaeology of kurgan burial and horse culture corroborates much of the ethnography without touching the question of where he stood. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -447,
+   "jd_ut": 1557942.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 3.79,
+    "text": "Gemini 3°48′",
+    "longitude": 63.795
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Edges: Libya and the Scythian Cold",
+   "stop": "Exampaeus, the cauldron they made him look at",
+   "date": "-0448-07-01",
+   "date_confidence": "Attested as first-person autopsy inside the Scythian logos, and the clearest such claim in Book 4: at Histories 4.81 he says the people of the country made him see the bronze bowl for himself, and he gives its capacity and the thickness of its metal. The location of Exampaeus between the Hypanis and the Borysthenes is not resolved on the ground, so the coordinates here are approximate and should not be read as a site identification.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -447,
+   "jd_ut": 1557972.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.4,
+    "text": "Cancer 2°24′",
+    "longitude": 92.399
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracles and the Battlefields of Greece",
+   "stop": "Dodona, the three prophetesses named",
+   "date": "-0447-01-01",
+   "date_confidence": "Attested at Histories 2.54 to 2.57, and unusual in the work because he names his informants: the prophetesses of Dodona, whose account he sets against the Egyptian version he had been given at Thebes. Naming the women strengthens the claim that an inquiry was actually conducted on the site, which is why standard scholarship treats this stop as among the better-evidenced. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -446,
+   "jd_ut": 1558156.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.96,
+    "text": "Capricornus 5°57′",
+    "longitude": 275.958
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracles and the Battlefields of Greece",
+   "stop": "Dodona, the gods given their names and their shapes",
+   "date": "-0447-02-01",
+   "date_confidence": "Attested. The passage is the continuation of the Dodona inquiry and is placed at that pin for that reason: Histories 2.52 has the oracle consulted about whether to adopt the divine names brought out of Egypt, and 2.53 states that Homer and Hesiod made the Greek theogony and lived four hundred years before his own time and no more. Herodotus offers the dating as his own opinion from inquiry, not as anyone's record. The same chapter is cited as attested at homer.journey.json and twice at hesiod.journey.json, where his four-hundred-year figure points to the mid-ninth century and cuts against the conventional dating of both poets. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -446,
+   "jd_ut": 1558187.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "ordering",
+    "decade/century",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 7.21,
+    "text": "Aquarius 7°13′",
+    "longitude": 307.208
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracles and the Battlefields of Greece",
+   "stop": "Delphi, the offerings in the treasuries",
+   "date": "-0447-03-01",
+   "date_confidence": "Attested as description, not as declared autopsy, and the working notes had the treasury wrong. Histories 1.51 puts the golden bowl in the treasury of the people of Clazomenae and the silver one in the corner of the vestibule; it is Gyges's offerings at 1.14 that stand in the treasury the Greeks call the Corinthians', which Herodotus adds is really Kypselos's and not the Corinthian state's. There is no first-person 'I saw' at 1.51: the passage is present-tense description implying autopsy rather than asserting it, so the tag has been softened here. Coordinates inherited byte for byte from the canonical Delphi pin at cyrus.journey.json. The bribed Pythia is at 6.66.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -446,
+   "jd_ut": 1558215.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.99,
+    "text": "Pisces 4°59′",
+    "longitude": 334.987
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracles and the Battlefields of Greece",
+   "stop": "Olympia, the reading, or else the shade",
+   "date": "-0446-08-01",
+   "date_confidence": "Reconstruction, and two late traditions that contradict each other head on. Lucian, Herodotus or Aetion, second century CE, has him read the whole work aloud at the festival to instant Panhellenic fame; an ancient grammarian, cited without a name in the reference summaries, has him wait for cloud-shade until the audience dispersed, whence the proverb about Herodotus and his shade. Both are recorded centuries after the fact and neither is preferred here. Public performance of parts of the work is plausible on general grounds; a single-sitting recitation of nine books is not. The Muse-titles are a Hellenistic editorial arrangement, not his.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -445,
+   "jd_ut": 1558733.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "disputed",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) editorial",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 1.76,
+    "text": "Leo 1°46′",
+    "longitude": 121.765
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracles and the Battlefields of Greece",
+   "stop": "Marathon, the mound over the dead",
+   "date": "-0445-04-01",
+   "date_confidence": "Reconstruction as to any visit; the narrative at Histories 6.102 to 6.117 is attested and is the fullest surviving ancient account of the battle. The topographical detail suggests informants on the ground or a visit, but no first-person claim covers the field. The count of a hundred and ninety-two Athenian dead comes from the same chapter range and is followed here as the standard reading. The Soros, the mound on the plain, is a real and excavated monument. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -444,
+   "jd_ut": 1558977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 5.71,
+    "text": "Aries 5°43′",
+    "longitude": 5.71
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracles and the Battlefields of Greece",
+   "stop": "Thermopylae, the path over the ridge",
+   "date": "-0445-05-01",
+   "date_confidence": "Reconstruction as to any visit; the narrative at Histories 7.201 to 7.233 is attested. The specificity of the Anopaea path, where it starts, where it comes out, and how long it takes to walk, points to on-the-ground informants or to a visit, but the text makes no first-person claim for the pass. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -444,
+   "jd_ut": 1559007.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 4.52,
+    "text": "Taurus 4°31′",
+    "longitude": 34.52
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracles and the Battlefields of Greece",
+   "stop": "Salamis, the strait his own city fought in",
+   "date": "-0445-06-01",
+   "date_confidence": "Reconstruction as to any visit; the narrative at Histories 8.40 to 8.96 is attested and is the principal ancient account of the battle. No autopsy claim is made for the strait. The Halicarnassian contingent under Artemisia is attested at 7.99 and her conduct in the battle at 8.87 to 8.93. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -444,
+   "jd_ut": 1559038.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 4.06,
+    "text": "Gemini 4°03′",
+    "longitude": 64.056
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Oracles and the Battlefields of Greece",
+   "stop": "Plataea, the last land battle and the grudge it left",
+   "date": "-0445-07-01",
+   "date_confidence": "Reconstruction as to any visit; the tactical narrative at Histories 9.19 to 9.89 is attested. The Theban presence on the Persian side is at 9.31 to 9.32 and is cited as attested at pindar.journey.json for the same fact. The Boeotian rejoinder, Plutarch's On the Malice of Herodotus, is a later treatise and is carried here as a source about the reception of this passage, not as a scene: Plutarch's engagement is his own, five centuries downstream. Date orders the segment.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -444,
+   "jd_ut": 1559068.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.66,
+    "text": "Cancer 2°40′",
+    "longitude": 92.661
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Colony in the West, and Athens",
+   "stop": "Thurii, the new city on the plain of Sybaris",
+   "date": "-0443-01-01",
+   "date_confidence": "The colony is attested: Thurii was founded in 443 under Athenian sponsorship with Pericles's backing, the colonists led out by Lampon and Xenocritus, on the plain of destroyed Sybaris in southern Italy. Herodotus's inclusion among the original colonists is ancient tradition and is tagged reconstruction, not attested. Coordinates are Wikipedia's Thurii at 39.71722, 16.49556; the working notes' 39.7075, 16.5375 sits about 4 km east, at or past the modern shoreline, and has been dropped.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -442,
+   "jd_ut": 1559617.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.99,
+    "text": "Capricornus 5°59′",
+    "longitude": 275.986
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Colony in the West, and Athens",
+   "stop": "Thurii, the name in the first line",
+   "date": "-0442-01-01",
+   "date_confidence": "Attested, and stronger than the working notes allowed. Aristotle's Rhetoric 3.9, at 1409a, was fetched directly from Perseus and reads: 'This is the exposition of the investigation of Herodotus of Thurii.' So a fourth-century Athenian text of the proem gave Thurii, while the manuscripts that reach Byzantium give Halicarnassus. Both readings are ancient; neither can be removed. What the variant proves about actual citizenship or permanent residence is inference, judged highly probable rather than certain. The Aristotelian citation is kept in the source apparatus and out of the narrative, per the corpus rule on later engagements.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -441,
+   "jd_ut": 1559982.5,
+   "precision": "year",
+   "precision_triggers": [
+    "probably",
+    "decade/century"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.74,
+    "text": "Capricornus 5°44′",
+    "longitude": 275.739
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Colony in the West, and Athens",
+   "stop": "Athens, the verses Sophocles made",
+   "date": "-0441-01-01",
+   "date_confidence": "Attested as ancient testimony, disputed as interpretation, and the date in the working notes was wrong. Plutarch, Moralia 785b, An seni respublica gerenda sit, verified verbatim at Thayer's Penelope text: 'Song for Herodotus Sophocles made when the years of his age were Five in addition to fifty.' Sophocles was born c. 497/496, so his fifty-fifth year falls in 442/441; the figure usually printed in the literature is 441/440. The 440/439 given in the working notes is one to two years late and does not follow from the age-55 datum. The poem itself does not survive. This is the strongest surviving evidence of personal contact between the two men and it does not establish a friendship.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -440,
+   "jd_ut": 1560347.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "disputed"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.49,
+    "text": "Capricornus 5°30′",
+    "longitude": 275.493
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Colony in the West, and Athens",
+   "stop": "Athens, the ten talents",
+   "date": "-0440-01-01",
+   "date_confidence": "Reconstruction, and a late one. Plutarch transmits it citing the fourth-century historian Diyllus, now lost; Anytus is sometimes named as proposer. No inscription, decree or contemporary record survives, and the sum is treated in the scholarship as inflated legend. What sits underneath the anecdote, that the work was performed publicly in Athens, is separately probable on other grounds. Date orders the segment and rests on nothing.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -439,
+   "jd_ut": 1560713.5,
+   "precision": "year",
+   "precision_triggers": [
+    "legend",
+    "probably",
+    "ordering",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.26,
+    "text": "Capricornus 6°16′",
+    "longitude": 276.261
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Revision, and Three Graves",
+   "stop": "Thurii, the second war catches up with the book",
+   "date": "-0430-01-01",
+   "date_confidence": "The internal evidence is attested: passages presuppose events after 431, including early Spartan invasions of Attica and the fate of Plataea, so the text was still being worked on into the opening years of the Peloponnesian War. The finishing horizon of about 425 is a conventional scholarly estimate from the latest datable allusion, not a record of anything. The nine-book Muse division is a Hellenistic editorial arrangement and is not demonstrably his; no autograph survives and the earliest substantial papyri postdate him by centuries. The pin is Thurii for want of any evidence of where the revision happened.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -429,
+   "jd_ut": 1564365.5,
+   "precision": "year",
+   "precision_triggers": [
+    "convention",
+    "estimated",
+    "decade/century",
+    "(soft-year) year named with preposition",
+    "(soft) editorial"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.82,
+    "text": "Capricornus 5°49′",
+    "longitude": 275.824
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Revision, and Three Graves",
+   "stop": "Thurii, the tomb in the market place",
+   "date": "-0425-01-01",
+   "date_confidence": "Reconstruction. The tradition is confirmed verbatim in Suda eta 536: 'after he died there he was buried in the agora. But some say that he died in Pella.' The Suda, not Marcellinus, is the source for the Thurii agora tomb; Marcellinus gives the Athens version. No grave has been securely excavated or identified anywhere. The death date of about 425 is conventional and is derived from the latest datable allusion in the work, not from any record of a death. World History Encyclopedia, fetched directly, reports a rival view that he died in Athens of the plague that killed Pericles, sometime between 425 and 413; the working notes reversed that range to 429-425 and that misquotation is not carried here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -424,
+   "jd_ut": 1566191.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "convention",
+    "between",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 5.61,
+    "text": "Capricornus 5°36′",
+    "longitude": 275.606
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Revision, and Three Graves",
+   "stop": "Pella, the other grave",
+   "date": "-0425-06-01",
+   "date_confidence": "Reconstruction, and the weakest of the three burial claims. It survives as a single clause in the Suda with no supporting narrative, no informant, no date and no circumstance. It is recorded here because the corpus rule is that a contradiction is flagged rather than resolved, and dropping the weakest of three claims would be resolving it silently. The date is an ordering device.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -424,
+   "jd_ut": 1566343.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "disputed",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 4.21,
+    "text": "Gemini 4°13′",
+    "longitude": 64.21
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Revision, and Three Graves",
+   "stop": "Athens, the grave beside Thucydides",
+   "date": "-0425-09-01",
+   "date_confidence": "Reconstruction, from Marcellinus's Life of Thucydides, late antiquity, which associates Herodotus's burial with the family tomb of Thucydides at Athens. Likely a symbolic pairing of the two historians rather than a topographical claim; the coordinates approximate the Kerameikos and Melitides Gate area where such tombs were sited and identify no grave. The related anecdote of the boy Thucydides weeping at a recitation is later still, elaborated by Photius in the ninth century and Tzetzes in the twelfth on Suda-era material. Three incompatible burial traditions stand: Thurii, Pella, Athens. The multiplicity is the historical fact and this file resolves none of it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": -424,
+   "jd_ut": 1566435.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional",
+    "probably",
+    "assigned",
+    "decade/century",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "far from J2000: planets to ~1 degree (Standish 2b), the Moon's abridged series to a few degrees"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 2.97,
+    "text": "Virgo 2°58′",
+    "longitude": 152.967
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 43,
+  "dated": 43,
+  "unparsed": 0,
+  "day": 0,
+  "month": 3,
+  "year": 40
+ },
+ "parse_failures": []
+}

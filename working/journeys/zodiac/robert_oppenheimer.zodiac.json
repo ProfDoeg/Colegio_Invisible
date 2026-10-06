@@ -1,0 +1,1818 @@
+{
+ "slug": "robert_oppenheimer",
+ "traveler": "J. Robert Oppenheimer",
+ "title": "Now I Am Become Death: New York to Princeton, the fire and the ruin of the atomic prometheus",
+ "years": "1904-1967",
+ "years_parsed": {
+  "first": 1904,
+  "last": 1967
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Ethical Culture Youth: New York",
+  "stop": "Riverside Drive: the house of paintings",
+  "date": "1904-04-22",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1904,
+  "jd_ut": 2416592.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Taurus",
+   "degree": 1.44,
+   "text": "Taurus 1°26′",
+   "longitude": 31.439
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 15.81,
+   "text": "Cancer 15°48′",
+   "longitude": 105.807
+  },
+  "mercury": {
+   "sign": "Taurus",
+   "degree": 21.45,
+   "text": "Taurus 21°27′",
+   "longitude": 51.446
+  },
+  "venus": {
+   "sign": "Aries",
+   "degree": 10.87,
+   "text": "Aries 10°52′",
+   "longitude": 10.87
+  },
+  "mars": {
+   "sign": "Taurus",
+   "degree": 11.22,
+   "text": "Taurus 11°13′",
+   "longitude": 41.215
+  },
+  "jupiter": {
+   "sign": "Aries",
+   "degree": 12.43,
+   "text": "Aries 12°26′",
+   "longitude": 12.426
+  },
+  "saturn": {
+   "sign": "Aquarius",
+   "degree": 19.62,
+   "text": "Aquarius 19°37′",
+   "longitude": 319.615
+  },
+  "conjunctions": [
+   {
+    "sign": "Taurus",
+    "bodies": [
+     "Sun",
+     "Mercury",
+     "Mars"
+    ]
+   }
+  ],
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "1904-1967",
+  "first_year_parsed": 1904
+ },
+ "stops": [
+  {
+   "segment": "The Ethical Culture Youth: New York",
+   "stop": "Riverside Drive: the house of paintings",
+   "date": "1904-04-22",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1904,
+   "jd_ut": 2416592.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 1.44,
+    "text": "Taurus 1°26′",
+    "longitude": 31.439
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 15.81,
+    "text": "Cancer 15°48′",
+    "longitude": 105.807
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 21.45,
+    "text": "Taurus 21°27′",
+    "longitude": 51.446
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 10.87,
+    "text": "Aries 10°52′",
+    "longitude": 10.87
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 11.22,
+    "text": "Taurus 11°13′",
+    "longitude": 41.215
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 12.43,
+    "text": "Aries 12°26′",
+    "longitude": 12.426
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 19.62,
+    "text": "Aquarius 19°37′",
+    "longitude": 319.615
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Ethical Culture Youth: New York",
+   "stop": "The Ethical Culture School: Deed before Creed",
+   "date": "1911-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1911,
+   "jd_ut": 2419280.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.44,
+    "text": "Virgo 7°27′",
+    "longitude": 157.443
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ethical Culture Youth: New York",
+   "stop": "The New York Mineralogical Club: the boy who read a paper",
+   "date": "1916-01-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420863.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.25,
+    "text": "Capricornus 9°15′",
+    "longitude": 279.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Ethical Culture Youth: New York",
+   "stop": "Joachimsthal: the mines, the dysentery, the delayed start",
+   "date": "1921-08-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422902.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.19,
+    "text": "Leo 8°12′",
+    "longitude": 128.193
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harvard and Cambridge: The Three-Year Flame and the Poisoned Apple",
+   "stop": "Harvard College: chemistry, and the turn to physics",
+   "date": "1922-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423298.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.77,
+    "text": "Virgo 7°46′",
+    "longitude": 157.772
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harvard and Cambridge: The Three-Year Flame and the Poisoned Apple",
+   "stop": "Perro Caliente: the ranch in the Sangre de Cristo",
+   "date": "1924-06-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423937.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.22,
+    "text": "Gemini 10°13′",
+    "longitude": 70.219
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harvard and Cambridge: The Three-Year Flame and the Poisoned Apple",
+   "stop": "The Cavendish Laboratory: the failure of the hands",
+   "date": "1925-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424394.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.04,
+    "text": "Virgo 8°02′",
+    "longitude": 158.038
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harvard and Cambridge: The Three-Year Flame and the Poisoned Apple",
+   "stop": "The poisoned apple: left for Patrick Blackett",
+   "date": "1925-11-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424455.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.06,
+    "text": "Scorpio 8°04′",
+    "longitude": 218.063
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Harvard and Cambridge: The Three-Year Flame and the Poisoned Apple",
+   "stop": "Corsica: the island that lifted the darkness",
+   "date": "1926-04-01",
+   "date_confidence": "traditional",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424606.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.53,
+    "text": "Aries 10°32′",
+    "longitude": 10.525
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen and the Wanderjahre: The New Quantum Mechanics",
+   "stop": "Göttingen: Max Born and the ferment",
+   "date": "1926-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424759.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.8,
+    "text": "Virgo 7°48′",
+    "longitude": 157.804
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen and the Wanderjahre: The New Quantum Mechanics",
+   "stop": "The doctorate: the Born–Oppenheimer approximation",
+   "date": "1927-05-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1927,
+   "jd_ut": 2425001.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.64,
+    "text": "Taurus 9°39′",
+    "longitude": 39.643
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen and the Wanderjahre: The New Quantum Mechanics",
+   "stop": "Leiden: where he becomes 'Opje'",
+   "date": "1928-09-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1928,
+   "jd_ut": 2425490.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.3,
+    "text": "Virgo 8°18′",
+    "longitude": 158.304
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Göttingen and the Wanderjahre: The New Quantum Mechanics",
+   "stop": "Zurich: under the lash of Pauli",
+   "date": "1929-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425763.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.02,
+    "text": "Gemini 10°01′",
+    "longitude": 70.02
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berkeley: The Charismatic Teacher, the Left, and the Sanskrit",
+   "stop": "Berkeley: the school that gathered around him",
+   "date": "1929-08-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1929,
+   "jd_ut": 2425824.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.26,
+    "text": "Leo 8°15′",
+    "longitude": 128.257
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berkeley: The Charismatic Teacher, the Left, and the Sanskrit",
+   "stop": "Pasadena: the migration south each spring",
+   "date": "1930-01-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2425977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.867
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berkeley: The Charismatic Teacher, the Left, and the Sanskrit",
+   "stop": "Arthur Ryder's study: the Gita in the original",
+   "date": "1933-10-07",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427352.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 13.27,
+    "text": "Libra 13°16′",
+    "longitude": 193.275
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 21.7,
+    "text": "Taurus 21°42′",
+    "longitude": 51.701
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 0.56,
+    "text": "Scorpio 0°34′",
+    "longitude": 210.563
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 25.14,
+    "text": "Scorpio 25°08′",
+    "longitude": 235.14
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 28.24,
+    "text": "Scorpio 28°15′",
+    "longitude": 238.245
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 5.71,
+    "text": "Libra 5°42′",
+    "longitude": 185.708
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 9.47,
+    "text": "Aquarius 9°28′",
+    "longitude": 309.475
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Berkeley: The Charismatic Teacher, the Left, and the Sanskrit",
+   "stop": "The left politics: the Spanish cause and the Party's edge",
+   "date": "1936-06-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1936,
+   "jd_ut": 2428320.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.31,
+    "text": "Gemini 10°19′",
+    "longitude": 70.315
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Berkeley: The Charismatic Teacher, the Left, and the Sanskrit",
+   "stop": "Eagle Hill: Kitty, and the house on the hill",
+   "date": "1940-11-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429934.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.43,
+    "text": "Scorpio 8°26′",
+    "longitude": 218.427
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Los Alamos: The Mesa He Chose",
+   "stop": "Berkeley summer study, 1942: the luminaries and the runaway sum",
+   "date": "1942-07-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430541.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.54,
+    "text": "Cancer 8°32′",
+    "longitude": 98.538
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Los Alamos: The Mesa He Chose",
+   "stop": "The mesa: Los Alamos Ranch School chosen",
+   "date": "1942-11-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1942,
+   "jd_ut": 2430679.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 23.01,
+    "text": "Scorpio 23°00′",
+    "longitude": 233.007
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 2.01,
+    "text": "Pisces 2°00′",
+    "longitude": 332.007
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 14.31,
+    "text": "Scorpio 14°19′",
+    "longitude": 224.311
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 22.89,
+    "text": "Scorpio 22°53′",
+    "longitude": 232.889
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 9.52,
+    "text": "Scorpio 9°31′",
+    "longitude": 219.524
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 25.22,
+    "text": "Cancer 25°13′",
+    "longitude": 115.224
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 10.09,
+    "text": "Gemini 10°05′",
+    "longitude": 70.088
+   },
+   "conjunctions": [
+    {
+     "sign": "Scorpio",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Los Alamos: The Mesa He Chose",
+   "stop": "The secret city: six thousand behind the wire",
+   "date": "1943-03-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430798.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.55,
+    "text": "Pisces 23°33′",
+    "longitude": 353.548
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 6.52,
+    "text": "Cancer 6°31′",
+    "longitude": 96.518
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 6.09,
+    "text": "Pisces 6°05′",
+    "longitude": 336.085
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 21.55,
+    "text": "Aries 21°33′",
+    "longitude": 21.553
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 4.84,
+    "text": "Aquarius 4°51′",
+    "longitude": 304.842
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 15.19,
+    "text": "Cancer 15°11′",
+    "longitude": 105.189
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 6.63,
+    "text": "Gemini 6°38′",
+    "longitude": 66.634
+   }
+  },
+  {
+   "segment": "Los Alamos: The Mesa He Chose",
+   "stop": "Jean Tatlock: the visit and the death",
+   "date": "1943-06-14",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430889.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 22.09,
+    "text": "Gemini 22°05′",
+    "longitude": 82.088
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 26.11,
+    "text": "Libra 26°07′",
+    "longitude": 206.111
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 29.99,
+    "text": "Taurus 29°59′",
+    "longitude": 59.989
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 6.85,
+    "text": "Leo 6°51′",
+    "longitude": 126.847
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 12.93,
+    "text": "Aries 12°56′",
+    "longitude": 12.934
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 26.49,
+    "text": "Cancer 26°29′",
+    "longitude": 116.491
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 16.68,
+    "text": "Gemini 16°41′",
+    "longitude": 76.684
+   }
+  },
+  {
+   "segment": "Los Alamos: The Mesa He Chose",
+   "stop": "The Chevalier kitchen: 'the whole thing was a tissue of lies'",
+   "date": "1943-08-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430961.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 0.93,
+    "text": "Virgo 0°56′",
+    "longitude": 150.935
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 27.44,
+    "text": "Gemini 27°26′",
+    "longitude": 87.441
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 27.81,
+    "text": "Virgo 27°48′",
+    "longitude": 177.808
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 18.84,
+    "text": "Virgo 18°50′",
+    "longitude": 168.838
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 0.54,
+    "text": "Gemini 0°32′",
+    "longitude": 60.538
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 12.06,
+    "text": "Leo 12°04′",
+    "longitude": 132.062
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 24.66,
+    "text": "Gemini 24°39′",
+    "longitude": 84.657
+   },
+   "conjunctions": [
+    {
+     "sign": "Virgo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    },
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Los Alamos: The Mesa He Chose",
+   "stop": "Bohr on the mesa: 'is it big enough?'",
+   "date": "1943-12-30",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2431088.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 7.42,
+    "text": "Capricornus 7°25′",
+    "longitude": 277.422
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 16.4,
+    "text": "Aquarius 16°24′",
+    "longitude": 316.405
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 24.8,
+    "text": "Capricornus 24°48′",
+    "longitude": 294.796
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 25.04,
+    "text": "Scorpio 25°03′",
+    "longitude": 235.043
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 5.66,
+    "text": "Gemini 5°40′",
+    "longitude": 65.66
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 26.62,
+    "text": "Leo 26°37′",
+    "longitude": 146.622
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 21.84,
+    "text": "Gemini 21°51′",
+    "longitude": 81.843
+   }
+  },
+  {
+   "segment": "Trinity and Hiroshima: The Jornada del Muerto and the Blood on the Hands",
+   "stop": "The Trinity tower: the gadget hoisted",
+   "date": "1945-07-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431651.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.15,
+    "text": "Cancer 22°09′",
+    "longitude": 112.149
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 26.87,
+    "text": "Virgo 26°52′",
+    "longitude": 176.871
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 17.44,
+    "text": "Leo 17°26′",
+    "longitude": 137.438
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 7.66,
+    "text": "Gemini 7°40′",
+    "longitude": 67.659
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 24.18,
+    "text": "Taurus 24°11′",
+    "longitude": 54.184
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 22.59,
+    "text": "Virgo 22°35′",
+    "longitude": 172.587
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 15.38,
+    "text": "Cancer 15°23′",
+    "longitude": 105.375
+   }
+  },
+  {
+   "segment": "Trinity and Hiroshima: The Jornada del Muerto and the Blood on the Hands",
+   "stop": "5:29:45: the false dawn, and the verse rising in him",
+   "date": "1945-07-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431652.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 23.1,
+    "text": "Cancer 23°06′",
+    "longitude": 113.103
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 8.93,
+    "text": "Libra 8°56′",
+    "longitude": 188.925
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 18.75,
+    "text": "Leo 18°45′",
+    "longitude": 138.747
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 8.72,
+    "text": "Gemini 8°43′",
+    "longitude": 68.72
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 24.88,
+    "text": "Taurus 24°53′",
+    "longitude": 54.883
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 22.74,
+    "text": "Virgo 22°44′",
+    "longitude": 172.739
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 15.5,
+    "text": "Cancer 15°30′",
+    "longitude": 105.505
+   }
+  },
+  {
+   "segment": "Trinity and Hiroshima: The Jornada del Muerto and the Blood on the Hands",
+   "stop": "Ground Zero at dawn: the sand turned to glass",
+   "date": "1945-07-16",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431652.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 23.1,
+    "text": "Cancer 23°06′",
+    "longitude": 113.103
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 8.93,
+    "text": "Libra 8°56′",
+    "longitude": 188.925
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 18.75,
+    "text": "Leo 18°45′",
+    "longitude": 138.747
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 8.72,
+    "text": "Gemini 8°43′",
+    "longitude": 68.72
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 24.88,
+    "text": "Taurus 24°53′",
+    "longitude": 54.883
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 22.74,
+    "text": "Virgo 22°44′",
+    "longitude": 172.739
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 15.5,
+    "text": "Cancer 15°30′",
+    "longitude": 105.505
+   }
+  },
+  {
+   "segment": "Trinity and Hiroshima: The Jornada del Muerto and the Blood on the Hands",
+   "stop": "Hiroshima: the shadow cast from the mesa",
+   "date": "1945-08-06",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431673.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 13.17,
+    "text": "Leo 13°10′",
+    "longitude": 133.171
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 18.42,
+    "text": "Cancer 18°25′",
+    "longitude": 108.417
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 4.78,
+    "text": "Virgo 4°47′",
+    "longitude": 154.784
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 1.75,
+    "text": "Cancer 1°45′",
+    "longitude": 91.749
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 9.22,
+    "text": "Gemini 9°13′",
+    "longitude": 69.221
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 26.28,
+    "text": "Virgo 26°17′",
+    "longitude": 176.285
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 18.16,
+    "text": "Cancer 18°10′",
+    "longitude": 108.16
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Trinity and Hiroshima: The Jornada del Muerto and the Blood on the Hands",
+   "stop": "The Oval Office: 'Mr President, I have blood on my hands'",
+   "date": "1945-10-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431753.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 1.22,
+    "text": "Scorpio 1°13′",
+    "longitude": 211.222
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.97,
+    "text": "Gemini 23°58′",
+    "longitude": 83.968
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 15.52,
+    "text": "Scorpio 15°31′",
+    "longitude": 225.524
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 7.22,
+    "text": "Libra 7°13′",
+    "longitude": 187.225
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 24.0,
+    "text": "Cancer 24°00′",
+    "longitude": 114.001
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 12.92,
+    "text": "Libra 12°55′",
+    "longitude": 192.924
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 24.7,
+    "text": "Cancer 24°42′",
+    "longitude": 114.704
+   }
+  },
+  {
+   "segment": "The Postwar Order and the H-Bomb Opposition",
+   "stop": "Washington: the Acheson-Lilienthal plan and the atomic conscience",
+   "date": "1946-03-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2431880.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.82,
+    "text": "Pisces 9°49′",
+    "longitude": 339.818
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Postwar Order and the H-Bomb Opposition",
+   "stop": "MIT: 'the physicists have known sin'",
+   "date": "1947-11-25",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432514.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 1.88,
+    "text": "Sagittarius 1°53′",
+    "longitude": 241.879
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 18.85,
+    "text": "Aries 18°51′",
+    "longitude": 18.852
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 12.53,
+    "text": "Scorpio 12°32′",
+    "longitude": 222.526
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 22.94,
+    "text": "Sagittarius 22°56′",
+    "longitude": 262.937
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 27.55,
+    "text": "Leo 27°33′",
+    "longitude": 147.553
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 6.97,
+    "text": "Sagittarius 6°58′",
+    "longitude": 246.973
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.62,
+    "text": "Leo 22°37′",
+    "longitude": 142.617
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Postwar Order and the H-Bomb Opposition",
+   "stop": "The GAC report: against the Super",
+   "date": "1949-10-30",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2433219.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 6.24,
+    "text": "Scorpio 6°15′",
+    "longitude": 216.245
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 21.14,
+    "text": "Aquarius 21°08′",
+    "longitude": 321.136
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 22.25,
+    "text": "Libra 22°15′",
+    "longitude": 202.246
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 22.12,
+    "text": "Sagittarius 22°07′",
+    "longitude": 262.121
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 1.68,
+    "text": "Virgo 1°41′",
+    "longitude": 151.676
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 25.04,
+    "text": "Capricornus 25°03′",
+    "longitude": 295.042
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 16.34,
+    "text": "Virgo 16°20′",
+    "longitude": 166.338
+   }
+  },
+  {
+   "segment": "1954: The Security Hearing and the Public Ruin",
+   "stop": "Room 2022, Building T-3: the martyr before the Board",
+   "date": "1954-04-12",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434844.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 21.56,
+    "text": "Aries 21°34′",
+    "longitude": 21.561
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 12.55,
+    "text": "Leo 12°33′",
+    "longitude": 132.548
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 27.77,
+    "text": "Pisces 27°46′",
+    "longitude": 357.773
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 9.27,
+    "text": "Taurus 9°16′",
+    "longitude": 39.266
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 29.72,
+    "text": "Sagittarius 29°43′",
+    "longitude": 269.718
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 21.84,
+    "text": "Gemini 21°50′",
+    "longitude": 81.835
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.28,
+    "text": "Scorpio 7°17′",
+    "longitude": 217.28
+   }
+  },
+  {
+   "segment": "1954: The Security Hearing and the Public Ruin",
+   "stop": "The cross-examination: 'because I was an idiot'",
+   "date": "1954-04-13",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434845.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.54,
+    "text": "Aries 22°32′",
+    "longitude": 22.541
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 24.89,
+    "text": "Leo 24°53′",
+    "longitude": 144.891
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 29.28,
+    "text": "Pisces 29°17′",
+    "longitude": 359.278
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 10.5,
+    "text": "Taurus 10°30′",
+    "longitude": 40.496
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 0.09,
+    "text": "Capricornus 0°05′",
+    "longitude": 270.088
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 22.0,
+    "text": "Gemini 22°00′",
+    "longitude": 81.999
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 7.21,
+    "text": "Scorpio 7°12′",
+    "longitude": 217.208
+   }
+  },
+  {
+   "segment": "1954: The Security Hearing and the Public Ruin",
+   "stop": "Teller's handshake: 'I would feel more secure'",
+   "date": "1954-04-28",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434860.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 7.18,
+    "text": "Taurus 7°11′",
+    "longitude": 37.182
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 29.79,
+    "text": "Aquarius 29°47′",
+    "longitude": 329.79
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 25.15,
+    "text": "Aries 25°09′",
+    "longitude": 25.148
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 28.89,
+    "text": "Taurus 28°54′",
+    "longitude": 58.892
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 4.87,
+    "text": "Capricornus 4°52′",
+    "longitude": 274.871
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 24.66,
+    "text": "Gemini 24°39′",
+    "longitude": 84.655
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 6.09,
+    "text": "Scorpio 6°05′",
+    "longitude": 216.087
+   }
+  },
+  {
+   "segment": "1954: The Security Hearing and the Public Ruin",
+   "stop": "The clearance stripped: the public ruin",
+   "date": "1954-05-27",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1954,
+   "jd_ut": 2434889.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 5.18,
+    "text": "Gemini 5°11′",
+    "longitude": 65.183
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 23.72,
+    "text": "Pisces 23°43′",
+    "longitude": 353.716
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 24.18,
+    "text": "Gemini 24°11′",
+    "longitude": 84.18
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 4.07,
+    "text": "Cancer 4°04′",
+    "longitude": 94.073
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 8.38,
+    "text": "Capricornus 8°23′",
+    "longitude": 278.381
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 0.57,
+    "text": "Cancer 0°34′",
+    "longitude": 90.571
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 4.06,
+    "text": "Scorpio 4°03′",
+    "longitude": 214.057
+   }
+  },
+  {
+   "segment": "Princeton: The Institute, Rehabilitation, and the End",
+   "stop": "The Institute for Advanced Study: Olympus of the mind",
+   "date": "1947-10-01",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432459.5,
+   "precision": "month",
+   "precision_triggers": [
+    "day 01 with no explicit day attestation: the atlas default for a month-only date"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 6.98,
+    "text": "Libra 6°59′",
+    "longitude": 186.981
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Princeton: The Institute, Rehabilitation, and the End",
+   "stop": "The Fermi Award: the rehabilitation",
+   "date": "1963-12-02",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438365.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.09,
+    "text": "Sagittarius 9°05′",
+    "longitude": 249.088
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 23.29,
+    "text": "Gemini 23°18′",
+    "longitude": 83.293
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 23.77,
+    "text": "Sagittarius 23°46′",
+    "longitude": 263.771
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 2.96,
+    "text": "Capricornus 2°57′",
+    "longitude": 272.957
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 27.45,
+    "text": "Sagittarius 27°27′",
+    "longitude": 267.452
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 9.52,
+    "text": "Aries 9°31′",
+    "longitude": 9.522
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 17.79,
+    "text": "Aquarius 17°48′",
+    "longitude": 317.793
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Princeton: The Institute, Rehabilitation, and the End",
+   "stop": "Olden Manor: the throat, the ash, the end",
+   "date": "1967-02-18",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439539.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 28.65,
+    "text": "Aquarius 28°39′",
+    "longitude": 328.653
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.44,
+    "text": "Gemini 2°26′",
+    "longitude": 62.44
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 16.63,
+    "text": "Pisces 16°38′",
+    "longitude": 346.626
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 22.67,
+    "text": "Pisces 22°40′",
+    "longitude": 352.674
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 1.22,
+    "text": "Scorpio 1°13′",
+    "longitude": 211.221
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 25.99,
+    "text": "Cancer 25°59′",
+    "longitude": 115.987
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 28.26,
+    "text": "Pisces 28°16′",
+    "longitude": 358.261
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Saturn"
+     ]
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "stops": 39,
+  "dated": 39,
+  "unparsed": 0,
+  "day": 20,
+  "month": 13,
+  "year": 6
+ },
+ "parse_failures": []
+}

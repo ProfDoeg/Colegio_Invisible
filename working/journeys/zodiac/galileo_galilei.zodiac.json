@@ -1,0 +1,2111 @@
+{
+ "slug": "galileo_galilei",
+ "traveler": "Galileo Galilei",
+ "title": "The Glass and the Sentence: Galileo Galilei from Pisa to Arcetri",
+ "years": "1564-1642",
+ "years_parsed": {
+  "first": 1564,
+  "last": 1642
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Lutenist's Son",
+  "stop": "Pisa, the parish of Sant'Andrea: the birth",
+  "date": "1564-02-15",
+  "date_confidence": "Date and city attested (Museo Galileo, Galileo's Life chronology: born February 15 in Pisa), as are the parents and his rank as eldest child. The house is not. The baptismal register places the family in the chapel of Sant'Andrea and the pin follows that; the traditional address in the Chiasso dei Mercanti, some three hundred metres west, was settled on only in the late nineteenth century and is local tradition, not document.",
+  "calendar_applied": "gregorian (proleptic)",
+  "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+  "astronomical_year": 1564,
+  "jd_ut": 2292343.5,
+  "precision": "year",
+  "precision_triggers": [
+   "traditional",
+   "decade/century"
+  ],
+  "sun": {
+   "sign": "Aquarius",
+   "degree": 25.4,
+   "text": "Aquarius 25°24′",
+   "longitude": 325.405
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1564-1642",
+  "first_year_parsed": 1564
+ },
+ "stops": [
+  {
+   "segment": "The Lutenist's Son",
+   "stop": "Pisa, the parish of Sant'Andrea: the birth",
+   "date": "1564-02-15",
+   "date_confidence": "Date and city attested (Museo Galileo, Galileo's Life chronology: born February 15 in Pisa), as are the parents and his rank as eldest child. The house is not. The baptismal register places the family in the chapel of Sant'Andrea and the pin follows that; the traditional address in the Chiasso dei Mercanti, some three hundred metres west, was settled on only in the late nineteenth century and is local tradition, not document.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1564,
+   "jd_ut": 2292343.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 25.4,
+    "text": "Aquarius 25°24′",
+    "longitude": 325.405
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lutenist's Son",
+   "stop": "Pisa, the Baptistery: the name given",
+   "date": "1564-02-19",
+   "date_confidence": "Attested; Museo Galileo chronology. Coordinate corrected to the Baptistery's own position, 43.72333 N, 10.39389 E.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1564,
+   "jd_ut": 2292347.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 29.43,
+    "text": "Aquarius 29°26′",
+    "longitude": 329.432
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 11.95,
+    "text": "Capricornus 11°57′",
+    "longitude": 281.954
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 0.29,
+    "text": "Pisces 0°18′",
+    "longitude": 330.292
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 12.34,
+    "text": "Pisces 12°21′",
+    "longitude": 342.345
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 25.43,
+    "text": "Taurus 25°26′",
+    "longitude": 55.426
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 0.03,
+    "text": "Leo 0°02′",
+    "longitude": 120.027
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 27.7,
+    "text": "Cancer 27°42′",
+    "longitude": 117.699
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Pisces",
+     "degree": 9.46,
+     "text": "Pisces 9°28′",
+     "longitude": 339.464
+    },
+    "moon": {
+     "sign": "Gemini",
+     "degree": 8.13,
+     "text": "Gemini 8°08′",
+     "longitude": 68.129
+    },
+    "mercury": {
+     "sign": "Pisces",
+     "degree": 19.37,
+     "text": "Pisces 19°22′",
+     "longitude": 349.366
+    },
+    "venus": {
+     "sign": "Pisces",
+     "degree": 24.8,
+     "text": "Pisces 24°48′",
+     "longitude": 354.798
+    },
+    "mars": {
+     "sign": "Gemini",
+     "degree": 0.73,
+     "text": "Gemini 0°44′",
+     "longitude": 60.729
+    },
+    "jupiter": {
+     "sign": "Cancer",
+     "degree": 29.13,
+     "text": "Cancer 29°08′",
+     "longitude": 119.131
+    },
+    "saturn": {
+     "sign": "Cancer",
+     "degree": 27.14,
+     "text": "Cancer 27°08′",
+     "longitude": 117.136
+    }
+   }
+  },
+  {
+   "segment": "The Lutenist's Son",
+   "stop": "Florence: the family follows the lute trade",
+   "date": "1574-01-01",
+   "date_confidence": "Year disputed and left unresolved: MacTutor gives 1572 for the move, with Galileo left behind in Pisa with a relative and joining at about ten; the Museo Galileo chronology gives 1574. Dated here to 1574; month and day unknown and defaulted.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1574,
+   "jd_ut": 2295951.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.31,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.306
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Lutenist's Son",
+   "stop": "Badia di Vallombrosa: the boy who wanted to stay",
+   "date": "1575-01-01",
+   "date_confidence": "Schooling dated c.1575-1578; month and day unknown and defaulted to 01. The novitiate and the eye inflammation given as the pretext for his removal descend from Vincenzo Viviani's Racconto istorico of 1654 and are tradition, not document. MacTutor calls the house Camaldolese; it is Vallombrosan, the mother house of the order.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1575,
+   "jd_ut": 2296316.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "c.",
+    "unknown",
+    "traditional",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.059
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medicine Abandoned, Mathematics Taken",
+   "stop": "University of Pisa: enrolled for medicine, taught Euclid",
+   "date": "1580-09-05",
+   "date_confidence": "Matriculation attested to 5 September 1580 (Museo Galileo). The Ricci course is dated by MacTutor to the academic year 1582-83 at Pisa, with a further meeting at Florence in the summer of 1583; the dossier's placement of the Euclid encounter at the Florentine court is wrong and is corrected here to Pisa.",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1580,
+   "jd_ut": 2298390.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.36,
+    "text": "Virgo 12°22′",
+    "longitude": 162.359
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 28.79,
+    "text": "Pisces 28°47′",
+    "longitude": 358.785
+   },
+   "mercury": {
+    "sign": "Libra",
+    "degree": 6.32,
+    "text": "Libra 6°19′",
+    "longitude": 186.321
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 19.91,
+    "text": "Libra 19°55′",
+    "longitude": 199.91
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 3.76,
+    "text": "Gemini 3°46′",
+    "longitude": 63.761
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 6.62,
+    "text": "Sagittarius 6°37′",
+    "longitude": 246.62
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 11.43,
+    "text": "Aquarius 11°26′",
+    "longitude": 311.434
+   },
+   "alternate": {
+    "calendar": "julian",
+    "note": "the same civil date read in the other calendar",
+    "sun": {
+     "sign": "Virgo",
+     "degree": 22.11,
+     "text": "Virgo 22°07′",
+     "longitude": 172.115
+    },
+    "moon": {
+     "sign": "Leo",
+     "degree": 6.06,
+     "text": "Leo 6°04′",
+     "longitude": 126.059
+    },
+    "mercury": {
+     "sign": "Libra",
+     "degree": 18.27,
+     "text": "Libra 18°16′",
+     "longitude": 198.272
+    },
+    "venus": {
+     "sign": "Libra",
+     "degree": 22.4,
+     "text": "Libra 22°24′",
+     "longitude": 202.397
+    },
+    "mars": {
+     "sign": "Gemini",
+     "degree": 8.08,
+     "text": "Gemini 8°05′",
+     "longitude": 68.082
+    },
+    "jupiter": {
+     "sign": "Sagittarius",
+     "degree": 7.74,
+     "text": "Sagittarius 7°45′",
+     "longitude": 247.743
+    },
+    "saturn": {
+     "sign": "Aquarius",
+     "degree": 10.91,
+     "text": "Aquarius 10°54′",
+     "longitude": 310.908
+    }
+   }
+  },
+  {
+   "segment": "Medicine Abandoned, Mathematics Taken",
+   "stop": "Pisa Cathedral, the nave: the lamp and the pulse",
+   "date": "1583-01-01",
+   "date_confidence": "Tradition, not document. Museo Galileo and MacTutor both give the observation under 1583, but nothing in Galileo's hand from that year records it; his earliest surviving statement of pendulum isochronism is the 1602 letter to Guidobaldo del Monte, nineteen years later. Month and day unknown and defaulted. Strict isochronism holds only for small arcs.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1583,
+   "jd_ut": 2299238.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.118
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medicine Abandoned, Mathematics Taken",
+   "stop": "Siena: lessons for hire",
+   "date": "1585-11-01",
+   "date_confidence": "Attested to 1585-1586 by MacTutor; the month is an ordering device only and the day is defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1585,
+   "jd_ut": 2300273.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "ordering",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.5,
+    "text": "Scorpio 8°30′",
+    "longitude": 218.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medicine Abandoned, Mathematics Taken",
+   "stop": "Florence: La bilancetta",
+   "date": "1586-01-01",
+   "date_confidence": "Composition attested to 1586; month and day unknown and defaulted. The tract circulated in manuscript and was first printed in 1644, two years after his death.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1586,
+   "jd_ut": 2300334.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.39,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.395
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medicine Abandoned, Mathematics Taken",
+   "stop": "Collegio Romano: an audience with Clavius",
+   "date": "1587-01-01",
+   "date_confidence": "Journey attested to 1587 (MacTutor: in the following year he travelled to Rome to visit Clavius); month and day unknown and defaulted. Coordinate corrected to the Collegio Romano itself, Piazza del Collegio Romano, 41.8980861 N, 12.4802611 E.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1587,
+   "jd_ut": 2300699.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.15,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.147
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Medicine Abandoned, Mathematics Taken",
+   "stop": "University of Pisa: the Dante lectures and the chair",
+   "date": "1589-11-12",
+   "date_confidence": "Both attested: the Accademia Fiorentina lectures on Dante to 1588 (MacTutor), the inaugural address at Pisa to 12 November 1589 with teaching beginning two days later (Museo Galileo). The geography lens gave the Dante lectures as 1587-1588; the chronology and MacTutor both give 1588, and 1588 is used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1589,
+   "jd_ut": 2301745.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 19.6,
+    "text": "Scorpio 19°36′",
+    "longitude": 229.605
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 8.85,
+    "text": "Capricornus 8°51′",
+    "longitude": 278.846
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 5.31,
+    "text": "Sagittarius 5°19′",
+    "longitude": 245.315
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 17.9,
+    "text": "Sagittarius 17°54′",
+    "longitude": 257.901
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 21.16,
+    "text": "Capricornus 21°10′",
+    "longitude": 291.164
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.01,
+    "text": "Libra 9°01′",
+    "longitude": 189.009
+   },
+   "saturn": {
+    "sign": "Gemini",
+    "degree": 12.83,
+    "text": "Gemini 12°50′",
+    "longitude": 72.828
+   }
+  },
+  {
+   "segment": "Medicine Abandoned, Mathematics Taken",
+   "stop": "The Leaning Tower of Pisa: the unequal weights",
+   "date": "1590-01-01",
+   "date_confidence": "Tradition, and disputed. The story rests solely on Viviani's account, written some sixty-five years after the fact from the recollection of an old and blind man. Galileo's own writings never mention the tower. Traditionally placed in his Pisan professorship, 1589-1592; the year here is an ordering device and the month and day are defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1590,
+   "jd_ut": 2301795.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "disputed",
+    "ordering",
+    "placed (the date)",
+    "(soft-year) year range",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.42,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.424
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Padua, the Eighteen Years",
+   "stop": "Padua, Palazzo del Bo: the Venetian chair",
+   "date": "1592-12-07",
+   "date_confidence": "Attested: Venetian Senate appointment 26 September 1592, first lecture 7 December (Museo Galileo gives teaching beginning 13 December; MacTutor gives the inaugural lecture on 7 December, and the discrepancy is left standing). Vincenzo Galilei's death is attested to 1591 without a day in the reachable sources. The 1593 Campanella meeting is staged in tommaso_campanella.journey.json, not in Galileo's own documents.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1592,
+   "jd_ut": 2302866.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 15.22,
+    "text": "Sagittarius 15°13′",
+    "longitude": 255.225
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Padua, the Eighteen Years",
+   "stop": "Venice: the patent for raising water",
+   "date": "1594-01-01",
+   "date_confidence": "Patent attested to 1594 with a twenty-year term and a three-hundred-ducat penalty (Rice University Galileo Project, patent text). Month and day unknown and defaulted. The Arsenal is a standing relationship across the Padua years, not a dated visit, and is described here rather than given a pin of its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1594,
+   "jd_ut": 2303256.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.45,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.453
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Padua, the Eighteen Years",
+   "stop": "Padua: the compass, the workshop, and a letter to Prague",
+   "date": "1597-01-01",
+   "date_confidence": "Both the compass and the opening of the Kepler correspondence are attested to 1597; month and day unknown and defaulted. Kepler was at Graz in 1597 and moved to Prague in 1600, and the correspondence continues from there.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1597,
+   "jd_ut": 2304352.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.73
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Padua, the Eighteen Years",
+   "stop": "San Lorenzo, Padua: the children of Marina Gamba",
+   "date": "1600-08-13",
+   "date_confidence": "Births attested: Virginia 13 August 1600, Livia 18 August 1601, Vincenzo 21 August 1606 (Museo Galileo). The stop is pinned at the parish church of San Lorenzo where the children were baptized; the precise footprint of the period church is approximate.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1600,
+   "jd_ut": 2305672.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) span/window"
+   ],
+   "notes": [
+    "hard triggers (approximately) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (span/window) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 20.27,
+    "text": "Leo 20°16′",
+    "longitude": 140.268
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 6.7,
+    "text": "Libra 6°42′",
+    "longitude": 186.704
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 3.88,
+    "text": "Virgo 3°53′",
+    "longitude": 153.884
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 7.5,
+    "text": "Leo 7°30′",
+    "longitude": 127.501
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 8.71,
+    "text": "Libra 8°42′",
+    "longitude": 188.708
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 29.73,
+    "text": "Leo 29°44′",
+    "longitude": 149.733
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 23.64,
+    "text": "Libra 23°38′",
+    "longitude": 203.639
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Venus",
+      "Jupiter"
+     ]
+    },
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Padua, the Eighteen Years",
+   "stop": "Padua: the Capra affair",
+   "date": "1607-01-01",
+   "date_confidence": "Attested to 1607; month and day unknown and defaulted. The dossier's claim that the Difesa appeared the following year is corrected: Capra's tract, the rectors' judgment, and Galileo's Difesa all fall in 1607, the Difesa published at Venice.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1607,
+   "jd_ut": 2308004.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°18′",
+    "longitude": 280.294
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Glass",
+   "stop": "Campanile di San Marco: the Senate looks through the tube",
+   "date": "1609-08-21",
+   "date_confidence": "August 1609 attested for the demonstration and the Senate's reward of tenure and a raised salary; the twenty-first is the conventional day and MacTutor dates the spyglass letter to May 1609 with the demonstration following within months. Power of the instrument given variously as eight or nine.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1609,
+   "jd_ut": 2308967.5,
+   "precision": "month",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 27.81,
+    "text": "Leo 27°49′",
+    "longitude": 147.809
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Glass",
+   "stop": "Padua, his own house: four points around Jupiter",
+   "date": "1610-01-13",
+   "date_confidence": "Nights of 7 to 13 January 1610 attested (Museo Galileo). The exact address of the Padua house is not given in the reachable sources; the coordinate approximates the university quarter where he lodged. Kepler's Dissertatio cum Nuncio Sidereo and the following year's Dioptrice are attested and are recorded on Kepler's own file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1610,
+   "jd_ut": 2309112.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (approximately, not given) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 22.8,
+    "text": "Capricornus 22°48′",
+    "longitude": 292.799
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 7.5,
+    "text": "Virgo 7°30′",
+    "longitude": 157.501
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 1.61,
+    "text": "Capricornus 1°36′",
+    "longitude": 271.608
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 23.56,
+    "text": "Sagittarius 23°33′",
+    "longitude": 263.556
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 7.21,
+    "text": "Sagittarius 7°12′",
+    "longitude": 247.206
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 12.05,
+    "text": "Gemini 12°03′",
+    "longitude": 72.053
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 11.7,
+    "text": "Aquarius 11°42′",
+    "longitude": 311.702
+   }
+  },
+  {
+   "segment": "The Glass",
+   "stop": "Venice: Sidereus nuncius",
+   "date": "1610-03-13",
+   "date_confidence": "Museo Galileo dates the publication to 12 March 1610, English Wikipedia to 13 March, MacTutor to May; the discrepancy is left standing and 13 March used. Edition of about 550 copies, printed at Venice by Thomas Baglioni.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1610,
+   "jd_ut": 2309171.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 22.28,
+    "text": "Pisces 22°17′",
+    "longitude": 352.278
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Glass",
+   "stop": "Palazzo Pitti, Florence: philosopher to the Grand Duke",
+   "date": "1610-09-01",
+   "date_confidence": "Sequence corrected against the dossier: he resigned Padua in June 1610, signed with the Medici in July, and did not reach Florence until September. Day within September unknown and defaulted. The phases of Venus are attested to the autumn of 1610. MacTutor's phrasing Chief Mathematician at the University of Pisa is misleading; the post carried no teaching duty.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1610,
+   "jd_ut": 2309343.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "sequencing"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.22,
+    "text": "Virgo 8°13′",
+    "longitude": 158.222
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome Confirms",
+   "stop": "Collegio Romano: the Jesuits check the sky",
+   "date": "1611-04-01",
+   "date_confidence": "Spring 1611 attested (MacTutor, Museo Galileo); day unknown and defaulted. Coordinate corrected to the Collegio Romano itself, 41.8980861 N, 12.4802611 E, replacing the dossier's 12.4823 which repeats across three Roman stops.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1611,
+   "jd_ut": 2309555.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.83,
+    "text": "Aries 10°50′",
+    "longitude": 10.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome Confirms",
+   "stop": "Accademia dei Lincei: Galileo Galilei Linceo",
+   "date": "1611-04-25",
+   "date_confidence": "Admission attested to 25 April 1611. The pin is Federico Cesi's Roman palace in Borgo, where the Lincei operated in 1611; the dossier's 41.9036/12.465 appears to be a transposition, and the Academy's modern seat at Palazzo Corsini, 41.89333/12.46667, postdates Galileo by centuries. The banquet at which Giovanni Demisiani coined telescopio is attested to that spring in Rome; its precise venue could not be confirmed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1611,
+   "jd_ut": 2309579.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 4.27,
+    "text": "Taurus 4°16′",
+    "longitude": 34.269
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome Confirms",
+   "stop": "Rome: the letters on sunspots",
+   "date": "1613-03-01",
+   "date_confidence": "Publication attested to March 1613 under Lincean auspices; day unknown and defaulted. Pinned at Cesi's Roman establishment, which financed and issued the book, rather than at a printing house whose address is not in the reachable sources.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1613,
+   "jd_ut": 2310255.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.58,
+    "text": "Pisces 10°35′",
+    "longitude": 340.582
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Scripture, and the Qualifiers of the Holy Office",
+   "stop": "Florence: the letter to Castelli",
+   "date": "1613-12-21",
+   "date_confidence": "Attested to 21 December 1613. The dinner conversation that prompted it took place at the Medici table with Castelli present; Galileo was not there. The letter circulated in manuscript and a copy of it reached the Holy Office in 1615.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1613,
+   "jd_ut": 2310550.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 29.38,
+    "text": "Sagittarius 29°23′",
+    "longitude": 269.385
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 21.25,
+    "text": "Aries 21°15′",
+    "longitude": 21.247
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 10.63,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.631
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 7.5,
+    "text": "Aquarius 7°30′",
+    "longitude": 307.504
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 20.27,
+    "text": "Sagittarius 20°16′",
+    "longitude": 260.267
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 22.73,
+    "text": "Libra 22°44′",
+    "longitude": 202.731
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.3,
+    "text": "Pisces 24°18′",
+    "longitude": 354.299
+   }
+  },
+  {
+   "segment": "Scripture, and the Qualifiers of the Holy Office",
+   "stop": "Santa Maria Novella: Caccini in the pulpit",
+   "date": "1614-12-21",
+   "date_confidence": "Attested to 21 December 1614 by the Museo Galileo chronology; the geography lens hedged 20-21 December and the chronology is followed. Coordinate corrected to the church itself, 43.7746 N, 11.2493 E. Galileo was not present: the stop records the pulpit from which the accusation against him was launched, not a scene he witnessed.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1614,
+   "jd_ut": 2310915.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 29.14,
+    "text": "Sagittarius 29°08′",
+    "longitude": 269.137
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 22.19,
+    "text": "Leo 22°12′",
+    "longitude": 142.194
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 18.8,
+    "text": "Capricornus 18°48′",
+    "longitude": 288.797
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 12.91,
+    "text": "Sagittarius 12°54′",
+    "longitude": 252.906
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 3.79,
+    "text": "Leo 3°47′",
+    "longitude": 123.791
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 17.87,
+    "text": "Scorpio 17°52′",
+    "longitude": 227.87
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 6.82,
+    "text": "Aries 6°49′",
+    "longitude": 6.818
+   }
+  },
+  {
+   "segment": "Scripture, and the Qualifiers of the Holy Office",
+   "stop": "Florence: the Letter to the Grand Duchess Christina",
+   "date": "1615-01-01",
+   "date_confidence": "Composition attested to 1615; month and day unknown and defaulted. The letter circulated only in manuscript in his lifetime and was first printed in 1636. The famous line about how one goes to heaven is quoted by Galileo from an unnamed ecclesiastic of the most eminent degree; the attribution to Cardinal Cesare Baronio is a later editorial identification and is not in the text.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1615,
+   "jd_ut": 2310926.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year named with preposition",
+    "(soft) editorial"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.35,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.353
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Scripture, and the Qualifiers of the Holy Office",
+   "stop": "Palace of the Holy Office, Rome: the qualifiers report",
+   "date": "1616-02-24",
+   "date_confidence": "Sequence corrected against the dossier, which slid it a day late: 19 February the propositions are referred to the theological qualifiers, 24 February the qualifiers report, 25 February the Pope instructs Bellarmine, 26 February Bellarmine admonishes Galileo. The quote's wording comes from the 1633 indictment reciting the 1616 censure; the direct 1616 report is conventionally rendered foolish and absurd in philosophy, and formally heretical.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1616,
+   "jd_ut": 2311345.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 4.84,
+    "text": "Pisces 4°51′",
+    "longitude": 334.842
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Scripture, and the Qualifiers of the Holy Office",
+   "stop": "Rome: Bellarmine's admonition",
+   "date": "1616-02-26",
+   "date_confidence": "Date attested to 26 February 1616. The venue is not: the admonition took place at Bellarmine's own residence, and the pin here follows the Jesuit quarter of the Collegio Romano with the coordinate corrected to 41.8981/12.4803. The discrepancy between the unsigned minute in the file and the certificate Bellarmine wrote out for Galileo on 26 May 1616 is real, unresolved in the record, and became the hinge of the 1633 prosecution.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1616,
+   "jd_ut": 2311347.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 6.85,
+    "text": "Pisces 6°51′",
+    "longitude": 336.848
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Scripture, and the Qualifiers of the Holy Office",
+   "stop": "Rome: the Index suspends Copernicus",
+   "date": "1616-03-05",
+   "date_confidence": "Attested to 5 March 1616. Campanella's Apologia pro Galileo is attested as written in 1616 in the prison of Castel Sant'Elmo and printed at Frankfurt in 1622; that stop belongs to Campanella and is on his own file, and is cited here as a relation, not staged as a scene.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1616,
+   "jd_ut": 2311355.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 14.85,
+    "text": "Pisces 14°51′",
+    "longitude": 344.852
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 1.13,
+    "text": "Libra 1°08′",
+    "longitude": 181.129
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 19.65,
+    "text": "Pisces 19°39′",
+    "longitude": 349.648
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 28.63,
+    "text": "Capricornus 28°38′",
+    "longitude": 298.626
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 3.63,
+    "text": "Pisces 3°38′",
+    "longitude": 333.632
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 26.11,
+    "text": "Sagittarius 26°07′",
+    "longitude": 266.11
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 24.41,
+    "text": "Aries 24°24′",
+    "longitude": 24.406
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Assayer and the Dialogue",
+   "stop": "Florence: the three comets",
+   "date": "1618-11-01",
+   "date_confidence": "The comets of 1618 are attested; the month here orders the segment and the day is defaulted. Galileo's authorship of the Discorso published under Mario Guiducci's name is attested as substantial but not total. Grassi's parallax argument placing the comets beyond the moon was correct and Galileo's counter-argument was not.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1618,
+   "jd_ut": 2312326.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 8.5,
+    "text": "Scorpio 8°30′",
+    "longitude": 218.498
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Assayer and the Dialogue",
+   "stop": "Rome: Il Saggiatore",
+   "date": "1623-10-01",
+   "date_confidence": "Publication attested to 1623 at Rome under Lincean auspices, with the dedication to the newly elected Urban VIII added while the book was at press; month and day unknown, the month used as an ordering device. Pinned at the Lincean establishment that financed and issued it.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1623,
+   "jd_ut": 2314121.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "year named only",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.43,
+    "text": "Libra 7°26′",
+    "longitude": 187.429
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Assayer and the Dialogue",
+   "stop": "The Vatican: six audiences with Urban VIII",
+   "date": "1624-05-10",
+   "date_confidence": "Six audiences in 1624 are given by the documentary biographies (Fantoli, Finocchiaro) synthesized in the dossier; the Museo Galileo chronology independently dates a papal audience with a microscope demonstration to 10 May 1624, and that day is used to order the stop. The precise chamber is not established. Urban's argument about divine omnipotence is attested and reappears in the mouth of Simplicio in 1632.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1624,
+   "jd_ut": 2314343.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (not established) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.6,
+    "text": "Taurus 19°36′",
+    "longitude": 49.599
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Assayer and the Dialogue",
+   "stop": "Florence: the Dialogo goes to press",
+   "date": "1632-02-22",
+   "date_confidence": "Publication attested to 22 February 1632 at Florence. The licensing history, split between the Roman and Florentine censors and interrupted by plague quarantine on the roads, is attested; the exact terms agreed at each stage are contested in the scholarship and are not adjudicated here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1632,
+   "jd_ut": 2317187.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 2.95,
+    "text": "Pisces 2°57′",
+    "longitude": 332.953
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 25.27,
+    "text": "Pisces 25°16′",
+    "longitude": 355.273
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 2.66,
+    "text": "Pisces 2°39′",
+    "longitude": 332.656
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 16.33,
+    "text": "Capricornus 16°20′",
+    "longitude": 286.326
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 10.59,
+    "text": "Leo 10°35′",
+    "longitude": 130.586
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 18.92,
+    "text": "Aries 18°55′",
+    "longitude": 18.917
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 28.32,
+    "text": "Scorpio 28°19′",
+    "longitude": 238.322
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Trial",
+   "stop": "Palazzo Firenze, Rome: lodging with the ambassador",
+   "date": "1633-02-13",
+   "date_confidence": "Summons attested to 1 October 1632; arrival in Rome attested to February 1633, conventionally the thirteenth. The quarantine delay at the Tuscan border and the pleas of ill health are attested; the reported threat to bring him in chains is standard in the biographies and is not re-verified against the original correspondence here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1633,
+   "jd_ut": 2317544.5,
+   "precision": "month",
+   "precision_triggers": [
+    "convention"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 24.66,
+    "text": "Aquarius 24°39′",
+    "longitude": 324.657
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Trial",
+   "stop": "Palace of the Holy Office: the first interrogation",
+   "date": "1633-04-12",
+   "date_confidence": "Attested to 12 April 1633. The comfortable conditions of his detention, rooms of a tribunal official with a servant and food from the embassy, are attested. Whether the unsigned 1616 precept was validly served remains unresolved in the scholarship and is not adjudicated here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1633,
+   "jd_ut": 2317602.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 22.27,
+    "text": "Aries 22°16′",
+    "longitude": 22.267
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Trial",
+   "stop": "Santa Maria sopra Minerva: the abjuration",
+   "date": "1633-06-22",
+   "date_confidence": "Date and sentence text attested (Museo Galileo). On 21 June he had been formally threatened with rigorous examination, the judicial preliminary to torture; nothing in the record shows torture was administered. The Minerva convent as venue is standard identification but is not named in the sentence document itself. The tradition that he then muttered Eppur si muove first appears in print in Giuseppe Baretti's The Italian Library, London 1757, one hundred and twenty-four years later; it is absent from the trial record, from his correspondence, and from Viviani's biography, and is carried here as legend only. Pin inherited from tommaso_campanella.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1633,
+   "jd_ut": 2317673.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "legend"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 0.59,
+    "text": "Cancer 0°35′",
+    "longitude": 90.587
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Trial",
+   "stop": "Siena, the Archbishop's palace: a gentler custody",
+   "date": "1633-07-09",
+   "date_confidence": "The Siena custody under Archbishop Ascanio Piccolomini is attested to July-December 1633; the day within July is an ordering device. The intermediate stay at the Villa Medici in Rome, attested to late June, is described here rather than given a pin of its own. The anonymous denunciations sent to Rome about Piccolomini's table talk are attested in the Holy Office file.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1633,
+   "jd_ut": 2317690.5,
+   "precision": "month",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 16.79,
+    "text": "Cancer 16°48′",
+    "longitude": 106.792
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Trial",
+   "stop": "Villa Il Gioiello, Arcetri: home, under guard",
+   "date": "1633-12-01",
+   "date_confidence": "Return attested to 1 December 1633 (Museo Galileo). Coordinate corrected to via del Pian dei Giullari 42, 43.7476 N, 11.2576 E; the dossier's 43.7519/11.2461 and the afterlife lens's 43.75917/11.2425 are both wrong and are not used. Descartes's withdrawal of Le Monde on hearing of the condemnation is attested in his correspondence with Mersenne and is staged on his own file at Deventer, not here.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1633,
+   "jd_ut": 2317835.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 9.17,
+    "text": "Sagittarius 9°10′",
+    "longitude": 249.174
+   },
+   "moon": {
+    "sign": "Sagittarius",
+    "degree": 4.47,
+    "text": "Sagittarius 4°28′",
+    "longitude": 244.473
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 12.27,
+    "text": "Sagittarius 12°16′",
+    "longitude": 252.27
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 2.41,
+    "text": "Scorpio 2°25′",
+    "longitude": 212.415
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 13.07,
+    "text": "Virgo 13°04′",
+    "longitude": 163.072
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 28.2,
+    "text": "Gemini 28°12′",
+    "longitude": 88.198
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 11.98,
+    "text": "Sagittarius 11°59′",
+    "longitude": 251.976
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Arcetri, and After",
+   "stop": "Convent of San Matteo, Arcetri: the death of Suor Maria Celeste",
+   "date": "1634-04-02",
+   "date_confidence": "Attested to 2 April 1634. The 124 surviving letters and the fact that his own side of the correspondence does not survive are attested through the Rice University Galileo Project, which the dossier names as its documentary basis and which was not re-fetched in this pass; the underlying dates are corroborated by Museo Galileo.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1634,
+   "jd_ut": 2317957.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 12.23,
+    "text": "Aries 12°14′",
+    "longitude": 12.23
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 2.82,
+    "text": "Gemini 2°49′",
+    "longitude": 62.819
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 15.84,
+    "text": "Aries 15°50′",
+    "longitude": 15.836
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 3.63,
+    "text": "Aries 3°38′",
+    "longitude": 3.63
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 12.87,
+    "text": "Virgo 12°52′",
+    "longitude": 162.875
+   },
+   "jupiter": {
+    "sign": "Gemini",
+    "degree": 24.32,
+    "text": "Gemini 24°19′",
+    "longitude": 84.324
+   },
+   "saturn": {
+    "sign": "Sagittarius",
+    "degree": 21.24,
+    "text": "Sagittarius 21°14′",
+    "longitude": 261.239
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Arcetri, and After",
+   "stop": "Costa San Giorgio, Florence: a blind man allowed a city",
+   "date": "1638-02-01",
+   "date_confidence": "February 1638 attested (Museo Galileo); the day is defaulted. The cause of the blindness is undetermined in the medical-history literature, cataract and glaucoma both being proposed. The inquisitor's phrase is quoted from the Museo Galileo chronology's rendering of his February 1638 report to Rome.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1638,
+   "jd_ut": 2319358.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 12.31,
+    "text": "Aquarius 12°19′",
+    "longitude": 312.309
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcetri, and After",
+   "stop": "Leiden: the Discorsi printed out of reach",
+   "date": "1638-07-01",
+   "date_confidence": "Publication attested to July 1638, printed by the Elzevirs at Leiden; day unknown and defaulted. That the manuscript left Italy past the censorship is attested; the precise route and the identity of every carrier are not established in the reachable sources.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1638,
+   "jd_ut": 2319508.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not established",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.97,
+    "text": "Cancer 8°58′",
+    "longitude": 98.967
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcetri, and After",
+   "stop": "Villa Il Gioiello: the last pupils",
+   "date": "1639-10-01",
+   "date_confidence": "Viviani joined the household in 1639 and Torricelli in 1641 (MacTutor); the month here orders the stop and the day is defaulted. The pendulum escapement drawing is attested; no working clock was built in his lifetime. Milton's visit is reported only by Milton himself in Areopagitica (1644), six years after the fact, and is not corroborated in Galileo's correspondence: tradition, not document.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1639,
+   "jd_ut": 2319965.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.55,
+    "text": "Libra 7°33′",
+    "longitude": 187.553
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Arcetri, and After",
+   "stop": "Villa Il Gioiello: four in the morning",
+   "date": "1642-01-08",
+   "date_confidence": "Death attested to 8 January 1642 (Museo Galileo). The hour, the two months of slow fever and palpitations, and the presence of Viviani and Torricelli at the bedside all come from Viviani's Racconto istorico, written twelve years later, and are his testimony rather than an independent record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1642,
+   "jd_ut": 2320795.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.94,
+    "text": "Capricornus 17°56′",
+    "longitude": 287.94
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 18.64,
+    "text": "Aries 18°39′",
+    "longitude": 18.643
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 27.26,
+    "text": "Sagittarius 27°16′",
+    "longitude": 267.26
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 19.86,
+    "text": "Sagittarius 19°52′",
+    "longitude": 259.862
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 7.35,
+    "text": "Sagittarius 7°21′",
+    "longitude": 247.349
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 16.17,
+    "text": "Aquarius 16°10′",
+    "longitude": 316.166
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 8.79,
+    "text": "Pisces 8°47′",
+    "longitude": 338.789
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Arcetri, and After",
+   "stop": "Santa Croce, Florence: the unmarked corner",
+   "date": "1642-01-09",
+   "date_confidence": "Burial attested to 9 January 1642, and the blocking of the planned Medici monument is attested by the Museo Galileo. The description of the original grave as an unconsecrated box beneath the bell tower comes from the English Wikipedia article on Galileo's middle finger; the precise room is described variously in the sources and is not adjudicated.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1642,
+   "jd_ut": 2320796.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.96,
+    "text": "Capricornus 18°58′",
+    "longitude": 288.959
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 1.19,
+    "text": "Taurus 1°12′",
+    "longitude": 31.195
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 27.47,
+    "text": "Sagittarius 27°28′",
+    "longitude": 267.466
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 21.1,
+    "text": "Sagittarius 21°06′",
+    "longitude": 261.104
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 8.05,
+    "text": "Sagittarius 8°03′",
+    "longitude": 248.045
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 16.39,
+    "text": "Aquarius 16°24′",
+    "longitude": 316.392
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 8.88,
+    "text": "Pisces 8°53′",
+    "longitude": 338.881
+   },
+   "conjunctions": [
+    {
+     "sign": "Sagittarius",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Arcetri, and After",
+   "stop": "Santa Croce, Florence: the tomb of 1737",
+   "date": "1737-03-12",
+   "date_confidence": "Transfer attested to 12 March 1737, financed from funds Vincenzo Viviani had left for the purpose. Three fingers and a tooth are named by the Museo Galileo; the fifth lumbar vertebra, given to the University of Padua by Domenico Thiene in 1823, is named by English Wikipedia, and the Museo Galileo's silence about it is a limit of its own holdings rather than a contradiction. Viviani's own remains were moved into the new grave. The tradition that Maria Celeste was reinterred alongside him is not supported by either source reached and is left flagged.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1737,
+   "jd_ut": 2355556.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 21.49,
+    "text": "Pisces 21°30′",
+    "longitude": 351.495
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 13,
+  "month": 7,
+  "year": 25
+ },
+ "parse_failures": []
+}

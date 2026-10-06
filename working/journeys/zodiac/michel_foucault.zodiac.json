@@ -1,0 +1,1810 @@
+{
+ "slug": "michel_foucault",
+ "traveler": "Paul-Michel Foucault",
+ "title": "The Asylum, the Prison, the Bathhouse: Foucault and the Institutions That Look Back",
+ "years": "1926-1984",
+ "years_parsed": {
+  "first": 1926,
+  "last": 1984
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Surgeon's House at Poitiers",
+  "stop": "Poitiers, birth in the surgeon's house",
+  "date": "1926-10-15",
+  "date_confidence": "attested",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1926,
+  "jd_ut": 2424803.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Libra",
+   "degree": 20.89,
+   "text": "Libra 20°53′",
+   "longitude": 200.887
+  },
+  "moon": {
+   "sign": "Capricornus",
+   "degree": 25.94,
+   "text": "Capricornus 25°57′",
+   "longitude": 295.944
+  },
+  "mercury": {
+   "sign": "Scorpio",
+   "degree": 7.68,
+   "text": "Scorpio 7°41′",
+   "longitude": 217.685
+  },
+  "venus": {
+   "sign": "Libra",
+   "degree": 11.4,
+   "text": "Libra 11°24′",
+   "longitude": 191.398
+  },
+  "mars": {
+   "sign": "Taurus",
+   "degree": 17.57,
+   "text": "Taurus 17°34′",
+   "longitude": 47.571
+  },
+  "jupiter": {
+   "sign": "Aquarius",
+   "degree": 17.46,
+   "text": "Aquarius 17°28′",
+   "longitude": 317.459
+  },
+  "saturn": {
+   "sign": "Scorpio",
+   "degree": 24.32,
+   "text": "Scorpio 24°19′",
+   "longitude": 234.324
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1926-1984",
+  "first_year_parsed": 1926
+ },
+ "stops": [
+  {
+   "segment": "The Surgeon's House at Poitiers",
+   "stop": "Poitiers, birth in the surgeon's house",
+   "date": "1926-10-15",
+   "date_confidence": "attested",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1926,
+   "jd_ut": 2424803.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 20.89,
+    "text": "Libra 20°53′",
+    "longitude": 200.887
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 25.94,
+    "text": "Capricornus 25°57′",
+    "longitude": 295.944
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 7.68,
+    "text": "Scorpio 7°41′",
+    "longitude": 217.685
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 11.4,
+    "text": "Libra 11°24′",
+    "longitude": 191.398
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 17.57,
+    "text": "Taurus 17°34′",
+    "longitude": 47.571
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 17.46,
+    "text": "Aquarius 17°28′",
+    "longitude": 317.459
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 24.32,
+    "text": "Scorpio 24°19′",
+    "longitude": 234.324
+   }
+  },
+  {
+   "segment": "The Surgeon's House at Poitiers",
+   "stop": "Poitiers, the lycee entered two years early",
+   "date": "1930-01-01",
+   "date_confidence": "the chronology lens gives the year 1930 with no month or day; day and month here are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2425977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.87,
+    "text": "Capricornus 9°52′",
+    "longitude": 279.867
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Surgeon's House at Poitiers",
+   "stop": "Poitiers, College Saint-Stanislas under the occupation",
+   "date": "1940-01-01",
+   "date_confidence": "contested year: the chronology lens says 1939, the geography lens 1940-1943, and the German occupation of France begins only in June 1940; 1940 is adopted here and the disagreement is recorded rather than resolved",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1940,
+   "jd_ut": 2429629.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.43,
+    "text": "Capricornus 9°26′",
+    "longitude": 279.431
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rue d'Ulm",
+   "stop": "Paris, Lycee Henri-IV and the class of Jean Hyppolite",
+   "date": "1945-01-01",
+   "date_confidence": "attested to 1945 by the chronology lens; month and day are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rue d'Ulm",
+   "stop": "Paris, the Ecole Normale Superieure at 45 rue d'Ulm",
+   "date": "1946-09-01",
+   "date_confidence": "attested for the September 1946 entrance, ranked fourth; the geography lens adds that this was his second attempt, which the chronology lens does not mention, and the two are left standing side by side",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2432064.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 7.96,
+    "text": "Virgo 7°58′",
+    "longitude": 157.962
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rue d'Ulm",
+   "stop": "Paris, the Sorbonne, a licence in psychology",
+   "date": "1949-01-01",
+   "date_confidence": "attested to 1949 by the chronology lens; month and day are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432917.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rue d'Ulm",
+   "stop": "Paris, the agregation failed, the Party joined",
+   "date": "1950-01-01",
+   "date_confidence": "attested to 1950 for the failure and the Party membership, 1951 for the pass; month and day are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1950,
+   "jd_ut": 2433282.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.01,
+    "text": "Capricornus 10°01′",
+    "longitude": 280.014
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rue d'Ulm",
+   "stop": "Paris, Hopital Sainte-Anne, the intern with no title",
+   "date": "1952-01-01",
+   "date_confidence": "the geography lens dates the Sainte-Anne period 1952-1955; month and day are placeholders. The interlock lens carries a different Sainte-Anne pin, 48.8236 / 2.3277, from the Barthes file; the disagreement is recorded in the report",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1952,
+   "jd_ut": 2434012.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.52,
+    "text": "Capricornus 9°31′",
+    "longitude": 279.519
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rue d'Ulm",
+   "stop": "Lille, the psychology lectures and an August in Italy",
+   "date": "1953-01-01",
+   "date_confidence": "attested to 1953 by the chronology lens; month and day are placeholders, and the coordinate is a city-centre geocode because the pool records no campus location",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1953,
+   "jd_ut": 2434378.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.291
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Northern Exile",
+   "stop": "Uppsala, the Maison de France and the medical library",
+   "date": "1955-01-01",
+   "date_confidence": "attested to 1955 by both lenses for the arrival; month and day are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1955,
+   "jd_ut": 2435108.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.8,
+    "text": "Capricornus 9°48′",
+    "longitude": 279.796
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Northern Exile",
+   "stop": "Warsaw, the Centre francais and the trap",
+   "date": "1958-10-01",
+   "date_confidence": "attested to October 1958 by the chronology lens; the geography lens gives the Warsaw period as 1958-1959",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1958,
+   "jd_ut": 2436477.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.31,
+    "text": "Libra 7°19′",
+    "longitude": 187.312
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Northern Exile",
+   "stop": "Hamburg, the Institut francais and the finished thesis",
+   "date": "1959-01-01",
+   "date_confidence": "contested year: the chronology lens puts the Hamburg post in 1958, the geography lens in 1959-1960, and French sources give the directorship as 1 October 1959 to 30 September 1960; 1959 is adopted here and the contradiction is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1959,
+   "jd_ut": 2436569.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.83,
+    "text": "Capricornus 9°50′",
+    "longitude": 279.826
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Folie et deraison",
+   "stop": "Clermont-Ferrand, the tenured post and the commute",
+   "date": "1960-10-01",
+   "date_confidence": "attested to October 1960 by the chronology lens; the geography lens gives the Clermont years as 1960-1966. The meeting with Daniel Defert is dated by the pool only as 'c. 1960s' and its placement in this stop is a reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1960,
+   "jd_ut": 2437208.5,
+   "precision": "month",
+   "precision_triggers": [
+    "c.",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.82,
+    "text": "Libra 7°49′",
+    "longitude": 187.819
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Folie et deraison",
+   "stop": "Paris, the Sorbonne, the soutenance of the thesis",
+   "date": "1961-05-20",
+   "date_confidence": "attested to 20 May 1961",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1961,
+   "jd_ut": 2437439.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.75,
+    "text": "Taurus 28°45′",
+    "longitude": 58.752
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 29.63,
+    "text": "Cancer 29°38′",
+    "longitude": 119.634
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 17.58,
+    "text": "Gemini 17°35′",
+    "longitude": 77.576
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 18.16,
+    "text": "Aries 18°10′",
+    "longitude": 18.16
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 7.37,
+    "text": "Leo 7°22′",
+    "longitude": 127.369
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 7.08,
+    "text": "Aquarius 7°05′",
+    "longitude": 307.084
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 29.74,
+    "text": "Capricornus 29°44′",
+    "longitude": 299.736
+   }
+  },
+  {
+   "segment": "Folie et deraison",
+   "stop": "Paris, Naissance de la clinique",
+   "date": "1963-01-01",
+   "date_confidence": "attested to 1963 by the chronology lens; month and day are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438030.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.86,
+    "text": "Capricornus 9°51′",
+    "longitude": 279.855
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Folie et deraison",
+   "stop": "Paris, in the room for Cogito et histoire de la folie",
+   "date": "1963-03-04",
+   "date_confidence": "[A] the lecture at the College philosophique on 4 March 1963, with Foucault present, is attested (Wikipedia, 'Michel Foucault'; Wikipedia, 'Cogito and the History of Madness'; Derrida, 'Cogito et histoire de la folie', collected in L'ecriture et la difference, 1967). The coordinate is inherited byte-identical from the same stop in jacques_derrida.journey.json, which is the pool's pin for the College philosophique and is not verified against a street address. [A] Foucault's reply is dated 1972: 'Reponse a Derrida' in the Japanese journal Paideia no. 11, 1 February 1972, and 'Mon corps, ce papier, ce feu', a longer version of the same argument, carried in the 1972 Gallimard edition of the book. Contradiction left standing: some accounts call both pieces appendices to that edition, while the Cairn.info collation puts only 'Mon corps, ce papier, ce feu' in the volume, as Appendix II beside 'La folie, l'absence d'oeuvre'. [A] Jean Khalfa states the two stopped communicating for ten years; the campa's 'better part of a decade' is deliberately looser than the round number.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1963,
+   "jd_ut": 2438092.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed, decade/century) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 12.7,
+    "text": "Pisces 12°42′",
+    "longitude": 342.704
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 28.82,
+    "text": "Gemini 28°49′",
+    "longitude": 88.819
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 21.89,
+    "text": "Aquarius 21°54′",
+    "longitude": 321.894
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 29.45,
+    "text": "Capricornus 29°27′",
+    "longitude": 299.453
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 6.34,
+    "text": "Leo 6°21′",
+    "longitude": 126.343
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 22.46,
+    "text": "Pisces 22°28′",
+    "longitude": 352.465
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 17.12,
+    "text": "Aquarius 17°07′",
+    "longitude": 317.115
+   }
+  },
+  {
+   "segment": "Folie et deraison",
+   "stop": "Paris, Les Mots et les choses sells like hot cakes",
+   "date": "1966-04-01",
+   "date_confidence": "attested to April 1966 by the chronology lens; the day is a placeholder",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439216.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.83,
+    "text": "Aries 10°50′",
+    "longitude": 10.831
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Folie et deraison",
+   "stop": "Paris, the rue d'Ulm, called into Lacan's seminar",
+   "date": "1966-05-18",
+   "date_confidence": "[A] attested to the day: the session of 18 May 1966 of Lacan's Seminaire XIII, L'objet de la psychanalyse, is built on the Las Meninas chapter of Les Mots et les choses, with Foucault present. [A] Lacan's seminar sits at the Ecole Normale Superieure from January 1964 to 1968, so the room is the rue d'Ulm; the Sainte-Anne pin carried elsewhere in this file, 48.8283 / 2.3391, would be wrong for this date, and summaries that place the session there are left contradicted rather than quietly followed. The pin is the corpus value for 45 rue d'Ulm, shared byte-identical with jacques_lacan.journey.json; the research pool proposed 48.8413 / 2.3454",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439263.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 26.63,
+    "text": "Taurus 26°38′",
+    "longitude": 56.625
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tunis",
+   "stop": "Tunis, the chair at the university",
+   "date": "1966-09-01",
+   "date_confidence": "attested to September 1966 by the chronology lens; the day is a placeholder",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1966,
+   "jd_ut": 2439369.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.12,
+    "text": "Virgo 8°07′",
+    "longitude": 158.121
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tunis",
+   "stop": "Sidi Bou Said, the villa above the sea",
+   "date": "1967-01-01",
+   "date_confidence": "the geography lens dates the residence 1966-1968; month and day are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1967,
+   "jd_ut": 2439491.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.89,
+    "text": "Capricornus 9°53′",
+    "longitude": 279.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Tunis",
+   "stop": "Tunis, the crackdown on the students",
+   "date": "1968-03-01",
+   "date_confidence": "contested date: the geography lens places the repression that shook him in June 1968, the chronology lens attests anti-government riots in June 1967, and the March 1968 student movement is the crackdown the biographies describe; March 1968 is adopted and the disagreement is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2439916.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.49,
+    "text": "Pisces 10°29′",
+    "longitude": 340.485
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vincennes and the Chair",
+   "stop": "Vincennes, the philosophy department of Paris VIII",
+   "date": "1968-12-01",
+   "date_confidence": "the chronology lens gives only 1968; the experimental centre at Vincennes opens its philosophy department in December 1968 and teaches from January 1969, so the month here is a reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1968,
+   "jd_ut": 2440191.5,
+   "precision": "month",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.87,
+    "text": "Sagittarius 8°52′",
+    "longitude": 248.872
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Vincennes and the Chair",
+   "stop": "Paris, the College de France, Qu'est-ce qu'un auteur?",
+   "date": "1969-02-22",
+   "date_confidence": "[A] attested to the day and the hour: the Societe francaise de philosophie opens at 4.45 pm on 22 February 1969 in salle 6 of the College de France, Jean Wahl presiding, with Lacan, Jean Ullmo, Maurice de Gandillac, Lucien Goldmann and Jean d'Ormesson present; lecture and discussion in the Bulletin de la Societe francaise de philosophie 63:3, juillet-septembre 1969, pp. 73-104. [A] this is not a College de France course: he holds no chair there yet and is elected fourteen months later, and it is not the Sorbonne, where the same society heard Derrida in 1968. The pin is this file's College de France value, shared byte-identical with jacques_lacan.journey.json; the research pool proposed 48.8489 / 2.3455",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1969,
+   "jd_ut": 2440274.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 3.2,
+    "text": "Pisces 3°12′",
+    "longitude": 333.204
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.84,
+    "text": "Taurus 8°51′",
+    "longitude": 38.843
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 6.53,
+    "text": "Aquarius 6°32′",
+    "longitude": 306.526
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 16.94,
+    "text": "Aries 16°57′",
+    "longitude": 16.942
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 28.49,
+    "text": "Scorpio 28°30′",
+    "longitude": 238.493
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 4.43,
+    "text": "Libra 4°26′",
+    "longitude": 184.427
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 21.93,
+    "text": "Aries 21°56′",
+    "longitude": 21.931
+   }
+  },
+  {
+   "segment": "Vincennes and the Chair",
+   "stop": "Paris, the College de France, the election",
+   "date": "1970-04-12",
+   "date_confidence": "the chronology lens dates the election to November 1969; the College de France's own chair records state that the chair Histoire des systemes de pensee was created in November 1969 and that Foucault was elected on 12 April 1970 by 24 votes of 39 cast. The College's date is adopted and the conflation is recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440688.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 21.68,
+    "text": "Aries 21°41′",
+    "longitude": 21.684
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 3.31,
+    "text": "Cancer 3°18′",
+    "longitude": 93.307
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 9.69,
+    "text": "Taurus 9°41′",
+    "longitude": 39.689
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 10.59,
+    "text": "Taurus 10°35′",
+    "longitude": 40.588
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 25.31,
+    "text": "Taurus 25°18′",
+    "longitude": 55.307
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 2.28,
+    "text": "Scorpio 2°17′",
+    "longitude": 212.279
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 9.39,
+    "text": "Taurus 9°23′",
+    "longitude": 39.391
+   },
+   "conjunctions": [
+    {
+     "sign": "Taurus",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Vincennes and the Chair",
+   "stop": "Paris, the inaugural lecture",
+   "date": "1970-12-01",
+   "date_confidence": "attested to December 1970 by the chronology lens; the day is a placeholder, and the lecture is generally dated 2 December 1970",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1970,
+   "jd_ut": 2440921.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.38,
+    "text": "Sagittarius 8°23′",
+    "longitude": 248.38
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prisons",
+   "stop": "Paris, the Groupe d'Information sur les Prisons is declared",
+   "date": "1971-02-01",
+   "date_confidence": "attested to February 1971 by the chronology lens; the day is a placeholder",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2440983.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 11.47,
+    "text": "Aquarius 11°28′",
+    "longitude": 311.474
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prisons",
+   "stop": "Paris, the gates of La Sante",
+   "date": "1971-05-01",
+   "date_confidence": "the geography lens dates the GIP actions at La Sante to 1971-1972 without exact days; May 1971 is a placement inside that span, not an attested date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2441072.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "notes": [
+    "soft triggers (year range, span/window) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.99,
+    "text": "Taurus 9°59′",
+    "longitude": 39.986
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 25.01,
+    "text": "Cancer 25°01′",
+    "longitude": 115.012
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 23.38,
+    "text": "Aries 23°23′",
+    "longitude": 23.381
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 8.85,
+    "text": "Aries 8°51′",
+    "longitude": 8.848
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 28.47,
+    "text": "Capricornus 28°28′",
+    "longitude": 298.474
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 4.22,
+    "text": "Sagittarius 4°13′",
+    "longitude": 244.216
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 23.77,
+    "text": "Taurus 23°46′",
+    "longitude": 53.769
+   }
+  },
+  {
+   "segment": "The Prisons",
+   "stop": "Paris, the Goutte d'Or and Djellali Ben Ali",
+   "date": "1971-11-01",
+   "date_confidence": "attested to November 1971 by the chronology lens; the day is a placeholder",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2441256.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 7.91,
+    "text": "Scorpio 7°55′",
+    "longitude": 217.912
+   },
+   "sun_range": [
+    "Scorpio",
+    "Sagittarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Scorpio -> Sagittarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prisons",
+   "stop": "Toul, the revolt in the central prison",
+   "date": "1971-12-01",
+   "date_confidence": "the geography lens dates the GIP's Toul work to 1971-1972; the revolt at the maison centrale breaks out in December 1971",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1971,
+   "jd_ut": 2441286.5,
+   "precision": "month",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.13,
+    "text": "Sagittarius 8°08′",
+    "longitude": 248.134
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prisons",
+   "stop": "Attica, the prison seven months after the massacre",
+   "date": "1972-04-01",
+   "date_confidence": "the geography lens dates the visit to April 1972; the day is a placeholder",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441408.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 11.37,
+    "text": "Aries 11°22′",
+    "longitude": 11.371
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prisons",
+   "stop": "Paris, arrested beside Jean Genet",
+   "date": "1972-12-01",
+   "date_confidence": "attested to December 1972 by the chronology lens; the day is a placeholder",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1972,
+   "jd_ut": 2441652.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.9,
+    "text": "Sagittarius 8°54′",
+    "longitude": 248.901
+   },
+   "sun_range": [
+    "Sagittarius",
+    "Capricornus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Sagittarius -> Capricornus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Prisons",
+   "stop": "Paris, Surveiller et punir",
+   "date": "1975-01-01",
+   "date_confidence": "attested to 1975 by the chronology lens; month and day are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442413.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.94,
+    "text": "Capricornus 9°57′",
+    "longitude": 279.944
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "California, Japan, Iran",
+   "stop": "Death Valley, LSD at Zabriskie Point",
+   "date": "1975-05-01",
+   "date_confidence": "the geography lens dates the trip to May 1975; the day is a placeholder and the account rests on Simeon Wade's memoir, published in 2019",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442533.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 10.02,
+    "text": "Taurus 10°01′",
+    "longitude": 40.018
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "California, Japan, Iran",
+   "stop": "San Francisco, the Castro and the baths",
+   "date": "1975-07-01",
+   "date_confidence": "the geography lens spans 1975-1983 with no dated visit; July 1975 is a placement inside that span rather than an attested date",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1975,
+   "jd_ut": 2442594.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "notes": [
+    "soft triggers (year range, span/window) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.56,
+    "text": "Cancer 8°34′",
+    "longitude": 98.565
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 0.97,
+    "text": "Aries 0°58′",
+    "longitude": 0.971
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 17.76,
+    "text": "Gemini 17°46′",
+    "longitude": 77.763
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 23.3,
+    "text": "Leo 23°18′",
+    "longitude": 143.303
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 29.88,
+    "text": "Aries 29°53′",
+    "longitude": 29.879
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 21.59,
+    "text": "Aries 21°35′",
+    "longitude": 21.589
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 20.69,
+    "text": "Cancer 20°41′",
+    "longitude": 110.686
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "California, Japan, Iran",
+   "stop": "Paris, La Volonte de savoir",
+   "date": "1976-01-01",
+   "date_confidence": "attested to 1976 by the chronology lens; month and day are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1976,
+   "jd_ut": 2442778.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.7,
+    "text": "Capricornus 9°42′",
+    "longitude": 279.697
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "California, Japan, Iran",
+   "stop": "Paris, a rib broken for Klaus Croissant",
+   "date": "1977-01-01",
+   "date_confidence": "the chronology lens gives only 1977; the extradition of Klaus Croissant to West Germany takes place in November 1977, so the month and day here are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1977,
+   "jd_ut": 2443144.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.47,
+    "text": "Capricornus 10°28′",
+    "longitude": 280.469
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "California, Japan, Iran",
+   "stop": "Tokyo, the lectures on power and madness",
+   "date": "1978-04-01",
+   "date_confidence": "attested to April 1978 by the chronology lens; the day is a placeholder",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443599.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.92,
+    "text": "Aries 10°55′",
+    "longitude": 10.923
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "California, Japan, Iran",
+   "stop": "Uenohara, zazen at the Seionji temple",
+   "date": "1978-04-01",
+   "date_confidence": "the temple is given as Seionji at Uenohara by the chronology lens and as a differently named Rinzai temple by some secondary accounts, with a few placing the retreat near Kyoto; the coordinate is the geocode of Uenohara, Yamanashi, and the identification is a reconstruction",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443599.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.92,
+    "text": "Aries 10°55′",
+    "longitude": 10.923
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "California, Japan, Iran",
+   "stop": "Tehran, reporting the revolution",
+   "date": "1978-09-01",
+   "date_confidence": "attested to September 1978 by the geography lens; the chronology lens dates the assignment to 1978 after the Black Friday massacre of 8 September",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443752.5,
+   "precision": "month",
+   "precision_triggers": [
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.22,
+    "text": "Virgo 8°13′",
+    "longitude": 158.216
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "California, Japan, Iran",
+   "stop": "Qom, the clerical city",
+   "date": "1978-09-01",
+   "date_confidence": "attested to September 1978 by the geography lens; the day is a placeholder and the Qom visit shares the dating of the Tehran assignment",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443752.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.22,
+    "text": "Virgo 8°13′",
+    "longitude": 158.216
+   },
+   "sun_range": [
+    "Virgo",
+    "Libra"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Virgo -> Libra; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "California, Japan, Iran",
+   "stop": "Neauphle-le-Chateau, at the edge of the exile's garden",
+   "date": "1978-10-01",
+   "date_confidence": "reconstruction: the geography lens dates this only to 1978 and tags the contact as disputed among biographers; Khomeini's exile at Neauphle-le-Chateau runs from October 1978, which fixes the month by inference rather than by attestation",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1978,
+   "jd_ut": 2443782.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.47,
+    "text": "Libra 7°28′",
+    "longitude": 187.467
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Warsaw, the convoy for Solidarity",
+   "date": "1982-01-01",
+   "date_confidence": "the geography lens dates the mission to January 1982, a month after the declaration of martial law; the day is a placeholder and the entry is tagged as a reconstruction in the pool",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1982,
+   "jd_ut": 2444970.5,
+   "precision": "month",
+   "precision_triggers": [
+    "placeholder",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.25,
+    "text": "Capricornus 10°15′",
+    "longitude": 280.251
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Berkeley, the annual chair he agrees to",
+   "date": "1983-01-01",
+   "date_confidence": "attested to 1983 by the Stanford Encyclopedia of Philosophy; month and day are placeholders",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1983,
+   "jd_ut": 2445335.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.0,
+    "text": "Capricornus 10°00′",
+    "longitude": 280.003
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Paris, 289 rue de Vaugirard, the last two books",
+   "date": "1984-01-01",
+   "date_confidence": "the flat is dated 1970s-1984 by the geography lens; January 1984 marks the last College de France course and the final revision of the two volumes, which appear in the spring",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445700.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.76,
+    "text": "Capricornus 9°45′",
+    "longitude": 279.756
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Paris, the Pitie-Salpetriere",
+   "date": "1984-06-25",
+   "date_confidence": "attested to 25 June 1984; the pool carries three different coordinates for the hospital and the value used here is the one the afterlife lens settles on",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445876.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 3.63,
+    "text": "Cancer 3°38′",
+    "longitude": 93.631
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 13.05,
+    "text": "Taurus 13°03′",
+    "longitude": 43.051
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 5.98,
+    "text": "Cancer 5°59′",
+    "longitude": 95.981
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 6.12,
+    "text": "Cancer 6°07′",
+    "longitude": 96.121
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 11.85,
+    "text": "Scorpio 11°51′",
+    "longitude": 221.851
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.64,
+    "text": "Capricornus 8°39′",
+    "longitude": 278.645
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 10.08,
+    "text": "Scorpio 10°05′",
+    "longitude": 220.083
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Vendeuvre-du-Poitou, the village cemetery",
+   "date": "1984-06-29",
+   "date_confidence": "attested to 29 June 1984; the pool gives three coordinates for the cemetery, from 0.2833 to 0.3260 in longitude, and the value used here is the midpoint the corrections recommend",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2445880.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 7.44,
+    "text": "Cancer 7°27′",
+    "longitude": 97.445
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 5.66,
+    "text": "Cancer 5°39′",
+    "longitude": 95.658
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 14.55,
+    "text": "Cancer 14°33′",
+    "longitude": 104.546
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 11.04,
+    "text": "Cancer 11°02′",
+    "longitude": 101.037
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 12.24,
+    "text": "Scorpio 12°14′",
+    "longitude": 222.235
+   },
+   "jupiter": {
+    "sign": "Capricornus",
+    "degree": 8.13,
+    "text": "Capricornus 8°08′",
+    "longitude": 278.134
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 9.98,
+    "text": "Scorpio 9°59′",
+    "longitude": 219.978
+   },
+   "conjunctions": [
+    {
+     "sign": "Cancer",
+     "bodies": [
+      "Sun",
+      "Moon",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Last Years",
+   "stop": "Paris, what Defert does with the death",
+   "date": "1984-12-01",
+   "date_confidence": "AIDES is founded in 1984, the month unrecorded in the pool; the later events named here run from 1990 to 2018 and are gathered into this stop rather than given pins of their own",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1984,
+   "jd_ut": 2446035.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unrecorded",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.99,
+    "text": "Sagittarius 8°59′",
+    "longitude": 248.991
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 47,
+  "dated": 47,
+  "unparsed": 0,
+  "day": 9,
+  "month": 22,
+  "year": 16
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1974 @@
+{
+ "slug": "tommaso_campanella",
+ "traveler": "Tommaso Campanella (baptized Giovanni Domenico Campanella)",
+ "title": "The City in the Cell: Calabria, the Neapolitan Fortresses, and the Sun that Was Never Built",
+ "years": "1568-1639",
+ "years_parsed": {
+  "first": 1568,
+  "last": 1639
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Convent Circuit of Calabria",
+  "stop": "Stilo, the birth under the comet",
+  "date": "1568-09-05",
+  "date_confidence": "date attested (it.wikipedia; Britannica); birthplace contested and unresolved, a 1968 Italian ministerial decree designates a building at Stignano and the fetched text of en.wikipedia lists Stignano, while it.wikipedia and the scholarly tradition give Stilo; the comet and the caul are tradition reported by biographers, not documents",
+  "calendar_applied": "gregorian (proleptic)",
+  "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+  "astronomical_year": 1568,
+  "jd_ut": 2294007.5,
+  "precision": "year",
+  "precision_triggers": [
+   "disputed"
+  ],
+  "notes": [
+   "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+  ],
+  "sun": {
+   "sign": "Virgo",
+   "degree": 12.27,
+   "text": "Virgo 12°16′",
+   "longitude": 162.266
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1568-1639",
+  "first_year_parsed": 1568
+ },
+ "stops": [
+  {
+   "segment": "The Convent Circuit of Calabria",
+   "stop": "Stilo, the birth under the comet",
+   "date": "1568-09-05",
+   "date_confidence": "date attested (it.wikipedia; Britannica); birthplace contested and unresolved, a 1968 Italian ministerial decree designates a building at Stignano and the fetched text of en.wikipedia lists Stignano, while it.wikipedia and the scholarly tradition give Stilo; the comet and the caul are tradition reported by biographers, not documents",
+   "calendar_applied": "gregorian (proleptic)",
+   "calendar_note": "journey declares gregorian but the date is before 1582-10-15: proleptic Gregorian applied as declared; Julian alternative given",
+   "astronomical_year": 1568,
+   "jd_ut": 2294007.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "notes": [
+    "hard triggers (traditional) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.27,
+    "text": "Virgo 12°16′",
+    "longitude": 162.266
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Convent Circuit of Calabria",
+   "stop": "Placanica, the novitiate",
+   "date": "1583-01-01",
+   "date_confidence": "year attested (it.wikipedia); en.wikipedia states he entered the order before the age of fourteen, i.e. before 1582, which the Italian chronology does not support; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1583,
+   "jd_ut": 2299238.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "to the year",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.12,
+    "text": "Capricornus 10°07′",
+    "longitude": 280.118
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Convent Circuit of Calabria",
+   "stop": "San Giorgio Morgeto, the vows and the name",
+   "date": "1583-06-01",
+   "date_confidence": "year attested (it.wikipedia); month not recorded and defaulted to mid-year for order within 1583; the age of fifteen conflicts with en.wikipedia's 'before age 14'",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1583,
+   "jd_ut": 2299389.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "to the year"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.67,
+    "text": "Gemini 9°40′",
+    "longitude": 69.668
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Convent Circuit of Calabria",
+   "stop": "Nicastro, the schooling in the system he will attack",
+   "date": "1585-01-01",
+   "date_confidence": "year attested (it.wikipedia); the full sequence of Calabrian houses is a biographers' reconstruction, the province had no single seminary; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1585,
+   "jd_ut": 2299969.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "sequencing",
+    "to the year",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.64,
+    "text": "Capricornus 10°39′",
+    "longitude": 280.642
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Convent Circuit of Calabria",
+   "stop": "Cosenza, the book that undoes theology",
+   "date": "1588-01-01",
+   "date_confidence": "attested (it.wikipedia; SEP: read Telesio's De rerum natura in 1588 at Cosenza); accounts stating Telesio died 'the year before' are wrong, he died at Cosenza on 2 October 1588; month of arrival unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1588,
+   "jd_ut": 2301064.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.9,
+    "text": "Capricornus 9°54′",
+    "longitude": 279.899
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Convent Circuit of Calabria",
+   "stop": "Naples, San Domenico Maggiore",
+   "date": "1590-01-01",
+   "date_confidence": "attested for the Naples years (Ernst 2010; Headley 1997); Bruno's residence in the same convent is attested in giordano_bruno.journey.json, the parallel between the two friars is reconstruction [R]; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1590,
+   "jd_ut": 2301795.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.42,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.424
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Convent Circuit of Calabria",
+   "stop": "Naples, the first cell",
+   "date": "1591-01-01",
+   "date_confidence": "book completed August 1589, arrest dated 1591 (it.wikipedia; en.wikipedia); the month of the arrest is not recorded and is defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1591,
+   "jd_ut": 2302160.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.18,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.176
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "North, One Stage Ahead of the Agents",
+   "stop": "Naples, the tribunal and the order to Altomonte",
+   "date": "1592-08-28",
+   "date_confidence": "date attested (it.wikipedia); the earlier Altomonte student posting rests on order registers cited by Amabile (1882) and not independently verified [R], and an account naming the house there as 'San Francesco' is wrong, that foundation is Minim",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1592,
+   "jd_ut": 2302765.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 4.69,
+    "text": "Virgo 4°41′",
+    "longitude": 154.687
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 8.82,
+    "text": "Taurus 8°49′",
+    "longitude": 38.819
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 10.08,
+    "text": "Virgo 10°05′",
+    "longitude": 160.084
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 25.35,
+    "text": "Leo 25°21′",
+    "longitude": 145.352
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 28.72,
+    "text": "Leo 28°43′",
+    "longitude": 148.715
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 10.18,
+    "text": "Sagittarius 10°11′",
+    "longitude": 250.185
+   },
+   "saturn": {
+    "sign": "Cancer",
+    "degree": 22.83,
+    "text": "Cancer 22°50′",
+    "longitude": 112.827
+   }
+  },
+  {
+   "segment": "North, One Stage Ahead of the Agents",
+   "stop": "Florence, the audience with Ferdinando I",
+   "date": "1592-09-01",
+   "date_confidence": "the journey is attested (it.wikipedia); the substance of the audience is disputed between accounts, some inflating it into a courtship of Medici patronage and others treating it as a courtesy stop, and is not adjudicated; day unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1592,
+   "jd_ut": 2302769.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 8.57,
+    "text": "Virgo 8°34′",
+    "longitude": 158.566
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "North, One Stage Ahead of the Agents",
+   "stop": "Bologna, the manuscripts seized",
+   "date": "1592-10-01",
+   "date_confidence": "attested to October 1592 (it.wikipedia; Ernst 2010); day unknown, defaulted; the contents of the lost manuscripts are a gap no source fills",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1592,
+   "jd_ut": 2302799.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.93,
+    "text": "Libra 7°56′",
+    "longitude": 187.931
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "North, One Stage Ahead of the Agents",
+   "stop": "Padua, the meeting with Galileo",
+   "date": "1593-01-01",
+   "date_confidence": "attested (it.wikipedia; SEP); accounts claiming the two never met, and that the acquaintance is only inferred from later correspondence, are contradicted by both sources; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1593,
+   "jd_ut": 2302891.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "inferred",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.7,
+    "text": "Capricornus 10°42′",
+    "longitude": 280.701
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "North, One Stage Ahead of the Agents",
+   "stop": "Padua, the two proceedings",
+   "date": "1594-01-01",
+   "date_confidence": "SEP gives 'arrested at the beginning of 1594' and it.wikipedia separates the two cases; secondary accounts routinely fold them into a single 1593 denunciation on two charges, which is refused here; exact day not recorded, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1594,
+   "jd_ut": 2303256.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.45,
+    "text": "Capricornus 10°27′",
+    "longitude": 280.453
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "North, One Stage Ahead of the Agents",
+   "stop": "Rome, delivered to the Holy Office",
+   "date": "1594-10-11",
+   "date_confidence": "date attested (it.wikipedia); the coordinates are for the Holy Office prison beside the Vatican and are derived here, no Rome pin was inherited from an existing atlas file",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1594,
+   "jd_ut": 2303539.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Libra",
+    "degree": 17.35,
+    "text": "Libra 17°21′",
+    "longitude": 197.351
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 8.02,
+    "text": "Virgo 8°01′",
+    "longitude": 158.022
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 29.56,
+    "text": "Virgo 29°34′",
+    "longitude": 179.559
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 25.19,
+    "text": "Scorpio 25°12′",
+    "longitude": 235.195
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 8.79,
+    "text": "Libra 8°47′",
+    "longitude": 188.786
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 17.44,
+    "text": "Aquarius 17°26′",
+    "longitude": 317.441
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 22.05,
+    "text": "Leo 22°03′",
+    "longitude": 142.052
+   }
+  },
+  {
+   "segment": "The Roman Proceedings",
+   "stop": "Rome, the torture of April 1595",
+   "date": "1595-04-01",
+   "date_confidence": "month attested (it.wikipedia), day not recorded and defaulted; the count of seven tortures across all trials is en.wikipedia's and is not itemized there [R]",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1595,
+   "jd_ut": 2303711.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 10.7,
+    "text": "Aries 10°42′",
+    "longitude": 10.703
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aries -> Taurus; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Roman Proceedings",
+   "stop": "Santa Maria sopra Minerva, the abjuration de vehementi",
+   "date": "1595-05-16",
+   "date_confidence": "date attested (it.wikipedia); accounts dating this abjuration to 1597 conflate two separate Roman trials, the first closed in 1595 and the second in December 1597",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1595,
+   "jd_ut": 2303756.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 24.42,
+    "text": "Taurus 24°25′",
+    "longitude": 54.423
+   },
+   "moon": {
+    "sign": "Leo",
+    "degree": 13.51,
+    "text": "Leo 13°31′",
+    "longitude": 133.514
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 13.73,
+    "text": "Taurus 13°44′",
+    "longitude": 43.725
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 8.51,
+    "text": "Aries 8°31′",
+    "longitude": 8.51
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 12.35,
+    "text": "Pisces 12°21′",
+    "longitude": 342.348
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 26.87,
+    "text": "Pisces 26°52′",
+    "longitude": 356.873
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 18.45,
+    "text": "Leo 18°27′",
+    "longitude": 138.451
+   }
+  },
+  {
+   "segment": "The Roman Proceedings",
+   "stop": "Santa Sabina, the confinement on the Aventine",
+   "date": "1595-05-17",
+   "date_confidence": "confinement and the release of 31 December 1596 attested (it.wikipedia); the day of entry is inferred as the day after the abjuration and is reconstruction [R]",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1595,
+   "jd_ut": 2303757.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 25.38,
+    "text": "Taurus 25°23′",
+    "longitude": 55.385
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Roman Proceedings",
+   "stop": "Rome, the denunciation of Prestinace",
+   "date": "1597-03-05",
+   "date_confidence": "arrest of 5 March and acquittal of 17 December 1597 both attested (it.wikipedia; SEP)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1597,
+   "jd_ut": 2304415.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 14.46,
+    "text": "Pisces 14°28′",
+    "longitude": 344.46
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 27.0,
+    "text": "Virgo 27°00′",
+    "longitude": 177.0
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 29.81,
+    "text": "Pisces 29°48′",
+    "longitude": 359.807
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 8.93,
+    "text": "Aquarius 8°56′",
+    "longitude": 308.93
+   },
+   "mars": {
+    "sign": "Aquarius",
+    "degree": 6.92,
+    "text": "Aquarius 6°55′",
+    "longitude": 306.92
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 7.85,
+    "text": "Taurus 7°51′",
+    "longitude": 37.85
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 18.07,
+    "text": "Virgo 18°04′",
+    "longitude": 168.069
+   }
+  },
+  {
+   "segment": "The Roman Proceedings",
+   "stop": "Naples, the road south",
+   "date": "1598-07-01",
+   "date_confidence": "month attested (it.wikipedia); day unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1598,
+   "jd_ut": 2304898.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.65,
+    "text": "Cancer 8°39′",
+    "longitude": 98.648
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rising of 1599",
+   "stop": "Stilo, Santa Maria di Gesu",
+   "date": "1598-08-15",
+   "date_confidence": "date attested (it.wikipedia; SEP)",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1598,
+   "jd_ut": 2304943.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 21.7,
+    "text": "Leo 21°42′",
+    "longitude": 141.696
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 26.43,
+    "text": "Capricornus 26°26′",
+    "longitude": 296.433
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 5.51,
+    "text": "Leo 5°31′",
+    "longitude": 125.508
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 7.58,
+    "text": "Cancer 7°35′",
+    "longitude": 97.576
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 26.45,
+    "text": "Virgo 26°27′",
+    "longitude": 176.448
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 10.41,
+    "text": "Cancer 10°24′",
+    "longitude": 100.407
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 1.54,
+    "text": "Libra 1°32′",
+    "longitude": 181.54
+   }
+  },
+  {
+   "segment": "The Rising of 1599",
+   "stop": "Catanzaro, the network in the provincial capital",
+   "date": "1599-01-01",
+   "date_confidence": "the organizing is attested (Amabile 1882; it.wikipedia; en.wikipedia) but is known largely through the prosecution's own record; the extent of any Ottoman negotiation is therefore [R]; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1599,
+   "jd_ut": 2305082.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.24,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.235
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rising of 1599",
+   "stop": "Squillace, the clerical recruits",
+   "date": "1599-03-01",
+   "date_confidence": "that Squillace clergy joined is attested (Amabile 1882) but the depth of organization is disputed among historians [R]; accounts naming Dionisio Ponzio and a 'Giovanni Battista Pisano' as the informers are wrong, Treccani's Firpo gives Fabio di Lauro and Giambattista Biblia; month approximate, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1599,
+   "jd_ut": 2305141.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "approximately",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 9.98,
+    "text": "Pisces 9°59′",
+    "longitude": 339.977
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rising of 1599",
+   "stop": "Stilo, the rising betrayed",
+   "date": "1599-08-10",
+   "date_confidence": "denunciation dates attested (Treccani/Firpo: di Lauro and Biblia on 10 August, fra' Cornelio da Nizza on 14 August); the intended date of the rising itself is known only from the prosecution's reconstruction [R]",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1599,
+   "jd_ut": 2305303.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 16.65,
+    "text": "Leo 16°39′",
+    "longitude": 136.654
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Rising of 1599",
+   "stop": "Stignano and Titi, the three weeks in hiding",
+   "date": "1599-08-17",
+   "date_confidence": "date attested (it.wikipedia); coordinates are for Stignano, the second hiding place at Titi is not separately pinned",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1599,
+   "jd_ut": 2305310.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 23.39,
+    "text": "Leo 23°23′",
+    "longitude": 143.389
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 10.7,
+    "text": "Cancer 10°42′",
+    "longitude": 100.701
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 24.47,
+    "text": "Leo 24°28′",
+    "longitude": 144.467
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 4.36,
+    "text": "Libra 4°22′",
+    "longitude": 184.362
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 24.25,
+    "text": "Gemini 24°15′",
+    "longitude": 84.252
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 6.3,
+    "text": "Leo 6°18′",
+    "longitude": 126.303
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 12.84,
+    "text": "Libra 12°50′",
+    "longitude": 192.841
+   },
+   "conjunctions": [
+    {
+     "sign": "Leo",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Rising of 1599",
+   "stop": "Castelvetere, the capture",
+   "date": "1599-09-06",
+   "date_confidence": "date attested (it.wikipedia; Treccani names Antonio Mesuraca as the man who gave him up on 6 September); Castelvetere is the modern Caulonia",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1599,
+   "jd_ut": 2305330.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.75,
+    "text": "Virgo 12°45′",
+    "longitude": 162.751
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 29.59,
+    "text": "Pisces 29°35′",
+    "longitude": 359.587
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 29.89,
+    "text": "Virgo 29°54′",
+    "longitude": 179.893
+   },
+   "venus": {
+    "sign": "Libra",
+    "degree": 27.03,
+    "text": "Libra 27°02′",
+    "longitude": 207.028
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 6.74,
+    "text": "Cancer 6°45′",
+    "longitude": 96.743
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 10.5,
+    "text": "Leo 10°30′",
+    "longitude": 130.498
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 14.87,
+    "text": "Libra 14°52′",
+    "longitude": 194.867
+   }
+  },
+  {
+   "segment": "The Twenty-Seven Years",
+   "stop": "Naples, Castel Nuovo, the identification",
+   "date": "1599-11-23",
+   "date_confidence": "it.wikipedia gives the formal identification at Castel Nuovo on 23 November 1599, Treccani puts his arrival in Naples on 8 November; accounts placing him in Castel Nuovo in September confuse this with the Calabrian capture",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1599,
+   "jd_ut": 2305408.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 0.3,
+    "text": "Sagittarius 0°18′",
+    "longitude": 240.298
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 0.78,
+    "text": "Aquarius 0°47′",
+    "longitude": 300.777
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 15.92,
+    "text": "Scorpio 15°55′",
+    "longitude": 225.919
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 2.34,
+    "text": "Capricornus 2°20′",
+    "longitude": 272.339
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 14.33,
+    "text": "Leo 14°20′",
+    "longitude": 134.326
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 21.42,
+    "text": "Leo 21°25′",
+    "longitude": 141.424
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 23.97,
+    "text": "Libra 23°58′",
+    "longitude": 203.969
+   }
+  },
+  {
+   "segment": "The Twenty-Seven Years",
+   "stop": "Castel Nuovo, fourteen months of madness",
+   "date": "1600-04-02",
+   "date_confidence": "the feigned madness begins 2 April 1600 and runs fourteen months, in Castel Nuovo (Treccani/Firpo); La Monarchia di Spagna is dated 1600 (it.wikipedia, en.wikipedia), with an earlier lost redaction from the Padua years, and accounts dating it 1607-1608 are wrong",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1600,
+   "jd_ut": 2305539.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 12.46,
+    "text": "Aries 12°28′",
+    "longitude": 12.462
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 18.25,
+    "text": "Scorpio 18°15′",
+    "longitude": 228.251
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 28.15,
+    "text": "Pisces 28°09′",
+    "longitude": 358.149
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 28.91,
+    "text": "Aquarius 28°54′",
+    "longitude": 328.907
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 2.04,
+    "text": "Leo 2°02′",
+    "longitude": 122.041
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 11.82,
+    "text": "Leo 11°49′",
+    "longitude": 131.818
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 26.1,
+    "text": "Libra 26°06′",
+    "longitude": 206.097
+   }
+  },
+  {
+   "segment": "The Twenty-Seven Years",
+   "stop": "Castel Nuovo, the veglia",
+   "date": "1601-06-04",
+   "date_confidence": "date and place attested (Treccani/Firpo, from the trial records: Castel Nuovo, 4-5 June 1601); duration contradicted and not resolved, Firpo gives thirty-six consecutive hours and it.wikipedia gives roughly forty; accounts setting the veglia at Castel Sant'Elmo are wrong, he was not held there until July 1604",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1601,
+   "jd_ut": 2305967.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.16,
+    "text": "Gemini 13°09′",
+    "longitude": 73.157
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 27.28,
+    "text": "Cancer 27°17′",
+    "longitude": 117.283
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 24.59,
+    "text": "Taurus 24°35′",
+    "longitude": 54.588
+   },
+   "venus": {
+    "sign": "Cancer",
+    "degree": 26.11,
+    "text": "Cancer 26°07′",
+    "longitude": 116.115
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 18.6,
+    "text": "Taurus 18°36′",
+    "longitude": 48.603
+   },
+   "jupiter": {
+    "sign": "Virgo",
+    "degree": 13.29,
+    "text": "Virgo 13°17′",
+    "longitude": 163.289
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 4.5,
+    "text": "Scorpio 4°30′",
+    "longitude": 214.496
+   }
+  },
+  {
+   "segment": "The Twenty-Seven Years",
+   "stop": "Castel Nuovo, La citta del sole",
+   "date": "1602-01-01",
+   "date_confidence": "year and place attested (Treccani: he passes 1602 composing the Citta del Sole, in Castel Nuovo, three years before the Sant'Elmo transfer); accounts setting the composition at Castel Sant'Elmo are wrong; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1602,
+   "jd_ut": 2306178.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.51,
+    "text": "Capricornus 10°31′",
+    "longitude": 280.512
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Twenty-Seven Years",
+   "stop": "Castel Sant'Elmo, the blind cell",
+   "date": "1604-07-01",
+   "date_confidence": "transfer attested to July 1604 (Treccani), held four years in an underground cell in irons; Atheismus triumphatus composed 1605-1607 per it.wikipedia and 1606-1607 per SEP, the single year 1605 given in some accounts is too narrow; day unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1604,
+   "jd_ut": 2307090.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.17,
+    "text": "Cancer 9°10′",
+    "longitude": 99.173
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Twenty-Seven Years",
+   "stop": "Castel dell'Ovo, the lighter years and Adami's visit",
+   "date": "1608-01-01",
+   "date_confidence": "Castel dell'Ovo dated 1608-1614 by Treccani, under lighter conditions with visitors and writing allowed; Adami's visit dated 1612 by SEP; accounts placing Castel dell'Ovo in 1604 have swapped this transfer with the Sant'Elmo transfer of July 1604; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1608,
+   "jd_ut": 2308369.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.05,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.046
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Twenty-Seven Years",
+   "stop": "Castel Sant'Elmo, the Apologia pro Galileo",
+   "date": "1616-01-01",
+   "date_confidence": "Treccani places the composition at Castel Sant'Elmo in 1616, which sits awkwardly against the same source's Sant'Elmo dating of 1604-1608; the strain is flagged and not resolved; published 1622; claims that Campanella and Galileo never met contradict the attested Padua meeting of 1593; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1616,
+   "jd_ut": 2311291.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "disputed",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.11,
+    "text": "Capricornus 10°06′",
+    "longitude": 280.105
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Twenty-Seven Years",
+   "stop": "Castel Nuovo, the release",
+   "date": "1626-05-23",
+   "date_confidence": "date and place attested (Treccani: released 23 May 1626 from Castel Nuovo after almost twenty-seven years; SEP concurs on the prison); accounts naming Castel Sant'Elmo as the prison of release are wrong; sources differ on whether to count the twenty-seven years from the 1599 arrest or the sentencing after the 1601 torture",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1626,
+   "jd_ut": 2315086.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 1.63,
+    "text": "Gemini 1°38′",
+    "longitude": 61.629
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 27.76,
+    "text": "Aries 27°46′",
+    "longitude": 27.764
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 24.31,
+    "text": "Gemini 24°18′",
+    "longitude": 84.307
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 5.85,
+    "text": "Gemini 5°51′",
+    "longitude": 65.852
+   },
+   "mars": {
+    "sign": "Cancer",
+    "degree": 12.35,
+    "text": "Cancer 12°21′",
+    "longitude": 102.349
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 21.98,
+    "text": "Libra 21°59′",
+    "longitude": 201.978
+   },
+   "saturn": {
+    "sign": "Virgo",
+    "degree": 8.76,
+    "text": "Virgo 8°46′",
+    "longitude": 158.759
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Venus"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Rome, the Astrologer of Urban VIII",
+   "stop": "Rome, Castel Sant'Angelo and the second detention",
+   "date": "1626-06-01",
+   "date_confidence": "reconstruction from the standard itinerary (Amabile 1882; Bonansea 1969), the exact duration of the Sant'Angelo stop is not independently confirmed [R]; the lighter Roman supervision of 1627-1629 is attested (Bonansea; Ernst 2010); day unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1626,
+   "jd_ut": 2315095.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.25,
+    "text": "Gemini 10°15′",
+    "longitude": 70.248
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome, the Astrologer of Urban VIII",
+   "stop": "The Vatican Apostolic Palace, the eclipse rite",
+   "date": "1628-01-01",
+   "date_confidence": "attested from Campanella's own account in De siderali fato vitando, cited in Ernst (2010) and Headley (1997); month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1628,
+   "jd_ut": 2315674.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.19,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.193
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome, the Astrologer of Urban VIII",
+   "stop": "Santa Maria sopra Minerva, absolution and the school",
+   "date": "1629-01-01",
+   "date_confidence": "full liberty attested to 1629 (en.wikipedia), the school and the papal favour of 1630-1634 to it.wikipedia, Ernst (2010) and Headley (1997); Kircher's Rome dates are attested in kircher.journey.json but no meeting between the two men is documented, the overlap is [R]; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1629,
+   "jd_ut": 2316040.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.97,
+    "text": "Capricornus 10°58′",
+    "longitude": 280.965
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "France, the Free Years",
+   "stop": "Marseille, the landfall in France",
+   "date": "1634-10-01",
+   "date_confidence": "flight attested to October 1634 (SEP; it.wikipedia); the common statement that he fled from Naples under Richelieu's protection is wrong on both counts, the flight was from Rome and Richelieu's protection came on arrival; day unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1634,
+   "jd_ut": 2318139.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.76,
+    "text": "Libra 7°46′",
+    "longitude": 187.761
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "France, the Free Years",
+   "stop": "Aix-en-Provence, the stage on the road",
+   "date": "1634-10-15",
+   "date_confidence": "the overland route is documented (Bonansea 1969); the Aix reception itself is not independently sourced and is reconstruction [R]; the day is inferred from the route and is not recorded",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1634,
+   "jd_ut": 2318153.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "not recorded",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 21.63,
+    "text": "Libra 21°38′",
+    "longitude": 201.63
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "France, the Free Years",
+   "stop": "Paris, the reception at the court of Louis XIII",
+   "date": "1634-12-01",
+   "date_confidence": "attested (it.wikipedia; en.wikipedia); day unknown, defaulted; coordinates are the canonical atlas Paris pin, inherited byte-identically from adam_smith.journey.json and adnan_khashoggi.journey.json rather than the finer rue Saint-Honore coordinates",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1634,
+   "jd_ut": 2318200.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 8.93,
+    "text": "Sagittarius 8°56′",
+    "longitude": 248.927
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "France, the Free Years",
+   "stop": "Paris, the convent on the rue Saint-Honore",
+   "date": "1637-01-01",
+   "date_confidence": "residence and the 1637 Paris edition attested (Ernst 2010; Firpo, Bibliografia); month unknown, defaulted; coordinates are the canonical atlas Paris pin rather than the convent's own",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1637,
+   "jd_ut": 2318962.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.02,
+    "text": "Capricornus 11°01′",
+    "longitude": 281.024
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "France, the Free Years",
+   "stop": "Paris, the horoscope for the Dauphin",
+   "date": "1638-09-05",
+   "date_confidence": "attested from court memoirs cited in Headley (1997) and Bonansea (1969); the future Louis XIV was born 5 September 1638, which the sources give as the occasion; coordinates are the canonical atlas Paris pin",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1638,
+   "jd_ut": 2319574.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Virgo",
+    "degree": 12.33,
+    "text": "Virgo 12°20′",
+    "longitude": 162.327
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 28.83,
+    "text": "Cancer 28°50′",
+    "longitude": 118.828
+   },
+   "mercury": {
+    "sign": "Virgo",
+    "degree": 23.2,
+    "text": "Virgo 23°12′",
+    "longitude": 173.195
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 3.46,
+    "text": "Leo 3°28′",
+    "longitude": 123.459
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 25.23,
+    "text": "Sagittarius 25°14′",
+    "longitude": 265.226
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 2.65,
+    "text": "Scorpio 2°39′",
+    "longitude": 212.649
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 0.8,
+    "text": "Aquarius 0°48′",
+    "longitude": 300.801
+   }
+  },
+  {
+   "segment": "France, the Free Years",
+   "stop": "Paris, the death at the Jacobins",
+   "date": "1639-05-21",
+   "date_confidence": "date attested (it.wikipedia; en.wikipedia; SEP); the fate of the tomb is a stated gap, no source consulted in English, Italian, or French names a surviving grave marker or traces the convent's history past his death; coordinates are the canonical atlas Paris pin",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1639,
+   "jd_ut": 2319832.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft) no source"
+   ],
+   "notes": [
+    "soft triggers (no source) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 29.57,
+    "text": "Taurus 29°34′",
+    "longitude": 59.573
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 17.73,
+    "text": "Capricornus 17°44′",
+    "longitude": 287.735
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 22.2,
+    "text": "Gemini 22°12′",
+    "longitude": 82.204
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 22.61,
+    "text": "Gemini 22°37′",
+    "longitude": 82.61
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 22.94,
+    "text": "Gemini 22°56′",
+    "longitude": 82.94
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 1.23,
+    "text": "Sagittarius 1°14′",
+    "longitude": 241.232
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 18.38,
+    "text": "Aquarius 18°23′",
+    "longitude": 318.383
+   },
+   "conjunctions": [
+    {
+     "sign": "Gemini",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Afterlife of the Sun",
+   "stop": "Frankfurt, Civitas Solis printed",
+   "date": "1623-01-01",
+   "date_confidence": "first printing of the Latin Civitas Solis at Frankfurt in 1623 attested (en.wikipedia, 'The City of the Sun'); the Latin reworking is dated 1613-1614; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1623,
+   "jd_ut": 2313848.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.41,
+    "text": "Capricornus 10°25′",
+    "longitude": 280.411
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Sun",
+   "stop": "Naples, the philosophy that comes after",
+   "date": "1668-06-23",
+   "date_confidence": "Vico's Naples facts are attested in vico.journey.json, and the 1680s Investiganti trial likewise; the link back to Campanella's prosecutions is a pattern parallel and is reconstruction [R]",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1668,
+   "jd_ut": 2330458.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 2.06,
+    "text": "Cancer 2°03′",
+    "longitude": 92.058
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Sun",
+   "stop": "Stilo, the bronze in Piazza Carnovale",
+   "date": "1923-01-01",
+   "date_confidence": "monument attested to 1923, by the sculptor Ernesto Gazzeri (it.wikipedia, 'Stilo (Italia)'); month unknown, defaulted; the 1968 ministerial decree naming Stignano as the birthplace stands unresolved against the scholarly consensus for Stilo",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1923,
+   "jd_ut": 2423420.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.56,
+    "text": "Capricornus 9°34′",
+    "longitude": 279.56
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Afterlife of the Sun",
+   "stop": "Trento, the oldest surviving copy",
+   "date": "1943-01-01",
+   "date_confidence": "the 1943 find and the 1980 restoration are attested (en.wikipedia, 'The City of the Sun'); Firpo's I processi di Tommaso Campanella (1998) is listed in it.wikipedia's bibliography and not independently verified [R]; month unknown, defaulted",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1943,
+   "jd_ut": 2430725.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.71,
+    "text": "Capricornus 9°42′",
+    "longitude": 279.708
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 13,
+  "month": 6,
+  "year": 26
+ },
+ "parse_failures": []
+}

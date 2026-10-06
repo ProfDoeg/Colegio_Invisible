@@ -1,0 +1,1768 @@
+{
+ "slug": "burnt_njal",
+ "traveler": "Njall Thorgeirsson of Bergthorshvoll, called Burnt Njal (Brennu-Njall)",
+ "title": "The Beardless Lawyer of the Landeyjar: Njal, the Law, and the Burning at Bergthorshvoll",
+ "years": "c. 935 - c. 1011 (the saga's own reckoning); the saga written 1270-1290",
+ "years_parsed": {
+  "first": 935,
+  "last": 1290
+ },
+ "calendar": "julian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Beardless Man of Bergthorsknoll",
+  "stop": "Nidaros, the king's errandmen",
+  "date": "0930-01-01",
+  "date_confidence": "reconstruction: the saga gives no date and names no Norwegian place, and Nidaros stands here for the royal Norway the family leaves. Sources disagree on the dead man's name. Wikipedia 'Njall Thorgeirsson' makes him Ofeigr, father of Thorgeir gollnir; Dasent ch. 20 reads 'Thorgeir Gelling, the son of Thorolf'.",
+  "calendar_applied": "julian",
+  "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+  "astronomical_year": 930,
+  "jd_ut": 2060740.5,
+  "precision": "year",
+  "precision_triggers": [
+   "no month/day",
+   "disputed",
+   "reconstructed (the date)",
+   "(soft) reconstruct"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 15.81,
+   "text": "Capricornus 15°48′",
+   "longitude": 285.806
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "first stop whose year matches the journey's first year",
+  "years_field": "c. 935 - c. 1011 (the saga's own reckoning); the saga written 1270-1290",
+  "first_year_parsed": 935
+ },
+ "stops": [
+  {
+   "segment": "The Beardless Man of Bergthorsknoll",
+   "stop": "Nidaros, the king's errandmen",
+   "date": "0930-01-01",
+   "date_confidence": "reconstruction: the saga gives no date and names no Norwegian place, and Nidaros stands here for the royal Norway the family leaves. Sources disagree on the dead man's name. Wikipedia 'Njall Thorgeirsson' makes him Ofeigr, father of Thorgeir gollnir; Dasent ch. 20 reads 'Thorgeir Gelling, the son of Thorolf'.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 930,
+   "jd_ut": 2060740.5,
+   "precision": "year",
+   "precision_triggers": [
+    "no month/day",
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.81,
+    "text": "Capricornus 15°48′",
+    "longitude": 285.806
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Beardless Man of Bergthorsknoll",
+   "stop": "Bergthorshvoll, the knoll in the Landeyjar",
+   "date": "0935-01-01",
+   "date_confidence": "reconstruction: no birth year for Njal survives anywhere, and c. 935 is back-calculated from the burning. Coordinate per Wikipedia 'Bergthorshvoll' (63 deg 38'10 N, 20 deg 19'48 W), in Vestur-Landeyjar on the west bank of the Affall; the research pool's 63.7561 / -20.2419 is the modern town of Hvolsvollur, 13.5 km away.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 935,
+   "jd_ut": 2062566.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.59,
+    "text": "Capricornus 15°35′",
+    "longitude": 285.588
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Beardless Man of Bergthorsknoll",
+   "stop": "Bergthorshvoll, the lawyer without a beard",
+   "date": "0960-01-01",
+   "date_confidence": "traditional: the saga introduces Njal as already established and gives no year. The character sketch is Dasent ch. 20, verbatim.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 960,
+   "jd_ut": 2071697.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.51,
+    "text": "Capricornus 15°31′",
+    "longitude": 285.514
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Beardless Man of Bergthorsknoll",
+   "stop": "Bergthorshvoll, Bergthora and the children",
+   "date": "0965-01-01",
+   "date_confidence": "traditional: no year survives for the marriage or for any birth in the household.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 965,
+   "jd_ut": 2073524.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.31,
+    "text": "Capricornus 16°19′",
+    "longitude": 286.314
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gunnar of Hlidarendi",
+   "stop": "Thingvellir, the dower of Unnur",
+   "date": "0970-01-01",
+   "date_confidence": "traditional: no year survives. Coordinate is the corpus's canonical Thingvellir pin, inherited from william_morris.journey.json. Wikipedia 'Logberg' states the exact site of the Law-Rock is unknown, with at least three candidates (Hallurinn, Almannagja, Hestagja), the rift valley having shifted in a thousand years.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 970,
+   "jd_ut": 2075350.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.1,
+    "text": "Capricornus 16°06′",
+    "longitude": 286.096
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gunnar of Hlidarendi",
+   "stop": "Hlidarendi, the friendship and the servants' feud",
+   "date": "0972-01-01",
+   "date_confidence": "traditional, sequence date only: no year survives. Coordinate per Wikipedia 'Hlidarendi' (63 deg 43'29 N, 19 deg 57'02 W); the research pool's 63.6989 / -19.9528 sits 2.9 km south, off the Fljotshlid slope and in the floodplain. The site today carries a church and churchyard and remains an occupied farm, not turf ruins.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 972,
+   "jd_ut": 2076080.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "sequencing",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.6,
+    "text": "Capricornus 15°36′",
+    "longitude": 285.601
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gunnar of Hlidarendi",
+   "stop": "Bergthorshvoll, the beardless carle",
+   "date": "0975-01-01",
+   "date_confidence": "traditional, sequence date only: the insults run across many chapters and no year is given for any of them.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 975,
+   "jd_ut": 2077176.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "sequencing",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.88,
+    "text": "Capricornus 15°53′",
+    "longitude": 285.878
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gunnar of Hlidarendi",
+   "stop": "Stora-Dimon, the watchtower of the plain",
+   "date": "0980-01-01",
+   "date_confidence": "attested as geography, traditional as narrative: the hill's identity and location are certain, its role in the saga's chases is the text's own placement.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 980,
+   "jd_ut": 2079002.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.66,
+    "text": "Capricornus 15°40′",
+    "longitude": 285.659
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gunnar of Hlidarendi",
+   "stop": "Markarfljot, Thrain Sigfusson on the ice",
+   "date": "0985-01-01",
+   "date_confidence": "traditional: no year survives, and the coordinate is an approximate point on the Markarfljot crossing. The research pool assigned Dasent chs. 92-93 to a 'Grjota ford in Rangarvellir'; Grjota is Thrain's farm in Fljotshlid, and those chapters narrate this killing on the river ice, not ford ambushes.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 985,
+   "jd_ut": 2080829.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional",
+    "no month/day",
+    "assigned"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.46,
+    "text": "Capricornus 16°28′",
+    "longitude": 286.459
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gunnar of Hlidarendi",
+   "stop": "Thingvellir, the atonement for Gunnar",
+   "date": "0989-01-01",
+   "date_confidence": "traditional: no year survives. The quoted line is Dasent ch. 69, 'Olaf the Peacock's Gifts to Gunnar'; the research pool cited ch. 70, which is wrong in both Gutenberg #597 and sagadb.org, each running to 158 chapters.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 989,
+   "jd_ut": 2082290.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.49,
+    "text": "Capricornus 16°29′",
+    "longitude": 286.488
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gunnar of Hlidarendi",
+   "stop": "Markarfljot ford, the turning back",
+   "date": "0990-01-01",
+   "date_confidence": "traditional: no document places the stumble at any specific ford, and the crossing point is inferred from the valley's geography. The point lies about 5 km south of and below Hlidarendi; the research pool described it as 'above' the farm, which reverses the direction of Gunnar's ride to the coast.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 990,
+   "jd_ut": 2082655.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred",
+    "traditional",
+    "(soft) no source"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.24,
+    "text": "Capricornus 16°14′",
+    "longitude": 286.241
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Gunnar of Hlidarendi",
+   "stop": "Hlidarendi, the bowstring",
+   "date": "0990-01-01",
+   "date_confidence": "traditional: no firm date survives; conventionally placed shortly before Iceland's conversion. The research pool dated Gunnar's death to 990 in one lens and the ford stumble to c. 992 in another, which reverses cause and effect; both are placed at c. 990 here and the conflict is recorded, not resolved.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 990,
+   "jd_ut": 2082655.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "convention",
+    "disputed",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.24,
+    "text": "Capricornus 16°14′",
+    "longitude": 286.241
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Law Takes the New Faith",
+   "stop": "Birsay, Orkney: Kari in the earl's service",
+   "date": "0995-01-01",
+   "date_confidence": "traditional: c. 995 is a conventional placement. Coordinate per Wikipedia 'Birsay' (59 deg 08.0 N, 3 deg 18.1 W); the research pool's -3.3383 falls about 2 km offshore. Birsay is traditionally rather than documentarily associated with Earl Sigurd, and Njals saga puts the Yule feast on Hrossey.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 995,
+   "jd_ut": 2084481.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.02,
+    "text": "Capricornus 16°01′",
+    "longitude": 286.023
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Law Takes the New Faith",
+   "stop": "Thingvellir, the law takes the faith",
+   "date": "0999-01-01",
+   "date_confidence": "attested as an event, disputed in year: Njals saga gives 999, Islendingabok and mainstream historical dating give 1000. This is the only specific year the saga supplies anywhere. Njal's personal presence and stance are the saga's addition to an independently documented assembly.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 999,
+   "jd_ut": 2085942.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.05,
+    "text": "Capricornus 16°03′",
+    "longitude": 286.052
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Law Takes the New Faith",
+   "stop": "Kirkjubaer on the Sida, the church before the church",
+   "date": "0999-01-01",
+   "date_confidence": "attested for the papar tradition (Landnamabok); the farm's specific role in Njal's story is saga embroidery and no year attaches to it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 999,
+   "jd_ut": 2085942.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.05,
+    "text": "Capricornus 16°03′",
+    "longitude": 286.052
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Law Takes the New Faith",
+   "stop": "Keldur, the turf hall and the tunnel",
+   "date": "1000-01-01",
+   "date_confidence": "attested site with a saga-attested occupant: Wikipedia 'Keldur' names Ingjald Hoskuldsson as first recorded occupant and a character in Njals saga, dates the dwelling's foundation to the 11th century, and reports the jardhus tunnel rediscovered in a 1998 excavation. Coordinate corrected from the research pool's 63.7756 / -20.0206, which is 5.8 km off, and the pool's claim that Keldur is unnamed in the saga is false.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1000,
+   "jd_ut": 2086307.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.8,
+    "text": "Capricornus 15°48′",
+    "longitude": 285.798
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hoskuld Hvitanessgodi",
+   "stop": "Ossabaer, the chieftaincy made out of nothing",
+   "date": "1005-01-01",
+   "date_confidence": "traditional: no year survives, and Ossabaer's exact site is unlocated. It lies in the Landeyjar within a morning's ride of Bergthorshvoll; the coordinate is approximate. The research pool's 63.85 / -20.4 sits 24 km north in the Rangarvellir or Holt district, which breaks the saga's own geography.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1005,
+   "jd_ut": 2088134.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional",
+    "no month/day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.6,
+    "text": "Capricornus 16°36′",
+    "longitude": 286.597
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hoskuld Hvitanessgodi",
+   "stop": "Ossabaer, the killing in the corn",
+   "date": "1011-01-01",
+   "date_confidence": "contradiction flagged: the research pool's chronology lens dates this to 1006, its geography lens to c. 1011. The conventional chronology places the killing in the spring immediately before the Althing session and the autumn burning of 1011, which is the reading used here. His title is Hvitanessgodi, godi of Hvitanes, not of the Hvita district as the pool had it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1011,
+   "jd_ut": 2090325.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "convention",
+    "year named only",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.13,
+    "text": "Capricornus 16°08′",
+    "longitude": 286.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hoskuld Hvitanessgodi",
+   "stop": "Thingvellir, the cloak on the silver",
+   "date": "1011-01-01",
+   "date_confidence": "contradiction flagged: the research pool's chronology lens dates the failed settlement to 1010 and the killing that caused it to 1006, while its geography lens places both in 1011. The Althing session must follow the spring killing, so both are placed in 1011 here.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1011,
+   "jd_ut": 2090325.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed",
+    "placed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.13,
+    "text": "Capricornus 16°08′",
+    "longitude": 286.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Hoskuld Hvitanessgodi",
+   "stop": "Thrihyrningur, the burners assemble",
+   "date": "1011-01-01",
+   "date_confidence": "traditional. Coordinate per is.wikipedia 'Thrihyrningur (fjall)' (63 deg 47'11 N, 19 deg 58'26 W, 678 m); the research pool's 63.66 / -20.04 sits 14 km south on the outwash plain, and assigned the mountain to Gunnar's kinsmen in chs. 63-64 rather than to the burners of chs. 127-130.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1011,
+   "jd_ut": 2090325.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "assigned",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.13,
+    "text": "Capricornus 16°08′",
+    "longitude": 286.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Burning of Bergthorshvoll",
+   "stop": "Bergthorshvoll, a hundred men at the door",
+   "date": "1011-01-01",
+   "date_confidence": "traditional: c. 1011 is a scholarly convention, not independently attested outside the saga. Coordinate is Bergthorshvoll's true position in Vestur-Landeyjar, not the research pool's Hvolsvollur reading.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1011,
+   "jd_ut": 2090325.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.13,
+    "text": "Capricornus 16°08′",
+    "longitude": 286.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Burning of Bergthorshvoll",
+   "stop": "Bergthorshvoll, Njal will not go out",
+   "date": "1011-01-01",
+   "date_confidence": "attested within the saga, quoted verbatim from Dasent ch. 128; the research pool cited ch. 129 for this and for every other passage of the burning, which is wrong in Gutenberg #597 and sagadb.org alike.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1011,
+   "jd_ut": 2090325.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.13,
+    "text": "Capricornus 16°08′",
+    "longitude": 286.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Burning of Bergthorshvoll",
+   "stop": "Bergthorshvoll, the ox-hide",
+   "date": "1011-01-01",
+   "date_confidence": "attested within the saga, quoted verbatim from Dasent ch. 128. The child under the hide is Thord Karason, Kari's son and Njal's grandson.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1011,
+   "jd_ut": 2090325.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.13,
+    "text": "Capricornus 16°08′",
+    "longitude": 286.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Burning of Bergthorshvoll",
+   "stop": "Bergthorshvoll, Kari on the burning beam",
+   "date": "1011-01-01",
+   "date_confidence": "attested within the saga: Wikipedia 'Njals saga' has Kari escape 'under cover of the smoke by running along the beam', and gives eleven dead in total. The research pool's chronology lens both overcounted the dead (Njal and Bergthora 'and about eleven others') and placed Helgi in the fire; he was beheaded outside it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1011,
+   "jd_ut": 2090325.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) placed",
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.13,
+    "text": "Capricornus 16°08′",
+    "longitude": 286.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Burning of Bergthorshvoll",
+   "stop": "Bergthorshvoll, the bodies under the hide",
+   "date": "1011-01-01",
+   "date_confidence": "attested within the saga, quoted verbatim from Dasent ch. 131, 'Njal's and Bergthora's Bones Found'; the research pool cited ch. 132.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1011,
+   "jd_ut": 2090325.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.13,
+    "text": "Capricornus 16°08′",
+    "longitude": 286.132
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kari's Vengeance and the Battle at Clontarf",
+   "stop": "Thingvellir, the suit that breaks into fighting",
+   "date": "1012-01-01",
+   "date_confidence": "traditional: the year follows the conventional dating of the burning to 1011 and is not independently attested.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1012,
+   "jd_ut": 2090690.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "convention"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.88,
+    "text": "Capricornus 15°53′",
+    "longitude": 285.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kari's Vengeance and the Battle at Clontarf",
+   "stop": "The Eyjafjoll coast, the outlaws take ship",
+   "date": "1012-01-01",
+   "date_confidence": "reconstruction: the embarkation point is not named precisely enough in the text to fix beyond this general coast.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1012,
+   "jd_ut": 2090690.5,
+   "precision": "year",
+   "precision_triggers": [
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.88,
+    "text": "Capricornus 15°53′",
+    "longitude": 285.885
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kari's Vengeance and the Battle at Clontarf",
+   "stop": "Nidaros, Flosi before Earl Eirik",
+   "date": "1013-01-01",
+   "date_confidence": "traditional: Eirik Hakonarson's rule from this region is independently attested in Heimskringla; his particular audience with Flosi is the saga's account alone.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1013,
+   "jd_ut": 2091056.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.66,
+    "text": "Capricornus 16°39′",
+    "longitude": 286.655
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kari's Vengeance and the Battle at Clontarf",
+   "stop": "Birsay, the head on the board",
+   "date": "1013-01-01",
+   "date_confidence": "traditional. Coordinate per Wikipedia 'Birsay'; the earl's seat there is traditionally rather than documentarily associated with Sigurd, and the saga puts the Yule feast on Hrossey (Mainland).",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1013,
+   "jd_ut": 2091056.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.66,
+    "text": "Capricornus 16°39′",
+    "longitude": 286.655
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kari's Vengeance and the Battle at Clontarf",
+   "stop": "Dublin, the promises of Sigtrygg Silkbeard",
+   "date": "1014-01-01",
+   "date_confidence": "attested for the coalition and for Sigtrygg's kingship (Annals of Ulster, Wikipedia 'Battle of Clontarf'); the saga's dialogue at his court is invention within a real setting.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1014,
+   "jd_ut": 2091421.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.41,
+    "text": "Capricornus 16°24′",
+    "longitude": 286.408
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kari's Vengeance and the Battle at Clontarf",
+   "stop": "Caithness, the loom of Darrad",
+   "date": "1014-04-23",
+   "date_confidence": "tradition, presented in the saga as fact: no independent witness exists for the vision, and the Darradarljod is a poem the saga incorporates. Kari is placed in Caithness by the saga at the time of the battle.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1014,
+   "jd_ut": 2091533.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 7.61,
+    "text": "Taurus 7°36′",
+    "longitude": 37.606
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Kari's Vengeance and the Battle at Clontarf",
+   "stop": "Clontarf, the raven banner",
+   "date": "1014-04-23",
+   "date_confidence": "attested: 23 April 1014, corroborated across Irish, Norse, and Welsh annals. The raven banner is attested in Wikipedia 'Sigurd the Stout'. Kari's presence at the battle is the saga's claim alone, and the saga itself places him in Caithness. The research pool dated the Orkney muster to the day of the battle, which is impossible; the fleet sailed weeks earlier.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1014,
+   "jd_ut": 2091533.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 7.61,
+    "text": "Taurus 7°36′",
+    "longitude": 37.606
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 13.86,
+    "text": "Capricornus 13°51′",
+    "longitude": 283.856
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 15.73,
+    "text": "Taurus 15°44′",
+    "longitude": 45.728
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 3.94,
+    "text": "Gemini 3°56′",
+    "longitude": 63.938
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 24.86,
+    "text": "Pisces 24°52′",
+    "longitude": 354.859
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 23.92,
+    "text": "Pisces 23°55′",
+    "longitude": 353.917
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 24.31,
+    "text": "Scorpio 24°18′",
+    "longitude": 234.305
+   }
+  },
+  {
+   "segment": "Kari's Vengeance and the Battle at Clontarf",
+   "stop": "Wales, the last of the burners",
+   "date": "1015-01-01",
+   "date_confidence": "reconstruction: no year survives, and the coordinate is a placeholder for Wales rather than a located site. Wikipedia 'Kari Solmundarson' names Wales alongside Orkney as a place where Kari hunted and killed Burners; the research pool's rendering of Wales as an unnamed lord's court where he gathered news is not supported by the text.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1015,
+   "jd_ut": 2091786.5,
+   "precision": "year",
+   "precision_triggers": [
+    "placeholder",
+    "no month/day",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.16,
+    "text": "Capricornus 16°10′",
+    "longitude": 286.161
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome, and the Blizzard at Svinafell",
+   "stop": "Rome, absolution for the burning",
+   "date": "1016-01-01",
+   "date_confidence": "traditional and internally contradictory: the research pool's chronology lens dates the pilgrimage to 1017, its geography lens to c. 1015-1016. No firm date survives, so one hedged date is carried across this stop and the reconciliation rather than two conflicting ones. The pilgrimage itself is confirmed by Wikipedia 'Kari Solmundarson'; no Vatican record names either man.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1016,
+   "jd_ut": 2092151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional",
+    "year named only",
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 15.91,
+    "text": "Capricornus 15°55′",
+    "longitude": 285.914
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome, and the Blizzard at Svinafell",
+   "stop": "Ingolfshofdi, the wreck in winter",
+   "date": "1017-01-01",
+   "date_confidence": "traditional; the coordinate is the traditional landfall at Ingolfshofdi and is approximate. Direction of the wreck corrected: Wikipedia 'Kari Solmundarson' has Kari shipwrecked near Flosi's home, not Flosi near Kari's as the research pool's chronology lens had it. Both men had made the Rome pilgrimage, which is the likely source of the confusion.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1017,
+   "jd_ut": 2092517.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional",
+    "probably"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.68,
+    "text": "Capricornus 16°41′",
+    "longitude": 286.684
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Rome, and the Blizzard at Svinafell",
+   "stop": "Svinafell, the guest in the blizzard",
+   "date": "1017-01-01",
+   "date_confidence": "traditional: the saga presents this as history and no outside source can confirm or date the reconciliation or the marriage. The research pool dated it to 1018 in one lens and c. 1017 in the other; one hedged date is used.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1017,
+   "jd_ut": 2092517.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 16.68,
+    "text": "Capricornus 16°41′",
+    "longitude": 286.684
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saga's Afterlife",
+   "stop": "Reykholt, the century that reads it closest",
+   "date": "1220-01-01",
+   "date_confidence": "attested for Snorri (c. 1179-1241, killed at Reykholt 1241); the connection to Njal is literary and cultural, not personal. Snorri postdates the saga's setting by two centuries and predates its composition by a generation. Coordinate inherited as the corpus's canonical Reykholt pin.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1220,
+   "jd_ut": 2166662.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "decade/century",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.4,
+    "text": "Capricornus 17°24′",
+    "longitude": 287.398
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saga's Afterlife",
+   "stop": "Iceland, the saga written down",
+   "date": "1280-01-01",
+   "date_confidence": "attested as a window, not a year: Wikipedia 'Njals saga' gives composition between 1270 and 1290, and 1280 is the midpoint. The place of composition is unknown; the coordinate is the corpus's canonical Iceland pin. The Vigfusson quotation is restored to its full form, the research pool having softened it.",
+   "calendar_applied": "julian",
+   "calendar_note": "journey declares julian; date before 1582-10-15 read as Julian",
+   "astronomical_year": 1280,
+   "jd_ut": 2188577.5,
+   "precision": "year",
+   "precision_triggers": [
+    "unknown",
+    "between",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 17.84,
+    "text": "Capricornus 17°50′",
+    "longitude": 287.836
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saga's Afterlife",
+   "stop": "Copenhagen, the first printing",
+   "date": "1772-01-01",
+   "date_confidence": "attested: Wikipedia 'Njals saga' for the edition, its editor, its printer, and its manuscript base.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1772,
+   "jd_ut": 2368269.5,
+   "precision": "year",
+   "precision_triggers": [
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.231
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saga's Afterlife",
+   "stop": "Edinburgh, the name Burnt Njal",
+   "date": "1861-01-01",
+   "date_confidence": "attested: 1861, Edmonston and Douglas, Edinburgh, per Wikipedia 'George Webbe Dasent'. The research pool placed the publication in England, which is wrong.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1861,
+   "jd_ut": 2400776.5,
+   "precision": "year",
+   "precision_triggers": [
+    "(soft) placed",
+    "01-01 with no explicit day attestation: the atlas default for a year-only date"
+   ],
+   "notes": [
+    "soft triggers (placed) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day or opens with a plain 'attested'"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.63,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.632
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saga's Afterlife",
+   "stop": "Thingvellir, Morris at the Law-Rock",
+   "date": "1871-07-01",
+   "date_confidence": "attested: william_morris.journey.json records Morris at the Law-Rock in July 1871 naming Njal by his saga role. This is the strongest documented intersection between Njal and any existing traveller in the atlas.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1871,
+   "jd_ut": 2404609.5,
+   "precision": "month",
+   "precision_triggers": [
+    "text affirms the month, not the day"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.68,
+    "text": "Cancer 8°41′",
+    "longitude": 98.685
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saga's Afterlife",
+   "stop": "Bergthorshvoll, the diggers",
+   "date": "1927-01-01",
+   "date_confidence": "attested that the excavations happened (Wikipedia 'Bergthorshvoll': Sigurdur Vigfusson in the late 19th century, Matthias Thordarson in 1927, 1928, 1931). Their findings are an explicit gap: the article is a stub and describes no results, and the research pool's claim that archaeology confirms Norse-period occupation on this exact mound overstates what is published.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1927,
+   "jd_ut": 2424881.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.59,
+    "text": "Capricornus 9°35′",
+    "longitude": 279.59
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saga's Afterlife",
+   "stop": "Reykjavik, Borges comes to the prose",
+   "date": "1971-01-01",
+   "date_confidence": "attested for the visit (borges.journey.json, 1971, with two later returns); the connection to Njal specifically is inferred, since no file records him naming Njal. Coordinate inherited as the corpus's canonical Reykjavik pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1971,
+   "jd_ut": 2440952.5,
+   "precision": "year",
+   "precision_triggers": [
+    "inferred"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.91,
+    "text": "Capricornus 9°55′",
+    "longitude": 279.915
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saga's Afterlife",
+   "stop": "Reykjavik, Modruvallabok comes home",
+   "date": "1974-01-01",
+   "date_confidence": "attested: Wikipedia 'Modruvallabok' for the manuscript's date (c. 1330-1370), its provenance through Thomas Bartholin in 1684 and Arni Magnusson in 1691, its custody in the Arnamagnaean Collection, and its return to Iceland in 1974.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 1974,
+   "jd_ut": 2442048.5,
+   "precision": "year",
+   "precision_triggers": [
+    "c.",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.19,
+    "text": "Capricornus 10°11′",
+    "longitude": 280.192
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Saga's Afterlife",
+   "stop": "Bergthorshvoll, the knoll under grass",
+   "date": "2026-01-01",
+   "date_confidence": "present day. The site is identified by unbroken local tradition and farm continuity, not by documentary proof from the burning itself. No memorial stone at the site, and no folklore or hauntings attached to it, could be confirmed from any source reached; both are gaps rather than negations. The Icelandic Saga Centre at nearby Hvolsvollur could not be verified: sagacentre.is failed DNS resolution.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares julian but this date is after 1582-10-15 and after the subject's life span (years field): a reception stop, read as Gregorian",
+   "astronomical_year": 2026,
+   "jd_ut": 2461041.5,
+   "precision": "year",
+   "precision_triggers": [
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.58,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.576
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 1,
+  "month": 1,
+  "year": 43
+ },
+ "parse_failures": []
+}

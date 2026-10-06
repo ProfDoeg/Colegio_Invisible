@@ -1,0 +1,2046 @@
+{
+ "slug": "comte_de_saint_germain",
+ "traveler": "The Comte de Saint-Germain (Weldon, Tzarogy, Zurmont, Aymar, Surmont)",
+ "title": "The Man Without a Birth: from the Sloane Letter to the Eckernforde Register",
+ "years": "c.1710-1784",
+ "years_parsed": {
+  "first": 1710,
+  "last": 1784
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The Man Without a Birth",
+  "stop": "Palazzo Pitti, Florence: the childhood he describes",
+  "date": "1712-01-01",
+  "date_confidence": "reconstruction. The 1712 birth year comes from a Brussels Gazette notice reprinted in Read's Weekly Journal, 17 May 1760, a press report and not a civil record; the Medici household story rests on Charles of Hesse-Kassel's Memoires de mon temps (1861), reporting the count's own account decades after the fact. Month and day unknown, defaulted.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1712,
+  "jd_ut": 2346354.5,
+  "precision": "year",
+  "precision_triggers": [
+   "defaulted",
+   "unknown",
+   "decade/century",
+   "(soft) reconstruct"
+  ],
+  "notes": [
+   "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+  ],
+  "sun": {
+   "sign": "Capricornus",
+   "degree": 9.79,
+   "text": "Capricornus 9°47′",
+   "longitude": 279.79
+  },
+  "sun_range": [
+   "Aries",
+   "Taurus",
+   "Gemini",
+   "Cancer",
+   "Leo",
+   "Virgo",
+   "Libra",
+   "Scorpio",
+   "Sagittarius",
+   "Capricornus",
+   "Aquarius",
+   "Pisces"
+  ],
+  "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+  "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them",
+  "method": "campa mentions birth/born/nace and the year matches the journey's first year",
+  "years_field": "c.1710-1784",
+  "first_year_parsed": 1710
+ },
+ "stops": [
+  {
+   "segment": "The Man Without a Birth",
+   "stop": "Sarospatak Castle, the Rakoczi hypothesis",
+   "date": "1690-01-01",
+   "date_confidence": "legend, wholly undated; no birth, baptism, or guardianship record connects the documented adventurer to the Rakoczi family. The date is an ordering device only and rests on nothing. Carried by Cooper-Oakley and Jean Overton Fuller; the dossier's own lead could not corroborate it from any outside source.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1690,
+   "jd_ut": 2338320.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "legend",
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.16,
+    "text": "Capricornus 11°09′",
+    "longitude": 281.158
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Man Without a Birth",
+   "stop": "Palazzo Pitti, Florence: the childhood he describes",
+   "date": "1712-01-01",
+   "date_confidence": "reconstruction. The 1712 birth year comes from a Brussels Gazette notice reprinted in Read's Weekly Journal, 17 May 1760, a press report and not a civil record; the Medici household story rests on Charles of Hesse-Kassel's Memoires de mon temps (1861), reporting the count's own account decades after the fact. Month and day unknown, defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1712,
+   "jd_ut": 2346354.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "decade/century",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.79,
+    "text": "Capricornus 9°47′",
+    "longitude": 279.79
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Man Without a Birth",
+   "stop": "The Hague, the letter to Sir Hans Sloane",
+   "date": "1735-01-01",
+   "date_confidence": "contested. Cooper-Oakley's list of illustrations gives a letter of 1735; her own chapter contents give 1733 for the same document. The pool's '22 November 1735' and its Wikipedia citation could not be substantiated: the English Wikipedia article contains no Sloane letter and no shelfmark. The addressee cannot have been the British Museum, which was founded in 1753. Sloane MS 4026, fols. 289r-290v unverified against any catalogue.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1735,
+   "jd_ut": 2354755.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year named with preposition) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.21,
+    "text": "Capricornus 10°13′",
+    "longitude": 280.214
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 24.35,
+    "text": "Pisces 24°21′",
+    "longitude": 354.347
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 17.34,
+    "text": "Sagittarius 17°20′",
+    "longitude": 257.337
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 5.59,
+    "text": "Capricornus 5°36′",
+    "longitude": 275.594
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 29.29,
+    "text": "Pisces 29°18′",
+    "longitude": 359.293
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 25.94,
+    "text": "Sagittarius 25°56′",
+    "longitude": 265.939
+   },
+   "saturn": {
+    "sign": "Taurus",
+    "degree": 7.07,
+    "text": "Taurus 7°04′",
+    "longitude": 37.07
+   }
+  },
+  {
+   "segment": "England and Vienna: the First Documents",
+   "stop": "King's Theatre, Haymarket: the arias in L'Incostanza delusa",
+   "date": "1745-02-09",
+   "date_confidence": "attested. The pasticcio ran on all but one of the Saturdays from 9 February to 20 April 1745, not continuously as a date range implies. The pin is the King's Theatre site, now His Majesty's Theatre at Haymarket and Charles II Street; the pool's -0.1348 falls a block west on Lower Regent Street and is not used.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1745,
+   "jd_ut": 2358447.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 20.44,
+    "text": "Aquarius 20°26′",
+    "longitude": 320.438
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 11.33,
+    "text": "Taurus 11°20′",
+    "longitude": 41.328
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 6.67,
+    "text": "Aquarius 6°40′",
+    "longitude": 306.674
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 0.84,
+    "text": "Aries 0°50′",
+    "longitude": 0.838
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 10.45,
+    "text": "Libra 10°27′",
+    "longitude": 190.453
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 13.72,
+    "text": "Scorpio 13°43′",
+    "longitude": 223.722
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 0.96,
+    "text": "Libra 0°58′",
+    "longitude": 180.959
+   }
+  },
+  {
+   "segment": "England and Vienna: the First Documents",
+   "stop": "London, seized in the Jacobite winter",
+   "date": "1745-12-09",
+   "date_confidence": "attested by Walpole's letter to Sir Horace Mann of 9 December 1745, printed in the 1833 edition of the letters and quoted verbatim by Cooper-Oakley, p.22. The German Wikipedia treats this letter as the first secure report of the count's existence, which would put the 1735 Hague letter in question. The precise London address is not recorded and the pin is the city.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1745,
+   "jd_ut": 2358750.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (not recorded) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 17.12,
+    "text": "Sagittarius 17°07′",
+    "longitude": 257.117
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 16.46,
+    "text": "Gemini 16°28′",
+    "longitude": 76.463
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 26.32,
+    "text": "Sagittarius 26°19′",
+    "longitude": 266.317
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 19.54,
+    "text": "Scorpio 19°32′",
+    "longitude": 229.54
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 26.33,
+    "text": "Capricornus 26°20′",
+    "longitude": 296.328
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 29.78,
+    "text": "Scorpio 29°47′",
+    "longitude": 239.782
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 12.52,
+    "text": "Libra 12°31′",
+    "longitude": 192.525
+   }
+  },
+  {
+   "segment": "England and Vienna: the First Documents",
+   "stop": "Palais Lobkowitz, Vienna: the dedication of the arias",
+   "date": "1746-01-01",
+   "date_confidence": "reconstruction, and in open conflict with the London evidence. Van Sypesteyn's Historische Herinneringen (1869) puts him in Vienna 1745-46; Walpole has him in Britain through December 1745, and Ferdinand Philipp von Lobkowicz spent 1745 travelling to Italy and England with Gluck. Van Sypesteyn's 'first minister to Emperor Francis I' is false: Lobkowicz was 21 and held no ministry. Contradiction left standing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1746,
+   "jd_ut": 2358773.5,
+   "precision": "month",
+   "precision_triggers": [
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.55,
+    "text": "Capricornus 10°33′",
+    "longitude": 280.55
+   },
+   "sun_range": [
+    "Capricornus",
+    "Aquarius"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Capricornus -> Aquarius; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "England and Vienna: the First Documents",
+   "stop": "Vienna, Marshal Belle-Isle takes him to Paris",
+   "date": "1746-06-01",
+   "date_confidence": "reconstruction on a single late source, van Sypesteyn (1869), reported by Cooper-Oakley p.23 n.18. Month and day unknown and defaulted; the year follows the same Vienna residence whose dating is contested in the preceding stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1746,
+   "jd_ut": 2358924.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "disputed",
+    "reconstructed (the date)",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.24,
+    "text": "Gemini 10°15′",
+    "longitude": 70.243
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Chemist",
+   "stop": "Paris, admitted to the court of Louis XV",
+   "date": "1749-01-01",
+   "date_confidence": "attested in outline: the English Wikipedia has him appearing at the French court around 1748 and employed by Louis XV in 1749. The pool's chronology dated the court introduction to 1757, roughly a decade late, and is rejected. Month and day unknown and defaulted. Canonical Paris pin, inherited byte-identical from christian_rosenkreuz.journey.json and blavatsky.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1749,
+   "jd_ut": 2359869.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "decade/century",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.83,
+    "text": "Capricornus 10°50′",
+    "longitude": 280.827
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Chemist",
+   "stop": "Versailles, the flawed diamond",
+   "date": "1757-01-01",
+   "date_confidence": "attested as an eyewitness memoir, not as a dated event. Madame du Hausset's Memoires were published in 1824, long after her death, and give no date for the episode; the year here follows Cooper-Oakley's placement of it in the count's early court period and is an ordering device. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1757,
+   "jd_ut": 2362791.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "no month/day",
+    "ordering",
+    "(soft-year) span/window",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.89,
+    "text": "Capricornus 10°53′",
+    "longitude": 280.886
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Chemist",
+   "stop": "Paris, Milord Gower plays the count",
+   "date": "1757-01-01",
+   "date_confidence": "attested as a Parisian episode by several independent memoirists (du Hausset, Barthold, Gleichen, van Sypesteyn) but undated by all of them; the year places it before Voltaire's letter of 15 April 1758, which already treats the Trent joke as current. Month and day defaulted. Canonical Paris pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1757,
+   "jd_ut": 2362791.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "notes": [
+    "hard triggers (undated) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.89,
+    "text": "Capricornus 10°53′",
+    "longitude": 280.886
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Chemist",
+   "stop": "Grand Trianon, the laboratory the king pays for",
+   "date": "1758-01-01",
+   "date_confidence": "place corrected, tag softened. The pool put this at the Petit Trianon for 1756-1760, which is impossible: the Petit Trianon's design was approved 20 May 1762, foundations laid at the end of that year, the building finished in 1768. German Wikipedia says only 'im Trianon-Schlosschen', which for this decade can only be the Grand Trianon of 1687. The laboratory itself is reported, not archivally attested, so this is [R] rather than [A].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1758,
+   "jd_ut": 2363156.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.64,
+    "text": "Capricornus 10°38′",
+    "longitude": 280.638
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The King's Chemist",
+   "stop": "Chateau de Chambord, the rooms and the workshop",
+   "date": "1758-05-10",
+   "date_confidence": "attested by dated administrative correspondence reproduced in Cooper-Oakley, Appendix I, pp.74ff: letters of 10 May, 19 May, 12 August, 2 September 1758, with a further 4 December. German Wikipedia independently dates the grant of rooms at Chambord to 1758. The stop date is the first of the dated letters.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1758,
+   "jd_ut": 2363285.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 19.2,
+    "text": "Taurus 19°12′",
+    "longitude": 49.204
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 21.61,
+    "text": "Gemini 21°37′",
+    "longitude": 81.614
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 10.6,
+    "text": "Gemini 10°36′",
+    "longitude": 70.604
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 7.11,
+    "text": "Aries 7°06′",
+    "longitude": 7.108
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 18.63,
+    "text": "Leo 18°38′",
+    "longitude": 138.635
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 18.04,
+    "text": "Sagittarius 18°03′",
+    "longitude": 258.044
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 2.79,
+    "text": "Pisces 2°48′",
+    "longitude": 332.792
+   }
+  },
+  {
+   "segment": "The Hague: an Unauthorized Peace",
+   "stop": "The Hague, the peace and the credit scheme",
+   "date": "1760-02-22",
+   "date_confidence": "attested by the d'Affry-Choiseul correspondence in Cooper-Oakley, Appendix II, pp.83ff, letters of 22 February, 10 March, 14 March 1760. English Wikipedia dates the journey to March 1760; the chronology lens gave February and the geography lens February-March. The stop takes the date of d'Affry's first dated report.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2363938.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 2.9,
+    "text": "Pisces 2°54′",
+    "longitude": 332.902
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 11.23,
+    "text": "Taurus 11°14′",
+    "longitude": 41.23
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 17.19,
+    "text": "Aquarius 17°12′",
+    "longitude": 317.194
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 20.3,
+    "text": "Capricornus 20°18′",
+    "longitude": 290.302
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 23.63,
+    "text": "Virgo 23°38′",
+    "longitude": 173.627
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 11.28,
+    "text": "Aquarius 11°17′",
+    "longitude": 311.281
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 16.74,
+    "text": "Pisces 16°45′",
+    "longitude": 346.742
+   }
+  },
+  {
+   "segment": "The Hague: an Unauthorized Peace",
+   "stop": "The Hague, what he says about the king",
+   "date": "1760-03-14",
+   "date_confidence": "attested: Kauderbach's dispatch to Prince Galitzin is dated 14 March 1760 and is reproduced in Cooper-Oakley, Appendix VII, p.110. The quoted political speech survives only as Kauderbach's report of the count's words, not as an autograph; it is the closest thing to his own voice in any archive.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2363959.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 23.91,
+    "text": "Pisces 23°54′",
+    "longitude": 353.908
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 10.23,
+    "text": "Aquarius 10°14′",
+    "longitude": 310.228
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 24.88,
+    "text": "Pisces 24°53′",
+    "longitude": 354.884
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 15.08,
+    "text": "Aquarius 15°05′",
+    "longitude": 315.083
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 15.88,
+    "text": "Virgo 15°53′",
+    "longitude": 165.878
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 15.93,
+    "text": "Aquarius 15°56′",
+    "longitude": 315.929
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 19.32,
+    "text": "Pisces 19°19′",
+    "longitude": 349.325
+   },
+   "conjunctions": [
+    {
+     "sign": "Pisces",
+     "bodies": [
+      "Sun",
+      "Mercury",
+      "Saturn"
+     ]
+    },
+    {
+     "sign": "Aquarius",
+     "bodies": [
+      "Moon",
+      "Venus",
+      "Jupiter"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The Hague: an Unauthorized Peace",
+   "stop": "Versailles, Choiseul reads the despatch in council",
+   "date": "1760-03-01",
+   "date_confidence": "the scene is attested through Baron de Gleichen's Memoires, xi, pp.131-132, quoted at Cooper-Oakley p.99 of the 1927 printing, on the report of 'one present at the French Cabinet Council'. The location is inferred: Cooper-Oakley places the scene only 'in Council' and names no palace. The pool's page reference 'p.2031-area' is garbled and is replaced here. Month attested, day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2363946.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "inferred",
+    "placed (the date)",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.93,
+    "text": "Pisces 10°56′",
+    "longitude": 340.931
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hague: an Unauthorized Peace",
+   "stop": "Amsterdam, among the bankers",
+   "date": "1760-03-01",
+   "date_confidence": "attested for March 1760 by the English Wikipedia itinerary; the day is not fixed and is defaulted. The content of the scheme is known only through the diplomatic reports of men trying to work out what he was doing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2363946.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not fixed"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 10.93,
+    "text": "Pisces 10°56′",
+    "longitude": 340.931
+   },
+   "sun_range": [
+    "Pisces",
+    "Aries"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Pisces -> Aries; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hague: an Unauthorized Peace",
+   "stop": "The Hague, the disappearance",
+   "date": "1760-04-29",
+   "date_confidence": "attested: M. Cornet's letter to the Count de Haslang is dated The Hague, 29 April 1760, and is reproduced in Cooper-Oakley pp.114-115. The Gazette of the Netherlands notice is datelined The Hague, 2 January 1761 and published 12 January 1761.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2364005.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year range"
+   ],
+   "notes": [
+    "soft triggers (year range) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.07,
+    "text": "Taurus 9°04′",
+    "longitude": 39.067
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 25.7,
+    "text": "Libra 25°42′",
+    "longitude": 205.695
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 6.8,
+    "text": "Taurus 6°48′",
+    "longitude": 36.799
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 10.38,
+    "text": "Aries 10°23′",
+    "longitude": 10.381
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 8.76,
+    "text": "Virgo 8°46′",
+    "longitude": 158.761
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 24.12,
+    "text": "Aquarius 24°07′",
+    "longitude": 324.117
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 24.6,
+    "text": "Pisces 24°36′",
+    "longitude": 354.601
+   }
+  },
+  {
+   "segment": "The Hague: an Unauthorized Peace",
+   "stop": "Hellevoetsluis, the passport made out in blank",
+   "date": "1760-05-01",
+   "date_confidence": "attested for May 1760 by the English Wikipedia and by the pool's own geography lens. The pool's chronology gave April and 'escapes across the Netherlands', which both understates the mechanism and contradicts the geography lens; the May date and the Bentinck-Yorke passport are preferred. Day unknown, defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2364007.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 11.0,
+    "text": "Taurus 11°00′",
+    "longitude": 41.005
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Hague: an Unauthorized Peace",
+   "stop": "London, the mysterious foreigner and the printed sonatas",
+   "date": "1760-06-03",
+   "date_confidence": "the London Chronicle account of 3 June 1760 is attested and cited by Cooper-Oakley p.24. The Walsh print of the six trio sonatas is undated: IMSLP gives 'n.d.' and does not support the pool's 1750s, nor does it claim the British Library exemplar is the only survivor. What IMSLP does confirm is 54 pages, a scan uploaded 27 March 2023, and no listed recordings or modern editions.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1760,
+   "jd_ut": 2364040.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (undated) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 12.75,
+    "text": "Gemini 12°45′",
+    "longitude": 72.746
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 28.33,
+    "text": "Capricornus 28°20′",
+    "longitude": 298.33
+   },
+   "mercury": {
+    "sign": "Taurus",
+    "degree": 20.29,
+    "text": "Taurus 20°18′",
+    "longitude": 50.295
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 22.83,
+    "text": "Taurus 22°50′",
+    "longitude": 52.83
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 18.32,
+    "text": "Virgo 18°19′",
+    "longitude": 168.319
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 27.27,
+    "text": "Aquarius 27°16′",
+    "longitude": 327.273
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 27.43,
+    "text": "Pisces 27°26′",
+    "longitude": 357.426
+   }
+  },
+  {
+   "segment": "Dyes, Debts, and a Coup He May Not Have Attended",
+   "stop": "Ubbergen, near Nijmegen: the laboratory in the house",
+   "date": "1762-03-20",
+   "date_confidence": "attested: Hardenbroeck's diary entry of 20 March 1762, Historisch Genootschap of Utrecht edition, vol. i, p.220, translated in Cooper-Oakley's appendix, p.101. German Wikipedia dates the purchase of the estate near Nijmegen to 1763 and the departure to August of that year with considerable debts left behind, which does not sit easily with a Dutch diary already describing the laboratory in March 1762. Contradiction left standing. Coordinates corrected to Ubbergen proper.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1762,
+   "jd_ut": 2364695.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 29.38,
+    "text": "Pisces 29°23′",
+    "longitude": 359.385
+   },
+   "moon": {
+    "sign": "Capricornus",
+    "degree": 26.69,
+    "text": "Capricornus 26°42′",
+    "longitude": 296.695
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 1.99,
+    "text": "Aries 1°59′",
+    "longitude": 1.991
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 27.07,
+    "text": "Pisces 27°04′",
+    "longitude": 357.067
+   },
+   "mars": {
+    "sign": "Scorpio",
+    "degree": 2.14,
+    "text": "Scorpio 2°08′",
+    "longitude": 212.138
+   },
+   "jupiter": {
+    "sign": "Aries",
+    "degree": 12.74,
+    "text": "Aries 12°44′",
+    "longitude": 12.735
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 12.41,
+    "text": "Aries 12°25′",
+    "longitude": 12.408
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Mercury",
+      "Jupiter",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "Dyes, Debts, and a Coup He May Not Have Attended",
+   "stop": "Zutphen, the land on the IJssel",
+   "date": "1762-06-01",
+   "date_confidence": "attested for June 1762 by the German Wikipedia itinerary; the day is not recorded and is defaulted. Hardenbroeck's March entry independently confirms that he held property near Zutphen at this period.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1762,
+   "jd_ut": 2364768.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.37,
+    "text": "Gemini 10°22′",
+    "longitude": 70.369
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Dyes, Debts, and a Coup He May Not Have Attended",
+   "stop": "Winter Palace, Saint Petersburg: the coup he is said to have made",
+   "date": "1762-07-09",
+   "date_confidence": "reconstruction, and unsupported by any Russian record. The Orlov remark reaches print only in Curiositaten der Literarisch-historischen Vor- und Mitwelt (Weimar, 1818), pp.285-286, decades later and at second hand. Cooper-Oakley's counter-evidence, a stay with Princess Golitsyna at Arkhangelskoye on 3 March 1762, is itself unsourced in her text and conflicts with Dutch records for the same spring. No state paper, payment, or eyewitness places him in Russia.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1762,
+   "jd_ut": 2364806.5,
+   "precision": "year",
+   "precision_triggers": [
+    "decade/century",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 16.63,
+    "text": "Cancer 16°38′",
+    "longitude": 106.631
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Dyes, Debts, and a Coup He May Not Have Attended",
+   "stop": "Amsterdam, the return and the vanishing",
+   "date": "1762-08-01",
+   "date_confidence": "attested for August 1762 by the German Wikipedia itinerary; day defaulted. This stop and the preceding one cannot both be true as usually told, and neither source acknowledges the other's existence.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1762,
+   "jd_ut": 2364829.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.6,
+    "text": "Leo 8°36′",
+    "longitude": 128.598
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Dyes, Debts, and a Coup He May Not Have Attended",
+   "stop": "Brussels, Cobenzl watches the experiments",
+   "date": "1763-04-08",
+   "date_confidence": "attested: Count Karl Cobenzl to Chancellor Kaunitz, dated Brussels, 8 April 1763, quoted in full in Cooper-Oakley pp.24-25 and corroborated by the Austrian State Archives holding cited in the dossier lead. The India claim in the same paragraph rests on a letter attributed to the count and addressed to Count Maximilian von Lamberg, undated in Cooper-Oakley and uncorroborated by any ship's list.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1763,
+   "jd_ut": 2365079.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (undated) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Aries",
+    "degree": 17.88,
+    "text": "Aries 17°53′",
+    "longitude": 17.883
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 18.79,
+    "text": "Aquarius 18°48′",
+    "longitude": 318.793
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 21.35,
+    "text": "Pisces 21°21′",
+    "longitude": 351.348
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 2.1,
+    "text": "Pisces 2°06′",
+    "longitude": 332.097
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 8.2,
+    "text": "Taurus 8°12′",
+    "longitude": 38.197
+   },
+   "jupiter": {
+    "sign": "Taurus",
+    "degree": 15.06,
+    "text": "Taurus 15°03′",
+    "longitude": 45.057
+   },
+   "saturn": {
+    "sign": "Aries",
+    "degree": 26.36,
+    "text": "Aries 26°22′",
+    "longitude": 26.359
+   }
+  },
+  {
+   "segment": "Dyes, Debts, and a Coup He May Not Have Attended",
+   "stop": "Tournai, Casanova at the door",
+   "date": "1763-06-01",
+   "date_confidence": "attested for 1763 through Casanova's Memoires, vol. vi, p.76, as quoted and partly paraphrased in Cooper-Oakley p.24; month and day are not given and are defaulted. Cooper-Oakley renders the passage in indirect discourse, so the wording quoted here is hers reporting Casanova, not a certified translation of the Histoire de ma vie. The French original could not be consulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1763,
+   "jd_ut": 2365133.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not given",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.14,
+    "text": "Gemini 10°08′",
+    "longitude": 70.138
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The German Courts and the Changing Names",
+   "stop": "Livorno, Count Lamberg and the Orlov brothers",
+   "date": "1770-01-01",
+   "date_confidence": "reconstruction. The Livorno stay with Lamberg is reported in Lamberg's travel narratives, which could not be fetched directly. The English Wikipedia itinerary gives Venice as a single year, 1769, not the pool's 'circa 1765-1769', and the alias Aymar for Venice could not be corroborated. The Nuremberg meeting of 1772 is from the German Wikipedia. Month and day defaulted throughout.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1770,
+   "jd_ut": 2367539.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "circa",
+    "reconstructed (the date)",
+    "(soft-year) year range",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.73,
+    "text": "Capricornus 10°44′",
+    "longitude": 280.726
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The German Courts and the Changing Names",
+   "stop": "The Hague, the third visit",
+   "date": "1774-01-01",
+   "date_confidence": "attested for 1774 by the German Wikipedia itinerary and by Cooper-Oakley, whose sentence reads that the count came to The Hague after the death of Louis XV on 10 May 1774. The pool's chronology sent him to Bad Schwalbach on the strength of the same page, which contradicts both its own geography lens and Cooper-Oakley's wording. Month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1774,
+   "jd_ut": 2369000.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.76,
+    "text": "Capricornus 10°45′",
+    "longitude": 280.756
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The German Courts and the Changing Names",
+   "stop": "Schloss Triesdorf, Ansbach: the name Tzarogy",
+   "date": "1774-06-01",
+   "date_confidence": "attested for the period 1774-1776 by the German Wikipedia; Cooper-Oakley gives the same court visit at pp.29-30 and the pool's chronology dated it 1776, the geography lens 1774-1776. The stop takes the opening of the range. Month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1774,
+   "jd_ut": 2369151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.46,
+    "text": "Gemini 10°28′",
+    "longitude": 70.465
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The German Courts and the Changing Names",
+   "stop": "Berlin, the mystery Frederick does not solve",
+   "date": "1776-01-01",
+   "date_confidence": "attested for 1776 by the English Wikipedia itinerary; month and day unknown and defaulted. The correspondence involving Frederick the Great and Princess Anna Amalia records curiosity about his origins and his claimed Masonic grades, not any royal endorsement. The Hamburg and Brunswick material is dated 1776-1778 by the German Wikipedia and is folded into this stop rather than given one of its own.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1776,
+   "jd_ut": 2369730.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.261
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The German Courts and the Changing Names",
+   "stop": "Leipzig, Herr von Welldone",
+   "date": "1776-10-01",
+   "date_confidence": "attested for October 1776 through the correspondence quoted in Cooper-Oakley p.68 (Bjornstahl, Reise in Europa, and letters of 1776-77); Chamberlain Dubosc's letter is dated 15 March 1777. Day of arrival not recorded and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1776,
+   "jd_ut": 2370004.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.36,
+    "text": "Libra 8°22′",
+    "longitude": 188.363
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The German Courts and the Changing Names",
+   "stop": "Dresden, the file passed between ministers",
+   "date": "1777-05-19",
+   "date_confidence": "attested: Minister von Wurmb writes from Dresden on 19 May 1777, with related letters from Leipzig on 8 May 1777 and Gimmern on 3 June 1777, all quoted in Cooper-Oakley pp.68-69. The letters themselves were not consulted in the original.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1777,
+   "jd_ut": 2370234.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 28.26,
+    "text": "Taurus 28°16′",
+    "longitude": 58.261
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 20.02,
+    "text": "Libra 20°01′",
+    "longitude": 200.016
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 19.31,
+    "text": "Gemini 19°19′",
+    "longitude": 79.31
+   },
+   "venus": {
+    "sign": "Gemini",
+    "degree": 18.32,
+    "text": "Gemini 18°19′",
+    "longitude": 78.322
+   },
+   "mars": {
+    "sign": "Libra",
+    "degree": 0.47,
+    "text": "Libra 0°28′",
+    "longitude": 180.472
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 21.77,
+    "text": "Cancer 21°46′",
+    "longitude": 111.773
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 28.05,
+    "text": "Libra 28°03′",
+    "longitude": 208.051
+   },
+   "conjunctions": [
+    {
+     "sign": "Libra",
+     "bodies": [
+      "Moon",
+      "Mars",
+      "Saturn"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The German Courts and the Changing Names",
+   "stop": "Schloss Wilhelmsbad, Hanau: the congress he is said to attend",
+   "date": "1782-07-01",
+   "date_confidence": "reconstruction; participant lists have not been checked against the claim. The Convent of the Strict Observance met at Wilhelmsbad in the summer of 1782 for roughly fifty days with about thirty-five delegates, which is firm. The pool's chronology dated a Wilhelmsbad appearance to 15 February 1785 on the strength of Latomia vol. ii, p.9: that date belongs to the Convent des Philalethes at Paris, and the two assemblies have been fused. Coordinates corrected to the spa park. Month attested, day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1782,
+   "jd_ut": 2372103.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 9.16,
+    "text": "Cancer 9°10′",
+    "longitude": 99.164
+   },
+   "sun_range": [
+    "Cancer",
+    "Leo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Cancer -> Leo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Schleswig: the Last Patron",
+   "stop": "Altona, the friendship with Prince Charles of Hesse-Kassel",
+   "date": "1779-01-01",
+   "date_confidence": "attested for 1778-1779, with the two Wikipedias disagreeing: the German article dates the Schleswig arrival to 1778, the English to 1779. The Altona meeting itself is dated 1778-1779 by the German article. Month and day unknown and defaulted. The quoted judgement is Cooper-Oakley's English of Charles's French; the 1861 original was not checked.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1779,
+   "jd_ut": 2370826.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.54,
+    "text": "Capricornus 10°32′",
+    "longitude": 280.538
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Schleswig: the Last Patron",
+   "stop": "Schloss Louisenlund, near Guby: the tower laboratory",
+   "date": "1779-06-01",
+   "date_confidence": "attested for 1779 by the German Wikipedia. Coordinates corrected: Louisenlund stands at 54 deg 29' 35\" N, 9 deg 41' 06\" E in Guby, about six kilometres from the pool's pin, which fell north of the Schlei. The house was built 1772-1776 for Prince Charles as a gift for Princess Louise of Denmark and was newly finished when the count arrived. Month and day unknown and defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1779,
+   "jd_ut": 2370977.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.27,
+    "text": "Gemini 10°16′",
+    "longitude": 70.265
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Schleswig: the Last Patron",
+   "stop": "Otte dye works, Kieler Strasse, Eckernforde",
+   "date": "1780-01-01",
+   "date_confidence": "attested for 1779-1784 by the Eckernforde city museum, which holds the local record of the venture and of the damp lodging blamed for his rheumatic attacks. The stop date opens the working period; month and day are not recorded and are defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1780,
+   "jd_ut": 2371191.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not recorded",
+    "(soft-year) year range",
+    "(soft-year) span/window"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.29,
+    "text": "Capricornus 10°17′",
+    "longitude": 280.29
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Schleswig: the Last Patron",
+   "stop": "Holstein, the initiation his enemies describe",
+   "date": "1781-01-01",
+   "date_confidence": "reconstruction resting on hostile pamphlet literature, the Memoires authentiques pour servir a l'histoire du comte de Cagliostro (1785), written to destroy its subject. A. E. Waite judged the evidentiary basis very thin. Cagliostro's own documented movements do not bring him to Holstein. Undated in every source; the year is an ordering device inside the Schleswig period.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1781,
+   "jd_ut": 2371557.5,
+   "precision": "year",
+   "precision_triggers": [
+    "undated",
+    "ordering",
+    "reconstructed (the date)",
+    "(soft-year) span/window",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 11.06,
+    "text": "Capricornus 11°04′",
+    "longitude": 281.062
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Schleswig: the Last Patron",
+   "stop": "St. Nicolai Church, Eckernforde: the death and the private burial",
+   "date": "1784-02-27",
+   "date_confidence": "attested twice over: the Eckernforde church register, quoted through Louis Bobe in Cooper-Oakley p.63, gives death on 27 February 1784 and private entombment on 2 March; the Nicolai church accounts record the burial charge on 1 March 1784. The English Wikipedia and the Eckernforde museum corroborate both.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372709.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 8.1,
+    "text": "Pisces 8°06′",
+    "longitude": 338.104
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 27.11,
+    "text": "Taurus 27°07′",
+    "longitude": 57.111
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 13.48,
+    "text": "Aquarius 13°29′",
+    "longitude": 313.483
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 27.62,
+    "text": "Capricornus 27°37′",
+    "longitude": 297.623
+   },
+   "mars": {
+    "sign": "Taurus",
+    "degree": 22.55,
+    "text": "Taurus 22°33′",
+    "longitude": 52.549
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 20.22,
+    "text": "Aquarius 20°13′",
+    "longitude": 320.224
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 20.51,
+    "text": "Capricornus 20°31′",
+    "longitude": 290.515
+   }
+  },
+  {
+   "segment": "Schleswig: the Last Patron",
+   "stop": "Eckernforde, the council calls the creditors",
+   "date": "1784-04-03",
+   "date_confidence": "attested for the date and the issuing body; the content is described differently by two sources. Cooper-Oakley p.63 gives a creditors' call with a deadline of 14 October and a clause about four years' residence in the country; the English Wikipedia describes the same 3 April proclamation as concerning the auction of his remaining effects. The 14 October deadline and the four-year clause rest on Cooper-Oakley alone and could not be corroborated.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1784,
+   "jd_ut": 2372745.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Aries",
+    "degree": 13.87,
+    "text": "Aries 13°52′",
+    "longitude": 13.87
+   },
+   "moon": {
+    "sign": "Virgo",
+    "degree": 11.5,
+    "text": "Virgo 11°30′",
+    "longitude": 161.498
+   },
+   "mercury": {
+    "sign": "Pisces",
+    "degree": 27.25,
+    "text": "Pisces 27°15′",
+    "longitude": 357.251
+   },
+   "venus": {
+    "sign": "Pisces",
+    "degree": 10.77,
+    "text": "Pisces 10°46′",
+    "longitude": 340.771
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 14.26,
+    "text": "Gemini 14°15′",
+    "longitude": 74.257
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 28.13,
+    "text": "Aquarius 28°08′",
+    "longitude": 328.133
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 23.07,
+    "text": "Capricornus 23°04′",
+    "longitude": 293.069
+   }
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Berlin, Biester answers the immortals",
+   "date": "1785-06-01",
+   "date_confidence": "attested for June 1785 through Cooper-Oakley p.63, quoting Dr. Biester's notice in the Berlinische Monatschrift; the day is not given and is defaulted. Biester's own phrasing, that the count died two years ago in Danish Holstein, is loose by a year against the February 1784 register entry.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1785,
+   "jd_ut": 2373169.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "not given"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 10.79,
+    "text": "Gemini 10°47′",
+    "longitude": 70.791
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Paris, the Convent of the Philalethes lists a dead man",
+   "date": "1785-02-15",
+   "date_confidence": "reconstruction, and a posthumous claim. The assembly that opened in Paris on 15 February 1785 and sat until 26 May was the Convent des Philalethes, which invited 228 brothers including Saint-Martin; the Masonic source Cooper-Oakley cites, 'Freimaurer Bruderschaft in Frankreich' in Latomia vol. ii, p.9, points to France and not to Hanau. The pool attached this date to Wilhelmsbad, which met in 1782. Cooper-Oakley herself flags the conflict with the church record. Canonical Paris pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1785,
+   "jd_ut": 2373063.5,
+   "precision": "day",
+   "precision_triggers": [
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "notes": [
+    "hard triggers (reconstructed (the date)) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)",
+    "soft triggers (year named with preposition, reconstruct) judged to concern the pin, the sources or the surrounding narrative, not the date, because the text cites the day"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 26.79,
+    "text": "Aquarius 26°48′",
+    "longitude": 326.794
+   },
+   "moon": {
+    "sign": "Taurus",
+    "degree": 11.81,
+    "text": "Taurus 11°48′",
+    "longitude": 41.808
+   },
+   "mercury": {
+    "sign": "Aquarius",
+    "degree": 0.45,
+    "text": "Aquarius 0°27′",
+    "longitude": 300.454
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 10.18,
+    "text": "Aries 10°11′",
+    "longitude": 10.184
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 12.92,
+    "text": "Capricornus 12°55′",
+    "longitude": 282.92
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 14.98,
+    "text": "Pisces 14°59′",
+    "longitude": 344.984
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 29.63,
+    "text": "Capricornus 29°38′",
+    "longitude": 299.631
+   }
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Piazza San Marco, Venice: the sighting after the burial",
+   "date": "1788-01-01",
+   "date_confidence": "reconstruction and probable fabrication. The claim is that the Comte de Chalons met the count in the Place Saint-Marc in 1788, reported at second hand in the Souvenirs published in 1836 under the name of the Comtesse d'Adhemar; bibliographic scholarship attributes that book to Etienne-Leon de Lamothe-Langon, a documented manufacturer of historical memoirs. Month and day unknown and defaulted. The verses quoted here are footnoted by Cooper-Oakley to Adhemar vol. iv, pp.74-97, and dated by her own footnote to 1788; the ellipsis elides roughly fourteen lines.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1788,
+   "jd_ut": 2374113.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "probably",
+    "reconstructed (the date)",
+    "(soft-year) year named with preposition",
+    "(soft) reconstruct"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.35,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.349
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Paris, the letter to the Countess",
+   "date": "1789-07-15",
+   "date_confidence": "the wording is verbatim from Cooper-Oakley p.85 of the 1927 printing, footnoted to Adhemar vol. iv, pp.189-193 and signed in her text 'Comte de St.-Germain'. The date is corrected: the pool gave 1788, but Cooper-Oakley introduces the sequence as concerning the proscription of the Royalists in 1789 and the preceding letter names the murders of de Launay and Flesselles on 14 July 1789. The source itself is the disputed Lamothe-Langon forgery. Canonical Paris pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1789,
+   "jd_ut": 2374674.5,
+   "precision": "year",
+   "precision_triggers": [
+    "sequencing",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 22.81,
+    "text": "Cancer 22°48′",
+    "longitude": 112.808
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Eckernforde, the grave under the storm flood",
+   "date": "1872-11-13",
+   "date_confidence": "attested: the gravestone in St. Nicolai was destroyed in the Baltic storm surge of 1872, per literaturland-sh.de, and the Eckernforde city museum states that the grave is no longer findable and that nothing marks it. The 1872 Ostseesturmflut struck on 12-13 November; the day here follows that event and is not separately given by the source. The 2009 hoax is dated 1 April 2009 by the same page.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1872,
+   "jd_ut": 2405110.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Scorpio",
+    "degree": 20.97,
+    "text": "Scorpio 20°58′",
+    "longitude": 230.968
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 23.68,
+    "text": "Aries 23°41′",
+    "longitude": 23.677
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 8.2,
+    "text": "Sagittarius 8°12′",
+    "longitude": 248.2
+   },
+   "venus": {
+    "sign": "Sagittarius",
+    "degree": 21.84,
+    "text": "Sagittarius 21°51′",
+    "longitude": 261.842
+   },
+   "mars": {
+    "sign": "Virgo",
+    "degree": 22.97,
+    "text": "Virgo 22°58′",
+    "longitude": 172.971
+   },
+   "jupiter": {
+    "sign": "Leo",
+    "degree": 29.63,
+    "text": "Leo 29°38′",
+    "longitude": 149.633
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 16.8,
+    "text": "Capricornus 16°48′",
+    "longitude": 286.798
+   }
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Mount Shasta, California: the Master on the mountain",
+   "date": "1930-08-01",
+   "date_confidence": "religious testimony, not a historical claim; the encounter is dated to August 1930 by the English Wikipedia and narrated in Guy Ballard's Unveiled Mysteries (1934). Steiner's identification of the count with Christian Rosenkreuz is dated 27 September 1911 and was delivered at Neuchatel, not in Germany as the pool's chronology has it; rsarchive.org returned HTTP 403 and the primary lecture text could not be checked. Blavatsky's naming of Master Rakoczi runs from Isis Unveiled (1877) and a Theosophist article of May 1881, and is absent from blavatsky.journey.json.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1930,
+   "jd_ut": 2426189.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.03,
+    "text": "Leo 8°02′",
+    "longitude": 128.025
+   },
+   "moon": {
+    "sign": "Scorpio",
+    "degree": 1.63,
+    "text": "Scorpio 1°38′",
+    "longitude": 211.631
+   },
+   "mercury": {
+    "sign": "Leo",
+    "degree": 24.73,
+    "text": "Leo 24°44′",
+    "longitude": 144.732
+   },
+   "venus": {
+    "sign": "Virgo",
+    "degree": 19.86,
+    "text": "Virgo 19°52′",
+    "longitude": 169.864
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 12.03,
+    "text": "Gemini 12°02′",
+    "longitude": 72.025
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 7.86,
+    "text": "Cancer 7°52′",
+    "longitude": 97.861
+   },
+   "saturn": {
+    "sign": "Capricornus",
+    "degree": 6.28,
+    "text": "Capricornus 6°17′",
+    "longitude": 276.276
+   }
+  },
+  {
+   "segment": "After the Grave",
+   "stop": "Troyes, the manuscript that carries his name",
+   "date": "1933-01-01",
+   "date_confidence": "the manuscript, MS 2400 in the Troyes library, is late eighteenth century and undated; the attribution rests on a pasted bookseller's note and a pencil note tying it to Cagliostro. The stop date is that of Manly P. Hall's Los Angeles edition, The Most Holy Trinosophia (1933), which carried the attribution into modern circulation; the Dictionary of Gnosis and Western Esotericism calls the text pseudo-Saint-Germain. Month and day defaulted.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427073.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "undated",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 16,
+  "month": 9,
+  "year": 20
+ },
+ "parse_failures": []
+}

@@ -1,0 +1,1869 @@
+{
+ "slug": "max_warburg",
+ "traveler": "Max Moritz Warburg",
+ "title": "The Blank Cheque: a Hamburg Banker from the Ferdinandstraße to Sleepy Hollow",
+ "years": "1867-1946",
+ "years_parsed": {
+  "first": 1867,
+  "last": 1946
+ },
+ "calendar": "gregorian",
+ "ephemeris": "ephemeris.py",
+ "conventions": [
+  "BCE atlas years '-0100' mean 100 BC; astronomical year = 1 - Y",
+  "positions at 0h UT of the civil date; tropical signs of date",
+  "Moon and planets only at day precision"
+ ],
+ "birth": {
+  "segment": "The House on the Ferdinandstraße",
+  "stop": "Hamburg, born into the banking house",
+  "date": "1867-06-05",
+  "date_confidence": "attested; the German and English Wikipedia articles and deutsche-biographie agree on 5 June 1867. Coordinates inherited byte-identical from the family birth-house pin already fixed for his brother Aby's birth; de.wiki gives the family's address that year as Grindelhof 1a, which geocodes some 400 m from that pin.",
+  "calendar_applied": "gregorian",
+  "calendar_note": "journey declares gregorian; date after 1582-10-15",
+  "astronomical_year": 1867,
+  "jd_ut": 2403122.5,
+  "precision": "day",
+  "precision_triggers": [],
+  "sun": {
+   "sign": "Gemini",
+   "degree": 13.84,
+   "text": "Gemini 13°50′",
+   "longitude": 73.835
+  },
+  "moon": {
+   "sign": "Cancer",
+   "degree": 17.53,
+   "text": "Cancer 17°32′",
+   "longitude": 107.531
+  },
+  "mercury": {
+   "sign": "Gemini",
+   "degree": 19.03,
+   "text": "Gemini 19°02′",
+   "longitude": 79.034
+  },
+  "venus": {
+   "sign": "Taurus",
+   "degree": 14.19,
+   "text": "Taurus 14°11′",
+   "longitude": 44.189
+  },
+  "mars": {
+   "sign": "Leo",
+   "degree": 20.31,
+   "text": "Leo 20°18′",
+   "longitude": 140.306
+  },
+  "jupiter": {
+   "sign": "Pisces",
+   "degree": 6.94,
+   "text": "Pisces 6°57′",
+   "longitude": 336.944
+  },
+  "saturn": {
+   "sign": "Scorpio",
+   "degree": 18.98,
+   "text": "Scorpio 18°59′",
+   "longitude": 228.981
+  },
+  "method": "name matches birth/born/nace and the year matches the journey's first year",
+  "years_field": "1867-1946",
+  "first_year_parsed": 1867
+ },
+ "stops": [
+  {
+   "segment": "The House on the Ferdinandstraße",
+   "stop": "Hamburg, born into the banking house",
+   "date": "1867-06-05",
+   "date_confidence": "attested; the German and English Wikipedia articles and deutsche-biographie agree on 5 June 1867. Coordinates inherited byte-identical from the family birth-house pin already fixed for his brother Aby's birth; de.wiki gives the family's address that year as Grindelhof 1a, which geocodes some 400 m from that pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1867,
+   "jd_ut": 2403122.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 13.84,
+    "text": "Gemini 13°50′",
+    "longitude": 73.835
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 17.53,
+    "text": "Cancer 17°32′",
+    "longitude": 107.531
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 19.03,
+    "text": "Gemini 19°02′",
+    "longitude": 79.034
+   },
+   "venus": {
+    "sign": "Taurus",
+    "degree": 14.19,
+    "text": "Taurus 14°11′",
+    "longitude": 44.189
+   },
+   "mars": {
+    "sign": "Leo",
+    "degree": 20.31,
+    "text": "Leo 20°18′",
+    "longitude": 140.306
+   },
+   "jupiter": {
+    "sign": "Pisces",
+    "degree": 6.94,
+    "text": "Pisces 6°57′",
+    "longitude": 336.944
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 18.98,
+    "text": "Scorpio 18°59′",
+    "longitude": 228.981
+   }
+  },
+  {
+   "segment": "The House on the Ferdinandstraße",
+   "stop": "Mittelweg 17, the villa at the Johnsallee",
+   "date": "1871-01-01",
+   "date_confidence": "attested; de.wiki dates the move to 1871 and gives the address as Mittelweg 17 at the corner of the Johnsallee. Month and day unknown, defaulted to 01. Coordinates corrected to the Nominatim geocode for Mittelweg 17; the research pool's longitude was roughly 410 m west, and its record carried a malformed duplicate key for the same field.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1871,
+   "jd_ut": 2404428.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "year named only",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.2,
+    "text": "Capricornus 10°12′",
+    "longitude": 280.196
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House on the Ferdinandstraße",
+   "stop": "Hamburg, the birthright bought for books",
+   "date": "1879-01-01",
+   "date_confidence": "traditional [R]; the exchange survives only as Max Warburg's own recollection, written down decades later and printed by Gombrich, not as any document. The year follows the ages he gives, thirteen and twelve. Month and day defaulted to 01. Coordinates inherited byte-identical from the existing family pin, which the aby_warburg file already uses for the same scene.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1879,
+   "jd_ut": 2407350.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional",
+    "decade/century"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.25,
+    "text": "Capricornus 10°15′",
+    "longitude": 280.255
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The House on the Ferdinandstraße",
+   "stop": "Speersort, the Abitur at the Johanneum",
+   "date": "1886-01-01",
+   "date_confidence": "attested; de.wiki records the Abitur at the Realgymnasium of the Gelehrtenschule des Johanneums in 1886. Month and day unknown, defaulted to 01. Coordinates are the school's Speersort site in the Altstadt, occupied until its 1914 move to Winterhude; the pair carried in the research pool matches neither address.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409907.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.561
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Four Counting Houses",
+   "stop": "Frankfurt, apprenticed at J. Dreyfus & Co.",
+   "date": "1886-01-01",
+   "date_confidence": "attested; de.wiki and deutsche-biographie both place the apprenticeship at J. Dreyfus & Co. in Frankfurt from 1886, running about two years. Month and day unknown, defaulted to 01. The firm's 1880s address was not located; coordinates are central Frankfurt.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1886,
+   "jd_ut": 2409907.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.56,
+    "text": "Capricornus 10°34′",
+    "longitude": 280.561
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Four Counting Houses",
+   "stop": "Amsterdam, the desk at Wertheim & Gompertz",
+   "date": "1888-01-01",
+   "date_confidence": "the Amsterdam stage is confirmed in general terms by deutsche-biographie; de.wiki names Wertheim & Gompertz and the year 1888 [A]. Month and day unknown, defaulted to 01. Coordinates are central Amsterdam, the firm's address not located.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410637.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.07,
+    "text": "Capricornus 10°04′",
+    "longitude": 280.066
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Four Counting Houses",
+   "stop": "Munich, the year with the Chevaulegers",
+   "date": "1888-10-01",
+   "date_confidence": "the military service of 1888 to 1890 is confirmed by deutsche-biographie; de.wiki names the III Royal Bavarian Chevaulegers and the rank of Vizefeldwebel [A]. Month from the research pool's October 1888, day defaulted to 01. The antisemitism read on the blocked commission is a widely repeated biographical interpretation and not a documented decision [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1888,
+   "jd_ut": 2410911.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 8.24,
+    "text": "Libra 8°15′",
+    "longitude": 188.244
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Four Counting Houses",
+   "stop": "Paris, the Banque Impériale Ottomane",
+   "date": "1890-01-01",
+   "date_confidence": "traditional [R]; the Paris stage at the Banque Impériale Ottomane and the unenrolled Sorbonne attendance come from de.wiki and the biographical literature, not from a document reachable this session. Year 1890, month and day defaulted to 01. Coordinates are the central Paris banking district; the branch address was not located.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1890,
+   "jd_ut": 2411368.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.59,
+    "text": "Capricornus 10°35′",
+    "longitude": 280.591
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "Four Counting Houses",
+   "stop": "New Court, the last placement",
+   "date": "1891-01-01",
+   "date_confidence": "attested; deutsche-biographie places him at N. M. Rothschild & Sons in London by 1891, and the placement runs into 1892. Month and day unknown, defaulted to 01. Coordinates inherited byte-identical from the existing New Court pin in St Swithin's Lane.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1891,
+   "jd_ut": 2411733.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.34,
+    "text": "Capricornus 10°21′",
+    "longitude": 280.343
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Partner and the City",
+   "stop": "Ferdinandstraße 75, made a personally liable partner",
+   "date": "1893-01-01",
+   "date_confidence": "attested; mmwarburg.de and deutsche-biographie both give 1893 for the partnership. Month and day defaulted to 01. Coordinates corrected to the Nominatim geocode of Ferdinandstraße 75; the pair 53.5493, 10.0007, repeated on six separate entries in the research pool, lies about 400 m south-east in the wrong block.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1893,
+   "jd_ut": 2412464.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.87,
+    "text": "Capricornus 10°52′",
+    "longitude": 280.868
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Partner and the City",
+   "stop": "Table Bay, the voyage south",
+   "date": "1896-01-01",
+   "date_confidence": "traditional [R]; the voyage, the illness and the inland mine inspection come from Gabriele Hoffmann's biography and from Warburg's own memoir 'Aus meinen Aufzeichnungen' (1952), and are undated in every reachable source. The year given here is an ordering device for the segment and not a claim; it is placed before the 1899 marriage only to keep the segment monotonic. The Swaziland tin district is placed at approximate coordinates near Forbes Reef, -26.05, 31.15.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1896,
+   "jd_ut": 2413559.5,
+   "precision": "year",
+   "precision_triggers": [
+    "approximately",
+    "traditional",
+    "undated",
+    "ordering",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.13,
+    "text": "Capricornus 10°08′",
+    "longitude": 280.125
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Partner and the City",
+   "stop": "Kösterberg, the marriage and the Elbe slope",
+   "date": "1899-01-01",
+   "date_confidence": "the 1899 marriage to Alice Magnus is attested by both Wikipedia articles; month and day defaulted to 01. de.wiki dates the couple's residence at Kösterberg to 1899-1907 and their move to a villa on the Alsterufer near the Dammtor to 1907; the family kept the property after moving. Coordinates corrected to the Nominatim geocode for Kösterbergstraße, Blankenese.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1899,
+   "jd_ut": 2414655.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.4,
+    "text": "Capricornus 10°24′",
+    "longitude": 280.402
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Partner and the City",
+   "stop": "Adolphsplatz, the Chamber of Commerce",
+   "date": "1902-01-01",
+   "date_confidence": "the 1902 election to the Handelskammer is attested by de.wiki; month and day defaulted to 01. dasjuedischehamburg gives the range 1903-1933, a year late at the front. The seat on the board of the Zentralverband des Deutschen Bank- und Bankiersgewerbes is dated by de.wiki both to 1902 and to 1903; the contradiction is recorded and left standing.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1902,
+   "jd_ut": 2415750.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "(soft-year) year range"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.66,
+    "text": "Capricornus 9°40′",
+    "longitude": 279.66
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Partner and the City",
+   "stop": "Hamburg Rathaus, the seat in the Bürgerschaft",
+   "date": "1903-02-01",
+   "date_confidence": "attested; de.wiki gives the Bürgerschaft election to February 1903 for the National Liberal Party, and the appointment as Handelsrichter by the Hamburg Senate to 1897 for a five-year term. Day unknown, defaulted to 01. The securities-exchange board seat is dated 1903 by de.wiki, in the same entry as the disputed Zentralverband appointment.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1903,
+   "jd_ut": 2416146.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Aquarius",
+    "degree": 10.97,
+    "text": "Aquarius 10°58′",
+    "longitude": 310.971
+   },
+   "sun_range": [
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Aquarius -> Pisces; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Harbour Economy",
+   "stop": "Cuxhaven, the deep-sea fishing company",
+   "date": "1908-01-01",
+   "date_confidence": "attested for 1908 by de.wiki and corroborated in the dossier's citation of the NDB; month and day defaulted to 01. The further claim that the company became Germany's leading fish supplier by turnover rests on secondary biographical accounts and was not checked against trade data [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Harbour Economy",
+   "stop": "Berlin, the exchange committee",
+   "date": "1908-01-01",
+   "date_confidence": "attested; de.wiki records the 1908 seat on the Berliner Börsenausschuss in the Reichsamt des Innern. Month and day defaulted to 01. Coordinates are the Reichsbank complex at Jägerstraße. A 1919 appointment to the Reichsbank Zentralausschuss appears in the research pool but is recorded by neither de.wiki nor deutsche-biographie and is carried here as unverified [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1908,
+   "jd_ut": 2417941.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.19,
+    "text": "Capricornus 9°12′",
+    "longitude": 279.195
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Harbour Economy",
+   "stop": "Ferdinandstraße 75, his father's death",
+   "date": "1910-01-01",
+   "date_confidence": "attested; de.wiki and deutsche-biographie both place Moritz Warburg's death in 1910 and Max's sole leadership of the firm from that year. Month and day unknown, defaulted to 01. Coordinates carry the Ferdinandstraße 75 correction described at the 1893 stop.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Harbour Economy",
+   "stop": "Ballindamm, the HAPAG board",
+   "date": "1910-01-01",
+   "date_confidence": "attested for 1910 by de.wiki as to the HAPAG supervisory board and the Hamburg board of the Deutsche Kolonialgesellschaft; month and day defaulted to 01. The Blohm und Voss supervisory seat comes from the dossier's citation of the NDB and was not independently confirmed this session [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1910,
+   "jd_ut": 2418672.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.72,
+    "text": "Capricornus 9°43′",
+    "longitude": 279.719
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Harbour Economy",
+   "stop": "Kiel, the lunch at Kiel Week",
+   "date": "1914-06-01",
+   "date_confidence": "traditional [R]; the Kiel Week exchange survives only in Warburg's own posthumously printed notes, 'Aus meinen Aufzeichnungen' (1952), and in a Welt account of the episode that could not be fetched this session. Kiel Week fell in June 1914, before the Sarajevo assassination on 28 June; day defaulted to 01. The Anglo-German bank venture with Lord Milner is attested for June 1914 by de.wiki.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1914,
+   "jd_ut": 2420284.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "traditional"
+   ],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 9.66,
+    "text": "Gemini 9°40′",
+    "longitude": 69.661
+   },
+   "sun_range": [
+    "Gemini",
+    "Cancer"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Gemini -> Cancer; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War and the Peace That Was Not One",
+   "stop": "Berlin, the War Food Office",
+   "date": "1915-01-01",
+   "date_confidence": "attested for 1915 as to the advisory board of the Kriegsernährungsamt by de.wiki; month and day defaulted to 01. The Reichseinkauf initiative with Ballin comes from the dossier's citation of the NDB [R]. The antisemitic profiteering allegations that followed are documented as allegations; the research pool records that the documentary record does not support them.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1915,
+   "jd_ut": 2420498.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "year named only"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.5,
+    "text": "Capricornus 9°30′",
+    "longitude": 279.501
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War and the Peace That Was Not One",
+   "stop": "Berlin, the census of Jewish soldiers",
+   "date": "1916-01-01",
+   "date_confidence": "the Judenzählung ordered by the Prussian War Ministry in October 1916 is attested by the Deutsches Historisches Museum; month and day defaulted to 01 rather than to the attested October, since Warburg's own dated involvement is not established. His role in the protests comes from the dossier's synthesis of the NDB and was not independently confirmed [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1916,
+   "jd_ut": 2420863.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "not established"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.25,
+    "text": "Capricornus 9°15′",
+    "longitude": 279.254
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War and the Peace That Was Not One",
+   "stop": "Berlin, the ministry refused",
+   "date": "1918-10-01",
+   "date_confidence": "the appointment as financial adviser to Chancellor Prince Max von Baden in October 1918 is documented; day defaulted to 01. The offer of the Reich finance ministry and Warburg's stated reason for declining it come through the NDB and Kopper as biographical interpretation of his own reasoning [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1918,
+   "jd_ut": 2421867.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Libra",
+    "degree": 7.0,
+    "text": "Libra 7°00′",
+    "longitude": 187.001
+   },
+   "sun_range": [
+    "Libra",
+    "Scorpio"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Libra -> Scorpio; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War and the Peace That Was Not One",
+   "stop": "Berlin, the delegation he refuses to lead",
+   "date": "1919-03-12",
+   "date_confidence": "attested; de.wiki gives the appointment of 12 March 1919, the refusal of the senior role and the recommendation of Carl Melchior, and Warburg's own attendance as an economic and financial expert. en.wiki confirms Melchior's advisory role at the Paris Peace Conference. Coordinates are central Berlin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422029.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Pisces",
+    "degree": 20.38,
+    "text": "Pisces 20°23′",
+    "longitude": 350.375
+   },
+   "moon": {
+    "sign": "Cancer",
+    "degree": 26.01,
+    "text": "Cancer 26°01′",
+    "longitude": 116.013
+   },
+   "mercury": {
+    "sign": "Aries",
+    "degree": 4.66,
+    "text": "Aries 4°40′",
+    "longitude": 4.665
+   },
+   "venus": {
+    "sign": "Aries",
+    "degree": 15.97,
+    "text": "Aries 15°58′",
+    "longitude": 15.968
+   },
+   "mars": {
+    "sign": "Aries",
+    "degree": 4.02,
+    "text": "Aries 4°01′",
+    "longitude": 4.019
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 5.91,
+    "text": "Cancer 5°55′",
+    "longitude": 95.91
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 23.02,
+    "text": "Leo 23°01′",
+    "longitude": 143.02
+   },
+   "conjunctions": [
+    {
+     "sign": "Aries",
+     "bodies": [
+      "Mercury",
+      "Venus",
+      "Mars"
+     ]
+    }
+   ]
+  },
+  {
+   "segment": "The War and the Peace That Was Not One",
+   "stop": "Trianon Palace, the draft handed over",
+   "date": "1919-05-07",
+   "date_confidence": "the handover of the draft treaty at the Trianon Palace on 7 May 1919 and Brockdorff-Rantzau's seated reply are uncontested and documented in the US Foreign Relations series. Warburg's presence as an expert follows from the 12 March appointment; his private judgment of the scene comes from the dossier [R]. Coordinates corrected to the Nominatim geocode of the Trianon Palace, about 1.6 km east of the pair in the research pool.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422085.5,
+   "precision": "year",
+   "precision_triggers": [
+    "disputed"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 15.4,
+    "text": "Taurus 15°24′",
+    "longitude": 45.395
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The War and the Peace That Was Not One",
+   "stop": "Versailles, the experts say it cannot be paid",
+   "date": "1919-06-18",
+   "date_confidence": "the unanimous expert submission of 18-19 June 1919 is held in the Bundesarchiv (R 43 I/5) and was not refetched this session [R]. The treaty chronology, National Assembly acceptance under ultimatum and signature on 28 June 1919, is attested.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1919,
+   "jd_ut": 2422127.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Gemini",
+    "degree": 25.72,
+    "text": "Gemini 25°43′",
+    "longitude": 85.716
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 15.51,
+    "text": "Aquarius 15°30′",
+    "longitude": 315.507
+   },
+   "mercury": {
+    "sign": "Cancer",
+    "degree": 3.5,
+    "text": "Cancer 3°30′",
+    "longitude": 93.498
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 10.24,
+    "text": "Leo 10°14′",
+    "longitude": 130.238
+   },
+   "mars": {
+    "sign": "Gemini",
+    "degree": 15.84,
+    "text": "Gemini 15°50′",
+    "longitude": 75.838
+   },
+   "jupiter": {
+    "sign": "Cancer",
+    "degree": 20.0,
+    "text": "Cancer 20°00′",
+    "longitude": 110.004
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 24.0,
+    "text": "Leo 24°00′",
+    "longitude": 143.997
+   }
+  },
+  {
+   "segment": "The Republic's Banker",
+   "stop": "Berlin, the Deutsche Warentreuhand",
+   "date": "1920-01-01",
+   "date_confidence": "attested; de.wiki records the Deutsche Warentreuhand AG initiative with Paul von Mendelssohn-Bartholdy in 1920 and the founding of the Übersee-Club in Hamburg in 1922. Months and days unknown, defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1920,
+   "jd_ut": 2422324.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.28,
+    "text": "Capricornus 9°17′",
+    "longitude": 279.283
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Republic's Banker",
+   "stop": "Edmund-Siemers-Allee, the university he argued for",
+   "date": "1921-01-01",
+   "date_confidence": "the honorary doctorate of 1921 and the Hamburg Chamber of Commerce gold medal of 1927 are both listed by deutsche-biographie (NDB) [A]. The 1907 foundation of the Hamburgische Wissenschaftliche Stiftung, the 1908 Colonial Institute and Warburg's part in the university campaign come from the NDB and Bajohr [R]. The 1921 honorary life membership of the Verein für Hamburgische Geschichte and its 1938 revocation are recorded by de.wiki. Month and day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1921,
+   "jd_ut": 2422690.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.06,
+    "text": "Capricornus 10°03′",
+    "longitude": 280.055
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Republic's Banker",
+   "stop": "Königsallee, the car in the Grunewald",
+   "date": "1922-06-24",
+   "date_confidence": "Rathenau's assassination on 24 June 1922 is attested. The reported plans of the same milieu against Warburg come from the NDB and the Hoffmann biography and were not independently confirmed this session [R]. Coordinates corrected to the memorial site near Koenigsallee 65, about 550 m west of the pair in the research pool; Nominatim returns no result for the memorial itself, so this is the best available fix rather than a fetched authority.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1922,
+   "jd_ut": 2423229.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 1.7,
+    "text": "Cancer 1°42′",
+    "longitude": 91.704
+   },
+   "moon": {
+    "sign": "Gemini",
+    "degree": 16.61,
+    "text": "Gemini 16°37′",
+    "longitude": 76.613
+   },
+   "mercury": {
+    "sign": "Gemini",
+    "degree": 23.43,
+    "text": "Gemini 23°26′",
+    "longitude": 83.434
+   },
+   "venus": {
+    "sign": "Leo",
+    "degree": 5.14,
+    "text": "Leo 5°08′",
+    "longitude": 125.14
+   },
+   "mars": {
+    "sign": "Sagittarius",
+    "degree": 14.6,
+    "text": "Sagittarius 14°36′",
+    "longitude": 254.603
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 9.37,
+    "text": "Libra 9°22′",
+    "longitude": 189.369
+   },
+   "saturn": {
+    "sign": "Libra",
+    "degree": 1.28,
+    "text": "Libra 1°17′",
+    "longitude": 181.277
+   }
+  },
+  {
+   "segment": "The Republic's Banker",
+   "stop": "Berlin, the Reichsbank general council",
+   "date": "1924-01-01",
+   "date_confidence": "attested; de.wiki gives the appointment to the eight-member Reichsbankrat in 1924, and dasjuedischehamburg confirms the general council role, running to 1933. Month and day unknown, defaulted to 01. Coordinates are the Reichsbank complex at Jägerstraße.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2423785.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.31,
+    "text": "Capricornus 9°19′",
+    "longitude": 279.313
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Republic's Banker",
+   "stop": "Hamburg, the libel suit against Fritsch",
+   "date": "1924-12-04",
+   "date_confidence": "the trial and the conviction are attested by the Jewish Telegraphic Agency of 8 December 1924 and by TIME of 15 December 1924; the hearing dates of 4-5 December follow the research pool. Fritsch's appeal was heard by the Hamburg Court of Appeals in October 1926 (JTA, 20 October 1926). His 'Mein Streit mit dem Hause Warburg' is catalogued by Open Library as first published 1925; the place of publication, given as Leipzig in the pool, is not carried by that record.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1924,
+   "jd_ut": 2424123.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 11.59,
+    "text": "Sagittarius 11°35′",
+    "longitude": 251.587
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 19.11,
+    "text": "Pisces 19°06′",
+    "longitude": 349.108
+   },
+   "mercury": {
+    "sign": "Capricornus",
+    "degree": 1.35,
+    "text": "Capricornus 1°21′",
+    "longitude": 271.347
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 7.99,
+    "text": "Scorpio 7°59′",
+    "longitude": 217.991
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 20.99,
+    "text": "Pisces 20°59′",
+    "longitude": 350.991
+   },
+   "jupiter": {
+    "sign": "Sagittarius",
+    "degree": 26.77,
+    "text": "Sagittarius 26°46′",
+    "longitude": 266.774
+   },
+   "saturn": {
+    "sign": "Scorpio",
+    "degree": 9.41,
+    "text": "Scorpio 9°25′",
+    "longitude": 219.414
+   }
+  },
+  {
+   "segment": "The Republic's Banker",
+   "stop": "Frankfurt, the seat on the I.G. Farben board",
+   "date": "1925-01-01",
+   "date_confidence": "de.wiki gives the supervisory-board tenure precisely as 1925-1931; month and day defaulted to 01. Coordinates are the Nominatim geocode of the I.G.-Farben-Haus and are anachronistic for the start of the tenure, since that building was completed only in 1930 and no earlier board address was located; the pair in the research pool was a further 350 m off.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1925,
+   "jd_ut": 2424151.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.08,
+    "text": "Capricornus 10°05′",
+    "longitude": 280.085
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Republic's Banker",
+   "stop": "Ferdinandstraße 75, the year the banks fail",
+   "date": "1931-01-01",
+   "date_confidence": "the 1929 balance sheet of 382 million marks and 289 employees is given by mmwarburg.de. The bank's survival without direct state rescue and the Kuhn, Loeb support are carried from the research pool's secondary synthesis [R]. The 1931 departure from the German People's Party is widely repeated in German biographical summaries but was not confirmed in either encyclopedia article fetched [R]. Month and day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1931,
+   "jd_ut": 2426342.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.62,
+    "text": "Capricornus 9°37′",
+    "longitude": 279.619
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Emigration Years",
+   "stop": "Ballindamm, the farewell nobody offers him",
+   "date": "1933-07-01",
+   "date_confidence": "summer 1933 per the biographical accounts; month set to July and day to 01 to order the segment, neither being attested. The wording of the speech survives through Hoffmann's biography and family transmission of the text, not a contemporaneous transcript [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427254.5,
+   "precision": "year",
+   "precision_triggers": [
+    "ordering"
+   ],
+   "sun": {
+    "sign": "Cancer",
+    "degree": 8.7,
+    "text": "Cancer 8°42′",
+    "longitude": 98.705
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Emigration Years",
+   "stop": "Ferdinandstraße 75, the transfer structure",
+   "date": "1933-01-01",
+   "date_confidence": "1933 is attested for the Haavara agreement generally. Warburg's and Melchior's role in negotiating the transfer structure, and the bank's own Paltreu and Alltreu vehicles, come from the research pool's citation of Avraham Barkai, 'German Interests in the Ha'avara-Transfer Agreement', Leo Baeck Institute Year Book 35 (1990) [R]. Month and day defaulted to 01. The quotation dates from a speech of July 1935 and is placed here for its subject, not its date.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427073.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "placed (the date)",
+    "(soft) placed"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.14,
+    "text": "Capricornus 10°09′",
+    "longitude": 280.144
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Emigration Years",
+   "stop": "Hamburg harbour, the library sails",
+   "date": "1933-12-12",
+   "date_confidence": "the shipment of 12 December 1933 is attested. Max Warburg's authorization and financing are asserted by the dossier and by the English Wikipedia article on Aby Warburg, but the Warburg Institute's own published history credits the removal to Lord Lee of Fareham, Samuel Courtauld and the Warburg family collectively; his personal role is therefore carried as [R]. Coordinates inherited byte-identical from the existing Hamburg harbour pin for the same shipment.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1933,
+   "jd_ut": 2427418.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Sagittarius",
+    "degree": 19.53,
+    "text": "Sagittarius 19°32′",
+    "longitude": 259.527
+   },
+   "moon": {
+    "sign": "Libra",
+    "degree": 10.27,
+    "text": "Libra 10°16′",
+    "longitude": 190.274
+   },
+   "mercury": {
+    "sign": "Scorpio",
+    "degree": 29.81,
+    "text": "Scorpio 29°48′",
+    "longitude": 239.806
+   },
+   "venus": {
+    "sign": "Aquarius",
+    "degree": 5.64,
+    "text": "Aquarius 5°38′",
+    "longitude": 305.639
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 17.4,
+    "text": "Capricornus 17°24′",
+    "longitude": 287.404
+   },
+   "jupiter": {
+    "sign": "Libra",
+    "degree": 18.41,
+    "text": "Libra 18°25′",
+    "longitude": 198.411
+   },
+   "saturn": {
+    "sign": "Aquarius",
+    "degree": 12.18,
+    "text": "Aquarius 12°11′",
+    "longitude": 312.176
+   }
+  },
+  {
+   "segment": "The Emigration Years",
+   "stop": "Hamburg, the chair of the Hilfsverein",
+   "date": "1935-01-01",
+   "date_confidence": "the sources conflict on when the chairmanship began and the conflict is left standing: deutsche-biographie (NDB) says he became chairman of the Hilfsverein der deutschen Juden in 1928, de.wiki gives 1935-1938. The JTA obituary confirms the role and his father's part in founding the organization. Month and day defaulted to 01. His seat on the Jewish Agency advisory council for Germany in 1929 comes from the research dossier alone; no fetched source and no existing journey file confirms it [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1935,
+   "jd_ut": 2427803.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.65,
+    "text": "Capricornus 9°39′",
+    "longitude": 279.649
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "The Emigration Years",
+   "stop": "Hartungstraße, the Jewish Community House opens",
+   "date": "1938-01-09",
+   "date_confidence": "attested in full by keydocuments.net (source jgo:source-118): the opening on 9 January 1938, Warburg's financial and personal backing, his advocacy for the Jewish Cultural Association against the German-Israelite Congregation, the six-and-a-half-page typescript address, and its holding in the Max M. Warburg Collection at the Leo Baeck Institute, New York. Coordinates corrected to the Nominatim geocode of Hartungstraße 9-11.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2428907.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 18.08,
+    "text": "Capricornus 18°05′",
+    "longitude": 288.08
+   },
+   "moon": {
+    "sign": "Aries",
+    "degree": 10.73,
+    "text": "Aries 10°44′",
+    "longitude": 10.731
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 29.39,
+    "text": "Sagittarius 29°23′",
+    "longitude": 269.387
+   },
+   "venus": {
+    "sign": "Capricornus",
+    "degree": 11.82,
+    "text": "Capricornus 11°49′",
+    "longitude": 281.817
+   },
+   "mars": {
+    "sign": "Pisces",
+    "degree": 13.79,
+    "text": "Pisces 13°48′",
+    "longitude": 343.795
+   },
+   "jupiter": {
+    "sign": "Aquarius",
+    "degree": 4.57,
+    "text": "Aquarius 4°34′",
+    "longitude": 304.566
+   },
+   "saturn": {
+    "sign": "Pisces",
+    "degree": 29.28,
+    "text": "Pisces 29°17′",
+    "longitude": 359.282
+   }
+  },
+  {
+   "segment": "The Emigration Years",
+   "stop": "Ferdinandstraße 75, farewell to two hundred employees",
+   "date": "1938-05-01",
+   "date_confidence": "May 1938 is attested by de.wiki and en.wiki for his departure and the transfer of the partnership to Rudolf Brinckmann and Paul Wirtz; day defaulted to 01. The wording of the farewell survives through Eckart Klessmann's 1998 history of the bank and family transmission, not a contemporaneous transcript [R].",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429019.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Taurus",
+    "degree": 9.97,
+    "text": "Taurus 9°58′",
+    "longitude": 39.971
+   },
+   "sun_range": [
+    "Taurus",
+    "Gemini"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Taurus -> Gemini; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Name Returned",
+   "stop": "New York, the crossing at seventy-one",
+   "date": "1938-08-01",
+   "date_confidence": "the August 1938 emigration is attested by both Wikipedia articles, by businessofemancipation.org and by dasjuedischehamburg; day defaulted to 01. Fritz Moritz Warburg's arrest, months of detention and eventual settlement in Stockholm are recorded by the English Wikipedia article on M. M. Warburg & Co., which also calls him the bank's former head; that is wrong, Max led the firm from 1910 to 1938 and Fritz was a partner. Coordinates are a Manhattan city pin.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1938,
+   "jd_ut": 2429111.5,
+   "precision": "month",
+   "precision_triggers": [
+    "defaulted",
+    "(soft-year) year range",
+    "(soft-year) year named with preposition"
+   ],
+   "sun": {
+    "sign": "Leo",
+    "degree": 8.09,
+    "text": "Leo 8°05′",
+    "longitude": 128.089
+   },
+   "sun_range": [
+    "Leo",
+    "Virgo"
+   ],
+   "sun_caveat": "month precision: over this month the Sun runs Leo -> Virgo; the degree above is for the stated day only",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Name Returned",
+   "stop": "New York, the oath at seventy-seven",
+   "date": "1944-01-01",
+   "date_confidence": "attested; deutsche-biographie and the English Wikipedia article both give the naturalization as 1944. Month and day unknown, defaulted to 01. Coordinates are a Manhattan city pin; no residence address was established.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1944,
+   "jd_ut": 2431090.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "unknown"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.46,
+    "text": "Capricornus 9°28′",
+    "longitude": 279.46
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Name Returned",
+   "stop": "Kösterberg, the house given away",
+   "date": "1945-01-01",
+   "date_confidence": "attested by the JTA obituary, which records the 1945 offer, the Nazi seizure and postwar return of the estate, the American Jewish Joint Distribution Committee as recipient, and the figure of 200 orphaned children up to the age of sixteen. Month and day defaulted to 01. Coordinates corrected to the Nominatim geocode of Kösterbergstraße, Blankenese. Warburg himself was in New York throughout.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1945,
+   "jd_ut": 2431456.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.23,
+    "text": "Capricornus 10°14′",
+    "longitude": 280.232
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Name Returned",
+   "stop": "New York, the death and the funeral",
+   "date": "1946-12-26",
+   "date_confidence": "26 December 1946 is given by deutsche-biographie, de.wiki and en.wiki. The JTA obituary gives 29 December and is the lone outlier; the discrepancy is recorded here, not resolved. The funeral at Park Avenue Synagogue, 50 East 87th Street, is attested by that obituary, and would be more precisely pinned at 40.7811, -73.9579.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2432180.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 3.62,
+    "text": "Capricornus 3°37′",
+    "longitude": 273.622
+   },
+   "moon": {
+    "sign": "Aquarius",
+    "degree": 0.26,
+    "text": "Aquarius 0°16′",
+    "longitude": 300.26
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 17.89,
+    "text": "Sagittarius 17°53′",
+    "longitude": 257.889
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 22.66,
+    "text": "Scorpio 22°39′",
+    "longitude": 232.658
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 6.49,
+    "text": "Capricornus 6°29′",
+    "longitude": 276.49
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 19.3,
+    "text": "Scorpio 19°18′",
+    "longitude": 229.304
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 7.75,
+    "text": "Leo 7°45′",
+    "longitude": 127.753
+   }
+  },
+  {
+   "segment": "New York, and the Name Returned",
+   "stop": "Sleepy Hollow, the grave the reference works do not record",
+   "date": "1946-12-29",
+   "date_confidence": "the burial at Sleepy Hollow Cemetery is stated by the JTA obituary and by no reference work: de.wiki, en.wiki and Wikidata (Q67580, property P119) all leave the burial place blank, checked directly this session. The date follows the funeral and is an inference, not an attested date. Coordinates corrected to the Nominatim geocode of Sleepy Hollow Cemetery; the pair in the research pool fell on the adjacent Old Dutch Church burying ground, which is a legally distinct graveyard.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1946,
+   "jd_ut": 2432183.5,
+   "precision": "day",
+   "precision_triggers": [],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 6.68,
+    "text": "Capricornus 6°41′",
+    "longitude": 276.679
+   },
+   "moon": {
+    "sign": "Pisces",
+    "degree": 6.89,
+    "text": "Pisces 6°53′",
+    "longitude": 336.886
+   },
+   "mercury": {
+    "sign": "Sagittarius",
+    "degree": 22.34,
+    "text": "Sagittarius 22°20′",
+    "longitude": 262.341
+   },
+   "venus": {
+    "sign": "Scorpio",
+    "degree": 24.49,
+    "text": "Scorpio 24°29′",
+    "longitude": 234.489
+   },
+   "mars": {
+    "sign": "Capricornus",
+    "degree": 8.78,
+    "text": "Capricornus 8°47′",
+    "longitude": 278.778
+   },
+   "jupiter": {
+    "sign": "Scorpio",
+    "degree": 19.85,
+    "text": "Scorpio 19°51′",
+    "longitude": 229.854
+   },
+   "saturn": {
+    "sign": "Leo",
+    "degree": 7.57,
+    "text": "Leo 7°34′",
+    "longitude": 127.567
+   }
+  },
+  {
+   "segment": "New York, and the Name Returned",
+   "stop": "Warburgstraße, the street in Rotherbaum",
+   "date": "1947-01-01",
+   "date_confidence": "attested; de.wiki records the 1947 naming of the Warburgstraße in Rotherbaum. Month and day defaulted to 01. Coordinates corrected to the Nominatim geocode of Warburgstraße; the research pool carried two different pairs for this street, 53.5665, 9.9847 and 53.5661, 9.9871, both wrong by roughly 700 m and disagreeing with each other.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1947,
+   "jd_ut": 2432186.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted",
+    "disputed",
+    "approximation"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 9.74,
+    "text": "Capricornus 9°44′",
+    "longitude": 279.737
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  },
+  {
+   "segment": "New York, and the Name Returned",
+   "stop": "Ferdinandstraße 75, the name comes back in stages",
+   "date": "1949-01-01",
+   "date_confidence": "the renaming to Brinckmann, Wirtz & Co. on 27 October 1941, the 1949 restitution agreement negotiated for the family by Eric M. Warburg, the 1969 return of the Warburg name in M.M.Warburg-Brinckmann, Wirtz & Co. and the 1991 adoption of the short form are all given by mmwarburg.de's corporate history and by de.wiki. The English Wikipedia article on the bank states the name remained unchanged through Aryanization, which contradicts both and is recorded here as an outlier to be discarded. Month and day defaulted to 01.",
+   "calendar_applied": "gregorian",
+   "calendar_note": "journey declares gregorian; date after 1582-10-15",
+   "astronomical_year": 1949,
+   "jd_ut": 2432917.5,
+   "precision": "year",
+   "precision_triggers": [
+    "defaulted"
+   ],
+   "notes": [
+    "hard triggers (disputed) discounted: the day is explicitly attested and their clause names no date, year, month or number (it concerns the pin, the house or the sources)"
+   ],
+   "sun": {
+    "sign": "Capricornus",
+    "degree": 10.26,
+    "text": "Capricornus 10°16′",
+    "longitude": 280.262
+   },
+   "sun_range": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces"
+   ],
+   "sun_caveat": "year precision: the Sun could be in any sign; the reading above is for the stated (defaulted or conventional) day and should not be trusted",
+   "moon_and_planets": "omitted: the Moon changes sign every ~2.3 days; only day-precise stops get them"
+  }
+ ],
+ "counts": {
+  "stops": 45,
+  "dated": 45,
+  "unparsed": 0,
+  "day": 9,
+  "month": 6,
+  "year": 30
+ },
+ "parse_failures": []
+}
