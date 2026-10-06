@@ -1,0 +1,491 @@
+{
+ "slug": "diffie",
+ "traveler": "Bailey Whitfield Diffie",
+ "title": "The Crypto Shelf and the Open Wire: a Reader with No Department",
+ "years": "1944-",
+ "birth": {
+  "stop": "Washington, D.C., the birth",
+  "segment": "The Crypto Shelf",
+  "date": "1944-06-05",
+  "calendar": "gregorian",
+  "date_precision": "day",
+  "date_confidence": "attested",
+  "lat": 38.9186,
+  "lng": -77.0367,
+  "place_source": "the stop's pin",
+  "time_local": null,
+  "tz_hours": null,
+  "tz": null,
+  "tz_source": null,
+  "ut_hours": null,
+  "jd_ut": 2431246.5,
+  "astronomical_year": 1944
+ },
+ "mode": "solar",
+ "obliquity": 23.4451,
+ "house_system": "solar whole-sign (first house = the Sun's sign, Gemini)",
+ "cusps": [
+  {
+   "house": 1,
+   "longitude": 60.0,
+   "sign": "Gemini",
+   "degree": 0,
+   "minute": 0,
+   "text": "Gemini 0°00′"
+  },
+  {
+   "house": 2,
+   "longitude": 90.0,
+   "sign": "Cancer",
+   "degree": 0,
+   "minute": 0,
+   "text": "Cancer 0°00′"
+  },
+  {
+   "house": 3,
+   "longitude": 120.0,
+   "sign": "Leo",
+   "degree": 0,
+   "minute": 0,
+   "text": "Leo 0°00′"
+  },
+  {
+   "house": 4,
+   "longitude": 150.0,
+   "sign": "Virgo",
+   "degree": 0,
+   "minute": 0,
+   "text": "Virgo 0°00′"
+  },
+  {
+   "house": 5,
+   "longitude": 180.0,
+   "sign": "Libra",
+   "degree": 0,
+   "minute": 0,
+   "text": "Libra 0°00′"
+  },
+  {
+   "house": 6,
+   "longitude": 210.0,
+   "sign": "Scorpio",
+   "degree": 0,
+   "minute": 0,
+   "text": "Scorpio 0°00′"
+  },
+  {
+   "house": 7,
+   "longitude": 240.0,
+   "sign": "Sagittarius",
+   "degree": 0,
+   "minute": 0,
+   "text": "Sagittarius 0°00′"
+  },
+  {
+   "house": 8,
+   "longitude": 270.0,
+   "sign": "Capricornus",
+   "degree": 0,
+   "minute": 0,
+   "text": "Capricornus 0°00′"
+  },
+  {
+   "house": 9,
+   "longitude": 300.0,
+   "sign": "Aquarius",
+   "degree": 0,
+   "minute": 0,
+   "text": "Aquarius 0°00′"
+  },
+  {
+   "house": 10,
+   "longitude": 330.0,
+   "sign": "Pisces",
+   "degree": 0,
+   "minute": 0,
+   "text": "Pisces 0°00′"
+  },
+  {
+   "house": 11,
+   "longitude": 0.0,
+   "sign": "Aries",
+   "degree": 0,
+   "minute": 0,
+   "text": "Aries 0°00′"
+  },
+  {
+   "house": 12,
+   "longitude": 30.0,
+   "sign": "Taurus",
+   "degree": 0,
+   "minute": 0,
+   "text": "Taurus 0°00′"
+  }
+ ],
+ "bodies": {
+  "Sun": {
+   "longitude": 74.209,
+   "sign": "Gemini",
+   "degree": 14,
+   "minute": 13,
+   "text": "Gemini 14°13′",
+   "glyph": "☉",
+   "speed_deg_per_day": 0.957,
+   "retrograde": false,
+   "house": 1,
+   "dignity": []
+  },
+  "Moon": {
+   "longitude": 232.093,
+   "sign": "Scorpio",
+   "degree": 22,
+   "minute": 6,
+   "text": "Scorpio 22°06′",
+   "glyph": "☽",
+   "speed_deg_per_day": 13.0436,
+   "retrograde": false,
+   "house": 6,
+   "dignity": [
+    "fall"
+   ],
+   "degree_uncertainty": "±7° (no birth time: the Moon moves ~13° a day)"
+  },
+  "Mercury": {
+   "longitude": 50.72,
+   "sign": "Taurus",
+   "degree": 20,
+   "minute": 43,
+   "text": "Taurus 20°43′",
+   "glyph": "☿",
+   "speed_deg_per_day": 1.2758,
+   "retrograde": false,
+   "house": 12,
+   "dignity": []
+  },
+  "Venus": {
+   "longitude": 68.165,
+   "sign": "Gemini",
+   "degree": 8,
+   "minute": 10,
+   "text": "Gemini 8°10′",
+   "glyph": "♀",
+   "speed_deg_per_day": 1.2273,
+   "retrograde": false,
+   "house": 1,
+   "dignity": []
+  },
+  "Mars": {
+   "longitude": 127.793,
+   "sign": "Leo",
+   "degree": 7,
+   "minute": 48,
+   "text": "Leo 7°48′",
+   "glyph": "♂",
+   "speed_deg_per_day": 0.5858,
+   "retrograde": false,
+   "house": 3,
+   "dignity": []
+  },
+  "Jupiter": {
+   "longitude": 140.981,
+   "sign": "Leo",
+   "degree": 20,
+   "minute": 59,
+   "text": "Leo 20°59′",
+   "glyph": "♃",
+   "speed_deg_per_day": 0.1385,
+   "retrograde": false,
+   "house": 3,
+   "dignity": []
+  },
+  "Saturn": {
+   "longitude": 87.914,
+   "sign": "Gemini",
+   "degree": 27,
+   "minute": 55,
+   "text": "Gemini 27°55′",
+   "glyph": "♄",
+   "speed_deg_per_day": 0.128,
+   "retrograde": false,
+   "house": 1,
+   "dignity": []
+  },
+  "Uranus": {
+   "longitude": 69.284,
+   "sign": "Gemini",
+   "degree": 9,
+   "minute": 17,
+   "text": "Gemini 9°17′",
+   "glyph": "♅",
+   "speed_deg_per_day": 0.0586,
+   "retrograde": false,
+   "house": 1,
+   "dignity": []
+  },
+  "Neptune": {
+   "longitude": 181.574,
+   "sign": "Libra",
+   "degree": 1,
+   "minute": 34,
+   "text": "Libra 1°34′",
+   "glyph": "♆",
+   "speed_deg_per_day": -0.0039,
+   "retrograde": true,
+   "house": 5,
+   "dignity": []
+  },
+  "Pluto": {
+   "longitude": 126.931,
+   "sign": "Leo",
+   "degree": 6,
+   "minute": 56,
+   "text": "Leo 6°56′",
+   "glyph": "♇",
+   "speed_deg_per_day": 0.0193,
+   "retrograde": false,
+   "house": 3,
+   "dignity": []
+  },
+  "North Node": {
+   "longitude": 119.927,
+   "sign": "Cancer",
+   "degree": 29,
+   "minute": 56,
+   "text": "Cancer 29°56′",
+   "glyph": "☊",
+   "speed_deg_per_day": -0.053,
+   "retrograde": true,
+   "house": 2,
+   "dignity": [],
+   "note": "mean node (always retrograde)"
+  },
+  "South Node": {
+   "longitude": 299.927,
+   "sign": "Capricornus",
+   "degree": 29,
+   "minute": 56,
+   "text": "Capricornus 29°56′",
+   "glyph": "☋",
+   "speed_deg_per_day": -0.053,
+   "retrograde": true,
+   "house": 8,
+   "dignity": [],
+   "note": "mean node (always retrograde)"
+  }
+ },
+ "aspects": [
+  {
+   "a": "Mercury",
+   "b": "Jupiter",
+   "aspect": "square",
+   "glyph": "□",
+   "angle": 90.0,
+   "orb": 0.26,
+   "orb_limit": 6.0,
+   "phase": "separating"
+  },
+  {
+   "a": "Venus",
+   "b": "Mars",
+   "aspect": "sextile",
+   "glyph": "⚹",
+   "angle": 60.0,
+   "orb": 0.37,
+   "orb_limit": 6.0,
+   "phase": "separating"
+  },
+  {
+   "a": "Mars",
+   "b": "Pluto",
+   "aspect": "conjunction",
+   "glyph": "☌",
+   "angle": 0.0,
+   "orb": 0.86,
+   "orb_limit": 6.0,
+   "phase": "separating"
+  },
+  {
+   "a": "Moon",
+   "b": "Jupiter",
+   "aspect": "square",
+   "glyph": "□",
+   "angle": 90.0,
+   "orb": 1.11,
+   "orb_limit": 6.0,
+   "phase": "separating"
+  },
+  {
+   "a": "Venus",
+   "b": "Uranus",
+   "aspect": "conjunction",
+   "glyph": "☌",
+   "angle": 0.0,
+   "orb": 1.12,
+   "orb_limit": 6.0,
+   "phase": "applying"
+  },
+  {
+   "a": "Venus",
+   "b": "Pluto",
+   "aspect": "sextile",
+   "glyph": "⚹",
+   "angle": 60.0,
+   "orb": 1.23,
+   "orb_limit": 6.0,
+   "phase": "separating"
+  },
+  {
+   "a": "Moon",
+   "b": "Mercury",
+   "aspect": "opposition",
+   "glyph": "☍",
+   "angle": 180.0,
+   "orb": 1.37,
+   "orb_limit": 6.0,
+   "phase": "separating"
+  },
+  {
+   "a": "Mars",
+   "b": "Uranus",
+   "aspect": "sextile",
+   "glyph": "⚹",
+   "angle": 60.0,
+   "orb": 1.49,
+   "orb_limit": 6.0,
+   "phase": "applying"
+  },
+  {
+   "a": "Neptune",
+   "b": "North Node",
+   "aspect": "sextile",
+   "glyph": "⚹",
+   "angle": 60.0,
+   "orb": 1.65,
+   "orb_limit": 3.0,
+   "phase": "separating"
+  },
+  {
+   "a": "Neptune",
+   "b": "South Node",
+   "aspect": "trine",
+   "glyph": "△",
+   "angle": 120.0,
+   "orb": 1.65,
+   "orb_limit": 3.0,
+   "phase": "separating"
+  },
+  {
+   "a": "Uranus",
+   "b": "Pluto",
+   "aspect": "sextile",
+   "glyph": "⚹",
+   "angle": 60.0,
+   "orb": 2.35,
+   "orb_limit": 6.0,
+   "phase": "separating"
+  },
+  {
+   "a": "Saturn",
+   "b": "Neptune",
+   "aspect": "square",
+   "glyph": "□",
+   "angle": 90.0,
+   "orb": 3.66,
+   "orb_limit": 6.0,
+   "phase": "applying"
+  },
+  {
+   "a": "Sun",
+   "b": "Uranus",
+   "aspect": "conjunction",
+   "glyph": "☌",
+   "angle": 0.0,
+   "orb": 4.92,
+   "orb_limit": 6.0,
+   "phase": "separating"
+  },
+  {
+   "a": "Neptune",
+   "b": "Pluto",
+   "aspect": "sextile",
+   "glyph": "⚹",
+   "angle": 60.0,
+   "orb": 5.36,
+   "orb_limit": 6.0,
+   "phase": "separating"
+  }
+ ],
+ "aspect_rules": "conjunction 0, sextile 60, square 90, trine 120, opposition 180; orbs 8 Sun/Moon, 6 planets, 3 nodes and angles (a pair uses the smaller); applying/separating from the daily motions",
+ "balance": {
+  "counted": [
+   "Sun",
+   "Moon",
+   "Mercury",
+   "Venus",
+   "Mars",
+   "Jupiter",
+   "Saturn",
+   "Uranus",
+   "Neptune",
+   "Pluto"
+  ],
+  "elements": {
+   "Fire": 3,
+   "Earth": 1,
+   "Air": 5,
+   "Water": 1
+  },
+  "elements_bodies": {
+   "Fire": [
+    "Mars",
+    "Jupiter",
+    "Pluto"
+   ],
+   "Earth": [
+    "Mercury"
+   ],
+   "Air": [
+    "Sun",
+    "Venus",
+    "Saturn",
+    "Uranus",
+    "Neptune"
+   ],
+   "Water": [
+    "Moon"
+   ]
+  },
+  "modes": {
+   "Cardinal": 1,
+   "Fixed": 5,
+   "Mutable": 4
+  },
+  "modes_bodies": {
+   "Cardinal": [
+    "Neptune"
+   ],
+   "Fixed": [
+    "Moon",
+    "Mercury",
+    "Mars",
+    "Jupiter",
+    "Pluto"
+   ],
+   "Mutable": [
+    "Sun",
+    "Venus",
+    "Saturn",
+    "Uranus"
+   ]
+  }
+ },
+ "dignities": {
+  "Moon": [
+   "fall"
+  ]
+ },
+ "notes": [
+  "NO BIRTH TIME KNOWN: solar chart, positions at 0h UT of the civil date; whole-sign houses from the Sun's sign; no Ascendant or MC",
+  "houses in a solar chart are the signs counted from the Sun's: they say nothing about the horizon"
+ ]
+}

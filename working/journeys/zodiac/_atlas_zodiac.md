@@ -1455,5 +1455,11 @@ Four-plus gatherings by sign: Aries 62, Taurus 58, Gemini 60, Cancer 69, Leo 73,
 - Sun-Mercury-Venus-Mars in Virgo: Walter Elias Disney, Hyperion Avenue: Oswald the Lucky Rabbit, 1927-09-05 (gregorian)
 - Mercury-Venus-Mars-Jupiter in Virgo: William Egan Colby, The Yonne, France, the drop of Team Bruce, 1944-08-13 (gregorian)
 
+## Complete charts (`zodiac/charts/`)
+
+`atlas_tools/natal_chart.py` builds a full chart for a birth stop: Sun to Pluto and the mean nodes with sign, degree, minute, retrograde flag and house; aspects with orbs and applying/separating; elements, modes and traditional dignities. 517 charts are on disk (516 solar, 1 with a birth time), one `.chart.json` and one `.chart.md` each; 3 wheel PNGs drawn on demand (`--wheel`).
+
+**The time caveat.** The atlas records no birth times, so every chart built from the files alone is a SOLAR CHART: positions at 0h UT of the civil date, whole-sign houses counted from the Sun's sign as the first house, no Ascendant or Midheaven, the Moon's degree good only to ±7° and its sign flagged where it may differ. Houses in a solar chart are the signs counted from the Sun's and say nothing about the horizon. A real house chart needs `--time HH:MM` (and `--tz`, else local mean time from the longitude is assumed), as in the Kennedy example (15:00 EST, Brookline: Ascendant Libra 19°59′, Sun in the 8th).
+
 ## Dates that could not be read (0)
 
